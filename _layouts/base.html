@@ -1,0 +1,23 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ page.title }} | {{ site.title }}</title>
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <link href="{{ site.baseurl }}/assets/css/bulma.min.css" rel="stylesheet" type="text/css">
+        <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet" type="text/css">
+    </head>
+
+    {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+    <body class="{{ layout }}">
+        {% include default-header.html %}
+        {{ content }}
+        {% include default-footer.html %}
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </body>
+</html>

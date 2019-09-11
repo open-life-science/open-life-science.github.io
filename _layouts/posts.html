@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<br/>
+<div class="masonrygrid row listrecent">
+    {% for post in site.posts %}
+        {% unless post.featured == true %}
+            {% include postbox.html %}
+        {% endunless %}
+    {% endfor %}
+</div>

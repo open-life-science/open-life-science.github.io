@@ -1,0 +1,31 @@
+{% assign user = site.data['people'][username] %}
+
+<div class="card">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-64x64">
+          <img
+            class="is-rounded"
+            src="https://avatars.githubusercontent.com/{{ username }}"
+            alt="The GitHub avatar of {{ user.name }}"
+          />
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">{{ user.name }}</p>
+
+        {% if user.twitter %}
+        <p class="subtitle is-6">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/{{ user.twitter }}">
+            @{{ user.twitter }}
+          </a>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="content">{{ user.description }}</div>
+  </div>
+</div>

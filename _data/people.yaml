@@ -1,0 +1,25 @@
+# List of people
+#
+# valid tags: name, email, linkedin, twitter, gitter, orcid
+#
+# collection names should be equal to github username, if not, add github: false tag
+---
+
+bebatut:
+    name: Bérénice Batut
+    twitter: bebatut
+    gitter: bebatut
+    description: >
+        Bérénice is a trained bioinformatician ....
+
+yochannah:
+    name: Yo Yehudi
+    twitter: yoyehudi
+    description: >
+        Yo is ....
+
+malvikasharan:
+    name: Malvika Sharan
+    twitter: MalvikaSharan
+    description: >
+        Malvika is ....

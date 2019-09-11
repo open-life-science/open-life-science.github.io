@@ -1,0 +1,35 @@
+<footer class="footer">
+    <div class="container content">
+      <div class="columns">
+        <div class="column">
+          <h3>Get in touch</h3>
+          <p>
+            <i class="fab fa-gitter"></i>
+            Discuss with us on
+            <a href="https://gitter.im/{{ site.gitter }}">Gitter</a>
+            <br />
+            <i class="fas fa-at"></i>
+            <a href="mailto:{{ site.email }}">
+              {{ site.email|replace:'@','[at]' }}
+            </a>
+            <br />
+            <i class="fab fa-github"></i>
+            <a href="{{ site.github.repository_url }}">
+              {{ site.github.owner_name }}
+            </a>
+        </div>
+        <div class="column is-5">
+          <p>
+            If you want to report a problem or suggest an enhancement we'd love
+            for you to
+            <a href="{{ site.github.repository_url }}/issues/new">open an issue</a>
+            on our GitHub repository because then we can get right on it.
+          </p>
+          <p>
+            The website content is licensed
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
