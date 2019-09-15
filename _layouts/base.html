@@ -12,7 +12,6 @@
         <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet" type="text/css">
     </head>
 
-    {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
     <body class="{{ layout }}">
         {% include default-header.html %}
         {{ content }}

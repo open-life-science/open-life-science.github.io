@@ -7,22 +7,6 @@ paginate: 12
 email: 'berenice.batut@gmail.com'
 repository: open-life-science/open-life-science.github.io
 
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-archives
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
-  events:
-    permalink: /event/:path/
-    output: true

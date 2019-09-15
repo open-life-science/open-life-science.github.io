@@ -1,0 +1,26 @@
+.hero-header-title {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  text-align: center;
+  text-shadow: 2px 2px 5px #2a2a2a;
+  opacity:1;
+
+  h1,
+  p {
+    color: #fafaf0;
+  }
+
+  .no-image & {
+    padding-top: 80px;
+    text-shadow: none;
+
+    h1,
+    p {
+      color: #32323;
+    }
+  }
+
+  @include tablet() {
+    padding-top: 20vh;
+  }
+}
