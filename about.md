@@ -21,10 +21,9 @@ We are graduates, mentors, and hosts of various Mozilla Open Leaders cohorts, in
 
 <div class="people">
 {% for entry in site.data['people'] %}
-    {% if entry[1].organizer %}
-        {% assign username = entry[0] %}
-        {% include people.html username=username %}
-    {% endif %}
+    {% assign username = entry[0] %}
+    {% assign user = site.data['people'][username] %}
+    {% include people.html user=user username=username %}
 {% endfor %}
 </div>
 
