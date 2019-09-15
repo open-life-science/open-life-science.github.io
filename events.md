@@ -1,4 +1,0 @@
----
-layout: events
-title: Events
----
