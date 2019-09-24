@@ -6,6 +6,7 @@ logo: ''
 paginate: 12
 email: 'berenice.batut@gmail.com'
 repository: open-life-science/open-life-science.github.io
+twitter: openlifesci
 
 collections:
   posts:
