@@ -3,7 +3,6 @@ title: "Open Life Science"
 description: >
   The Open Leader program for Open Life Science
 logo: ''
-paginate: 12
 email: 'berenice.batut@gmail.com'
 repository: open-life-science/open-life-science.github.io
 twitter: openlifesci
@@ -11,3 +10,6 @@ twitter: openlifesci
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-last-modified-at

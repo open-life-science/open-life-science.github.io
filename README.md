@@ -96,31 +96,9 @@ To create a new blog post:
     layout: post
     title: <title of the post>
     author: <github id of the author>
-    image: assets/images/yyyy-mm-dd-name.jpg
+    image: images/yyyy-mm-dd-name.jpg
     ---
     ```
 
 4. Add content of the post in the file in Markdown
-3. Add images in `assets/images/posts/`
-
-## Create a new event
-
-To create a new blog post:
-
-1. Create a file in the folder `_posts` with a file named following the pattern `yyyy-mm-dd-name.md` (with the current date)
-2. Add some metadata on the top of the file
-
-    ```
-    ---
-    layout: event
-    title: <title of the event>
-    starts: yyyy-mm-dd
-    ends: yyyy-mm-dd
-    location:
-        city: <city>
-        country: <country>
-    ---
-    ```
-
-4. Add content of the event in the file in Markdown
-3. (Optional) Add images in `assets/images/events/`
+3. Add images in `images/posts/`

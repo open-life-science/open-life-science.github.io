@@ -2,11 +2,32 @@
 layout: default
 ---
 
-<br/>
-<div class="masonrygrid row listrecent">
-    {% for post in site.posts %}
-        {% unless post.featured == true %}
-            {% include postbox.html %}
-        {% endunless %}
-    {% endfor %}
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+<div class="post">
+{% for post in site.posts %}
+    {% assign author = site.data['people'][post.author] %}
+    <div class="card">
+        {% if post.image %}
+        <div class="card-image">
+            <figure class="image is-4by3">
+            <img src="{{ post.image }}" alt="{{ post.title }}">
+            </figure>
+        </div>
+        {% endif %}
+
+        <div class="card-content">
+            <div class="content">
+                <a href="{{ post.url }}"><p class="title">{{ post.title | escape }}</p></a>
+
+                <p class="subtitle"> 
+                    <time datetime="{{ post.last_modified_at | date: date_format }}">{{ post.last_modified_at | date: date_format }}</time>
+                    - {{ author.name }}
+                </p>
+            
+                {{ post.excerpt }}
+            </div>
+        </div>
+    </div>
+{% endfor %}
 </div>

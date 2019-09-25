@@ -2,6 +2,11 @@
 layout: default
 title: Open Life Science
 description: A mentoring program for Open Science ambassadors in Life Science
+image: /images/index.jpg
+photos:
+  name: Bérénice Batut
+  license: CC BY-SA 4.0
+  url: https://flic.kr/p/2gHMJah
 ---
 
 # The program
