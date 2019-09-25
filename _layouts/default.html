@@ -2,18 +2,37 @@
 layout: base
 ---
 
-<header class="hero-header{% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: url({{ page.image }});"{% endif %}>
-  <div class="hero-header-title">
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+<section class="hero {% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: url({{ page.image }});"{% endif %}>
+  <div class="hero-body">
     <h1 class="title is-1">{{ page.title }}</h1>
 
     {% if page.description %}
       <p class="subtitle is-3">{{ page.description }}</p>
     {% endif %}
+
+    {% if page.layout == 'post' %}
+      {% assign author = site.data['people'][page.author] %}
+      <p class="subtitle is-5">
+          <time datetime="{{ page.last_modified_at | date: date_format }}">{{ page.last_modified_at | date: date_format }}</time>
+          - {{ author.name }}
+      </p>
+    {% endif %}
   </div>
-</header>
+
+  {% if page.photos %}
+  <div class="hero-foot">
+    <p class="credit"><a href="{{ page.photos.link }}">{{ page.photos.name }}</a> ({{ page.photos.license }})</p>
+  </div>  
+  {% endif %}
+</section>
 
 <section class="section">
   <div class="container content {{ layout.css }} {{ page.css }}">
     {{ content }}
+
+    
+
   </div>
 </section>

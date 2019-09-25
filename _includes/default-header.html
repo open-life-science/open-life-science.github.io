@@ -13,16 +13,32 @@
           aria-expanded="false"
           data-target="top-menu"
         >
-            <span aria-hidden="true"></span> <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
       </div>
   
       <div id="top-menu" class="navbar-menu">
         <div class="navbar-end">
-            <a class="navbar-item" href="index#the-program"> The program </a>
-            <a class="navbar-item" href="/about"> About us </a>
-            <a class="navbar-item" href="/posts"> Stories </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/index#the-program">The program</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/index#schedule"> Schedule </a>
+              <a class="navbar-item" href="/index#the-program-itself"> The program itself </a>
+              <a class="navbar-item" href="/index#applications"> Applications </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/about">About us</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/about#mentors"> Mentors </a>
+              <a class="navbar-item" href="/about#experts"> Experts </a>
+              <a class="navbar-item" href="/about#organizers"> Organizers </a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="/posts"> Stories </a>
         </div>
       </div>
     </div>
