@@ -88,6 +88,10 @@
     grid-gap: 2em;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
+
+  .title.is-4 {
+    margin-bottom: 0.5em;
+  }
 }
 
 .post {

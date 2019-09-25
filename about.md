@@ -28,7 +28,9 @@ We are graduates, mentors, and hosts of various Mozilla Open Leaders cohorts, in
 {% for entry in site.data['people'] %}
     {% assign username = entry[0] %}
     {% assign user = site.data['people'][username] %}
-    {% include people.html user=user username=username %}
+    {% if user.organizer %}
+      {% include people.html user=user username=username %}
+    {% endif %}
 {% endfor %}
 </div>
 

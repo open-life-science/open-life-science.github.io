@@ -8,18 +8,30 @@
 bebatut:
     name: Bérénice Batut
     twitter: bebatut
+    email: berenice.batut@gmail.com
+    website: https://research.bebatut.fr
     gitter: bebatut
+    orcid: 0000-0001-9852-1987
     description: >
-        Bérénice is a trained bioinformatician ....
+        Bérénice is a bioinformatician (post-doc in the <a href="https://galaxyproject.eu/freiburg/">Freiburg Galaxy Team</a>), 
+        analyzing biological data and developing tools for data analysis, mainly via <a href="https://galaxyproject.org/">Galaxy</a>. 
+
+        Bérénice is also passionate about training, regularly giving workshops (data analysis, tool development, etc). 
+        She started and still co-leads the <a href="https://training.galaxyproject.org/">Galaxy Training Material project</a>. 
+        She is a co-deputy training coordinator for ELIXIR Germany (<a href="https://www.denbi.de/">de.NBI</a>), and a founder of
+        <a href="https://streetscience.community/">Street Science Community</a>, an outreach program.
+    organizer: true
 
 yochannah:
     name: Yo Yehudi
     twitter: yoyehudi
     description: >
         Yo is ....
+    organizer: true
 
 malvikasharan:
     name: Malvika Sharan
     twitter: MalvikaSharan
     description: >
         Malvika is ....
+    organizer: true

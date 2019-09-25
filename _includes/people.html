@@ -2,7 +2,7 @@
   <div class="card-content">
     <div class="media">
       <div class="media-left">
-        <figure class="image is-64x64">
+        <figure class="image is-96x96">
           <img
             class="is-rounded"
             src="https://avatars.githubusercontent.com/{{ username }}"
@@ -13,15 +13,29 @@
       <div class="media-content">
         <p class="title is-4">{{ user.name }}</p>
 
-        {% if user.twitter %}
-        <p class="subtitle is-6">
+        
+        <p class="is-6">
+          {% if user.twitter %}
           <i class="fab fa-twitter"></i>
-          <a href="https://twitter.com/{{ user.twitter }}">
-            @{{ user.twitter }}
-          </a>
+          <a href="https://twitter.com/{{ user.twitter }}">@{{ user.twitter }}</a>
+          <br>
+          {% endif %}
+          {% if user.email %}
+          <a href="mailto:{{ user.email }}"><i class="far fa-envelope"></i></a>
+          {% endif %}
+          {% if user.website %}
+          <a href="{{ user.website }}"><i class="fas fa-globe"></i></a>
+          {% endif %}
+          <a href="https://github.com/{{ username }}"><i class="fab fa-github"></i></a>
+          {% if user.gitter %}
+          <a href="https://gitter.im/{{ user.gitter }}"><i class="fas fa-comments"></i></a>
+          {% endif %}
+          {% if user.orcid %}
+          <a href="https://orcid.org/{{ user.orcid }}"><i class="ai ai-orcid"></i></a>
+          {% endif %}
         </p>
-        {% endif %}
       </div>
+
     </div>
 
     <div class="content">{{ user.description }}</div>
