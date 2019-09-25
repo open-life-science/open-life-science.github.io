@@ -10,3 +10,6 @@ repository: open-life-science/open-life-science.github.io
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-last-modified-at
