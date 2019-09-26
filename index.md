@@ -29,23 +29,25 @@ The first phase of Open Life Science will launch in early 2020!
 
 - **October 2019**: Opening of the applications
 - **End of November 2019**: Closing of the applications
-- **Mid of December 2019**:     
-- **January 2020**: Start of the program
-- **June 2020**: End of the program
+- **Mid of December 2019**: Selection of the 
+- **January 2020**: Start of the 12-week program
+
+    *A detailed schedule of the program will be available soon*
 
 ## The program itself
 
-To illustrate the program, we will share the persona/story of Joy, a mentee participating in the program, and Sam, their mentor, as they progress through their open leadership journey. They will be involved in the following steps of this program:
+To illustrate the program, we will share the persona/story of Joy, a mentee participating in the program, and Sam, their [personal mentor](about#mentors), as they progress through their open leadership journey. They will be involved in the following steps of this program:
 1. In their applications, they will indicate their interests in the topics related to Open Science and education in bioinformatics. Joy will provide a short outline of their project, and Sam will list their expertise that they want to share with their mentee. 
 2. Based on their common interests, they will be introduced to each other as suitable mentee and mentor.
-3. A first cohort call will be scheduled where Joy will get to know all the participants, present their project, and learn about others' projects. 
-4. Relevant contents related to Open Life Science and education will be selected to design a 12-week program similar to the previous MOL programs. These contents will be shared and discussed in the following bi-weekly online calls:
-    1. In the cohort calls, the program leaders will introduce new topics and resources, facilitate break-out discussions, and invite experts from the field to give talks.
+3. A first cohort call will be scheduled where Joy will get to know all the participants of the program, present their project, and learn about others' projects. 
+4. Relevant contents related to Open Life Science and education will be selected to design a 12-week program similar to the previous [Mozilla Open Leader](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) programs. These contents will be shared and discussed in the following bi-weekly online calls:
+    1. In the cohort calls, the program leaders will introduce new topics and resources, facilitate break-out discussions, and invite [expert](about#experts) from the field to give talks.
     2. In mentors-only calls, Sam will participate in topic-based discussions with other mentors aimed at enhancing their mentoring skills.
     3. In mentee-mentor calls, Sam will help Joy evaluate their understanding of the new topics, and review their progress by providing constructive feedback. Joy will be given relevant exercises before these calls to help them apply new skills in their project.
-5. When needed, Joy and Sam will be able to connect with other experts and get consulted on their project.
+5. When needed, Joy and Sam will be able to connect with other [experts](about#experts) and get consulted on their project.
 6. A final cohort call will allow Joy to present their project to other participants and exchange values.
 7. A self-evaluation survey will help Joy and Sam in positioning their knowledge in open leadership before and after the program.
+8. For the next round, Joy will share what they learnt by [mentoring](about#mentors) a project and Sam will become an [expert](about#experts).
 
 ## Applications
 
