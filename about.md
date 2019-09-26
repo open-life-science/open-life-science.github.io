@@ -10,7 +10,7 @@ photos:
 
 This program can only run thanks to volunteers who share a passion for Open Research and inclusiveness in Open Science:
 
-- [Mentors](#mentors) working closely with particants
+- [Mentors](#mentors)
 - [Experts](#experts)
 - [Organizers](#organizers)
 - [Partners and sponsors](#partners-and-sponsors)
