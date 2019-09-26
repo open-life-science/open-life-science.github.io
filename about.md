@@ -17,33 +17,58 @@ This program can only run thanks to volunteers who share a passion for Open Rese
 
 # Mentors
 
-Each project is assigned a personal mentor. Mentors meet with projects every two weeks during the program.
+Mentors work closely with participants to help further their Open Science skills and become ambassadors for Open Science practice, training and education in their communities.
 
-Mentors work closely with participants to help further their Open Science skills and become ambassadors for Open Science practice, training and education in their communities. 
+The mentors will be assigned to different projects proposed in the program. The mentors will meet  their mentees every two weeks during the program.
 
-## Values
+There will be group calls for mentors to exchange notes and developing their mentoring skills further.
 
-<!--Malvika-->
+**Our mentors are:**
+
+- currently contributor of one or several the Open Science projects or communities
+- interested in sharing the benefit they receive from the Open Science community
+- look for opportunities to gain mentoring experience and build their profile
+- love to share their enthusiasm about Open Science
+- want to build their profile as Open Leaders
 
 ## Becoming a mentor
 
-We are currently recruiting the mentors for the first round.
+We are currently recruiting the mentors for the first round. Please reach out to one of the organizers.
 
 # Experts
 
-Experts are available to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
+Experts will be invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
 
-## Values
+**Our experts are:**
 
-<!--Malvika-->
+- motivated Open Life Scientists
+- understand and advocate the value of working openly
+- look for opportunities to support or give back to the research community
+- enjoy sharing their resources to facilitate others work
+- develop and teach skills collaboratively in the community
+- want to gain/improve leadership skills through their engagements in this program
 
 ## Becoming an expert
 
 We are currently recruiting the experts for the first round.
 
+
+## Values
+
+We want to make this program mutually beneficial for all the stakeholders. Here are a few values you can gain from participating in this project.
+
+- Become a member of the community
+- Exchange skills and build your profiles
+- Highlight your resources by sharing the community
+- Collaborate with others in Open Science projects
+- Develop projects to publish online
+- Participate in designing this program by sharing your feedback and experience
+- Gain insights from other experts in the field
+- Gain recognition and acknowledgement for your work
+
 # Organizers
 
-We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) cohorts, in which we have gained expertise in the technical and culture track. 
+We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) cohorts, in which we have gained expertise in the technical and culture track.
 <div class="people">
 {% for entry in site.data['people'] %}
     {% assign username = entry[0] %}
@@ -54,7 +79,7 @@ We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://f
 {% endfor %}
 </div>
 
-We also participate in a wide range of activities in different international communities of practice in the life sciences: 
+We also participate in a wide range of activities in different international communities of practice in the life sciences:
 - [ELIXIR (European bioinformatics network)](https://elixir-europe.org/)
 - [Galaxy](https://galaxyproject.org/)
 - [The Carpentries](https://carpentries.org/)
