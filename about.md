@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About us
+title: About
 image: /images/about.jpg
 photos:
   name: Bérénice Batut
