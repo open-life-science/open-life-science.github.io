@@ -23,6 +23,20 @@ and international bioinformatics communities.
 2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
 3. **Empowering** them to become effective Open Science Leaders in their communities as ambassadors for Open Science practices.
 
+## Values
+
+We want to make this program mutually beneficial for all the participants. 
+Here are a few values we think you will receive from participating in this project.
+
+- Become a member of the community
+- Exchange skills and build your profiles
+- Highlight your resources by sharing the community
+- Collaborate with others in Open Science projects
+- Develop projects to publish online
+- Participate in designing this program by sharing your feedback and experience
+- Gain insights from other experts in the field
+- Gain recognition and acknowledgement for your work
+
 ## Schedule
 
 The first phase of Open Life Science will launch in early 2020!
