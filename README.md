@@ -1,11 +1,13 @@
-# Welcome to Open Leader program for Open Life Science
+# Open Life Science
+
+***Sharing. Connecting. Empowering***
 
 Find all the information about our community and projects at
 [https://open-life-science.github.io](https://open-life-science.github.io).
 
 ## Welcome!
 
-First and foremost, Welcome! 🎉 Willkommen! 🎊 Bienvenue! 🎈🎈🎈
+First and foremost, Welcome! 🎉 Willkommen! 🎊 Bienvenue! 🙏 सुस्वागत (Suswagat)🎈🎈🎈
 
 This document (the `README` file) is a hub to give you some information about the
 project. Jump straight to one of the sections below, or just scroll down to find
@@ -13,18 +15,19 @@ out more.
 
 ## What are we doing?
 
-We are working to create a mentoring program for individuals interested in becoming 
+We are working to create a mentoring program for individuals interested in becoming
 ambassadors for Open Science practice, training and education in their communities.
 
-Our outcome is to train early stage researchers and young leaders interested in 
-furthering their Open Science skills to becoming ambassadors for Open Science practice, 
+Our outcome is to support early stage researchers and young leaders by sharing
+Open Science skills, connecting them to others in the community,
+and empowering them to become ambassadors for Open Science practice,
 training and education in their communities.
 
 ## Who are we?
 
-Our team members share a passion for Open Research and inclusiveness in Open Science. 
+We are currently a team of 3 members who share a passion for Open Research and inclusiveness in Open Science.
 
-As the graduates, mentors, and hosts of various Mozilla Open Leaders cohorts, they have gained expertise in the technical and culture track. Furthermore, they participate in a wide range of activities in different international communities of practice in the life sciences: ELIXIR (European bioinformatics network), Galaxy, The Carpentries, Software Sustainability Institute (SSI), Open Bioinformatics Foundation (OBF), and Mozilla.
+As the graduates, mentors, and hosts of various Mozilla Open Leaders cohorts, we have gained expertise in the technical and culture track. Furthermore, we participate in a wide range of activities in different international communities of practice in the life sciences: ELIXIR (European bioinformatics network), Galaxy, The Carpentries, Software Sustainability Institute (SSI), Open Bioinformatics Foundation (OBF), and Mozilla.
 
 ## What do we need?
 
