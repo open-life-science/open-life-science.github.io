@@ -13,11 +13,11 @@ bebatut:
     gitter: bebatut
     orcid: 0000-0001-9852-1987
     description: >
-        Bérénice is a bioinformatician (post-doc in the <a href="https://galaxyproject.eu/freiburg/">Freiburg Galaxy Team</a>), 
-        analyzing biological data and developing tools for data analysis, mainly via <a href="https://galaxyproject.org/">Galaxy</a>. 
+        Bérénice is a bioinformatician (post-doc in the <a href="https://galaxyproject.eu/freiburg/">Freiburg Galaxy Team</a>),
+        analyzing biological data and developing tools for data analysis, mainly via <a href="https://galaxyproject.org/">Galaxy</a>.
 
-        Bérénice is also passionate about training, regularly giving workshops (data analysis, tool development, etc). 
-        She started and still co-leads the <a href="https://training.galaxyproject.org/">Galaxy Training Material project</a>. 
+        Bérénice is also passionate about training, regularly giving workshops (data analysis, tool development, etc).
+        She started and still co-leads the <a href="https://training.galaxyproject.org/">Galaxy Training Material project</a>.
         She is a co-deputy training coordinator for ELIXIR Germany (<a href="https://www.denbi.de/">de.NBI</a>), and a founder of
         <a href="https://streetscience.community/">Street Science Community</a>, an outreach program.
     organizer: true
@@ -40,6 +40,22 @@ yochannah:
 malvikasharan:
     name: Malvika Sharan
     twitter: MalvikaSharan
+    email: malvikasharan@gmail.com
+    gitter: malvikasharan
+    orcid: 0000-0001-6619-7369
     description: >
-        Malvika is ....
+        Malvika is a Community Outreach Coordinator for the <a href="https://bio-it.embl.de">Bio-IT</a> community
+        at the <a href="http://embl.org">European Molecular Biology Laboratory, Germany</a>.
+
+        She is a <a href="https://elixir-europe.org/platforms/training/how-organised">Deputy Training Coordinator for EIXIR Germany</a>, a
+        <a href="https://software.ac.uk/about/fellows/malvika-sharan">Software Sustainability Institute Fellow</a> (2019),
+        a board member of <a href="https://www.open-bio.org/board/">Open Bioinformatics Foundation</a> (since July 2019),
+        and a member of <a ref="https://carpentries.org/">The Carpentries</a> community where she participates in different capacity
+        as a trainer, instructor, mentor, content curator and vice-chair of the Code of Conduct Committee.
+
+        From January 2020, she will take the role of Community Manager for <a href="https://the-turing-way.netlify.com">The Turing Way Project</a>
+        at <a href="https://www.turing.ac.uk">The Alan Turing Institute, UK</a>.
+
+        Through her work, she promotes inclusiveness in Open Science communities.
+
     organizer: true
