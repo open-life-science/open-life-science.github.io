@@ -26,8 +26,8 @@ There will be group calls for mentors to exchange notes and developing their men
 **Our mentors are:**
 
 - contributors of one or several Open Science projects or communities
-- interested in sharing the benefit they receive from the Open Science community
-- look for opportunities to gain mentoring experience and build their profile
+- interested in sharing the benefit they receive from the Open Science communities
+- look for opportunities to gain mentoring experience
 - love to share their enthusiasm about Open Science
 - want to build their profile as Open Leaders
 
