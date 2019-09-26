@@ -30,7 +30,7 @@ Here are a few values we think you will receive from participating in this proje
 
 - Become a member of the community
 - Exchange skills and build your profiles
-- Highlight your resources by sharing the community
+- Highlight your resources by sharing with the community
 - Collaborate with others in Open Science projects
 - Develop projects to publish online
 - Participate in designing this program by sharing your feedback and experience
