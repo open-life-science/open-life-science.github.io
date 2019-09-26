@@ -15,6 +15,19 @@ This program can only run with the active involvements of our volunteer communit
 - [Organizers](#organizers)
 - [Partners and sponsors](#partners-and-sponsors)
 
+# Participants
+
+We want to make this program mutually beneficial for all the stakeholders. Here are a few values you can gain from participating in this project:
+
+- Become a member of the community
+- Exchange skills and build your profiles
+- Highlight your resources by sharing the community
+- Collaborate with others in Open Science projects
+- Develop projects to publish online
+- Participate in designing this program by sharing your feedback and experience
+- Gain insights from other experts in the field
+- Gain recognition and acknowledgement for your work
+
 # Mentors
 
 Mentors work closely with participants to help further their Open Science skills and become ambassadors for Open Science practice, training and education in their communities.
@@ -51,20 +64,6 @@ Experts will be invited to join cohort calls or individual mentorship calls to s
 ## Becoming an expert
 
 We are currently recruiting the experts for the first round.
-
-
-## Values
-
-We want to make this program mutually beneficial for all the stakeholders. Here are a few values you can gain from participating in this project.
-
-- Become a member of the community
-- Exchange skills and build your profiles
-- Highlight your resources by sharing the community
-- Collaborate with others in Open Science projects
-- Develop projects to publish online
-- Participate in designing this program by sharing your feedback and experience
-- Gain insights from other experts in the field
-- Gain recognition and acknowledgement for your work
 
 # Organizers
 
