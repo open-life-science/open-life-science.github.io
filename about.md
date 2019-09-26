@@ -8,7 +8,7 @@ photos:
   url: https://flic.kr/p/2gHNtNq
 ---
 
-This program can only run thanks to volunteers who share a passion for Open Research and inclusiveness in Open Science:
+This program can only run with the active involvements of our volunteer community who share a passion for Open Research and inclusiveness in Open Science:
 
 - [Mentors](#mentors)
 - [Experts](#experts)
