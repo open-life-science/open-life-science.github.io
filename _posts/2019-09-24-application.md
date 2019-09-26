@@ -2,7 +2,7 @@
 layout: post
 title: Our application to the OLx
 author: bebatut
-image: /images/fogg-teamwork.png
+image: /images/2019-09-24-application.png
 ---
 
 *We (Malvika, Yo and Bérénice) applied in August 2019 for the [Mozilla Open Leaders X](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/) and we were accepted (thank you Abby!) in this great program to build the Open Life Science program. We enjoyed writing this application and we would like to share it in this post.*
