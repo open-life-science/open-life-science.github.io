@@ -68,6 +68,7 @@ To illustrate the program here, we will share the persona/story of Joy, a mentee
     - In the cohort calls, the program leaders will **introduce new topics and resources**, facilitate break-out discussions, and invite [expert](about#experts) from the field to give talks.
     - In mentors-only calls, Sam will participate in topic-based discussions with other mentors to **enhance their mentoring skills**.
     - In mentee-mentor calls, Sam will help Joy **evaluate their understanding** of the new topics, and **review their progress** by providing constructive feedback. Joy will be given relevant assignments before these calls to help them apply new skills in their project.
+
 5. When needed, Joy and Sam will be able to connect with other [experts](about#experts) and **get consulted** on their project.
 6. A final cohort call will allow Joy to **present their project** to other participants and exchange values.
 7. A **self-evaluation survey** will help Joy and Sam in positioning their knowledge in open leadership before and after the program.
