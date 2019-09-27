@@ -57,17 +57,17 @@ The first phase of Open Life Science will launch in early 2020!
 
 ## The program itself
 
-Important contents related to Open Life Science and education will be included to **design a 12-week program** hugely inspired by the previous [Mozilla Open Leader](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) programs. 
+Important contents related to Open Life Science and education will be included to design a **12-week program** hugely inspired by the previous [Mozilla Open Leader](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) programs. 
 
 To illustrate the program here, we will share the persona/story of Joy, a mentee participating in the program, and Sam, their [personal mentor](about#mentors). As they progress through their **open leadership journey**, they will be involved in the following steps of this program:
 
-1. In their applications, they will indicate their interests in the topics related to Open Science and education in bioinformatics. Joy will provide a **short outline of their project**, and Sam will **list their expertise** that they want to share with their mentee. 
+1. In their applications, they will indicate their interests in the topics related to Open Science and education in bioinformatics. Joy will **provide a short outline of their project**, and Sam will **list their expertise** that they want to share with their mentee. 
 2. Based on their common interests, they will be introduced to each other as **suitable mentee-mentor pair**.
 3. A first cohort call will be scheduled where Joy will **get to know all the participants** of the program, present their project, and learn about others' projects. 
 4. The content of the program will be shared and discussed in the following bi-weekly online calls:
-    1. In the cohort calls, the program leaders will **introduce new topics and resources**, facilitate break-out discussions, and invite [expert](about#experts) from the field to give talks.
-    2. In mentors-only calls, Sam will participate in topic-based discussions with other mentors to **enhance their mentoring skills**.
-    3. In mentee-mentor calls, Sam will help Joy **evaluate their understanding** of the new topics, and **review their progress** by providing constructive feedback. Joy will be given relevant assignments before these calls to help them apply new skills in their project.
+    - In the cohort calls, the program leaders will **introduce new topics and resources**, facilitate break-out discussions, and invite [expert](about#experts) from the field to give talks.
+    - In mentors-only calls, Sam will participate in topic-based discussions with other mentors to **enhance their mentoring skills**.
+    - In mentee-mentor calls, Sam will help Joy **evaluate their understanding** of the new topics, and **review their progress** by providing constructive feedback. Joy will be given relevant assignments before these calls to help them apply new skills in their project.
 5. When needed, Joy and Sam will be able to connect with other [experts](about#experts) and **get consulted** on their project.
 6. A final cohort call will allow Joy to **present their project** to other participants and exchange values.
 7. A **self-evaluation survey** will help Joy and Sam in positioning their knowledge in open leadership before and after the program.
