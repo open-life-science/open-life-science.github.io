@@ -10,23 +10,28 @@ photos:
 
 This program can only run with the active involvements of our volunteer community who share a passion for Open Research and inclusiveness in Open Science:
 
+- [Mentees](#mentees)
 - [Mentors](#mentors)
 - [Experts](#experts)
 - [Organizers](#organizers)
 - [Partners and sponsors](#partners-and-sponsors)
 
-# Participants
+# Mentees
 
-We want to make this program mutually beneficial for all the stakeholders. Here are a few values you can gain from participating in this project:
+Our mentees are life science researchers and bioinformaticians who are interested in contributing to Open Science projects and communities. In this program they will be supported by the organisers, mentors, experts, and other mentees in getting started with their journey as Open Life Scientists.
 
-- Become a member of the community
-- Exchange skills and build your profiles
-- Highlight your resources by sharing the community
-- Collaborate with others in Open Science projects
-- Develop projects to publish online
-- Participate in designing this program by sharing your feedback and experience
-- Gain insights from other experts in the field
-- Gain recognition and acknowledgement for your work
+**Our mentees will:**
+
+- gain a better understanding of Open Science and best practices
+- fill gaps related to Open Science in their research
+- learn to navigate their path in bioinformatics communities
+- design equitable opportunities in their projects for the diverse community members
+- increase their visibility as Open Life Scientist
+- become Open Science ambassadors for their community
+
+## Becoming a mentee
+
+Recruitment of the mentees will start in November. Stay tuned!
 
 # Mentors
 

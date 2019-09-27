@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Open Life Science
-description: A mentoring program for Open Science ambassadors in Life Science
+description: Sharing - Connecting - Empowering
 image: /images/index.jpg
 photos:
   name: Bérénice Batut
@@ -9,7 +9,7 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-# The program
+# A mentoring program for Open Science ambassadors in Life Science
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their 
 Open Science skills
@@ -22,6 +22,20 @@ and international bioinformatics communities.
 1. **Sharing** essential knowledge required to create, lead, and sustain an Open Source project.
 2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
 3. **Empowering** them to become effective Open Science Leaders in their communities as ambassadors for Open Science practices.
+
+## Values
+
+We want to make this program mutually beneficial for all the participants. 
+Here are a few values we think you will receive from participating in this project.
+
+- Become a member of the community
+- Exchange skills and build your profiles
+- Highlight your resources by sharing with the community
+- Collaborate with others in Open Science projects
+- Develop projects to publish online
+- Participate in designing this program by sharing your feedback and experience
+- Gain insights from other experts in the field
+- Gain recognition and acknowledgement for your work
 
 ## Schedule
 
