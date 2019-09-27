@@ -72,7 +72,7 @@ To illustrate the program here, we will share the persona/story of Joy, a mentee
 5. When needed, Joy and Sam will be able to connect with other [experts](about#experts) and **get consulted** on their project.
 6. A final cohort call will allow Joy to **present their project** to other participants and exchange values.
 7. A **self-evaluation survey** will help Joy and Sam in positioning their knowledge in open leadership before and after the program.
-8. Joy and Sam **will receive certificate of completion8*, validating their time, commitments, and willingness to become Open Leaders and experts respectively.
+8. Joy and Sam **will receive certificate of participation**, validating their time, commitments, and willingness to become Open Leaders and experts respectively.
 9. Joy will share what they learnt by [mentoring](about#mentors) a project and Sam will become an [expert](about#experts) when they **return to the next round**.
 
 
