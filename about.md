@@ -31,13 +31,15 @@ Our mentees are life science researchers and bioinformaticians who are intereste
 
 ## Becoming a mentee
 
+A mentee spend around 2 hours per week dedicated the program. 
+
 Recruitment of the mentees will start in November. Stay tuned!
 
 # Mentors
 
 Mentors work closely with participants to help further their Open Science skills and become ambassadors for Open Science practice, training and education in their communities.
 
-The mentors will be assigned to different projects proposed in the program. The mentors will meet  their mentees every two weeks during the program.
+The mentors will be assigned to one or several projects proposed in the program. The mentors will meet  their mentees every two weeks during the program.
 
 There will be group calls for mentors to exchange notes and developing their mentoring skills further.
 
@@ -50,6 +52,8 @@ There will be group calls for mentors to exchange notes and developing their men
 - want to build their profile as Open Leaders
 
 ## Becoming a mentor
+
+A mentor spend around 1 hour per week dedicated to the program, but also some time before the program to review applications.
 
 We are currently recruiting the mentors for the first round. Please reach out to one of the organizers.
 
