@@ -1,6 +1,6 @@
-# List of people
+# List of people (alphabetical order)
 #
-# valid tags: name, email, linkedin, twitter, gitter, orcid
+# valid tags: name, email, website, twitter, gitter, orcid, description
 #
 # collection names should be equal to github username, if not, add github: false tag
 ---
@@ -22,21 +22,6 @@ bebatut:
         <a href="https://streetscience.community/">Street Science Community</a>, an outreach program.
     organizer: true
 
-yochannah:
-    name: Yo Yehudi
-    twitter: yoyehudi
-    gitter: yochannah
-    orcid: 0000-0003-2705-1724
-    description: >
-        Yo is a <a href="https://software.ac.uk/about/fellows/yo-yehudi">Software Sustainability Institute Fellow</a>,
-        founder of <a href="http://www.codeisscience.com/manifesto">Code is Science</a>,
-        <a href="https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html">EngD student at the University of Manchester</a>
-        studying the effects of community and usabilty on open source software,
-        editor for the <a href="https://channels.plos.org/open-source-toolkit">PLOS Open Source Toolkit</a>,
-        board member of the <a href="https://www.open-bio.org/board/">Open Bioinformatics Foundation</a>,
-        and a software developer at the University of Cambridge, working on an open source biological data warehouse called <a href="http://intermine.org/">InterMine</a>.
-    organizer: true
-
 malvikasharan:
     name: Malvika Sharan
     twitter: MalvikaSharan
@@ -56,5 +41,20 @@ malvikasharan:
         at <a href="https://www.turing.ac.uk">The Alan Turing Institute, UK</a>.
 
         Through her work, she promotes inclusiveness in Open Science communities.
-
     organizer: true
+
+yochannah:
+    name: Yo Yehudi
+    twitter: yoyehudi
+    gitter: yochannah
+    orcid: 0000-0003-2705-1724
+    description: >
+        Yo is a <a href="https://software.ac.uk/about/fellows/yo-yehudi">Software Sustainability Institute Fellow</a>,
+        founder of <a href="http://www.codeisscience.com/manifesto">Code is Science</a>,
+        <a href="https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html">EngD student at the University of Manchester</a>
+        studying the effects of community and usabilty on open source software,
+        editor for the <a href="https://channels.plos.org/open-source-toolkit">PLOS Open Source Toolkit</a>,
+        board member of the <a href="https://www.open-bio.org/board/">Open Bioinformatics Foundation</a>,
+        and a software developer at the University of Cambridge, working on an open source biological data warehouse called <a href="http://intermine.org/">InterMine</a>.
+    organizer: true
+
