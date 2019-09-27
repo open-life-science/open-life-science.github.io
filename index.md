@@ -49,7 +49,7 @@ The first phase of Open Life Science will launch in early 2020!
 
 - **Late-October - Early-November 2019**: Opening of the applications
 - **Late-November 2019**: Closing of the applications
-- **Mid-December 2019**: Selection of the 
+- **Mid-December 2019**: Selection of the participants
 - **Mid-January 2020**: Start of the 12-week program
 
     *A detailed schedule of the program will be available soon*
@@ -85,4 +85,4 @@ We are particularly keen to connect with the participants from less-represented 
 
 Cohort calls will be conducted in English. However, our participants who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.
 
-**Interested to participate? The application for will open in October-November 2019.**
+**Interested to participate? The application will open in October-November 2019.**
