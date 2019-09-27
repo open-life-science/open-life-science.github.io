@@ -31,17 +31,13 @@ Our mentees are life science researchers and bioinformaticians who are intereste
 
 ## Becoming a mentee
 
-A mentee spend around 2 hours per week dedicated the program. 
+A mentee spend around 2 hours per week dedicated the program to attend cohort/mentor meetings and doing self-guided assignments. 
 
 Recruitment of the mentees will start in November. Stay tuned!
 
 # Mentors
 
-Mentors work closely with participants to help further their Open Science skills and become ambassadors for Open Science practice, training and education in their communities.
-
-The mentors will be assigned to one or several projects proposed in the program. The mentors will meet  their mentees every two weeks during the program.
-
-There will be group calls for mentors to exchange notes and developing their mentoring skills further.
+Mentors work closely with participants to help further their Open Science skills and become ambassadors for Open Science practice, training and education in their communities. The mentors will be assigned to one or more projects (based on their availability) proposed in the program.
 
 **Our mentors are:**
 
@@ -53,7 +49,8 @@ There will be group calls for mentors to exchange notes and developing their men
 
 ## Becoming a mentor
 
-A mentor spend around 1 hour per week dedicated to the program, but also some time before the program to review applications.
+A mentor spend around 1 hour per week dedicated to the program, but also some time before the program to review applications. 
+They will meet  their mentees every two weeks during the program and will attend group calls with other mentors to exchange notes and develop their mentoring skills further.
 
 We are currently recruiting the mentors for the first round. Please reach out to one of the organizers.
 
@@ -72,6 +69,8 @@ Experts will be invited to join cohort calls or individual mentorship calls to s
 
 ## Becoming an expert
 
+Experts will be invited to give 20 minutes talk at one of the cohort calls. They will also be invited by the organisers to be interviewed (15 minutes) or by mentor-mentee pair to share their expert consultation on certain projects. 
+
 We are currently recruiting the experts for the first round.
 
 # Organizers
@@ -86,6 +85,8 @@ We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://f
     {% endif %}
 {% endfor %}
 </div>
+
+
 
 We also participate in a wide range of activities in different international communities of practice in the life sciences:
 - [ELIXIR (European bioinformatics network)](https://elixir-europe.org/)
