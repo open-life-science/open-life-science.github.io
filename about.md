@@ -105,12 +105,15 @@ We have high ethical standards, including:
 
 # Partners and sponsors
 
-This program is only possible thanks to our partners and sponsors:
+This program is made possible thanks to our partners and sponsors!
 
-- [de.NBI](https://www.denbi.de/) is supporting Bérénice and Malvika through in-kind contribution
-- University of Manchester is supporting Yo for her Ph.D. research
-- ELIXIR Training Platform
-- [Mozilla foundation](https://foundation.mozilla.org/en/) is supporting via a Mozilla Open Leader program
+<div class="partners">
+{% for entry in site.data['partners'] %}
+    {% assign partnername = entry[0] %}
+    {% assign partner = site.data['partners'][partnername] %}
+    {% include partners.html partner=partner %}
+{% endfor %}
+</div>
 
 # Get involved
 

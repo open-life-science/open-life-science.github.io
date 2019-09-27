@@ -105,3 +105,30 @@ To create a new blog post:
 
 4. Add content of the post in the file in Markdown
 3. Add images in `images/posts/`
+
+## Add someone as mentor, expert or organizer
+
+1. Open the `_data/people.yaml` file
+2. Create a new entry there (using the GitHub id) following the alphabetical order
+3. Fill in information using the tags:
+    - `name`
+    - `email`
+    - `website`
+    - `twitter`
+    - `gitter`
+    - `orcid`
+    - `description`
+4. Add if the person should be listed as mentor by adding `mentor: true`
+5. Add if the person should be listed as expert by adding `expert: true`
+6. Add if the person should be listed as organizer by adding `organizer: true`
+    
+## Add a partner/sponsor
+
+1. Open the `_data/partners.yaml` file
+2. Create a new entry there (using the name in lowercase, with spaces replaced by `-`) following an alphabetical order
+3. Fill in information using the tags:
+    - `name`
+    - `website`
+    - `description`
+4. Add a logo (if possible) named as the entry in `images/partners` folder
+5. Add the path to the logo in `_data/partners.yaml` using `logo` tag
