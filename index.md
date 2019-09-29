@@ -64,4 +64,4 @@ We are particularly keen to connect with the participants from less-represented 
 
 Cohort calls will be conducted in English. However, our participants who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.
 
-**Interested to participate, the application will open in October.**
+**Interested to participate? The application will open in October.**
