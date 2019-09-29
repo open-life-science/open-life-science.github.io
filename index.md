@@ -39,14 +39,7 @@ Here are a few values we think you will receive from participating in this proje
 
 ## Schedule
 
-The first phase of Open Life Science will launch in early 2020!
-
-- **October 2019**: Opening of the applications
-- **End of November 2019**: Closing of the applications
-- **Mid of December 2019**: Successful applicants announced
-- **January 2020**: Start of the 12-week program
-
-    [See full Schedule](schedule)
+We expect applications to open at the end of October. [See full schedule](schedule)
 
 ## The program itself
 
