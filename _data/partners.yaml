@@ -6,10 +6,6 @@
 #
 # collection names should be lower case, with spaces replaced by `-`
 ---
-
-bio-it:
-    name: Bio-IT
-
 denbi:
     name: de.NBI
     website: https://www.denbi.de/
@@ -17,6 +13,12 @@ denbi:
     description: >
         de.NBI (the German Network for Bioinformatics Infrastructure) is supporting Bérénice 
         and Malvika through in-kind contribution.
+        
+bio-it:
+    name: EMBL Bio-IT
+    website:
+    logo: https://git.embl.de/uploads/-/system/group/avatar/413/BioIT_logo.jpeg
+    description: EMBL Bio-IT is a community project of which Malvika is a coordinator of.
 
 mozilla:
     name: Mozilla
@@ -25,11 +27,14 @@ mozilla:
     description: >
         Mozilla provided support via the 
         <a href="https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/">MOLx program</a> 
-        and the mentorship from Abby.
+        and the mentorship from Abby (Abigail Cabunoc Mayes) from Mozilla Foundation.
 
 turing-way:
     name: Turing way
-
+    website:
+    logo: https://zenodo.org/api/iiif/v2/e4125eaf-b456-4097-85fc-6a2e80482d1c:27304005-209a-4bbf-b934-ae35aba032ef:1728_TURI_Book%20sprint_5%20turing%20way_040619.jpg/full/750,/0/default.jpg
+    description: Turing Way will partner with this program to build mentor-mentee relationships in their community.
+    
 university-manchester:
     name: University of Manchester 
     description: >
