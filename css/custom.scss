@@ -5,6 +5,10 @@
 
 @import 'bulma/bulma.sass';
 
+$bg-image: #333;
+$hero-text-color: #fafaf0;
+$text-shadown: #2a2a2a;
+
 .navbar {
   .navbar-dropdown {
     border-top: none;
@@ -13,7 +17,7 @@
 
 .hero {
   background-clip: border-box;
-  background-color: #333;
+  background-color: $bg-image;
   background-origin: padding-box;
   background-position: center center;
   background-repeat: no-repeat;
@@ -23,7 +27,7 @@
 
   &.no-image {
     height: auto;
-    background-color: rgba(0,0,0,0);
+    background-color: $bg-image;
   }
 
   @include tablet() {
@@ -40,11 +44,11 @@
 .hero-body {
   padding-top: 160px;
   text-align: center;
-  text-shadow: 2px 2px 5px #2a2a2a;
+  text-shadow: 2px 2px 5px $text-shadown;
 
   h1,
   p {
-    color: #fafaf0;
+    color: $hero-text-color;
   }
 
   .no-image & {
@@ -63,11 +67,11 @@
 }
 
 .hero-foot {
-  color: #fafaf0;
+  color: $hero-text-color;
   .credit {
     text-align: right;
     font-size: 0.6em;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 1px $text-shadown;
   }
 }
 
