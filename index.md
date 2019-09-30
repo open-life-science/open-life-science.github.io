@@ -37,9 +37,14 @@ Here are a few values we think you will receive from participating in this proje
 - Gain insights from other experts in the field
 - Gain recognition and acknowledgement for your work
 
-## Schedule
+## Timeline
 
-We expect applications to open at the end of October. [See full schedule](schedule)
+- **October 2019**: Opening of the applications
+- **End of November 2019**: Closing of the applications
+- **Mid of December 2019**: Successful applicants announced
+- **January 2020**: Start of the 12-week program
+
+  A detailed schedule of the program is available in the [syllabus](syllabus#schedule).
 
 ## The program itself
 
