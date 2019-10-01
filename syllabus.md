@@ -1,6 +1,11 @@
 ---
 layout: page
 title: Program Syllabus
+image: /images/syllabus.jpg
+photos:
+  name: Niklas Morberg
+  license: CC BY-NC 2.0
+  url: https://flic.kr/p/5BXB6s
 ---
 
 {:toc}
