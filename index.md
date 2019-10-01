@@ -11,11 +11,11 @@ photos:
 
 # A mentoring program for Open Science ambassadors in Life Science
 
-**Purpose**: Training for early stage researchers and young leaders interested in furthering their 
+**Purpose**: Training for early stage researchers and young leaders interested in furthering their
 Open Science skills
 
-**Outcome**: Ambassadors for Open Science practice, training and education across multiple European 
-and international bioinformatics communities. 
+**Outcome**: Ambassadors for Open Science practice, training and education across multiple European
+and international bioinformatics communities.
 
 **Process**: A 12-week mentoring program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Leaders by using three principles:
 
@@ -25,7 +25,7 @@ and international bioinformatics communities.
 
 ## Values
 
-We want to make this program mutually beneficial for all the participants. 
+We want to make this program mutually beneficial for all the participants.
 Here are a few values we think you will receive from participating in this project.
 
 - Become a member of the community
@@ -37,23 +37,21 @@ Here are a few values we think you will receive from participating in this proje
 - Gain insights from other experts in the field
 - Gain recognition and acknowledgement for your work
 
-## Schedule
-
-The first phase of Open Life Science will launch in early 2020!
+## Timeline
 
 - **October 2019**: Opening of the applications
 - **End of November 2019**: Closing of the applications
-- **Mid of December 2019**: Selection of the 
+- **Mid of December 2019**: Successful applicants announced
 - **January 2020**: Start of the 12-week program
 
-    *A detailed schedule of the program will be available soon*
+  A detailed schedule of the program is available in the [syllabus](syllabus#schedule).
 
 ## The program itself
 
 To illustrate the program, we will share the persona/story of Joy, a mentee participating in the program, and Sam, their [personal mentor](about#mentors), as they progress through their open leadership journey. They will be involved in the following steps of this program:
-1. In their applications, they will indicate their interests in the topics related to Open Science and education in bioinformatics. Joy will provide a short outline of their project, and Sam will list their expertise that they want to share with their mentee. 
+1. In their applications, they will indicate their interests in the topics related to Open Science and education in bioinformatics. Joy will provide a short outline of their project, and Sam will list their expertise that they want to share with their mentee.
 2. Based on their common interests, they will be introduced to each other as suitable mentee and mentor.
-3. A first cohort call will be scheduled where Joy will get to know all the participants of the program, present their project, and learn about others' projects. 
+3. A first cohort call will be scheduled where Joy will get to know all the participants of the program, present their project, and learn about others' projects.
 4. Relevant contents related to Open Life Science and education will be selected to design a 12-week program similar to the previous [Mozilla Open Leader](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) programs. These contents will be shared and discussed in the following bi-weekly online calls:
     1. In the cohort calls, the program leaders will introduce new topics and resources, facilitate break-out discussions, and invite [expert](about#experts) from the field to give talks.
     2. In mentors-only calls, Sam will participate in topic-based discussions with other mentors aimed at enhancing their mentoring skills.
@@ -71,4 +69,4 @@ We are particularly keen to connect with the participants from less-represented 
 
 Cohort calls will be conducted in English. However, our participants who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.
 
-**Interested to participate, the application will open in October.**
+**Interested to participate? The application will open in October.**
