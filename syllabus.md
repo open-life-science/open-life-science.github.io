@@ -77,9 +77,9 @@ need to add learning objectives given the Bloom's taxonomy
 | 7    | Mentor (30 min)          |                                   |                                          |
 | 8    | Cohort (90 min)          | **Designing for inclusivity**     | Personas and pathways for contributors   |
 |-
-|      |                          |                                   | Implicit bias                            |
+|      |                          |                                   | Implicit bias & mental health care       |
 |-
-|      |                          |                                   | Community interactions                   |
+|      |                          |                                   | Community interactions & Ally-skill      |
 | 9    | Mentor (30 min)          |                                   |                                          |
 | 10   | Cohort (90 min)          | **Final presentations:**          | Closed-group call practicing final demos |
 |-
