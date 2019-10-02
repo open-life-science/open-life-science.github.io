@@ -31,7 +31,7 @@ Our mentees are life science researchers and bioinformaticians who are intereste
 
 ## Becoming a mentee
 
-A mentee spend around 2 hours per week dedicated the program to attend cohort/mentor meetings and doing self-guided assignments. 
+A mentee dedicates about 2 hours per week to the program to attend cohort/mentor meetings and doing self-guided assignments. 
 
 Recruitment of the mentees will start in November. Stay tuned!
 
