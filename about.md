@@ -31,7 +31,7 @@ Our mentees are life science researchers and bioinformaticians who are intereste
 
 ## Becoming a mentee
 
-A mentee dedicates about 2 hours per week to the program to attend cohort/mentor meetings and doing self-guided assignments. 
+A mentee dedicates about 2 hours per week to the program to attend cohort/mentor meetings and doing self-guided assignments.
 
 Recruitment of the mentees will start in November. Stay tuned!
 
@@ -49,7 +49,7 @@ Mentors work closely with participants to help further their Open Science skills
 
 ## Becoming a mentor
 
-A mentor spend around 1 hour per week dedicated to the program, but also some time before the program to review applications. 
+A mentor spend around 1 hour per week dedicated to the program, but also some time before the program to review applications.
 They will meet  their mentees every two weeks during the program and will attend group calls with other mentors to exchange notes and develop their mentoring skills further.
 
 We are currently recruiting the mentors for the first round. Please reach out to one of the organizers.
@@ -69,7 +69,10 @@ Experts will be invited to join cohort calls or individual mentorship calls to s
 
 ## Becoming an expert
 
-Experts will be invited to give 20 minutes talk at one of the cohort calls. They will also be invited by the organisers to be interviewed (15 minutes) or by mentor-mentee pair to share their expert consultation on certain projects. 
+Experts may be invited to:
+- give a ~20 minute talk at one of our cohort calls, which happen every two weeks.
+- be interviewed by the organisers (~15 minutes)
+- invited by mentor-mentee pair to share their expert consultation on certain projects. (~30 minutes)
 
 We are currently recruiting the experts for the first round.
 
