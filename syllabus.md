@@ -21,27 +21,24 @@ photos:
 
 The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life sicence. 
 
-<!--
-Our participants will be able to:
-- Describe and define the terms *openness*, *open science*, *open access*
+At the end of the program, our participants will be able to:
+- Describe and define the terms *openness* and *open science*
+- Give original examples for the types of openness in science
 - Design
   - Illustrate the need for a project, its vision, and its goals
-  - Embrace and communicate the benefits of openness and how to strategically apply different open practices to their work
+  - Embrace and communicate the benefits of Open Science and how to strategically apply different open practices to their work
+  - Identify the public ressources to share their data
+  - Identify the different type of Open Access and associated journals
 - Build
+  - Start any project with openness in mind from day one
   - Setup a project repository on GitHub using best practices for enabling collaboration
   - Choose and apply open licenses appropriately
-  - Identify and describe multiple pathways for contributors within their work
 - Empower
+  - Create and enforce a safe working environment
+  - Promote the values of Open Science to empower others to lead and collaborate
   - Include a broad range of contributors in their work
-  - Create and enforce a safe environment for participation
-  - Communicate their work and vision in a 2min demo or elevator pitch
-  - Promote the values of openness and open leadership to empower others to lead and collaborate
-- Lead an open project
-
-currently learning objectives from OL7
-need to add learning objectives given the Bloom's taxonomy
--->
-
+  - Communicate their work and vision in a 2min demo of elevator pitch
+- Lead an open project in science
 
 # Schedule
 
