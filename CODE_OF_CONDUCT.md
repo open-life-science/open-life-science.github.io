@@ -1,3 +1,9 @@
+---
+layout: page
+title: Code of Conduct
+permalink: code-of-conduct
+---
+
 # Code of Conduct
 
 This code of conduct outlines our expectations for participants within the
