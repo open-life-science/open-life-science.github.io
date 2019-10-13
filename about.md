@@ -47,12 +47,29 @@ Mentors work closely with participants to help further their Open Science skills
 - love to share their enthusiasm about Open Science
 - want to build their profile as Open Leaders
 
+## What do mentors do?
+
+Mentors advise and inspire:
+- **Connect** to people, programs
+- **Recommend** resources, readings, experiences
+- **Feedback** to consider
+
+A mentor spend around **1 hour per week** dedicated to the program, but also some time before the program to review applications.
+
+They will meet their mentees every two weeks during the program and will attend group calls with other mentors to exchange notes and develop their mentoring skills further.
+
+## What are the benefits to be a mentor?
+
+Our mentors will 
+
+- gain mentoring skills (active listening, effective questioning, giving feedback) via mentoring training
+- learn to celebrate successes and approach challenges in mentoring
+- connect with a community of mentors
+- expand their knowledge on Open Science
+
 ## Becoming a mentor
 
-A mentor spend around 1 hour per week dedicated to the program, but also some time before the program to review applications.
-They will meet  their mentees every two weeks during the program and will attend group calls with other mentors to exchange notes and develop their mentoring skills further.
-
-We are currently recruiting the mentors for the first round. Please reach out to one of the organizers.
+We are currently recruiting the mentors for the first round. Please reach out to one of the organizers if you are interested.
 
 # Experts
 
