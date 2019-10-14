@@ -1,0 +1,7 @@
+font:
+- styleX: Myriad Variable Concept (adobe, pay font)
+- horizontalX: Oxygen (Google Fonts, free, https://fonts.google.com/specimen/Oxygen )
+
+color palette:
+#2ec65c
+#29aa4b
