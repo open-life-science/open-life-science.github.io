@@ -1,4 +1,4 @@
-# Code of Conduct
+As a community we welcome everyone, and encourage a friendly and positive environment. 
 
 This code of conduct outlines our expectations for participants within the
 community, as well as steps to reporting unacceptable behavior. We are committed

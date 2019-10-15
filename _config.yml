@@ -11,5 +11,7 @@ collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
 
+includes_dir: .
+
 plugins:
   - jekyll-last-modified-at

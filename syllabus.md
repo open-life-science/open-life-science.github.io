@@ -19,7 +19,7 @@ photos:
 
 # Goals and Learning Objectives
 
-The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life sicence. 
+The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life sicence.
 
 At the end of the program, our participants will be able to:
 - Describe and define the terms *openness* and *open science*
@@ -94,10 +94,4 @@ At the end of the program, our participants will be able to:
 
 # Community Participation Guidelines
 
-## Participation Guidelines
-
-## How to treat each other
-
-## Inclusion and Diversity
-
-## Raising Issues
+{% include CODE_OF_CONDUCT.md %}
