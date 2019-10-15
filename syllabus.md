@@ -97,4 +97,4 @@ need to add learning objectives given the Bloom's taxonomy
 
 # Community Participation Guidelines
 
-As a community we welcome everyone, and encourage a friendly and positive environment. Please see our [code of conduct](/code-of-conduct) for more specifics and reporting details.
+{% include CODE_OF_CONDUCT.md %}

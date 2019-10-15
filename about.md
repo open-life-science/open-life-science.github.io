@@ -81,7 +81,7 @@ We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://f
     {% assign username = entry[0] %}
     {% assign user = site.data['people'][username] %}
     {% if user.organizer %}
-      {% include people.html user=user username=username %}
+      {% include _includes/people.html user=user username=username %}
     {% endif %}
 {% endfor %}
 </div>
@@ -116,7 +116,7 @@ This program is made possible thanks to our partners and sponsors!
 {% for entry in site.data['partners'] %}
     {% assign partnername = entry[0] %}
     {% assign partner = site.data['partners'][partnername] %}
-    {% include partners.html partner=partner %}
+    {% include _includes/partners.html partner=partner %}
 {% endfor %}
 </div>
 

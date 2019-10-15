@@ -1,15 +1,4 @@
----
-layout: page
-title: Code of Conduct
-permalink: code-of-conduct
-image: /images/code-of-conduct.jpg
-photos:
-  name: Bérénice Batut
-  license: CC BY-SA 4.0
-  url: https://flic.kr/p/23EGxgc
----
-
-# Code of Conduct
+As a community we welcome everyone, and encourage a friendly and positive environment. 
 
 This code of conduct outlines our expectations for participants within the
 community, as well as steps to reporting unacceptable behavior. We are committed
