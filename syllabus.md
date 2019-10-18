@@ -26,10 +26,7 @@ and international bioinformatics communities.
 
 # Timeline
 
-- **October 2019**: Opening of the applications
-- **End of November 2019**: Closing of the applications
-- **Mid of December 2019**: Successful applicants announced
-- **January 2020**: Start of the 12-week program
+{% include _includes/timeline.md %}
 
 # Goals and Learning Objectives
 

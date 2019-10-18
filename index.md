@@ -48,10 +48,7 @@ Here are a few values we think you will receive from participating in this proje
 
 ## Timeline
 
-- **October 25, 2019**: Opening of the applications
-- **December 8, 2019**: Closing of the applications
-- **December 20, 2019**: Successful applicants announced
-- **January 2020**: Start of the 15-week program
+{% include _includes/timeline.md %}
 
   A detailed schedule of the program is available in the [syllabus](syllabus#schedule).
 
