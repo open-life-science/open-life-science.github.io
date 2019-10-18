@@ -8,14 +8,29 @@ photos:
   url: https://flic.kr/p/5BXB6s
 ---
 
+# Table of content
+{:.no_toc}
+
+1. TOC
 {:toc}
+
+# The program
+
+**Purpose**: Training for early stage researchers and young leaders interested in furthering their
+Open Science skills
+
+**Outcome**: Ambassadors for Open Science practice, training and education across multiple European
+and international bioinformatics communities.
+
+**Process**: A 15-week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
+
+1. **Sharing** essential knowledge required to create, lead, and sustain an Open Science project.
+2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
+3. **Empowering** them to become effective Open Science ambassadors in their communities.
 
 # Timeline
 
-- **October 2019**: Opening of the applications
-- **End of November 2019**: Closing of the applications
-- **Mid of December 2019**: Successful applicants announced
-- **January 2020**: Start of the 12-week program
+{% include _includes/timeline.md %}
 
 # Goals and Learning Objectives
 
