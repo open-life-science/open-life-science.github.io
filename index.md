@@ -11,17 +11,26 @@ photos:
 
 # A mentoring & training program for Open Science ambassadors in Life Science
 
-**Purpose**: Training for early stage researchers and young leaders interested in furthering their
-Open Science skills
+The Open Life Science program helps **early stage researchers and young leaders** in becoming **Open Science ambassadors**.
 
-**Outcome**: Ambassadors for Open Science practice, training and education across multiple European
-and international bioinformatics communities.
+Through **personal mentorship and cohort-based training**, participants of this **15-week program**:
+- learn essential knowledge required to create, lead, and sustain an Open Science project
+- connect with members across different communities, backgrounds, and identities by sharing their experiences and expertise
+- are empowered to become effective Open Science ambassadors in their communities.
 
-**Process**: A 15-week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
+We are recruiting for our first cohort to start in January 2020, but also mentors and experts.
 
-1. **Sharing** essential knowledge required to create, lead, and sustain an Open Science project.
-2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
-3. **Empowering** them to become effective Open Science ambassadors in their communities.
+## Projects
+
+Participants come to this program with a project in mind. The project doesn't have to be technical — it can be a curriculum (open educational resource), an open data project or report, an open source software project, open publication, community/team culture movements, or anything else that:
+
+- supports openness in life science
+- has something to work on (a feature, module, or minimum viable product) during the program
+- allows and welcomes contributions by others
+
+Whether the project is just an idea at this stage or something that's been running for years, all applications are welcome.
+
+*You are not sure about your idea? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
 
 ## Values
 
