@@ -8,6 +8,10 @@ photos:
   url: https://flic.kr/p/5BXB6s
 ---
 
+# Table of content
+{:.no_toc}
+
+1. TOC
 {:toc}
 
 # The program
