@@ -1,0 +1,7 @@
+Font: Raleway, via google fonts:
+https://fonts.google.com/specimen/Raleway
+
+Colors:
+
+Logo: #2EC65C
+Text: #139D3D
