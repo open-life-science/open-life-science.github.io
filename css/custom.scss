@@ -3,11 +3,22 @@
 
 @charset "utf-8";
 
-@import 'bulma/bulma.sass';
-
 $bg-image: #333;
 $hero-text-color: #fafaf0;
 $text-shadown: #2a2a2a;
+
+$green: #00c669;
+$dark-green: #48b87d;
+$link: $dark-green;
+$link-visited: $link;
+$link-hover: $dark-green;
+$link-focus: $link-hover;
+$link-active: $link-hover;
+
+$navbar-item-hover-background-color: #e5e8dd;
+$navbar-dropdown-item-hover-background-color: #e5e8dd;
+
+@import 'bulma/bulma.sass';
 
 .navbar {
   .navbar-dropdown {
