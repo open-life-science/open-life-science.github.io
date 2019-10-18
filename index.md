@@ -11,7 +11,7 @@ photos:
 
 # A mentoring & training program for Open Science ambassadors in Life Science
 
-The Open Life Science program helps **early stage researchers and young leaders** in becoming **Open Science ambassadors**.
+The Open Life Science program helps **early stage researchers and potential academic leaders** in becoming **Open Science ambassadors**.
 
 Through **personal mentorship and cohort-based training**, participants of this **15-week program**:
 - learn essential knowledge required to create, lead, and sustain an Open Science project
