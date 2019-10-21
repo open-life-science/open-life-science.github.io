@@ -1,7 +1,7 @@
 # List of partners and sponsors
 #
 # valid tags: name, website, logo, description
-# 
+#
 # logo should the path to a file named as the collection name in /images/partners-sponsors
 #
 # collection names should be lower case, with spaces replaced by `-`
@@ -11,9 +11,9 @@ denbi:
     website: https://www.denbi.de/
     logo: /images/partners/denbi.png
     description: >
-        de.NBI (the German Network for Bioinformatics Infrastructure) is supporting Bérénice 
+        de.NBI (the German Network for Bioinformatics Infrastructure) is supporting Bérénice
         and Malvika through in-kind contribution.
-        
+
 bio-it:
     name: EMBL Bio-IT
     website:
@@ -25,8 +25,8 @@ mozilla:
     website: https://foundation.mozilla.org/en/
     logo: /images/partners/mozilla.jpg
     description: >
-        Mozilla provided support via the 
-        <a href="https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/">MOLx program</a> 
+        Mozilla provided support via the
+        <a href="https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/">MOLx program</a>
         and the mentorship from Abby (Abigail Cabunoc Mayes) from Mozilla Foundation.
 
 turing-way:
@@ -34,9 +34,14 @@ turing-way:
     website:
     logo: https://zenodo.org/api/iiif/v2/e4125eaf-b456-4097-85fc-6a2e80482d1c:27304005-209a-4bbf-b934-ae35aba032ef:1728_TURI_Book%20sprint_5%20turing%20way_040619.jpg/full/750,/0/default.jpg
     description: Turing Way will partner with this program to build mentor-mentee relationships in their community.
-    
+
 university-manchester:
-    name: University of Manchester 
+    name: University of Manchester
     description: >
         The University is supporting Yo for her Ph.D. research.
 
+SSI:
+    name: Software Sustainability Institute (SSI)
+    website:
+    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
+    description: This program will be supported by SSI fellowship offered to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
