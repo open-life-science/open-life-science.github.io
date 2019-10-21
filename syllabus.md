@@ -34,7 +34,7 @@ and international bioinformatics communities.
 
 # Goals and Learning Objectives
 
-The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life sicence.
+The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life science.
 
 At the end of the program, our participants will be able to:
 - Describe and define the terms *openness* and *open science*
@@ -42,7 +42,7 @@ At the end of the program, our participants will be able to:
 - Design
   - Illustrate the need for a project, its vision, and its goals
   - Embrace and communicate the benefits of Open Science and how to strategically apply different open practices to their work
-  - Identify the public ressources to share their data
+  - Identify the public resources to share their data
   - Identify the different type of Open Access and associated journals
 - Build
   - Start any project with openness in mind from day one
@@ -73,38 +73,42 @@ At the end of the program, our participants will be able to:
 |      |                          |                                   | call & concrete implementations          |
 | 4    | Cohort (90 min)          | **Tooling and roadmapping for**   | Working with GitHub as a community hub:  |
 |-
-|      |                          | **open projects**                 | Licence, Roadmap, Contributors, Code of  |
-|-
-|      |                          |                                   | Conduct                                  |
-|-
-|      |                          |                                   | Markdown as a tool to make websites      |
+|      |                          | **Open projects**                 | Markdown as a tool to make websites,     |
+|      |                          |                                   | Licence, Goals and Roadmap               |
+|      |                          |                                   | Contributors, Code of Conduct            |
 | 5    | Mentor (30 min)          |                                   |                                          |
-| 6    | Cohort (90 min)          | **Types of openness in science**  | Open Access: Preprints, Publishing       |
 |-
-|      |                          |                                   | Open Education & Training                |
+| 6    | Cohort (90 min)          | **Developing Open Projects**      | Open Science I: Project Development      |
 |-
-|      |                          |                                   | Open Source: Hardware, Software          |
-|-
-|      |                          |                                   | Open Data                                |
+|      |                          |                                   | Open - Source, Software, Hardware, Data  |
 | 7    | Mentor (30 min)          |                                   |                                          |
-| 8    | Cohort (90 min)          | **Designing for inclusivity**     | Personas and pathways for contributors   |
 |-
-|      |                          |                                   | Implicit bias & mental health care       |
+| 8    | Cohort (90 min)          | **Sharing Open Project**          | Open Science II: Knowledge Disemmination |
 |-
-|      |                          |                                   | Community interactions & Ally-skill      |
+|      |                          |                                   | Preprint publications, DOI and citation, |
+|      |                          |                                   | Open Education & Training
 | 9    | Mentor (30 min)          |                                   |                                          |
-| 10   | Cohort (90 min)          | **Final presentations:**          | Closed-group call practicing final demos |
 |-
-|      |                          | **preparation and practice**      | Cohort offers feedback and improvement   |
+| 10   | Cohort (90 min)          | **Designing for inclusivity**    | Personas and pathways for contributors    |
 |-
-|      |                          |                                   |  suggestions                             |
-| 11   | Mentor (30 min)          |                                   | Preparing for the final demos            |
-| 12   | Cohort (90 min)          | **Final presentations &**         | Recorded call where all projects share   |
+|      |                          |                                   | Implicit bias & mental health care ,     |
+|      |                          |                                   | Community interactions & Ally-skill      |
+| 11   | Work on your own: No Call|                                   |                                          |
 |-
-|      |                          | **congratulations!**              | 2-minute demos                           |
+| 13   | Mentor (30 min)          |                                   | Invite an expert with mentor             |
+|-
+| 14   | Cohort (90 min)          | **Project Review:**               | Closed-group call practicing final demos |
+|-
+|      |                          | **preparation and practice**      | Cohort offers feedback and improvement,  |
+|      |                          |                                   | feedbacks and suggestions                |
+| 13   | Mentor (30 min)          |                                   | Preparing for the final demos            |
+|-
+| 14   | Cohort (90 min)          | **Final presentations &**         | Open and Recorded call                   |
+|-
+|      |                          | **congratulations!**              | 2-minute demos of each project           |
 |-
 |      |                          |                                   | Audience: entire community & public      |
-| 13   | Mentor (30 min)          |                                   | Wrap-up!                                 |
+| 15   | Mentor (30 min)          |                                   | Wrap-up and feedback!                                 |
 
 
 # Community Participation Guidelines
