@@ -1,4 +1,4 @@
-As a community we welcome everyone, and encourage a friendly and positive environment. 
+As a community we welcome everyone, and encourage a friendly and positive environment.
 
 This code of conduct outlines our expectations for participants within the
 community, as well as steps to reporting unacceptable behavior. We are committed
@@ -70,9 +70,13 @@ disabilities.
 ### Reporting Issues
 
 If you experience or witness unacceptable behavior, or have any other concerns,
-please report it by contacting Bérénice Batut (berenice.batut@gmail.com). To
-report an issue involving Bérénice Batut please email ... (...). All reports
-will be handled with discretion. In your report please include:
+please report it by contacting the organisers - Berenice, Malvika and Yo.
+(team@openlifesci.org).
+
+To report an issue involving one of the members, please email one of the members individually
+(berenice@openlifesci.org, malvika@openlifesci.org, yo@openlifesci.org).
+
+All reports will be handled with discretion. In your report please include:
 
 - Your contact information.
 
