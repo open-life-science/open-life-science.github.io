@@ -70,7 +70,7 @@ disabilities.
 ### Reporting Issues
 
 If you experience or witness unacceptable behavior, or have any other concerns,
-please report it by contacting the organisers - Berenice, Malvika and Yo.
+please report it by contacting the organisers - Bérénice, Malvika and Yo.
 (team@openlifesci.org).
 
 To report an issue involving one of the members, please email one of the members individually
