@@ -32,7 +32,7 @@ Whether the project is just an idea at this stage or something that's been runni
 
 *You are not sure about your idea? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
 
-## Values
+## What's in it for you?
 
 We want to make this program mutually beneficial for all the participants.
 Here are a few values we think you will receive from participating in this project.
@@ -64,7 +64,7 @@ After the selection process, they will be involved in the following steps of thi
 
     They will meet every 2 weeks. In these **mentee-mentor calls** (around 30 minutes), Sam will help Joy evaluate their understanding of the new topics, and review their progress by providing constructive feedback. Joy will be given relevant exercises before these calls to help them apply new skills in their project. When needed, Joy and Sam will be able to connect with other [experts](about#experts) and get consulted on their project.
 
-2. Joy will participate to online calls where [relevant contents related to Open Life Science](syllabus#schedule) is shared and discussed with all participants of the program. 
+2. Joy will participate to online calls where [relevant contents related to Open Life Science](syllabus#schedule) is shared and discussed with all participants of the program.
 
     In these **cohort calls**, the program leaders will introduce new topics and resources, facilitate break-out discussions, and invite [expert](about#experts) from the field to give talks. In the first call Joy will get to know all the participants of the program, present their project, learn about others' projects. A final cohort call will allow Joy to present their project to other participants and exchange values.
 
