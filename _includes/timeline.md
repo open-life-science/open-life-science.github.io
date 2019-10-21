@@ -3,3 +3,4 @@
 - **December 8, 2019**: Closing of the applications
 - **December 20, 2019**: Successful applicants announced
 - **January 2020**: Start of the 15-week program
+- **April 2020**: Conclusion of the 15-week program
