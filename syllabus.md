@@ -74,41 +74,39 @@ At the end of the program, our participants will be able to:
 | 4    | Cohort (90 min)          | **Tooling and roadmapping for**   | Working with GitHub as a community hub:  |
 |-
 |      |                          | **Open projects**                 | Markdown as a tool to make websites,     |
-|      |                          |                                   | Licence, Goals and Roadmap               |
+|-
+|      |                          |                                   | Licence, Goals and Roadmap,              |
+|-
 |      |                          |                                   | Contributors, Code of Conduct            |
 | 5    | Mentor (30 min)          |                                   |                                          |
-|-
 | 6    | Cohort (90 min)          | **Developing Open Projects**      | Open Science I: Project Development      |
 |-
 |      |                          |                                   | Open - Source, Software, Hardware, Data  |
 | 7    | Mentor (30 min)          |                                   |                                          |
-|-
 | 8    | Cohort (90 min)          | **Sharing Open Project**          | Open Science II: Knowledge Disemmination |
 |-
 |      |                          |                                   | Preprint publications, DOI and citation, |
+|-
 |      |                          |                                   | Open Education & Training
 | 9    | Mentor (30 min)          |                                   |                                          |
+| 10   | Cohort (90 min)          | **Designing for inclusivity**     | Personas and pathways for contributors   |
 |-
-| 10   | Cohort (90 min)          | **Designing for inclusivity**    | Personas and pathways for contributors    |
+|      |                          |                                   | Implicit bias & mental health care,      |
 |-
-|      |                          |                                   | Implicit bias & mental health care ,     |
 |      |                          |                                   | Community interactions & Ally-skill      |
 | 11   | Work on your own: No Call|                                   |                                          |
-|-
 | 12   | Mentor (30 min)          |                                   | Invite an expert with mentor             |
-|-
 | 13   | Cohort (90 min)          | **Project Review:**               | Closed-group call practicing final demos |
 |-
 |      |                          | **preparation and practice**      | Cohort offers feedback and improvement,  |
+|-
 |      |                          |                                   | feedbacks and suggestions                |
 | 14   | Mentor (30 min)          |                                   | Preparing for the final demos            |
-|-
 | 15   | Cohort (90 min)          | **Final presentations &**         | Open and Recorded call                   |
 |-
 |      |                          | **congratulations!**              | 2-minute demos of each project           |
 |-
 |      |                          |                                   | Audience: entire community & public      |
-|-
 
 
 # Community Participation Guidelines
