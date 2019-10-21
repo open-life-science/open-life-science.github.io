@@ -1,6 +1,6 @@
 # How to contribute?
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+:+1::tada: First of all, thanks for taking the time to contribute! :tada::+1:
 
 You can make this project better by contributing to it. You can report mistakes
 and errors, create more content, etc. Whatever is your background, there is a
@@ -19,6 +19,17 @@ then introduce yourself and meet some of our community members.
 ## How can I get started with contributing?
 
 This repository store the sources for the website.
+You can help us improve it and get acknowledged for your contributions.
+
+Here are a few ways you can get started with contributing to this program.
+
+1. Help us address one of the [issues currently open in our repository](https://github.com/open-life-science/open-life-science.github.io/issues)
+2. [Create a new issue]](https://github.com/open-life-science/open-life-science.github.io/issues) to suggest changes/improvements on our website/program
+3. Send a pull request to correct typo, or fill any gap that you see on our website.
+4. Write about your [Mozilla Open Leader project and share with our participants](https://openlifesci.org/posts).
+5. Contribute your blog posts that could be relevant for our participants. You can [check out our the stories](https://openlifesci.org/posts) to get an idea of what we post there.
+
+Do you have other ideas for contributions? Contact the organisers (team@openlifesci.org).
 
 ## How can I contribute in "advanced" mode?
 
