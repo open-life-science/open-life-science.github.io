@@ -95,20 +95,20 @@ At the end of the program, our participants will be able to:
 |      |                          |                                   | Community interactions & Ally-skill      |
 | 11   | Work on your own: No Call|                                   |                                          |
 |-
-| 13   | Mentor (30 min)          |                                   | Invite an expert with mentor             |
+| 12   | Mentor (30 min)          |                                   | Invite an expert with mentor             |
 |-
-| 14   | Cohort (90 min)          | **Project Review:**               | Closed-group call practicing final demos |
+| 13   | Cohort (90 min)          | **Project Review:**               | Closed-group call practicing final demos |
 |-
 |      |                          | **preparation and practice**      | Cohort offers feedback and improvement,  |
 |      |                          |                                   | feedbacks and suggestions                |
-| 13   | Mentor (30 min)          |                                   | Preparing for the final demos            |
+| 14   | Mentor (30 min)          |                                   | Preparing for the final demos            |
 |-
-| 14   | Cohort (90 min)          | **Final presentations &**         | Open and Recorded call                   |
+| 15   | Cohort (90 min)          | **Final presentations &**         | Open and Recorded call                   |
 |-
 |      |                          | **congratulations!**              | 2-minute demos of each project           |
 |-
 |      |                          |                                   | Audience: entire community & public      |
-| 15   | Mentor (30 min)          |                                   | Wrap-up and feedback!                                 |
+|-
 
 
 # Community Participation Guidelines
