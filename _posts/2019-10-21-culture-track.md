@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Digital Storytelling for Culture Change
+title: Mozilla Open Leader 7 project journey: Digital Storytelling for Culture Change
 author: malvikasharan
 image: /images/2019-10-21-storytelling.jpeg
 ---
 
 *This post is the case study from my participation at the [Mozilla Open Leaders Cohort 7](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/round-7/participants/participants---cohort-f/) from January-May 2019*
 
-
-## Mozilla Open Leader 7 project journey: Digital Storytelling for Culture Change
-
-#### Project Page: [Bio-IT Community Blogs](https://grp-bio-it.embl-community.io/blogs)
+*Project Page: [Bio-IT Community Blogs](https://grp-bio-it.embl-community.io/blogs)*
 
 > *“Stories matter. Many stories matter. Stories have been used to dispossess and to malign, but stories can also be used to empower and to humanize. Stories can break the dignity of a people, but stories can also repair that broken dignity.”*  - [Chimamanda Ngozi Adichie](https://twitter.com/ChimamandaReal), [The Danger of a Single Story](https://ngl.cengage.com/21centuryreading/resources/sites/default/files/B3_TG_AT7_0.pdf)
 
