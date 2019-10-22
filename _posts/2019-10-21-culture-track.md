@@ -1,13 +1,9 @@
-
 ---
 layout: post
 title: Digital Storytelling for Culture Change
 author: malvikasharan
 image: /images/2019-10-21-storytelling.jpeg
-
 ---
-
-## My Mozilla Open Leader 7 Culture Track story
 
 *This post is the case study from my participation at the [Mozilla Open Leaders Cohort 7](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/round-7/participants/participants---cohort-f/) from January-May 2019*
 
