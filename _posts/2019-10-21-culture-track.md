@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Mozilla Open Leader 7 project journey: Digital Storytelling for Culture Change
+title: Digital Storytelling for Culture Change
 author: malvikasharan
 image: /images/2019-10-21-storytelling.jpeg
 ---
+
+# My Mozilla Open Leader 7 Culture Track story
+
 
 *This post is the case study from my participation at the [Mozilla Open Leaders Cohort 7](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/round-7/participants/participants---cohort-f/) from January-May 2019*
 
@@ -34,7 +37,7 @@ I am a Community Outreach Coordinator at the [EMBL Heidelberg](https://www.embl.
 ![](https://images.unsplash.com/photo-1493528237448-144452699e16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2065&q=80)
 *Image by [@tchompalov](https://unsplash.com/photos/nKNrOZ5MXZY) on Unsplash*
 
-### My OL7 culture track story
+### My Open Leadership Journey
 
 After OL6 many of my colleagues who had participated in the Mozilla Open Leaders shared their personal experiences on Twitter (tweet from [Berenice Batut](https://twitter.com/i/web/status/1061277699946303488)) and how much they had benefited from their participation. After reading their testimonials and the checking the complete program, I knew that I would gain tremendously by participating in OL7.
 
