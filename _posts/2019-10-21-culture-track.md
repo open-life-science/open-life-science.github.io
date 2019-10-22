@@ -8,7 +8,7 @@ image: /images/2019-10-21-storytelling.jpeg
 *This post is the case study from my participation at the [Mozilla Open Leaders Cohort 7](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/round-7/participants/participants---cohort-f/) from January-May 2019*
 
 
-## Digital Storytelling for Culture Change
+## Mozilla Open Leader 7 project journey: Digital Storytelling for Culture Change
 
 #### Project Page: [Bio-IT Community Blogs](https://grp-bio-it.embl-community.io/blogs)
 
