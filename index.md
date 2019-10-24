@@ -22,9 +22,9 @@ We are recruiting for our first cohort of mentees for the first round that start
 
 ## Projects
 
-Participants will join this program with a project that they are either already working on or want to develop during this program.
+Participants will join this program with a project that they either are already working on or want to develop during this program.
 
-Your project ideas can range from solving technical questions, to creating an open data project or report, developing open source software project, writing open publication, facilitating community/team culture movements, advancing open educational resource or contributing to other existing projects/community.
+Your project ideas can range from solving technical questions, to creating an open data project or report, developing open source software project, writing open publication, facilitating community/team culture movements, advancing open educational resource or contributing to other existing projects/community.
 
 All applications are welcome, whether your project is just an idea at this stage, or something that is running for years, but, your projects must:
 
