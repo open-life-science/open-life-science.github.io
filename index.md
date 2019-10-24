@@ -22,15 +22,15 @@ We are recruiting for our first cohort of mentees for the first round that start
 
 ## Projects
 
-Participants will join this program with a project that either they are already working on or want to develop during this program.
+Participants will join this program with a project that they are either already working on or want to develop during this program.
 
-Your project idea can range from solving technical question, creating an open data project or report, developing open source software project, writing open publication, facilitating community/team culture movements, advancing open educational resource to contributing to other existing projects/community.
+Your project ideas can range from solving technical questions, to creating an open data project or report, developing open source software project, writing open publication, facilitating community/team culture movements, advancing open educational resource or contributing to other existing projects/community.
 
-All applications are welcome, whether your project is just an idea at this stage, or something that is running for years. However, these projects must:
+All applications are welcome, whether your project is just an idea at this stage, or something that is running for years, but, your projects must:
 
-- promotes one to several [Open Science practices](https://www.fosteropenscience.eu/content/what-open-science-introduction) (i.e. Open Access, Open Source, Citizen Science, ) in life science
-- envisions a measurable outcome (i.e. feature, module, or minimum viable product) from this program
-- creates inclusive space and welcomes contributions from their community members
+- promote one or several [Open Science practices](https://www.fosteropenscience.eu/content/what-open-science-introduction) (i.e. Open Access, Open Source, Citizen Science, ) in life science
+- state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
+- create an inclusive space and welcomes contributions from their community members
 
 *You are not sure about your project proposal? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
 
