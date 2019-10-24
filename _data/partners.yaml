@@ -21,13 +21,12 @@ bio-it:
     description: EMBL Bio-IT is a community project of which Malvika is a coordinator of.
 
 mozilla:
-    name: Mozilla
+    name: Mozilla Open Leaders
     website: https://foundation.mozilla.org/en/
     logo: /images/partners/mozilla.jpg
     description: >
-        Mozilla provided support via the
-        <a href="https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/">MOLx program</a>
-        and the mentorship from Abby (Abigail Cabunoc Mayes) from Mozilla Foundation.
+        This program was developed as a part of <a href="https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/">Mozilla Open Leaders X (MOLx)</a> chohort.
+        Thanks to our champion Abby (Abigail Cabunoc Mayes) from Mozilla Foundation for providing support in designing this program.
 
 turing-way:
     name: Turing way
