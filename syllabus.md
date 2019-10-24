@@ -83,7 +83,7 @@ At the end of the program, our participants will be able to:
 |-
 |      |                          |                                   | Open - Source, Software, Hardware, Data  |
 | 7    | Mentor (30 min)          |                                   |                                          |
-| 8    | Cohort (90 min)          | **Sharing Open Project**          | Open Science II: Knowledge Disemmination |
+| 8    | Cohort (90 min)          | **Sharing Open Project**          | Open Science II: Knowledge Dissemmination|
 |-
 |      |                          |                                   | Preprint publications, DOI and citation, |
 |-
