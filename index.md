@@ -13,38 +13,48 @@ photos:
 
 The Open Life Science program helps **early stage researchers and potential academic leaders** in becoming **Open Science ambassadors**.
 
-Through **personal mentorship and cohort-based training**, participants of this **15-week program**:
-- learn essential knowledge required to create, lead, and sustain an Open Science project
-- connect with members across different communities, backgrounds, and identities by sharing their experiences and expertise
-- are empowered to become effective Open Science ambassadors in their communities.
+This is a **15-week long personal mentorship and cohort-based training**, where participants (organisers, hosts, mentors and mentees) of this program will:
+- share their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
+- connect with members across different projects, communities, backgrounds, and identities
+- empower each other to become effective Open Science ambassadors in their communities
 
-We are recruiting for our first cohort to start in January 2020, but also mentors and experts.
+We are recruiting for our first cohort of mentees for the first round that starts in January 2020. We are also inviting mentors, experts and content developers to join us in shaping this program.
 
 ## Projects
 
-Participants come to this program with a project in mind. The project doesn't have to be technical — it can be a curriculum (open educational resource), an open data project or report, an open source software project, open publication, community/team culture movements, or anything else that:
+Participants will join this program with a project that either they are already working on or want to develop during this program.
 
-- supports openness in life science
-- has something to work on (a feature, module, or minimum viable product) during the program
-- allows and welcomes contributions by others
+Your project idea can range from solving technical question, creating an open data project or report, developing open source software project, writing open publication, facilitating community/team culture movements, advancing open educational resource to contributing to other existing projects/community.
 
-Whether the project is just an idea at this stage or something that's been running for years, all applications are welcome.
+All applications are welcome, whether your project is just an idea at this stage, or something that is running for years. However, these projects must:
 
-*You are not sure about your idea? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
+- promotes one to several [Open Science practices](https://www.fosteropenscience.eu/content/what-open-science-introduction) (i.e. Open Access, Open Source, Citizen Science, ) in life science
+- envisions a measurable outcome (i.e. feature, module, or minimum viable product) from this program
+- creates inclusive space and welcomes contributions from their community members
 
-## What's in it for you?
+*You are not sure about your project proposal? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
+
+### Why focus on life science?
+
+Modern life science and related communities stand in the interface of computational and biological research. This position provides an exciting opportunity for new scientists to understand and welcome "open by design" practices.
+
+We understand that our curriculum is applicable to various fields, but we want to focus on life science community/projects with this program due to an urgent need to promote open practices in this field.
+
+If you have a project idea that is not directly related to life science, we will ask you to describe how you aim to advance openness in life science through your work.
+
+### What's in it for you?
 
 We want to make this program mutually beneficial for all the participants.
 Here are a few values we think you will receive from participating in this project.
 
-- Become a member of the community
-- Exchange skills and build your profiles
-- Highlight your resources by sharing with the community
+- Become a contributing member of this community
 - Collaborate with others in Open Science projects
-- Develop projects to publish online
-- Participate in designing this program by sharing your feedback and experience
+- Exchange skills with others and build your own profiles
+- Highlight and promote your resources
 - Gain insights from other experts in the field
-- Gain recognition and acknowledgement for your work
+- Work on a short-term projects and publish online
+- Get recognition and acknowledgement for your work
+- Co-develop this program by sharing feedback
 
 ## Timeline
 
