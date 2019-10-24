@@ -30,9 +30,9 @@ All applications are welcome, whether your project is just an idea at this stage
 
 - promote one or several [Open Science practices](https://www.fosteropenscience.eu/content/what-open-science-introduction) (i.e. Open Access, Open Source, Citizen Science, ) in life science
 - state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
-- create an inclusive space and welcomes contributions from their community members
+- create an inclusive space and welcome contributions from their community members
 
-*You are not sure about your project proposal? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
+*Not sure about your project proposal? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
 
 ### Why focus on life science?
 
