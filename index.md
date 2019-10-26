@@ -13,6 +13,14 @@ photos:
 
 The Open Life Science program helps **early stage researchers and potential academic leaders** in becoming **Open Science ambassadors**.
 
+## Applications
+
+Applications are now **open**! Please visit [EasyChair](https://easychair.org/cfp/ols-2020) to view our application instructions and upload your application before the end of day on December 8th, 2019. 
+
+Any questions? We've here to help - feel free to email hello@openlifesci.org or tweet us at @openlifesci. 
+
+## About
+
 This is a **15-week long personal mentorship and cohort-based training**, where participants (organisers, hosts, mentors and mentees) of this program will:
 - share their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
 - connect with members across different projects, communities, backgrounds, and identities
