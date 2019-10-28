@@ -4,7 +4,7 @@ layout: base
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 
-<section class="hero {% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: url({{ page.image }});"{% endif %}>
+<section class="hero {% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: linear-gradient(to top, #000, transparent), url({{ page.image }});"{% endif %}>
   <div class="hero-body">
     <h1 class="title is-1">{{ page.title }}</h1>
 
@@ -24,15 +24,12 @@ layout: base
   {% if page.photos %}
   <div class="hero-foot">
     <p class="credit"><a href="{{ page.photos.link }}">{{ page.photos.name }}</a> ({{ page.photos.license }})</p>
-  </div>  
+  </div>
   {% endif %}
 </section>
 
 <section class="section">
   <div class="container content {{ layout.css }} {{ page.css }}">
     {{ content }}
-
-    
-
   </div>
 </section>

@@ -3,23 +3,23 @@
         <div class="content">
             {% if partner.logo %}
                 <figure class="image">
-                    <img src="{{ partner.logo }}"
-                        alt="Logo of {{ partner.name }}"/>
+                    <img src="{{ partner.logo }}" alt="Logo of {{ partner.name }}"/>
                 </figure>
             {% endif %}
         </div>
 
         <div class="content">
+            <h3 class="title is-3">
             {% if partner.website %}
                 <a href="{{ partner.website }}">
-                    <p class="title is-3">{{ partner.name }}</p>
-                </a>
-            {% else %}
-                <p class="title is-3">{{ partner.name }}</p>
             {% endif %}
-            
-            <p class="description">{{ partner.description }}</p>
+            {{ partner.name }}
+            {% if partner.website %}
+                </a>
+            {% endif %}
+            </h3>
 
+            <p class="description">{{ partner.description }}</p>
         </div>
     </div>
 </div>
