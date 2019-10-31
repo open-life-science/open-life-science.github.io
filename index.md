@@ -17,7 +17,7 @@ The Open Life Science program helps **early stage researchers and potential acad
 
 Applications are now **open**! Please visit [EasyChair](https://easychair.org/cfp/ols-2020) to view our application instructions and upload your application before the end of day on December 8th, 2019. 
 
-Any questions? We are here to help - feel free to email hello@openlifesci.org or connect with us on Twitter @openlifesci. 
+Any questions? We are here to help - feel free to email [hello@openlifesci.org](mailto:hello@openlifesci.org) or connect with us on Twitter [@openlifesci](https://twitter.com/openlifesci). 
 
 ## About
 
