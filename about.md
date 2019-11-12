@@ -71,6 +71,18 @@ Our mentors will
 
 We are currently recruiting the mentors for the first round. Please reach out to one of the organizers if you are interested.
 
+## Our mentors
+
+<div class="people">
+{% for entry in site.data['people'] %}
+    {% assign username = entry[0] %}
+    {% assign user = site.data['people'][username] %}
+    {% if user.mentor %}
+      {% include _includes/people.html user=user username=username %}
+    {% endif %}
+{% endfor %}
+</div>
+
 # Experts
 
 Experts will be invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
@@ -92,6 +104,18 @@ Experts may be invited to:
 - invited by mentor-mentee pair to share their expert consultation on certain projects. (~30 minutes)
 
 We are currently recruiting the experts for the first round.
+
+## Our experts
+
+<div class="people">
+{% for entry in site.data['people'] %}
+    {% assign username = entry[0] %}
+    {% assign user = site.data['people'][username] %}
+    {% if user.expert %}
+      {% include _includes/people.html user=user username=username %}
+    {% endif %}
+{% endfor %}
+</div>
 
 # Organizers
 
