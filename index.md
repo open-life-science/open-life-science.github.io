@@ -20,7 +20,7 @@ This is a **15-week long personal mentorship and cohort-based training**, where 
 - connect with members across different projects, communities, backgrounds, and identities
 - empower each other to become effective Open Science ambassadors in their communities
 
-We are recruiting for our first cohort of mentees for the first round that starts in January 2020. We are also inviting mentors, experts and content developers to join us in shaping this program.
+We are recruiting our first cohort of mentees for the upcoming round that starts in January 2020. We are also inviting mentors, experts and content developers to join us in shaping this program.
 
 ## Applications
 
