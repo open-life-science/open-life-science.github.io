@@ -100,4 +100,4 @@ Due to the current location of the organisers, we invite applications from parti
 
 We also invite applicants from outside Europe, particularly from **developing countries** (e.g. India and Africa - who are also timezone-compatible). Recordings from the calls will be shared with those who are can't attend these meetings, however this should be discussed and approved by the organisers on a case-by-case basis.
 
-The calls will be conducted **English**. However, our participants who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.
+The calls will be conducted in **English**. However, our participants who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.
