@@ -40,7 +40,7 @@ All applications are welcome, whether your project is just an idea at this stage
 - state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
 - create an inclusive space and welcome contributions from their community members
 
-*Not sure about your project proposal? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
+*Not sure about your project proposal? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}). You can also hear about the programs and ask questions in our webinar on 27 November - [agenda, timezone for you, and joining details here](https://docs.google.com/document/d/1EIDzZi5mgRiWR7cJQl0up470C87GsbcoTR_6-cs-SeE/edit)*
 
 ### Why focus on life science?
 
@@ -88,7 +88,7 @@ After the selection process, they will be involved in the following steps of thi
 
 3. Sam will participate to **mentoring training** with topic-based discussions with other mentors aimed at enhancing their mentoring skills.
 
-After the 14 weeks of the program, a self-evaluation survey will help Joy and Sam in positioning their knowledge in open science leadership before and after the program.
+After the 15 weeks of the program, a self-evaluation survey will help Joy and Sam in positioning their knowledge in open science leadership before and after the program.
 
 For the next round, Joy may share what they learnt by [mentoring](about#mentors) a project and Sam continue their mentor effort and/or become an [expert](about#experts).
 
