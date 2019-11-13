@@ -92,12 +92,12 @@ After the 14 weeks of the program, a self-evaluation survey will help Joy and Sa
 
 For the next round, Joy may share what they learnt by [mentoring](about#mentors) a project and Sam continue their mentor effort and/or become an [expert](about#experts).
 
-## Applications
+## Cohort Calls
 
-This program will focus on Open Science in the life sciences and bioinformatics domains.
+Cohort calls will be conducted **online** using Zoom video conferencing service.
 
-We are particularly keen to connect with the participants from less-represented European countries such as Hungary, Greece, Estonia, and Cyprus. We also invite applicants from outside Europe, particularly from developing countries (e.g. India and Africa - who are also timezone-compatible).
+Due to the current location of the organisers, we invite applications from participants who are in **European timezones**. We are particularly keen to connect with the participants from less-represented European countries such as Hungary, Greece, Estonia, and Cyprus. 
 
-Cohort calls will be conducted in English. However, our participants who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.
+We also invite applicants from outside Europe, particularly from **developing countries** (e.g. India and Africa - who are also timezone-compatible). Recordings from the calls will be shared with those who are can't attend these meetings, however this should be discussed and approved by the organisers on a case-by-case basis.
 
-**Interested to participate? The application will be open from Oct 25 to Dec 8, 2019.**
+The calls will be conducted **English**. However, our participants who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.
