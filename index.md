@@ -13,13 +13,7 @@ photos:
 
 The Open Life Science program helps **early stage researchers and potential academic leaders** in becoming **Open Science ambassadors**.
 
-## Applications
-
-Applications are now **open**! Please visit [EasyChair](https://easychair.org/cfp/ols-2020) to view our application instructions and upload your application before the end of day on December 8th, 2019. 
-
-Any questions? We are here to help - feel free to email [hello@openlifesci.org](mailto:hello@openlifesci.org) or connect with us on Twitter [@openlifesci](https://twitter.com/openlifesci). 
-
-## About
+#### About
 
 This is a **15-week long personal mentorship and cohort-based training**, where participants (organisers, hosts, mentors and mentees) of this program will:
 - share their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
@@ -27,6 +21,18 @@ This is a **15-week long personal mentorship and cohort-based training**, where 
 - empower each other to become effective Open Science ambassadors in their communities
 
 We are recruiting for our first cohort of mentees for the first round that starts in January 2020. We are also inviting mentors, experts and content developers to join us in shaping this program.
+
+## Applications
+
+Applications are now **open**! Please visit [EasyChair](https://easychair.org/cfp/ols-2020) to view our application instructions and upload your application before the end of day on December 8th, 2019. 
+
+Any questions? We are here to help - feel free to email [hello@openlifesci.org](mailto:hello@openlifesci.org) or connect with us on Twitter [@openlifesci](https://twitter.com/openlifesci). 
+
+#### Timeline
+
+{% include _includes/timeline.md %}
+
+  A detailed schedule of the program is available in the [syllabus](syllabus#schedule).
 
 ## Projects
 
@@ -42,7 +48,7 @@ All applications are welcome, whether your project is just an idea at this stage
 
 *Not sure about your project proposal? We shared some potential projects in a [dedicated story]({% link _posts/2019-10-18-projects.md %}) and will organize a pre-application webinar in November (details will be shared soon).*
 
-### Why focus on life science?
+#### Why focus on life science?
 
 Modern life science and related communities stand in the interface of computational and biological research. This position provides an exciting opportunity for new scientists to understand and welcome "open by design" practices.
 
@@ -50,7 +56,7 @@ We understand that our curriculum is applicable to various fields, but we want t
 
 If you have a project idea that is not directly related to life science, we will ask you to describe how you aim to advance openness in life science through your work.
 
-### What's in it for you?
+#### What's in it for you?
 
 We want to make this program mutually beneficial for all the participants.
 Here are a few values we think you will receive from participating in this project.
@@ -63,12 +69,6 @@ Here are a few values we think you will receive from participating in this proje
 - Work on a short-term projects and publish online
 - Get recognition and acknowledgement for your work
 - Co-develop this program by sharing feedback
-
-## Timeline
-
-{% include _includes/timeline.md %}
-
-  A detailed schedule of the program is available in the [syllabus](syllabus#schedule).
 
 ## The program itself
 
