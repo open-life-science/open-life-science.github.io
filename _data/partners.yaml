@@ -14,6 +14,13 @@ denbi:
         de.NBI (the German Network for Bioinformatics Infrastructure) is supporting Bérénice
         and Malvika through in-kind contribution.
 
+elixir:
+    name: ELIXIR
+    website: elixir-europe.org
+    logo: /images/partners/elixir.png
+    description: >
+        The program organisers are associated with ELIXIR member institutes. Bérénice and Malvika are deputy training coordinators of ELIXIR Germany and several mentors and experts are from different ELIXIR nodes.
+
 bio-it:
     name: EMBL Bio-IT
     website:
