@@ -7,7 +7,6 @@
 # collection names should be lower case, with spaces replaced by `-`
 ---
 denbi:
-    name:
     website: https://www.denbi.de/
     logo: /images/partners/denbi.png
     description: >
@@ -15,7 +14,6 @@ denbi:
         and Malvika through in-kind contribution.
 
 elixir:
-    name:
     website: elixir-europe.org
     logo: /images/partners/elixir.png
     description: >
@@ -23,13 +21,11 @@ elixir:
         and several mentors and experts are from different ELIXIR nodes.
 
 bio-it:
-    name:
     website: https://bio-it.embl.de/
     logo: https://git.embl.de/uploads/-/system/group/avatar/413/BioIT_logo.jpeg
     description: EMBL Bio-IT is a community project of which Malvika is a coordinator of.
 
 mozilla:
-    name:
     website: https://foundation.mozilla.org/en/
     logo: /images/partners/mozilla.jpg
     description: >
@@ -37,18 +33,17 @@ mozilla:
         Thanks to our champion Abby (Abigail Cabunoc Mayes) from Mozilla Foundation for providing support in designing this program.
 
 SSI:
-    name:
     website: https://www.software.ac.uk
     logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
     description: This program will be supported by SSI fellowship offered to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
 
 turing-way:
-    name:
     website: https://the-turing-way.netlify.com
     logo: https://zenodo.org/api/iiif/v2/e4125eaf-b456-4097-85fc-6a2e80482d1c:27304005-209a-4bbf-b934-ae35aba032ef:1728_TURI_Book%20sprint_5%20turing%20way_040619.jpg/full/750,/0/default.jpg
     description: Turing Way will partner with this program to build mentor-mentee relationships in their community.
 
 university-manchester:
     name: University of Manchester
+    website: https://www.manchester.ac.uk/
     description: >
         The University is supporting Yo for her Ph.D. research.
