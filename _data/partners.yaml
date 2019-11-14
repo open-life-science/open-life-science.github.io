@@ -7,7 +7,7 @@
 # collection names should be lower case, with spaces replaced by `-`
 ---
 denbi:
-    name: de.NBI
+    name:
     website: https://www.denbi.de/
     logo: /images/partners/denbi.png
     description: >
@@ -15,29 +15,36 @@ denbi:
         and Malvika through in-kind contribution.
 
 elixir:
-    name: ELIXIR
+    name:
     website: elixir-europe.org
     logo: /images/partners/elixir.png
     description: >
-        The program organisers are associated with ELIXIR member institutes. Bérénice and Malvika are deputy training coordinators of ELIXIR Germany and several mentors and experts are from different ELIXIR nodes.
+        The program organisers are associated with ELIXIR member institutes
+        and several mentors and experts are from different ELIXIR nodes.
 
 bio-it:
-    name: EMBL Bio-IT
-    website:
+    name:
+    website: https://bio-it.embl.de/
     logo: https://git.embl.de/uploads/-/system/group/avatar/413/BioIT_logo.jpeg
     description: EMBL Bio-IT is a community project of which Malvika is a coordinator of.
 
 mozilla:
-    name: Mozilla Open Leaders
+    name:
     website: https://foundation.mozilla.org/en/
     logo: /images/partners/mozilla.jpg
     description: >
-        This program was developed as a part of <a href="https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/">Mozilla Open Leaders X (MOLx)</a> chohort.
+        This program is developed as a part of <a href="https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/">Mozilla Open Leaders X (MOLx)</a> chohort.
         Thanks to our champion Abby (Abigail Cabunoc Mayes) from Mozilla Foundation for providing support in designing this program.
 
+SSI:
+    name:
+    website: https://www.software.ac.uk
+    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
+    description: This program will be supported by SSI fellowship offered to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
+
 turing-way:
-    name: Turing way
-    website:
+    name:
+    website: https://the-turing-way.netlify.com
     logo: https://zenodo.org/api/iiif/v2/e4125eaf-b456-4097-85fc-6a2e80482d1c:27304005-209a-4bbf-b934-ae35aba032ef:1728_TURI_Book%20sprint_5%20turing%20way_040619.jpg/full/750,/0/default.jpg
     description: Turing Way will partner with this program to build mentor-mentee relationships in their community.
 
@@ -45,9 +52,3 @@ university-manchester:
     name: University of Manchester
     description: >
         The University is supporting Yo for her Ph.D. research.
-
-SSI:
-    name: Software Sustainability Institute (SSI)
-    website:
-    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
-    description: This program will be supported by SSI fellowship offered to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
