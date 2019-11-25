@@ -6,7 +6,9 @@ layout: default
 
 <div class="post">
 {% for post in site.posts %}
-    {% assign author = site.data['people'][post.author] %}
+    {% capture authors %}
+    {% for id in post.authors %}, {% assign name = site.data['people'][id].name | default: id %}{{ name }}{% endfor %}
+    {% endcapture %}
     <div class="card">
         {% if post.image %}
         <div class="card-image">
@@ -26,7 +28,7 @@ layout: default
 
                 <p class="subtitle"> 
                     <time datetime="{{ post.last_modified_at | date: date_format }}">{{ post.last_modified_at | date: date_format }}</time>
-                    - {{ author.name }}
+                    - {{ authors | remove_first: ', ' | strip }}
                 </p>
             
                 {{ post.excerpt }}
