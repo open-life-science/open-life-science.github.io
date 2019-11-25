@@ -51,11 +51,13 @@ Sarah thinks that the mandatory cohort calls will allow our participants to get 
 
 We are grateful to these Open Scientists who helped us to revise our program by providing their sincere feedback. Here are a few areas where we were able to improve our program based on their suggestions:
 
-As pointed by Caleb, we revised our program section to clarify why we focus on life science and what benefit our participants will have by joining this program.
-Based on the recommendations made by Anne and Paula, we introduced Open Data in our curriculum and will be using FAIR principle to teach them.
-In agreement with Mateusz’s recommendations, in addition to 2 mentor training calls, we included 2 catch-up calls with mentors during and at the end of the cohort. This will ensure that our mentors will have a platform to exchange their experiences and feel supported.
-In alignment with Paula’s suggestion, we have included questions in our application for the mentees to state their expectations from the program. Mentors of specific expertise will be assigned to mentees to match their expectations.
-In agreement with Sarah’s suggestion, we have published our mentors’ and experts’ profile on our website and have listed their areas of expertise. We will also share relevant information with our experts and mentors to allow them to get to know each other and exchange resources whenever required.
+- As pointed by Caleb, we revised our program section to clarify why we focus on life science and what benefit our participants will have by joining this program.
+- Based on the recommendations made by Anne and Paula, we introduced Open Data in our curriculum and will be using FAIR principle to teach them.
+- In agreement with Mateusz’s recommendations, in addition to 2 mentor training calls, we included 2 catch-up calls with mentors during and at the end of the cohort. This will ensure that our mentors will have a platform to exchange their experiences and feel supported.
+- In alignment with Paula’s suggestion, we have included questions in our application for the mentees to state their expectations from the program. Mentors of specific expertise will be assigned to mentees to match their expectations.
+- In agreement with Sarah’s suggestion, we have published our mentors’ and experts’ profile on our website and have listed their areas of expertise. We will also share relevant information with our experts and mentors to allow them to get to know each other and exchange resources whenever required.
+
+### Join a Webinar on 27 November 2019 & Submit Your Application Until 8 December 2019!
 
 With these changes, we are happy to inform that the call for applications for this program is open. Please visit [EasyChair](https://easychair.org/cfp/ols-2020) to submit your proposals until **8 December 2019**. An information session will be hosted on 27 November 2019 to address your questions regarding this program ([see details](https://docs.google.com/document/d/1EIDzZi5mgRiWR7cJQl0up470C87GsbcoTR_6-cs-SeE/edit?usp=sharing)).
 
