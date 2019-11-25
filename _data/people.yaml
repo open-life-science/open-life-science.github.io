@@ -5,42 +5,80 @@
 # collection names should be equal to github username, if not, add github: false tag
 ---
 
-aath0: 
+aath0:
     name: Athina Tzovara
     twitter: aath0
     email: athina.tz@gmail.com
     website: https://aath0.github.io/
     orcid: 0000-0002-7588-1418
     description: >
-        Athina is a neuroscientist, with a background in electrical and computer engineering. 
+        Athina is a neuroscientist, with a background in electrical and computer engineering.
         Her research combines computational and electrophysiological techniques to study human cognition.
     expert: true
 
-anenadic: 
+aidanbudd:
+    name: Aidan Budd
+    twitter: AidanBudd
+    email: aidan.budd@gmx.de
+    website: https://about.me/aidan.budd
+    orcid: 0000-0003-0196-9051
+    description: >
+        Aidan has worked in life science research in both the wet lab, and as a bioinformatician.
+        Since 2010 his focus has been on developing training and community for researchers,
+        while managing a range of life-science related networks and projects.
+        In 2020 he will be working for EMBO Solutions GmbH as a trainer for leadership for researchers.
+        He is an allocishet abled middle-class white man, and wants to do as much as he can to promote a more inclusive society and academy.
+    expert: true
+
+ajstewartlang:
+    name: Andrew Stewart
+    twitter: ajstewart_lang
+    email: andrew.stewart@manchester.ac.uk
+    website: https://ajstewartlang.netlify.com
+    orcid: 0000-0002-9795-4104
+    description: >
+        Andrew is an experimental psychologist and data scientist interested in open and reproducible research - he coordinates the Manchester Open Research Working Group and act as the UK Reproducibility Network representative at Manchester.
+        All his teaching resources are open (content-wise 95% of my teaching involves teaching R at various levels) with all lecture and seminar content, workshops etc. available on GitHub.  He also co-organises the Manchester R Users' Group, a fellow of the SSI and associate member of Carole Goble's eScience lab group.
+        All the research programmes he leads now involve open data and open code - and everything he hopes is *hopefully* fully reproducible!
+    expert: true
+    mentor: true
+
+anenadic:
     name: Aleksandra Nenadic
     twitter: aleks_nenadic
     email: a.nenadic@manchester.ac.uk
     website: https://www.software.ac.uk/about/staff/person/aleksandra-nenadic
     orcid: 0000-0002-2269-3894
     description: >
-        Over the past 5 years committed to ongoing improvement of research software practice through training and community engagement work 
-        in UK's Software Sustainability Institute and ELIXIR EU Life Sciences Infrastructure Project. Driving the training trends forward by 
-        helping communities roll out new training strategies and curricula for research in individual domains. Maintained UK's pivotal role 
-        within the international Carpentries community delivering Software, Data, Library and HPC Carpentry training, drove key strategic decisions 
-        and handled international collaborations and outreach with training communities. Organised CarpentryConnect Manchester 2019 for over 70 
+        Over the past 5 years committed to ongoing improvement of research software practice through training and community engagement work
+        in UK's Software Sustainability Institute and ELIXIR EU Life Sciences Infrastructure Project. Driving the training trends forward by
+        helping communities roll out new training strategies and curricula for research in individual domains. Maintained UK's pivotal role
+        within the international Carpentries community delivering Software, Data, Library and HPC Carpentry training, drove key strategic decisions
+        and handled international collaborations and outreach with training communities. Organised CarpentryConnect Manchester 2019 for over 70
         attendees from the Carpentry and other training communities. Carpentries instructor (since 2014) and instructor trainer (since 2017).
     expert: true
 
-anneclinio: 
+annakrystalli:
+    name: Anna Krystalli
+    twitter: annakrystalli
+    email: annakrystalli@googlemail.com
+    orcid: 0000-0002-2378-4915
+    description: >
+        Anna is an ex-macroecologists who fell in love with R and open data science.
+        Now a Research Software Engineer at the University of Sheffield,
+        she is helping scientists do more with their code and data and build more open collaborative communities.
+    expert: true
+
+anneclinio:
     name: Anne Clinio
     twitter: anneclinio
     email: anneclinio@gmail.com
     description: >
-        Anne currently works at Oswald Cruz foundation with the development of a bottom up open data policy. She is also part of a research group 
-        dedicated to open science themes, especially social innovations. 
+        Anne currently works at Oswald Cruz foundation with the development of a bottom up open data policy. She is also part of a research group
+        dedicated to open science themes, especially social innovations.
     expert: true
 
-annefou: 
+annefou:
     name: Anne Fouilloux
     twitter: AnneFouilloux
     email: annefou@geo.uio.no
@@ -67,59 +105,59 @@ bebatut:
         <a href="https://streetscience.community/">Street Science Community</a>, an outreach program.
     organizer: true
 
-dasaderi: 
+dasaderi:
     name: Daniela Saderi
     twitter: Neurosarda
     email: daniela@prereview.org
     website: https://v2.prereview.org
     orcid: 0000-0002-6109-0367
     description: >
-        She is a Neuroscientist with a passion for open, equitable, and transparent scholarship. She is a former Mozilla Fellow, 
+        Daniela is a Neuroscientist with a passion for open, equitable, and transparent scholarship. She is a former Mozilla Fellow,
         and she now leads a project called PREreview to empower researchers to engage with each other and review preprints.
     expert: true
     mentor: true
 
-fpsom: 
+fpsom:
     name: Fotis Psomopoulos
     twitter: fpsom
     email: fpsom@certh.gr
     website: https://fpsom.github.io/
     orcid: 0000-0002-0222-4273
     description: >
-        Fotis is an assistant research professor at the Institute of Applied Biosciences (INAB) at the Centre for Research and Technology 
-        Hellas (CERTH), with a primary focus on bioinformatics workflows and computational analysis of large bio-datasets using machine learning. 
-        He is trying to be an advocate of Open Science through my activities, both in the context of e-infrastructures (such as ELIXIR) as well 
-        as within the communities I am a part of (such as RDA). Additionally, he is trying to create a positive effect in the research culture within 
-        his country, both through increasing awareness of Open Science via training events, as well as by engaging with similarly-minded people 
+        Fotis is an assistant research professor at the Institute of Applied Biosciences (INAB) at the Centre for Research and Technology
+        Hellas (CERTH), with a primary focus on bioinformatics workflows and computational analysis of large bio-datasets using machine learning.
+        He is trying to be an advocate of Open Science through my activities, both in the context of e-infrastructures (such as ELIXIR) as well
+        as within the communities I am a part of (such as RDA). Additionally, he is trying to create a positive effect in the research culture within
+        his country, both through increasing awareness of Open Science via training events, as well as by engaging with similarly-minded people
         (the nascent Carpentries community in Greece being an excellent example of this).
     expert: true
     mentor: true
 
-gedankenstuecke: 
+gedankenstuecke:
     name: Bastian Greshake Tzovaras
     twitter: gedankenstuecke
     email: bgreshake@googlemail.com
     website: https://tzovar.as
     orcid: 0000-0002-9925-9623
     description: >
-        Research Fellow at the Center for Research & Interdisciplinarity in Paris. Co-Founder of openSNP, Director of Research at Open Humans. 
-        Does all things community science and loves open(science|culture|.*) 
+        Research Fellow at the Center for Research & Interdisciplinarity in Paris. Co-Founder of openSNP, Director of Research at Open Humans.
+        Does all things community science and loves open(science|culture|.*)
     expert: true
 
-ha0ye: 
+ha0ye:
     name: Hao Ye
     twitter: Hao_and_Y
     email: hao.ye@weecology.org
     website: haoye.us
     orcid: 0000-0002-8630-1458
     description: >
-        Hao is a computational ecologist at the University of Florida, working on methods for unraveling mechanisms among time series data. 
-        He participates in Mozilla OL (and other open science programs) because it combines my research focus and my interest in broadening 
+        Hao is a computational ecologist at the University of Florida, working on methods for unraveling mechanisms among time series data.
+        He participates in Mozilla OL (and other open science programs) because it combines my research focus and my interest in broadening
         inclusion and participation in STEM/academia/research.
     expert: true
     mentor: true
 
-InquisitiveVi: 
+InquisitiveVi:
     name: Vinodh Ilangovan
     twitter: I_Vinodh
     email: vinodh.ilangovan@gmail.com
@@ -128,17 +166,17 @@ InquisitiveVi:
         Biomedical scientist and science communicator interested in building effective outreach strategies for equitable access of research outputs.
     expert: true
 
-j_ellina: 
+j_ellina:
     name: Demitra Ellina
     email: Demitra.Ellina@f1000.com
     description: >
-        Demitra is the Editorial Community Manager at F1000 which she joined in 2017 after working in journal development at Springer Nature. 
-        She is a strong advocate of Open Research and engages with the research community to raise awareness of the F1000 publishing platforms. 
-        In her role, she supports the development of funder-specific platforms, particularly Wellcome Open Research. These platforms aim to transform the 
+        Demitra is the Editorial Community Manager at F1000 which she joined in 2017 after working in journal development at Springer Nature.
+        She is a strong advocate of Open Research and engages with the research community to raise awareness of the F1000 publishing platforms.
+        In her role, she supports the development of funder-specific platforms, particularly Wellcome Open Research. These platforms aim to transform the
         way science is communicated and provides researchers with innovative solutions for how their research is shared, used and reused.
     expert: true
 
-JasonJWilliamsNY: 
+JasonJWilliamsNY:
     name: Jason Williams
     twitter: JasonWilliamsNY
     email: williams@cshl.edu
@@ -148,22 +186,35 @@ JasonJWilliamsNY:
         Jason is a life scientist who spends most of his time working to help researchers adopt computational practices in research and education
     expert: true
 
-kariljordan: 
+joelostblom:
+    name: Joel Ostblom
+    twitter:
+    email: joel.ostblom@gmail.com
+    website: joelostblom.com
+    orcid: 0000-0003-0051-3239
+    description: >
+        Joel is a Biomedical Engineering PhD student who enjoys learning and teaching
+        how to better understand data (and thus the world around us!).
+        He is also passionate about openness,  reproducibility, and data visualization,
+        both within science and in general.
+    expert: true
+
+kariljordan:
     name: Kari L. Jordan
     twitter: drkariljordan
     email: kariljordan@carpentries.org
     website: www.kariljordan.com
     orcid: 0000-0003-4121-2432
     description: >
-        Kari is the Senior Director of Equity and Assessment for The Carpentries, Executive Director of the Engineer Like a Girl after-school program, 
-        and a Zumba Fitness Instructor! 
-        Kari's background is mechanical engineering, and she earned a PhD in Engineering Education from The Ohio State University. Her doctoral research 
-        explored self-efficacy of underrepresented engineering students. After completing a post-doc in the Engineering Fundamentals Department at 
-        Embry-Riddle Aeronautical University, she was hired to lead The Carpentries assessment efforts. In her current role, her focus is developing 
+        Kari is the Senior Director of Equity and Assessment for The Carpentries, Executive Director of the Engineer Like a Girl after-school program,
+        and a Zumba Fitness Instructor!
+        Kari's background is mechanical engineering, and she earned a PhD in Engineering Education from The Ohio State University. Her doctoral research
+        explored self-efficacy of underrepresented engineering students. After completing a post-doc in the Engineering Fundamentals Department at
+        Embry-Riddle Aeronautical University, she was hired to lead The Carpentries assessment efforts. In her current role, her focus is developing
         programs through the lens of equity, and setting strategic efforts around assessment that inform The Carpentries curriculum and other initiatives.
     expert: true
 
-katrinleinweber: 
+katrinleinweber:
     name: Katrin Leinweber
     email: leinweber.katrin@gmail.com
     orcid: 0000-0001-5135-5758
@@ -172,41 +223,55 @@ katrinleinweber:
     expert: true
     mentor: true
 
-kipkurui: 
+kipkurui:
     name: Caleb Kibet
     twitter: calkibet
     email: ckibet@icipe.org
     description: >
-        Caleb is a 19/20 Mozilla Fellow and a Bioinformatician,  interested in teaching, open science, reproducibility, machine learning, FAIR Genomics, 
-        and community building. 
+        Caleb is a 19/20 Mozilla Fellow and a Bioinformatician,  interested in teaching, open science, reproducibility, machine learning, FAIR Genomics,
+        and community building.
     expert: true
 
-KirstieJane: 
+KirstieJane:
     name: Kirstie Whitaker
     twitter: kirstie_j
     email: kwhitaker@turing.ac.uk
     website: https://whitakerlab.github.io/
     orcid: 0000-0001-8498-4059
     description: >
-        Kirstie is a research fellow at the Alan Turing Institute (London, UK) and senior research associate in the Department of Psychiatry at the 
-        University of Cambridge. Her work covers a broad range of interests and methods, but the driving principle is to improve the lives of neurodivergent 
-        people and people with mental health conditions. Dr Whitaker uses magnetic resonance imaging to study child and adolescent brain development and 
-        participatory citizen science to educate non-autistic people about how they can better support autistic friends and colleagues. She is the lead developer 
-        of The Turing Way, an openly developed educational resource to enable more reproducible data science. Kirstie is a passionate advocate for making science 
-        'open for all' by promoting equity and inclusion for people from diverse backgrounds, and by changing the academic incentive structure to reward collaborative 
-        working. She is the chair of the Turing Institute's Ethics Advisory Group, a Fulbright scholarship alumna and was a 2016/17 Mozilla Fellow for Science. Kirstie 
+        Kirstie is a research fellow at the Alan Turing Institute (London, UK) and senior research associate in the Department of Psychiatry at the
+        University of Cambridge. Her work covers a broad range of interests and methods, but the driving principle is to improve the lives of neurodivergent
+        people and people with mental health conditions. Dr Whitaker uses magnetic resonance imaging to study child and adolescent brain development and
+        participatory citizen science to educate non-autistic people about how they can better support autistic friends and colleagues. She is the lead developer
+        of The Turing Way, an openly developed educational resource to enable more reproducible data science. Kirstie is a passionate advocate for making science
+        'open for all' by promoting equity and inclusion for people from diverse backgrounds, and by changing the academic incentive structure to reward collaborative
+        working. She is the chair of the Turing Institute's Ethics Advisory Group, a Fulbright scholarship alumna and was a 2016/17 Mozilla Fellow for Science. Kirstie
         was named, with her collaborator Petra Vertes, as a 2016 Global Thinker by Foreign Policy magazine.
     expert: true
 
-kswhitney: 
+kswhitney:
     name: Kaitlin Stack Whitney
     twitter: kstackwhitney
     email: kxwsbi@rit.edu
     website: https://pht180.rit.edu/sweetlab/
     orcid: 0000-0002-0815-5037
     description: >
-        Kaitlin is an assistant professor in the Science, Technology & Society department at the Rochester Institute of Technology in Rochester, NY USA. She is also 
+        Kaitlin is an assistant professor in the Science, Technology & Society department at the Rochester Institute of Technology in Rochester, NY USA. She is also
         extended program faculty in the Environmental Sciences Program.
+    expert: true
+    mentor: true
+
+luispedro:
+    name: Luis Pedro Coelho
+    twitter: luispedrocoelho
+    email: luis@luispedro.org
+    website: http://luispedro.org
+    orcid: 0000-0002-9280-7885
+    description: >
+        Luis is Junior PI at Fudan University in Shanghai.
+        His work in computational biology focus on the global microbiome.
+        He has written several open source scientific software packages
+        and organized and taught at multiple Software Carpentry workshops.
     expert: true
     mentor: true
 
@@ -231,19 +296,30 @@ malvikasharan:
         Through her work, she promotes inclusiveness in Open Science communities.
     organizer: true
 
-mkuzak: 
+mkuzak:
     name: Mateusz Kuzak
     twitter: matkuzak
     email: mateusz.kuzak@gmail.com
     orcid: 0000-0003-0087-6021
     description: >
-        Mateusz is Research Software Community Manager at the Netherlands eScience Center. He has background in life sciences and have been working 
-        with bioinformatics data analysis and research software engineering. Past few years he has been involved in the Carpentries as an instructor, 
-        trainer and mentor (both in the mentoring subcommittee and mentoring teams). 
+        Mateusz is Research Software Community Manager at the Netherlands eScience Center. He has background in life sciences and have been working
+        with bioinformatics data analysis and research software engineering. Past few years he has been involved in the Carpentries as an instructor,
+        trainer and mentor (both in the mentoring subcommittee and mentoring teams).
     expert: true
     mentor: true
 
-nerantzis: 
+mvdbeek:
+    name: Marius van den Beek
+    twitter: mariusvdbeek
+    email: m.vandenbeek@gmail.com
+    orcid: 0000-0002-9676-7032
+    description: >
+        Marius is a core Galaxy developer since 2015 and working full time on Galaxy since 2019.
+        He has learned programming during my PhD in developmental biology, and quickly shifted towards data analysis and Galaxy development after that.
+    expert: true
+    mentor: true
+
+nerantzis:
     name: Nikolaos Nerantzis
     twitter: nerantzis
     email: ScienceBrainFun@gmail.com
@@ -252,58 +328,83 @@ nerantzis:
         Physicist, Teacher, Mozillian
     expert: true
 
-npscience: 
+npscience:
     name: Naomi Penfold
     twitter: npscience
     email: naomi.penfold@asapbio.org
     website: https://npscience.github.io
     orcid: 0000-0003-0568-1194
     description: >
-        Naomi cares about improving transparency and equity in processes that affect how we produce, share and use knowledge, from the evaluation of 
-        research manuscripts to the design of everyday tools. As Associate Director of ASAPbio, she works to engage the research community and other 
-        stakeholders about the productive use of preprints for biology through convening, facilitation, community building and resource development. 
-        Her lens is influenced by my experiences: she is European, an OpenCon alumnus, MozFest facilitator, an advisor to PREreview, on the board of directors 
-        for Dryad, a CSCCE scientific community engagement fellow (#CEFP2019), organiser of #eLifeSprint 2018, and a human continually practising balance 
+        Naomi cares about improving transparency and equity in processes that affect how we produce, share and use knowledge, from the evaluation of
+        research manuscripts to the design of everyday tools. As Associate Director of ASAPbio, she works to engage the research community and other
+        stakeholders about the productive use of preprints for biology through convening, facilitation, community building and resource development.
+        Her lens is influenced by my experiences: she is European, an OpenCon alumnus, MozFest facilitator, an advisor to PREreview, on the board of directors
+        for Dryad, a CSCCE scientific community engagement fellow (#CEFP2019), organiser of #eLifeSprint 2018, and a human continually practising balance
         and kindness.
     expert: true
     mentor: true
 
-orchid00: 
+nsoranzo:
+    name: Nicola Soranzo
+    twitter: NicolaSoranzo
+    email: nicola.soranzo@gmail.com
+    website: https://www.earlham.ac.uk/nicola-soranzo
+    orcid: 0000-0003-3627-5340
+    description: >
+        Nicola works at the Earlham Institute, where he manages and supports a Galaxy web server to run large-scale analyses in an accessible and reproducible way.
+        He also collaborates on the open source development of the Galaxy platform and its tools.
+        Nicola is a Carpentries Instructor and a Galaxy trainer. He is currently the Technical Coordinator for ELIXIR-UK.
+    mentor: true
+    expert: true
+
+orchid00:
     name: Paula Andrea Martinez
     email: p.martinez@uq.edu.au
     orcid: 0000-0002-8990-1985
     description: >
-        Paula is an Open Science advocate her passions are data management, data analytics, research, and diversity. She is a computer scientist who 
-        has worked on data intensive bioinformatics and data management. She has also collaborated on community projects such as The Carpentries, rOpenSci, 
+        Paula is an Open Science advocate her passions are data management, data analytics, research, and diversity. She is a computer scientist who
+        has worked on data intensive bioinformatics and data management. She has also collaborated on community projects such as The Carpentries, rOpenSci,
         RLadies. Currently she works for the National Imaging Facility in Australia.
     expert: true
 
-pherterich: 
+pherterich:
     name: Patricia
     twitter: pherterich
-    email: 
+    email:
     orcid: 0000-0002-4542-9906
     description: >
-        Patricia is currently a Research Data Specialist working at the Digital Curation Centre at the University of Edinburgh working on the FAIRsFAIR 
-        project aiming at fostering Fair Data Practices in Europe. Before joining the DCC, she was the Research Repository Advisor at the University of 
-        Birmingham and have previously worked as a data librarian at CERN's Scientific Information Service working closely with software developers to 
+        Patricia is currently a Research Data Specialist working at the Digital Curation Centre at the University of Edinburgh working on the FAIRsFAIR
+        project aiming at fostering Fair Data Practices in Europe. Before joining the DCC, she was the Research Repository Advisor at the University of
+        Birmingham and have previously worked as a data librarian at CERN's Scientific Information Service working closely with software developers to
         deliver data and code sharing solutions. She loves collaborating openly and making projects welcoming to new comers.
     expert: true
     mentor: true
 
-rainsworth: 
+profgiuseppe:
+    name: Giuseppe Profiti
+    twitter:
+    email: profgiuseppe@gmail.com
+    website: https://sites.google.com/site/peppeprofiti
+    orcid: 0000-0001-6067-6174
+    description: >
+        Giuseppe was a researcher in bioinformatics and teacher of programming in an international MSc degree.
+        After moving to industry, he is focusing on devops, reproducible science and the creation of databases
+        and tools for research institutions, hospitals and companies. Wikimedian at heart, he loves when knowledge is open and shareable.
+    expert: true
+
+rainsworth:
     name: Rachael Ainsworth
     twitter: rachaelevelyn
     email: rainswor@gmail.com
     website: https://rainsworth.github.io/
     orcid: 0000-0003-2591-9462
     description: >
-        Rachael is a Research Software Community Manager for the Software Sustainability Institute and Open Science advocate at the University of Manchester. 
-        She is passionate about openness, transparency, reproducibility, wellbeing and inclusion in research. She was a project lead in Round 4 and Mentor 
+        Rachael is a Research Software Community Manager for the Software Sustainability Institute and Open Science advocate at the University of Manchester.
+        She is passionate about openness, transparency, reproducibility, wellbeing and inclusion in research. She was a project lead in Round 4 and Mentor
         and Cohort Host in Round 5 of Mozilla Open Leaders, and organises a women in data meetup group in Manchester called HER+Data MCR.
     expert: true
 
-rodrigocam: 
+rodrigocam:
     name: Rodrigo Oliveira Campos
     twitter: sayadiguin
     email: rodrigo.redcode@gmail.com
@@ -311,19 +412,30 @@ rodrigocam:
         Software Engineering Student at University of Brasília, open source developer, python programmer, functional languages lover!
     mentor: true
 
-tobyhodges: 
+satagopam7:
+    name: Venkata Satagopam
+    twitter:
+    email: venkata.satagopam@uni.lu
+    website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
+    orcid: 0000-0002-6532-5880
+    description: >
+        Venkata is a Bioinformatician, and a Senior Researcher at Bioinformatics core facility, and Deputy Head of the BioMedical Informatics Department, LCSB, University of Luxembourg. He is also Technical Coordinator (TeC) of ELIXIR-Luxembourg Node and CTO & Co-founder ITTM S.A. Luxembourg. He joined University of Luxembourg in January 2013 and is having around two decades of working experience in various bioinformatics fields including Data Integration and Knowledge Management; Clinical and Translational Data Curation, Harmonisation, Integration and Analysis; Dynamic Visual Analytics; Text-mining; Deep learning and advanced machine learning technologies. Before joining LCSB, between 2004-2012 he worked as a Senior Bioinformatics Scientist at the EMBL, Heidelberg. Before EMBL he worked as a Bioinformatics Scientist at LION bioscience AG, Heidelberg. He is an associate editor of Frontiers in Systems Biology, co-chair of ISCB Education Committee involved in the organisation of several conferences, workshops, code/data hackathons.
+    expert: true
+    mentor: true
+
+tobyhodges:
     name: Toby Hodges
     twitter: tbyhdgs
     email: tbyhdgs@gmail.com
     website: https://tbyhdgs.info
     orcid: 0000-0003-1766-456X
     description: >
-        Toby manages EMBL Bio-IT, a community of bioinformaticians/computational biologists at the European Molecular Biology Laboratory in Heidelberg, Germany. 
-        They do a lot of training, in- and outreach, and provide a bunch of cool resources to help our community members connect, collaborate, and do their 
+        Toby manages EMBL Bio-IT, a community of bioinformaticians/computational biologists at the European Molecular Biology Laboratory in Heidelberg, Germany.
+        They do a lot of training, in- and outreach, and provide a bunch of cool resources to help our community members connect, collaborate, and do their
         research openly and effectively. He is also quite active in The Carpentries, as an instructor, instructor trainer, discussion host, mentor, etc.
     mentor: true
 
-unode: 
+unode:
     name: Renato Alves
     twitter: renato_alvs
     email: renato.alves@embl.de
@@ -348,11 +460,10 @@ yochannah:
         and a software developer at the University of Cambridge, working on an open source biological data warehouse called <a href="http://intermine.org/">InterMine</a>.
     organizer: true
 
-Zebetus: 
+Zebetus:
     name: Harry Smith
     twitter: Zebetus
     email: haz.zebetus@gmail.com
     description: >
-        A mentor for many previous waves of open leaders, who is currently studying for their PhD at UCL. 
+        A mentor for many previous waves of open leaders, who is currently studying for their PhD at UCL.
     mentor: true
-
