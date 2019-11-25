@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Digital Storytelling for Culture Change
-author: malvikasharan
+authors: malvikasharan
 image: /images/2019-10-21-storytelling.jpeg
 ---
 

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Our application to the OLx
-author: bebatut, malvikasharan, yochannah
+authors: 
+- bebatut
+- malvikasharan
+- yochannah
 image: /images/2019-09-24-application.png
 ---
 

@@ -13,10 +13,12 @@ layout: base
     {% endif %}
 
     {% if page.layout == 'post' %}
-      {% assign author = site.data['people'][page.author] %}
+      {% capture authors %}
+      {% for id in page.authors %}, {% assign name = site.data['people'][id].name | default: id %}{{ name }}{% endfor %}
+      {% endcapture %}
       <p class="subtitle is-5">
           <time datetime="{{ page.last_modified_at | date: date_format }}">{{ page.last_modified_at | date: date_format }}</time>
-          - {{ author.name }}
+          - {{ authors | remove_first: ', ' | strip }}
       </p>
     {% endif %}
   </div>

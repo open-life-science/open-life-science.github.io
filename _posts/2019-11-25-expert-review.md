@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Revising our program with the help of Open Science Leaders
-author: malvikasharan, yoyehudi, bebatut
+authors:
+- malvikasharan
+- yochannah
+- bebatut
 image: /images/2019-11-25-header-expert.jpeg
 photos:
   name: isaacmsmith
