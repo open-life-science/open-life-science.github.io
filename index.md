@@ -26,7 +26,7 @@ We are recruiting our first cohort of mentees for the upcoming round that starts
 
 Applications are now **open**! Please visit [EasyChair](https://easychair.org/cfp/ols-2020) to view our application instructions and upload your application before the end of day on December 8th, 2019. 
 
-Any questions? We are here to help - feel free to email [hello@openlifesci.org](mailto:hello@openlifesci.org) or connect with us on Twitter [@openlifesci](https://twitter.com/openlifesci). 
+Any questions? We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) or connect with us on Twitter [@openlifesci](https://twitter.com/openlifesci). 
 
 #### Timeline
 
