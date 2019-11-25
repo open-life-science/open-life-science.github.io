@@ -59,7 +59,7 @@ In agreement with Sarah’s suggestion, we have published our mentors’ and exp
 
 With these changes, we are happy to inform that the call for applications for this program is open. Please visit [EasyChair](https://easychair.org/cfp/ols-2020) to submit your proposals until **8 December 2019**. An information session will be hosted on 27 November 2019 to address your questions regarding this program ([see details](https://docs.google.com/document/d/1EIDzZi5mgRiWR7cJQl0up470C87GsbcoTR_6-cs-SeE/edit?usp=sharing)).
 
-Finally, we want to invite our readers to feel free to reach out to us (email: hello@openlifesci.org) if they have any suggestions to make this program more welcoming and beneficial for others in our community.
+Finally, we want to invite our readers to feel free to reach out to us (email: hello@openlifesci.org) with any suggestions that can make this program more welcoming and beneficial for others in our community.
 
 
 *Cover image from by [@isaacmsmith](https://unsplash.com/photos/Ij7h-m4nJ18) on Unsplash*
