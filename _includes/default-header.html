@@ -27,8 +27,17 @@
               <a class="navbar-item" href="/index#projects"> Projects </a>
               <a class="navbar-item" href="/index#the-program-itself"> The program itself </a>
               <a class="navbar-item" href="/index#cohort-calls"> Cohort Calls </a>
+            </div>
+          </div>
 
-              <a class="navbar-item" href="/syllabus"> Syllabus </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/ols-1">OLS-1</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/ols-1"> Syllabus </a>
+              <a class="navbar-item" href="/ols-1#schedule"> Schedule</a>
+              {% for page in site.ols-1 %}
+                <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
+              {% endfor %}
             </div>
           </div>
 

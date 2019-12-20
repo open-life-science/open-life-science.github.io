@@ -30,9 +30,9 @@ Any questions? We are here to help - feel free to email [{{ site.email|replace:'
 
 #### Timeline
 
-{% include _includes/timeline.md %}
+{% include _includes/ols-1-timeline.md %}
 
-  A detailed schedule of the program is available in the [syllabus](syllabus#schedule).
+  A detailed schedule of the program is available in the [syllabus](_ols-1#schedule).
 
 ## Projects
 
