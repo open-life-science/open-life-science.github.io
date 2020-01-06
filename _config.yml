@@ -10,6 +10,9 @@ twitter: openlifesci
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
+  ols-1:
+    permalink: /ols-1/:path/
+    output: true
 
 includes_dir: .
 
