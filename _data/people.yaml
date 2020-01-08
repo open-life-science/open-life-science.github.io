@@ -280,6 +280,7 @@ kipkurui:
         Caleb is a 19/20 Mozilla Fellow and a Bioinformatician,  interested in teaching, open science, reproducibility, machine learning, FAIR Genomics,
         and community building.
     expert: true
+    mentor: true
 
 KirstieJane:
     name: Kirstie Whitaker
