@@ -480,18 +480,7 @@ satagopam7:
     website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
     orcid: 0000-0002-6532-5880
     description: >
-        Venkata is a Bioinformatician, and a Senior Researcher at Bioinformatics core facility, and Deputy Head of the BioMedical Informatics Department, LCSB, University of Luxembourg. He is also Technical Coordinator (TeC) of ELIXIR-Luxembourg Node and CTO & Co-founder ITTM S.A. Luxembourg. He joined University of Luxembourg in January 2013 and is having around two decades of working experience in various bioinformatics fields including Data Integration and Knowledge Management; Clinical and Translational Data Curation, Harmonisation, Integration and Analysis; Dynamic Visual Analytics; Text-mining; Deep learning and advanced machine learning technologies. Before joining LCSB, between 2004-2012 he worked as a Senior Bioinformatics Scientist at the EMBL, Heidelberg. Before EMBL he worked as a Bioinformatics Scientist at LION bioscience AG, Heidelberg. He is an associate editor of Frontiers in Systems Biology, co-chair of ISCB Education Committee involved in the organisation of several conferences, workshops, code/data hackathons.
-    expert: true
-    mentor: true
-
-satagopam7:
-    name: Venkata Satagopam
-    twitter: satagopam
-    email: Venkata.satagopam@uni.lu
-    website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
-    orcid: 0000-0002-6532-5880
-    description: >
-        Dr. Venkata Satagopam is a Bioinformatician, a Senior Researcher at Bioinformatics core facility, 
+        Venkata is a Bioinformatician, a Senior Researcher at Bioinformatics core facility, 
         and Deputy Head of the BioMedical Informatics Department, LCSB, University of Luxembourg. 
         He is also Technical Coordinator (TeC) of ELIXIR-Luxembourg Node and CTO & Co-founder ITTM S.A. Luxembourg. 
         He has around two decades of working experience in various bioinformatics fields including 
