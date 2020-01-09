@@ -509,10 +509,27 @@ unode:
     email: renato.alves@embl.de
     orcid: 0000-0002-7212-0234
     description: >
-        Renato is a biologist by training with a passion for computational work. Love learning about as much as teaching. Open source junky. Certified computer geek.
+        Renato is a biologist by training with a passion for computational work. 
+        Love learning about as much as teaching. Open source junky. Certified computer geek.
     expert: true
     mentor: true
 
+VickyNembaware:
+    name: Vicky Nembaware
+    twitter: VickyNembaware
+    orcid: 0000-0001-7966-4042
+    description: >
+        Vicky has a PhD in Bioinformatics and an MPhil in Monitoring and Evaluation. 
+        Her research experience (qualitative and quantitative) spans Genomics and Public Health.  
+        She is currently a Project Coordinator for the Sickle Africa Data Coordinating Center at 
+        the University of Cape Town. She also coordinates several other groups and projects 
+        including the African Genomic Medicine Training Initiative (AGMT), 
+        Sickle Cell Disease Ontology Working Group (SCDO) and mGenAfrica.  
+        She is the current secretary of the African Society of Human Genetics (AfSHG). 
+        She is passionate about building research capacity, mentoring 
+        young investigators and translational research. 
+    mentor: 
+    
 yochannah:
     name: Yo Yehudi
     twitter: yoyehudi
