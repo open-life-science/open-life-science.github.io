@@ -106,16 +106,6 @@ bebatut:
         <a href="https://streetscience.community/">Street Science Community</a>, an outreach program.
     organizer: true
 
-BhuvanaMeenakshiK:
-    name: Bhuvana Meenakshi Koteeswaran
-    twitter: bhuvanakotees1
-    email: bhuvanameenakshi@gmail.com
-    website: https://www.linkedin.com/in/bhuvana-meenakshi-koteeswaran-a67b58103/
-    description: >
-        Bhuvana is a gender gap and Mixed Reality researcher trying to unfold the ethics of technology in a more humane way.
-        Her expertise are in Gender gap, Mozilla technologies and Wikimedia projects.
-    expert: true
-
 bgruening:
     name: Björn Grüning
     twitter: bjoerngruening
@@ -126,6 +116,16 @@ bgruening:
         Björn is working in the European Galaxy team and tries to help make science open wherever he can. 
         He is an expert in the topics related to Container, Conda, Galaxy, Python, reproducible research, and training.
     expert: true
+    expert: true
+    
+BhuvanaMeenakshiK:
+    name: Bhuvana Meenakshi Koteeswaran
+    twitter: bhuvanakotees1
+    email: bhuvanameenakshi@gmail.com
+    website: https://www.linkedin.com/in/bhuvana-meenakshi-koteeswaran-a67b58103/
+    description: >
+        Bhuvana is a gender gap and Mixed Reality researcher trying to unfold the ethics of technology in a more humane way.
+        Her expertise are in Gender gap, Mozilla technologies and Wikimedia projects.
     expert: true
     
 dasaderi:
