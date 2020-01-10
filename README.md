@@ -87,6 +87,14 @@ In the sequel, we assume you use miniconda.
 7. Open the website in your favorite browser at:
    [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 
+## Run the link checks
+
+To avoid dead or wrong links, run the link checkers:
+
+```
+make check-html
+```
+
 ## Create a new blog post
 
 To create a new blog post:
