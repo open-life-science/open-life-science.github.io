@@ -140,6 +140,16 @@ dasaderi:
     expert: true
     mentor: true
     
+Demellina:
+    name: Demitra Ellina
+    email: Demitra.Ellina@f1000.com
+    description: >
+        Demitra is the Editorial Community Manager at F1000 which she joined in 2017 after working in journal development at Springer Nature.
+        She is a strong advocate of Open Research and engages with the research community to raise awareness of the F1000 publishing platforms.
+        In her role, she supports the development of funder-specific platforms, particularly Wellcome Open Research. These platforms aim to transform the
+        way science is communicated and provides researchers with innovative solutions for how their research is shared, used and reused.
+    expert: true
+
 emmyft:
     name: Emmy Tsang
     twitter: emmy_ft
@@ -184,7 +194,7 @@ ha0ye:
     name: Hao Ye
     twitter: Hao_and_Y
     email: hao.ye@weecology.org
-    website: haoye.us
+    website: https://haoye.us
     orcid: 0000-0002-8630-1458
     description: >
         Hao is a computational ecologist at the University of Florida, working on methods for unraveling mechanisms among time series data.
@@ -215,16 +225,6 @@ InquisitiveVi:
         building effective outreach strategies for equitable access of research outputs.
     expert: true
 
-j_ellina:
-    name: Demitra Ellina
-    email: Demitra.Ellina@f1000.com
-    description: >
-        Demitra is the Editorial Community Manager at F1000 which she joined in 2017 after working in journal development at Springer Nature.
-        She is a strong advocate of Open Research and engages with the research community to raise awareness of the F1000 publishing platforms.
-        In her role, she supports the development of funder-specific platforms, particularly Wellcome Open Research. These platforms aim to transform the
-        way science is communicated and provides researchers with innovative solutions for how their research is shared, used and reused.
-    expert: true
-
 JasonJWilliamsNY:
     name: Jason Williams
     twitter: JasonWilliamsNY
@@ -239,7 +239,7 @@ joelostblom:
     name: Joel Ostblom
     twitter:
     email: joel.ostblom@gmail.com
-    website: joelostblom.com
+    website: https://joelostblom.com
     orcid: 0000-0003-0051-3239
     description: >
         Joel is a Biomedical Engineering PhD student who enjoys learning and teaching
@@ -252,7 +252,7 @@ kariljordan:
     name: Kari L. Jordan
     twitter: drkariljordan
     email: kariljordan@carpentries.org
-    website: www.kariljordan.com
+    website: https://www.kariljordan.com
     orcid: 0000-0003-4121-2432
     description: >
         Kari is the Senior Director of Equity and Assessment for The Carpentries, Executive Director of the Engineer Like a Girl after-school program,
@@ -432,7 +432,6 @@ orchid00:
 pherterich:
     name: Patricia
     twitter: pherterich
-    email:
     orcid: 0000-0002-4542-9906
     description: >
         Patricia is currently a Research Data Specialist working at the Digital Curation Centre at the University of Edinburgh working on the FAIRsFAIR
@@ -444,7 +443,6 @@ pherterich:
 
 profgiuseppe:
     name: Giuseppe Profiti
-    twitter:
     email: profgiuseppe@gmail.com
     website: https://sites.google.com/site/peppeprofiti
     orcid: 0000-0001-6067-6174

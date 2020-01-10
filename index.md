@@ -26,13 +26,13 @@ We are recruiting our first cohort of mentees for the upcoming round that starts
 
 Applications are now **open**! Please visit [EasyChair](https://easychair.org/cfp/ols-2020) to view our application instructions and upload your application before the end of day on December 8th, 2019. 
 
-Any questions? We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) or connect with us on Twitter [@openlifesci](https://twitter.com/openlifesci). 
+Any questions? We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) or connect with us on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}). 
 
 #### Timeline
 
 {% include _includes/ols-1-timeline.md %}
 
-  A detailed schedule of the program is available in the [syllabus](_ols-1#schedule).
+  A detailed schedule of the program is available in the [syllabus](ols-1#schedule).
 
 ## Projects
 
@@ -42,7 +42,7 @@ Your project ideas can range from solving technical questions, to creating an 
 
 All applications are welcome, whether your project is just an idea at this stage, or something that is running for years, but, your projects must:
 
-- promote one or several [Open Science practices](https://www.fosteropenscience.eu/content/what-open-science-introduction) (i.e. Open Access, Open Source, Citizen Science, ) in life science
+- promote one or several Open Science practices (i.e. Open Access, Open Source, Citizen Science, ) in life science
 - state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
 - create an inclusive space and welcome contributions from their community members
 
@@ -82,7 +82,7 @@ After the selection process, they will be involved in the following steps of thi
 
     They will meet every 2 weeks. In these **mentee-mentor calls** (around 30 minutes), Sam will help Joy evaluate their understanding of the new topics, and review their progress by providing constructive feedback. Joy will be given relevant exercises before these calls to help them apply new skills in their project. When needed, Joy and Sam will be able to connect with other [experts](about#experts) and get consulted on their project.
 
-2. Joy will participate to online calls where [relevant contents related to Open Life Science](syllabus#schedule) is shared and discussed with all participants of the program.
+2. Joy will participate to online calls where [relevant contents related to Open Life Science](ols-1#schedule) is shared and discussed with all participants of the program.
 
     In these **cohort calls**, the program leaders will introduce new topics and resources, facilitate break-out discussions, and invite [expert](about#experts) from the field to give talks. In the first call Joy will get to know all the participants of the program, present their project, learn about others' projects. A final cohort call will allow Joy to present their project to other participants and exchange values.
 
