@@ -26,7 +26,9 @@
           {% if user.website %}
           <a href="{{ user.website }}"><i class="fas fa-globe"></i></a>
           {% endif %}
+          {% if user.github != false %}
           <a href="https://github.com/{{ username }}"><i class="fab fa-github"></i></a>
+          {% endif %}
           {% if user.gitter %}
           <a href="https://gitter.im/{{ user.gitter }}"><i class="fas fa-comments"></i></a>
           {% endif %}
