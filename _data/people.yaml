@@ -187,7 +187,8 @@ gedankenstuecke:
     website: https://tzovar.as
     orcid: 0000-0002-9925-9623
     description: >
-        Research Fellow at the Center for Research & Interdisciplinarity in Paris. Co-Founder of openSNP, Director of Research at Open Humans.
+        Research Fellow at the Center for Research & Interdisciplinarity in Paris. Co-Founder of openSNP, 
+        Director of Research at Open Humans.
         Does all things community science and loves open(science|culture|.*)
     expert: true
 
@@ -198,8 +199,10 @@ ha0ye:
     website: haoye.us
     orcid: 0000-0002-8630-1458
     description: >
-        Hao is a computational ecologist at the University of Florida, working on methods for unraveling mechanisms among time series data.
-        He participates in Mozilla OL (and other open science programs) because it combines my research focus and my interest in broadening
+        Hao is a computational ecologist at the University of Florida, working on methods for unraveling 
+        mechanisms among time series data.
+        He participates in Mozilla OL (and other open science programs) because it combines my research 
+        focus and my interest in broadening
         inclusion and participation in STEM/academia/research.
     expert: true
     mentor: true
@@ -233,7 +236,8 @@ JasonJWilliamsNY:
     website: https://lifescitrainers.org
     orcid: 0000-0003-3049-2010
     description: >
-        Jason is a life scientist who spends most of his time working to help researchers adopt computational practices in research and education
+        Jason is a life scientist who spends most of his time working to help researchers adopt 
+        computational practices in research and education
     expert: true
 
 joelostblom:
@@ -269,7 +273,8 @@ katrinleinweber:
     email: leinweber.katrin@gmail.com
     orcid: 0000-0001-5135-5758
     description: >
-        Studied biochemistry, arctic ecology & geology, PhDed in diatom biofilms. Worked in tech support (Prezi), pharma-LIMS & OA data analysis.
+        Studied biochemistry, arctic ecology & geology, PhDed in diatom biofilms. 
+        Worked in tech support (Prezi), pharma-LIMS & OA data analysis.
     expert: true
     mentor: true
 
@@ -278,7 +283,8 @@ kipkurui:
     twitter: calkibet
     email: ckibet@icipe.org
     description: >
-        Caleb is a 19/20 Mozilla Fellow and a Bioinformatician,  interested in teaching, open science, reproducibility, machine learning, FAIR Genomics,
+        Caleb is a 19/20 Mozilla Fellow and a Bioinformatician,  interested in teaching, open science, 
+        reproducibility, machine learning, FAIR Genomics,
         and community building.
     expert: true
     mentor: true
@@ -307,7 +313,8 @@ kswhitney:
     website: https://pht180.rit.edu/sweetlab/
     orcid: 0000-0002-0815-5037
     description: >
-        Kaitlin is an assistant professor in the Science, Technology & Society department at the Rochester Institute of Technology in Rochester, NY USA. She is also
+        Kaitlin is an assistant professor in the Science, Technology & Society department at the 
+        Rochester Institute of Technology in Rochester, NY USA. She is also
         extended program faculty in the Environmental Sciences Program.
     expert: true
     mentor: true
@@ -353,8 +360,10 @@ mkuzak:
     email: mateusz.kuzak@gmail.com
     orcid: 0000-0003-0087-6021
     description: >
-        Mateusz is Research Software Community Manager at the Netherlands eScience Center. He has background in life sciences and have been working
-        with bioinformatics data analysis and research software engineering. Past few years he has been involved in the Carpentries as an instructor,
+        Mateusz is Research Software Community Manager at the Netherlands eScience Center. 
+        He has background in life sciences and have been working
+        with bioinformatics data analysis and research software engineering. 
+        Past few years he has been involved in the Carpentries as an instructor,
         trainer and mentor (both in the mentoring subcommittee and mentoring teams).
     expert: true
     mentor: true
@@ -378,7 +387,8 @@ mvdbeek:
     orcid: 0000-0002-9676-7032
     description: >
         Marius is a core Galaxy developer since 2015 and working full time on Galaxy since 2019.
-        He has learned programming during my PhD in developmental biology, and quickly shifted towards data analysis and Galaxy development after that.
+        He has learned programming during my PhD in developmental biology, and quickly shifted 
+        towards data analysis and Galaxy development after that.
     expert: true
     mentor: true
 
@@ -398,11 +408,16 @@ npscience:
     website: https://npscience.github.io
     orcid: 0000-0003-0568-1194
     description: >
-        Naomi cares about improving transparency and equity in processes that affect how we produce, share and use knowledge, from the evaluation of
-        research manuscripts to the design of everyday tools. As Associate Director of ASAPbio, she works to engage the research community and other
-        stakeholders about the productive use of preprints for biology through convening, facilitation, community building and resource development.
-        Her lens is influenced by my experiences: she is European, an OpenCon alumnus, MozFest facilitator, an advisor to PREreview, on the board of directors
-        for Dryad, a CSCCE scientific community engagement fellow (#CEFP2019), organiser of #eLifeSprint 2018, and a human continually practising balance
+        Naomi cares about improving transparency and equity in processes that affect how we 
+        produce, share and use knowledge, from the evaluation of
+        research manuscripts to the design of everyday tools. As Associate Director of ASAPbio, 
+        she works to engage the research community and other
+        stakeholders about the productive use of preprints for biology through convening, 
+        facilitation, community building and resource development.
+        Her lens is influenced by my experiences: she is European, an OpenCon alumnus, 
+        MozFest facilitator, an advisor to PREreview, on the board of directors
+        for Dryad, a CSCCE scientific community engagement fellow (#CEFP2019), organiser of 
+        #eLifeSprint 2018, and a human continually practising balance
         and kindness.
     expert: true
     mentor: true
@@ -414,7 +429,8 @@ nsoranzo:
     website: https://www.earlham.ac.uk/nicola-soranzo
     orcid: 0000-0003-3627-5340
     description: >
-        Nicola works at the Earlham Institute, where he manages and supports a Galaxy web server to run large-scale analyses in an accessible and reproducible way.
+        Nicola works at the Earlham Institute, where he manages and supports a Galaxy web server 
+        to run large-scale analyses in an accessible and reproducible way.
         He also collaborates on the open source development of the Galaxy platform and its tools.
         Nicola is a Carpentries Instructor and a Galaxy trainer. He is currently the Technical Coordinator for ELIXIR-UK.
     mentor: true
@@ -425,8 +441,10 @@ orchid00:
     email: p.martinez@uq.edu.au
     orcid: 0000-0002-8990-1985
     description: >
-        Paula is an Open Science advocate her passions are data management, data analytics, research, and diversity. She is a computer scientist who
-        has worked on data intensive bioinformatics and data management. She has also collaborated on community projects such as The Carpentries, rOpenSci,
+        Paula is an Open Science advocate her passions are data management, data analytics, 
+        research, and diversity. She is a computer scientist who
+        has worked on data intensive bioinformatics and data management. She has also collaborated 
+        on community projects such as The Carpentries, rOpenSci,
         RLadies. Currently she works for the National Imaging Facility in Australia.
     expert: true
 
@@ -436,10 +454,14 @@ pherterich:
     email:
     orcid: 0000-0002-4542-9906
     description: >
-        Patricia is currently a Research Data Specialist working at the Digital Curation Centre at the University of Edinburgh working on the FAIRsFAIR
-        project aiming at fostering Fair Data Practices in Europe. Before joining the DCC, she was the Research Repository Advisor at the University of
-        Birmingham and have previously worked as a data librarian at CERN's Scientific Information Service working closely with software developers to
-        deliver data and code sharing solutions. She loves collaborating openly and making projects welcoming to new comers.
+        Patricia is currently a Research Data Specialist working at the Digital 
+        Curation Centre at the University of Edinburgh working on the FAIRsFAIR
+        project aiming at fostering Fair Data Practices in Europe. 
+        Before joining the DCC, she was the Research Repository Advisor at the University of
+        Birmingham and have previously worked as a data librarian at CERN's 
+        Scientific Information Service working closely with software developers to
+        deliver data and code sharing solutions. She loves collaborating openly 
+        and making projects welcoming to new comers.
     expert: true
     mentor: true
 
@@ -452,7 +474,8 @@ profgiuseppe:
     description: >
         Giuseppe was a researcher in bioinformatics and teacher of programming in an international MSc degree.
         After moving to industry, he is focusing on devops, reproducible science and the creation of databases
-        and tools for research institutions, hospitals and companies. Wikimedian at heart, he loves when knowledge is open and shareable.
+        and tools for research institutions, hospitals and companies. 
+        Wikimedian at heart, he loves when knowledge is open and shareable.
     expert: true
 
 rainsworth:
@@ -462,9 +485,12 @@ rainsworth:
     website: https://rainsworth.github.io/
     orcid: 0000-0003-2591-9462
     description: >
-        Rachael is a Research Software Community Manager for the Software Sustainability Institute and Open Science advocate at the University of Manchester.
-        She is passionate about openness, transparency, reproducibility, wellbeing and inclusion in research. She was a project lead in Round 4 and Mentor
-        and Cohort Host in Round 5 of Mozilla Open Leaders, and organises a women in data meetup group in Manchester called HER+Data MCR.
+        Rachael is a Research Software Community Manager for the Software 
+        Sustainability Institute and Open Science advocate at the University of Manchester.
+        She is passionate about openness, transparency, reproducibility, 
+        wellbeing and inclusion in research. She was a project lead in Round 4 and Mentor
+        and Cohort Host in Round 5 of Mozilla Open Leaders, and organises a 
+        women in data meetup group in Manchester called HER+Data MCR.
     expert: true
 
 rodrigocam:
@@ -472,9 +498,36 @@ rodrigocam:
     twitter: sayadiguin
     email: rodrigo.redcode@gmail.com
     description: >
-        Software Engineering Student at University of Brasília, open source developer, python programmer, functional languages lover!
+        Software Engineering Student at University of Brasília, open source developer, 
+        python programmer, functional languages lover!
     mentor: true
 
+tobyhodges:
+    name: Toby Hodges
+    twitter: tbyhdgs
+    email: tbyhdgs@gmail.com
+    website: https://tbyhdgs.info
+    orcid: 0000-0003-1766-456X
+    description: >
+        Toby manages EMBL Bio-IT, a community of bioinformaticians/computational biologists at the 
+        European Molecular Biology Laboratory in Heidelberg, Germany.
+        They do a lot of training, in- and outreach, and provide a bunch of cool resources to 
+        help our community members connect, collaborate, and do their
+        research openly and effectively. He is also quite active in The Carpentries, 
+        as an instructor, instructor trainer, discussion host, mentor, etc.
+    mentor: true
+
+unode:
+    name: Renato Alves
+    twitter: renato_alvs
+    email: renato.alves@embl.de
+    orcid: 0000-0002-7212-0234
+    description: >
+        Renato is a biologist by training with a passion for computational work. 
+        Love learning about as much as teaching. Open source junky. Certified computer geek.
+    expert: true
+    mentor: true
+    
 satagopam7:
     name: Venkata Satagopam
     twitter:
@@ -489,29 +542,6 @@ satagopam7:
         Data Integration and Knowledge Management; Clinical and Translational Data Curation, 
         Harmonisation, Integration and Analysis; Dynamic Visual Analytics; Text-mining; 
         Deep learning and advanced machine learning technologies.
-    expert: true
-    mentor: true
-
-tobyhodges:
-    name: Toby Hodges
-    twitter: tbyhdgs
-    email: tbyhdgs@gmail.com
-    website: https://tbyhdgs.info
-    orcid: 0000-0003-1766-456X
-    description: >
-        Toby manages EMBL Bio-IT, a community of bioinformaticians/computational biologists at the European Molecular Biology Laboratory in Heidelberg, Germany.
-        They do a lot of training, in- and outreach, and provide a bunch of cool resources to help our community members connect, collaborate, and do their
-        research openly and effectively. He is also quite active in The Carpentries, as an instructor, instructor trainer, discussion host, mentor, etc.
-    mentor: true
-
-unode:
-    name: Renato Alves
-    twitter: renato_alvs
-    email: renato.alves@embl.de
-    orcid: 0000-0002-7212-0234
-    description: >
-        Renato is a biologist by training with a passion for computational work. 
-        Love learning about as much as teaching. Open source junky. Certified computer geek.
     expert: true
     mentor: true
 
