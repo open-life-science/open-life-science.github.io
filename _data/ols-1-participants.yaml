@@ -117,9 +117,10 @@ lazycipher:
 LangData:
   name: Lena Karvovskaya
   twitter: LangData
-  affiliation: Expanding Research Data Management plans at the library of Free University of Amsterdam
+  affiliation: Free University of Amsterdam
   country: Netherlands
   pronouns: she/her
+  github: false
 
 Lilian9:
   name: Lilian Juma 
