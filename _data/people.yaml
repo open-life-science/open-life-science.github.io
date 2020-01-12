@@ -116,7 +116,7 @@ bgruening:
         Björn is working in the European Galaxy team and tries to help make science open wherever he can. 
         He is an expert in the topics related to Container, Conda, Galaxy, Python, reproducible research, and training.
     expert: true
-    expert: true
+    mentor: true
     
 BhuvanaMeenakshiK:
     name: Bhuvana Meenakshi Koteeswaran
@@ -139,6 +139,17 @@ dasaderi:
         and she now leads a project called PREreview to empower researchers to engage with each other and review preprints.
     expert: true
     mentor: true
+    
+Demellina:
+    name: Demitra Ellina
+    email: Demitra.Ellina@f1000.com
+    twitter: j_ellina
+    description: >
+        Demitra is the Editorial Community Manager at F1000 which she joined in 2017 after working in journal development at Springer Nature.
+        She is a strong advocate of Open Research and engages with the research community to raise awareness of the F1000 publishing platforms.
+        In her role, she supports the development of funder-specific platforms, particularly Wellcome Open Research. These platforms aim to transform the
+        way science is communicated and provides researchers with innovative solutions for how their research is shared, used and reused.
+    expert: true
     
 emmyft:
     name: Emmy Tsang
@@ -213,16 +224,6 @@ InquisitiveVi:
     description: >
         Biomedical scientist and science communicator interested in 
         building effective outreach strategies for equitable access of research outputs.
-    expert: true
-
-j_ellina:
-    name: Demitra Ellina
-    email: Demitra.Ellina@f1000.com
-    description: >
-        Demitra is the Editorial Community Manager at F1000 which she joined in 2017 after working in journal development at Springer Nature.
-        She is a strong advocate of Open Research and engages with the research community to raise awareness of the F1000 publishing platforms.
-        In her role, she supports the development of funder-specific platforms, particularly Wellcome Open Research. These platforms aim to transform the
-        way science is communicated and provides researchers with innovative solutions for how their research is shared, used and reused.
     expert: true
 
 JasonJWilliamsNY:
