@@ -530,7 +530,7 @@ VickyNembaware:
         She is the current secretary of the African Society of Human Genetics (AfSHG). 
         She is passionate about building research capacity, mentoring 
         young investigators and translational research. 
-    mentor: 
+    mentor: true
     
 yochannah:
     name: Yo Yehudi

@@ -1,4 +1,4 @@
-<div class="card people-card">
+<div class="card people-card" id="{{ username }}">
   <div class="card-content">
     <div class="media">
       <div class="media-left people-card-avatar">
@@ -11,8 +11,11 @@
         </figure>
       </div>
       <div class="media-content people-card-meta">
-        <p class="title is-4">{{ user.name }}</p>
-
+        <p class="title is-4">{{ user.name }}
+            {% if user.pronouns %}
+            ({{ user.pronouns }})
+            {% endif %}
+        </p>
 
         <p class="is-6">
           {% if user.twitter %}
@@ -33,6 +36,15 @@
           {% if user.orcid %}
           <a href="https://orcid.org/{{ user.orcid }}"><i class="ai ai-orcid"></i></a>
           {% endif %}
+        </p>
+
+        <p class="is-6">
+        {% if user.affiliation %}
+        {{ user.affiliation }},
+        {% endif %}
+        {% if user.country %}
+        {{ user.country }}
+        {% endif %}
         </p>
       </div>
 

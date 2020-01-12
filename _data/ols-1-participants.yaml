@@ -1,0 +1,195 @@
+# List of participants for OLS-1 (alphabetical order)
+#
+# valid tags: name, email, website, twitter, gitter, orcid, description
+#
+# collection names should be equal to github username, if not, add github: false tag
+---
+anayan321:
+  name: Anunya Opasawatchai
+  twitter: pk_suta
+  affiliation: Mahidol University
+  country: Thailand
+  pronouns: she/her
+
+billbrod:
+  name: William Broderick
+  twitter: wfbroderick
+  affiliation: New York University
+  country: USA
+  pronouns: he/him
+
+bonetcarne:
+  name: Elisenda Bonet-Carne
+  twitter: bonetcarne
+  affiliation: BCNatal Fetal Medicine Research Center
+  country: Spain
+  pronouns: she/her
+
+bruno-soares:
+  name: Bruno Eleres Soares
+  twitter: Bruno_E_Soares
+  affiliation: Universidade Federal do Rio de Janeiro
+  country: Brazil
+  pronouns: he/him
+
+cassgvp:
+  name: Cassandra Gould van Praag
+  twitter: cassgvp
+  affiliation: University of Oxford
+  country: UK
+  pronouns: she/her
+
+ChiaBertipaglia:
+  name: Chira Bertipaglia
+  twitter: ChiaBertipaglia
+  affiliation: Columbia University’s Zuckerman Institute
+  country: USA
+  pronouns: she/her
+  github: false
+
+christinerogers:
+  name: Christine Rogers
+  twitter: xtinerogers
+  affiliation: Montreal Neurological Institute, McGill University
+  country: Canada
+  pronouns: she/her
+
+davidviryachen:
+  name: David Chentanaman
+  twitter: davidchenn
+  affiliation: Osaka University
+  country: Japan
+
+dlebauer:
+  name: David LeBauer
+  twitter: dlebauer
+  affiliation: University of Arizona
+  country: USA
+
+elsasci:
+  name: Elsa Loissel
+  twitter: elsasci
+  affiliation: eLife
+  country: UK
+  pronouns: she/her
+  github: false
+
+ewuramaminka:
+  name: Deborah Akuoko
+  twitter: eminka_da
+  affiliation: University of Manchester
+  country: UK
+  pronouns: she/her
+
+Fnyasimi:
+  name: Festus Nyasimi
+  twitter: Festus_nyasimi
+  affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
+  country: Kenya
+  pronouns: he/him
+
+Kiragu-Mwaura:
+  name: David Kiragu Mwaura
+  twitter: MwauraKiragu
+  affiliation: Institute of Primate Research
+  country: Kenya
+
+KristinaRiemer:
+  name: Kristina Riemer
+  twitter: KristinaRiemer
+  affiliation: University of Arizona
+  country: USA
+  pronouns: she/her
+
+LandiMi2:
+  name: Michael Kofia Landi
+  twitter: CofiaLandy
+  affiliation: International Livestock Research Institute
+  country: Kenya
+
+lazycipher:
+  name: Himanshu Singh
+  twitter: lazycipher
+  affiliation: Galgotias University
+  country: India
+  pronouns: he/him
+
+Lilian9:
+  name: Lilian Juma 
+  twitter: TheOnlyJuma
+  affiliation: Information Training and Outreach Centre for Africa
+  country: Kenya
+  pronouns: she/her
+
+MagicMilly:
+  name: Emily Cain
+  twitter: magic_milly
+  affiliation: University of Arizona
+  country: USA
+
+matuskalas:
+  name: Matúš Kalaš
+  twitter: matuskalas
+  affiliation: University of Bergen
+  country: Norway
+  pronouns: he/him
+
+Megmugure:
+  name: Margaret Wanjiku
+  twitter: meg_wanjiku
+  affiliation: International Livestock Research Institute
+  country: Kenya
+
+MorphoFun:
+  name: Sandy Kawano
+  twitter: MorphoFun
+  affiliation: The George Washington University
+  country: USA
+  pronouns: she/her
+
+NaraLB:
+  name: Naraiana Loureiro Benone
+  twitter: nlbenone
+  affiliation: Museu Paraense Emílio Goeldi
+  country: Brazil
+  pronouns: she/her
+
+SamGuay:
+  name: Samuel Guay
+  twitter: SamGuay
+  affiliation: Université de Montréal
+  country: Canada 
+  pronouns: he/him
+
+seun_oyemomi:
+  name: Seun Oyemomi
+  twitter: 0yesco
+  affiliation: Ladoke Akintola University of Technology
+  country: Nigeria
+  pronouns: he/him
+
+Sithyphus:
+  name: Jorge Barrios
+  affiliation: University of Arizona
+  country: USA
+
+sudarshangc:
+  name: Sudarshan GC
+  twitter: Sudarsh07847591
+  affiliation: Media Lab Nepal
+  country: Nepal
+  pronouns: he/him
+
+unode:
+  name: Renato Alves
+  twitter: renato_alvs
+  affiliation: European Molecular Biology Laboratory (EMBL)
+  country: France
+  pronouns: he/him
+
+zoe_chervontseva:
+  name: Zoe Chervontseva
+  affiliation: IITP RAS
+  country: Russia
+  pronouns: she/her
+  github: false
