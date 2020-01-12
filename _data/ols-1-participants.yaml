@@ -113,6 +113,13 @@ lazycipher:
   affiliation: Galgotias University
   country: India
   pronouns: he/him
+  
+LangData:
+  name: Lena Karvovskaya
+  twitter: LangData
+  affiliation: Expanding Research Data Management plans at the library of Free University of Amsterdam
+  country: Netherlands
+  pronouns: she/her
 
 Lilian9:
   name: Lilian Juma 
