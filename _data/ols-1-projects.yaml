@@ -3,7 +3,7 @@
 - name: Open Science Community Barcelona (OSCBa)
   participants:
     - bonetcarne
-  mentor: Zebetus
+  mentors: Zebetus
   description: >
     This project aims to create a community of local scientists to share and promote open science in Barcelona, 
     Spain. I would like to use as an example the <a href="https://openscience-utrecht.com/">OSCU</a> 
@@ -23,13 +23,12 @@
     We will also use this plantform to motivate colleages from other parts of the country to create
     their own local community and then connect for some events.
 
-- name: >
-    Investigate feasible solutions to help create a system that creates, collects and processes
+- name: Investigate feasible solutions to help create a system that creates, collects and processes
     data efficiently for impactful research especially for driving health research and driving health
-    related policies.
+    related policies
   participants:
     - ewuramaminka
-  mentor: VickyNembaware
+  mentors: VickyNembaware
   description: >
     Most sub Saharan African countries barely have quality health data for national policy
     making, especially on cancer. Thus, more work might be needed to improve the data quality,
@@ -43,11 +42,10 @@
     data driven decisions, and helping establish framework to run health data registries in more regions within 
     sub-Saharan Africa.
 
-- name: >
-    Infusing a culture of open science within the community of researchers at the Zuckerman Institute
+- name: Infusing a culture of open science within the community of researchers at the Zuckerman Institute
   participants:
     - ChiaBertipaglia
-  mentor: mkuzak
+  mentors: mkuzak
   description: >
     The community of <a href="https://zuckermaninstitute.columbia.edu/">Columbia University’s Zuckerman Institute</a> is composed of neuroscientists at
     all career stages (graduate students, postdocs, faculty members). The Office of Scientific
@@ -70,7 +68,7 @@
     - Megmugure
     - Kiragu-Mwaura
     - LandiMi2
-  mentor: tobyhodges
+  mentors: tobyhodges
   description: >
     The Bioinformatics Hub of Kenya is an entity that develops and manages training in
     bioinformatics and computational biology and provides a space in which research in
@@ -89,7 +87,7 @@
 - name: Expanding plenoptic Python Package
   participants:
     - billbrod
-  mentor: rodrigocam
+  mentors: rodrigocam
   description: >
     <a href="https://pypi.org/project/plenpy/">plenoptic</a> is a Python package for computational
     vision with two main components: standard differentiable models of the visual system and synthesis
@@ -106,12 +104,11 @@
     described in the literature, but none of which have standard, accessible implementations that work
     on more than a handful of specific models.
 
-- name: >
-    @Diversidade em Foco
+- name: "@Diversidade em Foco"
   participants:
     - bruno-soares
     - NaraLB
-  mentor: unode
+  mentors: unode
   description: >
     [Biodiversidade em Foco](http://www.abc.org.br/atuacao/nacional/projeto-de-ciencia-para-o-brasil/biodiversidade-em-foco/)
     (@Biodiversity in Focus, in English) will merge a twitter account
@@ -130,7 +127,7 @@
 - name: Media Lab Nepal for Computational Biology
   participants:
     - sudarshangc
-  mentor: 
+  mentors: 
     - aidanbudd
     - malvikasharan
   description: >
@@ -155,7 +152,7 @@
 - name: InterMine Similarity Explorer
   participants:
     - lazycipher
-  mentor: yochannah
+  mentors: yochannah
   description: >
     <a href="http://intermine.org/">InterMine</a> is a powerful open source data warehouse system. 
     It allows users to integrate
@@ -178,7 +175,7 @@
 - name: Open Connect Platform in Africa
   participants:
     - Lilian9
-  mentor: kipkurui
+  mentors: kipkurui
   description: >
     In Open community, there is disconnect between Open practitioners and advocates hence need for
     platform to connect everyone within open landscape. Therefore, Open Connect will be a platform where
@@ -191,7 +188,7 @@
 - name: EMBL Bio-IT Community Project
   participants:
     - unode
-  mentor: malvikasharan
+  mentors: malvikasharan
   description: >
     <a href="https://bio-it.embl.de">Bio-IT project</a> at the <a href="https://embl.org">European Molecular Biology Laboratory (EMBL)</a>
     is an initiative established in 2010 to support the development and
@@ -206,11 +203,10 @@
     knowledge transfer within the management team of the Bio-IT project and navigate my own
     path and future prospects as a community manager.
 
-- name: >
-    Oxford Neuroscience Open Science Co-ordinator: Changing Culture
+- name: "Oxford Neuroscience Open Science Co-ordinator: Changing Culture"
   participants:
     - cassgvp
-  mentor: npscience
+  mentors: npscience
   description: >
     The <a href="https://www.win.ox.ac.uk/">Wellcome Centre for Integrative Neuroscience (WIN)</a> and other centres in Oxford
     Neuroscience recently received large awards which include substantial components of open
@@ -226,12 +222,11 @@
     scientific and individual risks and benefits for research participants, researchers (at all
     levels), and the institution.
 
-- name: >
-    AMRITA: an online database for herbal medicine
+- name: "AMRITA: an online database for herbal medicine"
   participants:
     - anayan321
     - davidviryachen
-  mentor: hdinkel
+  mentors: hdinkel
   description: >
     In South East Asia, herbal medicine has been used over the century as preventive
     and therapeutics intervention. However, due to the scarcity of scientific evidence, the use of
@@ -248,7 +243,9 @@
 - name: How to build an healthy and open lab
   participants:
     - elsasci
-  mentor: dasaderi
+  mentors: 
+    - dasaderi
+    - pherterich
   description: >  
     I would like to create a one-stop shop for new life science PIs who want to start their labs
     using principles, resources and practices found in the open space, but who may struggle to
@@ -269,7 +266,7 @@
 - name: Benchmarking environment for bioinformatics tools
   participants:
     - zoe_chervontseva
-  mentor: luispedro
+  mentors: luispedro
   description: >
     The aim of this project is to provide a flexible protocol and unified instruments for iterative
     benchmarking of bioinformatics tools solving various problems. The results of benchmarking
@@ -281,7 +278,7 @@
 - name: EDAM ontology
   participants:
     - matuskalas
-  mentor: bgruening
+  mentors: bgruening
   description: >
     <a href="http://edamontology.org/page">EDAM ontology</a> is a long-established project, defining a common, controlled vocabulary in
     the form of a network of concepts and terms. <a href="https://ifb-elixirfr.github.io/edam-browser/#topic_0091">EDAM</a> covers topics, operations, types of data,
@@ -302,11 +299,10 @@
     The goal of this concrete mentorship project is to further extend EDAM, so that other
     communities can benefit from it, and from the applications and use cases it fosters.
 
-- name: >
-    Evaluation of human platelet antigens (hpas) in multiple blood transfused individuals in Osogbo, Osun State, Nigeria
+- name: Evaluation of human platelet antigens (hpas) in multiple blood transfused individuals in Osogbo, Osun State, Nigeria
   participants:
     - seun_oyemomi
-  mentor: satagopam7
+  mentors: satagopam7
   description: >
     Haemorrhage due to thrombocytopenia is a leading cause of death in adults and
     children receiving chemotherapy. Platelet transfusions have become a routine part of
@@ -325,7 +321,7 @@
     - dlebauer
     - MagicMilly
     - Sithyphus
-  mentor: katrinleinweber
+  mentors: katrinleinweber
   description: >
     We are members of the Data Infrastructure for Agriculture Group at <a href="https://www.arizona.edu/">The University of Arizona</a>.
     Our mission is to provide scientists with open software, data, and computing that improves
@@ -348,7 +344,7 @@
 - name: Improving open platform accessibility
   participants:
     - christinerogers
-  mentor: ha0ye
+  mentors: ha0ye
   description: >
     I'm a member of the technical team for LORIS (github.com/aces/loris), an open-source
     neuroinformatics platform that allows researchers to collaboratively collect, curate and share
@@ -372,7 +368,7 @@
 - name: Enabling open science practices in biology education
   participants:
     - MorphoFun
-  mentor: fpsom
+  mentors: fpsom
   description: >
     The proposed project would establish a foundation for developing a tutorial on training
     researchers in biology to adopt more open science practices. The main goal would be to
@@ -393,7 +389,7 @@
 - name: openyourscience.app
   participants:
     - SamGuay
-  mentor: ajstewartlang
+  mentors: ajstewartlang
   description: >
     For this application, I am presenting a project that is embedded in our vision for Open by
     Design at Open Science UMontreal (OSUM), the student initiative I co-founded in 2019. In
@@ -415,7 +411,7 @@
   name: Creating network of Data Champions at the library of Free University of Amsterdam
   participants:
     - LangData
-  mentor: pherterich
+  mentors: pherterich
   description: >
     From February 1st I am starting a new position as community manager RDM at the library 
     of Free University of Amsterdam (VU). My ultimate goal is to bridge the gap between 
