@@ -32,7 +32,7 @@ We invite new contributions to the program as a [new issue on the GitHub repo](h
 
 Once again, let’s welcome our mentors and mentees to this program! 
 
-## Project details ([click here for full description](https://openlifesci.org/ols-1/projects-participants/)*)
+## Project details ([click here for full description](https://openlifesci.org/ols-1/projects-participants/))
 
 |Project | Project leaders | Mentor (with secondary mentors if any) |
 |----------|-----------------------|------------|
