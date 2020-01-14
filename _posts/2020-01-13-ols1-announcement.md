@@ -8,7 +8,7 @@ authors:
 image: https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2389&q=80
 ---
 
-We are thrilled to announce that [29 members](https://openlifesci.org/ols-1/projects-participants/#participants) of the [20 projects](https://openlifesci.org/ols-1/projects-participants/#projects) have joined the first cohort of the Open Life Science mentoring program - OLS-1!
+We are thrilled to announce that [29 members](https://openlifesci.org/ols-1/projects-participants/#participants), who are the project leads of [20 diverse projects](https://openlifesci.org/ols-1/projects-participants/#projects), have joined the first cohort of the Open Life Science mentoring program - OLS-1!
 
 ### Meet our mentees!
 
