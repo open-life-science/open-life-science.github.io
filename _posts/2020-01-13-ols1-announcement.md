@@ -8,7 +8,7 @@ authors:
 image: https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2389&q=80
 ---
 
-We are thrilled to announce that [29 members](https://openlifesci.org/ols-1/projects-participants/#participants), who are the project leads of [20 diverse projects](https://openlifesci.org/ols-1/projects-participants/#projects), have joined the first cohort of the Open Life Science mentoring program - OLS-1!
+We are thrilled to announce that [29 members](/ols-1/projects-participants/#participants), who are the project leads of [20 diverse projects](/ols-1/projects-participants/#projects), have joined the first cohort of the Open Life Science mentoring program - OLS-1!
 
 ### Meet our mentees!
 
@@ -20,19 +20,21 @@ Their project range from the ideas of creating new local communities, promoting 
 
 ### Meet our mentors!
 
-Our mentees will be supported in this program by our mentors’ community who have been paired based on the compatibility of expertise and interests of mentors with the requests and requirements of our mentees. Our mentors are Open Science champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services. 
+Our mentees will be supported in this program by our mentors' community who have been paired based on the compatibility of expertise and interests of mentors with the requests and requirements of our mentees. Our mentors are Open Science champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services.
 
 We welcome our mentors, **Aidan Budd, Andrew Stewert, Björn Grüning, Caleb Kibet, Daniela Saderi, Fotis Psomopoulos, Hao Ye, Harry Smith, Holger Dinkel, Katrin Leinweber, Luis Pedro Coelho, Mateusz Kuzak, Naomi Penfold, Patricia, Renato Alves, Rodrigo Oliveira Campos, Toby Hodges, Venkata Satagopam, Vicky Nembaware**. Yo and Malvika will also mentor one project each in this cohort. We are extremely grateful to them for their support and contributions to OLS and their impactful work in other open communities. They are committed to supporting their mentees in this program to help create a more open and fair-research and knowledge-sharing culture within life science.
 
-We will begin our program this week with a mentoring training call and mentor-mentee introductions. Check out the complete schedule and plans for OLS-1 here: https://openlifesci.org/ols-1.
+### The Program
 
-You can keep track of our program, the progress of our first cohort, and future announcements by following our twitter profile [@openlifesci](https://twitter.com/openlifesci) or joining our [community Gitter channel](https://gitter.im/open-life-sci/community).
+We will begin our program this week with a mentoring training call, and mentor-mentee introductions. Check out the complete schedule and plans for OLS-1 here: [{{ site.url }}/ols-1](/ols-1).
 
-We invite new contributions to the program as a [new issue on the GitHub repo](https://github.com/open-life-science/open-life-science.github.io/issues) or by [email to the team](mailto:team@openlifesci.org).
+You can keep track of our program, the progress of our first cohort and future announcements by following our twitter profile [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}) or joining our [community Gitter channel](https://gitter.im/{{ site.gitter }}).
 
-Once again, let’s welcome our mentors and mentees to this program! 
+We invite new contributions to the program as a [new issue on the GitHub repo]({{ site.github.repository_url }}/issues) or by [email to the team](mailto:{{ site.email }}).
 
-## Project details ([click here for full description](https://openlifesci.org/ols-1/projects-participants/))
+Once again, let's welcome our mentors and mentees to this program!
+
+## Project details ([click here for full description](/ols-1/projects-participants/))
 
 |Project | Project leaders | Mentor (with secondary mentors if any) |
 |----------|-----------------------|------------|
