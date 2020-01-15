@@ -14,7 +14,6 @@ This is your first meeting with your OLS mentor. This call should include you an
 These 30-minute meetings will happen every other week during OLS. The default time is during your cohort call time. Your mentor will reach out to you this week to confirm when and where you'll be meeting.
 
 In your first meeting with your mentor, introduce yourselves and then:
-- Make sure you have your Mozilla Pulse account set up
 - Make sure you have your GitHub account set up
 - Review your self-assessment
 - Set 1-2 personal open science goals for yourself
@@ -29,11 +28,15 @@ Document your goals in your shared notes; you will return to these goals frequen
 # Before this meeting
 
 - Create an account on [GitHub](https://github.com)
-- Complete **your own copy** of the [open leadership self-assessment](https://docs.google.com/document/d/1oQgdfj4lPnypAyb9_Ba0Zt7E8J5L6qMvuKwu0wgQsjs/edit?usp=sharing) and share it to your mentor.
+- Complete **your own copy** of the [open leadership self-assessment](https://docs.google.com/document/d/1oQgdfj4lPnypAyb9_Ba0Zt7E8J5L6qMvuKwu0wgQsjs/edit?usp=sharing) and share it to your mentor
+
+    If you're a group, each teammate should complete this assessment individually. This is here to help you set your own personal goals during the program. No need to share your results, but be ready to share your thoughts with your mentor.
+
+- Make sure you know when and how you'll be meeting with your mentor
 
 # After this meeting
 
-- [Create a repository in GitHub](https://help.github.com/articles/create-a-repo/) for your OLS work and share the link to your mentor.
+- Create an issue on the [OLS-1 GitHub repository](https://github.com/open-life-science/ols-1/issues/new) for your OLS work and share the link to your mentor
 - Draft a brief vision statement using your goals
 
     [This lesson](https://mozilla.github.io/open-leadership-training-series/articles/introduction-to-open-leadership/stating-your-project-vision/) from the Open Leadership Training Series (OLTS) might be helpful
@@ -43,7 +46,9 @@ Document your goals in your shared notes; you will return to these goals frequen
     - How you think openness and open leadership will help solve it.
     - How meeting your personal goals will help you and help solve the problem.
     - How meeting your cultural goals for your community, organization, or project will help solve the problem.
-    - Add your vision statement to your repo by uploading it or copy and pasting it into your README document.
+
+- Add your vision statement to your GitHub issue
+- Check the [Syllabus](https://openlifesci.org/ols-1) for notes and connection info for all the cohort calls
 
 # Recap
 

@@ -32,11 +32,9 @@ This will be followed by an optional 1 hour GitHub tutorial.
 
 # After this meeting
 
-- Use your canvas to start writing a README, or landing page, for your project
-- Add or update a [README file](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/) in your GitHub repository with any new information about your OLS work that you want to include.
-- Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called LICENSE.
-- Link to your README in a comment on your GitHub issue.
-- Add a code of conduct to your repository
-- Vision stand brainstorm prep
-
-    Be prepared to get feedback in a small group on a 2min vision stand on your project in Week 6. If you're not sure where to start, use this [worksheet](https://docs.google.com/document/d/1ZVBI31m9lm9CFNyZw61aN9dMzE6J4oXmH-iY80muHl8/edit?usp=sharing) to brainstorm
+- Create a GitHub repository for your project
+- Add the link to your repository in your issue
+- Use your canvas to [start writing a `README.md` file](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/), or landing page, for your project
+- Link to your README in a comment on this issue
+- Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
+- Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
