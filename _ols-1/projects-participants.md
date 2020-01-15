@@ -22,16 +22,21 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
     {% if project.visible != false %}
 
         {% capture p-pparticipants %}
-        {% for p in project.participants %}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ participants[p].name }}](#{{ p }}) {% endfor %}
+        {% for p in project.participants %}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ participants[p].name }}](#{{ p }})
+        {% endfor %}
         {% endcapture %}
 
         {% assign mentor = project.mentor %}
+        {% capture p-mentors %}
+        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ mentors[p].name }}](/about#{{ p }})
+        {% endfor %}
+        {% endcapture %} 
 
 ## {{ project.name }}
 
 **By**: {{ p-pparticipants | remove_first: ', ' }}
 
-**Mentored by**: ![](https://avatars.githubusercontent.com/{{ mentor }}){: .people-badge} [{{ mentors[mentor].name }}](/about#{{ mentor }})
+**Mentored by**: {{ p-mentors | remove_first: 'with ' }} 
 
 {{ project.description }}
 
