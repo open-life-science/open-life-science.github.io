@@ -24,7 +24,7 @@ The mentees joining this program are {{ p-participants | split: " , " | uniq | s
 
 We are excited to welcome this fantastic set of mentees who are not only located in different parts of the world, but also represent different identities and backgrounds, aim to address a wide range of questions in their field, and are motivated to bring a culture change in their areas. Many of them are long-standing Open Scientists who aim to use this opportunity to apply “Open by Design” principle in their projects through this program.
 
-Their project range from the ideas of creating new local communities, promoting best practices in open science in their existing communities, developing open software, enhancing and promoting science communication, learning community skills, improving documentation for sustainability, building open education resources, or providing support to open practitioners in their network. One member, Renato Alves, is a mentee of a project but is also mentoring one of the other projects. The project of Lena Karvovskaya was transferred from the eLife Innovation Program as it fits better with the goal and scope of the OLS program. 
+Their projects range from the ideas of creating new local communities, promoting best practices in open science in their existing communities, developing open software, enhancing and promoting science communication, learning community skills, improving documentation for sustainability, building open education resources, or providing support to open practitioners in their network. One member, Renato Alves, is a mentee of a project but is also mentoring one of the other projects. The project of Lena Karvovskaya was transferred from the applicant-pool of[eLife Innovation Program](https://elifesciences.org/labs/ea8e2f51/introducing-innovation-leaders-2020) as it fits better with the goal and scope of the OLS program. 
 
 ### Meet our mentors!
 
@@ -34,7 +34,7 @@ Their project range from the ideas of creating new local communities, promoting 
 
 Our mentees will be supported in this program by our mentors' community who have been paired based on the compatibility of expertise and interests of mentors with the requests and requirements of our mentees. Our mentors are Open Science champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services.
 
-We welcome our mentors, {{ p-mentors | split: " , " | uniq | sort | join: ", " | remove_first: ", " }}. Yo and Malvika will also mentor one project each in this cohort. We are extremely grateful to them for their support and contributions to OLS and their impactful work in other open communities. They are committed to supporting their mentees in this program to help create a more open and fair-research and knowledge-sharing culture within life science.
+We welcome our mentors, {{ p-mentors | split: " , " | uniq | sort | join: ", " | remove_first: ", " }}. We are extremely grateful to them for their support and contributions to OLS and their impactful work in other open communities. They are committed to supporting their mentees in this program to help create a more open and fair-research, knowledge-sharing and inclusive culture within life science.
 
 ### The Program
 
