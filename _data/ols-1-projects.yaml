@@ -129,7 +129,7 @@
     - sudarshangc
   mentors: 
     - aidanbudd
-    - malvikasharan
+    - satagopam7
   description: >
     <a href="https://medialabnepal.com/">Media Lab Nepal</a> is only one community bio lab of Nepal focusing on democratization of life
     sciences through open science. It is an interdisciplinary team of students and
@@ -147,7 +147,6 @@
     we can benefit life sciences sector of whole country through open science
     initiative. I also want to make this initiative feasible and sustainable by creating
     incoming generating platform with computational biology.
-  visible: false
 
 - name: InterMine Similarity Explorer
   participants:
@@ -298,22 +297,6 @@
 
     The goal of this concrete mentorship project is to further extend EDAM, so that other
     communities can benefit from it, and from the applications and use cases it fosters.
-
-- name: Evaluation of human platelet antigens (hpas) in multiple blood transfused individuals in Osogbo, Osun State, Nigeria
-  participants:
-    - seun_oyemomi
-  mentors: satagopam7
-  description: >
-    Haemorrhage due to thrombocytopenia is a leading cause of death in adults and
-    children receiving chemotherapy. Platelet transfusions have become a routine part of
-    practice in some settings, with the most common indication being prophylactic
-    platelet transfusion (75-80%) in the case of myelosuppressive chemotherapy.<br>
-    
-    The aim is to determine the expression of Human Platelet Antigens in multiple blood
-    transfused individuals in the study area.<br>
-    
-    Objectives include; determination of expression of HPA GPIIb/IIIa, assessing the rate
-    of alloimmunisation in the subjects.
 
 - name: Improving Documentation for Open Data and Software in the Agricultural Research Community
   participants:
