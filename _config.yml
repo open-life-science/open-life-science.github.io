@@ -3,9 +3,11 @@ title: "Open Life Science"
 description: >
   The Open Leader program for Open Life Science
 logo: ''
-email: 'hello@openlifesci.org'
+email: team@openlifesci.org
 repository: open-life-science/open-life-science.github.io
 twitter: openlifesci
+gitter: open-life-sci/community
+url: https://openlifesci.org/
 
 collections:
   posts:
