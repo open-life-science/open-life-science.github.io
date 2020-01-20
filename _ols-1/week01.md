@@ -28,7 +28,7 @@ Document your goals in your shared notes; you will return to these goals frequen
 # Before this meeting
 
 - Create an account on [GitHub](https://github.com)
-- Complete **your own copy** of the [open leadership self-assessment](https://docs.google.com/document/d/1oQgdfj4lPnypAyb9_Ba0Zt7E8J5L6qMvuKwu0wgQsjs/edit?usp=sharing) and share it to your mentor
+- Complete **your own copy** of the [open leadership self-assessment](https://docs.google.com/document/d/1oQgdfj4lPnypAyb9_Ba0Zt7E8J5L6qMvuKwu0wgQsjs/edit?usp=sharing) and share it with your mentor
 
     If you're a group, each teammate should complete this assessment individually. This is here to help you set your own personal goals during the program. No need to share your results, but be ready to share your thoughts with your mentor.
 
@@ -36,7 +36,7 @@ Document your goals in your shared notes; you will return to these goals frequen
 
 # After this meeting
 
-- Create an issue on the [OLS-1 GitHub repository](https://github.com/open-life-science/ols-1/issues/new) for your OLS work and share the link to your mentor
+- Create an issue on the [OLS-1 GitHub repository](https://github.com/open-life-science/ols-1/issues/new) for your OLS work and share the link with your mentor
 - Draft a brief vision statement using your goals
 
     [This lesson](https://mozilla.github.io/open-leadership-training-series/articles/introduction-to-open-leadership/stating-your-project-vision/) from the Open Leadership Training Series (OLTS) might be helpful
