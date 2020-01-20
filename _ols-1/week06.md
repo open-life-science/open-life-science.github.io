@@ -22,7 +22,7 @@ During this week's cohort call, we will:
 
 # Before this meeting
 
-- 
+- Look up two other projects and comment on their issues with feedback on their README
 
 # After this meeting
 
