@@ -560,7 +560,8 @@ VickyNembaware:
         She is passionate about building research capacity, mentoring 
         young investigators and translational research. 
     mentor: true
-    
+    github: false
+
 yochannah:
     name: Yo Yehudi
     twitter: yoyehudi
