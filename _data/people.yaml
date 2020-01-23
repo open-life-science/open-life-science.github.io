@@ -196,7 +196,7 @@ ha0ye:
     name: Hao Ye
     twitter: Hao_and_Y
     email: hao.ye@weecology.org
-    website: haoye.us
+    website: https://haoye.us
     orcid: 0000-0002-8630-1458
     description: >
         Hao is a computational ecologist at the University of Florida, working on methods for unraveling 
@@ -244,7 +244,7 @@ joelostblom:
     name: Joel Ostblom
     twitter:
     email: joel.ostblom@gmail.com
-    website: joelostblom.com
+    website: https://joelostblom.com
     orcid: 0000-0003-0051-3239
     description: >
         Joel is a Biomedical Engineering PhD student who enjoys learning and teaching
@@ -257,7 +257,7 @@ kariljordan:
     name: Kari L. Jordan
     twitter: drkariljordan
     email: kariljordan@carpentries.org
-    website: www.kariljordan.com
+    website: https://www.kariljordan.com
     orcid: 0000-0003-4121-2432
     description: >
         Kari is the Senior Director of Equity and Assessment for The Carpentries, Executive Director of the Engineer Like a Girl after-school program,
@@ -379,6 +379,7 @@ mruizvelley:
         in the search of contributing to sustainability and digitalization of science.
         Her expertise are in Epigenetics, genomics, and molecular biology.
     expert: true
+    github: false
 
 mvdbeek:
     name: Marius van den Beek
@@ -451,7 +452,6 @@ orchid00:
 pherterich:
     name: Patricia
     twitter: pherterich
-    email:
     orcid: 0000-0002-4542-9906
     description: >
         Patricia is currently a Research Data Specialist working at the Digital 
@@ -467,7 +467,6 @@ pherterich:
 
 profgiuseppe:
     name: Giuseppe Profiti
-    twitter:
     email: profgiuseppe@gmail.com
     website: https://sites.google.com/site/peppeprofiti
     orcid: 0000-0001-6067-6174
@@ -561,7 +560,8 @@ VickyNembaware:
         She is passionate about building research capacity, mentoring 
         young investigators and translational research. 
     mentor: true
-    
+    github: false
+
 yochannah:
     name: Yo Yehudi
     twitter: yoyehudi

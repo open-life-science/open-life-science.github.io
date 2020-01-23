@@ -9,7 +9,7 @@ image: /images/2019-10-21-storytelling.jpeg
 
 *Project Page: [Bio-IT Community Blogs](https://grp-bio-it.embl-community.io/blogs)*
 
-> *“Stories matter. Many stories matter. Stories have been used to dispossess and to malign, but stories can also be used to empower and to humanize. Stories can break the dignity of a people, but stories can also repair that broken dignity.”*  - [Chimamanda Ngozi Adichie](https://twitter.com/ChimamandaReal), [The Danger of a Single Story](https://ngl.cengage.com/21centuryreading/resources/sites/default/files/B3_TG_AT7_0.pdf)
+> *“Stories matter. Many stories matter. Stories have been used to dispossess and to malign, but stories can also be used to empower and to humanize. Stories can break the dignity of a people, but stories can also repair that broken dignity.”*  - [Chimamanda Ngozi Adichie](https://twitter.com/ChimamandaReal), [The Danger of a Single Story](https://www.ted.com/talks/chimamanda_adichie_the_danger_of_a_single_story/transcript?language=en)
 
 ## Project background
 
