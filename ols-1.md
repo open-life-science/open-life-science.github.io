@@ -68,6 +68,8 @@ At the end of the program, our participants will be able to:
 
 # Schedule
 
+<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com"  frameborder="0" scrolling="no"></iframe>
+
 | Week | Call type | Duration | Date | Topic                             | Rough Agenda                             |
 |:-----|:----------|:---------|:-----|:----------------------------------|:-----------------------------------------|
 | 1    | Mentor | 30 min | Week of January 20, 2020 | [**Meet your mentor!**]({% link _ols-1/week01.md %}) | Meet each other and discuss your personal motivation, expectations, working practices and project goals |
