@@ -3,9 +3,9 @@ layout: page
 title: Week 11 - Career Guidance Call
 ---
 
-**Date**: Week of March 30, 2020
+**Date**: April 1, 2020
 
-**Time**: TBA
+**Time**: 7:00 - 8:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-04-01/19:00/OLS-1%20(Optional)%20Cohort%20Call%20(Week%2011)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MG1ra3N1cmlzM2ZobHVkOWo2YTc5cThodm8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com))
 
 **Duration**: 90 minutes
 

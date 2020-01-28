@@ -3,9 +3,9 @@ layout: page
 title: Week 4 - Tooling and roadmapping for Open projects
 ---
 
-**Date**: Week of February 10, 2020
+**Date**: February 12, 2020
 
-**Time**: TBA
+**Time**: 7:00 - 8:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-02-12/19:00/OLS-1%20Cohort%20Call%20(Week%204)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MTFnaW44c2RyYWprMGF0ZnFjdmxjcG82YTQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com))
 
 **Duration**: 90 minutes
 

@@ -3,9 +3,9 @@ layout: page
 title: "Week 6 - Open Science I: Project Development"
 ---
 
-**Date**: Week of February 24, 2020
+**Date**: February 26, 2020
 
-**Time**: TBA
+**Time**: 2:00 - 3:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-02-26/14:00/OLS-1%20Cohort%20Call%20(Week%206)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MHMyc3FzMmtxdDBtdWR1a2drcjdzMTFtdDkgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com))
 
 **Duration**: 90 minutes
 

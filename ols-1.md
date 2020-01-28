@@ -73,21 +73,21 @@ At the end of the program, our participants will be able to:
 | Week | Call type | Duration | Date | Topic                             | Rough Agenda                             |
 |:-----|:----------|:---------|:-----|:----------------------------------|:-----------------------------------------|
 | 1    | Mentor | 30 min | Week of January 20, 2020 | [**Meet your mentor!**]({% link _ols-1/week01.md %}) | Meet each other and discuss your personal motivation, expectations, working practices and project goals |
-| 2    | Cohort | 90 min | Week of January 27, 2020 | [**Welcome to Open Life Science!**]({% link _ols-1/week02.md %}) | Meet other members of your cohort, Share project vision, Intro to working openly (open canvas) |
+| 2    | Cohort | 90 min | January 29, 2020 (2pm CET) | [**Welcome to Open Life Science!**]({% link _ols-1/week02.md %}) | Meet other members of your cohort, Share project vision, Intro to working openly (open canvas) |
 | 3    | Mentor | 30 min | Week of February 3, 2020 | [**Meet your mentor!**]({% link _ols-1/week03.md %}) | Discuss assignments from the cohort call & concrete implementations |
-| 4    | Cohort | 90 min | Week of February 10, 2020 | [**Tooling and roadmapping for Open projects**]({% link _ols-1/week04.md %}) | Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct |
+| 4    | Cohort | 90 min | February 12, 2020 (7pm CET) | [**Tooling and roadmapping for Open projects**]({% link _ols-1/week04.md %}) | Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct |
 |    | (Optional) Cohort | 60 min | Week of February 10, 2020 | [**GitHub Tutorial**]({% link _ols-1/week04-extra.md %}) | |
 | 5    | Mentor | 30 min | Week of February 17, 2020 | [**Meet your mentor!**]({% link _ols-1/week05.md %}) | |
-| 6    | Cohort | 90 min | Week of February 24, 2020 | [**Open Science I: Project Development**]({% link _ols-1/week06.md %}) | Developing Open Projects: Open-Source, Software, Hardware, Data  |
+| 6    | Cohort | 90 min | February 26, 2020 (2pm CET) | [**Open Science I: Project Development**]({% link _ols-1/week06.md %}) | Developing Open Projects: Open-Source, Software, Hardware, Data  |
 | 7    | Mentor | 30 min | Week of March 2, 2020 | [**Meet your mentor!**]({% link _ols-1/week07.md %}) | |
-| 8    | Cohort | 90 min | Week of March 9, 2020 | [**Open Science II: Knowledge Dissemination**]({% link _ols-1/week08.md %}) | Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training |
+| 8    | Cohort | 90 min | March 11, 2020 (7pm CET) | [**Open Science II: Knowledge Dissemination**]({% link _ols-1/week08.md %}) | Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training |
 | 9    | Mentor | 30 min | Week of March 16, 2020 | [**Meet your mentor!**]({% link _ols-1/week09.md %}) |
-| 10   | Cohort | 90 min | Week of March 23, 2020 | [**Designing & Empowering for inclusivity**]({% link _ols-1/week10.md %}) | Personas and pathways for contributors, Implicit bias & mental health care, Community interactions & Ally-skill |
-| 11   | (Optional) Cohort | 90 min | Week of March 30, 2020 | [**Career Guidance Call**]({% link _ols-1/week11.md %}) | |
+| 10   | Cohort | 90 min | March 25, 2020 (2pm CET) | [**Designing & Empowering for inclusivity**]({% link _ols-1/week10.md %}) | Personas and pathways for contributors, Implicit bias & mental health care, Community interactions & Ally-skill |
+| 11   | (Optional) Cohort | 90 min | April 1, 2020 (7pm CET) | [**Career Guidance Call**]({% link _ols-1/week11.md %}) | |
 | 12   | Mentor | 30 min | Week of April 6, 2020 |  [**Meet your mentor!**]({% link _ols-1/week12.md %}) | Invite an expert with mentor |
-| 13   | Cohort | 90 min | Week of April 13, 2020 | [**Giving feedback & Project Review (preparation and practice)**]({% link _ols-1/week13.md %}) | Giving feedback, Preparation of final presentation |
+| 13   | Cohort | 90 min | April 15, 2020 (2pm CET) | [**Giving feedback & Project Review (preparation and practice)**]({% link _ols-1/week13.md %}) | Giving feedback, Preparation of final presentation |
 | 14   | Mentor | 30 min | Week of April 20, 2020 | [**Meet your mentor!**]({% link _ols-1/week14.md %}) | Preparation for the final demos |
-| 15   | Cohort | 90 min | Week of April 27, 2020 | [**Final presentations & congratulations!**]({% link _ols-1/week15.md %}) | 2-minute demos of each project (Audience: entire community & public, Open and recorded call) |
+| 15   | Cohort | 90 min | April 29, 2020 (7pm CET) | [**Final presentations & congratulations!**]({% link _ols-1/week15.md %}) | 2-minute demos of each project (Audience: entire community & public, Open and recorded call) |
 
 # Joining calls
 
