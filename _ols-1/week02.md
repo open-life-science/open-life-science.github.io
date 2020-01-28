@@ -3,9 +3,9 @@ layout: page
 title: Week 2 - Welcome to Open Life Science!
 ---
 
-**Date**: Week of January 27, 2020
+**Date**: January 29, 2020
 
-**Time**: TBA
+**Time**: 2:00 - 3:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-01-29/14:00/OLS-1%20Cohort%20Call%20(Week%201)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NmIzdWlmZTR2cG9uaXU5a2IxcGVvMm5icG8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com))
 
 **Duration**: 90 minutes
 

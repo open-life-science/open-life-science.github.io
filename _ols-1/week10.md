@@ -3,9 +3,9 @@ layout: page
 title: Week 10 - Designing & Empowering for inclusivity
 ---
 
-**Date**: Week of March 23, 2020
+**Date**: March 25, 2020
 
-**Time**: TBA
+**Time**: 2:00 - 3:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-03-25/14:00/OLS-1%20Cohort%20Call%20(Week%2010)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MXA4Nm4wYXRqaG01ZmcwOHRzYjR1OWpqcTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com))
 
 **Duration**: 90 minutes
 
