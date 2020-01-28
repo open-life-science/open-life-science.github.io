@@ -9,19 +9,24 @@ title: Week 2 - Welcome to Open Life Science!
 
 **Duration**: 90 minutes
 
+**Call**: [Zoom](https://zoom.us/meeting/542903040)
+
 # This week
 
 During our first cohort call, we will:
 - Say hello and introduce ourselves.
 - Review our Community Participation Guidelines.
 - Review our definition of open leadership.
-- Unpack the differences between “open by default” and “open by design.”
+- Unpack the differences between "open by default" and "open by design"
 - Learn about common community interactions in open projects.
 - Learn about common value exchanges between community members in open science
 
 **Haven't heard from your mentor yet?** Let us know.
 
 # Resources
+
+- [Notes](https://docs.google.com/document/d/1q9HnEKKX2y50JiovpTDaOziFI0iDmPGYxvelUXuES90/edit?usp=sharing)
+- Recording (soon)
 
 # Before this meeting
 
