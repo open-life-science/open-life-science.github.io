@@ -384,18 +384,18 @@
     we want to provide opportunities to meet and encourage the exchange of ideas within and across fields because
     we can all learn from each other. Throughout the Open Life Science mentorship program, we will focus on laying
     the foundations of our initiative by developing our web platform and organizing some-on campus activities.
-    <br><br>
-    Ultimately, we aim to facilitate networking between local “open initiatives” through <a href="https://openscience.ca/">Open Science Canada</a>.
-    Inspired by the <a href=”https://www.anzopenresearch.org/”>Australia and New Zealand Open Research Network</a>
-    and the <a href=”https://openscience-utrecht.com/”>Open Science Communities</a> in Europe, we hope that
+    <br>
+    Ultimately, we aim to facilitate networking between local "open initiatives" through <a href="https://openscience.ca/">Open Science Canada</a>.
+    Inspired by the <a href="https://www.anzopenresearch.org/">Australia and New Zealand Open Research Network</a>
+    and the <a href="https://openscience-utrecht.com/">Open Science Communities</a> in Europe, we hope that
     Open Science Canada will draw together like-minded people across the country and foster collaborations and
     the sharing of open resources and knowledge.
-    <br><br>
-    If you’re reading this and you’re interested in open research feel free to come chat with us on
-    <a href=”https://chat.openscience.ca/>chat.openscience.ca</a>, an open-source alternative to Slack!
+    <br>
+    If you're reading this and you're interested in open research feel free to come chat with us on
+    <a href="https://chat.openscience.ca">chat.openscience.ca</a>, an open-source alternative to Slack!
     We want to get to know you (and your initiative)!
     
-  name: Creating network of Data Champions at the library of Free University of Amsterdam
+- name: Creating network of Data Champions at the library of Free University of Amsterdam
   participants:
     - LangData
   mentors: pherterich
