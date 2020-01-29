@@ -369,27 +369,31 @@
     and student / staff mentees are fully transparent so that the mentoring process can be
     improved for science mentees.
 
-- name: openyourscience.app
+- name: Open Science UMontreal (OSUM)
   participants:
     - SamGuay
+    - dannycolin
   mentors: ajstewartlang
   description: >
-    For this application, I am presenting a project that is embedded in our vision for Open by
-    Design at Open Science UMontreal (OSUM), the student initiative I co-founded in 2019. In
-    brief, the project aims to optimize open practices throughout the whole research workflow,
-    from open lab books to publishing one’s own website to share with citizens, by developing a
-    progressive web application (PWA) that showcases and reviews open tools to do so while
-    explaining why these tools can be so useful. Not only will people be able to read about the
-    tools, they will have a chance to contribute to the reviews so others can see real life
-    examples of such tools and get inspired! Indirectly, this project will help foster communities
-    within early-career researchers in life sciences since people will have a chance to
-    communicate. Because I am bilingual, the PWA will be a bilingual application to make it as
-    accessible as possible. The teaching activities included in the PWA will also be taught in
-    person and live-streamed during OSUM’s activities that we give around the campus. In
-    short, this project aims to foster a cultural change in how people see what is open science,
-    from an open/closed definition to a continuum of small changes they can do. They app will
-    live at openyourscience.app as the name of the project suggest. I also registered a bunch of
-    other domain names such as openbydesign.app, so I am open to suggestions.
+    In 2019, we founded Open Science UMontreal (OSUM) because we believe in an Open by Design approach
+    when it comes to Science. As a student initiative, we want to establish an inclusive and collaborative
+    community where students and researchers at all stages of their careers feel welcome to learn, share, and
+    discuss open science values, principles, and practices. By raising awareness of current issues, we hope this
+    project will instigate a culture shift and help people realize how they can immediately benefit from using
+    open and reproducible practices. As open science is a broad and wide-ranging concept with domain-specific definitions,
+    we want to provide opportunities to meet and encourage the exchange of ideas within and across fields because
+    we can all learn from each other. Throughout the Open Life Science mentorship program, we will focus on laying
+    the foundations of our initiative by developing our web platform and organizing some-on campus activities.
+    <br><br>
+    Ultimately, we aim to facilitate networking between local “open initiatives” through <a href="https://openscience.ca/">Open Science Canada</a>.
+    Inspired by the <a href=”https://www.anzopenresearch.org/”>Australia and New Zealand Open Research Network</a>
+    and the <a href=”https://openscience-utrecht.com/”>Open Science Communities</a> in Europe, we hope that
+    Open Science Canada will draw together like-minded people across the country and foster collaborations and
+    the sharing of open resources and knowledge.
+    <br><br>
+    If you’re reading this and you’re interested in open research feel free to come chat with us on
+    <a href=”https://chat.openscience.ca/>chat.openscience.ca</a>, an open-source alternative to Slack!
+    We want to get to know you (and your initiative)!
     
   name: Creating network of Data Champions at the library of Free University of Amsterdam
   participants:
