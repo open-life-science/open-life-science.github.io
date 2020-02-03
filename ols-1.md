@@ -76,8 +76,8 @@ At the end of the program, our participants will be able to:
 | 2    | Cohort | 90 min | January 29, 2020 (2pm CET) | [**Welcome to Open Life Science!**]({% link _ols-1/week02.md %}) | Meet other members of your cohort, Share project vision, Intro to working openly (open canvas) |
 | 3    | Mentor | 30 min | Week of February 3, 2020 | [**Meet your mentor!**]({% link _ols-1/week03.md %}) | Discuss assignments from the cohort call & concrete implementations |
 | 4    | Cohort | 90 min | February 12, 2020 (7pm CET) | [**Tooling and roadmapping for Open projects**]({% link _ols-1/week04.md %}) | Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct |
-|    | (Optional) Cohort | 60 min | Week of February 10, 2020 | [**GitHub Tutorial**]({% link _ols-1/week04-extra.md %}) | |
-| 5    | Mentor | 30 min | Week of February 17, 2020 | [**Meet your mentor!**]({% link _ols-1/week05.md %}) | |
+| 5   | Mentor | 30 min | Week of February 17, 2020 | [**Meet your mentor!**]({% link _ols-1/week05.md %}) | |
+|     | (Optional) Cohort | 60 min | February 19, 2020 (2pm CET) | [**GitHub Tutorial**]({% link _ols-1/week05-extra.md %}) | |
 | 6    | Cohort | 90 min | February 26, 2020 (2pm CET) | [**Open Science I: Project Development**]({% link _ols-1/week06.md %}) | Developing Open Projects: Open-Source, Software, Hardware, Data  |
 | 7    | Mentor | 30 min | Week of March 2, 2020 | [**Meet your mentor!**]({% link _ols-1/week07.md %}) | |
 | 8    | Cohort | 90 min | March 11, 2020 (7pm CET) | [**Open Science II: Knowledge Dissemination**]({% link _ols-1/week08.md %}) | Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training |
