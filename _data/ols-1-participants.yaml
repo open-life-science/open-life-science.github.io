@@ -94,6 +94,12 @@ Fnyasimi:
   country: Kenya
   pronouns: he/him
 
+homo-sapiens34:
+  name: Zoe Chervontseva
+  affiliation: IITP RAS
+  country: Russia
+  pronouns: she/her
+
 Kiragu-Mwaura:
   name: David Kiragu Mwaura
   twitter: MwauraKiragu
@@ -193,9 +199,3 @@ unode:
   country: Germany
   pronouns: he/him
 
-zoe_chervontseva:
-  name: Zoe Chervontseva
-  affiliation: IITP RAS
-  country: Russia
-  pronouns: she/her
-  github: false

@@ -264,7 +264,7 @@
 
 - name: Benchmarking environment for bioinformatics tools
   participants:
-    - zoe_chervontseva
+    - homo-sapiens34
   mentors: luispedro
   description: >
     The aim of this project is to provide a flexible protocol and unified instruments for iterative
