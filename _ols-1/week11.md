@@ -16,8 +16,6 @@ During this week's cohort call, we will:
 - Ask them questions about their careers
 - Share worries/insecurities related to your work and tips that you use to overcome them
 
-# Resources
-
 # Before this meeting
 
 A few days before the event, think about how you might briefly answer the following questions (ref: https://www.bu.edu/lernet/pathways/organizers/panel.html):
@@ -29,6 +27,11 @@ A few days before the event, think about how you might briefly answer the follow
 - what advice would you give someone wanting to enter your field ?
 - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
 - do you want to switch your career or field? Why or why not?
+
+# Resources
+
+- [Notes](https://docs.google.com/document/d/1YF3Uw-fU2-mhf-FyuPdx07KSTSlvnBZeMbQdQGJq4A4/edit?usp=sharing)
+- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
 
 # After this meeting
 

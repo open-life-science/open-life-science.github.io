@@ -16,6 +16,10 @@ During this week's cohort call, we will:
 
 # Resources
 
+- [Notes](https://docs.google.com/document/d/1zfn5hLldbti-K4L244_4A6wGc80FymKTeixN8cWXq2Q/edit?usp=sharing)
+- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
+
+
 # Before this meeting
 
 - 

@@ -18,12 +18,13 @@ During this week's cohort call, we will:
 - Open-Hardware
 - Open-Data
 
-# Resources
-
 # Before this meeting
 
 - Look up two other projects and comment on their issues with feedback on their README
 
-# After this meeting
+# Resources
 
-- 
+- [Notes](https://docs.google.com/document/d/1Nbu2XycI2q9kVg3YAY-LtWsGPYj63xlGLXEthCv_9SA/edit?usp=sharing)
+- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
+
+# After this meeting

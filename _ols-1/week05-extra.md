@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Week 4 (optional) - GitHub Tutorial
+title: Week 5 (optional) - GitHub Tutorial
 ---
 
 **Date**: February 19, 2020
@@ -9,31 +9,33 @@ title: Week 4 (optional) - GitHub Tutorial
 
 **Duration**: 90 minutes
 
-
 # This week
 
 During this week's cohort call, we will give you an optional 1 hour GitHub tutorial covering:
-- Creation of a repository
+- Creating a repository
 - Writing in Markdown
-- Enabling a website for a repository
-- Dealing with issues and pull request
+- Creating a README file
+- Enabling a small website via GitHub
+- Managing issues and labels
+- Submit changes via Pull Request
 
 # Before this meeting
 
-- Check the [Friendly GitHub Intro](https://github.com/KirstieJane/friendly-github-intro)
+- Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
 
 # Resources
 
-- https://mozilla.github.io/open-leadership-training-series/articles/- github-for-collaboration/
-- https://education.github.com/pack 
-- https://daniellecrobinson.github.io/friendly-github-intro/ 
-- https://help.github.com 
-- http://ohshitgit.com 
-- https://try.github.io/levels/1/challenges/1 
-- https://git-scm.com/book/en/v2 
-- https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
-- https://help.github.com/categories/writing-on-github/
-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-- https://www.atlassian.com/git/tutorials/comparing-workflows 
-- https://guides.github.com/introduction/flow/
-- http://nvie.com/posts/a-successful-git-branching-model/
+- [Notes](https://docs.google.com/document/d/1HeWcj5RuouvHjx2x-AgL92qEwhRosE_qRknaWmCBWM4/edit?usp=sharing)
+- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
+- Useful git / GitHub resources
+    - [GitHub for Collaboration (from Mozilla)](https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/)
+    - [Understanding the GitHub workflow](https://guides.github.com/introduction/flow/)
+    - [A Friendly Github Intro Workshop (from Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
+    - [GitHub help](https://help.github.com)
+    - [Oh Shit, Git!?!](http://ohshitgit.com)
+    - [Try Git](https://try.github.io)
+    - [Git book](https://git-scm.com/book/en/v2)
+    - [GitHub glossary](https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md)
+    - [Writing on Github](https://help.github.com/categories/writing-on-github/)
+    - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    - [Git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)

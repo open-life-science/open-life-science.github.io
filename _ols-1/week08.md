@@ -16,11 +16,14 @@ During this week's cohort call, we will:
 - Open protocols
 - Open Education & Training
 
-# Resources
-
 # Before this meeting
 
 - Prepare your vision statement
+
+# Resources
+
+- [Notes](https://docs.google.com/document/d/19o-BXGx6Q7Rc2-jlW76HRoi_onKmAidtIFWXvYVXqOA/edit?usp=sharing)
+- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
 
 # After this meeting
 

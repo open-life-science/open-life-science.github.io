@@ -15,11 +15,6 @@ During this week's cohort call, we will:
 - Personas and pathways for contributors
 - Implicit bias & mental health care, Community interactions & Ally-skill
 
-# Resources
-
-- [Building Communities](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/)
-- [Community Interactions](https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3)
-
 # Before this meeting
 
 - Do the implicit Bias Quiz
@@ -29,6 +24,15 @@ During this week's cohort call, we will:
 
     - Answer these questions when you've finished the implicit association test: What does inclusion mean to you? Did your results of the implicit association test surprise you?
     - Bring your notes to the cohort call
+
+# Resources
+
+- [Notes](https://docs.google.com/document/d/1YF3Uw-fU2-mhf-FyuPdx07KSTSlvnBZeMbQdQGJq4A4/edit?usp=sharing)
+- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
+- [Building Communities](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/)
+- [Community Interactions](https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3)
+
+
 
 # After this meeting
 
