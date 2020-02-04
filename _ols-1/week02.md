@@ -23,14 +23,14 @@ During our first cohort call, we will:
 
 **Haven't heard from your mentor yet?** Let us know.
 
+# Before this meeting
+
+- Add your vision statement to your GitHub issue.
+
 # Resources
 
 - [Notes](https://docs.google.com/document/d/1q9HnEKKX2y50JiovpTDaOziFI0iDmPGYxvelUXuES90/edit?usp=sharing)
 - [Recording](https://youtu.be/3-cvl7UfSTY)
-
-# Before this meeting
-
-- Add your vision statement to your GitHub issue.
 
 # After this meeting
 

@@ -29,6 +29,17 @@ This will be followed by an optional 1 hour GitHub tutorial.
 # Before this meeting
 
 - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
+- Rework on your vision statement
+    - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/)
+    - Refine it with the editor's help
+    - Paste it in your GitHub issue
+    - Read it to the Breakout room friends during the next call and hear their feedback :)
+    - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
+
+# Resources
+
+- [Notes](https://docs.google.com/document/d/1KmXb7Vf-J7J8YolTEhc-YFrDHfz6GfOS3LHxLTcrELs/edit?usp=sharing)
+- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
 
 # After this meeting
 
