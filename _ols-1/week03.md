@@ -19,15 +19,20 @@ During this week's mentor meeting, you will:
 
 **Haven't heard from your mentor yet?** Let us know.
 
-# Resources
-
 # Before this meeting
 
 - Complete your week 2 assignments.
 
 # After this meeting
 
-- Complete any week 2 assignments that you have left to do.
+- Complete any week 2 assignments that you have left to do
+- Look up two other projects and comment on their GitHub issues with feedback on their open canvas
+- Rework on your vision statement
+    - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/)
+    - Refine it with the editor's help
+    - Paste it in your GitHub issue
+    - Read it to the Breakout room friends during the next call and hear their feedback :)
+    - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
 
 # Recap
 
