@@ -34,7 +34,7 @@ During this week's cohort call, we will:
 # Resources
 
 - [Notes](https://docs.google.com/document/d/1KmXb7Vf-J7J8YolTEhc-YFrDHfz6GfOS3LHxLTcrELs/edit?usp=sharing)
-- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
+- [Recording](https://www.youtube.com/watch?v=y9y8a3O4fjg)
 
 # After this meeting
 
