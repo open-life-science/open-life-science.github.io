@@ -7,6 +7,7 @@ authors:
 - yochannah
 image: https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2389&q=80
 ---
+*We are excited to welcome this fantastic set of mentees who are not only located in different parts of the world, but also represent different identities and backgrounds, aim to address a wide range of questions in their field, and are motivated to bring a culture change in their areas. Many of them are long-standing Open Scientists who aim to use this opportunity to apply “Open by Design” principle in their projects through this program.*
 
 {% assign mentors = site.data.people %}
 {% assign participants = site.data.ols-1-participants %}
@@ -21,8 +22,6 @@ We are thrilled to announce that [{{ participants | size }} members](/ols-1/proj
 {% endcapture %} 
 
 The mentees joining this program are {{ p-participants | split: " , " | uniq | sort | join: ", " | remove_first: ", " }}. These individuals are based in different African, Asian, European, Latin American, North American, and Russian countries where they will be leading their respective projects. 
-
-We are excited to welcome this fantastic set of mentees who are not only located in different parts of the world, but also represent different identities and backgrounds, aim to address a wide range of questions in their field, and are motivated to bring a culture change in their areas. Many of them are long-standing Open Scientists who aim to use this opportunity to apply “Open by Design” principle in their projects through this program.
 
 Their projects range from the ideas of creating new local communities, promoting best practices in open science in their existing communities, developing open software, enhancing and promoting science communication, learning community skills, improving documentation for sustainability, building open education resources, or providing support to open practitioners in their network. One member, Renato Alves, is a mentee of a project but is also mentoring one of the other projects. The project of Lena Karvovskaya was transferred from the applicant-pool of[eLife Innovation Program](https://elifesciences.org/labs/ea8e2f51/introducing-innovation-leaders-2020) as it fits better with the goal and scope of the OLS program. 
 
