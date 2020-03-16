@@ -9,7 +9,7 @@ image: https://images.unsplash.com/photo-1583947581279-4eec08383c38?ixlib=rb-1.2
 
 *Like many other organisations, we’ll be posting a few short recommendations in light of the COVID-19 outbreak, sharing advice for people participating in our program and ways we can act to minimise difficulties over the next few months.*
 
-Since OLS is an online program, it won’t be directly affected by the COVID-19 outbreak. That said, our participants are from all around the world, including countries that are either already severely affected or are in a state of emergency to act as COVID-19 spreads around the world. Even if your country is not yet locked down, you may be staying at home already anyway.
+Since OLS is an online program, it won’t be directly affected by the COVID-19 outbreak. That said, our participants are from all around the world, including countries that are either already severely affected or are in a state of emergency to act as COVID-19 spreads around the world. Even if your country is not yet locked down, we presume that you are practicing social distancing and may be even working remotely from home already.
 
 Our cohort calls and mentor calls - at this point in time - will go ahead as scheduled with the following recommendations and contingency plans: 
 
