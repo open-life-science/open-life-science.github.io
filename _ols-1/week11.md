@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Week 11 - Career Guidance Call
+title: Week 11 - Mental health care, Ally skills and Career Guidance Call
 ---
 
 **Date**: April 1, 2020
@@ -12,6 +12,7 @@ title: Week 11 - Career Guidance Call
 # This week
 
 During this week's cohort call, we will:
+- Mental health care and Ally skills
 - Hear from the professionals from different career paths
 - Ask them questions about their careers
 - Share worries/insecurities related to your work and tips that you use to overcome them
