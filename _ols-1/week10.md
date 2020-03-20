@@ -12,8 +12,9 @@ title: Week 10 - Designing & Empowering for inclusivity
 # This week
 
 During this week's cohort call, we will:
-- Personas and pathways for contributors
-- Implicit bias & mental health care, Community interactions & Ally-skill
+- Implicit bias, Diversity and Inclusion
+- Mountain of engagement and community interactions
+- Personas and pathways and welcoming new contributors
 
 # Before this meeting
 
