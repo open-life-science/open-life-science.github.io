@@ -31,7 +31,7 @@ A few days before the event, think about how you might briefly answer the follow
 
 # Resources
 
-- [Notes](https://docs.google.com/document/d/1YF3Uw-fU2-mhf-FyuPdx07KSTSlvnBZeMbQdQGJq4A4/edit?usp=sharing)
+- [Notes](https://docs.google.com/document/d/1kKXcwsVRnM05W4ZWfGwnaTJlLXvqnP7JVCOpqcvo6vU/edit)
 - Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
 
 # After this meeting
