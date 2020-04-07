@@ -20,7 +20,12 @@ This is a **15-week long personal mentorship and cohort-based training**, where 
 - connect with members across different projects, communities, backgrounds, and identities
 - empower each other to become effective Open Science ambassadors in their communities
 
+## Applications
+
 **We are currently running our [first cohort](ols-1) from January to April 2020.**
+
+Announcement for the next round will posted in May 2020. 
+Meanwhile register your interest by getting in touch with team. 
 
 ## Projects
 
