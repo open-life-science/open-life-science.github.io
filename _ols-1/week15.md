@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Week 15 - Final presentations & congratulations!
+title: Week 15 - Group 1 - Final presentations & Graduation!
 ---
 
 **Date**: April 29, 2020
