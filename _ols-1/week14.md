@@ -39,7 +39,7 @@ title: Week 14 - Meet your mentor + Group 1 - Final Presentation Rehearsal
 **Duration**: 90 minutes
 
 ### During this week's cohort call, we will:
--
+- Learn about giving and receiving feedback and conduct rehearsal for the final presentation from the project leads registered in Group 1 
 
 ### Before this meeting
 - Come prepared to share a 3 mins presentation of your project 
