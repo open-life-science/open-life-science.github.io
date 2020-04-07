@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Week 13 - Giving feedback & Project Review
+title: Week 13 - Open Agenda - Social Call
 ---
 
 **Date**: April 15, 2020
@@ -12,17 +12,16 @@ title: Week 13 - Giving feedback & Project Review
 # This week
 
 During this week's cohort call, we will:
-- 
+- take some time to get to know each other over informal networking opportunity and a pub quiz!
 
 # Before this meeting
 
-- Come prepared to share a 2min presentation of your project
+- Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
 
 # Resources
 
 - [Notes](https://docs.google.com/document/d/1f2Y3SCB9OOuxdd5TDehOuynTXvWA6cc13lK5AovgEdI/edit?usp=sharing)
-- Recording (available on the [YouTube channel](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/) after the call)
 
 # After this meeting
 
-- 
+- Continue on with your project, and connect with others on Gitter or other social media platforms.
