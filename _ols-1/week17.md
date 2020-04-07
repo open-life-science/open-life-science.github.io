@@ -5,7 +5,7 @@ title: Week 17 - Group 2 - Final Presentation Rehearsal
 
 **Date**: May 13, 2020
 
-**Time**: 19:00 - 20:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-05-13/19:00/OLS-1%20Cohort%20Call%20(Week%2017)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com))
+**Time**: 19:00 - 20:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-05-13/19:00/OLS-1%20Cohort%20Call%20(Week%2017)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=Xzg5MzNjY2E0ODkyazJiYTU4NHBqYWI5azcwbzQ2YjlwNzByajBiOW03MTJqOGMxbTZkMmo0Z2kxNm8gYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com))
 
 **Duration**: 90 minutes
 
