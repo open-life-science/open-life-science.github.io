@@ -4,10 +4,10 @@ title: Week 14 - Meet your mentor + Group 1 - Final Presentation Rehearsal
 ---
 # This Week
 
-- [Week 14-1: Mentor meeting 6](#week-14-1--mentor-meeting-6) - 30 mins with your mentor
-- [Week 14-2: Group 1 - Final presentation rehearsal](#week-14-2--group-1---final-presentation-rehearsal) - 90 mins in the cohort call
+- [Week 14-1: Mentor meeting 6](#week-14-1-mentor-meeting-6) - 30 mins with your mentor
+- [Week 14-2: Group 1 - Final presentation rehearsal](#week-14-2-group-1-final-presentation-rehearsal) - 90 mins in the cohort call
 
-## Week 14-1: Mentor meeting 6
+## Week 14-1 Mentor meeting 6
 
 **Date**: Week of April 20, 2020
 
@@ -30,7 +30,7 @@ title: Week 14 - Meet your mentor + Group 1 - Final Presentation Rehearsal
 ### Recap
 - Check your 1:1 mentor meeting notes.
 
-## Week 14-2: Group 1 - Final presentation rehearsal
+## Week 14-2 Group-1 Final presentation rehearsal
 
 **Date**: April 22, 2020
 
