@@ -15,9 +15,9 @@ During this week's cohort call, we will:
 - Learn about giving and receiving feedback and conduct rehearsal for the final presentation from the project leads registered in Group 2 
 
 # Before this meeting
-- Come prepared to share a 3 mins presentation of your project 
-- Your presentation can be in the form of a demo, short 1-2 slides presentation or a walk through your website
-- This should only be a highlight and not the entire presentation
+- Come prepared to share a 5 mins presentation of your project 
+- Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
+- This could also be only be the highlights from your presentation
 
 # Resources
 - [Notes](https://docs.google.com/document/d/1PG3jXV1A9OjFR1EEZ0rNafbD-oJdp3R4rGL2VzPbAaA/edit?usp=sharing)
