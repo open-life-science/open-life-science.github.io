@@ -87,7 +87,10 @@ At the end of the program, our participants will be able to:
 | 12   | Mentor | 30 min | Week of April 6, 2020 |  [**Meet your mentor!**]({% link _ols-1/week12.md %}) | Invite an expert with mentor |
 | 13   | Cohort | 90 min | April 15, 2020 (2pm CET) | [**Giving feedback & Project Review (preparation and practice)**]({% link _ols-1/week13.md %}) | Giving feedback, Preparation of final presentation |
 | 14   | Mentor | 30 min | Week of April 20, 2020 | [**Meet your mentor!**]({% link _ols-1/week14.md %}) | Preparation for the final demos |
-| 15   | Cohort | 90 min | April 29, 2020 (7pm CET) | [**Final presentations & congratulations!**]({% link _ols-1/week15.md %}) | 2-minute demos of each project (Audience: entire community & public, Open and recorded call) |
+|      | Cohort | 90 min | April 22, 2020 (7pm CET) | [**Group 1 - Final presentation rehearsal**]({% link _ols-1/week14.md %}) | Test of the final demos for the group 1 |
+| 15   | Cohort | 90 min | April 29, 2020 (7pm CET) | [**Group 1 - Final presentations & Graduation!**]({% link _ols-1/week15.md %}) | 5-minute demos of projects for group 1 (Audience: entire community & public, Open and recorded call) |
+| 17   | Cohort | 90 min | May 13, 2020 (7pm CET) | [**Group 2 - Final presentation rehearsal**]({% link _ols-1/week17.md %}) | Test of the final demos for the group 2 |
+| 18   | Cohort | 90 min | April 29, 2020 (7pm CET) | [**Group 2 - Final presentations & Graduation!**]({% link _ols-1/week18.md %}) | 5-minute demos of projects for group 2 (Audience: entire community & public, Open and recorded call) |
 
 # Joining calls
 

@@ -4,16 +4,18 @@ title: Week 14 - Meet your mentor + Group 1 - Final Presentation Rehearsal
 ---
 # This Week
 
-- [Week 14-1: Mentor meeting 6](#week-14-1-mentor-meeting-6) - 30 mins with your mentor
-- [Week 14-2: Group 1 - Final presentation rehearsal](#week-14-2-group-1-final-presentation-rehearsal) - 90 mins in the cohort call
+- [Mentor meeting 6](#mentor-meeting-6) - 30 mins with your mentor
+- [Group 1 - Final presentation rehearsal](#group-1-final-presentation-rehearsal) - 90 mins in the cohort call
 
-## Week 14-1 Mentor meeting 6
+## Mentor meeting 6
 
 **Date**: Week of April 20, 2020
 
 **Duration**: 30 minutes
 
-### During this week's mentor meeting, you will: 
+### Mentor meeting
+
+During this week's mentor meeting, you will: 
 - Review your project with your mentor, and thank your mentor if this is your last mentor call in OLS-1.
 
 ### Resources
@@ -28,20 +30,23 @@ title: Week 14 - Meet your mentor + Group 1 - Final Presentation Rehearsal
 - Complete any assignment that you have left to do.
 
 ### Recap
+
 - Check your 1:1 mentor meeting notes.
 
-## Week 14-2 Group-1 Final presentation rehearsal
+## Group 1 - Final presentation rehearsal
 
 **Date**: April 22, 2020
 
-**Time**: 19:00 - 20:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-04-22/19:00/OLS-1%20Cohort%20Call%20(Week%2014)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com))
+**Time**: 7:00 - 8:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-04-22/19:00/OLS-1%20Cohort%20Call%20(Week%2014)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com))
 
 **Duration**: 90 minutes
 
-### During this week's cohort call, we will:
--
+### Cohort call
+
+During this week's cohort call, we will:
 
 ### Before this meeting
+
 - Come prepared to share a 5 mins presentation of your project 
 - Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
 - This could also be only the highlights from your presentation
