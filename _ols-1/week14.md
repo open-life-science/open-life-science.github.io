@@ -14,7 +14,7 @@ title: Week 14 - Meet your mentor + Group 1 - Final Presentation Rehearsal
 **Duration**: 30 minutes
 
 During this week's mentor meeting, you will: 
-- Review your project with your mentor, and thank you mentor if this is your last mentor call in OLS-1.
+- Review your project with your mentor, and thank your mentor if this is your last mentor call in OLS-1.
 
 ## Resources
 - Check your 1:1 mentor meeting notes.
