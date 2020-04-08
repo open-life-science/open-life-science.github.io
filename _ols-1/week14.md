@@ -44,7 +44,7 @@ title: Week 14 - Meet your mentor + Group 1 - Final Presentation Rehearsal
 ### Before this meeting
 - Come prepared to share a 5 mins presentation of your project 
 - Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
-- This could also be only be the highlights from your presentation
+- This could also be only the highlights from your presentation
 
 ### Resources
 - [Notes](https://docs.google.com/document/d/1rM6Msvj2ReaUFkEy8CPKyXSAC3RY7xnamkttug0M6PM/edit?usp=sharing)
