@@ -6,6 +6,9 @@ authors:
 - malvikasharan
 - bebatut
 image: https://images.unsplash.com/photo-1560523159-6b681a1e1852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
+photos:
+  name: Product School
+  url: https://unsplash.com/photos/ypZHyD1TqP0
 ---
 
 It's been a long and exciting journey, from applications opening in October 2019, [announcing selected applicants in early January]({% link _posts/2020-01-13-ols1-announcement.md %}), and kicking off [the program's first cohort call on the 29th of January]({% link _ols-1/week02.md %}). Since then we've had an amazing range of guest speakers from around the world, sharing their expertise on topics in [the OLS syllabus]({% link ols-1.md %}), as well as a variety of breakout and discussion sessions, interspersed with mentor calls every other week. We wrapped up our learning calls with [a cohort call on self care, ally skills, and careers]({% link _ols-1/week11.md %}).  
