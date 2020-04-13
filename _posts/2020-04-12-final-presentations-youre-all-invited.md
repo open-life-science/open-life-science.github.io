@@ -19,10 +19,12 @@ While we'd originally planned to have a single final presentations call, with th
 
 ## It's time to show off what we've learned
 
-We've been learning, applying our new skills and ideas to our projects - and now it's time to share! You're invited to view the final presentations across two dates:
+We've been learning, applying our new skills and ideas to our projects - and now it's time to share! You're invited to rehearse your final presentations across two dates:
 
-- **Group 1:** [Joining details and notes]({% link _ols-1/week15.md %}) - April 29 7:00 - 8:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-04-29/19:00/OLS-1%20Cohort%20Call%20(Week%2015)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MnRsY291Y3U3ZmxuMDMxYmg3bnBnNTRtcTYgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com))
-- **Group 2:** [Joining details and notes]({% link _ols-1/week17.md %}) - May 13 7:00 - 8:30 pm CET ([time zone](https://arewemeetingyet.com/Berlin/2020-05-13/19:00/OLS-1%20Cohort%20Call%20(Week%2017)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=Xzg5MzNjY2E0ODkyazJiYTU4NHBqYWI5azcwbzQ2YjlwNzByajBiOW03MTJqOGMxbTZkMmo0Z2kxNm8gYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com))
+- **Group 1:** [Joining details and notes]({% link _ols-1/week14.md %}) - April 22 7:00 - 8:30 pm CEST ([time zone](https://arewemeetingyet.com/Berlin/2020-04-22/19:00/OLS-1%20Cohort%20Call%20(Week%2014)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com)
+- **Group 2:** [Joining details and notes]({% link _ols-1/week17.md %}) - May 13 7:00 - 8:30 pm CEST ([time zone](https://arewemeetingyet.com/Berlin/2020-05-13/19:00/OLS-1%20Cohort%20Call%20(Week%2017)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=Xzg5MzNjY2E0ODkyazJiYTU4NHBqYWI5azcwbzQ2YjlwNzByajBiOW03MTJqOGMxbTZkMmo0Z2kxNm8gYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com))
+
+Graduation dates are scheduled a week after the rehearsal dates, on [April 29 for Group 1]({% link _ols-1/week15.md %}) and [May 20 for Group 2]({% link _ols-1/week18.md %}).
 
 ### Eek, I'm an OLS-1 participant! What do I do?
 
