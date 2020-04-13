@@ -34,7 +34,9 @@ Psst, <span style="text-decoration:line-through">want to laugh at Yo?</span> see
 
 (Yo's note: Some context may be missing. This was the third of three presentations throughout the program, so not all the things that happened during Mozilla OL4 were mentioned in this video!)
 
-<iframe width="560" height="300" src="https://www.youtube.com/embed/lwhTqUcwSBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Here's Malvika's final presentation from Mozilla Open Leaders 7: 
+
+<iframe style="width:560px;height:300px;min-width:560px;min-height:300px;" width="560" height="300" src="https://www.youtube.com/embed/lwhTqUcwSBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 (We had 7 minutes as we were smaller cohort, so you can skip the details!)
 
