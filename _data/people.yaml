@@ -1,7 +1,5 @@
 # List of people (alphabetical order)
 #
-# valid tags: name, email, website, twitter, gitter, orcid, description
-#
 # collection names should be equal to github username, if not, add github: false tag
 ---
 
@@ -14,7 +12,6 @@ aath0:
     description: >
         Athina is a neuroscientist, with a background in electrical and computer engineering.
         Her research combines computational and electrophysiological techniques to study human cognition.
-    expert: true
 
 aidanbudd:
     name: Aidan Budd
@@ -43,6 +40,13 @@ ajstewartlang:
         All the research programmes he leads now involve open data and open code - and everything he hopes is *hopefully* fully reproducible!
     expert: true
     mentor: true
+
+anayan321:
+    name: Anunya Opasawatchai
+    twitter: pk_suta
+    affiliation: Mahidol University
+    country: Thailand
+    pronouns: she/her
 
 anenadic:
     name: Aleksandra Nenadic
@@ -96,6 +100,9 @@ bebatut:
     website: https://research.bebatut.fr
     gitter: bebatut
     orcid: 0000-0001-9852-1987
+    affiliation: University of Freiburg
+    country: Germany
+    pronouns: she/her
     description: >
         Bérénice is a bioinformatician (post-doc in the <a href="https://galaxyproject.eu/freiburg/">Freiburg Galaxy Team</a>),
         analyzing biological data and developing tools for data analysis, mainly via <a href="https://galaxyproject.org/">Galaxy</a>.
@@ -128,6 +135,55 @@ BhuvanaMeenakshiK:
         Her expertise are in Gender gap, Mozilla technologies and Wikimedia projects.
     expert: true
     
+billbrod:
+    name: Billy (William) Broderick
+    twitter: wfbroderick
+    affiliation: New York University
+    country: USA
+    pronouns: he/him
+
+bonetcarne:
+    name: Elisenda Bonet-Carne
+    twitter: bonetcarne
+    affiliation: BCNatal Fetal Medicine Research Center
+    country: Spain
+    pronouns: she/her
+
+bruno-soares:
+    name: Bruno Eleres Soares
+    twitter: Bruno_E_Soares
+    affiliation: Universidade Federal do Rio de Janeiro
+    country: Brazil
+    pronouns: he/him
+
+cassgvp:
+    name: Cassandra Gould van Praag
+    twitter: cassgvp
+    affiliation: University of Oxford
+    country: UK
+    pronouns: she/her
+
+ChiaraBertipaglia:
+    name: Chiara Bertipaglia
+    twitter: ChiaBertipaglia
+    affiliation: Columbia University’s Zuckerman Institute
+    country: USA
+    pronouns: she/her
+
+christinerogers:
+    name: Christine Rogers
+    twitter: xtinerogers
+    affiliation: Montreal Neurological Institute, McGill University
+    country: Canada
+    pronouns: she/her
+
+dannycolin:
+    name: Danny Colin
+    twitter: dannycolincom
+    affiliation: Université de Montréal
+    country: Canada
+    pronouns: he/him
+
 dasaderi:
     name: Daniela Saderi
     twitter: Neurosarda
@@ -139,7 +195,13 @@ dasaderi:
         and she now leads a project called PREreview to empower researchers to engage with each other and review preprints.
     expert: true
     mentor: true
-    
+
+davidviryachen:
+    name: David Chentanaman
+    twitter: davidchenn
+    affiliation: Osaka University
+    country: Japan
+
 Demellina:
     name: Demitra Ellina
     email: Demitra.Ellina@f1000.com
@@ -150,7 +212,21 @@ Demellina:
         In her role, she supports the development of funder-specific platforms, particularly Wellcome Open Research. These platforms aim to transform the
         way science is communicated and provides researchers with innovative solutions for how their research is shared, used and reused.
     expert: true
-    
+
+dlebauer:
+    name: David LeBauer
+    twitter: dlebauer
+    affiliation: University of Arizona
+    country: USA
+
+elsasci:
+    name: Elsa Loissel
+    twitter: elsasci
+    affiliation: eLife
+    country: UK
+    pronouns: she/her
+    github: false
+
 emmyft:
     name: Emmy Tsang
     twitter: emmy_ft
@@ -163,6 +239,20 @@ emmyft:
         while learning about open-source, open science and community building!
         Her expertise is in Community strategies, publishing and scholarly communication.
     expert: true
+
+ewuramaminka:
+    name: Deborah Akuoko
+    twitter: eminka_da
+    affiliation: University of Manchester
+    country: UK
+    pronouns: she/her
+
+Fnyasimi:
+    name: Festus Nyasimi
+    twitter: Festus_nyasimi
+    affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
+    country: Kenya
+    pronouns: he/him
 
 fpsom:
     name: Fotis Psomopoulos
@@ -218,7 +308,13 @@ hdinkel:
         His mission is to support scientists in all aspects IT.
     expert: true
     mentor: true
-    
+
+homo-sapiens34:
+    name: Zoe Chervontseva
+    affiliation: IITP RAS
+    country: Russia
+    pronouns: she/her
+
 InquisitiveVi:
     name: Vinodh Ilangovan
     twitter: I_Vinodh
@@ -289,6 +385,12 @@ kipkurui:
     expert: true
     mentor: true
 
+Kiragu-Mwaura:
+    name: David Kiragu Mwaura
+    twitter: MwauraKiragu
+    affiliation: Institute of Primate Research
+    country: Kenya
+
 KirstieJane:
     name: Kirstie Whitaker
     twitter: kirstie_j
@@ -306,6 +408,13 @@ KirstieJane:
         was named, with her collaborator Petra Vertes, as a 2016 Global Thinker by Foreign Policy magazine.
     expert: true
 
+KristinaRiemer:
+    name: Kristina Riemer
+    twitter: KristinaRiemer
+    affiliation: University of Arizona
+    country: USA
+    pronouns: she/her
+
 kswhitney:
     name: Kaitlin Stack Whitney
     twitter: kstackwhitney
@@ -318,6 +427,33 @@ kswhitney:
         extended program faculty in the Environmental Sciences Program.
     expert: true
     mentor: true
+
+LandiMi2:
+    name: Michael Kofia Landi
+    twitter: CofiaLandy
+    affiliation: International Livestock Research Institute
+    country: Kenya
+
+LangData:
+    name: Lena Karvovskaya
+    twitter: LangData
+    affiliation: Free University of Amsterdam
+    country: Netherlands
+    pronouns: she/her
+    github: false
+
+lazycipher:
+    name: Himanshu Singh
+    twitter: lazycipher
+    affiliation: Galgotias University
+    country: India
+    pronouns: he/him
+
+Lilian9:
+    name: Lilian Juma
+    affiliation: Information Training and Outreach Centre for Africa
+    country: Kenya
+    pronouns: she/her
 
 luispedro:
     name: Luis Pedro Coelho
@@ -332,6 +468,12 @@ luispedro:
         and organized and taught at multiple Software Carpentry workshops.
     expert: true
     mentor: true
+
+MagicMilly:
+    name: Emily Cain
+    twitter: magic_milly
+    affiliation: University of Arizona
+    country: USA
 
 malvikasharan:
     name: Malvika Sharan
@@ -354,6 +496,19 @@ malvikasharan:
         Through her work, she promotes inclusiveness in Open Science communities.
     organizer: true
 
+matuskalas:
+    name: Matúš Kalaš
+    twitter: matuskalas
+    affiliation: University of Bergen
+    country: Norway
+    pronouns: he/him
+
+Megmugure:
+    name: Margaret Wanjiku
+    twitter: meg_wanjiku
+    affiliation: International Livestock Research Institute
+    country: Kenya
+
 mkuzak:
     name: Mateusz Kuzak
     twitter: matkuzak
@@ -367,6 +522,13 @@ mkuzak:
         trainer and mentor (both in the mentoring subcommittee and mentoring teams).
     expert: true
     mentor: true
+
+MorphoFun:
+    name: Sandy Kawano
+    twitter: MorphoFun
+    affiliation: The George Washington University
+    country: USA
+    pronouns: she/her
 
 mruizvelley:
     name: Mariana Ruiz Velasco
@@ -392,6 +554,13 @@ mvdbeek:
         towards data analysis and Galaxy development after that.
     expert: true
     mentor: true
+
+NaraLB:
+    name: Naraiana Loureiro Benone
+    twitter: nlbenone
+    affiliation: Museu Paraense Emílio Goeldi
+    country: Brazil
+    pronouns: she/her
 
 nerantzis:
     name: Nikolaos Nerantzis
@@ -501,6 +670,42 @@ rodrigocam:
         python programmer, functional languages lover!
     mentor: true
 
+SamGuay:
+    name: Samuel Guay
+    twitter: SamGuay_
+    affiliation: Université de Montréal
+    country: Canada 
+    pronouns: he/him
+
+satagopam7:
+    name: Venkata Satagopam
+    twitter:
+    email: venkata.satagopam@uni.lu
+    website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
+    orcid: 0000-0002-6532-5880
+    description: >
+        Venkata is a Bioinformatician, a Senior Researcher at Bioinformatics core facility, 
+        and Deputy Head of the BioMedical Informatics Department, LCSB, University of Luxembourg. 
+        He is also Technical Coordinator (TeC) of ELIXIR-Luxembourg Node and CTO & Co-founder ITTM S.A. Luxembourg. 
+        He has around two decades of working experience in various bioinformatics fields including 
+        Data Integration and Knowledge Management; Clinical and Translational Data Curation, 
+        Harmonisation, Integration and Analysis; Dynamic Visual Analytics; Text-mining; 
+        Deep learning and advanced machine learning technologies.
+    expert: true
+    mentor: true
+
+Sithyphus:
+    name: Jorge Barrios
+    affiliation: University of Arizona
+    country: USA
+
+sudarshangc:
+    name: Sudarshan GC
+    twitter: Sudarsh07847591
+    affiliation: Media Lab Nepal
+    country: Nepal
+    pronouns: he/him
+
 tobyhodges:
     name: Toby Hodges
     twitter: tbyhdgs
@@ -521,26 +726,12 @@ unode:
     twitter: renato_alvs
     email: renato.alves@embl.de
     orcid: 0000-0002-7212-0234
+    affiliation: European Molecular Biology Laboratory (EMBL)
+    country: Germany
+    pronouns: he/him
     description: >
         Renato is a biologist by training with a passion for computational work. 
         Love learning about as much as teaching. Open source junky. Certified computer geek.
-    expert: true
-    mentor: true
-    
-satagopam7:
-    name: Venkata Satagopam
-    twitter:
-    email: venkata.satagopam@uni.lu
-    website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
-    orcid: 0000-0002-6532-5880
-    description: >
-        Venkata is a Bioinformatician, a Senior Researcher at Bioinformatics core facility, 
-        and Deputy Head of the BioMedical Informatics Department, LCSB, University of Luxembourg. 
-        He is also Technical Coordinator (TeC) of ELIXIR-Luxembourg Node and CTO & Co-founder ITTM S.A. Luxembourg. 
-        He has around two decades of working experience in various bioinformatics fields including 
-        Data Integration and Knowledge Management; Clinical and Translational Data Curation, 
-        Harmonisation, Integration and Analysis; Dynamic Visual Analytics; Text-mining; 
-        Deep learning and advanced machine learning technologies.
     expert: true
     mentor: true
 
