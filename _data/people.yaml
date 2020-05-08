@@ -4,7 +4,8 @@
 ---
 
 aath0:
-    name: Athina Tzovara
+    first-name: Athina
+    last-name: Tzovara
     twitter: aath0
     email: athina.tz@gmail.com
     website: https://aath0.github.io/
@@ -14,7 +15,8 @@ aath0:
         Her research combines computational and electrophysiological techniques to study human cognition.
 
 aidanbudd:
-    name: Aidan Budd
+    first-name: Aidan
+    last-name: Budd
     twitter: AidanBudd
     email: aidan.budd@gmx.de
     website: https://about.me/aidan.budd
@@ -29,7 +31,8 @@ aidanbudd:
     mentor: true
 
 ajstewartlang:
-    name: Andrew Stewart
+    first-name: Andrew
+    last-name: Stewart
     twitter: ajstewart_lang
     email: andrew.stewart@manchester.ac.uk
     website: https://ajstewartlang.netlify.com
@@ -42,14 +45,16 @@ ajstewartlang:
     mentor: true
 
 anayan321:
-    name: Anunya Opasawatchai
+    first-name: Anunya
+    last-name: Opasawatchai
     twitter: pk_suta
     affiliation: Mahidol University
     country: Thailand
     pronouns: she/her
 
 anenadic:
-    name: Aleksandra Nenadic
+    first-name: Aleksandra
+    last-name: Nenadic
     twitter: aleks_nenadic
     email: a.nenadic@manchester.ac.uk
     website: https://www.software.ac.uk/about/staff/person/aleksandra-nenadic
@@ -64,7 +69,8 @@ anenadic:
     expert: true
 
 annakrystalli:
-    name: Anna Krystalli
+    first-name: Anna
+    last-name: Krystalli
     twitter: annakrystalli
     email: annakrystalli@googlemail.com
     orcid: 0000-0002-2378-4915
@@ -75,7 +81,8 @@ annakrystalli:
     expert: true
 
 anneclinio:
-    name: Anne Clinio
+    first-name: Anne
+    last-name: Clinio
     twitter: anneclinio
     email: anneclinio@gmail.com
     description: >
@@ -84,7 +91,8 @@ anneclinio:
     expert: true
 
 annefou:
-    name: Anne Fouilloux
+    first-name: Anne
+    last-name: Fouilloux
     twitter: AnneFouilloux
     email: annefou@geo.uio.no
     website: https://annefou.github.io
@@ -94,7 +102,8 @@ annefou:
     mentor: true
 
 bebatut:
-    name: Bérénice Batut
+    first-name: Bérénice
+    last-name: Batut
     twitter: bebatut
     email: berenice.batut@gmail.com
     website: https://research.bebatut.fr
@@ -114,7 +123,8 @@ bebatut:
     organizer: true
 
 bgruening:
-    name: Björn Grüning
+    first-name: Björn
+    last-name: Grüning
     twitter: bjoerngruening
     email: bjoern.gruening@gmail.com
     orcid: 0000-0002-3079-6586
@@ -126,7 +136,8 @@ bgruening:
     mentor: true
     
 BhuvanaMeenakshiK:
-    name: Bhuvana Meenakshi Koteeswaran
+    first-name: Bhuvana
+    last-name: Meenakshi Koteeswaran
     twitter: bhuvanakotees1
     email: bhuvanameenakshi@gmail.com
     website: https://www.linkedin.com/in/bhuvana-meenakshi-koteeswaran-a67b58103/
@@ -136,56 +147,64 @@ BhuvanaMeenakshiK:
     expert: true
     
 billbrod:
-    name: Billy (William) Broderick
+    first-name: Billy
+    last-name: (William) Broderick
     twitter: wfbroderick
     affiliation: New York University
     country: USA
     pronouns: he/him
 
 bonetcarne:
-    name: Elisenda Bonet-Carne
+    first-name: Elisenda
+    last-name: Bonet-Carne
     twitter: bonetcarne
     affiliation: BCNatal Fetal Medicine Research Center
     country: Spain
     pronouns: she/her
 
 bruno-soares:
-    name: Bruno Eleres Soares
+    first-name: Bruno
+    last-name: Eleres Soares
     twitter: Bruno_E_Soares
     affiliation: Universidade Federal do Rio de Janeiro
     country: Brazil
     pronouns: he/him
 
 cassgvp:
-    name: Cassandra Gould van Praag
+    first-name: Cassandra
+    last-name: Gould van Praag
     twitter: cassgvp
     affiliation: University of Oxford
     country: UK
     pronouns: she/her
 
 ChiaraBertipaglia:
-    name: Chiara Bertipaglia
+    first-name: Chiara
+    last-name: Bertipaglia
     twitter: ChiaBertipaglia
     affiliation: Columbia University’s Zuckerman Institute
     country: USA
     pronouns: she/her
 
 christinerogers:
-    name: Christine Rogers
+    first-name: Christine
+    last-name: Rogers
     twitter: xtinerogers
     affiliation: Montreal Neurological Institute, McGill University
     country: Canada
     pronouns: she/her
 
 dannycolin:
-    name: Danny Colin
+    first-name: Danny
+    last-name: Colin
     twitter: dannycolincom
     affiliation: Université de Montréal
     country: Canada
     pronouns: he/him
 
 dasaderi:
-    name: Daniela Saderi
+    first-name: Daniela
+    last-name: Saderi
     twitter: Neurosarda
     email: daniela@prereview.org
     website: https://v2.prereview.org
@@ -197,13 +216,15 @@ dasaderi:
     mentor: true
 
 davidviryachen:
-    name: David Chentanaman
+    first-name: David
+    last-name: Chentanaman
     twitter: davidchenn
     affiliation: Osaka University
     country: Japan
 
 Demellina:
-    name: Demitra Ellina
+    first-name: Demitra
+    last-name: Ellina
     email: Demitra.Ellina@f1000.com
     twitter: j_ellina
     description: >
@@ -214,13 +235,15 @@ Demellina:
     expert: true
 
 dlebauer:
-    name: David LeBauer
+    first-name: David
+    last-name: LeBauer
     twitter: dlebauer
     affiliation: University of Arizona
     country: USA
 
 elsasci:
-    name: Elsa Loissel
+    first-name: Elsa
+    last-name: Loissel
     twitter: elsasci
     affiliation: eLife
     country: UK
@@ -228,7 +251,8 @@ elsasci:
     github: false
 
 emmyft:
-    name: Emmy Tsang
+    first-name: Emmy
+    last-name: Tsang
     twitter: emmy_ft
     email: e.tsang@elifesciences.org
     website: https://elifesci.org/labs
@@ -241,21 +265,24 @@ emmyft:
     expert: true
 
 ewuramaminka:
-    name: Deborah Akuoko
+    first-name: Deborah
+    last-name: Akuoko
     twitter: eminka_da
     affiliation: University of Manchester
     country: UK
     pronouns: she/her
 
 Fnyasimi:
-    name: Festus Nyasimi
+    first-name: Festus
+    last-name: Nyasimi
     twitter: Festus_nyasimi
     affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
     country: Kenya
     pronouns: he/him
 
 fpsom:
-    name: Fotis Psomopoulos
+    first-name: Fotis
+    last-name: Psomopoulos
     twitter: fopsom
     email: fpsom@certh.gr
     website: https://fpsom.github.io/
@@ -271,7 +298,8 @@ fpsom:
     mentor: true
 
 gedankenstuecke:
-    name: Bastian Greshake Tzovaras
+    first-name: Bastian
+    last-name: Greshake Tzovaras
     twitter: gedankenstuecke
     email: bgreshake@googlemail.com
     website: https://tzovar.as
@@ -283,7 +311,8 @@ gedankenstuecke:
     expert: true
 
 ha0ye:
-    name: Hao Ye
+    first-name: Hao
+    last-name: Ye
     twitter: Hao_and_Y
     email: hao.ye@weecology.org
     website: https://haoye.us
@@ -298,7 +327,8 @@ ha0ye:
     mentor: true
     
 hdinkel:
-    name: Holger Dinkel
+    first-name: Holger
+    last-name: Dinkel
     email: holger.dinkel@posteo.de
     orcid: 0000-0002-9316-5204
     description: >
@@ -310,13 +340,15 @@ hdinkel:
     mentor: true
 
 homo-sapiens34:
-    name: Zoe Chervontseva
+    first-name: Zoe
+    last-name: Chervontseva
     affiliation: IITP RAS
     country: Russia
     pronouns: she/her
 
 InquisitiveVi:
-    name: Vinodh Ilangovan
+    first-name: Vinodh
+    last-name: Ilangovan
     twitter: I_Vinodh
     email: vinodh.ilangovan@gmail.com
     orcid: 0000-0002-3445-5383
@@ -326,7 +358,8 @@ InquisitiveVi:
     expert: true
 
 JasonJWilliamsNY:
-    name: Jason Williams
+    first-name: Jason
+    last-name: Williams
     twitter: JasonWilliamsNY
     email: williams@cshl.edu
     website: https://lifescitrainers.org
@@ -337,8 +370,8 @@ JasonJWilliamsNY:
     expert: true
 
 joelostblom:
-    name: Joel Ostblom
-    twitter:
+    first-name: Joel
+    last-name: Ostblom
     email: joel.ostblom@gmail.com
     website: https://joelostblom.com
     orcid: 0000-0003-0051-3239
@@ -350,7 +383,8 @@ joelostblom:
     expert: true
 
 kariljordan:
-    name: Kari L. Jordan
+    first-name: Kari
+    last-name: L. Jordan
     twitter: drkariljordan
     email: kariljordan@carpentries.org
     website: https://www.kariljordan.com
@@ -365,7 +399,8 @@ kariljordan:
     expert: true
 
 katrinleinweber:
-    name: Katrin Leinweber
+    first-name: Katrin
+    last-name: Leinweber
     email: leinweber.katrin@gmail.com
     orcid: 0000-0001-5135-5758
     description: >
@@ -375,7 +410,8 @@ katrinleinweber:
     mentor: true
 
 kipkurui:
-    name: Caleb Kibet
+    first-name: Caleb
+    last-name: Kibet
     twitter: calkibet
     email: ckibet@icipe.org
     description: >
@@ -386,13 +422,15 @@ kipkurui:
     mentor: true
 
 Kiragu-Mwaura:
-    name: David Kiragu Mwaura
+    first-name: David
+    last-name: Kiragu Mwaura
     twitter: MwauraKiragu
     affiliation: Institute of Primate Research
     country: Kenya
 
 KirstieJane:
-    name: Kirstie Whitaker
+    first-name: Kirstie
+    last-name: Whitaker
     twitter: kirstie_j
     email: kwhitaker@turing.ac.uk
     website: https://whitakerlab.github.io/
@@ -409,14 +447,16 @@ KirstieJane:
     expert: true
 
 KristinaRiemer:
-    name: Kristina Riemer
+    first-name: Kristina
+    last-name: Riemer
     twitter: KristinaRiemer
     affiliation: University of Arizona
     country: USA
     pronouns: she/her
 
 kswhitney:
-    name: Kaitlin Stack Whitney
+    first-name: Kaitlin
+    last-name: Stack Whitney
     twitter: kstackwhitney
     email: kxwsbi@rit.edu
     website: https://pht180.rit.edu/sweetlab/
@@ -429,13 +469,15 @@ kswhitney:
     mentor: true
 
 LandiMi2:
-    name: Michael Kofia Landi
+    first-name: Michael
+    last-name: Kofia Landi
     twitter: CofiaLandy
     affiliation: International Livestock Research Institute
     country: Kenya
 
 LangData:
-    name: Lena Karvovskaya
+    first-name: Lena
+    last-name: Karvovskaya
     twitter: LangData
     affiliation: Free University of Amsterdam
     country: Netherlands
@@ -443,20 +485,23 @@ LangData:
     github: false
 
 lazycipher:
-    name: Himanshu Singh
+    first-name: Himanshu
+    last-name: Singh
     twitter: lazycipher
     affiliation: Galgotias University
     country: India
     pronouns: he/him
 
 Lilian9:
-    name: Lilian Juma
+    first-name: Lilian
+    last-name: Juma
     affiliation: Information Training and Outreach Centre for Africa
     country: Kenya
     pronouns: she/her
 
 luispedro:
-    name: Luis Pedro Coelho
+    first-name: Luis Pedro
+    last-name: Coelho
     twitter: luispedrocoelho
     email: luis@luispedro.org
     website: http://luispedro.org
@@ -470,13 +515,15 @@ luispedro:
     mentor: true
 
 MagicMilly:
-    name: Emily Cain
+    first-name: Emily
+    last-name: Cain
     twitter: magic_milly
     affiliation: University of Arizona
     country: USA
 
 malvikasharan:
-    name: Malvika Sharan
+    first-name: Malvika
+    last-name: Sharan
     twitter: MalvikaSharan
     email: malvikasharan@gmail.com
     gitter: malvikasharan
@@ -497,20 +544,23 @@ malvikasharan:
     organizer: true
 
 matuskalas:
-    name: Matúš Kalaš
+    first-name: Matúš
+    last-name: Kalaš
     twitter: matuskalas
     affiliation: University of Bergen
     country: Norway
     pronouns: he/him
 
 Megmugure:
-    name: Margaret Wanjiku
+    first-name: Margaret
+    last-name: Wanjiku
     twitter: meg_wanjiku
     affiliation: International Livestock Research Institute
     country: Kenya
 
 mkuzak:
-    name: Mateusz Kuzak
+    first-name: Mateusz
+    last-name: Kuzak
     twitter: matkuzak
     email: mateusz.kuzak@gmail.com
     orcid: 0000-0003-0087-6021
@@ -524,14 +574,16 @@ mkuzak:
     mentor: true
 
 MorphoFun:
-    name: Sandy Kawano
+    first-name: Sandy
+    last-name: Kawano
     twitter: MorphoFun
     affiliation: The George Washington University
     country: USA
     pronouns: she/her
 
 mruizvelley:
-    name: Mariana Ruiz Velasco
+    first-name: Mariana
+    last-name: Ruiz Velasco
     twitter: mruizvelley
     email: mruizvelley@gmail.com
     orcid: 0000-0002-9248-1280
@@ -544,7 +596,8 @@ mruizvelley:
     github: false
 
 mvdbeek:
-    name: Marius van den Beek
+    first-name: Marius
+    last-name: van den Beek
     twitter: mariusvdbeek
     email: m.vandenbeek@gmail.com
     orcid: 0000-0002-9676-7032
@@ -556,14 +609,16 @@ mvdbeek:
     mentor: true
 
 NaraLB:
-    name: Naraiana Loureiro Benone
+    first-name: Naraiana
+    last-name: Loureiro Benone
     twitter: nlbenone
     affiliation: Museu Paraense Emílio Goeldi
     country: Brazil
     pronouns: she/her
 
 nerantzis:
-    name: Nikolaos Nerantzis
+    first-name: Nikolaos
+    last-name: Nerantzis
     twitter: nerantzis
     email: ScienceBrainFun@gmail.com
     website: https://4myfiles.wordpress.com
@@ -572,7 +627,8 @@ nerantzis:
     expert: true
 
 npscience:
-    name: Naomi Penfold
+    first-name: Naomi
+    last-name: Penfold
     twitter: npscience
     email: naomi.penfold@asapbio.org
     website: https://npscience.github.io
@@ -593,7 +649,8 @@ npscience:
     mentor: true
 
 nsoranzo:
-    name: Nicola Soranzo
+    first-name: Nicola
+    last-name: Soranzo
     twitter: NicolaSoranzo
     email: nicola.soranzo@gmail.com
     website: https://www.earlham.ac.uk/nicola-soranzo
@@ -607,7 +664,8 @@ nsoranzo:
     expert: true
 
 orchid00:
-    name: Paula Andrea Martinez
+    first-name: Paula 
+    last-name: Andrea Martinez
     email: p.martinez@uq.edu.au
     orcid: 0000-0002-8990-1985
     description: >
@@ -619,7 +677,8 @@ orchid00:
     expert: true
 
 pherterich:
-    name: Patricia
+    first-name: Patricia
+    last-name: 
     twitter: pherterich
     orcid: 0000-0002-4542-9906
     description: >
@@ -635,7 +694,8 @@ pherterich:
     mentor: true
 
 profgiuseppe:
-    name: Giuseppe Profiti
+    first-name: Giuseppe
+    last-name: Profiti
     email: profgiuseppe@gmail.com
     website: https://sites.google.com/site/peppeprofiti
     orcid: 0000-0001-6067-6174
@@ -647,7 +707,8 @@ profgiuseppe:
     expert: true
 
 rainsworth:
-    name: Rachael Ainsworth
+    first-name: Rachael
+    last-name: Ainsworth
     twitter: rachaelevelyn
     email: rainswor@gmail.com
     website: https://rainsworth.github.io/
@@ -662,7 +723,8 @@ rainsworth:
     expert: true
 
 rodrigocam:
-    name: Rodrigo Oliveira Campos
+    first-name: Rodrigo
+    last-name: Oliveira Campos
     twitter: sayadiguin
     email: rodrigo.redcode@gmail.com
     description: >
@@ -671,15 +733,16 @@ rodrigocam:
     mentor: true
 
 SamGuay:
-    name: Samuel Guay
+    first-name: Samuel
+    last-name: Guay
     twitter: SamGuay_
     affiliation: Université de Montréal
     country: Canada 
     pronouns: he/him
 
 satagopam7:
-    name: Venkata Satagopam
-    twitter:
+    first-name: Venkata
+    last-name: Satagopam
     email: venkata.satagopam@uni.lu
     website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
     orcid: 0000-0002-6532-5880
@@ -695,19 +758,22 @@ satagopam7:
     mentor: true
 
 Sithyphus:
-    name: Jorge Barrios
+    first-name: Jorge
+    last-name: Barrios
     affiliation: University of Arizona
     country: USA
 
 sudarshangc:
-    name: Sudarshan GC
+    first-name: Sudarshan
+    last-name: GC
     twitter: Sudarsh07847591
     affiliation: Media Lab Nepal
     country: Nepal
     pronouns: he/him
 
 tobyhodges:
-    name: Toby Hodges
+    first-name: Toby
+    last-name: Hodges
     twitter: tbyhdgs
     email: tbyhdgs@gmail.com
     website: https://tbyhdgs.info
@@ -722,7 +788,8 @@ tobyhodges:
     mentor: true
 
 unode:
-    name: Renato Alves
+    first-name: Renato
+    last-name: Alves
     twitter: renato_alvs
     email: renato.alves@embl.de
     orcid: 0000-0002-7212-0234
@@ -736,7 +803,8 @@ unode:
     mentor: true
 
 VickyNembaware:
-    name: Vicky Nembaware
+    first-name: Vicky
+    last-name: Nembaware
     twitter: VickyNembaware
     email: vnembaware@gmail.com
     orcid: 0000-0001-7966-4042
@@ -754,7 +822,8 @@ VickyNembaware:
     github: false
 
 yochannah:
-    name: Yo Yehudi
+    first-name: Yo
+    last-name: Yehudi
     twitter: yoyehudi
     email: yoyehudi@gmail.com
     gitter: yochannah
@@ -770,7 +839,8 @@ yochannah:
     organizer: true
 
 Zebetus:
-    name: Harry Smith
+    first-name: Harry
+    last-name: Smith
     twitter: Zebetus
     email: haz.zebetus@gmail.com
     description: >

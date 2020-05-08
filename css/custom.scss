@@ -145,7 +145,7 @@ $link-active: $link-hover;
   @include tablet() {
     display: grid;
     grid-gap: 2em;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
   .title.is-4 {
@@ -159,6 +159,27 @@ $link-active: $link-hover;
   .people-card-meta-twitter {
     font-weight: 600;
   }
+
+  .people-description {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .people-description-question {
+    font-style: italic;
+  }
+
+  .image {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.people-badge {
+  height: 2em;
+  border-radius: 50%;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }
 
 .partners {
@@ -200,13 +221,6 @@ $link-active: $link-hover;
     font-size: 1.1rem;
     color: #464646;
   }
-}
-
-.people-badge {
-  height: 2em;
-  border-radius: 50%;
-  margin-left: 0.25em;
-  margin-right: 0.25em;
 }
 
 .calendar {
