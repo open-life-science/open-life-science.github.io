@@ -1,4 +1,6 @@
 # List of projects for OLS-1
+# 
+# Mentors and participants should be also in people.yaml file and linked using their GitHub username
 ---
 - name: Open Science Community Barcelona (OSCBa)
   participants:
