@@ -17,6 +17,9 @@ collections:
   ols-1:
     permalink: /ols-1/:path/
     output: true
+  ols-2:
+    permalink: /ols-2/:path/
+    output: true
 
 includes_dir: .
 

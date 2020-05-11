@@ -15,21 +15,21 @@ The Open Life Science program helps **early stage researchers and potential acad
 
 ## About
 
-This is a **15-week long personal mentorship and cohort-based training**, where participants (organisers, hosts, mentors and mentees) of this program will:
+This is a **16-week long personal mentorship and cohort-based training**, where participants (organisers, hosts, mentors and mentees) of this program will:
 - share their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
 - connect with members across different projects, communities, backgrounds, and identities
 - empower each other to become effective Open Science ambassadors in their communities
 
 ## Applications
 
-**We are currently running our [first cohort](ols-1) from January to April 2020.**
+After the success of our [first cohort](ols-1) from January to April 2020, we announce that we will run a 2nd run in 2020:
 
-Announcement for the next round will posted in May 2020. 
-Meanwhile register your interest by getting in touch with team. 
+{% include _includes/ols-2-timeline.md %}
+
 
 ## Projects
 
-Participants join this program with a project that they either are already working on or want to develop during this program. **For the first round, we are happy to have [{{ site.data.ols-1-participants | size }} participants](#participants) with [{{ site.data.ols-1-projects | size }} projects](#projects).**
+Participants join this program with a project that they either are already working on or want to develop during this program. **For the first round, we were happy to have [{{ site.data.ols-1-participants | size }} participants](#participants) with [{{ site.data.ols-1-projects | size }} projects](#projects).**
 
 Project ideas can range from solving technical questions, to creating an open data project or report, developing open source software project, writing open publication, facilitating community/team culture movements, advancing open educational resource or contributing to other existing projects/community.
 

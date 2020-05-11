@@ -30,13 +30,23 @@
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/ols-1">OLS-1</a>
+            <a class="navbar-link" href="/ols-2">OLS-2</a>
             <div class="navbar-dropdown">
+              <a class="navbar-item" href="/ols-2"> Syllabus </a>
+              <a class="navbar-item" href="/ols-2/schedule"> Schedule</a>
+              <!--<a class="navbar-item" href="/ols-2/projects-participants/"> Projects & Participants</a>-->
+              <a class="navbar-item" href="/ols-2#mentors"> Mentors & Experts</a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">Previous OLS</a>
+            <div class="navbar-dropdown">
+              <div class="navbar-item navbar-previous-title">OLS-1</div>
               <a class="navbar-item" href="/ols-1"> Syllabus </a>
               <a class="navbar-item" href="/ols-1#schedule"> Schedule</a>
-              {% for page in site.ols-1 %}
-                <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
-              {% endfor %}
+              <a class="navbar-item" href="/ols-1/projects-participants/"> Projects & Participants</a>
+              <a class="navbar-item" href="/ols-1#mentors"> Mentors & Experts</a>
             </div>
           </div>
 

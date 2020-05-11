@@ -1,0 +1,6 @@
+- **May 20, 2020**: Opening of the applications
+- **June, 2020**: Pre-application webinar (details announced later)
+- **June 30, 2020**: Closing of the applications
+- **July 24, 2020**: Successful applicants announced
+- **September, 2020**: Start of the 16-week program
+- **December 2020**: Conclusion of the 16-week program
