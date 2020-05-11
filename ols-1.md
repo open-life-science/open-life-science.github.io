@@ -11,6 +11,7 @@ photos:
 {% assign people = site.data.people %}
 {% assign projects = site.data.ols-1-projects %}
 {% assign experts-speakers = site.data.ols-1-experts-speakers %}
+{% assign schedule = site.data.ols-1-schedule %}
 
 {% assign all-participants = '' %}
 {% assign all-mentors = '' %}
@@ -84,27 +85,18 @@ OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from Januar
 
 <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com"  frameborder="0" scrolling="no"></iframe>
 
-| Week | Call type | Duration | Date | Topic                             | Rough Agenda                             |
-|:-----|:----------|:---------|:-----|:----------------------------------|:-----------------------------------------|
-| 1    | Mentor | 30 min | Week of January 20, 2020 | [**Meet your mentor!**]({% link _ols-1/week01.md %}) | Meet each other and discuss your personal motivation, expectations, working practices and project goals |
-| 2    | Cohort | 90 min | January 29, 2020 (2pm CET) | [**Welcome to Open Life Science!**]({% link _ols-1/week02.md %}) | Meet other members of your cohort, Share project vision, Intro to working openly (open canvas) |
-| 3    | Mentor | 30 min | Week of February 3, 2020 | [**Meet your mentor!**]({% link _ols-1/week03.md %}) | Discuss assignments from the cohort call & concrete implementations |
-| 4    | Cohort | 90 min | February 12, 2020 (7pm CET) | [**Tooling and roadmapping for Open projects**]({% link _ols-1/week04.md %}) | Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct |
-| 5   | Mentor | 30 min | Week of February 17, 2020 | [**Meet your mentor!**]({% link _ols-1/week05.md %}) | |
-|     | (Optional) Cohort | 60 min | February 19, 2020 (2pm CET) | [**GitHub Tutorial**]({% link _ols-1/week05-extra.md %}) | |
-| 6    | Cohort | 90 min | February 26, 2020 (2pm CET) | [**Open Science I: Project Development**]({% link _ols-1/week06.md %}) | Developing Open Projects: Open-Source, Software, Hardware, Data  |
-| 7    | Mentor | 30 min | Week of March 2, 2020 | [**Meet your mentor!**]({% link _ols-1/week07.md %}) | |
-| 8    | Cohort | 90 min | March 11, 2020 (7pm CET) | [**Open Science II: Knowledge Dissemination**]({% link _ols-1/week08.md %}) | Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training |
-| 9    | Mentor | 30 min | Week of March 16, 2020 | [**Meet your mentor!**]({% link _ols-1/week09.md %}) |
-| 10   | Cohort | 90 min | March 25, 2020 (2pm CET) | [**Designing & Empowering for inclusivity**]({% link _ols-1/week10.md %}) | Personas and pathways for contributors, Implicit bias & mental health care, Community interactions & Ally-skill |
-| 11   | (Optional) Cohort | 90 min | April 1, 2020 (7pm CET) | [**Career Guidance Call**]({% link _ols-1/week11.md %}) | |
-| 12   | Mentor | 30 min | Week of April 6, 2020 |  [**Meet your mentor!**]({% link _ols-1/week12.md %}) | Invite an expert with mentor |
-| 13   | Cohort | 90 min | April 15, 2020 (2pm CET) | [**Giving feedback & Project Review (preparation and practice)**]({% link _ols-1/week13.md %}) | Giving feedback, Preparation of final presentation |
-| 14   | Mentor | 30 min | Week of April 20, 2020 | [**Meet your mentor!**]({% link _ols-1/week14.md %}) | Preparation for the final demos |
-|      | Cohort | 90 min | April 22, 2020 (7pm CET) | [**Group 1 - Final presentation rehearsal**]({% link _ols-1/week14.md %}) | Test of the final demos for the group 1 |
-| 15   | Cohort | 90 min | April 29, 2020 (7pm CET) | [**Group 1 - Final presentations & Graduation!**]({% link _ols-1/week15.md %}) | 5-minute demos of projects for group 1 (Audience: entire community & public, Open and recorded call) |
-| 17   | Cohort | 90 min | May 13, 2020 (7pm CET) | [**Group 2 - Final presentation rehearsal**]({% link _ols-1/week17.md %}) | Test of the final demos for the group 2 |
-| 18   | Cohort | 90 min | April 29, 2020 (7pm CET) | [**Group 2 - Final presentations & Graduation!**]({% link _ols-1/week18.md %}) | 5-minute demos of projects for group 2 (Audience: entire community & public, Open and recorded call) |
+<!-- Any modification of the content should be done in the _data/ols-1-schedule.yaml file -->
+
+| Week | Call | Date | Topic | Agenda |
+|------|------|------|-------|--------|
+{%- for w in schedule %}
+{%- capture w-desc %}**Week {{ w[0] }}**: {{ w[1].timeframe }}{% endcapture %}
+{%- for c in w[1].calls %}
+{%- capture date %}{% if c.type == "Cohort" %}{{ c.date }} ([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/OLS-2%20Cohort%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endcapture %}
+| {{ w-desc }} | {{ c.type }} | {{ date }} | [**{{ c.title }}**](/ols-1/week{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
+{%- assign w-desc = "" %}
+{%- endfor %}
+{%- endfor %}
 
 # Role Descriptions
 
