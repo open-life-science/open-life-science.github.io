@@ -8,6 +8,26 @@ photos:
   url: https://flic.kr/p/5BXB6s
 ---
 
+{% assign people = site.data.people %}
+{% assign projects = site.data.ols-1-projects %}
+{% assign experts-speakers = site.data.ols-1-experts-speakers %}
+
+{% assign all-participants = '' %}
+{% assign all-mentors = '' %}
+{% for project in projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+    {% endfor %}
+{% endfor %}
+
+{% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign p-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+
+
 # The OLS-1 program
 {:.no_toc}
 
@@ -54,15 +74,9 @@ At the end of the program, our participants will be able to:
   - Communicate their work and vision in a 2min demo of elevator pitch
 - Lead an open project in science
 
-# Role Descriptions
-
-- [Mentees](about#mentees)
-- [Mentor](about#mentors)
-- [Expert](about#experts)
-- Content developers: TBA
-- Cohort Host: TBA
-
 # Timeline
+
+OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from January 2020 until May 2020 with [{{ p-participants | size }} project leaders](/ols-1/projects-participants#participants) working on [{{ projects | size }} projects](/ols-1/projects-participants#projects).
 
 {% include _includes/ols-1-timeline.md %}
 
@@ -91,6 +105,40 @@ At the end of the program, our participants will be able to:
 | 15   | Cohort | 90 min | April 29, 2020 (7pm CET) | [**Group 1 - Final presentations & Graduation!**]({% link _ols-1/week15.md %}) | 5-minute demos of projects for group 1 (Audience: entire community & public, Open and recorded call) |
 | 17   | Cohort | 90 min | May 13, 2020 (7pm CET) | [**Group 2 - Final presentation rehearsal**]({% link _ols-1/week17.md %}) | Test of the final demos for the group 2 |
 | 18   | Cohort | 90 min | April 29, 2020 (7pm CET) | [**Group 2 - Final presentations & Graduation!**]({% link _ols-1/week18.md %}) | 5-minute demos of projects for group 2 (Audience: entire community & public, Open and recorded call) |
+
+# Role Descriptions
+
+## Mentees
+
+Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a mentee can be found [here](/about#mentees)
+
+For the first round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ projects | size }} projects](/ols-1/projects-participants#projects). 
+
+## Mentors
+
+Our mentees are supported in this program by our mentors' community who have been paired based on the compatibility of expertise and interests of mentors with the requests and requirements of our mentees. Our mentors are Open Science champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services.
+
+{{ p-mentors }}
+
+<div class="people">
+{% for entry in p-mentors %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
+
+## Experts
+
+Experts are invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
+
+<div class="people">
+{% for entry in experts-speakers.experts %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
 
 # Joining calls
 
