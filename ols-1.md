@@ -83,7 +83,19 @@ OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from Januar
 
 # Schedule
 
+During the program,
+
+- Mentors and mentees meet every 2 weeks [for a 30 minutes call](#mentor-mentee-calls)
+- Mentees participate every 2 weeks to [90-minutes cohort calls](#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite expert from the field to give talks
+- Mentors take part to [4 mentoring calls](#mentors-calls)
+
+Organizers will inform participants of the week schedule by email.
+
+Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter]({{ site.gitter }}).  
+
 <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com"  frameborder="0" scrolling="no"></iframe>
+
+[<i class="fas fa-calendar-plus"></i> *Subscribe to the OLS calendar*](https://calendar.google.com/calendar/r?cid=n3rqhvuff05ojkl0opfsvh49fk@group.calendar.google.com)
 
 <!-- Any modification of the content should be done in the _data/ols-1-schedule.yaml file -->
 
@@ -93,7 +105,7 @@ OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from Januar
 {%- capture w-desc %}**Week {{ w[0] }}**: {{ w[1].timeframe }}{% endcapture %}
 {%- for c in w[1].calls %}
 {%- capture date %}{% if c.type == "Cohort" %}{{ c.date }} ([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/OLS-2%20Cohort%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endcapture %}
-| {{ w-desc }} | {{ c.type }} | {{ date }} | [**{{ c.title }}**](/ols-1/week{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
+| {{ w-desc }} | [{{ c.type }}](#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" }}-calls) | {{ date }} | [**{{ c.title }}**](/ols-1/week{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
 {%- assign w-desc = "" %}
 {%- endfor %}
 {%- endfor %}
@@ -110,7 +122,12 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
 
 Our mentees are supported in this program by our mentors' community who have been paired based on the compatibility of expertise and interests of mentors with the requests and requirements of our mentees. Our mentors are Open Science champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services.
 
-{{ p-mentors }}
+Mentors advice and inspire
+- Connect: to people, programs, companies
+- Recommend: resources, readings, classes, experiences
+- Feedback: for the mentee to consider
+
+<!-- Any modification of the content should be done in the _data/ols-1-projects.yaml file -->
 
 <div class="people">
 {% for entry in p-mentors %}
@@ -120,9 +137,23 @@ Our mentees are supported in this program by our mentors' community who have bee
 {% endfor %}
 </div>
 
+### Mentoring training
+
+Becoming a mentor can be frightening. Mentors will be then guided specially via a mentoring training with 4 calls during the mentorship round:
+
+- 2 training calls in the beginning of the cohort to get participants trained and prepared for their role as mentors
+- 1 catch-up call in the middle of the cohort to discuss new topics and challenges that might have occurred and address them
+- 1 call at the end to capture experiences of mentors and assess their interest in future cohorts
+
+A public gitter channel will facilitate open discussions among mentors to help them discuss their experiences, challenges and tips and tricks
+
+Our mentors will then gain mentoring skills (active listening, effective questioning, giving feedback) via mentoring training to learn to celebrate successes and approach challenges in mentoring.
+
 ## Experts
 
 Experts are invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
+
+<!-- Any modification of the content should be done in the _data/ols-1-experts-speakers.yaml file -->
 
 <div class="people">
 {% for entry in experts-speakers.experts %}
@@ -132,66 +163,75 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 {% endfor %}
 </div>
 
-# Joining calls
+# Calls
 
-**Cohort and mentor-only calls**: The calls will be hosted online using the Zoom web-conferencing option.
+## Cohort calls
 
-  Link for the calls will be shared for each meeting separately.
+The full cohort meetings take place **every 2 weeks** (unless mentioned otherwise) and last for **90 minutes**.
 
-**Mentee-mentor calls**: You can use the online communication options that both mentor and mentee agree to use. A few options to explore are the following:
+During these calls:
+- Organisers/hosts will introduce new topic of the week
+- Speakers will present their work related to the topic of the week
+- Participants will be given group discussion exercises
+- An open Q&A will be run and notes will be co-developed
+
+  Look for cohort notes shared with you by organisers
+
+- Exercises will be given for the week to be completed before the mentee-mentor meeting
+
+The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
+
+**If you can't make it to a call**:
+- If you have to miss a call, please write your name in the cohort note under "apologies".
+
+  The call will be recorded and available on the [OLS YouTube channel]({{ site.youtube }}) after the call.
+
+- If you miss two or more calls during the program, we'll evaluate if you would be able to finish the program.
+
+## Mentor-mentee calls
+
+The Mentor-mentee calls take place **every 2 weeks** (unless mentioned otherwise) and last for **30 minutes**.
+
+During these calls:
+- Mentors help their mentees evaluate their understanding of the new topics
+- Mentees will complete their task assigned at the cohort calls using new skills learned that week 
+- Mentors and mentee will review progress together where mentees provide constructive feedback
+
+  Look for 1:1 notes shared with you by your mentor
+
+- Mentors will connect mentees with other experts and get consulted on their project when needed
+
+The calls can use the online communication options that both mentor and mentee agree to use. A few options to explore are the following:
 - Zoom: 40 mins limit for each call
 - Google hangout: Free for members with google account
 - Skype: Free, download the app
 - Whereby.com: Free option, valid upto 4 participants
 
-**If you can't make it to a call**:
-- If you have to miss a call, please write your name in the cohort note under "apologies".
+If a mentor has to miss a mentee-mentor meeting, please discuss it with your mentee and reschedule your call.
 
-  The cohorts calls will be recorded each week and sent out with the review emails.
+If you are unable to make it to any slot together, please find other ways (asynchronous documentation) to interact with your mentee.
 
-- If you miss two or more calls during the program, we'll evaluate if you would be able to finish the program.
-- If a mentor has to miss a mentee-mentor meeting, please discuss it with your mentee and reschedule your call. 
+## Mentors calls
 
-  If you are unable to make it to any slot together, please find other ways (asynchronous documentation) to interact with your mentee.
+4 mentor call take place during the program.
 
-# Mentoring training
+The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
 
-Mentors advice and inspire
-- Connect: to people, programs, companies
-- Recommend: resources, readings, classes, experiences
-- Feedback: for the mentee to consider
+# Communication channels
 
-Becoming a mentor can be frightening. Mentors will be then guided specially via a mentoring training with 4 calls. Our mentors will gain mentoring skills (active listening, effective questioning, giving feedback) via mentoring training to learn to celebrate successes and approach challenges in mentoring.
+## OLS-1 private Google group
 
-# FAQ
+Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-1 Google group. 
 
-## What meetings are taking place during the entire cohort?
+An invitation is sent to all participants (mentees, mentors, etc) at the beginning of the program. If it is not the case, please [contact the team](mailto:{{ site.email }})
 
-Full cohort meetings
-- Takes place every 2 weeks (unless mentioned otherwise)
-- Duration: 90 minutes
-- Organisers/hosts will introduce new topic of the week
-- Speakers will present their work related to the topic of the week
-- Mentees will be given group discussion exercises during the calls
-- An open Q&A will be run and notes will be co-developed
-- Exercises will be given for the week to be completed before the mentee-mentor meeting
-- Look for cohort notes shared with you by organisers
+## Gitter
 
-Mentee-Mentor Meetings
-- Takes place every 2 weeks (unless mentioned otherwise)
-- Duration: 30 minutes
-- Mentors help their mentees evaluate their understanding of the new topics
-- Mentees will complete their task assigned at the cohort calls using new skills learned that week 
-- Review progress together where mentees provide constructive feedback. 
-- Connect with other experts and get consulted on their project when needed.
-- Look for 1:1 notes shared with you by your mentor
+Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter]({{ site.gitter }}).
 
-Mentor-only Meetings
-- A maximum of 4 calls will take place during the mentorship round
-- 2 training calls in the beginning of the cohort to get participants trained and prepared for their role as mentors
-- 1 catch-up call in the middle of the cohort to discuss new topics and challenges that might have occurred and address them
-- 1 call at the end to capture experiences of mentors and assess their interest in future cohorts
-- A public gitter channel will facilitate open discussions among mentors to help them discuss their experiences, challenges and tips and tricks
+## OLS Google group
+
+Updates regarding new calls for applications, announcements, and final project presentations are posted on the [OLS public Google group]({{ site.announcement_list }})
 
 # Community Participation Guidelines
 
