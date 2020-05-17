@@ -86,7 +86,7 @@ OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from Januar
 During the program,
 
 - Mentors and mentees meet every 2 weeks [for a 30 minutes call](#mentor-mentee-calls)
-- Mentees participate every 2 weeks to [90-minutes cohort calls](#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite expert from the field to give talks
+- Mentees participate every 2 weeks to [90-minutes cohort calls](#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite experts from the field to give talks
 - Mentors take part to [4 mentoring calls](#mentors-calls)
 
 Organizers will inform participants of the week schedule by email.
