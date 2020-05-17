@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the first cohort of Open Life Science program!
+title: Welcome to the 2nd cohort of Open Life Science program!
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg
@@ -9,9 +9,9 @@ photos:
 ---
 
 {% assign people = site.data.people %}
-{% assign projects = site.data.ols-1-projects %}
-{% assign experts-speakers = site.data.ols-1-experts-speakers %}
-{% assign schedule = site.data.ols-1-schedule %}
+{% assign projects = site.data.ols-2-projects %}
+{% assign experts-speakers = site.data.ols-2-experts-speakers %}
+{% assign schedule = site.data.ols-2-schedule %}
 
 {% assign all-participants = '' %}
 {% assign all-mentors = '' %}
@@ -29,7 +29,7 @@ photos:
 {% assign p-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
 
 
-# The OLS-1 program
+# The OLS-2 program
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
@@ -38,7 +38,7 @@ Open Science skills
 **Outcome**: Ambassadors for Open Science practice, training and education across multiple European
 and international bioinformatics communities.
 
-**Process**: A 15-week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
+**Process**: A 16-week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
 
 1. **Sharing** essential knowledge required to create, lead, and sustain an Open Science project.
 2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
@@ -77,46 +77,21 @@ At the end of the program, our participants will be able to:
 
 # Timeline
 
-OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from January 2020 until May 2020 with [{{ p-participants | size }} project leaders](/ols-1/projects-participants#participants) working on [{{ projects | size }} projects](/ols-1/projects-participants#projects).
+OLS's second cohort (OLS-2) will be conducted from September 2020 until December 2020.
 
-{% include _includes/ols-1-timeline.md %}
+{% include _includes/ols-2-timeline.md %}
 
 # Schedule
 
-During the program,
-
-- Mentors and mentees meet every 2 weeks [for a 30 minutes call](#mentor-mentee-calls)
-- Mentees participate every 2 weeks to [90-minutes cohort calls](#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite experts from the field to give talks
-- Mentors take part to [4 mentoring calls](#mentors-calls)
-
-Organizers will inform participants of the week schedule by email.
-
-Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter]({{ site.gitter }}).  
-
-<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com"  frameborder="0" scrolling="no"></iframe>
-
-[<i class="fas fa-calendar-plus"></i> *Subscribe to the OLS calendar*](https://calendar.google.com/calendar/r?cid=n3rqhvuff05ojkl0opfsvh49fk@group.calendar.google.com)
-
-<!-- Any modification of the content should be done in the _data/ols-1-schedule.yaml file -->
-
-| Week | Call | Date | Topic | Agenda |
-|------|------|------|-------|--------|
-{%- for w in schedule %}
-{%- capture w-desc %}**Week {{ w[0] }}**: {{ w[1].timeframe }}{% endcapture %}
-{%- for c in w[1].calls %}
-{%- capture date %}{% if c.type == "Cohort" %}{{ c.date }} ([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/OLS-2%20Cohort%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endcapture %}
-| {{ w-desc }} | [{{ c.type }}](#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" }}-calls) | {{ date }} | [**{{ c.title }}**](/ols-1/week{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
-{%- assign w-desc = "" %}
-{%- endfor %}
-{%- endfor %}
+{% include _includes/overall-schedule.md schedule=schedule %}
 
 # Role Descriptions
 
 ## Mentees
 
-Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a mentee can be found [here](/about#mentees)
+Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a mentee can be found [here](/about#mentees).
 
-For the first round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ projects | size }} projects](/ols-1/projects-participants#projects). 
+<!--For the second round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants]-->
 
 ## Mentors
 
@@ -127,7 +102,19 @@ Mentors advice and inspire
 - Recommend: resources, readings, classes, experiences
 - Feedback: for the mentee to consider
 
-<!-- Any modification of the content should be done in the _data/ols-1-projects.yaml file -->
+<!-- Any modification of the content should be done in the _data/ols-2-projects.yaml file -->
+
+**Pool of mentors for OLS-2**
+
+<div class="people">
+{% for entry in site.data.people %}
+    {% assign username = entry[0] %}
+    {% assign user = site.data.people[username] %}
+    {% if user.mentor %}
+      {% include _includes/people.html user=user username=username %}
+    {% endif %}
+{% endfor %}
+</div>
 
 <div class="people">
 {% for entry in p-mentors %}
@@ -153,7 +140,19 @@ Our mentors will then gain mentoring skills (active listening, effective questio
 
 Experts are invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
 
-<!-- Any modification of the content should be done in the _data/ols-1-experts-speakers.yaml file -->
+<!-- Any modification of the content should be done in the _data/ols-2-experts-speakers.yaml file -->
+
+**Pool of experts for OLS-2**
+
+<div class="people">
+{% for entry in site.data.people %}
+    {% assign username = entry[0] %}
+    {% assign user = site.data.people[username] %}
+    {% if user.expert %}
+      {% include _includes/people.html user=user username=username %}
+    {% endif %}
+{% endfor %}
+</div>
 
 <div class="people">
 {% for entry in experts-speakers.experts %}
@@ -211,6 +210,16 @@ If a mentor has to miss a mentee-mentor meeting, please discuss it with your men
 
 If you are unable to make it to any slot together, please find other ways (asynchronous documentation) to interact with your mentee.
 
+## Coworking calls
+
+The coworking sessions take place in weeks during which there is not cohort call. They are optional.
+
+During these calls,
+- Participants can work together on the assignments
+- Participants connect and talk about their projects
+
+The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
+
 ## Mentors calls
 
 4 mentor call take place during the program.
@@ -219,9 +228,9 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 # Communication channels
 
-## OLS-1 private Google group
+## OLS-2 private Google group
 
-Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-1 Google group. 
+Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-2 Google group. 
 
 An invitation is sent to all participants (mentees, mentors, etc) at the beginning of the program. If it is not the case, please [contact the team](mailto:{{ site.email }})
 

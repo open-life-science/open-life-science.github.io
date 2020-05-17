@@ -1,29 +1,7 @@
 ---
 layout: page
-title: Week 7 - Meet your mentor!
+title: Week 07
 ---
-
-**Date**: Week of March 2, 2020
-
-**Duration**: 30 minutes
-
-# This week
-
-During this week's mentor meeting, you will:
-- 
-
-**Haven't heard from your mentor yet?** Let us know.
-
-# Resources
-
-# Before this meeting
-
-- Complete your week 6 assignments.
-
-# After this meeting
-
-- Complete any week 6 assignments that you have left to do.
-
-# Recap
-
-- Check your 1:1 mentor meeting notes.
+<!-- Any modification of the content should be done in the _data/ols-1-schedule.yaml file -->
+{% assign week = site.data.ols-1-schedule['07'] %}
+{% include _includes/week.md week=week %}

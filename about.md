@@ -74,9 +74,9 @@ We are currently recruiting the mentors for the first round. Please reach out to
 ## Our mentors
 
 <div class="people">
-{% for entry in site.data['people'] %}
+{% for entry in site.data.people %}
     {% assign username = entry[0] %}
-    {% assign user = site.data['people'][username] %}
+    {% assign user = site.data.people[username] %}
     {% if user.mentor %}
       {% include _includes/people.html user=user username=username %}
     {% endif %}
@@ -108,9 +108,9 @@ We are currently recruiting the experts for the first round.
 ## Our experts
 
 <div class="people">
-{% for entry in site.data['people'] %}
+{% for entry in site.data.people %}
     {% assign username = entry[0] %}
-    {% assign user = site.data['people'][username] %}
+    {% assign user = site.data.people[username] %}
     {% if user.expert %}
       {% include _includes/people.html user=user username=username %}
     {% endif %}
@@ -121,9 +121,9 @@ We are currently recruiting the experts for the first round.
 
 We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) cohorts, in which we have gained expertise in the technical and culture track.
 <div class="people">
-{% for entry in site.data['people'] %}
+{% for entry in site.data.people %}
     {% assign username = entry[0] %}
-    {% assign user = site.data['people'][username] %}
+    {% assign user = site.data.people[username] %}
     {% if user.organizer %}
       {% include _includes/people.html user=user username=username %}
     {% endif %}
