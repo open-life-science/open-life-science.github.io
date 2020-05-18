@@ -32,14 +32,14 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
         {% assign p-pparticipants = '' %}
         
         {% for p in project.participants %}
-            {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].name }}](#{{ p }}){% endcapture %}
+            {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
         {% endfor %}
         
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
-        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].name }}](/ols-1/mentors-experts#{{ p }})
+        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1#{{ p }})
         {% endfor %}
-        {% endcapture %} 
+        {% endcapture %}
 
 ## {{ project.name }}
 
