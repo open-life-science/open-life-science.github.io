@@ -1,0 +1,7 @@
+# List of experts and guest speakers for OLS-2
+# 
+#
+# People should be also in people.yaml file and linked using their GitHub username
+---
+speakers:
+experts:
