@@ -112,14 +112,14 @@ bebatut:
     affiliation: University of Freiburg
     country: Germany
     pronouns: she/her
-    description: >
-        Bérénice is a bioinformatician (post-doc in the <a href="https://galaxyproject.eu/freiburg/">Freiburg Galaxy Team</a>),
-        analyzing biological data and developing tools for data analysis, mainly via <a href="https://galaxyproject.org/">Galaxy</a>.
+    description: |
+        Bérénice is a bioinformatician (post-doc in the [Freiburg Galaxy Team](https://galaxyproject.eu/freiburg/)),
+        analyzing biological data and developing tools for data analysis, mainly via [Galaxy](https://galaxyproject.org/).
 
         Bérénice is also passionate about training, regularly giving workshops (data analysis, tool development, etc).
-        She started and still co-leads the <a href="https://training.galaxyproject.org/">Galaxy Training Material project</a>.
-        She is a co-deputy training coordinator for ELIXIR Germany (<a href="https://www.denbi.de/">de.NBI</a>), and a founder of
-        <a href="https://streetscience.community/">Street Science Community</a>, an outreach program.
+        She started and still co-leads the [Galaxy Training Material project](https://training.galaxyproject.org/).
+        She is a co-deputy training coordinator for ELIXIR Germany ([de.NBI](https://www.denbi.de/), and a founder of
+        [Street Science Community](https://streetscience.community/), an outreach program.
     organizer: true
 
 bgruening:
@@ -528,17 +528,17 @@ malvikasharan:
     email: malvikasharan@gmail.com
     gitter: malvikasharan
     orcid: 0000-0001-6619-7369
-    description: >
-        Malvika is a Community Outreach Coordinator for the <a href="https://bio-it.embl.de">Bio-IT</a> community
-        at the <a href="http://embl.org">European Molecular Biology Laboratory, Germany</a>.
+    description: |
+        Malvika is a Community Outreach Coordinator for the [Bio-IT](https://bio-it.embl.de) community
+        at the [European Molecular Biology Laboratory (EMBL)](http://embl.org), Germany.
 
-        She is a <a href="https://elixir-europe.org/platforms/training/how-organised">Co-Deputy Training Coordinator for ELIXIR Germany</a>, a
-        <a href="https://software.ac.uk/about/fellows/malvika-sharan">Software Sustainability Institute Fellow</a> (2019),
-        a board member of <a href="https://www.open-bio.org/board/">Open Bioinformatics Foundation</a> (since July 2019),
-        and a contributing member of <a ref="https://carpentries.org/">The Carpentries</a> community.
+        She is a [Co-Deputy Training Coordinator for ELIXIR Germany](https://elixir-europe.org/platforms/training/how-organised), a
+        [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/malvika-sharan) (2019),
+        a board member of [Open Bioinformatics Foundation](https://www.open-bio.org/board/) (since July 2019),
+        and a contributing member of [The Carpentries](https://carpentries.org/) community.
 
-        From January 2020, she will take the role of Community Manager for <a href="https://the-turing-way.netlify.com">The Turing Way Project</a>
-        at <a href="https://www.turing.ac.uk">The Alan Turing Institute, UK</a>.
+        From January 2020, she will take the role of Community Manager for [The Turing Way Project](https://the-turing-way.netlify.com)
+        at [The Alan Turing Institute](https://www.turing.ac.uk), UK.
 
         Through her work, she promotes inclusiveness in Open Science communities.
     organizer: true
@@ -829,13 +829,13 @@ yochannah:
     gitter: yochannah
     orcid: 0000-0003-2705-1724
     description: >
-        Yo is a <a href="https://software.ac.uk/about/fellows/yo-yehudi">Software Sustainability Institute Fellow</a>,
-        founder of <a href="http://www.codeisscience.com/manifesto">Code is Science</a>,
-        <a href="https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html">EngD student at the University of Manchester</a>
+        Yo is a [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/yo-yehudi),
+        founder of [Code is Science](http://www.codeisscience.com/manifesto),
+        [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html)
         studying the effects of community and usabilty on open source software,
-        editor for the <a href="https://channels.plos.org/open-source-toolkit">PLOS Open Source Toolkit</a>,
-        board member of the <a href="https://www.open-bio.org/board/">Open Bioinformatics Foundation</a>,
-        and a software developer at the University of Cambridge, working on an open source biological data warehouse called <a href="http://intermine.org/">InterMine</a>.
+        editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
+        board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
+        and a software developer at the University of Cambridge, working on an open source biological data warehouse called [InterMine](http://intermine.org/).
     organizer: true
 
 Zebetus:
