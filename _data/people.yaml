@@ -1,12 +1,11 @@
 # List of people (alphabetical order)
 #
-# valid tags: name, email, website, twitter, gitter, orcid, description
-#
 # collection names should be equal to github username, if not, add github: false tag
 ---
 
 aath0:
-    name: Athina Tzovara
+    first-name: Athina
+    last-name: Tzovara
     twitter: aath0
     email: athina.tz@gmail.com
     website: https://aath0.github.io/
@@ -14,10 +13,10 @@ aath0:
     description: >
         Athina is a neuroscientist, with a background in electrical and computer engineering.
         Her research combines computational and electrophysiological techniques to study human cognition.
-    expert: true
 
 aidanbudd:
-    name: Aidan Budd
+    first-name: Aidan
+    last-name: Budd
     twitter: AidanBudd
     email: aidan.budd@gmx.de
     website: https://about.me/aidan.budd
@@ -32,7 +31,8 @@ aidanbudd:
     mentor: true
 
 ajstewartlang:
-    name: Andrew Stewart
+    first-name: Andrew
+    last-name: Stewart
     twitter: ajstewart_lang
     email: andrew.stewart@manchester.ac.uk
     website: https://ajstewartlang.netlify.com
@@ -44,8 +44,17 @@ ajstewartlang:
     expert: true
     mentor: true
 
+anayan321:
+    first-name: Anunya
+    last-name: Opasawatchai
+    twitter: pk_suta
+    affiliation: Mahidol University
+    country: Thailand
+    pronouns: she/her
+
 anenadic:
-    name: Aleksandra Nenadic
+    first-name: Aleksandra
+    last-name: Nenadic
     twitter: aleks_nenadic
     email: a.nenadic@manchester.ac.uk
     website: https://www.software.ac.uk/about/staff/person/aleksandra-nenadic
@@ -60,7 +69,8 @@ anenadic:
     expert: true
 
 annakrystalli:
-    name: Anna Krystalli
+    first-name: Anna
+    last-name: Krystalli
     twitter: annakrystalli
     email: annakrystalli@googlemail.com
     orcid: 0000-0002-2378-4915
@@ -71,7 +81,8 @@ annakrystalli:
     expert: true
 
 anneclinio:
-    name: Anne Clinio
+    first-name: Anne
+    last-name: Clinio
     twitter: anneclinio
     email: anneclinio@gmail.com
     description: >
@@ -80,7 +91,8 @@ anneclinio:
     expert: true
 
 annefou:
-    name: Anne Fouilloux
+    first-name: Anne
+    last-name: Fouilloux
     twitter: AnneFouilloux
     email: annefou@geo.uio.no
     website: https://annefou.github.io
@@ -90,24 +102,29 @@ annefou:
     mentor: true
 
 bebatut:
-    name: Bérénice Batut
+    first-name: Bérénice
+    last-name: Batut
     twitter: bebatut
     email: berenice.batut@gmail.com
     website: https://research.bebatut.fr
     gitter: bebatut
     orcid: 0000-0001-9852-1987
-    description: >
-        Bérénice is a bioinformatician (post-doc in the <a href="https://galaxyproject.eu/freiburg/">Freiburg Galaxy Team</a>),
-        analyzing biological data and developing tools for data analysis, mainly via <a href="https://galaxyproject.org/">Galaxy</a>.
+    affiliation: University of Freiburg
+    country: Germany
+    pronouns: she/her
+    description: |
+        Bérénice is a bioinformatician (post-doc in the [Freiburg Galaxy Team](https://galaxyproject.eu/freiburg/)),
+        analyzing biological data and developing tools for data analysis, mainly via [Galaxy](https://galaxyproject.org/).
 
         Bérénice is also passionate about training, regularly giving workshops (data analysis, tool development, etc).
-        She started and still co-leads the <a href="https://training.galaxyproject.org/">Galaxy Training Material project</a>.
-        She is a co-deputy training coordinator for ELIXIR Germany (<a href="https://www.denbi.de/">de.NBI</a>), and a founder of
-        <a href="https://streetscience.community/">Street Science Community</a>, an outreach program.
+        She started and still co-leads the [Galaxy Training Material project](https://training.galaxyproject.org/).
+        She is a co-deputy training coordinator for ELIXIR Germany ([de.NBI](https://www.denbi.de/), and a founder of
+        [Street Science Community](https://streetscience.community/), an outreach program.
     organizer: true
 
 bgruening:
-    name: Björn Grüning
+    first-name: Björn
+    last-name: Grüning
     twitter: bjoerngruening
     email: bjoern.gruening@gmail.com
     orcid: 0000-0002-3079-6586
@@ -119,7 +136,8 @@ bgruening:
     mentor: true
     
 BhuvanaMeenakshiK:
-    name: Bhuvana Meenakshi Koteeswaran
+    first-name: Bhuvana
+    last-name: Meenakshi Koteeswaran
     twitter: bhuvanakotees1
     email: bhuvanameenakshi@gmail.com
     website: https://www.linkedin.com/in/bhuvana-meenakshi-koteeswaran-a67b58103/
@@ -128,8 +146,65 @@ BhuvanaMeenakshiK:
         Her expertise are in Gender gap, Mozilla technologies and Wikimedia projects.
     expert: true
     
+billbrod:
+    first-name: Billy
+    last-name: (William) Broderick
+    twitter: wfbroderick
+    affiliation: New York University
+    country: USA
+    pronouns: he/him
+
+bonetcarne:
+    first-name: Elisenda
+    last-name: Bonet-Carne
+    twitter: bonetcarne
+    affiliation: BCNatal Fetal Medicine Research Center
+    country: Spain
+    pronouns: she/her
+
+bruno-soares:
+    first-name: Bruno
+    last-name: Eleres Soares
+    twitter: Bruno_E_Soares
+    affiliation: Universidade Federal do Rio de Janeiro
+    country: Brazil
+    pronouns: he/him
+
+cassgvp:
+    first-name: Cassandra
+    last-name: Gould van Praag
+    twitter: cassgvp
+    affiliation: University of Oxford
+    country: UK
+    pronouns: she/her
+
+ChiaraBertipaglia:
+    first-name: Chiara
+    last-name: Bertipaglia
+    twitter: ChiaBertipaglia
+    affiliation: Columbia University’s Zuckerman Institute
+    country: USA
+    pronouns: she/her
+
+christinerogers:
+    first-name: Christine
+    last-name: Rogers
+    twitter: xtinerogers
+    affiliation: Montreal Neurological Institute, McGill University
+    country: Canada
+    pronouns: she/her
+
+dannycolin:
+    first-name: Danny
+    last-name: Colin
+    twitter: dannycolincom
+    affiliation: Université de Montréal
+    country: Canada
+    pronouns: he/him
+
 dasaderi:
-    name: Daniela Saderi
+    first-name: Daniela
+    last-name: Saderi
     twitter: Neurosarda
     email: daniela@prereview.org
     website: https://v2.prereview.org
@@ -139,9 +214,17 @@ dasaderi:
         and she now leads a project called PREreview to empower researchers to engage with each other and review preprints.
     expert: true
     mentor: true
-    
+
+davidviryachen:
+    first-name: David
+    last-name: Chentanaman
+    twitter: davidchenn
+    affiliation: Osaka University
+    country: Japan
+
 Demellina:
-    name: Demitra Ellina
+    first-name: Demitra
+    last-name: Ellina
     email: Demitra.Ellina@f1000.com
     twitter: j_ellina
     description: >
@@ -150,9 +233,26 @@ Demellina:
         In her role, she supports the development of funder-specific platforms, particularly Wellcome Open Research. These platforms aim to transform the
         way science is communicated and provides researchers with innovative solutions for how their research is shared, used and reused.
     expert: true
-    
+
+dlebauer:
+    first-name: David
+    last-name: LeBauer
+    twitter: dlebauer
+    affiliation: University of Arizona
+    country: USA
+
+elsasci:
+    first-name: Elsa
+    last-name: Loissel
+    twitter: elsasci
+    affiliation: eLife
+    country: UK
+    pronouns: she/her
+    github: false
+
 emmyft:
-    name: Emmy Tsang
+    first-name: Emmy
+    last-name: Tsang
     twitter: emmy_ft
     email: e.tsang@elifesciences.org
     website: https://elifesci.org/labs
@@ -164,8 +264,25 @@ emmyft:
         Her expertise is in Community strategies, publishing and scholarly communication.
     expert: true
 
+ewuramaminka:
+    first-name: Deborah
+    last-name: Akuoko
+    twitter: eminka_da
+    affiliation: University of Manchester
+    country: UK
+    pronouns: she/her
+
+Fnyasimi:
+    first-name: Festus
+    last-name: Nyasimi
+    twitter: Festus_nyasimi
+    affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
+    country: Kenya
+    pronouns: he/him
+
 fpsom:
-    name: Fotis Psomopoulos
+    first-name: Fotis
+    last-name: Psomopoulos
     twitter: fopsom
     email: fpsom@certh.gr
     website: https://fpsom.github.io/
@@ -181,7 +298,8 @@ fpsom:
     mentor: true
 
 gedankenstuecke:
-    name: Bastian Greshake Tzovaras
+    first-name: Bastian
+    last-name: Greshake Tzovaras
     twitter: gedankenstuecke
     email: bgreshake@googlemail.com
     website: https://tzovar.as
@@ -193,7 +311,8 @@ gedankenstuecke:
     expert: true
 
 ha0ye:
-    name: Hao Ye
+    first-name: Hao
+    last-name: Ye
     twitter: Hao_and_Y
     email: hao.ye@weecology.org
     website: https://haoye.us
@@ -208,7 +327,8 @@ ha0ye:
     mentor: true
     
 hdinkel:
-    name: Holger Dinkel
+    first-name: Holger
+    last-name: Dinkel
     email: holger.dinkel@posteo.de
     orcid: 0000-0002-9316-5204
     description: >
@@ -218,9 +338,17 @@ hdinkel:
         His mission is to support scientists in all aspects IT.
     expert: true
     mentor: true
-    
+
+homo-sapiens34:
+    first-name: Zoe
+    last-name: Chervontseva
+    affiliation: IITP RAS
+    country: Russia
+    pronouns: she/her
+
 InquisitiveVi:
-    name: Vinodh Ilangovan
+    first-name: Vinodh
+    last-name: Ilangovan
     twitter: I_Vinodh
     email: vinodh.ilangovan@gmail.com
     orcid: 0000-0002-3445-5383
@@ -230,7 +358,8 @@ InquisitiveVi:
     expert: true
 
 JasonJWilliamsNY:
-    name: Jason Williams
+    first-name: Jason
+    last-name: Williams
     twitter: JasonWilliamsNY
     email: williams@cshl.edu
     website: https://lifescitrainers.org
@@ -241,8 +370,8 @@ JasonJWilliamsNY:
     expert: true
 
 joelostblom:
-    name: Joel Ostblom
-    twitter:
+    first-name: Joel
+    last-name: Ostblom
     email: joel.ostblom@gmail.com
     website: https://joelostblom.com
     orcid: 0000-0003-0051-3239
@@ -254,7 +383,8 @@ joelostblom:
     expert: true
 
 kariljordan:
-    name: Kari L. Jordan
+    first-name: Kari
+    last-name: L. Jordan
     twitter: drkariljordan
     email: kariljordan@carpentries.org
     website: https://www.kariljordan.com
@@ -269,7 +399,8 @@ kariljordan:
     expert: true
 
 katrinleinweber:
-    name: Katrin Leinweber
+    first-name: Katrin
+    last-name: Leinweber
     email: leinweber.katrin@gmail.com
     orcid: 0000-0001-5135-5758
     description: >
@@ -279,7 +410,8 @@ katrinleinweber:
     mentor: true
 
 kipkurui:
-    name: Caleb Kibet
+    first-name: Caleb
+    last-name: Kibet
     twitter: calkibet
     email: ckibet@icipe.org
     description: >
@@ -289,8 +421,16 @@ kipkurui:
     expert: true
     mentor: true
 
+Kiragu-Mwaura:
+    first-name: David
+    last-name: Kiragu Mwaura
+    twitter: MwauraKiragu
+    affiliation: Institute of Primate Research
+    country: Kenya
+
 KirstieJane:
-    name: Kirstie Whitaker
+    first-name: Kirstie
+    last-name: Whitaker
     twitter: kirstie_j
     email: kwhitaker@turing.ac.uk
     website: https://whitakerlab.github.io/
@@ -306,8 +446,17 @@ KirstieJane:
         was named, with her collaborator Petra Vertes, as a 2016 Global Thinker by Foreign Policy magazine.
     expert: true
 
+KristinaRiemer:
+    first-name: Kristina
+    last-name: Riemer
+    twitter: KristinaRiemer
+    affiliation: University of Arizona
+    country: USA
+    pronouns: she/her
+
 kswhitney:
-    name: Kaitlin Stack Whitney
+    first-name: Kaitlin
+    last-name: Stack Whitney
     twitter: kstackwhitney
     email: kxwsbi@rit.edu
     website: https://pht180.rit.edu/sweetlab/
@@ -319,8 +468,40 @@ kswhitney:
     expert: true
     mentor: true
 
+LandiMi2:
+    first-name: Michael
+    last-name: Kofia Landi
+    twitter: CofiaLandy
+    affiliation: International Livestock Research Institute
+    country: Kenya
+
+LangData:
+    first-name: Lena
+    last-name: Karvovskaya
+    twitter: LangData
+    affiliation: Free University of Amsterdam
+    country: Netherlands
+    pronouns: she/her
+    github: false
+
+lazycipher:
+    first-name: Himanshu
+    last-name: Singh
+    twitter: lazycipher
+    affiliation: Galgotias University
+    country: India
+    pronouns: he/him
+
+Lilian9:
+    first-name: Lilian
+    last-name: Juma
+    affiliation: Information Training and Outreach Centre for Africa
+    country: Kenya
+    pronouns: she/her
+
 luispedro:
-    name: Luis Pedro Coelho
+    first-name: Luis Pedro
+    last-name: Coelho
     twitter: luispedrocoelho
     email: luis@luispedro.org
     website: http://luispedro.org
@@ -333,29 +514,53 @@ luispedro:
     expert: true
     mentor: true
 
+MagicMilly:
+    first-name: Emily
+    last-name: Cain
+    twitter: magic_milly
+    affiliation: University of Arizona
+    country: USA
+
 malvikasharan:
-    name: Malvika Sharan
+    first-name: Malvika
+    last-name: Sharan
     twitter: MalvikaSharan
     email: malvikasharan@gmail.com
     gitter: malvikasharan
     orcid: 0000-0001-6619-7369
-    description: >
-        Malvika is a Community Outreach Coordinator for the <a href="https://bio-it.embl.de">Bio-IT</a> community
-        at the <a href="http://embl.org">European Molecular Biology Laboratory, Germany</a>.
+    description: |
+        Malvika is a Community Outreach Coordinator for the [Bio-IT](https://bio-it.embl.de) community
+        at the [European Molecular Biology Laboratory (EMBL)](http://embl.org), Germany.
 
-        She is a <a href="https://elixir-europe.org/platforms/training/how-organised">Co-Deputy Training Coordinator for ELIXIR Germany</a>, a
-        <a href="https://software.ac.uk/about/fellows/malvika-sharan">Software Sustainability Institute Fellow</a> (2019),
-        a board member of <a href="https://www.open-bio.org/board/">Open Bioinformatics Foundation</a> (since July 2019),
-        and a contributing member of <a ref="https://carpentries.org/">The Carpentries</a> community.
+        She is a [Co-Deputy Training Coordinator for ELIXIR Germany](https://elixir-europe.org/platforms/training/how-organised), a
+        [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/malvika-sharan) (2019),
+        a board member of [Open Bioinformatics Foundation](https://www.open-bio.org/board/) (since July 2019),
+        and a contributing member of [The Carpentries](https://carpentries.org/) community.
 
-        From January 2020, she will take the role of Community Manager for <a href="https://the-turing-way.netlify.com">The Turing Way Project</a>
-        at <a href="https://www.turing.ac.uk">The Alan Turing Institute, UK</a>.
+        From January 2020, she will take the role of Community Manager for [The Turing Way Project](https://the-turing-way.netlify.com)
+        at [The Alan Turing Institute](https://www.turing.ac.uk), UK.
 
         Through her work, she promotes inclusiveness in Open Science communities.
     organizer: true
 
+matuskalas:
+    first-name: Matúš
+    last-name: Kalaš
+    twitter: matuskalas
+    affiliation: University of Bergen
+    country: Norway
+    pronouns: he/him
+
+Megmugure:
+    first-name: Margaret
+    last-name: Wanjiku
+    twitter: meg_wanjiku
+    affiliation: International Livestock Research Institute
+    country: Kenya
+
 mkuzak:
-    name: Mateusz Kuzak
+    first-name: Mateusz
+    last-name: Kuzak
     twitter: matkuzak
     email: mateusz.kuzak@gmail.com
     orcid: 0000-0003-0087-6021
@@ -368,8 +573,17 @@ mkuzak:
     expert: true
     mentor: true
 
+MorphoFun:
+    first-name: Sandy
+    last-name: Kawano
+    twitter: MorphoFun
+    affiliation: The George Washington University
+    country: USA
+    pronouns: she/her
+
 mruizvelley:
-    name: Mariana Ruiz Velasco
+    first-name: Mariana
+    last-name: Ruiz Velasco
     twitter: mruizvelley
     email: mruizvelley@gmail.com
     orcid: 0000-0002-9248-1280
@@ -382,7 +596,8 @@ mruizvelley:
     github: false
 
 mvdbeek:
-    name: Marius van den Beek
+    first-name: Marius
+    last-name: van den Beek
     twitter: mariusvdbeek
     email: m.vandenbeek@gmail.com
     orcid: 0000-0002-9676-7032
@@ -393,8 +608,17 @@ mvdbeek:
     expert: true
     mentor: true
 
+NaraLB:
+    first-name: Naraiana
+    last-name: Loureiro Benone
+    twitter: nlbenone
+    affiliation: Museu Paraense Emílio Goeldi
+    country: Brazil
+    pronouns: she/her
+
 nerantzis:
-    name: Nikolaos Nerantzis
+    first-name: Nikolaos
+    last-name: Nerantzis
     twitter: nerantzis
     email: ScienceBrainFun@gmail.com
     website: https://4myfiles.wordpress.com
@@ -403,7 +627,8 @@ nerantzis:
     expert: true
 
 npscience:
-    name: Naomi Penfold
+    first-name: Naomi
+    last-name: Penfold
     twitter: npscience
     email: naomi.penfold@asapbio.org
     website: https://npscience.github.io
@@ -424,7 +649,8 @@ npscience:
     mentor: true
 
 nsoranzo:
-    name: Nicola Soranzo
+    first-name: Nicola
+    last-name: Soranzo
     twitter: NicolaSoranzo
     email: nicola.soranzo@gmail.com
     website: https://www.earlham.ac.uk/nicola-soranzo
@@ -438,7 +664,8 @@ nsoranzo:
     expert: true
 
 orchid00:
-    name: Paula Andrea Martinez
+    first-name: Paula 
+    last-name: Andrea Martinez
     email: p.martinez@uq.edu.au
     orcid: 0000-0002-8990-1985
     description: >
@@ -450,7 +677,8 @@ orchid00:
     expert: true
 
 pherterich:
-    name: Patricia
+    first-name: Patricia
+    last-name: 
     twitter: pherterich
     orcid: 0000-0002-4542-9906
     description: >
@@ -466,7 +694,8 @@ pherterich:
     mentor: true
 
 profgiuseppe:
-    name: Giuseppe Profiti
+    first-name: Giuseppe
+    last-name: Profiti
     email: profgiuseppe@gmail.com
     website: https://sites.google.com/site/peppeprofiti
     orcid: 0000-0001-6067-6174
@@ -478,7 +707,8 @@ profgiuseppe:
     expert: true
 
 rainsworth:
-    name: Rachael Ainsworth
+    first-name: Rachael
+    last-name: Ainsworth
     twitter: rachaelevelyn
     email: rainswor@gmail.com
     website: https://rainsworth.github.io/
@@ -493,7 +723,8 @@ rainsworth:
     expert: true
 
 rodrigocam:
-    name: Rodrigo Oliveira Campos
+    first-name: Rodrigo
+    last-name: Oliveira Campos
     twitter: sayadiguin
     email: rodrigo.redcode@gmail.com
     description: >
@@ -501,35 +732,17 @@ rodrigocam:
         python programmer, functional languages lover!
     mentor: true
 
-tobyhodges:
-    name: Toby Hodges
-    twitter: tbyhdgs
-    email: tbyhdgs@gmail.com
-    website: https://tbyhdgs.info
-    orcid: 0000-0003-1766-456X
-    description: >
-        Toby manages EMBL Bio-IT, a community of bioinformaticians/computational biologists at the 
-        European Molecular Biology Laboratory in Heidelberg, Germany.
-        They do a lot of training, in- and outreach, and provide a bunch of cool resources to 
-        help our community members connect, collaborate, and do their
-        research openly and effectively. He is also quite active in The Carpentries, 
-        as an instructor, instructor trainer, discussion host, mentor, etc.
-    mentor: true
+SamGuay:
+    first-name: Samuel
+    last-name: Guay
+    twitter: SamGuay_
+    affiliation: Université de Montréal
+    country: Canada 
+    pronouns: he/him
 
-unode:
-    name: Renato Alves
-    twitter: renato_alvs
-    email: renato.alves@embl.de
-    orcid: 0000-0002-7212-0234
-    description: >
-        Renato is a biologist by training with a passion for computational work. 
-        Love learning about as much as teaching. Open source junky. Certified computer geek.
-    expert: true
-    mentor: true
-    
 satagopam7:
-    name: Venkata Satagopam
-    twitter:
+    first-name: Venkata
+    last-name: Satagopam
     email: venkata.satagopam@uni.lu
     website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
     orcid: 0000-0002-6532-5880
@@ -544,8 +757,54 @@ satagopam7:
     expert: true
     mentor: true
 
+Sithyphus:
+    first-name: Jorge
+    last-name: Barrios
+    affiliation: University of Arizona
+    country: USA
+
+sudarshangc:
+    first-name: Sudarshan
+    last-name: GC
+    twitter: Sudarsh07847591
+    affiliation: Media Lab Nepal
+    country: Nepal
+    pronouns: he/him
+
+tobyhodges:
+    first-name: Toby
+    last-name: Hodges
+    twitter: tbyhdgs
+    email: tbyhdgs@gmail.com
+    website: https://tbyhdgs.info
+    orcid: 0000-0003-1766-456X
+    description: >
+        Toby manages EMBL Bio-IT, a community of bioinformaticians/computational biologists at the 
+        European Molecular Biology Laboratory in Heidelberg, Germany.
+        They do a lot of training, in- and outreach, and provide a bunch of cool resources to 
+        help our community members connect, collaborate, and do their
+        research openly and effectively. He is also quite active in The Carpentries, 
+        as an instructor, instructor trainer, discussion host, mentor, etc.
+    mentor: true
+
+unode:
+    first-name: Renato
+    last-name: Alves
+    twitter: renato_alvs
+    email: renato.alves@embl.de
+    orcid: 0000-0002-7212-0234
+    affiliation: European Molecular Biology Laboratory (EMBL)
+    country: Germany
+    pronouns: he/him
+    description: >
+        Renato is a biologist by training with a passion for computational work. 
+        Love learning about as much as teaching. Open source junky. Certified computer geek.
+    expert: true
+    mentor: true
+
 VickyNembaware:
-    name: Vicky Nembaware
+    first-name: Vicky
+    last-name: Nembaware
     twitter: VickyNembaware
     email: vnembaware@gmail.com
     orcid: 0000-0001-7966-4042
@@ -563,23 +822,25 @@ VickyNembaware:
     github: false
 
 yochannah:
-    name: Yo Yehudi
+    first-name: Yo
+    last-name: Yehudi
     twitter: yoyehudi
     email: yoyehudi@gmail.com
     gitter: yochannah
     orcid: 0000-0003-2705-1724
     description: >
-        Yo is a <a href="https://software.ac.uk/about/fellows/yo-yehudi">Software Sustainability Institute Fellow</a>,
-        founder of <a href="http://www.codeisscience.com/manifesto">Code is Science</a>,
-        <a href="https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html">EngD student at the University of Manchester</a>
+        Yo is a [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/yo-yehudi),
+        founder of [Code is Science](http://www.codeisscience.com/manifesto),
+        [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html)
         studying the effects of community and usabilty on open source software,
-        editor for the <a href="https://channels.plos.org/open-source-toolkit">PLOS Open Source Toolkit</a>,
-        board member of the <a href="https://www.open-bio.org/board/">Open Bioinformatics Foundation</a>,
-        and a software developer at the University of Cambridge, working on an open source biological data warehouse called <a href="http://intermine.org/">InterMine</a>.
+        editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
+        board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
+        and a software developer at the University of Cambridge, working on an open source biological data warehouse called [InterMine](http://intermine.org/).
     organizer: true
 
 Zebetus:
-    name: Harry Smith
+    first-name: Harry
+    last-name: Smith
     twitter: Zebetus
     email: haz.zebetus@gmail.com
     description: >

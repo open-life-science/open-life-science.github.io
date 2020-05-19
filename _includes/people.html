@@ -2,7 +2,7 @@
   <div class="card-content">
     <div class="media">
       <div class="media-left people-card-avatar">
-        <figure class="image is-96x96">
+        <figure class="image is-64x64">
           <img
             class="is-rounded"
             src="https://avatars.githubusercontent.com/{{ username }}"
@@ -11,17 +11,15 @@
         </figure>
       </div>
       <div class="media-content people-card-meta">
-        <p class="title is-4">{{ user.name }}
-            {% if user.pronouns %}
-            ({{ user.pronouns }})
-            {% endif %}
-        </p>
+        <p class="title is-4">{{ user.first-name }} {{ user.last-name }}</p>
 
         <p class="is-6">
+          {% if user.pronouns %}
+          Pronouns: {{ user.pronouns }}<br>
+          {% endif %}
+
           {% if user.twitter %}
-          <i class="fab fa-twitter"></i>
-          <a class="people-card-meta-twitter" href="https://twitter.com/{{ user.twitter }}">@{{ user.twitter }}</a>
-          <br>
+          <a class="people-card-meta-twitter" href="https://twitter.com/{{ user.twitter }}"><i class="fab fa-twitter"></i> @{{ user.twitter }}</a><br>
           {% endif %}
           {% if user.email %}
           <a href="mailto:{{ user.email }}"><i class="far fa-envelope"></i></a>
@@ -38,20 +36,33 @@
           {% if user.orcid %}
           <a href="https://orcid.org/{{ user.orcid }}"><i class="ai ai-orcid"></i></a>
           {% endif %}
-        </p>
-
-        <p class="is-6">
-        {% if user.affiliation %}
-        {{ user.affiliation }},
-        {% endif %}
-        {% if user.country %}
-        {{ user.country }}
-        {% endif %}
+        
+          {% if user.affiliation or user.country %}
+            <br>
+            <i class="fas fa-map-marker-alt"></i> 
+            {% assign delim = '' %}
+            {% if user.affiliation %}
+            {{ user.affiliation }}
+            {% assign delim = ', ' %}
+            {% endif %}
+            {% if user.country %}
+            {{ delim }}{{ user.country }}
+            {% endif %}
+          {% endif %}
         </p>
       </div>
-
     </div>
 
-    <div class="content">{{ user.description }}</div>
+    <div class="people-description">
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about {{ user.first-name }}
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        {{ user.description | markdownify }}
+      </div>
+    </div>
   </div>
 </div>

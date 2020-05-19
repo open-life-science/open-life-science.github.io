@@ -8,29 +8,38 @@ photos:
   url: https://flic.kr/p/2aBxKw
 ---
 
-{% assign mentors = site.data.people %}
-{% assign participants = site.data.ols-1-participants %}
+{% assign people = site.data.people %}
 {% assign projects = site.data.ols-1-projects %}
+
+{% assign all-participants = '' %}
+{% for project in projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
 
 Participants join this program with a project that they either are already working on or want to develop during this program.
 
-For the first round of the Open Life Science program, we are happy to have [{{ participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects). 
+For the first round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects). 
 
 # Projects
 
 {% for project in projects %}
     {% if project.visible != false %}
 
-        {% capture p-pparticipants %}
-        {% for p in project.participants %}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ participants[p].name }}](#{{ p }})
+        {% assign p-pparticipants = '' %}
+        
+        {% for p in project.participants %}
+            {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
         {% endfor %}
-        {% endcapture %}
-
+        
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
-        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ mentors[p].name }}](/about#{{ p }})
+        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1#{{ p }})
         {% endfor %}
-        {% endcapture %} 
+        {% endcapture %}
 
 ## {{ project.name }}
 
@@ -46,9 +55,9 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
 # Participants
 
 <div class="people">
-{% for entry in participants %}
-    {% assign username = entry[0] %}
-    {% assign user = participants[username] %}
-    {% include _includes/people.html user=user username=username %}
+{% for entry in p-participants %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
 {% endfor %}
 </div>

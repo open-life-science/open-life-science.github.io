@@ -157,7 +157,7 @@ We have high ethical standards, including:
 This program is made possible thanks to our partners and sponsors!
 
 <div class="partners">
-{% for entry in site.data['partners'] %}
+{% for entry in site.data.partners %}
     {% assign partnername = entry[0] %}
     {% assign partner = site.data['partners'][partnername] %}
     {% include _includes/partners.html partner=partner %}
