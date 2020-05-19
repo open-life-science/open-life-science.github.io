@@ -7,7 +7,7 @@ During the program,
 
 Organizers will inform participants of the week schedule by email.
 
-<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com"  frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=bjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D50000&amp;mode=AGENDA&amp;hl=en_GB&amp;showTitle=0&amp;showNav=0&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0" width="1152" frameborder="0" scrolling="no"></iframe>
 
 [<i class="fas fa-calendar-plus"></i> *Subscribe to the OLS calendar*](https://calendar.google.com/calendar/r?cid=n3rqhvuff05ojkl0opfsvh49fk@group.calendar.google.com)
 
