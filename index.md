@@ -29,7 +29,24 @@ After the success of our [first cohort](ols-1) from January to April 2020, we an
 
 ## Projects
 
-Participants join this program with a project that they either are already working on or want to develop during this program. **For the first round, we were happy to have [{{ site.data.ols-1-participants | size }} participants](#participants) with [{{ site.data.ols-1-projects | size }} projects](#projects).**
+{% assign projects = site.data.ols-1-projects %}
+
+{% assign all-participants = '' %}
+{% assign all-mentors = '' %}
+{% for project in projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+    {% endfor %}
+{% endfor %}
+
+{% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign p-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+
+Participants join this program with a project that they either are already working on or want to develop during this program. **For the first round, we were happy to have [{{ p-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ projects | size }} projects](/ols-1/projects-participants#projects).**
 
 Project ideas can range from solving technical questions, to creating an open data project or report, developing open source software project, writing open publication, facilitating community/team culture movements, advancing open educational resource or contributing to other existing projects/community.
 
