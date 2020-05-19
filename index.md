@@ -26,6 +26,9 @@ After the success of our [first cohort](ols-1) from January to April 2020, we an
 
 {% include _includes/ols-2-timeline.md %}
 
+Applications for the 2nd cohort are now **open**! Please visit [EasyChair](https://easychair.org/conferences/?conf=ols2) to view our application instructions and upload your application before the end of day on June 30, 2020. 
+
+Any questions? We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), talk to us on [Gitter](https://gitter.im/{{ site.gitter }}) or connect with us on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}). 
 
 ## Projects
 
