@@ -69,19 +69,23 @@ Our mentors will
 
 ## Becoming a mentor
 
-We are currently recruiting the mentors for the first round. Please reach out to one of the organizers if you are interested.
+We are currently recruiting the mentors for the second round. Please reach out to one of the organizers if you are interested.
 
 ## Our mentors
 
-<div class="people">
-{% for entry in site.data.people %}
-    {% assign username = entry[0] %}
-    {% assign user = site.data.people[username] %}
-    {% if user.mentor %}
-      {% include _includes/people.html user=user username=username %}
-    {% endif %}
+Our program is only possible thanks to our awesome mentors:
+
+{% assign projects = site.data.ols-1-projects %}
+{% assign mentors = '' %}
+{% for project in projects %}
+    {% for m in project.mentors %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
 {% endfor %}
-</div>
+{% assign ols-1-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+
+- [The {{ ols-1-mentors | size }} mentors for **OLS-1** (January to May 2020)](/ols-1#mentors)
+- [The possible mentors for **OLS-2** (September to December 2020)](/ols-2#mentors)
 
 # Experts
 
@@ -103,19 +107,16 @@ Experts may be invited to:
 - be interviewed by the organisers (~15 minutes)
 - invited by mentor-mentee pair to share their expert consultation on certain projects. (~30 minutes)
 
-We are currently recruiting the experts for the first round.
+We are currently recruiting the experts for the second round.
 
 ## Our experts
 
-<div class="people">
-{% for entry in site.data.people %}
-    {% assign username = entry[0] %}
-    {% assign user = site.data.people[username] %}
-    {% if user.expert %}
-      {% include _includes/people.html user=user username=username %}
-    {% endif %}
-{% endfor %}
-</div>
+Our experts are essential for the program:
+
+{% assign ols-1-experts = site.data.ols-1-experts-speakers.experts %}
+
+- [The {{ ols-1-experts | uniq | size }} experts for **OLS-1** (January to May 2020)](/ols-1#experts)
+- [The possible experts for **OLS-2** (September to December 2020)](/ols-2#experts)
 
 # Organizers
 
@@ -129,8 +130,6 @@ We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://f
     {% endif %}
 {% endfor %}
 </div>
-
-
 
 We also participate in a wide range of activities in different international communities of practice in the life sciences:
 - [ELIXIR (European bioinformatics network)](https://elixir-europe.org/)
