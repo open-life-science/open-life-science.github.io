@@ -18,10 +18,10 @@ image: https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-1.2
 {% for project in projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1/projects-participants/#{{ p }}){% endcapture %}
+        {% capture all-participants %}{{ all-participants}}, [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1/projects-participants#{{ p }}){% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/ols-1/#{{ m }}){% endcapture %}
+        {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/ols-1#{{ m }}){% endcapture %}
     {% endfor %}
 {% endfor %}
 
@@ -57,7 +57,7 @@ Once again, let's welcome our mentors and mentees to this program!
 | Project | Project leaders | Mentor (with secondary mentors if any) |
 |----------|-----------------------|------------|
 {%- for project in projects %}
-| [{{ project.name }}](/ols-1/projects-participants/#{{ project.name | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1/projects-participants/#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}with [{{ people[p].first-name }} {{ people[p].last-name }}](/about#{{ p }}) {% endfor %} {% endcapture %} {{ p-mentors | remove_first: 'with ' }} |
+| [{{ project.name }}](/ols-1/projects-participants/#{{ project.name | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1/projects-participants#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}with [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1#{{ p }}) {% endfor %} {% endcapture %} {{ p-mentors | remove_first: 'with ' }} |
 {%- endfor %}
 
 We wish our cohort members all the best as they begin this journey with us.

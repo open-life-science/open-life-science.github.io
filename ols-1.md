@@ -18,15 +18,15 @@ photos:
 {% for project in projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }}{% endcapture %}
     {% endfor %}
 {% endfor %}
 
-{% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign p-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
 
 
 # The OLS-1 program
@@ -91,7 +91,7 @@ During the program,
 
 Organizers will inform participants of the week schedule by email.
 
-Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter]({{ site.gitter }}).  
+Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter](https://gitter.im/{{ site.gitter }}).  
 
 <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com"  frameborder="0" scrolling="no"></iframe>
 
@@ -227,7 +227,7 @@ An invitation is sent to all participants (mentees, mentors, etc) at the beginni
 
 ## Gitter
 
-Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter]({{ site.gitter }}).
+Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter](https://gitter.im/{{ site.gitter }}).
 
 ## OLS Google group
 

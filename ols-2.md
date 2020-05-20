@@ -236,7 +236,7 @@ An invitation is sent to all participants (mentees, mentors, etc) at the beginni
 
 ## Gitter
 
-Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter]({{ site.gitter }}).
+Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter](https://gitter.im/{{ site.gitter }}).
 
 ## OLS Google group
 
