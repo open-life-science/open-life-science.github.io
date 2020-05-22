@@ -41,6 +41,26 @@
 
         - Add your vision statement to your GitHub issue
         - Check the [Syllabus](https://openlifesci.org/ols-1) for notes and connection info for all the cohort calls
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor training
+      date: January 17, 2020
+      time: '17:00'
+      content: |
+        During our first cohort call, you will:
+        - Understand common successes and challenges in mentoring OLS participants.
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor training
+      date: January 20, 2020
+      time: '12:00'
+      content: |
+        During our first cohort call, you will:
+        - Understand common successes and challenges in mentoring OLS participants.
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
 '02':
   timeframe: January 27-31, 2020
   calls:
@@ -234,6 +254,16 @@
         - Complete your week 6 assignments.
       after: |
         - Complete any week 6 assignments that you have left to do.
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor training
+      date: March 5, 2020
+      time: '20:30'
+      content: |
+        During our first cohort call, you will:
+        - Share your experience been so far as a mentor in OLS-1
+        - Learn about the GROW model
 '08':
   timeframe: March 9-13, 2020
   calls:
@@ -411,6 +441,19 @@
       after: |
         - Celebrate your graduation from OLS-1!
       resources:
+'16':
+  timeframe: May 3-8, 2020
+  calls:
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor wrap up
+      date: 
+      time: 
+      content: |
+        During our first cohort call, we will:
+        - Wrap-up the cohort
+        - Discuss how we can improve the program
 '17':
   timeframe: May 11-15, 2020
   calls:

@@ -41,6 +41,16 @@
 
         - Add your vision statement to your GitHub issue
         - Check the [Syllabus](/ols-2) for notes and connection info for all the cohort calls
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor training
+      date: 
+      time: '17:00'
+      content: |
+        During our first cohort call, you will:
+        - Understand common successes and challenges in mentoring OLS participants.
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
 '02':
   timeframe: 
   calls:
@@ -260,6 +270,16 @@
       time: 
       calendar-event: 
       notes: 
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor training
+      date: 
+      time: 
+      content: |
+        During our first cohort call, you will:
+        - Share your experience been so far as a mentor in OLS-1
+        - Learn about the GROW model
 '08':
   timeframe: 
   calls:
@@ -456,7 +476,6 @@
 '16':
   timeframe: 
   calls:
-    
     -
       type: Cohort
       duration: 90 min
@@ -477,3 +496,13 @@
       after: |
         - Celebrate your graduation from OLS-2!
       resources:
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor wrap up
+      date: 
+      time: 
+      content: |
+        During our first cohort call, we will:
+        - Wrap-up the cohort
+        - Discuss how we can improve the program
