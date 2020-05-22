@@ -60,7 +60,5 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
-    {{ user }}
-    '{{ username }}'
 {% endfor %}
 </div>
