@@ -63,6 +63,7 @@
     mapping, action plans, and outreach. In the long run, work done in this project aims at
     developing community engagement for policy development, and will ultimately pave the way to
     establish the Zuckerman Institute as a golden standard for open science.
+  graduated: true
 
 - name: Bioinformatics Hub of Kenya (BHK)
   participants:
@@ -85,6 +86,7 @@
     through peer training and mentorship to provide a pool of qualified bioinformaticians who will
     focus on innovation and bringing novelty to assigned projects promising quality, integrity,
     reliability and trust in their services.
+  graduated: true
 
 - name: Expanding plenoptic Python Package
   participants:
@@ -105,6 +107,7 @@
     comparison and validation experiments. We will include four such methods, all of which have been
     described in the literature, but none of which have standard, accessible implementations that work
     on more than a handful of specific models.
+  graduated: true
 
 - name: "@Diversidade em Foco"
   participants:
@@ -125,6 +128,7 @@
     audience and promote science communication. Reports will consider the number of tweets,
     participants, their experience during the account administration time, the number of followers
     and reach information in the twitter account and the blog.
+  graduated: true
 
 - name: Media Lab Nepal for Computational Biology
   participants:
@@ -149,6 +153,7 @@
     we can benefit life sciences sector of whole country through open science
     initiative. I also want to make this initiative feasible and sustainable by creating
     incoming generating platform with computational biology.
+  graduated: true
 
 - name: InterMine Similarity Explorer
   participants:
@@ -185,6 +190,7 @@
     researchers in shaping Open policies each country at a time in Africa. Since Africa poses different and
     unique development dynamics, development of all phases of this project will put into consideration
     various divides such as rich vs poor, rural vs urban, research literate vs research illiterate among others.
+  graduated: true
 
 - name: EMBL Bio-IT Community Project
   participants:
@@ -222,6 +228,7 @@
     through an understanding of the principles of behavior change, including recognizing
     scientific and individual risks and benefits for research participants, researchers (at all
     levels), and the institution.
+  graduated: true
 
 - name: "AMRITA: an online database for herbal medicine"
   participants:
@@ -240,6 +247,7 @@
     collaboration of researchers across the fields of biological, pharmaceutical, and clinical
     sciences in establishing a solid foundation of medicinal plants and enabling the use of these
     plants in modern medicine.
+  graduated: true
 
 - name: How to build an healthy and open lab
   participants:
@@ -263,6 +271,7 @@
     work open, project management tools etc.); how to train the next generation of open
     scientists; and how to open your work to the public. Finally, I would like to approach
     organisations and institutions to help more young PIs get access to these resources.
+  graduated: true
 
 - name: Benchmarking environment for bioinformatics tools
   participants:
@@ -275,6 +284,7 @@
     updated each time somebody provide new data on the performance of any considered tool.
     There should be an ability to add new tools as well as new datasets to an existing
     comparison.
+  graduated: true
 
 - name: EDAM ontology
   participants:
@@ -299,6 +309,7 @@
 
     The goal of this concrete mentorship project is to further extend EDAM, so that other
     communities can benefit from it, and from the applications and use cases it fosters.
+  graduated: true
 
 - name: Improving Documentation for Open Data and Software in the Agricultural Research Community
   participants:
@@ -325,6 +336,7 @@
     have each person in the group complete a sub-project that can be finished in 15 weeks. Each
     sub-project would result in an accompanying blog post describing the best practices
     implemented.
+  graduated: true
 
 - name: Improving open platform accessibility
   participants:
@@ -348,7 +360,7 @@
     feasible in this timeline to also pilot open tools with a new project or as an extension to an
     existing project -- to start putting this idea into action.
     What problem(s)
-  visible: false
+  graduated: true
 
 - name: Enabling open science practices in biology education
   participants:
@@ -396,6 +408,7 @@
     If you're reading this and you're interested in open research feel free to come chat with us on
     <a href="https://chat.openscience.ca">chat.openscience.ca</a>, an open-source alternative to Slack!
     We want to get to know you (and your initiative)!
+  graduated: true
     
 - name: Creating network of Data Champions at the library of Free University of Amsterdam
   participants:
@@ -411,3 +424,4 @@
     proper handling of research data.<br> 
     Similar programs have been launched at the University of Cambridge, TU Delft, and Wageningen University. 
     The main goal of the Data Champion programme is to drive cultural change towards open science and open data.
+  graduated: true
