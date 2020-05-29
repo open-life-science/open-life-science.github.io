@@ -135,7 +135,6 @@
     - sudarshangc
   mentors: 
     - aidanbudd
-    - satagopam7
   description: >
     <a href="https://medialabnepal.com/">Media Lab Nepal</a> is only one community bio lab of Nepal focusing on democratization of life
     sciences through open science. It is an interdisciplinary team of students and
@@ -209,7 +208,7 @@
     who is my predecessor in Bio-IT. I want to take this opportunity to ensure a smooth
     knowledge transfer within the management team of the Bio-IT project and navigate my own
     path and future prospects as a community manager.
-  graduated: true  
+  graduated: true
 
 - name: "Oxford Neuroscience Open Science Co-ordinator: Changing Culture"
   participants:
@@ -383,7 +382,8 @@
     communication between lab members and make sure that expectations of the faculty mentor
     and student / staff mentees are fully transparent so that the mentoring process can be
     improved for science mentees.
-
+  graduated: true
+  
 - name: Open Science UMontreal (OSUM)
   participants:
     - SamGuay
