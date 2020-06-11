@@ -132,6 +132,13 @@
       after: |
         - Continue on with your project, and connect with others on Gitter or other social media platforms.
       resources:
+  -
+      type: Mentors
+      duration: 60 min
+      title: Mentor training
+      date: 
+      time: ''
+      content: 
 '04':
   timeframe: 
   calls:
@@ -349,6 +356,13 @@
       time: 
       calendar-event: 
       notes: 
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor training
+      date: 
+      time: 
+      content: 
 '12':
   timeframe: 
   calls:
