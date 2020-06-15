@@ -10,7 +10,7 @@ photos:
 
 {% assign people = site.data.people %}
 {% assign projects = site.data.ols-1-projects %}
-{% assign experts-speakers = site.data.ols-1-experts-speakers %}
+{% assign metadata = site.data.ols-1-metadata %}
 {% assign schedule = site.data.ols-1-schedule %}
 
 {% assign all-participants = '' %}
@@ -153,13 +153,23 @@ Our mentors will then gain mentoring skills (active listening, effective questio
 
 Experts are invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
 
-<!-- Any modification of the content should be done in the _data/ols-1-experts-speakers.yaml file -->
+<!-- Any modification of the content should be done in the _data/ols-1-metadata.yaml file -->
 
 <div class="people">
-{% for entry in experts-speakers.experts %}
+{% for entry in metadata.experts %}
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
+
+## Organizers
+
+<div class="people">
+{% for entry in metadata.organizers %}
+    {% assign username = entry %}
+    {% assign user = site.data.people[username] %}
+    {% include _includes/people.html user=user username=username %}
 {% endfor %}
 </div>
 
