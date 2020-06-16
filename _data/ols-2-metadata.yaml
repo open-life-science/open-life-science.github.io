@@ -1,0 +1,91 @@
+# List of experts and guest speakers for OLS-2
+# 
+#
+# People should be also in people.yaml file and linked using their GitHub username
+---
+experts:
+  - ajstewartlang
+  #- anenadic # need to confirm
+  #- annakrystalli # need to confirm
+  #- anneclinio # need to confirm
+  - bebatut
+  #- BhuvanaMeenakshiK # need to confirm
+  - ChiaraBertipaglia
+  #- dasaderi # need to confirm
+  #- Demellina # need to confirm
+  #- emmyft # need to confirm
+  - fpsom
+  #- gedankenstuecke # need to confirm
+  #- ha0ye # need to confirm
+  #- hdinkel # need to confirm
+  #- InquisitiveVi # need to confirm
+  #- JasonJWilliamsNY # need to confirm
+  #- kariljordan # need to confirm
+  #- katrinleinweber # need to confirm
+  #- kipkurui # need to confirm
+  #- KirstieJane # need to confirm
+  #- kswhitney # need to confirm
+  #- luispedro # need to confirm
+  - malvikasharan
+  - mkuzak
+  #- mruizvelley # need to confirm
+  #- mvdbeek # need to confirm
+  #- nerantzis # need to confirm
+  - npscience
+  #- nsoranzo # need to confirm
+  #- orchid00 # need to confirm
+  #- pherterich # need to confirm
+  #- profgiuseppe # need to confirm
+  #- rainsworth # need to confirm
+  #- satagopam7 # need to confirm
+  - tobyhodges
+  - unode # need to confirm
+  - yochannah
+possible-mentors:
+  - aidanbudd
+  - ajstewartlang
+  #- anayan321 # ask later when OLS-2 launched, need to check with Holger
+  #- annefou # need to confirm
+  - bebatut
+  #- billbrod # ask later when OLS-2 launched, need to check with Rodrigo
+  #- bruno-soares # need to check with Renato
+  #- cassgvp # did not fill the form
+  #- christinerogers # did not fill the form
+  #- dasaderi # need to confirm
+  #- davidviryachen # ask later when OLS-2 launched, need to check with Holger
+  #- dlebauer # need to check with Katrin
+  - Fnyasimi
+  - fpsom
+  #- ha0ye # ask later when OLS-2 launched
+  #- hdinkel # need to confirm
+  #- joelostblom # need to confirm
+  #- katrinleinweber # need to confirm
+  #- kibet-gilbert # recommended, need to ask
+  #- kipkurui # ask later when OLS-2 launched
+  #- Kiragu-Mwaura
+  #- kswhitney # need to confirm
+  - LandiMi2
+  #- LangData # did not fill the form
+  - Lilian9
+  #- luispedro # need to confirm
+  #- MagicMilly # ask later when OLS-2 launched, need to check with Katrin
+  - malvikasharan
+  - Megmugure
+  #- MorphoFun # need to check with Fotis
+  - mkuzak
+  #- mruizvelley # need to confirm
+  #- mvdbeek # need to confirm
+  - npscience
+  #- nsoranzo # need to confirm
+  - pherterich
+  #- rainsworth # recommended, ask
+  #- rodrigocam # need to confirm
+  #- SamGuay # need to check with Andrew
+  - unode
+  #- VickyNembaware # need to confirm
+  - yochannah
+  #- Zebetus # need to confirm
+organizers:
+  - bebatut
+  - malvikasharan
+  - yochannah 
