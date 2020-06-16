@@ -95,6 +95,24 @@
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources:
+        - 
+          type: slides
+          title: Open Canvas
+          speaker: yochannah
+          link: https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
+        - 
+          type: slides
+          title: Road Mapping
+          speaker: bebatut
+          link: https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
+        -
+          type: document
+          title: Open Canvas
+          link: https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing
+        -
+          type: document
+          title: Compare and contrast assignment
+          link: https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing
 '03':
   timeframe: February 3-7, 2020
   calls:
@@ -164,6 +182,22 @@
         - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources:
+        - 
+          type: slides
+          title: A Primer on Open Licenses
+          speaker: joshsimmons
+          link: https://docs.google.com/presentation/d/1ymSOc9vPnFJpU0FwFBqw25qhSmJVAv5scpi-N9KVopc/present?token=AC4w5VhlD7msUof3GaBmw49cKW2DMl1MHw%3A1592335965050&includes_info_params=1&eisi=COLxvdyJh-oCFW8XqQEddQ8MjA#slide=id.g6e56d02ad9_0_0
+        -
+          type: slides
+          title: READMEs for Open Projects
+          speaker: mkuzak
+          link: https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/present?token=AC4w5VjrSx12f9wVPfWbVMmUuiandgD48Q%3A1592336128442&includes_info_params=1&eisi=CI7KsqqKh-oCFYt4Hwoddd0HMQ#slide=id.g6e56d0296c_0_0
+        - 
+          type: slides
+          title: Contributing Guidelines and Codes of Conduct for Open Projects
+          speaker: karinlag
+          link: https://docs.google.com/presentation/d/1aLaDBwH64PCRtCLIftVkjBYT60ifWuIV7Im2t8BXN8Q/present?token=AC4w5ViOcFNSsUO1bcZGT6ntgoA9jOqOqg%3A1592336193207&includes_info_params=1&eisi=CPK0o8mKh-oCFcpMyAodzX4Jgg#slide=id.g6e56d02ad9_0_0
+        
 '05':
   timeframe: February 17-21, 2020
   calls:
@@ -195,18 +229,55 @@
       before: |
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources:
-        - Useful git / GitHub resources
-          - [GitHub for Collaboration (from Mozilla)](https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/)
-          - [Understanding the GitHub workflow](https://guides.github.com/introduction/flow/)
-          - [A Friendly Github Intro Workshop (from Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
-          - [GitHub help](https://help.github.com)
-          - [Oh Shit, Git!?!](http://ohshitgit.com)
-          - [Try Git](https://try.github.io)
-          - [Git book](https://git-scm.com/book/en/v2)
-          - [GitHub glossary](https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md)
-          - [Writing on Github](https://help.github.com/categories/writing-on-github/)
-          - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-          - [Git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
+        - 
+          type: slides
+          title: Friendly GitHub Intro
+          speaker: malvikasharan
+          link: https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/present?token=AC4w5ViCtcZUmyKP5SsKPQXyN_beAAgvbA%3A1592338198143&includes_info_params=1&eisi=CI_4poWSh-oCFU6SSgod838NBA#slide=id.g526267be46_0_606
+        - 
+          type: external-link
+          title: GitHub for Collaboration (from Mozilla)
+          link: https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
+        - 
+          type: external-link
+          title: Understanding the GitHub workflow
+          link: https://guides.github.com/introduction/flow/
+        - 
+          type: external-link
+          title: A Friendly Github Intro Workshop (from Danielle Robinson)
+          link: https://daniellecrobinson.github.io/friendly-github-intro/
+        - 
+          type: external-link
+          title: GitHub help
+          link: https://help.github.com
+        - 
+          type: external-link
+          title: Oh Shit, Git!?!
+          link: http://ohshitgit.com
+        - 
+          type: external-link
+          title: Try Git
+          link: https://try.github.io
+        - 
+          type: external-link
+          title: Git book
+          link: https://git-scm.com/book/en/v2
+        - 
+          type: external-link
+          title: GitHub glossary
+          link: https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
+        - 
+          type: external-link
+          title: Writing on Github
+          link: https://help.github.com/categories/writing-on-github/
+        - 
+          type: external-link
+          title: Markdown Cheatsheet
+          link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+        - 
+          type: external-link
+          title: Git workflow
+          link: https://www.atlassian.com/git/tutorials/comparing-workflows
 '06':
   timeframe: February 24-28, 2020
   calls:
