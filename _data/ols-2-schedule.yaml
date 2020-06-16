@@ -227,7 +227,7 @@
       calendar-event: 
       notes: 
       recording: 
-      agenda: 'Developing Open Projects: Open-Source, Software, Hardware, Data'
+      agenda: 'Developing Open Projects: Iterative and agile project management, Open- Source, Software, Hardware, Data'
       content: |
         During this week's cohort call, we will cover :
         - Agile and iterative project management methods
@@ -322,13 +322,13 @@
     -
       type: Cohort
       duration: 90 min
-      title: 'Open Science III'
+      title: 'Open Science III: Next steps'
       date: 
       time: 
       calendar-event: 
       notes: 
       recording: 
-      agenda: 
+      agenda: FAIRification of existing or mature projects, etc
       content: |
         During this week's cohort call, we will
       before: |
