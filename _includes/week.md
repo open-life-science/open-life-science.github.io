@@ -25,6 +25,9 @@
 **Resources**:
 - <i class="fas fa-clipboard"></i> [Notes]({{ c.notes }})
 - <i class="fab fa-youtube"></i> {% if c.recording %} [Recording]({{ c.recording }}) {% else %} Recording available on the [OLS YouTube channel]({{ site.youtube }}) after the call {% endif %}
+{% for r in c.resources %}
+- {% if r.type == 'slides' %}<i class="fas fa-file-powerpoint"></i> {% else %} <i class="fas fa-file"></i>{% endif %} [{{ r.title }}]({{ r.link }}){% if r.type == 'slides' %}, by [{{ site.data.people[r.speaker].first-name }} {{ site.data.people[r.speaker].last-name }}](/{{ cohort }}#{{ r.speaker }}) {% endif %}
+{% endfor %}
 
 {% endif %}
 

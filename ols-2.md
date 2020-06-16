@@ -28,6 +28,19 @@ photos:
 {% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
 {% assign p-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
 
+{% assign all-speakers = '' %}
+{% for w in schedule %}
+    {% for c in w[1].calls %}
+        {% if c.type == 'Cohort' %}
+            {% for r in c.resources %}
+                {% if r.type == 'slides' %}
+                    {% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 
 # The OLS-2 program
 {:.no_toc}
@@ -161,6 +174,18 @@ Experts are invited to join cohort calls or individual mentorship calls to share
     {% include _includes/people.html username=username user=user %}
 {% endfor %}
 </div>
+
+{% if all-speakers != '' %}
+### Speakers during cohort calls
+
+<div class="people">
+{% for entry in p-speakers %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
+{% endif %}
 
 # Calls
 
