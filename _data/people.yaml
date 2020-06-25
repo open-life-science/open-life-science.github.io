@@ -1,6 +1,22 @@
 # List of people (alphabetical order)
 #
 # collection names should be equal to github username, if not, add github: false tag
+#
+# first-name:
+# last-name:
+# twitter:
+# email:
+# website:
+# gitter:
+# orcid:
+# affiliation:
+# country:
+# pronouns:
+# expertise:
+#    -
+# life-science-expertise: |
+# description: |
+# 
 ---
 
 aath0:
@@ -63,6 +79,30 @@ anenadic:
         and handled international collaborations and outreach with training communities. Organised CarpentryConnect Manchester 2019 for over 70
         attendees from the Carpentry and other training communities. Carpentries instructor (since 2014) and instructor trainer (since 2017).
 
+anita-broellochs:
+    first-name: Anita
+    last-name: Bröllochs
+    twitter: AnitaBroellochs
+    email: anita@protocols.io
+    website: www.protocols.io
+    affiliation:
+    country:
+    pronouns: she/her
+    expertise:
+       - Open method sharing
+       - Best practices for writing protocols
+       - Reproducibility
+       - Podcasting
+       - Social media
+       - Webinars
+    life-science-expertise: |
+        She is working with protocols.io which covers a large diversity of life science topics 
+    description: |
+        Anita Bröllochs is the Head of Outreach at protocols.io. She studied Life Science Engineering at the Friedrich-Alexander University in 
+        Erlangen, Germany and her background is on optical clearing of skeletal muscle for multiphoton microscopy. Anita has a passion for open 
+        science and is also the host of a science podcast called 'Minor Tweak, Major Impact' which is aiming to shine a spotlight on method development. 
+    github: false
+
 annakrystalli:
     first-name: Anna
     last-name: Krystalli
@@ -92,6 +132,28 @@ annefou:
     orcid: 0000-0002-1784-2920
     description: >
         Working in the field of Climate modelling, and interested in Open Science, Open Innovation and ICT. Trying to facilitate access and use of Climate Data.
+
+ArielleBL:
+    first-name: Arielle
+    last-name: Bennett
+    twitter: biotechchat
+    email: ab833@cam.ac.uk
+    affiliation:
+    country:
+    pronouns: she/her
+    expertise:
+        - Road mapping and strategy planning
+        - Community consultation
+        - Culture change
+        - Code of conducts
+        - Community goals 
+    life-science-expertise: |
+        She has worked across drug discovery, computational biology, and now neuroscience.
+    description: |
+        Arielle has spent her career to date working in research-adjacent fields, starting with a stint at open access 
+        publisher PLOS, where she learnt the importance (and challenges) of open science, code, and data. Currently 
+        coordinating neuroscience communities at University of Cambridge, she was a CSCCE Community Engagement Fellow 
+        in 2019 and continues to be actively involved in the community. She is a contributor to the Turing Way project. 
 
 bebatut:
     first-name: Bérénice
@@ -157,6 +219,17 @@ bruno-soares:
     affiliation: Universidade Federal do Rio de Janeiro
     country: Brazil
     pronouns: he/him
+    orcid: 0000-0001-5678-0403
+    website: https://sites.google.com/view/bruno-eleres-soares
+    expertise:
+        - SciComm
+        - Community building
+        - Open Data
+    life-science-expertise: Biodiversity
+    description: |
+        Bruno is a Brazilian ecologist working on a more collaborative and open 
+        science.
+
 
 cassgvp:
     first-name: Cassandra
@@ -207,6 +280,31 @@ davidviryachen:
     twitter: davidchenn
     affiliation: Osaka University
     country: Japan
+
+Delphine-L:
+    first-name: Delphine
+    last-name: Lariviere
+    twitter: ddlariviere
+    affiliation: Penn State University
+    country: USA
+    website: https://observablehq.com/@delphine-l
+    expertise: 
+        - Organization of open-source/collaborative projects
+        - Github
+        - Zenodo
+        - Publishing tools in Galaxy
+        - Writing documentation
+        - Construction of analysis workflow
+        - Handling data format
+        - Quality control
+        - Genomics analyses
+        - Basic statistical analyses
+    life-science-expertise: |
+        Genomics
+    description: |
+        Delphine am a post-doc at Penn State University and a member of Galaxy Project. She works on developing analysis workflows 
+        for bacterial genomics, mostly, but she also has project in other fields, like functional annotation of SARS-2 Cov virus, 
+        human methylation  analyses...
 
 Demellina:
     first-name: Demitra
@@ -263,6 +361,13 @@ Fnyasimi:
     affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
     country: Kenya
     pronouns: he/him
+    expertise: 
+        - Bioinformatics
+    life-science-expertise: |
+        Biomedical Research
+    description: |
+        Festus is a bioinformatician interested in community outreach, open science and networking. 
+        He is actively engaged in training activities and he is the lead at the Bioinformatics Hub of Kenya.
 
 fpsom:
     first-name: Fotis
@@ -298,12 +403,24 @@ ha0ye:
     email: hao.ye@weecology.org
     website: https://haoye.us
     orcid: 0000-0002-8630-1458
-    description: >
-        Hao is a computational ecologist at the University of Florida, working on methods for unraveling 
-        mechanisms among time series data.
-        He participates in Mozilla OL (and other open science programs) because it combines my research 
-        focus and my interest in broadening
-        inclusion and participation in STEM/academia/research.
+    affiliation: University of Florida Health Science Center Libraries
+    country: USA
+    pronouns: he/him
+    expertise:
+        - R
+        - Git and Github
+        - Version control
+        - Time series analysis
+        - Research reproducibility
+        - Community management
+        - Ally skill training
+    life-science-expertise: |
+        Ecology; Health Sciences
+    description: |
+        Hao is the Reproducibility Librarian at the University of Florida Health Science Center Libraries. 
+        His role is to promote research reproducibility and open science practices across the entire UF 
+        system. He is especially interested in how open practices can be leveraged to promote equity and 
+        inclusion in higher education.
     
 hdinkel:
     first-name: Holger
@@ -322,6 +439,50 @@ homo-sapiens34:
     affiliation: IITP RAS
     country: Russia
     pronouns: she/her
+
+hrhotz:
+    first-name: Hans-Rudolf
+    last-name: Hotz
+    twitter: hrhotz
+    email: hrhotz@googlemail.com
+    website: www.fmi.ch
+    affiliation: Friedrich Miescher Institute
+    country: Switzerland
+    pronouns: he/him
+    expertise:
+       - Galaxy
+       - Bioconductor
+       - Next Generation Sequencing
+       - (Perl)
+       - (Python)
+       - (PostgreSQL)
+    life-science-expertise: |
+        Bioinformatics
+    description: |
+        Hans-Rudolf is a Molecular Biologist turned Bioinformatician who is working in the Computational 
+        Biology facility at the Friedrich Miescher Institute in Basel Switzerland. Before, he was leading
+         the Bioinformatics Core group at the Sanger Institute in Cambridge UK.
+
+sofia-kirke-forslund:
+    first-name: Sofia
+    last-name: Kirke Forslund
+    twitter: inanna_nalytica
+    email: Sofia.Forslund@mdc-berlin.de
+    website: https://www.mdc-berlin.de/forslund
+    country: Berlin
+    pronouns: she/her
+    expertise:
+       - Computational biology
+       - -omics
+       - microbiome
+       - systems medicine
+    life-science-expertise: |
+        host-microbiome health associations, drug mediation/effects, antibiotic resistance, microbiome-immune interactions, disease biomarkers...
+    description: |
+        Swedish-born computational biologist, since 2018 heading systems medicine (host-microbiome focus,
+         "association hunting") lab in Berlin, interested in too many things. AMR, 
+         metabolic/inflammatory/cardiovascular diseases, drug-microbiome interactions, confounder analysis, 
+         gene family evolution. Queer, transgender woman and intersectional feminist.
 
 InquisitiveVi:
     first-name: Vinodh
@@ -380,6 +541,28 @@ katrinleinweber:
         Studied biochemistry, arctic ecology & geology, PhDed in diatom biofilms. 
         Worked in tech support (Prezi), pharma-LIMS & OA data analysis.
 
+katharina-lauer:
+    first-name: Katharina
+    last-name: Lauer
+    pronouns: she/her
+    email: katharina.lauer@elixir-europe.org
+    website: https://www.linkedin.com/in/katharina-lauer-33aa2674/
+    expertise:
+        - Stakeholder engagement
+        - Entrepreneurship
+        - Open data resources
+        - Strategy and business development
+        - Public-private partnerships
+    life-science-expertise: |
+        Data driven life sciences, virology
+    description: |
+        Kathi is charge of implementing and driving ELIXIR's industry Programme. ELIXIR is an intergovernmental organisation with over 220 bioinformatics 
+        research centres in 22 countries and the EMBL-EBI with open science at the core. ELIXIR is active in the areas of data, compute, interoperability, 
+        tools and training in the data driven life science sector. Kathi is further involved developing and delivering initiatives to support Cambridge 
+        researchers in their pursuit of business and entrepreneurial ventures through the Entrepreneurial Postdocs of Cambridge University. Prior to her 
+        current role Kathi worked as a researcher in vaccines & virology. 
+    github: false
+
 kipkurui:
     first-name: Caleb
     last-name: Kibet
@@ -413,6 +596,10 @@ KirstieJane:
         'open for all' by promoting equity and inclusion for people from diverse backgrounds, and by changing the academic incentive structure to reward collaborative
         working. She is the chair of the Turing Institute's Ethics Advisory Group, a Fulbright scholarship alumna and was a 2016/17 Mozilla Fellow for Science. Kirstie
         was named, with her collaborator Petra Vertes, as a 2016 Global Thinker by Foreign Policy magazine.
+
+kibet-gilbert:
+    first-name: Kibet
+    last-name: Gilbert
 
 KristinaRiemer:
     first-name: Kristina
@@ -448,6 +635,19 @@ LangData:
     affiliation: Free University of Amsterdam
     country: Netherlands
     pronouns: she/her
+    email: e.karvovskaya@vu.nl
+    expertise:
+        - Research data management
+        - Data stewardship
+        - FAIR principles
+        - Community building
+    life-science-expertise: |
+        She is indirectly connected to various areas of life sciences through the community 
+        of research supporters that she facilitates
+    description: |
+        Lena am a linguist by training, currently working as community manager RDM at the 
+        library of the VU Amsterdam. She enjoys being involved in research projects and being 
+        part of a team contributing to a larger goal.
 
 lazycipher:
     first-name: Himanshu
@@ -464,6 +664,31 @@ Lilian9:
     country: Kenya
     pronouns: she/her
 
+lpantano:
+    first-name: Lorena
+    last-name: Pantano
+    twitter: lopantano
+    email: lpantano@iscb.org
+    website: https://lpantano.github.com
+    affiliation: CRG, Barcelona
+    country: Spain
+    pronouns: she/her
+    expertise:
+       - Genomic
+       - Transcriptomic
+       - Python
+       - Visualization
+       - Gene editing
+       - Xenotransplantation
+    life-science-expertise: |
+        Health science
+    description: |
+        Computational biologist focused on genomic regulation and data integration. 12 years of 
+        experience in biological data analysis using the most well-established tools and contributing 
+        to novel algorithms to improve the quantification and visualization of genomic data. She approaches 
+        scientific challenges with passion and believes that a collaboration and not an individual alone 
+        can successfully conquer them.
+
 luispedro:
     first-name: Luis Pedro
     last-name: Coelho
@@ -477,9 +702,36 @@ luispedro:
         He has written several open source scientific software packages
         and organized and taught at multiple Software Carpentry workshops.
 
-kibet-gilbert:
-    first-name: Kibet
-    last-name: Gilbert
+lwinfree:
+    first-name: Lilly
+    last-name: Winfree
+    twitter: lilscientista
+    email: lilly.winfree@okfn.org
+    website: https://lwinfree.github.io/
+    orcid: 0000-0001-7120-8536
+    affiliation: Open Knowledge Foundation
+    pronouns: she/her
+    expertise:
+       - Project management
+       - Open source
+       - Open data
+       - Open science
+       - Data management
+       - Project communications
+       - Giving presentations
+       - Writing documentation
+       - Working with a distributed team
+    life-science-expertise: |
+        She is a generalist at the moment, but works with oceanographers, neuroscientists, 
+        geneticists, bioinformaticians, ecologists to name a few. Her research was in cellular 
+        neuroscience.
+    description: |
+        Lilly works on open source software for open science as the product 
+        manager for the Frictionless Data for Reproducible Research project 
+        at Open Knowledge Foundation. Lilly has her PhD in neuroscience from 
+        Oregon Health and Science University, where she researched brain injury 
+        in fruit flies and became an advocate for open science and open data.
+
 
 MagicMilly:
     first-name: Emily
@@ -487,6 +739,36 @@ MagicMilly:
     twitter: magic_milly
     affiliation: University of Arizona
     country: USA
+
+malloryfreeberg:
+    first-name: Mallory
+    last-name: Freeberg
+    twitter: MalloryFreeberg
+    email: mfreeberg@ebi.ac.uk
+    affiliation: EMBL/EBI
+    country: UK
+    pronouns: she/her
+    expertise:
+        - Metadata
+        - FAIR principles
+        - RNA biology
+        - Single cell sequencing
+        - Ontologies
+        - Project management
+        - Data management
+        - Bioinformatics
+        - Galaxy
+        - Python/R/SQL
+        - GitHub
+    life-science-expertise: |
+        Human genomics and phenomics
+    description: |
+        Mallory is a Project Lead at the European Genome-phenome Archive 
+        supporting archiving and sharing of personally identifiable genetic and 
+        phenotypic human data. Her academic background is in bioinformatics specifically 
+        to study post-transcriptional gene regulation. She has worked with open science 
+        projects like Galaxy Project and the Human Cell Atlas, and recently has become 
+        passionate about promoting good metadata standards and practices.
 
 malvikasharan:
     first-name: Malvika
@@ -509,6 +791,29 @@ malvikasharan:
 
         Through her work, she promotes inclusiveness in Open Science communities.
 
+martinagvilas:
+    first-name: Martina
+    last-name: Vilas
+    twitter: martinagvilas
+    email: martinagonzalezvilas@gmail.com
+    website: www.martinagvilas.github.io
+    pronouns: she/her
+    expertise:
+       - Open-source
+       - Open-source documentation
+       - Open-infrastructure
+       - Open-science communities
+       - Version control
+       - Machine learning
+       - Neuroimaging
+    life-science-expertise: |
+        Neuroscience
+    description: |
+        Martina is currently working at the Max-Planck-Institute AE, doing cognitive neuroscience research using computational 
+        modeling techniques. She is an open-science advocate who enjoys programming and contributing to open-source projects 
+        and communities. She is currently mentoring people from underrepresented groups in technology on their first open-source 
+        contribution, and provide infrastructure support for The Turing Way project.
+
 matuskalas:
     first-name: Matúš
     last-name: Kalaš
@@ -523,6 +828,50 @@ Megmugure:
     twitter: meg_wanjiku
     affiliation: International Livestock Research Institute
     country: Kenya
+
+melissa-burke:
+    first-name: Melissa
+    last-name: Burke
+    twitter: burkemlou
+    email: mlouburke@gmail.com
+    pronouns: she/her
+    expertise:
+       - Training
+       - Functional genomics
+       - Data management basics
+    life-science-expertise: |
+        Infectious diseases, molecular biology, bioinformatics
+    description: |
+        Melisa is a Scientific Training Officer within the Training team at EMBL-EBI. She has a PhD in 
+        Molecular Parasitology. She has also worked as a Scientific Curator for ArrayExpress/Expression Atlas 
+        at the EMBL-EBI and as a postdoctoral researcher specialising in the functional genomics of infectious 
+        diseases. Some of the open-science related projects that she has been involved in include applying FAIR 
+        principles to training materials and showing researchers how they can get the most out of their data by 
+        teaching best practice in data management and the FAIR principles.
+    github: false
+
+mesfind:
+    first-name: Mesfin
+    last-name: Diro
+    twitter: mesfindiro
+    email: mesfindiro@gmail.com
+    website: https://mesfind.github.io
+    affiliation: Addis Ababa University
+    country: Ethiopia
+    pronouns: he/him
+    expertise:
+        - Data science
+        - Machine Learning
+        - HPC
+        - Nanotechnology
+        - Bioinformatics
+    life-science-expertise: |
+        Bioinformatics
+    description: |
+        Mesfin Diro is a faculity at Addis Ababa University, Ethiopia. Currently, He's a PhD student at his home 
+        institute on Redox Flow Batteries in the area of nanotechnology. He has high enthusiasm in expanding 
+        comutatational and data science skills for better research outputs. He is also passionate and advocate 
+        of open source, open access and open scientific.
 
 mkuzak:
     first-name: Mateusz
@@ -585,6 +934,32 @@ nerantzis:
     description: >
         Physicist, Teacher, Mozillian
 
+NPalopoli:
+    first-name: Nicolas
+    last-name: Palopoli
+    twitter: NPalopoli
+    email: nicopalo@gmail.com
+    website: http://about.me/npalopoli
+    affiliation: 
+    country:
+    pronouns: he/him
+    expertise:
+       - Bioinformatics
+       - Computational Biology
+       - Protein sequence
+       - Protein structure
+       - Molecular interactions
+       - Molecular evolution
+    life-science-expertise: |
+        - Molecular Biology
+    description: |
+        Computational biologist interested in understanding the structural properties, biological 
+        function and evolutionary relationships of proteins. Current research focus are protein 
+        disorder and interactions mediated by Short Linear Motifs (SLiMs). Trying to make a 
+        positive impact by teaching essential bionformatics skills at all levels. Supporter of 
+        all projects and communities that do good.
+
+
 npscience:
     first-name: Naomi
     last-name: Penfold
@@ -592,18 +967,20 @@ npscience:
     email: naomi.penfold@asapbio.org
     website: https://npscience.github.io
     orcid: 0000-0003-0568-1194
+    pronouns: she/her/they/them
+    expertise:
+        - Designing participatory events (online and in-person)
+        - Community management (including codes of conduct, programming and content)
+        - The importance of self-care!
+    life-science-expertise: >
+        Community engagement across life and biomedical sciences
     description: >
-        Naomi cares about improving transparency and equity in processes that affect how we 
-        produce, share and use knowledge, from the evaluation of
-        research manuscripts to the design of everyday tools. As Associate Director of ASAPbio, 
-        she works to engage the research community and other
-        stakeholders about the productive use of preprints for biology through convening, 
-        facilitation, community building and resource development.
-        Her lens is influenced by my experiences: she is European, an OpenCon alumnus, 
-        MozFest facilitator, an advisor to PREreview, on the board of directors
-        for Dryad, a CSCCE scientific community engagement fellow (#CEFP2019), organiser of 
-        #eLifeSprint 2018, and a human continually practising balance
-        and kindness.
+        Naomi is motivated by people who are empowered to participate in knowledge and discovery for improvement of the 
+        world around them. She is learning how to support communities and be an ally for under-represented minorities and 
+        under-powered peers. She enjoys working backstage on engaging, participatory, inclusive and productive online 
+        events and collaborations. Her lens is influenced by her experiences: she is European, an OpenCon alumnus, MozFest 
+        facilitator, an advisor to PREreview, on the board of directors for Dryad, a CSCCE scientific community engagement 
+        fellow (#CEFP2019), organiser of #eLifeSprint 2018, and a human continually practising balance and kindness.
 
 nsoranzo:
     first-name: Nicola
@@ -629,6 +1006,26 @@ orchid00:
         has worked on data intensive bioinformatics and data management. She has also collaborated 
         on community projects such as The Carpentries, rOpenSci,
         RLadies. Currently she works for the National Imaging Facility in Australia.
+
+paulvill:
+    first-name: Paul 
+    last-name: Villoutreix
+    twitter: paulvilloutreix
+    website: https://paulcinq.wordpress.com
+    pronouns: he/him
+    expertise: 
+        - Machine learning
+        - Microscopy
+        - Transcriptomics
+        - Applied mathematics
+        - Graph based modelling
+        - Developmental biology
+    life-science-expertise: >
+        Developmental biology, transcriptomics and microscopy imaging data analysis
+    description: >
+        Paul is group Leader in Machine Leader and Developmental Biology at the Turing Center for 
+        Living Systems in Marseille (France). He is leading the open science project "the digital embryo 
+        atlas" and was several times mentor in Mozilla Open Leadership's program.
 
 pherterich:
     first-name: Patricia
@@ -672,6 +1069,25 @@ rainsworth:
         and Cohort Host in Round 5 of Mozilla Open Leaders, and organises a 
         women in data meetup group in Manchester called HER+Data MCR.
 
+rgaiacs:
+    first-name: Raniere
+    last-name: Silva
+    twitter: rgaiacs
+    email: raniere@rgaiacs.com
+    pronouns: he/him
+    website: https://rgaiacs.com
+    expertise:
+        - GitHub/GitLab
+        - License
+        - Community
+        - Teaching
+    life-science-expertise: |
+        Machine Learning, X-rays
+    description: |
+        Raniere is a PhD student at Department of Infectious Diseases and Public Health, City 
+        University of Hong Kong. He worked with the Software Sustainability Institute in the 
+        UK as community officer.
+
 rodrigocam:
     first-name: Rodrigo
     last-name: Oliveira Campos
@@ -689,6 +1105,20 @@ SamGuay:
     country: Canada 
     pronouns: he/him
 
+SantosRAC:
+    first-name: Renato Augusto Corrêa
+    last-name: dos Santos
+    twitter: CorreaSantosRA
+    email: renatoacsantos@gmail.com
+    expertise:
+       - Bioinformatics
+       - Introduction to programming skills (Python or Perl)
+    life-science-expertise: |
+        Fungal Biology
+    description: |
+        Bioinformatician working on genomics and transcriptomics of ascomycete and basidiomycete fungi. Interested in 
+        education, teaching programming skills to bioscientists, and in open science.
+
 satagopam7:
     first-name: Venkata
     last-name: Satagopam
@@ -703,6 +1133,26 @@ satagopam7:
         Data Integration and Knowledge Management; Clinical and Translational Data Curation, 
         Harmonisation, Integration and Analysis; Dynamic Visual Analytics; Text-mining; 
         Deep learning and advanced machine learning technologies.
+
+sdopoku:
+    first-name: David
+    last-name: Selassie Opoku
+    twitter: sdopoku
+    email: david@adoore.org
+    pronouns: he/him
+    country: Ghana
+    expertise:
+      - Open data
+      - Low-income/low-tech data skills and resource design 
+    life-science-expertise: |
+        Currently accessible data skills and resources in low-income contexts.
+    description: |
+        David is a "self-designated" Data Plumber from Ghana working to build technical and data 
+        capacity for low-income individuals, organisations and communities. His background is in 
+        Biology and Computer Science and has worked with journalists, advocacy organisations, 
+        research institutions, government officials and private businesses in over 30 countries 
+        across 5 continents. Currently, he leads data research at Growing Gold Farms, a food startup 
+        in Tema, Ghana.
 
 Sithyphus:
     first-name: Jorge
@@ -725,13 +1175,44 @@ tobyhodges:
     email: tbyhdgs@gmail.com
     website: https://tbyhdgs.info
     orcid: 0000-0003-1766-456X
+    pronouns: he/him
+    expertise:
+        - Designing training material
+        - Collaborating with Git & GitHub/GitLab
+        - Publishing web content, either with GitHub/GitLab Pages or Wordpress
+        - Community engagement
+        - Teaching and organising workshops
+        - Resources for learning bioinformatics
+    life-science-expertise: >
+        In my previous role, I supported computational biology across a wide range of fields. 
+        Before that, my research area was taxonomic classification of high-throughput DNA/RNA sequencing data.
     description: >
-        Toby manages EMBL Bio-IT, a community of bioinformaticians/computational biologists at the 
-        European Molecular Biology Laboratory in Heidelberg, Germany.
-        They do a lot of training, in- and outreach, and provide a bunch of cool resources to 
-        help our community members connect, collaborate, and do their
-        research openly and effectively. He is also quite active in The Carpentries, 
-        as an instructor, instructor trainer, discussion host, mentor, etc.
+        Toby is the Curriculum Community Developer at The Carpentries, a community of practice 
+        building global capacity in essential data and computational skills for conducting efficient, 
+        open, and reproducible research. Before that, he was a community manager for EMBL Bio-IT, a 
+        community of bioinformaticians/computational biologists at the European Molecular Biology Laboratory.
+
+tsonika:
+    first-name: Sonika
+    last-name: Tyagi
+    twitter: tsonika
+    email: sonika.tyagi@monash.edu
+    website: https://bioinformaticslab.erc.monash.edu
+    pronouns: she/her
+    affiliation: Monash University Melbourne
+    country: Australia
+    expertise:
+        - Genomics
+        - Machine Learning
+        - Data Science
+    life-science-expertise: |
+        Computational Epigenomics and Transcriptomics
+    description: |
+        Sonika has a Ph.D. in Bioinformatics and over 15 y of work experience in academia & industry. She is 
+        currently Bioinformatics senior lecturer and research group head at Monash University Melbourne, Australia. 
+        Her expertise is in developing novel Bioinformatics and machine learning methods and applying them to solve 
+        biological research questions. In the past, she has worked in collaboration with the Australian bioinformatics 
+        network and EMBL-EBI on developing and delivering bioinformatics workshops for biologists and bioinformaticians.
 
 unode:
     first-name: Renato
@@ -745,6 +1226,25 @@ unode:
     description: >
         Renato is a biologist by training with a passion for computational work. 
         Love learning about as much as teaching. Open source junky. Certified computer geek.
+
+vcheplygina:
+    first-name: Veronika
+    last-name: Cheplygina
+    twitter: DrVeronikaCH
+    email: v.cheplygina@gmail.com
+    website: https://www.veronikach.com
+    pronouns: she/her
+    expertise:
+       - Machine learning
+       - Medical imaging (classification / segmentation)
+       - Productivity/organization 
+    life-science-expertise: |
+        Medical imaging
+    description: |
+        Veronika's research area is machine learning in medical imaging. She is an now 
+        assistant professor but will be leaving my position soon. She is blogging about this 
+        and other academia-related topics on her website veronikach.com 
+
 
 VickyNembaware:
     first-name: Vicky
@@ -779,6 +1279,22 @@ yochannah:
         editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
         board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
         and a software developer at the University of Cambridge, working on an open source biological data warehouse called [InterMine](http://intermine.org/).
+
+yvanlebras:
+    first-name: Yvan
+    last-name: Le Bras
+    twitter: Yvan2935
+    email: yvan.le-bras@mnhn.fr
+    affiliation: Muséum national d'Histoire naturelle
+    country: France
+    pronouns: he/him
+    expertise:
+       - Galaxy power user
+       - Life science data analysis
+    life-science-expertise: |
+        Ecology
+    description: |
+        Yvan is data management and analysis lover, for life science, health and environment
 
 Zebetus:
     first-name: Harry
