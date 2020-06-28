@@ -4,73 +4,102 @@
 # People should be also in people.yaml file and linked using their GitHub username
 ---
 experts:
+  - aath0
+  - aidanbudd
   - ajstewartlang
-  #- anenadic # need to confirm
+  - anenadic
+  - anita-broellochs
   #- annakrystalli # need to confirm
   #- anneclinio # need to confirm
+  - ArielleBL
   - bebatut
   #- BhuvanaMeenakshiK # need to confirm
   - ChiaraBertipaglia
-  #- dasaderi # need to confirm
-  #- Demellina # need to confirm
+  - dasaderi
+  - Demellina
   #- emmyft # need to confirm
   - fpsom
-  #- gedankenstuecke # need to confirm
-  #- ha0ye # need to confirm
-  #- hdinkel # need to confirm
+  - gedankenstuecke
+  - ha0ye
+  - hdinkel
   #- InquisitiveVi # need to confirm
-  #- JasonJWilliamsNY # need to confirm
-  #- kariljordan # need to confirm
+  - JasonJWilliamsNY
+  - kariljordan
+  - katharina-lauer
   #- katrinleinweber # need to confirm
-  #- kipkurui # need to confirm
-  #- KirstieJane # need to confirm
+  - kipkurui
+  - KirstieJane
   #- kswhitney # need to confirm
-  #- luispedro # need to confirm
+  - LangData
+  - luispedro
+  - lwinfree
   - malvikasharan
+  - martinagvilas
+  - melissa-burke
   - mkuzak
   #- mruizvelley # need to confirm
   #- mvdbeek # need to confirm
   #- nerantzis # need to confirm
+  - NPalopoli
   - npscience
   #- nsoranzo # need to confirm
-  #- orchid00 # need to confirm
-  #- pherterich # need to confirm
+  - orchid00
+  - paulvill
+  - pherterich
   #- profgiuseppe # need to confirm
-  #- rainsworth # need to confirm
+  - rainsworth
+  - rgaiacs
   #- satagopam7 # need to confirm
+  - SantosRAC
+  - sdopoku
+  - sofia-kirke-forslund
   - tobyhodges
-  - unode # need to confirm
+  - tsonika
+  - unode
+  - vcheplygina
   - yochannah
+  - yvanlebras
 possible-mentors:
   - aidanbudd
   - ajstewartlang
   #- anayan321 # ask later when OLS-2 launched, need to check with Holger
+  - anita-broellochs
   #- annefou # need to confirm
+  - ArielleBL
   - bebatut
   #- billbrod # ask later when OLS-2 launched, need to check with Rodrigo
-  #- bruno-soares # need to check with Renato
+  - bruno-soares
   #- cassgvp # did not fill the form
   #- christinerogers # did not fill the form
   #- dasaderi # need to confirm
   #- davidviryachen # ask later when OLS-2 launched, need to check with Holger
+  - Delphine-L
   #- dlebauer # need to check with Katrin
   - Fnyasimi
   - fpsom
   #- ha0ye # ask later when OLS-2 launched
-  #- hdinkel # need to confirm
+  - hdinkel
+  - hrhotz
   #- joelostblom # need to confirm
+  - kariljordan
+  - katharina-lauer
   #- katrinleinweber # need to confirm
   #- kibet-gilbert # recommended, need to ask
   #- kipkurui # ask later when OLS-2 launched
   #- Kiragu-Mwaura
   #- kswhitney # need to confirm
   - LandiMi2
-  #- LangData # did not fill the form
+  - LangData
   - Lilian9
-  #- luispedro # need to confirm
+  - lpantano
+  - luispedro
   #- MagicMilly # ask later when OLS-2 launched, need to check with Katrin
+  - malloryfreeberg
   - malvikasharan
+  - martinagvilas
   - Megmugure
+  - melissa-burke
+  - mesfind
   #- MorphoFun # need to check with Fotis
   - mkuzak
   #- mruizvelley # need to confirm
@@ -78,12 +107,16 @@ possible-mentors:
   - npscience
   #- nsoranzo # need to confirm
   - pherterich
-  #- rainsworth # recommended, ask
+  #- rainsworth
+  - rgaiacs
   #- rodrigocam # need to confirm
   #- SamGuay # need to check with Andrew
+  - sdopoku
+  - tsonika
   - unode
   #- VickyNembaware # need to confirm
   - yochannah
+  - yvanlebras
   #- Zebetus # need to confirm
 organizers:
   - bebatut
