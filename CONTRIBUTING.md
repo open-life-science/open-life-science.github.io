@@ -12,7 +12,7 @@ can, and help you become a member of our community.
 
 ## How can I report mistakes or errors?
 
-The easiest way to start contributing is to [file an issue](issues/new) to tell
+The easiest way to start contributing is to [file an issue](https://github.com/open-life-science/open-life-science.github.io/issues/new) to tell
 us about a problem such as a typo, spelling mistake, or a factual error. You can
 then introduce yourself and meet some of our community members.
 
@@ -23,8 +23,8 @@ You can help us improve it and get acknowledged for your contributions.
 
 Here are a few ways you can get started with contributing to this program.
 
-1. Help us address one of the [issues currently open in our repository](https://github.com/open-life-science/open-life-science.github.io/issues)
-2. [Create a new issue]](https://github.com/open-life-science/open-life-science.github.io/issues) to suggest changes/improvements on our website/program
+1. Help us address one of the [issues currently open in our repository](https://github.com/open-life-science/open-life-science.github.io/issues).
+2. [Create a new issue](https://github.com/open-life-science/open-life-science.github.io/issues/new) to suggest changes/improvements on our website/program.
 3. Send a pull request to correct typo, or fill any gap that you see on our website.
 4. Write about your [Mozilla Open Leader project and share with our participants](https://openlifesci.org/posts).
 5. Contribute your blog posts that could be relevant for our participants. You can [check out our the stories](https://openlifesci.org/posts) to get an idea of what we post there.
