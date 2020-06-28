@@ -51,7 +51,7 @@ Any questions? We are here to help - feel free to email [{{ site.email|replace:'
 
 Participants join this program with a project that they either are already working on or want to develop during this program. **For the first round, we were happy to have [{{ p-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ projects | size }} projects](/ols-1/projects-participants#projects).**
 
-Project ideas can range from solving technical questions, to creating an open data project or report, developing open source software project, writing open publication, facilitating community/team culture movements, advancing open educational resource or contributing to other existing projects/community.
+Project ideas can range from solving technical questions, to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
 All applications are welcome, whether the project is just an idea at this stage, or something that is running for years, but, the projects must:
 
