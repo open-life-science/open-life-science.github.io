@@ -158,6 +158,12 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 {% endfor %}
 </div>
 
+# Collaborating organisations
+
+OLS team have established the following collaborations to support organisation specific projects within the OLS-2 cohort:
+
+{% include _includes/ols-2-collabs.md %}
+
 # Calls
 
 ## Cohort calls
