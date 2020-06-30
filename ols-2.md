@@ -95,7 +95,7 @@ Participants join this program with a project that they either are already worki
 
 ## Mentors
 
-Our project leads are supported in this program by our mentor-community who are paired based on the compatibility of expertise, interests and requirementsof their projects.
+Our project leads are supported in this program by our mentor-community who are paired based on the compatibility of expertise, interests and requirements of their projects.
 Our mentors are Open Science practitioners and champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services.
 
 Mentors advice and inspire
