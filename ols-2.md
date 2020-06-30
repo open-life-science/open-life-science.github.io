@@ -228,13 +228,13 @@ A few options to explore are the following:
 - Google hangout: Free for members with google account
 - Skype: Free, download the app
 - Whereby.com: Free option, valid upto 4 participants
-- Jitsy: Free, web-based call is possible
+- [Jitsi](https://meet.jit.si/): Free, open source web-based call is possible
 - Whatsapp or other phone-based calls: Only if both mentor and mentee are comfortable with exchanging numbers
 
 If a mentor has to miss a mentee-mentor meeting, please discuss it with your mentee and reschedule your call.
 If you are unable to make it to any slot together, please find other ways (asynchronous documentation) to interact with your mentee.
 
-if mentee has to step back from the program for any reason, please communicate with the organisers to identify an alternative for their mentees.
+If a mentor has to step back from the program for any reason, please communicate with the organisers to identify an alternative for their mentees.
 
 ## Coworking calls
 
@@ -276,7 +276,7 @@ General updates from the program such as new posts, collaborations and relevant 
 
 #### Gitter
 
-We have a public [Gitter](https://gitter.im/{{ site.gitter }}) channel that can be used by members who are not a part of the OLS program to contact the OLS team and community.
+We have a public [Gitter](https://gitter.im/{{ site.gitter }}) channel that can be used by members of the public contact the OLS team and community.
 
 #### OLS Google group
 
