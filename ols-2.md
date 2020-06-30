@@ -95,7 +95,7 @@ Participants join this program with a project that they either are already worki
 
 ## Mentors
 
-Our project leads are supported in this program by our mentor-community who are paired based on the compatibility of expertise, interests and requirementsof their projects. 
+Our project leads are supported in this program by our mentor-community who are paired based on the compatibility of expertise, interests and requirementsof their projects.
 Our mentors are Open Science practitioners and champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services.
 
 Mentors advice and inspire
@@ -125,7 +125,7 @@ Mentors advice and inspire
 
 ### Mentoring training
 
-Mentorship roles can sound like a big personal responsibility and can be overwhelming for new mentors. 
+Mentorship roles can sound like a big personal responsibility and can be overwhelming for new mentors.
 To support our mentors in this program, we will offer training, topic-based guided discussions and opportunity for social interaction over 4 calls during the mentorship round:
 
 - 2 training calls in the beginning of the cohort to get participants trained and prepared for their role as mentors
@@ -167,7 +167,19 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 
 OLS team have established the following collaborations to support organisation specific projects within the OLS-2 cohort:
 
-{% include _includes/ols-2-collabs.md %}
+## OLS-2 for Turing
+
+Under the collaboration name **OLS-2 for Turing**, Open Life Science has partnered with [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way), a project within the [Tools, Practices and Systems Research Program](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems) in [The Alan Turing Institute](https://www.turing.ac.uk/).
+
+This partnership will offer training and mentoring to interested members from Turing and _The Turing Way_ communities to join the second cohort (OLS-2) individually or in teams.
+They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future.
+Mentors will be preferably selected from The Alan Turing Institute but there will be a possibility to match projects with the right mentor from our current capacity.
+The roles and benefits for the participants and the eligibility of proposed projects will be as described for our main program.
+
+Since this partnership was announced closer to the deadline of the OLS-2 application call, we will welcome application for *OLS-2 for Turing** projects till **15 July 2020** to ensure that interested participants have sufficient time to discuss their plans with their supervisors within the organisation.
+
+To share this announcement with the potential mentors, experts and project leads from the Turing and _The Turing Way_, please use our [promotion pack](https://tinyurl.com/tw-ols2).
+
 
 # Resources
 
@@ -184,7 +196,7 @@ During these calls:
 - An open Q&A will be run and notes will be co-developed
 - Exercises will be given for the week to be completed before the mentee-mentor meeting
 
-The calls will be hosted online using the Zoom web-conferencing option. 
+The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
 Look up the shared notes for each call linked to the [schedule](#schedule) in this website.
@@ -203,13 +215,13 @@ The Mentor-mentee calls take place **every 2 weeks** (unless mentioned otherwise
 
 During these calls:
 - Mentors help their mentees evaluate their understanding of the new topics
-- Mentees will complete their task assigned at the cohort calls using new skills learned that week 
+- Mentees will complete their task assigned at the cohort calls using new skills learned that week
 - Mentors and mentee will review progress together where mentees provide constructive feedback
 - Mentors will connect mentees with other experts and get consulted on their project when needed
 
 Coordinate with your mentor how you manage the notes and assignments for your 1:1 calls.
 
-The online communication options can be agreed upon by the mentor-mentee pairs. 
+The online communication options can be agreed upon by the mentor-mentee pairs.
 A few options to explore are the following:
 
 - Zoom: 40 mins limit for each call
@@ -226,7 +238,7 @@ if mentee has to step back from the program for any reason, please communicate w
 
 ## Coworking calls
 
-The coworking sessions take place in weeks during which there is not cohort call. 
+The coworking sessions take place in weeks during which there is not cohort call.
 These calls are optional but highly valuable for enhancing your understanding of the materials discussed in OLS-2 with the help of other participants.
 
 During these calls,
@@ -252,7 +264,7 @@ A personal invitation link will be shared with the participants via an email.
 
 #### OLS-2 private Google group
 
-Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-2 Google group. 
+Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-2 Google group.
 
 An invitation is sent to all participants (mentees, mentors, etc) at the beginning of the program. If it is not the case, please [contact the team](mailto:{{ site.email }})
 

@@ -16,15 +16,15 @@ bio-it:
     name: EMBL Bio-IT
     website: https://bio-it.embl.de/
     logo: https://git.embl.de/uploads/-/system/group/avatar/413/BioIT_logo.jpeg
-    description: EMBL Bio-IT is a community project of which Malvika is a coordinator of.
+    description: The Bio-IT is a community project at EMBL, Heidelberg.
 
 denbi:
     name: de.NBI
     website: https://www.denbi.de/
     logo: /images/partners/denbi.png
     description: >
-        de.NBI (the German Network for Bioinformatics Infrastructure) is supporting Bérénice
-        and Malvika through in-kind contribution.
+        de.NBI (the German Network for Bioinformatics Infrastructure) is
+        supporting Bérénice as an in-kind contribution.
 
 elixir:
     name: ELIXIR
@@ -33,7 +33,7 @@ elixir:
     description: >
         The program organisers are associated with ELIXIR member institutes
         and several mentors and experts are from different ELIXIR nodes.
-        
+
 freiburg-galaxy-team:
     name: Freiburg Galaxy Team
     website: https://galaxyproject.eu/freiburg/
@@ -49,7 +49,7 @@ mozilla:
         Thanks to our champion Abby (Abigail Cabunoc Mayes) from Mozilla Foundation for providing support in designing this program.
 
 SSI:
-    name: Software Sustainability Institute 
+    name: Software Sustainability Institute
     website: https://www.software.ac.uk
     logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
     description: This program will be supported by SSI fellowship offered to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
@@ -73,5 +73,3 @@ university-manchester:
     logo: https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester-allwhite.png
     description: |
         The University of Manchester is supporting Yo for her Ph.D. research.
-        
-
