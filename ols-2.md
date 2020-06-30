@@ -207,7 +207,7 @@ You will also be updated via email each week by the organisers with additional d
 The call will be recorded and available on the [OLS YouTube channel]({{ site.youtube }}) after the call.
 
 If you can not attend most calls during the program due to the time zone incompatibility or other personal obligation, please let the organisers know.
-If you miss to communicate with your mentor regularly or not engage in the program as planned, we'll evaluate if you would be able to finish the program.
+If you are unable to communicate with your mentor regularly or do not engage in the program as planned, we may need to evaluate if you are able to finish the program.
 
 ## Mentor-mentee calls
 
