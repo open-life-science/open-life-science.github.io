@@ -105,7 +105,7 @@ After the selection process, they will be involved in the following steps of thi
 
 2. Joy will participate in online [training calls](ols-1#schedule) and share insights with other participants in the program.
 
-    In these ** cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
+    In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
     
 3. Joy will get to know their peers from the cohort during social and co-working calls. They will share their project ideas, learn about others' projects and discuss assignments.
 
