@@ -107,7 +107,9 @@ After the selection process, they will be involved in the following steps of thi
 
     In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
     
-3. Joy will get to know their peers from the cohort during social and co-working calls. They will share their project ideas, learn about others' projects and discuss assignments.
+3. Joy will get to know their peers from the cohort during social and co-working calls.
+
+    They will share their project ideas, learn about others' projects and discuss assignments.
 
 4. A final graduation call will allow Joy to present their project to other participants and exchange values.
 
