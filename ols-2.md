@@ -87,7 +87,7 @@ OLS's second cohort (OLS-2) will be conducted from September 2020 until December
 
 # Role Descriptions
 
-## Project leads or Mentees
+## Project leads (aka Mentees)
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
