@@ -173,7 +173,7 @@ Under the collaboration name **OLS-2 for Turing**, Open Life Science has partner
 
 This partnership will offer training and mentoring to interested members from Turing and _The Turing Way_ communities to join the second cohort (OLS-2) individually or in teams.
 They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future.
-Mentors will be preferably selected from The Alan Turing Institute but there will be a possibility to match projects with the right mentor from our current capacity.
+Mentors will be preferably selected from The Alan Turing Institute but there will be a possibility to match projects with the right mentor from the broader cohort.
 The roles and benefits for the participants and the eligibility of proposed projects will be as described for our main program.
 
 Since this partnership was announced close to the deadline of the OLS-2 application call, we will welcome applications for *OLS-2 for Turing** projects until **15 July 2020** to ensure that interested participants have sufficient time to discuss their plans with their supervisors within the organisation.
