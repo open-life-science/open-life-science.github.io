@@ -176,7 +176,7 @@ They will have an opportunity to develop Open Science aspects in the projects th
 Mentors will be preferably selected from The Alan Turing Institute but there will be a possibility to match projects with the right mentor from our current capacity.
 The roles and benefits for the participants and the eligibility of proposed projects will be as described for our main program.
 
-Since this partnership was announced closer to the deadline of the OLS-2 application call, we will welcome application for *OLS-2 for Turing** projects till **15 July 2020** to ensure that interested participants have sufficient time to discuss their plans with their supervisors within the organisation.
+Since this partnership was announced close to the deadline of the OLS-2 application call, we will welcome applications for *OLS-2 for Turing** projects until **15 July 2020** to ensure that interested participants have sufficient time to discuss their plans with their supervisors within the organisation.
 
 To share this announcement with the potential mentors, experts and project leads from the Turing and _The Turing Way_, please use our [promotion pack](https://tinyurl.com/tw-ols2).
 
