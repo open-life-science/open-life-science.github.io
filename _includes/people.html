@@ -53,7 +53,20 @@
       </div>
     </div>
 
+    {% if user.expertise %}
+    <p class="people">
+      Expertise: {{ user.expertise | join: ", " }}
+    </p>
+    {% endif %}
+
+    {% if user.life-science-expertise %}
+    <p class="people">
+      Life Science: {{ user.life-science-expertise | join: ", " }}
+    </p>
+    {% endif %}
+
     <div class="people-description">
+      {% if user.bio %}      
       <p class="people-description-question">
         <a class="card-toggle">
           More about {{ user.first-name }}
@@ -61,8 +74,9 @@
         </a>
       </p>
       <div class="content is-hidden">
-        {{ user.description | markdownify }}
+        {{ user.bio | markdownify }}
       </div>
+      {% endif %}
     </div>
   </div>
 </div>

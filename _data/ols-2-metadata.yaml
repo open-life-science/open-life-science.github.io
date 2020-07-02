@@ -13,7 +13,9 @@ experts:
   #- anneclinio # need to confirm
   - ArielleBL
   - bebatut
+  - bgruening
   #- BhuvanaMeenakshiK # need to confirm
+  - cassgvp
   - ChiaraBertipaglia
   - dasaderi
   - Demellina
@@ -24,6 +26,7 @@ experts:
   - hdinkel
   #- InquisitiveVi # need to confirm
   - JasonJWilliamsNY
+  - jezcope
   - kariljordan
   - katharina-lauer
   #- katrinleinweber # need to confirm
@@ -34,7 +37,10 @@ experts:
   - luispedro
   - lwinfree
   - malvikasharan
+  - martenson
   - martinagvilas
+  - mblue9
+  - meagdoh
   - melissa-burke
   - mkuzak
   #- mruizvelley # need to confirm
@@ -49,16 +55,22 @@ experts:
   #- profgiuseppe # need to confirm
   - rainsworth
   - rgaiacs
+  - rossmounce
   #- satagopam7 # need to confirm
   - SantosRAC
   - sdopoku
+  - sgibson91
   - sofia-kirke-forslund
+  - TKlingstrom
+  - tnabtaf
   - tobyhodges
   - tsonika
   - unode
   - vcheplygina
+  - VickyNembaware
   - yochannah
   - yvanlebras
+  - Zebetus
 possible-mentors:
   - aidanbudd
   - ajstewartlang
@@ -67,6 +79,7 @@ possible-mentors:
   #- annefou # need to confirm
   - ArielleBL
   - bebatut
+  - bgruening
   #- billbrod # ask later when OLS-2 launched, need to check with Rodrigo
   - bruno-soares
   #- cassgvp # did not fill the form
@@ -80,6 +93,8 @@ possible-mentors:
   #- ha0ye # ask later when OLS-2 launched
   - hdinkel
   - hrhotz
+  - ivotron
+  - jezcope
   #- joelostblom # need to confirm
   - kariljordan
   - katharina-lauer
@@ -97,11 +112,14 @@ possible-mentors:
   - malloryfreeberg
   - malvikasharan
   - martinagvilas
+  - mblue9
+  - meagdoh
   - Megmugure
   - melissa-burke
   - mesfind
   #- MorphoFun # need to check with Fotis
   - mkuzak
+  - mloning
   #- mruizvelley # need to confirm
   #- mvdbeek # need to confirm
   - npscience
@@ -110,14 +128,17 @@ possible-mentors:
   #- rainsworth
   - rgaiacs
   #- rodrigocam # need to confirm
-  #- SamGuay # need to check with Andrew
+  - rs_khetani
+  - SamGuay
   - sdopoku
+  - sgibson91
+  - tnabtaf
   - tsonika
   - unode
   #- VickyNembaware # need to confirm
   - yochannah
   - yvanlebras
-  #- Zebetus # need to confirm
+  - Zebetus
 organizers:
   - bebatut
   - malvikasharan
