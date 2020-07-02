@@ -406,8 +406,6 @@ Delphine-L:
         - Quality control
     life-science-expertise: |
         Genomics analyses, statistical analyses
-    life-science-expertise: |
-        Genomics
     bio: |
         Delphine am a post-doc at Penn State University and a member of Galaxy Project. She works on developing analysis workflows
         for bacterial genomics, mostly, but she also has project in other fields, like functional annotation of SARS-2 Cov virus,
