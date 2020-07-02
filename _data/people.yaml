@@ -26,6 +26,12 @@ aath0:
     email: athina.tz@gmail.com
     website: https://aath0.github.io/
     orcid: 0000-0002-7588-1418
+    expertise:
+       - Machine Learning
+       - Statistics
+       - Python programming
+    life-science-expertise: |
+        Neuroscience 
     bio: >
         Athina is a neuroscientist, with a background in electrical and computer engineering.
         Her research combines computational and electrophysiological techniques to study human cognition.
@@ -37,6 +43,14 @@ aidanbudd:
     email: aidan.budd@gmx.de
     website: https://about.me/aidan.budd
     orcid: 0000-0003-0196-9051
+    expertise:
+       - Community building
+       - Communications
+       - Inclusion and diversity
+       - Delivering events
+       - Leadership training
+    life-science-expertise: |
+        Previous research in bioinformatics   
     bio: >
         Aidan has worked in life science research in both the wet lab, and as a bioinformatician.
         Since 2010 his focus has been on developing training and community for researchers,
@@ -51,6 +65,13 @@ ajstewartlang:
     email: andrew.stewart@manchester.ac.uk
     website: https://ajstewartlang.netlify.com
     orcid: 0000-0002-9795-4104
+    expertise:
+        - Experimental Psychology
+        - Research Methods
+        - Data Science
+        - R (teaching and research)
+    life-science-expertise: |
+        Cognitive (Neuro)science
     bio: >
         Andrew is an experimental psychologist and data scientist interested in open and reproducible research - he coordinates the Manchester Open Research Working Group and act as the UK Reproducibility Network representative at Manchester.
         All his teaching resources are open (content-wise 95% of my teaching involves teaching R at various levels) with all lecture and seminar content, workshops etc. available on GitHub.  He also co-organises the Manchester R Users' Group, a fellow of the SSI and associate member of Carole Goble's eScience lab group.
@@ -63,6 +84,8 @@ anayan321:
     affiliation: Mahidol University
     country: Thailand
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 anenadic:
     first-name: Aleksandra
@@ -71,6 +94,13 @@ anenadic:
     email: a.nenadic@manchester.ac.uk
     website: https://www.software.ac.uk/about/staff/person/aleksandra-nenadic
     orcid: 0000-0002-2269-3894
+    expertise:
+        - Teaching pedagogy and instructor training
+        - Programming
+        - GitHub, Version control
+        - Website and Frameworks
+        - Carpentry community
+        - Event hosting and organisation.
     bio: >
         Over the past 5 years committed to ongoing improvement of research software practice through training and community engagement work
         in UK's Software Sustainability Institute and ELIXIR EU Life Sciences Infrastructure Project. Driving the training trends forward by
@@ -109,6 +139,15 @@ annakrystalli:
     twitter: annakrystalli
     email: annakrystalli@googlemail.com
     orcid: 0000-0002-2378-4915
+    expertise:
+        - All things R!
+        - Reproducible research & Research Data Management
+        - Research Software Engineering
+        - Open-source research technologies
+        - Culture to enable next-generation open science
+    life-science-expertise: |
+        - Macroecology
+        - Marine biology
     bio: >
         Anna is an ex-macroecologists who fell in love with R and open data science.
         Now a Research Software Engineer at the University of Sheffield,
@@ -119,6 +158,11 @@ anneclinio:
     last-name: Clinio
     twitter: anneclinio
     email: anneclinio@gmail.com
+    expertise:
+        - Citizen science and Citizen labs
+        - Open notebooks
+        - Open data policy building
+        - Information science 
     bio: >
         Anne currently works at Oswald Cruz foundation with the development of a bottom up open data policy. She is also part of a research group
         dedicated to open science themes, especially social innovations.
@@ -130,6 +174,11 @@ annefou:
     email: annefou@geo.uio.no
     website: https://annefou.github.io
     orcid: 0000-0002-1784-2920
+    expertise:
+        - Git/github
+        - Best software practices
+        - Big data analysis
+        - Environmental science
     bio: >
         Working in the field of Climate modelling, and interested in Open Science, Open Innovation and ICT. Trying to facilitate access and use of Climate Data.
 
@@ -148,7 +197,7 @@ ArielleBL:
         - Code of conducts
         - Community goals
     life-science-expertise: |
-        She has worked across drug discovery, computational biology, and now neuroscience.
+        Drug discovery, computational biology, and neuroscience.
     bio: |
         Arielle has spent her career to date working in research-adjacent fields, starting with a stint at open access
         publisher PLOS, where she learnt the importance (and challenges) of open science, code, and data. Currently
@@ -166,6 +215,12 @@ bebatut:
     affiliation: University of Freiburg
     country: Germany
     pronouns: she/her
+    expertise:
+        - OLS co-lead
+        - Galaxy and Galaxy training
+        - Citizen science
+    life-science-expertise: |
+        Bioinformatics, High-throughput sequencing    
     bio: |
         Bérénice is a bioinformatician (post-doc in the [Freiburg Galaxy Team](https://galaxyproject.eu/freiburg/)),
         analyzing biological data and developing tools for data analysis, mainly via [Galaxy](https://galaxyproject.org/).
@@ -182,6 +237,14 @@ bgruening:
     email: bjoern.gruening@gmail.com
     orcid: 0000-0002-3079-6586
     website: https://github.com/bgruening/
+    expertise:
+        - Containers, Conda
+        - Galaxy
+        - Python
+        - Training
+        - Reproducible research
+    life-science-expertise: |
+        Cheminformatics, Genome annotation, High-Throughput-Screening, Epigenetics
     bio: >
         Björn is working in the European Galaxy team and tries to help make science open wherever he can.
         He is an expert in the topics related to Container, Conda, Galaxy, Python, reproducible research, and training.
@@ -192,6 +255,11 @@ BhuvanaMeenakshiK:
     twitter: bhuvanakotees1
     email: bhuvanameenakshi@gmail.com
     website: https://www.linkedin.com/in/bhuvana-meenakshi-koteeswaran-a67b58103/
+    expertise:
+        - Gender gap and bias
+        - Mozilla technologies
+        - Wikimedia projects
+        - Ethical technology praactices
     bio: >
         Bhuvana is a gender gap and Mixed Reality researcher trying to unfold the ethics of technology in a more humane way.
         Her expertise are in Gender gap, Mozilla technologies and Wikimedia projects.
@@ -203,6 +271,8 @@ billbrod:
     affiliation: New York University
     country: USA
     pronouns: he/him
+    expertise:
+        - OLS-1 project lead
 
 bonetcarne:
     first-name: Elisenda
@@ -211,6 +281,8 @@ bonetcarne:
     affiliation: BCNatal Fetal Medicine Research Center
     country: Spain
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 bruno-soares:
     first-name: Bruno
@@ -222,6 +294,7 @@ bruno-soares:
     orcid: 0000-0001-5678-0403
     website: https://sites.google.com/view/bruno-eleres-soares
     expertise:
+        - OLS-1 project lead
         - SciComm
         - Community building
         - Open Data
@@ -239,6 +312,7 @@ cassgvp:
     pronouns: she/her
     email: cassandra.gouldvanpraag@gmail.com
     expertise:
+       - OLS-1 project lead
        - Online conferences
        - Behaviour change
        - Community engagement
@@ -263,6 +337,10 @@ ChiaraBertipaglia:
     affiliation: Columbia University’s Zuckerman Institute
     country: USA
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
+    life-science-expertise: |
+        neuroscience
 
 christinerogers:
     first-name: Christine
@@ -271,6 +349,8 @@ christinerogers:
     affiliation: Montreal Neurological Institute, McGill University
     country: Canada
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 dannycolin:
     first-name: Danny
@@ -279,6 +359,8 @@ dannycolin:
     affiliation: Université de Montréal
     country: Canada
     pronouns: he/him
+    expertise:
+        - OLS-1 project lead
 
 dasaderi:
     first-name: Daniela
@@ -287,6 +369,12 @@ dasaderi:
     email: daniela@prereview.org
     website: https://v2.prereview.org
     orcid: 0000-0002-6109-0367
+    expertise:
+        - Open scholarship
+        - Community organizing
+        - Research, leadership
+    life-science-expertise: |
+        Neuroscience
     bio: >
         Daniela is a Neuroscientist with a passion for open, equitable, and transparent scholarship. She is a former Mozilla Fellow,
         and she now leads a project called PREreview to empower researchers to engage with each other and review preprints.
@@ -297,6 +385,8 @@ davidviryachen:
     twitter: davidchenn
     affiliation: Osaka University
     country: Japan
+    expertise:
+        - OLS-1 project lead
 
 Delphine-L:
     first-name: Delphine
@@ -314,10 +404,8 @@ Delphine-L:
         - Construction of analysis workflow
         - Handling data format
         - Quality control
-        - Genomics analyses
-        - Basic statistical analyses
     life-science-expertise: |
-        Genomics
+        Genomics analyses, statistical analyses
     bio: |
         Delphine am a post-doc at Penn State University and a member of Galaxy Project. She works on developing analysis workflows
         for bacterial genomics, mostly, but she also has project in other fields, like functional annotation of SARS-2 Cov virus,
@@ -328,6 +416,11 @@ Demellina:
     last-name: Ellina
     email: Demitra.Ellina@f1000.com
     twitter: j_ellina
+    expertise:
+        - Open Research practises
+        - Open data
+        - Open peer review models
+        - Open access publishing
     bio: >
         Demitra is the Editorial Community Manager at F1000 which she joined in 2017 after working in journal development at Springer Nature.
         She is a strong advocate of Open Research and engages with the research community to raise awareness of the F1000 publishing platforms.
@@ -340,6 +433,8 @@ dlebauer:
     twitter: dlebauer
     affiliation: University of Arizona
     country: USA
+    expertise:
+        - OLS-1 project lead
 
 elsasci:
     first-name: Elsa
@@ -349,6 +444,8 @@ elsasci:
     country: UK
     pronouns: she/her
     github: false
+    expertise:
+        - OLS-1 project lead
 
 emmyft:
     first-name: Emmy
@@ -357,6 +454,11 @@ emmyft:
     email: e.tsang@elifesciences.org
     website: https://elifesci.org/labs
     orcid: 0000-0002-9248-1280
+    expertise:
+        - Community strategies
+        - Publishing and scholarly communication
+    life-science-expertise: |      
+        - Neuroscience
     bio: >
         Emmy is the Innovation Community Manager at eLife, with a PhD in neuroscience.
         She loves research and is working to change the way that it's shared, evaluated and discovered;
@@ -370,6 +472,8 @@ ewuramaminka:
     affiliation: University of Manchester
     country: UK
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 Fnyasimi:
     first-name: Festus
@@ -379,6 +483,7 @@ Fnyasimi:
     country: Kenya
     pronouns: he/him
     expertise:
+        - OLS-1 project lead
         - Bioinformatics
     life-science-expertise: |
         Biomedical Research
@@ -393,6 +498,17 @@ fpsom:
     email: fpsom@certh.gr
     website: https://fpsom.github.io/
     orcid: 0000-0002-0222-4273
+    expertise:
+        - Open Software
+        - Software Management
+        - Reproducible workflows
+        - E-Infrastructures (ELIXIR, EOSC)
+        - RDA
+        - Machine Learning
+        - Algorithm design and implementation
+    life-science-expertise: |
+        Bioinformatics (NGS data analysis, Data Integration) 
+
     bio: >
         Fotis is an assistant research professor at the Institute of Applied Biosciences (INAB) at the Centre for Research and Technology
         Hellas (CERTH), with a primary focus on bioinformatics workflows and computational analysis of large bio-datasets using machine learning.
@@ -408,6 +524,12 @@ gedankenstuecke:
     email: bgreshake@googlemail.com
     website: https://tzovar.as
     orcid: 0000-0002-9925-9623
+    expertise:
+        - Citizen science
+        - Open source
+        - Genomics
+    life-science-expertise: |
+        Bioinformatics
     bio: >
         Research Fellow at the Center for Research & Interdisciplinarity in Paris. Co-Founder of openSNP,
         Director of Research at Open Humans.
@@ -444,6 +566,13 @@ hdinkel:
     last-name: Dinkel
     email: holger.dinkel@posteo.de
     orcid: 0000-0002-9316-5204
+    expertise:
+        - Programming (Python)
+        - Version control (git)
+        - Web services (REST)
+        - Anti-procrastination
+    life-science-expertise: |
+        protein biology, bioinformatics, disorder motifs
     bio: >
         Holger is the head of Core IT team at the Max Planck Institute for Biolological Cybernetics.
         He enjoys the technical aspects of science - be it programming (Python), version control (git),
@@ -456,6 +585,8 @@ homo-sapiens34:
     affiliation: IITP RAS
     country: Russia
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 hrhotz:
     first-name: Hans-Rudolf
@@ -469,12 +600,10 @@ hrhotz:
     expertise:
        - Galaxy
        - Bioconductor
-       - Next Generation Sequencing
-       - (Perl)
-       - (Python)
-       - (PostgreSQL)
+       - Perl, Python
+       - PostgreSQL
     life-science-expertise: |
-        Bioinformatics
+        Bioinformatics, Next Generation Sequencing
     bio: |
         Hans-Rudolf is a Molecular Biologist turned Bioinformatician who is working in the Computational
         Biology facility at the Friedrich Miescher Institute in Basel Switzerland. Before, he was leading
@@ -490,11 +619,9 @@ sofia-kirke-forslund:
     pronouns: she/her
     expertise:
        - Computational biology
-       - -omics
-       - microbiome
-       - systems medicine
+       - Leadership
     life-science-expertise: |
-        host-microbiome health associations, drug mediation/effects, antibiotic resistance, microbiome-immune interactions, disease biomarkers...
+        Bioinformatics, multi-omics, microbiome, systems medicine, host-microbiome health associations, drug mediation/effects, antibiotic resistance, microbiome-immune interactions, disease biomarkers...
     bio: |
         Swedish-born computational biologist, since 2018 heading systems medicine (host-microbiome focus,
          "association hunting") lab in Berlin, interested in too many things. AMR,
@@ -507,6 +634,12 @@ InquisitiveVi:
     twitter: I_Vinodh
     email: vinodh.ilangovan@gmail.com
     orcid: 0000-0002-3445-5383
+    expertise:
+        - Community building
+        - Equity diversity and inclusion
+        - Circadian rhythms
+    life-science-expertise: |
+        Behavioral Neuroscience, Genetics
     bio: >
         Biomedical scientist and science communicator interested in
         building effective outreach strategies for equitable access of research outputs.
@@ -546,6 +679,12 @@ JasonJWilliamsNY:
     email: williams@cshl.edu
     website: https://lifescitrainers.org
     orcid: 0000-0003-3049-2010
+    expertise:
+        - Education and training
+        - Life Science Education
+        - Management and leadership
+    life-science-expertise: |  
+        Bioinformatics, Molecular biology
     bio: >
         Jason is a life scientist who spends most of his time working to help researchers adopt
         computational practices in research and education
@@ -585,6 +724,15 @@ joelostblom:
     email: joel.ostblom@gmail.com
     website: https://joelostblom.com
     orcid: 0000-0003-0051-3239
+    expertise:
+        - Static and interactive data visualization
+        - Introductory data science
+        - Reproducible analysis workflows
+        - Image analysis
+        - Python
+        - Project organization
+    life-science-expertise: | 
+        Stem cell biology and bioengineering
     bio: >
         Joel is a Biomedical Engineering PhD student who enjoys learning and teaching
         how to better understand data (and thus the world around us!).
@@ -598,6 +746,13 @@ kariljordan:
     email: kariljordan@carpentries.org
     website: https://www.kariljordan.com
     orcid: 0000-0003-4121-2432
+    expertise:
+        - Equity and Inclusion
+        - Assessment
+        - Strategic Planning
+        - Project Planning
+        - Public speaking
+        - Leadership
     bio: >
         Kari is the Senior Director of Equity and Assessment for The Carpentries, Executive Director of the Engineer Like a Girl after-school program,
         and a Zumba Fitness Instructor!
@@ -611,6 +766,14 @@ katrinleinweber:
     last-name: Leinweber
     email: leinweber.katrin@gmail.com
     orcid: 0000-0001-5135-5758
+    expertise:
+        - Git and GitHub/GitLab
+        - R tidyverse
+        - Python pandas
+        - Make
+        - Bash
+        - LaTeX
+        - Pandoc
     bio: >
         Studied biochemistry, arctic ecology & geology, PhDed in diatom biofilms.
         Worked in tech support (Prezi), pharma-LIMS & OA data analysis.
@@ -642,6 +805,11 @@ kipkurui:
     last-name: Kibet
     twitter: calkibet
     email: ckibet@icipe.org
+    expertise:
+        - Community building
+        - Reproducibility
+    life-science-expertise: | 
+        Computational Biology, Regulatory Genomics
     bio: >
         Caleb is a 19/20 Mozilla Fellow and a Bioinformatician,  interested in teaching, open science,
         reproducibility, machine learning, FAIR Genomics,
@@ -653,6 +821,8 @@ Kiragu-Mwaura:
     twitter: MwauraKiragu
     affiliation: Institute of Primate Research
     country: Kenya
+    expertise:
+        - OLS-1 project lead
 
 KirstieJane:
     first-name: Kirstie
@@ -661,8 +831,16 @@ KirstieJane:
     email: kwhitaker@turing.ac.uk
     website: https://whitakerlab.github.io/
     orcid: 0000-0001-8498-4059
+    expertise:
+        - Open research
+        - Reproducibility
+        - Community building
+        - Citizen science
+        - Equity and inclusion
+    life-science-expertise: | 
+        Human brain imaging (neuroscience)
     bio: >
-        Kirstie is a research fellow at the Alan Turing Institute (London, UK) and senior research associate in the Department of Psychiatry at the
+        Kirstie is a lead of the Tools, Practices and Systems research programme at the Alan Turing Institute (London, UK) and senior research associate in the Department of Psychiatry at the
         University of Cambridge. Her work covers a broad range of interests and methods, but the driving principle is to improve the lives of neurodivergent
         people and people with mental health conditions. Dr Whitaker uses magnetic resonance imaging to study child and adolescent brain development and
         participatory citizen science to educate non-autistic people about how they can better support autistic friends and colleagues. She is the lead developer
@@ -671,10 +849,6 @@ KirstieJane:
         working. She is the chair of the Turing Institute's Ethics Advisory Group, a Fulbright scholarship alumna and was a 2016/17 Mozilla Fellow for Science. Kirstie
         was named, with her collaborator Petra Vertes, as a 2016 Global Thinker by Foreign Policy magazine.
 
-kibet-gilbert:
-    first-name: Kibet
-    last-name: Gilbert
-
 KristinaRiemer:
     first-name: Kristina
     last-name: Riemer
@@ -682,6 +856,8 @@ KristinaRiemer:
     affiliation: University of Arizona
     country: USA
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 kswhitney:
     first-name: Kaitlin
@@ -690,6 +866,12 @@ kswhitney:
     email: kxwsbi@rit.edu
     website: https://pht180.rit.edu/sweetlab/
     orcid: 0000-0002-0815-5037
+    expertise:
+        - Accessibility
+        - Ethics
+        - Reproducible workflows
+    life-science-expertise: |  
+        Ecoinformatics; entomology/insect ecology, Feminist biology
     bio: >
         Kaitlin is an assistant professor in the Science, Technology & Society department at the
         Rochester Institute of Technology in Rochester, NY USA. She is also
@@ -701,6 +883,8 @@ LandiMi2:
     twitter: CofiaLandy
     affiliation: International Livestock Research Institute
     country: Kenya
+    expertise:
+        - OLS-1 project lead
 
 LangData:
     first-name: Lena
@@ -716,8 +900,7 @@ LangData:
         - FAIR principles
         - Community building
     life-science-expertise: |
-        She is indirectly connected to various areas of life sciences through the community
-        of research supporters that she facilitates
+        Life sciences, community of research supporterss
     bio: |
         Lena am a linguist by training, currently working as community manager RDM at the
         library of the VU Amsterdam. She enjoys being involved in research projects and being
@@ -730,6 +913,8 @@ lazycipher:
     affiliation: Galgotias University
     country: India
     pronouns: he/him
+    expertise:
+        - OLS-1 project lead
 
 Lilian9:
     first-name: Lilian
@@ -737,6 +922,8 @@ Lilian9:
     affiliation: Information Training and Outreach Centre for Africa
     country: Kenya
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 lpantano:
     first-name: Lorena
@@ -752,10 +939,8 @@ lpantano:
        - Transcriptomic
        - Python
        - Visualization
-       - Gene editing
-       - Xenotransplantation
-    life-science-expertise: |
-        Health science
+    life-science-expertise: | 
+        Gene editing, Xenotransplantation, Health science
     bio: |
         Computational biologist focused on genomic regulation and data integration. 12 years of
         experience in biological data analysis using the most well-established tools and contributing
@@ -770,6 +955,11 @@ luispedro:
     email: luis@luispedro.org
     website: http://luispedro.org
     orcid: 0000-0002-9280-7885
+    expertise:
+        - Computational biology
+        - Group leadership
+    life-science-expertise: |     
+        Microbiome
     bio: >
         Luis is Junior PI at Fudan University in Shanghai.
         His work in computational biology focus on the global microbiome.
@@ -813,6 +1003,8 @@ MagicMilly:
     twitter: magic_milly
     affiliation: University of Arizona
     country: USA
+    expertise:
+        - OLS-1 project lead
 
 malloryfreeberg:
     first-name: Mallory
@@ -825,7 +1017,6 @@ malloryfreeberg:
     expertise:
         - Metadata
         - FAIR principles
-        - RNA biology
         - Single cell sequencing
         - Ontologies
         - Project management
@@ -835,7 +1026,7 @@ malloryfreeberg:
         - Python/R/SQL
         - GitHub
     life-science-expertise: |
-        Human genomics and phenomics
+        Human genomics and phenomics, RNA biology
     bio: |
         Mallory is a Project Lead at the European Genome-phenome Archive
         supporting archiving and sharing of personally identifiable genetic and
@@ -851,6 +1042,15 @@ malvikasharan:
     email: malvikasharan@gmail.com
     gitter: malvikasharan
     orcid: 0000-0001-6619-7369
+    expertise:
+        - OLS co-lead
+        - Community building
+        - Mentorship
+        - Data Science best practices
+        - Inclusive and collaborative practices
+        - Python, Git, Unix
+    life-science-expertise: |
+        Bioinformatics, algorithm design
     bio: |
         Malvika Sharan is the community manager of [_The Turing Way-](https://the-turing-way.netlify.com)
         at [The Alan Turing Institute](https://turing.ac.uk).
@@ -876,8 +1076,7 @@ martenson:
         - Computational infrastructure
         - Computer science
     life-science-expertise: |
-        Martin is the closest to areas that include DNA sequencing - any *omics he'd say. 
-        But he really works on the frameworks behind the software aspects of the science.
+        DNA sequencing, multi-omics, frameworks behind the software aspects of the science.
     bio: |
         He is a computer fellow with an interest to help scientists tackle heaps of data. 
         Spent last 7 years working on Galaxy project core codebases.
@@ -912,6 +1111,8 @@ matuskalas:
     affiliation: University of Bergen
     country: Norway
     pronouns: he/him
+    expertise:
+        - OLS-1 project lead
 
 mblue9:
     first-name: Maria
@@ -953,6 +1154,8 @@ Megmugure:
     twitter: meg_wanjiku
     affiliation: International Livestock Research Institute
     country: Kenya
+    expertise:
+        - OLS-1 project lead
 
 melissa-burke:
     first-name: Melissa
@@ -1004,6 +1207,10 @@ mkuzak:
     twitter: matkuzak
     email: mateusz.kuzak@gmail.com
     orcid: 0000-0003-0087-6021
+    expertise:
+        - Training
+        - Open research software
+        - Community building
     bio: >
         Mateusz is Research Software Community Manager at the Netherlands eScience Center.
         He has background in life sciences and have been working
@@ -1029,7 +1236,7 @@ mloning:
        - Machine learning
        - Packaging/distribution
     life-science-expertise: |
-        Some applied machine learning projects in biochemical engineering, health and agricultural research
+        Applied machine learning projects in biochemical engineering, health and agricultural research
     bio: |
         Markus is a PhD student at UCL and he is one of the core developers of sktime, 
         a toolbox for machine learning with time series.
@@ -1041,6 +1248,8 @@ MorphoFun:
     affiliation: The George Washington University
     country: USA
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 mruizvelley:
     first-name: Mariana
@@ -1048,6 +1257,12 @@ mruizvelley:
     twitter: mruizvelley
     email: mruizvelley@gmail.com
     orcid: 0000-0002-9248-1280
+    expertise:
+        - Programming
+        - Agile teamwork
+        - Industry research
+    life-science-expertise: |
+        Epigenetics, Genomics, Bioinformatics, Molecular biology
     bio: >
         Mariana is a molecular biologist by training and a scientist by heart.
         Recently, she has been diving into the data science and biostatistics world
@@ -1060,6 +1275,12 @@ mvdbeek:
     twitter: mariusvdbeek
     email: m.vandenbeek@gmail.com
     orcid: 0000-0002-9676-7032
+    expertise:
+        - Galaxy development, tools and workflows
+        - Python programming, testing and debugging
+        - Contributing to open source projects
+    life-science-expertise: |
+        Bioinformatics and developmental biology
     bio: >
         Marius is a core Galaxy developer since 2015 and working full time on Galaxy since 2019.
         He has learned programming during my PhD in developmental biology, and quickly shifted
@@ -1072,6 +1293,8 @@ NaraLB:
     affiliation: Museu Paraense Emílio Goeldi
     country: Brazil
     pronouns: she/her
+    expertise:
+        - OLS-1 project lead
 
 nerantzis:
     first-name: Nikolaos
@@ -1079,6 +1302,10 @@ nerantzis:
     twitter: nerantzis
     email: ScienceBrainFun@gmail.com
     website: https://4myfiles.wordpress.com
+    expertise:
+        - Inclusion
+        - Accessibility
+        - Teaching and education
     bio: >
         Physicist, Teacher, Mozillian
 
@@ -1094,12 +1321,8 @@ NPalopoli:
     expertise:
        - Bioinformatics
        - Computational Biology
-       - Protein sequence
-       - Protein structure
-       - Molecular interactions
-       - Molecular evolution
     life-science-expertise: |
-        - Molecular Biology
+        Molecular Biology, protein sequence, protein structure, molecular interactions, molecular evolution
     bio: |
         Computational biologist interested in understanding the structural properties, biological
         function and evolutionary relationships of proteins. Current research focus are protein
@@ -1137,6 +1360,14 @@ nsoranzo:
     email: nicola.soranzo@gmail.com
     website: https://www.earlham.ac.uk/nicola-soranzo
     orcid: 0000-0003-3627-5340
+    expertise:
+        - Programming
+        - Open Source
+        - Licensing
+        - Version control
+        - Galaxy
+        - Python
+        - Reproducibility
     bio: >
         Nicola works at the Earlham Institute, where he manages and supports a Galaxy web server
         to run large-scale analyses in an accessible and reproducible way.
@@ -1148,6 +1379,11 @@ orchid00:
     last-name: Andrea Martinez
     email: p.martinez@uq.edu.au
     orcid: 0000-0002-8990-1985
+    expertise:
+        - Biomedical
+        - Bioinformatics
+        - Training and skill-building
+        - Open Science
     bio: >
         Paula is an Open Science advocate her passions are data management, data analytics,
         research, and diversity. She is a computer scientist who
@@ -1176,10 +1412,15 @@ paulvill:
         atlas" and was several times mentor in Mozilla Open Leadership's program.
 
 pherterich:
-    first-name: Patricia
+    first-name: Patricia Herterich
     last-name:
     twitter: pherterich
     orcid: 0000-0002-4542-9906
+    expertise:
+        - Data management
+        - Collaboration
+        - Library and archiving skills
+        - open Science and community
     bio: >
         Patricia is currently a Research Data Specialist working at the Digital
         Curation Centre at the University of Edinburgh working on the FAIRsFAIR
@@ -1196,6 +1437,11 @@ profgiuseppe:
     email: profgiuseppe@gmail.com
     website: https://sites.google.com/site/peppeprofiti
     orcid: 0000-0001-6067-6174
+    expertise:
+        - Devops - Continuous Integration/Deployment
+        - Reproducible environments
+        - Best practices in research software
+        - Wikidata, Wikipedia
     bio: >
         Giuseppe was a researcher in bioinformatics and teacher of programming in an international MSc degree.
         After moving to industry, he is focusing on devops, reproducible science and the creation of databases
@@ -1209,6 +1455,12 @@ rainsworth:
     email: rainswor@gmail.com
     website: https://rainsworth.github.io/
     orcid: 0000-0003-2591-9462
+    expertise:
+        - Open Science/Research
+        - Reproducibility
+        - Organising events
+        - Community building
+        - GitHub
     bio: >
         Rachael is a Research Software Community Manager for the Software
         Sustainability Institute and Open Science advocate at the University of Manchester.
@@ -1241,6 +1493,12 @@ rodrigocam:
     last-name: Oliveira Campos
     twitter: sayadiguin
     email: rodrigo.redcode@gmail.com
+    expertise:
+        - Open source communities
+        - Agile culture
+        - Web development
+        - Python programming
+        - DevOps
     bio: >
         Software Engineering Student at University of Brasília, open source developer,
         python programmer, functional languages lover!
@@ -1292,6 +1550,7 @@ SamGuay:
     pronouns: he/him
     website: https://openscience.ca
     expertise:
+        - OLS-1 project lead
         - Open Science
         - Building website with Hugo
         - Reproducible reports
@@ -1324,6 +1583,11 @@ satagopam7:
     email: venkata.satagopam@uni.lu
     website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
     orcid: 0000-0002-6532-5880
+    expertise:
+        - Clinical and Translational Medicine Informatics
+        - Data Management & FAIRification
+        - Dynamic Visual Analytics
+        - Text-mining
     bio: >
         Venkata is a Bioinformatician, a Senior Researcher at Bioinformatics core facility,
         and Deputy Head of the BioMedical Informatics Department, LCSB, University of Luxembourg.
@@ -1381,6 +1645,8 @@ Sithyphus:
     last-name: Barrios
     affiliation: University of Arizona
     country: USA
+    expertise:
+        - OLS-1 project lead
 
 sudarshangc:
     first-name: Sudarshan
@@ -1389,6 +1655,8 @@ sudarshangc:
     affiliation: Media Lab Nepal
     country: Nepal
     pronouns: he/him
+    expertise:
+        - OLS-1 project lead
 
 TKlingstrom:
     first-name: Tomas
@@ -1443,8 +1711,7 @@ tobyhodges:
         - Teaching and organising workshops
         - Resources for learning bioinformatics
     life-science-expertise: >
-        In my previous role, I supported computational biology across a wide range of fields.
-        Before that, my research area was taxonomic classification of high-throughput DNA/RNA sequencing data.
+        supporting computational biology across a wide range of fields, taxonomic classification of high-throughput DNA/RNA sequencing data
     bio: >
         Toby is the Curriculum Community Developer at The Carpentries, a community of practice
         building global capacity in essential data and computational skills for conducting efficient,
@@ -1482,6 +1749,8 @@ unode:
     affiliation: European Molecular Biology Laboratory (EMBL)
     country: Germany
     pronouns: he/him
+    expertise:
+        - OLS-1 project lead
     bio: >
         Renato is a biologist by training with a passion for computational work.
         Love learning about as much as teaching. Open source junky. Certified computer geek.
@@ -1511,6 +1780,13 @@ VickyNembaware:
     twitter: VickyNembaware
     email: vnembaware@gmail.com
     orcid: 0000-0001-7966-4042
+    expertise:
+        - Bioinformatics
+        - Genomics and Genomic Medicine
+        - Training
+        - Public Engagement
+    life-science-expertise: >
+        Sickle Cell Disease, bioinformatics
     bio: >
         Vicky has a PhD in Bioinformatics and an MPhil in Monitoring and Evaluation.
         Her research experience (qualitative and quantitative) spans Genomics and Public Health.
@@ -1530,6 +1806,11 @@ yochannah:
     email: yoyehudi@gmail.com
     gitter: yochannah
     orcid: 0000-0003-2705-1724
+    expertise:
+        - OLS co-lead
+        - Software development
+        - Community building
+        - Mentoring
     bio: >
         Yo is a [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/yo-yehudi),
         founder of [Code is Science](http://www.codeisscience.com/manifesto),
@@ -1560,5 +1841,10 @@ Zebetus:
     last-name: Smith
     twitter: Zebetus
     email: haz.zebetus@gmail.com
+    expertise:
+        - Community Organisation
+        - Event organising 
+        - Communication	
+        - Physics (Quantum Nanowires)
     bio: >
         A mentor for many previous waves of open leaders, who is currently studying for their PhD at UCL.
