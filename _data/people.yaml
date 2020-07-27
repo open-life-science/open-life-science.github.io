@@ -1011,6 +1011,7 @@ malloryfreeberg:
     last-name: Freeberg
     twitter: MalloryFreeberg
     email: mfreeberg@ebi.ac.uk
+    orcid: 0000-0003-2949-3921
     affiliation: EMBL/EBI
     country: UK
     pronouns: she/her
@@ -1018,15 +1019,17 @@ malloryfreeberg:
         - Metadata
         - FAIR principles
         - Single cell sequencing
+        - Small RNAs
+        - Post-transcriptional gene regulation
         - Ontologies
         - Project management
         - Data management
         - Bioinformatics
         - Galaxy
-        - Python/R/SQL
+        - Python, R, SQL, Unix
         - GitHub
     life-science-expertise: |
-        Human genomics and phenomics, RNA biology
+        Human genomics and phenomics, RNA/small RNA biology, Post-transcriptional gene regulation, Single cell sequencing
     bio: |
         Mallory is a Project Lead at the European Genome-phenome Archive
         supporting archiving and sharing of personally identifiable genetic and
