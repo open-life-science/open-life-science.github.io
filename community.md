@@ -3,8 +3,7 @@ layout: page
 title: Community
 ---
 
-Thank You! to the {{ site.data.people | size }} awesome persons who participate(d) to Open Life Science! 
-
+Thank You! to the {{ site.data.people | size }} awesome people who participate in or contribute to Open Life Science!
 
 <div class="community">
 {% for user in site.data.people %}
