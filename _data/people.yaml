@@ -1750,11 +1750,15 @@ unode:
     country: Germany
     pronouns: he/him
     expertise:
-        - OLS-1 project lead
+        - Full-stack developer, Computational Training, Reproducibility, OLS-1 project lead
+    life-science-expertise: |
+        - Computational biology, Metagenomics, Meta-transcriptomics
     bio: >
-        Renato is a biologist by training with a passion for computational work.
-        Love learning about as much as teaching. Open source junky. Certified computer geek.
-
+        Renato is a computational biologist with a background in evolution, genomics and the microbiome.
+        Currently project and community manager of the EMBL Bio-IT project (https://bio-it.embl.de/), 
+        supporting the local bio-computational community through training, consulting and core resources.
+        Open-source and scientific reproducibility advocate.
+        When not tanning in front of a screen you may find him wandering the green and blue in Nature.
 vcheplygina:
     first-name: Veronika
     last-name: Cheplygina
