@@ -259,3 +259,42 @@ $link-active: $link-hover;
   max-width: 550px;
   text-align: center;
 }
+
+.community {
+  margin-bottom: 1em;
+
+  .card {
+    box-shadow: none;
+  }
+
+  .card-content {
+    padding-top: 1em;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+  }
+
+  @include mobile() {
+    .people-card {
+      margin-bottom: 1em;
+    }
+
+    .people-card-meta {
+      overflow-x: initial;
+    }
+
+    .people-card-avatar {
+      display: none;
+    }
+  }
+
+  @include tablet() {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+
+  .image {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
