@@ -695,7 +695,7 @@ jezcope:
     twitter: jezcope
     email: j.cope@erambler.co.uk
     website: https://erambler.co.uk
-    affiliation: British Library’s Research Infrastructure Services
+    affiliation: The British Library
     country: UK
     pronouns: he/him
     expertise:
@@ -704,9 +704,8 @@ jezcope:
         - Research software sharing
         - Learning & teaching
         - Libraries
-    life-science-expertise: |
     bio: |
-        Jez is Data Services Lead in the British Library’s Research Infrastructure Services team. 
+        Jez is Data Services Lead in The British Library’s Research Infrastructure Services team. 
         He has over 8 years of experience developing and delivering research data management services and 
         strategies at research-intensive higher education institutions in the UK, as part of a long-term 
         goal to help communicate and collaborate more effectively using technology; previous roles include 
