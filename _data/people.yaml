@@ -63,7 +63,7 @@ ajstewartlang:
     last-name: Stewart
     twitter: ajstewart_lang
     email: andrew.stewart@manchester.ac.uk
-    website: https://ajstewartlang.netlify.com
+    website: https://ajstewartlang.netlify.app
     orcid: 0000-0002-9795-4104
     expertise:
         - Experimental Psychology
@@ -73,9 +73,9 @@ ajstewartlang:
     life-science-expertise: |
         Cognitive (Neuro)science
     bio: >
-        Andrew is an experimental psychologist and data scientist interested in open and reproducible research - he coordinates the Manchester Open Research Working Group and act as the UK Reproducibility Network representative at Manchester.
-        All his teaching resources are open (content-wise 95% of my teaching involves teaching R at various levels) with all lecture and seminar content, workshops etc. available on GitHub.  He also co-organises the Manchester R Users' Group, a fellow of the SSI and associate member of Carole Goble's eScience lab group.
-        All the research programmes he leads now involve open data and open code - and everything he hopes is *hopefully* fully reproducible!
+        Andrew is an experimental psychologist and data scientist interested in open and reproducible research - he coordinates the Manchester Open Research Working Group and acts as the UK Reproducibility Network representative at Manchester.
+        All his teaching resources are open (content-wise 95% of his teaching involves teaching R at various levels) with all lecture and seminar content, workshops etc. available on GitHub.  He also co-organises the Manchester R Users' Group, is a fellow of the SSI and associate member of Carole Goble's eScience lab group.
+        All the research programmes he leads involve open data and open code - and everything should be fully reproducible. 
 
 anayan321:
     first-name: Anunya
