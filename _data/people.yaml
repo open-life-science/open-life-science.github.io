@@ -906,6 +906,29 @@ LangData:
         library of the VU Amsterdam. She enjoys being involved in research projects and being
         part of a team contributing to a larger goal.
 
+lauracion:
+    first-name: Laura
+    last-name: Ación
+    twitter: _lacion_
+    website: https://lacion.rbind.io
+    orcid: 0000-0001-5213-6012
+    affiliation: University of Buenos Aires-CONICET
+    country: Argentina
+    pronouns: she/her
+    expertise:
+        - Health data science and artificial intelligence/Biostatistics
+        - Addiction research
+        - Open education
+        - Community building
+    life-science-expertise: |
+        Once upon a time I was a molecular biologist.
+    bio: |
+        I am a tenured adjunct researcher leading a health data science group. I also work to 
+        improve data analysis teaching and practice. One of the roles I enjoy most is mentoring and 
+        teaching others. I am part of the R-Ladies Global leadership team and a trainer and instructor 
+        for The Carpentries. In 2020, I co-founded MetaDocencia, an open, volunteer-led, collaborative, 
+        and Spanish-speaking education community. 
+
 lazycipher:
     first-name: Himanshu
     last-name: Singh
