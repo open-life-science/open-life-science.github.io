@@ -19,6 +19,8 @@
 #
 ---
 
+######## A
+
 aath0:
     first-name: Athina
     last-name: Tzovara
@@ -200,6 +202,8 @@ ArielleBL:
         coordinating neuroscience communities at University of Cambridge, she was a CSCCE Community Engagement Fellow
         in 2019 and continues to be actively involved in the community. She is a contributor to the Turing Way project.
 
+######## B
+
 bebatut:
     first-name: Bérénice
     last-name: Batut
@@ -302,6 +306,8 @@ bruno-soares:
         Bruno is a Brazilian ecologist working on a more collaborative and open
         science.
 
+######## C
+
 cassgvp:
     first-name: Cassandra
     last-name: Gould van Praag
@@ -348,6 +354,8 @@ christinerogers:
     pronouns: she/her
     expertise:
         - OLS-1 project lead
+
+######## D
 
 dannycolin:
     first-name: Danny
@@ -432,6 +440,8 @@ dlebauer:
     expertise:
         - OLS-1 project lead
 
+######## E
+ 
 elsasci:
     first-name: Elsa
     last-name: Loissel
@@ -469,6 +479,8 @@ ewuramaminka:
     pronouns: she/her
     expertise:
         - OLS-1 project lead
+
+######## F
 
 Fnyasimi:
     first-name: Festus
@@ -509,6 +521,8 @@ fpsom:
         his country, both through increasing awareness of Open Science via training events, as well as by engaging with similarly-minded people
         (the nascent Carpentries community in Greece being an excellent example of this).
 
+######## G
+
 gedankenstuecke:
     first-name: Bastian
     last-name: Greshake Tzovaras
@@ -525,6 +539,8 @@ gedankenstuecke:
         Research Fellow at the Center for Research & Interdisciplinarity in Paris. Co-Founder of openSNP,
         Director of Research at Open Humans.
         Does all things community science and loves open(science|culture|.*)
+
+######## H
 
 ha0ye:
     first-name: Hao
@@ -601,31 +617,7 @@ hrhotz:
         Biology facility at the Friedrich Miescher Institute in Basel Switzerland. Before, he was leading
          the Bioinformatics Core group at the Sanger Institute in Cambridge UK.
 
-sofia-kirke-forslund:
-    first-name: Sofia
-    last-name: Kirke Forslund
-    twitter: inanna_nalytica
-    email: Sofia.Forslund@mdc-berlin.de
-    website: https://www.mdc-berlin.de/forslund
-    country: Berlin
-    pronouns: she/her
-    expertise:
-        - Computational biology
-        - Leadership
-        - Bioinformatics
-        - Multi-omics
-        - Microbiome
-        - Systems medicine
-        - Host-microbiome health associations
-        - Drug mediation/effects
-        - Antibiotic resistance
-        - Microbiome-immune interactions
-        - Disease biomarkers...
-    bio: |
-        Swedish-born computational biologist, since 2018 heading systems medicine (host-microbiome focus,
-         "association hunting") lab in Berlin, interested in too many things. AMR,
-         metabolic/inflammatory/cardiovascular diseases, drug-microbiome interactions, confounder analysis,
-         gene family evolution. Queer, transgender woman and intersectional feminist.
+######## I
 
 InquisitiveVi:
     first-name: Vinodh
@@ -669,6 +661,8 @@ ivotron:
         the practical aspects in the reproducible evaluation of systems research, work for 
         which he was awarded the 2018 Better Scientific Software Fellowship. He is currently 
         working on Popper, as part of the CROSS Incubator Program.
+
+######## J
 
 JasonJWilliamsNY:
     first-name: Jason
@@ -736,6 +730,8 @@ joelostblom:
         how to better understand data (and thus the world around us!).
         He is also passionate about openness,  reproducibility, and data visualization,
         both within science and in general.
+
+######## K
 
 kariljordan:
     first-name: Kari
@@ -874,6 +870,8 @@ kswhitney:
         Rochester Institute of Technology in Rochester, NY USA. She is also
         extended program faculty in the Environmental Sciences Program.
 
+######## L
+
 LandiMi2:
     first-name: Michael
     last-name: Kofia Landi
@@ -992,6 +990,7 @@ lwinfree:
         Oregon Health and Science University, where she researched brain injury
         in fruit flies and became an advocate for open science and open data.
 
+######## M
 
 MagicMilly:
     first-name: Emily
@@ -1282,6 +1281,8 @@ mvdbeek:
         He has learned programming during my PhD in developmental biology, and quickly shifted
         towards data analysis and Galaxy development after that.
 
+######## N
+
 NaraLB:
     first-name: Naraiana
     last-name: Loureiro Benone
@@ -1329,7 +1330,6 @@ NPalopoli:
         positive impact by teaching essential bionformatics skills at all levels. Supporter of
         all projects and communities that do good.
 
-
 npscience:
     first-name: Naomi
     last-name: Penfold
@@ -1372,6 +1372,8 @@ nsoranzo:
         He also collaborates on the open source development of the Galaxy platform and its tools.
         Nicola is a Carpentries Instructor and a Galaxy trainer. He is currently the Technical Coordinator for ELIXIR-UK.
 
+######## O
+
 orchid00:
     first-name: Paula
     last-name: Andrea Martinez
@@ -1388,6 +1390,8 @@ orchid00:
         has worked on data intensive bioinformatics and data management. She has also collaborated
         on community projects such as The Carpentries, rOpenSci,
         RLadies. Currently she works for the National Imaging Facility in Australia.
+
+######## P
 
 paulvill:
     first-name: Paul
@@ -1445,6 +1449,10 @@ profgiuseppe:
         After moving to industry, he is focusing on devops, reproducible science and the creation of databases
         and tools for research institutions, hospitals and companies.
         Wikimedian at heart, he loves when knowledge is open and shareable.
+
+######## Q
+
+######## R
 
 rainsworth:
     first-name: Rachael
@@ -1536,6 +1544,8 @@ rs_khetani:
         on NGS data using best practices (including FAIR data practices). Her doctoral training is in 
         the wet lab, but she transitioned to dry lab work in 2009 and landed in an environment (thankfully) 
         that was focused on open science and open data. 
+
+######## S
 
 SamGuay:
     first-name: Samuel
@@ -1641,6 +1651,32 @@ Sithyphus:
     expertise:
         - OLS-1 project lead
 
+sofia-kirke-forslund:
+    first-name: Sofia
+    last-name: Kirke Forslund
+    twitter: inanna_nalytica
+    email: Sofia.Forslund@mdc-berlin.de
+    website: https://www.mdc-berlin.de/forslund
+    country: Berlin
+    pronouns: she/her
+    expertise:
+        - Computational biology
+        - Leadership
+        - Bioinformatics
+        - Multi-omics
+        - Microbiome
+        - Systems medicine
+        - Host-microbiome health associations
+        - Drug mediation/effects
+        - Antibiotic resistance
+        - Microbiome-immune interactions
+        - Disease biomarkers...
+    bio: |
+        Swedish-born computational biologist, since 2018 heading systems medicine (host-microbiome focus,
+         "association hunting") lab in Berlin, interested in too many things. AMR,
+         metabolic/inflammatory/cardiovascular diseases, drug-microbiome interactions, confounder analysis,
+         gene family evolution. Queer, transgender woman and intersectional feminist.
+
 sudarshangc:
     first-name: Sudarshan
     last-name: GC
@@ -1650,6 +1686,8 @@ sudarshangc:
     pronouns: he/him
     expertise:
         - OLS-1 project lead
+
+######## T
 
 TKlingstrom:
     first-name: Tomas
@@ -1687,7 +1725,6 @@ tnabtaf:
         Dave coordinates training and outreach for the Galaxy Project. He has been a community person in life sciences 
         for 13 years. Before that he worked in biological databases for 7 years. His training is in Computer Science, 
         with an emphasis on databases.
-
 
 tobyhodges:
     first-name: Toby
@@ -1734,6 +1771,8 @@ tsonika:
         biological research questions. In the past, she has worked in collaboration with the Australian bioinformatics
         network and EMBL-EBI on developing and delivering bioinformatics workshops for biologists and bioinformaticians.
 
+######## U
+
 unode:
     first-name: Renato
     last-name: Alves
@@ -1748,6 +1787,8 @@ unode:
     bio: |
         Renato is a biologist by training with a passion for computational work.
         Love learning about as much as teaching. Open source junky. Certified computer geek.
+
+######## V
 
 vcheplygina:
     first-name: Veronika
@@ -1766,7 +1807,6 @@ vcheplygina:
         Veronika's research area is machine learning in medical imaging. She is an now
         assistant professor but will be leaving her position soon. She is blogging about this
         and other academia-related topics on her website veronikach.com
-
 
 VickyNembaware:
     first-name: Vicky
@@ -1792,6 +1832,12 @@ VickyNembaware:
         She is passionate about building research capacity, mentoring
         young investigators and translational research.
     github: false
+
+######## W
+
+######## X
+
+######## Y
 
 yochannah:
     first-name: Yo
@@ -1828,6 +1874,8 @@ yvanlebras:
         - Ecology
     bio: |
         Yvan is data management and analysis lover, for life science, health and environment
+
+######## Z
 
 Zebetus:
     first-name: Harry
