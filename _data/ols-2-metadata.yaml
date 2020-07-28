@@ -19,7 +19,7 @@ experts:
   - ChiaraBertipaglia
   - dasaderi
   - Demellina
-  #- emmyft # need to confirm
+  - emmyft
   - fpsom
   - gedankenstuecke
   - ha0ye
@@ -88,6 +88,7 @@ possible-mentors:
   #- davidviryachen # ask later when OLS-2 launched, need to check with Holger
   - Delphine-L
   #- dlebauer # need to check with Katrin
+  - emmyft
   - Fnyasimi
   - fpsom
   #- ha0ye # ask later when OLS-2 launched
