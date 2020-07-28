@@ -14,7 +14,6 @@
 # pronouns:
 # expertise:
 #    -
-# life-science-expertise: |
 # bio: |
 #
 ---
@@ -86,6 +85,30 @@ anayan321:
     expertise:
         - OLS-1 project lead
 
+anelda:
+    first-name: Anelda
+    last-name: van der Walt
+    twitter: aneldavdw
+    email: anelda@talarify.co.za
+    website: http://www.talarify.co.za
+    country: South Africa
+    pronouns: she/her
+    expertise:
+        - Open science
+        - Capacity development
+        - Community building
+        - Following the road less travelled
+        - Working with academia as non-academic
+        - Setting up project websites (as non-developer)
+        - Women in tech
+        - Used to work in NGS
+    bio: |
+        Anelda is the founder of Talarify, a South Africa-based consultancy working with researchers and postgraduates to help grow digital, 
+        computational, and open science literacy. She has a formal background in bioinformatics, but spend most of her time working in interdisciplinary 
+        teams these days. She is currently formally involved in two projects: 1) afrimapr, funded by Wellcome Open Research, where the team is working 
+        with data science communities in Africa and beyond to help make African data more accessible via the development of R building blocks; and 2) 
+        Surveying Open Data Practices in 8 African countries, funded by the IDRC.
+
 anenadic:
     first-name: Aleksandra
     last-name: Nenadic
@@ -130,6 +153,28 @@ anita-broellochs:
         Erlangen, Germany and her background is on optical clearing of skeletal muscle for multiphoton microscopy. Anita has a passion for open
         science and is also the host of a science podcast called 'Minor Tweak, Major Impact' which is aiming to shine a spotlight on method development.
     github: false
+
+anjali-mazumder:
+    first-name: Anjali
+    last-name: Mazumder
+    email: amazumder@turing.ac.uk
+    website: https://www.turing.ac.uk/people/researchers/anjali-mazumder
+    affiliation: Alan Turing Institute
+    country: UK
+    pronouns: she/her
+    expertise:
+        - Data Science
+        - Ethics
+        - Human Right
+        - Statistics
+        - Law
+        - Data science informed decision-making in policy
+    bio: |
+        Anjali is the Thematic Lead on AI, Justice and Human Rights at the Alan Turing Institute for Data Science and Artificial Intelligence (UK), 
+        including projects on data science/AI to combat modern slavery and other exploitative crimes (and co-organiser of Code 8.7), statistics and 
+        the law, and bias measures/fairness methods in algorithms in justice. She is also an Assistant Research Professor in the Department of 
+        Statistics & Data Science and faculty affiliate in the Block Centre for Technology and Society at Carnegie Mellon University. 
+     
 
 annakrystalli:
     first-name: Anna
@@ -354,6 +399,15 @@ christinerogers:
     pronouns: she/her
     expertise:
         - OLS-1 project lead
+        - Data sharing
+        - Open science
+        - Software development
+        - Open source
+        - Neuroscience
+        - Interoperability
+        - Neuroinformatics
+    bio: |
+        Project manager and data wrangler working in open-source neuroinformatics
 
 ######## D
 
@@ -539,6 +593,23 @@ gedankenstuecke:
         Research Fellow at the Center for Research & Interdisciplinarity in Paris. Co-Founder of openSNP,
         Director of Research at Open Humans.
         Does all things community science and loves open(science|culture|.*)
+
+graciellehigino:
+    first-name: Gracielle
+    last-name: Higino
+    email: graciellehigino@gmail.com
+    affiliation:
+    country:
+    pronouns:
+    expertise:
+        - Project management
+        - Outreach and communication
+        - Creativity
+        - Research
+        - Version control
+    bio: |
+        All about theoretical ecology, the open movement and science communication! Co-leads the open 
+        SciComm training IGNITE.
 
 ######## H
 
@@ -1433,22 +1504,51 @@ pherterich:
         deliver data and code sharing solutions. She loves collaborating openly
         and making projects welcoming to new comers.
 
+piv-gopalasingam:
+    first-name: Piv
+    last-name: Gopalasingam
+    twitter: cascade21
+    email: piv@ebi.ac.uk
+    affiliation: EMBL-EBI
+    country: UK
+    pronouns: he/him
+    expertise:
+        - Education and training
+        - Course design and delivery
+        - Science communication
+        - Structural biology
+        - Biomedical sciences
+    bio: |
+        Piv is a scientific training officer at the European Bioinformatics Institute (EMBL-EBI) 
+        where he mainly coordinates and supports training in Latin America via the [CABANA project](http://cabana.online/).
+        His background lies in structural biology and biomedical sciences, and he is passionate about science communication, 
+        equity and inclusion.
+    github: false
+
 profgiuseppe:
     first-name: Giuseppe
     last-name: Profiti
     email: profgiuseppe@gmail.com
     website: https://sites.google.com/site/peppeprofiti
     orcid: 0000-0001-6067-6174
+    pronouns: he/him
     expertise:
         - Devops - Continuous Integration/Deployment
         - Reproducible environments
         - Best practices in research software
         - Wikidata, Wikipedia
+        - Reproducible science
+        - Git
+        - Automation
+        - Open and public databases and sources
+        - Bioinformatics
+        - Computational biology
     bio: |
         Giuseppe was a researcher in bioinformatics and teacher of programming in an international MSc degree.
         After moving to industry, he is focusing on devops, reproducible science and the creation of databases
         and tools for research institutions, hospitals and companies.
-        Wikimedian at heart, he loves when knowledge is open and shareable.
+        Wikimedian at heart, he loves when knowledge is open and shareable. Former university researcher. Software 
+        carpentry instructor. IT specialist for R&D 
 
 ######## Q
 

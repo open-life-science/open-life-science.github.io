@@ -17,11 +17,13 @@ experts:
   #- BhuvanaMeenakshiK # need to confirm
   - cassgvp
   - ChiaraBertipaglia
+  - christinerogers
   - dasaderi
   - Demellina
   - emmyft
   - fpsom
   - gedankenstuecke
+  - graciellehigino
   - ha0ye
   - hdinkel
   #- InquisitiveVi # need to confirm
@@ -45,14 +47,14 @@ experts:
   - mkuzak
   #- mruizvelley # need to confirm
   #- mvdbeek # need to confirm
-  #- nerantzis # need to confirm
+  - nerantzis
   - NPalopoli
   - npscience
   #- nsoranzo # need to confirm
   - orchid00
   - paulvill
   - pherterich
-  #- profgiuseppe # need to confirm
+  - profgiuseppe
   - rainsworth
   - rgaiacs
   - rossmounce
@@ -75,7 +77,9 @@ possible-mentors:
   - aidanbudd
   - ajstewartlang
   #- anayan321 # ask later when OLS-2 launched, need to check with Holger
+  - anelda
   - anita-broellochs
+  - anjali-mazumder
   #- annefou # need to confirm
   - ArielleBL
   - bebatut
@@ -83,7 +87,7 @@ possible-mentors:
   #- billbrod # ask later when OLS-2 launched, need to check with Rodrigo
   - bruno-soares
   #- cassgvp # did not fill the form
-  #- christinerogers # did not fill the form
+  - christinerogers
   #- dasaderi # need to confirm
   #- davidviryachen # ask later when OLS-2 launched, need to check with Holger
   - Delphine-L
@@ -126,6 +130,7 @@ possible-mentors:
   - npscience
   #- nsoranzo # need to confirm
   - pherterich
+  - piv-gopalasingam
   #- rainsworth
   - rgaiacs
   #- rodrigocam # need to confirm
