@@ -303,6 +303,32 @@ bruno-soares:
         Bruno is a Brazilian ecologist working on a more collaborative and open
         science.
 
+burkemlou:
+    first-name: Melissa
+    last-name: Burke
+    twitter: burkemlou
+    email: mlouburke@gmail.com
+    pronouns: she/her
+    country: Australia
+    expertise:
+       - Training
+       - Functional genomics
+       - Data management basics
+       - E-learning
+       - Infectious diseases
+       - Molecular biology
+       - Bioinformatics
+       - Parasitology
+       - Microbiology
+       - Host-pathogen interactions
+    bio: |
+        Melissa is a Scientific Training Officer within the Training team at EMBL-EBI. She has a PhD in
+        Molecular Parasitology. She has also worked as a Scientific Curator for ArrayExpress/Expression Atlas
+        at the EMBL-EBI and as a postdoctoral researcher specialising in the functional genomics of infectious
+        diseases. Some of the open-science related projects that she has been involved in include applying FAIR
+        principles to training materials and showing researchers how they can get the most out of their data by
+        teaching best practice in data management and the FAIR principles.
+
 cassgvp:
     first-name: Cassandra
     last-name: Gould van Praag
@@ -1160,27 +1186,6 @@ Megmugure:
     country: Kenya
     expertise:
         - OLS-1 project lead
-
-melissa-burke:
-    first-name: Melissa
-    last-name: Burke
-    twitter: burkemlou
-    email: mlouburke@gmail.com
-    pronouns: she/her
-    expertise:
-       - Training
-       - Functional genomics
-       - Data management basics
-    life-science-expertise: |
-        Infectious diseases, molecular biology, bioinformatics
-    bio: |
-        Melisa is a Scientific Training Officer within the Training team at EMBL-EBI. She has a PhD in
-        Molecular Parasitology. She has also worked as a Scientific Curator for ArrayExpress/Expression Atlas
-        at the EMBL-EBI and as a postdoctoral researcher specialising in the functional genomics of infectious
-        diseases. Some of the open-science related projects that she has been involved in include applying FAIR
-        principles to training materials and showing researchers how they can get the most out of their data by
-        teaching best practice in data management and the FAIR principles.
-    github: false
 
 mesfind:
     first-name: Mesfin
