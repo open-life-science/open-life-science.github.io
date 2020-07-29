@@ -369,6 +369,32 @@ bruno-soares:
         Bruno is a Brazilian ecologist working on a more collaborative and open
         science.
 
+burkemlou:
+    first-name: Melissa
+    last-name: Burke
+    twitter: burkemlou
+    email: mlouburke@gmail.com
+    pronouns: she/her
+    country: Australia
+    expertise:
+       - Training
+       - Functional genomics
+       - Data management basics
+       - E-learning
+       - Infectious diseases
+       - Molecular biology
+       - Bioinformatics
+       - Parasitology
+       - Microbiology
+       - Host-pathogen interactions
+    bio: |
+        Melissa is a Scientific Training Officer within the Training team at EMBL-EBI. She has a PhD in
+        Molecular Parasitology. She has also worked as a Scientific Curator for ArrayExpress/Expression Atlas
+        at the EMBL-EBI and as a postdoctoral researcher specialising in the functional genomics of infectious
+        diseases. Some of the open-science related projects that she has been involved in include applying FAIR
+        principles to training materials and showing researchers how they can get the most out of their data by
+        teaching best practice in data management and the FAIR principles.
+
 ######## C
 
 cassgvp:
@@ -990,6 +1016,29 @@ LangData:
         library of the VU Amsterdam. She enjoys being involved in research projects and being
         part of a team contributing to a larger goal.
 
+lauracion:
+    first-name: Laura
+    last-name: Ación
+    twitter: _lacion_
+    website: https://lacion.rbind.io
+    orcid: 0000-0001-5213-6012
+    affiliation: University of Buenos Aires-CONICET
+    country: Argentina
+    pronouns: she/her
+    expertise:
+        - Health data science and artificial intelligence/Biostatistics
+        - Addiction research
+        - Open education
+        - Community building
+    life-science-expertise: |
+        Once upon a time I was a molecular biologist.
+    bio: |
+        I am a tenured adjunct researcher leading a health data science group. I also work to 
+        improve data analysis teaching and practice. One of the roles I enjoy most is mentoring and 
+        teaching others. I am part of the R-Ladies Global leadership team and a trainer and instructor 
+        for The Carpentries. In 2020, I co-founded MetaDocencia, an open, volunteer-led, collaborative, 
+        and Spanish-speaking education community. 
+
 lazycipher:
     first-name: Himanshu
     last-name: Singh
@@ -1240,28 +1289,6 @@ Megmugure:
     country: Kenya
     expertise:
         - OLS-1 project lead
-
-melissa-burke:
-    first-name: Melissa
-    last-name: Burke
-    twitter: burkemlou
-    email: mlouburke@gmail.com
-    pronouns: she/her
-    expertise:
-        - Training
-        - Functional genomics
-        - Data management basics
-        - Infectious diseases
-        - Molecular biology
-        - Bioinformatics
-    bio: |
-        Melisa is a Scientific Training Officer within the Training team at EMBL-EBI. She has a PhD in
-        Molecular Parasitology. She has also worked as a Scientific Curator for ArrayExpress/Expression Atlas
-        at the EMBL-EBI and as a postdoctoral researcher specialising in the functional genomics of infectious
-        diseases. Some of the open-science related projects that she has been involved in include applying FAIR
-        principles to training materials and showing researchers how they can get the most out of their data by
-        teaching best practice in data management and the FAIR principles.
-    github: false
 
 mesfind:
     first-name: Mesfin
@@ -1807,6 +1834,28 @@ sudarshangc:
 
 ######## T
 
+thessaly:
+    first-name: Julieta
+    last-name: Arancio
+    twitter: cassandreces
+    email: jarancio@unsam.edu.ar
+    website: https://julieta.aranc.io/
+    orcid: 0000-0002-8624-4182
+    country: Argentina
+    expertise:
+        - Hardware prototypes
+        - Contributing and using open science hardware
+        - Inclusive citizen/community science projects
+        - Wikidata and other linked data tools
+        - Open science in Latin America
+        - Science and knowledge democratization
+        - Open science hardware inside/outside the lab
+    bio: |
+        Julieta is a PhD candidate on social studies of science, with a background in environmental science. 
+        Her research asks how open science hardware can contribute to democratize science and tech in the 'global south' and what it means in each context.
+        She co-funded 'Open Hardware Makers', a mentorship program like OpenLifeSci but for Hardware; she's part of the Global Open Science Hardware (GOSH) 
+        community and loves tinkering with linked data for community science.
+        
 TKlingstrom:
     first-name: Tomas
     last-name: Klingström
