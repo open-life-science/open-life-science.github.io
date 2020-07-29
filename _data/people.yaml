@@ -1686,13 +1686,14 @@ thessaly:
     email: jarancio@unsam.edu.ar
     website: https://julieta.aranc.io/
     orcid: 0000-0002-8624-4182
+    country: Argentina
     expertise:
         - Hardware prototypes
         - Contributing and using open science hardware
         - Inclusive citizen/community science projects
         - Wikidata and other linked data tools
         - Open science in Latin America
-        - 'science and knowledge democratization' in context
+        - Science and knowledge democratization
         - Open science hardware inside/outside the lab
     bio: |
         Julieta is a PhD candidate on social studies of science, with a background in environmental science. 
