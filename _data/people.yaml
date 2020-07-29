@@ -1666,12 +1666,12 @@ thessaly:
     website: https://julieta.aranc.io/
     orcid: 0000-0002-8624-4182
     expertise:
-       - How to open your science hardware prototypes
-       - How to contribute/use available open science hardware in your research
-       - How to run effective and inclusive citizen/community science projects
-       - Using Wikidata and other linked data tools to boost your research
-       - General panorama of Open science in Latin America
-       - Thinking what 'science and knowledge democratization' means in context
+       - hardware prototypes
+       - contributing and using open science hardware
+       - inclusive citizen/community science projects
+       - Wikidata and other linked data tools
+       - Open science in Latin America
+       - "science and knowledge democratization" in context
     life-science-expertise: |
         Open science hardware inside/outside the lab
     bio: >
