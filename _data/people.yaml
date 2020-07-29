@@ -1679,6 +1679,27 @@ sudarshangc:
     expertise:
         - OLS-1 project lead
 
+thessaly:
+    first-name: Julieta
+    last-name: Arancio
+    twitter: cassandreces
+    email: jarancio@unsam.edu.ar
+    website: https://julieta.aranc.io/
+    orcid: 0000-0002-8624-4182
+    expertise:
+        - Hardware prototypes
+        - Contributing and using open science hardware
+        - Inclusive citizen/community science projects
+        - Wikidata and other linked data tools
+        - Open science in Latin America
+        - "science and knowledge democratization" in context
+        - Open science hardware inside/outside the lab
+    bio: |
+        Julieta is a PhD candidate on social studies of science, with a background in environmental science. 
+        Her research asks how open science hardware can contribute to democratize science and tech in the 'global south' and what it means in each context.
+        She co-funded 'Open Hardware Makers', a mentorship program like OpenLifeSci but for Hardware; she's part of the Global Open Science Hardware (GOSH) 
+        community and loves tinkering with linked data for community science.
+        
 TKlingstrom:
     first-name: Tomas
     last-name: Klingström
