@@ -55,13 +55,7 @@
 
     {% if user.expertise %}
     <p class="people">
-      Expertise: {{ user.expertise | join: ", " }}
-    </p>
-    {% endif %}
-
-    {% if user.life-science-expertise %}
-    <p class="people">
-      Life Science: {{ user.life-science-expertise | join: ", " }}
+      <div class="people-description-question">Expertise:</div> {{ user.expertise | join: ", " }}
     </p>
     {% endif %}
 
