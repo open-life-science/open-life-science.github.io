@@ -113,7 +113,7 @@ We are currently recruiting the experts for the second round.
 
 Our experts are essential for the program:
 
-{% assign ols-1-experts = site.data.ols-1-experts-speakers.experts %}
+{% assign ols-1-experts = site.data.ols-1-metadata.experts %}
 
 - [The {{ ols-1-experts | uniq | size }} experts for **OLS-1** (January to May 2020)](/ols-1#experts)
 - [The possible experts for **OLS-2** (September to December 2020)](/ols-2#experts)
@@ -121,13 +121,13 @@ Our experts are essential for the program:
 # Organizers
 
 We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) cohorts, in which we have gained expertise in the technical and culture track.
+
+{% assign organizers = site.data.ols-1-metadata.organizers %}
 <div class="people">
-{% for entry in site.data.people %}
-    {% assign username = entry[0] %}
+{% for entry in organizers %}
+    {% assign username = entry %}
     {% assign user = site.data.people[username] %}
-    {% if user.organizer %}
-      {% include _includes/people.html user=user username=username %}
-    {% endif %}
+    {% include _includes/people.html user=user username=username %}
 {% endfor %}
 </div>
 
