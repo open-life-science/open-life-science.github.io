@@ -796,6 +796,26 @@ JasonJWilliamsNY:
         Jason is a life scientist who spends most of his time working to help researchers adopt
         computational practices in research and education
 
+jcolomb:
+    first-name: Julien
+    last-name: Colomb
+    email: julien.colomb@fu-berlin.de
+    website: http://lab.brembs.net/author/julien/
+    orcid: 0000-0002-3127-5520
+    country: Germany
+    pronouns: he/him
+    expertise:
+        - Research data management
+        - Software
+        - Communtiy building
+        - Neurobiology
+    bio: |
+        Former neuro-geneticist (10 year of research on fruit fly memory and behavior), he has been more 
+        recently interested in data analysis and management, as a specialisation for my interests in open 
+        science (open research). He is presently working on ways (technical and social) to implement the 
+        principles of FAIR and open data in the lab workflow and ways to foster collaboration between 
+        researchers via the SmartFigure Gallery project.
+
 jezcope:
     first-name: Jez
     last-name: Cope
