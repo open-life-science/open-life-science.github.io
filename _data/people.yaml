@@ -1336,26 +1336,25 @@ nerantzis:
 NPalopoli:
     first-name: Nicolas
     last-name: Palopoli
-    twitter: NPalopoli
+    twitter: npalopoli
     email: nicopalo@gmail.com
     website: http://about.me/npalopoli
-    affiliation:
-    country:
+    orcid: 0000-0001-7925-6436
+    affiliation: Universidad Nacional de Quilmes & CONICET
+    country: Argentina
     pronouns: he/him
     expertise:
-        - Bioinformatics
-        - Computational Biology
+        - Bioinformatics and Computational Biology
         - Molecular Biology
-        - Protein sequence
-        - Protein structure
+        - Protein sequence, structure, evolution and interactions
         - Molecular interactions
         - Molecular evolution
     bio: |
-        Computational biologist interested in understanding the structural properties, biological
-        function and evolutionary relationships of proteins. Current research focus are protein
-        disorder and interactions mediated by Short Linear Motifs (SLiMs). Trying to make a
-        positive impact by teaching essential bionformatics skills at all levels. Supporter of
-        all projects and communities that do good.
+        Nicolas is a computational biologist interested in understanding the structural properties, biological
+        function and evolutionary relationships of proteins. His current research focus are protein
+        disorder and protein interactions mediated by Short Linear Motifs (SLiMs). He's seeking to make a
+        positive impact through teaching at all levels, mentoring students, taking part in professional 
+        communities and supporting projects that do good.
 
 
 npscience:
