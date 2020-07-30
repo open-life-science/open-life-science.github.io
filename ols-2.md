@@ -33,7 +33,7 @@ photos:
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
             {% for r in c.resources %}
-                {% if r.type == 'slides' %}
+                {% if r.type == 'slides' and r.speaker %}
                     {% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
                 {% endif %}
             {% endfor %}
