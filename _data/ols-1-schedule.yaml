@@ -1,4 +1,30 @@
 # Schedule for OLS-1
+#
+# 'weeknb':
+#   timeframe: 
+#   calls:
+#     -
+#       type: Mentor-Mentee/Cohort/Mentors
+#       duration: .. min
+#       title: 
+#       date: Month Day, Year
+#       time: '14:00'
+#       calendar-event: link to calendar event
+#       agenda: tldr
+#       notes: link to notes
+#       recording: link to recording
+#       content: |
+#         Details of the content written in Markdown
+#       before: |
+#         Tasks to do before as a list written in Markdown
+#       after: |
+#         Tasks to do after as a list written in Markdown
+#       resources:
+#         - 
+#           type: slides/document/external-link
+#           title: 
+#           speaker: username in people.yaml, if slides
+#           link:
 ---
 '01':
   timeframe: January 20-24, 2020
@@ -314,6 +340,26 @@
         
           We will revisit this next week so no need to rush!
       resources:
+        - 
+          type: slides
+          title: Agile & Iterative Project Management Methods
+          speaker: yochannah
+          link: https://docs.google.com/presentation/d/1C_RurOY1W__HLRbPTTzmdYT-qdTpuF2qi7leL4Hzdok/present?token=AC4w5VhyJTsf5Y_l2r2yT6IvS3iYSyAGfQ%3A1596099131400&includes_info_params=1&eisi=CMKFhM7M9OoCFcV9gQodoSoDVQ#slide=id.g7e28a7e96f_0_0
+        - 
+          type: slides
+          title: Open science hardware
+          speaker: thessaly
+          link: https://docs.google.com/presentation/d/1JJWt0OtVWTMHbouXOF0w1QJsxwv-rUXiqHmkEx-A5B8/present?token=AC4w5VhEayeikxiuXpBr3wV61FBcNB_VnQ%3A1596099220442&includes_info_params=1&eisi=CNzdvvjM9OoCFT8LqQEdSo8LDg#slide=id.g7e3dff4cf5_0_112
+        - 
+          type: slides
+          title: Open Software in Research
+          speaker: ajstewartlang
+          link: https://ajstewartlang.github.io/talks/OLS_talk/assets/player/KeynoteDHTMLPlayer.html#0
+        - 
+          type: slides
+          title: Open data... in the Life Sciences
+          speaker: lwinfree
+          link: https://docs.google.com/presentation/d/e/2PACX-1vTm51ExlLfv1L_oI59D_9EZlBWf1UbSXmHVAIutII9Cs8AnGqLkH9meXGiwBajn-r_u297hdV7MdWCL/pub?start=false&loop=false&delayms=3000#slide=id.p
 '07':
   timeframe: March 2-6, 2020
   calls:
@@ -349,13 +395,67 @@
       notes: https://docs.google.com/document/d/19o-BXGx6Q7Rc2-jlW76HRoi_onKmAidtIFWXvYVXqOA/edit?usp=sharing
       recording: https://www.youtube.com/watch?v=HaQyv48sMPY&t=1s
       content: |
-        During this week's cohort call, we will:
-        - Preprint publications, DOI and citation
-        - Open protocols
-        - Open Education & Training
+        During this week's cohort call, we will discuss about Knowledge Dissemination with
+        - Citizen Science (Open Humans)
+        - Open Education & Training (Mozilla fellow)
+        - Preprint publications, DOI and citation (F1000)
+        - Open protocols (protocols.io)
       before: |
-        - Prepare your vision statement
+        - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
+        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
+        - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your community
+      after: |
+        - Finish a contribution guideline for your community
+        - Catch up on your project
       resources:
+        - 
+          type: slides
+          title: Open Humans
+          speaker: gedankenstuecke
+          link:
+        - 
+          type: slides
+          title: "Open Education and Training: OpenScienceKE Case Study"
+          speaker: kipkurui
+          link: https://docs.google.com/presentation/d/1T3Z51l8XIRtUQtSooZvUZzH60rFS-n73bDQwGwH639Y/present?token=AC4w5VgNgYGzfSEGZZkbGh9FurcbNc0iuQ%3A1596099792162&includes_info_params=1&eisi=CIGPjonP9OoCFUCeTwkdI4wLOA#slide=id.g6e56d02ad9_0_0
+        - 
+          type: slides
+          title: Pre-print and open review
+          speaker: Demellina
+          link: https://f1000-my.sharepoint.com/:p:/g/personal/demitra_ellina_f1000_online/Ed5_RBaVrrlGmZzicLlHESsBzCy2eW52SzoNTE3VBkzEDQ?e=tLWn2E
+        - 
+          type: slides
+          title: "Open protocols: creating, editing, and getting credit for scientific methods"
+          speaker: anita-broellochs
+          link: https://docs.google.com/presentation/d/13d3BgND53cviFRnuQpmWk5UtMYtpSDqpUu9jq4ykNrM/present?token=AC4w5VjpuGyljgP-BGgwhsHj__Cfgb2hOg%3A1596099958051&includes_info_params=1&eisi=CNrXmtjP9OoCFa6dIwAdB8wErg#slide=id.g6e56d02ad9_0_0
+        - 
+          type: external-link
+          title: Figshare - deposit your posters, slides, data
+          link: https://figshare.com/
+        - 
+          type: external-link
+          title: Zenodo - deposit your posters, slides, data and DOIs for code
+          link: https://zenodo.org/
+        - 
+          type: external-link
+          title: JOSS - Journal of Open Source Software
+          link: http://joss.theoj.org/
+        - 
+          type: external-link
+          title: JORS - Journal of Open Research Software
+          link: https://openresearchsoftware.metajnl.com/
+        - 
+          type: external-link
+          title: Dryad 
+          link: Data deposit
+        - 
+          type: external-link
+          title: Open Science Framework 
+          link: https://osf.io/
+        - 
+          type: external-link
+          title: Dataverse
+          link: https://dataverse.org/
 '09':
   timeframe: March 16-20, 2020
   calls:
@@ -377,11 +477,15 @@
       notes: https://docs.google.com/document/d/1YF3Uw-fU2-mhf-FyuPdx07KSTSlvnBZeMbQdQGJq4A4/edit?usp=sharing
       recording: https://www.youtube.com/watch?v=81mG4L7S3Oc
       content: |
-        During this week's cohort call, we will:
-        - Implicit bias, Diversity and Inclusion
-        - Mountain of engagement and community interactions
-        - Personas and pathways and welcoming new contributors
+        During this week's cohort call, we will discuss about:
+        - Designing for inclusion
+        - Community interactions - the mountain of engagement
+        - Personas and pathways for contributors
+
+        We will continue next week on the topic of self-care and ally skills
+
       before: |
+        - Develop your contributing guideline
         - Do the implicit Bias Quiz
           - Go to [https://implicit.harvard.edu](https://implicit.harvard.edu) complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)
           
@@ -390,12 +494,49 @@
           - Answer these questions when you've finished the implicit association test: What does inclusion mean to you? Did your results of the implicit association test surprise you?
           - Bring your notes to the cohort call
       after: |
-        - [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/) assignment
-        - Think through community interactions
-        - Complete the midterm survey
-      resources: |
-        - [Building Communities](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/)
-        - [Community Interactions](https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3)
+        - **Unconscious bias**: Looking at the [handout](https://docs.google.com/document/d/1U7kIwSyPRpovVLVIvKRcuuh9wNQBHQQZC3KSwP7kbxs/edit), what can you implement in your own work?
+        - **Designing for inclusion**: fill the [Mountain of Engagement](https://docs.google.com/document/d/1X2-oXvq5ET30-hCcgWEG5iLvv9FbAiuEgXuVY5hle8o/edit?usp=sharing)
+        - **Persona and Pathway**: [Create a Persona and Pathway for Your Project](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project), assignment from the Mozilla Open Leadership training
+      resources:
+        - 
+          type: slides
+          title: Inclusion can't be an afterthought
+          speaker: alexwlchan
+          link: https://docs.google.com/presentation/d/1yaLMBcU1awyFZpeOQC2_QYDwlN-Z_dJ2GXNYDAm2jA8/present?token=AC4w5VgZU7PzZSkXFk2krzr6lS-gcjsYdw%3A1596110857564&includes_info_params=1&eisi=CJetwKX49OoCFUi3Zwodw9oL7g#slide=id.g7e28a7e96f_0_0
+        - 
+          type: slides
+          title: Mountain of Engagement & Community Interactions
+          speaker: malvikasharan
+          link: https://docs.google.com/presentation/d/1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y/present?token=AC4w5VhpTqbOWqPsxwOsnzqMG_DYvAqvGA%3A1596111012295&includes_info_params=1&eisi=CJfzpO_49OoCFYbTJAodKr0HAQ#slide=id.p
+        - 
+          type: slides
+          title: Using Personas and Pathways to Build Community
+          speaker: KirstieJane
+          link: https://docs.google.com/presentation/d/1-rdQipVmJ5lWelQ1oEbi86EbFwTpDh5TLeJ2TAg-oo4/present?token=AC4w5VjIFg3LDysFSoGymFzYFj2KWG5TLw%3A1596111072881&includes_info_params=1&eisi=CLmJloz59OoCFZFzJgodzMEHYA#slide=id.g6e991a6830_0_0
+        - 
+          type: document
+          title: "Combating Unconscious Bias As Participation Leaders: What you can do"
+          link: https://docs.google.com/document/d/1U7kIwSyPRpovVLVIvKRcuuh9wNQBHQQZC3KSwP7kbxs/edit
+        - 
+          type: document
+          title: "Mountain of Engagement (MoE): Discovering pathways & patterns of engagement in your work"
+          link: https://docs.google.com/document/d/1X2-oXvq5ET30-hCcgWEG5iLvv9FbAiuEgXuVY5hle8o/edit?usp=sharing
+        -
+          type: external-link
+          title: Create a Persona and Pathway for Your Project
+          link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project
+        - 
+          type: slides
+          title: "Value exchange: Ensuring equity in community interactions"
+          link: https://docs.google.com/presentation/d/11YVAK5wwPKDUw6aM-KUngic8h7CVr6UhXuOMLIVAxQs/present?token=AC4w5VhYGDwJIubITNlf3ML9_D02NPIYOg%3A1596111389641&includes_info_params=1&eisi=CLylnKP69OoCFeiUTwkdfOYLow#slide=id.p
+        -
+          type: external-link
+          title: Building Communities
+          link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/
+        - 
+          type: external-link
+          title: Community Interactions
+          link: https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
 '11':
   timeframe: March 30 - April 3, 2020
   calls:
@@ -410,21 +551,55 @@
       recording: https://www.youtube.com/watch?v=un4lsSMdAB0
       content: |
         During this week's cohort call, we will:
-        - Mental health care and Ally skills
+        - Discuss self-care plans and learn about Ally skills
         - Hear from the professionals from different career paths
         - Ask them questions about their careers
-        - Share worries/insecurities related to your work and tips that you use to overcome them
+        - Share worries/insecurities related to your work and tips that you use to overcome them 
       before: |
         A few days before the event, think about how you might briefly answer the following questions (ref: https://www.bu.edu/lernet/pathways/organizers/panel.html):
-        - how did you choose your career ?
-        - what did you study to prepare ?
-        - what do you actually do at work on a typical day ?
-        - have you ever felt discriminated against (e.g. due to gender, race, ethnicity...) and how did you respond ?
-        - do you have a life outside your work ? a family ? hobbies ?
-        - what advice would you give someone wanting to enter your field ?
-        - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
-        - do you want to switch your career or field? Why or why not?
+        - How did you choose your career ?
+        - What did you study to prepare ?
+        - What do you actually do at work on a typical day ?
+        - Have you ever felt discriminated against (e.g. due to gender, race, ethnicity...) and how did you respond ?
+        - Do you have a life outside your work ? a family ? hobbies ?
+        - What advice would you give someone wanting to enter your field ?
+        - On a scale of 1-10 (10 being the most), how much do you enjoy your current work?
+        - Do you want to switch your career or field? Why or why not?
       resources:
+        - 
+          type: slides
+          title: Leadership in Academia
+          speaker: fpsom
+          link: https://docs.google.com/presentation/d/13FfUMZ-_jd1bUNyVXG_Rwk51GLOp8rsFHRMCRpXebBE/present?token=AC4w5VhmSkL_SO3oZn0uhgwKddAI52JVag%3A1596111615284&includes_info_params=1&eisi=CLbh54779OoCFZnLZwodhdABbw#slide=id.g6e56d02ad9_0_0
+        - 
+          type: slides
+          title: Becoming a Post Academic
+          speaker: bduckles
+          link: https://docs.google.com/presentation/d/1Cx6XAxZMt3jlU8O8DM8fCYemjmzgHUd6Sx8-MI3kIz0/present?token=AC4w5VjdDvGy_PnD3oJ--k-_1e3rIUZmRQ%3A1596111657762&includes_info_params=1&eisi=CPeqiKP79OoCFZAGNwod6tYF2Q#slide=id.p
+        - 
+          type: slides
+          title: Leadership in training and education
+          speaker: JasonJWilliamsNY
+        - 
+          type: slides
+          title: Personal Ecology and Self care 
+          link: https://docs.google.com/presentation/d/18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU/present?token=AC4w5Vi2oFSjZu8EA-g8OYqp8HyOGhpR5A%3A1596111738550&includes_info_params=1&eisi=CJWxy8n79OoCFRBhJgodZ6cNpA#slide=id.p
+        - 
+          type: slides
+          title: Ally Skills 
+          link: https://docs.google.com/presentation/d/1-eaxorHL76DGMjcpmTzVDqcO-4Wz-W4VBoOtJa2py3U/present?token=AC4w5ViwyjmmKDRzshUipNH639CepBw04g%3A1596112051102&includes_info_params=1&eisi=CNKI0N789OoCFfuXIwAdLb0MJw#slide=id.g5a54ff9567_0_138
+        - 
+          type: external-link
+          title: Sustain Summit, SustainOSS, a Space for Open Source Sustainers
+          link: https://sustainoss.org/
+        - 
+          type: external-link
+          title: "Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure"
+          link: https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
+        - 
+          type: external-link
+          title: "Gitcoin: sustaining open source with cryptocurrency featuring Kevin Owocki (The Changelog #281)"
+          link: https://changelog.com/podcast/281
 '12':
   timeframe: April 6-10, 2020
   calls:
@@ -450,7 +625,6 @@
         - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
       after: |
         - Continue on with your project, and connect with others on Gitter or other social media platforms.
-      resources:
 '14':
   timeframe: April 20-24, 2020
   calls:
@@ -489,6 +663,18 @@
       after: |
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
       resources:
+        - 
+          type: external-link
+          title: Building Skill With Feedback
+          link: https://carpentries.github.io/instructor-training/06-feedback/
+        - 
+          type: external-link
+          title: Giving Constructive Feedback
+          link: https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
+        - 
+          type: external-link
+          title: Suggested Rubric for Teaching Demonstrations – Instructor Training  
+          link: https://carpentries.github.io/instructor-training/demos_rubric/
 '15':
   timeframe: April 27 - May 1, 2020
   calls:
@@ -509,9 +695,12 @@
         - Come prepared to share a 5 mins presentation of your project 
 
           Your presentation can be in the form of a demo, short presentation or a walk through your website
+        
+        - Invite your friends and colleagues to this call
+
+          The audience will not need any preparation
       after: |
         - Celebrate your graduation from OLS-1!
-      resources:
 '16':
   timeframe: May 3-8, 2020
   calls:
@@ -552,6 +741,18 @@
       after: |
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
       resources:
+        - 
+          type: external-link
+          title: Building Skill With Feedback
+          link: https://carpentries.github.io/instructor-training/06-feedback/
+        - 
+          type: external-link
+          title: Giving Constructive Feedback
+          link: https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
+        - 
+          type: external-link
+          title: Suggested Rubric for Teaching Demonstrations – Instructor Training  
+          link: https://carpentries.github.io/instructor-training/demos_rubric/
 '18':
   timeframe: May 18-22, 2020
   calls:
@@ -572,7 +773,9 @@
         - Come prepared to share a 5 mins presentation of your project 
 
           Your presentation can be in the form of a demo, short presentation or a walk through your website
+        
+        - Invite your friends and colleagues to this call
+
+          The audience will not need any preparation
       after: |
         - Celebrate your graduation from OLS-1!
-      resources:
-
