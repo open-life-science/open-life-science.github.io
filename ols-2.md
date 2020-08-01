@@ -28,6 +28,19 @@ photos:
 {% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
 {% assign p-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
 
+{% assign all-speakers = '' %}
+{% for w in schedule %}
+    {% for c in w[1].calls %}
+        {% if c.type == 'Cohort' %}
+            {% for r in c.resources %}
+                {% if r.type == 'slides' and r.speaker %}
+                    {% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 
 # The OLS-2 program
 {:.no_toc}
@@ -163,6 +176,18 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 {% endfor %}
 </div>
 
+{% if all-speakers != '' %}
+### Speakers during cohort calls
+
+<div class="people">
+{% for entry in p-speakers %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
+{% endif %}
+
 # Collaborators
 
 OLS team have established the following collaborations to support organisation specific projects within the OLS-2 cohort:
@@ -181,10 +206,11 @@ This extension in deadline will ensure that the interested participants have suf
 
 To share this announcement with the potential mentors, experts and project leads from the Turing and _The Turing Way_, please use our [promotion pack](https://tinyurl.com/tw-ols2).
 
-
 # Resources
 
 The resources available to the OLS-2 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
+
+# Calls
 
 ## Cohort calls
 

@@ -866,7 +866,15 @@ joelostblom:
         He is also passionate about openness,  reproducibility, and data visualization,
         both within science and in general.
 
+
+joshsimmons:
+    first-name: Josh
+    last-name: Simmons
+    twitter: joshsimmons
+    country: USA
+    
 ######## K
+
 
 kariljordan:
     first-name: Kari
@@ -889,6 +897,11 @@ kariljordan:
         explored self-efficacy of underrepresented engineering students. After completing a post-doc in the Engineering Fundamentals Department at
         Embry-Riddle Aeronautical University, she was hired to lead The Carpentries assessment efforts. In her current role, her focus is developing
         programs through the lens of equity, and setting strategic efforts around assessment that inform The Carpentries curriculum and other initiatives.
+
+karinlag:
+    first-name: Karin
+    last-name: Lagesen
+    twitter: karinlag
 
 katrinleinweber:
     first-name: Katrin

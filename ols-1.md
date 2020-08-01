@@ -28,6 +28,19 @@ photos:
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
 
+{% assign all-speakers = '' %}
+{% for w in schedule %}
+    {% for c in w[1].calls %}
+        {% if c.type == 'Cohort' %}
+            {% for r in c.resources %}
+                {% if r.type == 'slides' and r.speaker %}
+                    {% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 
 # The OLS-1 program
 {:.no_toc}
@@ -104,7 +117,7 @@ Outside of the calls, participants (mentees, mentors, etc) are encouraged to dis
 {%- for w in schedule %}
 {%- capture w-desc %}**Week {{ w[0] }}**: {{ w[1].timeframe }}{% endcapture %}
 {%- for c in w[1].calls %}
-{%- capture date %}{% if c.type == "Cohort" %}{{ c.date }} ([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/OLS-2%20Cohort%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endcapture %}
+{%- capture date %}{% if c.type == "Cohort" %}{{ c.date }} ([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/OLS-1%20Cohort%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endcapture %}
 | {{ w-desc }} | [{{ c.type }}](#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" }}-calls) | {{ date }} | [**{{ c.title }}**](/ols-1/week{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
 {%- assign w-desc = "" %}
 {%- endfor %}
@@ -163,12 +176,22 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 {% endfor %}
 </div>
 
+### Speakers during cohort calls
+
+<div class="people">
+{% for entry in p-speakers %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
+
 ## Organizers
 
 <div class="people">
 {% for entry in metadata.organizers %}
     {% assign username = entry %}
-    {% assign user = site.data.people[username] %}
+    {% assign user = people[username] %}
     {% include _includes/people.html user=user username=username %}
 {% endfor %}
 </div>
