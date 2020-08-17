@@ -57,6 +57,29 @@ aidanbudd:
         Starting in 2020 he has been working for EMBO Solutions GmbH as a trainer for leadership for researchers.
         He is an allocishet abled middle-class white man, and wants to do as much as he can to promote a more inclusive society and academy.
 
+agbeltran:
+    first-name: Alejandra
+    last-name: Gonzalez-Beltran
+    twitter: alegonbel
+    email: alejandra.gonzalez-beltran@stfc.ac.uk
+    website: https://agbeltran.github.io/
+    orcid: 0000-0003-3499-8262
+    expertise:
+        - Software Engineering
+        - Data Management
+        - Data and Software Publication and Citation
+        - Semantic Web / Linked Data 
+        - Research Reproducbility
+    bio: |
+        Alejandra is the Software Engineering Group Leader at the Science and Technology Facilities Council (STFC). 
+        STFC is part of UK Research and Innovation. Her focus is around software management, which includes supporting 
+        the software developmnt process, and data management projects, which include the development of bespoke 
+        software systems to manage the experimental data produced by the large scale scientific facilities at STFC. Before joining
+        STFC she was a Research Lecturer at the University of Oxford. Her research interests are around developing models, methods, 
+        and software tools for data science and innovative scholarly communication with the aim of enabling Findable, Accessible, 
+        Interoperable and Reusable (FAIR) data, research reproducibility and aggregation of research results.
+
+
 ajstewartlang:
     first-name: Andrew
     last-name: Stewart
