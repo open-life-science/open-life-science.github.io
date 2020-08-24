@@ -31,7 +31,7 @@ aath0:
         - Machine Learning
         - Statistics
         - Python programming
-        - Neuroscience 
+        - Neuroscience
     bio: |
         Athina is a neuroscientist, with a background in electrical and computer engineering.
         Her research combines computational and electrophysiological techniques to study human cognition.
@@ -49,7 +49,7 @@ aidanbudd:
         - Inclusion and diversity
         - Delivering events
         - Leadership training
-        - Previous research, event organisation and planning, in bioinformatics   
+        - Previous research, event organisation and planning, in bioinformatics
     bio: |
         Aidan has worked in life science research in both the wet lab, and as a bioinformatician.
         Since 2010 his focus has been on developing training and community for researchers,
@@ -73,7 +73,7 @@ ajstewartlang:
     bio: >
         Andrew is an experimental psychologist and data scientist interested in open and reproducible research - he coordinates the Manchester Open Research Working Group and acts as the UK Reproducibility Network representative at Manchester.
         All his teaching resources are open (content-wise 95% of his teaching involves teaching R at various levels) with all lecture and seminar content, workshops etc. available on GitHub.  He also co-organises the Manchester R Users' Group, is a fellow of the SSI and associate member of Carole Goble's eScience lab group.
-        All the research programmes he leads involve open data and open code - and everything should be fully reproducible. 
+        All the research programmes he leads involve open data and open code - and everything should be fully reproducible.
 
 alexwlchan:
     first-name: Alex
@@ -113,10 +113,10 @@ anelda:
         - Women in tech
         - Used to work in NGS
     bio: |
-        Anelda is the founder of Talarify, a South Africa-based consultancy working with researchers and postgraduates to help grow digital, 
-        computational, and open science literacy. She has a formal background in bioinformatics, but spend most of her time working in interdisciplinary 
-        teams these days. She is currently formally involved in two projects: 1) afrimapr, funded by Wellcome Open Research, where the team is working 
-        with data science communities in Africa and beyond to help make African data more accessible via the development of R building blocks; and 2) 
+        Anelda is the founder of Talarify, a South Africa-based consultancy working with researchers and postgraduates to help grow digital,
+        computational, and open science literacy. She has a formal background in bioinformatics, but spend most of her time working in interdisciplinary
+        teams these days. She is currently formally involved in two projects: 1) afrimapr, funded by Wellcome Open Research, where the team is working
+        with data science communities in Africa and beyond to help make African data more accessible via the development of R building blocks; and 2)
         Surveying Open Data Practices in 8 African countries, funded by the IDRC.
 
 anenadic:
@@ -180,11 +180,11 @@ anjali-mazumder:
         - Law
         - Data science informed decision-making in policy
     bio: |
-        Anjali is the Thematic Lead on AI, Justice and Human Rights at the Alan Turing Institute for Data Science and Artificial Intelligence (UK), 
-        including projects on data science/AI to combat modern slavery and other exploitative crimes (and co-organiser of Code 8.7), statistics and 
-        the law, and bias measures/fairness methods in algorithms in justice. She is also an Assistant Research Professor in the Department of 
-        Statistics & Data Science and faculty affiliate in the Block Centre for Technology and Society at Carnegie Mellon University. 
-     
+        Anjali is the Thematic Lead on AI, Justice and Human Rights at the Alan Turing Institute for Data Science and Artificial Intelligence (UK),
+        including projects on data science/AI to combat modern slavery and other exploitative crimes (and co-organiser of Code 8.7), statistics and
+        the law, and bias measures/fairness methods in algorithms in justice. She is also an Assistant Research Professor in the Department of
+        Statistics & Data Science and faculty affiliate in the Block Centre for Technology and Society at Carnegie Mellon University.
+
 
 annakrystalli:
     first-name: Anna
@@ -214,7 +214,7 @@ anneclinio:
         - Citizen science and Citizen labs
         - Open notebooks
         - Open data policy building
-        - Information science 
+        - Information science
     bio: |
         Anne currently works at Oswald Cruz foundation with the development of a bottom up open data policy. She is also part of a research group
         dedicated to open science themes, especially social innovations.
@@ -413,15 +413,15 @@ cassgvp:
         - Open science practices
         - Neuroimaging
     bio: |
-        Cassandra worked for 10 years in magnetic resonance imaging, mainly with 
-        clinical psychiatric populations. After discovering open science, it reignited 
-        her passion and enthusiasm for the way research *could* be done, and she focused 
-        a lot of her efforts into educating and training her team in programming, 
-        reproducible and transparent methods. She was recently appointed Open Science 
-        Community Engagement Coordinator for her department, one of only a few professional 
-        open science roles in the UK. She is very proud to support her colleagues in the 
-        transition towards working open, and doing so with the principles of open leadership 
-        at the forefront of her work. 
+        Cassandra worked for 10 years in magnetic resonance imaging, mainly with
+        clinical psychiatric populations. After discovering open science, it reignited
+        her passion and enthusiasm for the way research *could* be done, and she focused
+        a lot of her efforts into educating and training her team in programming,
+        reproducible and transparent methods. She was recently appointed Open Science
+        Community Engagement Coordinator for her department, one of only a few professional
+        open science roles in the UK. She is very proud to support her colleagues in the
+        transition towards working open, and doing so with the principles of open leadership
+        at the forefront of her work.
 
 ChiaraBertipaglia:
     first-name: Chiara
@@ -539,7 +539,7 @@ dlebauer:
         - OLS-1 project lead
 
 ######## E
- 
+
 elsasci:
     first-name: Elsa
     last-name: Loissel
@@ -610,7 +610,7 @@ fpsom:
         - RDA
         - Machine Learning
         - Algorithm design and implementation
-        - Bioinformatics (NGS data analysis, Data Integration) 
+        - Bioinformatics (NGS data analysis, Data Integration)
     bio: |
         Fotis is an assistant research professor at the Institute of Applied Biosciences (INAB) at the Centre for Research and Technology
         Hellas (CERTH), with a primary focus on bioinformatics workflows and computational analysis of large bio-datasets using machine learning.
@@ -652,7 +652,7 @@ graciellehigino:
         - Research
         - Version control
     bio: |
-        All about theoretical ecology, the open movement and science communication! Co-leads the open 
+        All about theoretical ecology, the open movement and science communication! Co-leads the open
         SciComm training IGNITE.
 
 ######## H
@@ -769,12 +769,12 @@ ivotron:
         - General aspects of applying ML, Kubernetes, DevOps in scientific projects
         - Genomics, and bioinformatics in general
     bio: |
-        Ivo is a Research Scientist at UC Santa Cruz, Incubator Fellow at the UC Santa Cruz 
-        Center for Research on Open Source Software (CROSS); Adjunct Professor at University 
-        of Sonora. Interested in large-scale distributed data management systems, applied 
-        aspects of data science, and reproducibility. His 2019 PhD dissertation focused on 
-        the practical aspects in the reproducible evaluation of systems research, work for 
-        which he was awarded the 2018 Better Scientific Software Fellowship. He is currently 
+        Ivo is a Research Scientist at UC Santa Cruz, Incubator Fellow at the UC Santa Cruz
+        Center for Research on Open Source Software (CROSS); Adjunct Professor at University
+        of Sonora. Interested in large-scale distributed data management systems, applied
+        aspects of data science, and reproducibility. His 2019 PhD dissertation focused on
+        the practical aspects in the reproducible evaluation of systems research, work for
+        which he was awarded the 2018 Better Scientific Software Fellowship. He is currently
         working on Popper, as part of the CROSS Incubator Program.
 
 ######## J
@@ -810,10 +810,10 @@ jcolomb:
         - Communtiy building
         - Neurobiology
     bio: |
-        Former neuro-geneticist (10 year of research on fruit fly memory and behavior), he has been more 
-        recently interested in data analysis and management, as a specialisation for my interests in open 
-        science (open research). He is presently working on ways (technical and social) to implement the 
-        principles of FAIR and open data in the lab workflow and ways to foster collaboration between 
+        Former neuro-geneticist (10 year of research on fruit fly memory and behavior), he has been more
+        recently interested in data analysis and management, as a specialisation for my interests in open
+        science (open research). He is presently working on ways (technical and social) to implement the
+        principles of FAIR and open data in the lab workflow and ways to foster collaboration between
         researchers via the SmartFigure Gallery project.
 
 jezcope:
@@ -833,16 +833,16 @@ jezcope:
         - Learning & teaching
         - Libraries
     bio: |
-        Jez is Data Services Lead in The British Library’s Research Infrastructure Services team. 
-        He has over 8 years of experience developing and delivering research data management services and 
-        strategies at research-intensive higher education institutions in the UK, as part of a long-term 
-        goal to help communicate and collaborate more effectively using technology; previous roles include 
-        research data management at University of Sheffield, Imperial College London and University of Bath. 
-        He graduated from Imperial College London with an MSci in Joint Mathematics & Computing. He is an 
-        experienced teacher and is involved with grassroots-driven data & software skills training organisation 
-        The Carpentries, as a Certified Instructor and early contributor to Library Carpentry. He is particularly 
-        interested in elevating the status of research software alongside research data in the scholarly record, 
-        and helping researchers develop the skills to make the most of this. He is a Fellow of the Software 
+        Jez is Data Services Lead in The British Library’s Research Infrastructure Services team.
+        He has over 8 years of experience developing and delivering research data management services and
+        strategies at research-intensive higher education institutions in the UK, as part of a long-term
+        goal to help communicate and collaborate more effectively using technology; previous roles include
+        research data management at University of Sheffield, Imperial College London and University of Bath.
+        He graduated from Imperial College London with an MSci in Joint Mathematics & Computing. He is an
+        experienced teacher and is involved with grassroots-driven data & software skills training organisation
+        The Carpentries, as a Certified Instructor and early contributor to Library Carpentry. He is particularly
+        interested in elevating the status of research software alongside research data in the scholarly record,
+        and helping researchers develop the skills to make the most of this. He is a Fellow of the Software
         Sustainability Institute, 2020 intake.
 
 joelostblom:
@@ -872,7 +872,7 @@ joshsimmons:
     last-name: Simmons
     twitter: joshsimmons
     country: USA
-    
+
 ######## K
 
 
@@ -1066,11 +1066,11 @@ lauracion:
     life-science-expertise: |
         Once upon a time I was a molecular biologist.
     bio: |
-        I am a tenured adjunct researcher leading a health data science group. I also work to 
-        improve data analysis teaching and practice. One of the roles I enjoy most is mentoring and 
-        teaching others. I am part of the R-Ladies Global leadership team and a trainer and instructor 
-        for The Carpentries. In 2020, I co-founded MetaDocencia, an open, volunteer-led, collaborative, 
-        and Spanish-speaking education community. 
+        I am a tenured adjunct researcher leading a health data science group. I also work to
+        improve data analysis teaching and practice. One of the roles I enjoy most is mentoring and
+        teaching others. I am part of the R-Ladies Global leadership team and a trainer and instructor
+        for The Carpentries. In 2020, I co-founded MetaDocencia, an open, volunteer-led, collaborative,
+        and Spanish-speaking education community.
 
 lazycipher:
     first-name: Himanshu
@@ -1247,7 +1247,7 @@ martenson:
         - Multi-omics
         - Frameworks behind the software aspects of the science.
     bio: |
-        Martin is a computer fellow with an interest to help scientists tackle heaps of data. 
+        Martin is a computer fellow with an interest to help scientists tackle heaps of data.
         Spent last 7 years working on Galaxy project core codebases.
 
 martinagvilas:
@@ -1293,8 +1293,8 @@ mblue9:
         - Documentation
         - Cancer research
     bio: |
-        Maria is the Application and Training Specialist for Research Computing at the Peter MacCallum Cancer Centre in 
-        Melbourne, Australia. She specialises in bioinformatics and data science education and training. She is 
+        Maria is the Application and Training Specialist for Research Computing at the Peter MacCallum Cancer Centre in
+        Melbourne, Australia. She specialises in bioinformatics and data science education and training. She is
         passionate about supporting researchers, reproducible research, knowledge sharing and working collaboratively.
 
 meagdoh:
@@ -1310,9 +1310,9 @@ meagdoh:
         - Experience analytics
         - open research tools (https://www.researchallofus.org/)
     bio: |
-        Meag is an open data advocate and product design leader. Most recently, she mentored participants and co-hosted Mozilla's 
-        Open Leaders program (Cohort 6 & 7). Currently, she leads product design strategy for data and tools at National Institutes 
-        of Health All of Us Research Program. 
+        Meag is an open data advocate and product design leader. Most recently, she mentored participants and co-hosted Mozilla's
+        Open Leaders program (Cohort 6 & 7). Currently, she leads product design strategy for data and tools at National Institutes
+        of Health All of Us Research Program.
 
 Megmugure:
     first-name: Margaret
@@ -1367,7 +1367,7 @@ mloning:
     twitter: mm_loening
     email: Markus.loning@gmail.com
     website: https://www.linkedin.com/in/mloning/
-    affiliation: University College London 
+    affiliation: University College London
     country: UK
     pronouns: he/him
     expertise:
@@ -1380,7 +1380,7 @@ mloning:
         - Packaging/distribution
         - Applied machine learning projects in biochemical engineering, health and agricultural research
     bio: |
-        Markus is a PhD student at UCL and he is one of the core developers of sktime, 
+        Markus is a PhD student at UCL and he is one of the core developers of sktime,
         a toolbox for machine learning with time series.
 
 MorphoFun:
@@ -1475,7 +1475,7 @@ NPalopoli:
         Nicolas is a computational biologist interested in understanding the structural properties, biological
         function and evolutionary relationships of proteins. His current research focus are protein
         disorder and protein interactions mediated by Short Linear Motifs (SLiMs). He's seeking to make a
-        positive impact through teaching at all levels, mentoring students, taking part in professional 
+        positive impact through teaching at all levels, mentoring students, taking part in professional
         communities and supporting projects that do good.
 
 npscience:
@@ -1596,9 +1596,9 @@ piv-gopalasingam:
         - Structural biology
         - Biomedical sciences
     bio: |
-        Piv is a scientific training officer at the European Bioinformatics Institute (EMBL-EBI) 
+        Piv is a scientific training officer at the European Bioinformatics Institute (EMBL-EBI)
         where he mainly coordinates and supports training in Latin America via the [CABANA project](http://cabana.online/).
-        His background lies in structural biology and biomedical sciences, and he is passionate about science communication, 
+        His background lies in structural biology and biomedical sciences, and he is passionate about science communication,
         equity and inclusion.
     github: false
 
@@ -1624,8 +1624,8 @@ profgiuseppe:
         Giuseppe was a researcher in bioinformatics and teacher of programming in an international MSc degree.
         After moving to industry, he is focusing on devops, reproducible science and the creation of databases
         and tools for research institutions, hospitals and companies.
-        Wikimedian at heart, he loves when knowledge is open and shareable. Former university researcher. Software 
-        carpentry instructor. IT specialist for R&D 
+        Wikimedian at heart, he loves when knowledge is open and shareable. Former university researcher. Software
+        carpentry instructor. IT specialist for R&D
 
 ######## Q
 
@@ -1698,8 +1698,8 @@ rossmounce:
         - Taxonomy & Nomenclature
         - Systematics & Palaeontology
     bio: |
-        A biodiversity scientist who wants to liberate research from the constraints 
-        imposed by paywalls & PDFs. Also a Lubuntu user and Software Sustainability 
+        A biodiversity scientist who wants to liberate research from the constraints
+        imposed by paywalls & PDFs. Also a Lubuntu user and Software Sustainability
         Fellow (2016 Inauguration).
 
 rs_khetani:
@@ -1716,11 +1716,11 @@ rs_khetani:
         - Next Generation Sequencing in general
         - Transcriptomics
     bio: |
-        Radhika is the training director at the bioinformatics core at the Harvard T.H. Chan School 
-        of Public Health - they run regular workshops to enable wet lab biologists to perform analysis 
-        on NGS data using best practices (including FAIR data practices). Her doctoral training is in 
-        the wet lab, but she transitioned to dry lab work in 2009 and landed in an environment (thankfully) 
-        that was focused on open science and open data. 
+        Radhika is the training director at the bioinformatics core at the Harvard T.H. Chan School
+        of Public Health - they run regular workshops to enable wet lab biologists to perform analysis
+        on NGS data using best practices (including FAIR data practices). Her doctoral training is in
+        the wet lab, but she transitioned to dry lab work in 2009 and landed in an environment (thankfully)
+        that was focused on open science and open data.
 
 ######## S
 
@@ -1740,10 +1740,10 @@ SamGuay:
         - Reproducible reports
         - Clinical neuroscience
     bio: |
-        While completing his PhD in cognitive neuroscience at the Université de Montréal, 
-        Samuel organizes training events to equip his peers to make science more robust, 
-        accessible, and inclusive to all. He is the cofounder of Open Science UMontreal, 
-        an initiative that aims to facilitate the transition to a more open and transparent 
+        While completing his PhD in cognitive neuroscience at the Université de Montréal,
+        Samuel organizes training events to equip his peers to make science more robust,
+        accessible, and inclusive to all. He is the cofounder of Open Science UMontreal,
+        an initiative that aims to facilitate the transition to a more open and transparent
         way of doing science.
 
 SantosRAC:
@@ -1814,10 +1814,10 @@ sgibson91:
         - Effective and transparent communication of scientific analyses across a range of domain
         - Digital Humanities research into the Industrial Revolution
     bio: |
-        Sarah is a Research Software Engineer at The Alan Turing Institute where she implements software 
-        best practices to translate academic research into real world solutions through the Turing's collaborative 
-        network. Sarah is also an operator and maintainer for the Binder project and runs a BinderHub cluster at 
-        the Turing which receives traffic from mybinder.org. This year, she is also honoured to be a Software 
+        Sarah is a Research Software Engineer at The Alan Turing Institute where she implements software
+        best practices to translate academic research into real world solutions through the Turing's collaborative
+        network. Sarah is also an operator and maintainer for the Binder project and runs a BinderHub cluster at
+        the Turing which receives traffic from mybinder.org. This year, she is also honoured to be a Software
         Sustainability Institute Fellow and is using her Fellowship to nurture and diversify the Binder community.
 
 Sithyphus:
@@ -1883,11 +1883,11 @@ thessaly:
         - Science and knowledge democratization
         - Open science hardware inside/outside the lab
     bio: |
-        Julieta is a PhD candidate on social studies of science, with a background in environmental science. 
+        Julieta is a PhD candidate on social studies of science, with a background in environmental science.
         Her research asks how open science hardware can contribute to democratize science and tech in the 'global south' and what it means in each context.
-        She co-funded 'Open Hardware Makers', a mentorship program like OpenLifeSci but for Hardware; she's part of the Global Open Science Hardware (GOSH) 
+        She co-funded 'Open Hardware Makers', a mentorship program like OpenLifeSci but for Hardware; she's part of the Global Open Science Hardware (GOSH)
         community and loves tinkering with linked data for community science.
-        
+
 TKlingstrom:
     first-name: Tomas
     last-name: Klingström
@@ -1921,8 +1921,8 @@ tnabtaf:
         - Imposter Syndrome
         - Data analysis and integration
     bio: |
-        Dave coordinates training and outreach for the Galaxy Project. He has been a community person in life sciences 
-        for 13 years. Before that he worked in biological databases for 7 years. His training is in Computer Science, 
+        Dave coordinates training and outreach for the Galaxy Project. He has been a community person in life sciences
+        for 13 years. Before that he worked in biological databases for 7 years. His training is in Computer Science,
         with an emphasis on databases.
 
 tobyhodges:
@@ -1991,7 +1991,7 @@ unode:
         - Meta-transcriptomics
     bio: |
         Renato is a computational biologist with a background in evolution, genomics and the microbiome.
-        Currently project and community manager of the [EMBL Bio-IT project](https://bio-it.embl.de/), 
+        Currently project and community manager of the [EMBL Bio-IT project](https://bio-it.embl.de/),
         supporting the local bio-computational community through training, consulting and core resources.
         Open-source and scientific reproducibility advocate.
         When not tanning in front of a screen you may find him wandering the green and blue in Nature.
@@ -2092,8 +2092,8 @@ Zebetus:
     email: haz.zebetus@gmail.com
     expertise:
         - Community Organisation
-        - Event organising 
-        - Communication	
+        - Event organising
+        - Communication
         - Physics (Quantum Nanowires)
     bio: |
         A mentor for many previous waves of open leaders, who is currently studying for their PhD at UCL.

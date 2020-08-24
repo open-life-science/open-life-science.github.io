@@ -1,5 +1,5 @@
 # List of projects for OLS-1
-# 
+#
 # Mentors and participants should be also in people.yaml file and linked using their GitHub username
 ---
 - name: Open Science Community Barcelona (OSCBa)
@@ -7,12 +7,12 @@
     - bonetcarne
   mentors: Zebetus
   description: >
-    This project aims to create a community of local scientists to share and promote open science in Barcelona, 
-    Spain. I would like to use as an example the <a href="https://openscience-utrecht.com/">OSCU</a> 
-    and other initiatives like openscience beers in Montreal. The initial goal would be to reach researchers 
-    from different institutions: UB, UPC, UPF, UOC, 
+    This project aims to create a community of local scientists to share and promote open science in Barcelona,
+    Spain. I would like to use as an example the <a href="https://openscience-utrecht.com/">OSCU</a>
+    and other initiatives like openscience beers in Montreal. The initial goal would be to reach researchers
+    from different institutions: UB, UPC, UPF, UOC,
     UAB, etc. and meet informally in a bar/pub periodically.<br>
-    
+
     During the meetings we would present/talk about what we do, we will promote knowledge
     exchange and will discuss on how we could improve our research in terms of open science,
     for example performing more transparent research and sharing data/code.
@@ -21,7 +21,7 @@
     research group would be to have resources to help researchers in terms of data sharing or
     interactive paper publication. If we can define common needs we will be able to apply for
     some funding to cover them.<br>
-    
+
     We will also use this plantform to motivate colleages from other parts of the country to create
     their own local community and then connect for some events.
 
@@ -38,10 +38,10 @@
     investigate feasible solutions to help create a system that creates, collects and processes
     data efficiently for impactful research especially for driving health research and driving health
     related policies.<br>
-    
+
     In this project, I will focus on: improving quality of gender data generated in sub Saharan Africa for research and
     driving health policies, creating room to make health surveillance possible and easy for policy makers to take
-    data driven decisions, and helping establish framework to run health data registries in more regions within 
+    data driven decisions, and helping establish framework to run health data registries in more regions within
     sub-Saharan Africa.
 
 - name: Infusing a culture of open science within the community of researchers at the Zuckerman Institute
@@ -71,7 +71,9 @@
     - Megmugure
     - Kiragu-Mwaura
     - LandiMi2
-  mentors: tobyhodges
+  mentors:
+    - tobyhodges
+    - malvikasharan
   description: >
     The Bioinformatics Hub of Kenya is an entity that develops and manages training in
     bioinformatics and computational biology and provides a space in which research in
@@ -133,8 +135,9 @@
 - name: Media Lab Nepal for Computational Biology
   participants:
     - sudarshangc
-  mentors: 
+  mentors:
     - aidanbudd
+    - malvikasharan
   description: >
     <a href="https://medialabnepal.com/">Media Lab Nepal</a> is only one community bio lab of Nepal focusing on democratization of life
     sciences through open science. It is an interdisciplinary team of students and
@@ -144,7 +147,7 @@
     innovations to entrepreneurship for maintaining sustainability. We are also
     partnering with community bio labs of our neighbouring countries like India,
     Bangladesh and Pakistan.<br>
-    
+
     I want to initiate computational biology in Nepal to more number of enthusiasts
     from different fields during this program. Getting the support from mentors, like
     minded people and their mentoring will help for the sustainability of our project.
@@ -159,7 +162,7 @@
     - lazycipher
   mentors: yochannah
   description: >
-    <a href="http://intermine.org/">InterMine</a> is a powerful open source data warehouse system. 
+    <a href="http://intermine.org/">InterMine</a> is a powerful open source data warehouse system.
     It allows users to integrate
     diverse data sources with a minimum of effort, providing powerful web-services and an
     elegant web-application with minimal configuration. But InterMine warehouses are
@@ -199,7 +202,7 @@
     <a href="https://bio-it.embl.de">Bio-IT project</a> at the <a href="https://embl.org">European Molecular Biology Laboratory (EMBL)</a>
     is an initiative established in 2010 to support the development and
     technical capacity of its diverse bio-computational community.<br>
-    
+
     After finishing my PhD recently at EMBL, I took
     the next role as a Bio-IT community coordinator within the same organisation. In order to perform
     effectively in my job, I want to formally gain community management skills and understand
@@ -252,10 +255,10 @@
 - name: How to build an healthy and open lab
   participants:
     - elsasci
-  mentors: 
+  mentors:
     - dasaderi
     - pherterich
-  description: >  
+  description: >
     I would like to create a one-stop shop for new life science PIs who want to start their labs
     using principles, resources and practices found in the open space, but who may struggle to
     find and access this content themselves. More importantly, I would like to design an efficient
@@ -300,7 +303,7 @@
     engaging a broad community of bioimaging and bioimage analysis experts. The <a href="">EDAM-bioimaging</a>
      work was initiated by Jon Ison, Josh Moore, and others, and I have been
     responsible for its further coordination.<br>
-    
+
     EDAM is used in applications such as registries of computational tools or training materials
     (contributing to open science), in the Common Workflow Language (<a href="https://www.commonwl.org/">CWL</a>), or in automated
     workflow composition. It is also in the process of implementation in various parts of the
@@ -323,14 +326,14 @@
     Our mission is to provide scientists with open software, data, and computing that improves
     development of productive and sustainable agricultural systems. One of our persistent hurdles
     has been enabling and motivating the community to use our software and data.<br>
-    
+
     To address this, our project will focus on improving documentation for data and software that
     our group develops, as well as identifying and sharing best practices with the broader
     community. We will include the <a href="https://docs.terraref.org/">TERRA REF project</a>, which produces
-    high-resolution sensor data on crop plants, and the <a href="https://osf.io/xdkcy/wiki/home/">drone pipeline</a>, 
+    high-resolution sensor data on crop plants, and the <a href="https://osf.io/xdkcy/wiki/home/">drone pipeline</a>,
     which automates steps in the use of drones to study crops.
     Both projects produce open data (CC0 and CC-BY) and software (MIT/BSD compatible).<br>
-    
+
     Our goal is to make our products more usable for our intended audience, which is primarily
     scientists across a range of disciplines from computer science to remote sensing. We plan to
     have each person in the group complete a sub-project that can be finished in 15 weeks. Each
@@ -346,7 +349,7 @@
     I'm a member of the technical team for LORIS (github.com/aces/loris), an open-source
     neuroinformatics platform that allows researchers to collaboratively collect, curate and share
     data on the brain, behaviour and genes.<br>
-    
+
     Aside from Jupyter notebooks, gitlab, and a few platforms that focus on data storage and
     linear processing paths, it can be hard to find platforms where researchers can safely
     collaborate with real transparency, while sharing as they go through a data collection
@@ -354,7 +357,7 @@
     I work already with an open-source project that provides these tools, but our platform can be
     challenging to adopt for new projects without dedicated technical resources, given the depth
     of knowledge and time required.<br>
-    
+
     My objective for this project is to begin tackling this from a few angles, including
     documentation, publication, and nudges in our code development process. I believe it is
     feasible in this timeline to also pilot open tools with a new project or as an extension to an
@@ -383,7 +386,7 @@
     and student / staff mentees are fully transparent so that the mentoring process can be
     improved for science mentees.
   graduated: true
-  
+
 - name: Open Science UMontreal (OSUM)
   participants:
     - SamGuay
@@ -410,19 +413,19 @@
     <a href="https://chat.openscience.ca">chat.openscience.ca</a>, an open-source alternative to Slack!
     We want to get to know you (and your initiative)!
   graduated: true
-    
+
 - name: Creating network of Data Champions at the library of Free University of Amsterdam
   participants:
     - LangData
   mentors: pherterich
   description: >
-    From February 1st I am starting a new position as community manager RDM at the library 
-    of Free University of Amsterdam (VU). My ultimate goal is to bridge the gap between 
+    From February 1st I am starting a new position as community manager RDM at the library
+    of Free University of Amsterdam (VU). My ultimate goal is to bridge the gap between
     researchers and support personal by creating opportunities for networking and collaboration.
-    The project that I would like to develop as part of the Innovation Leaders programme is setting 
-    up a network of Data Champions. Data Champions are local community member willing to share their 
-    discipline-specific expertise with colleagues; they advocate good RDM practice and advise and 
-    proper handling of research data.<br> 
-    Similar programs have been launched at the University of Cambridge, TU Delft, and Wageningen University. 
+    The project that I would like to develop as part of the Innovation Leaders programme is setting
+    up a network of Data Champions. Data Champions are local community member willing to share their
+    discipline-specific expertise with colleagues; they advocate good RDM practice and advise and
+    proper handling of research data.<br>
+    Similar programs have been launched at the University of Cambridge, TU Delft, and Wageningen University.
     The main goal of the Data Champion programme is to drive cultural change towards open science and open data.
   graduated: true
