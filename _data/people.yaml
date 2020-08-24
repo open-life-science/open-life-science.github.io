@@ -27,6 +27,8 @@ aath0:
     email: athina.tz@gmail.com
     website: https://aath0.github.io/
     orcid: 0000-0002-7588-1418
+    country: Switzerland
+    pronouns: she/her
     expertise:
         - Machine Learning
         - Statistics
@@ -43,6 +45,8 @@ aidanbudd:
     email: aidan.budd@gmx.de
     website: https://about.me/aidan.budd
     orcid: 0000-0003-0196-9051
+    country: Germany
+    pronouns: he/him
     expertise:
         - Community building
         - Communications
@@ -64,6 +68,8 @@ ajstewartlang:
     email: andrew.stewart@manchester.ac.uk
     website: https://ajstewartlang.netlify.app
     orcid: 0000-0002-9795-4104
+    country: UK
+    pronouns: he/him
     expertise:
         - Experimental Psychology
         - Research Methods
@@ -83,7 +89,7 @@ alexwlchan:
     website: https://alexwlchan.net/
     affiliation: Wellcome Trust
     country: UK
-    pronouns: they/them
+    pronouns: she/her/they/them
 
 anayan321:
     first-name: Anunya
@@ -126,6 +132,8 @@ anenadic:
     email: a.nenadic@manchester.ac.uk
     website: https://www.software.ac.uk/about/staff/person/aleksandra-nenadic
     orcid: 0000-0002-2269-3894
+    country: UK
+    pronouns: she/her
     expertise:
         - Teaching pedagogy and instructor training
         - Programming
@@ -147,8 +155,8 @@ anita-broellochs:
     twitter: AnitaBroellochs
     email: anita@protocols.io
     website: www.protocols.io
-    affiliation:
-    country:
+    affiliation: Protocols.io
+    country: USA
     pronouns: she/her
     expertise:
         - Open method sharing
@@ -172,6 +180,7 @@ anjali-mazumder:
     affiliation: Alan Turing Institute
     country: UK
     pronouns: she/her
+    github: false
     expertise:
         - Data Science
         - Ethics
@@ -185,13 +194,14 @@ anjali-mazumder:
         the law, and bias measures/fairness methods in algorithms in justice. She is also an Assistant Research Professor in the Department of
         Statistics & Data Science and faculty affiliate in the Block Centre for Technology and Society at Carnegie Mellon University.
 
-
 annakrystalli:
     first-name: Anna
     last-name: Krystalli
     twitter: annakrystalli
     email: annakrystalli@googlemail.com
     orcid: 0000-0002-2378-4915
+    country: UK
+    pronouns: she/her
     expertise:
         - All things R!
         - Reproducible research & Research Data Management
@@ -210,6 +220,9 @@ anneclinio:
     last-name: Clinio
     twitter: anneclinio
     email: anneclinio@gmail.com
+    website: https://hcommons.org/members/anneclinio/
+    country: Brazil
+    pronouns: she/her
     expertise:
         - Citizen science and Citizen labs
         - Open notebooks
@@ -226,6 +239,8 @@ annefou:
     email: annefou@geo.uio.no
     website: https://annefou.github.io
     orcid: 0000-0002-1784-2920
+    country: Norway
+    pronouns: she/her
     expertise:
         - Git/github
         - Best software practices
@@ -240,7 +255,7 @@ ArielleBL:
     twitter: biotechchat
     email: ab833@cam.ac.uk
     affiliation:
-    country:
+    country: UK
     pronouns: she/her
     expertise:
         - Road mapping and strategy planning
@@ -266,6 +281,7 @@ bduckles:
     email: beth@duckles.com
     website: https://bethduckles.com/
     country: US
+    pronouns: she/her
 
 bebatut:
     first-name: Bérénice
@@ -301,6 +317,8 @@ bgruening:
     email: bjoern.gruening@gmail.com
     orcid: 0000-0002-3079-6586
     website: https://github.com/bgruening/
+    country: Germany
+    pronouns: he/him
     expertise:
         - Containers, Conda
         - Galaxy
@@ -321,6 +339,8 @@ BhuvanaMeenakshiK:
     twitter: bhuvanakotees1
     email: bhuvanameenakshi@gmail.com
     website: https://www.linkedin.com/in/bhuvana-meenakshi-koteeswaran-a67b58103/
+    country: India
+    pronouns: she/her
     expertise:
         - Gender gap and bias
         - Mozilla technologies
@@ -355,10 +375,10 @@ bruno-soares:
     last-name: Eleres Soares
     twitter: Bruno_E_Soares
     affiliation: Universidade Federal do Rio de Janeiro
-    country: Brazil
-    pronouns: he/him
     orcid: 0000-0001-5678-0403
     website: https://sites.google.com/view/bruno-eleres-soares
+    country: Brazil
+    pronouns: he/him/she/her
     expertise:
         - OLS-1 project lead
         - SciComm
@@ -472,6 +492,8 @@ dasaderi:
     email: daniela@prereview.org
     website: https://v2.prereview.org
     orcid: 0000-0002-6109-0367
+    pronouns: she/her
+    country: USA
     expertise:
         - Open scholarship
         - Community organizing
@@ -487,6 +509,7 @@ davidviryachen:
     twitter: davidchenn
     affiliation: Osaka University
     country: Japan
+    pronouns: he/him
     expertise:
         - OLS-1 project lead
 
@@ -497,6 +520,7 @@ Delphine-L:
     affiliation: Penn State University
     country: USA
     website: https://observablehq.com/@delphine-l
+    pronouns: she/her
     expertise:
         - Organization of open-source/collaborative projects
         - Github
@@ -518,6 +542,8 @@ Demellina:
     last-name: Ellina
     email: Demitra.Ellina@f1000.com
     twitter: j_ellina
+    country: UK
+    pronouns: she/her
     expertise:
         - Open Research practises
         - Open data
@@ -535,6 +561,7 @@ dlebauer:
     twitter: dlebauer
     affiliation: University of Arizona
     country: USA
+    pronouns: he/him
     expertise:
         - OLS-1 project lead
 
@@ -558,6 +585,8 @@ emmyft:
     email: e.tsang@elifesciences.org
     website: https://elifesci.org/labs
     orcid: 0000-0002-9248-1280
+    country: The Netherlands
+    pronouns: she/her
     expertise:
         - Community strategies
         - Publishing and scholarly communication
@@ -602,6 +631,8 @@ fpsom:
     email: fpsom@certh.gr
     website: https://fpsom.github.io/
     orcid: 0000-0002-0222-4273
+    country: Greece
+    pronouns: he/him
     expertise:
         - Open Software
         - Software Management
@@ -628,6 +659,8 @@ gedankenstuecke:
     email: bgreshake@googlemail.com
     website: https://tzovar.as
     orcid: 0000-0002-9925-9623
+    country: France
+    pronouns: he/him
     expertise:
         - Citizen science
         - Open source
@@ -643,8 +676,8 @@ graciellehigino:
     last-name: Higino
     email: graciellehigino@gmail.com
     affiliation:
-    country:
-    pronouns:
+    country: Brazil
+    pronouns: she/her
     expertise:
         - Project management
         - Outreach and communication
@@ -688,6 +721,8 @@ hdinkel:
     last-name: Dinkel
     email: holger.dinkel@posteo.de
     orcid: 0000-0002-9316-5204
+    country: Germany
+    pronouns: he/him
     expertise:
         - Programming (Python)
         - Version control (git)
@@ -740,6 +775,8 @@ InquisitiveVi:
     twitter: I_Vinodh
     email: vinodh.ilangovan@gmail.com
     orcid: 0000-0002-3445-5383
+    country: Germany
+    pronouns: he/him
     expertise:
         - Community building
         - Equity diversity and inclusion
@@ -786,6 +823,8 @@ JasonJWilliamsNY:
     email: williams@cshl.edu
     website: https://lifescitrainers.org
     orcid: 0000-0003-3049-2010
+    country: USA
+    pronouns: he/him
     expertise:
         - Education and training
         - Life Science Education
@@ -851,6 +890,8 @@ joelostblom:
     email: joel.ostblom@gmail.com
     website: https://joelostblom.com
     orcid: 0000-0003-0051-3239
+    country: Canada
+    pronouns: he/him
     expertise:
         - Static and interactive data visualization
         - Introductory data science
@@ -883,6 +924,8 @@ kariljordan:
     email: kariljordan@carpentries.org
     website: https://www.kariljordan.com
     orcid: 0000-0003-4121-2432
+    country: USA
+    pronouns: she/her
     expertise:
         - Equity and Inclusion
         - Assessment
@@ -902,12 +945,16 @@ karinlag:
     first-name: Karin
     last-name: Lagesen
     twitter: karinlag
+    country: Norway
+    pronouns: she/her
 
 katrinleinweber:
     first-name: Katrin
     last-name: Leinweber
     email: leinweber.katrin@gmail.com
     orcid: 0000-0001-5135-5758
+    country: Germany
+    pronouns: she/her
     expertise:
         - Git and GitHub/GitLab
         - R tidyverse
@@ -926,6 +973,8 @@ klauer2207:
     pronouns: she/her
     email: katharina.lauer@elixir-europe.org
     website: https://www.linkedin.com/in/katharina-lauer-33aa2674/
+    country: UK
+    pronouns: she/her
     expertise:
         - Stakeholder engagement
         - Entrepreneurship
@@ -946,6 +995,8 @@ kipkurui:
     last-name: Kibet
     twitter: calkibet
     email: ckibet@icipe.org
+    country: Kenya
+    pronouns: he/him
     expertise:
         - Community building
         - Reproducibility
@@ -962,6 +1013,7 @@ Kiragu-Mwaura:
     twitter: MwauraKiragu
     affiliation: Institute of Primate Research
     country: Kenya
+    pronouns: he/him
     expertise:
         - OLS-1 project lead
 
@@ -972,6 +1024,8 @@ KirstieJane:
     email: kwhitaker@turing.ac.uk
     website: https://whitakerlab.github.io/
     orcid: 0000-0001-8498-4059
+    country: UK
+    pronouns: she/her
     expertise:
         - Open research
         - Reproducibility
@@ -1006,6 +1060,7 @@ kswhitney:
     email: kxwsbi@rit.edu
     website: https://pht180.rit.edu/sweetlab/
     orcid: 0000-0002-0815-5037
+    country: Germany
     expertise:
         - Accessibility
         - Ethics
@@ -1026,6 +1081,7 @@ LandiMi2:
     twitter: CofiaLandy
     affiliation: International Livestock Research Institute
     country: Kenya
+    pronouns: he/him
     expertise:
         - OLS-1 project lead
 
@@ -1034,7 +1090,7 @@ LangData:
     last-name: Karvovskaya
     twitter: LangData
     affiliation: Free University of Amsterdam
-    country: Netherlands
+    country: The Netherlands
     pronouns: she/her
     email: e.karvovskaya@vu.nl
     expertise:
@@ -1122,6 +1178,8 @@ luispedro:
     email: luis@luispedro.org
     website: http://luispedro.org
     orcid: 0000-0002-9280-7885
+    country: China
+    pronouns: he/him
     expertise:
         - Computational biology
         - Group leadership
@@ -1169,6 +1227,7 @@ MagicMilly:
     twitter: magic_milly
     affiliation: University of Arizona
     country: USA
+    pronouns: she/her
     expertise:
         - OLS-1 project lead
 
@@ -1210,6 +1269,8 @@ malvikasharan:
     email: malvikasharan@gmail.com
     gitter: malvikasharan
     orcid: 0000-0001-6619-7369
+    country: UK
+    pronouns: she/her
     expertise:
         - OLS co-lead
         - Community building
@@ -1256,6 +1317,7 @@ martinagvilas:
     twitter: martinagvilas
     email: martinagonzalezvilas@gmail.com
     website: www.martinagvilas.github.io
+    country: Germany
     pronouns: she/her
     expertise:
         - Open-source
@@ -1288,6 +1350,7 @@ mblue9:
     email: maria.doyle@petermac.org
     affiliation: Peter MacCallum Cancer Centre
     country: Australia
+    pronouns: she/her
     expertise:
         - Training material
         - Documentation
@@ -1303,6 +1366,7 @@ meagdoh:
     twitter: emdohh
     email: meagdoherty@gmail.com
     website: https://meagdoherty.io
+    country: USA
     pronouns: she/her
     expertise:
         - User research
@@ -1320,6 +1384,7 @@ Megmugure:
     twitter: meg_wanjiku
     affiliation: International Livestock Research Institute
     country: Kenya
+    pronouns: she/her
     expertise:
         - OLS-1 project lead
 
@@ -1350,6 +1415,8 @@ mkuzak:
     twitter: matkuzak
     email: mateusz.kuzak@gmail.com
     orcid: 0000-0003-0087-6021
+    country: The Netherlands
+    pronouns: he/him
     expertise:
         - Training
         - Open research software
@@ -1399,6 +1466,8 @@ mruizvelley:
     twitter: mruizvelley
     email: mruizvelley@gmail.com
     orcid: 0000-0002-9248-1280
+    country: Germany
+    pronouns: she/her
     expertise:
         - Programming
         - Agile teamwork
@@ -1419,6 +1488,8 @@ mvdbeek:
     twitter: mariusvdbeek
     email: m.vandenbeek@gmail.com
     orcid: 0000-0002-9676-7032
+    country: France
+    pronouns: he/him
     expertise:
         - Galaxy development, tools and workflows
         - Python programming, testing and debugging
@@ -1448,6 +1519,8 @@ nerantzis:
     twitter: nerantzis
     email: ScienceBrainFun@gmail.com
     website: https://4myfiles.wordpress.com
+    country: Greece
+    pronouns: he/him
     expertise:
         - Inclusion
         - Accessibility
@@ -1485,6 +1558,7 @@ npscience:
     email: naomi.penfold@asapbio.org
     website: https://npscience.github.io
     orcid: 0000-0003-0568-1194
+    country: UK
     pronouns: she/her/they/them
     expertise:
         - Designing participatory events (online and in-person)
@@ -1506,6 +1580,8 @@ nsoranzo:
     email: nicola.soranzo@gmail.com
     website: https://www.earlham.ac.uk/nicola-soranzo
     orcid: 0000-0003-3627-5340
+    country: UK
+    pronouns: he/him
     expertise:
         - Programming
         - Open Source
@@ -1527,6 +1603,8 @@ orchid00:
     last-name: Andrea Martinez
     email: p.martinez@uq.edu.au
     orcid: 0000-0002-8990-1985
+    country: Australia
+    pronouns: she/her
     expertise:
         - Biomedical
         - Bioinformatics
@@ -1546,6 +1624,7 @@ paulvill:
     last-name: Villoutreix
     twitter: paulvilloutreix
     website: https://paulcinq.wordpress.com
+    country: France
     pronouns: he/him
     expertise:
         - Machine learning
@@ -1562,10 +1641,12 @@ paulvill:
         atlas" and was several times mentor in Mozilla Open Leadership's program.
 
 pherterich:
-    first-name: Patricia Herterich
-    last-name:
+    first-name: Patricia
+    last-name: Herterich
     twitter: pherterich
     orcid: 0000-0002-4542-9906
+    country: UK
+    pronouns: she/her
     expertise:
         - Data management
         - Collaboration
@@ -1608,6 +1689,7 @@ profgiuseppe:
     email: profgiuseppe@gmail.com
     website: https://sites.google.com/site/peppeprofiti
     orcid: 0000-0001-6067-6174
+    country: Italy
     pronouns: he/him
     expertise:
         - Devops - Continuous Integration/Deployment
@@ -1638,6 +1720,8 @@ rainsworth:
     email: rainswor@gmail.com
     website: https://rainsworth.github.io/
     orcid: 0000-0003-2591-9462
+    pronouns: she/her
+    country: UK
     expertise:
         - Open Science/Research
         - Reproducibility
@@ -1657,8 +1741,9 @@ rgaiacs:
     last-name: Silva
     twitter: rgaiacs
     email: raniere@rgaiacs.com
-    pronouns: he/him
     website: https://rgaiacs.com
+    country: Brazil
+    pronouns: he/him
     expertise:
         - GitHub/GitLab
         - License
@@ -1676,6 +1761,7 @@ rodrigocam:
     last-name: Oliveira Campos
     twitter: sayadiguin
     email: rodrigo.redcode@gmail.com
+    country: Brazil
     expertise:
         - Open source communities
         - Agile culture
@@ -1691,6 +1777,7 @@ rossmounce:
     last-name: Mounce
     email: ross.mounce@gmail.com
     website: http://rossmounce.co.uk/
+    country: UK
     pronouns: he/him
     expertise:
         - Policy
@@ -1707,9 +1794,9 @@ rs_khetani:
     last-name: Khetani
     twitter: rs_khetani
     email: khetani.r@gmail.com
-    pronouns: she/her
     affiliation: Harvard T.H. Chan School of Public Health
     country: USA
+    pronouns: she/her
     expertise:
         - Training
         - Consulting in the genomics area
@@ -1731,8 +1818,8 @@ SamGuay:
     email: samuel.guay@umontreal.ca
     affiliation: Université de Montréal
     country: Canada
-    pronouns: he/him
     website: https://openscience.ca
+    pronouns: he/him
     expertise:
         - OLS-1 project lead
         - Open Science
@@ -1751,6 +1838,8 @@ SantosRAC:
     last-name: dos Santos
     twitter: CorreaSantosRA
     email: renatoacsantos@gmail.com
+    country: Brazil
+    pronouns: he/him
     expertise:
         - Bioinformatics
         - Introduction to programming skills (Python or Perl)
@@ -1765,6 +1854,8 @@ satagopam7:
     email: venkata.satagopam@uni.lu
     website: https://wwwen.uni.lu/lcsb/people/venkata_satagopam
     orcid: 0000-0002-6532-5880
+    country: Luxembourg
+    pronouns: he/him
     expertise:
         - Clinical and Translational Medicine Informatics
         - Data Management & FAIRification
@@ -1784,8 +1875,8 @@ sdopoku:
     last-name: Selassie Opoku
     twitter: sdopoku
     email: david@adoore.org
-    pronouns: he/him
     country: Ghana
+    pronouns: he/him
     expertise:
         - Open data
         - Low-income/low-tech data skills and resource design
@@ -1825,6 +1916,7 @@ Sithyphus:
     last-name: Barrios
     affiliation: University of Arizona
     country: USA
+    pronouns: he/him
     expertise:
         - OLS-1 project lead
 
@@ -1874,6 +1966,7 @@ thessaly:
     website: https://julieta.aranc.io/
     orcid: 0000-0002-8624-4182
     country: Argentina
+    pronouns: she/her
     expertise:
         - Hardware prototypes
         - Contributing and using open science hardware
@@ -1895,6 +1988,7 @@ TKlingstrom:
     website: https://www.slu.se/en/ew-cv/tomas-klingstrom/
     affiliation: Swedish University of Agricultural Sciences
     country: Sweden
+    pronouns: he/him
     expertise:
         - Bioinformatics
         - Figuring out the social aspects of collaborations
@@ -1932,6 +2026,7 @@ tobyhodges:
     email: tbyhdgs@gmail.com
     website: https://tbyhdgs.info
     orcid: 0000-0003-1766-456X
+    country: Germany
     pronouns: he/him
     expertise:
         - Designing training material
@@ -1954,9 +2049,9 @@ tsonika:
     twitter: tsonika
     email: sonika.tyagi@monash.edu
     website: https://bioinformaticslab.erc.monash.edu
-    pronouns: she/her
     affiliation: Monash University Melbourne
     country: Australia
+    pronouns: she/her
     expertise:
         - Genomics
         - Machine Learning
@@ -2005,6 +2100,7 @@ vcheplygina:
     email: veronika@veronikach.com
     orcid: 0000-0003-0176-9324
     website: https://www.veronikach.com
+    country: The Netherlands
     pronouns: she/her
     expertise:
         - Machine learning
@@ -2022,6 +2118,8 @@ VickyNembaware:
     twitter: VickyNembaware
     email: vnembaware@gmail.com
     orcid: 0000-0001-7966-4042
+    country: South Africa
+    pronouns: she/her
     expertise:
         - Bioinformatics
         - Genomics and Genomic Medicine
@@ -2054,6 +2152,8 @@ yochannah:
     email: yoyehudi@gmail.com
     gitter: yochannah
     orcid: 0000-0003-2705-1724
+    country: UK
+    pronouns: they/them
     expertise:
         - OLS co-lead
         - Software development
@@ -2090,6 +2190,7 @@ Zebetus:
     last-name: Smith
     twitter: Zebetus
     email: haz.zebetus@gmail.com
+    country: UK
     expertise:
         - Community Organisation
         - Event organising
