@@ -15,10 +15,11 @@ photos:
 {% for project in projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
     {% endfor %}
 {% endfor %}
-{% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
+
+{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
 
 Participants join this program with a project that they either are already working on or want to develop during this program.
 
@@ -32,12 +33,12 @@ For the second round of the Open Life Science program, we are happy to have [{{ 
         {% assign p-pparticipants = '' %}
         
         {% for p in project.participants %}
-            {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].name }}](#{{ p }}){% endcapture %}
+            {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
         {% endfor %}
         
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
-        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].name }}](/ols-1/mentors-experts#{{ p }})
+        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-2#{{ p }})
         {% endfor %}
         {% endcapture %} 
 
