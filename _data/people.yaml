@@ -76,7 +76,7 @@ ajstewartlang:
         - Data Science
         - R (teaching and research)
         - Cognitive (Neuro)science
-    bio: >
+    bio: |
         Andrew is an experimental psychologist and data scientist interested in open and reproducible research - he coordinates the Manchester Open Research Working Group and acts as the UK Reproducibility Network representative at Manchester.
         All his teaching resources are open (content-wise 95% of his teaching involves teaching R at various levels) with all lecture and seminar content, workshops etc. available on GitHub.  He also co-organises the Manchester R Users' Group, is a fellow of the SSI and associate member of Carole Goble's eScience lab group.
         All the research programmes he leads involve open data and open code - and everything should be fully reproducible.
@@ -180,7 +180,6 @@ anjali-mazumder:
     affiliation: Alan Turing Institute
     country: UK
     pronouns: she/her
-    github: false
     expertise:
         - Data Science
         - Ethics
@@ -193,6 +192,7 @@ anjali-mazumder:
         including projects on data science/AI to combat modern slavery and other exploitative crimes (and co-organiser of Code 8.7), statistics and
         the law, and bias measures/fairness methods in algorithms in justice. She is also an Assistant Research Professor in the Department of
         Statistics & Data Science and faculty affiliate in the Block Centre for Technology and Society at Carnegie Mellon University.
+    github: false
 
 annakrystalli:
     first-name: Anna
