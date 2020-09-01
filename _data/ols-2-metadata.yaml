@@ -1,10 +1,11 @@
 # List of experts and guest speakers for OLS-2
-# 
+#
 #
 # People should be also in people.yaml file and linked using their GitHub username
 ---
 experts:
   - aath0
+  - agbeltran
   - aidanbudd
   - ajstewartlang
   - alexwlchan
@@ -153,4 +154,4 @@ possible-mentors:
 organizers:
   - bebatut
   - malvikasharan
-  - yochannah 
+  - yochannah
