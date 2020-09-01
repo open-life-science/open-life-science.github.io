@@ -250,6 +250,7 @@
 - name: BioLab Open Source Projects
   participants:
     - Boi-KONE
+    - bakary-n'tji diallo
   mentors:
     - Delphine-L
   description: |
@@ -313,6 +314,7 @@
 
 - name: Supervised Classification with UMAP and Network Propagation
   participants:
+    - joel-hancock
     - kiri93
   mentors:
     - mloning

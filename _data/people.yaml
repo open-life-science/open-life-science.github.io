@@ -106,7 +106,7 @@ DavidBeavan:
   country: UK
   email: dbeavan@turing.ac.uk
   first-name: David
-  last-name: David
+  last-name: Beavan
   twitter: DavidBeavan
 Delphine-L:
   affiliation: Penn State University
@@ -881,7 +881,7 @@ bakary-n'tji diallo:
   github: false
   last-name: N'tji Diallo
 bduckles:
-  country: US
+  country: USA
   email: beth@duckles.com
   first-name: Beth
   last-name: Duckles
@@ -1395,7 +1395,7 @@ ivotron:
     working on Popper, as part of the CROSS Incubator Program.
 
     '
-  country: US
+  country: USA
   email: ivo.jimenez@gmail.com
   expertise:
   - Reproducibility
