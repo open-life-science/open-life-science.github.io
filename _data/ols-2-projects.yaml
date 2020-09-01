@@ -25,7 +25,7 @@
 
 - name: Mapping Science using Open Scholarship
   participants:
-    - sdmgaillard
+    - stefan-gaillard
   mentors:
     - malvikasharan
     - yochannah
@@ -67,7 +67,7 @@
 
 - name: Synthetic Biology Chassis Toolkit for Public Domain Use
   participants:
-    - codebiologist
+    - stephen-klusza
   mentors:
     - anita-broellochs
   description: |
@@ -103,7 +103,7 @@
 
 - name: Chronic Learning
   participants:
-    - BaileyHarrington
+    - bailey-harrington
   mentors:
     - piv-gopalasingam
   description: |
@@ -119,7 +119,7 @@
 - name: Open Innovation in Life Sciences
   participants:
     - joyceykao
-    - CAmbrosi4
+    - christina-ambrosi
   mentors:
     - aidanbudd
   description: |
@@ -290,9 +290,10 @@
     liver cirrhosis and to identify there role to a healthy growing liver or
     decrease there damaging features.
 
-- name: Science For All (Sci4All) - Citizens’ daily problem solving by engaging multidisciplinary scientific communities
+- name: Science For All (Sci4All) - Citizens' daily problem solving by engaging multidisciplinary scientific communities
   participants:
     - tlaguna
+    - laurichi13
   mentors:
     - klauer2207
   description: |
@@ -333,6 +334,8 @@
 - name: Building a Database for Open Access Immunology Pre-prints and Publications on COVID-19
   participants:
     - natty2012
+    - sonibk
+    - jelioth-muthoni
   mentors:
     - npscience
   description: |
@@ -355,7 +358,7 @@
 - name: Sharing 3D Modeling Workflows for Biomechanists and Palaeontologists
   participants:
     - EvaCHerbst
-    - DylanBastiaans
+    - dylan-bastiaans
   mentors:
     - hdinkel
   description: |
@@ -427,8 +430,8 @@
     - samuelorion
     - anproulx
     - paulineligonie
-    - MyreilleLarouche
-    - ValerieParent
+    - myreille-larouche
+    - valerie-parent
     - beapdk
   mentors:
     - unode
@@ -453,7 +456,7 @@
 
 - name: APBioNetTalks
   participants:
-    - hilyatuzzahrah
+    - hilyatuz-zahroh
   mentors:
     - pherterich
   description: |
@@ -495,7 +498,7 @@
 
 - name: Open platform for Indian Bioinformatics community
   participants:
-    - pradeeperanti
+    - pradeep-eranti
   mentors:
     - sdopoku
   description: |
