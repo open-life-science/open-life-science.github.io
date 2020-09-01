@@ -62,26 +62,26 @@ In the sequel, we assume you use miniconda.
 2. Clone this GitHub repository:
 
    ```
-   git clone https://github.com/open-life-science/open-life-science.github.io.git
+   $ git clone https://github.com/open-life-science/open-life-science.github.io.git
    ```
 
 3. Navigate to the `open-life-science.github.io/` folder with `cd`
 4. Set up the conda environment:
 
    ```
-   make create-env
+   $ make create-env
    ```
 
 5. Install the project's dependencies:
 
    ```
-   make install
+   $ make install
    ```
 
 6. Start the website:
 
    ```
-   make serve
+   $ make serve
    ```
 
 7. Open the website in your favorite browser at:
@@ -92,7 +92,7 @@ In the sequel, we assume you use miniconda.
 To avoid dead or wrong links, run the link checkers:
 
 ```
-make check-html
+$ make check-html
 ```
 
 ## Create a new blog post
@@ -116,20 +116,65 @@ To create a new blog post:
 
 ## Add someone as mentor, expert or organizer
 
+Add someone to the list of people:
+
 1. Open the `_data/people.yaml` file
-2. Create a new entry there (using the GitHub id) following the alphabetical order
+2. Create a new entry there (using the GitHub id, or firstname-lastname if no GitHub id) following the alphabetical order
 3. Fill in information using the tags:
-    - `name`
+    - `first-name` (*mandatory*)
+    - `last-name` (*mandatory*)
+    - `twitter`
     - `email`
     - `website`
-    - `twitter`
     - `gitter`
     - `orcid`
-    - `description`
-4. Add if the person should be listed as mentor by adding `mentor: true`
-5. Add if the person should be listed as expert by adding `expert: true`
-6. Add if the person should be listed as organizer by adding `organizer: true`
-    
+    - `affiliation`
+    - `country` (*mandatory*)
+    - `pronouns`
+    - `expertise`
+    - `bio`
+
+Add the person to their corresponding list to be visible on the website:
+- If they are a participant for a cohort, add their GitHub id with their project to `_data/ols-n-projects.yaml`
+- If they are a potential mentor for a cohort, add their GitHub id in the `_data/ols-n-metadata.yaml`
+- If they are an expert for a cohort, add their GitHub id in the `_data/ols-n-metadata.yaml`
+- If they are a speaker for a cohort, add their GitHub id with their talk details in `_data/ols-n-schedule.yaml`
+
+Add many people in a row to `_data/people.yaml`:
+
+1. Create a CSV file with at least the following columns (named this way): 
+   - `First name`
+   - `Last name`
+   - `Email`
+   - `Twitter username`
+   - `Website`
+   - `ORCID`
+   - `Affiliation`
+   - `Country`
+   - `Pronouns`
+   - `Areas of expertise (1 element per line)`
+   - `Bio`
+
+   A form like [this one](https://docs.google.com/forms/d/e/1FAIpQLScmsWw0VSvdytz3A1k6HnbfgOnsE4SiJcL9_qkMTs_Na6-l2Q/viewform?usp=pp_url) can be used to generate such csv
+
+2. Get a copy of the CSV file at the root of this folder
+3. Activate the conda environment
+
+   ```
+   $ source activate open-life-science-website
+   ```
+
+   Or alternatively, get locally:
+   - Python 3.*
+   - pyyaml
+   - pandas
+
+4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`
+
+   ```
+   $ python bin/extract-people.py -i <path to csv file>
+   ```
+
 ## Add a partner/sponsor
 
 1. Open the `_data/partners.yaml` file

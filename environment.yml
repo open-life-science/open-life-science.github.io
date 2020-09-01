@@ -14,4 +14,6 @@ dependencies:
   - yamllint=1.11.0
   - zlib=1.2.11
   - libxml2
-  - pkg-config 
+  - pkg-config
+  - pandas
+  - pyyaml
