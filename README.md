@@ -185,3 +185,26 @@ Add many people in a row to `_data/people.yaml`:
     - `description`
 4. Add a logo (if possible) named as the entry in `images/partners` folder
 5. Add the path to the logo in `_data/partners.yaml` using `logo` tag
+
+## Update schedule for a cohort
+
+The schedule displayed in a cohort page is automatically generated from a file `_data/ols-n-schedule.yaml`.
+
+In this file, for each week, it is listed the timeframe and the different calls planned. For each call, several information are given:
+- `type`: `Mentor-Mentee`, `Cohort`, `Mentors` or `Coworking`
+- `duration` in min
+- `title` 
+- `date` in the format `Month Day, Year`
+- `time` in the format '14:00' and for Berlin time
+- `calendar-event`: link to calendar event
+- `agenda`: tldr
+- `notes`: link to notes
+- `recording`: link to recording
+- `content` with details of the content written in Markdown
+- `before` with tasks to do before as a list written in Markdown
+- `after` with tasks to do after as a list written in Markdown
+- `resources`: list of useful resources with for each of them:
+   - `type`: `slides`, `document`, or `external-link`
+   - `title`
+   - `speaker`: username in `_data/people.yaml`, if slides
+   - `link`
