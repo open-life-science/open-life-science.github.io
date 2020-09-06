@@ -18,15 +18,15 @@ photos:
 {% for project in projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }}{% endcapture %}
     {% endfor %}
 {% endfor %}
 
-{% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign p-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
 
 {% assign all-speakers = '' %}
 {% for w in schedule %}
@@ -104,7 +104,7 @@ OLS's second cohort (OLS-2) will be conducted from September 2020 until December
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-<!--For the second round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants]-->
+For the second round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ projects | size }} projects](/ols-2/projects-participants#projects). 
 
 ## Mentors
 
@@ -118,7 +118,7 @@ Mentors advice and inspire
 
 <!-- Any modification of the content should be done in the _data/ols-2-projects.yaml file -->
 
-**Pool of mentors for OLS-2**
+<!--**Pool of mentors for OLS-2**
 
 <div class="people">
 {% for entry in metadata.possible-mentors %}
@@ -126,7 +126,7 @@ Mentors advice and inspire
     {% assign user = site.data.people[username] %}
     {% include _includes/people.html user=user username=username %}
 {% endfor %}
-</div>
+</div>-->
 
 <div class="people">
 {% for entry in p-mentors %}
