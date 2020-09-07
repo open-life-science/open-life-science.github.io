@@ -503,23 +503,19 @@
     - pradeep-eranti
   mentors:
     - sdopoku
-  description: |
-    In my experience, students graduating from Bioinformatics Bachelor's degree
-    across India are not fully aware of the opportunities available to them,
-    after their graduation, either in higher education or industry. This could
-    be due to the unavailability of information to the students about the
-    prospects or a platform to share the expertise of the students who already
-    figured it out. This lack of information for the needy could be addressed
-    by building a platform for the exchange of the expertise information. To
-    address this issue, I would like to explore the opportunities for
-    establishing a platform to exchange information in the Indian Bioinformatics
-    community. As a case study, the focus would be to increase the exchange of
-    information between the students and Alumni of SASTRA Deemed to be University
-    in India. As an alumnus of SASTRA University's Bioinformatics community, I
-    would be able to foster the interactions among the community in the required
-    direction. In the long run, work done in this project aims at developing
-    community interactions benefitting the Indian Bioinformatics community by
-    building pathways for contributors and community members across India.
+  description: |  
+    The Bioinformatics community is one of the ever-growing communities in India, 
+    which has its presence across the length and breadth of the country. Likewise, 
+    the education and research programs spread across different branches of the 
+    Bioinformatics topic as its focus. There is a need for establishing open 
+    platform(s) where students, (early-career and established) researchers, policy 
+    makers could exchange knowledge freely across these different areas through 
+    open science practices and principles. In realizing such a platform, the 
+    benefits of following open principles need to be widely communicated for 
+    bringing awareness among the community by building pathways and encouraging 
+    contributors & ambassadors. The aim of this project is to explore the scope 
+    and path towards establishing an open platform and provide opportunities to 
+    participate, contribute and organize open initiatives. 
 
 - name: OpenWorkstation - A modular and open-source concept for customized automation equipment
   participants:
