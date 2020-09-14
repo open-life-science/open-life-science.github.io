@@ -109,7 +109,7 @@
       date: September 10, 2020
       time: '10:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week2
+      notes: https://hackmd.io/@ols-2/week-02
       recording: 
       agenda: Meet other members of your cohort, Share project vision, Intro to working openly (open canvas)
       content: |
@@ -187,11 +187,11 @@
       duration: 60 min
       title: 'Coworking on assignments, knowledge exchange and networking'
       date: September 17, 2020
-      time: '13:30'
+      time: '15:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week3
+      notes: https://hackmd.io/@ols-2/week-03
       content: |
-        During this week's cohort call, we will:
+        During this week's coworking call, you will:
         - take some time to get to know each other over informal networking opportunity
         - start coworking session
       before: |
@@ -208,7 +208,7 @@
       date: September 24, 2020
       time: '18:30'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmM3OTVlMGFpbTJjajJhdXExZ2JvOGNlaDQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week4
+      notes: https://hackmd.io/@ols-2/week-04
       recording: 
       agenda: 'Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
       content: |
@@ -268,7 +268,7 @@
       date: October 01, 2020
       time: '13:30'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week5
+      notes: https://hackmd.io/@ols-2/week-05
       recording: 
       content: |
         During this week's cohort call, we will give you an optional 1 hour GitHub tutorial covering:
@@ -338,7 +338,7 @@
       date: October 8, 2020
       time: '10:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week6
+      notes: https://hackmd.io/@ols-2/week-06
       recording: 
       agenda: 'Developing Open Projects: Iterative and agile project management, Open- Source, Software, Hardware, Data'
       content: |
@@ -390,7 +390,7 @@
       date: October 15, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@openlifesci/ols2-week7
+      notes: https://hackmd.io/@ols-2/week-07
     -
       type: Mentors
       duration: 60 min
@@ -411,7 +411,7 @@
       date: October 22, 2020
       time: '18:30'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week8
+      notes: https://hackmd.io/@ols-2/week-08
       recording: 
       agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training'
       content: |
@@ -435,7 +435,7 @@
       date: October 29, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@openlifesci/ols2-week9
+      notes: https://hackmd.io/@ols-2/week-09
 '10':
   timeframe: November 2-6, 2020
   calls:
@@ -446,7 +446,7 @@
       date: November 5, 2020
       time: '10:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week10
+      notes: https://hackmd.io/@ols-2/week-10
       recording: 
       agenda: FAIRification of existing or mature projects, etc
       content: |
@@ -468,7 +468,7 @@
       date: November 12, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@openlifesci/ols2-week11
+      notes: https://hackmd.io/@ols-2/week-11
     -
       type: Mentors
       duration: 60 min
@@ -486,7 +486,7 @@
       date: November 19, 2020
       time: '18:30'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week12
+      notes: https://hackmd.io/@ols-2/week-12
       recording: 
       content: |
         During this week's cohort call, we will:
@@ -531,7 +531,7 @@
       date: November 26, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@openlifesci/ols2-week13
+      notes: https://hackmd.io/@ols-2/week-13
       recording: 
       content: |
         During this week's cohort call, we will:
@@ -551,7 +551,7 @@
       date: December 3, 2020
       time: '10:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@openlifesci/ols2-week14.md
+      notes: https://hackmd.io/@ols-2/week-14
       recording: 
       agenda: Personas and pathways for contributors, Implicit bias & mental health care, Community interactions & Ally-skill
       content: |
@@ -637,7 +637,7 @@
       date: December 10, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@openlifesci/ols2-week15-1
+      notes: https://hackmd.io/@ols-2/week-15
       content: |
         During this week's cohort call, we will:
         - Learn about giving and receiving feedback
@@ -660,7 +660,7 @@
       date: December 10, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@openlifesci/ols2-week15-2
+      notes: https://hackmd.io/@ols-2/week-15-gr2
       content: |
         During this week's cohort call, we will:
         - Learn about giving and receiving feedback
@@ -686,7 +686,7 @@
       date: December 19, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@openlifesci/ols2-week16-1
+      notes: https://hackmd.io/@ols-2/week-16
       recording: 
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
@@ -706,7 +706,7 @@
       date: December 19, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@openlifesci/ols2-week16-2
+      notes: https://hackmd.io/@ols-2/week-16-gr2
       recording: 
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
