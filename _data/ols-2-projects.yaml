@@ -617,6 +617,7 @@
 
 - name: Embedding Accessibility in The Turing Way Open Source Community Guidance
   participants:
+    - NehaMoopan
     - pgadige
   mentors:
     - SamGuay
@@ -673,6 +674,7 @@
 - name: Autistica/Turing Citizen Science Project
   participants:
     - GeorgiaHCA
+    - katoss
   mentors:
     - anelda
   description: |
