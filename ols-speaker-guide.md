@@ -1,4 +1,13 @@
-# OLS Speaker Guide
+---
+layout: page
+title: OLS Speaker Guide
+image: https://images.unsplash.com/photo-1586985564259-6211deb4c122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1215&q=80
+photos:
+  name: Visuals on Unsplash
+  license: CC-0
+  url: https://unsplash.com/photos/Y4qzW3AsvqI
+---
+
 
 Thank you for considering speaking at our upcoming Cohort call! We look forward to welcoming you. **🎉🥳️👏**
 ----------------------------------------------------------------------------------------------------------
