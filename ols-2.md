@@ -280,6 +280,10 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
 
+## OLS Speaker Guide
+
+We have [a short guide for invited speakers]({% link ols-speaker-guide.md %}).
+
 ## Communication channels
 
 ### Communication within the cohort members
