@@ -1557,6 +1557,12 @@ joyceykao:
   last-name: Kao
   pronouns: she/her
   twitter: joyceykao
+katoss:
+  country: France
+  email: katharina.kloppenborg@gmail.com
+  first-name: Katharina
+  last-name: Kloppenborg
+  pronouns: she/her
 karegapauline:
   country: Kenya
   email: karegapaul@gmail.com
@@ -2175,6 +2181,13 @@ nerantzis:
   pronouns: he/him
   twitter: nerantzis
   website: https://4myfiles.wordpress.com
+NehaMoopen:
+  country: The Netherlands
+  email: neha.moopan@gmail.com
+  first-name: Neha
+  last-name: Moopan
+  pronouns: she/her
+  twitter: NehaMoopen
 npscience:
   bio: 'Naomi is motivated by people who are empowered to participate in knowledge
     and discovery for improvement of the
@@ -2663,7 +2676,7 @@ sonibk:
   last-name: Muthoni
   twitter: brendaksoni
 stefan-gaillard:
-  country: Netherlands
+  country: The Netherlands
   email: s.d.m.gaillard@gmail.com
   first-name: Stefan
   github: false
