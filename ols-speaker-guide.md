@@ -114,6 +114,6 @@ Your talk will be allotted 10-15 minutes (including Q&A session) during the call
  previous calls (here is the [full
 playlist](https://www.youtube.com/playlist?list=PL1CvC6Ez54KAtOhuCv8e8dqaHkUylUYDB)).
 
--   You can turn off your webcam before joining the call if you do not want to appear on the recording and on if/when you don't mind.
+-   You can turn off your webcam before joining the call if you do not want to appear on the recording and turn it on if/when you don't mind being on the video.
 
 -   If you prefer that your section is not recorded, please let the OLS team members know, so that they pause the recording for your section and resume afterwards.
