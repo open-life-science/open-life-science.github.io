@@ -43,7 +43,7 @@ About our Code of Conduct
 About the cohort calls
 ----------------------
 
--   Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to Open Life Science](https://openlifesci.org/ols-1#schedule) is shared and discussed with all participants of the program.
+-   Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to Open Life Science](https://openlifesci.org/ols-2#schedule) is shared and discussed with all participants of the program.
 
 These cohort calls introduce new Open Science related topics that are relevant for our participants to develop their project and bring them to the next stage.
 
