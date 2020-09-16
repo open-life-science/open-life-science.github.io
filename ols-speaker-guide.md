@@ -66,7 +66,7 @@ if further details on your talk might be necessary.
 
 **Call notes:**
 
--   The OLS team should have shared a draft of cohort call agenda and details in your invitation email, which are also linked to the online schedule:
+-   The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the online schedule:
  [https://openlifesci.org/ols-2/schedule](https://openlifesci.org/ols-2/schedule)
 
 -   These notes will be available for all our participants for future reference.
