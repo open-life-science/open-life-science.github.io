@@ -104,14 +104,14 @@ OLS's second cohort (OLS-2) will be conducted from September 2020 until December
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-For the second round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ projects | size }} projects](/ols-2/projects-participants#projects). 
+For the second round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ projects | size }} projects](/ols-2/projects-participants#projects).
 
 ## Mentors
 
 Our project leads are supported in this program by our mentor-community who are paired based on the compatibility of expertise, interests and requirements of their projects.
 Our mentors are Open Science practitioners and champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services.
 
-Mentors advice and inspire
+Mentors advise and inspire
 - Connect: to people, programs, companies
 - Recommend: resources, readings, classes, experiences
 - Feedback: for the project leads to consider
@@ -279,6 +279,10 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 4 mentor calls will take place during the program.
 
 The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
+
+## OLS Speaker Guide
+
+We have [a short guide for invited speakers]({% link ols-speaker-guide.md %}).
 
 ## Communication channels
 
