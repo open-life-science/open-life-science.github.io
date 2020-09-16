@@ -71,7 +71,7 @@ if further details on your talk might be necessary.
 
 -   These notes will be available for all our participants for future reference.
 
--   You are welcome to contribute to the notes from your session - a link for which will be shared with you.
+-   You are welcome to contribute to the notes from your session.
 
 Cohort call speakers
 --------------------
