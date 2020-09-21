@@ -1532,7 +1532,7 @@ joelostblom:
   country: Canada
   email: joel.ostblom@gmail.com
   expertise:
-  - Static and interactive data visualization
+  - Static  and interactive data visualization
   - Introductory data science
   - Reproducible analysis workflows
   - Image analysis
@@ -2281,6 +2281,13 @@ paulineligonie:
   first-name: Pauline
   last-name: Ligonie
   twitter: PaulineLigonie
+paulowoicho:
+  country: Nigeria
+  email: paulowoicho@gmail.com
+  first-name: Paul
+  last-name: Owoicho
+  pronouns: he/him
+  twitter: N/A  
 paulvill:
   bio: 'Paul is group Leader in Machine Leader and Developmental Biology at the Turing
     Center for
