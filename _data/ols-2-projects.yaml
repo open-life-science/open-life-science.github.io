@@ -203,25 +203,26 @@
     project management skill while enhancing the connection with the
     communities outside Europe.
 
-- name: Advancing MolPDF using open principles
-  participants:
-    - Sulstice
-  mentors:
-    - mblue9
-  description: |
-    MolPDF does one thing right now and is convert a list of 1D SMILES
-    representation of a chemical to a 2D image and into a PDF. For example
-    if a user would like to pass in a list of 100,000 molecules MolPDF will
-    render the PDF with their 1D and 2D images in a table in PDF. The
-    MolPDFParser() can read in a MolPDF file and then pass it back as a
-    variable list.
-    Since there is no open source project IUPAC naming schema for molecules,
-    I've designed a language AI to convert between SMILES and IUPAC.
-    There is plenty of rooms for improvement and inviting support from others.
-    Furthermore, pdf format might not be the most accessible file format when
-    working with open and reproducible software and workflows. Therefore, with
-    my participation in this program, I would like to learn from my mentors
-    about how to implement open science principles in my research.
+#- name: Advancing MolPDF using open principles
+#  participants:
+#    - Sulstice
+#  mentors:
+#    - mblue9
+#  description: |
+#    MolPDF does one thing right now and is convert a list of 1D SMILES
+#    representation of a chemical to a 2D image and into a PDF. For example
+#    if a user would like to pass in a list of 100,000 molecules MolPDF will
+#    render the PDF with their 1D and 2D images in a table in PDF. The
+#    MolPDFParser() can read in a MolPDF file and then pass it back as a
+#    variable list.
+#    Since there is no open source project IUPAC naming schema for molecules,
+#    I've designed a language AI to convert between SMILES and IUPAC.
+#    There is plenty of rooms for improvement and inviting support from others.
+#    Furthermore, pdf format might not be the most accessible file format when
+#    working with open and reproducible software and workflows. Therefore, with
+#    my participation in this program, I would like to learn from my mentors
+#    about how to implement open science principles in my research.
+    
 
 - name: Global land-use and land-cover data under historical, current, and future climatic conditions for ecologists
   participants:
