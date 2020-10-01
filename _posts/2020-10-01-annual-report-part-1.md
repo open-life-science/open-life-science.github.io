@@ -14,7 +14,7 @@ we start by looking back at where we started
 we give an account of how far we have come 
 we end this report with where we want to go. 
 
-This is part 1 of the report: **Where we started**
+*This is part 1 of the report: **Where we started***
 
 ### OLS timeline so far
 
