@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Year one of Open Life Science (OLS) - Part 2
+title: OLS Project and Community report - Part 2
 authors: Sam Dan Truong, Unsplash id: @sam_truong
 image: https://images.unsplash.com/photo-1523540939399-141cbff6a8d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
 ---
 
 # Year one of Open Life Science (OLS) - Part 2
 
-*This is part 2 of the OLS project and community health report: **Where we are***
+*This is second part of the 3 parts OLS project and community report: **Where we are***
 
 ### Cohort expense and cost - and its shoestring budget 
 
@@ -36,4 +36,4 @@ In OLS-2, a total of 32 projects by a group of 52 mentees were selected, which i
 
 We continue to invite feedback from our participants to ensure that they feel adequately supported and find their experience of working with OLS mutually rewarding. We encourage participants to develop their projects on their GitHub repositories and share with others in the program through a centralised GitHub-based issue tracker. They explore and discuss each other's projects and share feedbacks on [OLS-2 GitHub issues](https://github.com/open-life-science/ols-2/issues) and shared HackMds. They also volunteer to host coworking sessions to work and build connections with others in the program. We have pathways for our graduates to return as mentors and experts (many OLS-1 graduates have returned to OLS-2) and continue to gain support from the OLS even after they have finished their training.
 
-**TO BE CONTINUED: Please see the [Part 3 of this report](./2020-10-01-annual-report-part-3)**
+***TO BE CONTINUED: Please see the [Part 3 of this report](./2020-10-01-annual-report-part-3)***
