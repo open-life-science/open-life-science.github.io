@@ -1,6 +1,13 @@
+---
+layout: post
+title: Year one of Open Life Science (OLS) - Part 2
+authors: Sam Dan Truong, Unsplash id: @sam_truong
+image: https://images.unsplash.com/photo-1523540939399-141cbff6a8d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+---
+
 # Year one of Open Life Science (OLS) - Part 2
 
-This is part 2 of the OLS project and community health report: **Where we are**
+*This is part 2 of the OLS project and community health report: **Where we are***
 
 ### Cohort expense and cost - and its shoestring budget 
 
@@ -27,4 +34,6 @@ Many of those projects have established themselves as valuable resources in thei
 
 In OLS-2, a total of 32 projects by a group of 52 mentees were selected, which is a ~50% increase in project numbers and participants over the previous cohort. These project leads will be trained and mentored between September and December of 2020 with the support of 32 mentors and 67 members in the expert community. These members represent several countries from 6 continents and will advance the knowledge of Open Science in their communities. 6 projects from The Turing Way affiliated with The Alan Turing Institute (https://www.turing.ac.uk/) joined the project in the second cohort (https://openlifesci.org/ols-2#collaborators). Through this collaboration, the international community of The Turing Way will be able to access mentoring and training support through OLS. Read more details about this cohort in [this blog post](https://openlifesci.org/posts/2020/09/01/ols2-announcement/).
 
-We continue to invite feedback from our participants to ensure that they feel adequately supported and find their experience of working with OLS mutually rewarding. We encourage participants to develop their projects on their GitHub repositories and share with others in the program through a centralised GitHub-based issue tracker. They comment on each other's project-issues and take notes in shared HackMds. We encourage our participants in sharing their ideas and skills with each other through issue tracker and HackMD notes. Nevertheless, we would create opportunities for people outside the cohort to support OLS resources as maintainers and invite reviews of PRs that can benefit from feedback from members outside the leadership. We have also created a pathway for our graduates to return as mentors and experts (many OLS-1 graduates have returned to OLS-2) and continue to gain support from the OLS even after they have finished their training. 
+We continue to invite feedback from our participants to ensure that they feel adequately supported and find their experience of working with OLS mutually rewarding. We encourage participants to develop their projects on their GitHub repositories and share with others in the program through a centralised GitHub-based issue tracker. They comment on each other's project-issues and take notes in shared HackMds. We encourage our participants in sharing their ideas and skills with each other through issue tracker and HackMD notes. Nevertheless, we would create opportunities for people outside the cohort to support OLS resources as maintainers and invite reviews of PRs that can benefit from feedback from members outside the leadership. We have also created a pathway for our graduates to return as mentors and experts (many OLS-1 graduates have returned to OLS-2) and continue to gain support from the OLS even after they have finished their training.
+
+**TO BE CONTINUED: Please see the [Part 3 of this report](./2020-10-01-annual-report-part-3)**
