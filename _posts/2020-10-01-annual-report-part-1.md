@@ -1,3 +1,10 @@
+---
+layout: post
+title: Year one of Open Life Science (OLS) - Part 1
+authors: Markus Winkler, Unsplash id: @markuswinkler
+image: https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+---
+
 # Year one of Open Life Science (OLS) - Part 1
 
 Around June 2019, OLS was originally dreamed up. Mozilla had launched a call for applications to [Open Leaders X](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/), the program that incubated OLS and several other related open leadership initiatives. In July 2019, we submitted a collaboratively prepared application written at the [BOSC 2019 CoFest](https://www.open-bio.org/events/bosc/about/2019/) (see [the application draft](https://openlifesci.org/posts/2019/09/24/application/)), and in September we were delighted to learn we had been accepted to create our program as a part of Open Leaders X. Slightly more than a year has now passed, and we would like to share an OLS **project and community health report** with you.
@@ -38,3 +45,5 @@ The project has been supported by many organisations that have helped promote th
 - **May-September 2020**: Software Sustainability Institute Fellowship pays for OLS-2 communication platform cost and mentorship training by [360 Training UK](http://360training.co.uk/) 
 
 Bonus trivia before we finish the first part of our report: In July 2020, OLS was also shortlisted as one of the two projects as “best innovation in Open Source Technology” by CogX - a global festival for AI and technology (https://cogx.co/cogx-awards/cogx-awards-2020-shortlisted/). Though we did not win the award, we attracted the attention of early stage researchers interested in building their projects on AI and data science. 
+
+**TO BE CONTINUED: Please see the [Part 2 of this report](./2020-10-01-annual-report-part-2) and [Part 3 of this report](./2020-10-01-annual-report-part-3)**
