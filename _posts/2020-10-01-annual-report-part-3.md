@@ -7,13 +7,15 @@ image: https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?ixlib=rb-1.2
 
 # Year one of Open Life Science (OLS) - Part 3
 
-*This is last part of the 3 parts OLS project and community report: **Where we want to go***
+*This is the last part of the 3 parts OLS project and community report: **Where we want to go***
 
 ### Shifting “volunteer culture” of Open Science
 
 The value we create in OLS is impossible without the hard work of our participants (co-founders/lead trainers, mentors, expert guest speakers and project leads), who engage with OLS beyond their usual responsibilities. The first cohort was run entirely on their volunteer-work. 
 
 We teach self-care and mental health awareness as part of OLS, but without the resources to sustain us, it’s very hard to actually practice what we preach. In 2021, we want to run two cohorts with a fairer reward system that empowers our volunteer members and ensures they are able to contribute to Open Science in a sustained manner. We would like for them to receive an honorarium or small support stipend. 
+We would also like to offer small-scale funding to our mentees from low-income backgrounds by offering them access to basic logistics that can improve their experience. For example, headsets, broadband, and other supplies will ensure equitable access to our calls and additional incubator funding for projects. Often a “sticker and biscuits” fund can be incredibly impactful, paying the small expenses needed to kick off a new organisation, whether this is an organisation’s legal registration, support to buy domain names, Zoom rooms, or swag as thank-yous for your community members.
+
 This positive culture change is necessary to prevent unnecessary emotional burden and unfair treatment of contributing members in Open Science caused by unpaid volunteer work.
 
 ## OLS curriculum: *not just ‘Open’, but ‘community-minded’*
@@ -23,6 +25,7 @@ From the beginning, OLS has been encouraging interested applicants to design the
 With the support of the EOSC-Life Training grant, we are developing a new module on [FAIR principles](https://www.go-fair.org/fair-principles/). We have also improved the FAIR-ness of the way we work by moving our shared note-taking from google-docs to HackMD, which can be integrated with cohort-specific GitHub repositories. All the website content is designed in a way that information inconsistencies and backlogs can be avoided.
 
 ### Reaching communities who are not here ‘yet’!
+
 With the conclusion of the first cohort, OLS has established itself as a globally inclusive initiative and a unique mentoring program for life science researchers. Participants of our program come from different backgrounds, identities, domain knowledge, nationality, career-stage and institutional affiliation. We conduct our work under a respectful and inclusive environment and enforce our Code of Conduct in all its activities. We share our training materials, cohort call videos and all OLS resources under CC-BY license and actively promote them to reuse, remix, adapt and share.
 
 We also understand that the passive advocacy of diversity and inclusion is not sufficient. Therefore during our break between OLS-1 and OLS-2 we continued to actively deliver workshops, public resources and seminars in order to reach out to researchers who are traditionally underrepresented in open science.
@@ -38,19 +41,20 @@ These engagements helped OLS become more visible across different research and o
 
 ### Offering participation support and planning long-term sustainability
 
-We would also like to offer small-scale funding to our mentees from low-income backgrounds by offering them access to basic logistics that can improve their experience. For example, headsets, broadband, and other supplies will ensure equitable access to our calls and additional incubator funding for projects. Often a “sticker and biscuits” fund can be incredibly impactful, paying the small expenses needed to kick off a new organisation, whether this is an organisation’s legal registration, support to buy domain names, Zoom rooms, or swag as thank-yous for your community members.
+We have learned the hard way that non-profit projects like OLS come with financial and personal challenges.
+Going forward, we aim to develop a long term funding model and business strategy to ensure the sustainability of this project.
 
 In the short term, we have planned to offer an Ally Skills training session that will be open to public registration as a way to raise some ready cash for the organisation. Attendance is free to OLS members, with varying ticket prices for individuals who are able to pay, and fee waivers available if interested members otherwise could not attend.
 (A separate post will follow about our Ally Skills workshop to raise funding for the OLS community.)
 
-In the long term, we are exploring partial funding resources for the founders to run and expand this program to its full potential (currently, founders’ time is not funded and is largely after-hours). We would also develop a long term business strategy and funding model to ensure the sustainability of this project.
+In the long term, we are exploring partial funding resources for the founders to run and expand this program to its full potential (currently, founders’ time is not funded and is largely after-hours). 
 
 Finally, we would work towards expanding and improving our resources to develop customisable training and mentoring programs to cater to the need of researchers with different personal and institutional support and resource availability. 
-We know that non-profit projects like OLS come with its financial and personal challenges, and we are thankful to those who have supported us and our participants in any way. We want to end this report expressing our gratitude to everyone who has been involved in the program. 
+
+We want to end this report expressing our gratitude to everyone who has been involved in the program and this community in any way. 
 
 See you all online (and hopefully, someday in person, after the COVID-19 pandemic).
 
-Yours sincerely,
 *Malvika, Yo and Bérénice*
 
 **END OF THE REPORT**
