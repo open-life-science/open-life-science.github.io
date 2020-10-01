@@ -7,7 +7,7 @@ image: https://images.unsplash.com/photo-1523540939399-141cbff6a8d7?ixlib=rb-1.2
 
 # Year one of Open Life Science (OLS) - Part 2
 
-*This is second part of the 3 parts OLS project and community report: **Where we are***
+*This is the second part of the 3 parts OLS project and community report: **Where we are***
 
 ### Cohort expense and cost - and its shoestring budget 
 
