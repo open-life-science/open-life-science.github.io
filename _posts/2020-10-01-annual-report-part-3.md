@@ -7,7 +7,7 @@ image: https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?ixlib=rb-1.2
 
 # Year one of Open Life Science (OLS) - Part 3
 
-This is part 3 of the OLS project and community health report: **Where we want to go**
+*This is part 3 of the OLS project and community health report: **Where we want to go***
 
 ### Shifting “volunteer culture” of Open Science
 
