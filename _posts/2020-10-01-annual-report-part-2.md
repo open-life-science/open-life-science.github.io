@@ -35,7 +35,7 @@ Estimated real cost for 1 cohort (4 months): GBP £24,259 in founder, mentor, an
 
 *OLS real cost for one cohort (financial requirements are currently not met)*
 
-Many of the expenses required to run this project effectively have come from the founders’ own pockets. Some funding resources can be reached with requests, however claiming some of our expenses can sometimes be challenging -- not all items can be funded due to funding organisation's policies, and administrative formalities and/or blog posts are required for each funded item. Whilst running a non-profit organisation outside of our day jobs, we’ve unfortunately become extremely time-poor to constantly look for small funds or offer invisible labor associated with funding obligations.
+Many of the expenses required to run this project effectively have come from the founders’ own pockets. Some funding resources can be reached with requests for support to sympathetic organisations, however claiming some of our expenses can sometimes be challenging -- not all items can be funded due to funding organisation's policies, and administrative formalities and/or blog posts are required for each funded item. Whilst running a non-profit organisation outside of our day jobs, we’ve unfortunately become extremely time-poor to constantly look for small funds or offer invisible labour associated with funding obligations.
 
 ### Software Sustainability Institute partnership for OLS-2
 
