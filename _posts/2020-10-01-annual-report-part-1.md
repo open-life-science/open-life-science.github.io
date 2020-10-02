@@ -1,8 +1,15 @@
 ---
 layout: post
 title: OLS Project and Community report - Part 1
-authors: Markus Winkler, Unsplash id: @markuswinkler
+authors: 
+- bebatut
+- malvikasharan
+- yochannah
 image: https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+photos:
+  name: Markus Winkler, Unsplash id: @markuswinkler
+  license: CC-BY
+  url: https://unsplash.com
 ---
 
 # Year one of Open Life Science (OLS) - Part 1
