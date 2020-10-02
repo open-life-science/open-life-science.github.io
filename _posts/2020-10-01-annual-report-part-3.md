@@ -41,10 +41,10 @@ These engagements helped OLS become more visible across different research and o
 
 ### Planning for the long-term sustainability
 
-Going forward, we would expand and improve our resources to develop customisable training and mentoring programs to cater to the need of researchers with different communities with varying levels of resources and institutional support available to them.
-Currently, our time is not funded and is largely after-hours, and financially we are not in a position to onboard new members who can work with us to develop these curriculum. 
+Going forward, we would expand and improve our resources to develop customisable training and mentoring programs to meet the needs of individuals from different communities with varying levels of resources and institutional support available to them.
+Currently, our time in OLS is not funded and is largely after-hours, and financially we are not in a position to onboard new members who can work with us to develop these curriculum. 
 
-We have learned the hard way that non-profit projects like OLS come with financial and personal challenges. We can not work towards achieving new goals until we have developed a stable funding model and business strategy to ensure the sustainability of this project.
+We have learned the hard way that non-profit projects like OLS come with financial and personal challenges. These challenges will keep us from working towards our golas until we have developed a stable funding model and business strategy to ensure the sustainability of this project.
 
 In the short term, we have planned to offer an Ally Skills training session that will be open to public registration as a way to raise some ready cash for the organisation. Attendance is free to OLS members, with varying ticket prices for individuals who are able to pay, and fee waivers available if interested members otherwise could not attend. A separate post will follow about our Ally Skills workshop to raise funding for OLS-2.
 
