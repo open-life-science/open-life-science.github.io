@@ -9,25 +9,28 @@ image: https://images.unsplash.com/photo-1523540939399-141cbff6a8d7?ixlib=rb-1.2
 
 *This is the second part of the 3 parts OLS project and community report: **How far we have come***
 
-### Cohort expense and cost - and its shoestring budget 
+## Cohort expense and cost - and its shoestring budget 
 
-Our website helps to give us an incredibly professional face thanks to Bérénice’s tireless and utterly incredible efforts (including during her maternity leave). But, as shiny as our site might look, we’re still operating on a shoestring budget - most of the preparation work we do is out of hours and on our own time, and many of the expenses required to run this project effectively have come from the founders’ own pockets. Likewise, OLS mentors and experts are all currently unpaid. 
+Our website helps to give us an incredibly professional face thanks to Bérénice’s tireless and utterly incredible efforts (including during her maternity leave). But, as shiny as our site might look, we’re still operating on a shoestring budget - most of the preparation work we do is out of hours and on our own time. Likewise, OLS mentors and experts are all currently unpaid. 
 
-We would like to make this more sustainable - as such it probably comes as no surprise that the OLS team is currently actively seeking funding and applying for external fund sources. 
-
-Two co-founders are fellows of the Software Sustainability Institute (UK), which provided small fellowship funds with which we manage to support the communication and application management platforms required for the program. We are grateful to receive personal and organisational support in redirecting this fellowship towards OLS infrastructure needs. However, claiming these expenses can sometimes be a challenge -- not all items can be funded and administrative formalities and a blog post is required for each item funded. As much as we like publishing written content from each activity we do, we’ve unfortunately become extremely time-poor whilst running a non-profit organisation outside of our day jobs.
-
-**Budget**: Estimated real cost for 1 cohort (4 months): GBP £25,000 in founder, mentor, and expert time, as well as some infrastructure costs.
+Estimated real cost for 1 cohort (4 months): GBP £24,259 in founder, mentor, and expert time, as well as some infrastructure costs. Ideally, we would like to meet these costs - as such it probably comes as no surprise that the OLS team is currently actively seeking funding and applying for external fund sources.
 
 <iframe src="https://docs.google.com/spreadsheets/d/1_Q8atU9Xsh5aXQuQpxizyMUdKWug_jYgMobzhxxPE8c/pubhtml?widget=true&amp;headers=false"></iframe>
+
+*OLS real cost for one cohort (financial requirements are currently not met)*
+
+Many of the expenses required to run this project effectively have come from the founders’ own pockets. Some funding resources can be reached with requests, however claiming some of our expenses can sometimes be challenging -- not all items can be funded due to funding organisation's policies, and administrative formalities and/or blog posts are required for each funded item. Whilst running a non-profit organisation outside of our day jobs, we’ve unfortunately become extremely time-poor to constantly look for small funds or offer invisible labor associated with funding obligations.
+
+### Software Sustainability Institute partnership for OLS-2
+
+Two co-founders are fellows of the Software Sustainability Institute (UK), which provided small fellowship funds with which we manage to support the communication and application management platforms required for OLS-2 (EasyChair, Zoom, professional mentor training etc.). We are grateful to receive personal and organisational support in redirecting this fellowship towards OLS infrastructure needs. 
 
 ### EOSC-Life Training grant to partially support OLS-2
 
 For one cohort in 2021, OLS has been awarded EOSC-Life (https://www.eosc-life.eu/) open call training funding of up to 20,000 Euros to develop a special call to train and mentor up to 15 projects from within the EOSC-Life research infrastructure. This will partially cover costs for OLS-3, which will be designed over the next few months by including a new curriculum.
-
 This opportunity will help widen the accessibility of our service and resources for the EOSC-Life community while we continue to support our participants from developing countries. Thanks to Neil Chue Hong, Bastian Greshake Tzovaras, Mateusz Kuzak, Andrew Stewart, Naomi Penfold, Fotis E. Psomopoulos, and Emmy Tsang for providing references and generous testimonials about the program. You can find a copy of our grant application  on [Zenodo](https://zenodo.org/record/4060367).
 
-## OLS-1 to OLS-2 - cohort doubled in size
+## OLS-1 to OLS-2: *cohort doubled in size*
 
 The post-cohort survey from the first round was overwhelmingly positive, despite the fact that most of the training and project development took place during the lockdown. [The graduation calls were live-streamed](https://www.youtube.com/watch?v=2wuy56LcHEw&list=PL1CvC6Ez54KB6U9GtjOjwESMurHgT41qM) and reports were shared widely through social media. As a result, more members with interest and expertise in Open Science reached out to join the next cohort. Many of those projects have established themselves as valuable resources in their communities ([short report](https://openlifesci.org/posts/2020/05/27/ols1-wrapup/)). Particularly, our heartiest congratulations to the [Bioinformatics HUB of Kenya](https://bioinformaticshubofkenya.wordpress.com/) project, who with incubator funding provided by OLS-1 has successfully established itself as a non-profit organisation in Kenya. 
 
