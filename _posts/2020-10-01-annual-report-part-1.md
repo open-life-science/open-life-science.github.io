@@ -23,7 +23,7 @@ Since the report is quite elaborative, we are publishing them in 3 parts:
 
 *This is the first part of the report: **Where we started***
 
-### OLS timeline so far
+## OLS timeline so far
 
 - **September 2019**: OLS team joined Mozilla Open Leaders X as an accepted project
 - **October 2019**: OLS is launched at [MozFest 2019](https://medium.com/mozilla-festival/mozfest-2019-highlights-b8084b8b64b2) with 30 mentors and 40 experts
