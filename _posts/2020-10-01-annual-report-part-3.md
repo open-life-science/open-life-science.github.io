@@ -57,3 +57,5 @@ See you all online (and hopefully, someday in person, after the COVID-19 pandemi
 *Malvika, Yo and Bérénice*
 
 **END OF THE REPORT**
+
+***Please see the [Part 1 of this report](./2020-10-01-annual-report-part-1) and [Part 2 of this report](./2020-10-01-annual-report-part-2)***
