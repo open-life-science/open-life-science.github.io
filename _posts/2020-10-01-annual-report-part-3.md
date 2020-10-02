@@ -9,7 +9,7 @@ image: https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?ixlib=rb-1.2
 
 *This is the last part of the 3 parts OLS project and community report: **Where we want to go***
 
-### Shifting “volunteer culture” of Open Science
+## Shifting “volunteer culture” of Open Science
 
 The value we create in OLS is impossible without the hard work of our participants (co-founders/lead trainers, mentors, expert guest speakers and project leads), who engage with OLS beyond their usual responsibilities. The first cohort was run entirely on their volunteer-work and for the current cohort we are actively seeking funding to support involvement of our participants in Open Science. 
 
@@ -18,14 +18,14 @@ We would also like to offer small-scale funding to our mentees from low-income b
 
 This positive culture change is necessary to prevent unnecessary emotional burden and unfair treatment of contributing members in Open Science caused by unpaid volunteer work.
 
-## OLS curriculum: *not just ‘Open’, but ‘community-minded’*
+### OLS curriculum: *not just ‘Open’, but ‘community-minded’*
 
 From the beginning, OLS has been encouraging interested applicants to design their project ideas to not just be ‘Open’ but community-minded. Documentation, reproducibility, transparent reporting and public engagement aspects are strongly integrated into our curriculum and we accept projects with both technical and non-technical scopes. In the first round, many leads of technical projects also reported that their work benefited from the community-mindset we teach in OLS. We intend to strengthen our curriculum to add technical skill-up training (as we currently do for version control), but continue to run the current and next cohorts of the program to support community-oriented projects. We hope this will create momentum in the communities that can benefit immensely from Open Science practices.
 
 Feedback from the participants in OLS-1 and OLS-2 will help us enhance the quality of the training as we prepare for the future cohorts. Furthermore, with the support of the EOSC-Life Training grant, we will develop a new module on [FAIR principles](https://www.go-fair.org/fair-principles/). 
 Meanwhile, we have also improved the FAIR-ness of the way we work by moving our shared note-taking from google-docs to HackMD, which can be integrated with cohort-specific GitHub repositories. All the website content is designed in a way that information inconsistencies and backlogs can be avoided.
 
-### Reaching communities who are not here ‘yet’!
+## Reaching communities who are not here ‘yet’!
 
 With the conclusion of the first cohort, OLS has established itself as a globally inclusive initiative and a unique mentoring program for life science researchers. Participants of our program come from different backgrounds, identities, domain knowledge, nationality, career-stage and institutional affiliation. To ensure that our mentees are supported appropriately, mentors are assigned based on their preferred language, time zones and areas of interests. We conduct our work under a respectful and inclusive environment and enforce our Code of Conduct in all its activities. For OLS-1, we used the auto-generated transcripts of our video recordings, but for this round we are using otter.ai for live transcription. We share our training materials, cohort call videos and all OLS resources under CC-BY license and actively promote them to reuse, remix, adapt and share. 
 
@@ -39,7 +39,7 @@ We hosted 2 webinars before launching the OLS-2 call for application and present
 
 These engagements helped OLS become more visible across different research and open source communities. We will continue to do so to connect with those who are currently not in OLS, and Open Science at large.
 
-### Planning for the long-term sustainability
+## Planning for the long-term sustainability
 
 Going forward, we would expand and improve our resources to develop customisable training and mentoring programs to meet the needs of individuals from different communities with varying levels of resources and institutional support available to them.
 Currently, our time in OLS is not funded and is largely after-hours, and financially we are not in a position to onboard new members who can work with us to develop these curriculum. 
