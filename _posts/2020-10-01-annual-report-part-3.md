@@ -21,7 +21,9 @@ The value we create in OLS is impossible without the hard work of our participan
 
 We teach self-care and mental health awareness as part of OLS, but without the resources to sustain us, it’s very hard to actually practice what we preach. In 2021, we want to run two cohorts with a fairer reward system that empowers our volunteer members and ensures they are able to contribute to Open Science in a sustained manner. We would like for them to receive an honorarium or small support stipend. 
 
-We would also like to offer small-scale funding to our mentees from low-income backgrounds by offering them access to basic logistics that can improve their experience. For example, headsets, broadband, and other supplies will ensure equitable access to our calls and additional incubator funding for projects. Often a "sticker and biscuits" fund can be incredibly impactful, paying the small expenses needed to kick off a new organisation, whether this is an organisation's legal registration, support to buy domain names, Zoom rooms, or swag as thank-yous for your community members.
+We would also like to offer small-scale funding to our mentees: 
+1. To those from low-income backgrounds by offering them access to basic logistics that can improve their experience. For example, headsets, broadband, and other supplies will ensure equitable access to our calls. 
+2. Additional incubator funding for projects. Often a "sticker and biscuits" fund can be incredibly impactful, paying the small expenses needed to kick off a new organisation, whether this is an organisation's legal registration, support to buy domain names, Zoom rooms, or swag as thank-yous for your community members.
 
 This positive culture change is necessary to prevent unnecessary emotional burden and unfair treatment of contributing members in Open Science caused by unpaid volunteer work.
 
