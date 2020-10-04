@@ -16,11 +16,11 @@ photos:
 Around June 2019, OLS was originally dreamed up. Mozilla had launched a call for applications to [Open Leaders X](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/), the program that incubated OLS and several other related open leadership initiatives. In July 2019, we submitted a collaboratively prepared application written at the [BOSC 2019 CoFest](https://www.open-bio.org/events/bosc/about/2019/) (see [the draft]({% link _posts/2019-09-24-application.md %})), and in September we were delighted to learn we had been accepted to create our program as a part of Open Leaders X. Slightly more than a year has now passed, and we would like to share the first **annual OLS project and community report** with you.
 
 Since the report is quite elaborative, we are publishing them in 3 parts: 
-1. we start by looking back at where we started
-1. we give an account of how far we have come 
-1. we end this report with where we want to go. 
+1. we start by providing an overview of *where we are* in the project
+1. we give an account of *how far we have come*
+1. we end this report with *where we want to go*
 
-*This post is the first part of the report: **Where we started**. The two other parts will cover: [**How far we have come**]({% link _posts/2020-10-01-annual-report-part-2.md %}) and [**Where we want to go**]({% link _posts/2020-10-01-annual-report-part-3.md %})*
+*This post is the first part of the report: **Where we are**. The two other parts will cover: [**How far we have come**]({% link _posts/2020-10-01-annual-report-part-2.md %}) and [**Where we want to go**]({% link _posts/2020-10-01-annual-report-part-3.md %})*
 
 ## OLS timeline so far
 
