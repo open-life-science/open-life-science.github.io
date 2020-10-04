@@ -37,7 +37,7 @@ Many of the expenses required to run this project effectively have come from the
 
 ### Software Sustainability Institute partnership for OLS-2
 
-Two co-founders are fellows of the Software Sustainability Institute (UK), which provided small fellowship funds with which we manage to support the communication and application management platforms required for OLS-2 (EasyChair, Zoom, professional mentor training etc.). We are grateful to receive personal and organisational support in redirecting this fellowship towards OLS infrastructure needs. 
+Two co-founders are fellows of the [Software Sustainability Institute (UK)](https://www.software.ac.uk/), which provided small fellowship funds with which we manage to support the communication and application management platforms required for OLS-2 (EasyChair, Zoom, professional mentor training etc.). We are grateful to receive personal and organisational support in redirecting this fellowship towards OLS infrastructure needs. 
 
 ### EOSC-Life Training grant to partially support OLS-3
 
