@@ -53,6 +53,6 @@ The project has been supported by [many organisations](about#partners-and-sponso
 - **August 2020**: OLS registers as a Limited company with **£1 (GBP 1) in assets**
 - **May-September 2020**: Software Sustainability Institute Fellowship pays for OLS-2 communication platform cost and mentorship training by [360 Training UK](http://360training.co.uk/) 
 
-Bonus trivia: In July 2020, OLS was also shortlisted as one of the two projects as “best innovation in Open Source Technology” by CogX - a global festival for AI and technology (https://cogx.co/cogx-awards/cogx-awards-2020-shortlisted/). Though we did not win the award, we attracted the attention of early-stage researchers interested in building their projects on AI and data science. 
+Bonus trivia: In July 2020, OLS was also shortlisted as one of the two projects as ["best innovation in Open Source Technology"](https://cogx.co/cogx-awards/cogx-awards-2020-shortlisted/) by CogX - a global festival for AI and technology. Though we did not win the award, we attracted the attention of early-stage researchers interested in building their projects on AI and data science. 
 
 ***TO BE CONTINUED: Please see the [Part 2 of this report](./2020-10-01-annual-report-part-2) and [Part 3 of this report](./2020-10-01-annual-report-part-3)***
