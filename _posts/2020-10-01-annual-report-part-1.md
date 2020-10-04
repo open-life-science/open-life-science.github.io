@@ -7,7 +7,7 @@ authors:
 - yochannah
 image: https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
 photos:
-  name: Markus Winkler, Unsplash id: @markuswinkler
+  name: Markus Winkler
   license: CC-BY
   url: https://unsplash.com/photos/cxoR55-bels
 ---
