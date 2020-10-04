@@ -32,7 +32,6 @@ Estimated real cost for each cohort is GBP £24,259 in founder, mentor, and expe
 
 <iframe src="https://docs.google.com/spreadsheets/d/1_Q8atU9Xsh5aXQuQpxizyMUdKWug_jYgMobzhxxPE8c/pubhtml?widget=true&amp;headers=false" style="width: 100%; height: 400px"></iframe>
 
-*OLS real cost for one cohort (financial requirements are currently not met)*
 
 Many of the expenses required to run this project effectively have come from the founders’ own pockets. Some funding resources can be reached with requests for support to sympathetic organisations, however claiming some of our expenses can sometimes be challenging -- not all items can be funded due to funding organisation's policies, and administrative formalities and/or blog posts are required for each funded item. Whilst running a non-profit organisation outside of our day jobs, we’ve unfortunately become extremely time-poor to constantly look for small funds or offer invisible labour associated with funding obligations.
 
