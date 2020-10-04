@@ -35,7 +35,7 @@ Estimated real cost for each cohort is GBP £24,259 in founder, mentor, and expe
 
 Many of the expenses required to run this project effectively have come from the founders' own pockets. Some funding resources can be reached with requests for support to sympathetic organisations, however claiming some of our expenses can sometimes be challenging -- not all items can be funded due to funding organisation's policies, and administrative formalities and/or blog posts are required for each funded item. Whilst running a non-profit organisation outside of our day jobs, we've unfortunately become extremely time-poor to constantly look for small funds or offer invisible labour associated with funding obligations.
 
-### Software Sustainability Institute partnership for OLS-2
+### Software Sustainability Institute fellowship to support OLS-2
 
 Two co-founders are fellows of the [Software Sustainability Institute (UK)](https://www.software.ac.uk/), which provided small fellowship funds with which we manage to support the communication and application management platforms required for OLS-2 (EasyChair, Zoom, professional mentor training etc.). We are grateful to receive personal and organisational support in redirecting this fellowship towards OLS infrastructure needs. 
 
