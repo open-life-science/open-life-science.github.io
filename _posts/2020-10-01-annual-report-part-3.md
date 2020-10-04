@@ -13,7 +13,7 @@ photos:
 ---
 
 
-*This is the last part of the 3 parts OLS project and community report: **Where we want to go***
+*This is the last part of the 3 parts OLS project and community report: **Where we want to go**. In the first two parts, we covered: [**Where we started**]({% link _posts/2020-10-01-annual-report-part-1.md %}) and [**How far we have come**]({% link _posts/2020-10-01-annual-report-part-2.md %}).*
 
 ## Shifting “volunteer culture” of Open Science
 
