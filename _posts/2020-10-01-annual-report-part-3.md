@@ -65,4 +65,4 @@ See you all online (and hopefully, someday in person, after the COVID-19 pandemi
 
 **END OF THE REPORT**
 
-***Please see the [Part 1 of this report](./2020-10-01-annual-report-part-1) and [Part 2 of this report](./2020-10-01-annual-report-part-2)***
+***READ MORE**: If you missed them, you can also read the first two parts of the report: [**Where we started**]({% link _posts/2020-10-01-annual-report-part-1.md %}) and [**How far we have come**]({% link _posts/2020-10-01-annual-report-part-2.md %}).*
