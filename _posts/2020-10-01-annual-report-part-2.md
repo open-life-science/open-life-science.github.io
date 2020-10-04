@@ -7,7 +7,7 @@ authors:
 - yochannah
 image: https://images.unsplash.com/photo-1523540939399-141cbff6a8d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
 photos:
-  name: Sam Dan Truong, Unsplash id: @sam_truong
+  name: Sam Dan Truong
   license: CC-BY
   url: https://unsplash.com
 ---
