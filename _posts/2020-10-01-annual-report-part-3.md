@@ -41,7 +41,7 @@ We hosted 2 webinars before launching the OLS-2 call for application and present
 - [Bioinformatics Community Conference 2020](https://bcc2020.github.io/): short talks and [3 workshops](https://bcc2020.sched.com/event/c44n/building-communities-with-open-source-open-science) (3 hours each) across 3 time zones.
 - **Open Science Seminar at Eastern Africa Network for Bioinformatics Training (EANBiT) 2020**: Participated in a training panel (2 hours)
 - **Collaboration Workshop 2020 by Software Sustainability Institute, UK**: lightning talk and a workshop (1.5 hours)
-- CarpentryCon @ Home 2020: 2 workshops on [Open Leaders Fundamentals](https://2020.carpentrycon.org/schedule/#session-45) and [Ally skills](https://2020.carpentrycon.org/schedule/#session-46) (1.5 hours each)
+- **CarpentryCon @ Home 2020**: 2 workshops on [Open Leaders Fundamentals](https://2020.carpentrycon.org/schedule/#session-45) and [Ally skills](https://2020.carpentrycon.org/schedule/#session-46) (1.5 hours each)
 - Research Data Alliance Early Career and Engagement IG 2020: Webinar (1 hour)
 
 These engagements helped OLS become more visible across different research and open source communities. We will continue to do so to connect with those who are currently not in OLS, and Open Science at large.
