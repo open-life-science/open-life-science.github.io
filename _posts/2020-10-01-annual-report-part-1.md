@@ -20,7 +20,7 @@ Since the report is quite elaborative, we are publishing them in 3 parts:
 1. we give an account of how far we have come 
 1. we end this report with where we want to go. 
 
-*This is the first part of the report: **Where we started***
+*This post is the first part of the report: **Where we started**. The two other parts will cover: [**How far we have come**]({% link _posts/2020-10-01-annual-report-part-2.md %}) and [**Where we want to go**]({% link _posts/2020-10-01-annual-report-part-3.md %})*
 
 ## OLS timeline so far
 
