@@ -33,7 +33,7 @@ Feedback from the participants in OLS-1 and OLS-2 will help us enhance the quali
 
 Meanwhile, we have also improved the FAIR-ness of the way we work by moving our shared note-taking from Google Docs to HackMD, which can be integrated with cohort-specific GitHub repositories. We are also working on [Schema.org](https://schema.org/) annotations of the material. All the website content is designed in a way that information inconsistencies and backlogs can be avoided.
 
-## Reaching communities who are not here ‘yet’!
+## Reaching communities who are not here 'yet'!
 
 With the conclusion of the first cohort, OLS has established itself as a globally inclusive initiative and a unique mentoring program for life science researchers. Participants of our program come from different backgrounds, identities, domain knowledge, nationality, career-stage and institutional affiliation. To ensure that our mentees are supported appropriately, mentors are assigned based on their preferred language, time zones and areas of interests. We conduct our work under a respectful and inclusive environment and enforce our Code of Conduct in all its activities. For OLS-1, we used the auto-generated transcripts of our video recordings, but for this round we are using otter.ai for live transcription. We share our training materials, cohort call videos and all OLS resources under CC-BY license and actively promote them to reuse, remix, adapt and share. 
 
