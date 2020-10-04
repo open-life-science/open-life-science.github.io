@@ -49,7 +49,7 @@ The project has been supported by [many organisations](about#partners-and-sponso
 
 - **November 2019**: Non-financial partnership from Mozilla Open Leaders, Backofen Lab, Software Sustainability Institute, ELIXIR, de.NBI, EMBL Bio-IT, Freiburg University, Manchester University. These partnerships represented our employers, advisors, and professional networks - no official partnership agreements or memorandum of understanding was signed. 
 - **June 2020**: ‘OLS-2 for Turing’ collaboration with _The Turing Way_ to support Open Source projects from The Alan Turing Institute and The Turing Way community
-- **August 2020**: OLS was awarded the EOSC-Life Training grant to build a cohort with the EOSC Research Infrastructure community in **2021**
+- **August 2020**: OLS was awarded the [EOSC-Life](https://www.eosc-portal.eu/eosc-life) Training grant to build a cohort with the EOSC Research Infrastructure community in **2021**
 - **August 2020**: OLS registers as a Limited company with **£1 (GBP 1) in assets**
 - **May-September 2020**: Software Sustainability Institute Fellowship pays for OLS-2 communication platform cost and mentorship training by [360 Training UK](http://360training.co.uk/) 
 
