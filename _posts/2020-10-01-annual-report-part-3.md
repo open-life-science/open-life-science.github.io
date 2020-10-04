@@ -25,7 +25,7 @@ We would also like to offer small-scale funding to our mentees from low-income b
 
 This positive culture change is necessary to prevent unnecessary emotional burden and unfair treatment of contributing members in Open Science caused by unpaid volunteer work.
 
-### OLS curriculum: *not just ‘Open’, but ‘community-minded’*
+### OLS curriculum: *not just 'Open', but 'community-minded'*
 
 From the beginning, OLS has been encouraging interested applicants to design their project ideas to not just be ‘Open’ but community-minded. Documentation, reproducibility, transparent reporting and public engagement aspects are strongly integrated into our curriculum and we accept projects with both technical and non-technical scopes. In the first round, many leads of technical projects also reported that their work benefited from the community-mindset we teach in OLS. We intend to strengthen our curriculum to add technical skill-up training (as we currently do for version control), but continue to run the current and next cohorts of the program to support community-oriented projects. We hope this will create momentum in the communities that can benefit immensely from Open Science practices.
 
