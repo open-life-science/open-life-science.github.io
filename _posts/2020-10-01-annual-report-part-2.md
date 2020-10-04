@@ -13,7 +13,7 @@ photos:
 ---
 
 
-*This is the second part of the 3 parts OLS project and community report: **How we are**. The first part covered: [**Where we started**]({% link _posts/2020-10-01-annual-report-part-1.md %}) and the last part will be [**Where we want to go**]({% link _posts/2020-10-01-annual-report-part-3.md %}).*
+*This is the second part of the 3 parts OLS project and community report: **How far we have come**. The first part covered: [**Where we are**]({% link _posts/2020-10-01-annual-report-part-1.md %}) and the last part will be [**Where we want to go**]({% link _posts/2020-10-01-annual-report-part-3.md %}).*
 
 ## OLS-1 to OLS-2: *cohort doubled in size*
 
