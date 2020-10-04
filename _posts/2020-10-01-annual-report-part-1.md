@@ -55,4 +55,4 @@ The project has been supported by [many organisations](about#partners-and-sponso
 
 Bonus trivia: In July 2020, OLS was also shortlisted as one of the two projects as ["best innovation in Open Source Technology"](https://cogx.co/cogx-awards/cogx-awards-2020-shortlisted/) by CogX - a global festival for AI and technology. Though we did not win the award, we attracted the attention of early-stage researchers interested in building their projects on AI and data science. 
 
-***TO BE CONTINUED: Please see the [Part 2 of this report](./2020-10-01-annual-report-part-2) and [Part 3 of this report](./2020-10-01-annual-report-part-3)***
+*TO BE CONTINUED: You can now read two other parts of the report: [**How far we have come**]({% link _posts/2020-10-01-annual-report-part-2.md %}) and [**Where we want to go**]({% link _posts/2020-10-01-annual-report-part-3.md %})*
