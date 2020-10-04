@@ -7,7 +7,7 @@ authors:
 - yochannah
 image: https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80
 photos:
-  name: Ross Findon, Unsplash id: @rossf
+  name: Ross Findon
   license: CC-BY
   url: https://unsplash.com
 ---
