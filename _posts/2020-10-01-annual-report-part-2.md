@@ -28,7 +28,7 @@ We continue to invite feedback from our participants to ensure that they feel ad
 
 Our website helps to give us an incredibly professional face thanks to Bérénice’s tireless and utterly incredible efforts (including during her maternity leave). But, as shiny as our site might look, we’re still operating on a shoestring budget - most of the preparation work we do is out of hours and on our own time. Likewise, OLS mentors and experts are all currently unpaid. 
 
-Estimated real cost for each cohort is GBP £24,259 in founder, mentor, and expert time, as well as some infrastructure costs. Ideally, we would like to meet these costs - as such it probably comes as no surprise that the OLS team is currently actively seeking funding and applying for external fund sources.
+The estimated real cost for each cohort is GBP £24,259 in founder, mentor, and expert time, as well as some infrastructure costs. Ideally, we would like to meet these costs - as such it probably comes as no surprise that the OLS team is currently actively seeking funding and applying for external fund sources.
 
 <iframe src="https://docs.google.com/spreadsheets/d/1_Q8atU9Xsh5aXQuQpxizyMUdKWug_jYgMobzhxxPE8c/pubhtml?widget=true&amp;headers=false" style="width: 100%; height: 400px"></iframe>
 
