@@ -9,7 +9,7 @@ image: https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-1.2
 photos:
   name: Markus Winkler, Unsplash id: @markuswinkler
   license: CC-BY
-  url: https://unsplash.com
+  url: https://unsplash.com/photos/cxoR55-bels
 ---
 
 # Year one of Open Life Science (OLS) - Part 1
