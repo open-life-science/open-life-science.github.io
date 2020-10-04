@@ -12,7 +12,6 @@ photos:
   url: https://unsplash.com/photos/mG28olYFgHI
 ---
 
-# Year one of Open Life Science (OLS) - Part 3
 
 *This is the last part of the 3 parts OLS project and community report: **Where we want to go***
 
