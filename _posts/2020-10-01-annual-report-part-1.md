@@ -32,7 +32,8 @@ Since the report is quite elaborative, we are publishing them in 3 parts:
 - **July 2020**: OLS-2 call for application opens
 - **September 2020**: OLS-2 launched with 32 participating projects
 - **December 2020**: OLS-2 expected graduation
-- **January 2021**: OLS-3 call for application is expected to open
+- **December 2020**: OLS-3 call for application is expected to open
+- **February 2021**: OLS-3 cohort is expected to start
 
 ## Inclusiveness designed at the core of OLS
 
