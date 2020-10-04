@@ -39,7 +39,7 @@ Many of the expenses required to run this project effectively have come from the
 
 Two co-founders are fellows of the [Software Sustainability Institute (UK)](https://www.software.ac.uk/), which provided small fellowship funds with which we manage to support the communication and application management platforms required for OLS-2 (EasyChair, Zoom, professional mentor training etc.). We are grateful to receive personal and organisational support in redirecting this fellowship towards OLS infrastructure needs. 
 
-### EOSC-Life Training grant to partially support OLS-3
+### EOSC-Life Training grant to support OLS-3
 
 For one cohort in 2021, OLS has been awarded EOSC-Life (https://www.eosc-life.eu/) open call training funding of up to 20,000 Euros to develop a special call to train and mentor up to 15 projects from within the EOSC-Life research infrastructure. This will partially cover costs for OLS-3, which will be designed over the next few months by including a new curriculum.
 This opportunity will help widen the accessibility of our service and resources for the EOSC-Life community while we continue to support our participants from developing countries. Thanks to Neil Chue Hong, Bastian Greshake Tzovaras, Mateusz Kuzak, Andrew Stewart, Naomi Penfold, Fotis E. Psomopoulos, and Emmy Tsang for providing references and generous testimonials about the program. You can find a copy of our grant application  on [Zenodo](https://zenodo.org/record/4060367).
