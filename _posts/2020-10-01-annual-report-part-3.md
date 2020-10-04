@@ -41,7 +41,7 @@ With the conclusion of the first cohort, OLS has established itself as a globall
 
 We also understand that active measures are more effective than passive advocacy of diversity and inclusion. Therefore, during our break between OLS-1 and OLS-2 we continued to proactively deliver workshops, public resources and seminars in order to reach out to researchers who are traditionally underrepresented in open science.
 
-We hosted 2 webinars before launching the OLS-2 call for application and presented the project report of the pilot program at the following international computation and education-related conferences (virtual conferences due to COVID-19 pandemic):
+We hosted 2 webinars before launching the OLS-2 call for applications and presented the project report of the pilot program at the following international computation and education-related conferences (virtual conferences due to COVID-19 pandemic):
 - **[Bioinformatics Community Conference 2020](https://bcc2020.github.io/)**: short talks and [3 workshops](https://bcc2020.sched.com/event/c44n/building-communities-with-open-source-open-science) (3 hours each) across 3 time zones.
 - **Open Science Seminar at Eastern Africa Network for Bioinformatics Training (EANBiT) 2020**: Participated in a training panel (2 hours)
 - **Collaboration Workshop 2020 by Software Sustainability Institute, UK**: lightning talk and a workshop (1.5 hours)
