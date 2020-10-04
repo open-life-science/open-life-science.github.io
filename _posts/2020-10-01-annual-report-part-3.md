@@ -15,7 +15,7 @@ photos:
 
 *This is the last part of the 3 parts OLS project and community report: **Where we want to go**. In the first two parts, we covered: [**Where we started**]({% link _posts/2020-10-01-annual-report-part-1.md %}) and [**How far we have come**]({% link _posts/2020-10-01-annual-report-part-2.md %}).*
 
-## Shifting “volunteer culture” of Open Science
+## Shifting "volunteer culture" of Open Science
 
 The value we create in OLS is impossible without the hard work of our participants (co-founders/lead trainers, mentors, expert guest speakers and project leads), who engage with OLS beyond their usual responsibilities. The first cohort was run entirely on their volunteer-work and for the current cohort we are actively seeking funding to support involvement of our participants in Open Science. 
 
