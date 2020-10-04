@@ -9,7 +9,7 @@ image: https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?ixlib=rb-1.2
 photos:
   name: Ross Findon
   license: CC-BY
-  url: https://unsplash.com
+  url: https://unsplash.com/photos/mG28olYFgHI
 ---
 
 # Year one of Open Life Science (OLS) - Part 3
