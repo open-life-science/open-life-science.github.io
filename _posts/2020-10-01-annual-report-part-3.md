@@ -57,7 +57,7 @@ Currently, our time in OLS is not funded and is largely after-hours, and financi
 
 We have learned the hard way that non-profit projects like OLS come with financial and personal challenges. These challenges will keep us from working towards our goals until we have developed a stable funding model and business strategy to ensure the sustainability of this project.
 
-In the short term, we have planned to offer an Ally Skills training session that will be open to public registration as a way to raise some ready cash for the organisation. Attendance is free to OLS members, with varying ticket prices for individuals who are able to pay, and fee waivers available if interested members otherwise could not attend. A separate post will follow about our Ally Skills workshop to raise funding for OLS-2.
+In the short term, we are offering an Ally Skills training session that will be open to public registration as a way to raise some ready cash for the organisation. Attendance is free to OLS members, with varying ticket prices for individuals who are able to pay, and fee waivers available if interested members otherwise could not attend. A separate post will follow about our Ally Skills workshop to raise funding for OLS-2.
 
 In the long term, we are exploring funding resources to meet our financial needs (as discussed in this report) to ensure that we can run and expand this program to its full potential.
 
