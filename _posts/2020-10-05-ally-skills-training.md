@@ -5,7 +5,7 @@ authors:
 - bebatut
 - malvikasharan
 - yochannah
-image: /images/2020-ally-skills-training.jpg
+image: /images/2020-ally-training.jpg
 photos:
   name: Background vector created by rawpixel.com - www.freepik.com
   license: CC-BY
