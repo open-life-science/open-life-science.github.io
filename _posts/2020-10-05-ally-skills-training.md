@@ -14,7 +14,7 @@ photos:
 
 An important part of collaborative research, and indeed of open science, is compassion. We’re too-often inclined, as a community, to act as though science - that it is supposed to be evidence-based or data-driven - is somehow pure, objective, and above bias. In reality, science is produced by humans, and falls prey to the same implicit biases that humans have. This is reflected in the science and research we do, and in the communities of scientists and researchers who create the science.
 
-Open Life Science is a program that revolves around community building - creating healthy, friendly, caring, and _inclusive_ communities. Part of this includes learning to step up for others when you are in a position where you notice something unfair, exclusionary, or discriminatory, and if you’re in a position where you yourself are safe to speak up -- known as “Ally Skills”.
+Open Life Science is a program that revolves around community building - creating healthy, friendly, caring, and _inclusive_ communities. Part of this includes learning to step up for others when you notice something unfair, exclusionary, or discriminatory, and if you are in a position of privilege and feel safe to speak up -- a trait known as “Ally Skills”.
 
 We’re running two virtual Ally Skills training sessions to give interested participants the chance to learn about:
 - Different types of privilege you may have (and perhaps not be aware of it)
@@ -32,7 +32,7 @@ We will run two workshops on **December 4 2020** to suit two different timezones
 
 Open Life Science is a non-profit organisation. Proceeds will be used to pay trainers for their time and all other funds earned will be used for OLS-specific purposes, such as offering small incubator grants for OLS-2 projects.
 
-Our goals with this workshop are to make ally skills more accessible to others as well as raising money for OLS, but we do not wish to exclude anyone who would find it genuinely difficult to pay for this workshop. If you would like to participate and your organisation is unable to sponsor a full-price ticket, please fill out this short form to request a reduced-price or free ticket.
+Our goals with this workshop are to make ally skills more accessible to others as well as raising money for OLS, but we do not wish to exclude anyone who would find it genuinely difficult to pay for this workshop. If you would like to participate and your organisation is unable to sponsor a full-price ticket, please fill out [this short form to request a reduced-price](https://forms.gle/fewzxJZBnBVTvwu28).
 
 Tickets are free to OLS mentors, experts, mentees/project leads, and call hosts - approach us by emailing team@openlifesci.org for a ticket discount code.
 
