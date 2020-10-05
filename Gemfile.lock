@@ -266,6 +266,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-last-modified-at
   jekyll-paginate
+  jekyll-redirect-from
 
 BUNDLED WITH
    2.1.4
