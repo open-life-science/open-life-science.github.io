@@ -282,7 +282,7 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## OLS Speaker Guide
 
-We have [a short guide for invited speakers]({% link ols-speaker-guide.md %}).
+We have [a short guide for invited speakers]({% link _ols-2/speaker-guide.md %}).
 
 ## Communication channels
 
