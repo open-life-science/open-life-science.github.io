@@ -18,8 +18,8 @@ Open Life Science is a program that revolves around community building - creatin
 
 We’re running two virtual Ally Skills training sessions to give interested participants the chance to learn about:
 - Different types of privilege you may have (and perhaps not be aware of it)
-- Effective ways to be an ally to someone if the need comes up
-- A chance to practice, in small groups and a safe space, handling realistic scenarios you could encounter
+- Using your societal advantages to support others in your workplace and communities
+- Opportunity to practice, in small groups and a safe space, handling realistic scenarios you could encounter
 
 ## When:
 
