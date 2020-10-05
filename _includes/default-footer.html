@@ -8,16 +8,25 @@
             <a href="https://twitter.com/{{ site.twitter }}">
               {{ site.twitter }}
             </a>
-            <br />
+          </p>
+          <p>
             <i class="fas fa-at"></i>
             <a href="mailto:{{ site.email }}">
               {{ site.email|replace:'@','[at]' }}
             </a>
-            <br />
+          </p>
+          <p>
             <i class="fab fa-github"></i>
             <a href="{{ site.github.repository_url }}">
               {{ site.github.owner_name }}
             </a>
+          </p>
+            <p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="{{ site.announcement_list }}">
+                    Subscribe to our announcements list 
+                </a>
+            </p>
         </div>
         <div class="column is-5">
           <p>
@@ -29,6 +38,11 @@
           <p>
             The website content is licensed
             <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>.
+          </p>
+          <p>
+            The logo was originally designed by
+            <a href="https://github.com/htmluke">Lucas Emanoell Medeiros e Silva</a> and
+            then adapted by the team.
           </p>
         </div>
       </div>

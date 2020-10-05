@@ -1,6 +1,0 @@
-font:
-Myriad Variable Concept
-
-color pallet:
-#2ec65c
-#29aa4b

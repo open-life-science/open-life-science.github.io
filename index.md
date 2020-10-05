@@ -9,64 +9,112 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-# A mentoring program for Open Science ambassadors in Life Science
+# A mentoring & training program for Open Science ambassadors
 
-**Purpose**: Training for early stage researchers and young leaders interested in furthering their
-Open Science skills
+The Open Life Science (OLS) program helps **individuals and stakeholders in research** to become **Open Science ambassadors**.
 
-**Outcome**: Ambassadors for Open Science practice, training and education across multiple European
-and international bioinformatics communities.
+## About
 
-**Process**: A 12-week mentoring program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Leaders by using three principles:
+This is a **16-week long personal mentorship and cohort-based training**, where participants (organisers, hosts, mentors and project leads/mentees) of this program will:
+- share their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
+- connect with members across different projects, communities, backgrounds, and identities
+- empower each other to become effective Open Science ambassadors in their communities
 
-1. **Sharing** essential knowledge required to create, lead, and sustain an Open Source project.
-2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
-3. **Empowering** them to become effective Open Science Leaders in their communities as ambassadors for Open Science practices.
+## Applications
 
-## Values
+After the success of our [first cohort](ols-1) from January to April 2020, we have launched the 2nd cohort of this program:
+
+{% include _includes/ols-2-timeline.md %}
+
+The call for applications is **open**! 
+Please visit [EasyChair](https://easychair.org/conferences/?conf=ols2) to view our application instructions and upload your application before the end of the day on June 30, 2020. 
+
+Have a question or need any support to join this cohort? 
+We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}). 
+
+## Projects
+
+{% assign projects = site.data.ols-1-projects %}
+
+{% assign all-participants = '' %}
+{% assign all-mentors = '' %}
+{% for project in projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+    {% endfor %}
+{% endfor %}
+
+{% assign p-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign p-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+
+Participants join this program with a project that they either are already working on or want to develop during this program individually or in teams. 
+Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
+
+**Check out the projects developed in the first cohort by [{{ p-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ projects | size }} projects](/ols-1/projects-participants#projects).**
+
+All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
+
+- promote one or several Open Science practices (i.e. Open Access, Open Source, Citizen Science, ) in life science
+- state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
+- create an inclusive space and welcome contributions from their community members
+
+## Does OLS only accept life science projects?
+
+Modern science and scientific communities stand in the interface of computation and other research fields. Life science is one of them.
+This interdisciplinary position provides an exciting opportunity for new scientists to understand and welcome open leadership practices -- skills that aren’t necessarily taught in the traditional education system.
+
+OLS fills this gap by offering structured training and mentoring to help participants implement “open by design” principles in their projects systematically.
+
+The founders of this program come from the life science backgrounds and have an extensive network of Open Science practitioners from this field who are experts and mentors in this program.
+Therefore, OLS was initially designed with life science researchers and projects in mind.
+
+However, with the growing interest from the community members and the transferable nature of lessons learned in this program, we have expanded the scope to other fields where these skills will be directly applicable.
+
+## What's in it for you?
 
 We want to make this program mutually beneficial for all the participants.
 Here are a few values we think you will receive from participating in this project.
 
-- Become a member of the community
-- Exchange skills and build your profiles
-- Highlight your resources by sharing with the community
+- Become a contributing member of this community
 - Collaborate with others in Open Science projects
-- Develop projects to publish online
-- Participate in designing this program by sharing your feedback and experience
+- Exchange skills with others and build your profiles
+- Highlight and promote your resources
 - Gain insights from other experts in the field
-- Gain recognition and acknowledgement for your work
-
-## Timeline
-
-- **October 2019**: Opening of the applications
-- **End of November 2019**: Closing of the applications
-- **Mid of December 2019**: Successful applicants announced
-- **January 2020**: Start of the 12-week program
-
-  A detailed schedule of the program is available in the [syllabus](syllabus#schedule).
+- Work on short-term projects and publish online
+- Get recognition and acknowledgment for your work
+- Co-develop this program by sharing feedback
 
 ## The program itself
 
-To illustrate the program, we will share the persona/story of Joy, a mentee participating in the program, and Sam, their [personal mentor](about#mentors), as they progress through their open leadership journey. They will be involved in the following steps of this program:
-1. In their applications, they will indicate their interests in the topics related to Open Science and education in bioinformatics. Joy will provide a short outline of their project, and Sam will list their expertise that they want to share with their mentee.
-2. Based on their common interests, they will be introduced to each other as suitable mentee and mentor.
-3. A first cohort call will be scheduled where Joy will get to know all the participants of the program, present their project, and learn about others' projects.
-4. Relevant contents related to Open Life Science and education will be selected to design a 12-week program similar to the previous [Mozilla Open Leader](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) programs. These contents will be shared and discussed in the following bi-weekly online calls:
-    1. In the cohort calls, the program leaders will introduce new topics and resources, facilitate break-out discussions, and invite [expert](about#experts) from the field to give talks.
-    2. In mentors-only calls, Sam will participate in topic-based discussions with other mentors aimed at enhancing their mentoring skills.
-    3. In mentee-mentor calls, Sam will help Joy evaluate their understanding of the new topics, and review their progress by providing constructive feedback. Joy will be given relevant exercises before these calls to help them apply new skills in their project.
-5. When needed, Joy and Sam will be able to connect with other [experts](about#experts) and get consulted on their project.
-6. A final cohort call will allow Joy to present their project to other participants and exchange values.
-7. A self-evaluation survey will help Joy and Sam in positioning their knowledge in open leadership before and after the program.
-8. For the next round, Joy will share what they learnt by [mentoring](about#mentors) a project and Sam will become an [expert](about#experts).
+*To illustrate the OLS journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their open science training.*
 
-## Applications
+Joy will provide an outline of a project in their application that they will develop in the program. Additionally, they will indicate their interests in learning particular aspects of Open Science and research. 
 
-This program will focus on open science and education in the life sciences and bioinformatics domains.
+Sam will register as a mentor and list their expertise that they would like to share with their mentee.
 
-We are particularly keen to connect with the participants from less-represented European countries such as Hungary, Greece, Estonia, and Cyprus. We also invite applicants from outside Europe, particularly from developing countries (e.g. India and Africa - who are also timezone-compatible).
+After the selection process, they will be involved in the following steps of this program:
 
-Cohort calls will be conducted in English. However, our participants who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.
+1. Based on their common interests, they will be introduced to each other as suitable mentee and mentor
 
-**Interested to participate? The application will open in October.**
+    They will meet every 2nd week on **mentee-mentor calls** (around 30 minutes). Sam will help Joy evaluate their understanding of the new topics introduced in the program, and guide their progress by providing constructive feedback. 
+    Joy will be given assignments before these calls to help them apply new skills to their project. When needed, Joy and Sam will connect with other [experts](about#experts) to invite consultation on their project.
+
+2. Joy will participate in online [training calls](ols-1#schedule) and share insights with other participants in the program.
+
+    In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
+    
+3. Joy will get to know their peers from the cohort during social and co-working calls.
+
+    They will share their project ideas, learn about others' projects and discuss assignments.
+
+4. A final graduation call will allow Joy to present their project to other participants and exchange values.
+
+Sam will also participate in **mentor training** calls and attend topic-based discussions with other mentors aimed at enhancing their mentoring skills.
+
+A self-evaluation survey, mid-cohort survey and post-cohort survey will help Joy and Sam in positioning their knowledge in open science leadership before, during and after the program.
+
+For the next round, Joy may share what they learned by [mentoring](about#mentors) a new project in the future cohort and Sam will continue their mentoring effort or take an [expert](about#experts) role.

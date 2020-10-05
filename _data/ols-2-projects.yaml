@@ -1,0 +1,747 @@
+# List of projects for OLS-2
+#
+# Check OLS-1 for examples
+---
+- name: Practical Guide to Reproducibility in Bioinformatics
+  participants:
+    - sk-sahu
+  mentors:
+    - hrhotz
+  description: |
+    Reproducibility in life science always been in debate.
+    Althogly lately standard practices have adopted in different aspects,
+    sometimes these might not practically applicable by the end researcher.
+    Reproducibility practices need to be used by all, then only it will be
+    successful in both ends (research producer and research reader).
+    To bridge this gap, a lot of practical training is required.
+    This is where this project comes in picture.
+    Here we aim of creating training materials for doing
+    reproducible research in a more practical and application-oriented way
+    with a specific focus on niche areas of respective research
+    (for now bioinformatics as a starting point).
+    Not only limited to materials, as well as virtual training
+    by promoting the practuce of creating and sharing of Computational
+    Environment and Analysis in a reproducible manner with systems in scaling.
+
+- name: Mapping Science using Open Scholarship
+  participants:
+    - stefan-gaillard
+  mentors:
+    - malvikasharan
+    - yochannah
+  description: |
+    I want to work out a way to use data visualization to map the current state
+    of scientific knowledge within the life sciences.
+    Some literature on mapping science already exists, but most was written before
+    the machine learning revolution. The more contemporary literature suffers
+    from other mistakes, such as flawed comparisons of studies (using the same
+    terminology in different manners) and, most importantly, not all scientific
+    research is easily available. Thus, Open Science should be an integral
+    component of any effort to map scientific knowledge. In this project, I
+    aim to outline which Open Science practices currently exist that facilitate
+    the mapping of science, which Open Science practices are needed to facilitate
+    the mapping of science and how a prototype for a collaborative effort to map
+    science could look like.
+
+- name: Creating community awareness of open science practices in phytolith research
+  participants:
+    - EKaroune
+  mentors:
+    - yvanlebras
+  description: |
+    I have been conducting my own research to assess the state of data sharing
+    in phytolith analysis. The results show that data sharing practices are
+    minimal (articles are currently being written!). Therefore, I am aware that
+    my discipline needs to focus on open science practices to develop more
+    transparent and robust methodologies. I want to raise awareness of the need
+    for open science practices, initially focusing on data sharing. This will
+    involve distributing my current research findings widely through blogs and
+    conference talks, and these efforts will enable the formation of community
+    connections to initiate a working group for open science in my field.
+    There are currently working groups for nomenclature and morphometrics in
+    phytolith analysis as part of the International Phytolith Society. Initial
+    efforts of the working group would be to investigate the best ways to share
+    data, developing resources/training opportunities for students and early
+    career researchers, and recommending/publishing guidelines for colleagues
+    to follow.
+
+- name: Synthetic Biology Chassis Toolkit for Public Domain Use
+  participants:
+    - stephen-klusza
+  mentors:
+    - anita-broellochs
+  description: |
+    A synthetic biology platform that is compatible with existing and future
+    public-domain biotechnologies in the Biosafety-Level -1 (BSL-1) organism
+    Bacillus subtilis. Bacillus subtilis has the ability to secrete biomaterials
+    outside of the cell and also undergoes sporulation under certain conditions,
+    which provides a stable way of storing DNA at room temperature without a
+    need for refrigeration.
+    Despite the tremendous progress in synthetic biology and biomanufacturing
+    industries, most innovations are patented with various restrictions on
+    use and impedes global access and use of these tools. A synthetic biology
+    toolkit that exclusively uses technologies in the public domain is the first
+    step towards providing scientists and non-scientists the tools to conduct
+    science and create valuable biomaterials for their communities without restriction.
+
+- name: Creating a single pipeline for metagenome classification
+  participants:
+    - MuhammetCelik
+  mentors:
+    - malloryfreeberg
+  description: |
+    Metagenomics has been increasingly becoming very important in studies of
+    human and animal health. It has become clear that bacteria in and on our
+    bodies are very significant. Thus there is a big boost in science society
+    who are willing to study metagenomics. When we want to do downstream analysis
+    in our microbial community, the first step is to find out about our community,
+    what the community ultimately looks like. My idea is that benchmark the state
+    of the art tools (such as Kraken2, Centrifuge and CLARK) and create a single
+    pipeline that will produce a single pdf file with cutoff-signifance-sensitivity
+    values for each tool. Later we can set that pipeline on web-based system that
+    would make the researchers easier for the scientists.
+
+- name: Chronic Learning
+  participants:
+    - bailey-harrington
+  mentors:
+    - piv-gopalasingam
+  description: |
+    Chronic Learning is an open resource for academics and individuals who are
+    trying to teach or learn something new; the scope is not limited to science.
+    The project currently consists of a WordPress site (unlaunched), a Dropbox
+    for material storage, and a Twitter account for dissemination. I own the
+    copyright for all of the materials, and they are free to use for academic
+    purposes, such as lecture slides or handouts. The materials are made up of
+    a mixture of graphical abstracts, tutorials, and reference pdfs; I hope to
+    incorporate more formats, such as videos, as well.
+
+- name: Open Innovation in Life Sciences
+  participants:
+    - joyceykao
+    - christina-ambrosi
+  mentors:
+    - aidanbudd
+  description: |
+    Open Innovation in Life Sciences is an open science organization that
+    promotes the practice of open science in the Zurich-area life science
+    research community. We are a bottom-up approach focusing on early career
+    researchers (ECRs) that complements the Swiss national and institutional
+    top-down open science initiatives. We are currently establishing an official
+    Swiss association in collaboration with Life Science Zurich and expanding
+    our program to include open science workshops/courses for ECRs and public
+    lectures to complement our annual conference and keep the discussion on
+    open science active all year round. The association will be operated by
+    ECRs working with a board of academic and industry leaders thus it doubles
+    as a career training program adding hands-on experience of practicing soft
+    skills (e.g. teamwork, communication, etc.) and learning non-scientific
+    expertise (e.g. project management, budgeting, advertising, etc.) to
+    enhance traditional Ph.D. and Postdoctoral training.
+
+- name: Using collective action to change cultural norms and drive progress in the life sciences
+  participants:
+    - coopersmout
+  mentors:
+    - luispedro
+    - Lilian9
+  description: |
+    Open Science practices have the potential to benefit everyone in the life
+    science community (and broader society), but their adoption is limited by
+    incentive structures that reward ‘fast’ and unreliable science at the
+    individual level. ‘Crowd-acting’ platforms (e.g., Kickstarter, Collaction)
+    can overcome such collective action problems by organising ‘pledges’ for a
+    particular behaviour, which are only acted on if and when a predetermined
+    critical mass of support is met. By protecting individuals’ interests until
+    such time that they have the support of their community, crowd-acting
+    platforms can thus resolve the collective action problem and increase the
+    uptake of the beneficial behaviour in question. Similarly, Project Free Our
+    Knowledge aims to organise collective action in the global research
+    community. Researchers can create and sign campaigns asking their peers to
+    adopt a new behaviour, but only act on that pledge if a certain threshold
+    of support is met (e.g., 1000 signatures). If and when the threshold is
+    reached, everyone who has signed that campaign will be listed on the website
+    and directed to carry out the new behaviour in unison, with the protection
+    of their peers.
+
+- name: Developing the Research Software & Systems Engineering Community to support Life Sciences in Africa
+  participants:
+    - pvanheus
+    - Banshee1221
+  mentors:
+    - mesfind
+    - rgaiacs
+  description: |
+    Bioinformatics and other computational life sciences (e.g. disease modelling)
+    rely on computing infrastructure built and maintained by software engineers
+    and sysadmins/systems engineers. The [RSSE Africa (Research Software & Systems
+    Engineers) forum](https://rsse-africa.sanbi.ac.za/) was established last year
+    just prior to the [ASBCB conference](https://www.iscb.org/iscbafrica2019) to
+    provide a home for people whose main contribution to research is software and
+    computing systems. The aim for 2020 is to grow the project in terms of
+    visibility and participation.
+
+- name: Growing the Galaxy Community
+  participants:
+    - beatrizserrano
+  mentors:
+    - tnabtaf
+  description: |
+    Galaxy is an open-source framework that enables scientists to perform
+    computational biology analysis. A worldwide community supports the Galaxy
+    project providing tools, workflows, computational resources and training
+    materials in many different scientific areas. At the beginning of
+    September 2020, I’ll be starting a new position at the University
+    of Freiburg to help with the community management within the European
+    Galaxy team. European Galaxy community has grown both in number and
+    fields, standing in need of coordination across several countries that
+    need to work collaboratively to achieve common goals. My new role will
+    include the responsibility of coordinating the European Galaxy and
+    scientific community as well as strengthening the relationship with the
+    Australian community, helping build the Asian and African communities,
+    and event organisation around Bioconda, BioContainers and Galaxy. With
+    this personal project, I would like to advance my community building and
+    project management skill while enhancing the connection with the
+    communities outside Europe.
+
+#- name: Advancing MolPDF using open principles
+#  participants:
+#    - Sulstice
+#  mentors:
+#    - mblue9
+#  description: |
+#    MolPDF does one thing right now and is convert a list of 1D SMILES
+#    representation of a chemical to a 2D image and into a PDF. For example
+#    if a user would like to pass in a list of 100,000 molecules MolPDF will
+#    render the PDF with their 1D and 2D images in a table in PDF. The
+#    MolPDFParser() can read in a MolPDF file and then pass it back as a
+#    variable list.
+#    Since there is no open source project IUPAC naming schema for molecules,
+#    I've designed a language AI to convert between SMILES and IUPAC.
+#    There is plenty of rooms for improvement and inviting support from others.
+#    Furthermore, pdf format might not be the most accessible file format when
+#    working with open and reproducible software and workflows. Therefore, with
+#    my participation in this program, I would like to learn from my mentors
+#    about how to implement open science principles in my research.
+    
+
+- name: Global land-use and land-cover data under historical, current, and future climatic conditions for ecologists
+  participants:
+    - Tai-Rocha
+  mentors:
+    - bruno-soares
+    - yvanlebras
+  description: |
+    Land-Use Land-cover (LULC) data are important predictors of species
+    occurrence and biodiversity threats. Although there are LULC datasets
+    available for ecologists under current conditions, there is a lack of
+    such data under past and future climatic conditions. This hinders
+    projecting the predictions from niche and distribution models over
+    global change scenarios at different time periods. The Land Use
+    Harmonization Project ([LUH2](http://luh.umd.edu/data.shtml)) is a global
+    dataset in raster format covering continental areas, and provides massive
+    LULC data from 850 to 2300. However, these data are compressed in a file
+    format (NetCDF) that are intractable by most ecologists. We aim to selected
+    the most useful LULC data for ecologists, transformed the existing dataset
+    into regular GIS formats and derived new LULC data often used in
+    macroecology and ecological niche modeling and provide this data LULC data
+    for thirty-seven time slices from year 900 to 2100, with the following
+    temporal resolution - every 100 years from 900 to 1950, every 10 years from
+    1950 to 2010, and every five years from 2010 to 2300.
+
+- name: BioLab Open Source Projects
+  participants:
+    - Boi-KONE
+    - bakary-n'tji diallo
+  mentors:
+    - Delphine-L
+  description: |
+    BioLab Open Source Projects is the beginning of a platform where biomedical
+    researchers, and computer scientists will work closely with to solve some
+    main tropical infectious diseases through collaboration and sharing ideas.
+    Being the main source of problems in Africa, tropical diseases are
+    affecting the socio-economic development of this part of the world. The
+    time is now the raise the state of the consciousness of the problem by
+    creating an environment where the only interest is sharing. Sharing ideas,
+    knowledge, skills, and opportunities about biology. The main challenge in
+    African biomedical research science is the lack of resources and sharing
+    skills, especially amount young generation of the scientist whom most of
+    the time doesn’t have the orientation and necessary information to address.
+    The project stands to build a community around the main challenge surrounding
+    tropical infectious diseases as Malaria, Tuberculosis… To tackle this challenge
+    of the biological understanding of the proportion of burden, the need for more
+    training prospective and collaboration between students, young researchers,
+    and potential supervising programs. We will try to build an open-source
+    project around these challenges to better understand these diseases'
+    interaction modes with drugs via bioinformatics tools. The benefit will
+    provide training support to the students, young researchers together and
+    bring solutions for general health problems, and be able to share them on
+    collaboration purposes and training.
+
+- name: Target approach in the stages of liver cirrhosis to reverse back in good condition.
+  participants:
+    - WasifaRahman
+  mentors:
+    - tsonika
+    - malvikasharan
+  description: |
+    This is a brand new project for the target approach in the stages of liver
+    cirrhosis. This project will identify the significant reasons behind
+    developing cirrhosis and to prevent that staging development in continuation
+    of this damage. The major focuses to reverse the damage into healthy
+    condition are the enzymes, mutations, snp, genetic factors related to
+    disease progression. These are the key aspects to target the stages of
+    liver cirrhosis and to identify there role to a healthy growing liver or
+    decrease there damaging features.
+
+- name: Science For All (Sci4All) - Citizens' daily problem solving by engaging multidisciplinary scientific communities
+  participants:
+    - tlaguna
+    - laurichi13
+  mentors:
+    - klauer2207
+  description: |
+    The project concept is to establish a collaboration between the general
+    public and scientists, where the citizens can expose their daily issues and
+    scientists can collaborate to try to find solutions for them. For that purpose,
+    we aim to establish a multidisciplinary scientific network who help citizens
+    to improve their daily life.
+    To start the project, we think it is more appropriate to first create
+    local communities, starting in Madrid as it the location of the applicants.
+    In the future, the local network can be expanded or occasionally contact
+    other local communities, such as the ones already established by means of
+    this program (Barcelona, Utrecht, Montreal), to work collaboratively in
+    global public issues. Connections with companies can also be established
+    (for example, to help in the production of prototypes) but with the
+    requirement of use open licenses and follow the precepts of this program.
+
+- name: Supervised Classification with UMAP and Network Propagation
+  participants:
+    - joel-hancock
+    - kiri93
+  mentors:
+    - mloning
+  description: |
+    Using UMAP and network propagation to make a fast, accurate and
+    interpretable supervised learning algorithm. We will benchmark our
+    novel method against other state-of-the art machine learning algorithms
+    using image analysis data, and other single-cell readouts.
+    Supervised tasks using features with many artifacts and strange
+    distributions and are typically solved using computationally intensive
+    neural nets. This kind of data frequently occurs in morphological image
+    analysis and bioinformatics generally.
+    We would like to apply the technique to different datasets, investigate
+    its theoretical underpinnings and see whether GPUs and other computational
+    resources can be leveraged to improve the speed of classifications.
+    Publish the results in an open science journal and make the code available
+    to the community.
+
+- name: Building a Database for Open Access Immunology Pre-prints and Publications on COVID-19
+  participants:
+    - natty2012
+    - sonibk
+    - jelioth-muthoni
+  mentors:
+    - npscience
+  description: |
+    This project aims to develop a database of open-access Immunology
+    pre-prints and publications on COVID-19. As the COVID-19 pandemic unfolds,
+    scientists are working round-the-clock to generate data, resulting in an
+    upsurge of information on various aspects of the virus. Various publishers
+    such as Lancet, Elsevier, Oxford, New England Journal of Medicine (NEJM),
+    Nature, have open access early journal releases and publications on a wide
+    range of fields covering the COVID-19 topic. Many efforts are still underway
+    to develop a feasible vaccine with trials taking place at different research
+    centers globally. An open repository of open access pre-prints and journal
+    articles in the area of COVID-19 immunology and vaccinology will easily
+    connect researchers on current data available for efficient communication
+    of scientific research and open science principles. The repository will be
+    divided into subsections of publications from the 7 continents to be able
+    to easily identify how the disease is affecting different geographical
+    locations.
+
+- name: Sharing 3D Modeling Workflows for Biomechanists and Palaeontologists
+  participants:
+    - EvaCHerbst
+    - dylan-bastiaans
+  mentors:
+    - hdinkel
+  description: |
+    We recently received some funding from our university to host a workshop
+    about 3D modeling methods for biomechanics. This sparked the idea of creating
+    some sort of online database of workflows in our field. This website will
+    serve early career researchers or researchers starting out with biomechanical
+    analyses, or those wishing to switch their workflows (for example to be more
+    freeware based). Currently there is a need for a central repository of such
+    workflows. Usually they are only circulated within lab groups or between
+    collaborators. However, an online hub with modeling resources would
+    significantly reduce the time researchers need to invest in choosing
+    programs and figuring out how to set up their models, giving them more
+    time to do research and develop new methods. For this project, we
+    specifically want to build a website with open source workflows, tips and
+    tricks for setting up models for finite element analysis, as well as other
+    3D workflows (such as fossil reconstruction in freeware programs).
+
+- name: Open Science Office Hours to support trainees in Montreal to help make their research more open and reproducible
+  participants:
+    - koudyk
+  mentors:
+    - ajstewartlang
+  description: |
+    The goal of this project is to establish Open-Science Office Hours, a
+    meeting space where students in Montreal can come throughout the year
+    to get help making their research more open and reproducible. This
+    initiative will promote Open Education in life science, particularly in
+    the area of neuroimaging data science. Students in this field often learn
+    hard skills in open science at weekend workshops, summer schools, and
+    hackathons, but there is a gap in the learning experience regarding
+    long-term support. The main measurable outcome of this project would be
+    having a group of senior trainees who take turns hosting Open-Science
+    office hours at regular intervals throughout the year. These meetings
+    would take place virtually and/or in person in Montreal, Canada (depending
+    on COVID-19).
+    Although we hope to spark this initiative, it would need community support
+    to be sustainable. In the first stage, I would welcome collaborators to
+    help plan. Later, we would need support in the form of funding so that we
+    can compensate TA’s; this would help enable less-privileged trainees to get
+    involved as TA's. Finally, we would need to recruit the TA's. Thus, this
+    project will involve community contributions at all stages, in various capacities.
+
+- name: Registered Reports in Primate Neurophysiology
+  participants:
+    - da5nsy
+  mentors:
+    - ivotron
+  description: |
+    In this new project I aim to explore the specific challenges (both
+    practical and metascience related) to adoption of registered reports in
+    primate neurophysiology. As far as we aware there has not yet been a
+    registered report within the field of non-human-primate (NHP)
+    neurophysiology. There are specific challenges for using this format
+    within this field; some practical and some metascientific. A central issue
+    is that the existing format for registered reports focuses on hypothesis
+    testing, whereas neurophysiology is quite often an exploratory and
+    iterative process. Working with NHPs is a necessarily limited privilege
+    and comes with considerable responsibility; the cost of having experiments
+    where the results are not robust, or where opportunities for discovery
+    are missed, is particularly high, since opportunity for replication is
+    limited. Therefore, peer review in advance of performing an experiment
+    seems a particularly valuable idea. This project would explore ways in
+    which to find compromise in the conflict between existing registered
+    report formats and current methodologies in primate neurophysiology.
+
+- name: OSUM - Open Science UMontreal
+  participants:
+    - samuelorion
+    - anproulx
+    - paulineligonie
+    - myreille-larouche
+    - valerie-parent
+    - beapdk
+  mentors:
+    - unode
+  description: |
+    We are building Open Science UMontreal (OSUM) - a student initiative -
+    whose aims are to create an onboarding experience to the practice of
+    open science (in all of its forms) for the predominantly french-speaking
+    scientific community in Quebec (and beyond). We aim to attract as many
+    stakeholders as possible (from scientists at the level of undergraduate,
+    all the way to emeritus status); to unite those who already have a strong
+    open science mindset and to build our resources such that we become the
+    first point of contact for the local scientific community. OSUM will
+    discuss open science values, principles, and practices. By raising awareness
+    of current issues, we hope this project will continue to drive the culture
+    shift and help people realize how they can immediately benefit from using
+    open and reproducible practices. Furthermore, we strive to navigate our
+    institution towards becoming an institutional member of OSF, just as the
+    University of British-Columbia has done in the last year. As open science
+    is a broad and wide-ranging concept with domain-specific definitions,
+    we want to provide opportunities to meet and encourage the exchange of
+    ideas within and across fields because we can all learn from each other.
+
+- name: APBioNetTalks
+  participants:
+    - hilyatuz-zahroh
+  mentors:
+    - pherterich
+  description: |
+    APBioNetTalks is a new program to be launched by Asia Pacific
+    Bioinformatics Network (APBioNet) by the mid of 2020. It will serve as an
+    online platform to host and stream bioinformatics related talks, tutorials,
+    and training. The program aims to facilitate the learning of bioinformatics
+    to be more inclusive and accessible. It will invite experts, early career
+    researchers/scientists, and Ph.D. students from different countries and
+    institutions to share their knowledge and skills with the audiences. Upon
+    the completion of live streaming, the videos will be archived and available
+    on-demand. The program will help provide people with open bioinformatics
+    resources and foster the growth of bioinformatics. Additionally, the
+    program is also expected to reach wider audiences and introduce more people
+    to the bioinformatics.
+
+- name: Database for coordinating training needs in Kenya to faciliatate preparation and collaboration
+  participants:
+    - karegapauline
+  mentors:
+    - lpantano
+    - sgibson91
+  description: |
+    There are many universities in Kenya in different counties offering
+    life sciences as part of their curriculum. There’s, however, a difference
+    in accessibility to resources. There are a number of science clubs in
+    these universities. In light of the recent pandemic, there has been a
+    change in how conferences and science events are being conducted, which
+    has proven that online training is an effective mode of training and so is
+    remote distribution of resources. With increasing need to adopt online
+    trainings and conferences, and to narrow the gap in distribution of
+    resources to different institutions and also encourage collaboration,
+    I propose a platform that contains data of all science clubs in Kenyan
+    institutions. The platform will allow submissions of training needs from
+    the different institutions to allow narrowed down preparation and it will
+    also allow collaboration of students from various institutions. From
+    requests obtained, organization of talks and trainings can be more
+    efficient and organized. These can transition into physical meetups eventually
+
+- name: Open platform for Indian Bioinformatics community
+  participants:
+    - pradeep-eranti
+  mentors:
+    - sdopoku
+  description: |  
+    The Bioinformatics community is one of the ever-growing communities in India, 
+    which has its presence across the length and breadth of the country. Likewise, 
+    the education and research programs spread across different branches of the 
+    Bioinformatics topic as its focus. There is a need for establishing open 
+    platform(s) where students, (early-career and established) researchers, policy 
+    makers could exchange knowledge freely across these different areas through 
+    open science practices and principles. In realizing such a platform, the 
+    benefits of following open principles need to be widely communicated for 
+    bringing awareness among the community by building pathways and encouraging 
+    contributors & ambassadors. The aim of this project is to explore the scope 
+    and path towards establishing an open platform and provide opportunities to 
+    participate, contribute and organize open initiatives. 
+
+- name: OpenWorkstation - A modular and open-source concept for customized automation equipment
+  participants:
+    - SebastianEggert
+  mentors:
+    - meagdoh
+  description: |
+    The OpenWorkstation project presents a modular and open-source concept to
+    develop customized automation equipment. Inspired by assembly lines, the
+    concept consists of ready-to-use and customizable hardware modules which
+    can be plugged into the base frame. In contrast to current commercial and
+    open-source standalone solutions, this concept enables the combination of
+    single hardware modules – each with a specific set of functionalities – to
+    a modular workstation to provide a fully automated setup.
+    The base setup consists of a pipetting and transport module and is designed
+    to execute basic protocol steps for in vitro research applications,
+    including pipetting operations for non-viscous and viscous liquids and
+    transportation of cell culture vessels between the modules.
+    The successful application of this concept is presented within a case study
+    by the development of a storage module to facilitate high-throughput studies
+    and a crosslinker module to initiate polymerization of hydrogel solutions.
+    By combining capabilities from various open source instrumentations into a
+    modular technology platform, this concept has the potential to facilitate
+    the development of customized automation equipment for efficient and
+    reliable experimentation for in vitro research. Ultimately, the
+    OpenWorkstation concept will allow empower academic groups to the develop
+    their own equipment to automated their research workflows.
+
+- name: The Turing Way - Guide for Ethical Research
+  participants:
+    - BrainonSilicon
+    - Ismael-KG
+    - LauraCarter
+  mentors:
+    - jezcope
+    - anjali-mazumder
+  description: |
+    The Turing Way project aims to provide all the information that data
+    scientists in academia, industry, government and in the third sector need
+    at the start of their projects to ensure that they are easy to reproduce
+    and reuse at the end. The Guide for Ethical Research is one book of the
+    project (complementing the other four which cover reproducible research,
+    project design, communication, and collaboration).
+    Producing an initial a full draft of the Guide for Ethical Research aims to
+    positively impact research in the following ways:
+
+    1. Equipping data science researchers to approach their work in a more reflective way and to
+    think holistically about their research, its processes and outcomes
+    2. Equipping scientists working in a range of fields to advocate for ethical
+    research at all stages of the research process.
+    3. Compiling diverse research ethics resources in one area.
+
+- name: sktime - a unified toolbox for machine learning with time series
+  participants:
+    - mloning
+  mentors:
+    - martinagvilas
+  description: |
+    sktime is a new Python toolbox for machine learning with time series.
+    We provide state-of-the-art time series algorithms and scikit-learn
+    compatible tools for building, optimising and evaluating complex models,
+    based on a clear taxonomy of learning tasks and clear design principles and
+    patterns. We want to enable understandable and accessible machine learning
+    with time series by providing instructive documentation and by building a
+    friendly, collaborative and inclusive community. The aim is to unify the
+    time series analysis field by providing a common framework for multiple
+    learning tasks, bringing together contributors from academia and the wider
+    data science community into a joint framework and embedding best practices
+    into the time series analysis field.
+
+- name: Turing Data Stories
+  participants:
+    - crangelsmith
+    - DavidBeavan
+    - samvanstroud
+    - Kevinxufs
+  mentors:
+    - yochannah
+  description: |
+    Our goal at Turing Data Stories is to produce educational data science
+    content through the storytelling medium for the general public. Our
+    content will be split into different stories, which begin with an
+    interesting and relevant real-world hypothesis and walks the user through
+    the entire data science process - from gathering and cleaning the data,
+    to using it for data analysis. The aim of the Turing Data Stories is to
+    spark curiosity and motivate more people to play with data.
+    The Turing Data Stories are detailed and pedagogic Jupyter Notebooks that
+    document an interesting insight or result using real world open data.
+    A Turing Data Story follows these principles:
+    1. The story should be told in an engaging and educational way, describing 
+    both the context of the story and the methods used in the analysis.
+    2. The analysis must be fully reproducible (the notebooks should be 
+    executable by others using a provided computer environment, requiring no 
+    installation of software)
+    3. The results should be transparent, all data sources are correctly referred to
+    or included.
+    4. In order to maintain the quality of the results, the story
+    should be peer-reviewed by other contributors before being published.
+
+- name: Embedding Accessibility in The Turing Way Open Source Community Guidance
+  participants:
+    - NehaMoopen
+    - paulowoicho
+  mentors:
+    - SamGuay
+  description: |
+    The Turing Way book is a community-driven book for reproducible research
+    in data science. It is written by data scientists, academics, researchers,
+    students, technologists, software engineers, policymakers, educators and
+    other stakeholders from varying technical backgrounds.
+    I will be contributing to the project as a technical writer from
+    September 2020 to December 2020 where I will have the following
+    responsibilities:
+    1. Helping authors in effectively engaging with the
+    project and collaborating in groups to write, edit and review current and
+    new chapters in the book. 
+    2. Developing resources that will ensure
+    consistency across all chapters and make the book more comprehensible for
+    readers. 
+    3. Making pages more responsive and discoverable so that readers
+    can read it on any device (like a smartphone or a tablet) with the same
+    efficiency. 
+    4. Participating in the community discussions of the project
+    to learn about the experience of its readers, authors, collaborators, and
+    other members through their stories of using the book.
+    
+    All these tasks in The Turing Way will require me to integrate Open
+    Science principles and community practices, which I am confident to learn
+    with my participation in the Open Life Science training and mentoring program.
+
+- name: Towards open and citizen-led data informing the decarbonisation of existing housing
+  participants:
+    - KateSimpson
+  mentors:
+    - ArielleBL
+  description: |
+    The Design for Retrofit project I work on at The Alan Turing Institute,
+    within the Data-Centric Engineering programme aims to use data-driven methods
+    to address uncertainty in design stage decision-making towards reducing the
+    carbon impact of homes through retrofit. This involves quantification of the
+    current energy demand of housing archetypes and physics-based modelling to
+    evaluate the impact of energy-efficiency technologies available to be installed
+    in the home during the retrofit process. However, uncertainty exists due to a
+    lack of monitored data on indoor air temperature, which leads to a performance
+    gap between modelled and monitored energy demand as heating practices are the
+    most sensitive parameter within building energy modelling. Further uncertainty
+    is acknowledged due to a lack of longitudinal data following retrofit. Such
+    data could inform the evaluation of long-term impacts of technologies installed,
+    to inform future decision making. Motivated householders who are planning or
+    recently completed a retrofit project might be interested to share data, perhaps
+    in return for research insight on the impacts and success of similar projects
+    through a citizen science approach. This is an idea in development for follow-on
+    research which requires data collection protocols, ethical guidelines and data
+    repositories.
+
+- name: Autistica/Turing Citizen Science Project
+  participants:
+    - GeorgiaHCA
+    - katoss
+  mentors:
+    - anelda
+  description: |
+    This project is to build an online citizen science platform with the
+    collaboration of autistic people and their families. The platform will
+    then be used to gather experiences in order to investigate how sensory
+    processing might affect the ways autistic people navigate the world
+    around them. We are also using learning from the project to create a
+    framework to support researchers in making their own work more participatory.
+    The project is a collaboration between The Alan Turing Institute – the
+    UK's national institute for data science and AI research, and Autistica,
+    a UK autism research charity. I am working under the supervision of
+    Dr. Kirstie Whitaker, an academic who is committed to the principles of
+    open research and building welcoming and inclusive online communities.
+    The funding for the project is a result of a James Lind priority setting
+    alliance run by Autistica. It is a complex project with multiple
+    stakeholders. Open Humans, a foundation who have provided the back end
+    for the platform, and a development team from Fujitsu are currently
+    co-designing the front-end interface with the input of the autistic
+    community. Most important are a diverse and growing number of autistic
+    participants and (sometimes overlapping) open source developers.
+
+- name: Arua City Open Learning Circles
+  participants:
+    - ibrahssali1
+  mentors:
+    - kipkurui
+  description: |
+    The H3ABioNet Open Learning Circles (OLC) Initiative aims to build a 
+    community of peers committed to learning and teaching each other 
+    different skills (coding, data analysis, etc.) through lectures, 
+    tutorials and work on collaborative projects.  The goal is to have 
+    regular meetups for scientists, researchers and students to openly work 
+    together, learn/share code, learn new tools/software or simply improve 
+    their general coding skills. The project also allows space for continued 
+    learning and growth in various bioinformatics tools for our ex-trainees 
+    in this instance. In the beginning, learning circles will enable continuity 
+    of learning after IBT. To start a bioinformatics department and resource 
+    Centre at Muni University, Faculty of health sciences located in Arua City, 
+    West Nile, Uganda. The aim is to develop a critical mass of practitioners in 
+    this region who can develop and utilize Bioinformatics approaches to Biosciences. 
+    To enhance bioinformatics training at all levels and increase the size and 
+    quality of the pool of potential students and researchers. I am at a stage of 
+    proposal writing to start a bioinformatics department and resource centre at Muni 
+    University, Faculty of health sciences located in Arua City, West Nile, Uganda.  
+    The aim is to develop a critical mass of practitioners in this region who can 
+    develop and utilize Bioinformatics approaches to Biosciences. To enhance 
+    bioinformatics training at all levels and increase the size and quality of 
+    the pool of potential students and researchers. 
+
+- name: Western Cape-H3ABioNet Open Learning Circles
+  participants:
+    - ekeluv
+  mentors:
+    - kipkurui
+    - LangData
+  description: |
+    The H3ABioNet Open Learning Circles (OLC) Initiative aims to build a 
+    community of peers committed to learning and teaching each other 
+    different skills (coding, data analysis, etc.) through lectures, 
+    tutorials and work on collaborative projects.  The goal is to have 
+    regular meetups for scientists, researchers and students to openly work 
+    together, learn/share code, learn new tools/software or simply improve 
+    their general coding skills. The project also allows space for continued 
+    learning and growth in various bioinformatics tools for our ex-trainees 
+    in this instance. Through my participation in OLS, I will adapt the Open 
+    learning Circles Concept to our community in UWC.    
+    

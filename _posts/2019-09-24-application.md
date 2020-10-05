@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Our application to the OLx
-author: bebatut, malvikasharan, yochannah
+authors: 
+- bebatut
+- malvikasharan
+- yochannah
 image: /images/2019-09-24-application.png
 ---
 
@@ -70,7 +73,7 @@ Collectively, we have access to and support from European and International netw
 
 With our participation, we will attract participants from the upcoming events: Mozfest 2019, German Conference on Bioinformatics, ELIXIR Biohackathon, and the Google Summer of Code Mentor Summit.
 
-We aim to launch this program by January 2020. We will use the existing resources such as ELIXIR-Carpentries [4OSS lessons](github.com/SoftDev4Research), [GOBLET](mygoblet.org), [Open Source for Researchers](github.com/open-source-for-researchers), [FOSTER Open Science](fosteropenscience.eu), [Open Science MOOC](opensciencemooc.eu), [Turing Way open data book](the-turing-way.netlify.com), and of course Mozilla’s MOL resources! We have also collected and developed other resources on technical and community management skills through our journey as Open Leaders, which will benefit our mentors and mentees.
+We aim to launch this program by January 2020. We will use the existing resources such as ELIXIR-Carpentries [4OSS lessons](https://github.com/SoftDev4Research), [GOBLET](https://mygoblet.org), [Open Source for Researchers](https://github.com/open-source-for-researchers), [FOSTER Open Science](https://fosteropenscience.eu), [Open Science MOOC](https://opensciencemooc.eu), [Turing Way open data book](https://the-turing-way.netlify.com), and of course Mozilla’s MOL resources! We have also collected and developed other resources on technical and community management skills through our journey as Open Leaders, which will benefit our mentors and mentees.
 
 ## How willing are you to learn from peers, as well as mentors? Please share examples of how you have learned with and from others (including peers and nonexperts) and/or learned from past successes, challenges, and failures.
 

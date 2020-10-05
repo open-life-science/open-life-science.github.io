@@ -3,13 +3,25 @@ title: "Open Life Science"
 description: >
   The Open Leader program for Open Life Science
 logo: ''
-email: 'berenice.batut@gmail.com'
+email: team@openlifesci.org
 repository: open-life-science/open-life-science.github.io
 twitter: openlifesci
+gitter: open-life-sci/community
+url: https://openlifesci.org/
+announcement_list: https://groups.google.com/forum/#!forum/ols-news
+youtube: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
 
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
+  ols-1:
+    permalink: /ols-1/:path/
+    output: true
+  ols-2:
+    permalink: /ols-2/:path/
+    output: true
+
+includes_dir: .
 
 plugins:
   - jekyll-last-modified-at

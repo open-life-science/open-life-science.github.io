@@ -1,0 +1,51 @@
+# List of experts and guest speakers for OLS-1
+# 
+#
+# People should be also in people.yaml file and linked using their GitHub username
+---
+speakers:
+  - bebatut
+  - malvikasharan
+  - yochannah
+experts:
+  - aath0
+  - aidanbudd
+  - ajstewartlang
+  - anenadic
+  - annakrystalli
+  - anneclinio
+  - bgruening
+  - BhuvanaMeenakshiK
+  - dasaderi
+  - Demellina
+  - emmyft
+  - fpsom
+  - gedankenstuecke
+  - ha0ye
+  - hdinkel
+  - InquisitiveVi
+  - JasonJWilliamsNY
+  - joelostblom
+  - kariljordan
+  - katrinleinweber
+  - kipkurui
+  - KirstieJane
+  - kswhitney
+  - luispedro
+  - mkuzak
+  - mruizvelley
+  - mvdbeek
+  - nerantzis
+  - npscience
+  - nsoranzo
+  - orchid00
+  - pherterich
+  - profgiuseppe
+  - rainsworth
+  - satagopam7
+  - unode
+  - VickyNembaware
+organizers:
+  - bebatut
+  - malvikasharan
+  - yochannah  
