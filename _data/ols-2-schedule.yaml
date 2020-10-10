@@ -189,7 +189,7 @@
       date: September 17, 2020
       time: '17:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-03
+      notes: https://hackmd.io/@ols-2/coworking
       content: |
         During this week's coworking call, you will:
         - take some time to get to know each other over informal networking opportunity
@@ -263,8 +263,8 @@
         - Complete any week 4 assignments that you have left to do.
     -
       type: Cohort
-      duration: 60 min
-      title: (Optional) GitHub Tutorial
+      duration: 90 min
+      title: Skill-up: GitHub tutorial for beginners
       date: October 01, 2020
       time: '13:30'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -385,12 +385,12 @@
         - Complete any week 6 assignments that you have left to do.
     -
       type: Coworking
-      duration: 30 min
+      duration: 60 min
       title: Coworking on assignments, knowledge exchange and networking
       date: October 15, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@ols-2/week-07
+      notes: https://hackmd.io/@ols-2/coworking
     -
       type: Mentors
       duration: 60 min
@@ -430,12 +430,40 @@
       title: Meet your mentor!
     -
       type: Coworking
-      duration: 30 min
+      duration: 60 min
       title: Coworking on assignments, knowledge exchange and networking
       date: October 29, 2020
       time: 
       calendar-event: 
+      notes: https://hackmd.io/@ols-2/coworking
+    -
+      type: Cohort
+      duration: 90 min
+      title: Skill-up: Personal Ecology and Ally Skills
+      date: October 29, 2020
+      time: '15:00'
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
       notes: https://hackmd.io/@ols-2/week-09
+      recording: 
+      content: |
+        During this week's cohort call, we will hold a skill-up session on Personal Ecology and Ally Skills:
+        - Discuss the importance of taking care your our mental health and avoiding burn out for both project leaders and community members
+        - Understanding our societal privileges and stepping up for our colleagues and community as an ally 
+      before: |
+        - Have a look at the self-care handout listed below
+      resources:
+        - 
+          type: slides
+          title: Personal Ecology and Self care 
+          link: https://docs.google.com/presentation/d/1q2hTnJ5XtNkGTlbdfbTDbCOFeKnmuhDtSBuBG4KYj8E/present?token=AC4w5VhbXaqkSK5yLUP6qHlnWo5clYHqlg%3A1599123663247&includes_info_params=1&eisi=CJPfme_PzOsCFc7EcwQdGcEA0Q#slide=id.p
+        - 
+          type: slides
+          title: Ally Skills 
+          link: https://docs.google.com/presentation/d/1ez6lJrJvkNzFN3VfGxNAzDK8_qrlTGNMECGPMyo9tf4/present?token=AC4w5ViVVpi8rKOKKfYl8RQeclWMtDyPRw%3A1599123657905&includes_info_params=1&eisi=CMfd0-zPzOsCFVJFHwodgwgIUw#slide=id.g753718e72f_0_0
+        - 
+          type: document
+          title: Self-care Handout
+          link: https://drive.google.com/file/d/1iqB3sXR_FF34tJTkrpNxIq0pkrD3f1Ke/view?usp=sharing
 '10':
   timeframe: November 2-6, 2020
   calls:
@@ -463,12 +491,12 @@
       title: Meet your mentor!
     -
       type: Coworking
-      duration: 30 min
+      duration: 60 min
       title: Coworking on assignments, knowledge exchange and networking
       date: November 12, 2020
       time: 
       calendar-event: 
-      notes: https://hackmd.io/@ols-2/week-11
+      notes: https://hackmd.io/@ols-2/coworking
     -
       type: Mentors
       duration: 60 min
@@ -482,7 +510,7 @@
     -
       type: Cohort
       duration: 90 min
-      title: 'Mental health care, Ally skills and Career Guidance Call'
+      title: 'Career Guidance Call'
       date: November 19, 2020
       time: '18:30'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -490,7 +518,6 @@
       recording: 
       content: |
         During this week's cohort call, we will:
-        - Mental health care and Ally skills
         - Hear from the professionals from different career paths
         - Ask them questions about their careers
         - Share worries/insecurities related to your work and tips that you use to overcome them
@@ -504,19 +531,6 @@
         - what advice would you give someone wanting to enter your field ?
         - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
         - do you want to switch your career or field? Why or why not?
-      resources:
-        - 
-          type: slides
-          title: Personal Ecology and Self care 
-          link: https://docs.google.com/presentation/d/1q2hTnJ5XtNkGTlbdfbTDbCOFeKnmuhDtSBuBG4KYj8E/present?token=AC4w5VhbXaqkSK5yLUP6qHlnWo5clYHqlg%3A1599123663247&includes_info_params=1&eisi=CJPfme_PzOsCFc7EcwQdGcEA0Q#slide=id.p
-        - 
-          type: slides
-          title: Ally Skills 
-          link: https://docs.google.com/presentation/d/1ez6lJrJvkNzFN3VfGxNAzDK8_qrlTGNMECGPMyo9tf4/present?token=AC4w5ViVVpi8rKOKKfYl8RQeclWMtDyPRw%3A1599123657905&includes_info_params=1&eisi=CMfd0-zPzOsCFVJFHwodgwgIUw#slide=id.g753718e72f_0_0
-        - 
-          type: document
-          title: Self-care Handout
-          link: https://drive.google.com/file/d/1iqB3sXR_FF34tJTkrpNxIq0pkrD3f1Ke/view?usp=sharing
 '13':
   timeframe: November 23-27, 2020
   calls:
@@ -527,7 +541,7 @@
     -
       type: Cohort
       duration: 90 min
-      title: 'Open Agenda - Social Call'
+      title: Skill-up: Creative writing and storytelling workshop, followed by 30 minutes open agenda discussion
       date: November 26, 2020
       time: 
       calendar-event: 
@@ -535,7 +549,7 @@
       recording: 
       content: |
         During this week's cohort call, we will:
-        - take some time to get to know each other over informal networking opportunity and a pub quiz!
+        - Learn about simple storytelling skills to present your work. Informally connect with each other.
       before: |
         - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
       after: |
@@ -553,7 +567,7 @@
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-14
       recording: 
-      agenda: Personas and pathways for contributors, Implicit bias & mental health care, Community interactions & Ally-skill
+      agenda: Personas and pathways for contributors, Implicit bias & Community interactions 
       content: |
         During this week's cohort call, we will:
         - Implicit bias, Diversity and Inclusion
