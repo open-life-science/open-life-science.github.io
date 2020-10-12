@@ -303,7 +303,7 @@ An invitation is sent to all participants (mentees, mentors, etc) at the beginni
 
 #### Twitter
 
-General updates from the program such as new posts, collaborations and relevant retweets will be shared via our [official Twitter channel](twitter.com/{{ site.twitter }}).
+General updates from the program such as new posts, collaborations and relevant retweets will be shared via our [official Twitter channel](https://twitter.com/{{ site.twitter }}).
 
 #### Gitter
 
