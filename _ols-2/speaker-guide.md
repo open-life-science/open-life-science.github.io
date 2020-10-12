@@ -24,13 +24,13 @@ Malvika Sharan and Yo Yehudi. You can reach out to us by emailing
 
 We are currently running our [second cohort with 33
 projects]({% link _ols-2/projects-participants.md %})
-(September-December 2020) that consist of 50 participants ([see this
+(September-December 2020) that consist of around 50 participants ([see this
 post]({% link _posts/2020-09-01-ols2-announcement.md %})).
 A complete syllabus of this cohort can be found [here](https://openlifesci.org/ols-2/schedule).
 
 # About our Code of Conduct
 
-All our members, participants and speakers are expected to abide by our [Code of conduct & community participationguidelines]({% link code-of-conduct.md %}) that apply to all our community spaces including online calls.
+All our members, participants and speakers are expected to abide by our [Code of conduct & community participation guidelines]({% link code-of-conduct.md %}) that apply to all our community spaces including online calls.
 
 If you experience or witness any unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Bérénice, Malvika and Yo. ([{{ site.email }}](mailto:{{ site.email }})).
 
@@ -83,7 +83,7 @@ Your talk will be allotted 10-15 minutes (including Q&A session) during the call
 
 You are welcome to attend the entire call or attend only for the section relevant for your talk. If you prefer the latter, please join the call a minimum of 5 minutes before your talk.
 
-You can use slides, documents or any other resource to deliver your talk. Please consider accessibility and inclusivity when designing your talk ([see this for reference](https://www.w3.org/WAI/teach-advocate/accessible-presentations/#preparing-slides-and-projected-material-speakers)). 
+You can use slides, documents or any other resource to deliver your talk. Please consider accessibility and inclusivity when designing your talk ([see this for reference](https://www.w3.org/WAI/teach-advocate/accessible-presentations/#preparing-slides-and-projected-material-speakers)).
 
 You will be asked to share your screen to present your talk. You can see the [screen sharing instructions here](https://support.zoom.us/hc/en-us/articles/201362153-How-Do-I-Share-My-Screen-).
 
