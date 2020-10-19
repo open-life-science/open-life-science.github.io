@@ -20,11 +20,13 @@ layout: default
 
         <div class="card-content">
             <div class="content">
+                <div class="title">
                 {% if post.external %}
-                    <a href="{{ post.external }}"><p class="title">{{ post.title | escape }}</p></a>
+                    <a href="{{ post.external }}"><p>{{ post.title | escape }}</p></a>
                 {% else %}
-                    <a href="{{ post.url }}"><p class="title">{{ post.title | escape }}</p></a>
+                    <a href="{{ post.url }}"><p>{{ post.title | escape }}</p></a>
                 {% endif %}
+                </div>
 
                 <p class="subtitle"> 
                     <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time>
