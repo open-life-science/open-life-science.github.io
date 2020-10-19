@@ -282,10 +282,9 @@ $link-active: $link-hover;
     .people-card-meta {
       overflow-x: initial;
     }
-
-    .people-card-avatar {
-      display: none;
-    }
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
   }
 
   @include tablet() {
