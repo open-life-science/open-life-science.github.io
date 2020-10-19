@@ -27,7 +27,7 @@ layout: default
                 {% endif %}
 
                 <p class="subtitle"> 
-                    <time datetime="{{ post.last_modified_at | date: date_format }}">{{ post.last_modified_at | date: date_format }}</time>
+                    <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time>
                     - {{ authors | remove_first: ', ' | strip }}
                 </p>
             
