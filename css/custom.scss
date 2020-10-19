@@ -246,6 +246,25 @@ $link-active: $link-hover;
     font-size: 1.1rem;
     color: #464646;
   }
+
+  .title {
+    a {
+      border-bottom: none;
+      color: inherit;
+      padding: 2px;
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: $black;
+        background: none;
+      }
+    }
+  }
+
+  figure {
+    margin-top: 2em;
+  }
 }
 
 .calendar {
