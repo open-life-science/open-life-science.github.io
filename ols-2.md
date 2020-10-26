@@ -29,6 +29,7 @@ photos:
 {% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
 
 {% assign all-speakers = '' %}
+{% assign all-hosts = '' %}
 {% for w in schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
@@ -38,9 +39,15 @@ photos:
                 {% endif %}
             {% endfor %}
         {% endif %}
+        {% if c.hosts %}
+            {% for h in c.hosts %}
+                {% capture all-hosts %}{{ all-hosts}}, {{ h }}{% endcapture %}
+            {% endfor %}
+        {% endif %}
     {% endfor %}
 {% endfor %}
 {% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
 
 # The OLS-2 program
 {:.no_toc}
@@ -166,6 +173,18 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 
 A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-2 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
 
+{% if all-speakers != '' %}
+### Speakers during cohort calls
+
+<div class="people">
+{% for entry in p-speakers %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
+{% endif %}
+
 ## Organizers
 
 <div class="people">
@@ -176,11 +195,11 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 {% endfor %}
 </div>
 
-{% if all-speakers != '' %}
-### Speakers during cohort calls
+{% if all-hosts != '' %}
+### Hosts for calls
 
 <div class="people">
-{% for entry in p-speakers %}
+{% for entry in p-hosts %}
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
