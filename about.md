@@ -171,5 +171,4 @@ our [project board]({{ site.github.repository_url }}/projects).
 
 Please note that it's very important to us that we maintain a positive and
 supportive environment for everyone who wants to participate. When you join us
-we ask that you follow our [code of conduct]({{ site.github.repository_url
-}}/blob/master/CODE_OF_CONDUCT.md) in all interactions both on and offline.
+we ask that you follow our [code of conduct]({% link code-of-conduct.md %}) in all interactions both on and offline.

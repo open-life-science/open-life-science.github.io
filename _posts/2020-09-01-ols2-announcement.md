@@ -94,7 +94,7 @@ We are extremely grateful to them for their support and contributions to OLS and
 
 We begin our program this week with a mentoring training call and mentor-mentee introductions. Check out the complete schedule and plans for OLS-2 here: [{{ site.url }}/{{ cohort }}](/{{ cohort }}).
 
-You can keep track of our program, the progress of our second cohort and future announcements by following our twitter profile [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}) or subscribe to [our announcements list](site.announcement_list).
+You can keep track of our program, the progress of our second cohort and future announcements by following our twitter profile [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}) or subscribe to [our announcements list]({{ site.announcement_list }}).
 
 We invite new contributions to the program as a [new issue on the GitHub repo]({{ site.github.repository_url }}/issues) or by [email to the team](mailto:{{ site.email }}).
 

@@ -800,7 +800,7 @@ anita-broellochs:
   last-name: "Br\xF6llochs"
   pronouns: she/her
   twitter: AnitaBroellochs
-  website: www.protocols.io
+  website: https://www.protocols.io
 anjali-mazumder:
   affiliation: Alan Turing Institute
   bio: 'Anjali is the Thematic Lead on AI, Justice and Human Rights at the Alan Turing
@@ -1405,7 +1405,7 @@ hrhotz:
   last-name: Hotz
   pronouns: he/him
   twitter: hrhotz
-  website: www.fmi.ch
+  website: https://www.fmi.ch
 ivotron:
   affiliation: UC Santa Cruz
   bio: 'Ivo is a Research Scientist at UC Santa Cruz, Incubator Fellow at the UC Santa
@@ -1974,7 +1974,7 @@ martinagvilas:
   last-name: Vilas
   pronouns: she/her
   twitter: martinagvilas
-  website: www.martinagvilas.github.io
+  website: htpps://www.martinagvilas.github.io
 matuskalas:
   affiliation: University of Bergen
   country: Norway
