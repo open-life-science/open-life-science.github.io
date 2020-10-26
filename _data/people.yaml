@@ -201,6 +201,13 @@ Fnyasimi:
   last-name: Nyasimi
   pronouns: he/him
   twitter: Festus_nyasimi
+GanleyEmma:
+  affiliation: protocols.io
+  country: UK
+  email: emma@protocols.io
+  first-name: Emma
+  last-name: Ganley
+  twitter: GanleyEmma
 GeorgiaHCA:
   country: UK
   email: gaitkenhead@turing.ac.uk
@@ -898,6 +905,13 @@ anproulx:
   first-name: "Andr\xE9anne"
   last-name: Proulx
   twitter: AndreanneProulx
+babasaraki:
+  affiliation: Universiti Putra Malaysia
+  country: Malaysia 
+  email: babasaraki@yahoo.co.uk
+  first-name: Umar
+  last-name: Ahmad
+  twitter: babasaraki
 bailey-harrington:
   country: USA
   email: baileythegreen@gmail.com

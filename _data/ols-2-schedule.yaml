@@ -108,9 +108,13 @@
       title: Welcome to Open Life Science!
       date: September 10, 2020
       time: '10:00'
+      hosts: 
+        - bebatut
+        - yochannah
+        - malvikasharan 
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-02
-      recording:
+      recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
       agenda: Meet other members of your cohort, Share project vision, Intro to working openly (open canvas)
       content: |
         During our first cohort call, we will:
@@ -136,10 +140,12 @@
         -
           type: slides
           title: Introducing OLS
+          speaker: bebatut
           link: https://docs.google.com/presentation/d/1XZKm1oPAv87zeBn1RdEQxm10azwO719GP8jiGOwGMks/present?token=AC4w5VhXi2dlXXfeE4czpXZ5jOVuP2N8cw%3A1599113361392&includes_info_params=1&eisi=CM_q8r6pzOsCFQXaOgcdawAMQA#slide=id.g6e457e6ac5_0_69
         -
           type: slides
           title: Open Canvas
+          speaker: yochannah
           link: https://docs.google.com/presentation/d/1aWbD7rLCQ5fvjUuT8lPGlD4mj8WAKR_oXDB_8jDxJTU/present?token=AC4w5ViVcBEZL29ZyuACPXFL3uC3Tji5NA%3A1599113484923&includes_info_params=1&eisi=CIDs5fmpzOsCFWkTswUdEPYLKg#slide=id.g1088c5b110_0_183
         -
           type: slides
@@ -189,7 +195,7 @@
       date: September 17, 2020
       time: '17:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/coworking
+      notes: https://hackmd.io/@ols-2/coworking#Week-3
       content: |
         During this week's coworking call, you will:
         - take some time to get to know each other over informal networking opportunity
@@ -207,9 +213,13 @@
       title: Tooling and roadmapping for Open projects
       date: September 24, 2020
       time: '18:30'
+      hosts:
+        - yochannah
+        - malvikasharan
+        - emmyft
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmM3OTVlMGFpbTJjajJhdXExZ2JvOGNlaDQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-04
-      recording:
+      recording: https://www.youtube.com/watch?v=aX40ntw0uIg&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=2
       agenda: 'Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
       content: |
         During this week's cohort call, we will:
@@ -241,14 +251,17 @@
         -
           type: slides
           title: A Primer on Open Licenses
+          speaker: christinerogers
           link: https://docs.google.com/presentation/d/1qep_rtGuiD7MXOul1KJrgjNYjYw_4WOvdpUO1tTUj1w/present?token=AC4w5Vj7DkKeJTKiibVnpKF8HKXCHouOUg%3A1599113585685&includes_info_params=1&eisi=CKaU7KmqzOsCFVh6gQod7lAFVw#slide=id.g6e56d02ad9_0_0
         -
           type: slides
           title: READMEs for Open Projects
-          link: https://docs.google.com/presentation/d/1k3Q8sGaJYWe32RFR7sqxta691u9y94C9UKdertOOx9s/present?token=AC4w5VjeNSkkd_UcDkOLNDY7rFKxn-tJNQ%3A1599113588628&includes_info_params=1&eisi=CPnfn6uqzOsCFQyOJgodNhgCOQ#slide=id.g6e56d0296c_0_0
+          speaker: mkuzak
+          link: https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/present?token=AC4w5VgdWZQVAj-MpxsAlpTYxoakRsYGWw%3A1603709512329&includes_info_params=1&eisi=COHeuL6L0uwCFbiWTwkdeyMALg#slide=id.g6e56d0296c_0_0
         -
           type: slides
           title: Contributing Guidelines and Codes of Conduct for Open Projects
+          speaker: lwinfree
           link: https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/present?token=AC4w5VgJd1eOqut8MVK92Mz0WZj2MLXHqA%3A1599113591961&includes_info_params=1&eisi=CIWw66yqzOsCFWoSswUdMzUGDA#slide=id.g6e56d02ad9_0_0
 '05':
   timeframe: September 28 - October 2, 2020
@@ -262,14 +275,28 @@
       after: |
         - Complete any week 4 assignments that you have left to do.
     -
+      type: Coworking
+      duration: 60 min
+      title: Coworking on assignments, knowledge exchange and networking
+      date: October 01, 2020
+      time: '17:00'
+      notes: https://hackmd.io/@ols-2/coworking#Week-5
+      hosts:
+      - KateSimpson
+    -
       type: Cohort
       duration: 90 min
-      title: Skill-up&#58; GitHub tutorial for beginners
+      title: 'Skill-up: GitHub tutorial for beginners'
       date: October 01, 2020
       time: '13:30'
+      hosts:
+        - yochannah
+        - malvikasharan
+        - cassgvp
+        - mloning
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-05
-      recording:
+      recording: https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
       content: |
         During this week's cohort call, we will give you an optional 1 hour GitHub tutorial covering:
         - Creating a repository
@@ -284,6 +311,13 @@
         -
           type: slides
           title: Friendly GitHub Intro
+          speaker: malvikasharan
+          link: https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/present?token=AC4w5Vgao-CJFJTShFlWh9cIG6CEbMU5WA%3A1603709681166&includes_info_params=1&eisi=CNaw-o6M0uwCFcqPTwkd5_0HMQ#slide=id.g526267be46_0_606
+        -
+          type: slides
+          title: GitHub for collaborative documentation
+          speaker: cassgvp
+          link: https://slides.com/cassgvp/deck-12bf49/
         -
           type: external-link
           title: GitHub for Collaboration (from Mozilla)
@@ -339,7 +373,11 @@
       time: '10:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-06
-      recording:
+      recording: https://www.youtube.com/watch?v=fyz4gB4XPJk
+      hosts:
+        - yochannah
+        - malvikasharan
+        - emmyft
       agenda: 'Developing Open Projects: Iterative and agile project management, Open- Source, Software, Hardware, Data'
       content: |
         During this week's cohort call, we will cover :
@@ -367,7 +405,23 @@
         -
           type: slides
           title: Agile & Iterative Project Management Methods
-          link: https://docs.google.com/presentation/d/1bDoKLfnwiid2a3nrBGBVXPeEaOdo2XDUfULVfrlcKxo/present?token=AC4w5VhsstdNtBzlpYVexTvvGVxGSogBJQ%3A1599114258701&includes_info_params=1&eisi=CNHH4eqszOsCFQTDxwodRM8Odw#slide=id.g7e28a7e96f_0_0
+          speaker: unode
+          link: https://docs.google.com/presentation/d/1CWnHXZHFDYFTqE2KKgZ8R5i_46XqAqnjy12gYSDESxk/present?token=AC4w5VhuZrjLyqzEl19afWzJms0ROGsZpA%3A1603710036881&includes_info_params=1&eisi=CKmOybiN0uwCFUbcJgodoF8EYA#slide=id.g7e28a7e96f_0_0
+        -
+          type: slides
+          title: Open Scientific Code in Research
+          speaker: anenadic
+          link: https://docs.google.com/presentation/d/1uZuqgoJp67uRB6t0LCZJ06V8YYyff9-iqrv6zfqtOhk/present?token=AC4w5ViAMNxRgG09-7TdDDvqx-iLzJCvTQ%3A1603710096463&includes_info_params=1&eisi=CPKL_tSN0uwCFYrMOgcdZ5sDOw#slide=id.p
+        -
+          type: slides
+          title: Open Data
+          speaker: orchid00
+          link: https://figshare.com/articles/presentation/Open_data_Open_Life_Science_OSL-2/13065308/1
+        -
+          type: slides
+          title: Open Hardware
+          speaker: thessaly
+          link: https://youtu.be/BtUNjoTr5eg
         -
           type: document
           title: Project Development Plan
@@ -387,10 +441,11 @@
       type: Coworking
       duration: 60 min
       title: Coworking on assignments, knowledge exchange and networking
-      date: October 15, 2020
-      time:
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/coworking
+      date: October 12, 2020
+      time: '12:00'
+      notes: https://hackmd.io/@ols-2/coworking#Week-7
+      hosts:
+      - LauraCarter
     -
       type: Mentors
       duration: 60 min
@@ -413,14 +468,39 @@
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-08
       recording:
+      hosts:
+        - yochannah
+        - malvikasharan
+        - emmyft
       agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training'
       content: |
         During this week's cohort call, we will:
         - Preprint publications, DOI and citation
         - Open protocols
         - Open Education & Training
+        - Citizen Science
       before:
       resources:
+        -
+          type: slides
+          title: Open Education and Training - MetaDocencia Case Study
+          speaker: lauracion
+          link: https://docs.google.com/presentation/d/1Pw8w5EYw_N2hhrGQaFBXnsK5Qg5ID84tCNzCTpNbYyA/present?token=AC4w5VhTbMcvRCEBTBID_RjTsUAnzObzpg%3A1603710553527&includes_info_params=1&eisi=CKri9q6P0uwCFXWCIwAdZz4LfQ#slide=id.g7e28a7e96f_0_0
+        -
+          type: slides
+          title: Preprint in the Context of Open Science
+          speaker: babasaraki
+          link: https://docs.google.com/presentation/d/1__yFTZycGuIF4T-0c7iImTwbUDHzEEwSUz-WU7f7F-Q/present?token=AC4w5ViWSc90Iydz3kssZC0G9X_hOxJK-g%3A1603710619782&includes_info_params=1&eisi=CIDdws6P0uwCFdAaqQEdcacKzA#slide=id.g7e28a7e96f_0_0
+        -
+          type: slides
+          title: Open Protocols
+          speaker: GanleyEmma
+          link: https://docs.google.com/presentation/d/1_8Fp5DKh_XXwj34DwR-dzTvUCk1c0ynhy7MvmaHFFoA/present?token=AC4w5ViYvEiWzkDp6pI6j2zDny92AF5luQ%3A1603710808548&includes_info_params=1&eisi=CMH6w6iQ0uwCFXVpTAodBIcBVw#slide=id.g849ffa2549_0_171
+        -
+          type: slides
+          title: Citizen Science
+          speaker: gedankenstuecke
+          link: https://youtu.be/HaQyv48sMPY?t=860
 '09':
   timeframe: October 26-30, 2020
   calls:
@@ -439,7 +519,7 @@
     -
       type: Cohort
       duration: 90 min
-      title: Skill-up&#58; Personal Ecology and Ally Skills
+      title: "Skill-up: Personal Ecology and Ally Skills"
       date: October 29, 2020
       time: '16:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com

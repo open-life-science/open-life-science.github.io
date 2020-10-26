@@ -5,13 +5,17 @@
 {% if c.type != "Mentor-Mentee" and c.date %}
 <i class="fas fa-calendar-alt"></i> **Date**: {{ c.date }}{% if c.time %}, at [{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/
 {{ cohort | upcase }}%20Cohort%20Call%20(Week%20{{ week-nb }})) ([<i class="fas fa-calendar-plus"></i> *Add to your calendar*]({{ c.calendar-event }})){% endif %}
-
 {% else %}
 <i class="fas fa-calendar-alt"></i> **Date**: {{ week.timeframe }}
-
 {% endif %}
 
 <i class="fas fa-clock"></i> **Duration**: {{ c.duration }}
+
+{% if c.hosts %}
+{% assign hosts = '' %}
+{% for p in c.hosts %}{% capture hosts %}{{ hosts }}, {{ site.data.people[p].first-name }} {{ site.data.people[p].last-name }}{% endcapture %}{% endfor %}
+<i class="fas fa-user-friends"></i> **Hosts**: {{ hosts | remove_first: ', ' }}
+{% endif %}
 
 {% if c.content %}
 ### In this call
