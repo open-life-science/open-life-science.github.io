@@ -25,8 +25,8 @@ We’re running two virtual Ally Skills training sessions to give interested par
 
 We will run two workshops on **December 4 2020** to suit two different timezones. Both workshops have the same content:
 
-- Workshop 1: **09:00 UTC** - 12:00 UTC [Check your time](https://arewemeetingyet.com/UTC/2020-12-04/09:00/Ally%20Skills%20Training%20by%20OLS) - [Register on Eventbrite](https://www.eventbrite.co.uk/e/ally-skills-training-by-open-life-science-tickets-123254606847)
-- Workshop 2: **17:00 UTC** - 20:00 UTC [Check your time](https://arewemeetingyet.com/UTC/2020-12-04/17:00/Ally%20Skills%20Training%20by%20OLS) - [Register on Eventbrite](https://www.eventbrite.co.uk/e/ally-skills-training-by-open-life-science-tickets-124094438807)
+- Workshop 1: **09:00 UTC** - 12:00 UTC [Check your time](https://arewemeetingyet.com/UTC/2020-12-04/09:00/Ally%20Skills%20Training%20by%20OLS) - [Register on Eventbrite](https://www.eventbrite.co.uk/e/ally-skills-training-by-open-life-science-tickets-124094438807)
+- Workshop 2: **17:00 UTC** - 20:00 UTC [Check your time](https://arewemeetingyet.com/UTC/2020-12-04/17:00/Ally%20Skills%20Training%20by%20OLS) - [Register on Eventbrite](https://www.eventbrite.co.uk/e/ally-skills-training-by-open-life-science-tickets-123254606847)
 
 ## Tickets:
 
