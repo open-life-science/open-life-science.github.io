@@ -1,0 +1,40 @@
+---
+layout: page
+---
+
+Thank You! to the {{ site.data.people | size }} awesome people who participate in or contribute to Open Life Science!
+
+<div class="community">
+    {% for user in site.data.people %}
+        {% assign username = user[0] %}
+        {% assign details = user[1] %}
+        <div class="card people-card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left people-card-avatar">
+                        <figure class="image is-48x48">
+                            <a href="#{{ username }}">
+                                <img
+                                    class="is-rounded"
+                                    src="https://avatars.githubusercontent.com/{{ username }}"
+                                    alt="The GitHub avatar of {{ details.name }}"/>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<h2>Details</h2>
+
+<div class="people">
+    {% for entry in site.data.people %}
+        {% assign username = entry[0] %}
+        {% assign user = entry[1] %}
+        {% include _includes/people.html username=username user=user %}
+    {% endfor %}
+</div>
+
+
