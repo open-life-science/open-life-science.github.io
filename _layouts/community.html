@@ -29,6 +29,40 @@ Thank You! to the {{ site.data.people | size }} awesome people who participate i
 
 <h2>Details</h2>
 
+<!-- OLS-1 -->
+<!-- extract participants and mentors -->
+{% assign ols-1-projects = site.data.ols-1-projects %}
+{% assign ols-1-participants = '' %}
+{% assign ols-1-mentors = '' %}
+{% for project in ols-1-projects %}
+    {% for p in project.participants %}
+        {% capture ols-1-participants %}{{ ols-1-participants }}, {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture ols-1-mentors %}{{ ols-1-mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+<!-- extract experts and organizers -->
+{% assign ols-1-experts = site.data.ols-1-metadata.experts %}
+{% assign ols-1-organizers = site.data.ols-1-metadata.organizers %}
+
+<!-- OLS-2 -->
+<!-- extract participants and mentors -->
+{% assign ols-2-projects = site.data.ols-2-projects %}
+{% assign ols-2-participants = '' %}
+{% assign ols-2-mentors = '' %}
+{% for project in ols-2-projects %}
+    {% for p in project.participants %}
+        {% capture ols-2-participants %}{{ ols-2-participants }}, {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture ols-2-mentors %}{{ ols-2-mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+<!-- extract experts and organizers -->
+{% assign ols-2-experts = site.data.ols-2-metadata.experts %}
+{% assign ols-2-organizers = site.data.ols-2-metadata.organizers %}
+
 <div class="people">
     {% for entry in site.data.people %}
         {% assign username = entry[0] %}
