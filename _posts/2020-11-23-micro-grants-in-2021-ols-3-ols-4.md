@@ -16,6 +16,7 @@ Open Life Science has recently been lucky enough to be awarded two small grants 
 For OLS-3 and OLS-4 we are delighted to announce that all project leaders (aka mentees) - will be able to request small seed grants for expenses that they may need for their participation in OLS or to run their project. This could be an audio headset, the cost for more data on a tethered mobile phone to attend calls, fliers or stickers with your project logo on it, or the fee to register your project as a legal organisation in your country.
 
 ## How much?
+
 Given that our current budget is very small - around $5000 USD in total for OLS-3 and OLS-4 - our cap for eligible expenses will be $50 USD for personal expenses such as high speed internet or a new headset, and up to $200 in total for project-specific expenses such as company registration or stickers. If we receive more micro-grant requests than we are able to cover, we will seek additional funding but may not be able to guarantee we can cover beyond the initial $2500 budget for each cohort. If your employer is able to cover a given expense, we request that they do so. In order to make the most impact possible, this fund is intended for those who might not be able to afford the expense, otherwise.
 
 ## How can I apply?
