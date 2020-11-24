@@ -26,6 +26,7 @@ In order to be eligible, you must be an accepted member of Open Life Science as 
 ## What is the timeline?
 
 Applications for OLS-3 will open on December 1st 2021, and applications for OLS-4 will open mid 2021.
+## What can I apply for?
 
 ### Personal expenses:
 OLS project leads will be eligible to request personal expenses as soon as they are notified of acceptance to OLS-3 or OLS-4.
