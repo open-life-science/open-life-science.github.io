@@ -41,4 +41,5 @@ Project-specific costs will be eligible from week 4 of the currently-running OLS
 After week 12 of the program, if the full budget for the cohort has not yet been spent, we may open up requests to larger expenses than our previously stated caps. Any unspent budget will roll over to the next cohort.
 
 ## How will it work?
+
 We will reimburse you when given receipts for any purchases made, or if the up-front costs would be prohibitive, we can try to purchase your request on your behalf - you will be given the chance to indicate your preference on the grant request form.
