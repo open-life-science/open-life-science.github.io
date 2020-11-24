@@ -20,6 +20,7 @@ For OLS-3 and OLS-4 we are delighted to announce that all project leaders (aka m
 Given that our current budget is very small - around $5000 USD in total for OLS-3 and OLS-4 - our cap for eligible expenses will be $50 USD for personal expenses such as high speed internet or a new headset, and up to $200 in total for project-specific expenses such as company registration or stickers. If we receive more micro-grant requests than we are able to cover, we will seek additional funding but may not be able to guarantee we can cover beyond the initial $2500 budget for each cohort. If your employer is able to cover a given expense, we request that they do so. In order to make the most impact possible, this fund is intended for those who might not be able to afford the expense, otherwise.
 
 ## How can I apply?
+
 In order to be eligible, you must be an accepted member of Open Life Science as a project leader, aka a mentee, who is actively participating in the program. If you’re a mentor or expert speaker for OLS (any round), or if you’re a graduate from a previous cohort, we may be able to support similar expenses separately - please contact team@openlifesci.org.
 
 ## What is the timeline?
