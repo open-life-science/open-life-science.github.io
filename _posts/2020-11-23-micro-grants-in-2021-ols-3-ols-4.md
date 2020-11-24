@@ -31,7 +31,7 @@ OLS project leads will be eligible to request personal expenses as soon as they 
 Project-specific costs will be eligible from week 4 of the currently-running OLS cohort onwards, providing that the project lead has been participating actively in the program - i.e. attending mentor calls and communicating on Slack or GitHub, and attending at least half of the cohort calls. We do not expect participants to attend all cohort calls as this is a global program that spans many time zones, but we do expect participants to catch up on missed calls via the OLS YouTube Channel.
 
 ### Week 12 onwards:
-After week 12 of the program, if the full budget for the cohort has not yet been spent, we may open up requests to larger expenses than our previously stated caps.
+After week 12 of the program, if the full budget for the cohort has not yet been spent, we may open up requests to larger expenses than our previously stated caps. Any unspent budget will roll over to the next cohort.
 
 ## How will it work?
 We will reimburse you when given receipts for any purchases made, or if the up-front costs would be prohibitive, we can try to purchase your request on your behalf - you will be given the chance to indicate your preference on the grant request form.
