@@ -24,6 +24,7 @@ Given that our current budget is very small - around $5000 USD in total for OLS-
 In order to be eligible, you must be an accepted member of Open Life Science as a project leader, aka a mentee, who is actively participating in the program. If you’re a mentor or expert speaker for OLS (any round), or if you’re a graduate from a previous cohort, we may be able to support similar expenses separately - please contact team@openlifesci.org.
 
 ## What is the timeline?
+
 Applications for OLS-3 will open on December 1st 2021, and applications for OLS-4 will open mid 2021.
 
 ### Personal expenses:
