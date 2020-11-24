@@ -229,9 +229,9 @@ To share this announcement with the potential mentors, experts and project leads
 
 The resources available to the OLS-2 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
 
-# Calls
+## Calls
 
-## Cohort calls
+### Cohort calls
 
 The full cohort meetings take place **every 2 weeks** (unless mentioned otherwise) and last for **90 minutes**.
 
@@ -255,7 +255,7 @@ The call will be recorded and available on the [OLS YouTube channel]({{ site.you
 If you can not attend most calls during the program due to the time zone incompatibility or other personal obligation, please let the organisers know.
 If you are unable to communicate with your mentor regularly or do not engage in the program as planned, we may need to evaluate if you are able to finish the program.
 
-## Mentor-mentee calls
+### Mentor-mentee calls
 
 The Mentor-mentee calls take place **every 2 weeks** (unless mentioned otherwise) and last for **30 minutes**.
 
@@ -282,7 +282,7 @@ If you are unable to make it to any slot together, please find other ways (async
 
 If a mentor has to step back from the program for any reason, please communicate with the organisers to identify an alternative for their mentees.
 
-## Coworking calls
+### Coworking calls
 
 The coworking sessions take place in weeks during which there is not cohort call.
 These calls are optional but highly valuable for enhancing your understanding of the materials discussed in OLS-2 with the help of other participants.
@@ -293,7 +293,7 @@ During these calls,
 
 The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
 
-## Mentors calls
+### Mentors calls
 
 4 mentor calls will take place during the program.
 

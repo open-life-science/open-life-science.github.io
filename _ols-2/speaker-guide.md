@@ -26,7 +26,7 @@ We are currently running our [second cohort with 33
 projects]({% link _ols-2/projects-participants.md %})
 (September-December 2020) that consist of around 50 participants ([see this
 post]({% link _posts/2020-09-01-ols2-announcement.md %})).
-A complete syllabus of this cohort can be found [here](https://openlifesci.org/ols-2/schedule).
+A complete syllabus of this cohort can be found [here]({% link _ols-2/schedule.md %}).
 
 # About our Code of Conduct
 
