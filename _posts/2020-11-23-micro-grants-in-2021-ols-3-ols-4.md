@@ -32,7 +32,8 @@ Applications for OLS-3 will open on December 1st 2021, and applications for OLS-
 
 OLS project leads will be eligible to request personal expenses as soon as they are notified of acceptance to OLS-3 or OLS-4.
 
-### Project expenses:
+### Project expenses
+
 Project-specific costs will be eligible from week 4 of the currently-running OLS cohort onwards, providing that the project lead has been participating actively in the program - i.e. attending mentor calls and communicating on Slack or GitHub, and attending at least half of the cohort calls. We do not expect participants to attend all cohort calls as this is a global program that spans many time zones, but we do expect participants to catch up on missed calls via the OLS YouTube Channel.
 
 ### Week 12 onwards:
