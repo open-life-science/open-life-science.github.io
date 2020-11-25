@@ -11,7 +11,7 @@ photos:
   url: https://unsplash.com/@micheile
 ---
 
-Open Life Science has recently been lucky enough to be awarded two small grants - one from the EOSC-Life project, which will partially support OLS-3, and two more small grants which will partially support OLS-3 and 4. In all cases, the funds awarded are less than the full cost of a cohort if we were to pay for all the things we would like to pay for, including mentor and expert speaker time, but nevertheless - it is a helpful start, and one we are privileged to have.
+Open Life Science has recently been awarded three grants - one from the [EOSC-Life Training project](https://zenodo.org/record/4060367) and two more small grants, which will partially support the OLS-3 and OLS-4 cohorts (more information will follow soon).
 
 With this development, we are delighted to announce that all OLS-3 and OLS-4 project leaders (aka mentees) - will be able to request small seed grants for expenses that they may need for their participation in OLS or to run their project. This could be an audio headset, the cost for more data on a tethered mobile phone to attend calls, fliers or stickers with your project logo on it, or the fee to register your project as a legal organisation in your country.
 
