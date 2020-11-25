@@ -524,44 +524,134 @@
       time: '16:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
       notes: https://hackmd.io/@ols-2/week-09
-      recording:
+      recording: https://www.youtube.com/watch?v=8niC2UB25ys
       content: |
         During this week's cohort call, we will hold a skill-up session on Personal Ecology and Ally Skills:
         - Discuss the importance of taking care your our mental health and avoiding burn out for both project leaders and community members
         - Understanding our societal privileges and stepping up for our colleagues and community as an ally
+      hosts:
+        - yochannah
+        - malvikasharan
+        - emmyft
+        - ha0ye
       before: |
-        - Have a look at the self-care handout listed below
+        - Personal Ecology and self care
+        
+          Think about how you might briefly answer the following questions
+          - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe it.
+          - Imagine your most Unfulfilling day at work. Think of 3 word-pairs to describe it.
+          
+          The big idea: identify the most fulfilling conditions under which you thrive - sustain them; identify the least fulfilling conditions that frustrate you - avoid them.
+
+        - Preparing for the Ally Skills
+        
+          Think how people step up for you in social scenarios and how you step up for them to support each othe:
+          - What do your colleagues do to make your workplace inclusive for you?
+          - What do you do to make your workplace inclusive for them?
+        
+          The big idea: Based on your experience, what would you consider doing to make your project inclusive for your contributors or team members?
+
       resources:
         -
           type: slides
           title: Personal Ecology and Self care
-          link: https://docs.google.com/presentation/d/1q2hTnJ5XtNkGTlbdfbTDbCOFeKnmuhDtSBuBG4KYj8E/present?token=AC4w5VhbXaqkSK5yLUP6qHlnWo5clYHqlg%3A1599123663247&includes_info_params=1&eisi=CJPfme_PzOsCFc7EcwQdGcEA0Q#slide=id.p
+          link: https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
+        -
+          type: external-link
+          title: Sustain Summit
+          link: https://sustainoss.org/
+        -
+          type: external-link
+          title: 'Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure'
+          link: https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
+        -
+          type: external-link
+          title: 'Changelog episode #281'
+          link: https://changelog.com/podcast/281
+        -
+          type: external-link
+          title: Cooperative model eg doug Belshaw et al
+          link: https://blog.weareopen.coop/about
         -
           type: slides
           title: Ally Skills
-          link: https://docs.google.com/presentation/d/1ez6lJrJvkNzFN3VfGxNAzDK8_qrlTGNMECGPMyo9tf4/present?token=AC4w5ViVVpi8rKOKKfYl8RQeclWMtDyPRw%3A1599123657905&includes_info_params=1&eisi=CMfd0-zPzOsCFVJFHwodgwgIUw#slide=id.g753718e72f_0_0
+          link: https://docs.google.com/presentation/d/e/2PACX-1vRTxI8-8OH_1hv-KH65zB73hoqGCUBIlPxzFYYIBQrT4gfGV7tcUKOwfXo0Xu3O4tqZ-Z9gwTJyDN0z/pub?start=false&loop=false&delayms=3000#slide=id.ga513c4eb7e_0_0
         -
-          type: document
+          type: external-link
           title: Self-care Handout
-          link: https://drive.google.com/file/d/1iqB3sXR_FF34tJTkrpNxIq0pkrD3f1Ke/view?usp=sharing
+          link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20handout%20-%20Letter.pdf
+        -
+          type: external-link
+          title: Identifying power and privileges
+          link: https://files.frameshiftconsulting.com/Identifying%20your%20power%20and%20privilege%20-%20Letter.pdf
+        -
+          type: external-link
+          title: Goal setting exercise
+          link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
 '10':
   timeframe: November 2-6, 2020
   calls:
     -
       type: Cohort
       duration: 90 min
-      title: 'Open Science III: Next steps'
+      title: 'Open Science III: Next steps - applying FAIR research principles'
       date: November 5, 2020
       time: '10:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-10
-      recording:
+      recording: https://www.youtube.com/watch?v=ylqDx_ELfus
       agenda: FAIRification of existing or mature projects, etc
+      hosts:
+        - yochannah
+        - emmyft
+        - bebatut
       content: |
-        During this week's cohort call, we will
-      before: |
+        During this week's cohort call, we will discuss how to apply FAIR research principles on data, software, training
 
+        FAIR stands for findable, accessible, interoperable, reusable. The ideal is that research should be "as open as 
+        possible, as restricted as necessary."
+      after: |
+        Think about and plan to apply FAIR principles to your project in your own time
       resources:
+        -
+          type: slides
+          title: 'FAIR Data: Insights and perspectives'
+          speaker: proccaserra
+          link: https://docs.google.com/presentation/d/1ER_ZQ_Fe_PFWBPrP87dU6jRaPT2dlB4hCu-wGXJwnBA/present?token=AC4w5ViSH5zunGHSyI1GZfySDANR6HsdTA%3A1606212785356&includes_info_params=1&eisi=CK-shfT4mu0CFUwmHwod_GcLYQ#slide=id.g9f69d2be7a_0_0
+        -
+          type: slides
+          title: 'Making training materials FAIR in 10 steps'
+          speaker: burkemlou
+          link: https://f1000research.com/slides/9-1294
+        -
+          type: external-link
+          title: 10 rules for making training FAIR
+          link: https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1007854
+        -
+          type: slides
+          title: 'FAIR Research Software, a.k.a. software as a first-class citizen in research'
+          speaker: fpsom
+          link: https://drive.google.com/file/d/1LtG_gVhszVl13yohYuxTipaKnxV77cqP/view?usp=sharing
+        -
+          type: external-link
+          title: 'Top 10 FAIR Data & Software Things: Research Software'
+          link: https://zenodo.org/record/2555498#.XwgeqSgzZPZ
+        -
+          type: external-link
+          title: Towards FAIR principles for research software
+          link: https://doi.org/10.3233/DS-190026
+        -
+          type: external-link
+          title: Four Simple Recommendations for Open Source Software (4OSS)
+          link: https://f1000research.com/articles/6-876/v1
+        -
+          type: external-link
+          title: Six Recommendations for Implementation of FAIR Practice
+          link: https://op.europa.eu/en/publication-detail/-/publication/4630fa57-1348-11eb-9a54-01aa75ed71a1/language-en
+        -
+          type: external-link
+          title: RDA FAIR for Research Software (FAIR4RS) WG
+          link: https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
 '11':
   timeframe: November 9-13, 2020
   calls:
@@ -569,33 +659,22 @@
       type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-    -
-      type: Coworking
-      duration: 60 min
-      title: Coworking on assignments, knowledge exchange and networking
-      date: November 12, 2020
-      time:
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/coworking
-    -
-      type: Mentors
-      duration: 60 min
-      title: Mentor training
-      date:
-      time:
-      content:
 '12':
   timeframe: November 16-20, 2020
   calls:
     -
       type: Cohort
       duration: 90 min
-      title: 'Career Guidance Call'
+      title: 'Open Leadership: Academia, industry and beyond!'
       date: November 19, 2020
       time: '18:30'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-12
-      recording:
+      recording: https://www.youtube.com/watch?v=hS-6GE0X2UY
+      hosts:
+        - yochannah
+        - emmyft
+        - malvikasharan
       content: |
         During this week's cohort call, we will:
         - Hear from the professionals from different career paths
@@ -611,6 +690,31 @@
         - what advice would you give someone wanting to enter your field ?
         - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
         - do you want to switch your career or field? Why or why not?
+      resources:
+        -
+          type: slides
+          title: Community building
+          speaker: rainsworth
+          link: https://docs.google.com/presentation/d/1jeTk_PzsWpaR4DRmBrbrDGol2_drPEizp26o4d8jnnA/localpresent?token=AC4w5ViUwg7eAFYcjgOY9aUJ-ulGu-uFzg%3A1606213723739&includes_info_params=1&eisi=CK7bv7P8mu0CFRWiNwodLgkHsg&slide=id.p
+        -
+          type: slides
+          title: Navigating a career through academia and industry/start-up
+          speaker: natasha_wood
+          link: https://docs.google.com/presentation/d/1RsvcKd_5uW-TtawLAOw6N95gOLO6MinN0I94dUIII8s/present?token=AC4w5VgKYecuXzGQ1Zze1bZmv1lCEyv6MQ%3A1606213784867&includes_info_params=1&eisi=CK7r0tD8mu0CFZcFswUdN1QIRA#slide=id.g7e28a7e96f_0_0
+        -
+          type: slides
+          title: Academia
+          speaker: ajstewartlang
+        -
+          type: slides
+          title: Research Funding
+          speaker: ekinbolukbasi
+          link: https://drive.google.com/file/d/1i1g9pxmkW8gr4f3S380NBJ6-k8GGVnrx/view
+        -
+          type: slides
+          title: Social entrepreneurship
+          speaker: sdopoku
+          link: https://docs.google.com/presentation/d/1Sac0MqvkmgK4vWSDrdiEkEWUdgyznySX45WDpV-XkyQ/present?token=AC4w5VhWciRTQRu_kOVudKzeGsHRTmBsrA%3A1606214445403&includes_info_params=1&eisi=CM6Jz4v_mu0CFdmXTwkdFOwJ1w#slide=id.gc6f9e470d_0_0
 '13':
   timeframe: November 23-27, 2020
   calls:
@@ -620,21 +724,16 @@
       title: Meet your mentor!
     -
       type: Cohort
-      duration: 90 min
-      title: Skill-up&#58; Creative writing and storytelling workshop, followed by 30 minutes open agenda discussion
+      duration: 60 min
+      title: Pub Quiz!
       date: November 26, 2020
-      time:
-      calendar-event:
+      time: '15:00'
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M2xtbjdpc2FqMjN0N3MzOTg5aWw3NGYyZnUgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
       notes: https://hackmd.io/@ols-2/week-13
-      recording:
-      content: |
-        During this week's cohort call, we will:
-        - Learn about simple storytelling skills to present your work. Informally connect with each other.
       before: |
         - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
       after: |
         - Continue on with your project, and connect with others on Gitter or other social media platforms.
-      resources:
 '14':
   timeframe: November 30 - December 4, 2020
   calls:
