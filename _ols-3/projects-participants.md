@@ -23,7 +23,7 @@ photos:
 
 Participants join this program with a project that they either are already working on or want to develop during this program.
 
-For the second round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects). 
+For the third round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects). 
 
 # Projects
 
