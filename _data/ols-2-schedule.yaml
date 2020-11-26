@@ -877,7 +877,7 @@
       duration: 60 min
       title: 'Final presentations & Graduation! - Group 1'
       date: December 15, 2020
-      time: 09:00 - 10:00 AM UTC
+      time: '10:00'
       calendar-event:
       notes: https://hackmd.io/@ols-2/week-16-gr1
       recording:
