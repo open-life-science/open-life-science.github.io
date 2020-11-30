@@ -27,7 +27,7 @@
 #           link:
 ---
 '01':
-  timeframe: August 31 - September 4, 2020
+  timeframe: February 8-12, 2021
   calls:
     -
       type: Mentor-Mentee
@@ -54,7 +54,7 @@
 
         - Make sure you know when and how you'll be meeting with your mentor
       after: |
-        - Create an issue on the [OLS-2 GitHub repository](https://github.com/open-life-science/ols-2/issues/new) for your OLS work and share the link with your mentor
+        - Create an issue on the [OLS-2 GitHub repository](https://github.com/open-life-science/ols-3/issues/new) for your OLS work and share the link with your mentor
         - Draft a brief vision statement using your goals
 
             [This lesson](https://mozilla.github.io/open-leadership-training-series/articles/introduction-to-open-leadership/stating-your-project-vision/) from the Open Leadership Training Series (OLTS) might be helpful
@@ -66,55 +66,55 @@
             - How meeting your cultural goals for your community, organization, or project will help solve the problem.
 
         - Add your vision statement to your GitHub issue
-        - Check the [Syllabus](/ols-2) for notes and connection info for all the cohort calls
+        - Check the [Syllabus](/ols-3) for notes and connection info for all the cohort calls
     -
       type: Mentors
       duration: 60 min
       title: Mentor training
-      date: September 1, 2020
-      time: '18:00'
+      #date: September 1, 2021
+      #time: '18:00'
       content: |
         During our first cohort call, you will:
         - Understand common successes and challenges in mentoring OLS participants.
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-    -
-      type: Mentors
-      duration: 60 min
-      title: Mentor training
-      date: September 4, 2020
-      time: '13:30'
-      content: |
-        During our first cohort call, you will:
-        - Understand common successes and challenges in mentoring OLS participants.
-        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+    #-
+    #  type: Mentors
+    #  duration: 60 min
+    #  title: Mentor training
+    #  date: September 4, 2021
+    #  time: '13:30'
+    #  content: |
+    #    During our first cohort call, you will:
+    #    - Understand common successes and challenges in mentoring OLS participants.
+    #    - Know how to celebrate successes and approach challenges in mentoring OLS participants.
 '02':
-  timeframe: September 7-11, 2020
+  timeframe: February 15-19, 2021
   calls:
     -
       type: Mentors
       duration: 180 min
       title: Mentoring workshop
-      date: September 8, 2020
-      time: '11:00'
-    -
-      type: Mentors
-      duration: 180 min
-      title: Mentoring workshop
-      date: September 8, 2020
-      time: '18:00'
+      #date: September 8, 2021
+      #time: '11:00'
+    #-
+    #  type: Mentors
+    #  duration: 180 min
+    #  title: Mentoring workshop
+    #  date: September 8, 2021
+    #  time: '18:00'
     -
       type: Cohort
       duration: 90 min
       title: Welcome to Open Life Science!
-      date: September 10, 2020
-      time: '10:00'
-      hosts: 
-        - bebatut
-        - yochannah
-        - malvikasharan 
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-02
-      recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
+      #date: September 10, 2021
+      #time: '10:00'
+      #hosts: 
+      #  - bebatut
+      #  - yochannah
+      #  - malvikasharan 
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/week-02
+      #recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
       agenda: Meet other members of your cohort, Share project vision, Intro to working openly (open canvas)
       content: |
         During our first cohort call, we will:
@@ -140,27 +140,27 @@
         -
           type: slides
           title: Introducing OLS
-          speaker: bebatut
-          link: https://docs.google.com/presentation/d/1XZKm1oPAv87zeBn1RdEQxm10azwO719GP8jiGOwGMks/present?token=AC4w5VhXi2dlXXfeE4czpXZ5jOVuP2N8cw%3A1599113361392&includes_info_params=1&eisi=CM_q8r6pzOsCFQXaOgcdawAMQA#slide=id.g6e457e6ac5_0_69
+          #speaker: bebatut
+          #link: https://docs.google.com/presentation/d/1XZKm1oPAv87zeBn1RdEQxm10azwO719GP8jiGOwGMks/present?token=AC4w5VhXi2dlXXfeE4czpXZ5jOVuP2N8cw%3A1599113361392&includes_info_params=1&eisi=CM_q8r6pzOsCFQXaOgcdawAMQA#slide=id.g6e457e6ac5_0_69
         -
           type: slides
           title: Open Canvas
-          speaker: yochannah
-          link: https://docs.google.com/presentation/d/1aWbD7rLCQ5fvjUuT8lPGlD4mj8WAKR_oXDB_8jDxJTU/present?token=AC4w5ViVcBEZL29ZyuACPXFL3uC3Tji5NA%3A1599113484923&includes_info_params=1&eisi=CIDs5fmpzOsCFWkTswUdEPYLKg#slide=id.g1088c5b110_0_183
+          #speaker: yochannah
+          #link: https://docs.google.com/presentation/d/1aWbD7rLCQ5fvjUuT8lPGlD4mj8WAKR_oXDB_8jDxJTU/present?token=AC4w5ViVcBEZL29ZyuACPXFL3uC3Tji5NA%3A1599113484923&includes_info_params=1&eisi=CIDs5fmpzOsCFWkTswUdEPYLKg#slide=id.g1088c5b110_0_183
         -
           type: slides
           title: Road Mapping
-          link: https://docs.google.com/presentation/d/17JbIvsXpSEZ82FYzpf63CuR1LJoICJ8lOSUdN0BpYjM/present?token=AC4w5Vj3tQExRMn2-nsVcJAgTo1qQlzizg%3A1599113488303&includes_info_params=1&eisi=CKPHtPupzOsCFZMiqQEd6d0EAA#slide=id.g1088c5b110_0_183
+          #link: https://docs.google.com/presentation/d/17JbIvsXpSEZ82FYzpf63CuR1LJoICJ8lOSUdN0BpYjM/present?token=AC4w5Vj3tQExRMn2-nsVcJAgTo1qQlzizg%3A1599113488303&includes_info_params=1&eisi=CKPHtPupzOsCFZMiqQEd6d0EAA#slide=id.g1088c5b110_0_183
         -
           type: document
           title: Open Canvas
-          link: https://docs.google.com/presentation/d/119EmheHg4mPySmbSamMZ-6V3cQKmVgTllbWhNOf7Sbo/edit?usp=sharing
+          #link: https://docs.google.com/presentation/d/119EmheHg4mPySmbSamMZ-6V3cQKmVgTllbWhNOf7Sbo/edit?usp=sharing
         -
           type: document
           title: Compare & contrast - community interactions
-          link: https://docs.google.com/document/d/1sVuFTh_YMfLzxx8gkp7Oc3mHGjRP6bmQiipUfhxGNog/edit?usp=sharing
+          #link: https://docs.google.com/document/d/1sVuFTh_YMfLzxx8gkp7Oc3mHGjRP6bmQiipUfhxGNog/edit?usp=sharing
 '03':
-  timeframe: September 14-18, 2020
+  timeframe: February 22-26, 2021
   calls:
     -
       type: Mentor-Mentee
@@ -192,10 +192,10 @@
       type: Coworking
       duration: 60 min
       title: 'Coworking on assignments, knowledge exchange and networking'
-      date: September 17, 2020
-      time: '17:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/coworking#Week-3
+      #date: September 17, 2021
+      #time: '17:00'
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/coworking#Week-3
       content: |
         During this week's coworking call, you will:
         - take some time to get to know each other over informal networking opportunity
@@ -205,21 +205,21 @@
       after: |
         - Continue on with your project, and connect with others on Gitter or other social media platforms.
 '04':
-  timeframe: September 21-25, 2020
+  timeframe: March 1-5, 2021
   calls:
     -
       type: Cohort
       duration: 90 min
       title: Tooling and roadmapping for Open projects
-      date: September 24, 2020
-      time: '18:30'
-      hosts:
-        - yochannah
-        - malvikasharan
-        - emmyft
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmM3OTVlMGFpbTJjajJhdXExZ2JvOGNlaDQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-04
-      recording: https://www.youtube.com/watch?v=aX40ntw0uIg&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=2
+      #date: September 24, 2021
+      #time: '18:30'
+      #hosts:
+      #  - yochannah
+      #  - malvikasharan
+      #  - emmyft
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmM3OTVlMGFpbTJjajJhdXExZ2JvOGNlaDQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/week-04
+      #recording: https://www.youtube.com/watch?v=aX40ntw0uIg&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=2
       agenda: 'Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
       content: |
         During this week's cohort call, we will:
@@ -251,20 +251,20 @@
         -
           type: slides
           title: A Primer on Open Licenses
-          speaker: christinerogers
-          link: https://docs.google.com/presentation/d/1qep_rtGuiD7MXOul1KJrgjNYjYw_4WOvdpUO1tTUj1w/present?token=AC4w5Vj7DkKeJTKiibVnpKF8HKXCHouOUg%3A1599113585685&includes_info_params=1&eisi=CKaU7KmqzOsCFVh6gQod7lAFVw#slide=id.g6e56d02ad9_0_0
+          #speaker: christinerogers
+          #link: https://docs.google.com/presentation/d/1qep_rtGuiD7MXOul1KJrgjNYjYw_4WOvdpUO1tTUj1w/present?token=AC4w5Vj7DkKeJTKiibVnpKF8HKXCHouOUg%3A1599113585685&includes_info_params=1&eisi=CKaU7KmqzOsCFVh6gQod7lAFVw#slide=id.g6e56d02ad9_0_0
         -
           type: slides
           title: READMEs for Open Projects
-          speaker: mkuzak
-          link: https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/present?token=AC4w5VgdWZQVAj-MpxsAlpTYxoakRsYGWw%3A1603709512329&includes_info_params=1&eisi=COHeuL6L0uwCFbiWTwkdeyMALg#slide=id.g6e56d0296c_0_0
+          #speaker: mkuzak
+          #link: https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/present?token=AC4w5VgdWZQVAj-MpxsAlpTYxoakRsYGWw%3A1603709512329&includes_info_params=1&eisi=COHeuL6L0uwCFbiWTwkdeyMALg#slide=id.g6e56d0296c_0_0
         -
           type: slides
           title: Contributing Guidelines and Codes of Conduct for Open Projects
-          speaker: lwinfree
-          link: https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/present?token=AC4w5VgJd1eOqut8MVK92Mz0WZj2MLXHqA%3A1599113591961&includes_info_params=1&eisi=CIWw66yqzOsCFWoSswUdMzUGDA#slide=id.g6e56d02ad9_0_0
+          #speaker: lwinfree
+          #link: https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/present?token=AC4w5VgJd1eOqut8MVK92Mz0WZj2MLXHqA%3A1599113591961&includes_info_params=1&eisi=CIWw66yqzOsCFWoSswUdMzUGDA#slide=id.g6e56d02ad9_0_0
 '05':
-  timeframe: September 28 - October 2, 2020
+  timeframe: March 8-12, 2021
   calls:
     -
       type: Mentor-Mentee
@@ -278,25 +278,25 @@
       type: Coworking
       duration: 60 min
       title: Coworking on assignments, knowledge exchange and networking
-      date: October 01, 2020
-      time: '17:00'
-      notes: https://hackmd.io/@ols-2/coworking#Week-5
-      hosts:
-      - KateSimpson
+      #date: October 01, 2021
+      #time: '17:00'
+      #notes: https://hackmd.io/@ols-2/coworking#Week-5
+      #hosts:
+      #- KateSimpson
     -
       type: Cohort
       duration: 90 min
       title: 'Skill-up: GitHub tutorial for beginners'
-      date: October 01, 2020
-      time: '13:30'
-      hosts:
-        - yochannah
-        - malvikasharan
-        - cassgvp
-        - mloning
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-05
-      recording: https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
+      #date: October 01, 2021
+      #time: '13:30'
+      #hosts:
+      #  - yochannah
+      #  - malvikasharan
+      #  - cassgvp
+      #  - mloning
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/week-05
+      #recording: https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
       content: |
         During this week's cohort call, we will give you an optional 1 hour GitHub tutorial covering:
         - Creating a repository
@@ -311,13 +311,13 @@
         -
           type: slides
           title: Friendly GitHub Intro
-          speaker: malvikasharan
-          link: https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/present?token=AC4w5Vgao-CJFJTShFlWh9cIG6CEbMU5WA%3A1603709681166&includes_info_params=1&eisi=CNaw-o6M0uwCFcqPTwkd5_0HMQ#slide=id.g526267be46_0_606
+          #speaker: malvikasharan
+          #link: https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/present?token=AC4w5Vgao-CJFJTShFlWh9cIG6CEbMU5WA%3A1603709681166&includes_info_params=1&eisi=CNaw-o6M0uwCFcqPTwkd5_0HMQ#slide=id.g526267be46_0_606
         -
           type: slides
           title: GitHub for collaborative documentation
-          speaker: cassgvp
-          link: https://slides.com/cassgvp/deck-12bf49/
+          #speaker: cassgvp
+          #link: https://slides.com/cassgvp/deck-12bf49/
         -
           type: external-link
           title: GitHub for Collaboration (from Mozilla)
@@ -363,21 +363,21 @@
           title: Git workflow
           link: https://www.atlassian.com/git/tutorials/comparing-workflows
 '06':
-  timeframe: October 5-9, 2020
+  timeframe: March 15-19, 2021
   calls:
     -
       type: Cohort
       duration: 90 min
       title: 'Open Science I: Project Development'
-      date: October 8, 2020
-      time: '10:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-06
-      recording: https://www.youtube.com/watch?v=fyz4gB4XPJk
-      hosts:
-        - yochannah
-        - malvikasharan
-        - emmyft
+      #date: October 8, 2021
+      #time: '10:00'
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/week-06
+      #recording: https://www.youtube.com/watch?v=fyz4gB4XPJk
+      #hosts:
+      #  - yochannah
+      #  - malvikasharan
+      #  - emmyft
       agenda: 'Developing Open Projects: Iterative and agile project management, Open- Source, Software, Hardware, Data'
       content: |
         During this week's cohort call, we will cover :
@@ -405,29 +405,29 @@
         -
           type: slides
           title: Agile & Iterative Project Management Methods
-          speaker: unode
-          link: https://docs.google.com/presentation/d/1CWnHXZHFDYFTqE2KKgZ8R5i_46XqAqnjy12gYSDESxk/present?token=AC4w5VhuZrjLyqzEl19afWzJms0ROGsZpA%3A1603710036881&includes_info_params=1&eisi=CKmOybiN0uwCFUbcJgodoF8EYA#slide=id.g7e28a7e96f_0_0
+          #speaker: unode
+          #link: https://docs.google.com/presentation/d/1CWnHXZHFDYFTqE2KKgZ8R5i_46XqAqnjy12gYSDESxk/present?token=AC4w5VhuZrjLyqzEl19afWzJms0ROGsZpA%3A1603710036881&includes_info_params=1&eisi=CKmOybiN0uwCFUbcJgodoF8EYA#slide=id.g7e28a7e96f_0_0
         -
           type: slides
           title: Open Scientific Code in Research
-          speaker: anenadic
-          link: https://docs.google.com/presentation/d/1uZuqgoJp67uRB6t0LCZJ06V8YYyff9-iqrv6zfqtOhk/present?token=AC4w5ViAMNxRgG09-7TdDDvqx-iLzJCvTQ%3A1603710096463&includes_info_params=1&eisi=CPKL_tSN0uwCFYrMOgcdZ5sDOw#slide=id.p
+          #speaker: anenadic
+          #link: https://docs.google.com/presentation/d/1uZuqgoJp67uRB6t0LCZJ06V8YYyff9-iqrv6zfqtOhk/present?token=AC4w5ViAMNxRgG09-7TdDDvqx-iLzJCvTQ%3A1603710096463&includes_info_params=1&eisi=CPKL_tSN0uwCFYrMOgcdZ5sDOw#slide=id.p
         -
           type: slides
           title: Open Data
-          speaker: orchid00
-          link: https://figshare.com/articles/presentation/Open_data_Open_Life_Science_OSL-2/13065308/1
+          #speaker: orchid00
+          #link: https://figshare.com/articles/presentation/Open_data_Open_Life_Science_OSL-2/13065308/1
         -
           type: slides
           title: Open Hardware
-          speaker: thessaly
-          link: https://youtu.be/BtUNjoTr5eg
+          #speaker: thessaly
+          #link: https://youtu.be/BtUNjoTr5eg
         -
           type: document
           title: Project Development Plan
-          link: https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
+          #link: https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
 '07':
-  timeframe: October 12-16, 2020
+  timeframe: March 22-26, 2021
   calls:
     -
       type: Mentor-Mentee
@@ -441,37 +441,37 @@
       type: Coworking
       duration: 60 min
       title: Coworking on assignments, knowledge exchange and networking
-      date: October 12, 2020
-      time: '12:00'
-      notes: https://hackmd.io/@ols-2/coworking#Week-7
-      hosts:
-      - LauraCarter
+      #date: October 12, 2021
+      #time: '12:00'
+      #notes: https://hackmd.io/@ols-2/coworking#Week-7
+      #hosts:
+      #- LauraCarter
     -
       type: Mentors
       duration: 60 min
       title: Mentor training
-      date:
-      time:
+      #date:
+      #time:
       content: |
         During our first cohort call, you will:
         - Share your experience been so far as a mentor in OLS-1
         - Learn about the GROW model
 '08':
-  timeframe: October 19-23, 2020
+  timeframe: March 29 - April 2, 2021
   calls:
     -
       type: Cohort
       duration: 90 min
       title: 'Open Science II: Knowledge Dissemination'
-      date: October 22, 2020
-      time: '18:30'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-08
-      recording:
-      hosts:
-        - yochannah
-        - malvikasharan
-        - emmyft
+      #date: October 22, 2021
+      #time: '18:30'
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/week-08
+      #recording:
+      #hosts:
+      #  - yochannah
+      #  - malvikasharan
+      #  - emmyft
       agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training'
       content: |
         During this week's cohort call, we will:
@@ -484,25 +484,25 @@
         -
           type: slides
           title: Open Education and Training - MetaDocencia Case Study
-          speaker: lauracion
-          link: https://docs.google.com/presentation/d/1Pw8w5EYw_N2hhrGQaFBXnsK5Qg5ID84tCNzCTpNbYyA/present?token=AC4w5VhTbMcvRCEBTBID_RjTsUAnzObzpg%3A1603710553527&includes_info_params=1&eisi=CKri9q6P0uwCFXWCIwAdZz4LfQ#slide=id.g7e28a7e96f_0_0
+          #speaker: lauracion
+          #link: https://docs.google.com/presentation/d/1Pw8w5EYw_N2hhrGQaFBXnsK5Qg5ID84tCNzCTpNbYyA/present?token=AC4w5VhTbMcvRCEBTBID_RjTsUAnzObzpg%3A1603710553527&includes_info_params=1&eisi=CKri9q6P0uwCFXWCIwAdZz4LfQ#slide=id.g7e28a7e96f_0_0
         -
           type: slides
           title: Preprint in the Context of Open Science
-          speaker: babasaraki
-          link: https://docs.google.com/presentation/d/1__yFTZycGuIF4T-0c7iImTwbUDHzEEwSUz-WU7f7F-Q/present?token=AC4w5ViWSc90Iydz3kssZC0G9X_hOxJK-g%3A1603710619782&includes_info_params=1&eisi=CIDdws6P0uwCFdAaqQEdcacKzA#slide=id.g7e28a7e96f_0_0
+          #speaker: babasaraki
+          #link: https://docs.google.com/presentation/d/1__yFTZycGuIF4T-0c7iImTwbUDHzEEwSUz-WU7f7F-Q/present?token=AC4w5ViWSc90Iydz3kssZC0G9X_hOxJK-g%3A1603710619782&includes_info_params=1&eisi=CIDdws6P0uwCFdAaqQEdcacKzA#slide=id.g7e28a7e96f_0_0
         -
           type: slides
           title: Open Protocols
-          speaker: GanleyEmma
-          link: https://docs.google.com/presentation/d/1_8Fp5DKh_XXwj34DwR-dzTvUCk1c0ynhy7MvmaHFFoA/present?token=AC4w5ViYvEiWzkDp6pI6j2zDny92AF5luQ%3A1603710808548&includes_info_params=1&eisi=CMH6w6iQ0uwCFXVpTAodBIcBVw#slide=id.g849ffa2549_0_171
+          #speaker: GanleyEmma
+          #link: https://docs.google.com/presentation/d/1_8Fp5DKh_XXwj34DwR-dzTvUCk1c0ynhy7MvmaHFFoA/present?token=AC4w5ViYvEiWzkDp6pI6j2zDny92AF5luQ%3A1603710808548&includes_info_params=1&eisi=CMH6w6iQ0uwCFXVpTAodBIcBVw#slide=id.g849ffa2549_0_171
         -
           type: slides
           title: Citizen Science
-          speaker: gedankenstuecke
-          link: https://youtu.be/HaQyv48sMPY?t=860
+          #speaker: gedankenstuecke
+          #link: https://youtu.be/HaQyv48sMPY?t=860
 '09':
-  timeframe: October 26-30, 2020
+  timeframe: April 5-9, 2021
   calls:
     -
       type: Mentor-Mentee
@@ -512,28 +512,23 @@
       type: Coworking
       duration: 60 min
       title: Coworking on assignments, knowledge exchange and networking
-      date: October 29, 2020
-      time:
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/coworking
+      #date: October 29, 2021
+      #time:
+      #calendar-event:
+      #notes: https://hackmd.io/@ols-2/coworking
     -
       type: Cohort
       duration: 90 min
       title: "Skill-up: Personal Ecology and Ally Skills"
-      date: October 29, 2020
-      time: '16:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
-      notes: https://hackmd.io/@ols-2/week-09
-      recording: https://www.youtube.com/watch?v=8niC2UB25ys
+      #date: October 29, 2021
+      #time: '16:00'
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
+      #notes: https://hackmd.io/@ols-2/week-09
+      #recording:
       content: |
         During this week's cohort call, we will hold a skill-up session on Personal Ecology and Ally Skills:
         - Discuss the importance of taking care your our mental health and avoiding burn out for both project leaders and community members
         - Understanding our societal privileges and stepping up for our colleagues and community as an ally
-      hosts:
-        - yochannah
-        - malvikasharan
-        - emmyft
-        - ha0ye
       before: |
         - Personal Ecology and self care
         
@@ -555,7 +550,7 @@
         -
           type: slides
           title: Personal Ecology and Self care
-          link: https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
+          #link: https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
         -
           type: external-link
           title: Sustain Summit
@@ -575,7 +570,7 @@
         -
           type: slides
           title: Ally Skills
-          link: https://docs.google.com/presentation/d/e/2PACX-1vRTxI8-8OH_1hv-KH65zB73hoqGCUBIlPxzFYYIBQrT4gfGV7tcUKOwfXo0Xu3O4tqZ-Z9gwTJyDN0z/pub?start=false&loop=false&delayms=3000#slide=id.ga513c4eb7e_0_0
+          #link: https://docs.google.com/presentation/d/e/2PACX-1vRTxI8-8OH_1hv-KH65zB73hoqGCUBIlPxzFYYIBQrT4gfGV7tcUKOwfXo0Xu3O4tqZ-Z9gwTJyDN0z/pub?start=false&loop=false&delayms=3000#slide=id.ga513c4eb7e_0_0
         -
           type: external-link
           title: Self-care Handout
@@ -589,22 +584,18 @@
           title: Goal setting exercise
           link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
 '10':
-  timeframe: November 2-6, 2020
+  timeframe: April 12-16, 2021
   calls:
     -
       type: Cohort
       duration: 90 min
       title: 'Open Science III: Next steps - applying FAIR research principles'
-      date: November 5, 2020
-      time: '10:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-10
-      recording: https://www.youtube.com/watch?v=ylqDx_ELfus
+      #date: November 5, 2020
+      #time: '10:00'
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/week-10
+      #recording: https://www.youtube.com/watch?v=ylqDx_ELfus
       agenda: FAIRification of existing or mature projects, etc
-      hosts:
-        - yochannah
-        - emmyft
-        - bebatut
       content: |
         During this week's cohort call, we will discuss how to apply FAIR research principles on data, software, training
 
@@ -616,13 +607,13 @@
         -
           type: slides
           title: 'FAIR Data: Insights and perspectives'
-          speaker: proccaserra
-          link: https://docs.google.com/presentation/d/1ER_ZQ_Fe_PFWBPrP87dU6jRaPT2dlB4hCu-wGXJwnBA/present?token=AC4w5ViSH5zunGHSyI1GZfySDANR6HsdTA%3A1606212785356&includes_info_params=1&eisi=CK-shfT4mu0CFUwmHwod_GcLYQ#slide=id.g9f69d2be7a_0_0
+          #speaker: proccaserra
+          #link: https://docs.google.com/presentation/d/1ER_ZQ_Fe_PFWBPrP87dU6jRaPT2dlB4hCu-wGXJwnBA/present?token=AC4w5ViSH5zunGHSyI1GZfySDANR6HsdTA%3A1606212785356&includes_info_params=1&eisi=CK-shfT4mu0CFUwmHwod_GcLYQ#slide=id.g9f69d2be7a_0_0
         -
           type: slides
           title: 'Making training materials FAIR in 10 steps'
-          speaker: burkemlou
-          link: https://f1000research.com/slides/9-1294
+          #speaker: burkemlou
+          #link: https://f1000research.com/slides/9-1294
         -
           type: external-link
           title: 10 rules for making training FAIR
@@ -630,8 +621,8 @@
         -
           type: slides
           title: 'FAIR Research Software, a.k.a. software as a first-class citizen in research'
-          speaker: fpsom
-          link: https://drive.google.com/file/d/1LtG_gVhszVl13yohYuxTipaKnxV77cqP/view?usp=sharing
+          #speaker: fpsom
+          #link: https://drive.google.com/file/d/1LtG_gVhszVl13yohYuxTipaKnxV77cqP/view?usp=sharing
         -
           type: external-link
           title: 'Top 10 FAIR Data & Software Things: Research Software'
@@ -653,28 +644,32 @@
           title: RDA FAIR for Research Software (FAIR4RS) WG
           link: https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
 '11':
-  timeframe: November 9-13, 2020
+  timeframe: April 19-23, 2021
   calls:
     -
       type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
+    -
+      type: Coworking
+      duration: 60 min
+      title: Coworking on assignments, knowledge exchange and networking
+      #date: November 12, 2021
+      #time:
+      #calendar-event:
+      #notes: https://hackmd.io/@ols-2/coworking
 '12':
-  timeframe: November 16-20, 2020
+  timeframe: April 26-30, 2021
   calls:
     -
       type: Cohort
       duration: 90 min
       title: 'Open Leadership: Academia, industry and beyond!'
-      date: November 19, 2020
-      time: '18:30'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-12
-      recording: https://www.youtube.com/watch?v=hS-6GE0X2UY
-      hosts:
-        - yochannah
-        - emmyft
-        - malvikasharan
+      #date: November 19, 2021
+      #time: '18:30'
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/week-12
+      #recording:
       content: |
         During this week's cohort call, we will:
         - Hear from the professionals from different career paths
@@ -690,33 +685,8 @@
         - what advice would you give someone wanting to enter your field ?
         - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
         - do you want to switch your career or field? Why or why not?
-      resources:
-        -
-          type: slides
-          title: Community building
-          speaker: rainsworth
-          link: https://docs.google.com/presentation/d/1jeTk_PzsWpaR4DRmBrbrDGol2_drPEizp26o4d8jnnA/localpresent?token=AC4w5ViUwg7eAFYcjgOY9aUJ-ulGu-uFzg%3A1606213723739&includes_info_params=1&eisi=CK7bv7P8mu0CFRWiNwodLgkHsg&slide=id.p
-        -
-          type: slides
-          title: Navigating a career through academia and industry/start-up
-          speaker: natasha_wood
-          link: https://docs.google.com/presentation/d/1RsvcKd_5uW-TtawLAOw6N95gOLO6MinN0I94dUIII8s/present?token=AC4w5VgKYecuXzGQ1Zze1bZmv1lCEyv6MQ%3A1606213784867&includes_info_params=1&eisi=CK7r0tD8mu0CFZcFswUdN1QIRA#slide=id.g7e28a7e96f_0_0
-        -
-          type: slides
-          title: Academia
-          speaker: ajstewartlang
-        -
-          type: slides
-          title: Research Funding
-          speaker: ekinbolukbasi
-          link: https://drive.google.com/file/d/1i1g9pxmkW8gr4f3S380NBJ6-k8GGVnrx/view
-        -
-          type: slides
-          title: Social entrepreneurship
-          speaker: sdopoku
-          link: https://docs.google.com/presentation/d/1Sac0MqvkmgK4vWSDrdiEkEWUdgyznySX45WDpV-XkyQ/present?token=AC4w5VhWciRTQRu_kOVudKzeGsHRTmBsrA%3A1606214445403&includes_info_params=1&eisi=CM6Jz4v_mu0CFdmXTwkdFOwJ1w#slide=id.gc6f9e470d_0_0
 '13':
-  timeframe: November 23-27, 2020
+  timeframe: May 3-7, 2021
   calls:
     -
       type: Mentor-Mentee
@@ -724,28 +694,33 @@
       title: Meet your mentor!
     -
       type: Cohort
-      duration: 60 min
-      title: Pub Quiz!
-      date: November 26, 2020
-      time: '15:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M2xtbjdpc2FqMjN0N3MzOTg5aWw3NGYyZnUgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
-      notes: https://hackmd.io/@ols-2/week-13
+      duration: 90 min
+      title: 'Skill-up: Creative writing and storytelling workshop, followed by 30 minutes open agenda discussion'
+      #date: November 26, 2021
+      #time:
+      #calendar-event:
+      #notes: https://hackmd.io/@ols-2/week-13
+      #recording:
+      content: |
+        During this week's cohort call, we will:
+        - Learn about simple storytelling skills to present your work. Informally connect with each other.
       before: |
         - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
       after: |
         - Continue on with your project, and connect with others on Gitter or other social media platforms.
+      resources:
 '14':
-  timeframe: November 30 - December 4, 2020
+  timeframe: May 10-14, 2021
   calls:
   -
       type: Cohort
       duration: 90 min
       title: 'Designing & Empowering for inclusivity'
-      date: December 3, 2020
-      time: '10:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-14
-      recording:
+      #date: December 3, 2021
+      #time: '10:00'
+      #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      #notes: https://hackmd.io/@ols-2/week-14
+      #recording:
       agenda: Personas and pathways for contributors, Implicit bias & Community interactions
       content: |
         During this week's cohort call, we will:
@@ -810,7 +785,7 @@
           title: Community Interactions
           link: https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
 '15':
-  timeframe: December 7-11, 2020
+  timeframe: May 17-21, 2021
   calls:
     -
       type: Mentor-Mentee
@@ -827,10 +802,10 @@
       type: Cohort
       duration: 90 min
       title: 'Final presentation rehearsal - Group 1'
-      date: December 10, 2020
-      time:
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/week-15
+      #date: December 10, 2021
+      #time:
+      #calendar-event:
+      #notes: https://hackmd.io/@ols-2/week-15
       content: |
         During this week's cohort call, we will:
         - Learn about giving and receiving feedback
@@ -850,10 +825,10 @@
       type: Cohort
       duration: 90 min
       title: 'Final presentation rehearsal - Group 2'
-      date: December 10, 2020
-      time:
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/week-15-gr2
+      #date: December 10, 2021
+      #time:
+      #calendar-event:
+      #notes: https://hackmd.io/@ols-2/week-15-gr2
       content: |
         During this week's cohort call, we will:
         - Learn about giving and receiving feedback
@@ -870,17 +845,17 @@
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
       resources:
 '16':
-  timeframe: December 14-18, 2020
+  timeframe: May 24-28, 2021
   calls:
     -
       type: Cohort
-      duration: 60 min
+      duration: 90 min
       title: 'Final presentations & Graduation! - Group 1'
-      date: December 15, 2020
-      time: '10:00'
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/week-16-gr1
-      recording:
+      #date: December 19, 2021
+      #time:
+      #calendar-event:
+      #notes: https://hackmd.io/@ols-2/week-16
+      #recording:
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
         During this week's cohort call, we will:
@@ -894,37 +869,17 @@
       resources:
     -
       type: Cohort
-      duration: 60 min
+      duration: 90 min
       title: 'Final presentations & Graduation! - Group 2'
-      date: December 16, 2020
-      time: '15:00'
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/week-16-gr2
-      recording:
+      #date: December 19, 2021
+      #time:
+      #calendar-event:
+      #notes: https://hackmd.io/@ols-2/week-16-gr2
+      #recording:
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
         During this week's cohort call, we will:
-        - Witness the final presentations from the project leads registered in Group 2 and see them graduate.
-      before: |
-        - Come prepared to share a 5 mins presentation of your project
-
-          Your presentation can be in the form of a demo, short presentation or a walk through your website
-      after: |
-        - Celebrate your graduation from OLS-2!
-      resources:
-       -
-      type: Cohort
-      duration: 60 min
-      title: 'Final presentations & Graduation! - Group 3'
-      date: 17 December 17, 2020
-      time: '18:30'
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/week-16-gr3
-      recording:
-      agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
-      content: |
-        During this week's cohort call, we will:
-        - Witness the final presentations from the project leads registered in Group 3 and see them graduate.
+        - Witness the final presentations from the project leads registered in Group 1 and see them graduate.
       before: |
         - Come prepared to share a 5 mins presentation of your project
 
@@ -939,6 +894,6 @@
       date:
       time:
       content: |
-        During our final mentor call, we will:
+        During our first cohort call, we will:
         - Wrap-up the cohort
         - Discuss how we can improve the program
