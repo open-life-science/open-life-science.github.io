@@ -1,0 +1,157 @@
+# List of experts and guest speakers for OLS-2
+#
+#
+# People should be also in people.yaml file and linked using their GitHub username
+---
+experts:
+  #- aath0
+  #- agbeltran
+  #- aidanbudd
+  #- ajstewartlang
+  #- alexwlchan
+  #- anenadic
+  #- anita-broellochs
+  #- annakrystalli # need to confirm
+  #- anneclinio # need to confirm
+  #- ArielleBL
+  #- bduckles
+  - bebatut
+  #- bgruening
+  #- BhuvanaMeenakshiK # need to confirm
+  #- burkemlou
+  #- cassgvp
+  #- ChiaraBertipaglia
+  #- christinerogers
+  #- dasaderi
+  #- Demellina
+  #- emmyft
+  #- fpsom
+  #- gedankenstuecke
+  #- graciellehigino
+  #- ha0ye
+  #- hdinkel
+  #- InquisitiveVi # need to confirm
+  #- JasonJWilliamsNY
+  #- jcolomb
+  #- jezcope
+  #- kariljordan
+  #- klauer2207
+  #- katrinleinweber # need to confirm
+  #- kipkurui
+  #- KirstieJane
+  #- kswhitney # need to confirm
+  #- LangData
+  #- lauracion
+  #- luispedro
+  #- lwinfree
+  - malvikasharan
+  #- martenson
+  #- martinagvilas
+  #- mblue9
+  #- meagdoh
+  #- mkuzak
+  #- mruizvelley # need to confirm
+  #- mvdbeek # need to confirm
+  #- nerantzis
+  #- NPalopoli
+  #- npscience
+  #- nsoranzo # need to confirm
+  #- orchid00
+  #- paulvill
+  #- pherterich
+  #- profgiuseppe
+  #- rainsworth
+  #- rgaiacs
+  #- rossmounce
+  #- satagopam7 # need to confirm
+  #- SantosRAC
+  #- sdopoku
+  #- sgibson91
+  #- sofia-kirke-forslund
+  #- thessaly
+  #- TKlingstrom
+  #- tnabtaf
+  #- tobyhodges
+  #- tsonika
+  #- unode
+  #- vcheplygina
+  #- VickyNembaware
+  - yochannah
+  #- yvanlebras
+  #- Zebetus
+possible-mentors:
+  #- aidanbudd
+  #- ajstewartlang
+  #- anayan321 # ask later when OLS-2 launched, need to check with Holger
+  #- anelda
+  #- anita-broellochs
+  #- anjali-mazumder
+  #- annefou # need to confirm
+  #- ArielleBL
+  - bebatut
+  #- bgruening
+  #- billbrod # ask later when OLS-2 launched, need to check with Rodrigo
+  #- bruno-soares
+  #- burkemlou
+  #- cassgvp # did not fill the form
+  #- christinerogers
+  #- dasaderi # need to confirm
+  #- davidviryachen # ask later when OLS-2 launched, need to check with Holger
+  #- Delphine-L
+  #- dlebauer # need to check with Katrin
+  #- emmyft
+  #- Fnyasimi
+  #- fpsom
+  #- ha0ye # ask later when OLS-2 launched
+  #- hdinkel
+  #- hrhotz
+  #- ivotron
+  #- jezcope
+  #- joelostblom # need to confirm
+  #- kariljordan
+  #- klauer2207
+  #- katrinleinweber # need to confirm
+  #- kibet-gilbert # recommended, need to ask
+  #- kipkurui
+  #- Kiragu-Mwaura
+  #- kswhitney # need to confirm
+  #- LandiMi2
+  #- LangData
+  #- Lilian9
+  #- lpantano
+  #- luispedro
+  #- MagicMilly # ask later when OLS-2 launched, need to check with Katrin
+  #- malloryfreeberg
+  - malvikasharan
+  #- martinagvilas
+  #- mblue9
+  #- meagdoh
+  #- Megmugure
+  #- mesfind
+  #- MorphoFun # need to check with Fotis
+  #- mkuzak
+  #- mloning
+  #- mruizvelley # need to confirm
+  #- mvdbeek # need to confirm
+  #- npscience
+  #- nsoranzo # need to confirm
+  #- pherterich
+  #- piv-gopalasingam
+  #- rainsworth
+  #- rgaiacs
+  #- rodrigocam # need to confirm
+  #- rs_khetani
+  #- SamGuay
+  #- sdopoku
+  #- sgibson91
+  #- tnabtaf
+  #- tsonika
+  #- unode
+  #- VickyNembaware # need to confirm
+  - yochannah
+  #- yvanlebras
+  #- Zebetus
+organizers:
+  - bebatut
+  - malvikasharan
+  - yochannah
