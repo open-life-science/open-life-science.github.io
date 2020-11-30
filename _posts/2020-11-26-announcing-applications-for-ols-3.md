@@ -15,9 +15,9 @@ It's hard to believe, but OLS-2 is in its final stage right now, which means tha
 
 ## Graduations - you're all invited!
 
-Our amazing project leads for OLS-2 came from six different continents around the world and have been working on projects covering open reproducible data science, open hardware, open synthetic biology, usability, ethics, local open science communities, conference, and [many more incredible things]({% link _ols-2/week02.md %}). We've been lucky enough to work with them as mentors, expert speakers, and call hosts for nearly four months - and now it's time to shed a tear of pride as graduations approach.
+Our amazing project leads for OLS-2 came from six different continents around the world and have been working on projects covering open reproducible data science, open hardware, open synthetic biology, usability, ethics, local open science communities, conference, and [many more incredible things]({% link _ols-2/projects-participants.md %}). We've been lucky enough to work with them as mentors, expert speakers, and call hosts for nearly four months - and now it's time to shed a tear of pride as graduations approach.
 
-We invite you to come and watch the [live-streamed calls on YouTube](https://www.youtube.com/c/openlifesci) - they'll be spread across three different hour-long sessions, and available on YouTube after the event if you can't attend in real time. All calls will have real-time captions using Otter.ai.
+We invite you to come and watch the [live-streamed calls on YouTube]({{site.youtube}}) - they'll be spread across three different hour-long sessions, and available on YouTube after the event if you can't attend in real time. All calls will have real-time captions using Otter.ai.
 
 - Slot 1: 15 December, Tuesday - 09:00 - 10:00 AM UTC
     - 📝 [Notes](https://hackmd.io/@ols-2/week-16-gr1)
@@ -38,4 +38,4 @@ We especially welcome you if you are:
 
 Interested in applying for round three? We can't wait to see your application - visit [EasyChair](https://easychair.org/conferences/?conf=ols3) to submit your application before the end of the day on January 11th. We encourage you to check out the OLS-2 graduation live streams or [watch the OLS-1 graduations on YouTube](https://www.youtube.com/playlist?list=PL1CvC6Ez54KB6U9GtjOjwESMurHgT41qM) to get a sense of what the project will be like.
 
-For OLS-3 we're also excited to announce that [we'll be offering micro-grants]({% link _posts/micro-grants-in-2021-ols-3-ols-4 %}) to help grow participation and inclusion, and to support budding new projects.
+For OLS-3 we're also excited to announce that [we'll be offering micro-grants]({% link _posts/2020-11-23-micro-grants-in-2021-ols-3-ols-4.md %}) to help grow participation and inclusion, and to support budding new projects.
