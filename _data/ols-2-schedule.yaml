@@ -874,12 +874,12 @@
   calls:
     -
       type: Cohort
-      duration: 90 min
+      duration: 60 min
       title: 'Final presentations & Graduation! - Group 1'
-      date: December 19, 2020
-      time:
+      date: December 15, 2020
+      time: '10:00'
       calendar-event:
-      notes: https://hackmd.io/@ols-2/week-16
+      notes: https://hackmd.io/@ols-2/week-16-gr1
       recording:
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
@@ -894,17 +894,37 @@
       resources:
     -
       type: Cohort
-      duration: 90 min
+      duration: 60 min
       title: 'Final presentations & Graduation! - Group 2'
-      date: December 19, 2020
-      time:
+      date: December 16, 2020
+      time: '15:00'
       calendar-event:
       notes: https://hackmd.io/@ols-2/week-16-gr2
       recording:
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
         During this week's cohort call, we will:
-        - Witness the final presentations from the project leads registered in Group 1 and see them graduate.
+        - Witness the final presentations from the project leads registered in Group 2 and see them graduate.
+      before: |
+        - Come prepared to share a 5 mins presentation of your project
+
+          Your presentation can be in the form of a demo, short presentation or a walk through your website
+      after: |
+        - Celebrate your graduation from OLS-2!
+      resources:
+       -
+      type: Cohort
+      duration: 60 min
+      title: 'Final presentations & Graduation! - Group 3'
+      date: 17 December 17, 2020
+      time: '18:30'
+      calendar-event:
+      notes: https://hackmd.io/@ols-2/week-16-gr3
+      recording:
+      agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
+      content: |
+        During this week's cohort call, we will:
+        - Witness the final presentations from the project leads registered in Group 3 and see them graduate.
       before: |
         - Come prepared to share a 5 mins presentation of your project
 
@@ -919,6 +939,6 @@
       date:
       time:
       content: |
-        During our first cohort call, we will:
+        During our final mentor call, we will:
         - Wrap-up the cohort
         - Discuss how we can improve the program
