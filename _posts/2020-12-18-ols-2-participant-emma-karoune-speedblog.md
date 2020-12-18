@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OLS-2 speedblog: Creating community awareness of open science in phytolith research
+title: "OLS-2 speedblog: Creating community awareness of open science in phytolith research"
 authors:
 - EKaroune
 image: https://i.imgur.com/CsmrC1B.jpg
@@ -8,7 +8,7 @@ photos:
   name: Image of a mixed phytolith assemblage under a light microscope.
 ---
 
-_This post is guest authored by Emma Karoune, a recent graduate of OLS-2._ 
+_This post is guest authored by Emma Karoune, a recent graduate of OLS-2._
 
 ## Project background
 Frustration was my main motivator to initiate this project. I want to be able to do reproducible phytolith research but I am currently being held back by a lack of engagement with open science practices.
