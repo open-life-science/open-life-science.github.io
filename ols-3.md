@@ -223,6 +223,10 @@ The roles and benefits for the participants and the eligibility of proposed proj
 
 ## OLS-3 for EOSC-Life
 
+Open Life Science has received the [EOSC-Life Training grant (first round)](https://www.eosc-life.eu/news/4-projects-awarded-funding-within-first-training-open-call/), to train and mentor EOSC-RI members under the collaboration name **OLS-3 for EOSC-Life**. In the simplest terms, [EOSC-Life](https://www.eosc-life.eu/about/) is [13 European life science Research Infrastructures](https://www.eosc-life.eu/about/partners/) making their data FAIR (Findable, Accessible, Interoperable and Reusable) so that researchers can combine resources from multiple RIs for new research funded through our Open Calls and receive support through the variety of additional services we offer, including alignment with relevant standards and policies (GDPR, etc.).
+
+This program will provide a unique opportunity to individuals and teams in the RIs to integrate best practices for open and reproducible research in new or ongoing projects.
+
 # Resources
 
 The resources available to the OLS-3 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
