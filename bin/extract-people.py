@@ -20,9 +20,10 @@ def extract_people_info(row):
         'website': row['Website'],
         'orcid': row['ORCID'],
         'affiliation': row['Affiliation'],
+        'city': row['City'],
         'country': row['Country'],
-        'pronouns': row['Pronouns'],
-        'expertise': row['Areas of expertise (1 element per line)'],
+        'pronouns': row['Preferred pronouns (optional)'],
+        'expertise': row['Areas of expertise'],
         'bio': row['Bio']
     }
     github = row['Github username']
@@ -31,24 +32,12 @@ def extract_people_info(row):
             info['first-name'].lower(),
             info['last-name'].lower())
         info['github'] = False
-    if info['email'] is None:
-        del info['email']
-    if info['twitter'] is None:
-        del info['twitter']
-    if info['website'] is None:
-        del info['website']
-    if info['orcid'] is None:
-        del info['orcid']
-    if info['affiliation'] is None:
-        del info['affiliation']
-    if info['country'] is None:
-        del info['country']
-    if info['pronouns'] is None:
-        del info['pronouns']
-    if info['expertise'] is None:
-        del info['expertise']
-    if info['bio'] is None:
-        del info['bio']
+    optional_info = ['email', 'twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
+    for i in optional_info:
+        if info[i] is None:
+            del info[i]
+    if 'expertise' in info:
+        info['expertise'] = info['expertise'].split("; ")
     return github, info
 
 
@@ -72,6 +61,10 @@ if __name__ == '__main__':
     for index, row in df.iterrows():
         github, info = extract_people_info(row)
         if github not in people:
+            print("Add info for %s" % github)
+            people[github] = info
+        else:
+            print("Update info for %s" % github)
             people[github] = info
 
     # dump people dictionary into people.yaml file

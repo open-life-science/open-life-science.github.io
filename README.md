@@ -129,6 +129,7 @@ Add someone to the list of people:
     - `gitter`
     - `orcid`
     - `affiliation`
+    - `city`
     - `country` (*mandatory*)
     - `pronouns`
     - `expertise`
@@ -146,10 +147,12 @@ Add many people in a row to `_data/people.yaml`:
    - `First name`
    - `Last name`
    - `Email`
+   - `Github username`
    - `Twitter username`
    - `Website`
    - `ORCID`
    - `Affiliation`
+   - `City`
    - `Country`
    - `Pronouns`
    - `Areas of expertise (1 element per line)`
