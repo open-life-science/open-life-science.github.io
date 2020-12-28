@@ -53,6 +53,12 @@
       </div>
     </div>
 
+    {% if ols-roles %}
+    <p class="people">
+      <div class="people-description-question">Roles in OLS:</div> {{ ols-roles }}
+    </p>
+    {% endif %}
+
     {% if user.expertise %}
     <p class="people">
       <div class="people-description-question">Expertise:</div> {{ user.expertise | join: ", " }}
