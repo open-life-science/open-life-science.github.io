@@ -2,7 +2,7 @@
 
     We have [templates](https://github.com/open-life-science/application-forms) you can download to use when preparing your application. 
 
-- **January 4, 2021**: Application webinar (<i class="fas fa-chalkboard-teacher"></i> Talk + Q&A at [12:00 CET](https://arewemeetingyet.com/London/2021-01-04/11:00/OLS-3-Webinar#eyJ1cmwiOiJodHRwczovL3Rpbnl1cmwuY29tL29scy0zLXdlYmluYXIifQ==), [Notes](https://tinyurl.com/ols-3-webinar))
+- **January 4, 2021**: Application webinar (<i class="fas fa-chalkboard-teacher"></i> Talk + Q&A at [12:00 CET](https://arewemeetingyet.com/London/2021-01-04/11:00/OLS-3-Webinar#eyJ1cmwiOiJodHRwczovL3Rpbnl1cmwuY29tL29scy0zLXdlYmluYXIifQ==), [Notes with Zoom call link](https://tinyurl.com/ols-3-webinar))
 - **January 11, 2021**: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
 - For the **[EOSC-Life](/ols-3#ols-3-for-eosc-life) collaborating organisation**
     - **January 13, 2021** ([12:00 CET](https://arewemeetingyet.com/Berlin/2021-01-13/12:00/OLS-3%20application%20webinar)): Application development webinar (<i class="fas fa-chalkboard-teacher"></i> Q&A)
