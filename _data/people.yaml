@@ -22,7 +22,7 @@
 #
 # Mandatory: first-name, last-name, country
 ---
-ArielleBL:
+ariellebl:
   affiliation: The Alan Turing Institute
   bio: 'Arielle has spent her career to date working in research-adjacent fields,
     starting with a stint at open access publisher PLOS, where she learnt the importance
@@ -155,6 +155,30 @@ EKaroune:
   last-name: Karoune
   pronouns: she/her
   website: ekaroune
+EstherPlomp:
+  affiliation: Delft University of Technology - Faculty of Applied Sciences
+  bio: Esther works as a Data Steward at Delft University of Technology (Faculty of
+    Applied Sciences) in the Netherlands. As a Data Steward she supports researchers
+    with their data/code management and with sharing their research. Before this,
+    Esther did a PhD in bioanthropology, studying the isotopic composition of human
+    teeth to determine where they grew up.
+  city: The Hague
+  country: The Netherlands
+  email: e.plomp@tudelft.nl
+  expertise:
+  - Open protocols
+  - open data
+  - research data management
+  - FAIR
+  - archaeology
+  - bioanthropology
+  - isotopes
+  - 'osteology, '
+  first-name: Esther
+  last-name: Plomp
+  orcid: 0000-0003-3625-1357
+  pronouns: she/her/hers
+  twitter: PhDToothFAIRy
 EvaCHerbst:
   country: Switzerland
   email: eva.herbst@pim.uzh.ch
@@ -241,6 +265,24 @@ JasonJWilliamsNY:
   pronouns: he/him
   twitter: JasonWilliamsNY
   website: https://lifescitrainers.org
+Karvovskaya:
+  affiliation: VU Amsterdam
+  bio: I am a linguist turned into a research data management specialist and community
+    manager at the VU Amsterdam library. I am interested in languages and would love
+    to support community-oriented projects in this area. I am also keen on getting
+    in touch with people from Russia and supporting projects for Russian audience.
+  city: Amsterdam
+  country: Netherlands
+  email: e.karvovskaya@vu.nl
+  expertise:
+  - theoretical linguistics
+  - fieldwork
+  - research data management
+  first-name: Lena
+  last-name: Karvovskaya
+  orcid: 0000-0001-7777-5603
+  pronouns: she/her
+  twitter: LangData
 KateSimpson:
   country: UK
   email: kate.simpson@imperial.ac.uk
@@ -373,37 +415,6 @@ MuhammetCelik:
   first-name: Muhammet
   last-name: Celik
   pronouns: he/him
-NPalopoli:
-  affiliation: Universidad Nacional de Quilmes & CONICET
-  bio: 'Nicolas is a computational biologist interested in understanding the structural
-    properties, biological
-
-    function and evolutionary relationships of proteins. His current research focus
-    are protein
-
-    disorder and protein interactions mediated by Short Linear Motifs (SLiMs). He''s
-    seeking to make a
-
-    positive impact through teaching at all levels, mentoring students, taking part
-    in professional
-
-    communities and supporting projects that do good.
-
-    '
-  country: Argentina
-  email: nicopalo@gmail.com
-  expertise:
-  - Bioinformatics and Computational Biology
-  - Molecular Biology
-  - Protein sequence, structure, evolution and interactions
-  - Molecular interactions
-  - Molecular evolution
-  first-name: Nicolas
-  last-name: Palopoli
-  orcid: 0000-0001-7925-6436
-  pronouns: he/him
-  twitter: npalopoli
-  website: http://about.me/npalopoli
 NaraLB:
   affiliation: "Museu Paraense Em\xEDlio Goeldi"
   country: Brazil
@@ -420,6 +431,25 @@ NehaMoopen:
   last-name: Moopen
   pronouns: she/her
   twitter: NehaMoopen
+PivG:
+  affiliation: EMBL-EBI (European Bioinformatics Institute)
+  bio: I am a scientific training officer at the European Bioinformatics Institute
+    (EMBL-EBI) where I mainly coordinate and support training in Latin America via
+    the CABANA project (http://cabana.online/). My background lies in structural biology
+    and biomedical sciences, and I am passionate about science communication, equity
+    and inclusion.
+  city: Cambridge
+  country: United Kingdom
+  email: piv@ebi.ac.uk
+  expertise:
+  - Education and training
+  - course design and delivery
+  - science communication
+  first-name: Piv
+  last-name: Gopalasingam
+  orcid: 0000-0001-5709-3373
+  pronouns: he/him
+  twitter: cascade21
 SamGuay:
   affiliation: "Universit\xE9 de Montr\xE9al"
   bio: "While completing his PhD in cognitive neuroscience at the Universit\xE9 de\
@@ -658,7 +688,7 @@ ajstewartlang:
   website: https://ajstewartlang.netlify.app
 alexwlchan:
   affiliation: Wellcome Collection
-  country: UK
+  country: United Kingdom
   email: alex@alexwlchan.net
   first-name: Alex
   last-name: Chan
@@ -847,6 +877,30 @@ anproulx:
   first-name: "Andr\xE9anne"
   last-name: Proulx
   twitter: AndreanneProulx
+ariellebl:
+  affiliation: The Alan Turing Institute
+  bio: 'Arielle has spent her career to date working in research-adjacent fields,
+    starting with a stint at open access publisher PLOS, where she learnt the importance
+    (and challenges) of open science, code, and data. Currently the Research Project
+    Manager on the Tools, Practices & Systems programme at The Alan Turing Institute,
+    she was a CSCCE Community Engagement Fellow in 2019 and continues to be actively
+    involved in the community. She is a contributor to the Turing Way project. '
+  city: London
+  country: United Kingdom
+  email: ariellebennettlovell@gmail.com
+  expertise:
+  - Road mapping and strategy planning
+  - Community consultation
+  - Culture change
+  - Code of conducts
+  - Community goals
+  - Drug discovery
+  - Computational biology
+  - Neuroscience.
+  first-name: Arielle
+  last-name: Bennett
+  pronouns: she/her
+  twitter: biotechchat
 babasaraki:
   affiliation: Universiti Putra Malaysia
   country: Malaysia
@@ -958,22 +1012,19 @@ bonetcarne:
   twitter: bonetcarne
 bruno-soares:
   affiliation: Universidade Federal do Rio de Janeiro
-  bio: 'Bruno is a Brazilian ecologist working on a more collaborative and open
-
-    science.
-
-    '
+  bio: Bruno is a Brazilian ecologist working on a more collaborative and open science.
+  city: Rio de Janeiro
   country: Brazil
+  email: soares.e.bruno@gmail.com
   expertise:
-  - OLS-1 project lead
   - SciComm
   - Community building
   - Open Data
   - Biodiversity
   first-name: Bruno
-  last-name: Eleres Soares
+  last-name: Soares
   orcid: 0000-0001-5678-0403
-  pronouns: he/him/she/her
+  pronouns: He/Him
   twitter: Bruno_E_Soares
   website: https://sites.google.com/view/bruno-eleres-soares
 burkemlou:
@@ -1124,6 +1175,23 @@ davidviryachen:
   last-name: Chentanaman
   pronouns: he/him
   twitter: davidchenn
+demellina:
+  affiliation: F1000Research
+  bio: 'Demitra Ellina is the Editorial Community Manager at F1000Research. She is
+    a strong advocate of Open Research and engages with the research community to
+    raise awareness of the F1000Research publishing platforms. '
+  city: London
+  country: United Kingdom
+  email: demitra.ellina@f1000.com
+  expertise:
+  - open science/research
+  - open access
+  - open peer review
+  - preprints
+  first-name: Demitra
+  last-name: Ellina
+  pronouns: She/her
+  twitter: j_ellina
 dlebauer:
   affiliation: University of Arizona
   country: USA
@@ -1181,6 +1249,30 @@ emmyft:
   pronouns: she/her
   twitter: emmy_ft
   website: https://elifesci.org/labs
+estherplomp:
+  affiliation: Delft University of Technology - Faculty of Applied Sciences
+  bio: Esther works as a Data Steward at Delft University of Technology (Faculty of
+    Applied Sciences) in the Netherlands. As a Data Steward she supports researchers
+    with their data/code management and with sharing their research. Before this,
+    Esther did a PhD in bioanthropology, studying the isotopic composition of human
+    teeth to determine where they grew up.
+  city: The Hague
+  country: The Netherlands
+  email: e.plomp@tudelft.nl
+  expertise:
+  - Open protocols
+  - open data
+  - research data management
+  - FAIR
+  - archaeology
+  - bioanthropology
+  - isotopes
+  - osteology
+  first-name: Esther
+  last-name: Plomp
+  orcid: 0000-0003-3625-1357
+  pronouns: she/her/hers
+  twitter: PhDToothFAIRy
 ewuramaminka:
   affiliation: University of Manchester
   country: UK
@@ -1412,33 +1504,32 @@ jelioth-muthoni:
 jezcope:
   affiliation: The British Library
   bio: "Jez is Data Services Lead in The British Library\u2019s Research Infrastructure\
-    \ Services team.\nHe has over 8 years of experience developing and delivering\
-    \ research data management services and\nstrategies at research-intensive higher\
-    \ education institutions in the UK, as part of a long-term\ngoal to help communicate\
-    \ and collaborate more effectively using technology; previous roles include\n\
-    research data management at University of Sheffield, Imperial College London and\
-    \ University of Bath.\nHe graduated from Imperial College London with an MSci\
-    \ in Joint Mathematics & Computing. He is an\nexperienced teacher and is involved\
-    \ with grassroots-driven data & software skills training organisation\nThe Carpentries,\
-    \ as a Certified Instructor and early contributor to Library Carpentry. He is\
-    \ particularly\ninterested in elevating the status of research software alongside\
-    \ research data in the scholarly record,\nand helping researchers develop the\
-    \ skills to make the most of this. He is a Fellow of the Software\nSustainability\
-    \ Institute, 2020 intake.\n"
-  country: UK
+    \ Services team. He has over 8 years of experience developing and delivering research\
+    \ data management services and strategies at research-intensive higher education\
+    \ institutions in the UK, as part of a long-term goal to help communicate and\
+    \ collaborate more effectively using technology. He is an experienced teacher\
+    \ and is involved with The Carpentries as a Certified Instructor and early contributor\
+    \ to Library Carpentry. He is particularly interested in elevating the status\
+    \ of research software alongside research data in the scholarly record, and helping\
+    \ researchers develop the skills to make the most of this. He is a Fellow of the\
+    \ Software Sustainability Institute, 2020 intake."
+  city: North Yorkshire
+  country: United Kingdom
   email: j.cope@erambler.co.uk
   expertise:
-  - Research data management
-  - Open access publishing
-  - Research software sharing
-  - Learning & teaching
   - Libraries
+  - Data management
+  - Digital preservation
+  - Open source
+  - Open access publishing
+  - Git
+  - Web
   first-name: Jez
   last-name: Cope
-  orcid: https://orcid.org/0000-0003-3629-1383
+  orcid: 0000-0003-3629-1383
   pronouns: he/him
   twitter: jezcope
-  website: https://erambler.co.uk
+  website: https://erambler.co.uk/
 joel-hancock:
   country: Austria
   email: jhancock@cemm.at
@@ -1550,21 +1641,20 @@ karinlag:
   twitter: karinlag
 karvovskaya:
   affiliation: VU Amsterdam
-  bio: I am a theoretical linguist turned into an RDM expert and a community manager.
-    In my work I try to bring together the support personnel at my university and
-    the researchers who are interested in data management, data sharing and Open Science.
-    I would be thrilled to use my newly acquired skills to help linguistic projects.
+  bio: I am a linguist turned into a research data management specialist and community
+    manager at the VU Amsterdam library. I am interested in languages and would love
+    to support community-oriented projects in this area. I am also keen on getting
+    in touch with people from Russia and supporting projects for Russian audience.
   city: Amsterdam
   country: Netherlands
   email: e.karvovskaya@vu.nl
   expertise:
-  - linguistics
+  - theoretical linguistics
   - fieldwork
-  - research data management (RDM)
-  - community management
+  - research data management
   first-name: Lena
   last-name: Karvovskaya
-  orcid: 000-0001-7777-5603
+  orcid: 0000-0001-7777-5603
   pronouns: she/her
   twitter: LangData
 katoss:
@@ -1681,23 +1771,15 @@ kswhitney:
   twitter: kstackwhitney
   website: https://pht180.rit.edu/sweetlab/
 lauracion:
-  affiliation: University of Buenos Aires-CONICET
-  bio: 'I am a tenured adjunct researcher leading a health data science group. I also
-    work to
-
-    improve data analysis teaching and practice. One of the roles I enjoy most is
-    mentoring and
-
-    teaching others. I am part of the R-Ladies Global leadership team and a trainer
-    and instructor
-
-    for The Carpentries. In 2020, I co-founded MetaDocencia, an open, volunteer-led,
-    collaborative,
-
-    and Spanish-speaking education community.
-
-    '
+  affiliation: University of Buenos Aires - CONICET
+  bio: I am a tenured adjunct researcher leading a health data science group. I also
+    work to improve data analysis teaching and practice. One of the roles I enjoy
+    most is mentoring and teaching others. I am a trainer and instructor for The Carpentries.
+    In 2020, I co-founded MetaDocencia, an open, collaborative, and Spanish-speaking
+    education community.
+  city: Buenos Aires
   country: Argentina
+  email: lacion@gmail.com
   expertise:
   - Health data science and artificial intelligence/Biostatistics
   - Addiction research
@@ -1705,9 +1787,6 @@ lauracion:
   - Community building
   first-name: Laura
   last-name: "Aci\xF3n"
-  life-science-expertise: 'Once upon a time I was a molecular biologist.
-
-    '
   orcid: 0000-0001-5213-6012
   pronouns: she/her
   twitter: _lacion_
@@ -1935,7 +2014,7 @@ martinagvilas:
   - Neuroscience
   first-name: Martina
   last-name: Vilas
-  orcid: https://orcid.org/0000-0002-1097-8534
+  orcid: 0000-0002-1097-8534
   pronouns: She/her
   twitter: martinagvilas
   website: https://martinagvilas.github.io/
@@ -2139,6 +2218,25 @@ nerantzis:
   pronouns: he/him
   twitter: nerantzis
   website: https://4myfiles.wordpress.com
+npalopoli:
+  affiliation: Universidad Nacional de Quilmes & CONICET
+  bio: Computational biologist interested in understanding the functional nature of
+    macromolecules, with a special focus on their evolutionary relationships and their
+    interactions within biological systems.
+  city: Bernal
+  country: Argentina
+  email: nicopalo@gmail.com
+  expertise:
+  - Computational biology
+  - structural bioinformatics
+  - proteins
+  - molecular interactions
+  - education
+  first-name: Nicolas
+  last-name: Palopoli
+  orcid: 0000-0001-7925-6436
+  pronouns: He/him
+  twitter: npalopoli
 npscience:
   bio: 'Naomi is motivated by people who are empowered to participate in knowledge
     and discovery for improvement of the
@@ -2294,31 +2392,23 @@ pherterich:
   orcid: 0000-0002-4542-9906
   pronouns: she/her
   twitter: pherterich
-piv-gopalasingam:
-  affiliation: EMBL-EBI
-  bio: 'Piv is a scientific training officer at the European Bioinformatics Institute
-    (EMBL-EBI)
-
-    where he mainly coordinates and supports training in Latin America via the [CABANA
-    project](http://cabana.online/).
-
-    His background lies in structural biology and biomedical sciences, and he is passionate
-    about science communication,
-
-    equity and inclusion.
-
-    '
-  country: UK
+pivg:
+  affiliation: EMBL-EBI (European Bioinformatics Institute)
+  bio: I am a scientific training officer at the European Bioinformatics Institute
+    (EMBL-EBI) where I mainly coordinate and support training in Latin America via
+    the CABANA project (http://cabana.online/). My background lies in structural biology
+    and biomedical sciences, and I am passionate about science communication, equity
+    and inclusion.
+  city: Cambridge
+  country: United Kingdom
   email: piv@ebi.ac.uk
   expertise:
   - Education and training
-  - Course design and delivery
-  - Science communication
-  - Structural biology
-  - Biomedical sciences
+  - course design and delivery
+  - science communication
   first-name: Piv
-  github: false
   last-name: Gopalasingam
+  orcid: 0000-0001-5709-3373
   pronouns: he/him
   twitter: cascade21
 pradeep-eranti:
@@ -2330,37 +2420,25 @@ pradeep-eranti:
   pronouns: he/his
   twitter: pradeeperanti
 profgiuseppe:
-  bio: 'Giuseppe was a researcher in bioinformatics and teacher of programming in
-    an international MSc degree.
-
-    After moving to industry, he is focusing on devops, reproducible science and the
-    creation of databases
-
-    and tools for research institutions, hospitals and companies.
-
-    Wikimedian at heart, he loves when knowledge is open and shareable. Former university
-    researcher. Software
-
-    carpentry instructor. IT specialist for R&D
-
-    '
+  affiliation: Biodec S.r.l.
+  bio: After leaving the university, where I taught programming in an international
+    bioinformatics course, I started working as an IT specialist helping research
+    centers, hospitals and companies in the development of reproducible analysis environments
+    and software. Always Wikimedian, Software Carpentry instructor when I can.
+  city: Bologna
   country: Italy
   email: profgiuseppe@gmail.com
   expertise:
-  - Devops - Continuous Integration/Deployment
-  - Reproducible environments
-  - Best practices in research software
-  - Wikidata, Wikipedia
   - Reproducible science
-  - Git
-  - Automation
-  - Open and public databases and sources
-  - Bioinformatics
-  - Computational biology
+  - git
+  - continuous integration
+  - automation
+  - open and public databases and sources.
   first-name: Giuseppe
   last-name: Profiti
   orcid: 0000-0001-6067-6174
   pronouns: he/him
+  twitter: GProfiti
   website: https://sites.google.com/site/peppeprofiti
 pvanheus:
   country: South Africa
@@ -2836,17 +2914,18 @@ yochannah:
   pronouns: they/them
   twitter: yoyehudi
 yvanlebras:
-  affiliation: "Mus\xE9um national d'Histoire naturelle"
-  bio: 'Yvan is data management and analysis lover, for life science, health and environment
-
-    '
+  affiliation: French Museum of Natural History
+  bio: Yvan is data management and analysis lover, for life science, health and environment
+  city: Concarneau
   country: France
   email: yvan.le-bras@mnhn.fr
   expertise:
-  - Galaxy power user
-  - Life science data analysis
   - Ecology
+  - Data management
+  - Data analysis
   first-name: Yvan
   last-name: Le Bras
-  pronouns: he/him
+  orcid: 0000-0002-8504-068X
+  pronouns: He
   twitter: Yvan2935
+  website: https://yvanlebras.fr
