@@ -912,11 +912,11 @@
       after: |
         - Celebrate your graduation from OLS-2!
       resources:
-       -
+    -
       type: Cohort
       duration: 60 min
       title: 'Final presentations & Graduation! - Group 3'
-      date: 17 December 17, 2020
+      date: December 17, 2020
       time: '18:30'
       calendar-event:
       notes: https://hackmd.io/@ols-2/week-16-gr3
