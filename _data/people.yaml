@@ -974,6 +974,14 @@ bebatut:
   pronouns: she/her
   twitter: bebatut
   website: https://research.bebatut.fr
+benkrikler:
+  affiliation: University of Bristol
+  country: UK
+  email: b.krikler@cern.ch
+  first-name: Benjamin
+  last-name: Krikler
+  twitter: benkrikle
+  website: https://krikler.be/
 bgruening:
   bio: "Bj\xF6rn is working in the European Galaxy team and tries to help make science\
     \ open wherever he can.\nHe is an expert in the topics related to Container, Conda,\
@@ -2797,6 +2805,16 @@ tobyhodges:
   pronouns: he/him
   twitter: tbyhdgs
   website: https://tbyhdgs.info
+trallard:
+  affiliation: Microsoft
+  country: UK
+  city: Manchester
+  email: trallard@bitsandchips.me
+  first-name: Tania
+  last-name: Allard
+  pronouns: she/her
+  twitter: ixek
+  website: https://trallard.dev
 tsonika:
   affiliation: Monash University Melbourne
   bio: 'Sonika has a Ph.D. in Bioinformatics and over 15 y of work experience in academia

@@ -730,6 +730,9 @@
       time: '15:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M2xtbjdpc2FqMjN0N3MzOTg5aWw3NGYyZnUgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
       notes: https://hackmd.io/@ols-2/week-13
+      hosts:
+        - yochannah
+        - malvikasharan
       before: |
         - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
       after: |
@@ -745,7 +748,10 @@
       time: '10:00'
       calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-14
-      recording:
+      recording: https://www.youtube.com/watch?v=Tl8MOTVznXs
+      hosts:
+        - emmyft
+        - malvikasharan
       agenda: Personas and pathways for contributors, Implicit bias & Community interactions
       content: |
         During this week's cohort call, we will:
@@ -767,48 +773,19 @@
       resources:
         -
           type: slides
-          title: "Value exchange: Ensuring equity in community interactions"
-          link: https://docs.google.com/presentation/d/1xgCaxuF81Ui-o21X00AXRAR4WKgvZ3m9HOwxkoDNuYs/present?token=AC4w5VjTaLNmSOhRQjgWewb8pS_Zdzifbg%3A1599124074222&includes_info_params=1&eisi=CKLNlbPRzOsCFdJRJgod7UQNqQ#slide=id.p
+          title: Inclusion not an afterthought
+          speaker: alexwlchan
+          link: https://docs.google.com/presentation/d/10pAmCttT5W4LtuFOMwuw9pVWBC03kfeAR1PIamqTsJI/edit
         -
           type: slides
-          title: Unconscious Bias & Inclusive Participation
-          link: https://docs.google.com/presentation/d/1bpN5WCtacJkxwKznmi0LHC3j-PHiPnrhVtbCKP7j1c4/present?token=AC4w5ViCwpl9dFyzVGzHee3muD89BmlDAg%3A1599124070524&includes_info_params=1&eisi=CKeKtLHRzOsCFU99HwodtOID-g#slide=id.g6e99f63b25_0_0
+          title: Community interactions and mountain of engagements
+          speaker: trallard
+          link: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
         -
           type: slides
           title: Using Personas and Pathways to Build Community
-          link: https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/present?token=AC4w5VjrhOLQ41xnnuA2pDUv6BPb3rNRzw%3A1599124065406&includes_info_params=1&eisi=CM3T-67RzOsCFflCqwId1MwJoQ#slide=id.g6e991a6830_0_0
-        -
-          type: slides
-          title: Mountain of Engagement & Community Interactions
-          link: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/present?token=AC4w5VidYTmudwv11GFa0VWvc4lrMoUVTw%3A1599124059444&includes_info_params=1&eisi=CJeckKzRzOsCFSOOTwkda3gCVA#slide=id.p
-        -
-          type: slides
-          title: Welcoming New Contributors on Your Project
-          link: https://docs.google.com/presentation/d/1HIgUWbdVQffPd0_w71gSTI_bA0h_bCyjAtgdmLIWHNg/present?token=AC4w5VgKbTucC3IEPKQMwAlvzGEbFNmiHA%3A1599124055144&includes_info_params=1&eisi=COSsiarRzOsCFQqwZwodvScCOw#slide=id.g6e991a6896_0_209
-        -
-          type: slides
-          title: Community interactions
-          link: https://docs.google.com/presentation/d/1eT1coMa8_kp504wPkJvz8E_58ngmW6w-1kji1TdjPNE/present?token=AC4w5Vi74N6acwl2cG04O9g5SRageyTPvA%3A1599124047692&includes_info_params=1&eisi=CJatwqbRzOsCFdAlgQoddgkPhw#slide=id.g6e991a6830_0_0
-        -
-          type: document
-          title: "Combating Unconscious Bias As Participation Leaders: What you can do"
-          link: https://docs.google.com/document/d/179heuuprjlCPDHs-qNxaIKefHj72uQFzOLIlqyq-0WE/edit?usp=sharing
-        -
-          type: document
-          title: "Mountain of Engagement (MoE): Discovering pathways & patterns of engagement in your work"
-          link: https://docs.google.com/document/d/1X1PxqUs7HX3wOwtJknLMzYKV6okqiA7-WKeVa0ziJa4/edit?usp=sharing
-        -
-          type: external-link
-          title: Create a Persona and Pathway for Your Project
-          link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project
-        -
-          type: external-link
-          title: Building Communities
-          link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/
-        -
-          type: external-link
-          title: Community Interactions
-          link: https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
+          speaker: benkrikler
+          link: https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
 '15':
   timeframe: December 7-11, 2020
   calls:
@@ -828,9 +805,13 @@
       duration: 90 min
       title: 'Final presentation rehearsal - Group 1'
       date: December 10, 2020
-      time:
-      calendar-event:
-      notes: https://hackmd.io/@ols-2/week-15
+      time: '10:00'
+      notes: https://hackmd.io/@ols-2/week-15-gr1
+      recording: https://youtu.be/zFzNxxBjg4c
+      hosts:
+        - yochannah
+        - emmyft
+        - malvikasharan
       content: |
         During this week's cohort call, we will:
         - Learn about giving and receiving feedback
@@ -845,15 +826,17 @@
           Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
       after: |
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
-      resources:
     -
       type: Cohort
       duration: 90 min
       title: 'Final presentation rehearsal - Group 2'
       date: December 10, 2020
-      time:
-      calendar-event:
+      time: '18:30'
       notes: https://hackmd.io/@ols-2/week-15-gr2
+      hosts:
+        - yochannah
+        - emmyft
+        - malvikasharan
       content: |
         During this week's cohort call, we will:
         - Learn about giving and receiving feedback
@@ -868,7 +851,6 @@
           Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
       after: |
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
-      resources:
 '16':
   timeframe: December 14-18, 2020
   calls:
@@ -878,9 +860,13 @@
       title: 'Final presentations & Graduation! - Group 1'
       date: December 15, 2020
       time: '10:00'
-      calendar-event:
+      hosts:
+        - yochannah
+        - emmyft
+        - malvikasharan
+        - bebatut
       notes: https://hackmd.io/@ols-2/week-16-gr1
-      recording:
+      recording: https://youtu.be/IGyoiFnCvis
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
         During this week's cohort call, we will:
@@ -891,16 +877,18 @@
           Your presentation can be in the form of a demo, short presentation or a walk through your website
       after: |
         - Celebrate your graduation from OLS-2!
-      resources:
     -
       type: Cohort
       duration: 60 min
       title: 'Final presentations & Graduation! - Group 2'
       date: December 16, 2020
       time: '15:00'
-      calendar-event:
+      hosts:
+        - yochannah
+        - emmyft
+        - malvikasharan
       notes: https://hackmd.io/@ols-2/week-16-gr2
-      recording:
+      recording: https://youtu.be/28OiRoBz3ww
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
         During this week's cohort call, we will:
@@ -911,16 +899,18 @@
           Your presentation can be in the form of a demo, short presentation or a walk through your website
       after: |
         - Celebrate your graduation from OLS-2!
-      resources:
     -
       type: Cohort
       duration: 60 min
       title: 'Final presentations & Graduation! - Group 3'
       date: December 17, 2020
       time: '18:30'
-      calendar-event:
+      hosts:
+        - yochannah
+        - emmyft
+        - malvikasharan
       notes: https://hackmd.io/@ols-2/week-16-gr3
-      recording:
+      recording: https://youtu.be/wv8_0iOMpGs
       agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
       content: |
         During this week's cohort call, we will:
@@ -931,14 +921,3 @@
           Your presentation can be in the form of a demo, short presentation or a walk through your website
       after: |
         - Celebrate your graduation from OLS-2!
-      resources:
-    -
-      type: Mentors
-      duration: 60 min
-      title: Mentor wrap up
-      date:
-      time:
-      content: |
-        During our final mentor call, we will:
-        - Wrap-up the cohort
-        - Discuss how we can improve the program
