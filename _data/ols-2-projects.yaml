@@ -45,7 +45,7 @@
 
 - name: Creating community awareness of open science practices in phytolith research
   participants:
-    - EKaroune
+    - ekaroune
   mentors:
     - yvanlebras
   description: |
@@ -86,7 +86,7 @@
 
 - name: Creating a single pipeline for metagenome classification
   participants:
-    - MuhammetCelik
+    - muhammetcelik
   mentors:
     - malloryfreeberg
   description: |
@@ -105,7 +105,7 @@
   participants:
     - bailey-harrington
   mentors:
-    - piv-gopalasingam
+    - pivg
   description: |
     Chronic Learning is an open resource for academics and individuals who are
     trying to teach or learn something new; the scope is not limited to science.
@@ -143,7 +143,7 @@
     - coopersmout
   mentors:
     - luispedro
-    - Lilian9
+    - lilian9
   description: |
     Open Science practices have the potential to benefit everyone in the life
     science community (and broader society), but their adoption is limited by
@@ -166,7 +166,7 @@
 - name: Developing the Research Software and Systems Engineering Community to support Life Sciences in Africa
   participants:
     - pvanheus
-    - Banshee1221
+    - banshee1221
   mentors:
     - mesfind
     - rgaiacs
@@ -226,7 +226,7 @@
 
 - name: Global land-use and land-cover data under historical, current, and future climatic conditions for ecologists
   participants:
-    - Tai-Rocha
+    - tai-rocha
   mentors:
     - bruno-soares
     - yvanlebras
@@ -250,10 +250,10 @@
 
 - name: BioLab Open Source Projects
   participants:
-    - Boi-KONE
+    - boi-kone
     - bakary-n'tji diallo
   mentors:
-    - Delphine-L
+    - delphine-l
   description: |
     BioLab Open Source Projects is the beginning of a platform where biomedical
     researchers, and computer scientists will work closely with to solve some
@@ -279,7 +279,7 @@
 
 - name: Target approach in the stages of liver cirrhosis to reverse back in good condition.
   participants:
-    - WasifaRahman
+    - wasifarahman
   mentors:
     - tsonika
     - malvikasharan
@@ -361,7 +361,7 @@
 
 - name: Sharing 3D Modeling Workflows for Biomechanists and Palaeontologists
   participants:
-    - EvaCHerbst
+    - evacherbst
     - dylan-bastiaans
   mentors:
     - hdinkel
@@ -521,7 +521,7 @@
 
 - name: OpenWorkstation - A modular and open-source concept for customized automation equipment
   participants:
-    - SebastianEggert
+    - sebastianeggert
   mentors:
     - meagdoh
   description: |
@@ -548,9 +548,9 @@
 
 - name: The Turing Way - Guide for Ethical Research
   participants:
-    - BrainonSilicon
-    - Ismael-KG
-    - LauraCarter
+    - brainonsilicon
+    - ismael-kg
+    - lauracarter
   mentors:
     - jezcope
     - anjali-mazumder
@@ -591,9 +591,9 @@
 - name: Turing Data Stories
   participants:
     - crangelsmith
-    - DavidBeavan
+    - davidbeavan
     - samvanstroud
-    - Kevinxufs
+    - kevinxufs
   mentors:
     - yochannah
   description: |
@@ -619,10 +619,10 @@
 
 - name: Embedding Accessibility in The Turing Way Open Source Community Guidance
   participants:
-    - NehaMoopen
+    - nehamoopen
     - paulowoicho
   mentors:
-    - SamGuay
+    - samguay
   description: |
     The Turing Way book is a community-driven book for reproducible research
     in data science. It is written by data scientists, academics, researchers,
@@ -650,7 +650,7 @@
 
 - name: Towards open and citizen-led data informing the decarbonisation of existing housing
   participants:
-    - KateSimpson
+    - katesimpson
   mentors:
     - ArielleBL
   description: |
@@ -675,7 +675,7 @@
 
 - name: Autistica - Turing Citizen Science Project
   participants:
-    - GeorgiaHCA
+    - georgiahca
     - katoss
   mentors:
     - anelda

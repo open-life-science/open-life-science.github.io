@@ -5,7 +5,7 @@
 - name: Open Science Community Barcelona (OSCBa)
   participants:
     - bonetcarne
-  mentors: Zebetus
+  mentors: zebetus
   description: >
     This project aims to create a community of local scientists to share and promote open science in Barcelona,
     Spain. I would like to use as an example the <a href="https://openscience-utrecht.com/">OSCU</a>
@@ -30,7 +30,7 @@
     related policies
   participants:
     - ewuramaminka
-  mentors: VickyNembaware
+  mentors: vickynembaware
   description: >
     Most sub Saharan African countries barely have quality health data for national policy
     making, especially on cancer. Thus, more work might be needed to improve the data quality,
@@ -46,7 +46,7 @@
 
 - name: Infusing a culture of open science within the community of researchers at the Zuckerman Institute
   participants:
-    - ChiaraBertipaglia
+    - chiarabertipaglia
   mentors: mkuzak
   description: >
     The community of <a href="https://zuckermaninstitute.columbia.edu/">Columbia University’s Zuckerman Institute</a> is composed of neuroscientists at
@@ -67,10 +67,10 @@
 
 - name: Bioinformatics Hub of Kenya (BHK)
   participants:
-    - Fnyasimi
-    - Megmugure
-    - Kiragu-Mwaura
-    - LandiMi2
+    - fnyasimi
+    - megmugure
+    - kiragu-mwaura
+    - landimi2
   mentors:
     - tobyhodges
     - malvikasharan
@@ -114,7 +114,7 @@
 - name: "@Diversidade em Foco"
   participants:
     - bruno-soares
-    - NaraLB
+    - naralb
   mentors: unode
   description: >
     [Biodiversidade em Foco](http://www.abc.org.br/atuacao/nacional/projeto-de-ciencia-para-o-brasil/biodiversidade-em-foco/)
@@ -182,7 +182,7 @@
 
 - name: Open Connect Platform in Africa
   participants:
-    - Lilian9
+    - lilian9
   mentors: kipkurui
   description: >
     In Open community, there is disconnect between Open practitioners and advocates hence need for
@@ -316,10 +316,10 @@
 
 - name: Improving Documentation for Open Data and Software in the Agricultural Research Community
   participants:
-    - KristinaRiemer
+    - kristinariemer
     - dlebauer
-    - MagicMilly
-    - Sithyphus
+    - magicmilly
+    - sithyphus
   mentors: katrinleinweber
   description: >
     We are members of the Data Infrastructure for Agriculture Group at <a href="https://www.arizona.edu/">The University of Arizona</a>.
@@ -367,7 +367,7 @@
 
 - name: Enabling open science practices in biology education
   participants:
-    - MorphoFun
+    - morphofun
   mentors: fpsom
   description: >
     The proposed project would establish a foundation for developing a tutorial on training
@@ -389,7 +389,7 @@
 
 - name: Open Science UMontreal (OSUM)
   participants:
-    - SamGuay
+    - samguay
     - dannycolin
   mentors: ajstewartlang
   description: >
