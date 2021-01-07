@@ -32,3 +32,21 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
 	}
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+	let cardToggles = document.getElementsByClassName('expertise-toggle');
+	for (let i = 0; i < cardToggles.length; i++) {
+		cardToggles[i].addEventListener('click', e => {
+			e.currentTarget.parentElement.querySelector(".peoples").classList.toggle('is-hidden');
+		});
+	}
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+	let cardToggles = document.getElementsByClassName('expertise-detail-toggle');
+	for (let i = 0; i < cardToggles.length; i++) {
+		cardToggles[i].addEventListener('click', e => {
+			e.currentTarget.parentElement.parentElement.querySelector(".expertise-detail").classList.toggle('is-hidden');
+		});
+	}
+});
