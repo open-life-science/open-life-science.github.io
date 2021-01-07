@@ -1,48 +1,508 @@
-# List of experts and guest speakers for OLS-2
+# List of experts, possible mentors and organizers for OLS-3
 #
 #
 # People should be also in people.yaml file and linked using their GitHub username
+# Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
 experts:
-  - alexwlchan
-  - anenadic
-  - ariellebl
+- alexwlchan
+- anenadic
+- ariellebl
+- bebatut
+- burkemlou
+- demellina
+- ealescak
+- estherplomp
+- fpsom
+- gedankenstuecke
+- ivotron
+- jezcope
+- harpreetsingh05
+- karvovskaya
+- kmexter
+- lauracion
+- malvikasharan
+- martinagvilas
+- npalopoli
+- pivg
+- profgiuseppe
+- rainsworth
+- thessaly
+- tobyhodges
+- tsonika
+- yochannah
+- yvanlebras
+experts-with-expertise:
+  Addiction research:
+  - lauracion
+  Algorithm design:
+  - malvikasharan
+  Archaeology:
+  - estherplomp
+  Astrophysics:
+  - kmexter
+  - rainsworth
+  Automation:
+  - profgiuseppe
+  Best software delivery practices applied in scientific contexts:
+  - ivotron
+  Bioanthropology:
+  - estherplomp
+  Bioinformatics:
   - bebatut
   - burkemlou
-  - demellina
-  - estherplomp
   - fpsom
   - gedankenstuecke
-  - ivotron
-  - jezcope
-  - karvovskaya
+  - harpreetsingh05
+  - malvikasharan
+  Citizen science:
+  - bebatut
+  - gedankenstuecke
+  - thessaly
+  Code of conducts:
+  - ariellebl
+  Collaborating with Git & GitHub/GitLab:
+  - tobyhodges
+  Communication:
+  - ealescak
+  Community building:
+  - ealescak
   - lauracion
   - malvikasharan
-  - martinagvilas
+  - rainsworth
+  - yochannah
+  Community consultation:
+  - ariellebl
+  Community goals:
+  - ariellebl
+  Community management:
+  - gedankenstuecke
+  Community science:
+  - thessaly
+  Computational Epigenomics:
+  - tsonika
+  Computational biology:
+  - ariellebl
+  - npalopoli
+  Computer Science:
+  - ivotron
+  Continuous integration:
+  - profgiuseppe
+  Course delivery:
+  - pivg
+  Course design:
+  - pivg
+  Culture change:
+  - ariellebl
+  Data Science:
+  - tsonika
+  Data Science best practices:
+  - malvikasharan
+  Data analysis:
+  - yvanlebras
+  Data management:
+  - jezcope
+  - kmexter
+  - yvanlebras
+  Designing and developing training material:
+  - tobyhodges
+  DevOps for science:
+  - ivotron
+  Digital preservation:
+  - jezcope
+  Diversity:
+  - ealescak
+  Drug discovery:
+  - ariellebl
+  Ecology:
+  - yvanlebras
+  Education:
   - npalopoli
   - pivg
-  - profgiuseppe
-  - rainsworth
-  - thessaly
-  - tobyhodges
-  - tsonika
-  - yochannah
-  - yvanlebras
-possible-mentors:
-  - bebatut
-  - bruno-soares
-  - burkemlou
+  Event planning:
+  - ealescak
+  FAIR:
   - estherplomp
-  - fpsom
-  - hrhotz
-  - jezcope
+  FAIR data:
+  - kmexter
+  FAIR training materials:
+  - burkemlou
+  Fieldwork:
   - karvovskaya
+  Functional genomics:
+  - burkemlou
+  Galaxy:
+  - bebatut
+  Galaxy training:
+  - bebatut
+  Genomics:
+  - tsonika
+  Git:
+  - jezcope
   - malvikasharan
-  - pivg
+  - profgiuseppe
   - tobyhodges
+  GitHub:
+  - rainsworth
+  - tobyhodges
+  GitLab:
+  - tobyhodges
+  Health data science and artificial intelligence/Biostatistics:
+  - lauracion
+  High-throughput sequencing:
+  - bebatut
+  Inclusion:
+  - ealescak
+  Inclusive and collaborative practices:
+  - malvikasharan
+  Isotopes:
+  - estherplomp
+  Leadership:
+  - ealescak
+  Libraries:
+  - jezcope
+  Life Science:
+  - burkemlou
+  Linked data for community science:
+  - thessaly
+  Machine learning:
+  - fpsom
+  - harpreetsingh05
+  - martinagvilas
+  - tsonika
+  Marine data:
+  - kmexter
+  Mentoring:
   - yochannah
-  - yvanlebras
-organizers:
+  Mentorship:
+  - malvikasharan
+  Metagenomics:
+  - bebatut
+  Molecular Modeling:
+  - harpreetsingh05
+  Molecular interactions:
+  - npalopoli
+  Neuroimaging:
+  - martinagvilas
+  Neuroscience:
+  - martinagvilas
+  Neuroscience.:
+  - ariellebl
+  No listed expertise:
+  - alexwlchan
+  OLS co-lead:
   - bebatut
   - malvikasharan
   - yochannah
+  Open Science:
+  - fpsom
+  Open Science/Research:
+  - rainsworth
+  Open access:
+  - demellina
+  Open access publishing:
+  - jezcope
+  Open and public databases and sources:
+  - profgiuseppe
+  Open and reproducible research best practices:
+  - anenadic
+  Open data:
+  - estherplomp
+  - kmexter
+  Open education:
+  - lauracion
+  Open infrastructure:
+  - martinagvilas
+  Open infrastructure for science:
+  - ivotron
+  Open peer review:
+  - demellina
+  Open protocols:
+  - estherplomp
+  Open research:
+  - demellina
+  Open science:
+  - demellina
+  Open science communities:
+  - martinagvilas
+  Open science hardware:
+  - thessaly
+  Open source:
+  - jezcope
+  - martinagvilas
+  Open source documentation:
+  - martinagvilas
+  Organising events:
+  - rainsworth
+  Osteology:
+  - estherplomp
+  Parasitology:
+  - burkemlou
+  'Pedagogical approaches to instructor training and curricula development ':
+  - anenadic
+  Personal data:
+  - gedankenstuecke
+  Preprints:
+  - demellina
+  Proteins:
+  - npalopoli
+  Publishing web content with Wordpress or Jekyll and GitHub/GitLab Pages:
+  - tobyhodges
+  Python:
+  - gedankenstuecke
+  - malvikasharan
+  R Programming:
+  - harpreetsingh05
+  Reproducibility:
+  - rainsworth
+  Reproducible science:
+  - profgiuseppe
+  Research data management:
+  - estherplomp
+  - karvovskaya
+  Research methods:
+  - ealescak
+  Road mapping and strategy planning:
+  - ariellebl
+  Science and tech democratization:
+  - thessaly
+  Science communication:
+  - pivg
+  Scientific community engagement:
+  - tobyhodges
+  Software development:
+  - yochannah
+  Structural bioinformatics:
+  - npalopoli
+  Teaching:
+  - ealescak
+  Teaching and organising workshops:
+  - tobyhodges
+  Theoretical linguistics:
+  - karvovskaya
+  Training:
+  - burkemlou
+  - fpsom
+  - pivg
+  Training and teaching tech to researchers:
+  - anenadic
+  Transcriptomics:
+  - tsonika
+  Unix:
+  - malvikasharan
+  Version control:
+  - martinagvilas
+  Virtual events:
+  - rainsworth
+  Web:
+  - jezcope
+  Web development:
+  - gedankenstuecke
+  Webinar and workshop development:
+  - burkemlou
+  eLearning:
+  - burkemlou
+organizers:
+- bebatut
+- malvikasharan
+- yochannah
+possible-mentors:
+- bebatut
+- bruno-soares
+- burkemlou
+- ealescak
+- estherplomp
+- fpsom
+- harpreetsingh05
+- hrhotz
+- jezcope
+- karvovskaya
+- malloryfreeberg
+- malvikasharan
+- pivg
+- tobyhodges
+- yochannah
+- yvanlebras
+possible-mentors-with-expertise:
+  Algorithm design:
+  - malvikasharan
+  Archaeology:
+  - estherplomp
+  Bioanthropology:
+  - estherplomp
+  Bioconductor:
+  - hrhotz
+  Biodiversity:
+  - bruno-soares
+  Bioinformatics:
+  - bebatut
+  - burkemlou
+  - fpsom
+  - harpreetsingh05
+  - hrhotz
+  - malloryfreeberg
+  - malvikasharan
+  Citizen science:
+  - bebatut
+  Collaborating with Git & GitHub/GitLab:
+  - tobyhodges
+  Communication:
+  - ealescak
+  Community building:
+  - bruno-soares
+  - ealescak
+  - malvikasharan
+  - yochannah
+  Course delivery:
+  - pivg
+  Course design:
+  - pivg
+  Data Science best practices:
+  - malvikasharan
+  Data analysis:
+  - yvanlebras
+  Data management:
+  - jezcope
+  - malloryfreeberg
+  - yvanlebras
+  Designing and developing training material:
+  - tobyhodges
+  Digital preservation:
+  - jezcope
+  Diversity:
+  - ealescak
+  Ecology:
+  - yvanlebras
+  Education:
+  - pivg
+  Event planning:
+  - ealescak
+  FAIR:
+  - estherplomp
+  FAIR principles:
+  - malloryfreeberg
+  FAIR training materials:
+  - burkemlou
+  Fieldwork:
+  - karvovskaya
+  Functional genomics:
+  - burkemlou
+  Galaxy:
+  - bebatut
+  - hrhotz
+  - malloryfreeberg
+  Galaxy training:
+  - bebatut
+  Git:
+  - jezcope
+  - malvikasharan
+  - tobyhodges
+  GitHub:
+  - malloryfreeberg
+  - tobyhodges
+  GitLab:
+  - tobyhodges
+  High-throughput sequencing:
+  - bebatut
+  Human genomics and phenomics:
+  - malloryfreeberg
+  Inclusion:
+  - ealescak
+  Inclusive and collaborative practices:
+  - malvikasharan
+  Isotopes:
+  - estherplomp
+  Leadership:
+  - ealescak
+  Libraries:
+  - jezcope
+  Life Science:
+  - burkemlou
+  Machine learning:
+  - fpsom
+  - harpreetsingh05
+  Mentoring:
+  - yochannah
+  Mentorship:
+  - malvikasharan
+  Metadata:
+  - malloryfreeberg
+  Metagenomics:
+  - bebatut
+  Molecular Modeling:
+  - harpreetsingh05
+  Next Generation Sequencing:
+  - hrhotz
+  OLS co-lead:
+  - bebatut
+  - malvikasharan
+  - yochannah
+  Ontologies:
+  - malloryfreeberg
+  Open Data:
+  - bruno-soares
+  Open Science:
+  - fpsom
+  Open access publishing:
+  - jezcope
+  Open data:
+  - estherplomp
+  Open protocols:
+  - estherplomp
+  Open source:
+  - jezcope
+  Osteology:
+  - estherplomp
+  Parasitology:
+  - burkemlou
+  Post-transcriptional gene regulation:
+  - malloryfreeberg
+  PostgreSQL:
+  - hrhotz
+  Project management:
+  - malloryfreeberg
+  Publishing web content with Wordpress or Jekyll and GitHub/GitLab Pages:
+  - tobyhodges
+  Python:
+  - malvikasharan
+  R:
+  - malloryfreeberg
+  R Programming:
+  - harpreetsingh05
+  RNA biology:
+  - malloryfreeberg
+  Research data management:
+  - estherplomp
+  - karvovskaya
+  Research methods:
+  - ealescak
+  SQL:
+  - malloryfreeberg
+  SciComm:
+  - bruno-soares
+  Science communication:
+  - pivg
+  Scientific community engagement:
+  - tobyhodges
+  Single cell sequencing:
+  - malloryfreeberg
+  Software development:
+  - yochannah
+  Teaching:
+  - ealescak
+  Teaching and organising workshops:
+  - tobyhodges
+  Theoretical linguistics:
+  - karvovskaya
+  Training:
+  - burkemlou
+  - fpsom
+  - pivg
+  Unix:
+  - malvikasharan
+  Web:
+  - jezcope
+  Webinar and workshop development:
+  - burkemlou
+  eLearning:
+  - burkemlou
