@@ -402,7 +402,8 @@ bebatut:
   email: berenice.batut@gmail.com
   expertise:
   - OLS co-lead
-  - Galaxy and Galaxy training
+  - Galaxy
+  - Galaxy training
   - Citizen science
   - Bioinformatics
   - High-throughput sequencing
@@ -706,10 +707,11 @@ demellina:
   country: United Kingdom
   email: demitra.ellina@f1000.com
   expertise:
-  - open science/research
-  - open access
-  - open peer review
-  - preprints
+  - Open science
+  - Open research
+  - Open access
+  - Open peer review
+  - Preprints
   first-name: Demitra
   last-name: Ellina
   pronouns: She/her
@@ -730,6 +732,32 @@ dylan-bastiaans:
   first-name: Dylan
   github: false
   last-name: Bastiaans
+ealescak:
+  affiliation: Code for Science and Society
+  bio: 'As the Data Science Community Conference and Events Fund Program Manager at
+    Code for Science and Society, I developed a transparent, community-driven program
+    that provides funding for research-driven open data science events. I have 10
+    years of experience working in research data science focused on population genetics,
+    evolution, and management of Alaskan fish populations as well as a strong background
+    in mentoring and leadership in science advocacy initiatives. '
+  city: Anchorage
+  country: USA
+  email: Emily@codeforsociety.org
+  expertise:
+  - Community building
+  - Communication
+  - Diversity
+  - Inclusion
+  - Event planning
+  - Leadership
+  - Research methods
+  - Teaching
+  first-name: Emily
+  last-name: Lescak
+  orcid: 0000-0002-6229-568X
+  pronouns: she, her
+  twitter: elescak
+  website: https://www.linkedin.com/in/emily-lescak-b4652446/
 ekaroune:
   country: UK
   email: ekaroune@googlemail.com
@@ -790,13 +818,13 @@ estherplomp:
   email: e.plomp@tudelft.nl
   expertise:
   - Open protocols
-  - open data
-  - research data management
+  - Open data
+  - Research data management
   - FAIR
-  - archaeology
-  - bioanthropology
-  - isotopes
-  - osteology
+  - Archaeology
+  - Bioanthropology
+  - Isotopes
+  - Osteology
   first-name: Esther
   last-name: Plomp
   orcid: 0000-0003-3625-1357
@@ -846,7 +874,7 @@ fpsom:
   email: fopsom@gmail.com
   expertise:
   - Bioinformatics
-  - Machine Learning
+  - Machine learning
   - Training
   - Open Science
   first-name: Fotis
@@ -874,12 +902,12 @@ gedankenstuecke:
   country: France
   email: bgreshake@googlemail.com
   expertise:
-  - bioinformatics
-  - citizen science
-  - web development
-  - python
-  - personal data
-  - community management
+  - Bioinformatics
+  - Citizen science
+  - Web development
+  - Python
+  - Personal data
+  - Community management
   first-name: Bastian
   last-name: Greshake Tzovaras
   orcid: 0000-0002-9925-9623
@@ -943,6 +971,21 @@ ha0ye:
   pronouns: he/him
   twitter: Hao_and_Y
   website: https://haoye.us
+harpreetsingh05:
+  affiliation: Hans Raj Mahila Maha Vidyalaya Jalandhar
+  bio: 'A Bioinformatician, who strongly believe in constant learning, collaboration,
+    and team work. '
+  city: Jalandhar
+  country: India
+  email: harpreetsingh05@gmail.com
+  expertise:
+  - Bioinformatics
+  - Molecular Modeling
+  - Machine learning
+  - R Programming
+  first-name: harpreet
+  last-name: Singh
+  orcid: https://orcid.org/0000-0001-7202-3912
 hdinkel:
   bio: 'Holger is the head of Core IT team at the Max Planck Institute for Biolological
     Cybernetics.
@@ -999,7 +1042,7 @@ hrhotz:
   - Bioconductor
   - PostgreSQL
   - Bioinformatics
-  - 'Next Generation Sequencing '
+  - Next Generation Sequencing
   first-name: Hans-Rudolf
   last-name: ' Hotz'
   orcid: 0000-0002-2799-424X
@@ -1264,9 +1307,9 @@ karvovskaya:
   country: Netherlands
   email: e.karvovskaya@vu.nl
   expertise:
-  - theoretical linguistics
-  - fieldwork
-  - research data management
+  - Theoretical linguistics
+  - Fieldwork
+  - Research data management
   first-name: Lena
   last-name: Karvovskaya
   orcid: 0000-0001-7777-5603
@@ -1420,6 +1463,22 @@ klauer2207:
   last-name: Lauer
   pronouns: she/her
   website: https://www.linkedin.com/in/katharina-lauer-33aa2674/
+kmexter:
+  affiliation: Flanders Marine Institute (VLIZ)
+  bio: 'Ex-astronomer, now data manager at a marine science data centre. Tackling
+    the challenges of moving to FAIR data and open science. '
+  city: Oostende
+  country: Belgium
+  email: katrina.exter@vliz.be
+  expertise:
+  - FAIR data
+  - Data management
+  - Open data
+  - Marine data
+  - Astrophysics
+  first-name: Katrina
+  last-name: Exter
+  orcid: 0000-0002-5911-1536
 koudyk:
   country: Canada
   email: kendra.oudyk@gmail.com
@@ -1619,41 +1678,36 @@ magicmilly:
   pronouns: she/her
   twitter: magic_milly
 malloryfreeberg:
-  affiliation: EMBL/EBI
-  bio: 'Mallory is a Project Lead at the European Genome-phenome Archive
-
-    supporting archiving and sharing of personally identifiable genetic and
-
-    phenotypic human data. Her academic background is in bioinformatics specifically
-
-    to study post-transcriptional gene regulation. She has worked with open science
-
-    projects like Galaxy Project and the Human Cell Atlas, and recently has become
-
-    passionate about promoting good metadata standards and practices.
-
-    '
+  affiliation: EMBL-EBI
+  bio: Mallory is a Project Lead at the EMBL-EBI European Genome-phenome Archive supporting
+    archiving and sharing of personally identifiable genetic and phenotypic human
+    data. Her academic background is in bioinformatics specifically to study post-transcriptional
+    gene regulation. She has worked with Open Science projects including the Galaxy
+    Project and the Human Cell Atlas, and is passionate about promoting metadata standards
+    and best practices.
+  city: Cambridge
   country: UK
   email: mfreeberg@ebi.ac.uk
   expertise:
   - Metadata
   - FAIR principles
   - Single cell sequencing
-  - RNA/small RNA biology
+  - RNA biology
   - Post-transcriptional gene regulation
   - Ontologies
   - Project management
   - Data management
   - Bioinformatics
   - Galaxy
-  - Python, R, SQL, Unix
+  - R
+  - SQL
   - GitHub
   - Human genomics and phenomics
   first-name: Mallory
   last-name: Freeberg
   orcid: 0000-0003-2949-3921
   pronouns: she/her
-  twitter: MalloryFreeberg
+  twitter: malloryfreeberg
 malvikasharan:
   bio: 'Malvika Sharan is the community manager of [_The Turing Way-](https://the-turing-way.netlify.com)
 
@@ -1687,7 +1741,9 @@ malvikasharan:
   - Mentorship
   - Data Science best practices
   - Inclusive and collaborative practices
-  - Python, Git, Unix
+  - Python
+  - Git
+  - Unix
   - Bioinformatics
   - Algorithm design
   first-name: Malvika
@@ -1727,10 +1783,10 @@ martinagvilas:
   country: Germany
   email: martinagonzalezvilas@gmail.com
   expertise:
-  - Open-source
-  - Open-source documentation
-  - Open-infrastructure
-  - Open-science communities
+  - Open source
+  - Open source documentation
+  - Open infrastructure
+  - Open science communities
   - Version control
   - Machine learning
   - Neuroimaging
@@ -1991,10 +2047,10 @@ npalopoli:
   email: nicopalo@gmail.com
   expertise:
   - Computational biology
-  - structural bioinformatics
-  - proteins
-  - molecular interactions
-  - education
+  - Structural bioinformatics
+  - Proteins
+  - Molecular interactions
+  - Education
   first-name: Nicolas
   last-name: Palopoli
   orcid: 0000-0001-7925-6436
@@ -2062,6 +2118,27 @@ nsoranzo:
   pronouns: he/him
   twitter: NicolaSoranzo
   website: https://www.earlham.ac.uk/nicola-soranzo
+? open and reproducible research best practices; training and teaching tech to researchers;
+  pedagogical approaches to instructor training and curricula development
+: affiliation: University of Manchester
+  bio: 'Software Sustainability Institute''s training lead. Over the past 5 years
+    committed to ongoing improvement of research software practice through training
+    and community engagement work. Driving the trends in training for researchers
+    and scientists in computational and data analysis skills forward and helping develop
+    new training curricula. '
+  city: Manchester
+  country: United Kingdom
+  email: a.nenadic@manchester.ac.uk
+  expertise:
+  - Open and reproducible research best practices
+  - Training and teaching tech to researchers
+  - 'Pedagogical approaches to instructor training and curricula development '
+  first-name: Aleksandra
+  last-name: Nenadic
+  orcid: 0000-0002-2269-3894
+  pronouns: she/her/hers
+  twitter: aleks_nenadic
+  website: https://anenadic.github.io/professional-cv/
 orchid00:
   bio: 'Paula is an Open Science advocate her passions are data management, data analytics,
 
@@ -2166,9 +2243,11 @@ pivg:
   country: United Kingdom
   email: piv@ebi.ac.uk
   expertise:
-  - Education and training
-  - course design and delivery
-  - science communication
+  - Education
+  - Training
+  - Course design
+  - Course delivery
+  - Science communication
   first-name: Piv
   last-name: Gopalasingam
   orcid: 0000-0001-5709-3373
@@ -2193,10 +2272,10 @@ profgiuseppe:
   email: profgiuseppe@gmail.com
   expertise:
   - Reproducible science
-  - git
-  - continuous integration
-  - automation
-  - open and public databases and sources.
+  - Git
+  - Continuous integration
+  - Automation
+  - Open and public databases and sources
   first-name: Giuseppe
   last-name: Profiti
   orcid: 0000-0001-6067-6174
@@ -2225,9 +2304,9 @@ rainsworth:
   - Astrophysics
   - Open Science/Research
   - Reproducibility
-  - Community Building
-  - Organising Events
-  - Virtual Events
+  - Community building
+  - Organising events
+  - Virtual events
   - GitHub
   first-name: Rachael
   last-name: Ainsworth
@@ -2560,9 +2639,10 @@ thessaly:
   country: Argentina
   email: jarancio@unsam.edu.ar
   expertise:
-  - open science hardware
-  - citizen/community science projects
-  - linked data for community science
+  - Open science hardware
+  - Citizen science
+  - Community science
+  - Linked data for community science
   - Science and tech democratization
   first-name: Julieta
   last-name: Arancio
@@ -2631,6 +2711,9 @@ tobyhodges:
   expertise:
   - Designing and developing training material
   - Collaborating with Git & GitHub/GitLab
+  - Git
+  - GitHub
+  - GitLab
   - Publishing web content with Wordpress or Jekyll and GitHub/GitLab Pages
   - Scientific community engagement
   - Teaching and organising workshops
@@ -2654,7 +2737,7 @@ tsonika:
   email: sonika.tyagi@monash.edu
   expertise:
   - Genomics
-  - Machine Learning
+  - Machine learning
   - Data Science
   - Computational Epigenomics
   - Transcriptomics
