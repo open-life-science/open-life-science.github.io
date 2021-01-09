@@ -95,7 +95,6 @@ ChiaraBertipaglia:
   affiliation: "Columbia University\u2019s Zuckerman Institute"
   country: USA
   expertise:
-  - OLS-1 project lead
   - Neuroscience
   first-name: Chiara
   last-name: Bertipaglia
@@ -194,7 +193,6 @@ Fnyasimi:
     '
   country: Kenya
   expertise:
-  - OLS-1 project lead
   - Bioinformatics
   - Biomedical Research
   first-name: Festus
@@ -287,8 +285,6 @@ Kevinxufs:
 Kiragu-Mwaura:
   affiliation: Institute of Primate Research
   country: Kenya
-  expertise:
-  - OLS-1 project lead
   first-name: David
   last-name: Kiragu Mwaura
   pronouns: he/him
@@ -338,8 +334,6 @@ KirstieJane:
 KristinaRiemer:
   affiliation: University of Arizona
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Kristina
   last-name: Riemer
   pronouns: she/her
@@ -347,8 +341,6 @@ KristinaRiemer:
 LandiMi2:
   affiliation: International Livestock Research Institute
   country: Kenya
-  expertise:
-  - OLS-1 project lead
   first-name: Michael
   last-name: Kofia Landi
   pronouns: he/him
@@ -388,16 +380,12 @@ LauraCarter:
 Lilian9:
   affiliation: Information Training and Outreach Centre for Africa
   country: Kenya
-  expertise:
-  - OLS-1 project lead
   first-name: Lilian
   last-name: Juma
   pronouns: she/her
 MagicMilly:
   affiliation: University of Arizona
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Emily
   last-name: Cain
   pronouns: she/her
@@ -405,8 +393,6 @@ MagicMilly:
 Megmugure:
   affiliation: International Livestock Research Institute
   country: Kenya
-  expertise:
-  - OLS-1 project lead
   first-name: Margaret
   last-name: Wanjiku
   pronouns: she/her
@@ -414,8 +400,6 @@ Megmugure:
 MorphoFun:
   affiliation: The George Washington University
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Sandy
   last-name: Kawano
   pronouns: she/her
@@ -460,8 +444,6 @@ NPalopoli:
 NaraLB:
   affiliation: "Museu Paraense Em\xEDlio Goeldi"
   country: Brazil
-  expertise:
-  - OLS-1 project lead
   first-name: Naraiana
   last-name: Loureiro Benone
   pronouns: she/her
@@ -476,7 +458,6 @@ SamGuay:
   country: Canada
   email: samuel.guay@umontreal.ca
   expertise:
-  - OLS-1 project lead
   - Open Science
   - Building website with Hugo
   - Reproducible reports
@@ -513,8 +494,6 @@ SebastianEggert:
 Sithyphus:
   affiliation: University of Arizona
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Jorge
   last-name: Barrios
   pronouns: he/him
@@ -711,8 +690,6 @@ alexwlchan:
 anayan321:
   affiliation: Mahidol University
   country: Thailand
-  expertise:
-  - OLS-1 project lead
   first-name: Anunya
   last-name: Opasawatchai
   pronouns: she/her
@@ -1007,8 +984,6 @@ bgruening:
 billbrod:
   affiliation: New York University
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Billy
   last-name: (William) Broderick
   pronouns: he/him
@@ -1016,8 +991,6 @@ billbrod:
 bonetcarne:
   affiliation: BCNatal Fetal Medicine Research Center
   country: Spain
-  expertise:
-  - OLS-1 project lead
   first-name: Elisenda
   last-name: Bonet-Carne
   pronouns: she/her
@@ -1031,7 +1004,6 @@ bruno-soares:
     '
   country: Brazil
   expertise:
-  - OLS-1 project lead
   - SciComm
   - Community building
   - Open Data
@@ -1102,7 +1074,6 @@ cassgvp:
   country: UK
   email: cassandra.gouldvanpraag@gmail.com
   expertise:
-  - OLS-1 project lead
   - Online conferences
   - Behaviour change
   - Community engagement
@@ -1127,7 +1098,6 @@ christinerogers:
     '
   country: Canada
   expertise:
-  - OLS-1 project lead
   - Data sharing
   - Open science
   - Software development
@@ -1163,8 +1133,6 @@ da5nsy:
 dannycolin:
   affiliation: "Universit\xE9 de Montr\xE9al"
   country: Canada
-  expertise:
-  - OLS-1 project lead
   first-name: Danny
   last-name: Colin
   pronouns: he/him
@@ -1193,8 +1161,6 @@ dasaderi:
 davidviryachen:
   affiliation: Osaka University
   country: Japan
-  expertise:
-  - OLS-1 project lead
   first-name: David
   last-name: Chentanaman
   pronouns: he/him
@@ -1202,8 +1168,6 @@ davidviryachen:
 dlebauer:
   affiliation: University of Arizona
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: David
   last-name: LeBauer
   pronouns: he/him
@@ -1218,8 +1182,6 @@ dylan-bastiaans:
 elsasci:
   affiliation: eLife
   country: UK
-  expertise:
-  - OLS-1 project lead
   first-name: Elsa
   github: false
   last-name: Loissel
@@ -1251,8 +1213,6 @@ emmyft:
 ewuramaminka:
   affiliation: University of Manchester
   country: UK
-  expertise:
-  - OLS-1 project lead
   first-name: Deborah
   last-name: Akuoko
   pronouns: she/her
@@ -1403,8 +1363,6 @@ hilyatuz-zahroh:
 homo-sapiens34:
   affiliation: IITP RAS
   country: Russia
-  expertise:
-  - OLS-1 project lead
   first-name: Zoe
   last-name: Chervontseva
   pronouns: she/her
@@ -1775,8 +1733,6 @@ laurichi13:
 lazycipher:
   affiliation: Galgotias University
   country: India
-  expertise:
-  - OLS-1 project lead
   first-name: Himanshu
   last-name: Singh
   pronouns: he/him
@@ -2000,8 +1956,6 @@ martinagvilas:
 matuskalas:
   affiliation: University of Bergen
   country: Norway
-  expertise:
-  - OLS-1 project lead
   first-name: "Mat\xFA\u0161"
   last-name: "Kala\u0161"
   pronouns: he/him
@@ -2710,8 +2664,6 @@ stephen-klusza:
 sudarshangc:
   affiliation: Media Lab Nepal
   country: Nepal
-  expertise:
-  - OLS-1 project lead
   first-name: Sudarshan
   last-name: GC
   pronouns: he/him
@@ -2868,7 +2820,6 @@ unode:
   - Full-stack developer
   - Computational Training
   - Reproducibility
-  - OLS-1 project lead
   - Computational biology
   - Metagenomics
   - Meta-transcriptomics
