@@ -5,11 +5,14 @@
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
 experts:
+- adam-gristwood
+- aidanbudd
 - alexwlchan
 - anenadic
 - ariellebl
 - bebatut
 - burkemlou
+- christinerogers
 - demellina
 - ealescak
 - estherplomp
@@ -25,6 +28,7 @@ experts:
 - martinagvilas
 - npalopoli
 - pivg
+- prashbio
 - profgiuseppe
 - rainsworth
 - thessaly
@@ -71,6 +75,8 @@ experts-with-expertise:
   - malvikasharan
   - rainsworth
   - yochannah
+  Community building.:
+  - aidanbudd
   Community consultation:
   - ariellebl
   Community goals:
@@ -163,6 +169,8 @@ experts-with-expertise:
   - jezcope
   Life Science:
   - burkemlou
+  Life science communications:
+  - adam-gristwood
   Linked data for community science:
   - thessaly
   Machine learning:
@@ -190,10 +198,6 @@ experts-with-expertise:
   - ariellebl
   No listed expertise:
   - alexwlchan
-  OLS co-lead:
-  - bebatut
-  - malvikasharan
-  - yochannah
   Open Science:
   - fpsom
   Open Science/Research:
@@ -238,7 +242,7 @@ experts-with-expertise:
   - estherplomp
   Parasitology:
   - burkemlou
-  'Pedagogical approaches to instructor training and curricula development ':
+  Pedagogical approaches to instructor training and curricula development:
   - anenadic
   Personal data:
   - gedankenstuecke
@@ -274,6 +278,8 @@ experts-with-expertise:
   - yochannah
   Structural bioinformatics:
   - npalopoli
+  'Systems Biology, Bioinformatics, Mentoring ':
+  - prashbio
   Teaching:
   - ealescak
   Teaching and organising workshops:
@@ -302,14 +308,18 @@ experts-with-expertise:
   - burkemlou
   eLearning:
   - burkemlou
+  neuroinformatics, open science, open source, research software:
+  - christinerogers
 organizers:
 - bebatut
 - malvikasharan
 - yochannah
 possible-mentors:
+- adam-gristwood
 - bebatut
 - bruno-soares
 - burkemlou
+- christinerogers
 - ealescak
 - estherplomp
 - fpsom
@@ -320,6 +330,7 @@ possible-mentors:
 - malloryfreeberg
 - malvikasharan
 - pivg
+- prashbio
 - tobyhodges
 - yochannah
 - yvanlebras
@@ -418,6 +429,8 @@ possible-mentors-with-expertise:
   - jezcope
   Life Science:
   - burkemlou
+  Life science communications:
+  - adam-gristwood
   Machine learning:
   - fpsom
   - harpreetsingh05
@@ -433,10 +446,6 @@ possible-mentors-with-expertise:
   - harpreetsingh05
   Next Generation Sequencing:
   - hrhotz
-  OLS co-lead:
-  - bebatut
-  - malvikasharan
-  - yochannah
   Ontologies:
   - malloryfreeberg
   Open Data:
@@ -488,6 +497,8 @@ possible-mentors-with-expertise:
   - malloryfreeberg
   Software development:
   - yochannah
+  'Systems Biology, Bioinformatics, Mentoring ':
+  - prashbio
   Teaching:
   - ealescak
   Teaching and organising workshops:
@@ -506,3 +517,5 @@ possible-mentors-with-expertise:
   - burkemlou
   eLearning:
   - burkemlou
+  neuroinformatics, open science, open source, research software:
+  - christinerogers

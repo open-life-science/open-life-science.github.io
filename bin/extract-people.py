@@ -94,4 +94,4 @@ if __name__ == '__main__':
         people_f.write('#\n')
         people_f.write('# Mandatory: first-name, last-name, country\n')
         people_f.write('---\n')
-        people_f.write(yaml.dump(people))
+        people_f.write(yaml.dump(people, allow_unicode=True))
