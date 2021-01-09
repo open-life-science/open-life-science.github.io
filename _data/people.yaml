@@ -135,8 +135,6 @@ alexwlchan:
 anayan321:
   affiliation: Mahidol University
   country: Thailand
-  expertise:
-  - OLS-1 project lead
   first-name: Anunya
   last-name: Opasawatchai
   pronouns: she/her
@@ -401,7 +399,6 @@ bebatut:
   country: Germany
   email: berenice.batut@gmail.com
   expertise:
-  - OLS co-lead
   - Galaxy
   - Galaxy training
   - Citizen science
@@ -415,6 +412,14 @@ bebatut:
   pronouns: she/her
   twitter: bebatut
   website: https://research.bebatut.fr
+benkrikler:
+  affiliation: University of Bristol
+  country: UK
+  email: b.krikler@cern.ch
+  first-name: Benjamin
+  last-name: Krikler
+  twitter: benkrikler
+  website: https://krikler.be/
 bgruening:
   bio: "Bj\xF6rn is working in the European Galaxy team and tries to help make science\
     \ open wherever he can.\nHe is an expert in the topics related to Container, Conda,\
@@ -459,8 +464,6 @@ bhuvanameenakshik:
 billbrod:
   affiliation: New York University
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Billy
   last-name: (William) Broderick
   pronouns: he/him
@@ -474,8 +477,6 @@ boi-kone:
 bonetcarne:
   affiliation: BCNatal Fetal Medicine Research Center
   country: Spain
-  expertise:
-  - OLS-1 project lead
   first-name: Elisenda
   last-name: Bonet-Carne
   pronouns: she/her
@@ -556,7 +557,6 @@ cassgvp:
   country: UK
   email: cassandra.gouldvanpraag@gmail.com
   expertise:
-  - OLS-1 project lead
   - Online conferences
   - Behaviour change
   - Community engagement
@@ -570,7 +570,6 @@ chiarabertipaglia:
   affiliation: "Columbia University\u2019s Zuckerman Institute"
   country: USA
   expertise:
-  - OLS-1 project lead
   - Neuroscience
   first-name: Chiara
   last-name: Bertipaglia
@@ -591,7 +590,6 @@ christinerogers:
     '
   country: Canada
   expertise:
-  - OLS-1 project lead
   - Data sharing
   - Open science
   - Software development
@@ -627,8 +625,6 @@ da5nsy:
 dannycolin:
   affiliation: "Universit\xE9 de Montr\xE9al"
   country: Canada
-  expertise:
-  - OLS-1 project lead
   first-name: Danny
   last-name: Colin
   pronouns: he/him
@@ -664,8 +660,6 @@ davidbeavan:
 davidviryachen:
   affiliation: Osaka University
   country: Japan
-  expertise:
-  - OLS-1 project lead
   first-name: David
   last-name: Chentanaman
   pronouns: he/him
@@ -719,8 +713,6 @@ demellina:
 dlebauer:
   affiliation: University of Arizona
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: David
   last-name: LeBauer
   pronouns: he/him
@@ -776,8 +768,6 @@ ekeluv:
 elsasci:
   affiliation: eLife
   country: UK
-  expertise:
-  - OLS-1 project lead
   first-name: Elsa
   github: false
   last-name: Loissel
@@ -840,8 +830,6 @@ evacherbst:
 ewuramaminka:
   affiliation: University of Manchester
   country: UK
-  expertise:
-  - OLS-1 project lead
   first-name: Deborah
   last-name: Akuoko
   pronouns: she/her
@@ -857,7 +845,6 @@ fnyasimi:
     '
   country: Kenya
   expertise:
-  - OLS-1 project lead
   - Bioinformatics
   - Biomedical Research
   first-name: Festus
@@ -1023,8 +1010,6 @@ hilyatuz-zahroh:
 homo-sapiens34:
   affiliation: IITP RAS
   country: Russia
-  expertise:
-  - OLS-1 project lead
   first-name: Zoe
   last-name: Chervontseva
   pronouns: she/her
@@ -1378,8 +1363,6 @@ kipkurui:
 kiragu-mwaura:
   affiliation: Institute of Primate Research
   country: Kenya
-  expertise:
-  - OLS-1 project lead
   first-name: David
   last-name: Kiragu Mwaura
   pronouns: he/him
@@ -1489,8 +1472,6 @@ koudyk:
 kristinariemer:
   affiliation: University of Arizona
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Kristina
   last-name: Riemer
   pronouns: she/her
@@ -1521,8 +1502,6 @@ kswhitney:
 landimi2:
   affiliation: International Livestock Research Institute
   country: Kenya
-  expertise:
-  - OLS-1 project lead
   first-name: Michael
   last-name: Kofia Landi
   pronouns: he/him
@@ -1566,8 +1545,6 @@ laurichi13:
 lazycipher:
   affiliation: Galgotias University
   country: India
-  expertise:
-  - OLS-1 project lead
   first-name: Himanshu
   last-name: Singh
   pronouns: he/him
@@ -1575,8 +1552,6 @@ lazycipher:
 lilian9:
   affiliation: Information Training and Outreach Centre for Africa
   country: Kenya
-  expertise:
-  - OLS-1 project lead
   first-name: Lilian
   last-name: Juma
   pronouns: she/her
@@ -1671,8 +1646,6 @@ lwinfree:
 magicmilly:
   affiliation: University of Arizona
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Emily
   last-name: Cain
   pronouns: she/her
@@ -1736,7 +1709,6 @@ malvikasharan:
   country: UK
   email: malvikasharan@gmail.com
   expertise:
-  - OLS co-lead
   - Community building
   - Mentorship
   - Data Science best practices
@@ -1800,8 +1772,6 @@ martinagvilas:
 matuskalas:
   affiliation: University of Bergen
   country: Norway
-  expertise:
-  - OLS-1 project lead
   first-name: "Mat\xFA\u0161"
   last-name: "Kala\u0161"
   pronouns: he/him
@@ -1852,8 +1822,6 @@ meagdoh:
 megmugure:
   affiliation: International Livestock Research Institute
   country: Kenya
-  expertise:
-  - OLS-1 project lead
   first-name: Margaret
   last-name: Wanjiku
   pronouns: she/her
@@ -1931,8 +1899,6 @@ mloning:
 morphofun:
   affiliation: The George Washington University
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Sandy
   last-name: Kawano
   pronouns: she/her
@@ -2002,8 +1968,6 @@ myreille-larouche:
 naralb:
   affiliation: "Museu Paraense Em\xEDlio Goeldi"
   country: Brazil
-  expertise:
-  - OLS-1 project lead
   first-name: Naraiana
   last-name: Loureiro Benone
   pronouns: she/her
@@ -2409,7 +2373,6 @@ samguay:
   country: Canada
   email: samuel.guay@umontreal.ca
   expertise:
-  - OLS-1 project lead
   - Open Science
   - Building website with Hugo
   - Reproducible reports
@@ -2551,8 +2514,6 @@ sgibson91:
 sithyphus:
   affiliation: University of Arizona
   country: USA
-  expertise:
-  - OLS-1 project lead
   first-name: Jorge
   last-name: Barrios
   pronouns: he/him
@@ -2614,8 +2575,6 @@ stephen-klusza:
 sudarshangc:
   affiliation: Media Lab Nepal
   country: Nepal
-  expertise:
-  - OLS-1 project lead
   first-name: Sudarshan
   last-name: GC
   pronouns: he/him
@@ -2723,6 +2682,16 @@ tobyhodges:
   pronouns: he/him
   twitter: tbyhdgs
   website: https://tbyhdgs.info
+trallard:
+  affiliation: Microsoft
+  country: UK
+  city: Manchester
+  email: trallard@bitsandchips.me
+  first-name: Tania
+  last-name: Allard
+  pronouns: she/her
+  twitter: ixek
+  website: https://trallard.dev
 tsonika:
   affiliation: Monash University Melbourne
   bio: Sonika has a Ph.D. in Bioinformatics and over 15 y of work experience in academia
@@ -2768,7 +2737,6 @@ unode:
   - Full-stack developer
   - Computational Training
   - Reproducibility
-  - OLS-1 project lead
   - Computational biology
   - Metagenomics
   - Meta-transcriptomics
@@ -2869,7 +2837,6 @@ yochannah:
   country: UK
   email: yoyehudi@gmail.com
   expertise:
-  - OLS co-lead
   - Software development
   - Community building
   - Mentoring

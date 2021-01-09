@@ -1,28 +1,8 @@
 ---
-layout: page
+layout: community
 title: Community
+image: https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+photos:
+  name: Tim Marshall
+  url: https://unsplash.com/photos/cAtzHUz7Z8g
 ---
-
-Thank You! to the {{ site.data.people | size }} awesome people who participate in or contribute to Open Life Science!
-
-<div class="community">
-{% for user in site.data.people %}
-  {% assign username = user[0] %}
-  {% assign details = user[1] %}
-<div class="card people-card" id="{{ username }}">
-  <div class="card-content">
-    <div class="media">
-      <div class="media-left people-card-avatar">
-        <figure class="image is-48x48">
-          <img
-            class="is-rounded"
-            src="https://avatars.githubusercontent.com/{{ username }}"
-            alt="The GitHub avatar of {{ details.name }}"
-          />
-        </figure>
-      </div>
-    </div>
-  </div>
-</div>
-{% endfor %}
-</div>

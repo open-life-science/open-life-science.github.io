@@ -315,6 +315,17 @@ $link-active: $link-hover;
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  a {
+    border-bottom: none;
+    color: inherit;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: none;
+    }
+  }
 }
 
 .peoples {
