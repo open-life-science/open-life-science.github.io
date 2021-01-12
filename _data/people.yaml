@@ -88,7 +88,7 @@ aidanbudd:
   country: Germany
   email: aidan.budd@gmx.de
   expertise:
-  - Community building.
+  - Community building
   first-name: Aidan
   last-name: Budd
   orcid: 0000-0003-0196-9051
@@ -121,6 +121,31 @@ ajstewartlang:
   pronouns: he/him
   twitter: ajstewart_lang
   website: https://ajstewartlang.netlify.app
+alexandra-holinski:
+  affiliation: EMBL-EBI
+  bio: I am working as a Scientific Training Officer at EMBL-EBI and dedicate my work
+    time to developing and designing training in the field of biomedical sciences
+    and bioinformatics. In our training courses we encourage scientists to work according
+    to and advocate the principles of Open Science. I am not a bioinformatician myself,
+    but a chemist / biochemist by education, with several years of experience in scientific
+    research; mainly in the wet lab.
+  country: United Kingdom
+  email: aholinski@ebi.ac.uk
+  expertise:
+  - Scientific Education and Training
+  - Course development, design and delivery
+  - Methods of interactive delivery (face-to-face and virtual courses)
+  - Online training
+  - Community building
+  - Open Science
+  - FAIR principles
+  - Principles of FAIRification of (training) material
+  - Protein Biochemistry
+  first-name: Alexandra
+  github: false
+  last-name: Holinski
+  orcid: 0000-0003-2321-5568
+  pronouns: She/her
 alexwlchan:
   affiliation: Wellcome Collection
   country: United Kingdom
@@ -556,7 +581,10 @@ christinerogers:
   country: Canada
   email: christine.rogers@mcgill.ca
   expertise:
-  - neuroinformatics, open science, open source, research software
+  - Neuroinformatics
+  - Open science
+  - Open source
+  - Research software
   first-name: Christine
   last-name: Rogers
   orcid: christine.rogers@mcgill.ca
@@ -1348,23 +1376,28 @@ kristinariemer:
   pronouns: she/her
   twitter: KristinaRiemer
 kswhitney:
-  bio: Kaitlin is an assistant professor in the Science, Technology & Society department
-    at the Rochester Institute of Technology in Rochester, NY USA. She is also extended
-    program faculty in the Environmental Sciences Program.
-  country: Germany
+  affiliation: Rochester Institute of Technology
+  bio: Dr. Stack Whitney is an environmental studies professor at RIT in upstate NY,
+    USA. As a person whose teaching and work sits at the interface of environmental
+    science and environmental humanities, she's excited about "open" for all kinds
+    of teaching and research. However, she's also a critical advocate for ensuring
+    that "open" initiatives and products do not exclude disabled leaders and participants.
+  city: Rochester
+  country: USA
   email: kxwsbi@rit.edu
   expertise:
   - Accessibility
-  - Ethics
-  - Reproducible workflows
-  - Ecoinformatics
-  - Entomology/insect ecology
-  - Feminist biology
+  - Road ecology
+  - Novel ecosystems
+  - Insects
+  - Zines
+  - OER
   first-name: Kaitlin
   last-name: Stack Whitney
   orcid: 0000-0002-0815-5037
+  pronouns: she/her
   twitter: kstackwhitney
-  website: https://pht180.rit.edu/sweetlab/
+  website: https://rit.edu/sweetlab
 landimi2:
   affiliation: International Livestock Research Institute
   country: Kenya
@@ -1622,22 +1655,19 @@ mblue9:
   last-name: Doyle
   pronouns: she/her
 meagdoh:
-  bio: Meag is an open data advocate and product design leader. Most recently, she
-    mentored participants and co-hosted Mozilla''s Open Leaders program (Cohort 6
-    & 7). Currently, she leads product design strategy for data and tools at National
-    Institutes of Health All of Us Research Program.
-  country: USA
+  bio: A designer and open source advocate with experience building on and offline
+    communities in open government and health and life sciences
+  city: Washington
+  country: United States
   email: meagdoherty@gmail.com
   expertise:
-  - User research
   - Product strategy
-  - Experience analytics
-  - open research tools (https://www.researchallofus.org/)
+  - Go to market
+  - User research
   first-name: Meag
   last-name: Doherty
   pronouns: she/her
   twitter: emdohh
-  website: https://meagdoherty.io
 megmugure:
   affiliation: International Livestock Research Institute
   country: Kenya
@@ -1972,7 +2002,9 @@ prashbio:
   country: India
   email: prash@bioclues.org
   expertise:
-  - 'Systems Biology, Bioinformatics, Mentoring '
+  - Systems Biology
+  - Bioinformatics
+  - 'Mentoring '
   first-name: Prashanth N.
   last-name: Suravajhala
   orcid: https://orcid.org/0000-0002-8535-278X
@@ -2189,26 +2221,44 @@ sebastianeggert:
   last-name: Eggert
   pronouns: he/his
   twitter: se_eggert
-sgibson91:
-  affiliation: Alan Turing Institute
-  bio: Sarah is a Research Software Engineer at The Alan Turing Institute where she
-    implements software best practices to translate academic research into real world
-    solutions through the Turing''s collaborative network. Sarah is also an operator
-    and maintainer for the Binder project and runs a BinderHub cluster at the Turing
-    which receives traffic from mybinder.org. This year, she is also honoured to be
-    a Software Sustainability Institute Fellow and is using her Fellowship to nurture
-    and diversify the Binder community.
-  country: UK
-  email: sgibson@turing.ac.uk
+serahrono:
+  affiliation: The Carpentries
+  bio: Serah Rono is a computer scientist and writer with a knack and deep seated
+    interest in web development and accessibility, all things open and tech community
+    organising. Serah is currently the Director of Community at The Carpentries.
+  city: Tallinn
+  country: Estonia
+  email: serah@carpentries.org
   expertise:
-  - reproducibility
-  - cloud infrastructure
-  - Project Binder
-  - Effective and transparent communication of scientific analyses across a range
-    of domain
-  - Digital Humanities research into the Industrial Revolution
+  - Web development
+  - Open source
+  - Community building and sustainability
+  - Accessibility, Documentation
+  - Rsource development
+  - Communications
+  - Outreach
+  - Event planning
+  - Public speaking
+  first-name: 'Serah '
+  last-name: Rono
+  pronouns: she, her, hers
+  twitter: serahrono
+sgibson91:
+  affiliation: The Alan Turing Institute
+  bio: Sarah is a Research Software Engineer at the Alan Turing Institute helping
+    to solve real-world problems through cutting-edge techniques and software best
+    practices. She also helps run the mybinder.org platform and is a fellow of the
+    Software Sustainability Institute.
+  city: London
+  country: UK
+  email: drsarahlgibson@gmail.com
+  expertise:
+  - Cloud computing
+  - Reproducibility
+  - GitHub
   first-name: Sarah
   last-name: Gibson
+  orcid: 0000-0003-0356-2765
   pronouns: she/her
   twitter: drsarahlgibson
   website: https://sgibson91.github.io
@@ -2410,27 +2460,9 @@ tsonika:
   twitter: tsonika
   website: https://bioinformaticslab.erc.monash.edu
 unode:
-  affiliation: European Molecular Biology Laboratory (EMBL)
-  bio: Renato is a computational biologist with a background in evolution, genomics
-    and the microbiome. Currently project and community manager of the [EMBL Bio-IT
-    project](https://bio-it.embl.de/), supporting the local bio-computational community
-    through training, consulting and core resources. Open-source and scientific reproducibility
-    advocate. When not tanning in front of a screen you may find him wandering the
-    green and blue in Nature.
-  country: Germany
   email: renato.alves@embl.de
-  expertise:
-  - Full-stack developer
-  - Computational Training
-  - Reproducibility
-  - Computational biology
-  - Metagenomics
-  - Meta-transcriptomics
-  first-name: Renato
-  last-name: Alves
-  orcid: 0000-0002-7212-0234
-  pronouns: he/him
-  twitter: renato_alvs
+  first-name: null
+  last-name: null
 valerie-parent:
   affiliation: 'Law Faculty, Université de Montréal '
   country: Canada

@@ -7,6 +7,7 @@
 experts:
 - adam-gristwood
 - aidanbudd
+- alexandra-holinski
 - alexwlchan
 - anenadic
 - ariellebl
@@ -20,10 +21,12 @@ experts:
 - gedankenstuecke
 - ivotron
 - jezcope
+- kswhitney
 - harpreetsingh05
 - karvovskaya
 - kmexter
 - lauracion
+- meagdoh
 - malvikasharan
 - martinagvilas
 - npalopoli
@@ -31,9 +34,12 @@ experts:
 - prashbio
 - profgiuseppe
 - rainsworth
+- serahrono
+- sgibson91
 - thessaly
 - tobyhodges
 - tsonika
+- unode
 - yochannah
 - yvanlebras
 experts-with-expertise:
@@ -327,11 +333,14 @@ possible-mentors:
 - hrhotz
 - jezcope
 - karvovskaya
+- meagdoh
 - malloryfreeberg
 - malvikasharan
 - pivg
 - prashbio
+- sgibson91
 - tobyhodges
+- unode
 - yochannah
 - yvanlebras
 possible-mentors-with-expertise:
