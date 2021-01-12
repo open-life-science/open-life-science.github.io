@@ -129,6 +129,7 @@ Add someone to the list of people:
     - `gitter`
     - `orcid`
     - `affiliation`
+    - `city`
     - `country` (*mandatory*)
     - `pronouns`
     - `expertise`
@@ -146,10 +147,12 @@ Add many people in a row to `_data/people.yaml`:
    - `First name`
    - `Last name`
    - `Email`
+   - `Github username`
    - `Twitter username`
    - `Website`
    - `ORCID`
    - `Affiliation`
+   - `City`
    - `Country`
    - `Pronouns`
    - `Areas of expertise (1 element per line)`
@@ -208,3 +211,26 @@ In this file, for each week, it is listed the timeframe and the different calls 
    - `title`
    - `speaker`: username in `_data/people.yaml`, if slides
    - `link`
+
+## Order experts and possible mentors by expertise areas
+
+In metadata file for cohort, experts and possible mentors can be ordered by expertise area to be display in cohort page given these areas. 
+
+To order them:
+
+1. Activate the conda environment
+
+   ```
+   $ source activate open-life-science-website
+   ```
+
+   Or alternatively, get locally:
+   - Python 3.*
+   - pyyaml
+   - pandas
+
+2. Run the script which sort expertise and save information in metadata file
+
+   ```
+   $ python bin/sort-expertises.py -c <cohort id>
+   ```
