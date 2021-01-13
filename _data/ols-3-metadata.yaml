@@ -43,6 +43,10 @@ experts:
 - yochannah
 - yvanlebras
 experts-with-expertise:
+  Accessibility:
+  - kswhitney
+  Accessibility, Documentation:
+  - serahrono
   Addiction research:
   - lauracion
   Algorithm design:
@@ -65,24 +69,31 @@ experts-with-expertise:
   - gedankenstuecke
   - harpreetsingh05
   - malvikasharan
+  - prashbio
   Citizen science:
   - bebatut
   - gedankenstuecke
   - thessaly
+  Cloud computing:
+  - sgibson91
   Code of conducts:
   - ariellebl
   Collaborating with Git & GitHub/GitLab:
   - tobyhodges
   Communication:
   - ealescak
+  Communications:
+  - serahrono
   Community building:
+  - aidanbudd
+  - alexandra-holinski
   - ealescak
   - lauracion
   - malvikasharan
   - rainsworth
   - yochannah
-  Community building.:
-  - aidanbudd
+  Community building and sustainability:
+  - serahrono
   Community consultation:
   - ariellebl
   Community goals:
@@ -93,9 +104,12 @@ experts-with-expertise:
   - thessaly
   Computational Epigenomics:
   - tsonika
+  Computational Training:
+  - unode
   Computational biology:
   - ariellebl
   - npalopoli
+  - unode
   Computer Science:
   - ivotron
   Continuous integration:
@@ -104,6 +118,8 @@ experts-with-expertise:
   - pivg
   Course design:
   - pivg
+  Course development, design and delivery:
+  - alexandra-holinski
   Culture change:
   - ariellebl
   Data Science:
@@ -133,14 +149,19 @@ experts-with-expertise:
   - pivg
   Event planning:
   - ealescak
+  - serahrono
   FAIR:
   - estherplomp
   FAIR data:
   - kmexter
+  FAIR principles:
+  - alexandra-holinski
   FAIR training materials:
   - burkemlou
   Fieldwork:
   - karvovskaya
+  Full-stack developer:
+  - unode
   Functional genomics:
   - burkemlou
   Galaxy:
@@ -156,9 +177,12 @@ experts-with-expertise:
   - tobyhodges
   GitHub:
   - rainsworth
+  - sgibson91
   - tobyhodges
   GitLab:
   - tobyhodges
+  Go to market:
+  - meagdoh
   Health data science and artificial intelligence/Biostatistics:
   - lauracion
   High-throughput sequencing:
@@ -167,6 +191,8 @@ experts-with-expertise:
   - ealescak
   Inclusive and collaborative practices:
   - malvikasharan
+  Insects:
+  - kswhitney
   Isotopes:
   - estherplomp
   Leadership:
@@ -188,23 +214,39 @@ experts-with-expertise:
   - kmexter
   Mentoring:
   - yochannah
+  'Mentoring ':
+  - prashbio
   Mentorship:
   - malvikasharan
+  Meta-transcriptomics:
+  - unode
   Metagenomics:
   - bebatut
+  - unode
+  Methods of interactive delivery (face-to-face and virtual courses):
+  - alexandra-holinski
   Molecular Modeling:
   - harpreetsingh05
   Molecular interactions:
   - npalopoli
   Neuroimaging:
   - martinagvilas
+  Neuroinformatics:
+  - christinerogers
   Neuroscience:
   - martinagvilas
   Neuroscience.:
   - ariellebl
   No listed expertise:
   - alexwlchan
+  Novel ecosystems:
+  - kswhitney
+  OER:
+  - kswhitney
+  Online training:
+  - alexandra-holinski
   Open Science:
+  - alexandra-holinski
   - fpsom
   Open Science/Research:
   - rainsworth
@@ -232,20 +274,25 @@ experts-with-expertise:
   Open research:
   - demellina
   Open science:
+  - christinerogers
   - demellina
   Open science communities:
   - martinagvilas
   Open science hardware:
   - thessaly
   Open source:
+  - christinerogers
   - jezcope
   - martinagvilas
+  - serahrono
   Open source documentation:
   - martinagvilas
   Organising events:
   - rainsworth
   Osteology:
   - estherplomp
+  Outreach:
+  - serahrono
   Parasitology:
   - burkemlou
   Pedagogical approaches to instructor training and curricula development:
@@ -254,8 +301,16 @@ experts-with-expertise:
   - gedankenstuecke
   Preprints:
   - demellina
+  Principles of FAIRification of (training) material:
+  - alexandra-holinski
+  Product strategy:
+  - meagdoh
+  Protein Biochemistry:
+  - alexandra-holinski
   Proteins:
   - npalopoli
+  Public speaking:
+  - serahrono
   Publishing web content with Wordpress or Jekyll and GitHub/GitLab Pages:
   - tobyhodges
   Python:
@@ -265,6 +320,8 @@ experts-with-expertise:
   - harpreetsingh05
   Reproducibility:
   - rainsworth
+  - sgibson91
+  - unode
   Reproducible science:
   - profgiuseppe
   Research data management:
@@ -272,19 +329,27 @@ experts-with-expertise:
   - karvovskaya
   Research methods:
   - ealescak
+  Research software:
+  - christinerogers
+  Road ecology:
+  - kswhitney
   Road mapping and strategy planning:
   - ariellebl
+  Rsource development:
+  - serahrono
   Science and tech democratization:
   - thessaly
   Science communication:
   - pivg
+  Scientific Education and Training:
+  - alexandra-holinski
   Scientific community engagement:
   - tobyhodges
   Software development:
   - yochannah
   Structural bioinformatics:
   - npalopoli
-  'Systems Biology, Bioinformatics, Mentoring ':
+  Systems Biology:
   - prashbio
   Teaching:
   - ealescak
@@ -302,6 +367,8 @@ experts-with-expertise:
   - tsonika
   Unix:
   - malvikasharan
+  User research:
+  - meagdoh
   Version control:
   - martinagvilas
   Virtual events:
@@ -310,12 +377,13 @@ experts-with-expertise:
   - jezcope
   Web development:
   - gedankenstuecke
+  - serahrono
   Webinar and workshop development:
   - burkemlou
+  Zines:
+  - kswhitney
   eLearning:
   - burkemlou
-  neuroinformatics, open science, open source, research software:
-  - christinerogers
 organizers:
 - bebatut
 - malvikasharan
@@ -362,8 +430,11 @@ possible-mentors-with-expertise:
   - hrhotz
   - malloryfreeberg
   - malvikasharan
+  - prashbio
   Citizen science:
   - bebatut
+  Cloud computing:
+  - sgibson91
   Collaborating with Git & GitHub/GitLab:
   - tobyhodges
   Communication:
@@ -373,6 +444,10 @@ possible-mentors-with-expertise:
   - ealescak
   - malvikasharan
   - yochannah
+  Computational Training:
+  - unode
+  Computational biology:
+  - unode
   Course delivery:
   - pivg
   Course design:
@@ -405,6 +480,8 @@ possible-mentors-with-expertise:
   - burkemlou
   Fieldwork:
   - karvovskaya
+  Full-stack developer:
+  - unode
   Functional genomics:
   - burkemlou
   Galaxy:
@@ -419,9 +496,12 @@ possible-mentors-with-expertise:
   - tobyhodges
   GitHub:
   - malloryfreeberg
+  - sgibson91
   - tobyhodges
   GitLab:
   - tobyhodges
+  Go to market:
+  - meagdoh
   High-throughput sequencing:
   - bebatut
   Human genomics and phenomics:
@@ -445,14 +525,21 @@ possible-mentors-with-expertise:
   - harpreetsingh05
   Mentoring:
   - yochannah
+  'Mentoring ':
+  - prashbio
   Mentorship:
   - malvikasharan
+  Meta-transcriptomics:
+  - unode
   Metadata:
   - malloryfreeberg
   Metagenomics:
   - bebatut
+  - unode
   Molecular Modeling:
   - harpreetsingh05
+  Neuroinformatics:
+  - christinerogers
   Next Generation Sequencing:
   - hrhotz
   Ontologies:
@@ -467,7 +554,10 @@ possible-mentors-with-expertise:
   - estherplomp
   Open protocols:
   - estherplomp
+  Open science:
+  - christinerogers
   Open source:
+  - christinerogers
   - jezcope
   Osteology:
   - estherplomp
@@ -477,6 +567,8 @@ possible-mentors-with-expertise:
   - malloryfreeberg
   PostgreSQL:
   - hrhotz
+  Product strategy:
+  - meagdoh
   Project management:
   - malloryfreeberg
   Publishing web content with Wordpress or Jekyll and GitHub/GitLab Pages:
@@ -489,11 +581,16 @@ possible-mentors-with-expertise:
   - harpreetsingh05
   RNA biology:
   - malloryfreeberg
+  Reproducibility:
+  - sgibson91
+  - unode
   Research data management:
   - estherplomp
   - karvovskaya
   Research methods:
   - ealescak
+  Research software:
+  - christinerogers
   SQL:
   - malloryfreeberg
   SciComm:
@@ -506,7 +603,7 @@ possible-mentors-with-expertise:
   - malloryfreeberg
   Software development:
   - yochannah
-  'Systems Biology, Bioinformatics, Mentoring ':
+  Systems Biology:
   - prashbio
   Teaching:
   - ealescak
@@ -520,11 +617,11 @@ possible-mentors-with-expertise:
   - pivg
   Unix:
   - malvikasharan
+  User research:
+  - meagdoh
   Web:
   - jezcope
   Webinar and workshop development:
   - burkemlou
   eLearning:
   - burkemlou
-  neuroinformatics, open science, open source, research software:
-  - christinerogers
