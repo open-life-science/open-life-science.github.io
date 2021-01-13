@@ -140,7 +140,9 @@ alexandra-holinski:
   - Open Science
   - FAIR principles
   - Principles of FAIRification of (training) material
-  - Protein Biochemistry
+  - 'Protein Biochemistry
+
+    '
   first-name: Alexandra
   github: false
   last-name: Holinski
@@ -605,12 +607,22 @@ crangelsmith:
   pronouns: she/her
   twitter: camilarangels
 da5nsy:
+  affiliation: NIH
+  bio: I'm a color vision researcher and open science advocate.
+  city: Washington DC
   country: USA
   email: dannygarside@outlook.com
-  first-name: Daniel
+  expertise:
+  - Registered reports
+  - Peer review
+  - Open publishing
+  - Preprints
+  first-name: Danny
   last-name: Garside
-  pronouns: he/his
+  orcid: https://orcid.org/0000-0002-4579-003X
+  pronouns: he/him
   twitter: da5nsy
+  website: dannygarside.co.uk
 dannycolin:
   affiliation: Université de Montréal
   country: Canada
@@ -731,12 +743,28 @@ ealescak:
   twitter: elescak
   website: https://www.linkedin.com/in/emily-lescak-b4652446/
 ekaroune:
-  country: UK
+  affiliation: The Alan Turing Institute
+  bio: I'm an Open Archaeobotanist specialising in phytolith research. I'm currently
+    working on building a community of open scientists in my field to address issues
+    such as data sharing, FAIR data, open access and upskilling researchers in open
+    science skills. I'm also working as a Community Manager at the Alan Turing Institute
+    on the DECOVID project and I am an contributor to The Turing Way.
+  city: Portsmouth
+  country: United Kingdom
   email: ekaroune@googlemail.com
+  expertise:
+  - Environmental Archaeology
+  - Palaeoecology
+  - FAIR
+  - Collaborative working
+  - Open workflows
+  - Reproducibility
   first-name: Emma
   last-name: Karoune
-  pronouns: she/her
-  website: ekaroune
+  orcid: 0000-0002-6576-6053
+  pronouns: She/her
+  twitter: ekaroune
+  website: https://ekaroune.github.io/Open-Science-in-Phytolith-Research/
 ekeluv:
   affiliation: Medical biosciences UWC
   country: South Africa
@@ -1226,12 +1254,27 @@ karvovskaya:
   pronouns: she/her
   twitter: LangData
 katesimpson:
-  country: UK
+  affiliation: Imperial College London/ Visiting Alan Turing Institute
+  bio: I am a research associate focused on reducing the energy demand of existing
+    housing. I am passionate about making research, tools, code and data open access,
+    where ethical. As a recent graduate of OLS-2, I continue to learn in this space.
+  city: London
+  country: United Kingdom
   email: kate.simpson@imperial.ac.uk
+  expertise:
+  - Open scholarship
+  - Community development
+  - User-centered design, buildings, energy, environment quality
+  - Data-driven evaluation of building performance
+  - Engineering-based modelling
+  - Mixed-method research
+  - Social networks
   first-name: Kate
   last-name: Simpson
-  pronouns: she/her
+  orcid: 0000-0002-9105-8181
+  pronouns: She/Her
   twitter: Dr_KateSimpson
+  website: https://www.turing.ac.uk/people/researchers/kate-simpson
 katoss:
   country: France
   email: katharina.kloppenborg@gmail.com
@@ -1407,12 +1450,26 @@ landimi2:
   twitter: CofiaLandy
 lauracarter:
   affiliation: University of Essex
+  bio: 'Laura is a PhD candidate at the University of Essex, researching the use of
+    data assemblages in the public sector in England. Before this, she worked for
+    almost a decade as a researcher at Amnesty International, focusing on gender,
+    women''s rights, and LGBTI rights. She believes in research as a means to an end:
+    to building a better world for everyone.'
   country: UK
   email: laura.carter@essex.ac.uk
+  expertise:
+  - Human rights
+  - Data usage in the public sector
+  - Gender and stereotyping
+  - Feminist and queer approaches to tech and data
+  - Ethical and reflexive research methodologies
+  - Equality, Anti-discrimination and justice
   first-name: Laura
   last-name: Carter
+  orcid: 0000-0002-4285-1140
   pronouns: she/her
   twitter: LauraC_rter
+  website: lauracarter.github.io
 lauracion:
   affiliation: University of Buenos Aires - CONICET
   bio: I am a tenured adjunct researcher leading a health data science group. I also
@@ -1591,6 +1648,40 @@ malvikasharan:
   orcid: 0000-0001-6619-7369
   pronouns: she/her
   twitter: MalvikaSharan
+margaret-wanjiku:
+  city: Nairobi
+  country: Kenya
+  email: margaretwmugure@gmail.com
+  first-name: Margaret
+  github: false
+  last-name: Wanjiku
+  twitter: meg_wanjiku
+marta-lloret-llinares:
+  affiliation: EMBL-EBI
+  bio: Marta is a scientific project manager within the training team at EMBL-EBI.
+    She organises and facilitates training activities in several European projects.
+    Marta focuses on providing a great learning experience for participants. She has
+    a background in molecular biology, where her focus was on understanding gene expression.
+  city: Cambridge
+  country: UK
+  email: marta.lloret@ebi.ac.uk
+  expertise:
+  - Course design
+  - Online training
+  - Course organisation
+  - Community building
+  - Competency frameworks
+  - Molecular biology
+  - Gene expression
+  - RNA
+  - Chromatin
+  - Differentiation of mESC
+  - Drosophila melanogaster
+  first-name: Marta
+  github: false
+  last-name: Lloret Llinares
+  orcid: 0000-0002-8205-9799
+  pronouns: She/her
 martenson:
   bio: Martin is a computer fellow with an interest to help scientists tackle heaps
     of data. Spent last 7 years working on Galaxy project core codebases.
@@ -2004,7 +2095,7 @@ prashbio:
   expertise:
   - Systems Biology
   - Bioinformatics
-  - 'Mentoring '
+  - Mentoring
   first-name: Prashanth N.
   last-name: Suravajhala
   orcid: https://orcid.org/0000-0002-8535-278X
@@ -2158,10 +2249,21 @@ samuelorion:
   twitter: kernow_qc
 samvanstroud:
   affiliation: UCL
+  bio: Sam is a PhD Student at the UCL Data Intensive Science CDT. Hi is an OLS-2
+    graduate and works on the ATLAS experiment at CERN.
+  city: London
   country: UK
   email: sam.vanstroud.18@ucl.ac.uk
-  first-name: Samuel
-  last-name: van Stroud
+  expertise:
+  - Data Science
+  - GitHub
+  - Software development
+  - Python
+  - Machine learning
+  - Particle Physics
+  first-name: Sam
+  last-name: Van Stroud
+  orcid: https://orcid.org/0000-0002-7969-0301
 santosrac:
   bio: Bioinformatician working on genomics and transcriptomics of ascomycete and
     basidiomycete fungi. Interested in education, teaching programming skills to bioscientists,
@@ -2460,27 +2562,10 @@ tsonika:
   twitter: tsonika
   website: https://bioinformaticslab.erc.monash.edu
 unode:
-  affiliation: European Molecular Biology Laboratory (EMBL)
-  bio: Renato is a computational biologist with a background in evolution, genomics
-    and the microbiome. Currently project and community manager of the [EMBL Bio-IT
-    project](https://bio-it.embl.de/), supporting the local bio-computational community
-    through training, consulting and core resources. Open-source and scientific reproducibility
-    advocate. When not tanning in front of a screen you may find him wandering the
-    green and blue in Nature.
-  country: Germany
+  city: Heidelberg
   email: renato.alves@embl.de
-  expertise:
-  - Full-stack developer
-  - Computational Training
-  - Reproducibility
-  - Computational biology
-  - Metagenomics
-  - Meta-transcriptomics
   first-name: Renato
   last-name: Alves
-  orcid: 0000-0002-7212-0234
-  pronouns: he/him
-  twitter: renato_alvs
 valerie-parent:
   affiliation: 'Law Faculty, Université de Montréal '
   country: Canada

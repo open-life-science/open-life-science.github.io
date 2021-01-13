@@ -14,8 +14,10 @@ experts:
 - bebatut
 - burkemlou
 - christinerogers
+- da5nsy
 - demellina
 - ealescak
+- ekaroune
 - estherplomp
 - fpsom
 - gedankenstuecke
@@ -24,16 +26,21 @@ experts:
 - kswhitney
 - harpreetsingh05
 - karvovskaya
+- katesimpson
 - kmexter
+- lauracarter
 - lauracion
 - meagdoh
 - malvikasharan
+- margaret-wanjiku
+- marta-lloret-llinares
 - martinagvilas
 - npalopoli
 - pivg
 - prashbio
 - profgiuseppe
 - rainsworth
+- samvanstroud
 - serahrono
 - sgibson91
 - thessaly
@@ -70,6 +77,8 @@ experts-with-expertise:
   - harpreetsingh05
   - malvikasharan
   - prashbio
+  Chromatin:
+  - marta-lloret-llinares
   Citizen science:
   - bebatut
   - gedankenstuecke
@@ -80,6 +89,8 @@ experts-with-expertise:
   - ariellebl
   Collaborating with Git & GitHub/GitLab:
   - tobyhodges
+  Collaborative working:
+  - ekaroune
   Communication:
   - ealescak
   Communications:
@@ -90,26 +101,28 @@ experts-with-expertise:
   - ealescak
   - lauracion
   - malvikasharan
+  - marta-lloret-llinares
   - rainsworth
   - yochannah
   Community building and sustainability:
   - serahrono
   Community consultation:
   - ariellebl
+  Community development:
+  - katesimpson
   Community goals:
   - ariellebl
   Community management:
   - gedankenstuecke
   Community science:
   - thessaly
+  Competency frameworks:
+  - marta-lloret-llinares
   Computational Epigenomics:
   - tsonika
-  Computational Training:
-  - unode
   Computational biology:
   - ariellebl
   - npalopoli
-  - unode
   Computer Science:
   - ivotron
   Continuous integration:
@@ -117,12 +130,16 @@ experts-with-expertise:
   Course delivery:
   - pivg
   Course design:
+  - marta-lloret-llinares
   - pivg
   Course development, design and delivery:
   - alexandra-holinski
+  Course organisation:
+  - marta-lloret-llinares
   Culture change:
   - ariellebl
   Data Science:
+  - samvanstroud
   - tsonika
   Data Science best practices:
   - malvikasharan
@@ -132,14 +149,22 @@ experts-with-expertise:
   - jezcope
   - kmexter
   - yvanlebras
+  Data usage in the public sector:
+  - lauracarter
+  Data-driven evaluation of building performance:
+  - katesimpson
   Designing and developing training material:
   - tobyhodges
   DevOps for science:
   - ivotron
+  Differentiation of mESC:
+  - marta-lloret-llinares
   Digital preservation:
   - jezcope
   Diversity:
   - ealescak
+  Drosophila melanogaster:
+  - marta-lloret-llinares
   Drug discovery:
   - ariellebl
   Ecology:
@@ -147,10 +172,19 @@ experts-with-expertise:
   Education:
   - npalopoli
   - pivg
+  Engineering-based modelling:
+  - katesimpson
+  Environmental Archaeology:
+  - ekaroune
+  Equality, Anti-discrimination and justice:
+  - lauracarter
+  Ethical and reflexive research methodologies:
+  - lauracarter
   Event planning:
   - ealescak
   - serahrono
   FAIR:
+  - ekaroune
   - estherplomp
   FAIR data:
   - kmexter
@@ -158,16 +192,20 @@ experts-with-expertise:
   - alexandra-holinski
   FAIR training materials:
   - burkemlou
+  Feminist and queer approaches to tech and data:
+  - lauracarter
   Fieldwork:
   - karvovskaya
-  Full-stack developer:
-  - unode
   Functional genomics:
   - burkemlou
   Galaxy:
   - bebatut
   Galaxy training:
   - bebatut
+  Gender and stereotyping:
+  - lauracarter
+  Gene expression:
+  - marta-lloret-llinares
   Genomics:
   - tsonika
   Git:
@@ -177,6 +215,7 @@ experts-with-expertise:
   - tobyhodges
   GitHub:
   - rainsworth
+  - samvanstroud
   - sgibson91
   - tobyhodges
   GitLab:
@@ -187,6 +226,8 @@ experts-with-expertise:
   - lauracion
   High-throughput sequencing:
   - bebatut
+  Human rights:
+  - lauracarter
   Inclusion:
   - ealescak
   Inclusive and collaborative practices:
@@ -209,24 +250,25 @@ experts-with-expertise:
   - fpsom
   - harpreetsingh05
   - martinagvilas
+  - samvanstroud
   - tsonika
   Marine data:
   - kmexter
   Mentoring:
-  - yochannah
-  'Mentoring ':
   - prashbio
+  - yochannah
   Mentorship:
   - malvikasharan
-  Meta-transcriptomics:
-  - unode
   Metagenomics:
   - bebatut
-  - unode
   Methods of interactive delivery (face-to-face and virtual courses):
   - alexandra-holinski
+  Mixed-method research:
+  - katesimpson
   Molecular Modeling:
   - harpreetsingh05
+  Molecular biology:
+  - marta-lloret-llinares
   Molecular interactions:
   - npalopoli
   Neuroimaging:
@@ -239,12 +281,15 @@ experts-with-expertise:
   - ariellebl
   No listed expertise:
   - alexwlchan
+  - margaret-wanjiku
+  - unode
   Novel ecosystems:
   - kswhitney
   OER:
   - kswhitney
   Online training:
   - alexandra-holinski
+  - marta-lloret-llinares
   Open Science:
   - alexandra-holinski
   - fpsom
@@ -271,8 +316,12 @@ experts-with-expertise:
   - demellina
   Open protocols:
   - estherplomp
+  Open publishing:
+  - da5nsy
   Open research:
   - demellina
+  Open scholarship:
+  - katesimpson
   Open science:
   - christinerogers
   - demellina
@@ -287,26 +336,37 @@ experts-with-expertise:
   - serahrono
   Open source documentation:
   - martinagvilas
+  Open workflows:
+  - ekaroune
   Organising events:
   - rainsworth
   Osteology:
   - estherplomp
   Outreach:
   - serahrono
+  Palaeoecology:
+  - ekaroune
   Parasitology:
   - burkemlou
+  Particle Physics:
+  - samvanstroud
   Pedagogical approaches to instructor training and curricula development:
   - anenadic
+  Peer review:
+  - da5nsy
   Personal data:
   - gedankenstuecke
   Preprints:
+  - da5nsy
   - demellina
   Principles of FAIRification of (training) material:
   - alexandra-holinski
   Product strategy:
   - meagdoh
-  Protein Biochemistry:
-  - alexandra-holinski
+  ? 'Protein Biochemistry
+
+    '
+  : - alexandra-holinski
   Proteins:
   - npalopoli
   Public speaking:
@@ -316,12 +376,17 @@ experts-with-expertise:
   Python:
   - gedankenstuecke
   - malvikasharan
+  - samvanstroud
   R Programming:
   - harpreetsingh05
+  RNA:
+  - marta-lloret-llinares
+  Registered reports:
+  - da5nsy
   Reproducibility:
+  - ekaroune
   - rainsworth
   - sgibson91
-  - unode
   Reproducible science:
   - profgiuseppe
   Research data management:
@@ -345,7 +410,10 @@ experts-with-expertise:
   - alexandra-holinski
   Scientific community engagement:
   - tobyhodges
+  Social networks:
+  - katesimpson
   Software development:
+  - samvanstroud
   - yochannah
   Structural bioinformatics:
   - npalopoli
@@ -369,6 +437,8 @@ experts-with-expertise:
   - malvikasharan
   User research:
   - meagdoh
+  User-centered design, buildings, energy, environment quality:
+  - katesimpson
   Version control:
   - martinagvilas
   Virtual events:
@@ -394,13 +464,17 @@ possible-mentors:
 - bruno-soares
 - burkemlou
 - christinerogers
+- da5nsy
 - ealescak
+- ekaroune
 - estherplomp
 - fpsom
 - harpreetsingh05
 - hrhotz
 - jezcope
 - karvovskaya
+- katesimpson
+- lauracarter
 - meagdoh
 - malloryfreeberg
 - malvikasharan
@@ -437,6 +511,8 @@ possible-mentors-with-expertise:
   - sgibson91
   Collaborating with Git & GitHub/GitLab:
   - tobyhodges
+  Collaborative working:
+  - ekaroune
   Communication:
   - ealescak
   Community building:
@@ -444,10 +520,8 @@ possible-mentors-with-expertise:
   - ealescak
   - malvikasharan
   - yochannah
-  Computational Training:
-  - unode
-  Computational biology:
-  - unode
+  Community development:
+  - katesimpson
   Course delivery:
   - pivg
   Course design:
@@ -460,6 +534,10 @@ possible-mentors-with-expertise:
   - jezcope
   - malloryfreeberg
   - yvanlebras
+  Data usage in the public sector:
+  - lauracarter
+  Data-driven evaluation of building performance:
+  - katesimpson
   Designing and developing training material:
   - tobyhodges
   Digital preservation:
@@ -470,18 +548,27 @@ possible-mentors-with-expertise:
   - yvanlebras
   Education:
   - pivg
+  Engineering-based modelling:
+  - katesimpson
+  Environmental Archaeology:
+  - ekaroune
+  Equality, Anti-discrimination and justice:
+  - lauracarter
+  Ethical and reflexive research methodologies:
+  - lauracarter
   Event planning:
   - ealescak
   FAIR:
+  - ekaroune
   - estherplomp
   FAIR principles:
   - malloryfreeberg
   FAIR training materials:
   - burkemlou
+  Feminist and queer approaches to tech and data:
+  - lauracarter
   Fieldwork:
   - karvovskaya
-  Full-stack developer:
-  - unode
   Functional genomics:
   - burkemlou
   Galaxy:
@@ -490,6 +577,8 @@ possible-mentors-with-expertise:
   - malloryfreeberg
   Galaxy training:
   - bebatut
+  Gender and stereotyping:
+  - lauracarter
   Git:
   - jezcope
   - malvikasharan
@@ -506,6 +595,8 @@ possible-mentors-with-expertise:
   - bebatut
   Human genomics and phenomics:
   - malloryfreeberg
+  Human rights:
+  - lauracarter
   Inclusion:
   - ealescak
   Inclusive and collaborative practices:
@@ -524,24 +615,24 @@ possible-mentors-with-expertise:
   - fpsom
   - harpreetsingh05
   Mentoring:
-  - yochannah
-  'Mentoring ':
   - prashbio
+  - yochannah
   Mentorship:
   - malvikasharan
-  Meta-transcriptomics:
-  - unode
   Metadata:
   - malloryfreeberg
   Metagenomics:
   - bebatut
-  - unode
+  Mixed-method research:
+  - katesimpson
   Molecular Modeling:
   - harpreetsingh05
   Neuroinformatics:
   - christinerogers
   Next Generation Sequencing:
   - hrhotz
+  No listed expertise:
+  - unode
   Ontologies:
   - malloryfreeberg
   Open Data:
@@ -554,19 +645,31 @@ possible-mentors-with-expertise:
   - estherplomp
   Open protocols:
   - estherplomp
+  Open publishing:
+  - da5nsy
+  Open scholarship:
+  - katesimpson
   Open science:
   - christinerogers
   Open source:
   - christinerogers
   - jezcope
+  Open workflows:
+  - ekaroune
   Osteology:
   - estherplomp
+  Palaeoecology:
+  - ekaroune
   Parasitology:
   - burkemlou
+  Peer review:
+  - da5nsy
   Post-transcriptional gene regulation:
   - malloryfreeberg
   PostgreSQL:
   - hrhotz
+  Preprints:
+  - da5nsy
   Product strategy:
   - meagdoh
   Project management:
@@ -581,9 +684,11 @@ possible-mentors-with-expertise:
   - harpreetsingh05
   RNA biology:
   - malloryfreeberg
+  Registered reports:
+  - da5nsy
   Reproducibility:
+  - ekaroune
   - sgibson91
-  - unode
   Research data management:
   - estherplomp
   - karvovskaya
@@ -601,6 +706,8 @@ possible-mentors-with-expertise:
   - tobyhodges
   Single cell sequencing:
   - malloryfreeberg
+  Social networks:
+  - katesimpson
   Software development:
   - yochannah
   Systems Biology:
@@ -619,6 +726,8 @@ possible-mentors-with-expertise:
   - malvikasharan
   User research:
   - meagdoh
+  User-centered design, buildings, energy, environment quality:
+  - katesimpson
   Web:
   - jezcope
   Webinar and workshop development:
