@@ -32,7 +32,7 @@ def extract_people_info(row):
             info['first-name'],
             info['last-name'])
         info['github'] = False
-    github = github.lower()
+    github = github.lower().replace(' ', '-')
     optional_info = ['email', 'twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
     for i in optional_info:
         if info[i] is None:
