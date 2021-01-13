@@ -6,11 +6,12 @@ import yaml
 from pathlib import Path
 
 
-def extract_people_info(row):
+def extract_people_info(row, people):
     '''Extract people information from a row of the csv
     and return them as a key and a dictionary
 
     :param row: df row
+    :param people: dictionary with people information
     '''
     info = {
         'first-name': row['First name'],
@@ -33,12 +34,16 @@ def extract_people_info(row):
             info['last-name'])
         info['github'] = False
     github = github.lower().replace(' ', '-')
+    info_k = list(info.keys())
     optional_info = ['email', 'twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
-    for i in optional_info:
+    for i in info_k:
+        if i == 'expertise' and info[i] is not None:
+            info['expertise'] = info['expertise'].split("; ")
         if info[i] is None:
-            del info[i]
-    if 'expertise' in info:
-        info['expertise'] = info['expertise'].split("; ")
+            if github in people and i in people[github]:
+                info[i] = people[github][i]
+            elif i in optional_info:
+                del info[i]
     return github, info
 
 
@@ -60,7 +65,7 @@ if __name__ == '__main__':
     df = pd.read_csv(information_fp)
     df = df.where(pd.notnull(df), None)
     for index, row in df.iterrows():
-        github, info = extract_people_info(row)
+        github, info = extract_people_info(row, people)
         if github not in people:
             print("Add info for %s" % github)
             people[github] = info
