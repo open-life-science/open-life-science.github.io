@@ -2460,9 +2460,27 @@ tsonika:
   twitter: tsonika
   website: https://bioinformaticslab.erc.monash.edu
 unode:
+  affiliation: European Molecular Biology Laboratory (EMBL)
+  bio: Renato is a computational biologist with a background in evolution, genomics
+    and the microbiome. Currently project and community manager of the [EMBL Bio-IT
+    project](https://bio-it.embl.de/), supporting the local bio-computational community
+    through training, consulting and core resources. Open-source and scientific reproducibility
+    advocate. When not tanning in front of a screen you may find him wandering the
+    green and blue in Nature.
+  country: Germany
   email: renato.alves@embl.de
-  first-name: null
-  last-name: null
+  expertise:
+  - Full-stack developer
+  - Computational Training
+  - Reproducibility
+  - Computational biology
+  - Metagenomics
+  - Meta-transcriptomics
+  first-name: Renato
+  last-name: Alves
+  orcid: 0000-0002-7212-0234
+  pronouns: he/him
+  twitter: renato_alvs
 valerie-parent:
   affiliation: 'Law Faculty, Université de Montréal '
   country: Canada
