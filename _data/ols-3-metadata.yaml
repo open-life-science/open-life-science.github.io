@@ -459,7 +459,6 @@ organizers:
 - malvikasharan
 - yochannah
 possible-mentors:
-- adam-gristwood
 - bebatut
 - bruno-soares
 - burkemlou
@@ -617,7 +616,6 @@ possible-mentors-with-expertise:
   Mentoring:
   - prashbio
   - yochannah
-  Mentorship:
   - malvikasharan
   Metadata:
   - malloryfreeberg
@@ -674,7 +672,7 @@ possible-mentors-with-expertise:
   - meagdoh
   Project management:
   - malloryfreeberg
-  Publishing web content with Wordpress or Jekyll and GitHub/GitLab Pages:
+  Publishing web content:
   - tobyhodges
   Python:
   - malvikasharan
