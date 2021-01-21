@@ -64,6 +64,7 @@ if __name__ == '__main__':
     information_fp = Path(args.information)
     df = pd.read_csv(information_fp)
     df = df.where(pd.notnull(df), None)
+    people_l = []
     for index, row in df.iterrows():
         github, info = extract_people_info(row, people)
         if github not in people:
@@ -72,6 +73,10 @@ if __name__ == '__main__':
         else:
             print("Update info for %s" % github)
             people[github] = info
+        people_l.append(github)
+    print("Full list")
+    people_l.sort()
+    print('- %s' % '\n- '.join(people_l))
 
     # dump people dictionary into people.yaml file
     with people_fp.open("w") as people_f:
