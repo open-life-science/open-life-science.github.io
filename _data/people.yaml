@@ -45,7 +45,7 @@ adam-gristwood:
     science communications. I am currently spreading the word about the importance
     and mystery of microbes living in the Ocean.  '
   city: Heidelberg
-  country: 'Germany '
+  country: Germany
   email: adamgristwood@gmail.com
   expertise:
   - Life science communications
@@ -133,7 +133,9 @@ alexandra-holinski:
   email: aholinski@ebi.ac.uk
   expertise:
   - Scientific Education and Training
-  - Course development, design and delivery
+  - Course development
+  - Course design
+  - Course delivery
   - Methods of interactive delivery (face-to-face and virtual courses)
   - Online training
   - Community building
@@ -172,18 +174,20 @@ anelda:
     make African data more accessible via the development of R building blocks; and
     2) Surveying Open Data Practices in 8 African countries, funded by the IDRC.'
   country: South Africa
-  email: anelda@talarify.co.za
+  email: Open science; Capacity development; Community building; Following the road
+    less travelled; Working with academia as non-academic; Setting up project websites
+    (as non-developer); Women in tech
   expertise:
   - Open science
   - Capacity development
   - Community building
   - Following the road less travelled
-  - Working with academia as non-academic
+  - ' Working with academia as non-academic'
   - Setting up project websites (as non-developer)
   - Women in tech
-  - Used to work in NGS
   first-name: Anelda
-  last-name: van der Walt
+  last-name: ' van der Walt'
+  orcid: 0000-0003-4245-8119
   pronouns: she/her
   twitter: aneldavdw
   website: http://www.talarify.co.za
@@ -382,10 +386,25 @@ beapdk:
   twitter: B_DeKoninck
 beatrizserrano:
   affiliation: University of Freiburg
+  bio: Bea participated in OLS-2 with the project "Growing the Galaxy Community",
+    mentored by Dave Clements. Since September 2020, she is working in the European
+    Galaxy team helping with the coordination of the Global Galaxy Community. Initially
+    trained in Computer Science, PhD in Computational Biology, and postdoc at EMBL
+    Heidelberg related to imaging within the context of EOSC-Life.
+  city: Freiburg
   country: Germany
   email: beatrizserrano.galaxy@gmail.com
+  expertise:
+  - Community management
+  - Computational biology
+  - Women in STEM
+  - Ontologies
+  - Imaging
+  - R
+  - Project management
   first-name: Beatriz
   last-name: Serrano-Solano
+  orcid: 0000-0002-5862-6132
   pronouns: she/her
   twitter: Birthae
 bebatut:
@@ -397,6 +416,7 @@ bebatut:
     project](https://training.galaxyproject.org/). She is a co-deputy training coordinator
     for ELIXIR Germany ([de.NBI](https://www.denbi.de/), and a founder of [Street
     Science Community](https://streetscience.community/), an outreach program.
+  city: Freiburg
   country: Germany
   email: berenice.batut@gmail.com
   expertise:
@@ -406,8 +426,16 @@ bebatut:
   - Bioinformatics
   - High-throughput sequencing
   - Metagenomics
+  - Wordpress
+  - Jekyll
+  - GitHub/GitLab Pages
+  - Designing and developing training material
+  - Collaborating with Git & GitHub/GitLab
+  - Git
+  - GitHub
+  - GitLab
+  - Publishing web content
   first-name: Bérénice
-  gitter: bebatut
   last-name: Batut
   orcid: 0000-0001-9852-1987
   pronouns: she/her
@@ -605,12 +633,22 @@ crangelsmith:
   pronouns: she/her
   twitter: camilarangels
 da5nsy:
+  affiliation: NIH
+  bio: I'm a color vision researcher and open science advocate.
+  city: Washington DC
   country: USA
   email: dannygarside@outlook.com
-  first-name: Daniel
+  expertise:
+  - Registered reports
+  - Peer review
+  - Open publishing
+  - Preprints
+  first-name: Danny
   last-name: Garside
-  pronouns: he/his
+  orcid: 0000-0002-4579-003X
+  pronouns: he/him
   twitter: da5nsy
+  website: https://dannygarside.co.uk
 dannycolin:
   affiliation: Université de Montréal
   country: Canada
@@ -731,12 +769,28 @@ ealescak:
   twitter: elescak
   website: https://www.linkedin.com/in/emily-lescak-b4652446/
 ekaroune:
-  country: UK
+  affiliation: The Alan Turing Institute
+  bio: I'm an Open Archaeobotanist specialising in phytolith research. I'm currently
+    working on building a community of open scientists in my field to address issues
+    such as data sharing, FAIR data, open access and upskilling researchers in open
+    science skills. I'm also working as a Community Manager at the Alan Turing Institute
+    on the DECOVID project and I am an contributor to The Turing Way.
+  city: Portsmouth
+  country: United Kingdom
   email: ekaroune@googlemail.com
+  expertise:
+  - Environmental Archaeology
+  - Palaeoecology
+  - FAIR
+  - Collaborative working
+  - Open workflows
+  - Reproducibility
   first-name: Emma
   last-name: Karoune
-  pronouns: she/her
-  website: ekaroune
+  orcid: 0000-0002-6576-6053
+  pronouns: She/her
+  twitter: ekaroune
+  website: https://ekaroune.github.io/Open-Science-in-Phytolith-Research/
 ekeluv:
   affiliation: Medical biosciences UWC
   country: South Africa
@@ -801,6 +855,30 @@ evacherbst:
   last-name: Herbst
   pronouns: she/her
   twitter: EvaCHerbst
+ewallace:
+  affiliation: 0000-0001-8025-6361
+  bio: Dr. Wallace is a Sir Henry Dale Fellow (PI) in the Institute of Cell Biology
+    at the University of Edinburgh. He was trained in mathematics, systems biology,
+    and biochemistry, and now leads an interdisciplinary group studying RNA biology
+    of fungi with data-intensive approaches. Alongside his research, Dr. Wallace is
+    an open science advocate and teaches data literacy to scientists, working with
+    Edinburgh Carpentries.
+  city: Edinburgh
+  country: United Kingdom
+  email: edward.wallace@ed.ac.uk
+  expertise:
+  - RNA biology
+  - Bioinformatics
+  - Sequencing workflows
+  - Training
+  - Working open
+  - FAIRification
+  - Persuading sceptical colleagues
+  first-name: Edward
+  last-name: Wallace
+  pronouns: he, him
+  twitter: ewjwallace
+  website: http://ewallace.github.io/
 ewuramaminka:
   affiliation: University of Manchester
   country: UK
@@ -928,9 +1006,9 @@ harpreetsingh05:
   - Molecular Modeling
   - Machine learning
   - R Programming
-  first-name: harpreet
+  first-name: Harpreet
   last-name: Singh
-  orcid: https://orcid.org/0000-0001-7202-3912
+  orcid: 0000-0001-7202-3912
 hdinkel:
   bio: Holger is the head of Core IT team at the Max Planck Institute for Biolological
     Cybernetics. He enjoys the technical aspects of science - be it programming (Python),
@@ -980,7 +1058,7 @@ hrhotz:
   - Bioinformatics
   - Next Generation Sequencing
   first-name: Hans-Rudolf
-  last-name: ' Hotz'
+  last-name: Hotz
   orcid: 0000-0002-2799-424X
   twitter: hrhotz
   website: https://www.fmi.ch/
@@ -1008,6 +1086,33 @@ inquisitivevi:
   orcid: 0000-0002-3445-5383
   pronouns: he/him
   twitter: I_Vinodh
+iratxepuebla:
+  affiliation: ASAPbio
+  bio: 'I am Associate Director for ASAPbio, a nonprofit with a mission to accelerate
+    innovation and transparency in life sciences communication. In this role I work
+    to foster awareness of preprints and drive community engagement, and support initiatives
+    to bring further transparency into peer review.
+
+
+    Prior to ASAPbio, I worked in publishing for 16 years, I held editorial roles
+    with Open Access publishers, initially at BioMed Central and then PLOS, where
+    I was Deputy Editor-in-Chief at the journal PLOS ONE. I am also Facilitation and
+    Integrity Officer for the Committee on Publication Ethics (COPE).'
+  city: Cambridge
+  country: United Kingdom
+  email: iratxe.puebla@asapbio.org
+  expertise:
+  - Preprints
+  - Science communication
+  - Publishing, peer review
+  - Community engagement
+  - Research integrity
+  first-name: Iratxe
+  last-name: Puebla
+  orcid: ' 0000-0003-1258-0746'
+  pronouns: she/her
+  twitter: IratxePuebla
+  website: https://asapbio.org/dt_team/iratxe-puebla
 ismael-kg:
   affiliation: The Alan Turing Institute
   country: UK
@@ -1116,18 +1221,21 @@ joel-hancock:
   last-name: Hancock
   pronouns: he/his
 joelostblom:
-  bio: Joel is a Biomedical Engineering PhD student who enjoys learning and teaching
-    how to better understand data (and thus the world around us!). He is also passionate
-    about openness,  reproducibility, and data visualization, both within science
-    and in general.
+  affiliation: University of British Columbia
+  bio: Joel is a Teaching Fellow for a graduate Data Science program. He did his PhD
+    in Stem Cell Engineering and enjoys learning and teaching how to better understand
+    data (and thus the world around us!). He is also passionate about openness, reproducibility,
+    and data visualization, both within science and in general.
+  city: Vancouver
   country: Canada
   email: joel.ostblom@gmail.com
   expertise:
-  - Static  and interactive data visualization
+  - Static and interactive data visualization
   - Introductory data science
   - Reproducible analysis workflows
   - Image analysis
   - Python
+  - Git
   - Project organization
   - Stem cell biology
   - Bioengineering
@@ -1135,7 +1243,32 @@ joelostblom:
   last-name: Ostblom
   orcid: 0000-0003-0051-3239
   pronouns: he/him
+  twitter: joelostblom
   website: https://joelostblom.com
+johav:
+  affiliation: Access 2 Perspectives
+  bio: With a background in Evolution and Developmental Biology, Dr. Johanna Havemann
+    is a trainer and consultant in [Open] Science Communication and [digital] Science
+    Project Management. Her work experience covers NGOs, a science startup and international
+    institutions including the UN Environment Programme. With a focus on digital tools
+    for science and her label Access 2 Perspectives, she aims at strengthening global
+    science communication in general – and with a regional focus on Africa – through
+    Open Science.
+  city: Berlin
+  country: Germany
+  email: jo@access2perspectives.com
+  expertise:
+  - Open Science
+  - Open Access
+  - Scientific Writing
+  - Research Data Management
+  - EvoDevo
+  - Research in Africa
+  first-name: Jo
+  last-name: Havemann
+  orcid: 0000-0002-6157-1494
+  twitter: openscicomm
+  website: https://access2perspectives.com
 jonny-heath:
   bio: 'I am a poet and performance artist. One of my main practices is ''empathic
     literature'', in which a conversation with an individual leads to my creating
@@ -1159,12 +1292,30 @@ joshsimmons:
   last-name: Simmons
   twitter: joshsimmons
 joyceykao:
+  affiliation: Open Innovation in Life Sciences Association
+  bio: I am a recovering academic researcher (in evolutionary biology), who is currently
+    occupied with the use and development of web-based applications, using tech to
+    make processes efficient and reproducible, and growing the Open Innovation in
+    Life Sciences association to promote open science among early career researchers
+    in Switzerland. In my spare time, I watch a lot of Netflix (i.e., crime dramas,
+    sci-fi, RPDR)  and go on long walks with my family in the Swiss countryside.
+  city: Zurich
   country: Switzerland
-  email: joyce.kao@biol.ethz.ch
+  email: joyceykao@gmail.com
+  expertise:
+  - Web applications
+  - App/software development
+  - Conference organization
+  - Virtual events
+  - Community building
+  - Evolutionary biology
+  - Computational biology
   first-name: Joyce
   last-name: Kao
+  orcid: 0000-0003-2082-6937
   pronouns: she/her
   twitter: joyceykao
+  website: https://joyceykao.github.io/
 karegapauline:
   country: Kenya
   email: karegapaul@gmail.com
@@ -1226,12 +1377,27 @@ karvovskaya:
   pronouns: she/her
   twitter: LangData
 katesimpson:
-  country: UK
+  affiliation: Imperial College London/ Visiting Alan Turing Institute
+  bio: I am a research associate focused on reducing the energy demand of existing
+    housing. I am passionate about making research, tools, code and data open access,
+    where ethical. As a recent graduate of OLS-2, I continue to learn in this space.
+  city: London
+  country: United Kingdom
   email: kate.simpson@imperial.ac.uk
+  expertise:
+  - Open scholarship
+  - Community development
+  - User-centered design, buildings, energy, environment quality
+  - Data-driven evaluation of building performance
+  - Engineering-based modelling
+  - Mixed-method research
+  - Social networks
   first-name: Kate
   last-name: Simpson
-  pronouns: she/her
+  orcid: 0000-0002-9105-8181
+  pronouns: She/Her
   twitter: Dr_KateSimpson
+  website: https://www.turing.ac.uk/people/researchers/kate-simpson
 katoss:
   country: France
   email: katharina.kloppenborg@gmail.com
@@ -1400,19 +1566,43 @@ kswhitney:
   website: https://rit.edu/sweetlab
 landimi2:
   affiliation: International Livestock Research Institute
+  bio: I am an EANBiT scholar from Pwani University with an MSc in Bioinformatics.
+    I have developed a keen interest in immune-informatics, genomics and developing
+    workflow management systems to enhance reproducible and scalable data analysis.
+    I am a certified software carpentry instructor and an Open Life Science (OLS),
+    graduate.
+  city: Nairobi
   country: Kenya
+  email: landycofia@gmail.com
+  expertise:
+  - Bioinformatics
+  - Community based projects
   first-name: Michael
-  last-name: Kofia Landi
-  pronouns: he/him
+  last-name: Landi
+  pronouns: He/Him
   twitter: CofiaLandy
 lauracarter:
   affiliation: University of Essex
+  bio: 'Laura is a PhD candidate at the University of Essex, researching the use of
+    data assemblages in the public sector in England. Before this, she worked for
+    almost a decade as a researcher at Amnesty International, focusing on gender,
+    women''s rights, and LGBTI rights. She believes in research as a means to an end:
+    to building a better world for everyone.'
   country: UK
   email: laura.carter@essex.ac.uk
+  expertise:
+  - Human rights
+  - Data usage in the public sector
+  - Gender and stereotyping
+  - Feminist and queer approaches to tech and data
+  - Ethical and reflexive research methodologies
+  - Equality, Anti-discrimination and justice
   first-name: Laura
   last-name: Carter
+  orcid: 0000-0002-4285-1140
   pronouns: she/her
   twitter: LauraC_rter
+  website: https://lauracarter.github.io
 lauracion:
   affiliation: University of Buenos Aires - CONICET
   bio: I am a tenured adjunct researcher leading a health data science group. I also
@@ -1573,11 +1763,12 @@ malvikasharan:
     Institute](https://software.ac.uk/about/fellows/malvika-sharan), a board member
     of [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a contributing
     member of [The Carpentries](https://carpentries.org/) community.'''
+  city: London
   country: UK
   email: malvikasharan@gmail.com
   expertise:
   - Community building
-  - Mentorship
+  - Mentoring
   - Data Science best practices
   - Inclusive and collaborative practices
   - Python
@@ -1586,11 +1777,44 @@ malvikasharan:
   - Bioinformatics
   - Algorithm design
   first-name: Malvika
-  gitter: malvikasharan
   last-name: Sharan
   orcid: 0000-0001-6619-7369
   pronouns: she/her
   twitter: MalvikaSharan
+margaret-wanjiku:
+  city: Nairobi
+  country: Kenya
+  email: margaretwmugure@gmail.com
+  first-name: Margaret
+  github: false
+  last-name: Wanjiku
+  twitter: meg_wanjiku
+marta-lloret-llinares:
+  affiliation: EMBL-EBI
+  bio: Marta is a scientific project manager within the training team at EMBL-EBI.
+    She organises and facilitates training activities in several European projects.
+    Marta focuses on providing a great learning experience for participants. She has
+    a background in molecular biology, where her focus was on understanding gene expression.
+  city: Cambridge
+  country: UK
+  email: marta.lloret@ebi.ac.uk
+  expertise:
+  - Course design
+  - Online training
+  - Course organisation
+  - Community building
+  - Competency frameworks
+  - Molecular biology
+  - Gene expression
+  - RNA
+  - Chromatin
+  - Differentiation of mESC
+  - Drosophila melanogaster
+  first-name: Marta
+  github: false
+  last-name: Lloret Llinares
+  orcid: 0000-0002-8205-9799
+  pronouns: She/her
 martenson:
   bio: Martin is a computer fellow with an interest to help scientists tackle heaps
     of data. Spent last 7 years working on Galaxy project core codebases.
@@ -1695,6 +1919,22 @@ mesfind:
   pronouns: he/him
   twitter: mesfindiro
   website: https://mesfind.github.io
+mishrose123:
+  affiliation: EMBL-EBI
+  bio: I am a social media professional with experience in creating content for scientific
+    organisation social media accounts.
+  city: Cambridge
+  country: United Kingdom
+  email: mmendonca@ebi.ac.uk
+  expertise:
+  - Science communication using social media
+  - Creating digital content
+  - Aligning digital strategy with research goals
+  first-name: Michelle
+  last-name: Mendonca
+  pronouns: she/her
+  twitter: mishrose2
+  website: https://www.ebi.ac.uk/about/people/michelle-mendonca
 mkuzak:
   bio: 'Mateusz is Research Software Community Manager at the Netherlands eScience
     Center. He has background in life sciences and have been working with bioinformatics
@@ -1827,6 +2067,21 @@ nerantzis:
   pronouns: he/him
   twitter: nerantzis
   website: https://4myfiles.wordpress.com
+nomadscientist:
+  affiliation: EMBL-EBI
+  bio: I teach bioinformatics using Galaxy, I teach martial arts, and I hate onions.
+    No seriously, I hate them. With my very soul.
+  city: Cambridge
+  country: United Kingdom
+  email: wendi.bacon@gmail.com
+  expertise:
+  - Bioinformatics
+  - Single cell transcriptomes
+  - Galaxy
+  first-name: Wendi
+  last-name: Bacon
+  orcid: 0000-0002-8170-8806
+  pronouns: She/her
 npalopoli:
   affiliation: Universidad Nacional de Quilmes & CONICET
   bio: Computational biologist interested in understanding the functional nature of
@@ -2004,10 +2259,10 @@ prashbio:
   expertise:
   - Systems Biology
   - Bioinformatics
-  - 'Mentoring '
+  - Mentoring
   first-name: Prashanth N.
   last-name: Suravajhala
-  orcid: https://orcid.org/0000-0002-8535-278X
+  orcid: 0000-0002-8535-278X
   pronouns: He
   twitter: prashbio
   website: https://www.bioinformatics.org/wiki/Prash
@@ -2158,10 +2413,21 @@ samuelorion:
   twitter: kernow_qc
 samvanstroud:
   affiliation: UCL
+  bio: Sam is a PhD Student at the UCL Data Intensive Science CDT. Hi is an OLS-2
+    graduate and works on the ATLAS experiment at CERN.
+  city: London
   country: UK
   email: sam.vanstroud.18@ucl.ac.uk
-  first-name: Samuel
-  last-name: van Stroud
+  expertise:
+  - Data Science
+  - GitHub
+  - Software development
+  - Python
+  - Machine learning
+  - Particle Physics
+  first-name: Sam
+  last-name: Van Stroud
+  orcid: 0000-0002-7969-0301
 santosrac:
   bio: Bioinformatician working on genomics and transcriptomics of ascomycete and
     basidiomycete fungi. Interested in education, teaching programming skills to bioscientists,
@@ -2232,10 +2498,12 @@ serahrono:
   expertise:
   - Web development
   - Open source
-  - Community building and sustainability
-  - Accessibility, Documentation
-  - Rsource development
-  - Communications
+  - Community building
+  - Community sustainability
+  - Accessibility
+  - Documentation
+  - Ressource development
+  - Communication
   - Outreach
   - Event planning
   - Public speaking
@@ -2275,6 +2543,23 @@ sk-sahu:
   last-name: Sahu
   pronouns: he/him
   twitter: sangram_ksahu
+smklusza:
+  affiliation: Clayton State University
+  bio: Dr. Klusza is a disabled (deaf) Assistant Professor of Biology at Clayton State
+    University in the United States. He is a life-long developmental geneticist with
+    high enthusiasm for synthetic biology, open science, and increasing accessibility
+    to science and education for all people.
+  city: Morrow, Georgia
+  country: United States
+  email: smklusza@gmail.com
+  expertise:
+  - Synthetic biology
+  - Developmental genetics (fruit fly)
+  first-name: Stephen
+  last-name: Klusza
+  orcid: 0000-0003-0943-1846
+  pronouns: he/him/his
+  twitter: codebiologist
 sofia-kirke-forslund:
   bio: Swedish-born computational biologist, since 2018 heading systems medicine (host-microbiome
     focus, 'association hunting') lab in Berlin, interested in too many things. AMR,
@@ -2315,14 +2600,33 @@ stefan-gaillard:
   last-name: Gaillard
   pronouns: he/him
   twitter: sdmgaillard
-stephen-klusza:
-  country: USA
-  email: smklusza@gmail.com
-  first-name: Stephen
-  github: false
-  last-name: Klusza
-  pronouns: he/him
-  twitter: codebiologist
+stefaniebutland:
+  affiliation: rOpenSci
+  bio: I have my dream job as the Community Manager for rOpenSci. I'm a biologist,
+    bioinformatician, and compulsive people-connector and knowledge-sharer. I was
+    one of the inaugural AAAS Community Engagement Fellows and am actively involved
+    with the new Center for Scientific Collaboration and Community Engagement. My
+    former research life involved bacteria, plants, insects, and mammals, first at
+    the bench and then on a laptop. At rOpenSci I'm helping building up the social
+    and technical infrastructure for open and reproducible research with shared data
+    and reusable software.
+  city: Kamloops
+  country: Canada
+  email: stefaniebutland@gmail.com
+  expertise:
+  - Community building
+  - Communicating in the open
+  - Maintaining a blog
+  - Open software peer review
+  - R
+  - GitHub
+  - Virtual events
+  first-name: Stefanie
+  last-name: Butland
+  orcid: 0000-0002-5427-8951
+  pronouns: she/her
+  twitter: stefaniebutland
+  website: https://stefaniebutland.netlify.app/
 sudarshangc:
   affiliation: Media Lab Nepal
   country: Nepal
@@ -2331,10 +2635,23 @@ sudarshangc:
   pronouns: he/him
   twitter: Sudarsh07847591
 tai-rocha:
+  affiliation: Botanical Garden of Rio de Janeiro
+  bio: 'I''m a biologist interested in many fields of  biodiversity, especially about
+    patterns of distribution in time/space and why. I''m also really interested in
+    open science, softwares and databases to work in biodiversity and of course good
+    workflows 🤓. I''m happy when I exchange knowledge and help others 🙃 .
+
+    '
+  city: Rio de Janeiro
   country: Brazil
   email: taina013@gmail.com
+  expertise:
+  - Patterns of biodiversity distribution in time and space
+  - Impacts of climate change on biodiversity
+  - Spatial analysis
   first-name: Tainá
   last-name: Rocha
+  orcid: 0000-0001-6874-2447
   twitter: Tai_Rocha_
 thessaly:
   affiliation: CENIT-UNSAM
@@ -2378,8 +2695,15 @@ tklingstrom:
   pronouns: he/him
   website: https://www.slu.se/en/ew-cv/tomas-klingstrom/
 tlaguna:
+  affiliation: IMDEA Food Research Institute
+  city: Madrid
   country: Spain
   email: teresa.laguna@imdea.org
+  expertise:
+  - Bionformatics
+  - Immunology
+  - Nutrition
+  - Citizen Science
   first-name: Teresa
   last-name: Laguna
   twitter: teresa__laguna
@@ -2417,7 +2741,10 @@ tobyhodges:
   - Git
   - GitHub
   - GitLab
-  - Publishing web content with Wordpress or Jekyll and GitHub/GitLab Pages
+  - Publishing web conten
+  - Wordpress
+  - Jekyll
+  - GitHub/GitLab Pages
   - Scientific community engagement
   - Teaching and organising workshops
   first-name: Toby
@@ -2460,9 +2787,28 @@ tsonika:
   twitter: tsonika
   website: https://bioinformaticslab.erc.monash.edu
 unode:
+  affiliation: European Molecular Biology Laboratory (EMBL)
+  bio: Renato is a computational biologist with a background in evolution, genomics
+    and the microbiome. Currently project and community manager of the [EMBL Bio-IT
+    project](https://bio-it.embl.de/), supporting the local bio-computational community
+    through training, consulting and core resources. Open-source and scientific reproducibility
+    advocate. When not tanning in front of a screen you may find him wandering the
+    green and blue in Nature.
+  city: Heidelberg
+  country: Germany
   email: renato.alves@embl.de
-  first-name: null
-  last-name: null
+  expertise:
+  - Full-stack developer
+  - Computational Training
+  - Reproducibility
+  - Computational biology
+  - Metagenomics
+  - Meta-transcriptomics
+  first-name: Renato
+  last-name: Alves
+  orcid: 0000-0002-7212-0234
+  pronouns: he/him
+  twitter: renato_alvs
 valerie-parent:
   affiliation: 'Law Faculty, Université de Montréal '
   country: Canada
@@ -2529,13 +2875,12 @@ yochannah:
     and a software developer at the University of Cambridge, working on an open source
     biological data warehouse called [InterMine](http://intermine.org/).
   country: UK
-  email: yoyehudi@gmail.com
+  email: yochannah@gmail.com
   expertise:
   - Software development
   - Community building
   - Mentoring
   first-name: Yo
-  gitter: yochannah
   last-name: Yehudi
   orcid: 0000-0003-2705-1724
   pronouns: they/them
