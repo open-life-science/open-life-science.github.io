@@ -6,6 +6,10 @@ import yaml
 from pathlib import Path
 
 
+optional_info = ['email', 'twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
+to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
+
+
 def extract_people_info(row, people):
     '''Extract people information from a row of the csv
     and return them as a key and a dictionary
@@ -14,8 +18,8 @@ def extract_people_info(row, people):
     :param people: dictionary with people information
     '''
     info = {
-        'first-name': row['First name'],
-        'last-name': row['Last name'],
+        'first-name': row['First name'].rstrip(),
+        'last-name': row['Last name'].rstrip(),
         'email': row['Email'],
         'twitter': row['Twitter username'],
         'website': row['Website'],
@@ -23,27 +27,45 @@ def extract_people_info(row, people):
         'affiliation': row['Affiliation'],
         'city': row['City'],
         'country': row['Country'],
-        'pronouns': row['Preferred pronouns (optional)'],
+        'pronouns': row['Pronouns'],
         'expertise': row['Areas of expertise'],
         'bio': row['Bio']
     }
+    # get id
     github = row['Github username']
     if github is None:
         github = '%s-%s' % (
             info['first-name'],
             info['last-name'])
         info['github'] = False
+    github = github.replace('https://github.com/', '')
+    github = github.rstrip()
     github = github.lower().replace(' ', '-')
+    # format ORCID
+    if info['orcid'] is not None:
+        info['orcid'] = info['orcid'].replace('https://orcid.org/', '')
+    # format Twitter 
+    if info['twitter'] is not None:
+        info['twitter'] = info['twitter'].replace('@', '')
+    # format expertise
+    if info['expertise'] is not None:
+        info['expertise'] = info['expertise'].rstrip().split("; ")
+    # format website
+    if info['website'] is not None and not info['website'].startswith('https'):
+        info['website'] = 'https://%s' % info['website']
+    # check info and remove optional empty info
     info_k = list(info.keys())
-    optional_info = ['email', 'twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
     for i in info_k:
-        if i == 'expertise' and info[i] is not None:
-            info['expertise'] = info['expertise'].split("; ")
         if info[i] is None:
             if github in people and i in people[github]:
                 info[i] = people[github][i]
             elif i in optional_info:
                 del info[i]
+        else:
+            if i != 'expertise' and i != 'github':
+                info[i] = info[i].rstrip()
+            if i in to_capitalize_info:
+                info[i] = info[i].title()
     return github, info
 
 
