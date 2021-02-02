@@ -234,3 +234,29 @@ To order them:
    ```
    $ python bin/sort-expertises.py -c <cohort id>
    ```
+
+## Add projects
+
+1. Create a CSV with for each project the following information
+   - `Title`
+   - `Mentor 1`
+   - `Authors`
+   - `Project-description`
+   - `Comment regarding review` (with `rejected` if needed)
+
+2. Activate the conda environment
+
+   ```
+   $ source activate open-life-science-website
+   ```
+
+   Or alternatively, get locally:
+   - Python 3.*
+   - pyyaml
+   - pandas
+
+3. Run the script which extract project information from a CSV file and add them in project file
+
+   ```
+   $ python bin/add-projects.py -c <cohort id> -p <path to csv file>
+   ```

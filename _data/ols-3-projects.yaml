@@ -2,10 +2,728 @@
 #
 # Check previous OLS for examples
 ---
-#- name: 
-#  participants:
-#    - 
-#  mentors:
-#    - 
-#  description: |
-    
+- description: Citizen science revolves around the idea of integrating the public
+    in scientific research. However, there are different interpretations of this idea.
+    An important part of citizen science projects allows laymen only to participate
+    in a limited scope of microtasks and keeps thus reinforcing the power gap between
+    academic scientists and the public. Literature has called for more autonomy of
+    citizen scientists by allowing them to participate in more phases of the research
+    cycle. Commons-based peer-production, an alternative mode of production in which
+    people self-organize to develop complex knowledge-commons like Wikipedia or open
+    software, seems to be a promising approach to facilitate this. However, a design-centred
+    approach implementing this for a specific use case is yet to be done. In my PhD
+    project I am trying to fill this gap by redesigning the online ecosystem of Open
+    Humans - an existing community of practice around citizen science - collaborating
+    closely with this community in a user-centered design approach. As one of the
+    first steps, I am working on a best practices guide, summarizing the experiences
+    of existing similar projects.
+  mentors:
+  - fpsom
+  name: Best practices for online collaboration/peer-production in citizen science
+  participants:
+  - katoss
+- description: VCMS (vcms.simonduerr.eu) is convenient tool to setup a website for
+    a virtual conference including an abstract submission portal, timezone adapted
+    scheduling of talks and an interactive virtual poster session with video chat
+    and spotlights for posters with some features still in development. The tool is
+    currently in beta and will be released as FOSS under MPL once the software is
+    battle tested (in mid february).
+  mentors:
+  - ealescak
+  name: A virtual conference managment system with seamless open science integration
+  participants:
+  - duerrsimon
+- description: 'The “Memory Collecting: Croatian Homeland War” project aims to create
+    a platform where survivors can submit video recordings of their own memories and
+    reflections of the 1992 Homeland War. The repository will also store them in a
+    publicly accessible database. By having the software be open to citizen scientists,
+    the database will be one of the most inclusive and easily accessible memory banks.
+    This initiative seeks to preserve the memory of the role of Croatian-Americans
+    in the creation of free, modern Croatia during the Homeland War in the 1990s.'
+  mentors:
+  - katesimpson
+  name: 'Memory Collecting: Croatian Homeland War'
+  participants:
+  - annalee-sekulic
+- description: "I want to help build a culture of open science and good practice (as\
+    \ well as fun) within the plant synthetic biology community, with an initial emphasis\
+    \ on the US. \n\nI hope to do this by (1) establishing an open toolset for genetic\
+    \ manipulation of algae and photosynthesis enzymes (2) developing an open repository\
+    \ of protocols for genetic manipulation (3) producing educational resources to\
+    \ aid experimentation, both in academia and for citizen scientists (4) building\
+    \ a community of interested individuals to expand and contribute to the project."
+  mentors:
+  - smklusza
+  name: Open Phototroph
+  participants:
+  - sjb287
+- description: An open-source software tool and associated protocol repository that
+    translates wet-lab protocols into instruction sets for commonly available robotic
+    liquid handlers. Protocols will be hosted on a publically accessible website,
+    and community members can edit, annotate, and report on different protocols. Think
+    Github for biological protocols with an issue tracker.
+  mentors: []
+  name: Opensource Transpiler of Synthetic Biology Lab Protocols for Wetlab Robotics
+  participants:
+  - '0x174'
+- description: This project is a field and laboratory based research project researching,
+    surveying, and discovering the palaeoecology and palaeogeography of West Cork.
+    The project will make use of:- paper research methods; sampling and scientific
+    analysis of sediments; digital mapping; field and site visits and landscape analysis;
+    scientific processing, analysis and identification of microfossils from sediments;
+    site visits and surveys; ecological surveys; and local enquiry. Results and findings
+    will be published on a website in the form of:- stories, accounts, photographs,
+    digital interactive maps, and graphics, with a prime emphasis on accessibility,
+    understandability, relevance. Principal attention will be paid to environmental
+    areas that are productive of microfossils (bog and lake sediments); that have
+    distinctive landscape features and sediment types (relict glacial and past and
+    present fluvial landscape features); different natural habitat types and plant
+    and animal communities; geological distinctiveness; and archaeological sites.
+    Emphasis will be placed on the interconnectedness of these aspects of the current
+    and past environments. The final step will be to show how, in each area, however
+    local, these many and varied aspects have contributed to the present landscape
+    and environment and thus to give an understanding how the future development may
+    progress.
+  mentors:
+  - bruno-soares
+  name: Field and laboratory based research project researching, surveying, and discovering
+    the palaeoecology and palaeogeography of West Cork
+  participants:
+  - robin-lewando
+- description: 'Actigraphy provides a measure of the 24h rest-activity cycles based
+    on movement counts, typically of the wrist. It is obtained using wearable devices
+    and is a widely used, non-invasive way to determine sleep and circadian properties.
+    Importantly, metrics derived from actigraphy are being increasingly used in clinical
+    contexts, where groups of psychiatric and neurological patients in specific conditions
+    have found to be exhibit abnormal rest-activity rhythms and sleep. Sleep and circadian
+    parameters from actigraphy are derived measures. These are obtained by converting
+    the movements counts (usually obtained at a resolution of 1 minutes) into sleep
+    parameters and circadian metrics using  algorithms raging from threshold-based
+    computations to machine learning techniques. Unfortunately, at present, there
+    are no standards or schemas for specifying and sharing actigraphy data and corresponding
+    algorithms.
+
+
+    The goal of this project is to develop a common schema for the use, analysis,
+    reporting and open and interoperable sharing of actigraphy data across different
+    actigraphy devices produced by different commercial manufacturers and for use
+    by researchers and research users. This project builds upon core research and
+    technical expertise amongst the team members, and provides a framework to structure
+    the work of the newly funded Chronobiology Data Standards Interest Group (CDSIG).'
+  mentors:
+  - malloryfreeberg
+  name: Open data schema for actigraphy data in chronobiology and sleep research
+  participants:
+  - spitschan
+  - ''
+  - ''
+  - ''
+  - ghammad
+  - ''
+- description: BioFerm is a web application platform which can be used for kinetic
+    study, simulation and optimization of bioprocesses. The user is able to calculate
+    the best initial conditions as well as overall operating conditions which will
+    result in the highest product yield (or any user specified output). Kinetic modelling
+    can also be done to further analyse the process and to calculate and estimate
+    yield and kinetic parameters respectively. This allows the prediction of substrate,
+    product and biomass concentrations over the bioprocess period. The BioFerm web
+    application will be able to take in a variety of bioreactor configurations (batch,
+    fed batch, continuous) and  fit the results to a variety of models(inhibition
+    and non-inhibition) to return the above mentioned parameters. The software is
+    currently being written in Python using an open-source app framework(streamlit)
+    to run the app but will later be written using Django, also a popular web framework.
+  mentors:
+  - unode
+  name: 'BioFerm: A web application used for kinetic modeling, parameter estimation
+    and simulation of bioprocesses'
+  participants:
+  - olayile
+- description: "This project will investigate existing literature on the benefits,\
+    \ risks, and limitations of open data practices in Australian environmental archaeology,\
+    \ seeking to characterise the ethical and practical issues associated with the\
+    \ dissemination of data owned or stewarded (either wholly or in part) by Indigenous\
+    \ communities. Environmental archaeology, and its partner field of palaeoecology,\
+    \ is inherently interdisciplinary, drawing on diverse lines of evidence including\
+    \ faunal and botanical remains, geomorphological records, and Indigenous knowledges\
+    \ in order to understand past and present human-environmental relationships. \n\
+    The project will consider the tensions between Western scientific and Indigenous\
+    \ epistemologies, including the ways in which ‘data’ are understood and connected\
+    \ (or disconnected) to people and places, and where the boundaries of ‘archaeological’\
+    \ and ‘non-archaeological’ environmental records lie. This project will provide\
+    \ the groundwork for the development of a larger, collaborative project engaging\
+    \ Indigenous and non-Indigenous researchers to advance a Code of Conduct for Australian\
+    \ archaeologists and palaeoecologists seeking to work openly while supporting\
+    \ the rights of Indigenous communities to manage access as they consider appropriate."
+  mentors:
+  - estherplomp
+  name: Intellectual Property, Indigenous Knowledges, and the Rise of Open Data in
+    Australian Environmental Archaeology.
+  participants:
+  - carly-monks
+- description: The MiSET initiative aims to develop a minimum set of quality standards
+    in the form of a quality assessment tool that evaluates the technical aspects
+    of cytometry publications, and to fully integrate these flow cytometry standards
+    into grant submission and publication requirements across scientific fields (Lucas
+    et al., Cytometry A 2019).
+  mentors: []
+  name: 'MiSET Publication Standards: A tool for AI-assisted peer-review of experimental
+    information'
+  participants:
+  - fabienne-lucas
+- description: Genetic variants of APOL1 commonly found in people of recent African
+    ancestry can predispose to chronic kidney disease. It is however unknown if and
+    to what extent the variants are present outside of Africa. This project aims to
+    create a visual representation of the global distribution of the frequencies of
+    these genetic variants, by mining genomic information from publicly available
+    datasets.
+  mentors: []
+  name: Global Distribution of APOL1 Genetic variants
+  participants:
+  - john-ogunsola
+- description: "LA-CoNGA physics is an Erasmus+ project, an European-Latinamerican\
+    \ network of 11 universities, 9 research institutions and 3 industrial partners\
+    \ (2 of them being in the data science field) in advanced physics. We aim to create\
+    \ a set of postgraduate courses in Advanced Physics (high energy physics and complex\
+    \ systems) that will be common and inter-institutional, supported by the installation\
+    \ of interconnected instrumentation laboratories. This program will be inserted\
+    \ as a specialization in the Physics masters of the 8 Latinamerican partners in\
+    \ Colombia, Ecuador, Peru and Venezuela. It will comply with the Bologna protocols\
+    \ and is based on three pillars: courses in physics theory/phenomenology, data\
+    \ science and instrumentation. \n\nWe are guided by the principles of open science\
+    \ and education:\n*Content should be engaging and pedagogical\n*The content will\
+    \ be created and made available following the FAIR principles\n*Reproducibility\
+    \ is the base of the data science pillar. We want to teach the students how to\
+    \ use the correct tools to work with large amounts of data but also create an\
+    \ environment where the reproducibility of their work, tasks and projects is inculcated\
+    \ and applied from the first day\n\nOur website: https://laconga.redclara.net\n\
+    Our github repository: https://github.com/LA-CoNGA"
+  mentors:
+  - lauracion
+  name: LA-CoNGA physics (Latin American alliance for Capacity buildiNG in Advanced
+    physics)
+  participants:
+  - camachoreina
+- description: Inspired by the social clubs founded by Benjamin Franklin, the Junto
+    Labs initiative seeks to provide life science researchers with an online space
+    for pursuing collaborative research and supporting active learning. Life science
+    laboratories can be open and highly collaborative spaces for in person research,
+    learning and discovery. While online tools, such as Git and Jupyter notebooks,
+    help facilitate openness and reproducibility among peers, they can also provide
+    a highly creative and flexible medium for designing interactive educational experiences.
+    The Junto Labs initiative aims to create a catalog of Jupyter notebooks that exemplify
+    how to design virtual environments optimized for conducting research, facilitating
+    mentorship, and encouraging active learning. Researchers would be able to more
+    easily collaborate on active projects, but also expand active learning opportunities
+    for students who may not otherwise have the chance to participate in research.
+    Importantly, life science laboratories could use the resource to design and provide
+    research and mentorship opportunities to students from under-resourced communities
+    or universities where opportunities to participate in life science research are
+    limited or nonexistent.
+  mentors:
+  - pivg
+  name: Junto Labs – Advancing Virtual Environments for Life Science Research and
+    Active Learning
+  participants:
+  - lomaxboydphd
+- description: 'The emergence of short-read NGS technologies have brought a profound
+    knowledge to the field of microbial ecology/evolution through the taxonomic identification
+    of microbial communities - metabarcoding. Although its main limitation resides
+    on their short read-length that has been suppressed by long-read/real-time sequencing
+    technologies such as Oxford Nanopore MinION. Currently, there are many standalone
+    tools/algorithms to process this data inclusive bioinformatic pipelines but they
+    lack a better integration. My proposal is the development of a modular python
+    pipeline for nanopore metabarcoding data - metaNanoPype - with the following modules:
+    (I) demultiplexing; (II) quality-assessment; (III) quality-filtering and trimming;
+    (IV) taxonomic classification; (V) diversity analyses. Each module could include
+    several options to allow flexibility. Each step could generate a log file used
+    later to build a report in html/pdf format describing the versions, commands and
+    references of software used. The report built would ensure reproducibility, transparency,
+    acknowledgement and could be used as supplementary material of papers. metaNanoPype
+    could be publicly available on github (open source) with further documentation
+    published with github pages.'
+  mentors:
+  - hrhotz
+  name: 'metaNanoPype: a reproducible Nanopore python pipeline for metabarcoding'
+  participants:
+  - antonioggsousa
+- description: The field of molecular biology is a concept to discover, identify and
+    explain mechanisms of everything about DNA, RNA and protein level in a cell. Despite
+    it is a relatively young discipline, its prominence in the life sciences is becoming
+    more and more popular. Within the scope of my project, I aim to evaluate the paper
+    on molecular biology studies and make them available for everyone. Choosing a
+    weekly topic and summarizing it that everyone can understand is the main idea.
+    As a workflow, I aim to write a brief introduction to introduce the paper and
+    its authors, the purpose of the study, and present the results. Briefly, I would
+    like to design a website which is publicly accessible. I aim to make this website
+    as a resource for the academic community, students and all other folks who want
+    to read and learn. At the same time, I plan to prepare a section where questions
+    can be asked in order to share with other readers to make a discussing community
+    about the related article. I want to provide a connection between students or
+    researchers in this field of science to improve knowledge, share and even find
+    new ideas.
+  mentors:
+  - landimi2
+  - unode
+  - tobyhodges
+  name: 'MBiO: Designing an open-collaborative website in the field of molecular biology'
+  participants:
+  - nihan-sultan-milat
+- description: OLS is a great platform to open life science with the objective of
+    train young researchers towards the practices in open science skills. I am a graduand
+    of OLS-2 that recently concluded and coming out of that program I felt that there
+    is tremendous value in the program. However, this might not be reaching out to
+    as many as possible. I think, one way of the extending the outreach beyond what
+    else has been done is perhaps to pen down the experience of the participants of
+    the previous program. As a participant myself, I can see how there many ways,
+    one could promote this and share the journey with the readers, especially with
+    the young generation and highlight the essence of this program. Thus, I took it
+    motivation to myself to contribute in this direction by re-joining the OLS-3 program
+    and having this it self as a project with the goal of coming up as a tangible
+    document in the form of a publication to be shared with the community at large.
+  mentors:
+  - bebatut
+  - yochannah
+  - malvikasharan
+  name: 'Open Life Science (OLS) Program, a driver of open science skills among early
+    stage researchers and young leaders: mentee perspective'
+  participants:
+  - muhammetcelik
+- description: sktime is a new Python toolbox for machine learning with time series
+    (https://github.com/alan-turing-institute/sktime). It provides state-of-the-art
+    time series algorithms and scikit-learn compatible tools for building, tuning
+    and evaluating complex models. The goal of this project is to improve sktime’s
+    online documentation with a specific focus on documenting algorithm contributors.
+    Algorithms form a major part of sktime. They require special expertise in their
+    development and maintenance. We plan to enhance the existing documentation by
+    making algorithm contributors more visible. The aim is (i) to make it easier for
+    users and other developers to directly get in touch with the algorithm experts
+    to ask questions or suggest code improvements and (ii) to recognize their contributions
+    more visibly and formally to encourage long-term maintenance of their contributions.
+    sktime has already defined a new community role as part of their governance guidelines
+    to ensure that algorithm contributors have extra rights and responsibilities with
+    regard to their algorithm. However, up-to-date documentation listing the current
+    contributors and links to their algorithms is currently missing. Optionally, we
+    can add other information like literature references. We plan to automate the
+    generation of this documentation by making use of the existing documentation and
+    other components such as CODEOWNERS file and __author__ strings in Python files.
+  mentors:
+  - tobyhodges
+  name: Documentation enhancement with open science practices in sktime
+  participants:
+  - afzal442
+- description: 'This project is to develop a Turing Service Area in Open Source that
+    will provide formal support in open working and embedding best practices of open
+    software development into Turing projects. This service area will create an Open
+    Developer Advocate position whose role will be to work with and guide projects
+    into working openly and either build a community around their open project, or
+    make a contribution to an existing open project.
+
+    This guidance would take the form of regular meetings, co-working and/or drop-in
+    sessions and would address roadmapping of the project in terms of its open goals,
+    and developing project policies for engaging openly. The area would work with
+    the Turing Way project to draw on existing material and contribute new processes
+    there.'
+  mentors:
+  - meagdoh
+  name: An Open Source Service Area for Turing research projects
+  participants:
+  - sgibson91
+- description: 'Phytoliths are microfossils of plants used world-wide to address a
+    variety of questions in fields like archaeology, palaeoecology and palaeontology.
+    Diverse laboratory procedures, analyses and identification criteria are used resulting
+    from different research traditions. Some steps, such as the normalisation of nomenclature
+    through the International Phytolith Society, have been promoted to standardise
+    the phytolith analysis and the subsequent publication of data. However, the standardisation
+    of phytolith research and data publication is still far from being achieved. Moreover,
+    a recent assessment of the data sharing practices within the phytolith community
+    found only half of the publications share some form of data and the majority do
+    not provide reusable data. This project has grown from initial efforts by Emma
+    Karoune during OLS2 to raise awareness of issues with poor data sharing practice.
+    It is part of a broader initiative supported by the International Phytolith Society
+    on data sharing and represents the first steps towards the FAIRification of phytolith
+    data: an evaluation of sharing practices in phytolith research; the creation of
+    a GitHub repository for collaborative use by this working group and in the forthcoming
+    FAIRification project; and the development of a webpage to provide the community
+    with information as the project proceeds.'
+  mentors:
+  - ekaroune
+  name: Towards FAIRer phytolith data
+  participants:
+  - javier-ruiz-pérez
+  - juan-josé-garcía-granero
+  - ''
+  - ''
+- description: Obesity causes approximately 4.7 million premature deaths annually,
+    which accounts for a loss of ca. 8% globally. Obesity is an outcome of complex,
+    heritable, and multi-factorial interaction of multiple genes, environmental factors,
+    and behavioral traits that makes management and prevention challenging in the
+    human population (Rao et al., 2014). Experimental research has demonstrated that
+    altered metabolites in multiple metabolic pathways are associated with obesity
+    (Zhao et al.,2016). Alteration in the proportion of bacteroidetes and firmicutes
+    in the gut microbiome can trigger obesity. The gut microbiome's influence on obesity
+    is much more complicated than the imbalance of these bacteria species. Modulation
+    of the gut microbiome through diet, prebiotics, surgery, and antibiotics significantly
+    affects the obesity epidemic (John & Mullin, 2016). It is one of the enormous
+    global health problems associated with increased morbidity and mortality mediated
+    by its association with several other metabolic disorders (Saini et al., 2018).
+    We aim to target obesity and diabetes-associated metabolic disorders and annotate
+    the genes common to these complex diseases using a systems genomic integrated
+    approach, thereby using Galaxy as a platform.
+  mentors:
+  - prashbio
+  - harpreetsingh05
+  - bebatut
+  name: 'Systems Genomic  Integration of Diabetes Related Genes: A Quest for Development
+    of  Biomarkers'
+  participants:
+  - ''
+  - ashutosh-tiwari
+  - ''
+  - mehak-chopra
+  - ''
+  - harpreetsingh05
+  - ''
+  - prashbio
+- description: AKADEMISI PREPRINTS is a free distribution service of preprints from
+    multidisciplinary fields. The server plans to include connection hub to journals
+    and open peer review community. By doing so, we hope to promote the transparency
+    and quick visibility of research results to the public.
+  mentors:
+  - iratxepuebla
+  name: Boosting research visibility using Preprints
+  participants:
+  - didik-utomo
+  - hzahroh
+- description: Although there is an increasing number of initiatives in Saudi Arabia
+    to raise awareness in Data Science (DS) and connect researchers in artificial
+    intelligence (AI), there is no single community dedicated to stimulating responsible
+    research practices and Open Science policies. I wish (with the help of a mentor)
+    to establish an open science community in Saudi Arabia. Our target groups are
+    researchers and students who are open and curious about open science but have
+    little to no experience with open science practices.
+  mentors:
+  - anelda
+  name: Open Science Community in Saudi Arabia
+  participants:
+  - batoolmm
+- description: 'Biological activity data was retrieved from the ChEMBL database and
+    pre-processed by selecting the target which was SARS coronavirus 3C-like proteinase
+    in the project and the data frame of the target protein was filtered by removing
+    the molecules which do not have the standard type as IC50 and those having missing
+    value for standard value.
+
+    The data was distributed as active, inactive, and intermediate by the IC50  values.
+
+    The SMILES notation (representing the unique chemical structure of compounds)
+    from the dataset was used to compute the molecular descriptors.
+
+    Lipinski''s descriptors are used in the project which considers molecular weight,
+    LogP, number of hydrogen bond donors, and number of hydrogen bond acceptors. These
+    descriptors are related to the pharmacokinetic properties of molecules.
+
+    The exploratory data analysis was performed via Lipinski''s descriptors. Simple
+    box plots and scatter plots were plotted to discern differences between the active
+    and inactive sets of compounds.
+
+    Mann-Whitney U test was performed for each descriptor to determine the statistically
+    significant difference between active and inactive molecules.'
+  mentors:
+  - malvikasharan
+  name: COMPUTAIONAL DRUG DISCOVERY (CORONAVIRUS)
+  participants:
+  - anshika-sah
+- description: I aim to develop training materials to support the use of open data
+    by researchers working on agrobiodiversity conservation. At CONABIO (Mexico),
+    a governmental agency that coordinates biodiversity data collection, I collaborate
+    in the development of an Agrobiodiversity Information System (SIAgroBD); my role
+    involves technical and community management responsibilities. Currently, twelve
+    teams of students and researchers from different institutions contribute to field
+    data collection for SIAgroBD. While we are committed to open practices at CONABIO
+    and all collected data are open, some external contributors lack the skills to
+    use these data, even if they have helped collect them, and are not familiar with
+    open practices. Thus my project consists in developing training materials (OER)
+    for an introductory workshop on open data with a focus on FAIR principles, biodiversity
+    standards, effective management strategies, among other skills that encourage
+    contributors to become active users of data apart from collectors. The integration
+    of social and biological information and the use of Indigenous data are distinctive
+    features of agrobiodiversity research in Mexico that will also be addressed. I
+    expect this serves as a prototype for advanced training modules that could be
+    used by future contributors or other researchers working on agrobiodiversity topics.
+  mentors:
+  - burkemlou
+  name: Skills for Open Agrobiodiversity Data
+  participants:
+  - iramosp
+- description: "The project is an open notebook living systematic review of legal\
+    \ documents related to postdoctoral scholars and appointments (postdocs). The\
+    \ project aims to use the methods of empirical legal scholarship to describe and\
+    \ categorize the ways postdoctoral scholars and their appointments have been involved\
+    \ in the legal system. Briefly, empirical legal scholarship is a form of qualitative\
+    \ or mixed-methods research, often involving content analysis, that uses legal\
+    \ documents or decisions as its data source. We are not aware of any other research\
+    \ applying this method or data source to the study of postdocs.  In fact, there\
+    \ has been little research of any kind on the legal aspects of postdoc appointments.\n\
+    \nBuilding on a “file drawer” paper by Jennifer Miller (with Kristina Van Buskirk),\
+    \ we frame our project around the question of whether postdocs are employees or\
+    \ students. Based on economic theory, we expect the types of cases to reflect\
+    \ whether postdocs are employees producing in a labor market or students consuming\
+    \ in a services market. \n\nMore information about the project is available on\
+    \ GitHub https://github.com/JMMaok/postdoc/projects and Zotero https://www.zotero.org/groups/"
+  mentors: []
+  name: Postdoc Empirical Legal Research Open Notebook
+  participants:
+  - jmmaok
+  - ''
+  - ''
+- description: 'The mission of the UKCRC Tissue Directory and Coordination Centre
+    (UKCRC TDCC) is to maximise the use, value and impact of the UK''s human sample
+    resources in the UK, and beyond. The UKCRC TDCC is creating a world-leading, research-enabling,
+    and networked biobanking infrastructure to facilitate the discovery and use of
+    the UK''s human samples and data.
+
+    The UKCRC TDCC works to help researchers discover samples and data, help sample
+    resources improve their data systems for sharing, and harmonise policy relating
+    to the discovery and use of samples and data.
+
+    The work of the UKCRC TDCC is guided by the belief that the biomedical research
+    ecosystem should be based on open standards, open-science, and pre-competitive
+    collaboration.'
+  mentors:
+  - sgibson91
+  name: The UKCRC Tissue Directory and Coordination Centre
+  participants:
+  - emma-lawrence
+  - jessica-sims
+- description: This is a prototype for target approaches in the stages of disease
+    prognosis. By creating a constructive study of liver disease and bioinformatics
+    pipeline. Construction of bioinformatics study to find out the key enzymes responsible
+    for causing the metastasized condition. Overall, the literature survey and finding
+    out potential responsible enzymes with a bioinformatics approach is the overall
+    goal.
+  mentors:
+  - yochannah
+  name: Target Approach in the Stages of Liver Cirrhosis to Reverse Back in Good Condition
+  participants:
+  - wasifarahman
+- description: "This work aims to create a Nigerian sentiment corpus, sentiment, and\
+    \ hate speech lexicon through manual annotation for three different languages\
+    \ (Hausa, Igbo, Yoruba). Our method for the creation of these language resources\
+    \ is as follows: \n \n Nigerian Sentiment Corpus: To create the sentiment corpus,\
+    \ tweets from major Nigerian news headlines for each of the three languages will\
+    \ be crawled from Twitter using an existing Python crawler we developed. Ten thousand\
+    \ tweets will be extracted per language via the Twitter API. Thereafter, the tweets\
+    \ will be annotated by native annotators for each of the languages. These annotators\
+    \ will be hired and trained to perform the annotation. The annotation tasks consist\
+    \ of labeling each tweet as either positive, negative or neutral.To mitigate errors\
+    \ and bias, each dataset will be annotated by three different annotators. After\
+    \ which the project team will compute the kappa agreement between the annotators\n\
+    \ \n Nigerian Sentiment Lexicon: In the same way, manual annotation of the tweets\
+    \ will be used to create the sentiment lexicon for each of the three languages.\
+    \ The sentiment lexicon annotation task involves Identifying sentiment bearing\
+    \ words from each tweet and assigning a sentiment score between +1 to +5 (with\
+    \ 1 being the most negative sentiment and +5 the most positive sentiment).\n \n\
+    \ Nigerian Hate Speech Lexicon: Extreme negative sentiment from the sentiment\
+    \ lexicon will be used to develop the hate speech lexicon. \n \n Annotation tool:\
+    \ We plan to use a web-based annotation tool, brat (Stenetorp et al., 2012) which\
+    \ has been proved to be efficient for this type of task by many researchers. The\
+    \ annotators must be native speakers of the language and follow the annotation\
+    \ guidelines provided by the project teams. \n \n HausaNLP aims to create more\
+    \ language resources that can be used to train models in machine learning."
+  mentors:
+  - lauracarter
+  name: Development of language resources for Hausa Natural Language Processing
+  participants:
+  - shmuhammad2004
+  - isahmadbbr
+- description: In Europe, prostate cancer (PCa) is the second most frequent type of
+    cancer in men and the third most lethal. Current clinical practices, often leading
+    to overdiagnosis and overtreatment of indolent tumors, suffer from a lack of precision
+    calling for advanced AI models to go beyond SoA. The ProCAncer-I project brings
+    together 20 partners, including PCa centers of reference, world leaders in AI,
+    and innovative SMEs, with the objective to design, develop, and sustain a cloud-based,
+    secure European Image Infrastructure with tools and services for data handling.
+    The platform hosts the largest collection of PCa multi-parametric (mp)MRI, anonymized
+    image data worldwide (>17,000 cases), based on data donorship, in line with EU
+    legislation (GDPR). Robust AI models are developed, based on novel ensemble learning
+    methodologies, leading to vendor-specific and -neutral AI models for addressing
+    8 PCa clinical scenarios. To accelerate the clinical translation of PCa AI models,
+    we focus on improving the trust of the solutions with respect to fairness, safety,
+    explainability, and reproducibility. A roadmap for AI models certification is
+    defined, interacting with regulatory authorities, thus contributing to a European
+    regulatory roadmap for validating the effectiveness of AI-based models for clinical
+    decision making.
+  mentors:
+  - harpreetsingh05
+  name: ProCancer-I - An AI Platform integrating imaging data and models, supporting
+    precision care through prostate cancer’s continuum
+  participants:
+  - kon0925
+  - ''
+- description: "The long term project objective is to establish in my university a\
+    \ core-team/lab able to aid the community to design and implement open science\
+    \ projects.\n In order to start this long term project I believe that working\
+    \ on a use case would help various aspects.\n It will help to coalesce and uniform\
+    \ the team domain knowledge, to start to get involved also the technical and administrative\
+    \ part and, to gain visibility and credibility.\n The use case is a computational\
+    \ framework to aid the metabolism modelling, that we are currently developing\
+    \ in my lab and it is on the way to be published.\n The publication that will\
+    \ accompany this framework is near to be ready to be submitted and the framework\
+    \ itself is wholly developed with open software.\n This use case, in particular,\
+    \ is suitable to follow various aspects of the Open Science approach, from the\
+    \ journal paper management to the software publication.\n I think that this application\
+    \ can be great opportunity to learn the open science approach in an organic way\
+    \ and to discover how to do it."
+  mentors:
+  - bebatut
+  name: Seeding
+  participants:
+  - pescini
+- description: "This project will create a network of Open Science (OS) ambassadors\
+    \ in Spanish Health Research Institutes (HRI). Thus, aiming to implement OS in\
+    \ HRI by raising consciousness about its principles that apply to this particular\
+    \ field (i.e., reproducibility, transparency, dissemination and data sharing).\
+    \ To induce an easy and comprehensive transition to OS, researchers will be provided\
+    \ with access to the best practices’ Toolkits for OS implementation. As part of\
+    \ their activity, OS ambassadors will be encouraged to engage with the general\
+    \ public, patients and the future generations of scientists.\n \n To accomplish\
+    \ that, professionals in the HRI willing to be trained to become OS ambassadors\
+    \ will be identified and recruited. This network will be in charge of promoting\
+    \ OS in their institutions. The ambassadors will identify potential OS activities\
+    \ that can be kickstarted, give solutions to questions raised and advice on best\
+    \ practices on their institutions.\n \n At the end of this project: a network\
+    \ will be created, together with a framework to maintain this group active, and\
+    \ ambassadors will disseminate the knowledge gathered about application of OS\
+    \ principles in health research in their institutes. That would allow the progressive\
+    \ implementation of OS in HRI."
+  mentors:
+  - joyceykao
+  name: Creating a network of Open Science ambassadors in Spanish Health Research
+    Institutes
+  participants:
+  - marta-marin
+  - santi-rello-varona
+  - iris-san-pedro
+- description: "Multimodal and Functional Imaging Laboratory (MAFIL, http://mafil.ceitec.cz/en/)\
+    \ is one of core facilities at CEITEC MUNI and part of national large research\
+    \ infrastructure Czech-BioImaging and European research infrastructure Euro-BioImaging.\
+    \ The main role is to provide access to medical imaging technologies – mainly\
+    \ magnetic resonance imaging accompanied with various electrophysiological methods.\n\
+    \ Within this project we aim at preparing our data and metadata of neuroimaging\
+    \ datasets processed in MAFIL to follow FAIR principles and be ready for publication\
+    \ and cloud-based processing in EOSC. As MAFIL is “open access” laboratory, i.e.\
+    \ provides researchers outside of CEITEC access to the laboratories, technologies,\
+    \ and experts of CEITEC to conduct their analysis and support their research needs,\
+    \ the procedures will be document and training provided to MAFIL users (“customers”)\
+    \ to be aware of FAIRification procedures and able to apply them on their data\
+    \ making them “EOSC ready”. The outputs and experiences will also be shared with\
+    \ other labs/nodes within Czech-BioImaging/Euro-BioImaging infrastructures.\n\
+    \ Thus, we would very appreciate and welcome any training, help, advice, or good\
+    \ practise on FAIRification and anonymisation of neuroimaging datasets."
+  mentors: []
+  name: 'FAIR MAFIL: FAIRification of imaging/neurophysiological data of MAFIL CEITEC
+    MUNI laboratory for EOSC'
+  participants:
+  - michal-ruzicka
+  - michal-javornik
+  - dudova
+  - ''
+  - ''
+- description: 3-prototype-launched
+  mentors:
+  - malvikasharan
+  name: The Turing Way — Developing a community health report and assessing its impact
+    on the wider data science community.
+  participants:
+  - ali-humayun
+- description: "I have just started a new role as a Research Application Manager at\
+    \ the Turing Institute. My responsibility is to define my own workplan as well\
+    \ as guide the development of the workplans of 2 other Research Application Managers\
+    \ once they are recruited. This is a new role and we do not yet have a blueprint\
+    \ for what a good research application manager at Turing looks like. \n \n My\
+    \ goal is to embed open science practices into the philosophy and the workflow\
+    \ of the RAM team, as much as possible within the constraints of a given project\
+    \ and Theme. \n \n Since I am personally new to the open science community, I\
+    \ would benefit from OLS training and mentorship. My ambition is to ensure that\
+    \ we create a good basis for open science practices within ASG and hopefully in\
+    \ other parts of Turing that RAMs interface with."
+  mentors:
+  - malvikasharan
+  name: Developing and embedding open science practices within the Research Application
+    Management team at Turing
+  participants:
+  - ''
+- description: Project aims to connect rural school students to the cities of Nepal
+    and other countries. Pandemic has helped few Nepalese rural schools get internet
+    facilities. Our project will take help of internet, online conferencing tool and
+    team of young people from different disciplines to connect our little heroes to
+    the outer world to help them learn language, better understand external culture,
+    meeting new friends, learning science, doing DIY innovations and initiating makerspace
+    movement through virtual collaborative environment.
+  mentors:
+  - tlaguna
+  name: 'GyaNamuna : Virtual School Connecting Rural Students To The World'
+  participants:
+  - prakriti-karki
+- description: "In The Turing Way, we define reproducible research as work that can\
+    \ be independently recreated using the same data and code from the original study.\
+    \ Reproducible research is necessary to ensure that scientific output can be trusted\
+    \ and built upon. Despite this importance, many studies are difficult to reproduce,\
+    \ including those involving the application of a computational model.\n \n To\
+    \ overcome this \"Reproducibility Crisis\" we need to identify and standardized\
+    \ reproducible practices that researchers can apply in their projects from the\
+    \ start. But these may vary across fields and methods. In this context, this project\
+    \ will quantitatively assess and derive those research practices that can ensure\
+    \ the reproducibility of studies involving the development and application of\
+    \ AI models for understanding cognitive-systems, with the overarching goal of\
+    \ increasing their transparency and trustworthiness. \n \n As a cognitive neuroscientist,\
+    \ I will develop a prototype of this assessment by identifying and openly documenting\
+    \ reproducible practices of computational modelling projects in my field. With\
+    \ my participation in OLS-3, I will review the reproducible practices of gold-standard\
+    \ studies and assess the level of transparency maintained in their research. I\
+    \ will also curate relevant guidelines and expert-recommendations. The findings\
+    \ will be collaboratively reported as chapters in The Turing Way."
+  mentors:
+  - annakrystalli
+  name: Open Source Project for Evaluating Reproducibility Trends in AI Research Projects
+  participants:
+  - martinagvilas
+- description: This project aims to devise, develop and implement an online tool that
+    allows interested users to suggest or contribute to training courses in an open
+    source fashion. The tool could involve a GitHub repository where users can suggest
+    training ideas, review and comment on existing courses, or share their resources
+    for the larger community. As the national institute for data science and AI promoting
+    open, expert and ethical leadership, I believe the Institute and my team would
+    be well placed to support such an engagement stream with the wider community of
+    trainers and researchers.
+  mentors:
+  - jezcope
+  name: Towards an infrastructure for open-source (online) training in data science
+    and AI
+  participants:
+  - mihaelanemes
+- description: "As part of the Street Science Community, we successfully developed\
+    \ the BeerDeCoded project: a hands-on workshop for pupils and citizens with the\
+    \ general aim of scientific outreach. During these workshops, we help participants\
+    \ to extract and identify different yeasts contained in a beer sample. The identification\
+    \ is performed by sequencing the extracted yeast DNA, using our self-developed\
+    \ protocols, and analyzing the generated reads via an easy and straightforward\
+    \ Galaxy workflow. \n Because of the pandemic situation, we cannot run face-to-face\
+    \ workshops. For a more scalable outreach to the public and the long term sustainability\
+    \ of the project, we want to implement the data analysis as a series of fun and\
+    \ easy-to-understand online games. We will use already existing games to get participants\
+    \ interested and give them the biological background necessary for our project.\
+    \ Primarily we will develop a game, which teaches the data analysis of the BeerDeCoded\
+    \ project. Here, participants will get familiar with Galaxy, run and play with\
+    \ their first data analysis pipeline. They are going to compare their results\
+    \ with others and use different available datasets. For this game, we will work\
+    \ with the Galaxy community on the technical part and with teachers on the pedagogical\
+    \ and gamification side."
+  mentors:
+  - yvanlebras
+  name: Implementing a series of pedagogical games to teach pupils and citizens (metagenomic)
+    data analysis
+  participants:
+  - teresa-m
+  - ''
+  - masako-kaufmann
+  - ''
