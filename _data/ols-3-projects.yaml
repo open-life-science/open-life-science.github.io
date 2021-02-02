@@ -115,11 +115,7 @@
   name: Open data schema for actigraphy data in chronobiology and sleep research
   participants:
   - spitschan
-  - ''
-  - ''
-  - ''
   - ghammad
-  - ''
 - description: BioFerm is a web application platform which can be used for kinetic
     study, simulation and optimization of bioprocesses. The user is able to calculate
     the best initial conditions as well as overall operating conditions which will
@@ -351,8 +347,6 @@
   participants:
   - javier-ruiz-pérez
   - juan-josé-garcía-granero
-  - ''
-  - ''
 - description: Obesity causes approximately 4.7 million premature deaths annually,
     which accounts for a loss of ca. 8% globally. Obesity is an outcome of complex,
     heritable, and multi-factorial interaction of multiple genes, environmental factors,
@@ -376,13 +370,9 @@
   name: 'Systems Genomic  Integration of Diabetes Related Genes: A Quest for Development
     of  Biomarkers'
   participants:
-  - ''
   - ashutosh-tiwari
-  - ''
   - mehak-chopra
-  - ''
   - harpreetsingh05
-  - ''
   - prashbio
 - description: AKADEMISI PREPRINTS is a free distribution service of preprints from
     multidisciplinary fields. The server plans to include connection hub to journals
@@ -473,8 +463,6 @@
   name: Postdoc Empirical Legal Research Open Notebook
   participants:
   - jmmaok
-  - ''
-  - ''
 - description: 'The mission of the UKCRC Tissue Directory and Coordination Centre
     (UKCRC TDCC) is to maximise the use, value and impact of the UK''s human sample
     resources in the UK, and beyond. The UKCRC TDCC is creating a world-leading, research-enabling,
@@ -558,7 +546,6 @@
     precision care through prostate cancer’s continuum
   participants:
   - kon0925
-  - ''
 - description: "The long term project objective is to establish in my university a\
     \ core-team/lab able to aid the community to design and implement open science\
     \ projects.\n In order to start this long term project I believe that working\
@@ -626,8 +613,6 @@
   - michal-ruzicka
   - michal-javornik
   - dudova
-  - ''
-  - ''
 - description: 3-prototype-launched
   mentors:
   - malvikasharan
@@ -650,8 +635,7 @@
   - malvikasharan
   name: Developing and embedding open science practices within the Research Application
     Management team at Turing
-  participants:
-  - ''
+  participants: []
 - description: Project aims to connect rural school students to the cities of Nepal
     and other countries. Pandemic has helped few Nepalese rural schools get internet
     facilities. Our project will take help of internet, online conferencing tool and
@@ -724,6 +708,4 @@
     data analysis
   participants:
   - teresa-m
-  - ''
   - masako-kaufmann
-  - ''
