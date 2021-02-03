@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 
 import argparse
+import logging
 import pandas as pd
 import yaml
+
+import extractpeople
+
 from pathlib import Path
 
 
@@ -17,7 +21,7 @@ def get_person_ids(names, people):
         names = names.replace(' and ', ', ').split(', ')
         for n in names:
             if n not in people:
-                print("'%s' for not found in people " % n)
+                logging.warning("'%s' for not found in people " % n)
             else:
                 ids.append(people[n])
     return ids
@@ -27,7 +31,14 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Add projects')
     parser.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)")
     parser.add_argument('-p', '--projects', help="Path to project sheet file")
+    parser.add_argument('-i', '--information', help="Path to information sheet file")
+    parser.add_argument('-l', '--log', help="Path to log output file")
     args = parser.parse_args()
+
+    logging.basicConfig(filename=args.log, level=logging.DEBUG)
+
+    # add people to people.yaml
+    added_people = extractpeople.extract_people(args.information)
 
     people_fp = Path('_data') / Path('people.yaml')
     # load people.yaml file into a dictionary
@@ -41,33 +52,68 @@ if __name__ == '__main__':
         name = '%s %s' % (people[p]['first-name'], people[p]['last-name'])
         reorder_people[name] = p
 
-    project_fp = Path('_data') / Path('ols-%s-projects.yaml' % args.cohort )
-    projects = []
-    
     # load people information from sheet file
     # parse it
     # add information to people dictionary
+    project_fp = Path('_data') / Path('ols-%s-projects.yaml' % args.cohort )
     project_info_fp = Path(args.projects)
     df = pd.read_csv(project_info_fp)
     df = df.where(pd.notnull(df), None)
+    projects = {}
+    logging.info('Add new projects')
     for index, row in df.iterrows():
         if row['Comment regarding review'] == 'rejected':
             continue
-        print(row['Title'])
+        logging.info(row['Title'])
         # get title
         p = {
             'name': row['Title'].rstrip().lstrip(),
             'description': row['Project-description'].rstrip().lstrip(),
             'participants': [],
-            'mentors': []
+            'mentors': [],
+            'keywords': []
         }
         # extract participants
         p['participants'] = get_person_ids(row['Authors'], reorder_people)
         # extract mentors
         p['mentors'] = get_person_ids(row['Mentor 1'], reorder_people)
+        if len(p['mentors']) == 0:
+            logging.warning('No mentor')
         # 
-        projects.append(p)
-        print()
+        if row['Keywords'] is not None:
+            p['keywords'] = row['Keywords'].split(',\n')
+        projects[p['name']] = p
+        logging.info('')
+
+    # check if everybody are correctly added to projects from participant file
+    logging.info('Check project participants')
+    # 1. get projects and people from participant registration
+    information_fp = Path(args.information)
+    df = pd.read_csv(information_fp)
+    df = df.where(pd.notnull(df), None)
+    projects_people = {}
+    for index, row in df.iterrows():
+        projects_people.setdefault(row['OLS-3 Project title'], [])
+        name = "%s %s" % (row['First name'].rstrip(), row['Last name'].rstrip())
+        projects_people[row['OLS-3 Project title']].append(name.title())
+    # 2. check each project
+    for pr in projects_people:
+        logging.warning("%s" % pr)
+        if pr not in projects:
+            logging.warning("Not found in project list")
+            continue
+        for pa in projects_people[pr]:
+            if pa not in reorder_people:
+                logging.warning("'%s' not found in people" % pa)
+                continue
+            pa_id = reorder_people[pa]
+            if pa_id not in projects[pr]['participants']:
+                projects[pr]['participants'].append(pa_id)
+                logging.warning("'%s' added to project" % pa)
+        logging.info('')
+
+    # transform project dictionary to list
+    project_list = [projects[p] for p in projects]
 
     # dump project dictionary into project file
     with project_fp.open("w") as project_f:
@@ -75,4 +121,4 @@ if __name__ == '__main__':
         project_f.write('#\n')
         project_f.write('# Check previous OLS for examples\n')
         project_f.write('---\n')
-        project_f.write(yaml.dump(projects, allow_unicode=True))
+        project_f.write(yaml.dump(project_list, allow_unicode=True))

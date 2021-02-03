@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+import logging
 import pandas as pd
 import yaml
 from pathlib import Path
@@ -69,11 +70,11 @@ def extract_people_info(row, people):
     return github, info
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Extract people information from a sheet and add them to people.yaml')
-    parser.add_argument('-i', '--information', help="Path to information sheet file")
-    args = parser.parse_args()
+def extract_people(info_fp):
+    '''Extract people information from a sheet and add them to people.yaml
 
+    :param info_fp: Path to information sheet file
+    '''
     people_fp = Path('_data') / Path('people.yaml')
 
     # load people.yaml file into a dictionary
@@ -83,22 +84,22 @@ if __name__ == '__main__':
     # load people information from sheet file
     # parse it
     # add information to people dictionary
-    information_fp = Path(args.information)
+    information_fp = Path(info_fp)
     df = pd.read_csv(information_fp)
     df = df.where(pd.notnull(df), None)
     people_l = []
     for index, row in df.iterrows():
         github, info = extract_people_info(row, people)
         if github not in people:
-            print("Add info for %s" % github)
+            logging.info("Add info for %s" % github)
             people[github] = info
         else:
-            print("Update info for %s" % github)
+            logging.info("Update info for %s" % github)
             people[github] = info
         people_l.append(github)
-    print("Full list")
+    logging.info("Full list")
     people_l.sort()
-    print('- %s' % '\n- '.join(people_l))
+    logging.info('- %s' % '\n- '.join(people_l))
 
     # dump people dictionary into people.yaml file
     with people_fp.open("w") as people_f:
@@ -127,3 +128,16 @@ if __name__ == '__main__':
         people_f.write('# Mandatory: first-name, last-name, country\n')
         people_f.write('---\n')
         people_f.write(yaml.dump(people, allow_unicode=True))
+
+    return people_l
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Extract people information from a sheet and add them to people.yaml')
+    parser.add_argument('-i', '--information', help="Path to information sheet file")
+    parser.add_argument('-l', '--log', help="Path to log output file")
+    args = parser.parse_args()
+
+    logging.basicConfig(filename=args.log, level=logging.DEBUG)
+
+    extract_people(args.information)

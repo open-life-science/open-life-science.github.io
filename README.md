@@ -175,7 +175,7 @@ Add many people in a row to `_data/people.yaml`:
 4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`
 
    ```
-   $ python bin/extract-people.py -i <path to csv file>
+   $ python bin/extractpeople.py -i <path to csv file>
    ```
 
 ## Add a partner/sponsor
@@ -232,19 +232,22 @@ To order them:
 2. Run the script which sort expertise and save information in metadata file
 
    ```
-   $ python bin/sort-expertises.py -c <cohort id>
+   $ python bin/sortexpertises.py -c <cohort id>
    ```
 
 ## Add projects
 
-1. Create a CSV with for each project the following information
+1. Create a CSV file with for each project the following information
    - `Title`
    - `Mentor 1`
    - `Authors`
    - `Project-description`
    - `Comment regarding review` (with `rejected` if needed)
+   - `Keywords`
 
-2. Activate the conda environment
+2. Create a CSV file with participant information (similar as the one needed to add new people) with an extra column with project name
+
+3. Activate the conda environment
 
    ```
    $ source activate open-life-science-website
@@ -255,8 +258,8 @@ To order them:
    - pyyaml
    - pandas
 
-3. Run the script which extract project information from a CSV file and add them in project file
+4. Run the script which extract project information from a CSV file and add them in project file
 
    ```
-   $ python bin/add-projects.py -c <cohort id> -p <path to csv file>
+   $ python bin/addprojects.py -c <cohort id> -p <path to csv file>
    ```
