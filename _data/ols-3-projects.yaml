@@ -17,6 +17,10 @@
     closely with this community in a user-centered design approach. As one of the
     first steps, I am working on a best practices guide, summarizing the experiences
     of existing similar projects.
+  keywords:
+  - citizen science
+  - peer-production
+  - participatory design
   mentors:
   - fpsom
   name: Best practices for online collaboration/peer-production in citizen science
@@ -28,6 +32,10 @@
     and spotlights for posters with some features still in development. The tool is
     currently in beta and will be released as FOSS under MPL once the software is
     battle tested (in mid february).
+  keywords:
+  - conferences
+  - virtual
+  - poster session
   mentors:
   - ealescak
   name: A virtual conference managment system with seamless open science integration
@@ -40,6 +48,15 @@
     the database will be one of the most inclusive and easily accessible memory banks.
     This initiative seeks to preserve the memory of the role of Croatian-Americans
     in the creation of free, modern Croatia during the Homeland War in the 1990s.'
+  keywords:
+  - database
+  - video
+  - generational memory
+  - record
+  - document
+  - historical
+  - Croatia
+  - Diaspora
   mentors:
   - katesimpson
   name: 'Memory Collecting: Croatian Homeland War'
@@ -52,6 +69,10 @@
     \ of protocols for genetic manipulation (3) producing educational resources to\
     \ aid experimentation, both in academia and for citizen scientists (4) building\
     \ a community of interested individuals to expand and contribute to the project."
+  keywords:
+  - synthetic biology
+  - community building
+  - citizen science
   mentors:
   - smklusza
   name: Open Phototroph
@@ -62,6 +83,11 @@
     liquid handlers. Protocols will be hosted on a publically accessible website,
     and community members can edit, annotate, and report on different protocols. Think
     Github for biological protocols with an issue tracker.
+  keywords:
+  - Robotics
+  - Synthetic Biology
+  - Open Source
+  - Community Enhancement
   mentors: []
   name: Opensource Transpiler of Synthetic Biology Lab Protocols for Wetlab Robotics
   participants:
@@ -84,6 +110,19 @@
     local, these many and varied aspects have contributed to the present landscape
     and environment and thus to give an understanding how the future development may
     progress.
+  keywords:
+  - palaeoecology
+  - palaeoenvironment
+  - palynology
+  - interdependence
+  - interconnectedness
+  - landscape
+  - public
+  - geomorphology
+  - geology
+  - geography
+  - microscopy
+  - microfossils
   mentors:
   - bruno-soares
   name: Field and laboratory based research project researching, surveying, and discovering
@@ -110,6 +149,17 @@
     by researchers and research users. This project builds upon core research and
     technical expertise amongst the team members, and provides a framework to structure
     the work of the newly funded Chronobiology Data Standards Interest Group (CDSIG).'
+  keywords:
+  - open data
+  - open science
+  - data schemas
+  - metadata
+  - actigraphy
+  - actimetry
+  - rest-activity cycles
+  - circadian rhythms
+  - chronobiology
+  - sleep research
   mentors:
   - malloryfreeberg
   name: Open data schema for actigraphy data in chronobiology and sleep research
@@ -128,6 +178,12 @@
     and non-inhibition) to return the above mentioned parameters. The software is
     currently being written in Python using an open-source app framework(streamlit)
     to run the app but will later be written using Django, also a popular web framework.
+  keywords:
+  - Kinetic modelling
+  - optimization
+  - Bioprocesses
+  - Microbial growth
+  - parameter estimation
   mentors:
   - unode
   name: 'BioFerm: A web application used for kinetic modeling, parameter estimation
@@ -150,6 +206,10 @@
     \ Indigenous and non-Indigenous researchers to advance a Code of Conduct for Australian\
     \ archaeologists and palaeoecologists seeking to work openly while supporting\
     \ the rights of Indigenous communities to manage access as they consider appropriate."
+  keywords:
+  - Australian archaeology
+  - Open data
+  - Indigenous Knowledge
   mentors:
   - estherplomp
   name: Intellectual Property, Indigenous Knowledges, and the Rise of Open Data in
@@ -161,7 +221,18 @@
     of cytometry publications, and to fully integrate these flow cytometry standards
     into grant submission and publication requirements across scientific fields (Lucas
     et al., Cytometry A 2019).
-  mentors: []
+  keywords:
+  - rigor
+  - reproducibility
+  - peer-review
+  - publishing
+  - research quality defects
+  - experimental methods
+  - flow cytometry
+  - tool
+  - AI-assisted peer-review
+  mentors:
+  - tsonika
   name: 'MiSET Publication Standards: A tool for AI-assisted peer-review of experimental
     information'
   participants:
@@ -172,6 +243,10 @@
     create a visual representation of the global distribution of the frequencies of
     these genetic variants, by mining genomic information from publicly available
     datasets.
+  keywords:
+  - bioinformatics
+  - data visualization
+  - open educational resource
   mentors: []
   name: Global Distribution of APOL1 Genetic variants
   participants:
@@ -193,12 +268,17 @@
     \ environment where the reproducibility of their work, tasks and projects is inculcated\
     \ and applied from the first day\n\nOur website: https://laconga.redclara.net\n\
     Our github repository: https://github.com/LA-CoNGA"
+  keywords:
+  - Open educational content
+  - Data science training
+  - Open science training
   mentors:
   - lauracion
   name: LA-CoNGA physics (Latin American alliance for Capacity buildiNG in Advanced
     physics)
   participants:
   - camachoreina
+  - mxrtinez
 - description: Inspired by the social clubs founded by Benjamin Franklin, the Junto
     Labs initiative seeks to provide life science researchers with an online space
     for pursuing collaborative research and supporting active learning. Life science
@@ -215,8 +295,13 @@
     research and mentorship opportunities to students from under-resourced communities
     or universities where opportunities to participate in life science research are
     limited or nonexistent.
+  keywords:
+  - online research
+  - mentorship
+  - virtual environments
+  - Jupyter notebooks
   mentors:
-  - pivg
+  - burkemlou
   name: Junto Labs – Advancing Virtual Environments for Life Science Research and
     Active Learning
   participants:
@@ -237,6 +322,10 @@
     acknowledgement and could be used as supplementary material of papers. metaNanoPype
     could be publicly available on github (open source) with further documentation
     published with github pages.'
+  keywords:
+  - metabarcoding
+  - python pipeline
+  - reproducible
   mentors:
   - hrhotz
   name: 'metaNanoPype: a reproducible Nanopore python pipeline for metabarcoding'
@@ -257,6 +346,10 @@
     about the related article. I want to provide a connection between students or
     researchers in this field of science to improve knowledge, share and even find
     new ideas.
+  keywords:
+  - open educational resource
+  - open-collaborative
+  - molecular biology
   mentors:
   - landimi2
   - unode
@@ -276,6 +369,11 @@
     motivation to myself to contribute in this direction by re-joining the OLS-3 program
     and having this it self as a project with the goal of coming up as a tangible
     document in the form of a publication to be shared with the community at large.
+  keywords:
+  - value of OLS
+  - participant perspective
+  - internalize openess
+  - pendown
   mentors:
   - bebatut
   - yochannah
@@ -302,11 +400,17 @@
     can add other information like literature references. We plan to automate the
     generation of this documentation by making use of the existing documentation and
     other components such as CODEOWNERS file and __author__ strings in Python files.
+  keywords:
+  - sktime
+  - documentation
+  - algorithm maintainer
+  - codeowner
   mentors:
   - tobyhodges
   name: Documentation enhancement with open science practices in sktime
   participants:
   - afzal442
+  - abdulelahsm
 - description: 'This project is to develop a Turing Service Area in Open Source that
     will provide formal support in open working and embedding best practices of open
     software development into Turing projects. This service area will create an Open
@@ -319,6 +423,10 @@
     and developing project policies for engaging openly. The area would work with
     the Turing Way project to draw on existing material and contribute new processes
     there.'
+  keywords:
+  - open-source
+  - research
+  - strategy
   mentors:
   - meagdoh
   name: An Open Source Service Area for Turing research projects
@@ -341,12 +449,21 @@
     a GitHub repository for collaborative use by this working group and in the forthcoming
     FAIRification project; and the development of a webpage to provide the community
     with information as the project proceeds.'
+  keywords:
+  - FAIR
+  - data sharing
+  - palaeobotany
+  - phytolith research
+  - archaeology
+  - palaeoecology
   mentors:
   - ekaroune
   name: Towards FAIRer phytolith data
   participants:
   - javier-ruiz-pérez
   - juan-josé-garcía-granero
+  - cl379
+  - marco-madella
 - description: Obesity causes approximately 4.7 million premature deaths annually,
     which accounts for a loss of ca. 8% globally. Obesity is an outcome of complex,
     heritable, and multi-factorial interaction of multiple genes, environmental factors,
@@ -363,14 +480,21 @@
     We aim to target obesity and diabetes-associated metabolic disorders and annotate
     the genes common to these complex diseases using a systems genomic integrated
     approach, thereby using Galaxy as a platform.
+  keywords:
+  - Obesity
+  - Diabetes
+  - Gut microbiome
+  - Linkage disequilibrium
+  - pleiotropy
   mentors:
   - prashbio
   - harpreetsingh05
   - bebatut
-  name: 'Systems Genomic  Integration of Diabetes Related Genes: A Quest for Development
-    of  Biomarkers'
+  name: 'Systems Genomic Integration of Diabetes Related Genes: A Quest for Development
+    of Biomarkers'
   participants:
   - ashutosh-tiwari
+  - robandeep-kaur
   - mehak-chopra
   - harpreetsingh05
   - prashbio
@@ -378,12 +502,18 @@
     multidisciplinary fields. The server plans to include connection hub to journals
     and open peer review community. By doing so, we hope to promote the transparency
     and quick visibility of research results to the public.
+  keywords:
+  - preprints
+  - open resource
+  - open access
+  - publishing
   mentors:
   - iratxepuebla
   name: Boosting research visibility using Preprints
   participants:
   - didik-utomo
   - hzahroh
+  - zenita-milla-luthfiya
 - description: Although there is an increasing number of initiatives in Saudi Arabia
     to raise awareness in Data Science (DS) and connect researchers in artificial
     intelligence (AI), there is no single community dedicated to stimulating responsible
@@ -391,6 +521,10 @@
     to establish an open science community in Saudi Arabia. Our target groups are
     researchers and students who are open and curious about open science but have
     little to no experience with open science practices.
+  keywords:
+  - Open science
+  - Saudi Arabia
+  - Community
   mentors:
   - anelda
   name: Open Science Community in Saudi Arabia
@@ -417,6 +551,16 @@
 
     Mann-Whitney U test was performed for each descriptor to determine the statistically
     significant difference between active and inactive molecules.'
+  keywords:
+  - SARS coronavirus 3C-like proteinase
+  - IC50
+  - pIC50
+  - Bioactivity
+  - Lipinski's rule
+  - Scatter plot
+  - Frequency plot
+  - Box plot
+  - Mann-Whitney test
   mentors:
   - malvikasharan
   name: COMPUTAIONAL DRUG DISCOVERY (CORONAVIRUS)
@@ -439,8 +583,12 @@
     features of agrobiodiversity research in Mexico that will also be addressed. I
     expect this serves as a prototype for advanced training modules that could be
     used by future contributors or other researchers working on agrobiodiversity topics.
+  keywords:
+  - agrobiodiversity
+  - open data
+  - oer
   mentors:
-  - burkemlou
+  - pivg
   name: Skills for Open Agrobiodiversity Data
   participants:
   - iramosp
@@ -459,6 +607,12 @@
     \ whether postdocs are employees producing in a labor market or students consuming\
     \ in a services market. \n\nMore information about the project is available on\
     \ GitHub https://github.com/JMMaok/postdoc/projects and Zotero https://www.zotero.org/groups/"
+  keywords:
+  - postdoc
+  - empirical legal research
+  - systematic review
+  - public policy
+  - open notebook science
   mentors: []
   name: Postdoc Empirical Legal Research Open Notebook
   participants:
@@ -476,6 +630,12 @@
     The work of the UKCRC TDCC is guided by the belief that the biomedical research
     ecosystem should be based on open standards, open-science, and pre-competitive
     collaboration.'
+  keywords:
+  - Biobanking
+  - research
+  - samples
+  - biospecimens
+  - COVID19
   mentors:
   - sgibson91
   name: The UKCRC Tissue Directory and Coordination Centre
@@ -488,6 +648,10 @@
     for causing the metastasized condition. Overall, the literature survey and finding
     out potential responsible enzymes with a bioinformatics approach is the overall
     goal.
+  keywords:
+  - Cirrhosis
+  - ' Bioinformatics'
+  - ' Responsible enzymes'
   mentors:
   - yochannah
   name: Target Approach in the Stages of Liver Cirrhosis to Reverse Back in Good Condition
@@ -517,12 +681,19 @@
     \ annotators must be native speakers of the language and follow the annotation\
     \ guidelines provided by the project teams. \n \n HausaNLP aims to create more\
     \ language resources that can be used to train models in machine learning."
+  keywords:
+  - Natural Language Processing
+  - ' Low-resources'
+  - ' Machine Learning'
+  - ' Corpus'
+  - ' Language resources'
   mentors:
   - lauracarter
   name: Development of language resources for Hausa Natural Language Processing
   participants:
   - shmuhammad2004
   - isahmadbbr
+  - rukynas
 - description: In Europe, prostate cancer (PCa) is the second most frequent type of
     cancer in men and the third most lethal. Current clinical practices, often leading
     to overdiagnosis and overtreatment of indolent tumors, suffer from a lack of precision
@@ -540,12 +711,17 @@
     defined, interacting with regulatory authorities, thus contributing to a European
     regulatory roadmap for validating the effectiveness of AI-based models for clinical
     decision making.
+  keywords:
+  - Prostate Cancer
+  - ' Open Data'
+  - ' Pca'
   mentors:
   - harpreetsingh05
   name: ProCancer-I - An AI Platform integrating imaging data and models, supporting
     precision care through prostate cancer’s continuum
   participants:
   - kon0925
+  - sgsfak
 - description: "The long term project objective is to establish in my university a\
     \ core-team/lab able to aid the community to design and implement open science\
     \ projects.\n In order to start this long term project I believe that working\
@@ -560,11 +736,21 @@
     \ journal paper management to the software publication.\n I think that this application\
     \ can be great opportunity to learn the open science approach in an organic way\
     \ and to discover how to do it."
+  keywords:
+  - community building
+  - ' Systems Biology'
+  - ' Metabolism'
+  - ' quantitative Life Science'
+  - ' technology'
+  - ' infrastructure'
   mentors:
   - bebatut
   name: Seeding
   participants:
   - pescini
+  - marzia-di-filippo
+  - chiara-damiani
+  - paolo-pedaletti
 - description: "This project will create a network of Open Science (OS) ambassadors\
     \ in Spanish Health Research Institutes (HRI). Thus, aiming to implement OS in\
     \ HRI by raising consciousness about its principles that apply to this particular\
@@ -582,6 +768,11 @@
     \ ambassadors will disseminate the knowledge gathered about application of OS\
     \ principles in health research in their institutes. That would allow the progressive\
     \ implementation of OS in HRI."
+  keywords:
+  - Health Research Institutes
+  - ' Network of Open Science Ambassadors'
+  - ' Best practices’ Toolkits'
+  - ' Open Science implementation'
   mentors:
   - joyceykao
   name: Creating a network of Open Science ambassadors in Spanish Health Research
@@ -589,7 +780,7 @@
   participants:
   - marta-marin
   - santi-rello-varona
-  - iris-san-pedro
+  - irisbotas
 - description: "Multimodal and Functional Imaging Laboratory (MAFIL, http://mafil.ceitec.cz/en/)\
     \ is one of core facilities at CEITEC MUNI and part of national large research\
     \ infrastructure Czech-BioImaging and European research infrastructure Euro-BioImaging.\
@@ -606,6 +797,7 @@
     \ other labs/nodes within Czech-BioImaging/Euro-BioImaging infrastructures.\n\
     \ Thus, we would very appreciate and welcome any training, help, advice, or good\
     \ practise on FAIRification and anonymisation of neuroimaging datasets."
+  keywords: []
   mentors: []
   name: 'FAIR MAFIL: FAIRification of imaging/neurophysiological data of MAFIL CEITEC
     MUNI laboratory for EOSC'
@@ -613,7 +805,24 @@
   - michal-ruzicka
   - michal-javornik
   - dudova
-- description: 3-prototype-launched
+- description: "In The Turing Way, we want to systematically understand community\
+    \ practices including the community engagement pathways, contributors’ roles and\
+    \ nature of their participation that have been successful at supporting its community\
+    \ of diverse contributors. Simultaneously, we want to identify factors that may\
+    \ currently prohibit short or long term commitments of our contributors and how\
+    \ they can be further supported.\n \n With my participation in OLS-3, I will develop\
+    \ a community health report of the project, capturing community development aspects\
+    \ from growth to retention. I will build upon the Open Source community health\
+    \ metric (https://wiki.mozilla.org/Contribute/Community_Health), which involves\
+    \ evaluating contributors’ group that is actively involved in a project, number\
+    \ of new contributors that join the project, and members who leave. For online\
+    \ projects, it can also involve tracking the number of community ambassadors,\
+    \ the number of return attendees to events and the rate of churned attendees.\
+    \ Developing an ideal metric in this project will require further deliberation\
+    \ and consultation from The Turing Way team and core contributors. Hence, this\
+    \ project will be collaboratively designed with other community members by actively\
+    \ inviting their contributions and thoughts."
+  keywords: []
   mentors:
   - malvikasharan
   name: The Turing Way — Developing a community health report and assessing its impact
@@ -631,11 +840,18 @@
     \ would benefit from OLS training and mentorship. My ambition is to ensure that\
     \ we create a good basis for open science practices within ASG and hopefully in\
     \ other parts of Turing that RAMs interface with."
+  keywords:
+  - open science workflow
+  - ' open source code'
+  - ' stakeholder engagement'
+  - ' research application'
+  - ' ASG'
   mentors:
   - malvikasharan
   name: Developing and embedding open science practices within the Research Application
     Management team at Turing
-  participants: []
+  participants:
+  - aida-turing
 - description: Project aims to connect rural school students to the cities of Nepal
     and other countries. Pandemic has helped few Nepalese rural schools get internet
     facilities. Our project will take help of internet, online conferencing tool and
@@ -643,11 +859,19 @@
     the outer world to help them learn language, better understand external culture,
     meeting new friends, learning science, doing DIY innovations and initiating makerspace
     movement through virtual collaborative environment.
+  keywords:
+  - online
+  - village
+  - education
+  - DIY
+  - Makerspace
   mentors:
   - tlaguna
-  name: 'GyaNamuna : Virtual School Connecting Rural Students To The World'
+  name: 'GyaNamuna: Virtual School Connecting Rural Students To The World'
   participants:
   - prakriti-karki
+  - mohan-gupta
+  - ujwal-shrestha
 - description: "In The Turing Way, we define reproducible research as work that can\
     \ be independently recreated using the same data and code from the original study.\
     \ Reproducible research is necessary to ensure that scientific output can be trusted\
@@ -666,6 +890,13 @@
     \ studies and assess the level of transparency maintained in their research. I\
     \ will also curate relevant guidelines and expert-recommendations. The findings\
     \ will be collaboratively reported as chapters in The Turing Way."
+  keywords:
+  - Reproducibility
+  - ' AI trends'
+  - ' Data Science'
+  - ' Reproducible research practices'
+  - ' Computational research methods'
+  - ' Research software'
   mentors:
   - annakrystalli
   name: Open Source Project for Evaluating Reproducibility Trends in AI Research Projects
@@ -679,6 +910,13 @@
     open, expert and ethical leadership, I believe the Institute and my team would
     be well placed to support such an engagement stream with the wider community of
     trainers and researchers.
+  keywords:
+  - education
+  - ' training'
+  - ' data science'
+  - ' AI'
+  - ' open infrastructure'
+  - ' community'
   mentors:
   - jezcope
   name: Towards an infrastructure for open-source (online) training in data science
@@ -702,6 +940,11 @@
     \ with others and use different available datasets. For this game, we will work\
     \ with the Galaxy community on the technical part and with teachers on the pedagogical\
     \ and gamification side."
+  keywords:
+  - citizens science
+  - ' DNA sequencing'
+  - ' metagenomics'
+  - ' Galaxy'
   mentors:
   - yvanlebras
   name: Implementing a series of pedagogical games to teach pupils and citizens (metagenomic)
