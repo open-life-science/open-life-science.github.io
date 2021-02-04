@@ -111,7 +111,7 @@ OLS's third cohort (OLS-3) will be conducted from February to May 2021.
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-<!-- For the second round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ projects | size }} projects](/ols-3/projects-participants#projects). -->
+For the third round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ projects | size }} projects](/ols-3/projects-participants#projects).
 
 ## Mentors
 

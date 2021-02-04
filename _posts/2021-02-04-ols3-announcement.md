@@ -5,11 +5,11 @@ authors:
 - bebatut
 - malvikasharan
 - yochannah
-image: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80
+image: https://images.unsplash.com/photo-1584907797015-7554cd315667?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80
 photos:
-  name: Danielle MacInnes
+  name: Dayne Topkin
   license: CC-BY
-  url: https://unsplash.com/photos/IuLgi9PWETU
+  url: https://unsplash.com/photos/y5_mFlLMwJk
 ---
 
 *We are excited to kick-off the third round of Open Life Science with another incredible cohort of mentors, mentees, and experts. We are honored to bring together members of diverse identities and backgrounds who represent expertise from different domains of research, who are working to address a wide range of relevant questions in their field and are motivated to bring a culture change in their areas. Many of them are long-standing Open Scientists who aim to use this opportunity to apply open science and community-based principles in their projects through this program.*
@@ -36,6 +36,7 @@ photos:
 {% assign all-p-countries = '' %}
 {% assign all-mentors = '' %}
 {% assign all-m-countries = '' %}
+{% assign all-keywords = '' %}
 {% assign prev-part-count = 0 %}
 {% assign prev-mentor-count = 0 %}
 
@@ -64,6 +65,11 @@ photos:
             {% assign prev-mentor-count = prev-mentor-count | plus: 1 %}
         {% endif %}
     {% endfor %}
+
+<!-- parse keywords -->
+    {% for k in project.keywords %}
+        {% capture all-keywords %}{{ all-keywords }}, {{ k }}{% endcapture %}
+    {% endfor %}
 {% endfor %}
 
 <!-- transform into lists -->
@@ -71,6 +77,7 @@ photos:
 {% assign p-countries = all-p-countries | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign m-countries = all-m-countries | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign keywords = all-keywords | remove_first: ', ' | split: ", " | uniq | sort %}
 
 We are thrilled to announce that [{{ p-participants | size }} members](/{{ cohort }}/projects-participants/#participants), who are the project leads of [{{ projects | size }} diverse projects](/{{ cohort }}/projects-participants/#projects), have joined the third cohort of the Open Life Science mentoring program - OLS-3!
 
@@ -78,7 +85,7 @@ We are thrilled to announce that [{{ p-participants | size }} members](/{{ cohor
 
 The mentees joining this program are {{ p-participants | join: ', ' }}. These individuals are based in {{ p-countries | size }} countries ({{ p-countries | join: ', ' }}) where they will be leading their respective projects. 
 
-Topics for their projects include <!-- add -->.
+Topics for their projects include {{ keywords | join: ', ' }}.
 
 ### Meet our mentors!
 
