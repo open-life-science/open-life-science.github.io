@@ -1372,6 +1372,13 @@ hdinkel:
   last-name: Dinkel
   orcid: 0000-0002-9316-5204
   pronouns: he/him
+heylf:
+  affiliation: University Of Freiburg
+  city: Freiburg
+  country: Germany
+  email: heylf@informatik.uni-freiburg.de
+  first-name: Florian
+  last-name: Heyl
 hilyatuz-zahroh:
   country: Indonesia
   email: hilyatuz.zahroh@yarsi.ac.id
@@ -1507,7 +1514,7 @@ iris-san-pedro:
   twitter: irisbotas
 irisbotas:
   city: Majadahonda
-  country: España
+  country: Spain
   email: misanpedro@isciii.es
   expertise:
   - Open Science
@@ -1956,6 +1963,18 @@ kevinxufs:
   first-name: Kevin
   last-name: Xu
   twitter: kevinzhangxu
+khanteymoori:
+  affiliation: University Of Freiburg
+  city: Freiburg
+  country: Germany
+  email: khanteymoori@gmail.com
+  expertise:
+  - Machine Learning
+  - Computational Intelligence
+  - Bioinformatics
+  first-name: Alireza
+  last-name: Khanteymoori
+  orcid: 0000-0001-6811-9196
 kipkurui:
   bio: Caleb is a 19/20 Mozilla Fellow and a Bioinformatician,  interested in teaching,
     open science, reproducibility, machine learning, FAIR Genomics, and community
@@ -2505,7 +2524,7 @@ marzia-di-filippo:
   orcid: 0000-0002-7428-0522
 masako-kaufmann:
   affiliation: Uniklinikum Freiburg
-  city: Freiburg Im Breisgau
+  city: Freiburg
   country: Germany
   email: masako.monika.kaufmann@uniklinik-freiburg.de
   expertise:
@@ -3629,7 +3648,7 @@ teresa-m:
     outreach group in Freiburg.
   city: Freiburg
   country: Germany
-  email: muellert@infromatik.uni-freiburg.de
+  email: muellert@informatik.uni-freiburg.de
   expertise:
   - RNA sequence-structure alignment
   - RNAseq
