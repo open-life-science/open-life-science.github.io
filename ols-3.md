@@ -180,6 +180,7 @@ We thank the {{ p-mentors | size }} mentors this round.
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
 {% endfor %}
+</div>
 
 ### Mentoring training
 
