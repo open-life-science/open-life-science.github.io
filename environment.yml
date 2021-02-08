@@ -9,7 +9,7 @@ dependencies:
   - nodejs
   - openssl
   - readline
-  - ruby=2.4.4
+  - ruby
   - yaml
   - yamllint
   - zlib
