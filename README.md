@@ -261,5 +261,9 @@ To order them:
 4. Run the script which extract project information from a CSV file and add them in project file
 
    ```
-   $ python bin/addprojects.py -c <cohort id> -p <path to csv file>
+   $ python bin/addprojects.py \
+      -c <cohort id> \
+      -p <path to csv file with projects> \
+      -i <path to csv file with participants> \
+      -l <path to log file>
    ```
