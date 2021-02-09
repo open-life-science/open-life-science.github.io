@@ -12,6 +12,7 @@ experts:
 - anenadic
 - annakrystalli
 - ariellebl
+- bduckles
 - beatrizserrano
 - bebatut
 - burkemlou
@@ -31,7 +32,7 @@ experts:
 - jezcope
 - joelostblom
 - johav
-- jonny-heath
+- jonny-heath 
 - joyceykao
 - karvovskaya
 - katesimpson
@@ -233,6 +234,8 @@ experts-with-expertise:
   - lauracarter
   Ethical and reflexive research methodologies:
   - lauracarter
+  Ethnographic Skills:
+  - bduckles
   Event planning:
   - ealescak
   - serahrono
@@ -576,6 +579,7 @@ experts-with-expertise:
   - katesimpson
   Social studies of data:
   - loubez
+  - bduckles
   Software development:
   - samvanstroud
   - yochannah
@@ -585,6 +589,10 @@ experts-with-expertise:
   - joelostblom
   Stem cell biology:
   - joelostblom
+  Storytelling:
+  - adam-gristwood
+  - bduckles
+  - jonny-heath 
   Structural bioinformatics:
   - npalopoli
   Synthetic biology:
@@ -648,6 +656,7 @@ organizers:
 possible-mentors:
 - anelda
 - annakrystalli
+- bduckles
 - bebatut
 - bruno-soares
 - burkemlou
@@ -721,7 +730,9 @@ possible-mentors-with-expertise:
   - tobyhodges
   Collaborative working:
   - ekaroune
+  - bduckles
   Communication:
+  - bduckles
   - ealescak
   Community based projects:
   - landimi2
@@ -976,8 +987,12 @@ possible-mentors-with-expertise:
   - malloryfreeberg
   Social networks:
   - katesimpson
+  Social science:
+  - bduckles
   Software development:
   - yochannah
+  Storytelling:
+  - bduckles
   Synthetic biology:
   - smklusza
   Systems Biology:
