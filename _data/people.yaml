@@ -609,6 +609,27 @@ benkrikler:
   last-name: Krikler
   twitter: benkrikler
   website: https://krikler.be/
+bduckles:
+  bio: "Beth is a research consultant and social scientist. She helps technologists, 
+  designers and scientists work with human-centered data. She is the founder of 
+  Open Post Academics (formerly the Athenas), an online peer-support network for 
+  people with a Ph.D. who have left or are considering leaving academia. 
+  She is a storyteller and a writer who has published in Narratively, The Dandelion Review, 
+  VoiceCatchers and Stoneboat Literary Journal where she was nominated for the Pushcart Prize.
+  She lives in Portland, Oregon and in her free time enjoys spinning yarn, knitting, aerial silks and travel.
+  affiliation: Open Post Academics
+  country: USA
+  email: bduckles@gmail.com
+  expertise:
+  - Social Science
+  - Workshop
+  - Storytelling
+  - Ethnographic Skills
+  - Research Coaching
+  first-name: Beth
+  last-name: Duckles
+  twitter: bduckles
+  website: https://bethduckles.com/about/ 
 bgruening:
   bio: Björn is working in the European Galaxy team and tries to help make science
     open wherever he can. He is an expert in the topics related to Container, Conda,
