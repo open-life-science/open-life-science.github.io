@@ -247,7 +247,7 @@
   - bioinformatics
   - data visualization
   - open educational resource
-  mentors: []
+  mentors: yochannah
   name: Global Distribution of APOL1 Genetic variants
   participants:
   - john-ogunsola
@@ -562,8 +562,8 @@
   - Box plot
   - Mann-Whitney test
   mentors:
-  - malvikasharan
-  name: COMPUTAIONAL DRUG DISCOVERY (CORONAVIRUS)
+  - yochannah
+  name: COMPUTATIONAL DRUG DISCOVERY (CORONAVIRUS)
   participants:
   - anshika-sah
 - description: I aim to develop training materials to support the use of open data
@@ -613,7 +613,7 @@
   - systematic review
   - public policy
   - open notebook science
-  mentors: []
+  mentors: bduckles
   name: Postdoc Empirical Legal Research Open Notebook
   participants:
   - jmmaok
@@ -642,21 +642,21 @@
   participants:
   - emma-lawrence
   - jessica-sims
-- description: This is a prototype for target approaches in the stages of disease
-    prognosis. By creating a constructive study of liver disease and bioinformatics
-    pipeline. Construction of bioinformatics study to find out the key enzymes responsible
-    for causing the metastasized condition. Overall, the literature survey and finding
-    out potential responsible enzymes with a bioinformatics approach is the overall
-    goal.
-  keywords:
-  - Cirrhosis
-  - ' Bioinformatics'
-  - ' Responsible enzymes'
-  mentors:
-  - yochannah
-  name: Target Approach in the Stages of Liver Cirrhosis to Reverse Back in Good Condition
-  participants:
-  - wasifarahman
+# - description: This is a prototype for target approaches in the stages of disease
+#     prognosis. By creating a constructive study of liver disease and bioinformatics
+#     pipeline. Construction of bioinformatics study to find out the key enzymes responsible
+#     for causing the metastasized condition. Overall, the literature survey and finding
+#     out potential responsible enzymes with a bioinformatics approach is the overall
+#     goal.
+#   keywords:
+#   - Cirrhosis
+#   - ' Bioinformatics'
+#   - ' Responsible enzymes'
+#   mentors:
+#   - yochannah
+#   name: Target Approach in the Stages of Liver Cirrhosis to Reverse Back in Good Condition
+#   participants:
+#   - wasifarahman
 - description: "This work aims to create a Nigerian sentiment corpus, sentiment, and\
     \ hate speech lexicon through manual annotation for three different languages\
     \ (Hausa, Igbo, Yoruba). Our method for the creation of these language resources\
