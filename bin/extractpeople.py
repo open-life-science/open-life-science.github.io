@@ -7,7 +7,7 @@ import yaml
 from pathlib import Path
 
 
-optional_info = ['email', 'twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
+optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
 to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
 
 
@@ -21,7 +21,6 @@ def extract_people_info(row, people):
     info = {
         'first-name': row['First name'].rstrip(),
         'last-name': row['Last name'].rstrip(),
-        'email': row['Email'],
         'twitter': row['Twitter username'],
         'website': row['Website'],
         'orcid': row['ORCID'],
@@ -114,7 +113,6 @@ def extract_people(info_fp):
         people_f.write('# first-name:\n')
         people_f.write('# last-name:\n')
         people_f.write('# twitter:\n')
-        people_f.write('# email:\n')
         people_f.write('# website:\n')
         people_f.write('# gitter:\n')
         people_f.write('# orcid:\n')
