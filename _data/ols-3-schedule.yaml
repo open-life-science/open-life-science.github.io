@@ -91,30 +91,18 @@
   timeframe: February 15-19, 2021
   calls:
     -
-      type: Mentors
-      duration: 180 min
-      title: Mentoring workshop
-      date: February 22, 2021
-      time: '10:00'
-    -
-     type: Mentors
-     duration: 180 min
-     title: Mentoring workshop
-     date: February 23, 2021
-     time: '18:00'
-    -
       type: Cohort
       duration: 90 min
       title: Welcome to Open Life Science!
-      #date: September 10, 2021
-      #time: '10:00'
+      date: February 17, 2021
+      time: '13:30'
       #hosts:
       #  - bebatut
       #  - yochannah
       #  - malvikasharan
       #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      #notes: https://hackmd.io/@ols-2/week-02
-      #recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
+      notes: https://bit.ly/ols-3-week-02-cohort-call
+      #recording: 
       agenda: Meet other members of your cohort, Share project vision, Intro to working openly (open canvas)
       content: |
         During our first cohort call, we will:
@@ -162,6 +150,18 @@
 '03':
   timeframe: February 22-26, 2021
   calls:
+    -
+      type: Mentors
+      duration: 180 min
+      title: Mentoring workshop
+      date: February 22, 2021
+      time: '10:00'
+    -
+     type: Mentors
+     duration: 180 min
+     title: Mentoring workshop
+     date: February 23, 2021
+     time: '18:00'
     -
       type: Mentor-Mentee
       duration: 30 min
