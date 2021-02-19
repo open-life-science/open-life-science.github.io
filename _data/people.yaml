@@ -912,6 +912,23 @@ didik-utomo:
   github: false
   last-name: Utomo
   website: https://preprint.akademisi.co.id
+DimmestP:
+  affiliation: University of Edinburgh
+  bio: Bioinformatics PhD student in the Edward Wallace Lab at the University of Edinburgh. 
+    Researching how yeast transcriptomes are regulated in response to stress. 
+     Alumnus of the eLife Innovation Leaders program and strong proponent of open and reproducible science.
+  city: London
+  country: Scotland
+  expertise:
+  - Transcriptomics 
+  - Bioinformatics
+  - Open source
+  - R Package Development
+  - Reproducibility
+  first-name: Sam
+  last-name: Haynes
+  pronouns: he/him
+  twitter: youvegotmyname
 dlebauer:
   affiliation: University of Arizona
   country: USA
