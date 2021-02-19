@@ -247,7 +247,8 @@
   - bioinformatics
   - data visualization
   - open educational resource
-  mentors: yochannah
+  mentors: 
+  - yochannah
   name: Global Distribution of APOL1 Genetic variants
   participants:
   - john-ogunsola
@@ -798,7 +799,9 @@
     \ Thus, we would very appreciate and welcome any training, help, advice, or good\
     \ practise on FAIRification and anonymisation of neuroimaging datasets."
   keywords: []
-  mentors: []
+  mentors: 
+  - loubez
+  - bebatut
   name: 'FAIR MAFIL: FAIRification of imaging/neurophysiological data of MAFIL CEITEC
     MUNI laboratory for EOSC'
   participants:
