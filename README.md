@@ -267,3 +267,41 @@ To order them:
       -i <path to csv file with participants> \
       -l <path to log file>
    ```
+
+## Add events to Google calendar and schedule
+
+1. Create CSV file with
+   - `Week`
+   - `Type`
+   - `Optional`
+   - `Subject`
+   - `Start Date`
+   - `Start Time`
+   - `End Date`
+   - `Duration`
+   - `End Time`
+   - `All Day Event`
+   - `Note link`
+   - `Description`
+
+2. Add events to [Google calendar](https://support.google.com/calendar/answer/37118#advanced&zippy=%2Ccreate-or-edit-a-csv-file)
+
+3. Activate the conda environment
+
+   ```
+   $ source activate open-life-science-website
+   ```
+
+   Or alternatively, get locally:
+   - Python 3.*
+   - pyyaml
+   - pandas
+
+4. Run the script which add events to schedule file
+
+   ```
+   $ python bin/addevents.py \
+      -c <cohort id> \
+      -e <path to csv file with event csv> \
+      -l <path to log file>
+   ```
