@@ -71,50 +71,38 @@
       type: Mentors
       duration: 60 min
       title: Mentor training
-      #date: September 1, 2021
-      #time: '18:00'
+      date: February 8, 2021
+      time: '18:30'
       content: |
-        During our first cohort call, you will:
+        During our first mentor training onboarding session, you will:
         - Understand common successes and challenges in mentoring OLS participants.
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-    #-
-    #  type: Mentors
-    #  duration: 60 min
-    #  title: Mentor training
-    #  date: September 4, 2021
-    #  time: '13:30'
-    #  content: |
-    #    During our first cohort call, you will:
-    #    - Understand common successes and challenges in mentoring OLS participants.
-    #    - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+    -
+      type: Mentors
+      duration: 60 min
+      title: Mentor training
+      date: February 9, 2021
+      time: '15:00'
+      content: |
+        (This session is identical to the session the previous day). During our first mentor training onboarding session, you will:
+        - Understand common successes and challenges in mentoring OLS participants.
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
 '02':
   timeframe: February 15-19, 2021
   calls:
     -
-      type: Mentors
-      duration: 180 min
-      title: Mentoring workshop
-      #date: September 8, 2021
-      #time: '11:00'
-    #-
-    #  type: Mentors
-    #  duration: 180 min
-    #  title: Mentoring workshop
-    #  date: September 8, 2021
-    #  time: '18:00'
-    -
       type: Cohort
       duration: 90 min
       title: Welcome to Open Life Science!
-      #date: September 10, 2021
-      #time: '10:00'
-      #hosts: 
+      date: February 17, 2021
+      time: '13:30'
+      #hosts:
       #  - bebatut
       #  - yochannah
-      #  - malvikasharan 
+      #  - malvikasharan
       #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      #notes: https://hackmd.io/@ols-2/week-02
-      #recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
+      notes: https://bit.ly/ols-3-week-02-cohort-call
+      #recording: 
       agenda: Meet other members of your cohort, Share project vision, Intro to working openly (open canvas)
       content: |
         During our first cohort call, we will:
@@ -163,6 +151,18 @@
   timeframe: February 22-26, 2021
   calls:
     -
+      type: Mentors
+      duration: 180 min
+      title: Mentoring workshop
+      date: February 22, 2021
+      time: '10:00'
+    -
+     type: Mentors
+     duration: 180 min
+     title: Mentoring workshop
+     date: February 23, 2021
+     time: '18:00'
+    -
       type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
@@ -190,10 +190,10 @@
             - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
     -
       type: Coworking
-      duration: 60 min
-      title: 'Coworking on assignments, knowledge exchange and networking'
-      #date: September 17, 2021
-      #time: '17:00'
+      duration: 30 min
+      title: 'Open office hour, coworking on assignments, knowledge exchange and networking'
+      date: February 24, 2021
+      time: '18:00'
       #calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       #notes: https://hackmd.io/@ols-2/coworking#Week-3
       content: |
@@ -531,19 +531,19 @@
         - Understanding our societal privileges and stepping up for our colleagues and community as an ally
       before: |
         - Personal Ecology and self care
-        
+
           Think about how you might briefly answer the following questions
           - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe it.
           - Imagine your most Unfulfilling day at work. Think of 3 word-pairs to describe it.
-          
+
           The big idea: identify the most fulfilling conditions under which you thrive - sustain them; identify the least fulfilling conditions that frustrate you - avoid them.
 
         - Preparing for the Ally Skills
-        
+
           Think how people step up for you in social scenarios and how you step up for them to support each othe:
           - What do your colleagues do to make your workplace inclusive for you?
           - What do you do to make your workplace inclusive for them?
-        
+
           The big idea: Based on your experience, what would you consider doing to make your project inclusive for your contributors or team members?
 
       resources:
@@ -599,7 +599,7 @@
       content: |
         During this week's cohort call, we will discuss how to apply FAIR research principles on data, software, training
 
-        FAIR stands for findable, accessible, interoperable, reusable. The ideal is that research should be "as open as 
+        FAIR stands for findable, accessible, interoperable, reusable. The ideal is that research should be "as open as
         possible, as restricted as necessary."
       after: |
         Think about and plan to apply FAIR principles to your project in your own time

@@ -111,7 +111,7 @@ OLS's third cohort (OLS-3) will be conducted from February to May 2021.
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-<!-- For the second round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ projects | size }} projects](/ols-3/projects-participants#projects). -->
+For the third round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ projects | size }} projects](/ols-3/projects-participants#projects).
 
 ## Mentors
 
@@ -126,7 +126,7 @@ Mentors advise and inspire
 ### Pool of mentors
 
 <!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-3-metadata.yaml file -->
+Any modification of the content should be done in the _data/ols-3-metadata.yaml file
 
 We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
@@ -167,21 +167,20 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
         {% endfor %}
     </ul>
 </div>
-{% endif %}
+{% endif %} -->
 
 
 <!-- Pool of mentors (hidden before cohort starts)
 Any modification of the content should be done in the _data/ols-3-projects.yaml file -->
 
-<!--
-We thank the {{ metadata.possible-mentors | size }} mentors this round.
+We thank the {{ p-mentors | size }} mentors this round.
 <div class="people">
 {% for entry in p-mentors %}
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
 {% endfor %}
-</div>-->
+</div>
 
 ### Mentoring training
 

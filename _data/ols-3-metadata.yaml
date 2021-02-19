@@ -10,7 +10,9 @@ experts:
 - alexandra-holinski
 - alexwlchan
 - anenadic
+- annakrystalli
 - ariellebl
+- bduckles
 - beatrizserrano
 - bebatut
 - burkemlou
@@ -19,6 +21,7 @@ experts:
 - demellina
 - ealescak
 - ekaroune
+- emma-anne-harris
 - estherplomp
 - ewallace
 - fpsom
@@ -29,15 +32,15 @@ experts:
 - jezcope
 - joelostblom
 - johav
-- jonny-heath
+- jonny-heath 
 - joyceykao
-- karvovskaya
 - karvovskaya
 - katesimpson
 - kmexter
 - kswhitney
 - lauracarter
 - lauracion
+- loubez
 - malvikasharan
 - margaret-wanjiku
 - marta-lloret-llinares
@@ -48,6 +51,7 @@ experts:
 - npalopoli
 - pivg
 - prashbio
+- proccaserra
 - profgiuseppe
 - rainsworth
 - samvanstroud
@@ -177,6 +181,8 @@ experts-with-expertise:
   - mishrose123
   Culture change:
   - ariellebl
+  Data Management:
+  - proccaserra
   Data Science:
   - samvanstroud
   - tsonika
@@ -190,6 +196,8 @@ experts-with-expertise:
   - yvanlebras
   Data usage in the public sector:
   - lauracarter
+  Data visualisation.:
+  - annakrystalli
   Data-driven evaluation of building performance:
   - katesimpson
   Designing and developing training material:
@@ -211,6 +219,8 @@ experts-with-expertise:
   - marta-lloret-llinares
   Drug discovery:
   - ariellebl
+  E-learning:
+  - emma-anne-harris
   Ecology:
   - yvanlebras
   Education:
@@ -224,6 +234,8 @@ experts-with-expertise:
   - lauracarter
   Ethical and reflexive research methodologies:
   - lauracarter
+  Ethnographic Skills:
+  - bduckles
   Event planning:
   - ealescak
   - serahrono
@@ -234,6 +246,10 @@ experts-with-expertise:
   FAIR:
   - ekaroune
   - estherplomp
+  - loubez
+  FAIR Data:
+  - emma-anne-harris
+  - proccaserra
   FAIR data:
   - kmexter
   FAIR principles:
@@ -249,8 +265,12 @@ experts-with-expertise:
   - karvovskaya
   Full-stack developer:
   - unode
+  Functional Genomics:
+  - proccaserra
   Functional genomics:
   - burkemlou
+  GIS:
+  - annakrystalli
   Galaxy:
   - bebatut
   - nomadscientist
@@ -300,6 +320,8 @@ experts-with-expertise:
   - ealescak
   Inclusive and collaborative practices:
   - malvikasharan
+  Innovation RRI:
+  - emma-anne-harris
   Insects:
   - kswhitney
   Introductory data science:
@@ -309,6 +331,8 @@ experts-with-expertise:
   Jekyll:
   - bebatut
   - tobyhodges
+  LMIC research/ers:
+  - loubez
   Leadership:
   - ealescak
   Libraries:
@@ -335,6 +359,8 @@ experts-with-expertise:
   - yochannah
   Meta-transcriptomics:
   - unode
+  Metabolomics:
+  - proccaserra
   Metagenomics:
   - bebatut
   - unode
@@ -365,15 +391,20 @@ experts-with-expertise:
   - kswhitney
   Online training:
   - alexandra-holinski
+  - emma-anne-harris
   - marta-lloret-llinares
   Ontologies:
   - beatrizserrano
+  - proccaserra
   Open Access:
   - johav
+  Open Data:
+  - loubez
   Open Science:
   - alexandra-holinski
   - fpsom
   - johav
+  - loubez
   Open Science/Research:
   - rainsworth
   Open access:
@@ -406,6 +437,7 @@ experts-with-expertise:
   Open science:
   - christinerogers
   - demellina
+  - emma-anne-harris
   Open science communities:
   - martinagvilas
   Open science hardware:
@@ -477,6 +509,7 @@ experts-with-expertise:
   - malvikasharan
   - samvanstroud
   R:
+  - annakrystalli
   - beatrizserrano
   - stefaniebutland
   R Programming:
@@ -494,22 +527,31 @@ experts-with-expertise:
   - unode
   Reproducible analysis workflows:
   - joelostblom
+  Reproducible research:
+  - annakrystalli
   Reproducible science:
   - profgiuseppe
   Research Data Management:
   - johav
   Research data management:
+  - emma-anne-harris
   - estherplomp
   - karvovskaya
   - karvovskaya
+  Research ethics:
+  - emma-anne-harris
   Research in Africa:
   - johav
   Research integrity:
+  - emma-anne-harris
   - iratxepuebla
   Research methods:
   - ealescak
   Research software:
+  - annakrystalli
   - christinerogers
+  Responsible research:
+  - emma-anne-harris
   Ressource development:
   - serahrono
   Road ecology:
@@ -535,6 +577,9 @@ experts-with-expertise:
   - nomadscientist
   Social networks:
   - katesimpson
+  Social studies of data:
+  - loubez
+  - bduckles
   Software development:
   - samvanstroud
   - yochannah
@@ -544,6 +589,10 @@ experts-with-expertise:
   - joelostblom
   Stem cell biology:
   - joelostblom
+  Storytelling:
+  - adam-gristwood
+  - bduckles
+  - jonny-heath 
   Structural bioinformatics:
   - npalopoli
   Synthetic biology:
@@ -559,6 +608,7 @@ experts-with-expertise:
   - karvovskaya
   Training:
   - burkemlou
+  - emma-anne-harris
   - ewallace
   - fpsom
   - pivg
@@ -573,6 +623,7 @@ experts-with-expertise:
   User-centered design, buildings, energy, environment quality:
   - katesimpson
   Version control:
+  - annakrystalli
   - martinagvilas
   Virtual events:
   - joyceykao
@@ -604,10 +655,12 @@ organizers:
 - yochannah
 possible-mentors:
 - anelda
+- annakrystalli
+- bduckles
 - bebatut
 - bruno-soares
 - burkemlou
-- christinerogers
+- DimmestP
 - ealescak
 - ekaroune
 - estherplomp
@@ -622,6 +675,7 @@ possible-mentors:
 - landimi2
 - lauracarter
 - lauracion
+- loubez
 - malloryfreeberg
 - malvikasharan
 - meagdoh
@@ -631,6 +685,7 @@ possible-mentors:
 - smklusza
 - tlaguna
 - tobyhodges
+- tsonika
 - unode
 - yochannah
 - yvanlebras
@@ -676,7 +731,9 @@ possible-mentors-with-expertise:
   - tobyhodges
   Collaborative working:
   - ekaroune
+  - bduckles
   Communication:
+  - bduckles
   - ealescak
   Community based projects:
   - landimi2
@@ -692,6 +749,8 @@ possible-mentors-with-expertise:
   - katesimpson
   Community engagement:
   - iratxepuebla
+  Computational Epigenomics:
+  - tsonika
   Computational Training:
   - unode
   Computational biology:
@@ -703,6 +762,8 @@ possible-mentors-with-expertise:
   - pivg
   Course design:
   - pivg
+  Data Science:
+  - tsonika
   Data Science best practices:
   - malvikasharan
   Data analysis:
@@ -713,6 +774,8 @@ possible-mentors-with-expertise:
   - yvanlebras
   Data usage in the public sector:
   - lauracarter
+  Data visualisation.:
+  - annakrystalli
   Data-driven evaluation of building performance:
   - katesimpson
   Designing and developing training material:
@@ -751,12 +814,15 @@ possible-mentors-with-expertise:
   - lauracarter
   Fieldwork:
   - karvovskaya
+  - karvovskaya
   Following the road less travelled:
   - anelda
   Full-stack developer:
   - unode
   Functional genomics:
   - burkemlou
+  GIS:
+  - annakrystalli
   Galaxy:
   - bebatut
   - hrhotz
@@ -765,6 +831,8 @@ possible-mentors-with-expertise:
   - bebatut
   Gender and stereotyping:
   - lauracarter
+  Genomics:
+  - tsonika
   Git:
   - bebatut
   - jezcope
@@ -811,6 +879,7 @@ possible-mentors-with-expertise:
   Machine learning:
   - fpsom
   - harpreetsingh05
+  - tsonika
   Mentoring:
   - malvikasharan
   - prashbio
@@ -881,6 +950,7 @@ possible-mentors-with-expertise:
   Python:
   - malvikasharan
   R:
+  - annakrystalli
   - malloryfreeberg
   R Programming:
   - harpreetsingh05
@@ -890,14 +960,18 @@ possible-mentors-with-expertise:
   - ekaroune
   - sgibson91
   - unode
+  Reproducible research:
+  - annakrystalli
   Research data management:
   - estherplomp
+  - karvovskaya
   - karvovskaya
   Research integrity:
   - iratxepuebla
   Research methods:
   - ealescak
   Research software:
+  - annakrystalli
   - christinerogers
   SQL:
   - malloryfreeberg
@@ -914,8 +988,12 @@ possible-mentors-with-expertise:
   - malloryfreeberg
   Social networks:
   - katesimpson
+  Social science:
+  - bduckles
   Software development:
   - yochannah
+  Storytelling:
+  - bduckles
   Synthetic biology:
   - smklusza
   Systems Biology:
@@ -926,16 +1004,21 @@ possible-mentors-with-expertise:
   - tobyhodges
   Theoretical linguistics:
   - karvovskaya
+  - karvovskaya
   Training:
   - burkemlou
   - fpsom
   - pivg
+  Transcriptomics:
+  - tsonika
   Unix:
   - malvikasharan
   User research:
   - meagdoh
   User-centered design, buildings, energy, environment quality:
   - katesimpson
+  Version control:
+  - annakrystalli
   Virtual events:
   - joyceykao
   Web:

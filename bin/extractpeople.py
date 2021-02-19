@@ -1,9 +1,14 @@
 #!/usr/bin/env python
 
 import argparse
+import logging
 import pandas as pd
 import yaml
 from pathlib import Path
+
+
+optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
+to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
 
 
 def extract_people_info(row, people):
@@ -14,44 +19,61 @@ def extract_people_info(row, people):
     :param people: dictionary with people information
     '''
     info = {
-        'first-name': row['First name'],
-        'last-name': row['Last name'],
-        'email': row['Email'],
+        'first-name': row['First name'].rstrip(),
+        'last-name': row['Last name'].rstrip(),
         'twitter': row['Twitter username'],
         'website': row['Website'],
         'orcid': row['ORCID'],
         'affiliation': row['Affiliation'],
         'city': row['City'],
         'country': row['Country'],
-        'pronouns': row['Preferred pronouns (optional)'],
+        'pronouns': row['Pronouns'],
         'expertise': row['Areas of expertise'],
         'bio': row['Bio']
     }
+    # get id
     github = row['Github username']
     if github is None:
         github = '%s-%s' % (
             info['first-name'],
             info['last-name'])
         info['github'] = False
+    github = github.replace('https://github.com/', '')
+    github = github.rstrip()
     github = github.lower().replace(' ', '-')
+    # format ORCID
+    if info['orcid'] is not None:
+        info['orcid'] = info['orcid'].replace('https://orcid.org/', '')
+    # format Twitter 
+    if info['twitter'] is not None:
+        info['twitter'] = info['twitter'].replace('@', '')
+    # format expertise
+    if info['expertise'] is not None:
+        info['expertise'] = info['expertise'].rstrip().split("; ")
+    # format website
+    if info['website'] is not None and not info['website'].startswith('https'):
+        info['website'] = 'https://%s' % info['website']
+    # check info and remove optional empty info
     info_k = list(info.keys())
-    optional_info = ['email', 'twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
     for i in info_k:
-        if i == 'expertise' and info[i] is not None:
-            info['expertise'] = info['expertise'].split("; ")
         if info[i] is None:
             if github in people and i in people[github]:
                 info[i] = people[github][i]
             elif i in optional_info:
                 del info[i]
+        else:
+            if i != 'expertise' and i != 'github':
+                info[i] = info[i].rstrip()
+            if i in to_capitalize_info:
+                info[i] = info[i].title()
     return github, info
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Extract people information from a sheet and add them to people.yaml')
-    parser.add_argument('-i', '--information', help="Path to information sheet file")
-    args = parser.parse_args()
+def extract_people(info_fp):
+    '''Extract people information from a sheet and add them to people.yaml
 
+    :param info_fp: Path to information sheet file
+    '''
     people_fp = Path('_data') / Path('people.yaml')
 
     # load people.yaml file into a dictionary
@@ -61,22 +83,22 @@ if __name__ == '__main__':
     # load people information from sheet file
     # parse it
     # add information to people dictionary
-    information_fp = Path(args.information)
+    information_fp = Path(info_fp)
     df = pd.read_csv(information_fp)
     df = df.where(pd.notnull(df), None)
     people_l = []
     for index, row in df.iterrows():
         github, info = extract_people_info(row, people)
         if github not in people:
-            print("Add info for %s" % github)
+            logging.info("Add info for %s" % github)
             people[github] = info
         else:
-            print("Update info for %s" % github)
+            logging.info("Update info for %s" % github)
             people[github] = info
         people_l.append(github)
-    print("Full list")
+    logging.info("Full list")
     people_l.sort()
-    print('- %s' % '\n- '.join(people_l))
+    logging.info('- %s' % '\n- '.join(people_l))
 
     # dump people dictionary into people.yaml file
     with people_fp.open("w") as people_f:
@@ -91,7 +113,6 @@ if __name__ == '__main__':
         people_f.write('# first-name:\n')
         people_f.write('# last-name:\n')
         people_f.write('# twitter:\n')
-        people_f.write('# email:\n')
         people_f.write('# website:\n')
         people_f.write('# gitter:\n')
         people_f.write('# orcid:\n')
@@ -105,3 +126,16 @@ if __name__ == '__main__':
         people_f.write('# Mandatory: first-name, last-name, country\n')
         people_f.write('---\n')
         people_f.write(yaml.dump(people, allow_unicode=True))
+
+    return people_l
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Extract people information from a sheet and add them to people.yaml')
+    parser.add_argument('-i', '--information', help="Path to information sheet file")
+    parser.add_argument('-l', '--log', help="Path to log output file")
+    args = parser.parse_args()
+
+    logging.basicConfig(filename=args.log, level=logging.DEBUG)
+
+    extract_people(args.information)

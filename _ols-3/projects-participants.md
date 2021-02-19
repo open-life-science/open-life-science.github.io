@@ -46,7 +46,12 @@ For the third round of the Open Life Science program, we are happy to have [{{ p
 
 **By**: {{ p-pparticipants | remove_first: ', ' }}
 
-**Mentored by**: {{ p-mentors | remove_first: 'with ' }} 
+**Mentored by**: {{ p-mentors | remove_first: 'with ' }}
+
+    {% capture difference %} {{ project.keywords | size | minus:1 }} {% endcapture %}
+    {% unless difference contains '-' %}
+**Keywords**: {{ project.keywords | join: ', ' }}
+    {% endunless %}
 
 {{ project.description }}
 
