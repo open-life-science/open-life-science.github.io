@@ -135,7 +135,8 @@
     title: Mentoring workshop
     date: February 22, 2021
     time: '10:00'
-  - type: Mentors
+  -
+    type: Mentors
     duration: 180 min
     title: Mentoring workshop
     date: February 23, 2021
@@ -166,8 +167,11 @@
           - Read it to the Breakout room friends during the next call and hear their feedback :)
           - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
   - type: Coworking
-    duration: 60 min
-    title: Coworking on assignments, knowledge exchange and networking
+    duration: 30 min
+    title: Open office hour, coworking on assignments, knowledge exchange and networking
+    date: February 24, 2021
+    time: '18:00'
+    notes: https://bit.ly/ols-3-week-03-q-a
     content: |
       During this week's coworking call, you will:
       - take some time to get to know each other over informal networking opportunity
@@ -175,13 +179,7 @@
     before: |
       - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
     after: |
-      - Continue on with your project, and connect with others on Gitter or other social media platforms.
-  - date: February 24, 2021
-    time: '18:00'
-    duration: 30 min
-    notes: https://bit.ly/ols-3-week-03-q-a
-    type: Q&A
-    title: Q&A call on week 2 cohort call
+      - Continue on with your project, and connect with others on Slack or other social media platforms.
 '04':
   timeframe: March 1-5, 2021
   calls:
@@ -236,9 +234,6 @@
       - Complete your week 4 assignments
     after: |
       - Complete any week 4 assignments that you have left to do.
-  - type: Coworking
-    duration: 60 min
-    title: Coworking on assignments, knowledge exchange and networking
   - type: Cohort
     duration: 90 min
     title: 'Skill-up: GitHub tutorial for beginners'
@@ -290,12 +285,9 @@
     - type: external-link
       title: Git workflow
       link: https://www.atlassian.com/git/tutorials/comparing-workflows
-  - date: October 03, 2021
+    date: March 10, 2021
     time: '13:30'
-    duration: 30 min
-    notes: https://bit.ly/ols-3-week-05-q-a
-    type: Q&A
-    title: Q&A call on week 4 cohort call
+    notes: https://bit.ly/ols-3-week-05
 '06':
   timeframe: March 15-19, 2021
   calls:
@@ -350,9 +342,6 @@
       - Complete your week 6 assignments.
     after: |
       - Complete any week 6 assignments that you have left to do.
-  - type: Coworking
-    duration: 60 min
-    title: Coworking on assignments, knowledge exchange and networking
   - type: Mentors
     duration: 60 min
     title: Mentor training
@@ -364,8 +353,16 @@
     time: '18:00'
     duration: 30 min
     notes: https://bit.ly/ols-3-week-07-q-a
-    type: Q&A
-    title: Q&A call on week 6 cohort call
+    type: Coworking
+    title: Open office hour, coworking on assignments, knowledge exchange and networking
+    content: |
+      During this week's coworking call, you will:
+      - take some time to get to know each other over informal networking opportunity
+      - start coworking session
+    before: |
+      - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
+    after: |
+      - Continue on with your project, and connect with others on Slack or other social media platforms.
 08:
   timeframe: March 29 - April 2, 2021
   calls:
@@ -451,12 +448,10 @@
     - type: external-link
       title: Goal setting exercise
       link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
-  - date: July 04, 2021
+    date: April 07, 2021
     time: '13:30'
     duration: 30 min
     notes: https://bit.ly/ols-3-week-09-q-a
-    type: Q&A
-    title: Q&A call on week 8 cohort call
 '10':
   timeframe: April 12-16, 2021
   calls:
@@ -505,15 +500,20 @@
   - type: Mentor-Mentee
     duration: 30 min
     title: Meet your mentor!
-  - type: Coworking
-    duration: 60 min
-    title: Coworking on assignments, knowledge exchange and networking
   - date: April 21, 2021
     time: '18:00'
     duration: 30 min
     notes: https://bit.ly/ols-3-week-11-q-a
-    type: Q&A
-    title: Q&A call on week 10 cohort call
+    type: Coworking
+    title: Open office hour, coworking on assignments, knowledge exchange and networking
+    content: |
+      During this week's coworking call, you will:
+      - take some time to get to know each other over informal networking opportunity
+      - start coworking session
+    before: |
+      - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
+    after: |
+      - Continue on with your project, and connect with others on Slack or other social media platforms.
 '12':
   timeframe: April 26-30, 2021
   calls:
@@ -544,24 +544,19 @@
   - type: Mentor-Mentee
     duration: 30 min
     title: Meet your mentor!
-  - type: Cohort
-    duration: 90 min
-    title: 'Skill-up: Creative writing and storytelling workshop, followed by 30 minutes
-      open agenda discussion'
-    content: |
-      During this week's cohort call, we will:
-      - Learn about simple storytelling skills to present your work. Informally connect with each other.
-    before: |
-      - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
-    after: |
-      - Continue on with your project, and connect with others on Gitter or other social media platforms.
-    resources: null
   - date: May 05, 2021
     time: '13:30'
     duration: 30 min
     notes: https://bit.ly/ols-3-week-13-q-a
-    type: Q&A
-    title: Q&A call on week 12 cohort call
+    type: Cohort
+    title: Social
+    content: |
+      During this week's coworking call, you will:
+      - take some time to get to know each other over informal networking opportunity
+    before: |
+      - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
+    after: |
+      - Continue on with your project, and connect with others on Slack or other social media platforms.
 '14':
   timeframe: May 10-14, 2021
   calls:

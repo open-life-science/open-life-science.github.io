@@ -27,7 +27,7 @@
     mostly on integration of robotic systems and biological design tools. I enjoy
     dogs, beer, and fantasy novels.
   city: Boston
-  country: United States
+  country: USA
   expertise:
   - Robotics
   - Software
@@ -122,7 +122,7 @@ aida-turing:
     between research teams and external stakeholders, the impact of the overall Programme
     can be significantly improved.
   city: London
-  country: United Kingdom
+  country: UK
   expertise:
   - Creating user-friendly outputs from the research process
   - Data science
@@ -179,7 +179,7 @@ alexandra-holinski:
     to and advocate the principles of Open Science. I am not a bioinformatician myself,
     but a chemist / biochemist by education, with several years of experience in scientific
     research; mainly in the wet lab.
-  country: United Kingdom
+  country: UK
   expertise:
   - Scientific Education and Training
   - Course development
@@ -199,7 +199,7 @@ alexandra-holinski:
   pronouns: She/her
 alexwlchan:
   affiliation: Wellcome Collection
-  country: United Kingdom
+  country: UK
   first-name: Alex
   last-name: Chan
   pronouns: they/she
@@ -255,7 +255,7 @@ anenadic:
     in computational and data analysis skills forward and helping develop new training
     curricula.
   city: Manchester
-  country: United Kingdom
+  country: UK
   expertise:
   - Open and reproducible research best practices
   - Training and teaching tech to researchers
@@ -324,7 +324,7 @@ annakrystalli:
     use of the real workhorses of research, code and data, and in spreading the word
     about the joys of R.
   city: Sheffield
-  country: United Kingdom
+  country: UK
   expertise:
   - R
   - Reproducible research
@@ -345,7 +345,7 @@ annalee-sekulic:
     what a gift it is to connect with people from another way of life; Open Life Sciences
     makes that possible.
   city: Columbus
-  country: United States
+  country: USA
   expertise:
   - Arabian Botanicals
   - Public Databases
@@ -433,7 +433,7 @@ ariellebl:
     was a CSCCE Community Engagement Fellow in 2019 and continues to be actively involved
     in the community. She is a contributor to the Turing Way project.
   city: London
-  country: United Kingdom
+  country: UK
   expertise:
   - Road mapping and strategy planning
   - Community consultation
@@ -486,7 +486,7 @@ batoolmm:
   affiliation: The University Of Liverpool
   bio: I'm a computational biologist with a passion for open science.
   city: Liverpool/Dammam
-  country: United Kingdom/Saudi Arabia
+  country: UK/Saudi Arabia
   expertise:
   - Computational biology
   first-name: Batool
@@ -813,7 +813,7 @@ da5nsy:
   affiliation: Nih
   bio: I'm a color vision researcher and open science advocate.
   city: Washington Dc
-  country: Usa
+  country: USA
   expertise:
   - Registered reports
   - Peer review
@@ -890,7 +890,7 @@ demellina:
     a strong advocate of Open Research and engages with the research community to
     raise awareness of the F1000Research publishing platforms.
   city: London
-  country: United Kingdom
+  country: UK
   expertise:
   - Open science
   - Open research
@@ -912,6 +912,23 @@ didik-utomo:
   github: false
   last-name: Utomo
   website: https://preprint.akademisi.co.id
+DimmestP:
+  affiliation: University of Edinburgh
+  bio: Bioinformatics PhD student in the Edward Wallace Lab at the University of Edinburgh. 
+    Researching how yeast transcriptomes are regulated in response to stress. 
+     Alumnus of the eLife Innovation Leaders program and strong proponent of open and reproducible science.
+  city: London
+  country: Scotland
+  expertise:
+  - Transcriptomics 
+  - Bioinformatics
+  - Open source
+  - R Package Development
+  - Reproducibility
+  first-name: Sam
+  last-name: Haynes
+  pronouns: he/him
+  twitter: youvegotmyname
 dlebauer:
   affiliation: University of Arizona
   country: USA
@@ -965,7 +982,7 @@ ealescak:
     evolution, and management of Alaskan fish populations as well as a strong background
     in mentoring and leadership in science advocacy initiatives.
   city: Anchorage
-  country: Usa
+  country: USA
   expertise:
   - Community building
   - Communication
@@ -989,7 +1006,7 @@ ekaroune:
     science skills. I'm also working as a Community Manager at the Alan Turing Institute
     on the DECOVID project and I am an contributor to The Turing Way.
   city: Portsmouth
-  country: United Kingdom
+  country: UK
   expertise:
   - Environmental Archaeology
   - Palaeoecology
@@ -1053,7 +1070,7 @@ emma-lawrence:
     role is to engage with researchers and Biobankers to improve efficiency in the
     sector.
   city: London
-  country: Uk
+  country: UK
   expertise:
   - Biobanking
   first-name: Emma
@@ -1117,7 +1134,7 @@ ewallace:
     an open science advocate and teaches data literacy to scientists, working with
     Edinburgh Carpentries.
   city: Edinburgh
-  country: United Kingdom
+  country: UK
   expertise:
   - RNA biology
   - Bioinformatics
@@ -1148,7 +1165,7 @@ fabienne-lucas:
     this starts with establishing a correct diagnosis - backed up by science and fair
     and transparent peer-review that holds everyone to the same standards.
   city: Boston
-  country: Usa
+  country: USA
   first-name: Fabienne
   github: false
   last-name: Lucas
@@ -1412,7 +1429,7 @@ iratxepuebla:
     I was Deputy Editor-in-Chief at the journal PLOS ONE. I am also Facilitation and
     Integrity Officer for the Committee on Publication Ethics (COPE).'
   city: Cambridge
-  country: United Kingdom
+  country: UK
   expertise:
   - Preprints
   - Science communication
@@ -1562,7 +1579,7 @@ jessica-sims:
     in using creative activities and techniques, such as the use of performance and
     games,  to engage both professionals and the public in research work.
   city: London
-  country: United Kingdom
+  country: UK
   expertise:
   - Biobanking
   - Human samples for research
@@ -1587,7 +1604,7 @@ jezcope:
     the skills to make the most of this. He is a Fellow of the Software Sustainability
     Institute, 2020 intake.
   city: North Yorkshire
-  country: United Kingdom
+  country: UK
   expertise:
   - Libraries
   - Data management
@@ -1609,7 +1626,7 @@ jmmaok:
     scientific workforce. She is currently engaged with a portfolio of projects advancing
     open knowledge in the areas of open data, open education, and open science.
   city: Cary, Nc
-  country: Usa
+  country: USA
   expertise:
   - Empirical legal research
   - Open science
@@ -1675,7 +1692,7 @@ john-ogunsola:
   bio: John is a budding scientist, open to continuously learning, and passionate
     about improving the health of man and animals.
   city: Glasgow
-  country: United Kingdom
+  country: UK
   expertise:
   - Biological sciences
   - Trypanosomiasis
@@ -1692,7 +1709,7 @@ jonny-heath:
     to them in a novel way, as a tool for new insights. I am a graduate of philosophy
     specialising in scientific representation.
   city: Brighton
-  country: United Kingdom
+  country: UK
   expertise:
   - Poetry
   - Philosophy of scientific representation
@@ -1807,7 +1824,7 @@ katesimpson:
     housing. I am passionate about making research, tools, code and data open access,
     where ethical. As a recent graduate of OLS-2, I continue to learn in this space.
   city: London
-  country: United Kingdom
+  country: UK
   expertise:
   - Open scholarship
   - Community development
@@ -1999,7 +2016,7 @@ kswhitney:
     of teaching and research. However, she's also a critical advocate for ensuring
     that "open" initiatives and products do not exclude disabled leaders and participants.
   city: Rochester
-  country: Usa
+  country: USA
   expertise:
   - Accessibility
   - Road ecology
@@ -2036,7 +2053,7 @@ lauracarter:
     almost a decade as a researcher at Amnesty International, focusing on gender,
     women''s rights, and LGBTI rights. She believes in research as a means to an end:
     to building a better world for everyone.'
-  country: Uk
+  country: UK
   expertise:
   - Human rights
   - Data usage in the public sector
@@ -2224,7 +2241,7 @@ malloryfreeberg:
     Project and the Human Cell Atlas, and is passionate about promoting metadata standards
     and best practices.
   city: Cambridge
-  country: Uk
+  country: UK
   expertise:
   - Metadata
   - FAIR principles
@@ -2305,7 +2322,7 @@ marta-lloret-llinares:
     Marta focuses on providing a great learning experience for participants. She has
     a background in molecular biology, where her focus was on understanding gene expression.
   city: Cambridge
-  country: Uk
+  country: UK
   expertise:
   - Course design
   - Online training
@@ -2519,7 +2536,7 @@ mihaelanemes:
     and ask pertinent research questions. Passionate about open science, community
     building and knowledge sharing.'
   city: London
-  country: Uk
+  country: UK
   expertise:
   - Genomics
   - Neuroscience
@@ -2535,7 +2552,7 @@ mishrose123:
   bio: I am a social media professional with experience in creating content for scientific
     organisation social media accounts.
   city: Cambridge
-  country: United Kingdom
+  country: UK
   expertise:
   - Science communication using social media
   - Creating digital content
@@ -2715,7 +2732,7 @@ nomadscientist:
   bio: I teach bioinformatics using Galaxy, I teach martial arts, and I hate onions.
     No seriously, I hate them. With my very soul.
   city: Cambridge
-  country: United Kingdom
+  country: UK
   expertise:
   - Bioinformatics
   - Single cell transcriptomes
@@ -2897,7 +2914,7 @@ pivg:
     and biomedical sciences, and I am passionate about science communication, equity
     and inclusion.
   city: Cambridge
-  country: United Kingdom
+  country: UK
   expertise:
   - Education
   - Training
@@ -2962,7 +2979,7 @@ proccaserra:
     Data FAIRification (via FAIRsharing.org) and IMI FAIRplus, for which I coordinate
     the development of the FAIR cookbook (https://fairplus.github.io/the-fair-cookbook)
   city: Oxford
-  country: Uk
+  country: UK
   expertise:
   - Data Management
   - FAIR Data
@@ -3010,7 +3027,7 @@ rainsworth:
     Open Leaders, and organises a women in data meetup group in Manchester called
     HER+Data MCR.
   city: Manchester
-  country: United Kingdom
+  country: UK
   expertise:
   - Astrophysics
   - Open Science/Research
@@ -3149,7 +3166,7 @@ samvanstroud:
   bio: Sam is a PhD Student at the UCL Data Intensive Science CDT. Hi is an OLS-2
     graduate and works on the ATLAS experiment at CERN.
   city: London
-  country: Uk
+  country: UK
   expertise:
   - Data Science
   - GitHub
@@ -3262,7 +3279,7 @@ sgibson91:
     best practices and reproducible workflows through her Fellowship with the Software
     Sustainability Institute.
   city: London
-  country: Uk
+  country: UK
   expertise:
   - Reproducibility
   - Cloud infrastructure
@@ -3377,7 +3394,7 @@ spitschan:
   bio: I'm a visual and circadian neuroscientist interested in how light affects our
     physiology and behaviour. I'm also passionate about improving science.
   city: Oxford
-  country: United Kingdom
+  country: UK
   expertise:
   - Human neuroscience
   first-name: Manuel
