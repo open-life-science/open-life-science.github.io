@@ -705,6 +705,24 @@ camachoreina:
   pronouns: She/her
   twitter: rcamachotoro
   website: https://camachoreina.github.io
+c-martinez:  
+  affiliation: Netherlands eScience Center
+  bio: Carlos did his PhD in computer science, and has been working in different areas 
+    of application ever since. He likes learning about the different areas of research 
+    where digital technology can open up new areas of research. In his words: "In every project I have
+    been involved, I have always learned something new, and I love that feeling of discovering new things."
+  city: Amsterdam
+  country: The Netherlands
+  expertise:
+  - Software sustainability
+  - FAIR software
+  - linked data
+  first-name: Carlos
+  last-name: Martinez-Ortiz
+  orcid: 0000-0001-5565-7577
+  pronouns: he/him
+  twitter: neocarlitos
+  website: https://www.esciencecenter.nl/team/dr-carlos-martinez-ortiz/
 carly-monks:
   affiliation: University Of Western Australia
   bio: Carly is a Senior Technician at the University of Western Australia, responsible
@@ -927,6 +945,7 @@ DimmestP:
   - Reproducibility
   first-name: Sam
   last-name: Haynes
+  orcid: 0000-0002-3366-1812
   pronouns: he/him
   twitter: youvegotmyname
 dlebauer:
@@ -1271,8 +1290,11 @@ ha0ye:
     Center Libraries. His role is to promote research reproducibility and open science
     practices across the entire UF system. He is especially interested in how open
     practices can be leveraged to promote equity and inclusion in higher education.
+  city: Florida
   country: USA
   expertise:
+  - Ecology
+  - Health Sciences
   - R
   - Git and Github
   - Version control
@@ -1280,8 +1302,6 @@ ha0ye:
   - Research reproducibility
   - Community management
   - Ally skill training
-  - Ecology
-  - Health Sciences
   first-name: Hao
   last-name: Ye
   orcid: 0000-0002-8630-1458
@@ -1808,7 +1828,7 @@ karvovskaya:
     to support community-oriented projects in this area. I am also keen on getting
     in touch with people from Russia and supporting projects for Russian audience.
   city: Amsterdam
-  country: Netherlands
+  country: The Netherlands
   expertise:
   - Theoretical linguistics
   - Fieldwork
