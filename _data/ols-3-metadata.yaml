@@ -16,6 +16,7 @@ experts:
 - beatrizserrano
 - bebatut
 - burkemlou
+- c-martinez
 - christinerogers
 - da5nsy
 - demellina
@@ -26,6 +27,7 @@ experts:
 - ewallace
 - fpsom
 - gedankenstuecke
+- ha0ye
 - harpreetsingh05
 - iratxepuebla
 - ivotron
@@ -76,6 +78,11 @@ experts-with-expertise:
   - malvikasharan
   Aligning digital strategy with research goals:
   - mishrose123
+  Ally skills training:
+  - emmyft
+  - ha0ye
+  - malvikasharan
+  - yochannah
   App/software development:
   - joyceykao
   Archaeology:
@@ -133,20 +140,15 @@ experts-with-expertise:
   - serahrono
   - stefaniebutland
   - yochannah
-  Community consultation:
+  - ha0ye
+  Community building:
   - ariellebl
-  Community development:
+  - ha0ye
   - katesimpson
-  Community engagement:
   - iratxepuebla
-  Community goals:
-  - ariellebl
-  Community management:
   - beatrizserrano
   - gedankenstuecke
-  Community science:
   - thessaly
-  Community sustainability:
   - serahrono
   Competency frameworks:
   - marta-lloret-llinares
@@ -215,6 +217,7 @@ experts-with-expertise:
   - ealescak
   Documentation:
   - serahrono
+  - c-martinez
   Drosophila melanogaster:
   - marta-lloret-llinares
   Drug discovery:
@@ -223,6 +226,7 @@ experts-with-expertise:
   - emma-anne-harris
   Ecology:
   - yvanlebras
+  - ha0ye
   Education:
   - npalopoli
   - pivg
@@ -247,6 +251,7 @@ experts-with-expertise:
   - ekaroune
   - estherplomp
   - loubez
+  - c-martinez
   FAIR Data:
   - emma-anne-harris
   - proccaserra
@@ -289,6 +294,7 @@ experts-with-expertise:
   - malvikasharan
   - profgiuseppe
   - tobyhodges
+  - ha0ye
   GitHub:
   - bebatut
   - rainsworth
@@ -296,6 +302,7 @@ experts-with-expertise:
   - sgibson91
   - stefaniebutland
   - tobyhodges
+  - ha0ye
   GitHub/GitLab Pages:
   - bebatut
   - tobyhodges
@@ -318,6 +325,7 @@ experts-with-expertise:
   - tai-rocha
   Inclusion:
   - ealescak
+  - ha0ye
   Inclusive and collaborative practices:
   - malvikasharan
   Innovation RRI:
@@ -341,8 +349,9 @@ experts-with-expertise:
   - burkemlou
   Life science communications:
   - adam-gristwood
-  Linked data for community science:
+  Linked data:
   - thessaly
+  - c-martinez
   Machine learning:
   - fpsom
   - harpreetsingh05
@@ -522,18 +531,15 @@ experts-with-expertise:
   - da5nsy
   Reproducibility:
   - ekaroune
+  - ha0ye
   - rainsworth
   - sgibson91
   - unode
-  Reproducible analysis workflows:
   - joelostblom
-  Reproducible research:
   - annakrystalli
-  Reproducible science:
   - profgiuseppe
   Research Data Management:
   - johav
-  Research data management:
   - emma-anne-harris
   - estherplomp
   - karvovskaya
@@ -583,6 +589,10 @@ experts-with-expertise:
   Software development:
   - samvanstroud
   - yochannah
+  Software sustainability:
+  - c-martinez
+  - yochannah
+  - annakrystalli
   Spatial analysis:
   - tai-rocha
   Static and interactive data visualization:
@@ -625,6 +635,7 @@ experts-with-expertise:
   Version control:
   - annakrystalli
   - martinagvilas
+  - ha0ye
   Virtual events:
   - joyceykao
   - rainsworth
