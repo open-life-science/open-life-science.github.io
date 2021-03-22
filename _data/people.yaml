@@ -1100,21 +1100,19 @@ emma-lawrence:
   twitter: emmaj22
   website: https://biobankinguk.org/
 emmyft:
-  bio: Emmy is the Innovation Community Manager at eLife, with a PhD in neuroscience.
-    She loves research and is working to change the way that it''s shared, evaluated
-    and discovered; while learning about open-source, open science and community building!
-    Her expertise is in Community strategies, publishing and scholarly communication.
+  affiliation: Delft University of Technology
+  bio: Emmy is the Community Engagement Manager for the TU Delft Open Science Programme.
+    She is passionate and curious about open, research culture and knowledge equity.
+    Her expertise is in community design, and open research and scholarly communication.
   country: The Netherlands
   expertise:
   - Community strategies
-  - Publishing and scholarly communication
-  - Neuroscience
+  - Open research
   first-name: Emmy
   last-name: Tsang
   orcid: 0000-0002-9248-1280
   pronouns: she/her
   twitter: emmy_ft
-  website: https://elifesci.org/labs
 estherplomp:
   affiliation: Delft University Of Technology - Faculty Of Applied Sciences
   bio: Esther works as a Data Steward at Delft University of Technology (Faculty of
