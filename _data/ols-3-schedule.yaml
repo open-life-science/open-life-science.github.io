@@ -94,6 +94,12 @@
     date: February 17, 2021
     time: '13:30'
     notes: https://bit.ly/ols-3-week-02-cohort-call
+    recording: https://youtu.be/lFaMk01Z_gY
+    hosts:
+      - bebatut
+      - yochannah
+      - malvikasharan
+      - emmyft
     agenda: Meet other members of your cohort, Share project vision, Intro to working
       openly (open canvas)
     content: |
@@ -119,14 +125,22 @@
     resources:
     - type: slides
       title: Introducing OLS
+      speaker: malvikasharan
+      link: https://docs.google.com/presentation/d/e/2PACX-1vT_e2ngwmyjwApVc1CC-dUpSHSArCPsZQjw4oo-0USZFn1lw4OtwPB6LsTSAStocYGIScfgrq5Esea7/pub?start=false&loop=false&delayms=3000
     - type: slides
       title: Open Canvas
+      speaker: yochannah
+      link: https://docs.google.com/presentation/d/e/2PACX-1vR8j2NXWFyWKldK2OoTseN1t5YhLgeCG2OWNIjER5PKfnfGSdYQSjo8LeUCoYFyc3nZedBaNxc-aneH/pub?start=false&loop=false&delayms=3000
     - type: slides
       title: Road Mapping
+      speaker: emmyft
+      link: https://docs.google.com/presentation/d/e/2PACX-1vRwCxOy-Xl240eB2j0xwuyA-1wPhQMiJV1nfQsbtsiGSUxPiuJZotZb91o23dtRS_RbYeyFHlq_z8XN/pub?start=false&loop=false&delayms=3000
     - type: document
       title: Open Canvas
+      link: https://docs.google.com/presentation/d/10KRm5c5ILm8wpqd30uet7VVMB_WFEyZzrIAg058mXSk/edit?usp=sharing
     - type: document
       title: Compare & contrast - community interactions
+      link: https://docs.google.com/document/d/1ucN2-bMoB_-zJE7bUrbEKZw03DCHIZM4A10NwNfRmy0/edit?usp=sharing
 '03':
   timeframe: February 22-26, 2021
   calls:
@@ -217,13 +231,24 @@
     resources:
     - type: slides
       title: A Primer on Open Licenses
+      speaker: ha0ye
+      link: https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
     - type: slides
       title: READMEs for Open Projects
+      speaker: c-martinez
+      link: https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing” with “https://docs.google.com/presentation/d/1K-to88_TV4UI7-ek2ph5PIsqEZcYEprT1KkEXysCWiA/edit?usp=sharing
     - type: slides
       title: Contributing Guidelines and Codes of Conduct for Open Projects
+      speaker: malvikasharan
+      link: https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
     date: March 03, 2021
     time: '18:00'
     notes: https://bit.ly/ols-3-week-04-cohort-call
+    recording: https://youtu.be/Enn2NGMGC2k
+    hosts:
+      - yochannah
+      - malvikasharan
+      - emmyft
 '05':
   timeframe: March 8-12, 2021
   calls:
@@ -250,8 +275,8 @@
     resources:
     - type: slides
       title: Friendly GitHub Intro
-    - type: slides
-      title: GitHub for collaborative documentation
+      speaker: malvikasharan
+      link: https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing
     - type: external-link
       title: GitHub for Collaboration (from Mozilla)
       link: https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
@@ -288,6 +313,11 @@
     date: March 10, 2021
     time: '13:30'
     notes: https://bit.ly/ols-3-week-05
+    recording: https://youtu.be/Hj4kpy9LB6c
+    hosts:
+      - yochannah
+      - malvikasharan
+      - bebatut
 '06':
   timeframe: March 15-19, 2021
   calls:
@@ -321,17 +351,29 @@
     resources:
     - type: slides
       title: Agile & Iterative Project Management Methods
+      speaker: unode
+      link: https://docs.google.com/presentation/d/1MQZS-Nh_mlUJ2JMxzAHAbqP8q1ny_Ktxx0GX0vaj2a4/edit#slide=id.g7e28a7e96f_0_0
     - type: slides
-      title: Open Scientific Code in Research
+      title: Open Source in Research
+      link: https://docs.google.com/presentation/d/19fZRMPzK2OrynrOdVzkq703j2fz6knAiFjn2JEPfmIQ/edit?usp=sharing
     - type: slides
       title: Open Data
+      speaker: estherplomp
+      link: https://doi.org/10.5281/zenodo.4609017
     - type: slides
       title: Open Hardware
+      link: https://docs.google.com/presentation/d/1p9y7hBmz-ky38JsosaSYi2LmB1fPD0IyIB_BnLAidmo/edit?usp=sharing
     - type: document
       title: Project Development Plan
+      link: https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
     date: March 17, 2021
     time: '13:30'
     notes: https://bit.ly/ols-3-week-06-cohort-call
+    recording: https://youtu.be/XkzCr3fiSCg
+    hosts:
+      - malvikasharan
+      - bebatut
+      - emmyft
 '07':
   timeframe: March 22-26, 2021
   calls:
@@ -352,7 +394,7 @@
   - date: March 24, 2021
     time: '18:00'
     duration: 30 min
-    notes: https://bit.ly/ols-3-week-07-q-a
+    notes: https://bit.ly/ols-3-week-06-q-a
     type: Coworking
     title: Open office hour, coworking on assignments, knowledge exchange and networking
     content: |
