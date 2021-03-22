@@ -22,5 +22,5 @@ assignees: ''
 4. Website (in schedule in `_data` folder)
   1. [ ] Add link to recording 
   2. Add talks
-    1. [ ] Add link to slide deck
-    2. [ ] Add person detail to `people.yaml` if needed   
+      1. [ ] Add link to slide deck
+      2. [ ] Add person detail to `people.yaml` if needed   
