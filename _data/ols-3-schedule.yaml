@@ -355,6 +355,7 @@
       link: https://docs.google.com/presentation/d/1MQZS-Nh_mlUJ2JMxzAHAbqP8q1ny_Ktxx0GX0vaj2a4/edit#slide=id.g7e28a7e96f_0_0
     - type: slides
       title: Open Source in Research
+      speaker: hexylena
       link: https://docs.google.com/presentation/d/19fZRMPzK2OrynrOdVzkq703j2fz6knAiFjn2JEPfmIQ/edit?usp=sharing
     - type: slides
       title: Open Data
@@ -362,6 +363,7 @@
       link: https://doi.org/10.5281/zenodo.4609017
     - type: slides
       title: Open Hardware
+      speaker: amchagas
       link: https://docs.google.com/presentation/d/1p9y7hBmz-ky38JsosaSYi2LmB1fPD0IyIB_BnLAidmo/edit?usp=sharing
     - type: document
       title: Project Development Plan

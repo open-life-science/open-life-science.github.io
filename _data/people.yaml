@@ -223,6 +223,12 @@ anayan321:
   last-name: Opasawatchai
   pronouns: she/her
   twitter: pk_suta
+amchagas:
+  affiliation: University of Sussex
+  country: United Kingdom
+  first-name: Andre
+  last-name: Maia Chagas
+  twitter: chagas_am
 anelda:
   bio: 'Anelda is the founder of Talarify, a South Africa-based consultancy working
     with researchers and postgraduates to help grow digital, computational, and open
@@ -705,10 +711,10 @@ camachoreina:
   pronouns: She/her
   twitter: rcamachotoro
   website: https://camachoreina.github.io
-c-martinez:  
+c-martinez:
   affiliation: Netherlands eScience Center
-  bio: Carlos did his PhD in computer science, and has been working in different areas 
-    of application ever since. He likes learning about the different areas of research 
+  bio: Carlos did his PhD in computer science, and has been working in different areas
+    of application ever since. He likes learning about the different areas of research
     where digital technology can open up new areas of research. In his words - In every project I have
     been involved, I have always learned something new, and I love that feeling of discovering new things.
   city: Amsterdam
@@ -932,13 +938,13 @@ didik-utomo:
   website: https://preprint.akademisi.co.id
 DimmestP:
   affiliation: University of Edinburgh
-  bio: Bioinformatics PhD student in the Edward Wallace Lab at the University of Edinburgh. 
-    Researching how yeast transcriptomes are regulated in response to stress. 
+  bio: Bioinformatics PhD student in the Edward Wallace Lab at the University of Edinburgh.
+    Researching how yeast transcriptomes are regulated in response to stress.
      Alumnus of the eLife Innovation Leaders program and strong proponent of open and reproducible science.
   city: London
   country: Scotland
   expertise:
-  - Transcriptomics 
+  - Transcriptomics
   - Bioinformatics
   - Open source
   - R Package Development
@@ -1340,6 +1346,13 @@ hdinkel:
   last-name: Dinkel
   orcid: 0000-0002-9316-5204
   pronouns: he/him
+hexylena:
+  affiliation: Eramus Medical Centre
+  city: Rotterdam
+  country: The Netherlands
+  first-name: Helena
+  last-name: Rasche
+  twitter: hexylena
 heylf:
   affiliation: University Of Freiburg
   city: Freiburg
