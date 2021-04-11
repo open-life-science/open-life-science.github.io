@@ -2133,6 +2133,12 @@ lazycipher:
   last-name: Singh
   pronouns: he/him
   twitter: lazycipher
+lenny-teytelman:
+  first-name: Lenny
+  last-name: Teytelman
+  affiliation: protocols.io
+  twitter: lteytelman
+  github: false
 lilian9:
   affiliation: Information Training and Outreach Centre for Africa
   country: Kenya
