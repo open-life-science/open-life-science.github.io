@@ -419,18 +419,27 @@
       During this week's cohort call, we will:
       - Preprint publications, DOI and citation
       - Open protocols
-      - Open Education & Training
       - Citizen Science
-    before: None
+    before: |
+      - Create a project development plan for your project
+        - [Assignment to help you use Agile methods](https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing) to breakdown your milestones into smaller tasks and define a timeline for your milestones
+      - You can transfer your tasks to a project management or kanban tools such as GitHub projects ([short intro](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
+      - Make sure that by now you have added a license, contribution guideline and a Code of Conduct in your GitHub repository. If you feel stuck and don’t know where you start, take a look at [this repo](https://github.com/malvikasharan/developing_collaborative_document)
+      - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-3/issues) with feedback on their project
+    recording: https://www.youtube.com/watch?v=Vizk7fni5Eo
     resources:
     - type: slides
-      title: Open Education and Training - MetaDocencia Case Study
-    - type: slides
-      title: Preprint in the Context of Open Science
+      title: Preprint, pre-registration, open review
+      link: https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
+      speaker: iratxepuebla
     - type: slides
       title: Open Protocols
+      link: https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
+      speaker: lenny-teytelman
     - type: slides
       title: Citizen Science
+      link: https://zenodo.org/record/4651431
+      speaker: georgiahca
     date: March 31, 2021
     time: '18:00'
     notes: https://bit.ly/ols-3-week-08-cohort-call
@@ -440,9 +449,6 @@
   - type: Mentor-Mentee
     duration: 30 min
     title: Meet your mentor!
-  - type: Coworking
-    duration: 60 min
-    title: Coworking on assignments, knowledge exchange and networking
   - type: Cohort
     duration: 90 min
     title: 'Skill-up: Personal Ecology and Ally Skills'
@@ -469,6 +475,8 @@
     resources:
     - type: slides
       title: Personal Ecology and Self care
+      speaker: emmyft
+      link: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
     - type: external-link
       title: Sustain Summit
       link: https://sustainoss.org/
@@ -483,6 +491,8 @@
       link: https://blog.weareopen.coop/about
     - type: slides
       title: Ally Skills
+      link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
+      speaker: yochannah
     - type: external-link
       title: Self-care Handout
       link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20handout%20-%20Letter.pdf
@@ -496,6 +506,7 @@
     time: '13:30'
     duration: 30 min
     notes: https://bit.ly/ols-3-week-09-q-a
+    recording: https://youtu.be/5BlB0RUY-7c
 '10':
   timeframe: April 12-16, 2021
   calls:
