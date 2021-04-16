@@ -1,4 +1,5 @@
 CONDA_ENV = open-life-science-website
+SHELL=bash
 
 CONDA = $(shell which conda)
 ifeq ($(CONDA),)

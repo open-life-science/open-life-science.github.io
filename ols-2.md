@@ -103,7 +103,9 @@ OLS's second cohort (OLS-2) will be conducted from September 2020 until December
 
 # Schedule
 
-{% include _includes/overall-schedule.md schedule=schedule %}
+{% assign schedule = site.data.ols-3-schedule %}
+{% assign cohort = 'ols-2' %}
+{% include _includes/overall-schedule.md %}
 
 # Role Descriptions
 

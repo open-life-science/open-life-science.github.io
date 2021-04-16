@@ -103,7 +103,9 @@ OLS's third cohort (OLS-3) will be conducted from February to May 2021.
 
 # Schedule
 
-{% include _includes/overall-schedule.md schedule=schedule %}
+{% assign schedule = site.data.ols-3-schedule %}
+{% assign cohort = 'ols-3' %}
+{% include _includes/overall-schedule.md %}
 
 # Role Descriptions
 
