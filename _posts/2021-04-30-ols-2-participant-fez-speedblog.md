@@ -4,7 +4,7 @@ title: "OLS-2 speed blog: Finite Element Zurich (FEZ)"
 authors:
 - evaherbst
 - Dylan-Bastiaans
-image: 
+image: /images/2021-04-30-ols-2-blog.png
 photos:
   name: Image of FEZ logo.
 ---
