@@ -60,5 +60,5 @@ Our OLS 2020 cohort was a brilliant group of people (both the organisers and our
 
 ## Special mentions and acknowledgements
 
-We would like to thank our mentor Holger Dinkel (@) for his support and advice, Anita Broellochs of [Protocols.io](https://www.protocols.io/) for advice about workflow repositories, Joyce Kao for helping us create our website, our colleague Nicole Webb (who was not part of the OLS cohort but is collaborating on the project with us), and of course the OLS organizers and everyone in our OLS cohort.
+We would like to thank our mentor Holger Dinkel ([@hdinkel](https://github.com/hdinkel)) for his support and advice, Anita Broellochs of [Protocols.io](https://www.protocols.io/) for advice about workflow repositories, Joyce Kao for helping us create our website, our colleague Nicole Webb (who was not part of the OLS cohort but is collaborating on the project with us), and of course the OLS organizers and everyone in our OLS cohort.
 
