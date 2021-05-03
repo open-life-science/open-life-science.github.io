@@ -47,9 +47,12 @@ With Joyce Kao, we have created our [main website](https://fez-finite-element-zu
 
 ### Longer term tasks
 
+![This is world map highlighting 26 countries where our participants joined from](/images/2021-04-30-ols-2-blog-2.png)
+
+*Geographical distribution of 200 attendees of our mini-conference in March*
+
 We hosted  a successful online mini-conference and workshop in March 2020, with over 200 attendees from 26 countries.
 We will focus on recruiting other researchers to share their workflows and continue to teach the attendees to use Github and encourage them to contribute their workflows.
-
 
 ### Staying connected
 
