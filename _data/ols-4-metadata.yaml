@@ -1,0 +1,19 @@
+# List of experts, possible mentors and organizers for OLS-3
+#
+#
+# People should be also in people.yaml file and linked using their GitHub username
+# Ordering by expertise should be done by running the bin/sort-expertises.py script
+---
+experts:
+- bebatut
+- malvikasharan
+- yochannah
+organizers:
+- bebatut
+- emmyft
+- malvikasharan
+- yochannah
+possible-mentors:
+- bebatut
+- malvikasharan
+- yochannah

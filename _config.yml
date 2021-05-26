@@ -23,6 +23,9 @@ collections:
   ols-3:
     permalink: /ols-3/:path/
     output: true
+  ols-4:
+    permalink: /ols-4/:path/
+    output: true
 
 includes_dir: .
 
