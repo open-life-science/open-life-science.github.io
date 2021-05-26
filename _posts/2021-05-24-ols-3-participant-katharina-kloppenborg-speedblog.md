@@ -29,7 +29,7 @@ Apart from that, peer production is about openness and collaboration, so why not
 _What peer-produced research could look like (Illustration by the author. You can reuse it under a CC-BY-SA licence)._
 
 # Expectations and how I heard from OLS
-In summer 2020 I had the chance to work for the [Autistica Citizen Science project](https://alan-turing-institute.github.io/AutisticaCitizenScience/) project as a user experience researcher. Georgia, one of the project leaders, participated in the OLS-2 cohort, which got me interested, because I wanted to learn about open science practices at the beginning of my PhD. I joined a cohort call to get a feeling for the program and Georgia and her mentor Anelda kindly invited me to one of their meetings, after which I decided to apply for the next OLS cohort with my own project.
+In summer 2020 I had the chance to work for the [Autistica Citizen Science project](https://alan-turing-institute.github.io/AutisticaCitizenScience/) project as a user experience researcher. [Georgia](community#georgiahca), one of the project leaders, participated in the OLS-2 cohort, which got me interested, because I wanted to learn about open science practices at the beginning of my PhD. I joined a cohort call to get a feeling for the program and Georgia and her mentor [Anelda](/community#anelda) kindly invited me to one of their meetings, after which I decided to apply for the next OLS cohort with my own project.
 So, I expected from the program to learn how to set up an open science project, and I thought that a combination of mentoring, a community and a program of a fixed time duration would help and motivate me to implement my project idea.
 
 # Goals set at the beginning of the program
