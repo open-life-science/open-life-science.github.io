@@ -3,7 +3,7 @@ layout: post
 title: "OLS-3 speed blog: How to design peer production platforms? Guidelines and design inspiration in a blog format"
 authors:
 - katoss
-image: https://imgur.com/fbzanCT
+image: https://i.imgur.com/fbzanCT.png
 photos:
   name: Illustration of a research peer production process
 ---
