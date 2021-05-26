@@ -34,7 +34,7 @@ So, I expected from the program to learn how to set up an open science project, 
 My goals were to set up an online blog, write a set of blog entries and prepare it for contributions.
 
 # Key accomplishments and steps taken
-I’m happy being able to say that I reached my formal goals set at the beginning of the project: The website is up and running, I added five first blog entries, a template, contribution guidelines and guidelines on peer production elements with examples and links to matching blog entries! ✨
+I'm happy being able to say that I reached my formal goals set at the beginning of the project: The [website](https://peer-produced.science/design-practices/) is up and running, I added five first blog entries, a template, contribution guidelines and guidelines on peer production elements with examples and links to matching blog entries! ✨
 
 The program began with meeting my mentor Fotis and setting up a schedule for our fortnightly mentoring calls, followed by thinking about my goals, formulating a vision statement and a project roadmap with milestones and setting up a project repository on GitHub. I also reflected on possible user and contributor groups by creating personas. 
 For my project I then started to research frameworks and website templates. I decided it would be easiest to deploy the site with GitHub pages, and I found a blog template that used bootstrap that was close to what I imagined. 
