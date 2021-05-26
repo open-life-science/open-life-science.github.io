@@ -1871,21 +1871,28 @@ katesimpson:
   twitter: Dr_KateSimpson
   website: https://www.turing.ac.uk/people/researchers/kate-simpson
 katoss:
-  affiliation: Center For Research And Interdisciplinarity (Cri)
-  bio: Hi, I'm Kati, a first-year PhD student at CRI in Paris, working on the user-centered
-    redesign of a collaborative science platform. Before my Phd, back in Germany,
-    I studied Cognitive and Media Sciences and worked in user experience consulting
-    for a while. In my freetime, I like to paint and discover the city by bike or
-    during extended walks!
+  affiliation: Center for Research & Interdisciplinarity (CRI)
+  bio: I'm a PhD student working at the intersection of citizen science, human computer interaction and participatory design. 
+  In my thesis I focus on how to build online tools for people who want to do their own research projects with their own data. 
+  I am a graduate of OLS-3 during which I built a website that collects design practices for peer production websites 
+  (peer-produced.science/design-practices/). In my freetime (and for work!) I love to make illustrations and paint.
   city: Paris
   country: France
   expertise:
-  - User-centered design
+  - User Experience Research
+  - Human Computer Interaction
+  - Citizen Science
+  - Participatory Design
+  - Peer Production
+  - Web and Interface Design
+  - Illustration
+  - Data for Good
   first-name: Katharina
   last-name: Kloppenborg
-  orcid: 0000-0002-5364-8965
   pronouns: she/her
-  twitter: k_kloppenborg
+  orcid: 0000-0002-5364-8965
+  twitter: kkloppenborg
+  website: https://github.com/katoss
 katrinleinweber:
   bio: Studied biochemistry, arctic ecology & geology, PhDed in diatom biofilms. Worked
     in tech support (Prezi), pharma-LIMS & OA data analysis.
