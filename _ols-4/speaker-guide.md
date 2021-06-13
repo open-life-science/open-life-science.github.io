@@ -19,11 +19,11 @@ designed for the early-stage researchers and potential academic leaders
 in becoming Open Science ambassadors in their communities.
 
 This program is led by the OLS team members, i.e. us - Bérénice Batut,
-Malvika Sharan and Yo Yehudi. You can reach out to us by emailing
+Malvika Sharan, Yo Yehudi and Emmy Tsang. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
-We are currently running our [third cohort]({% link _ols-4/projects-participants.md %})
-(Feb-May 2021).
+We will be running our [fourth cohort]({% link _ols-4/projects-participants.md %})
+(Sep 2021 - Jan 2022).
 A complete syllabus of this cohort can be found [here]({% link _ols-4/schedule.md %}).
 
 # About our Code of Conduct
