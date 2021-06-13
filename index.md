@@ -22,7 +22,7 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 ## Applications
 
-We After the success of our first cohorts:
+After the success of our first cohorts:
 - [OLS-1](ols-1) from January to April 2020,
 - [OLS-2](ols-2) from September to December 2020,
 - [OLS-3](ols-3) from February to May 2021,
@@ -50,7 +50,7 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
     {% endfor %}
 {% endfor %}
 {% assign ols-1-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign ols-2-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign ols-1-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
 
 <!-- OLS-2 -->
 {% assign ols-2-projects = site.data.ols-2-projects %}
