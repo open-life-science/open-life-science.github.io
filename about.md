@@ -75,6 +75,7 @@ We are currently recruiting the mentors for the second round. Please reach out t
 
 Our program is only possible thanks to our awesome mentors:
 
+<!-- OLS-1 -->
 {% assign projects = site.data.ols-1-projects %}
 {% assign mentors = '' %}
 {% for project in projects %}
@@ -83,9 +84,28 @@ Our program is only possible thanks to our awesome mentors:
     {% endfor %}
 {% endfor %}
 {% assign ols-1-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+<!-- OLS-2 -->
+{% assign projects = site.data.ols-2-projects %}
+{% assign mentors = '' %}
+{% for project in projects %}
+    {% for m in project.mentors %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-2-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+<!-- OLS-3 -->
+{% assign projects = site.data.ols-3-projects %}
+{% assign mentors = '' %}
+{% for project in projects %}
+    {% for m in project.mentors %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-3-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
 
 - [The {{ ols-1-mentors | size }} mentors for **OLS-1** (January to May 2020)](/ols-1#mentors)
-- [The possible mentors for **OLS-2** (September to December 2020)](/ols-2#mentors)
+- [The {{ ols-2-mentors | size }} mentors for **OLS-2** (September to December 2020)](/ols-2#mentors)
+- [The {{ ols-3-mentors | size }} mentors for **OLS-3** (February to May 2021)](/ols-3#mentors)
 
 # Experts
 
@@ -114,11 +134,14 @@ We are currently recruiting the experts for the second round.
 Our experts are essential for the program:
 
 {% assign ols-1-experts = site.data.ols-1-metadata.experts %}
+{% assign ols-2-experts = site.data.ols-2-metadata.experts %}
+{% assign ols-3-experts = site.data.ols-3-metadata.experts %}
 
 - [The {{ ols-1-experts | uniq | size }} experts for **OLS-1** (January to May 2020)](/ols-1#experts)
-- [The possible experts for **OLS-2** (September to December 2020)](/ols-2#experts)
+- [The {{ ols-2-experts | uniq | size }} experts for **OLS-2** (September to December 2020)](/ols-2#experts)
+- [The {{ ols-3-experts | uniq | size }} experts for **OLS-3** (February to May 2021)](/ols-3#experts)
 
-# Organizers
+# Cofounders
 
 We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) cohorts, in which we have gained expertise in the technical and culture track.
 

@@ -22,9 +22,14 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 ## Applications
 
-After the success of our first cohorts ([OLS-1](ols-1) from January to April 2020 and [OLS-2](ols-2) from September to December 2020), we launch the 3rd cohort of this program:
+After the success of our first cohorts:
+- [OLS-1](ols-1) from January to April 2020,
+- [OLS-2](ols-2) from September to December 2020,
+- [OLS-3](ols-3) from February to May 2021,
 
-{% include _includes/ols-3-timeline.md %}
+we launch the **4th cohort of this program**:
+
+{% include _includes/ols-4-timeline.md %}
 
 Have a question or need any support to join this cohort? 
 We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}). 
@@ -45,7 +50,7 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
     {% endfor %}
 {% endfor %}
 {% assign ols-1-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign ols-2-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign ols-1-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
 
 <!-- OLS-2 -->
 {% assign ols-2-projects = site.data.ols-2-projects %}
@@ -63,12 +68,29 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-2-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
 {% assign ols-2-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
 
+<!-- OLS-3 -->
+{% assign ols-3-projects = site.data.ols-3-projects %}
+{% assign all-participants = '' %}
+{% assign all-mentors = '' %}
+{% for project in ols-3-projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-3-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign ols-3-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+
 Participants join this program with a project that they either are already working on or want to develop during this program individually or in teams. 
 Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
 **Check out the projects developed in the previous cohorts:**
 - [{{ ols-1-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects)
 - [{{ ols-2-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ ols-2-projects | size }} projects](/ols-2/projects-participants#projects)
+- [{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects)
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
 
@@ -117,7 +139,7 @@ After the selection process, they will be involved in the following steps of thi
     They will meet every 2nd week on **mentee-mentor calls** (around 30 minutes). Sam will help Joy evaluate their understanding of the new topics introduced in the program, and guide their progress by providing constructive feedback. 
     Joy will be given assignments before these calls to help them apply new skills to their project. When needed, Joy and Sam will connect with other [experts](about#experts) to invite consultation on their project.
 
-2. Joy will participate in online [training calls](ols-3#calls) and share insights with other participants in the program.
+2. Joy will participate in online [training calls](ols-4#calls) and share insights with other participants in the program.
 
     In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
     
