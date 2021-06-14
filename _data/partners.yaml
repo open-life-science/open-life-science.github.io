@@ -67,7 +67,7 @@ SSI:
 tu-delft:
     name: Faculty of Applied Sciences/TNW - TU Delft
     website: TU Delft - Faculty of Applied Sciences/TNW
-    logo: https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/logo.svg
+    logo: https://pbs.twimg.com/profile_images/2847488441/6ce5b022e228fee8ff302a16dca378c7_400x400.jpeg
     description: |
         Under the collaboration name OLS-4 for TNW, Open Life Science has partnered with 
         the Faculty of Applied Sciences through the Faculty Graduate School and the Data 
@@ -79,7 +79,7 @@ turing-way:
     logo: https://the-turing-way.netlify.app/_static/logo.jpg
     description: |
         Malvika is a community manager of this project.
-        Turing Way is also collaborating organisation under the project OLS-2 for Turing
+        Turing Way is also collaborating organisation under the project OLS for Turing
         that aims to build mentor-mentee relationships in the Turing community.
 
 university-freiburg:
@@ -92,6 +92,6 @@ university-freiburg:
 university-manchester:
     name: University of Manchester
     website: https://www.manchester.ac.uk/
-    logo: https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester-allwhite.png
+    logo: https://assets.manchester.ac.uk/logos/hi-res/TAB_UNI_MAIN_logo/White_backgrounds/TAB_col_white_background.png
     description: |
         The University of Manchester is Yo's Ph.D. research affiliation.
