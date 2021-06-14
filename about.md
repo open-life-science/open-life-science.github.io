@@ -174,9 +174,21 @@ We have high ethical standards, including:
 - **Respect**: Respect humans and all living systems
 - **Responsibility**: Recognize the complexity and dynamics of life science and research and our responsibility towards them
 
-# Partners and sponsors
+# Funding Organisations
 
-This program is made possible thanks to our partners and sponsors!
+This program has been funded by the following funding organisations!
+
+<div class="partners">
+{% for entry in site.data.funders %}
+    {% assign partnername = entry[0] %}
+    {% assign partner = site.data['funders'][fundername] %}
+    {% include _includes/funders.html funder=funder %}
+{% endfor %}
+</div>
+
+# Collaborating Organisations
+
+This program is made possible thanks to our collaborating organisations!
 
 <div class="partners">
 {% for entry in site.data.partners %}
