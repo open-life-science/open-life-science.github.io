@@ -64,10 +64,19 @@ SSI:
         This program will be supported by SSI fellowship offered
         to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
 
+tu-delft:
+    name: Faculty of Applied Sciences/TNW - TU Delft
+    website: TU Delft - Faculty of Applied Sciences/TNW
+    logo: https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/logo.svg
+    description: |
+        Under the collaboration name OLS-4 for TNW, Open Life Science has partnered with 
+        the Faculty of Applied Sciences through the Faculty Graduate School and the Data 
+        Steward, Dr. Esther Plomp, at TU Delft.
+        
 turing-way:
     name: The Turing Way
     website: https://the-turing-way.netlify.com
-    logo: https://zenodo.org/api/iiif/v2/e4125eaf-b456-4097-85fc-6a2e80482d1c:27304005-209a-4bbf-b934-ae35aba032ef:1728_TURI_Book%20sprint_5%20turing%20way_040619.jpg/full/750,/0/default.jpg
+    logo: https://the-turing-way.netlify.app/_static/logo.jpg
     description: |
         Malvika is a community manager of this project.
         Turing Way is also collaborating organisation under the project OLS-2 for Turing
