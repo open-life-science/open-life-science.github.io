@@ -142,7 +142,7 @@ Our experts are essential for the program:
 - [The {{ ols-2-experts | uniq | size }} experts for **OLS-2** (September to December 2020)](/ols-2#experts)
 - [The {{ ols-3-experts | uniq | size }} experts for **OLS-3** (February to May 2021)](/ols-3#experts)
 
-# Cofounders
+# Co-founders
 
 We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) cohorts, in which we have gained expertise in the technical and culture track.
 
@@ -181,7 +181,7 @@ This program has been funded by the following funding organisations!
 
 <div class="funders">
 {% for entry in site.data.funders %}
-    {% assign fundername = entry %}
+    {% assign fundername = entry[0] %}
     {% assign funder = site.data['funders'][fundername] %}
     {% include _includes/funders.html funder=funder %}
 {% endfor %}
