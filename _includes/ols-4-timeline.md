@@ -1,5 +1,4 @@
-- **June 15, 2021**: Call for Application opens
-  - To prepare your application, please use the [**Application Guide**](https://docs.google.com/document/d/e/2PACX-1vSsw0mbEXEvCFCqsJrrwJj6Ro41Cd90qbRkaifp9qn4TTf5sJAGAlG_R7pNgcktC_AqCzXZwiEbIzcM/pub)
+- **June 15, 2021**: Call for Application opens, see the [guideline and template](https://github.com/open-life-science/application-forms)
 - **June 30, 2021**: Application webinar (<i class="fas fa-chalkboard-teacher"></i> Talk + <i class="fas fa-question"></i> Q&A) - <i class="fas fa-clipboard"></i> [Notes with Zoom call link](https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9) - <i class="fab fa-youtube"></i> Recording (to be shared)
   - Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
 - **July 9, 2021**: Application Clinic Call (<i class="fas fa-question"></i> Q&A) - <i class="fas fa-clipboard"></i> [Notes with Zoom call link](https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9)
