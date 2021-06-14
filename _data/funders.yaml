@@ -6,7 +6,6 @@
 #
 # collection names should be lower case, with spaces replaced by `-`
 ---
-
 csands:
     name: Code for Science and Society - Event Fund
     website: https://eventfund.codeforscience.org/
