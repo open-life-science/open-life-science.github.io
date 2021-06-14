@@ -27,7 +27,7 @@ After the success of our previous cohorts:
 - [OLS-2](ols-2) from September to December 2020,
 - [OLS-3](ols-3) from February to May 2021,
 
-we launch OLS-4, the **4th cohort of this program**:
+we launch OLS-4, the **4th cohort of this program**: [**Apply via Open Review**](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4)
 
 {% include _includes/ols-4-timeline.md %}
 
