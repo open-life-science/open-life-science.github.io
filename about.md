@@ -14,7 +14,8 @@ This program can only run with the active involvements of our volunteer communit
 - [Mentors](#mentors)
 - [Experts](#experts)
 - [Organizers](#organizers)
-- [Partners and sponsors](#partners-and-sponsors)
+- [Funders](#funders)
+- [Collaborating Organisations](#partners)
 
 # Mentees
 
@@ -178,10 +179,10 @@ We have high ethical standards, including:
 
 This program has been funded by the following funding organisations!
 
-<div class="partners">
+<div class="funders">
 {% for entry in site.data.funders %}
-    {% assign partnername = entry[0] %}
-    {% assign partner = site.data['funders'][fundername] %}
+    {% assign fundername = entry[0] %}
+    {% assign funder = site.data['funders'][fundername] %}
     {% include _includes/funders.html funder=funder %}
 {% endfor %}
 </div>
