@@ -24,7 +24,7 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 **Application is open until July 15, 2021 to join the fourth cohort of Open Life Science - OLS-4**
 
-<a href="https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4" class="button">Apply via Open Review</a>
+[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4){:.button .is-link .is-fullwidth}
 
 *Please register on Open Review before July 10, 2021 to allow activation of your Open Review profile as described in the [OLS-4 application guidelines and templates](https://github.com/open-life-science/application-forms).*
 
@@ -88,9 +88,9 @@ Participants join this program with a project that they either are already worki
 Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
 **Check out the projects developed in the previous cohorts:**
-- [OLS-1](ols-1) from January to April 2020, [{{ ols-1-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects)
-- [OLS-2](ols-2) from September to December 2020, [{{ ols-2-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ ols-2-projects | size }} projects](/ols-2/projects-participants#projects)
-- [OLS-3](ols-3) from February to May 2021, [{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects)
+- [OLS-1]({% link ols-1.md %}) from January to April 2020, [{{ ols-1-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects)
+- [OLS-2]({% link ols-2.md %}) from September to December 2020, [{{ ols-2-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ ols-2-projects | size }} projects](/ols-2/projects-participants#projects)
+- [OLS-3]({% link ols-3.md %}) from February to May 2021, [{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects)
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
 
