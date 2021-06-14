@@ -22,12 +22,12 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 ## Applications
 
-After the success of our first cohorts:
+After the success of our previous cohorts:
 - [OLS-1](ols-1) from January to April 2020,
 - [OLS-2](ols-2) from September to December 2020,
 - [OLS-3](ols-3) from February to May 2021,
 
-we launch the **4th cohort of this program**:
+we launch OLS-4, the **4th cohort of this program**:
 
 {% include _includes/ols-4-timeline.md %}
 
