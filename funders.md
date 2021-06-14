@@ -12,10 +12,22 @@ photos:
 
 This program has been funded by the following funding organisations!
 
-{% include funders.md %}
+<div class="funders">
+{% for entry in site.data.funders %}
+    {% assign fundername = entry[0] %}
+    {% assign funder = site.data['funders'][fundername] %}
+    {% include _includes/funders.html funder=funder %}
+{% endfor %}
+</div>
 
 # Partners
 
 This program is made possible thanks to our partners and collaborating organisations!
 
-{% include partners.md %}
+<div class="partners">
+{% for entry in site.data.partners %}
+    {% assign partnername = entry[0] %}
+    {% assign partner = site.data['partners'][partnername] %}
+    {% include _includes/partners.html partner=partner %}
+{% endfor %}
+</div>
