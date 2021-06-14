@@ -12,11 +12,11 @@ photos:
 
 This program has been funded by the following funding organisations!
 
-<div class="funders">
+<div class="entities">
 {% for entry in site.data.funders %}
     {% assign fundername = entry[0] %}
-    {% assign funder = site.data['funders'][fundername] %}
-    {% include _includes/funders.html funder=funder %}
+    {% assign entity = site.data['funders'][fundername] %}
+    {% include _includes/external-entities.html entity=entity type='funder' %}
 {% endfor %}
 </div>
 
@@ -24,10 +24,10 @@ This program has been funded by the following funding organisations!
 
 This program is made possible thanks to our partners and collaborating organisations!
 
-<div class="partners">
+<div class="entities">
 {% for entry in site.data.partners %}
     {% assign partnername = entry[0] %}
-    {% assign partner = site.data['partners'][partnername] %}
-    {% include _includes/partners.html partner=partner %}
+    {% assign entity = site.data['partners'][partnername] %}
+    {% include _includes/external-entities.html entity=entity type='partner' %}
 {% endfor %}
 </div>

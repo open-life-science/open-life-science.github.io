@@ -1,0 +1,33 @@
+<div class="card entity-card" id="{{ entity.name }}">
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content entity-card-meta">
+            
+            <figure class="image is-128x128">
+                <a href="{{ entity.website }}">
+                {% if entity.logo %}
+                <img class="entity-logo" src="{{ entity.logo }}" alt="Logo of {{ entity.name }}"/>
+                {% endif %}
+                </a>
+            </figure>
+            
+            <p class="title is-4">
+                {{ entity.name }}
+            </p>
+        </div>
+      </div>
+  
+      <div class="entity-description">
+        <p class="entity-description-question">
+          <a class="card-toggle">
+            {{ entity.name }}{% if type=='partner' %} & OLS{% endif %}
+            <i class="fa fa-angle-down"></i>
+          </a>
+        </p>
+        <div class="content is-hidden">
+            {{ entity.description | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  

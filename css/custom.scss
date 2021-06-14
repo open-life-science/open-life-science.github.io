@@ -186,7 +186,7 @@ $link-active: $link-hover;
   margin-right: 0.25em;
 }
 
-.partners {
+.entities {
   @include mobile() {
     .card {
       margin-bottom: 1em;
@@ -199,7 +199,7 @@ $link-active: $link-hover;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
-  .partner-logo {
+  .entity-logo {
     max-height: 100%;
     max-width: 100%;
     width: auto;
@@ -212,11 +212,11 @@ $link-active: $link-hover;
     margin: auto;
   }
 
-  .partner-description-question {
+  .entity-description-question {
     font-style: italic;
   }
 
-  .partner-card-meta {
+  .entity-card-meta {
     @include reset-links();
   }
 }
