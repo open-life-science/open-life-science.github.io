@@ -13,9 +13,9 @@ This program can only run with the active involvements of our volunteer communit
 - [Mentees](#mentees)
 - [Mentors](#mentors)
 - [Experts](#experts)
-- [Organizers](#organizers)
+- [Founders](#founders)
 - [Funders](#funders)
-- [Collaborating Organisations](#partners)
+- [Partners](#partners)
 
 # Mentees
 
@@ -142,9 +142,7 @@ Our experts are essential for the program:
 - [The {{ ols-2-experts | uniq | size }} experts for **OLS-2** (September to December 2020)](/ols-2#experts)
 - [The {{ ols-3-experts | uniq | size }} experts for **OLS-3** (February to May 2021)](/ols-3#experts)
 
-# Co-founders
-
-We are graduates, mentors, and hosts of various [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/) cohorts, in which we have gained expertise in the technical and culture track.
+# Founders
 
 {% assign organizers = site.data.ols-1-metadata.organizers %}
 <div class="people">
@@ -161,7 +159,7 @@ We also participate in a wide range of activities in different international com
 - [The Carpentries](https://carpentries.org/)
 - [Software Sustainability Institute (SSI)](https://www.software.ac.uk/)
 - [Open Bioinformatics Foundation (OBF)](https://www.open-bio.org/)
-- [Mozilla](https://foundation.mozilla.org/en/)
+- [Mozilla](https://foundation.mozilla.org/en/) and [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/)
 
 ## Our values
 
@@ -175,7 +173,7 @@ We have high ethical standards, including:
 - **Respect**: Respect humans and all living systems
 - **Responsibility**: Recognize the complexity and dynamics of life science and research and our responsibility towards them
 
-# Funding Organisations
+# Funders
 
 This program has been funded by the following funding organisations!
 
@@ -187,9 +185,9 @@ This program has been funded by the following funding organisations!
 {% endfor %}
 </div>
 
-# Collaborating Organisations
+# Partners
 
-This program is made possible thanks to our collaborating organisations!
+This program is made possible thanks to our partners and collaborating organisations!
 
 <div class="partners">
 {% for entry in site.data.partners %}
