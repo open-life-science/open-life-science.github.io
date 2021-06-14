@@ -47,6 +47,26 @@ freiburg-galaxy-team:
         Freiburg Galaxy team is supporting Bérénice's
         involvement in OLS as part of her training work.
 
+hub-kenya:
+    name: Bioinformatics Hub of Kenya Initiative (BHKI)
+    website: https://bhki.org/
+    logo: https://bhki.org/wp-content/uploads/2020/11/cropped-cropped-bhki-logo-1.jpg
+    description: | 
+        BHKI bridges the gap between well established bioinformaticians and aspiring 
+        ones through peer training and mentorship so as to enhance collaborations to 
+        foster quality scientific research and innovations and promote the sharing of 
+        data, skills and codes. Launched in the OLS-1, the project has continued to
+        collaborate with OLS cohorts and OLS team members.
+        
+learning-circle:
+    name: H3ABioNet Learning Circle
+    website: https://h3abionet.github.io/LearningCircles/
+    logo: 
+    description: | 
+        H3ABioNet Learning circles, modelled after H3ABioNet Learning Circles, is
+        organised by Dr Caleb Kibet. He collaborated with OLS-2 to mentor projects
+        to support story circles in different African countries.
+
 mozilla:
     name: Mozilla Open Leaders
     website: https://foundation.mozilla.org
