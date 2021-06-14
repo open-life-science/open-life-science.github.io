@@ -1,0 +1,51 @@
+# List of funders
+#
+# valid tags: name, website, logo, description
+#
+# logo should the path to a file named as the collection name in /images/partners-sponsors
+#
+# collection names should be lower case, with spaces replaced by `-`
+---
+
+csands:
+    name: Code for Science and Society - Event Fund
+    website: https://eventfund.codeforscience.org/
+    logo: https://codeforscience.org/img/Blue-logo-black-text-stacked.png
+    description: >
+        Code for Science & Society works to advance the power of data to 
+        improve the social and economic lives of all people through education, 
+        scientific research, and technology development. The event fund is a 
+        community-advised fund to support inclusive and accessible training events,
+        which was offered to OLS to support the third cohort, OLS-3.
+        
+eosc-life:
+    name: EOSC-Life
+    website: https://www.eosc-life.eu/
+    logo: https://www.eosc-life.eu/wp-content/themes/eosc-life-v2/assets/images/eosclogo.png
+    description: >
+        EOSC-Life brings together the 13 Life Science ‘ESFRI’ research infrastructures (LS RIs) 
+        to create an open, digital and collaborative space for biological and medical research.
+        Through our Training Open Call, the EOSC-Life Training team offered funding to OLS team 
+        to support training activities in 2021 for the researchers from EOSC LS RIs and more widely.
+
+SSI:
+    name: Software Sustainability Institute - Fellowships
+    website: https://www.software.ac.uk
+    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
+    description: |
+        The Software Sustainability Institute cultivates better, more sustainable, research software 
+        to enable world-class research. The Institute’s Fellowship Programme provides funding for 
+        individuals who want to improve how research software is used in their domains and/or area 
+        of work. This first cohorts of the program was supported by SSI fellowship offered
+        to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
+        
+turing:
+    name: The Alan Turing Institute - The Turing Online Training Grant
+    website: https://www.software.ac.uk
+    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
+    description: |
+        The Alan Turing Institute is committed to training new generations of data science 
+        and AI leaders with the necessary breadth and depth of technical and ethical skills 
+        to match the UK’s growing industrial and societal needs. The Turing Online Training 
+        Grant was offered for to OLS and The Turing Way to engage the Turing’s researchers 
+        and the broader UK community in open and reprodiucible research.
