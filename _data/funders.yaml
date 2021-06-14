@@ -11,7 +11,7 @@ csands:
     name: Code for Science and Society - Event Fund
     website: https://eventfund.codeforscience.org/
     logo: https://codeforscience.org/img/Blue-logo-black-text-stacked.png
-    description: >
+    description: |
         Code for Science & Society works to advance the power of data to 
         improve the social and economic lives of all people through education, 
         scientific research, and technology development. The event fund is a 
@@ -22,7 +22,7 @@ eosc-life:
     name: EOSC-Life
     website: https://www.eosc-life.eu/
     logo: https://www.eosc-life.eu/wp-content/themes/eosc-life-v2/assets/images/eosclogo.png
-    description: >
+    description: |
         EOSC-Life brings together the 13 Life Science ‘ESFRI’ research infrastructures (LS RIs) 
         to create an open, digital and collaborative space for biological and medical research.
         Through our Training Open Call, the EOSC-Life Training team offered funding to OLS team 
@@ -42,7 +42,7 @@ SSI:
 turing:
     name: The Alan Turing Institute - The Turing Online Training Grant
     website: https://www.software.ac.uk
-    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
+    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Alan_Turing_Institute_logo.svg/1200px-Alan_Turing_Institute_logo.svg.png
     description: |
         The Alan Turing Institute is committed to training new generations of data science 
         and AI leaders with the necessary breadth and depth of technical and ethical skills 
