@@ -262,17 +262,6 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 ## Organizers
 
 <div class="people">
-{% for entry in metadata.organizers %}
-    {% assign username = entry %}
-    {% assign user = site.data.people[username] %}
-    {% include _includes/people.html user=user username=username %}
-{% endfor %}
-</div>
-
-{% if all-hosts != '' %}
-### Hosts for calls
-
-<div class="people">
 {% for entry in p-hosts %}
     {% assign username = entry %}
     {% assign user = people[username] %}
