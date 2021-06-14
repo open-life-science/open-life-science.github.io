@@ -14,8 +14,6 @@ This program can only run with the active involvements of our volunteer communit
 - [Mentors](#mentors)
 - [Experts](#experts)
 - [Founders](#founders)
-- [Funders](#funders)
-- [Partners](#partners)
 
 # Mentees
 
@@ -172,30 +170,6 @@ We have high ethical standards, including:
 - **Community**: Carefully listen to any concerns and questions and respond honestly
 - **Respect**: Respect humans and all living systems
 - **Responsibility**: Recognize the complexity and dynamics of life science and research and our responsibility towards them
-
-# Funders
-
-This program has been funded by the following funding organisations!
-
-<div class="funders">
-{% for entry in site.data.funders %}
-    {% assign fundername = entry[0] %}
-    {% assign funder = site.data['funders'][fundername] %}
-    {% include _includes/funders.html funder=funder %}
-{% endfor %}
-</div>
-
-# Partners
-
-This program is made possible thanks to our partners and collaborating organisations!
-
-<div class="partners">
-{% for entry in site.data.partners %}
-    {% assign partnername = entry[0] %}
-    {% assign partner = site.data['partners'][partnername] %}
-    {% include _includes/partners.html partner=partner %}
-{% endfor %}
-</div>
 
 # Get involved
 
