@@ -29,6 +29,7 @@ After the success of our previous cohorts:
 
 we launch OLS-4, the **4th cohort of this program**: [**Apply via Open Review**](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4)
 
+### Timeline
 {% include _includes/ols-4-timeline.md %}
 
 Have a question or need any support to join this cohort? 
