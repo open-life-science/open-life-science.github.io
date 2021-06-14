@@ -24,7 +24,9 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 **Application is open until July 15, 2021 to join the fourth cohort of Open Life Science - OLS-4**
 
-<button type="button"><a href="https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4">Apply via Open Review!</a></button>
+<a href="https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4" class="button">Apply via Open Review</a>
+
+*Please register on Open Review before July 10, 2021 to allow activation of your Open Review profile as described in the [OLS-4 application guidelines and templates](https://github.com/open-life-science/application-forms).*
 
 ### Timeline
 {% include _includes/ols-4-timeline.md %}
