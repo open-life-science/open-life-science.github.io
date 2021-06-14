@@ -181,7 +181,7 @@ This program has been funded by the following funding organisations!
 
 <div class="funders">
 {% for entry in site.data.funders %}
-    {% assign fundername = entry[0] %}
+    {% assign fundername = entry %}
     {% assign funder = site.data['funders'][fundername] %}
     {% include _includes/funders.html funder=funder %}
 {% endfor %}
