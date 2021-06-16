@@ -10,7 +10,7 @@
 
   At this call, OLS team will be available to provide help if you have any question related to your application
 
-- **July 10, 2021**: Call for registrations closed
+- **July 10, 2021**: Open Review registration deadline
 - **July 15, 2021**: Call for applications closed
 - **August 16, 2021**: Successful applicants announced
 - **September 13, 2021**: Start of the 16-week program
