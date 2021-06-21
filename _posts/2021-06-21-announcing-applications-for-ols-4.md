@@ -33,9 +33,9 @@ We are very inspired by their work and their progress - and we hope you are too!
 # OLS-4 applications are NOW OPEN!
 **[Apply now](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4) for round 4 of our open research training and mentorship programme, until July 15 (end of the day, anywhere in the world)!**
 
-This time round, we will be using Open Review for submissions - but worry not, our [application guide and templates](https://github.com/open-life-science/application-forms) have got you covered, just *make sure you register on Open Review well in advance*.
+This time around, we will be using Open Review for submissions - but worry not, our [application guide and templates](https://github.com/open-life-science/application-forms) have got you covered, just *make sure you register on Open Review well in advance*.
 
-We'd love to welcome folks from all around the world, at different career stages to apply, individually or in teams.
+We'd love to invite folks from all around the world, at different career stages to apply, individually or in teams.
 
 For OLS-4, we continue to [offer micro-grants](https://openlifesci.org/posts/2020/11/23/micro-grants-in-2021-ols-3-ols-4/) to help grow participation and inclusion, and to support budding new projects.
 
