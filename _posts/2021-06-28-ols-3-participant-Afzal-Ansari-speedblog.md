@@ -25,7 +25,7 @@ We gained useful insights into this project development through our journey. I l
 ## The main goals achieved in this project
 
 We acheived how to use open Science practices in developing resources and apply OLS principles to open leadership and working open in their projects and communities.
-Secondly, we were able to create dynamic search table [gh issue link](https://github.com/alan-turing-institute/sktime/issues/704) for users and other developers at sktime to find the algorithm experts as an estimator overview.
+Secondly, we were able to create dynamic search table [GitHub issue link](https://github.com/alan-turing-institute/sktime/issues/704) for users and other developers at sktime to find the algorithm experts as an estimator overview.
 
 ## What elements helped you get there?
 
