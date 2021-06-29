@@ -4,7 +4,7 @@
 
 ## Project background ![](https://i.imgur.com/Ij3js3V.png)
 
-sktime is a new Python toolbox for machine learning with time series (https://github.com/alan-turing-institute/sktime). It provides state-of-the-art time series algorithms and scikit-learn compatible tools for building, tuning and evaluating complex models.
+[sktime](https://github.com/alan-turing-institute/sktime) is a new Python toolbox for machine learning with time series. It provides state-of-the-art time series algorithms and scikit-learn compatible tools for building, tuning and evaluating complex models
 
 Algorithms form a major part of sktime here. They require special expertise in their development and maintenance. We plan to enhance the existing documentation by making algorithm contributors more visible. 
 To make it easier for users and other developers to directly get in touch with the algorithm experts and to recognize their contributions more visibly, we created a table with the algorithm name, estimator types and author's list.
