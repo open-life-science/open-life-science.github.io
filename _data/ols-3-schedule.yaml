@@ -523,14 +523,20 @@
       Think about and plan to apply FAIR principles to your project in your own time
     resources:
     - type: slides
+      link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
+      speaker: emma-anne-harris
       title: 'FAIR Data: Insights and perspectives'
     - type: slides
       title: Making training materials FAIR in 10 steps
+      link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
+      speaker: alexandra-holinski
     - type: external-link
       title: 10 rules for making training FAIR
       link: https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1007854
     - type: slides
       title: FAIR Research Software, a.k.a. software as a first-class citizen in research
+      speaker: npch
+      link: https://doi.org/10.6084/m9.figshare.14410751.v1
     - type: external-link
       title: 'Top 10 FAIR Data & Software Things: Research Software'
       link: https://zenodo.org/record/2555498#.XwgeqSgzZPZ
@@ -546,9 +552,16 @@
     - type: external-link
       title: RDA FAIR for Research Software (FAIR4RS) WG
       link: https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
+    - type: external-link
+      title: Best Practices for Scientific Computing
+      link: https://doi.org/10.1371/journal.pbio.1001745
+    - type: external-link
+      title: Good enough Practices in Scientific Computing
+      link: https://doi.org/10.1371/journal.pcbi.1005510
     date: April 14, 2021
     time: '13:30'
     notes: https://bit.ly/ols-3-week-10-cohort-call
+    recording: https://www.youtube.com/watch?v=j-rPaiojNFk
 '11':
   timeframe: April 19-23, 2021
   calls:
@@ -593,6 +606,7 @@
     date: April 28, 2021
     time: '18:00'
     notes: https://bit.ly/ols-3-week-12-cohort-call
+    recording: https://www.youtube.com/watch?v=EMVGOapd0M4
 '13':
   timeframe: May 3-7, 2021
   calls:
@@ -601,17 +615,19 @@
     title: Meet your mentor!
   - date: May 05, 2021
     time: '13:30'
-    duration: 30 min
-    notes: https://bit.ly/ols-3-week-13-q-a
+    duration: 90 min
+    notes: https://docs.google.com/document/d/1tS7UG2PvZhcNhUQU1xyURTEuIh7QwQnlDyQU4libZ10/edit#
     type: Cohort
-    title: Social
+    title: 'Skill-up & social: Sketchnoting and visual storytelling'
     content: |
       During this week's coworking call, you will:
-      - take some time to get to know each other over informal networking opportunity
+      - Learn about sketchnoting, a way to tell stories visually
+      - Have some fun!
     before: |
       - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
     after: |
       - Continue on with your project, and connect with others on Slack or other social media platforms.
+    recording: https://www.youtube.com/watch?v=mHCYpX6WLZw
 '14':
   timeframe: May 10-14, 2021
   calls:
@@ -624,35 +640,29 @@
       - Implicit bias, Diversity and Inclusion
       - Mountain of engagement and community interactions
       - Personas and pathways and welcoming new contributors
-    before: |
-      - Do the implicit Bias Quiz
-        - Go to [https://implicit.harvard.edu](https://implicit.harvard.edu) complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)
-
-            You can 'continue as a guest' by choosing your country
-
-        - Answer these questions when you've finished the implicit association test: What does inclusion mean to you? Did your results of the implicit association test surprise you?
-        - Bring your notes to the cohort call
     after: |
       - [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/) assignment
       - Think through community interactions
       - Complete the midterm survey
     resources:
     - type: slides
-      title: 'Value exchange: Ensuring equity in community interactions'
-      link: https://docs.google.com/presentation/d/1xgCaxuF81Ui-o21X00AXRAR4WKgvZ3m9HOwxkoDNuYs/present?token=AC4w5VjTaLNmSOhRQjgWewb8pS_Zdzifbg%3A1599124074222&includes_info_params=1&eisi=CKLNlbPRzOsCFdJRJgod7UQNqQ#slide=id.p
-    - type: slides
-      title: Unconscious Bias & Inclusive Participation
-      link: https://docs.google.com/presentation/d/1bpN5WCtacJkxwKznmi0LHC3j-PHiPnrhVtbCKP7j1c4/present?token=AC4w5ViCwpl9dFyzVGzHee3muD89BmlDAg%3A1599124070524&includes_info_params=1&eisi=CKeKtLHRzOsCFU99HwodtOID-g#slide=id.g6e99f63b25_0_0
+      title: 'Unconscious Bias- does it really matter?'
+      link: https://figshare.com/articles/presentation/Unconscious_bias_-_does_it_really_matter_/14479875/5
+      speaker: rowland-mosbergen
     - type: slides
       title: Using Personas and Pathways to Build Community
-      link: https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/present?token=AC4w5VjrhOLQ41xnnuA2pDUv6BPb3rNRzw%3A1599124065406&includes_info_params=1&eisi=CM3T-67RzOsCFflCqwId1MwJoQ#slide=id.g6e991a6830_0_0
+      link: https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
+      speaker: anelda
     - type: slides
       title: Mountain of Engagement & Community Interactions
       link: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/present?token=AC4w5VidYTmudwv11GFa0VWvc4lrMoUVTw%3A1599124059444&includes_info_params=1&eisi=CJeckKzRzOsCFSOOTwkda3gCVA#slide=id.p
+      speaker: emmyft
     - type: slides
-      title: Welcoming New Contributors on Your Project
-      link: https://docs.google.com/presentation/d/1HIgUWbdVQffPd0_w71gSTI_bA0h_bCyjAtgdmLIWHNg/present?token=AC4w5VgKbTucC3IEPKQMwAlvzGEbFNmiHA%3A1599124055144&includes_info_params=1&eisi=COSsiarRzOsCFQqwZwodvScCOw#slide=id.g6e991a6896_0_209
+      title: Mentored contributions
+      link: https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
+      speaker: bebatut
     - type: slides
+      speaker: yochannah
       title: Community interactions
       link: https://docs.google.com/presentation/d/1eT1coMa8_kp504wPkJvz8E_58ngmW6w-1kji1TdjPNE/present?token=AC4w5Vi74N6acwl2cG04O9g5SRageyTPvA%3A1599124047692&includes_info_params=1&eisi=CJatwqbRzOsCFdAlgQoddgkPhw#slide=id.g6e991a6830_0_0
     - type: document
@@ -662,6 +672,9 @@
       title: 'Mountain of Engagement (MoE): Discovering pathways & patterns of engagement
         in your work'
       link: https://docs.google.com/document/d/1X1PxqUs7HX3wOwtJknLMzYKV6okqiA7-WKeVa0ziJa4/edit?usp=sharing
+    - type: slides
+      title: 'Value exchange: Ensuring equity in community interactions'
+      link: https://docs.google.com/presentation/d/1xgCaxuF81Ui-o21X00AXRAR4WKgvZ3m9HOwxkoDNuYs/present?token=AC4w5VjTaLNmSOhRQjgWewb8pS_Zdzifbg%3A1599124074222&includes_info_params=1&eisi=CKLNlbPRzOsCFdJRJgod7UQNqQ#slide=id.p
     - type: external-link
       title: Create a Persona and Pathway for Your Project
       link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project
@@ -674,6 +687,7 @@
     date: May 12, 2021
     time: '13:30'
     notes: https://bit.ly/ols-3-week-14-cohort-call
+    recording: https://www.youtube.com/watch?v=GdZ3kfKP43A
 '15':
   timeframe: May 17-21, 2021
   calls:
@@ -688,7 +702,7 @@
     before: |
       - Review your project and identify important aspects that you can discuss with your mentor
   - type: Cohort
-    duration: 90 min
+    duration: 60 min
     title: Final presentation rehearsal - Group 1
     content: |
       During this week's cohort call, we will:
@@ -705,8 +719,11 @@
     after: |
       - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
     resources: null
+    date: May 18, 2021
+    time: '09:00'
+    notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
   - type: Cohort
-    duration: 90 min
+    duration: 60 min
     title: Final presentation rehearsal - Group 2
     content: |
       During this week's cohort call, we will:
@@ -723,11 +740,35 @@
     after: |
       - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
     resources: null
+    date: May 19, 2021
+    time: '14:00'
+    notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
+  - type: Cohort
+    duration: 60 min
+    title: Final presentation rehearsal - Group 3
+    content: |
+      During this week's cohort call, we will:
+      - Learn about giving and receiving feedback
+      - Conduct rehearsal for the final presentation from the project leads registered
+    before: |
+      - Come prepared to share a 5 mins presentation of your project
+
+        Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
+
+        This could also be only the highlights from your presentation
+
+        Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
+    after: |
+      - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
+    resources: null
+    date: May 20, 2021
+    time: '17:00'
+    notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
 '16':
   timeframe: May 24-28, 2021
   calls:
   - type: Cohort
-    duration: 90 min
+    duration: 60 min
     title: Final presentations & Graduation! - Group 1
     agenda: '5-minute demos of projects (Audience: entire community & public, Open
       and recorded call)'
@@ -739,10 +780,12 @@
 
         Your presentation can be in the form of a demo, short presentation or a walk through your website
     after: |
-      - Celebrate your graduation from OLS-2!
+      - Celebrate your graduation from OLS-3!
     resources: null
+    notes: https://pad.sfconservancy.org/p/ols-graduations-1
+    recording: https://youtu.be/pU-HosUM5-8
   - type: Cohort
-    duration: 90 min
+    duration: 60 min
     title: Final presentations & Graduation! - Group 2
     agenda: '5-minute demos of projects (Audience: entire community & public, Open
       and recorded call)'
@@ -754,7 +797,26 @@
 
         Your presentation can be in the form of a demo, short presentation or a walk through your website
     after: |
-      - Celebrate your graduation from OLS-2!
+      - Celebrate your graduation from OLS-3!
+    notes: https://pad.sfconservancy.org/p/ols-graduations-2
+    recording: https://www.youtube.com/watch?v=kNQz0ap71yg
+    resources: null
+  - type: Cohort
+    duration: 60 min
+    title: Final presentations & Graduation! - Group 2
+    agenda: '5-minute demos of projects (Audience: entire community & public, Open
+      and recorded call)'
+    content: |
+      During this week's cohort call, we will:
+      - Witness the final presentations from the project leads registered in Group 1 and see them graduate.
+    before: |
+      - Come prepared to share a 5 mins presentation of your project
+
+        Your presentation can be in the form of a demo, short presentation or a walk through your website
+    after: |
+      - Celebrate your graduation from OLS-3!
+    notes: https://pad.sfconservancy.org/p/ols-graduations-3
+    recording: https://www.youtube.com/watch?v=2tezbbfJGu8
     resources: null
   - type: Mentors
     duration: 60 min

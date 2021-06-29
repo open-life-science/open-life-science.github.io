@@ -2813,6 +2813,11 @@ npalopoli:
   orcid: 0000-0001-7925-6436
   pronouns: He/him
   twitter: npalopoli
+npch:
+  affiliation: Software Sustainability Institute
+  first-name: Neil
+  last-name: Chue Hong
+  twitter: npch
 npscience:
   bio: 'Naomi is motivated by people who are empowered to participate in knowledge
     and discovery for improvement of the world around them. She is learning how to
@@ -3167,6 +3172,11 @@ rossmounce:
   last-name: Mounce
   pronouns: he/him
   website: http://rossmounce.co.uk/
+rowland-mosbergen:
+  country: Australia
+  first-name: Rowland
+  last-name: Mosbergen
+  github: false
 rs_khetani:
   affiliation: Harvard T.H. Chan School of Public Health
   bio: Radhika is the training director at the bioinformatics core at the Harvard
