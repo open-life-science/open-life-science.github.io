@@ -36,7 +36,7 @@ And also we had our mentor-mentee call scheduled for an half-an-hour every two w
 ## Next steps
 With the help of our Mentor Toby Hogdes, we have created our dynamic table. We are also working on a few other things as mentioned below:
 * Add other informations like literature reference and links class name of each module to their API reference
-* Use github action for updating CODE-OWNER’s file
+* Use GitHub action for updating CODE-OWNER's file
 
 
 ## Special mentions and acknowledgements
