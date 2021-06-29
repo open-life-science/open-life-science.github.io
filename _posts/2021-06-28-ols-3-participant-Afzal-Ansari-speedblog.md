@@ -1,4 +1,13 @@
-# OLS-3 Speed Blog: Documentation enhancement with open science practices at sktime (open-source project), Afzal Ansari, Abdulelah Al Mesfer
+---
+layout: post
+title: "OLS-3 Speed Blog: Documentation enhancement with open science practices at sktime (open-source project)"
+authors:
+- afzal442
+- abdulelahsm
+image: https://i.imgur.com/Ij3js3V.png
+---
+ 
+*This post is guest authored by Afzal Ansari and Abdulelah Al Mesfer, two recent graduates of OLS-3.*
 
 
 
