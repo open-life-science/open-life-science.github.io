@@ -1,21 +1,718 @@
-# List of experts, possible mentors and organizers for OLS-3
+# List of experts, possible mentors and organizers for OLS-4
 #
 #
 # People should be also in people.yaml file and linked using their GitHub username
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
 experts:
+- ajstewartlang
+- alexandra-holinski
+- alexwlchan
+- anayan321
+- annefou
+- ariellebl
+- bduckles
 - bebatut
-- emmyft
-- malvikasharan
-- yochannah
+- bruno-soares
+- camachoreina
+- dimmestp
+- duerrsimon
+- ealescak
+- ekaroune
+- estherplomp
+- ewallace
+- fpsom
+- ha0ye
+- iramosp
+- iratxepuebla
+- jcolomb
+- joyceykao
+- katoss
+- kstackwhitney
+- lauracarter
+- markuskonk
+- meagdoh
+- merrcury
+- mxrtinez
+- npscience
+- profgiuseppe
+- selgebali
+- smklusza
+- thessaly
+- tnabtaf
+- unode
+experts-with-expertise:
+  Ableism:
+  - kstackwhitney
+  Accessibility:
+  - kstackwhitney
+  - smklusza
+  Agrobiodiversity:
+  - iramosp
+  Ally skills training:
+  - ha0ye
+  App/software development:
+  - joyceykao
+  Archaeology:
+  - estherplomp
+  Balancing open science with the rest of your career:
+  - ewallace
+  Bioanthropology:
+  - estherplomp
+  Biochemistry:
+  - duerrsimon
+  Biodiversity:
+  - bruno-soares
+  Bioinformatics:
+  - bebatut
+  - dimmestp
+  - ewallace
+  - fpsom
+  - profgiuseppe
+  Carpentries:
+  - profgiuseppe
+  Citizen science:
+  - bebatut
+  - katoss
+  Code of conducts:
+  - ariellebl
+  Collaborating with Git & GitHub/GitLab:
+  - bebatut
+  Collaborative working:
+  - ekaroune
+  Communication:
+  - ealescak
+  Community:
+  - profgiuseppe
+  Community building:
+  - alexandra-holinski
+  - bruno-soares
+  - ealescak
+  - joyceykao
+  - npscience
+  Community consultation:
+  - ariellebl
+  Community engagement:
+  - iratxepuebla
+  Community goals:
+  - ariellebl
+  Community management:
+  - ha0ye
+  Community outreach:
+  - tnabtaf
+  Computational Chemistry:
+  - duerrsimon
+  Computational Training:
+  - unode
+  Computational biology:
+  - ariellebl
+  - joyceykao
+  - unode
+  Computational inclusion:
+  - selgebali
+  Conference organization:
+  - joyceykao
+  Course delivery:
+  - alexandra-holinski
+  Course design:
+  - alexandra-holinski
+  Course development:
+  - alexandra-holinski
+  Culture change:
+  - ariellebl
+  Curation:
+  - selgebali
+  Data analysis and integration:
+  - tnabtaf
+  Data literacy:
+  - ewallace
+  Data management:
+  - iramosp
+  Data patterns:
+  - merrcury
+  Data usage in the public sector:
+  - lauracarter
+  Databases:
+  - profgiuseppe
+  Deep Learning:
+  - duerrsimon
+  Design thinking:
+  - npscience
+  Designing and developing training material:
+  - bebatut
+  Devops:
+  - profgiuseppe
+  Digital equity:
+  - selgebali
+  Diversity:
+  - ealescak
+  Drug discovery:
+  - ariellebl
+  Ecology:
+  - ha0ye
+  Environmental Archaeology:
+  - ekaroune
+  Equality, Anti-discrimination and justice:
+  - lauracarter
+  Ethical and reflexive research methodologies:
+  - lauracarter
+  Event planning:
+  - ealescak
+  Evolutionary biology:
+  - joyceykao
+  FAIR:
+  - ekaroune
+  - estherplomp
+  FAIR principles:
+  - alexandra-holinski
+  Fair data:
+  - annefou
+  Fair principles:
+  - selgebali
+  Fair software:
+  - annefou
+  Feminist and queer approaches to tech and data:
+  - lauracarter
+  Full-stack developer:
+  - unode
+  Galaxy:
+  - bebatut
+  Galaxy training:
+  - bebatut
+  Gender and stereotyping:
+  - lauracarter
+  Gene expression:
+  - ewallace
+  Genetics:
+  - smklusza
+  Git:
+  - bebatut
+  - merrcury
+  Git and github:
+  - ha0ye
+  GitHub:
+  - bebatut
+  GitHub/GitLab Pages:
+  - bebatut
+  GitLab:
+  - bebatut
+  Go to market:
+  - meagdoh
+  Grantsmaking:
+  - npscience
+  Health sciences:
+  - ha0ye
+  High-throughput sequencing:
+  - bebatut
+  Human cell atlas:
+  - anayan321
+  Human rights:
+  - lauracarter
+  Illustration:
+  - katoss
+  Immunology:
+  - anayan321
+  Imposter Syndrome:
+  - tnabtaf
+  Inclusion:
+  - ealescak
+  Inter and transdisciplinary research:
+  - iramosp
+  Interdisciplinery research:
+  - anayan321
+  Isotopes:
+  - estherplomp
+  Jekyll:
+  - bebatut
+  Leadership:
+  - ealescak
+  Life science:
+  - selgebali
+  Life sciences:
+  - smklusza
+  Machine learning:
+  - fpsom
+  - merrcury
+  Meta-transcriptomics:
+  - unode
+  Metagenomics:
+  - bebatut
+  - unode
+  Methods of interactive delivery (face-to-face and virtual courses):
+  - alexandra-holinski
+  Mixed methods:
+  - bduckles
+  Neuroscience.:
+  - ariellebl
+  Neurosciences:
+  - jcolomb
+  No listed expertise:
+  - alexwlchan
+  Online training:
+  - alexandra-holinski
+  Open Data:
+  - bruno-soares
+  Open Science:
+  - alexandra-holinski
+  - fpsom
+  Open data:
+  - estherplomp
+  - iramosp
+  Open education:
+  - camachoreina
+  Open educational resources:
+  - thessaly
+  Open protocols:
+  - estherplomp
+  Open research:
+  - ajstewartlang
+  Open science:
+  - annefou
+  - ewallace
+  - jcolomb
+  - selgebali
+  Open science hardware:
+  - thessaly
+  Open science, reproducibility:
+  - markuskonk
+  Open source:
+  - dimmestp
+  - merrcury
+  Open workflows:
+  - ekaroune
+  Openness without extraction:
+  - kstackwhitney
+  Osteology:
+  - estherplomp
+  Palaeoecology:
+  - ekaroune
+  Participatory research:
+  - npscience
+  Particle physics:
+  - camachoreina
+  Peer production:
+  - katoss
+  Peer review:
+  - iratxepuebla
+  Post academics:
+  - bduckles
+  Preprints:
+  - iratxepuebla
+  Principles of FAIRification of (training) material:
+  - alexandra-holinski
+  Product strategy:
+  - meagdoh
+  Protein Biochemistry:
+  - alexandra-holinski
+  Protein Design:
+  - duerrsimon
+  Psychology:
+  - ajstewartlang
+  Publishing:
+  - iratxepuebla
+  Publishing web content:
+  - bebatut
+  Python:
+  - merrcury
+  Qualitative research:
+  - bduckles
+  R:
+  - ha0ye
+  R Package Development:
+  - dimmestp
+  Reproducibility:
+  - ajstewartlang
+  - dimmestp
+  - ekaroune
+  - unode
+  Reproducible reports:
+  - jcolomb
+  Reproducible research:
+  - annefou
+  Reproducible science;:
+  - profgiuseppe
+  Research data management:
+  - estherplomp
+  - jcolomb
+  - selgebali
+  Research integrity:
+  - iratxepuebla
+  Research methods:
+  - ealescak
+  Research reproducibility:
+  - ha0ye
+  Research software:
+  - profgiuseppe
+  Rna:
+  - ewallace
+  Road mapping and strategy planning:
+  - ariellebl
+  Scholarly communication:
+  - jcolomb
+  SciComm:
+  - bruno-soares
+  Science and education capacity building:
+  - camachoreina
+  Science communication:
+  - iratxepuebla
+  Science reproducibility:
+  - mxrtinez
+  Scientific Education and Training:
+  - alexandra-holinski
+  Scientific connections between developed and developing countries:
+  - camachoreina
+  Single-cell transcriptomics:
+  - anayan321
+  Social science:
+  - bduckles
+  Software compliance:
+  - merrcury
+  Software development:
+  - profgiuseppe
+  Standards:
+  - bduckles
+  Sti policy:
+  - thessaly
+  Sustainability:
+  - bduckles
+  Sustainability science:
+  - iramosp
+  Synthetic biology:
+  - smklusza
+  System design:
+  - merrcury
+  Teaching:
+  - ealescak
+  - profgiuseppe
+  Time series analysis:
+  - ha0ye
+  Training:
+  - fpsom
+  - tnabtaf
+  Transcriptomics:
+  - dimmestp
+  Tropical disease:
+  - anayan321
+  User behaviour patterns:
+  - merrcury
+  User experience:
+  - katoss
+  User research:
+  - meagdoh
+  User-centered/participatory design:
+  - katoss
+  Version control:
+  - ha0ye
+  Virtual events:
+  - joyceykao
+  Virtual research and learning communities:
+  - camachoreina
+  Web applications:
+  - joyceykao
+  Wiki*:
+  - profgiuseppe
+  Wordpress:
+  - bebatut
+  Yeast & fungi:
+  - ewallace
 organizers:
 - bebatut
 - emmyft
 - malvikasharan
 - yochannah
 possible-mentors:
+- abretaud
+- alexandra-holinski
+- anelda
+- annefou
+- ariellebl
+- bduckles
 - bebatut
-- emmyft
-- malvikasharan
-- yochannah
+- bruno-soares
+- cemonks
+- dimmestp
+- ealescak
+- ekaroune
+- estherplomp
+- fpsom
+- harpreetsingh05
+- hrhotz
+- iratxepuebla
+- jcolomb
+- markuskonk
+- meagdoh
+- megmugure
+- mxrtinez
+- pescini
+- pivg
+- prashbio
+- smklusza
+- tnabtaf
+- unode
+- yvanlebras
+possible-mentors-with-expertise:
+  Accessibility:
+  - smklusza
+  Archaeology:
+  - estherplomp
+  Bioanthropology:
+  - estherplomp
+  Bioconductor:
+  - hrhotz
+  Biodiversity:
+  - bruno-soares
+  Bioinformatics:
+  - bebatut
+  - dimmestp
+  - fpsom
+  - harpreetsingh05
+  - hrhotz
+  - megmugure
+  Capacity development;:
+  - anelda
+  Care principles:
+  - cemonks
+  Citizen science:
+  - bebatut
+  Code of conducts:
+  - ariellebl
+  Collaborating with Git & GitHub/GitLab:
+  - bebatut
+  Collaborative working:
+  - ekaroune
+  Communication:
+  - ealescak
+  Community building:
+  - alexandra-holinski
+  - anelda
+  - bruno-soares
+  - ealescak
+  - megmugure
+  Community consultation:
+  - ariellebl
+  Community engagement:
+  - iratxepuebla
+  Community goals:
+  - ariellebl
+  Community outreach:
+  - tnabtaf
+  Computational Training:
+  - unode
+  Computational biology:
+  - ariellebl
+  - pescini
+  - unode
+  Conda/biocontainers:
+  - abretaud
+  Course delivery:
+  - alexandra-holinski
+  - pivg
+  Course design:
+  - alexandra-holinski
+  - pivg
+  Course development:
+  - alexandra-holinski
+  Culture change:
+  - ariellebl
+  Data analysis:
+  - yvanlebras
+  Data analysis and integration:
+  - tnabtaf
+  Data management:
+  - yvanlebras
+  Designing and developing training material:
+  - bebatut
+  Diversity:
+  - ealescak
+  Drug discovery:
+  - ariellebl
+  Ecology:
+  - yvanlebras
+  Education:
+  - pivg
+  Environmental Archaeology:
+  - ekaroune
+  Ethical data sharing:
+  - cemonks
+  Event planning:
+  - ealescak
+  FAIR:
+  - ekaroune
+  - estherplomp
+  FAIR principles:
+  - alexandra-holinski
+  Fair data:
+  - annefou
+  Fair principles:
+  - cemonks
+  Fair software:
+  - annefou
+  Full-stack developer:
+  - unode
+  Galaxy:
+  - abretaud
+  - bebatut
+  - hrhotz
+  Galaxy training:
+  - bebatut
+  Genetics:
+  - smklusza
+  Genome annotation:
+  - abretaud
+  Git:
+  - bebatut
+  GitHub:
+  - bebatut
+  GitHub/GitLab Pages:
+  - bebatut
+  GitLab:
+  - bebatut
+  Global south:
+  - anelda
+  Gmod tools:
+  - abretaud
+  Go to market:
+  - meagdoh
+  High-throughput sequencing:
+  - bebatut
+  Imposter Syndrome:
+  - tnabtaf
+  Inclusion:
+  - ealescak
+  Isotopes:
+  - estherplomp
+  Jekyll:
+  - bebatut
+  Leadership:
+  - ealescak
+  Life sciences:
+  - smklusza
+  Machine learning:
+  - fpsom
+  - harpreetsingh05
+  Meta-transcriptomics:
+  - unode
+  Metagenomics:
+  - bebatut
+  - unode
+  Methods of interactive delivery (face-to-face and virtual courses):
+  - alexandra-holinski
+  Mixed methods:
+  - bduckles
+  Molecular Modeling:
+  - harpreetsingh05
+  Neuroscience.:
+  - ariellebl
+  Neurosciences:
+  - jcolomb
+  Next Generation Sequencing:
+  - hrhotz
+  Online training:
+  - alexandra-holinski
+  Open Data:
+  - bruno-soares
+  Open Science:
+  - alexandra-holinski
+  - fpsom
+  Open data:
+  - anelda
+  - estherplomp
+  Open protocols:
+  - estherplomp
+  Open science:
+  - anelda
+  - annefou
+  - jcolomb
+  Open science, reproducibility:
+  - markuskonk
+  Open source:
+  - dimmestp
+  Open workflows:
+  - ekaroune
+  Osteology:
+  - estherplomp
+  Palaeoecology:
+  - ekaroune
+  Peer review:
+  - iratxepuebla
+  Post academics:
+  - bduckles
+  PostgreSQL:
+  - hrhotz
+  Preprints:
+  - iratxepuebla
+  Principles of FAIRification of (training) material:
+  - alexandra-holinski
+  Product strategy:
+  - meagdoh
+  Protein Biochemistry:
+  - alexandra-holinski
+  Publishing:
+  - iratxepuebla
+  Publishing web content:
+  - bebatut
+  Python/js web apps:
+  - abretaud
+  Qualitative research:
+  - bduckles
+  R:
+  - anelda
+  R Package Development:
+  - dimmestp
+  R Programming:
+  - harpreetsingh05
+  Reproducibility:
+  - dimmestp
+  - ekaroune
+  - unode
+  Reproducible reports:
+  - jcolomb
+  Reproducible research:
+  - annefou
+  Research data management:
+  - estherplomp
+  - jcolomb
+  Research integrity:
+  - iratxepuebla
+  Research methods:
+  - ealescak
+  Road mapping and strategy planning:
+  - ariellebl
+  Scholarly communication:
+  - jcolomb
+  SciComm:
+  - bruno-soares
+  Science communication:
+  - iratxepuebla
+  - pivg
+  Science reproducibility:
+  - mxrtinez
+  Scientific Education and Training:
+  - alexandra-holinski
+  Social science:
+  - bduckles
+  Standards:
+  - bduckles
+  Sustainability:
+  - bduckles
+  Synthetic biology:
+  - smklusza
+  Systems biology:
+  - pescini
+  Systems genomics, bioinformatics:
+  - prashbio
+  Systems simulation;:
+  - pescini
+  Teaching:
+  - ealescak
+  Training:
+  - abretaud
+  - fpsom
+  - pivg
+  - tnabtaf
+  Transcriptomics:
+  - dimmestp
+  User research:
+  - meagdoh
+  Wordpress:
+  - bebatut
