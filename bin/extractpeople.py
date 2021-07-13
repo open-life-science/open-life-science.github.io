@@ -34,13 +34,19 @@ def extract_people_info(row, people):
     # get id
     github = row['Github username']
     if github is None:
-        github = '%s-%s' % (
-            info['first-name'],
-            info['last-name'])
-        info['github'] = False
+        # check if person exists from first and last name
+        for p in people:
+            if people[p]['first-name'] == info['first-name'] and people[p]['last-name'] == info['last-name']:
+                github = p
+        # create username
+        if github is None:
+            github = '%s-%s' % (
+                info['first-name'],
+                info['last-name'])
+            info['github'] = False
     github = github.replace('https://github.com/', '')
     github = github.rstrip()
-    github = github.lower().replace(' ', '-')
+    github = github.lower().replace(' ', '-').replace('@', '')
     # format ORCID
     if info['orcid'] is not None:
         info['orcid'] = info['orcid'].replace('https://orcid.org/', '')
@@ -69,10 +75,10 @@ def extract_people_info(row, people):
     return github, info
 
 
-def extract_people(info_fp):
+def extract_people(df):
     '''Extract people information from a sheet and add them to people.yaml
 
-    :param info_fp: Path to information sheet file
+    :param df: Path to information sheet file
     '''
     people_fp = Path('_data') / Path('people.yaml')
 
@@ -83,8 +89,6 @@ def extract_people(info_fp):
     # load people information from sheet file
     # parse it
     # add information to people dictionary
-    information_fp = Path(info_fp)
-    df = pd.read_csv(information_fp)
     df = df.where(pd.notnull(df), None)
     people_l = []
     for index, row in df.iterrows():
@@ -133,9 +137,17 @@ def extract_people(info_fp):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Extract people information from a sheet and add them to people.yaml')
     parser.add_argument('-i', '--information', help="Path to information sheet file")
+    parser.add_argument('-u', '--url', help="URL to information sheet file")
     parser.add_argument('-l', '--log', help="Path to log output file")
     args = parser.parse_args()
 
     logging.basicConfig(filename=args.log, level=logging.DEBUG)
 
-    extract_people(args.information)
+    if not args.information:
+        if not args.url:
+            raise ValueError("Provide either path or URL to information sheet file")
+        else:
+            extract_people(pd.read_csv(args.url))
+    else:
+        information_fp = Path(args.information)
+        extract_people(pd.read_csv(information_fp))
