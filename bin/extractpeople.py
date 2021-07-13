@@ -56,6 +56,7 @@ def extract_people_info(row, people):
     # format expertise
     if info['expertise'] is not None:
         info['expertise'] = info['expertise'].rstrip().split("; ")
+        info['expertise'] = [x.capitalize() for x in info['expertise']]
     # format website
     if info['website'] is not None and not info['website'].startswith('https'):
         info['website'] = 'https://%s' % info['website']
