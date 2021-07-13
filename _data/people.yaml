@@ -248,7 +248,7 @@ anelda:
   - Setting up project websites (as non-developer)
   - Women in tech
   first-name: Anelda
-  last-name: Van Der Walt
+  last-name: van der Walt
   orcid: 0000-0003-4245-8119
   pronouns: she/her
   twitter: aneldavdw
@@ -739,24 +739,6 @@ c-martinez:
   pronouns: he/him
   twitter: neocarlitos
   website: https://www.esciencecenter.nl/team/dr-carlos-martinez-ortiz/
-carly-monks:
-  affiliation: University Of Western Australia
-  bio: Carly is a Senior Technician at the University of Western Australia, responsible
-    for managing the archaeology laboratories, field safety, and equipment. She specialises
-    in faunal analysis (zooarchaeology), and is passionate about connecting people
-    with place and environment.
-  city: Perth
-  country: Australia
-  expertise:
-  - Archaeology
-  - Zooarchaeology
-  - Palaeoecology
-  first-name: Carly
-  github: false
-  last-name: Monks
-  orcid: 0000-0001-8307-7043
-  pronouns: She/her
-  twitter: archaeo_ecology
 cassgvp:
   affiliation: University of Oxford
   bio: Cassandra worked for 10 years in magnetic resonance imaging, mainly with clinical
@@ -779,6 +761,23 @@ cassgvp:
   last-name: Gould van Praag
   pronouns: she/her
   twitter: cassgvp
+cemonks:
+  affiliation: University Of Western Australia
+  bio: Carly is a Senior Technician at the University of Western Australia, responsible
+    for managing the archaeology laboratories, field safety, and equipment. She specialises
+    in faunal analysis (zooarchaeology), and is passionate about connecting people
+    with place and environment.
+  city: Perth
+  country: Australia
+  expertise:
+  - Archaeology
+  - Zooarchaeology
+  - Palaeoecology
+  first-name: Carly
+  last-name: Monks
+  orcid: 0000-0001-8307-7043
+  pronouns: She/her
+  twitter: archaeo_ecology
 chiara-damiani:
   first-name: Chiara
   github: false
@@ -946,7 +945,7 @@ didik-utomo:
   github: false
   last-name: Utomo
   website: https://preprint.akademisi.co.id
-DimmestP:
+dimmestp:
   affiliation: University of Edinburgh
   bio: Bioinformatics PhD student in the Edward Wallace Lab at the University of Edinburgh.
     Researching how yeast transcriptomes are regulated in response to stress.
@@ -2980,7 +2979,7 @@ pivg:
   - Course design
   - Course delivery
   - Science communication
-  first-name: Piv
+  first-name: Piraveen
   last-name: Gopalasingam
   orcid: 0000-0001-5709-3373
   pronouns: he/him
