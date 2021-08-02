@@ -15,21 +15,31 @@ experts:
 - bebatut
 - bruno-soares
 - camachoreina
+- coopersmout
+- david-selassie-opoku
+- delphine-l
 - dimmestp
 - duerrsimon
 - ealescak
 - ekaroune
+- emma-lawrence
 - estherplomp
 - ewallace
 - fpsom
+- graciellehigino
 - ha0ye
 - iramosp
 - iratxepuebla
 - jcolomb
+- jessicas11
+- jmmaok
 - joyceykao
+- k8hertweck
+- karvovskaya
 - katoss
 - kstackwhitney
 - lauracarter
+- lwinfree
 - markuskonk
 - meagdoh
 - merrcury
@@ -59,10 +69,13 @@ experts-with-expertise:
   - ewallace
   Bioanthropology:
   - estherplomp
+  Biobanking:
+  - emma-lawrence
   Biochemistry:
   - duerrsimon
   Biodiversity:
   - bruno-soares
+  - graciellehigino
   Bioinformatics:
   - bebatut
   - dimmestp
@@ -74,12 +87,20 @@ experts-with-expertise:
   Citizen science:
   - bebatut
   - katoss
+  Climate change:
+  - jessicas11
   Code of conducts:
   - ariellebl
+  Cognitive neuroscience:
+  - coopersmout
   Collaborating with Git & GitHub/GitLab:
   - bebatut
+  Collaboration:
+  - graciellehigino
   Collaborative working:
   - ekaroune
+  Collective action:
+  - coopersmout
   Communication:
   - ealescak
   Community:
@@ -87,6 +108,7 @@ experts-with-expertise:
   Community building:
   - alexandra-holinski
   - bruno-soares
+  - coopersmout
   - ealescak
   - joyceykao
   - npscience
@@ -118,6 +140,8 @@ experts-with-expertise:
   - alexandra-holinski
   Course development:
   - alexandra-holinski
+  'Creating and using open educational resources: the 5rs':
+  - jmmaok
   Culture change:
   - ariellebl
   Curation:
@@ -125,11 +149,16 @@ experts-with-expertise:
   Data analysis and integration:
   - tnabtaf
   Data literacy:
+  - david-selassie-opoku
   - ewallace
   Data management:
+  - graciellehigino
   - iramosp
+  - lwinfree
   Data patterns:
   - merrcury
+  Data synthesis:
+  - graciellehigino
   Data usage in the public sector:
   - lauracarter
   Databases:
@@ -149,9 +178,12 @@ experts-with-expertise:
   Drug discovery:
   - ariellebl
   Ecology:
+  - graciellehigino
   - ha0ye
   Environmental Archaeology:
   - ekaroune
+  Epigenetics:
+  - delphine-l
   Equality, Anti-discrimination and justice:
   - lauracarter
   Ethical and reflexive research methodologies:
@@ -177,6 +209,7 @@ experts-with-expertise:
   - unode
   Galaxy:
   - bebatut
+  - delphine-l
   Galaxy training:
   - bebatut
   Gender and stereotyping:
@@ -185,6 +218,8 @@ experts-with-expertise:
   - ewallace
   Genetics:
   - smklusza
+  Genomics:
+  - delphine-l
   Git:
   - bebatut
   - merrcury
@@ -196,10 +231,18 @@ experts-with-expertise:
   - bebatut
   GitLab:
   - bebatut
+  Github:
+  - jessicas11
+  Giving presentations:
+  - lwinfree
+  Glaciology:
+  - jessicas11
   Go to market:
   - meagdoh
   Grantsmaking:
   - npscience
+  Hackweeks:
+  - jessicas11
   Health sciences:
   - ha0ye
   High-throughput sequencing:
@@ -208,6 +251,12 @@ experts-with-expertise:
   - anayan321
   Human rights:
   - lauracarter
+  Icebergs:
+  - jessicas11
+  Icepyx:
+  - jessicas11
+  Icesat-2:
+  - jessicas11
   Illustration:
   - katoss
   Immunology:
@@ -224,12 +273,18 @@ experts-with-expertise:
   - estherplomp
   Jekyll:
   - bebatut
+  Language documentation:
+  - karvovskaya
   Leadership:
   - ealescak
   Life science:
   - selgebali
   Life sciences:
   - smklusza
+  Linguistics:
+  - karvovskaya
+  Logic models for program planning and evaluation:
+  - jmmaok
   Machine learning:
   - fpsom
   - merrcury
@@ -238,10 +293,14 @@ experts-with-expertise:
   Metagenomics:
   - bebatut
   - unode
+  Metascience:
+  - coopersmout
   Methods of interactive delivery (face-to-face and virtual courses):
   - alexandra-holinski
   Mixed methods:
   - bduckles
+  Neuroscience:
+  - lwinfree
   Neuroscience.:
   - ariellebl
   Neurosciences:
@@ -255,9 +314,13 @@ experts-with-expertise:
   Open Science:
   - alexandra-holinski
   - fpsom
+  Open access:
+  - coopersmout
   Open data:
   - estherplomp
+  - graciellehigino
   - iramosp
+  - lwinfree
   Open education:
   - camachoreina
   Open educational resources:
@@ -270,13 +333,18 @@ experts-with-expertise:
   - annefou
   - ewallace
   - jcolomb
+  - lwinfree
   - selgebali
   Open science hardware:
   - thessaly
   Open science, reproducibility:
   - markuskonk
+  ? Open science, reproducible computational methods, training, community building,
+    cancer biology, genomics, evolutionary biology
+  : - k8hertweck
   Open source:
   - dimmestp
+  - lwinfree
   - merrcury
   Open workflows:
   - ekaroune
@@ -293,6 +361,7 @@ experts-with-expertise:
   Peer production:
   - katoss
   Peer review:
+  - coopersmout
   - iratxepuebla
   Post academics:
   - bduckles
@@ -302,17 +371,23 @@ experts-with-expertise:
   - alexandra-holinski
   Product strategy:
   - meagdoh
+  Project communications:
+  - lwinfree
+  Project management:
+  - lwinfree
   Protein Biochemistry:
   - alexandra-holinski
   Protein Design:
   - duerrsimon
   Psychology:
   - ajstewartlang
+  - coopersmout
   Publishing:
   - iratxepuebla
   Publishing web content:
   - bebatut
   Python:
+  - jessicas11
   - merrcury
   Qualitative research:
   - bduckles
@@ -320,10 +395,13 @@ experts-with-expertise:
   - ha0ye
   R Package Development:
   - dimmestp
+  Remote sensing:
+  - jessicas11
   Reproducibility:
   - ajstewartlang
   - dimmestp
   - ekaroune
+  - graciellehigino
   - unode
   Reproducible reports:
   - jcolomb
@@ -334,6 +412,7 @@ experts-with-expertise:
   Research data management:
   - estherplomp
   - jcolomb
+  - karvovskaya
   - selgebali
   Research integrity:
   - iratxepuebla
@@ -343,6 +422,8 @@ experts-with-expertise:
   - ha0ye
   Research software:
   - profgiuseppe
+  Resource-constrained environments:
+  - david-selassie-opoku
   Rna:
   - ewallace
   Road mapping and strategy planning:
@@ -354,6 +435,7 @@ experts-with-expertise:
   Science and education capacity building:
   - camachoreina
   Science communication:
+  - graciellehigino
   - iratxepuebla
   Science reproducibility:
   - mxrtinez
@@ -361,6 +443,8 @@ experts-with-expertise:
   - alexandra-holinski
   Scientific connections between developed and developing countries:
   - camachoreina
+  Semantics:
+  - karvovskaya
   Single-cell transcriptomics:
   - anayan321
   Social science:
@@ -384,6 +468,8 @@ experts-with-expertise:
   Teaching:
   - ealescak
   - profgiuseppe
+  'Teaching open science: an open syllabus from open education for a better world (oe4bw)':
+  - jmmaok
   Time series analysis:
   - ha0ye
   Training:
@@ -393,6 +479,8 @@ experts-with-expertise:
   - dimmestp
   Tropical disease:
   - anayan321
+  Typology:
+  - karvovskaya
   User behaviour patterns:
   - merrcury
   User experience:
@@ -413,6 +501,10 @@ experts-with-expertise:
   - profgiuseppe
   Wordpress:
   - bebatut
+  Working with a distributed team:
+  - lwinfree
+  Writing documentation:
+  - lwinfree
   Yeast & fungi:
   - ewallace
 organizers:
@@ -430,15 +522,21 @@ possible-mentors:
 - bebatut
 - bruno-soares
 - cemonks
+- delphine-l
 - dimmestp
 - ealescak
 - ekaroune
 - estherplomp
 - fpsom
+- graciellehigino
 - harpreetsingh05
 - hrhotz
 - iratxepuebla
 - jcolomb
+- jessicas11
+- karvovskaya
+- katesimpson
+- lwinfree
 - markuskonk
 - meagdoh
 - megmugure
@@ -455,12 +553,17 @@ possible-mentors-with-expertise:
   - smklusza
   Archaeology:
   - estherplomp
+  Basic github skills:
+  - katesimpson
+  Basic open science principles:
+  - katesimpson
   Bioanthropology:
   - estherplomp
   Bioconductor:
   - hrhotz
   Biodiversity:
   - bruno-soares
+  - graciellehigino
   Bioinformatics:
   - bebatut
   - dimmestp
@@ -474,10 +577,14 @@ possible-mentors-with-expertise:
   - cemonks
   Citizen science:
   - bebatut
+  Climate change:
+  - jessicas11
   Code of conducts:
   - ariellebl
   Collaborating with Git & GitHub/GitLab:
   - bebatut
+  Collaboration:
+  - graciellehigino
   Collaborative working:
   - ekaroune
   Communication:
@@ -519,7 +626,11 @@ possible-mentors-with-expertise:
   Data analysis and integration:
   - tnabtaf
   Data management:
+  - graciellehigino
+  - lwinfree
   - yvanlebras
+  Data synthesis:
+  - graciellehigino
   Designing and developing training material:
   - bebatut
   Diversity:
@@ -527,11 +638,16 @@ possible-mentors-with-expertise:
   Drug discovery:
   - ariellebl
   Ecology:
+  - graciellehigino
   - yvanlebras
   Education:
   - pivg
+  Energy, carbon and enironmental data for buildings:
+  - katesimpson
   Environmental Archaeology:
   - ekaroune
+  Epigenetics:
+  - delphine-l
   Ethical data sharing:
   - cemonks
   Event planning:
@@ -552,6 +668,7 @@ possible-mentors-with-expertise:
   Galaxy:
   - abretaud
   - bebatut
+  - delphine-l
   - hrhotz
   Galaxy training:
   - bebatut
@@ -559,6 +676,8 @@ possible-mentors-with-expertise:
   - smklusza
   Genome annotation:
   - abretaud
+  Genomics:
+  - delphine-l
   Git:
   - bebatut
   GitHub:
@@ -567,14 +686,28 @@ possible-mentors-with-expertise:
   - bebatut
   GitLab:
   - bebatut
+  Github:
+  - jessicas11
+  Giving presentations:
+  - lwinfree
+  Glaciology:
+  - jessicas11
   Global south:
   - anelda
   Gmod tools:
   - abretaud
   Go to market:
   - meagdoh
+  Hackweeks:
+  - jessicas11
   High-throughput sequencing:
   - bebatut
+  Icebergs:
+  - jessicas11
+  Icepyx:
+  - jessicas11
+  Icesat-2:
+  - jessicas11
   Imposter Syndrome:
   - tnabtaf
   Inclusion:
@@ -583,10 +716,14 @@ possible-mentors-with-expertise:
   - estherplomp
   Jekyll:
   - bebatut
+  Language documentation:
+  - karvovskaya
   Leadership:
   - ealescak
   Life sciences:
   - smklusza
+  Linguistics:
+  - karvovskaya
   Machine learning:
   - fpsom
   - harpreetsingh05
@@ -601,6 +738,8 @@ possible-mentors-with-expertise:
   - bduckles
   Molecular Modeling:
   - harpreetsingh05
+  Neuroscience:
+  - lwinfree
   Neuroscience.:
   - ariellebl
   Neurosciences:
@@ -614,19 +753,25 @@ possible-mentors-with-expertise:
   Open Science:
   - alexandra-holinski
   - fpsom
+  Open community development:
+  - katesimpson
   Open data:
   - anelda
   - estherplomp
+  - graciellehigino
+  - lwinfree
   Open protocols:
   - estherplomp
   Open science:
   - anelda
   - annefou
   - jcolomb
+  - lwinfree
   Open science, reproducibility:
   - markuskonk
   Open source:
   - dimmestp
+  - lwinfree
   Open workflows:
   - ekaroune
   Osteology:
@@ -645,12 +790,18 @@ possible-mentors-with-expertise:
   - alexandra-holinski
   Product strategy:
   - meagdoh
+  Project communications:
+  - lwinfree
+  Project management:
+  - lwinfree
   Protein Biochemistry:
   - alexandra-holinski
   Publishing:
   - iratxepuebla
   Publishing web content:
   - bebatut
+  Python:
+  - jessicas11
   Python/js web apps:
   - abretaud
   Qualitative research:
@@ -661,9 +812,12 @@ possible-mentors-with-expertise:
   - dimmestp
   R Programming:
   - harpreetsingh05
+  Remote sensing:
+  - jessicas11
   Reproducibility:
   - dimmestp
   - ekaroune
+  - graciellehigino
   - unode
   Reproducible reports:
   - jcolomb
@@ -672,6 +826,7 @@ possible-mentors-with-expertise:
   Research data management:
   - estherplomp
   - jcolomb
+  - karvovskaya
   Research integrity:
   - iratxepuebla
   Research methods:
@@ -683,12 +838,15 @@ possible-mentors-with-expertise:
   SciComm:
   - bruno-soares
   Science communication:
+  - graciellehigino
   - iratxepuebla
   - pivg
   Science reproducibility:
   - mxrtinez
   Scientific Education and Training:
   - alexandra-holinski
+  Semantics:
+  - karvovskaya
   Social science:
   - bduckles
   Standards:
@@ -712,7 +870,13 @@ possible-mentors-with-expertise:
   - tnabtaf
   Transcriptomics:
   - dimmestp
+  Typology:
+  - karvovskaya
   User research:
   - meagdoh
   Wordpress:
   - bebatut
+  Working with a distributed team:
+  - lwinfree
+  Writing documentation:
+  - lwinfree

@@ -863,11 +863,32 @@ cl379:
   twitter: cl379
   website: https://www.icrea.cat/Web/ScientificStaff/carla-lancelotti-353040
 coopersmout:
+  affiliation: Institute For Globally Distributed Open Research And Education
+  bio: I studied psychology in my undergraduate degree (University of Queensland,
+    Australia) and cognitive neuroscience in my postgraduate degree (Queensland Brain
+    Institute, Australia). Throughout my PhD, I became increasingly disillusioned
+    at the state of academia -- particularly the scholarly publishing system -- and
+    decided I would rather devote my career to reforming academia than pursuing my
+    research interests (which include consciousness, meditation, attention, and prediction).
+    To this end, I joined IGDORE and founded Project Free Our Knowledge, a conditional
+    pledge platform that seeks to increase the adoption of open and reproducible research
+    practices through collective action.
+  city: Brisbane
   country: Australia
+  expertise:
+  - Cognitive neuroscience
+  - Psychology
+  - Metascience
+  - Peer review
+  - Open access
+  - Collective action
+  - Community building
   first-name: Cooper
   last-name: Smout
-  pronouns: he/him
+  orcid: 0000-0003-1144-3272
+  pronouns: He/him
   twitter: coopsmout
+  website: https://coopersmout.com
 crangelsmith:
   country: UK
   first-name: Camila
@@ -913,6 +934,15 @@ dasaderi:
   pronouns: she/her
   twitter: Neurosarda
   website: https://v2.prereview.org
+david-selassie-opoku:
+  affiliation: Hellofresh
+  city: Berlin
+  country: Germany
+  expertise:
+  - Data literacy
+  - Resource-constrained environments
+  first-name: David Selassie
+  last-name: Opoku
 davidbeavan:
   affiliation: The Alan Turing Institute
   country: UK
@@ -928,25 +958,18 @@ davidviryachen:
   twitter: davidchenn
 delphine-l:
   affiliation: Penn State University
-  bio: Delphine am a post-doc at Penn State University and a member of Galaxy Project.
-    She works on developing analysis workflows for bacterial genomics, mostly, but
-    she also has project in other fields, like functional annotation of SARS-2 Cov
-    virus, human methylation  analyses...
-  country: USA
+  bio: I am an Assistant Professor at Penn State University and I  have been   part
+    of the Galaxy team for 5 years. I work on genomics and epigenetic and develop
+    workflows and tutorials.
+  city: Raleigh
+  country: United States
   expertise:
-  - Organization of open-source/collaborative projects
-  - Github
-  - Zenodo
-  - Publishing tools in Galaxy
-  - Writing documentation
-  - Construction of analysis workflow
-  - Handling data format
-  - Quality control
-  - Genomics analyses
-  - Statistical analyses
+  - Genomics
+  - Epigenetics
+  - Galaxy
   first-name: Delphine
   last-name: Lariviere
-  pronouns: she/her
+  pronouns: She/her
   twitter: ddlariviere
   website: https://observablehq.com/@delphine-l
 demellina:
@@ -1141,7 +1164,6 @@ emma-lawrence:
   expertise:
   - Biobanking
   first-name: Emma
-  github: false
   last-name: Lawrence
   orcid: 0000-0001-9018-6010
   pronouns: She/hers
@@ -1322,19 +1344,26 @@ ghammad:
   last-name: Hammad
   orcid: 0000-0003-1083-3869
 graciellehigino:
-  affiliation: null
-  bio: All about theoretical ecology, the open movement and science communication!
-    Co-leads the open SciComm training IGNITE.
-  country: Brazil
+  affiliation: University Of British Columbia
+  bio: Theoretical & Quantitative Ecology freak. SciComm & Open Science leader. Catalyst
+    of movements.
+  city: Vancouver
+  country: Canada
   expertise:
-  - Project management
-  - Outreach and communication
-  - Creativity
-  - Research
-  - Version control
+  - Reproducibility
+  - Open data
+  - Data management
+  - Collaboration
+  - Data synthesis
+  - Science communication
+  - Ecology
+  - Biodiversity
   first-name: Gracielle
   last-name: Higino
-  pronouns: she/her
+  orcid: http://orcid.org/0000-0003-2791-8383
+  pronouns: She/her
+  twitter: graciellehigino
+  website: https://graciellehigino.github.io/
 ha0ye:
   affiliation: University Of Florida
   bio: Hao is the Reproducibility Librarian at the University of Florida Health Science
@@ -1675,6 +1704,32 @@ jessica-sims:
   pronouns: She/her
   twitter: jmaisi
   website: https://www.biobankinguk.org
+jessicas11:
+  affiliation: University Of New Hampshire
+  bio: I'm the lead maintainer, developer, and community manager for a Python library
+    called icepyx (for obtaining and working with data from NASA's ICESat-2 satellite).
+    I am also a glaciologist focusing on glacier-ocean interactions (especially icebergs)
+    and human adaptation to climate change. The highly computational nature of my
+    work and dedication to social justice naturally led me to practicing open science,
+    and I enjoy being part of the open science community and sharing knowledge, fostering
+    skill development, and creating shared software to advance my field.
+  city: Durham
+  country: United States
+  expertise:
+  - Python
+  - Github
+  - Glaciology
+  - Remote sensing
+  - Icebergs
+  - Climate change
+  - Icesat-2
+  - Icepyx
+  - Hackweeks
+  first-name: Jessica
+  last-name: Scheick
+  orcid: 0000-0002-3421-4459
+  pronouns: she/her
+  twitter: jessicascheick
 jezcope:
   affiliation: The British Library
   bio: Jez is Data Services Lead in The British Library’s Research Infrastructure
@@ -1704,16 +1759,19 @@ jezcope:
   twitter: jezcope
   website: https://erambler.co.uk/
 jmmaok:
-  bio: Jennifer Miller has a M.S. in Technical Communication and a PhD in Public Policy.
-    She has 10+ years post-secondary teaching experience in public policy and public
-    management and has published research on university research centers and on the
-    scientific workforce. She is currently engaged with a portfolio of projects advancing
-    open knowledge in the areas of open data, open education, and open science.
+  bio: A project lead in Cohort 3, Jennifer Miller has a M.S. in Technical Communication
+    and a PhD in Public Policy. She has 10+ years post-secondary teaching experience
+    in public policy and public management and has published research on university
+    research centers and on the scientific workforce. She is currently engaged with
+    a portfolio of projects advancing open knowledge in the areas of open data, open
+    education, and open science.
   city: Cary, Nc
   country: USA
   expertise:
-  - Empirical legal research
-  - Open science
+  - Logic models for program planning and evaluation
+  - 'Teaching open science: an open syllabus from open education for a better world
+    (oe4bw)'
+  - 'Creating and using open educational resources: the 5rs'
   first-name: Jennifer
   last-name: Miller
   orcid: 0000-0001-5459-6733
@@ -1845,6 +1903,24 @@ juan-josé-garcía-granero:
   last-name: García-Granero
   orcid: 0000-0002-7546-2176
   pronouns: He/him/his
+k8hertweck:
+  affiliation: Chan Zuckerberg Initiative
+  bio: 'Kate Hertweck is a scientist and educator who endeavors to uphold core values
+    like: diversity/equity/inclusion, accessibility of information, and learning over
+    knowing. Their career as a scientist began in evolutionary genomics of plants,
+    but is now focused on supporting biomedical researchers implementing reproducible
+    computational methods and other approaches in open science.'
+  city: Seattle, Wa
+  country: Usa
+  expertise:
+  - Open science, reproducible computational methods, training, community building,
+    cancer biology, genomics, evolutionary biology
+  first-name: Kate
+  last-name: Hertweck
+  orcid: 0000-0002-4026-4612
+  pronouns: perceived pronouns (anything works)
+  twitter: k8hert
+  website: https://www.katehertweck.com
 karegapauline:
   country: Kenya
   first-name: Pauline
@@ -1887,40 +1963,41 @@ karinlag:
   twitter: karinlag
 karvovskaya:
   affiliation: Vu Amsterdam
-  bio: I am a linguist turned into a research data management specialist and community
-    manager at the VU Amsterdam library. I am interested in languages and would love
-    to support community-oriented projects in this area. I am also keen on getting
-    in touch with people from Russia and supporting projects for Russian audience.
+  bio: I am interested in linguistics, especially in semantic fieldwork and language
+    documentation. After completing my PhD at Leiden University I started working
+    at university libraries in the area of Research Data Management. My experience
+    with research and language archives is a great help and inspiration
   city: Amsterdam
-  country: The Netherlands
+  country: Netherlands
   expertise:
-  - Theoretical linguistics
-  - Fieldwork
+  - Linguistics
+  - Language documentation
+  - Typology
+  - Semantics
   - Research data management
   first-name: Lena
   last-name: Karvovskaya
   orcid: 0000-0001-7777-5603
-  pronouns: she/her
+  pronouns: she, her
   twitter: LangData
 katesimpson:
-  affiliation: Imperial College London/ Visiting Alan Turing Institute
-  bio: I am a research associate focused on reducing the energy demand of existing
-    housing. I am passionate about making research, tools, code and data open access,
-    where ethical. As a recent graduate of OLS-2, I continue to learn in this space.
-  city: London
-  country: UK
+  affiliation: Imperial College London/ The Alan Turing Institute
+  bio: I am an early career researcher focused on building energy use with a passion
+    for learning about open community and open science practices that I can apply
+    to my work. I am motivated to share academic knowledge with those who can benefit
+    from it. I would love to see an open data community of practice including households,
+    building practitioners and researchers.
+  city: London/ Great Union Canal/ Leeds
+  country: United Kingdom
   expertise:
-  - Open scholarship
-  - Community development
-  - User-centered design, buildings, energy, environment quality
-  - Data-driven evaluation of building performance
-  - Engineering-based modelling
-  - Mixed-method research
-  - Social networks
+  - Open community development
+  - Basic open science principles
+  - Basic github skills
+  - Energy, carbon and enironmental data for buildings
   first-name: Kate
   last-name: Simpson
   orcid: 0000-0002-9105-8181
-  pronouns: She/Her
+  pronouns: She/her
   twitter: Dr_KateSimpson
   website: https://www.turing.ac.uk/people/researchers/kate-simpson
 katoss:
@@ -2298,7 +2375,8 @@ lwinfree:
     Foundation. Lilly has her PhD in neuroscience from Oregon Health and Science University,
     where she researched brain injury in fruit flies and became an advocate for open
     science and open data.
-  country: USA
+  city: Austin
+  country: United States
   expertise:
   - Project management
   - Open source
@@ -2309,9 +2387,7 @@ lwinfree:
   - Giving presentations
   - Writing documentation
   - Working with a distributed team
-  - Working with oceanographers, neuroscientists, geneticists, bioinformaticians,
-    ecologists to name a few
-  - Cellular neuroscience
+  - Neuroscience
   first-name: Lilly
   last-name: Winfree
   orcid: 0000-0001-7120-8536
