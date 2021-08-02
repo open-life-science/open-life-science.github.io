@@ -98,6 +98,8 @@ All applications are welcome, whether the project is just an idea at this stage 
 - state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
 - create an inclusive space and welcome contributions from their community members
 
+*You don't have a project but want to join OLS-4? Please check our [dedicated issue]({{ site.github.repository_url }}/issues/297) and contact us at [{{ site.email }}](mailto:{{ site.email }}).*
+
 ## Does OLS only accept life science projects?
 
 Modern science and scientific communities stand in the interface of computation and other research fields. Life science is one of them.
