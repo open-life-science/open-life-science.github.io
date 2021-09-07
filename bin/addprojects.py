@@ -38,7 +38,9 @@ if __name__ == '__main__':
     logging.basicConfig(filename=args.log, level=logging.DEBUG)
 
     # add people to people.yaml
-    added_people = extractpeople.extract_people(args.information)
+    info_fp = Path(args.information)
+    info_df = pd.read_csv(info_fp)
+    added_people = extractpeople.extract_people(info_df)
 
     people_fp = Path('_data') / Path('people.yaml')
     # load people.yaml file into a dictionary
@@ -77,6 +79,8 @@ if __name__ == '__main__':
         p['participants'] = get_person_ids(row['Authors'], reorder_people)
         # extract mentors
         p['mentors'] = get_person_ids(row['Mentor 1'], reorder_people)
+        if row['Mentor 2'] != '':
+            p['mentors'] += get_person_ids(row['Mentor 2'], reorder_people)
         if len(p['mentors']) == 0:
             logging.warning('No mentor')
         # 
@@ -88,14 +92,12 @@ if __name__ == '__main__':
     # check if everybody are correctly added to projects from participant file
     logging.info('Check project participants')
     # 1. get projects and people from participant registration
-    information_fp = Path(args.information)
-    df = pd.read_csv(information_fp)
-    df = df.where(pd.notnull(df), None)
+    df = info_df.where(pd.notnull(info_df), None)
     projects_people = {}
     for index, row in df.iterrows():
-        projects_people.setdefault(row['OLS-3 Project title'], [])
+        projects_people.setdefault(row['OLS-%s Project title' % args.cohort ], [])
         name = "%s %s" % (row['First name'].rstrip(), row['Last name'].rstrip())
-        projects_people[row['OLS-3 Project title']].append(name.title())
+        projects_people[row['OLS-%s Project title' % args.cohort]].append(name.title())
     # 2. check each project
     for pr in projects_people:
         logging.warning("%s" % pr)
