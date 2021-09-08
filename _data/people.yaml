@@ -4578,13 +4578,18 @@ wykhuh:
   last-name: Kwan
   orcid: 0000-0001-6113-0210
 yochannah:
-  bio: Yo is a [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/yo-yehudi),
-    founder of [Code is Science](http://www.codeisscience.com/manifesto), [EngD student
-    at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html)
-    studying the effects of community and usabilty on open source software, editor
-    for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
-    board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
-    and a software developer at the University of Cambridge, working on an open source
+  bio: Yo is Open Source Technology Lead at the Wellcome Trust's Data for Science and 
+    Health team, a [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/yo-yehudi),
+    co-founder of [Open Life Science](https://openlifesci.org/) and 
+    [Code is Science](http://www.codeisscience.com/manifesto), 
+    [EngD student at the University of 
+    Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html) 
+    studying pathogen-related data sharing and sustainability of open source 
+    software. Previously, they were editor for the [PLOS Open Source 
+    Toolkit](https://channels.plos.org/open-source-toolkit), editor emeritus at the 
+    [Journal of Open Source Software](https://joss.theoj.org/), board member of the
+    [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a 
+    software developer at the University of Cambridge, working on an open source
     biological data warehouse called [InterMine](http://intermine.org/).
   country: UK
   expertise:
