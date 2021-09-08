@@ -1,4 +1,617 @@
-# List of projects for OLS-4
+# List of projects for OLS-3
 #
 # Check previous OLS for examples
 ---
+- description: "This project aims to create an **open educational resource** that\
+    \ introduces important concepts for aspiring Bioinformaticians, **written in Spanish**.\
+    \ Topics included in this resource are:\n\n* The basics of GNU/Linux\n* Jupyter\
+    \ Lab\n* Terminal usage\n* Text and file processing command-line tools (i.e. grep,\
+    \ sed), regex, and pipes\n* Text and file processing Bioinformatics exercises\n\
+    * Make to install software \n* SAM Tools: useful pipelines and software for Bioinformatics\n\
+    * AWK: A programming language for text file processing \n* Bash: Shell and programming\
+    \ language\n* Git and GitHub for version control \n\nAs part of a boot camp organized\
+    \ by [RSG Ecuador](http://https://rsg-ecuador.iscbsc.org) and [iGEM Ecuador](https://www.facebook.com/iGEMECUADOR),\
+    \ we generated the first version of this resource, available as an [e-book](https://rsg-ecuador.github.io/unix.bioinfo.rsgecuador/)\
+    \ powered by [Jupyter Book](https://jupyterbook.org) and GitHub. However, this\
+    \ resource has not been launched yet because we have doubts about open licenses,\
+    \ permissions to use external images, and other topics that it would be nice to\
+    \ learn at the *OLS-4*."
+  keywords: []
+  mentors:
+  - mxrtinez
+  - jcolomb
+  name: An open educational resource to introduce fundamental concepts of GNU/Linux,
+    terminal usage, Bash/AWK scripting, and Git/GitHub for Bioinformatics
+  participants:
+  - sayalaruano
+- description: "I want to develop [Genestorian](https://www.genestorian.org/), a web\
+    \ application to manage collections of model organism strains and recombinant\
+    \ DNA, which will store the genetic engineering steps followed to generate new\
+    \ entities from existing ones. The project would consist on developing:\n\n1.\
+    \ A standard file format to document genetic engineering steps\n2. A web application\
+    \ to generate this documentation in the browser or programmatically\n3. A web\
+    \ application with a database to store such information\n\nNone of the above software\
+    \ pieces, which are all essential for open reproducible science, exists as Open\
+    \ Source, and proprietary solutions do not cover the use-case of model organism\
+    \ research.\n\nEssentially, Genestorian will be a web application that researchers\
+    \ use routinely to consult the \"genealogy\" of existing biological resources,\
+    \ plan the generation of new resources, and attach experimental data supporting\
+    \ their successful generation.\n\nThe cornerstone of this project is the mentioned\
+    \ file format. It will be similar to a data structure for a family tree: it will\
+    \ store a list of entities, and a list of objects describing their relation. Something\
+    \ like this:\n\n```\n{\n    \"entities\": [{id:1, ...},{id:2, ...},{id:3, ...}],\n\
+    \    \"steps\": [\n        {\n        \"inputs_ids\": [1,2],\n        \"output_id\"\
+    : 3,\n        \"method\": {...},\n        \"proofs\": [{...},{...}]\n        },\n\
+    \        {...}\n    ]\n}\n```"
+  keywords: []
+  mentors:
+  - dimmestp
+  name: 'Genestorian: An Open Source web application for model organism collections.'
+  participants:
+  - manulera
+- description: Recent developments in electron microscopy have led to a significant
+    scale-up in the imaging of biological tissues, making throughput a major bottleneck
+    for further progress. Electron microscopes are inherently throughput limited.
+    A new type of scanning electron microscopy, the multibeam electron microscopy,
+    speeds up imaging by scanning the sample with an array of beams instead of a single
+    beam. Furthermore, this microscope makes use of a new detection system based on
+    transmitted electrons and scintillation photons, which provides comparable information
+    to conventional detection methods. To make use of the full potential of this microscope,
+    new methods for data management, data analysis and visualization have to be designed.
+    For example, we would like to employ deep learning methods for automatic segmentation.
+    We would like to apply the multibeam electron microscope to study mitotic cells,
+    zebrafish development and pancreatic stress.
+  keywords: []
+  mentors:
+  - estherplomp
+  name: Multibeam electron microscopy for imaging large tissue volumes
+  participants:
+  - arentkievits
+- description: We propose to build a database that compiles literature data for the
+    Stöber synthesis of sílica nanoparticles. This data is aimed to generate a database
+    for other studies, such as statistical and machine learning models to guide the
+    design and synthesis of calibrated and monodispersed silica nanoparticles by the
+    Stöber method. The data should follow the FAIR principles to make it findable,
+    accessible, interoperable, and reusable, making it public and available for any
+    person that is interested in the study of this synthesis. We also aim at building
+    a community of contributors of new synthesis data to enrich the dataset that will
+    allow better models for Stöber synthesis to be studied. Our long-term vision is
+    that the nanosynthesis research community opens and shares its data as this will
+    advance the nanosynthesis field in a more sustainable way globally.
+  keywords: []
+  mentors:
+  - graciellehigino
+  name: Open data for nanosystem synthesis experimental conditions
+  participants:
+  - guille1107
+  - diegoonna
+  - princehoodie
+- description: "[**Bio-IT**](bio-it.embl.de) project at the [European Molecular Biology\
+    \ Laboratory](embl.org) (EMBL) is a community initiative aiming at: \n\n- delivering\
+    \ **training** in computational research skills;\n- creating connections between\
+    \ **community** members;\n- developing and maintaining resources and supporting\
+    \ **infrastructure**;\n- disseminating relevant **information** throughout the\
+    \ community.\n\nIn order to strengthen the community interactions, Bio-IT launched\
+    \ the [**Grassroots** consulting initiative](bio-it.embl.de/grassroots-consulting/),\
+    \ listing volunteers among EMBL Staff interested in providing assistance on a\
+    \ wide range of computational topics. Building on this effort, I aim at expanding\
+    \ the crowdsourcing of Bio-IT’s activities and supporting the **community of practice\
+    \ at EMBL**. In line with Open Science objectives, a culture of sharing (of skills,\
+    \ resources, data and ideas) within the institute will also foster the same culture\
+    \ beyond it. Within OLS program, I will elaborate a **Grassroots project strategic\
+    \ plan** by:  \n\n- identifying actionable information on the current interaction\
+    \ with the community;\n- performing a SWOT analysis of community building strategies\
+    \ at EMBL, in particular:\n- analysing EMBL-specific challenges and developing\
+    \ strategies to address them;\n- defining the project goals, milestones and deliverables\
+    \ and stating them publicly.\n\nThe objectives of the project are:\n- strengthening\
+    \ peer-consulting and internal **communication**,\n- acknowledging Bio-IT **contributors**\
+    \ and give them visibility,\n- renewing the **community interest** in Bio-IT and\
+    \ computational best practices."
+  keywords: []
+  mentors:
+  - emmyft
+  - tnabtaf
+  name: 'Grassroots: Nurturing the EMBL Bio-IT Community'
+  participants:
+  - lisanna
+- description: "Balconnect is a social and environmental intervention with the long-term\
+    \ goal of using open-source, emerging data-driven technologies and open science\
+    \ tools to motivate and enable urbanites to bring active daily experiences of\
+    \ real nature into their lives, as well as to provide them with tools not only\
+    \ to improve their direct, individual natural environment, but to conserve local\
+    \ biodiversity and ecosystem services as well. \n\nBalconnect aims at building\
+    \ knowledge-based people-plant interactions using open, community-focused practices\
+    \ and augmented collaborative learning, while mapping and building a structured\
+    \ network of metropolitan outdoor ornamental plants raised on window sills, balconies,\
+    \ terraces and backyards.\nAs the open database is being built, participants could\
+    \ gradually:\n- Document and visualize their personal eco-legacy by learning and\
+    \ sharing nature with their communities (through data, experiences, plants, cultural\
+    \ products).\n- Increase demand for locally cultivated and native plants.\n- Consciously\
+    \ create biodiverse green patches in private outdoor areas.\n- Collect valuable\
+    \ data and conduct open research for science.\n- Make cities more liveable, reducing\
+    \ urban green inequalities.\n- Influence local government decisions on city planning,\
+    \ green infrastructure and nature-based solutions."
+  keywords: []
+  mentors:
+  - ekaroune
+  name: Balconnect - A network of private outdoor areas improving urban ecoliteracy
+    and biodiversity
+  participants:
+  - gedaloop
+- description: "In my project, I want to interview several colleagues/peers who were\
+    \ hired or recently started working as generic data stewards at Dutch universities,\
+    \ and, to some extent, Dutch Universities of Applied Sciences – I am one of them.\
+    \ I will rework these interviews into blog posts and analyse what I learnt from\
+    \ these interviews. The interviews will focus on the following elements:\n1.\t\
+    What is their background, how did they enter this job?\n2.\tWhat is expected from\
+    \ them in this role?\n3.\tWhat is their role/position within the landscape of\
+    \ RDM and Open Science support at their institution?\n4.\tWhat skills and competencies\
+    \ do they already have?\n5.\tWhat skills and competencies would they like or need\
+    \ to acquire?\n6.\tWhat does a possible career path look like for them?\n\nI will\
+    \ analyse these interviews to make suggestions about necessary training for new\
+    \ generic data stewards, why (and how) they are necessary for the institution,\
+    \ and their possible career paths. We have a blog about the RDM Community at the\
+    \ VU, which is meant to showcase the RDM Community. This is a possible location\
+    \ for my blogs and other progress made in the project."
+  keywords: []
+  mentors:
+  - cemonks
+  - alexandra-holinski
+  name: 'Generic data stewards in the Netherlands: who they are, what they do, and
+    who they could become'
+  participants:
+  - elisa-rodenburg
+- description: "My project aims to tackle the big gap between the new trend of RNA\
+    \ sequencing analysis and massive expansion of datasets, and the difficulties\
+    \ for wet lab scientists to use this data and even review it when being published.\
+    \ I would also like to create awareness in my community about the necessity on\
+    \ implementing open science and reproducibility tools.\nI would like to: \n1st,\
+    \ publish a tutorial from basics level to help people understand the technology\
+    \ and the data analysis behind RNA sequencing. Implement open science tools for\
+    \ this, and introduce every scientist to its existence and need. \n2nd, create\
+    \ a reproducible analysis pipeline, based on my existent one, but incorporating\
+    \ reproducibility basics such as version control and workflows, so researchers\
+    \ can see how the tutorial would work from an existent example."
+  keywords: []
+  mentors:
+  - hrhotz
+  name: Open and reproducible data analysis for wet lab neuroscientists
+  participants:
+  - saravilla
+- description: We plan to create a "Research Software Engineering Association in Asia
+    region -- RSE Association (Asia) ". The motive of this association would be to
+    emphasize the importance of good software practices to be adopted by researchers
+    in the Asian academia. Software and programming plays an important part of most
+    of the research in these times. Yet, academia has not fully adopted good modern
+    software practices and principles. We also plan to create an awareness of the
+    Research Software Engineering (RSE) role in Asian academia so that people who
+    have an expertise in software as well as research find a firm footing in academia.
+    The plan in this project is to first build a community of interested people. We
+    would also like to build the technical set-up required for this project like a
+    GitHub repository for easy collaboration; a website which would describe the aims
+    of this association, and would include information on further events of this association;
+    a mailing list which people can use to join this association easily, a Twitter
+    account, and a slack channel in the global RSE slack. This project is highly inspired
+    from the [Society of Research Software Engineering](https://society-rse.org/)
+    in the UK.  Saranjeet Kaur Bhogal is the primary applicant of this project, and
+    the one who initiated the project, and came up with the idea. Batool Almarzouq
+    will not be actively enrolling in the project, but she will be helping on the
+    side
+  keywords: []
+  mentors:
+  - annefou
+  name: Building the Research Software Engineering (RSE) Association in Asia region
+  participants:
+  - saranjeetkaur
+- description: "Operating from a place of data for co-liberation, we have three complementary\
+    \ goals: conduct a landscape analysis of open source synthetic data projects,\
+    \ ask critical questions about the embedded assumptions and ethical considerations\
+    \ in generating synthetic data, and recommend appropriate approaches to synthetic\
+    \ generation for multiple case studies. \n\nWe see an urgent need for this work\
+    \ - while methodologies have become more common in the financial policy realm,\
+    \ most applied data researchers outside of large financial or tech companies do\
+    \ not have access to - nor an understanding of - the state of the art approaches,\
+    \ how to evaluate appropriateness of generation for their use cases, and how to\
+    \ evaluate synthetic data fitness for use. \n\nWe are expressly sector-agnostic,\
+    \ bringing expertise from health, environment, and education backgrounds to this\
+    \ problem - all sectors with a need for privacy-protecting solutions. Building\
+    \ on sector-agnostic frameworks such as Datasheets for Datasets, and the very\
+    \ recent CDEI-UK PETs Adoption Guide we aim to deliver a similarly sector-agnostic\
+    \ framework for synthetic data generation. With our interdisciplinary background,\
+    \ we will approach the development of such a framework in a way that acknowledges\
+    \ the political nature of data production and openly consider questions of bias,\
+    \ fairness, and ethical AI."
+  keywords: []
+  mentors:
+  - fpsom
+  name: Encouraging Responsible AI Through An Open Framework for Synthetic Data Generation
+    and Assessment
+  participants:
+  - ecsalomon
+  - augustincaitlin
+- description: 'Our initiative is called “Talleres Open Source” (Open Source Workshops
+    in Spanish), a community of scientists teaching and learning about open source
+    tools in Spanish. We organize workshops in which a trainer with experience in
+    a certain method shows others how to apply it using open source tools, and attendees
+    give it a try with short exercises. For example, “Data visualization using Python”,
+    or “Digital Fabrication with FreeCAD”. We have hosted two cycles of 4 workshops
+    spanning 1 month, with both software and hardware tools, as well as two stand-alone
+    events about design heuristics with a local fablab.
+
+
+    The goal of this project is to find common problems within Latin American scientific
+    communities and hold workshops and training courses to tackle these problems.
+    Each of these workshops serve as a way to connect people facing the same problem,
+    introduce them to open source tools and concepts, and enable sharing resources.
+    We hope attendees finish each workshop with a concrete first impression about
+    the method and hands-on experience with the tool to reduce the barrier to adoption.'
+  keywords: []
+  mentors:
+  - yochannah
+  name: Talleres Open Source community platform
+  participants:
+  - chucklesongithub
+- description: There is a considerable gap in cases of sub-Saharan African countries
+    regarding assessment of embodied energy of building materials and operational
+    energy of various building types. Lack of open data remains a critical barrier
+    to closing this gap. Creating an open and accessible database of embodied energy
+    of building materials, and operational energy of building typologies will be key
+    in establishing the carbon footprint of buildings in Ghana. The development of
+    an online platform will also allow interested groups, individuals and cooperation’s
+    to submit key information needed for the computation of energy outputs in buildings.
+    The aim of the project is to set up the infrastructure to launch an open database
+    for carbon foot printing of buildings in Ghana, following best practice in open
+    science principles.
+  keywords: []
+  mentors:
+  - yvanlebras
+  - katesimpson
+  name: Creating an open database for carbon foot printing of buildings in Ghana
+  participants:
+  - michael-addy
+- description: "Portable land is an urban DIY Agriculture project which aims to create\
+    \ a distributed farm. Currently we have four dedicated sites based in the West\
+    \ Midlands - a washyard which has been converted into a growing space, a community\
+    \ grow room, a patio for urban farming and an indoor DIY aquaponics setup. We\
+    \ are also part of a larger community of urban farmers and DIY horticulturalists\
+    \ in the West Midlands, sharing knowledge and supporting collective organising\
+    \ of growers and urban naturalists. \n\nThe primary goal of the project is to\
+    \ create a distributed network of growers and land guardians, but in order to\
+    \ achieve this, we need to develop consistent protocols for understanding environmental\
+    \ quality and biodiversity across our sites as well as shared repositories of\
+    \ data and reports."
+  keywords: []
+  mentors:
+  - lwinfree
+  name: Environmental mapping for urban farming project
+  participants:
+  - biscuitnapper
+- description: "We want to establish a Citizen Science Soil Collection program in\
+    \ Saudi Arabia. This project aims to adapt the Citizen Science approach in Saudi\
+    \ Arabia to bring together researchers with citizens. Our lab focus is the use\
+    \ of metagenomics of Natural Products (NPs) and it's based on King Abdullah International\
+    \ Medical Research Center (KAIMRC). Metagenomics of NPs is an innovative approach\
+    \ that utilizes next-generation sequencing to study microorganisms via the analysis\
+    \ of their DNA acquired directly from an environmental sample. The screening of\
+    \ natural product extracts has traditionally been the most effective method for\
+    \ identifying new compounds with unique cellular targets which are potentially\
+    \ useful as lead structures for the development of new therapeutics. \n\nHowever,\
+    \ there is hardly any known project which utilises Citizen Science in Saudi Arabia.\
+    \  Therefore, we are collaborating with Open Science community Saudi Arabia (OSASA)\
+    \ to adapt this approach in our current project. This project will engage citizen\
+    \ scientists in collecting and examining soil samples from various regions in\
+    \ Saudi Arabia and bring awareness about the role of Citizen Science in research.\
+    \ The main applicant and the group leader is Mai Alajaji who applied to OLS4 whereas\
+    \ Batool Almarzouq is a post-doc in Mai's lab, who will be supporting the project\
+    \ but not enrolling in OLS4."
+  keywords: []
+  mentors:
+  - bebatut
+  name: Culture-independent discovery of natural products from soil metagenomes
+  participants:
+  - mai-alajaji
+  - batoolmm
+- description: 'I aim to develop a Python library which allows to call and apply several
+    measures of emergence and complexity to either empirical or simulated data, and
+    provide guidance for comparisons among and conclusions about different measures.
+    &nbsp;
+
+
+    Measures of complexity operationalize the idea that a system of interconnected
+    parts is both segregated (i.e., parts act independently), and integrated (i.e.,
+    parts show unified behaviour). Emergence, on the other hand, is a phenomenon in
+    which a property occurs only in a collection of elements, but not in the individual
+    elements themselves. Both emergence and complexity are promising concepts in the
+    study of the brain (with a close relationship between the two). &nbsp;
+
+
+    Quantifications thereof can take on very different flavours, and there is no one-size-fits-all
+    way to do it. While a plethora of complexity measures have been investigated quite
+    substantially in the last couple of decades,  quantifying emergence is completely
+    new territory. A few measures exist (see, e. g., https://arxiv.org/pdf/2106.06511.pdf,
+    or https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008289),
+    but they are not readily implementable - they are scattered over different github
+    repositories (or people, if repositories are not existent), programming languages
+    (including Matlab which is not open source). &nbsp;
+
+
+    A way to easily use & compare a set of state of the art emergence and complexity
+    measures by using a few lines of code is thus missing – this is the gap that I’d  like
+    to fill.'
+  keywords: []
+  mentors:
+  - pescini
+  - abretaud
+  name: Developing a library in Python for applying measures of emergence and complexity
+  participants:
+  - nadinespy
+- description: "We propose a **living**, **free** and **open** document, named The\
+    \ Environmental AI book, compiling research in the application of AI and Data\
+    \ Science for monitoring and modelling a wide diversity of settings of the natural\
+    \ and urban environments.\n\nThrough a set of **interactive use-cases**, the document,\
+    \ powered by Jupyter Book (https://jupyterbook.org), aims to inform and guide\
+    \ the scientific community about information extraction and analysis from environmental\
+    \ sensors (including ground sensors, drones, and satellite Earth observations)\
+    \ using data-driven methods.\n\nIn addition to the book, our goal is to **build\
+    \ a community** dedicated to making collaborative, reusable, and transparent research\
+    \ in environmental science. In this regard, inspired by the Turing Way (h https://the-turing-way.netlify.app),\
+    \ we are hosting online \nCollaboration Cafes to engage anyone interested in learning\
+    \ and discussing relevant themes in AI and data science to help understand our\
+    \ changing planet.\n\nWhile the scientific community is broad, we think the target\
+    \ audience of this book is:\n- Researchers with some background in **environmental\
+    \ science** interested in data-driven methods.\n- Researchers with some background\
+    \ in **computer science** interested in environmental studies.\n- Anyone else\
+    \ interested in **reproducibility**, **inclusive**, **shareable** and **collaborative**\
+    \ AI and data science for environmental applications."
+  keywords: []
+  mentors:
+  - delphine-l
+  name: The Environmental AI Book
+  participants:
+  - acocac
+- description: Bioinformatics Secondary School Outreach (BSSO) is an initiative to  develop
+    bioinformatics capacity among  High school students in Nigeria and this will  create
+    early interest in genomics data analysis among the students and equip them with
+    the relevant skills and knowledge in Bioinformatics.  Bioinformatics Hub Nigeria
+    will be training these students on how to use Bioinformatics tools and pipelines
+    and this can be achieved by  establishing Bioinformatics research clubs in the
+    visited schools to facilitate the trainings. We would be working alongside with
+    other sister organizations to achieve this goal
+  keywords: []
+  mentors:
+  - meagdoh
+  name: Bioinformatics Secondary school Outreach in Nigeria
+  participants:
+  - emmanuel19-ada
+- description: I want to develop a project that gives iNaturalist citizen scientists
+    the chance to move from data collectors to data explorers. I want to use my programming
+    skills and outreach experience to create an online tool  where users can browse
+    through  iNaturalist and environmental data. By creating online data exploration
+    tools,  I want  users to form their own questions and look for answer to their
+    questions.
+  keywords: []
+  mentors:
+  - bruno-soares
+  name: Citizen Scientists as Data Explorers
+  participants:
+  - wykhuh
+- description: 'Established in 2018, EROS (education researchers for open science)
+    is an open research working group at the University of York. We monitor and communicate
+    ongoing developments within the open research landscape, provide guidance and
+    training on adopting open practices, and influence incentive structures to recognise
+    commitment to open research practices.
+
+
+    The aim of the *EROS Stories* project is to deepen EROS as a community of practice
+    by providing a mechanism for junior and senior researchers to engage in dialogue
+    about their experiences with particular open research practices, and to showcase
+    the resulting conversations as publicly available case studies.
+
+
+    Concretely, *EROS Stories* will pair researchers, at least one of whom must be
+    an ECR, and at least one of whom must have experience with a particular research
+    practice. The less experienced partner (who may be senior) commits to reading
+    at least one primer on a particular open research practice, and then leads a conversation
+    with their partner, asking about their experiences, motivations, and insights
+    and top tips for working with the practice. 
+
+
+    The project will help the EROS community build a shared repertoire of experiences,
+    stories, tools and ways of addressing common challenges in doing open, inclusive
+    research.'
+  keywords: []
+  mentors:
+  - karvovskaya
+  - estherplomp
+  name: 'EROS Stories: Conversation and case studies in open research across educational
+    disciplines'
+  participants:
+  - cbolibaugh
+  - gill-francis
+- description: The project focuses on building tools to understand the evolution of
+    life. We develop bioinformatic tools to determine evolutionary processes to detect
+    early stage life development. The project looks at data from two specific parts
+    of detecting life - co-evolution of life and environment and biosignature assessment
+    within the context of habitability. We use data from current experimental projects
+    and develop new models  to aid the growth of astrobiology search for life. The
+    platform will cater to multiple sections such as- data management from all astrobiology
+    projects, experiments, research labs and conferences; new tools to analyse data,
+    predictive model section to simulations from the data set and collaborative forum
+    to encourage citizen science.The platform will help create open source bioinformatic
+    tools to help detect biosignature, assess habitability, promote involvement within
+    astrobiology.
+  keywords: []
+  mentors:
+  - harpreetsingh05
+  name: FarawayFermi- A platform for open source bioinformatic tools to detect biosignatures
+    in astrobiology
+  participants:
+  - thatspacegirl
+- description: In academia today there is a certain pressure for young research to
+    publish, and given the time constraints and continuous deadlines, the aspects
+    of reproducibility and replicability are often overlooked. The Turing Way is a
+    great starting point and a guide for people that want get familiar with what needs
+    to be done to make their results, data, hypothesis, etc available to the research
+    community and the public. However, currently it is orientated towards issues encountered
+    mostly in Data Science, and while many of the resources are extendable towards
+    other fields, I consider that it could benefit from specific chapters focused
+    on different research areas. The aim of this project is to create such a chapter
+    by understanding the exact barriers for young researchers when considering reproducible
+    research in Decision Sciences. The guide would be instead of a collection of resources
+    that can be simply used at the end to make “your research more reproducible”,
+    a way of thinking in a way and contain resources that help you consider reproducibility
+    towards the entire research.
+  keywords: []
+  mentors:
+  - jessicas11
+  name: A guide towards reproducible research for Decision Sciences researchers
+  participants:
+  - andreea-avramescu
+- description: Although my research areas are mostly related to wet-lab, with the
+    developed technologies, I am aware that computational and data analysis approaches
+    in research promise great opportunities. Therefore, I am proposing the Open Life
+    Science Survey analysis project to participate in the Open Life Science (OLS)
+    community and make a contribution to the program. In this project, I will be working
+    on already collected survey data from their 3 cohorts. In my opinion, in this
+    era, barriers to open research are not technical but rather socio-cultural. Therefore,
+    by analyzing OLS participant’s survey data, we could gain insight into the demography
+    and socio-culture of the participants. In this way, both OLS team will get a chance
+    to enhance their program for the future and I will learn how to perform data analysis,
+    deal with the survey data and gain some programming skills as well. I believe
+    this opportunity will help me develop my academic skills and give me different
+    perspectives in open research, which are different from but beneficial for my
+    current research.
+  keywords: []
+  mentors:
+  - bduckles
+  name: Building Open Science and Data Analysis Skills by Leading the OLS Survey Data
+    Project
+  participants:
+  - burce-elbasan
+- description: Binderhub is a service that allows users to share reproducible interactive
+    computing environments through public code repositories. The subject of our project,
+    Hub23, is an organisational deployment of Binderhub, designed to allow Turing
+    Researchers to use binder (the user interface) to collaborate on repositories
+    internal to Turing. This is sometimes necessary if the underlying repository can
+    not be shared for some reason, or is not yet ready to publish openly. During the
+    OLS program, we aim to build an open community around Hub23 to help to guide future
+    technical developments, and encourage use and contributions from the wider Turing
+    community. We will host a series of [Zero-to-Binder workshops](http://bit.ly/zero-to-binder-python)
+    aimed at introducing Turing researchers to regular binder, followed by structured
+    discussion of what the ideal features of a collaborative reproducible environment
+    for research would be. Any conclusions and subsequent technical development will
+    be fed upstream to Binderhub, and we also aim to open source the methodologies
+    used to create an internal binderhub deployment, allowing other organisations
+    to do so.
+  keywords: []
+  mentors:
+  - unode
+  name: 'Hub23: An open source community and infrastructure for Turing’s BinderHub'
+  participants:
+  - lydia-france
+  - lukehare
+  - callummole
+- description: The project is about the conception, organization, and coordination
+    of an online event with a focus on identifying the key driving factors for a scientific
+    career as a woman in data sciences. During the event, we will try to get to the
+    bottom of the large gender gap in the data science field and present efforts to
+    get women into this field, further driving progress towards gender equality. The
+    aim of such an event is to show how diverse and attractive the job of a data scientist
+    can be including open and fair data principles. My colleagues and I already organized
+    such an event in July 2021. The number of participants, and therefore, the response
+    and demand were so great that we decided to held the meeting again in autumn 2021
+    with a slightly different thematic focus.
+  keywords: []
+  mentors:
+  - iratxepuebla
+  name: Online event ”Women in Data Science – Perspectives in Industry and Academia”
+    Part II
+  participants:
+  - irena-maus
+- description: "The international and open RIVER UNIVERSITY started in Poland with\
+    \ its pilot in 2018 and the 1st edition in 2020.\nIts professional river education\
+    \ has the ambition to change the reality by creating a strong center/network of\
+    \ modern knowledge, linking experts and giving the opportunity to participants\
+    \ to learn about the peculiarities of different rivers in the Baltic region and\
+    \ in Europe.\nWe provide tools to use in practice, exchange information and experience\
+    \ about inland waters and its impact on the Baltic Sea, to spark joint initiatives\
+    \ for the sake of rivers’ good condition.\nRiverine topics always reflect source-to-sea\
+    \ approach and relation to current trends, challenges, legislation regarding freshwaters,\
+    \ and free-flowing rivers: restore nature law, UN restoration decade, Biodiversity\
+    \ strategy 2030, European Green Deal, national recovery plans, etc.\nIn 2018,\
+    \ the River University mostly served for the purpose of gathering river experts\
+    \ from several transboundary basins of Poland (Odra, Vistula/Western Bug, Neman)\
+    \ with their counterparts from Belarus and Ukraine to discuss i.a. issues related\
+    \ to inland navigation and large infrastructure projects on straightening river\
+    \ flows in these countries. 1st edition of River University in 2020 provided general\
+    \ solid knowledge about healthy rivers, their benefits and threats, presented\
+    \ one of the most stunning rivers in Poland – Drawa river and highlighted current\
+    \ riverine challenges impacting the society. All these looking towards European\
+    \ community goals, as usual.\n\nDuring the 2nd edition in 2021, we swim into Lithuania’s\
+    \ waters, to dive deep – finally live! – into water challenges in the next country\
+    \ in the Baltic region. We will get to know best practices of good water management,\
+    \ experience with transboundary river cooperation, also innovations and developments\
+    \ within sewerage system management. We can already read about flood risk management\
+    \ and about river barriers to remove or mitigate in the Baltic Sea Region (https://ccb.se/wp-content/uploads/2021/04/ccb_flood-risk-management-in-the-baltic-sea-region_2021.pdf,\
+    \ https://ccb.se/wp-content/uploads/2021/04/ccb_report_dam_removal_april_2021.pdf).\
+    \ This time we ask – how are the Lithuanian rivers?\nBeing a visitor of the largest\
+    \ protected area in Lithuania, crossing rivers outdoor, stepping into practical\
+    \ lectures in the national park, we will also ask about how to limit riverine\
+    \ pollution from tourism and how the connectivity of amazing Lithuanian rivers\
+    \ is ensured.\nChecking the European background: how the situation of rivers in\
+    \ Europe looks like in general? A freshly given analysis CCB participated in (https://ccb.se/2021/06/most-of-europes-river-basins-will-still-be-unhealthy-by-2027),\
+    \ points out that, only Finland, amongst EU countries, is on a good track to reach\
+    \ Water Framework Directive (WFD) goals and legally binding EU target to return\
+    \ Europe’s dirty freshwaters to health by 2027. However there is still time to\
+    \ improve other river basin management plans during the consultations. \nNow is\
+    \ the time for other countries to make the final sprint for the rest of the European\
+    \ rivers! Always is the time to learn about them, their challenges related communities\
+    \ face, efficient ways to take care of them. That is our purpose also this time\
+    \ while being in Lithuania.\n\nRelevant links:\n- pilotage 2018: http://www.ratujmyrzeki.pl/193-rzeczny-uniwersytet\n\
+    - 1st edition in Poland 2020, online due to global pandemic: https://ccb.se/?event=river-university\n\
+    - 2nd edition ahead, in Lithuania: https://ccb.se/?event=15161&event_date=2021-08-11\n\
+    - continuation is planned: circulating around the Baltic Sea and hosting River\
+    \ University in the next Baltic region countries. Later in time, I may widen it\
+    \ to Europe, not only the Baltic region.\n\nRiver University has been granted\
+    \ patronage from European Parliament and I seek and encourage water-related institution\
+    \ patronage at every edition. It engages top-level lecturers and universities\
+    \ and practitioners, e.g.: the University of Lausanne, Warsaw University of Life\n\
+    Sciences, Leibniz Institute of Freshwater Ecology and Inland Fisheries."
+  keywords: []
+  mentors:
+  - ealescak
+  name: open and international River University
+  participants:
+  - ewa-leś
+- description: 'In _The Turing Way,_ we want to systematically understand community
+    practices including the community engagement pathways, contributors'' roles and
+    nature of their participation that have been successful at supporting its community
+    of diverse contributors. Simultaneously, we want to identify factors that may
+    currently prohibit short or long term commitments of our contributors and how
+    they can be further supported.
+
+
+    With my participation in OLS-3, I will develop a community health report of the
+    project, capturing community development aspects from growth to retention. I will
+    build upon the Open Source community health metric ([https://wiki.mozilla.org/Contribute/Community\_Health](https://wiki.mozilla.org/Contribute/Community_Health)),
+    which involves evaluating contributors'' group that is actively involved in a
+    project, number of new contributors that join the project, and members who leave.
+    For online projects, it can also involve tracking the number of community ambassadors,
+    the number of return attendees to events and the rate of churned attendees. Developing
+    an ideal metric in this project will require further deliberation and consultation
+    from The Turing Way team and core contributors. Hence, this project will be collaboratively
+    designed with other community members by actively inviting their contributions
+    and thoughts.
+
+
+    I had submitted this project in the third cohort of OLS, but due to the pandemic
+    and resulting circumstances in my personal life, I had to discontinue my participation.
+    I would like to return to the programme and hope to finish the project I started
+    with Malvika Sharan.'
+  keywords: []
+  mentors:
+  - ariellebl
+  name: Learning about open science communities and help build "community health"
+    report for The Turing Way
+  participants:
+  - alihumayun
