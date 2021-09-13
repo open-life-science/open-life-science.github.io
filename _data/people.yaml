@@ -27,7 +27,7 @@
     mostly on integration of robotic systems and biological design tools. I enjoy
     dogs, beer, and fantasy novels.
   city: Boston
-  country: USA
+  country: United States
   expertise:
   - Robotics
   - Software
@@ -93,7 +93,7 @@ acocac:
     complex and large data tasks to tackle environmental changes using satellite imagery
     and geospatial data. Enjoy reading sci-fi books, cycling and coffee roasting.
   city: London
-  country: Uk
+  country: United Kingdom
   expertise:
   - Spatial data science
   - Satellite imagery
@@ -139,7 +139,7 @@ agbeltran:
     tools for data science and innovative scholarly communication with the aim of
     enabling Findable, Accessible, Interoperable and Reusable (FAIR) data, research
     reproducibility and aggregation of research results.
-  country: UK
+  country: United Kingdom
   expertise:
   - Software Engineering
   - Data Management
@@ -158,7 +158,7 @@ aida-turing:
     between research teams and external stakeholders, the impact of the overall Programme
     can be significantly improved.
   city: London
-  country: UK
+  country: United Kingdom
   expertise:
   - Creating user-friendly outputs from the research process
   - Data science
@@ -208,7 +208,7 @@ alexandra-holinski:
     to and advocate the principles of Open Science. I am not a bioinformatician myself,
     but a chemist / biochemist by education, with several years of experience in scientific
     research; mainly in the wet lab.
-  country: UK
+  country: United Kingdom
   expertise:
   - Scientific Education and Training
   - Course development
@@ -227,7 +227,7 @@ alexandra-holinski:
   pronouns: She/her
 alexwlchan:
   affiliation: Wellcome Collection
-  country: UK
+  country: United Kingdom
   first-name: Alex
   last-name: Chan
   pronouns: they/she
@@ -250,7 +250,7 @@ alihumayun:
     diploma in law and hope to pursue a career at the intersection of law and technology.
     I am also very keen to learn more about the open science community!
   city: London
-  country: England, United Kingdom
+  country: United Kingdom
   expertise:
   - Editing
   - Legal
@@ -332,7 +332,7 @@ anenadic:
     in computational and data analysis skills forward and helping develop new training
     curricula.
   city: Manchester
-  country: UK
+  country: United Kingdom
   expertise:
   - Open and reproducible research best practices
   - Training and teaching tech to researchers
@@ -351,7 +351,7 @@ anita-broellochs:
     Anita has a passion for open science and is also the host of a science podcast
     called 'Minor Tweak, Major Impact' which is aiming to shine a spotlight on method
     development.
-  country: USA
+  country: United States
   expertise:
   - Open method sharing
   - Best practices for writing protocols
@@ -375,7 +375,7 @@ anjali-mazumder:
     methods in algorithms in justice. She is also an Assistant Research Professor
     in the Department of Statistics & Data Science and faculty affiliate in the Block
     Centre for Technology and Society at Carnegie Mellon University.
-  country: UK
+  country: United Kingdom
   expertise:
   - Data Science
   - Ethics
@@ -401,7 +401,7 @@ annakrystalli:
     use of the real workhorses of research, code and data, and in spreading the word
     about the joys of R.
   city: Sheffield
-  country: UK
+  country: United Kingdom
   expertise:
   - R
   - Reproducible research
@@ -422,7 +422,7 @@ annalee-sekulic:
     what a gift it is to connect with people from another way of life; Open Life Sciences
     makes that possible.
   city: Columbus
-  country: USA
+  country: United States
   expertise:
   - Arabian Botanicals
   - Public Databases
@@ -574,8 +574,8 @@ augustincaitlin:
     organizations. A lifelong volunteer, she's engaged with Central Florida's nonprofit
     community and the organizer of the Orlando Lady Developers Meetup. Caitlin holds
     a BSIE and a PhD from the University of Miami.
-  city: 'City Of Residence: Orlando'
-  country: 'Country Of Residence: Usa'
+  city: Orlando
+  country: United States
   expertise:
   - Working on synthetic data
   - Project management
@@ -597,7 +597,7 @@ babasaraki:
   last-name: Ahmad
   twitter: babasaraki
 bailey-harrington:
-  country: USA
+  country: United States
   first-name: Bailey
   github: false
   last-name: Harrington
@@ -717,7 +717,7 @@ bebatut:
   website: https://research.bebatut.fr
 benkrikler:
   affiliation: University of Bristol
-  country: UK
+  country: United Kingdom
   first-name: Benjamin
   last-name: Krikler
   twitter: benkrikler
@@ -760,7 +760,7 @@ bhuvanameenakshik:
   website: https://www.linkedin.com/in/bhuvana-meenakshi-koteeswaran-a67b58103/
 billbrod:
   affiliation: New York University
-  country: USA
+  country: United States
   first-name: Billy
   last-name: (William) Broderick
   pronouns: he/him
@@ -870,7 +870,7 @@ callummole:
   bio: Callum is a Research Data Scientist at the Alan Turing Institute. A cognitive
     scientist by training, he is interested in promoting practices that support reproducible
     and open science.
-  country: Uk
+  country: United Kingdom
   expertise:
   - Open infrastructure
   - Reproducible science
@@ -912,7 +912,7 @@ cassgvp:
     in the UK. She is very proud to support her colleagues in the transition towards
     working open, and doing so with the principles of open leadership at the forefront
     of her work.
-  country: UK
+  country: United Kingdom
   expertise:
   - Online conferences
   - Behaviour change
@@ -962,8 +962,7 @@ cbolibaugh:
   orcid: '  0000-0001-7500-264X'
   pronouns: she/her
   twitter: CBolibaugh
-  website: https://osf.io/qwurf/  ;  https://www.york.ac.uk/education/research/eros/   (new
-    webpages on the way)
+  website: https://www.york.ac.uk/education/research/eros/
 cemonks:
   affiliation: University Of Western Australia
   bio: Carly is a Senior Technician at the University of Western Australia, responsible
@@ -989,7 +988,7 @@ chiara-damiani:
   website: https://sites.google.com/view/chiaradamiani/
 chiarabertipaglia:
   affiliation: Columbia University | Zuckerman Institute
-  country: USA
+  country: United States
   expertise:
   - Neuroscience
   first-name: Chiara
@@ -1081,7 +1080,7 @@ coopersmout:
   twitter: coopsmout
   website: https://coopersmout.com
 crangelsmith:
-  country: UK
+  country: United Kingdom
   first-name: Camila
   last-name: Rangel Smith
   pronouns: she/her
@@ -1090,7 +1089,7 @@ da5nsy:
   affiliation: Nih
   bio: I'm a color vision researcher and open science advocate.
   city: Washington Dc
-  country: USA
+  country: United States
   expertise:
   - Registered reports
   - Peer review
@@ -1113,7 +1112,7 @@ dasaderi:
   bio: Daniela is a Neuroscientist with a passion for open, equitable, and transparent
     scholarship. She is a former Mozilla Fellow, and she now leads a project called
     PREreview to empower researchers to engage with each other and review preprints.
-  country: USA
+  country: United States
   expertise:
   - Open scholarship
   - Community organizing
@@ -1136,7 +1135,7 @@ david-selassie-opoku:
   last-name: Opoku
 davidbeavan:
   affiliation: The Alan Turing Institute
-  country: UK
+  country: United Kingdom
   first-name: David
   last-name: Beavan
   twitter: DavidBeavan
@@ -1169,7 +1168,7 @@ demellina:
     a strong advocate of Open Research and engages with the research community to
     raise awareness of the F1000Research publishing platforms.
   city: London
-  country: UK
+  country: United Kingdom
   expertise:
   - Open science
   - Open research
@@ -1232,7 +1231,7 @@ dimmestp:
   twitter: youvegotmyname
 dlebauer:
   affiliation: University of Arizona
-  country: USA
+  country: United States
   first-name: David
   last-name: LeBauer
   pronouns: he/him
@@ -1283,7 +1282,7 @@ ealescak:
     evolution, and management of Alaskan fish populations as well as a strong background
     in mentoring and leadership in science advocacy initiatives.
   city: Anchorage
-  country: USA
+  country: United States
   expertise:
   - Community building
   - Communication
@@ -1305,7 +1304,7 @@ ecsalomon:
     the use of data in the social good space by helping organizations achieve greater
     data maturity and build scalable, actionable insights from their data.
   city: Chicago, Il
-  country: Usa
+  country: United States
   expertise:
   - Data science
   - Psychology
@@ -1323,7 +1322,7 @@ ekaroune:
     science skills. I'm also working as a Community Manager at the Alan Turing Institute
     on the DECOVID project and I am an contributor to The Turing Way.
   city: Portsmouth
-  country: UK
+  country: United Kingdom
   expertise:
   - Environmental Archaeology
   - Palaeoecology
@@ -1366,7 +1365,7 @@ elisa-rodenburg:
   pronouns: she/her
 elsasci:
   affiliation: eLife
-  country: UK
+  country: United Kingdom
   first-name: Elsa
   github: false
   last-name: Loissel
@@ -1407,7 +1406,7 @@ emma-lawrence:
     role is to engage with researchers and Biobankers to improve efficiency in the
     sector.
   city: London
-  country: UK
+  country: United Kingdom
   expertise:
   - Biobanking
   first-name: Emma
@@ -1562,7 +1561,7 @@ ewallace:
   website: https://ewallace.github.io/
 ewuramaminka:
   affiliation: University of Manchester
-  country: UK
+  country: United Kingdom
   first-name: Deborah
   last-name: Akuoko
   pronouns: she/her
@@ -1577,7 +1576,7 @@ fabienne-lucas:
     this starts with establishing a correct diagnosis - backed up by science and fair
     and transparent peer-review that holds everyone to the same standards.
   city: Boston
-  country: USA
+  country: United States
   first-name: Fabienne
   github: false
   last-name: Lucas
@@ -1618,7 +1617,7 @@ fpsom:
   website: https://fpsom.github.io/
 ganleyemma:
   affiliation: protocols.io
-  country: UK
+  country: United Kingdom
   first-name: Emma
   last-name: Ganley
   twitter: GanleyEmma
@@ -1666,7 +1665,7 @@ gedankenstuecke:
   twitter: gedankenstuecke
   website: https://tzovar.as
 georgiahca:
-  country: UK
+  country: United Kingdom
   first-name: Georgia
   last-name: Aitkenhead
   pronouns: she/her
@@ -1743,7 +1742,7 @@ ha0ye:
     in open science and reproducible research practices or promoting equity and inclusion
     by dismantling gatekeeping in academia.
   city: Gainesville
-  country: Usa
+  country: United States
   expertise:
   - Ecology
   - Health sciences
@@ -1982,7 +1981,7 @@ isahmadbbr:
   website: https://hausanlp.github.io/author/ibrahim-said-ahmad/
 ismael-kg:
   affiliation: The Alan Turing Institute
-  country: UK
+  country: United Kingdom
   first-name: Ismael
   last-name: Kherroubi Garcia
   pronouns: he/his
@@ -2010,7 +2009,7 @@ ivotron:
 jasonjwilliamsny:
   bio: Jason is a life scientist who spends most of his time working to help researchers
     adopt computational practices in research and education
-  country: USA
+  country: United States
   expertise:
   - Education and training
   - Life Science Education
@@ -2084,7 +2083,7 @@ jessica-sims:
     in using creative activities and techniques, such as the use of performance and
     games,  to engage both professionals and the public in research work.
   city: London
-  country: UK
+  country: United Kingdom
   expertise:
   - Biobanking
   - Human samples for research
@@ -2135,7 +2134,7 @@ jezcope:
     the skills to make the most of this. He is a Fellow of the Software Sustainability
     Institute, 2020 intake.
   city: North Yorkshire
-  country: UK
+  country: United Kingdom
   expertise:
   - Libraries
   - Data management
@@ -2158,7 +2157,7 @@ jmmaok:
     a portfolio of projects advancing open knowledge in the areas of open data, open
     education, and open science.
   city: Cary, Nc
-  country: USA
+  country: United States
   expertise:
   - Logic models for program planning and evaluation
   - 'Teaching open science: an open syllabus from open education for a better world
@@ -2226,7 +2225,7 @@ john-ogunsola:
   bio: John is a budding scientist, open to continuously learning, and passionate
     about improving the health of man and animals.
   city: Glasgow
-  country: UK
+  country: United Kingdom
   expertise:
   - Biological sciences
   - Trypanosomiasis
@@ -2243,7 +2242,7 @@ jonny-heath:
     to them in a novel way, as a tool for new insights. I am a graduate of philosophy
     specialising in scientific representation.
   city: Brighton
-  country: UK
+  country: United Kingdom
   expertise:
   - Poetry
   - Philosophy of scientific representation
@@ -2253,7 +2252,7 @@ jonny-heath:
   pronouns: He/him
   website: https://instagram.com/jonnywriteswords/
 joshsimmons:
-  country: USA
+  country: United States
   first-name: Josh
   last-name: Simmons
   twitter: joshsimmons
@@ -2316,7 +2315,7 @@ k8hertweck:
     but is now focused on supporting biomedical researchers implementing reproducible
     computational methods and other approaches in open science.'
   city: Seattle, Wa
-  country: Usa
+  country: United States
   expertise:
   - Open science, reproducible computational methods, training, community building,
     cancer biology, genomics, evolutionary biology
@@ -2346,7 +2345,7 @@ kariljordan:
     around assessment that inform The Carpentries curriculum and other initiatives.
 
     '
-  country: USA
+  country: United States
   expertise:
   - Equity and Inclusion
   - Assessment
@@ -2373,7 +2372,7 @@ karvovskaya:
     at university libraries in the area of Research Data Management. My experience
     with research and language archives is a great help and inspiration
   city: Amsterdam
-  country: Netherlands
+  country: The Netherlands
   expertise:
   - Linguistics
   - Language documentation
@@ -2444,7 +2443,7 @@ katrinleinweber:
   pronouns: she/her
 kevinxufs:
   affiliation: Civil Service
-  country: UK
+  country: United Kingdom
   first-name: Kevin
   last-name: Xu
   twitter: kevinzhangxu
@@ -2502,7 +2501,7 @@ kirstiejane:
     Institute''s Ethics Advisory Group, a Fulbright scholarship alumna and was a 2016/17
     Mozilla Fellow for Science. Kirstie was named, with her collaborator Petra Vertes,
     as a 2016 Global Thinker by Foreign Policy magazine.
-  country: UK
+  country: United Kingdom
   expertise:
   - Open research
   - Reproducibility
@@ -2525,7 +2524,7 @@ klauer2207:
     initiatives to support Cambridge researchers in their pursuit of business and
     entrepreneurial ventures through the Entrepreneurial Postdocs of Cambridge University.
     Prior to her current role Kathi worked as a researcher in vaccines & virology.
-  country: UK
+  country: United Kingdom
   expertise:
   - Stakeholder engagement
   - Entrepreneurship
@@ -2574,7 +2573,7 @@ koudyk:
   twitter: koudyk_
 kristinariemer:
   affiliation: University of Arizona
-  country: USA
+  country: United States
   first-name: Kristina
   last-name: Riemer
   pronouns: she/her
@@ -2585,7 +2584,7 @@ kstackwhitney:
     NY, USA. She conducts research in part on ableism and inaccessibility as barriers
     to open science and open research - as well as ethical issues in open data.
   city: Rochester, Ny
-  country: Usa
+  country: United States
   expertise:
   - Accessibility
   - Ableism
@@ -2604,7 +2603,7 @@ kswhitney:
     of teaching and research. However, she's also a critical advocate for ensuring
     that "open" initiatives and products do not exclude disabled leaders and participants.
   city: Rochester
-  country: USA
+  country: United States
   expertise:
   - Accessibility
   - Road ecology
@@ -2641,7 +2640,7 @@ lauracarter:
     almost a decade as a researcher at Amnesty International, focusing on gender,
     women''s rights, and LGBTI rights. She believes in research as a means to an end:
     to building a better world for everyone.'
-  country: UK
+  country: United Kingdom
   expertise:
   - Human rights
   - Data usage in the public sector
@@ -2797,7 +2796,7 @@ luispedro:
 lukehare:
   affiliation: The Alan Turing Institute
   city: London
-  country: Uk
+  country: United Kingdom
   first-name: Luke
   last-name: Hare
   orcid: 0000-0002-5178-5122
@@ -2864,7 +2863,7 @@ macelik:
   pronouns: He/Him
 magicmilly:
   affiliation: University of Arizona
-  country: USA
+  country: United States
   first-name: Emily
   last-name: Cain
   pronouns: she/her
@@ -2884,7 +2883,7 @@ malloryfreeberg:
     Project and the Human Cell Atlas, and is passionate about promoting metadata standards
     and best practices.
   city: Cambridge
-  country: UK
+  country: United Kingdom
   expertise:
   - Metadata
   - FAIR principles
@@ -2921,7 +2920,7 @@ malvikasharan:
     of [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a contributing
     member of [The Carpentries](https://carpentries.org/) community.'''
   city: London
-  country: UK
+  country: United Kingdom
   expertise:
   - Community building
   - Mentoring
@@ -2987,7 +2986,7 @@ markuskonk:
     the Open Science Community Twente, an inter-disciplinary, bottom-up community
     to promote, learn, share, and discuss Open Science practices.
   city: Enschede
-  country: Netherlands
+  country: The Netherlands
   expertise:
   - Open science, reproducibility
   first-name: Markus
@@ -3002,7 +3001,7 @@ marta-lloret-llinares:
     Marta focuses on providing a great learning experience for participants. She has
     a background in molecular biology, where her focus was on understanding gene expression.
   city: Cambridge
-  country: UK
+  country: United Kingdom
   expertise:
   - Course design
   - Online training
@@ -3259,7 +3258,7 @@ mihaelanemes:
     and ask pertinent research questions. Passionate about open science, community
     building and knowledge sharing.'
   city: London
-  country: UK
+  country: United Kingdom
   expertise:
   - Genomics
   - Neuroscience
@@ -3271,11 +3270,11 @@ mihaelanemes:
   pronouns: she/her
   twitter: mishkanemes
 mishrose123:
-  affiliation: Embl-Ebi
+  affiliation: EMBL-EBI
   bio: I am a social media professional with experience in creating content for scientific
     organisation social media accounts.
   city: Cambridge
-  country: UK
+  country: United Kingdom
   expertise:
   - Science communication using social media
   - Creating digital content
@@ -3307,7 +3306,7 @@ mloning:
   affiliation: University College London
   bio: Markus is a PhD student at UCL and he is one of the core developers of sktime,
     a toolbox for machine learning with time series.
-  country: UK
+  country: United Kingdom
   expertise:
   - Git, GitHub
   - Software development
@@ -3338,7 +3337,7 @@ mohan-gupta:
   twitter: Mohan Gupta
 morphofun:
   affiliation: The George Washington University
-  country: USA
+  country: United States
   first-name: Sandy
   last-name: Kawano
   pronouns: she/her
@@ -3472,7 +3471,7 @@ nomadscientist:
   bio: I teach bioinformatics using Galaxy, I teach martial arts, and I hate onions.
     No seriously, I hate them. With my very soul.
   city: Cambridge
-  country: UK
+  country: United Kingdom
   expertise:
   - Bioinformatics
   - Single cell transcriptomes
@@ -3528,7 +3527,7 @@ nsoranzo:
     He also collaborates on the open source development of the Galaxy platform and
     its tools. Nicola is a Carpentries Instructor and a Galaxy trainer. He is currently
     the Technical Coordinator for ELIXIR-UK.
-  country: UK
+  country: United Kingdom
   expertise:
   - Programming
   - Open Source
@@ -3635,7 +3634,7 @@ pherterich:
     worked as a data librarian at CERN''s Scientific Information Service working closely
     with software developers to deliver data and code sharing solutions. She loves
     collaborating openly and making projects welcoming to new comers.
-  country: UK
+  country: United Kingdom
   expertise:
   - Data management
   - Collaboration
@@ -3654,7 +3653,7 @@ pivg:
     and biomedical sciences, and I am passionate about science communication, equity
     and inclusion.
   city: Cambridge
-  country: UK
+  country: United Kingdom
   expertise:
   - Education
   - Training
@@ -3744,7 +3743,7 @@ proccaserra:
     Data FAIRification (via FAIRsharing.org) and IMI FAIRplus, for which I coordinate
     the development of the FAIR cookbook (https://fairplus.github.io/the-fair-cookbook)
   city: Oxford
-  country: UK
+  country: United Kingdom
   expertise:
   - Data Management
   - FAIR Data
@@ -3795,7 +3794,7 @@ rainsworth:
     Open Leaders, and organises a women in data meetup group in Manchester called
     HER+Data MCR.
   city: Manchester
-  country: UK
+  country: United Kingdom
   expertise:
   - Astrophysics
   - Open Science/Research
@@ -3871,7 +3870,7 @@ rossmounce:
   bio: A biodiversity scientist who wants to liberate research from the constraints
     imposed by paywalls & PDFs. Also a Lubuntu user and Software Sustainability Fellow
     (2016 Inauguration).
-  country: UK
+  country: United Kingdom
   expertise:
   - Policy
   - Legal aspects of text and data mining
@@ -3894,7 +3893,7 @@ rs_khetani:
     data practices). Her doctoral training is in the wet lab, but she transitioned
     to dry lab work in 2009 and landed in an environment (thankfully) that was focused
     on open science and open data.
-  country: USA
+  country: United States
   expertise:
   - Training
   - Consulting in the genomics area
@@ -3939,7 +3938,7 @@ samvanstroud:
   bio: Sam is a PhD Student at the UCL Data Intensive Science CDT. Hi is an OLS-2
     graduate and works on the ATLAS experiment at CERN.
   city: London
-  country: UK
+  country: United Kingdom
   expertise:
   - Data Science
   - GitHub
@@ -4133,7 +4132,7 @@ sgibson91:
     best practices and reproducible workflows through her Fellowship with the Software
     Sustainability Institute.
   city: London
-  country: UK
+  country: United Kingdom
   expertise:
   - Reproducibility
   - Cloud infrastructure
@@ -4173,7 +4172,7 @@ shmuhammad2004:
   website: https://www.shmuhammad.com/
 sithyphus:
   affiliation: University of Arizona
-  country: USA
+  country: United States
   first-name: Jorge
   last-name: Barrios
   pronouns: he/him
@@ -4202,7 +4201,7 @@ smklusza:
   bio: Lifelong developmental geneticist with interest in synthetic biology and creating
     open domain tools for research
   city: Morrow
-  country: United States Of America
+  country: United States
   expertise:
   - Life sciences
   - Genetics
@@ -4219,7 +4218,8 @@ sofia-kirke-forslund:
     metabolic/inflammatory/cardiovascular diseases, drug-microbiome interactions,
     confounder analysis, gene family evolution. Queer, transgender woman and intersectional
     feminist.
-  country: Berlin
+  city: Berlin
+  country: Germany
   expertise:
   - Computational biology
   - Leadership
@@ -4248,7 +4248,7 @@ spitschan:
   bio: I'm a visual and circadian neuroscientist interested in how light affects our
     physiology and behaviour. I'm also passionate about improving science.
   city: Oxford
-  country: UK
+  country: United Kingdom
   expertise:
   - Human neuroscience
   first-name: Manuel
@@ -4361,7 +4361,7 @@ thessaly:
     the Latin America open science hardware network, and 1/3 of the mentorship program
     Open Hardware Makers.
   city: Bristol
-  country: Uk
+  country: United Kingdom
   expertise:
   - Open science hardware
   - Sti policy
@@ -4407,7 +4407,7 @@ tnabtaf:
     a community person in life sciences for 13 years. Before that he worked in biological
     databases for 7 years. His training is in Computer Science, with an emphasis on
     databases.
-  country: USA
+  country: United States
   expertise:
   - Community outreach
   - Training
@@ -4448,7 +4448,7 @@ tobyhodges:
 trallard:
   affiliation: Microsoft
   city: Manchester
-  country: UK
+  country: United Kingdom
   first-name: Tania
   last-name: Allard
   pronouns: she/her
@@ -4591,7 +4591,7 @@ yochannah:
     [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a 
     software developer at the University of Cambridge, working on an open source
     biological data warehouse called [InterMine](http://intermine.org/).
-  country: UK
+  country: United Kingdom
   expertise:
   - Software development
   - Community building
@@ -4619,7 +4619,7 @@ yvanlebras:
 zebetus:
   bio: A mentor for many previous waves of open leaders, who is currently studying
     for their PhD at UCL.
-  country: UK
+  country: United Kingdom
   expertise:
   - Community Organisation
   - Event organising
