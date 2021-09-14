@@ -1,4 +1,4 @@
-# List of projects for OLS-3
+# List of projects for OLS-4
 #
 # Check previous OLS for examples
 ---
@@ -16,7 +16,10 @@
     \ resource has not been launched yet because we have doubts about open licenses,\
     \ permissions to use external images, and other topics that it would be nice to\
     \ learn at the *OLS-4*."
-  keywords: []
+  keywords:
+  - version control
+  - training
+  - programming
   mentors:
   - mxrtinez
   - jcolomb
@@ -43,7 +46,10 @@
     \    \"steps\": [\n        {\n        \"inputs_ids\": [1,2],\n        \"output_id\"\
     : 3,\n        \"method\": {...},\n        \"proofs\": [{...},{...}]\n        },\n\
     \        {...}\n    ]\n}\n```"
-  keywords: []
+  keywords:
+  - web application
+  - genetic engineering
+  - reproducible research
   mentors:
   - dimmestp
   name: 'Genestorian: An Open Source web application for model organism collections.'
@@ -61,7 +67,9 @@
     For example, we would like to employ deep learning methods for automatic segmentation.
     We would like to apply the multibeam electron microscope to study mitotic cells,
     zebrafish development and pancreatic stress.
-  keywords: []
+  keywords:
+  - electoron microscope
+  - imaging
   mentors:
   - estherplomp
   name: Multibeam electron microscopy for imaging large tissue volumes
@@ -78,7 +86,10 @@
     allow better models for Stöber synthesis to be studied. Our long-term vision is
     that the nanosynthesis research community opens and shares its data as this will
     advance the nanosynthesis field in a more sustainable way globally.
-  keywords: []
+  keywords:
+  - database
+  - FAIR principles
+  - research community
   mentors:
   - graciellehigino
   name: Open data for nanosystem synthesis experimental conditions
@@ -107,7 +118,10 @@
     \ peer-consulting and internal **communication**,\n- acknowledging Bio-IT **contributors**\
     \ and give them visibility,\n- renewing the **community interest** in Bio-IT and\
     \ computational best practices."
-  keywords: []
+  keywords:
+  - training
+  - research community
+  - peer consulting
   mentors:
   - emmyft
   - tnabtaf
@@ -131,7 +145,11 @@
     \ data and conduct open research for science.\n- Make cities more liveable, reducing\
     \ urban green inequalities.\n- Influence local government decisions on city planning,\
     \ green infrastructure and nature-based solutions."
-  keywords: []
+  keywords:
+  - biodiversity
+  - research community
+  - green infrastructure
+  - policymaking
   mentors:
   - ekaroune
   name: Balconnect - A network of private outdoor areas improving urban ecoliteracy
@@ -153,7 +171,10 @@
     \ and their possible career paths. We have a blog about the RDM Community at the\
     \ VU, which is meant to showcase the RDM Community. This is a possible location\
     \ for my blogs and other progress made in the project."
-  keywords: []
+  keywords:
+  - data stewards
+  - research community
+  - interview
   mentors:
   - cemonks
   - alexandra-holinski
@@ -172,7 +193,10 @@
     \ a reproducible analysis pipeline, based on my existent one, but incorporating\
     \ reproducibility basics such as version control and workflows, so researchers\
     \ can see how the tutorial would work from an existent example."
-  keywords: []
+  keywords:
+  - training
+  - reproducibility
+  - sequencing
   mentors:
   - hrhotz
   name: Open and reproducible data analysis for wet lab neuroscientists
@@ -197,7 +221,10 @@
     the one who initiated the project, and came up with the idea. Batool Almarzouq
     will not be actively enrolling in the project, but she will be helping on the
     side
-  keywords: []
+  keywords:
+  - research community
+  - software engineering
+  - RSE
   mentors:
   - annefou
   name: Building the Research Software Engineering (RSE) Association in Asia region
@@ -221,7 +248,9 @@
     \ we will approach the development of such a framework in a way that acknowledges\
     \ the political nature of data production and openly consider questions of bias,\
     \ fairness, and ethical AI."
-  keywords: []
+  keywords:
+  - synthetic data
+  - Ethical AI
   mentors:
   - fpsom
   name: Encouraging Responsible AI Through An Open Framework for Synthetic Data Generation
@@ -245,7 +274,10 @@
     introduce them to open source tools and concepts, and enable sharing resources.
     We hope attendees finish each workshop with a concrete first impression about
     the method and hands-on experience with the tool to reduce the barrier to adoption.'
-  keywords: []
+  keywords:
+  - training
+  - data visualisation
+  - research community
   mentors:
   - yochannah
   name: Talleres Open Source community platform
@@ -262,7 +294,10 @@
     The aim of the project is to set up the infrastructure to launch an open database
     for carbon foot printing of buildings in Ghana, following best practice in open
     science principles.
-  keywords: []
+  keywords:
+  - energy
+  - database
+  - carbon footprinting
   mentors:
   - yvanlebras
   - katesimpson
@@ -280,7 +315,10 @@
     \ achieve this, we need to develop consistent protocols for understanding environmental\
     \ quality and biodiversity across our sites as well as shared repositories of\
     \ data and reports."
-  keywords: []
+  keywords:
+  - agriculture
+  - DIY
+  - biodiversity
   mentors:
   - lwinfree
   name: Environmental mapping for urban farming project
@@ -304,7 +342,12 @@
     \ The main applicant and the group leader is Mai Alajaji who applied to OLS4 whereas\
     \ Batool Almarzouq is a post-doc in Mai's lab, who will be supporting the project\
     \ but not enrolling in OLS4."
-  keywords: []
+  keywords:
+  - citizen science
+  - therapeutics
+  - soil sample
+  - sequencing
+  - metagenomics
   mentors:
   - bebatut
   name: Culture-independent discovery of natural products from soil metagenomes
@@ -338,7 +381,10 @@
     A way to easily use & compare a set of state of the art emergence and complexity
     measures by using a few lines of code is thus missing – this is the gap that I’d  like
     to fill.'
-  keywords: []
+  keywords:
+  - complexity measures
+  - programming
+  - Python library
   mentors:
   - pescini
   - abretaud
@@ -354,7 +400,7 @@
     \ sensors (including ground sensors, drones, and satellite Earth observations)\
     \ using data-driven methods.\n\nIn addition to the book, our goal is to **build\
     \ a community** dedicated to making collaborative, reusable, and transparent research\
-    \ in environmental science. In this regard, inspired by the Turing Way (h https://the-turing-way.netlify.app),\
+    \ in environmental science. In this regard, inspired by The Turing Way (h https://the-turing-way.netlify.app),\
     \ we are hosting online \nCollaboration Cafes to engage anyone interested in learning\
     \ and discussing relevant themes in AI and data science to help understand our\
     \ changing planet.\n\nWhile the scientific community is broad, we think the target\
@@ -363,7 +409,11 @@
     \ in **computer science** interested in environmental studies.\n- Anyone else\
     \ interested in **reproducibility**, **inclusive**, **shareable** and **collaborative**\
     \ AI and data science for environmental applications."
-  keywords: []
+  keywords:
+  - AI
+  - data science
+  - reproducibility
+  - research community
   mentors:
   - delphine-l
   name: The Environmental AI Book
@@ -377,7 +427,10 @@
     and this can be achieved by  establishing Bioinformatics research clubs in the
     visited schools to facilitate the trainings. We would be working alongside with
     other sister organizations to achieve this goal
-  keywords: []
+  keywords:
+  - outreach
+  - school
+  - training
   mentors:
   - meagdoh
   name: Bioinformatics Secondary school Outreach in Nigeria
@@ -389,7 +442,10 @@
     through  iNaturalist and environmental data. By creating online data exploration
     tools,  I want  users to form their own questions and look for answer to their
     questions.
-  keywords: []
+  keywords:
+  - citizen science
+  - environmental data
+  - outreach
   mentors:
   - bruno-soares
   name: Citizen Scientists as Data Explorers
@@ -419,7 +475,10 @@
     The project will help the EROS community build a shared repertoire of experiences,
     stories, tools and ways of addressing common challenges in doing open, inclusive
     research.'
-  keywords: []
+  keywords:
+  - research community
+  - case study
+  - training
   mentors:
   - karvovskaya
   - estherplomp
@@ -440,7 +499,10 @@
     to encourage citizen science.The platform will help create open source bioinformatic
     tools to help detect biosignature, assess habitability, promote involvement within
     astrobiology.
-  keywords: []
+  keywords:
+  - astrobiology
+  - environmental data
+  - citizen science
   mentors:
   - harpreetsingh05
   name: FarawayFermi- A platform for open source bioinformatic tools to detect biosignatures
@@ -461,7 +523,9 @@
     that can be simply used at the end to make “your research more reproducible”,
     a way of thinking in a way and contain resources that help you consider reproducibility
     towards the entire research.
-  keywords: []
+  keywords:
+  - reproducibility
+  - data science
   mentors:
   - jessicas11
   name: A guide towards reproducible research for Decision Sciences researchers
@@ -481,7 +545,10 @@
     this opportunity will help me develop my academic skills and give me different
     perspectives in open research, which are different from but beneficial for my
     current research.
-  keywords: []
+  keywords:
+  - survey
+  - data visulisation
+  - programming
   mentors:
   - bduckles
   name: Building Open Science and Data Analysis Skills by Leading the OLS Survey Data
@@ -503,7 +570,9 @@
     be fed upstream to Binderhub, and we also aim to open source the methodologies
     used to create an internal binderhub deployment, allowing other organisations
     to do so.
-  keywords: []
+  keywords:
+  - research community
+  - technical development
   mentors:
   - unode
   name: 'Hub23: An open source community and infrastructure for Turing’s BinderHub'
@@ -521,7 +590,10 @@
     such an event in July 2021. The number of participants, and therefore, the response
     and demand were so great that we decided to held the meeting again in autumn 2021
     with a slightly different thematic focus.
-  keywords: []
+  keywords:
+  - event
+  - data science
+  - gender equality
   mentors:
   - iratxepuebla
   name: Online event ”Women in Data Science – Perspectives in Industry and Academia”
@@ -559,25 +631,16 @@
     \ lectures in the national park, we will also ask about how to limit riverine\
     \ pollution from tourism and how the connectivity of amazing Lithuanian rivers\
     \ is ensured.\nChecking the European background: how the situation of rivers in\
-    \ Europe looks like in general? A freshly given analysis CCB participated in (https://ccb.se/2021/06/most-of-europes-river-basins-will-still-be-unhealthy-by-2027),\
-    \ points out that, only Finland, amongst EU countries, is on a good track to reach\
-    \ Water Framework Directive (WFD) goals and legally binding EU target to return\
-    \ Europe’s dirty freshwaters to health by 2027. However there is still time to\
-    \ improve other river basin management plans during the consultations. \nNow is\
-    \ the time for other countries to make the final sprint for the rest of the European\
-    \ rivers! Always is the time to learn about them, their challenges related communities\
-    \ face, efficient ways to take care of them. That is our purpose also this time\
-    \ while being in Lithuania.\n\nRelevant links:\n- pilotage 2018: http://www.ratujmyrzeki.pl/193-rzeczny-uniwersytet\n\
-    - 1st edition in Poland 2020, online due to global pandemic: https://ccb.se/?event=river-university\n\
-    - 2nd edition ahead, in Lithuania: https://ccb.se/?event=15161&event_date=2021-08-11\n\
-    - continuation is planned: circulating around the Baltic Sea and hosting River\
-    \ University in the next Baltic region countries. Later in time, I may widen it\
+    \ Europe looks like in general? Later in time, I may widen it\
     \ to Europe, not only the Baltic region.\n\nRiver University has been granted\
     \ patronage from European Parliament and I seek and encourage water-related institution\
     \ patronage at every edition. It engages top-level lecturers and universities\
     \ and practitioners, e.g.: the University of Lausanne, Warsaw University of Life\n\
     Sciences, Leibniz Institute of Freshwater Ecology and Inland Fisheries."
-  keywords: []
+  keywords:
+  - biodiversity
+  - river education
+  - environmental data
   mentors:
   - ealescak
   name: open and international River University
@@ -601,14 +664,11 @@
     an ideal metric in this project will require further deliberation and consultation
     from The Turing Way team and core contributors. Hence, this project will be collaboratively
     designed with other community members by actively inviting their contributions
-    and thoughts.
-
-
-    I had submitted this project in the third cohort of OLS, but due to the pandemic
-    and resulting circumstances in my personal life, I had to discontinue my participation.
-    I would like to return to the programme and hope to finish the project I started
-    with Malvika Sharan.'
-  keywords: []
+    and thoughts.'
+  keywords:
+  - research community
+  - community health metric
+  - reproducibility
   mentors:
   - ariellebl
   name: Learning about open science communities and help build "community health"
