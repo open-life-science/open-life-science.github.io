@@ -18,7 +18,7 @@
     \ learn at the *OLS-4*."
   keywords:
   - version control
-  - training
+  - training and education
   - programming
   mentors:
   - mxrtinez
@@ -68,8 +68,8 @@
     We would like to apply the multibeam electron microscope to study mitotic cells,
     zebrafish development and pancreatic stress.
   keywords:
-  - electoron microscope
-  - imaging
+  - electoron microscopy and imaging
+  - deep learning
   mentors:
   - estherplomp
   name: Multibeam electron microscopy for imaging large tissue volumes
@@ -119,7 +119,7 @@
     \ and give them visibility,\n- renewing the **community interest** in Bio-IT and\
     \ computational best practices."
   keywords:
-  - training
+  - training and education
   - research community
   - peer consulting
   mentors:
@@ -194,8 +194,8 @@
     \ reproducibility basics such as version control and workflows, so researchers\
     \ can see how the tutorial would work from an existent example."
   keywords:
-  - training
-  - reproducibility
+  - training and education
+  - reproducible research
   - sequencing
   mentors:
   - hrhotz
@@ -223,8 +223,7 @@
     side
   keywords:
   - research community
-  - software engineering
-  - RSE
+  - research software engineering
   mentors:
   - annefou
   name: Building the Research Software Engineering (RSE) Association in Asia region
@@ -275,7 +274,7 @@
     We hope attendees finish each workshop with a concrete first impression about
     the method and hands-on experience with the tool to reduce the barrier to adoption.'
   keywords:
-  - training
+  - training and education
   - data visualisation
   - research community
   mentors:
@@ -317,7 +316,7 @@
     \ data and reports."
   keywords:
   - agriculture
-  - DIY
+  - DIY and makerspace
   - biodiversity
   mentors:
   - lwinfree
@@ -410,9 +409,9 @@
     \ interested in **reproducibility**, **inclusive**, **shareable** and **collaborative**\
     \ AI and data science for environmental applications."
   keywords:
-  - AI
+  - artificial intelligence
   - data science
-  - reproducibility
+  - reproducible research
   - research community
   mentors:
   - delphine-l
@@ -429,8 +428,8 @@
     other sister organizations to achieve this goal
   keywords:
   - outreach
-  - school
-  - training
+  - secondary school outreach
+  - training and education
   mentors:
   - meagdoh
   name: Bioinformatics Secondary school Outreach in Nigeria
@@ -524,7 +523,7 @@
     a way of thinking in a way and contain resources that help you consider reproducibility
     towards the entire research.
   keywords:
-  - reproducibility
+  - reproducible research
   - data science
   mentors:
   - jessicas11
@@ -546,8 +545,8 @@
     perspectives in open research, which are different from but beneficial for my
     current research.
   keywords:
-  - survey
-  - data visulisation
+  - survey data
+  - data visualisation
   - programming
   mentors:
   - bduckles
@@ -591,7 +590,7 @@
     and demand were so great that we decided to held the meeting again in autumn 2021
     with a slightly different thematic focus.
   keywords:
-  - event
+  - scientific events
   - data science
   - gender equality
   mentors:
@@ -639,7 +638,8 @@
     Sciences, Leibniz Institute of Freshwater Ecology and Inland Fisheries."
   keywords:
   - biodiversity
-  - river education
+  - training and education
+  - river and freshwater ecology
   - environmental data
   mentors:
   - ealescak
@@ -668,7 +668,7 @@
   keywords:
   - research community
   - community health metric
-  - reproducibility
+  - reproducible research
   mentors:
   - ariellebl
   name: Learning about open science communities and help build "community health"
