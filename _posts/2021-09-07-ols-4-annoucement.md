@@ -120,4 +120,3 @@ Once again, let's welcome our mentors, mentees and experts to this program!
 {%- endfor %}
 
 We wish our cohort members all the best as they begin this journey with us.
-
