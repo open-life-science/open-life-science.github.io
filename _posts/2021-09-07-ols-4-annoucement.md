@@ -81,6 +81,7 @@ photos:
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-countries = all-p-countries | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign m-countries = all-m-countries | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign keywords = all-keywords | remove_first: ', ' | split: ", " | uniq | sort %}
 
 We are thrilled to announce that [{{ p-participants | size }} members](/{{ cohort }}/projects-participants/#participants), who are the project leads of [{{ projects | size }} diverse projects](/{{ cohort }}/projects-participants/#projects), have joined the fourth cohort of the Open Life Science mentoring program - OLS-4!
