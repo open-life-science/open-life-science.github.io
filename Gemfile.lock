@@ -232,8 +232,6 @@ GEM
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
-    nokogiri (1.12.5-x86_64-darwin)
-      racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
     octokit (4.21.0)
@@ -277,7 +275,6 @@ GEM
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
     yell (2.2.2)
-    zeitwerk (2.4.2)
 
 PLATFORMS
   x86_64-linux
