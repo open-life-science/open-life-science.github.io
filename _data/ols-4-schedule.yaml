@@ -69,15 +69,34 @@
     title: Welcome to Open Life Science!
     type: Cohort
     resources:
-    - link: https://docs.google.com/presentation/d/e/2PACX-1vT_e2ngwmyjwApVc1CC-dUpSHSArCPsZQjw4oo-0USZFn1lw4OtwPB6LsTSAStocYGIScfgrq5Esea7/pub?start=false&loop=false&delayms=3000
+    - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
       type: slides
       title: Welcome to OLS!
-    - link: https://docs.google.com/presentation/d/e/2PACX-1vR8j2NXWFyWKldK2OoTseN1t5YhLgeCG2OWNIjER5PKfnfGSdYQSjo8LeUCoYFyc3nZedBaNxc-aneH/pub?start=false&loop=false&delayms=3000
+      speaker: yochannah
+    - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
       type: slides
       title: Introducing Open Canvas
-    - link: https://docs.google.com/presentation/d/e/2PACX-1vRwCxOy-Xl240eB2j0xwuyA-1wPhQMiJV1nfQsbtsiGSUxPiuJZotZb91o23dtRS_RbYeyFHlq_z8XN/pub?start=false&loop=false&delayms=3000
+      speaker: bebatut
+    - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
       type: slides
       title: Introducing Road Mapping
+      speaker: emmyft
+    before: '- Add your vision statement to your GitHub issue'
+    after: |-
+      - Look up two other projects and comment on their issues with feedback on their vision statement
+      - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
+      - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
+      - Share a link to your Open Canvas in your GitHub issue
+      - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
+      - Comment on your issue with your draft Roadmap
+      - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
+    recording: https://www.youtube.com/watch?v=NsVX4a3ZOF8&t=1969s
+    hosts:
+    - yochannah
+    - emmyft
+    - bebatut
+    facilitators:
+    - batoolmm
   - date: September 22, 2021
     time: '18:00'
     duration: 180 min
@@ -109,15 +128,24 @@
     title: Welcome to Open Life Science!
     type: Cohort
     resources:
-    - link: https://docs.google.com/presentation/d/e/2PACX-1vT_e2ngwmyjwApVc1CC-dUpSHSArCPsZQjw4oo-0USZFn1lw4OtwPB6LsTSAStocYGIScfgrq5Esea7/pub?start=false&loop=false&delayms=3000
+    - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
       type: slides
       title: Welcome to OLS!
-    - link: https://docs.google.com/presentation/d/e/2PACX-1vR8j2NXWFyWKldK2OoTseN1t5YhLgeCG2OWNIjER5PKfnfGSdYQSjo8LeUCoYFyc3nZedBaNxc-aneH/pub?start=false&loop=false&delayms=3000
+    - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
       type: slides
       title: Introducing Open Canvas
-    - link: https://docs.google.com/presentation/d/e/2PACX-1vRwCxOy-Xl240eB2j0xwuyA-1wPhQMiJV1nfQsbtsiGSUxPiuJZotZb91o23dtRS_RbYeyFHlq_z8XN/pub?start=false&loop=false&delayms=3000
+    - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
       type: slides
       title: Introducing Road Mapping
+    before: '- Add your vision statement to your GitHub issue'
+    after: |-
+      - Look up two other projects and comment on their issues with feedback on their vision statement
+      - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
+      - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
+      - Share a link to your Open Canvas in your GitHub issue
+      - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
+      - Comment on your issue with your draft Roadmap
+      - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
 '04':
   timeframe: October 4-8, 2021
   calls:
@@ -141,6 +169,20 @@
     - link: https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
       type: slides
       title: Contributing Guidelines and Code of Conduct
+    before: |
+      - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
+      - Rework on your vision statement
+         - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/) or [Hemingway Editor](http://www.hemingwayapp.com/)
+         - Refine it with the editor’s help
+         - Paste it in your GitHub issue
+         - Read it to the Breakout room friends during the next call and hear their feedback :)
+    after: |-
+      - Create a GitHub repository for your project
+      - Add the link to your repository in your issue
+      - Use your canvas to [start writing a `README.md` file](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/), or landing page, for your projectLink your README in a comment on this issue
+      - Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
+      - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
+      - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
 '05':
   timeframe: October 11-15, 2021
   calls:
@@ -191,6 +233,15 @@
     - link: https://docs.google.com/presentation/d/1p9y7hBmz-ky38JsosaSYi2LmB1fPD0IyIB_BnLAidmo/edit?usp=sharing
       type: slides
       title: 'Case study 3: Managing & developing an open hardware project'
+    before: '- Look up two other projects and comment on their issues with feedback
+      on their README'
+    after: |-
+      - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
+        For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
+      - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
+        Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
+        In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
+      - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
 '07':
   timeframe: October 25-29, 2021
   calls:
@@ -230,6 +281,9 @@
     - link: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
       type: slides
       title: Community interactions
+    after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
+      \ assignment\n- Think through community interactions\n- Complete the midterm\
+      \ survey\n      \n        "
 09:
   timeframe: November 8-12, 2021
   calls:
@@ -265,6 +319,15 @@
     - link: https://zenodo.org/record/4651431
       type: slides
       title: 'Public engagement: Citizen Science, Science Communication'
+    before: "A few days before the event, think about how you might briefly answer\
+      \ the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
+      - how did you choose your career ?\n- what did you study to prepare ?\n- what\
+      \ do you actually do at work on a typical day ?\n- have you ever felt discriminated\
+      \ against (e.g. due to gender, race, ethnicity...) and how did you respond ?\n\
+      - do you have a life outside your work ? a family ? hobbies ?\n- what advice\
+      \ would you give someone wanting to enter your field ?\n- on a scale of 1-10\
+      \ (10 being the most), how much do you enjoy your current work?\n- do you want\
+      \ to switch your career or field? Why or why not?      \n      \n        "
 '10':
   timeframe: November 15-19, 2021
   calls: []
@@ -297,6 +360,17 @@
     - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
       type: slides
       title: Ally skills - Optional
+    before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)\
+      \ complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)   \
+      \   \n   - You can 'continue as a guest' by choosing your country\n   - Answer\
+      \ these questions when you've finished the implicit association test: What does\
+      \ inclusion mean to you? Did your results of the implicit association test surprise\
+      \ you?\n- Think how people step up for you in social scenarios and how you step\
+      \ up for them to support each other:\n   - What do your colleagues do to make\
+      \ your workplace inclusive for you?\n   - What do you do to make your workplace\
+      \ inclusive for them?\n   The big idea: Based on your experience, what would\
+      \ you consider doing to make your project inclusive for your contributors or\
+      \ team members?"
 '13':
   timeframe: December 6-10, 2021
   calls:
@@ -316,6 +390,12 @@
     - link: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
       type: slides
       title: Personal Ecology and Self Care
+    before: "Think about how you might briefly answer the following questions\n- Imagine\
+      \ your most fulfilling day at work. Think of 3 word-pairs to describe it.\n\
+      - Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe\
+      \ it.\nThe big idea: identify the most fulfilling conditions under which you\
+      \ thrive - sustain them; identify the least fulfilling conditions that frustrate\
+      \ you - avoid them.\n      \n      \n        \n      \n        "
 '14':
   timeframe: December 13-17, 2021
   calls:
@@ -337,6 +417,8 @@
       title: FAIR Training
     - type: slides
       title: FAIR software
+    after: '- Think about and plan to apply FAIR principles to your project in your
+      own time'
 '15':
   timeframe: January 10-14, 2022
   calls:
@@ -350,6 +432,12 @@
       - Conduct rehearsal for the final presentation from the project leads registered
     title: Final presentation rehearsal - Group 1
     type: Skill-up
+    before: "Think about how you might briefly answer the following questions\n- Imagine\
+      \ your most fulfilling day at work. Think of 3 word-pairs to describe it.\n\
+      - Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe\
+      \ it.\nThe big idea: identify the most fulfilling conditions under which you\
+      \ thrive - sustain them; identify the least fulfilling conditions that frustrate\
+      \ you - avoid them.\n      \n      \n        \n      \n        "
   - notes: https://bit.ly/ols-4-week-15
     content: |-
       In this call, participants will:
@@ -357,6 +445,12 @@
       - Conduct rehearsal for the final presentation from the project leads registered
     title: Final presentation rehearsal - Group 2
     type: Skill-up
+    before: "Think about how you might briefly answer the following questions\n- Imagine\
+      \ your most fulfilling day at work. Think of 3 word-pairs to describe it.\n\
+      - Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe\
+      \ it.\nThe big idea: identify the most fulfilling conditions under which you\
+      \ thrive - sustain them; identify the least fulfilling conditions that frustrate\
+      \ you - avoid them.\n      \n      \n        \n      \n        "
   - notes: https://bit.ly/ols-4-week-15
     content: |-
       In this call, participants will:
@@ -364,6 +458,12 @@
       - Conduct rehearsal for the final presentation from the project leads registered
     title: Final presentation rehearsal - Group 3
     type: Skill-up
+    before: "Think about how you might briefly answer the following questions\n- Imagine\
+      \ your most fulfilling day at work. Think of 3 word-pairs to describe it.\n\
+      - Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe\
+      \ it.\nThe big idea: identify the most fulfilling conditions under which you\
+      \ thrive - sustain them; identify the least fulfilling conditions that frustrate\
+      \ you - avoid them.\n      \n      \n        \n      \n        "
 '16':
   timeframe: January 17-21, 2022
   calls:
@@ -374,6 +474,12 @@
       - Celebrate OLS-4 success
     title: Final presentations & Graduation! - Group 1
     type: Cohort
+    before: "Think about how you might briefly answer the following questions\n- Imagine\
+      \ your most fulfilling day at work. Think of 3 word-pairs to describe it.\n\
+      - Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe\
+      \ it.\nThe big idea: identify the most fulfilling conditions under which you\
+      \ thrive - sustain them; identify the least fulfilling conditions that frustrate\
+      \ you - avoid them.\n      \n      \n        \n      \n        "
   - notes: https://bit.ly/ols-4-week-16
     content: |-
       In this call, participants will:
@@ -381,6 +487,12 @@
       - Celebrate OLS-4 success
     title: Final presentations & Graduation! - Group 2
     type: Cohort
+    before: "Think about how you might briefly answer the following questions\n- Imagine\
+      \ your most fulfilling day at work. Think of 3 word-pairs to describe it.\n\
+      - Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe\
+      \ it.\nThe big idea: identify the most fulfilling conditions under which you\
+      \ thrive - sustain them; identify the least fulfilling conditions that frustrate\
+      \ you - avoid them.\n      \n      \n        \n      \n        "
   - notes: https://bit.ly/ols-4-week-16
     content: |-
       In this call, participants will:
@@ -388,3 +500,9 @@
       - Celebrate OLS-4 success
     title: Final presentations & Graduation! - Group 3
     type: Cohort
+    before: "Think about how you might briefly answer the following questions\n- Imagine\
+      \ your most fulfilling day at work. Think of 3 word-pairs to describe it.\n\
+      - Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe\
+      \ it.\nThe big idea: identify the most fulfilling conditions under which you\
+      \ thrive - sustain them; identify the least fulfilling conditions that frustrate\
+      \ you - avoid them.\n      \n      \n        \n      \n        "
