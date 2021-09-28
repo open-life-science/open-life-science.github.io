@@ -21,12 +21,10 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 - empower each other to become effective Open Science ambassadors in their communities
 
 ## Applications
+<!--
+-->
 
-**Application is open until July 15, 2021 to join the fourth cohort of Open Life Science - OLS-4**
-
-[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4){:.button .is-link .is-fullwidth}
-
-*Please register on Open Review before July 10, 2021 to allow activation of your Open Review profile as described in the [OLS-4 application guidelines and templates](https://github.com/open-life-science/application-forms).*
+OLS-4 runs from September 2021 to January 2021. Applications for OLS-5 will open in late 2021 or early 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when OLS-5 applications open. 
 
 ### Timeline
 {% include _includes/ols-4-timeline.md %}
@@ -97,6 +95,8 @@ All applications are welcome, whether the project is just an idea at this stage 
 - promote one or several Open Science practices (i.e. Open Access, Open Source, Citizen Science, ) in life science
 - state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
 - create an inclusive space and welcome contributions from their community members
+
+*You don't have a project but want to join OLS-4? Please check our [dedicated issue]({{ site.github.repository_url }}/issues/297) and contact us at [{{ site.email }}](mailto:{{ site.email }}).*
 
 ## Does OLS only accept life science projects?
 

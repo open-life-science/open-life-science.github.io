@@ -105,6 +105,45 @@ Thank You! to the {{ site.data.people | size }} awesome people who participate i
 <!-- combine all -->
 {% capture ols-2-people %}{{ ols-2-participants }} {{ ols-2-experts }} {{ ols-2-mentors }} {{ ols-2-organizers }} {{ ols-2-speakers }} {{ ols-2-hosts }}{% endcapture %}
 
+<!-- OLS-3 -->
+<!-- extract participants and mentors -->
+{% assign ols-3-projects = site.data.ols-3-projects %}
+{% assign ols-3-participants = '' %}
+{% assign ols-3-mentors = '' %}
+{% for project in ols-3-projects %}
+    {% for p in project.participants %}
+        {% capture ols-3-participants %}{{ ols-3-participants }} {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture ols-3-mentors %}{{ ols-3-mentors }} {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+<!-- extract experts and organizers -->
+{% assign ols-3-experts = site.data.ols-3-metadata.experts %}
+{% assign ols-3-organizers = site.data.ols-3-metadata.organizers %}
+<!-- extract speakers and call hosts -->
+{% assign ols-3-speakers = '' %}
+{% assign ols-3-hosts = '' %}
+{% for w in site.data.ols-3-schedule %}
+    {% for c in w[1].calls %}
+        {% if c.type == 'Cohort' %}
+            {% for r in c.resources %}
+                {% if r.type == 'slides' and r.speaker %}
+                    {% capture ols-3-speakers %}{{ ols-3-speakers}} {{ r.speaker }}{% endcapture %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {% if c.hosts %}
+            {% for h in c.hosts %}
+                {% capture ols-3-hosts %}{{ ols-3-hosts}} {{ h }}{% endcapture %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+<!-- combine all -->
+{% capture ols-3-people %}{{ ols-3-participants }} {{ ols-3-experts }} {{ ols-3-mentors }} {{ ols-3-organizers }} {{ ols-3-speakers }} {{ ols-3-hosts }}{% endcapture %}
+
+
 <div class="people">
     {% for entry in site.data.people %}
         {% assign username = entry[0] %}
@@ -130,7 +169,7 @@ Thank You! to the {{ site.data.people | size }} awesome people who participate i
             {% if ols-1-organizers contains username %}
                 {% capture roles %}{{ roles }}, organizer{% endcapture %}
             {% endif %}
-            {% capture ols-roles %}{{ ols-roles }} - OLS-1 {{ roles | remove_first: ', ' }}{% endcapture %}
+            {% capture ols-roles %}{{ ols-roles }} / OLS-1 {{ roles | remove_first: ', ' }}{% endcapture %}
         {% endif %}
         {% if ols-2-people contains username %}
             {% assign roles = '' %}
@@ -152,9 +191,31 @@ Thank You! to the {{ site.data.people | size }} awesome people who participate i
             {% if ols-2-organizers contains username %}
                 {% capture roles %}{{ roles }}, organizer{% endcapture %}
             {% endif %}
-            {% capture ols-roles %}{{ ols-roles }} - OLS-2 {{ roles | remove_first: ', ' }}{% endcapture %}
+            {% capture ols-roles %}{{ ols-roles }} / OLS-2 {{ roles | remove_first: ', ' }}{% endcapture %}
         {% endif %}
-        {% assign ols-roles = ols-roles | remove_first: ' - ' %}
+        {% if ols-3-people contains username %}
+            {% assign roles = '' %}
+            {% if ols-3-participants contains username %}
+                {% capture roles %}{{ roles }}, project lead{% endcapture %}
+            {% endif %}
+            {% if ols-3-mentors contains username %}
+                {% capture roles %}{{ roles }}, mentor{% endcapture %}
+            {% endif %}
+            {% if ols-3-experts contains username %}
+                {% capture roles %}{{ roles }}, expert{% endcapture %}
+            {% endif %}
+            {% if ols-3-speakers contains username %}
+                {% capture roles %}{{ roles }}, speaker{% endcapture %}
+            {% endif %}
+            {% if ols-3-hosts contains username %}
+                {% capture roles %}{{ roles }}, call host{% endcapture %}
+            {% endif %}
+            {% if ols-3-organizers contains username %}
+                {% capture roles %}{{ roles }}, organizer{% endcapture %}
+            {% endif %}
+            {% capture ols-roles %}{{ ols-roles }} / OLS-3 {{ roles | remove_first: ', ' }}{% endcapture %}
+        {% endif %}
+        {% assign ols-roles = ols-roles | remove_first: ' / ' %}
         {% include _includes/people.html username=username user=user ols-roles=ols-roles%}
     {% endfor %}
 </div>

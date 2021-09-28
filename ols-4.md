@@ -97,8 +97,6 @@ At the end of the program, our participants will be able to:
 
 # Timeline
 
-OLS's third cohort (OLS-4) will be conducted from February to May 2021.
-
 {% include _includes/ols-4-timeline.md %}
 
 # Schedule

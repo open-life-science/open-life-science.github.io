@@ -1,4 +1,4 @@
-- **June 15, 2021**: Call for Application opens on [Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4)
+- **June 21, 2021**: Call for Application opens on [Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4)
 
   See the [guidelines and templates](https://github.com/open-life-science/application-forms)
 
@@ -10,8 +10,8 @@
 
   At this call, OLS team will be available to provide help if you have any question related to your application
 
-- **July 10, 2021**: Open Review registration deadline
-- **July 15, 2021**: Call for applications closed
+- **July 19, 2021**: Open Review registration deadline
+- **July 21, 2021**: Call for applications closed
 - **August 16, 2021**: Successful applicants announced
 - **September 13, 2021**: Start of the 16-week program
 - **January 21, 2021**: Conclusion of the 16-week program (after a 3-weeks break end of December - beginning of January)
