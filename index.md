@@ -21,6 +21,8 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 - empower each other to become effective Open Science ambassadors in their communities
 
 ## Applications
+<!--
+-->
 
 OLS-4 runs from September 2021 to January 2021. Applications for OLS-5 will open in late 2021 or early 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when OLS-5 applications open. 
 
