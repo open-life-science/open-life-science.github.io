@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import argparse
-import logging
 import pandas as pd
 import yaml
 
@@ -59,6 +58,19 @@ def load_schedule(c):
     return schedule, fp
 
 
+def get_people_id(name, people):
+    '''Extract id in people.yaml from a string with a name
+
+    :param name: string with the name
+    :param people: dictionary with people information (key: name, value: id in people.yaml)
+    '''
+    if name not in people:
+        print("'%s' for not found in people " % name)
+        return ''
+    else:
+        return people[name]
+
+
 def get_people_ids(names, people):
     '''Extract list of id in people.yaml from a string with names
 
@@ -69,10 +81,8 @@ def get_people_ids(names, people):
     if not pd.isnull(names):
         names = names.replace(' and ', ', ').split(', ')
         for n in names:
-            if n not in people:
-                logging.warning("'%s' for not found in people " % n)
-            else:
-                ids.append(people[n])
+            ids.append(get_people_id(n, people))
+            
     return ids
 
 
@@ -104,6 +114,10 @@ def update_call(call, row, people):
         call['facilitators'] = get_people_ids(row['Facilitators'], people)
     if not pd.isnull(row['Type']):
         call['type'] = row['Type']
+    if not pd.isnull(row['Before']):
+        call['before'] = row['Before']
+    if not pd.isnull(row['After']):
+        call['after'] = row['After']
     return call
 
 
@@ -134,25 +148,22 @@ def update_resource(res, row, people):
         res['link'] = row['Slides']
     if not pd.isnull(row['Confirmed speaker']):
         name = row['Confirmed speaker']
-        if name not in people:
-            logging.warning("'%s' for not found in people " % name)
-        else:
-            res['speaker'] = 'name'
+        res['speaker'] = get_people_id(name, people)
     res['type'] = 'slides'
     if not pd.isnull(row['Title']):
         res['title'] = row['Title']
     return res
 
 
-def add_event_information(schedule, fp, people):
+def add_event_information(schedule, event_df, people):
     '''
     Load event file as data frame and add information into schedule
 
     :param schedule: dictionary with schedule details
-    :param fp: Path to event CSV file
+    :param event_df: Path to event CSV file
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     '''
-    df = (pd.read_csv(fp)
+    df = (event_df
         .rename(columns = {'Start Date': 'date',
             'Start Time': 'time',
             'Duration': 'duration'})
@@ -171,8 +182,6 @@ def add_event_information(schedule, fp, people):
         if row['Type'] in call_types:
             found = False
             for call in schedule[w]['calls']:
-                print(call)
-                print(row)
                 if check_same_event(call, row):
                     call = update_call(call, row, people)
                     found = True
@@ -244,10 +253,17 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Add projects')
     parser.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)")
     parser.add_argument('-e', '--events', help="Path to event CSV file")
-    parser.add_argument('-l', '--log', help="Path to log output file")
+    parser.add_argument('-u', '--url', help="URL to event sheet file")
     args = parser.parse_args()
 
-    logging.basicConfig(filename=args.log, level=logging.DEBUG)
+    # check / load event information
+    if not args.events:
+        if not args.url:
+            raise ValueError("Provide either path or URL to event file")
+        else:
+            event_df = pd.read_csv(args.url)
+    else:
+        event_df = Path(args.events)
 
     # load people information
     people_fp = Path('_data') / Path('people.yaml')
@@ -262,7 +278,7 @@ if __name__ == '__main__':
     schedule, schedule_fp = load_schedule(args.cohort)
 
     # add event information to schedule
-    schedule = add_event_information(schedule, Path(args.events), reorder_people)    
+    schedule = add_event_information(schedule, event_df, reorder_people)    
 
     # dump schedule dictionary into schedule file
     dump_schedule(schedule, schedule_fp)
