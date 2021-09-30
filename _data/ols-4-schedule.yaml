@@ -146,10 +146,14 @@
       - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
       - Comment on your issue with your draft Roadmap
       - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
+    hosts:
+    - yochannah
+    - emmyft
+    - malvikasharan
 '04':
   timeframe: October 4-8, 2021
   calls:
-  - date: June 10, 2021
+  - date: October 06, 2021
     time: '18:00'
     duration: 90 min
     notes: https://bit.ly/ols-4-week-04
@@ -159,16 +163,6 @@
       \ project structure and files used may look different on your project.\n  "
     title: Tooling and roadmapping for Open projects
     type: Cohort
-    resources:
-    - link: https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
-      type: slides
-      title: Open Licensing
-    - link: https://docs.google.com/presentation/d/1K-to88_TV4UI7-ek2ph5PIsqEZcYEprT1KkEXysCWiA/edit?usp=sharing
-      type: slides
-      title: README
-    - link: https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
-      type: slides
-      title: Contributing Guidelines and Code of Conduct
     before: |
       - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
       - Rework on your vision statement
@@ -183,6 +177,16 @@
       - Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
       - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
       - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
+    resources:
+    - link: https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
+      type: slides
+      title: Open Licensing
+    - link: https://docs.google.com/presentation/d/1K-to88_TV4UI7-ek2ph5PIsqEZcYEprT1KkEXysCWiA/edit?usp=sharing
+      type: slides
+      title: README
+    - link: https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
+      type: slides
+      title: Contributing Guidelines and Code of Conduct
 '05':
   timeframe: October 11-15, 2021
   calls:
@@ -257,7 +261,7 @@
 08:
   timeframe: November 1-5, 2021
   calls:
-  - date: March 11, 2021
+  - date: November 03, 2021
     time: '18:00'
     duration: 90 min
     notes: https://bit.ly/ols-4-week-08
@@ -268,6 +272,9 @@
       - Learn about Personas and pathways and welcoming new contributors
     title: Community design for inclusivity
     type: Cohort
+    after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
+      \ assignment\n- Think through community interactions\n- Complete the midterm\
+      \ survey\n      \n        "
     resources:
     - link: https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
       type: slides
@@ -281,16 +288,13 @@
     - link: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
       type: slides
       title: Community interactions
-    after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
-      \ assignment\n- Think through community interactions\n- Complete the midterm\
-      \ survey\n      \n        "
 09:
   timeframe: November 8-12, 2021
   calls:
   - duration: 30 min
     title: 5th mentor-mentee meeting
     type: Mentor-Mentee
-  - date: October 11, 2021
+  - date: November 10, 2021
     time: '13:30'
     duration: 90 min
     notes: https://bit.ly/ols-4-week-09
@@ -300,6 +304,15 @@
       \ \n- Tips and advice to overcome challenges as an open researcher"
     title: 'Open Leadership: Academia, industry and beyond!'
     type: Skill-up
+    before: "A few days before the event, think about how you might briefly answer\
+      \ the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
+      - how did you choose your career ?\n- what did you study to prepare ?\n- what\
+      \ do you actually do at work on a typical day ?\n- have you ever felt discriminated\
+      \ against (e.g. due to gender, race, ethnicity...) and how did you respond ?\n\
+      - do you have a life outside your work ? a family ? hobbies ?\n- what advice\
+      \ would you give someone wanting to enter your field ?\n- on a scale of 1-10\
+      \ (10 being the most), how much do you enjoy your current work?\n- do you want\
+      \ to switch your career or field? Why or why not?      \n      \n        "
     resources:
     - type: slides
       title: Post-academia career path, Social entrepreneurship
@@ -319,15 +332,6 @@
     - link: https://zenodo.org/record/4651431
       type: slides
       title: 'Public engagement: Citizen Science, Science Communication'
-    before: "A few days before the event, think about how you might briefly answer\
-      \ the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
-      - how did you choose your career ?\n- what did you study to prepare ?\n- what\
-      \ do you actually do at work on a typical day ?\n- have you ever felt discriminated\
-      \ against (e.g. due to gender, race, ethnicity...) and how did you respond ?\n\
-      - do you have a life outside your work ? a family ? hobbies ?\n- what advice\
-      \ would you give someone wanting to enter your field ?\n- on a scale of 1-10\
-      \ (10 being the most), how much do you enjoy your current work?\n- do you want\
-      \ to switch your career or field? Why or why not?      \n      \n        "
 '10':
   timeframe: November 15-19, 2021
   calls: []
@@ -346,20 +350,12 @@
 '12':
   timeframe: November 29 - December 3, 2021
   calls:
-  - date: January 12, 2021
+  - date: December 01, 2021
     time: '18:00'
     duration: 90 min
     notes: https://bit.ly/ols-4-week-12
     title: Diversity and Inclusion & Ally skills
     type: Cohort
-    resources:
-    - link: https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
-      type: slides
-      title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
-        matter?)'
-    - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
-      type: slides
-      title: Ally skills - Optional
     before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)\
       \ complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)   \
       \   \n   - You can 'continue as a guest' by choosing your country\n   - Answer\
@@ -371,13 +367,21 @@
       \ inclusive for them?\n   The big idea: Based on your experience, what would\
       \ you consider doing to make your project inclusive for your contributors or\
       \ team members?"
+    resources:
+    - link: https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
+      type: slides
+      title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
+        matter?)'
+    - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
+      type: slides
+      title: Ally skills - Optional
 '13':
   timeframe: December 6-10, 2021
   calls:
   - duration: 30 min
     title: 7th mentor-mentee meeting
     type: Mentor-Mentee
-  - date: August 12, 2021
+  - date: December 08, 2021
     time: '13:30'
     duration: 90 min
     notes: https://bit.ly/ols-4-week-13
@@ -386,16 +390,16 @@
       - Discuss the importance of taking care of mental health and avoiding burn out for both project leaders and community members
     title: Self-care & Social call
     type: Skill-up
-    resources:
-    - link: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
-      type: slides
-      title: Personal Ecology and Self Care
     before: "Think about how you might briefly answer the following questions\n- Imagine\
       \ your most fulfilling day at work. Think of 3 word-pairs to describe it.\n\
       - Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe\
       \ it.\nThe big idea: identify the most fulfilling conditions under which you\
       \ thrive - sustain them; identify the least fulfilling conditions that frustrate\
       \ you - avoid them.\n      \n      \n        \n      \n        "
+    resources:
+    - link: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+      type: slides
+      title: Personal Ecology and Self Care
 '14':
   timeframe: December 13-17, 2021
   calls:

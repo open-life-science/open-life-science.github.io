@@ -168,7 +168,7 @@ def add_event_information(schedule, event_df, people):
             'Start Time': 'time',
             'Duration': 'duration'})
         .assign(
-            date=lambda x: pd.to_datetime(x['date']),
+            date=lambda x: pd.to_datetime(x['date'], dayfirst=True),
             time=lambda x: pd.to_datetime(x['time']),
             duration=lambda x: pd.to_timedelta(x['duration'])))
 
