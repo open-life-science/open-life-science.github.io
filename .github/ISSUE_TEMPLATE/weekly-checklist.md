@@ -6,21 +6,28 @@ labels: ''
 assignees: ''
 ---
 
+Create a GitHub issue: [https://github.com/open-life-science/open-life-science.github.io/issues](https://github.com/open-life-science/open-life-science.github.io/issues) using the text provided below.
+
 1. Weekly emails
-  1. [ ] Send email to mentees
-  1. [ ] Send email to speakers
-3. Cohort call video preparation
-  1. [ ] Download from Zoom cloud recordings
-  2. [ ] Upload to Otter.ai (_will need a few minutes to process_)
-  3. [ ] Upload to the OLS YouTube account
-  4. [ ] Create a front page slide for the video - templates are available in Google Drive
-  5. [ ] Make sure the YouTube video is added to the current cohort playlist
-  3. [ ] Correct Otter.ai transcripts (_make sure to use uploaded video, not the original transcript, as the timings won't match the video_)
-  7. [ ] Download corrected transcript as a .srt file from Otter
-  8. [ ] Upload it to the YouTube video
-  9. [ ] Post a link to the recording in the OLS Slack! 🙌
-4. Website (in schedule in `_data` folder)
-  1. [ ] Add link to recording 
-  2. Add talks
-      1. [ ] Add link to slide deck
-      2. [ ] Add person detail to `people.yaml` if needed   
+    - [ ]  Send email to mentees
+    - [ ]  Send email to speakers
+2. Cohort call video preparation
+    - [ ]  Download from Zoom cloud recordings
+    - [ ]  Upload to [Otter.ai](http://otter.ai/) (*will need a few minutes to process*)
+    - [ ]  Upload to the OLS YouTube account
+    - [ ]  Create a front page slide for the video - templates are available in Google Drive
+    - [ ]  Make sure the YouTube video is added to the current cohort playlist
+    - [ ]  Correct [Otter.ai](http://otter.ai/) transcripts (*make sure to use uploaded video, not the original transcript, as the timings won't match the video*)
+    - [ ]  Download corrected transcript as a .srt file from Otter
+    - [ ]  Upload it to the YouTube video
+    - [ ]  Post a link to the recording in the OLS Slack! 🙌
+    - [ ]  Update the schedule sheet
+        - [ ]  Add link to recording
+        - [ ]  Add names of hosts and faciliators
+        - [ ]  Add speaker names in "Confirmed speaker"
+        - [ ]  Check links to slide deck
+        - [ ]  Check "Before" and "After"
+        - [ ]  Post on OLS Slack that the sheet has been updated
+3. Website (in schedule in `_data` folder)
+    - [ ]  Update the schedule on website from the schedule sheet using the script
+    - [ ]  Add people to `people.yaml`
