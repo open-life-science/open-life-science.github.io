@@ -14,4 +14,4 @@
 - **July 21, 2021**: Call for applications closed
 - **August 16, 2021**: Successful applicants announced
 - **September 13, 2021**: Start of the 16-week program
-- **January 21, 2021**: Conclusion of the 16-week program (after a 3-weeks break end of December - beginning of January)
+- **January 21, 2022**: Conclusion of the 16-week program (after a 3-weeks break end of December - beginning of January)
