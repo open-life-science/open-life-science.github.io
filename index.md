@@ -21,7 +21,11 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 - empower each other to become effective Open Science ambassadors in their communities
 
 ## Applications
+
 <!--
+[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4){:.button .is-link .is-fullwidth}
+
+*Please register on Open Review before July 19, 2021 to allow activation of your Open Review profile as described in the [OLS-4 application guidelines and templates](https://github.com/open-life-science/application-forms).*
 -->
 
 OLS-4 runs from September 2021 to January 2021. Applications for OLS-5 will open in late 2021 or early 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when OLS-5 applications open. 
