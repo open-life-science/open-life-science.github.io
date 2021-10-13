@@ -1,6 +1,0 @@
-- **October 25, 2019**: Opening of the applications
-- **November 27, 2019** (8am PST / 11am EST / 4pm GMT): [Pre-application webinar](https://docs.google.com/document/d/1EIDzZi5mgRiWR7cJQl0up470C87GsbcoTR_6-cs-SeE/edit)
-- **December 8, 2019**: Closing of the applications
-- **December 20, 2019**: Successful applicants announced
-- **January 20, 2020**: Start of the 15-week program
-- **April 2020**: Conclusion of the 15-week program

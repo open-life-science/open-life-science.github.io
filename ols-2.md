@@ -12,6 +12,7 @@ photos:
 {% assign projects = site.data.ols-2-projects %}
 {% assign metadata = site.data.ols-2-metadata %}
 {% assign schedule = site.data.ols-2-schedule %}
+{% assign cohort = 'ols-2' %}
 
 {% assign all-participants = '' %}
 {% assign all-mentors = '' %}
@@ -30,7 +31,7 @@ photos:
 
 {% assign all-speakers = '' %}
 {% assign all-hosts = '' %}
-{% for w in schedule %}
+{% for w in schedule.weeks %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
             {% for r in c.resources %}
@@ -99,12 +100,10 @@ At the end of the program, our participants will be able to:
 
 OLS's second cohort (OLS-2) will be conducted from September 2020 until December 2020.
 
-{% include _includes/ols-2-timeline.md %}
+{% include _includes/timeline.md %}
 
 # Schedule
 
-{% assign schedule = site.data.ols-3-schedule %}
-{% assign cohort = 'ols-2' %}
 {% include _includes/overall-schedule.md %}
 
 # Role Descriptions

@@ -29,7 +29,7 @@ photos:
 {% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
 
 {% assign all-speakers = '' %}
-{% for w in schedule %}
+{% for w in schedule.weeks %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
             {% for r in c.resources %}
@@ -92,36 +92,11 @@ At the end of the program, our participants will be able to:
 
 OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from January 2020 until May 2020 with [{{ p-participants | size }} project leaders](/ols-1/projects-participants#participants) working on [{{ projects | size }} projects](/ols-1/projects-participants#projects).
 
-{% include _includes/ols-1-timeline.md %}
+{% include _includes/timeline.md %}
 
 # Schedule
 
-During the program,
-
-- Mentors and mentees meet every 2 weeks [for a 30 minutes call](#mentor-mentee-calls)
-- Mentees participate every 2 weeks to [90-minutes cohort calls](#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite experts from the field to give talks
-- Mentors take part to [4 mentoring calls](#mentors-calls)
-
-Organizers will inform participants of the week schedule by email.
-
-Outside of the calls, participants (mentees, mentors, etc) are encouraged to discuss together via [Gitter](https://gitter.im/{{ site.gitter }}).  
-
-<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com"  frameborder="0" scrolling="no"></iframe>
-
-[<i class="fas fa-calendar-plus"></i> *Subscribe to the OLS calendar*](https://calendar.google.com/calendar/r?cid=n3rqhvuff05ojkl0opfsvh49fk@group.calendar.google.com)
-
-<!-- Any modification of the content should be done in the _data/ols-1-schedule.yaml file -->
-
-| Week | Call | Date | Topic | Agenda |
-|------|------|------|-------|--------|
-{%- for w in schedule %}
-{%- capture w-desc %}**Week {{ w[0] }}**: {{ w[1].timeframe }}{% endcapture %}
-{%- for c in w[1].calls %}
-{%- capture date %}{% if c.type == "Cohort" %}{{ c.date }} ([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/OLS-1%20Cohort%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endcapture %}
-| {{ w-desc }} | [{{ c.type }}](#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" }}-calls) | {{ date }} | [**{{ c.title }}**](/ols-1/week{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
-{%- assign w-desc = "" %}
-{%- endfor %}
-{%- endfor %}
+{% include _includes/overall-schedule.md %}
 
 # Role Descriptions
 

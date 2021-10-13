@@ -31,7 +31,9 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 OLS-4 runs from September 2021 to January 2021. Applications for OLS-5 will open in late 2021 or early 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when OLS-5 applications open. 
 
 ### Timeline
-{% include _includes/ols-4-timeline.md %}
+
+{% assign schedule = site.data.ols-4-schedule %}
+{% include _includes/timeline.md %}
 
 Have a question or need any support to join this cohort? 
 We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}). 

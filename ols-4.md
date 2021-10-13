@@ -12,6 +12,7 @@ photos:
 {% assign projects = site.data.ols-4-projects %}
 {% assign metadata = site.data.ols-4-metadata %}
 {% assign schedule = site.data.ols-4-schedule %}
+{% assign cohort = 'ols-4' %}
 
 {% assign all-participants = '' %}
 {% assign all-mentors = '' %}
@@ -30,7 +31,7 @@ photos:
 
 {% assign all-speakers = '' %}
 {% assign all-hosts = '' %}
-{% for w in schedule %}
+{% for w in schedule.weeks %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
             {% for r in c.resources %}
@@ -97,12 +98,10 @@ At the end of the program, our participants will be able to:
 
 # Timeline
 
-{% include _includes/ols-4-timeline.md %}
+{% include _includes/timeline.md %}
 
 # Schedule
 
-{% assign schedule = site.data.ols-4-schedule %}
-{% assign cohort = 'ols-4' %}
 {% include _includes/overall-schedule.md %}
 
 # Role Descriptions
