@@ -47,8 +47,8 @@ def load_schedule(c):
     '''
     fp = Path('_data') / Path('ols-%s-schedule.yaml' % c )
     schedule = read_yaml(fp)
-    for w in schedule:
-        for c in schedule[w]['calls']:
+    for w in schedule['weeks']:
+        for c in schedule['weeks'][w]['calls']:
             if 'content' in c:
                 c['content'] = '%s' % c['content']
             if 'before' in c:
@@ -129,7 +129,7 @@ def check_same_event(call, row):
     :param row: call information from CSV
     '''
     same = (call['type'] == row['Type'])
-    if 'date' in call:
+    if 'date' in call and pd.notna(row['date']):
         same = same and (call['date'] == row['date'].strftime('%B %d, %Y'))
     if 'title' in call:
         same = same and (call['title'] == row['Title'])
@@ -179,9 +179,21 @@ def add_event_information(schedule, event_df, people):
     for index, row in df.iterrows():
         w = "{:02d}".format(row['Week'])
 
-        if row['Type'] in call_types:
+        if not w in schedule['weeks']:
+            print("Adding week %s too the schedule")
+            schedule['weeks'][w] = {'start': '', 'calls': []}
+
+        if row['Type'] == "Week":
+            if schedule['weeks'][w]['start'] != '':
+                if schedule['weeks'][w]['start'] != row['date'].strftime('%B %d, %Y'):
+                    print("Different start date for week %s" % w)
+                    print("In schedule file: %s" % schedule['weeks'][w]['start'])
+                    print("In event file: %s" % row['date'].strftime('%B %d, %Y'))
+            else:
+                schedule['weeks'][w]['start'] = row['date'].strftime('%B %d, %Y')
+        elif row['Type'] in call_types:
             found = False
-            for call in schedule[w]['calls']:
+            for call in schedule['weeks'][w]['calls']:
                 if check_same_event(call, row):
                     call = update_call(call, row, people)
                     found = True
@@ -189,7 +201,7 @@ def add_event_information(schedule, event_df, people):
 
             if not found:
                 call = update_call({}, row, people)
-                schedule[w]['calls'].append(call)
+                schedule['weeks'][w]['calls'].append(call)
                 last_call = call
 
         elif row['Type'] == 'Presentation':
@@ -209,39 +221,17 @@ def add_event_information(schedule, event_df, people):
     return schedule
 
 
-def dump_schedule(schedule, fp):
+def dump_schedule(schedule, cohort, fp):
     '''
     Dump schedule to YAML file
 
     :param schedule: dictionary with schedule details
+    :param cohort: cohort number
     :param fp: Path to YAML file
     '''
     yaml.representer.BaseRepresenter.represent_scalar = represent_scalar
     with schedule_fp.open("w") as schedule_f:
-        schedule_f.write("# Schedule for OLS-1\n")
-        schedule_f.write("#\n")
-        schedule_f.write("# 'weeknb':\n")
-        schedule_f.write("#   timeframe:\n")
-        schedule_f.write("#   calls:\n")
-        schedule_f.write("#     -\n")
-        schedule_f.write("#       type: Mentor-Mentee/Cohort/Mentors\n")
-        schedule_f.write("#       duration: .. min\n")
-        schedule_f.write("#       title:\n")
-        schedule_f.write("#       date: Month Day, Year\n")
-        schedule_f.write("#       time: '14:00'\n")
-        schedule_f.write("#       calendar-event: link to calendar event\n")
-        schedule_f.write("#       notes: link to notes\n")
-        schedule_f.write("#       recording: link to recording\n")
-        schedule_f.write("#       hosts: ids of hosts\n")
-        schedule_f.write("#       facilitators: ids of facilitators\n")
-        schedule_f.write("#       content: |\n")
-        schedule_f.write("#         Details of the content written in Markdown\n")
-        schedule_f.write("#       resources:\n")
-        schedule_f.write("#         -\n")
-        schedule_f.write("#           type: slides/document/external-link\n")
-        schedule_f.write("#           title:\n")
-        schedule_f.write("#           speaker: username in people.yaml, if slides\n")
-        schedule_f.write("#           link:\n")
+        schedule_f.write("# Schedule for the OLS-%s\n" % cohort)
         schedule_f.write("---\n")
         schedule_f.write(yaml.dump(schedule,
             allow_unicode=True,
@@ -281,4 +271,4 @@ if __name__ == '__main__':
     schedule = add_event_information(schedule, event_df, reorder_people)    
 
     # dump schedule dictionary into schedule file
-    dump_schedule(schedule, schedule_fp)
+    dump_schedule(schedule, args.cohort, schedule_fp)
