@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-python bin/updateschedule.py \
+python bin/prepare_website_data.py updateschedule \
     --cohort <nb> \
     --url <link to CSV>
