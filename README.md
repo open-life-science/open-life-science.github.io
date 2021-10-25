@@ -175,7 +175,7 @@ Add many people in a row to `_data/people.yaml`:
 4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`
 
    ```
-   $ python bin/extractpeople.py -i <path to csv file>
+   $ python bin/prepare_website_data.py extractpeople -i <path to csv file>
    ```
 
 ## Add a partner/sponsor
@@ -254,7 +254,7 @@ To order them:
 2. Run the script which sort expertise and save information in metadata file
 
    ```
-   $ python bin/sortexpertises.py -c <cohort id>
+   $ python bin/prepare_website_data.py sortexpertises -c <cohort id>
    ```
 
 ## Add projects
@@ -283,7 +283,7 @@ To order them:
 4. Run the script which extract project information from a CSV file and add them in project file
 
    ```
-   $ python bin/addprojects.py \
+   $ python bin/prepare_website_data.py addprojects \
       -c <cohort id> \
       -p <path to csv file with projects> \
       -i <path to csv file with participants> \

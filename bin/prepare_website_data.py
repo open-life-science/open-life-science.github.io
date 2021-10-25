@@ -10,7 +10,6 @@ optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country'
 to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
 
 
-
 ### GENERAL METHODS
 
 ### https://stackoverflow.com/questions/8640959/how-can-i-control-what-scalar-form-pyyaml-uses-for-my-data/15423007#15423007
@@ -32,6 +31,7 @@ def represent_scalar(self, tag, value, style=None):
     if self.alias_key is not None:
         self.represented_objects[self.alias_key] = node
     return node
+yaml.representer.BaseRepresenter.represent_scalar = represent_scalar
 
 
 def read_yaml(fp):
@@ -121,7 +121,6 @@ def extract_expertise(people_list, people):
     if len(p_expertise[no_expertise]) == 0:
         p_expertise.pop(no_expertise)
     return p_expertise
-
 
 
 def extract_people_info(row, people):
@@ -235,13 +234,53 @@ def extract_people(df):
 
 ### METHODS TO INTERACT WITH COHORT SCHEDULE FILES
 
-def load_schedule(c):
+def create_empty_schedule():
+    '''
+    Create empty schedule
+    '''
+    schedule = {
+        'timeline': [
+            {
+                'date': None,
+                'description': 'Call for Application opens',
+                'details': 'See the [guidelines and templates](https://github.com/open-life-science/application-forms)'
+            },{
+                'date': None,
+                'description': 'Application webinar',
+                'type': ['Talk', 'Q&A'],
+                'notes': None,
+                'recording': None,
+                'details': 'Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
+            },{ 
+                'date': None,
+                'description': 'Application Clinic Call',
+                'type': ['Q&A'],
+                'notes': None,
+                'details': 'At this call, OLS team will be available to provide help if you have any question related to your application'
+            },{ 
+                'date': None,
+                'description': 'Call for applications closed'
+            },{ 
+                'date': None,
+                ' description': 'Successful applicants announced'
+            }],
+        'weeks': {}
+    }
+    for i in range(16):
+        schedule['weeks']['%02d' % (i+1)] = {
+            'start': None,
+            'calls': []
+        }
+    return schedule
+
+
+def load_schedule(cohort):
     '''
     Load cohort schedule
 
-    :param c: cohort number
+    :param cohort: cohort number
     '''
-    fp = Path('_data') / Path('ols-%s-schedule.yaml' % c )
+    fp = Path('_data') / Path('ols-%s-schedule.yaml' % cohort )
     schedule = read_yaml(fp)
     for w in schedule['weeks']:
         for c in schedule['weeks'][w]['calls']:
@@ -254,15 +293,14 @@ def load_schedule(c):
     return schedule, fp
 
 
-def dump_schedule(schedule, cohort, fp):
+def dump_schedule(schedule, cohort):
     '''
     Dump schedule to YAML file
 
     :param schedule: dictionary with schedule details
     :param cohort: cohort number
-    :param fp: Path to YAML file
     '''
-    yaml.representer.BaseRepresenter.represent_scalar = represent_scalar
+    fp = Path('_data') / Path('ols-%s-schedule.yaml' % cohort )
     with fp.open("w") as schedule_f:
         schedule_f.write("# Schedule for the OLS-%s\n" % cohort)
         schedule_f.write("---\n")
@@ -406,19 +444,81 @@ def add_event_information(schedule, event_df, people):
 
     return schedule
 
+### METHODS TO INTERACT WITH COHORT PROJECT FILES
 
-def add_projects(cohort, project_info_fp, info_fp):
+def dump_projects(projects, cohort):
+    '''
+    Dump projects to YAML file
+
+    :param projects: dictionary with project details
+    :param cohort: cohort number
+    '''
+    project_fp = Path('_data') / Path('ols-%s-projects.yaml' % cohort )
+    with project_fp.open("w") as project_f:
+        project_f.write('# List of projects for OLS-3\n')
+        project_f.write('#\n')
+        project_f.write('# Check previous OLS for examples\n')
+        project_f.write('---\n')
+        project_f.write(yaml.dump(projects, allow_unicode=True))
+
+
+### METHODS TO INTERACT WITH COHORT METADATA FILE
+
+def create_empty_metadata():
+    '''
+    Create empty metadata
+    '''
+    metadata = {
+        'experts': [],
+        'organizers': ['bebatut', 'emmyft', 'malvikasharan', 'yochannah'],
+        'possible-mentors': []
+    }
+    return metadata
+
+
+def load_metadata(cohort):
+    '''
+    Laod metadata from YAML file
+
+    :param cohort: cohort number
+    '''
+    metadata_fp = Path('_data') / Path('ols-%s-metadata.yaml' % args.cohort )
+    # load metadata cohort file into a dictionary
+    with open(metadata_fp, 'r') as metadata_f:
+        metadata = yaml.load(metadata_f, Loader=yaml.FullLoader)
+    return metadata
+
+
+def dump_metadata(metadata, cohort):
+    '''
+    Dump metadata to YAML file
+
+    :param metadata: dictionary with metadata details
+    :param cohort: cohort number
+    '''
+    metadata_fp = Path('_data') / Path('ols-%s-metadata.yaml' % args.cohort )
+    with metadata_fp.open("w") as metadata_f:
+        metadata_f.write('# List of experts, possible mentors and organizers for OLS-%s\n' % args.cohort)
+        metadata_f.write('#\n')
+        metadata_f.write('#\n')
+        metadata_f.write('# People should be also in people.yaml file and linked using their GitHub username\n')
+        metadata_f.write('# Ordering by expertise should be done by running the bin/sort-expertises.py script\n')
+        metadata_f.write('---\n')
+        metadata_f.write(yaml.dump(metadata))
+
+
+### COMMANDS
+
+def add_projects(cohort, project_df, people_df):
     '''
     Add projects
 
     :param cohort: cohort id
-    :param project_info_fp: Path to project sheet file
-    :param information_fp: Path to information sheet file
+    :param project_df: dataframe with project details
+    :param people_df: dataframe with people details
     '''
     # add people to people.yaml
-    info_fp = Path(info_fp)
-    info_df = pd.read_csv(info_fp)
-    added_people = extract_people(info_df)
+    added_people = extract_people(people_df)
     
     # reorder people as a dictionary with key being First name - Last name
     # and value being the people id
@@ -427,13 +527,10 @@ def add_projects(cohort, project_info_fp, info_fp):
     # load people information from sheet file
     # parse it
     # add information to people dictionary
-    project_fp = Path('_data') / Path('ols-%s-projects.yaml' % args.cohort )
-    project_info_fp = Path(project_info_fp)
-    df = pd.read_csv(project_info_fp)
-    df = df.where(pd.notnull(df), None)
+    project_df = project_df.where(pd.notnull(project_df), None)
     projects = {}
     print('Add new projects')
-    for index, row in df.iterrows():
+    for index, row in project_df.iterrows():
         if row['Comment regarding review'] == 'rejected':
             continue
         print(row['Title'])
@@ -446,11 +543,11 @@ def add_projects(cohort, project_info_fp, info_fp):
             'keywords': []
         }
         # extract participants
-        p['participants'] = methods.get_people_ids(row['Authors'], reorder_people)
+        p['participants'] = get_people_ids(row['Authors'], reorder_people)
         # extract mentors
-        p['mentors'] = methods.get_people_ids(row['Mentor 1'], reorder_people)
+        p['mentors'] = get_people_ids(row['Mentor 1'], reorder_people)
         if row['Mentor 2'] != '':
-            p['mentors'] += methods.get_people_ids(row['Mentor 2'], reorder_people)
+            p['mentors'] += get_people_ids(row['Mentor 2'], reorder_people)
         if len(p['mentors']) == 0:
             print('No mentor')
         # 
@@ -462,7 +559,7 @@ def add_projects(cohort, project_info_fp, info_fp):
     # check if everybody are correctly added to projects from participant file
     print('Check project participants')
     # 1. get projects and people from participant registration
-    df = info_df.where(pd.notnull(info_df), None)
+    df = people_df.where(pd.notnull(people_df), None)
     projects_people = {}
     for index, row in df.iterrows():
         projects_people.setdefault(row['OLS-%s Project title' % args.cohort ], [])
@@ -488,12 +585,35 @@ def add_projects(cohort, project_info_fp, info_fp):
     project_list = [projects[p] for p in projects]
 
     # dump project dictionary into project file
-    with project_fp.open("w") as project_f:
-        project_f.write('# List of projects for OLS-3\n')
-        project_f.write('#\n')
-        project_f.write('# Check previous OLS for examples\n')
-        project_f.write('---\n')
-        project_f.write(yaml.dump(project_list, allow_unicode=True))
+    dump_projects(project_list, cohort)
+
+
+def replace_cohort_names(s, cohort):
+    '''
+    Replace cohort name in string
+
+    :param s: string
+    :param cohort: cohort id
+    '''
+    new_s = s.replace('ols-4', 'ols-%s' % cohort)
+    new_s = new_s.replace('OLS-4', 'OLS-%s' % cohort)
+    new_s = new_s.replace('4th', '%sth' % cohort)
+    new_s = new_s.replace('fourth', '%sth' % cohort)
+    return new_s
+
+
+def write_new_cohort_file(new_cohort_fp, ex_cohort_fp, cohort):
+    '''
+    Write new cohort files
+
+    :param new_cohort_fp: Path to new cohort file
+    :param ex_cohort_fp: Path to example cohort file
+    :param cohort: cohort id
+    '''
+    with ex_cohort_fp.open('r') as ex_cohort_page_f:
+        with new_cohort_fp.open('w') as cohort_page_f:
+            s = replace_cohort_names(ex_cohort_page_f.read(), cohort)
+            cohort_page_f.write(s)
 
 
 def create_cohort(cohort):
@@ -502,7 +622,35 @@ def create_cohort(cohort):
 
     :param cohort: cohort id
     '''
-    print("new cohort")
+    # create schedule skeleton
+    schedule = create_empty_schedule()
+    dump_schedule(schedule, cohort)
+    # create project skeleton
+    dump_projects([], cohort)
+    # create metadata skeleton
+    metadata = create_empty_metadata()
+    dump_metadata(metadata, cohort)
+    # create cohort page
+    write_new_cohort_file(
+        Path('ols-%s.md' % cohort ),
+        Path('ols-4.md'),
+        cohort)
+    # create cohort folder
+    cohort_dp = Path('_ols-%s' % cohort )
+    cohort_dp.mkdir(parents=True, exist_ok=True)
+    ex_cohort_dp = Path('_ols-4')
+    write_new_cohort_file(
+        cohort_dp / Path('projects-participants.md'),
+        ex_cohort_dp / Path('projects-participants.md'),
+        cohort)
+    write_new_cohort_file(
+        cohort_dp / Path('schedule.md'),
+        ex_cohort_dp / Path('schedule.md'),
+        cohort)
+    write_new_cohort_file(
+        cohort_dp / Path('speaker-guide.md'),
+        ex_cohort_dp / Path('speaker-guide.md'),
+        cohort)
 
 
 def get_expertises(cohort):
@@ -513,17 +661,12 @@ def get_expertises(cohort):
     '''
     people = load_people()
 
-    metadata_fp = Path('_data') / Path('ols-%s-metadata.yaml' % args.cohort )
-    # load metadata cohort file into a dictionary
-    with open(metadata_fp, 'r') as metadata_f:
-        metadata = yaml.load(metadata_f, Loader=yaml.FullLoader)
-
+    metadata = load_metadata(cohort)
     # add expertise:people for possible mentors in a dictionary to metadata
     metadata['possible-mentors-with-expertise'] = extract_expertise(
         metadata['possible-mentors'],
         people
     )
-
     # add expertise:people for possible mentors in a dictionary to metadata
     metadata['experts-with-expertise'] = extract_expertise(
         metadata['experts'],
@@ -531,34 +674,24 @@ def get_expertises(cohort):
     )
     
     # dump expertise dictionary into metadata file
-    with metadata_fp.open("w") as metadata_f:
-        metadata_f.write('# List of experts, possible mentors and organizers for OLS-%s\n' % args.cohort)
-        metadata_f.write('#\n')
-        metadata_f.write('#\n')
-        metadata_f.write('# People should be also in people.yaml file and linked using their GitHub username\n')
-        metadata_f.write('# Ordering by expertise should be done by running the bin/sort-expertises.py script\n')
-        metadata_f.write('---\n')
-        metadata_f.write(yaml.dump(metadata))
+    dump_metadata(metadata, cohort)
 
 
-def update_schedule(cohort, event_df):
+def update_schedule(cohort, schedule_df):
     '''
     Update schedule from a sheet
 
     :param cohort: cohort id
-    :param event_df: data frame with schedule
+    :param schedule_df: data frame with schedule
     '''
     # load people information
     reorder_people = load_reordered_people()
-
     # load schedule
-    schedule, schedule_fp = load_schedule(args.cohort)
-
+    schedule = load_schedule(args.cohort)
     # add event information to schedule
-    schedule = add_event_information(schedule, event_df, reorder_people)    
-
+    schedule = add_event_information(schedule, schedule_df, reorder_people)    
     # dump schedule dictionary into schedule file
-    dump_schedule(schedule, args.cohort, schedule_fp)
+    dump_schedule(schedule, args.cohort)
 
 
 if __name__ == '__main__':
@@ -567,16 +700,20 @@ if __name__ == '__main__':
     # Add projects
     addprojects = subparser.add_parser('addprojects', help="Add projects")
     addprojects.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
-    addprojects.add_argument('-p', '--projects', help="Path to project sheet file", required=True)
-    addprojects.add_argument('-i', '--information', help="Path to information sheet file", required=True) 
+    projectgroup = addprojects.add_mutually_exclusive_group()
+    projectgroup.add_argument('-pf', '--project_fp', help="Path to project sheet file")
+    projectgroup.add_argument('-pu', '--project_url', help="URL to project sheet file")
+    peoplegroup = addprojects.add_mutually_exclusive_group()
+    peoplegroup.add_argument('-df', '--people_fp', help="Path to people details sheet file") 
+    peoplegroup.add_argument('-du', '--people_url', help="URL to people details sheet file")
     # Create cohort
     createcohort = subparser.add_parser('createcohort', help="Create files for a new cohort")
     createcohort.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
     # Extract people
-    extractpeople = subparser.add_parser('extractpeople', help='Extract people information from a sheet and add them to people.yaml')
+    extractpeople = subparser.add_parser('extractpeople', help='Extract people details from a sheet and add them to people.yaml')
     group = extractpeople.add_mutually_exclusive_group()
-    group.add_argument('-i', '--information', help="Path to information sheet file", action='store_true')
-    group.add_argument('-u', '--url', help="URL to information sheet file", action='store_true')
+    group.add_argument('-df', '--people_fp', help="Path to people details sheet file")
+    group.add_argument('-du', '--people_url', help="URL to people details sheet file")
     # Get expertises
     getexpertises = subparser.add_parser('getexpertises', help='Extract expert/mentor expertise from metadata file and order expert/mentor given that information')
     getexpertises.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
@@ -584,27 +721,34 @@ if __name__ == '__main__':
     updateschedule = subparser.add_parser('updateschedule', help='Update schedule from a sheet')
     updateschedule.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
     group = updateschedule.add_mutually_exclusive_group()
-    group.add_argument('-e', '--events', help="Path to event CSV file", action='store_true')
-    group.add_argument('-u', '--url', help="URL to event sheet file", action='store_true')
+    group.add_argument('-sf', '--schedule_fp', help="Path to schedule CSV file")
+    group.add_argument('-su', '--schedule_url', help="URL to schedule sheet file")
     
     
     args = parser.parse_args()
 
     if args.command == 'addprojects':
-        add_projects(args.cohort, args.projects, args.information)
+        if args.project_fp:
+            project_df = pd.read_csv(Path(args.project_fp))
+        else:
+            project_df = pd.read_csv(args.project_url)
+        if args.people_fp:
+            people_df = pd.read_csv(Path(args.people_fp))
+        else:
+            people_df = pd.read_csv(args.people_url)
+        add_projects(args.cohort, project_df, people_df)
     elif args.command == 'createcohort':
         create_cohort(args.cohort)
     elif args.command == 'extractpeople':
-        if args.url:
-            extract_people(pd.read_csv(args.url))
+        if args.people_url:
+            extract_people(pd.read_csv(args.people_url))
         else:
-            information_fp = Path(args.information)
-            extract_people(pd.read_csv(information_fp))
+            extract_people(pd.read_csv(Path(args.people_fp)))
     elif args.command == 'getexpertises':
         get_expertises(args.cohort)
     elif args.command == 'updateschedule':
-        if args.url:
-            event_df = pd.read_csv(args.url)
+        if args.schedule_url:
+            schedule_df = pd.read_csv(args.schedule_url)
         else:
-            event_df = pd.read_csv(Path(args.events))
-        update_schedule(args.cohort, event_df)
+            schedule_df = pd.read_csv(Path(args.schedule_fp))
+        update_schedule(args.cohort, schedule_df)
