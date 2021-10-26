@@ -308,3 +308,22 @@ To order them:
 
 2. Add events to [Google calendar](https://support.google.com/calendar/answer/37118#advanced&zippy=%2Ccreate-or-edit-a-csv-file)
 
+## Create files 
+
+1. Activate the conda environment
+
+   ```
+   $ source activate open-life-science-website
+   ```
+
+   Or alternatively, get locally:
+   - Python 3.*
+   - pyyaml
+   - pandas
+
+2. Run the script which create new cohort files
+
+   ```
+   $ python bin/prepare_website_data.py createcohort \
+      -c <cohort id> \
+   ```

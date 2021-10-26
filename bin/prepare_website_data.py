@@ -262,7 +262,7 @@ def create_empty_schedule():
                 'description': 'Call for applications closed'
             },{ 
                 'date': None,
-                ' description': 'Successful applicants announced'
+                'description': 'Successful applicants announced'
             }],
         'weeks': {}
     }
@@ -290,7 +290,7 @@ def load_schedule(cohort):
                 c['before'] = '%s' % c['before']
             if 'after' in c:
                 c['after'] = '%s' % c['after']
-    return schedule, fp
+    return schedule
 
 
 def dump_schedule(schedule, cohort):
@@ -379,15 +379,15 @@ def update_resource(res, row, people):
     return res
 
 
-def add_event_information(schedule, event_df, people):
+def add_event_information(schedule, schedule_df, people):
     '''
     Load event file as data frame and add information into schedule
 
     :param schedule: dictionary with schedule details
-    :param event_df: Path to event CSV file
+    :param schedule_df: data frame with schedule
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     '''
-    df = (event_df
+    df = (schedule_df
         .rename(columns = {'Start Date': 'date',
             'Start Time': 'time',
             'Duration': 'duration'})
