@@ -410,9 +410,12 @@ def add_event_information(schedule, schedule_df, people):
         if row['Type'] == "Week":
             if schedule['weeks'][w]['start'] != '':
                 if schedule['weeks'][w]['start'] != row['date'].strftime('%B %d, %Y'):
-                    print("Different start date for week %s" % w)
-                    print("In schedule file: %s" % schedule['weeks'][w]['start'])
-                    print("In event file: %s" % row['date'].strftime('%B %d, %Y'))
+                    if schedule['weeks'][w]['start'] is None:
+                        schedule['weeks'][w]['start'] = row['date'].strftime('%B %d, %Y')
+                    else:
+                        print("Different start date for week %s" % w)
+                        print("In schedule file: %s" % schedule['weeks'][w]['start'])
+                        print("In event file: %s" % row['date'].strftime('%B %d, %Y'))
             else:
                 schedule['weeks'][w]['start'] = row['date'].strftime('%B %d, %Y')
         elif row['Type'] in call_types:
