@@ -308,7 +308,7 @@ To order them:
 
 2. Add events to [Google calendar](https://support.google.com/calendar/answer/37118#advanced&zippy=%2Ccreate-or-edit-a-csv-file)
 
-## Create files 
+## Create files for a new cohort
 
 1. Activate the conda environment
 
@@ -327,3 +327,5 @@ To order them:
    $ python bin/prepare_website_data.py createcohort \
       -c <cohort id> \
    ```
+
+3. Update `_config.yml` file to add new cohort in collection
