@@ -26,6 +26,18 @@ collections:
   ols-4:
     permalink: /ols-4/:path/
     output: true
+  ols-5:
+    permalink: /ols-5/:path/
+    output: true
+  ols-6:
+    permalink: /ols-6/:path/
+    output: true
+  ols-7:
+    permalink: /ols-7/:path/
+    output: true
+  ols-8:
+    permalink: /ols-8/:path/
+    output: true
 
 includes_dir: .
 

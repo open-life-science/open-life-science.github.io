@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the 4th cohort of Open Life Science program!
+title: Welcome to the 7th cohort of Open Life Science program!
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg
@@ -9,10 +9,10 @@ photos:
 ---
 
 {% assign people = site.data.people %}
-{% assign projects = site.data.ols-4-projects %}
-{% assign metadata = site.data.ols-4-metadata %}
-{% assign schedule = site.data.ols-4-schedule %}
-{% assign cohort = 'ols-4' %}
+{% assign projects = site.data.ols-7-projects %}
+{% assign metadata = site.data.ols-7-metadata %}
+{% assign schedule = site.data.ols-7-schedule %}
+{% assign cohort = 'ols-7' %}
 
 {% assign all-participants = '' %}
 {% assign all-mentors = '' %}
@@ -50,7 +50,7 @@ photos:
 {% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
 
-# The OLS-4 program
+# The OLS-7 program
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
@@ -110,7 +110,7 @@ At the end of the program, our participants will be able to:
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-<!-- For the third round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-4/projects-participants#participants) with [{{ projects | size }} projects](/ols-4/projects-participants#projects).-->
+<!-- For the third round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-7/projects-participants#participants) with [{{ projects | size }} projects](/ols-7/projects-participants#projects).-->
 
 ## Mentors
 
@@ -125,7 +125,7 @@ Mentors advise and inspire
 ### Pool of mentors
 
 <!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-4-metadata.yaml file -->
+Any modification of the content should be done in the _data/ols-7-metadata.yaml file -->
 
 We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
@@ -170,7 +170,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
 
 
 <!-- Pool of mentors (hidden before cohort starts)
-Any modification of the content should be done in the _data/ols-4-projects.yaml file 
+Any modification of the content should be done in the _data/ols-7-projects.yaml file 
 
 We thank the {{ p-mentors | size }} mentors this round.
 <div class="people">
@@ -199,7 +199,7 @@ A dedicated slack channel will facilitate open discussions among mentors to help
 
 Experts are invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
 
-<!-- Any modification of the content should be done in the _data/ols-4-metadata.yaml file -->
+<!-- Any modification of the content should be done in the _data/ols-7-metadata.yaml file -->
 
 We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round. 
 
@@ -242,7 +242,7 @@ We thank the **{{ metadata.experts | size }} persons who registered to be expert
 </div>
 {% endif %}
 
-A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-4 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
+A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-7 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
 
 {% if all-speakers != '' %}
 ### Speakers during cohort calls
@@ -280,21 +280,21 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 
 # Collaborators
 
-OLS team have established the following collaborations to support organisation specific projects within the OLS-4 cohort:
+OLS team have established the following collaborations to support organisation specific projects within the OLS-7 cohort:
 
-## OLS-4 for EOSC-Life
+## OLS-7 for EOSC-Life
 
-Open Life Science has received the [EOSC-Life Training grant (first round)](https://www.eosc-life.eu/news/4-projects-awarded-funding-within-first-training-open-call/), to train and mentor EOSC-RI members under the collaboration name **OLS-4 for EOSC-Life**. In the simplest terms, [EOSC-Life](https://www.eosc-life.eu/about/) is [13 European life science Research Infrastructures](https://www.eosc-life.eu/about/partners/) making their data FAIR (Findable, Accessible, Interoperable and Reusable) so that researchers can combine resources from multiple RIs for new research funded through our Open Calls and receive support through the variety of additional services we offer, including alignment with relevant standards and policies (GDPR, etc.).
+Open Life Science has received the [EOSC-Life Training grant (first round)](https://www.eosc-life.eu/news/4-projects-awarded-funding-within-first-training-open-call/), to train and mentor EOSC-RI members under the collaboration name **OLS-7 for EOSC-Life**. In the simplest terms, [EOSC-Life](https://www.eosc-life.eu/about/) is [13 European life science Research Infrastructures](https://www.eosc-life.eu/about/partners/) making their data FAIR (Findable, Accessible, Interoperable and Reusable) so that researchers can combine resources from multiple RIs for new research funded through our Open Calls and receive support through the variety of additional services we offer, including alignment with relevant standards and policies (GDPR, etc.).
 
-## OLS-4 for Faculty of Applied Sciences/TNW - TU Delft
+## OLS-7 for Faculty of Applied Sciences/TNW - TU Delft
 
-Under the collaboration name OLS-4 for TNW, Open Life Science has partnered with the [Faculty of Applied Sciences](https://www.tudelft.nl/en/faculty-of-applied-sciences) through the [Faculty Graduate School](https://www.tudelft.nl/en/faculty-of-applied-sciences/research/phd) and the Data Steward, [Dr. Esther Plomp](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact/esther-plomp) at TU Delft.
-This partnership will offer training and mentoring to interested members from the Faculty of Applied Sciences to join the fourth cohort (OLS-4) individually or in teams. They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future. Mentors will be preferably selected within their own discipline, as PhD candidates will be eligible for 5 Discipline-related credits for their Doctoral Education Programme. 
+Under the collaboration name OLS-7 for TNW, Open Life Science has partnered with the [Faculty of Applied Sciences](https://www.tudelft.nl/en/faculty-of-applied-sciences) through the [Faculty Graduate School](https://www.tudelft.nl/en/faculty-of-applied-sciences/research/phd) and the Data Steward, [Dr. Esther Plomp](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact/esther-plomp) at TU Delft.
+This partnership will offer training and mentoring to interested members from the Faculty of Applied Sciences to join the 7th cohort (OLS-7) individually or in teams. They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future. Mentors will be preferably selected within their own discipline, as PhD candidates will be eligible for 5 Discipline-related credits for their Doctoral Education Programme. 
 
-## OLS-4 for Turing
+## OLS-7 for Turing
 
-Under the collaboration name **OLS-4 for Turing**, Open Life Science has partnered with [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way), a project within the [Tools, Practices and Systems Research Program](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems) in [The Alan Turing Institute](https://www.turing.ac.uk/).
-This partnership will offer training and mentoring to interested members from Turing and _The Turing Way_ communities to join the third cohort (OLS-4) individually or in teams.
+Under the collaboration name **OLS-7 for Turing**, Open Life Science has partnered with [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way), a project within the [Tools, Practices and Systems Research Program](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems) in [The Alan Turing Institute](https://www.turing.ac.uk/).
+This partnership will offer training and mentoring to interested members from Turing and _The Turing Way_ communities to join the third cohort (OLS-7) individually or in teams.
 They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future.
 Mentors will be preferably selected from The Alan Turing Institute but there will be a possibility to match projects with the right mentor from the broader cohort.
 The roles and benefits for the participants and the eligibility of proposed projects will be as described for our main program.
@@ -303,7 +303,7 @@ This program will provide a unique opportunity to individuals and teams in these
 
 # Resources
 
-The resources available to the OLS-4 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
+The resources available to the OLS-7 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
 
 ## Calls
 
@@ -361,7 +361,7 @@ If a mentor has to step back from the program for any reason, please communicate
 ### Coworking calls
 
 The coworking sessions take place in weeks during which there is not cohort call.
-These calls are optional but highly valuable for enhancing your understanding of the materials discussed in OLS-4 with the help of other participants.
+These calls are optional but highly valuable for enhancing your understanding of the materials discussed in OLS-7 with the help of other participants.
 
 During these calls,
 - Participants can work together on the assignments
@@ -377,20 +377,20 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## Speaker Guide
 
-We have [a short guide for invited speakers]({% link _ols-4/speaker-guide.md %}).
+We have [a short guide for invited speakers]({% link _ols-7/speaker-guide.md %}).
 
 ## Communication channels
 
 ### Communication within the cohort members
 
-#### OLS-4 Slack Channel
+#### OLS-7 Slack Channel
 
-A dedicated Slack channel has been setup to facilitate real-time as well as asynchronous communication among the all members of the OLS-4 cohort.
+A dedicated Slack channel has been setup to facilitate real-time as well as asynchronous communication among the all members of the OLS-7 cohort.
 A personal invitation link will be shared with the participants via an email.
 
-#### OLS-4 private Google group
+#### OLS-7 private Google group
 
-Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-4 Google group.
+Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-7 Google group.
 
 An invitation is sent to all participants (mentees, mentors, etc) at the beginning of the program. If it is not the case, please [contact the team](mailto:{{ site.email }})
 

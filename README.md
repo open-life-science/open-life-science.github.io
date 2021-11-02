@@ -175,7 +175,7 @@ Add many people in a row to `_data/people.yaml`:
 4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`
 
    ```
-   $ python bin/extractpeople.py -i <path to csv file>
+   $ python bin/prepare_website_data.py extractpeople -i <path to csv file>
    ```
 
 ## Add a partner/sponsor
@@ -212,6 +212,28 @@ In this file, for each week, it is listed the timeframe and the different calls 
    - `speaker`: username in `_data/people.yaml`, if slides
    - `link`
 
+## Update schedule automatically
+
+1. Create a spreadsheet or CSV with columns:
+   - `Week`
+   - `Start Date`
+   - `Start Time`
+   - `End Date`
+   - `Duration`
+   - `Title`
+   - `Type`
+   - `Learning objectives`
+   - `Slides`
+   - `Confirmed speaker`
+   - `Note link`
+   - `Recording`
+   - `Hosts`
+   - `Facilitators`
+   - `Before`
+   - `After`
+
+2. Adapt the script in `bin/update_schedule.sh` with cohort id and link to CSV export of the spreadsheet
+
 ## Order experts and possible mentors by expertise areas
 
 In metadata file for cohort, experts and possible mentors can be ordered by expertise area to be display in cohort page given these areas. 
@@ -232,7 +254,7 @@ To order them:
 2. Run the script which sort expertise and save information in metadata file
 
    ```
-   $ python bin/sortexpertises.py -c <cohort id>
+   $ python bin/prepare_website_data.py sortexpertises -c <cohort id>
    ```
 
 ## Add projects
@@ -261,14 +283,14 @@ To order them:
 4. Run the script which extract project information from a CSV file and add them in project file
 
    ```
-   $ python bin/addprojects.py \
+   $ python bin/prepare_website_data.py addprojects \
       -c <cohort id> \
       -p <path to csv file with projects> \
       -i <path to csv file with participants> \
       -l <path to log file>
    ```
 
-## Add events to Google calendar and schedule
+## Add events to Google calendar
 
 1. Create CSV file with
    - `Week`
@@ -286,7 +308,9 @@ To order them:
 
 2. Add events to [Google calendar](https://support.google.com/calendar/answer/37118#advanced&zippy=%2Ccreate-or-edit-a-csv-file)
 
-3. Activate the conda environment
+## Create files for a new cohort
+
+1. Activate the conda environment
 
    ```
    $ source activate open-life-science-website
@@ -297,11 +321,11 @@ To order them:
    - pyyaml
    - pandas
 
-4. Run the script which add events to schedule file
+2. Run the script which create new cohort files
 
    ```
-   $ python bin/addevents.py \
+   $ python bin/prepare_website_data.py createcohort \
       -c <cohort id> \
-      -e <path to csv file with event csv> \
-      -l <path to log file>
    ```
+
+3. Update `_config.yml` file to add new cohort in collection

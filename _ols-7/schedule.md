@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OLS-4 schedule
+title: OLS-7 schedule
 image: https://images.unsplash.com/photo-1435527173128-983b87201f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80
 photos:
   name: Eric Rothermel
@@ -8,7 +8,6 @@ photos:
   url: https://unsplash.com/photos/FoKO4DpXamQ
 ---
 
-{% assign schedule = site.data.ols-4-schedule %}
-{% assign cohort = 'ols-4' %}
-
+{% assign schedule = site.data.ols-7-schedule %}
+{% assign cohort = 'ols-7' %}
 {% include _includes/schedule.md %}
