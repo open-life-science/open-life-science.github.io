@@ -233,21 +233,6 @@ alexwlchan:
   pronouns: they/she
   twitter: alexwlchan
   website: https://alexwlchan.net
-lalmehlisy:
-  affiliation: King Abdullah International Medical Research Center (KAIMRC)
-  bio: I am a Research Lab Technician in KAIMRC working on Metagenomics-based drug discovery 
-    Project. I am learning about how to apply Open Science practices in my reserach while 
-    at the same time simplify them and make them more accessible to my community.
-  city: Riyadh
-  country: Saudi Arabia
-  expertise:
-  - Metagenomics
-  - Open education
-  - Community building
-  first-name: Leena
-  last-name: AlMehlisy
-  pronouns: she/her
-  twitter: LALmehlisy
 ali-humayun:
   bio: I am 23 years old and currently working at a sports media company as an editor.
     I graduated in October 2020 from UCL in MSc Digital Humanities and have a previous
@@ -2669,6 +2654,21 @@ lauracarter:
   pronouns: she/her
   twitter: LauraC_rter
   website: https://lauracarter.github.io
+lalmehlisy:
+  affiliation: King Abdullah International Medical Research Center (KAIMRC)
+  bio: I am a Research Lab Technician in KAIMRC working on Metagenomics-based drug discovery 
+    Project. I am learning about how to apply Open Science practices in my reserach while 
+    at the same time simplify them and make them more accessible to my community.
+  city: Riyadh
+  country: Saudi Arabia
+  expertise:
+  - Metagenomics
+  - Open education
+  - Community building
+  first-name: Leena
+  last-name: AlMehlisy
+  pronouns: she/her
+  twitter: LALmehlisy
 lauracion:
   affiliation: University Of Buenos Aires - Conicet
   bio: I am a tenured adjunct researcher leading a health data science group. I also
