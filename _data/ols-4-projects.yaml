@@ -321,16 +321,16 @@
   name: Environmental mapping for urban farming project
   participants:
   - biscuitnapper
-- description: "We are working on establishing a "Research Hub" in KSAU-HS/KAIMRC. This hub is \
+- description: "We are working on establishing a Research Hub in the National Guard. This hub is\
     \ a virtual platform linked to TDM to support academics (particularly young Female researchers),\
-    \ scientists, and physicians. It aims to bridge the boundaries between research, \
-    \ cross-subject collaboration, and establish a community of like-minded people. \
-    \ It will work towards increasing the visibility of ECRs and invite them to \
-    \ apply Open Science practices in their reserach. A part of this "Research Hub" is\
+    \ scientists, and physicians. It aims to bridge the boundaries between research,\
+    \ cross-subject collaboration, and establish a community of like-minded people.\
+    \ It will work towards increasing the visibility of ECRs and invite them to\
+    \ apply Open Science practices in their reserach. A part of this Research Hub is\
     \ to establish a Citizen Science Soil Collection program in\
     \ Saudi Arabia. This project aims to adapt the Citizen Science approach in Saudi\
     \ Arabia to bring together researchers with citizens. Our lab focus is the use\
-    \ of metagenomics of Natural Products (NPs) and it's based on King Abdullah International\
+    \ of metagenomics of Natural Products (NPs) and it is based on King Abdullah International\
     \ Medical Research Center (KAIMRC). Metagenomics of NPs is an innovative approach\
     \ that utilizes next-generation sequencing to study microorganisms via the analysis\
     \ of their DNA acquired directly from an environmental sample. The screening of\
@@ -342,7 +342,7 @@
     \ to adapt this approach in our current project. This project will engage citizen\
     \ scientists in collecting and examining soil samples from various regions in\
     \ Saudi Arabia and bring awareness about the role of Citizen Science in research as
-    \ part of the "Research Hub"."
+    \ part of the Research Hub."
   keywords:
   - citizen science
   - therapeutics
