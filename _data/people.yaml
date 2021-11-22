@@ -225,7 +225,15 @@ alexandra-holinski:
   last-name: Holinski
   orcid: 0000-0003-2321-5568
   pronouns: She/her
-LAlmehlisy:
+alexwlchan:
+  affiliation: Wellcome Collection
+  country: United Kingdom
+  first-name: Alex
+  last-name: Chan
+  pronouns: they/she
+  twitter: alexwlchan
+  website: https://alexwlchan.net
+lalmehlisy:
   affiliation: King Abdullah International Medical Research Center (KAIMRC)
   bio: I am a Research Lab Technician in KAIMRC working on Metagenomics-based drug discovery 
     Project. I am learning about how to apply Open Science practices in my reserach while 
@@ -240,14 +248,6 @@ LAlmehlisy:
   last-name: AlMehlisy
   pronouns: she/her
   twitter: LALmehlisy
-alexwlchan:
-  affiliation: Wellcome Collection
-  country: United Kingdom
-  first-name: Alex
-  last-name: Chan
-  pronouns: they/she
-  twitter: alexwlchan
-  website: https://alexwlchan.net
 ali-humayun:
   bio: I am 23 years old and currently working at a sports media company as an editor.
     I graduated in October 2020 from UCL in MSc Digital Humanities and have a previous
