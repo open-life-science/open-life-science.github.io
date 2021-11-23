@@ -2617,6 +2617,21 @@ kswhitney:
   pronouns: she/her
   twitter: kstackwhitney
   website: https://rit.edu/sweetlab
+lalmehlisy:
+  affiliation: King Abdullah International Medical Research Center (KAIMRC)
+  bio: I am a Research Lab Technician in KAIMRC working on Metagenomics-based drug discovery 
+    Project. I am learning about how to apply Open Science practices in my reserach while 
+    at the same time simplify them and make them more accessible to my community.
+  city: Riyadh
+  country: Saudi Arabia
+  expertise:
+  - Metagenomics
+  - Open education
+  - Community building
+  first-name: Leena
+  last-name: AlMehlisy
+  pronouns: she/her
+  twitter: LALmehlisy
 landimi2:
   affiliation: International Livestock Research Institute
   bio: I am an EANBiT scholar from Pwani University with an MSc in Bioinformatics.

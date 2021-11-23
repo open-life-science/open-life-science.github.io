@@ -218,9 +218,7 @@
     account, and a slack channel in the global RSE slack. This project is highly inspired
     from the [Society of Research Software Engineering](https://society-rse.org/)
     in the UK.  Saranjeet Kaur Bhogal is the primary applicant of this project, and
-    the one who initiated the project, and came up with the idea. Batool Almarzouq
-    will not be actively enrolling in the project, but she will be helping on the
-    side
+    the one who initiated the project, and came up with the idea.
   keywords:
   - research community
   - research software engineering
@@ -323,10 +321,17 @@
   name: Environmental mapping for urban farming project
   participants:
   - biscuitnapper
-- description: "We want to establish a Citizen Science Soil Collection program in\
+- description: "We are working on establishing a Research Hub in the National Guard. 
+    \ This hub is a virtual platform linked to TDM to support academics\
+    \ (particularly young Female researchers), scientists, and physicians.\
+    \ It aims to bridge the boundaries between research, cross-subject collaboration,\
+    \ and establish a community of like-minded people.\
+    \ It will work towards increasing the visibility of ECRs and invite them to\
+    \ apply Open Science practices in their reserach. A part of this Research Hub is\
+    \ to establish a Citizen Science Soil Collection program in\
     \ Saudi Arabia. This project aims to adapt the Citizen Science approach in Saudi\
     \ Arabia to bring together researchers with citizens. Our lab focus is the use\
-    \ of metagenomics of Natural Products (NPs) and it's based on King Abdullah International\
+    \ of metagenomics of Natural Products (NPs) and it is based on King Abdullah International\
     \ Medical Research Center (KAIMRC). Metagenomics of NPs is an innovative approach\
     \ that utilizes next-generation sequencing to study microorganisms via the analysis\
     \ of their DNA acquired directly from an environmental sample. The screening of\
@@ -334,10 +339,11 @@
     \ identifying new compounds with unique cellular targets which are potentially\
     \ useful as lead structures for the development of new therapeutics. \n\nHowever,\
     \ there is hardly any known project which utilises Citizen Science in Saudi Arabia.\
-    \  Therefore, we are collaborating with Open Science community Saudi Arabia (OSASA)\
+    \ Therefore, we are collaborating with Open Science community Saudi Arabia (OSASA)\
     \ to adapt this approach in our current project. This project will engage citizen\
     \ scientists in collecting and examining soil samples from various regions in\
-    \ Saudi Arabia and bring awareness about the role of Citizen Science in research."
+    \ Saudi Arabia and bring awareness about the role of Citizen Science in research as
+    \ part of the Research Hub."
   keywords:
   - citizen science
   - therapeutics
@@ -350,6 +356,7 @@
   participants:
   - mai-alajaji
   - batoolmm
+  - lalmehlisy
 - description: 'I aim to develop a Python library which allows to call and apply several
     measures of emergence and complexity to either empirical or simulated data, and
     provide guidance for comparisons among and conclusions about different measures.
