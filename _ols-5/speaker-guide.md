@@ -6,7 +6,6 @@ photos:
   name: Visuals on Unsplash
   license: CC-0
   url: https://unsplash.com/photos/Y4qzW3AsvqI
-redirect_from: /ols-speaker-guide
 ---
 
 
@@ -23,7 +22,6 @@ Malvika Sharan, Yo Yehudi and Emmy Tsang. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
 We will be running our [5th cohort]({% link _ols-5/projects-participants.md %})
-(Sep 2021 - Jan 2022).
 A complete syllabus of this cohort can be found [here]({% link _ols-5/schedule.md %}).
 
 # About our Code of Conduct
