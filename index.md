@@ -22,17 +22,15 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 ## Applications
 
-<!--
-[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4){:.button .is-link .is-fullwidth}
+[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before July 19, 2021 to allow activation of your Open Review profile as described in the [OLS-4 application guidelines and templates](https://github.com/open-life-science/application-forms).*
--->
+*Please register on Open Review before January 7, 2022 to allow activation of your Open Review profile as described in the [OLS-5 application guidelines and templates](https://github.com/open-life-science/application-forms).*
 
-OLS-4 runs from September 2021 to January 2021. Applications for OLS-5 will open in late 2021 or early 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when OLS-5 applications open. 
+OLS-5 runs from February to June 2022. Applications for OLS-6 will open in mid 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open. 
 
 ### Timeline
 
-{% assign schedule = site.data.ols-4-schedule %}
+{% assign schedule = site.data.ols-5-schedule %}
 {% include _includes/timeline.md %}
 
 Have a question or need any support to join this cohort? 
@@ -88,6 +86,22 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-3-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
 {% assign ols-3-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
 
+<!-- OLS-4 -->
+{% assign ols-4-projects = site.data.ols-4-projects %}
+{% assign all-participants = '' %}
+{% assign all-mentors = '' %}
+{% for project in ols-4-projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-4-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign ols-4-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+
 Participants join this program with a project that they either are already working on or want to develop during this program individually or in teams. 
 Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
@@ -95,6 +109,7 @@ Project ideas can range from solving technical questions to creating an open d
 - [OLS-1]({% link ols-1.md %}) from January to April 2020, [{{ ols-1-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects)
 - [OLS-2]({% link ols-2.md %}) from September to December 2020, [{{ ols-2-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ ols-2-projects | size }} projects](/ols-2/projects-participants#projects)
 - [OLS-3]({% link ols-3.md %}) from February to May 2021, [{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects)
+- [OLS-4]({% link ols-4.md %}) from September 2021 to Janauary 2022, [{{ ols-4-participants | size }} participants](/ols-4/projects-participants#participants) with [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects)
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
 
