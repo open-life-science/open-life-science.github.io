@@ -15,10 +15,10 @@ photos:
 OLS-4 is approaching its last cohort call, which means that we are preparing for the graduation of our current cohort 
 and setting things up for the OLS-5 in 2022.
 
-## Graduations - you're all invited!
+## OLS-4 Graduations - You're All Invited!
 
 Our amazing project leads for OLS-4 brought over 20 projects from around the world and have been working hard amid the pandemic to advance their knowledge in open and reproducible research practices while establishing themselves 
-as experts in their fields ([see our projects and participants]({% link _ols-4/projects-participants.md %}). 
+as experts in their fields ([see our projects and participants]({% link _ols-4/projects-participants.md %})). 
 We are lucky enough to witness their projects and network grow while working alongside our mentors, expert speakers, 
 and call facilitators.
 
