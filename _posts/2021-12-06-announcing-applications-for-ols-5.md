@@ -30,11 +30,11 @@ These calls will be hosted for the OLS members via Zoom and livestreamed for eve
 
 **Please register for one (or all) graduation calls via the [Eventbrite pages](https://www.eventbrite.com/cc/ols-4-graduations-44929)**.
 - Slot 1: 18 January, Tuesday - 09:00 - 10:00 AM UTC
-    - ⏰ [In your timezone]((https://arewemeetingyet.com/London/2022-01-18/09:00/week-16-ols-4-grad1))
+    - ⏰ [In your timezone](https://arewemeetingyet.com/London/2022-01-18/09:00/week-16-ols-4-grad1)
 - Slot 2: 19 January, Wednesday - 14:00 - 15:00 UTC
-    - ⏰ [In your timezone]((https://arewemeetingyet.com/London/2022-01-19/14:00/week-16-ols-4-grad1))
+    - ⏰ [In your timezone](https://arewemeetingyet.com/London/2022-01-19/14:00/week-16-ols-4-grad1)
 - Slot 3: 20 January, Thursday - 17:00 - 18:00 UTC
-    - ⏰ [In your timezone]((https://arewemeetingyet.com/London/2022-01-20/17:00/week-16-ols-4-grad1))
+    - ⏰ [In your timezone](https://arewemeetingyet.com/London/2022-01-20/17:00/week-16-ols-4-grad1)
 
 We especially welcome you if you are:
 - friends, family, colleagues, of the current project leaders who are graduating.
