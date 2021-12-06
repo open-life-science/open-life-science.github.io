@@ -9,7 +9,7 @@ authors:
 image: https://images.unsplash.com/photo-1519070994522-88c6b756330e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1597&q=80
 photos:
   name: Photo by Honey Yanibel Minaya Cruz on Unsplash
-  url: https://unsplash.com/@noneyyanibel
+  url: https://unsplash.com/@honeyyanibel
 ---
 
 OLS-4 is approaching its last cohort call, which means that we are preparing for the graduation of our current cohort 
