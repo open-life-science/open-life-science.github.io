@@ -43,7 +43,7 @@ We especially welcome you if you are:
 ## Call for application for OLS-5 is NOW OPEN!
 
 Interested in applying for the next round? We can't wait to see your application! 
-Please submit your application via [OpenReview](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5) before the end of the day on **15 January 2022** (hard deadline).
+Please submit your application via [OpenReview](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5) before the end of the day on **15 January 2022** (hard deadline). **Important note:** The deadline for registering for OpenReview is 12 January, as all OpenReview accounts are approved manually. 
 To learn about the timeline, process and details for the OLS-5, visit our homepage: [openlifesci.org/](https://openlifesci.org/) and 
 [GitHub repo with application guidelines](https://github.com/open-life-science/application-forms).
 
