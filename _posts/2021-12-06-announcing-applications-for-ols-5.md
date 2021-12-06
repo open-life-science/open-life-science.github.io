@@ -27,6 +27,8 @@ We invite you to come and watch the [live-streamed calls on YouTube]({{site.yout
 hour-long sessions, and available on YouTube after the event if you can't attend in real-time. 
 
 These calls will be hosted for the OLS members via Zoom and livestreamed for everyone on YouTube with real-time captions using Otter.ai.
+
+**Please register for one (or all) graduation calls via the [Eventbrite pages](https://www.eventbrite.com/cc/ols-4-graduations-44929)**.
 - Slot 1: 18 January, Tuesday - 09:00 - 10:00 AM UTC
     - ⏰ [In your timezone]((https://arewemeetingyet.com/London/2022-01-18/09:00/week-16-ols-4-grad1))
 - Slot 2: 19 January, Wednesday - 14:00 - 15:00 UTC
@@ -42,7 +44,7 @@ We especially welcome you if you are:
 
 ## Call for application for OLS-5 is NOW OPEN!
 
-Interested in applying for the next round? We can't wait to see your application! 
+Interested in applying for the next round? We can't wait to see your project proposal! 
 Please submit your application via [OpenReview](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5) before the end of the day on **15 January 2022** (hard deadline). **Important note:** The deadline for registering for OpenReview is 12 January, as all OpenReview accounts are approved manually. 
 To learn about the timeline, process and details for the OLS-5, visit our homepage: [openlifesci.org/](https://openlifesci.org/) and 
 [GitHub repo with application guidelines](https://github.com/open-life-science/application-forms).
