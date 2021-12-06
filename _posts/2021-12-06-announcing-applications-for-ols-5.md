@@ -48,6 +48,6 @@ To learn about the timeline, process and details for the OLS-5, visit our homepa
 [GitHub repo with application guidelines](https://github.com/open-life-science/application-forms).
 
 
-We encourage you to check out the OLS-2 graduation live streams or [watch the OLS-1 graduations on YouTube](https://www.youtube.com/playlist?list=PL1CvC6Ez54KB6U9GtjOjwESMurHgT41qM) to get a sense of what the project will be like.
+We encourage you to watch the OLS graduations from last three cohorts [on YouTube](https://www.youtube.com/openlifesci) to get a sense of what the project will be like (direct link to [OLS-3 graduation calls](https://www.youtube.com/playlist?list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA)).
 
 For OLS-5 we'll be offering micro-grants as suggested for the [OLS-3 and OLS-4]({% link _posts/2020-11-23-micro-grants-in-2021-ols-3-ols-4.md %}) to help grow participation and inclusion, and to support budding new projects. More details regarding the budget will be shared in a separate blog post.
