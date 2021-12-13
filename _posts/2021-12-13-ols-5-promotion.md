@@ -30,8 +30,8 @@ OLS upskills individuals in open and reproducible research and empowers them to 
 
 This program will provide a unique opportunity for individuals and teams to integrate best practices for open and reproducible research in new or ongoing projects. We will also offer microgrants to our participants to ensure that they can equitably participate in the program (see [this post for details](https://openlifesci.org/posts/2020/11/23/micro-grants-in-2021-ols-3-ols-4/)). More information regarding the [roles and benefits for the mentees](https://openlifesci.org/about#mentees) and [eligibility of a proposed project](https://openlifesci.org/index#projects) can be found on the website.
     
-In addition to hosting the launch webinar to share about the OLS-5 plans and application process, we will also host an "Application Clinic** On 7 January 2022, 10:00 am UTC ([see in your timezone](https://arewemeetingyet.com/London/2022-01-07/10:00/OLS-5-clinic)).
-With this additional call, we want to offer extra support for folks interested in joining OLS-5 but need some feedback on their proposal, or have any further questions (see [Notes]](https://pad.sfconservancy.org/p/ols-5-launch)).
+In addition to hosting the launch webinar to share about the OLS-5 plans and application process, we will also host an **Application Clinic** On 7 January 2022, 10:00 am UTC ([see in your timezone](https://arewemeetingyet.com/London/2022-01-07/10:00/OLS-5-clinic)).
+With this additional call, we want to offer extra support for folks interested in joining OLS-5 but need some feedback on their proposal, or have any further questions (see [Notes](https://pad.sfconservancy.org/p/ols-5-launch)).
 
 A recording from a previous webinar is available on our YouTube channel ([video link](https://youtu.be/rksUzRDFn20)).
 
