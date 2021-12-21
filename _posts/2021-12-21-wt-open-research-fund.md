@@ -22,7 +22,7 @@ Our main goal with this proposal is to conduct a research-based assessment, deco
 
 1. research-based evaluation and enhancement of the OLS curriculum, training materials, mentoring formats and value-based approach to local community development,
 1. incentivised integration of contextual (sociotechnical and cultural) knowledge of mentors and project leads in the open science project they develop in the program,
-1. enhanced representation and equitable participation of health researchers and community builders from the Global South in a shared vision for the global open science through collaboration,
+1. targeted support and equitable participation of health researchers and community builders from underrepresented communities in a shared vision for the global open science through collaboration,
 1. assessment of the long-term impact of OLS on the careers of the OLS participants and adoption of contextualised open science practices in research work in their regional contexts across low- and middle-income, as well as high-income countries, and
 1. publication of a series of reports capturing different outputs, building an open source evidence base and inviting support for the sustainability of OLS over the next 5 years.
 
