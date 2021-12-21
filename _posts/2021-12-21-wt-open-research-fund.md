@@ -28,7 +28,7 @@ Our main goal with this proposal is to conduct a research-based assessment, deco
 
 ## Funded Position: Programme Coordinator and Researcher
 
-To maximise the impact of our project, we will recruit a staff member to join the OLS team as a Programme Coordinator and Researcher. They will also provide administrative support such as by helping ensure transparent communication with all the stakeholders, participating in outreach efforts, processing feedback from the cohorts and developing reports to share openly. Working with the OLS leadership team, they will also co-lead the impact studies and evaluation of OLS training and resources. A job announcement will be made in February 2022. 
+To maximise the impact of our project, we will recruit a staff member to join the OLS team as a Programme Coordinator and Researcher. They will also provide administrative support such as by helping ensure transparent communication with all the stakeholders, participating in outreach efforts, processing feedback from the cohorts and developing reports to share openly. Working with the OLS leadership team, they will also co-lead the impact studies and evaluation of OLS training and resources. A job vacancy will be advertised in February 2022. 
 
 ## Steering Committee
 
