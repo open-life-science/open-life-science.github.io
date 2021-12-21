@@ -42,4 +42,4 @@ We are looking to establish partnerships with mission-aligned organisations and 
 
 Thanks to all the OLS members who have supported the last four cohorts. We are very grateful for your support and engagement in the programme. We are proud of what we have done together and look forward to sharing this space for learning and growth in the coming years.
 
-For any inquiries regarding the OLS program, upcoming job announcement and/or partnership, please email [team@openlifesci.org](mailto: team@openlifesci.org).
+For any inquiries regarding the OLS program, upcoming job announcement and/or partnership, please email [team@openlifesci.org](mailto:team@openlifesci.org).
