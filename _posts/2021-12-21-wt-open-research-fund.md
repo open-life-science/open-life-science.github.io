@@ -6,7 +6,7 @@ authors:
 - emmyft
 - malvikasharan
 - yochannah
-image: https://images.unsplash.com/photo-1533930086187-0fc58e5a92e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80
+image: ../images/2021-12-21-wt-open-research-fund-header.png
 photos:
   name: Photo by Elena Koycheva on Unsplash
   url: https://unsplash.com/@lenneek
