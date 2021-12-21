@@ -36,7 +36,7 @@ Drawing from previous graduates, existing collaborators and volunteers in the OL
 
 ## Collaborating with Mission-Aligned Organisations
 
-We are looking to establish partnerships with mission-aligned organisations and projects interested in collaborating with OLS and adopting our training models in their institutions. This also includes funders seeking to support open science training for their funded projects or interested in supporting OLS cohort activities. Fruitful partnerships will enable the growth of OLS by helping explore new impact pathways to reach communities, particularly those currently underrepresented in open science.
+We are looking to establish partnerships with mission-aligned organisations and projects interested in collaborating with OLS and adopting our training models in their institutions. This includes funder and research institutes seeking to support open science training for their funded projects or interested in supporting OLS cohort activities. Fruitful partnerships will enable the growth of OLS by helping explore new impact pathways to reach communities, particularly those currently underrepresented in open science. To express early interest in a partnership, please email team@openlifesci.org.
 
 ## Thank you! Connect with us.
 
