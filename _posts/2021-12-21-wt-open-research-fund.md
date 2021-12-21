@@ -32,7 +32,7 @@ To maximise the impact of our project, we will recruit a staff member to join th
 
 ## Steering Committee
 
-Drawing from previous graduates, existing collaborators and volunteers in the OLS community, we will establish a steering committee. The committee will be engaged in co-creating a sustainability model for OLS beyond the lifetime of this funding as well as beyond the mentoring period of OLS projects (potentially in their local communities). The OLS team rely on continuous feedback from the OLS community and support to construct these pathways such that they are and will remain meaningful for them.
+Drawing from previous graduates, existing collaborators and volunteers in the OLS community, we will establish a steering committee. The committee will be engaged in co-creating a sustainability model for OLS beyond the lifetime of this funding as well as beyond the mentoring period of OLS projects (potentially in their local communities). The OLS team will continue to seek feedback from the OLS community to improve pathways for engagement that are meaningful for all OLS participants.
 
 ## Collaborating with Mission-Aligned Organisations
 
