@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OLS-5 Launch Webinar and Promotional Materials!
+title: Open Life Science is awarded Wellcome Trust Open Research Fund 2021
 authors:
 - bebatut
 - emmyft
@@ -11,8 +11,6 @@ photos:
   name: Photo by Elena Koycheva on Unsplash
   url: https://unsplash.com/@lenneek
 ---
-
-# Open Life Science is awarded Wellcome Trust Open Research Fund 2021
 
 We are delighted to share that Wellcome Trust has awarded the Open Research Fund to Open Life Science (OLS) to enable research and sustainability of the program for the next two years. Under the title **Systematic evaluation of community development through open science training and incentivising contextual mentorship in health research**, OLS was granted **GBP 99,999** to create a funded position for a programme coordinator and researcher, as well as pay for the overhead cost for the next four cohorts. 
 
