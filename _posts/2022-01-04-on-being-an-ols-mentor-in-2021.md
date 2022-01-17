@@ -9,7 +9,7 @@ photos:
   url: https://estherplomp.github.io
 ---
 
-*This post is guest-authored by Esther Plomp, OLS-3 and 4 mentor.
+*This post is guest-authored by Esther Plomp, OLS-3 and 4 mentor.*
 
 ## Open Life Science programme
 The [Open Life Science programme (OLS)](https://openlifesci.org) is a mentoring and training programme for Open Science ambassadors. It is a 16-week long personal mentorship and cohort-based training, where participants of this program will:
