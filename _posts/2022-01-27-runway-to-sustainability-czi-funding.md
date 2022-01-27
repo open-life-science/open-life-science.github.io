@@ -43,6 +43,6 @@ For all of these - please do contact team@openlifesci.org to set up a chat!
 
 We’re delighted to be able to direct paid staff time to looking forwards, rather than merely existing in the day-to-day to run the program, and we wouldn’t have been able to do this without the generous grant from CZI. Huge thanks in particular to Carly Strasser, Dario Taraborelli, and everyone on the CZI Open Science team who recognise the importance of both training and mentorship in open research practices, as well as providing well-needed financial stability to initiatives that previously have primarily been volunteer efforts. And as always - thank you to our community of mentors, experts, project leads, co-facilitators, partners and friends, who have supported and shaped OLS, tolerated our blunders and sustained our growth.
 
-Our grant application documentation, including budget, is available on Zenodo. Please cite them as: Open Life Science Team. (2022). Open Life Science Proposal for the next phase of funding and support from the Chan Zuckerberg Initiative: 2021 project report. Zenodo. https://doi.org/10.5281/zenodo.5907922
+Our grant application documentation, including a budget plan, is available on Zenodo. Please cite them as: Open Life Science Team. (2022). Open Life Science Proposal for the next phase of funding and support from the Chan Zuckerberg Initiative: 2021 project report. Zenodo. https://doi.org/10.5281/zenodo.5907922
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5907922.svg)](https://doi.org/10.5281/zenodo.5907922)
