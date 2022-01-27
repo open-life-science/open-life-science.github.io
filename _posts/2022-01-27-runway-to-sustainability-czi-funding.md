@@ -12,7 +12,7 @@ photos:
   url: https://unsplash.com/@julianhochgesang
 ---
 
-OLS is absolutely delighted to share the news that as of January 2022, the Chan Zuckerberg Initiative has awarded OLS a total of $574,945.30 USD over the next two years. This grant will provide OLS with a truly valuable opportunity to improve sustainability for the organisation and community, and allow enough time to focus on planning for the longer term.
+OLS is absolutely delighted to share the news that as of January 2022, the Chan Zuckerberg Initiative has awarded OLS a total of USD 574,945.30 over the next two years. This grant will provide OLS with a truly valuable opportunity to improve sustainability for the organisation and community, and allow enough time to focus on planning for the longer term.
 
 Activities over 2022 and 2023 will include:
 
