@@ -18,7 +18,7 @@ Activities over 2022 and 2023 will include:
 
 1. **Four open research mentoring and training cohorts**: OLS-5 applications have closed, and we will run OLS-6 in the second half of 2022, followed by OLS-7 and OLS-8 in 2023. As in the last cohorts, OLS will continue to cater to researchers and the open-research curious from all backgrounds.
 
-2. **New Open Source Software module to the OLS curriculum**: - OLS team will co-design a new module on Open Source Software to be delivered as an additional skill-up enhancement for those who have software and code-related projects and wish to attend it. 
+2. **New Open Source Software module in the OLS curriculum**: OLS team will co-design a new module on Open Source Software to be delivered as an additional skill-up enhancement for those who have software and code-related projects and wish to attend it. 
 
 3. **Sustainability and business model planning**: Until recently, OLS was fully volunteer-driven. For cohorts 3 and 4, we were able to offer small payments in the form of honoraria to some of our mentors and call facilitators. This will be a core offering over 2022 and 2023, as well as dedicated time to pay the OLS core team to work on OLS.
 
