@@ -16,7 +16,7 @@ OLS is absolutely delighted to share the news that as of January 2022, the Chan 
 
 Activities over 2022 and 2023 will include:
 
-1. **Four open research mentoring and training cohorts**: OLS-5 applications have closed, and we will run OLS-6 in the second half of 2022, followed by OLS-7 and OLS-8 in 2023.
+1. **Four open research mentoring and training cohorts**: OLS-5 applications have closed, and we will run OLS-6 in the second half of 2022, followed by OLS-7 and OLS-8 in 2023. As in the last cohorts, OLS will continue to cater to researchers and the open-research curious from all backgrounds.
 
 2. **New Open Source Software module to the OLS curriculum**: - OLS team will co-design a new module on Open Source Software to be delivered as an additional skill-up enhancement for those who have software and code-related projects and wish to attend it. 
 
