@@ -28,7 +28,7 @@ While we’ve been a registered company for some time now, we’re having to do 
 
 - **Stepping up: an Executive Director**: We are extremely delighted to announce that Yo Yehudi will join OLS as Executive Director starting from February 1st, to help drive the initiatives in this grant. The remaining members of the OLS Core Team (Emmy, Bérénice, Malvika) will also be recompensed to work on various components of OLS in different capacities.
 
-- **Establishing collaborations**: A core part of our sustainability planning will be working with and embracing other organisations interested in open research - organisations that might benefit from open research training and mentoring, including tailored inhouse deep-dives. It’s also essential to us that our core experience of OLS remain free and accessible to all, and that we retain focus on qualitative interactions, equity, and a global network.
+- **Establishing collaborations**: A core part of our sustainability planning will be working with and embracing other organisations interested in open research - organisations that might benefit from open research training and mentoring, including tailored in-house deep-dives. It’s also essential to us that our core experience of OLS remains free and accessible to all, and that we retain focus on qualitative interactions, equity, and a global network.
 
 **How can you be part of this work?**
 
