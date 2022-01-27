@@ -20,7 +20,7 @@ Activities over 2022 and 2023 will include:
 
 2. **New Open Source Software module to the OLS curriculum**: - OLS team will co-design a new module on Open Source Software to be delivered as an additional skill-up enhancement for those who have software and code-related projects and wish to attend it. 
 
-3. **Sustainability and business model planning**: Until recently, OLS was fully volunteer driven. For cohorts 3 and 4, we were able to offer small payments in the form of honoraria to some of our mentors and call facilitators. This will be a core offering over 2022 and 2023, as well as dedicated time to pay the OLS core team to work on OLS.
+3. **Sustainability and business model planning**: Until recently, OLS was fully volunteer-driven. For cohorts 3 and 4, we were able to offer small payments in the form of honoraria to some of our mentors and call facilitators. This will be a core offering over 2022 and 2023, as well as dedicated time to pay the OLS core team to work on OLS.
 
 In addition to paying mentors, call facilitators, experts, and directors, we intend to use this time to develop a sustainability plan beyond the end of 2023 - not only financial, but community sustainability. Our community is the centre of OLS, and we want to figure out ways to keep it healthy and thriving, serving its members and furthering our mission of open, equitable, and community-driven research.
 
