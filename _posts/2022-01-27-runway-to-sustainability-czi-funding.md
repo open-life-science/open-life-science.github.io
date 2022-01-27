@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Runway for sustainability: OLS awarded funding from the Chan Zuckerberg Initiative to power its next phase
+title: "Runway for sustainability: OLS awarded funding from the Chan Zuckerberg Initiative to power its next phase"
 authors:
 - bebatut
 - emmyft
