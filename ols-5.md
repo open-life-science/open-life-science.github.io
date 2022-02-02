@@ -2,6 +2,7 @@
 layout: page
 title: Welcome to the 5th cohort of Open Life Science program!
 image: /images/syllabus.jpg
+redirect_from: /OLS-5
 photos:
   name: Niklas Morberg
   license: CC BY-NC 2.0
@@ -170,7 +171,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
 
 
 <!-- Pool of mentors (hidden before cohort starts)
-Any modification of the content should be done in the _data/ols-5-projects.yaml file 
+Any modification of the content should be done in the _data/ols-5-projects.yaml file
 
 We thank the {{ p-mentors | size }} mentors this round.
 <div class="people">
@@ -201,7 +202,7 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 
 <!-- Any modification of the content should be done in the _data/ols-5-metadata.yaml file -->
 
-We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round. 
+We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round.
 
 <div class="people">
     {% for mentor in metadata.experts %}
@@ -289,7 +290,7 @@ Open Life Science has received the [EOSC-Life Training grant (first round)](http
 ## OLS-5 for Faculty of Applied Sciences/TNW - TU Delft
 
 Under the collaboration name OLS-5 for TNW, Open Life Science has partnered with the [Faculty of Applied Sciences](https://www.tudelft.nl/en/faculty-of-applied-sciences) through the [Faculty Graduate School](https://www.tudelft.nl/en/faculty-of-applied-sciences/research/phd) and the Data Steward, [Dr. Esther Plomp](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact/esther-plomp) at TU Delft.
-This partnership will offer training and mentoring to interested members from the Faculty of Applied Sciences to join the 5th cohort (OLS-5) individually or in teams. They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future. Mentors will be preferably selected within their own discipline, as PhD candidates will be eligible for 5 Discipline-related credits for their Doctoral Education Programme. 
+This partnership will offer training and mentoring to interested members from the Faculty of Applied Sciences to join the 5th cohort (OLS-5) individually or in teams. They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future. Mentors will be preferably selected within their own discipline, as PhD candidates will be eligible for 5 Discipline-related credits for their Doctoral Education Programme.
 
 ## OLS-5 for Turing
 
