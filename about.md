@@ -115,7 +115,7 @@ Our program is only possible thanks to our awesome mentors:
 - [The {{ ols-1-mentors | size }} mentors for **OLS-1** (January to May 2020)](/ols-1#mentors)
 - [The {{ ols-2-mentors | size }} mentors for **OLS-2** (September to December 2020)](/ols-2#mentors)
 - [The {{ ols-3-mentors | size }} mentors for **OLS-3** (February to May 2021)](/ols-3#mentors)
-- [The {{ ols-4-mentors | size }} mentors for **OLS-4** (September to Deember 2021)](/ols-4#mentors)
+- [The {{ ols-4-mentors | size }} mentors for **OLS-4** (September to December 2021)](/ols-4#mentors)
 
 # Experts
 
