@@ -68,7 +68,7 @@ Our mentors will
 
 ## Becoming a mentor
 
-We are currently recruiting the mentors for the second round. Please reach out to one of the organizers if you are interested.
+Mentoring is usually an invitation-based role. Mentors join by graduating from a previous cohort, by becoming an expert for at least one round, or by invitation when a specific skills gap is needed. Please reach out to one of the organizers if you are interested.
 
 ## Our mentors
 
@@ -101,10 +101,21 @@ Our program is only possible thanks to our awesome mentors:
     {% endfor %}
 {% endfor %}
 {% assign ols-3-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+<!-- OLS-4-->
+{% assign projects = site.data.ols-4-projects %}
+{% assign mentors = '' %}
+{% for project in projects %}
+    {% for m in project.mentors %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-4-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+
 
 - [The {{ ols-1-mentors | size }} mentors for **OLS-1** (January to May 2020)](/ols-1#mentors)
 - [The {{ ols-2-mentors | size }} mentors for **OLS-2** (September to December 2020)](/ols-2#mentors)
 - [The {{ ols-3-mentors | size }} mentors for **OLS-3** (February to May 2021)](/ols-3#mentors)
+- [The {{ ols-4-mentors | size }} mentors for **OLS-4** (September to Deember 2021)](/ols-4#mentors)
 
 # Experts
 
@@ -126,7 +137,7 @@ Experts may be invited to:
 - be interviewed by the organisers (~15 minutes)
 - invited by mentor-mentee pair to share their expert consultation on certain projects. (~30 minutes)
 
-We are currently recruiting the experts for the second round.
+We are currently recruiting the experts - this route is a good way to join the program if you are already an open research practitioner and don't wish to participate as a cohort member.
 
 ## Our experts
 
@@ -135,10 +146,12 @@ Our experts are essential for the program:
 {% assign ols-1-experts = site.data.ols-1-metadata.experts %}
 {% assign ols-2-experts = site.data.ols-2-metadata.experts %}
 {% assign ols-3-experts = site.data.ols-3-metadata.experts %}
+{% assign ols-4-experts = site.data.ols-4-metadata.experts %}
 
 - [The {{ ols-1-experts | uniq | size }} experts for **OLS-1** (January to May 2020)](/ols-1#experts)
 - [The {{ ols-2-experts | uniq | size }} experts for **OLS-2** (September to December 2020)](/ols-2#experts)
 - [The {{ ols-3-experts | uniq | size }} experts for **OLS-3** (February to May 2021)](/ols-3#experts)
+- [The {{ ols-4-experts | uniq | size }} experts for **OLS-4** (September to December 2021)](/ols-4#experts)
 
 # Founders
 
