@@ -18,7 +18,7 @@ _Note: If you like the scope of this job but unsure if your profile fits this ro
 
 Open Life Science (OLS) is hiring an open, empathic, and creative colleague to coordinate  our cohort-based training and mentoring programmes and lead a research-based study to understand the long-term impacts of our work.
 
-Open Life Science (OLS, [https://openlifesci.org/](https://openlifesci.org/)) cultivates the next generation of researchers and community leaders through open science training and mentoring. Through 16-week long cohort-based programmes, OLS enables researchers to learn about, reflect on and integrate open science principles in their work. With the support of our community members, OLS is committed to delivering high quality training, mentoring and peer-based support to our community members.
+Open Life Science (OLS, [https://openlifesci.org/](https://openlifesci.org/)) cultivates the next generation of researchers and community leaders through open science training and mentoring. Through 16-week long cohort-based programmes, OLS enables researchers to learn about, reflect on and integrate open science principles in their work. OLS is committed to delivering high quality training, mentoring and peer-based support to our community members.
 
 ## Position Purpose
 
@@ -26,7 +26,7 @@ This role encompasses two areas of OLS’ work: community research and programme
 
 ## Key responsibilities
 
-- Community management and operational tasks involve communicating with the community members via Slack space, mailing lists and social media.
+- Programme coordination and operational tasks involve communicating with the community members via Slack space, mailing lists and social media.
 - Research-based study includes working with the OLS team to assess the long-term impact of OLS’s programme on graduates and their communities.
 - 5-10% of the time for this position will be dedicated to supporting other open projects. This will include working in collaboration with community members, contributing to other open science projects on behalf of OLS and representing OLS in open science community events.
 - You will implement, improve, and iterate on research practises for yourself and the OLS team, including ethics in research, version control, and open communications.
