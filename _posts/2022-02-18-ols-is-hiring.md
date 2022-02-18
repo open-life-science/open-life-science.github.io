@@ -22,14 +22,17 @@ Open Life Science (OLS, [https://openlifesci.org/](https://openlifesci.org/)) cu
 
 ## Position Purpose
 
-This role encompasses two areas of OLS’ work: community management and community research. As a community manager, you will support the leadership team and OLS community in administration and communication tasks essential to smoothly run each cohort and share information in an open way. As a community researcher, you will help to carry out peer-reviewed research to understand transformational effects of open research training and mentoring interventions.
+This role encompasses two areas of OLS’ work: community research and programme coordination. As a community researcher, you will help to carry out peer-reviewed research to understand transformational effects of open research training and mentoring interventions. As a programme coordinator, you will support the leadership team and OLS community in administration and communication tasks essential to smoothly run each cohort and share information openly. 
+
 ## Key responsibilities
+
 - Community management and operational tasks involve communicating with the community members via Slack space, mailing lists and social media.
 - Research-based study includes working with the OLS team to assess the long-term impact of OLS’s programme on graduates and their communities.
 - 5-10% of the time for this position will be dedicated to supporting other open projects. This will include working in collaboration with community members, contributing to other open science projects on behalf of OLS and representing OLS in open science community events.
 - You will implement, improve, and iterate on research practises for yourself and the OLS team, including ethics in research, version control, and open communications.
 
-## Essential selection criteria:
+## Essential selection criteria
+
 - Some experience in qualitative research or research-adjacent roles required: this could be via working in a research group, a research support role, gaining a postgraduate degree, an undergraduate research project / internship, or other equivalent experience.
 - Highly organised with the ability to document actions and processes, translate objectives into specific tasks, and prioritise and assign/delegate tasks.
 - Familiarity with working on open projects (this could be open source, open research, or other openly shared collaborative work).
@@ -41,15 +44,16 @@ The position is funded for 18 months to carry out the activities as described in
 OLS is committed to providing a nurturing and flexible work environment. This job will be fully remote, and we are happy to consider applicants from any country. Ideally 2 hours or more of your work day should overlap with the OLS leadership team based in the UK and Europe (UTC to UTC+2).
 
 ## How to apply
+
 Please send a CV (1-4 pages) and cover letter (no more than 800 words) stating why this opportunity is compelling to you, what you want to achieve in this space, and what you bring to this work to: jobs@openlifesci.org.
 
 Interviews will take place virtually via Zoom. We are happy to arrange technical assistance to participate in the interviews (e.g. a month of high-speed internet, webcam, or headset costs).
 
-**Job Closing date:** 22 March 2022
+**Job Closing date:** 22 March 2022.
 We plan to interview candidates within 4 weeks of the closing date.
 
 For more details, please download the [full job description](/images/2022-WT-OLS-Job-Description.pdf)
 
 ----
 
-OLS would like to thank Alex Kutschera, Andre Chagas, Anelda van der Walt, Hao Ye, Jez Cope, Julieta Arancio, Mallery Freeberg, Manuel Spitschan and Rowland Mosbergen for their assistance creating the job ad. 
+***OLS would like to thank Alex Kutschera, Andre Chagas, Anelda van der Walt, Hao Ye, Jez Cope, Julieta Arancio, Mallery Freeberg, Manuel Spitschan and Rowland Mosbergen for their thoughtful contribution to this job description.***
