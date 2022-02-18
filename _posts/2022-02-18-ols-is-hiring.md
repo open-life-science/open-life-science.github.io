@@ -6,7 +6,7 @@ authors:
 - emmyft
 - malvikasharan
 - yochannah
-image: ../images/22022-02-18-for-hire.jpg
+image: ../images/2022-02-18-for-hire.jpg
 photos:
   name: Photo by Clem Onojeghuo on Unsplash
   url: https://unsplash.com/@clemono
@@ -48,4 +48,4 @@ Interviews will take place virtually via Zoom. We are happy to arrange technical
 **Job Closing date:** 22 March 2022
 We plan to interview candidates within 4 weeks of the closing date.
 
-For more details, please download the [full job description](../images/2022-WT-OLS-Job-Description.pdf)
+For more details, please download the [full job description](/images/2022-WT-OLS-Job-Description.pdf)
