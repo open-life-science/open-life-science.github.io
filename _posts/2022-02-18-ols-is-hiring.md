@@ -25,9 +25,9 @@ Open Life Science (OLS, [https://openlifesci.org/](https://openlifesci.org/)) cu
 This role encompasses two areas of OLS’ work: community management and community research. As a community manager, you will support the leadership team and OLS community in administration and communication tasks essential to smoothly run each cohort and share information in an open way. As a community researcher, you will help to carry out peer-reviewed research to understand transformational effects of open research training and mentoring interventions.
 ## Key responsibilities
 - Community management and operational tasks involve communicating with the community members via Slack space, mailing lists and social media.
-- Lead a research-based study to assess the long-term impact of OLS’s programme on graduates and their communities.
+- Research-based study includes working with the OLS team to assess the long-term impact of OLS’s programme on graduates and their communities.
 - 5-10% of the time for this position will be dedicated to supporting other open projects. This will include working in collaboration with community members, contributing to other open science projects on behalf of OLS and representing OLS in open science community events.
-- Implement, improve, and iterate on research practises for yourself and the OLS team, including ethics in research, version control, and open communications.
+- You will implement, improve, and iterate on research practises for yourself and the OLS team, including ethics in research, version control, and open communications.
 
 ## Essential selection criteria:
 - Some experience in qualitative research or research-adjacent roles required: this could be via working in a research group, a research support role, gaining a postgraduate degree, an undergraduate research project / internship, or other equivalent experience.
