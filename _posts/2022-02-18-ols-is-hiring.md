@@ -49,3 +49,7 @@ Interviews will take place virtually via Zoom. We are happy to arrange technical
 We plan to interview candidates within 4 weeks of the closing date.
 
 For more details, please download the [full job description](/images/2022-WT-OLS-Job-Description.pdf)
+
+----
+
+OLS would like to thank Alex Kutschera, Andre Chagas, Anelda van der Walt, Hao Ye, Jez Cope, Julieta Arancio, Mallery Freeberg, Manuel Spitschan and Rowland Mosbergen for their assistance creating the job ad. 
