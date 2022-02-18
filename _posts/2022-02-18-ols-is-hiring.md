@@ -6,7 +6,7 @@ authors:
 - emmyft
 - malvikasharan
 - yochannah
-image: ../images/2022-01-27-ols-czi-funding.jpg
+image: ../images/22022-02-18-for-hire.jpg
 photos:
   name: Photo by Clem Onojeghuo on Unsplash
   url: https://unsplash.com/@clemono
