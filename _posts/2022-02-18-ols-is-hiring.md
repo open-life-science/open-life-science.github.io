@@ -47,6 +47,7 @@ OLS is committed to providing a nurturing and flexible work environment. This jo
 
 ## How to apply
 
+
 Please send a CV (1-4 pages) and cover letter (no more than 800 words) stating why this opportunity is compelling to you, what you want to achieve in this space, and what you bring to this work to: jobs@openlifesci.org.
 
 Interviews will take place virtually via Zoom. We are happy to arrange technical assistance to participate in the interviews (e.g. a month of high-speed internet, webcam, or headset costs).
