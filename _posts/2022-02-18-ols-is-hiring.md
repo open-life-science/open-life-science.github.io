@@ -59,4 +59,4 @@ For more details, please download the [full job description](/images/2022-WT-OLS
 
 ----
 
-***OLS would like to thank Alex Kutschera, Andre Chagas, Anelda van der Walt, Hao Ye, Jez Cope, Julieta Arancio, Mallery Freeberg, Manuel Spitschan and Rowland Mosbergen for their thoughtful contribution to this job description.***
+***OLS would like to thank Alex Kutschera, Andre Chagas, Anelda van der Walt, Hao Ye, Jez Cope, Julieta Arancio, Mallory Freeberg, Manuel Spitschan and Rowland Mosbergen for their thoughtful contribution to this job description.***
