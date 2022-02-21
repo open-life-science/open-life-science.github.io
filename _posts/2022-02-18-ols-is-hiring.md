@@ -22,7 +22,7 @@ Open Life Science (OLS, [{{ site.url }}]({{ site.url }})) cultivates the next ge
 
 ## Position purpose
 
-This role encompasses two areas of OLS' work: community research and programme coordination. As a community researcher, you will help to carry out peer-reviewed research to understand transformational effects of open research training and mentoring interventions. As a programme coordinator, you will support the leadership team and OLS community in administration and communication tasks essential to smoothly run each cohort and share information openly. 
+This role encompasses two areas of OLS' work: community management and community research. As a community manager, you will support the leadership team and OLS community in administration and communication tasks essential to smoothly run each cohort and share information openly. As a community researcher, you will help to carry out peer-reviewed research to understand the transformational effects of open research training and mentoring interventions.
 
 
 ## Key responsibilities
