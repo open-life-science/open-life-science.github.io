@@ -24,7 +24,9 @@ Open Life Science (OLS, [https://openlifesci.org/](https://openlifesci.org/)) cu
 
 This role encompasses two areas of OLS’ work: community research and programme coordination. As a community researcher, you will help to carry out peer-reviewed research to understand transformational effects of open research training and mentoring interventions. As a programme coordinator, you will support the leadership team and OLS community in administration and communication tasks essential to smoothly run each cohort and share information openly. 
 
+
 ## Key responsibilities
+
 
 - Programme coordination and operational tasks involve communicating with the community members via Slack space, mailing lists and social media.
 - Research-based study includes working with the OLS team to assess the long-term impact of OLS’s programme on graduates and their communities.
