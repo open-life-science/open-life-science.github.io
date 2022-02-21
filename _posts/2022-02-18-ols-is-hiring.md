@@ -20,7 +20,7 @@ Open Life Science (OLS) is hiring an open, empathic, and creative colleague to c
 
 Open Life Science (OLS, [https://openlifesci.org/](https://openlifesci.org/)) cultivates the next generation of researchers and community leaders through open science training and mentoring. Through 16-week long cohort-based programmes, OLS enables researchers to learn about, reflect on and integrate open science principles in their work. OLS is committed to delivering high quality training, mentoring and peer-based support to our community members.
 
-## Position Purpose
+## Position purpose
 
 This role encompasses two areas of OLS’ work: community research and programme coordination. As a community researcher, you will help to carry out peer-reviewed research to understand transformational effects of open research training and mentoring interventions. As a programme coordinator, you will support the leadership team and OLS community in administration and communication tasks essential to smoothly run each cohort and share information openly. 
 
