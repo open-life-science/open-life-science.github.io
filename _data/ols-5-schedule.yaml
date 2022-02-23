@@ -2,8 +2,8 @@
 ---
 timeline:
 - date: December 1, 2021
-  description: 'Call for Application opens on [Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5)'
-  details: 'See the [guidelines and templates](https://github.com/open-life-science/application-forms)'
+  description: Call for Application opens on [Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5)
+  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
 - date: December 14, 2021
   time: '17:00'
   duration: 60 min
@@ -13,7 +13,7 @@ timeline:
   - Q&A
   notes: https://pad.sfconservancy.org/p/ols-5-launch
   recording: null
-  details: 'Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
+  details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
 - date: January 7, 2022
   time: '11:00'
   duration: 60 min
@@ -28,6 +28,23 @@ timeline:
 - date: February 1, 2022
   description: Successful applicants announced
 weeks:
+  '00':
+    start: February 21, 2022
+    calls:
+    - date: February 21, 2022
+      time: '18:00'
+      duration: 60 min
+      content: |-
+        In this call, participants will:
+        - Understand common successes and challenges in mentoring OLS participants
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+      title: Mentor onboarding group 1
+      type: Mentor
+    - date: February 22, 2022
+      time: '10:00'
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 1
+      type: Mentor
   '01':
     start: February 28, 2022
     calls:
@@ -38,14 +55,6 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '16:00'
-      duration: 60 min
-      content: |-
-        In this call, participants will:
-        - Understand common successes and challenges in mentoring OLS participants
-        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-      title: apply
-      type: Mentor
     - time: '10:00'
       duration: 60 min
       content: |-
@@ -54,6 +63,7 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 2
       type: Mentor
+      date: March 02, 2022
     - time: '16:00'
       duration: 60 min
       content: |-
@@ -62,11 +72,21 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 1
       type: Mentor
+    - date: March 02, 2022
+      time: '14:00'
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 2
+      type: Mentor
+    - date: March 03, 2022
+      time: '18:00'
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 3
+      type: Mentor
   '02':
     start: March 07, 2022
     calls:
-    - date: March 09, 2022
-      time: '13:30'
+    - date: March 07, 2022
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-02
       content: |-
@@ -78,13 +98,6 @@ weeks:
         - Learn about common community interactions in open projects.
         - Learn about common value exchanges between community members in open science
       title: Welcome to Open Life Science!
-      recording: https://www.youtube.com/watch?v=NsVX4a3ZOF8&t=1969s
-      hosts:
-      - yochannah
-      - emmyft
-      - bebatut
-      facilitators:
-      - batoolmm
       type: Cohort
       before: '- Add your vision statement to your GitHub issue'
       after: |-
@@ -97,25 +110,14 @@ weeks:
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources:
       - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
-        speaker: yochannah
         type: slides
         title: Welcome to OLS!
       - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
-        speaker: bebatut
         type: slides
         title: Introducing Open Canvas
       - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
-        speaker: emmyft
         type: slides
         title: Introducing Road Mapping
-    - time: '18:00'
-      duration: 180 min
-      title: Mentor Skill Workshop by 360 Training - Group 1
-      type: Mentor
-    - time: '10:00'
-      duration: 180 min
-      title: Mentor Skill Workshop by 360 Training - Group 2
-      type: Mentor
   '03':
     start: March 14, 2022
     calls:
@@ -123,7 +125,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: March 16, 2022
-      time: '18:00'
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-03
       content: |-
@@ -170,7 +172,7 @@ weeks:
     start: March 21, 2022
     calls:
     - date: March 23, 2022
-      time: '18:00'
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -214,14 +216,16 @@ weeks:
         speaker: ekaroune
         type: slides
         title: Contributing Guidelines and Code of Conduct
+      - type: slides
+        title: Project Structure
   '05':
     start: March 28, 2022
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
-    - date: March 30, 2022
-      time: '13:30'
+    - date: March 28, 2022
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-05
       content: |-
@@ -233,10 +237,6 @@ weeks:
         - Managing issues and labels
         - Submit changes via Pull Request
       title: GitHub tutorial for beginners
-      recording: https://youtu.be/lRW8mlpTw5M
-      hosts:
-      - yochannah
-      - malvikasharan
       type: Skill-up
       before: |
         - Please create a GitHub account: https://github.com
@@ -245,14 +245,13 @@ weeks:
         - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
       resources:
       - link: https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
-        speaker: malvikasharan
         type: slides
         title: Introduction to GitHub
   '06':
     start: April 04, 2022
     calls:
-    - date: April 06, 2022
-      time: '13:30'
+    - date: April 04, 2022
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-06
       content: |-
@@ -260,14 +259,6 @@ weeks:
         - Hear about Iterative Project management
         - Get familiar with Open Software, Open Hardware, Research Data Management
       title: 'Open Science I: Project Development and Introduction to Working Open'
-      recording: https://www.youtube.com/watch?v=kjhrrfF2fvM
-      hosts:
-      - yochannah
-      - malvikasharan
-      - emmyft
-      - ''
-      facilitators:
-      - fnyasimi
       type: Cohort
       before: '- Look up two other projects and comment on their issues with feedback
         on their README'
@@ -279,19 +270,17 @@ weeks:
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
         - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
       resources:
+      - type: slides
+        title: Using project management skills during development stage
       - link: https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
-        speaker: ''
         type: slides
         title: Agile & Iterative Project Management Methods
-      - speaker: samvanstroud
-        type: slides
+      - type: slides
         title: 'Case study 1: Managing & developing an Open Source Software project'
       - link: https://doi.org/10.5281/zenodo.5582718
-        speaker: selgebali
         type: slides
         title: 'Case study 2: Managing & developing research data (RDM)'
-      - speaker: ''
-        type: slides
+      - type: slides
         title: 'Case study 3: Managing & developing an open hardware project'
   '07':
     start: April 11, 2022
@@ -300,7 +289,7 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: April 13, 2022
-      time: '18:00'
+      time: '11:00'
       duration: 30 min
       notes: https://bit.ly/ols-5-week-07
       title: Q&A call
@@ -309,7 +298,7 @@ weeks:
     start: April 18, 2022
     calls:
     - date: April 20, 2022
-      time: '18:00'
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-08
       content: |-
@@ -343,8 +332,8 @@ weeks:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: April 27, 2022
-      time: '13:30'
+    - date: April 25, 2022
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -375,8 +364,8 @@ weeks:
   '10':
     start: May 02, 2022
     calls:
-    - date: May 04, 2022
-      time: '13:30'
+    - date: May 02, 2022
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-10
       content: |-
@@ -402,9 +391,9 @@ weeks:
         title: 'Non-traditional publication: Open protocols, registered reports, citable
           code, training resources'
       - link: https://zenodo.org/record/4651431
-        speaker: yvanlebras
         type: slides
-        title: 'Public engagement: Citizen Science, Science Communication'
+        title: Usable, comprehensive, accessible, FAIR and empowering training - The
+          case of the Galaxy Training Network
   '11':
     start: May 09, 2022
     calls:
@@ -412,7 +401,7 @@ weeks:
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
     - date: May 11, 2022
-      time: '18:00'
+      time: '11:00'
       duration: 30 min
       notes: https://bit.ly/ols-5-week-11
       title: Q&A call
@@ -421,7 +410,7 @@ weeks:
     start: May 16, 2022
     calls:
     - date: May 18, 2022
-      time: '18:00'
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-12
       title: Diversity and Inclusion & Ally skills
@@ -451,8 +440,8 @@ weeks:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: May 25, 2022
-      time: '13:30'
+    - date: May 23, 2022
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-13
       content: |-
@@ -474,26 +463,26 @@ weeks:
   '14':
     start: May 30, 2022
     calls:
-    - date: June 01, 2022
-      time: '13:30'
+    - date: May 30, 2022
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-14
       content: "In this call, participants will:\n- Learn how to apply FAIR research\
         \ principles on data, software, training to make research \"as open as possible,\
         \ as restricted as necessary.\"\n      \n        "
-      title: 'Open Science III: Next steps - applying FAIR research principles'
+      title: 'Open Science III: Next steps in open'
       type: Cohort
       after: '- Think about and plan to apply FAIR principles to your project in your
         own time'
       resources:
       - link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
         type: slides
-        title: FAIR Data
+        title: Data Management Plans
       - link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
         type: slides
-        title: FAIR Training
+        title: 'Public engagement: Citizen Science, Science Communication'
       - type: slides
-        title: FAIR software
+        title: FAIR software + Software Management plans
   '15':
     start: June 06, 2022
     calls:
@@ -515,6 +504,7 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      time: '11:00'
     - date: June 08, 2022
       notes: https://bit.ly/ols-5-week-15
       content: |-
@@ -530,6 +520,7 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      time: '11:00'
     - date: June 08, 2022
       notes: https://bit.ly/ols-5-week-15
       content: |-
@@ -545,6 +536,7 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      time: '11:00'
   '16':
     start: June 13, 2022
     calls:
@@ -563,6 +555,7 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      time: '11:00'
     - date: June 15, 2022
       notes: https://bit.ly/ols-5-week-16
       content: |-
@@ -578,6 +571,7 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      time: '11:00'
     - date: June 15, 2022
       notes: https://bit.ly/ols-5-week-16
       content: |-
@@ -593,3 +587,5 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      time: '11:00'
+
