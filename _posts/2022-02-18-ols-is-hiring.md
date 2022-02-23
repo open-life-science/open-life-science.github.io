@@ -14,7 +14,7 @@ photos:
 
 OLS is hiring a **Community Researcher and Programme Coordinator**.
 
-_Note: If you like the scope of this job but unsure if your profile fits this role - please apply anyway. We are very happy to be contacted for general queries, please email [jobs@openlifesci.org](mailto:jobs@openlifesci.org). You can also book a call with the Executive Director, Yo Yehudi, for specific questions about this vacancy: [book a 15 minute chat](https://calendly.com/yo-yehudi/ols-chat-with-yo?month=2022-02)._
+_Note: If you like the scope of this job but unsure if your profile fits this role - please apply anyway. We are very happy to be contacted for general queries, please email [jobs@openlifesci.org](mailto:jobs@openlifesci.org). Due to a high demand for 1:1 meetings to discuss this role, the OLS team has decided to host a webinar to address frequently asked questions and specific queries about this vacancy.  The webinar date and time will be announced soon, and a recording from this webinar will be posted on our [YouTube channel](https://www.youtube.com/openlifesci)._
 
 Open Life Science (OLS) is hiring an open, empathic, and creative colleague to coordinate our cohort-based training and mentoring programmes and lead a research-based study to understand the long-term impacts of our work.
 
