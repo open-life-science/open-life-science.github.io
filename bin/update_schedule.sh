@@ -18,7 +18,7 @@ python bin/prepare_website_data.py \
 #python bin/prepare_website_data.py \
 #    updateschedule \
 #    --cohort '7' \
-#    --schedule_url "https://docs.google.com/spreadsheets/d/1jXJH8J4MKee80ODcgWoxpvPkV8ob0tw86Fov8nlXxXw/export?format=csv&gid=1181436982" 
+#    --schedule_url "https://docs.google.com/spreadsheets/d/1jXJH8J4MKee80ODcgWoxpvPkV8ob0tw86Fov8nlXxXw/export?format=csv&gid=1181436982"
 
 #python bin/prepare_website_data.py \
 #    updateschedule \
