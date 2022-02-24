@@ -14,7 +14,7 @@ photos:
 
 OLS is hiring a **Community Researcher and Programme Coordinator**.
 
-_Note: If you like the scope of this job but unsure if your profile fits this role - please apply anyway. We are very happy to be contacted for general queries, please email [jobs@openlifesci.org](mailto:jobs@openlifesci.org). Due to a high demand for 1:1 meetings to discuss this role, the OLS team has decided to host a webinar to address frequently asked questions and specific queries about this vacancy.  The webinar date and time will be announced soon, and a recording from this webinar will be posted on our [YouTube channel](https://www.youtube.com/openlifesci)._
+_Note: If you like the scope of this job but unsure if your profile fits this role - please apply anyway. We are very happy to be contacted for general queries, please email [jobs@openlifesci.org](mailto:jobs@openlifesci.org). Due to a high demand for 1:1 meetings to discuss this role, the OLS team has decided to host a webinar to address [frequently asked questions](#frequently-asked-questions) and specific queries about this vacancy.  The webinar date and time will be announced soon, and a recording from this webinar will be posted on our [YouTube channel](https://www.youtube.com/openlifesci)._
 
 Open Life Science (OLS) is hiring an open, empathic, and creative colleague to coordinate our cohort-based training and mentoring programmes and lead a research-based study to understand the long-term impacts of our work.
 
@@ -50,7 +50,7 @@ OLS is committed to providing a nurturing and flexible work environment. This jo
 
 Please send a CV (1-4 pages) and cover letter (no more than 800 words) stating why this opportunity is compelling to you, what you want to achieve in this space, and what you bring to this work to: [jobs@openlifesci.org](mailto:jobs@openlifesci.org).
 
-Interviews will take place virtually via Zoom. We are happy to arrange technical assistance to participate in the interviews (e.g. a month of high-speed internet, webcam, or headset costs).
+Interviews will take place virtually via Zoom. We are happy to arrange technical assistance to participate in the interviews (e.g. a month of high-speed internet, webcam, or headset costs), as well as childcare and access arrangements such as captioning or an interpreter. 
 
 **Job Closing date:** 22 March 2022.
 We plan to interview candidates within 4 weeks of the closing date.
@@ -65,7 +65,7 @@ For more details, please download the [full job description](/images/2022-WT-OLS
 
 ## Frequently Asked Questions
 
-### I'm from country (insert your contry name here), can I apply? 
+### I'm from country (insert your country name here), can I apply? 
 Yes, please do! OLS is based legally in the UK, but dedicated to creating a global network. When we get to the point of being close to offering the job to candidates, we will consult with tax/legal advisors to find out the best way to manage hiring. Most likely, if we select a non-UK applicant, we expect to hire you as a contractor rather than an employee, and it may require changes to the contract deliverables depending in the specifics of the country you are working in. Our one requirement for applying is that **you must have the legal right to work in the country you live**, or you must be willing to move to a country where you have the right to work. If you have a visa that prevents you from working in the country where you live, we're unlikely to be able to help. 
 
 ### For the research portion of this role, do I have to design the study? 
