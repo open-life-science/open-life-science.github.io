@@ -60,3 +60,13 @@ For more details, please download the [full job description](/images/2022-WT-OLS
 ----
 
 ***OLS would like to thank Alex Kutschera, Andre Chagas, Anelda van der Walt, Hao Ye, Jez Cope, Julieta Arancio, Mallory Freeberg, Manuel Spitschan and Rowland Mosbergen for their thoughtful contribution to this job description.***
+
+---
+
+## Frequently Asked Questions
+
+### I'm from country (insert your contry name here), can I apply? 
+Yes, please do! OLS is based legally in the UK, but dedicated to creating a global network. When we get to the point of being close to offering the job to candidates, we will consult with tax/legal advisors to find out the best way to manage hiring. Most likely, if we select a non-UK applicant, we expect to hire you as a contractor rather than an employee, and it may require changes to the contract deliverables depending in the specifics of the country you are working in. Our one requirement for applying is that **you must have the legal right to work in the country you live**, or you must be willing to move to a country where you have the right to work. If you have a visa that prevents you from working in the country where you live, we're unlikely to be able to help. 
+
+### For the research portion of this role, do I have to design the study? 
+This is flexible, based on the successful applicant! The OLS team has both hands-on experience in qualitative research, as well as partner organisations who can help. Applicants who would like to design the study and/or have qualitative research experience would be welcome to help design the study, but we can also offer supervision and assistance designing the study if you prefer. 
