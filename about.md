@@ -13,6 +13,7 @@ This program can only run with the active involvements of our volunteer communit
 - [Mentees](#mentees)
 - [Mentors](#mentors)
 - [Experts](#experts)
+- [Facilitators](#facilitators)
 - [Founders](#founders)
 
 # Mentees
@@ -152,6 +153,23 @@ Our experts are essential for the program:
 - [The {{ ols-2-experts | uniq | size }} experts for **OLS-2** (September to December 2020)](/ols-2#experts)
 - [The {{ ols-3-experts | uniq | size }} experts for **OLS-3** (February to May 2021)](/ols-3#experts)
 - [The {{ ols-4-experts | uniq | size }} experts for **OLS-4** (September to December 2021)](/ols-4#experts)
+
+# Facilitators
+Facilitators work closely with the OLS organisers to manage and run cohort calls. They lead efforts in preparing cohort call notes, co-hosting cohort calls and ensuring the sharing of call recordings and resources through OLS channels.
+
+**Our facilitators are:**
+- Project leads, mentors or experts in a previous cohort
+- Keen to learn more about the operations of OLS and take a vital role in leading/facilitating the cohort calls
+- Committed to contribute time and leadership skills towards building a collaborative experience for the attendees of OLS cohort call.
+
+## Becoming a facilitator
+
+Facilitators are invited to:
+- attend an onboarding call (30 mins)
+- sign up for responsibilities pre-, during or after one or more cohort calls, ranging from 15 mins to 2hours
+- participate in a feedback call at the end of a cohort (30 mins)
+
+This is an invitation-based role. Facilitators are offered an honourarium in recognition of their valuable contributions to the programme.
 
 # Founders
 
