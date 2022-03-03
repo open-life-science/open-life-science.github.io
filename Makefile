@@ -1,7 +1,8 @@
-CONDA_ENV = open-life-science-website
+CONDA_ENV = ols-website
 SHELL=bash
 
 CONDA = $(shell which conda)
+CONDA_ENV_DIR=$(shell dirname $(dir $(CONDA)))
 ifeq ($(CONDA),)
 	CONDA=${HOME}/miniconda3/bin/conda
 endif
