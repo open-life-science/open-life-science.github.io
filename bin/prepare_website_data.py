@@ -60,7 +60,7 @@ def load_people():
 
 def load_reordered_people():
     '''
-    Load people.yaml file and reorder people as a dictionary with 
+    Load people.yaml file and reorder people as a dictionary with
     key being First name - Last name and value being the people id
     '''
     people = load_people()
@@ -92,10 +92,10 @@ def get_people_ids(names, people):
     '''
     ids = []
     if not pd.isnull(names):
-        names = names.replace(' and ', ', ').split(', ')
+        names = names.replace(' and ', ', ').title().split(', ')
         for n in names:
             ids.append(get_people_id(n, people))
-            
+
     return ids
 
 
@@ -106,7 +106,7 @@ def extract_expertise(people_list, people):
     :param people_list: list of username for which extracting expertise
     :param people: dictionary with people information
 
-    :return: dictionary with key being expertise and values 
+    :return: dictionary with key being expertise and values
     list of people with expertise
     '''
     no_expertise = 'No listed expertise'
@@ -162,12 +162,12 @@ def extract_people_info(row, people):
     # format ORCID
     if info['orcid'] is not None:
         info['orcid'] = info['orcid'].replace('https://orcid.org/', '')
-    # format Twitter 
+    # format Twitter
     if info['twitter'] is not None:
         info['twitter'] = info['twitter'].replace('@', '')
     # format expertise
     if info['expertise'] is not None:
-        info['expertise'] = info['expertise'].rstrip().split("; ")
+        info['expertise'] = info['expertise'].rstrip().replace(",",";").split("; ")
         info['expertise'] = [x.capitalize() for x in info['expertise']]
     # format website
     if info['website'] is not None and not info['website'].startswith('https'):
@@ -198,7 +198,7 @@ def extract_people(df):
     # load people.yaml file into a dictionary
     with open(people_fp, 'r') as people_f:
         people = yaml.load(people_f, Loader=yaml.FullLoader)
-    
+
     # load people information from sheet file
     # parse it
     # add information to people dictionary
@@ -251,16 +251,16 @@ def create_empty_schedule():
                 'notes': None,
                 'recording': None,
                 'details': 'Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
-            },{ 
+            },{
                 'date': None,
                 'description': 'Application Clinic Call',
                 'type': ['Q&A'],
                 'notes': None,
                 'details': 'At this call, OLS team will be available to provide help if you have any question related to your application'
-            },{ 
+            },{
                 'date': None,
                 'description': 'Call for applications closed'
-            },{ 
+            },{
                 'date': None,
                 'description': 'Successful applicants announced'
             }],
@@ -348,7 +348,7 @@ def update_call(call, row, people):
 def check_same_event(call, row):
     '''
     Compare call information from YAML and CSV
-    
+
     :param call: call information from YAML
     :param row: call information from CSV
     '''
@@ -440,7 +440,7 @@ def add_event_information(schedule, schedule_df, people):
                     if 'title' in res and row['Title'] == res['title']:
                         res = update_resource(res, row, people)
                         found = True
-            
+
             if not found:
                 res = update_resource({}, row, people)
                 last_call['resources'].append(res)
@@ -522,7 +522,7 @@ def add_projects(cohort, project_df, people_df):
     '''
     # add people to people.yaml
     added_people = extract_people(people_df)
-    
+
     # reorder people as a dictionary with key being First name - Last name
     # and value being the people id
     reorder_people = load_reordered_people()
@@ -549,11 +549,11 @@ def add_projects(cohort, project_df, people_df):
         p['participants'] = get_people_ids(row['Authors'], reorder_people)
         # extract mentors
         p['mentors'] = get_people_ids(row['Mentor 1'], reorder_people)
-        if row['Mentor 2'] != '':
-            p['mentors'] += get_people_ids(row['Mentor 2'], reorder_people)
+        #if row['Mentor 2'] != '':
+        #    p['mentors'] += get_people_ids(row['Mentor 2'], reorder_people)
         if len(p['mentors']) == 0:
             print('No mentor')
-        # 
+        #
         if row['Keywords'] is not None:
             p['keywords'] = row['Keywords'].split(',\n')
         projects[p['name']] = p
@@ -675,9 +675,34 @@ def get_expertises(cohort):
         metadata['experts'],
         people
     )
-    
+
     # dump expertise dictionary into metadata file
     dump_metadata(metadata, cohort)
+
+
+def add_mentors_experts(type, people_df, cohort):
+    '''
+    Add mentor/experts details to people.yaml, add them to the metadata file for the cohort and extract expertises
+
+    :param type: mentor or expert
+    :param people_df: dataframe with people details
+    :param cohort: cohort id
+    '''
+    # add people to people.yaml
+    added_people = extract_people(people_df)
+
+    # add mentors/experts to the metadata file
+    metadata = load_metadata(cohort)
+    print(metadata)
+    if type == "mentor":
+        metadata['possible-mentors'] = added_people
+    else:
+        metadata['experts'] = added_people
+    print(metadata)
+    dump_metadata(metadata, cohort)
+
+    # extract expertises
+    get_expertises(cohort)
 
 
 def update_schedule(cohort, schedule_df):
@@ -692,7 +717,7 @@ def update_schedule(cohort, schedule_df):
     # load schedule
     schedule = load_schedule(args.cohort)
     # add event information to schedule
-    schedule = add_event_information(schedule, schedule_df, reorder_people)    
+    schedule = add_event_information(schedule, schedule_df, reorder_people)
     # dump schedule dictionary into schedule file
     dump_schedule(schedule, args.cohort)
 
@@ -707,7 +732,7 @@ if __name__ == '__main__':
     projectgroup.add_argument('-pf', '--project_fp', help="Path to project sheet file")
     projectgroup.add_argument('-pu', '--project_url', help="URL to project sheet file")
     peoplegroup = addprojects.add_mutually_exclusive_group()
-    peoplegroup.add_argument('-df', '--people_fp', help="Path to people details sheet file") 
+    peoplegroup.add_argument('-df', '--people_fp', help="Path to people details sheet file")
     peoplegroup.add_argument('-du', '--people_url', help="URL to people details sheet file")
     # Create cohort
     createcohort = subparser.add_parser('createcohort', help="Create files for a new cohort")
@@ -720,14 +745,21 @@ if __name__ == '__main__':
     # Get expertises
     getexpertises = subparser.add_parser('getexpertises', help='Extract expert/mentor expertise from metadata file and order expert/mentor given that information')
     getexpertises.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
+    # Add mentors / experts
+    addmentorexperts = subparser.add_parser('addmentorsexperts', help='Add mentor/experts details to people.yaml, add them to the metadata file for the cohort and extract expertises')
+    addmentorexperts.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
+    addmentorexperts.add_argument('-t', '--type', choices=['mentor', 'expert'], help="Mentors or experts to add", required=True)
+    group = addmentorexperts.add_mutually_exclusive_group()
+    group.add_argument('-df', '--people_fp', help="Path to people details sheet file")
+    group.add_argument('-du', '--people_url', help="URL to people details sheet file")
     # Update schedule
     updateschedule = subparser.add_parser('updateschedule', help='Update schedule from a sheet')
     updateschedule.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
     group = updateschedule.add_mutually_exclusive_group()
     group.add_argument('-sf', '--schedule_fp', help="Path to schedule CSV file")
     group.add_argument('-su', '--schedule_url', help="URL to schedule sheet file")
-    
-    
+
+
     args = parser.parse_args()
 
     if args.command == 'addprojects':
@@ -749,6 +781,12 @@ if __name__ == '__main__':
             extract_people(pd.read_csv(Path(args.people_fp)))
     elif args.command == 'getexpertises':
         get_expertises(args.cohort)
+    elif args.command == 'addmentorsexperts':
+        if args.people_url:
+            people_df = pd.read_csv(args.people_url)
+        else:
+            people_df = pd.read_csv(Path(args.people_fp))
+        add_mentors_experts(args.type, people_df, args.cohort)
     elif args.command == 'updateschedule':
         if args.schedule_url:
             schedule_df = pd.read_csv(args.schedule_url)

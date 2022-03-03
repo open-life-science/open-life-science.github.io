@@ -4,21 +4,6 @@
 # if not, add github: false tag and
 # use firstname-lastname as collection name
 #
-# List of tags for people
-#
-# first-name:
-# last-name:
-# twitter:
-# website:
-# gitter:
-# orcid:
-# affiliation:
-# country:
-# pronouns:
-# expertise:
-#    -
-# bio:
-#
 # Mandatory: first-name, last-name, country
 ---
 '0x174':
@@ -225,6 +210,9 @@ alexandra-holinski:
   last-name: Holinski
   orcid: 0000-0003-2321-5568
   pronouns: She/her
+alexholinski:
+  first-name: Alexandra
+  last-name: Holinski
 alexwlchan:
   affiliation: Wellcome Collection
   country: United Kingdom
@@ -467,6 +455,39 @@ annefou:
   pronouns: she/her
   twitter: AnneFouilloux
   website: https://github.com/annefou
+annemtreasure:
+  affiliation: Talarify
+  bio: I'm a recovering academic, with a strong interest in all elements of the data
+    life cycle, from data collection and data analytics, to data curation and good
+    data management practices, and I love figuring out data pipelines and workflows.
+    I believe strongly in open science and open data, and promoting good practices
+    for reproducible research. I have strong interests in capacity development, community
+    building, and mentorship, and have worked in a variety of industries and academic
+    institutes worldwide, and have research and work experience in many different
+    scientific fields including ecology, biology, marine and terrestrial sciences,
+    invasion biology, polar science, and climate change.
+  city: Cape Town
+  country: South Africa
+  expertise:
+  - Data life cycle
+  - Data management
+  - Open data
+  - Open science
+  - Reproducible research
+  - Ecology
+  - Biology
+  - Marine sciences
+  - Invasion biology
+  - Terrestrial sciences
+  - Climate change
+  - Data pipelines and workflows
+  - Biodiversity
+  - Environment
+  first-name: Anne
+  last-name: Treasure
+  orcid: 0000-0002-8345-4811
+  twitter: annemtreasure
+  website: https://Needs updating (https://sites.google.com/site/annemtreasure/about?authuser=0)
 anproulx:
   affiliation: Université de Montréal
   country: Canada
@@ -615,21 +636,20 @@ banshee1221:
   twitter: edebeste
 batoolmm:
   affiliation: Kaimrc
-  bio: Batool is a bioinformatician and computational biologist affiliated with KAIMRC
-    in Saudi Arabia. As an advocate for Open Science and its role in improving scientific
-    and economic outputs in the Middle east, Batool established an Open Science Community
-    in Saudi Arabia (OSCSA). OSCSA aims to create significant value towards Saudi
-    Arabia's Vision 2030, which focus on enhancing knowledge and improving equal access
-    to education in the Kingdom
-  city: Riyadh
+  bio: Batool is a computational biologist affiliated with both KAIMRC in Saudi Arabia
+    and the University of Liverpool in the UK. As an advocate for Open Science and
+    its role in improving scientific and economic outputs in the Middle east, Batool
+    established an Open Science Community in Saudi Arabia (OSCSA). OSCSA aims to create
+    significant value towards Saudi Arabia’s Vision 2030, which focus on enhancing
+    knowledge and improving equal access to education in the Kingdom
+  city: Liverpool
   country: Saudi Arabia
   expertise:
-  - Open science
-  - Ngs
-  - Metagenomics
+  - Reproducibility
+  - Computational biology
   first-name: Batool
   last-name: Almarzouq
-  orcid: my-orcid?orcid=0000-0002-3905-2751
+  orcid: 0000-0002-3905-2751
   pronouns: She/Her
   twitter: batool664
   website: https://batool-almarzouq.netlify.app/
@@ -820,6 +840,14 @@ burce-elbasan:
   first-name: Burce
   github: false
   last-name: Elbasan
+burceelbasan:
+  affiliation: University Ulm
+  country: Germany
+  expertise:
+  - Molecular genetics
+  - Molecular mechanisms of cancer pathogenesis
+  first-name: Burce
+  last-name: Elbasan
 burkemlou:
   affiliation: Australian Biocommons
   bio: Melissa is the Training and Communications Officer with Australian BioCommons.
@@ -902,53 +930,41 @@ camachoreina:
   twitter: rcamachotoro
   website: https://camachoreina.github.io
 cassgvp:
-  affiliation: University of Oxford
-  bio: Cassandra worked for 10 years in magnetic resonance imaging, mainly with clinical
-    psychiatric populations. After discovering open science, it reignited her passion
-    and enthusiasm for the way research *could* be done, and she focused a lot of
-    her efforts into educating and training her team in programming, reproducible
-    and transparent methods. She was recently appointed Open Science Community Engagement
-    Coordinator for her department, one of only a few professional open science roles
-    in the UK. She is very proud to support her colleagues in the transition towards
-    working open, and doing so with the principles of open leadership at the forefront
-    of her work.
+  affiliation: University Of Oxford
+  bio: I've been promoting open science since 2018 (formalised with OLS-1!), and in
+    2020 I moved to a research support role to implement behaviour change towards
+    the adoption of open science and reproducibility practices at our Centre (https://www.win.ox.ac.uk).
+    I care a lot about inclusivity and being a positive role model in my interactions
+    and leadership.
+  city: Oxford
   country: United Kingdom
   expertise:
-  - Online conferences
-  - Behaviour change
-  - Community engagement
-  - Open science practices
   - Neuroimaging
+  - Community
+  - Edi
+  - Champions/ambassadors programme
+  - Data sharing
+  - Incentives/reward
+  - Academia-to-professional services transition / research adjacent roles
+  - Transparent and inclusive leadership.
   first-name: Cassandra
-  last-name: Gould van Praag
+  last-name: Gould Van Praag
+  orcid: 0000-0002-8584-4637
   pronouns: she/her
   twitter: cassgvp
+  website: https://www.psych.ox.ac.uk/team/cassandra-gould-van-praag
 cbolibaugh:
   affiliation: Department Of Education, University Of York
-  bio: 'I am a Lecturer in Language Education at the University of York in the UK,
-    where I study second language processing and acquisition. My research explores
-    what individual cognitive differences can tell us about the mechanisms underlying
-    second language learning, and how these mechanisms interact with the language
-    environment.
+  bio: |-
+    I am a Lecturer in Language Education at the University of York in the UK, where I study second language processing and acquisition. My research explores what individual cognitive differences can tell us about the mechanisms underlying second language learning, and how these mechanisms interact with the language environment.
 
+    I also work to make research in education and the language sciences open and accessible to all through my work with EROS, IRIS and OASIS.
 
-    I also work to make research in education and the language sciences open and accessible
-    to all through my work with EROS, IRIS and OASIS.
+    IRIS (https://iris-database.org) is a collection of instruments, materials, stimuli, and data coding and analysis tools used for research into second languages, including second and foreign language learning, multilingualism, language education, language use and processing.
 
+    The OASIS initiative (https://oasis-database.org) is establishing a systematic and sustainable culture of providing open, accessible summaries of research in the language sciences.
 
-    IRIS (https://iris-database.org) is a collection of instruments, materials, stimuli,
-    and data coding and analysis tools used for research into second languages, including
-    second and foreign language learning, multilingualism, language education, language
-    use and processing.
-
-
-    The OASIS initiative (https://oasis-database.org) is establishing a systematic
-    and sustainable culture of providing open, accessible summaries of research in
-    the language sciences.
-
-
-    EROS (https://osf.io/qwurf/) is an Open Research working group within the Department
-    of Education at York who advocate for more inclusive, open and reproducible research.'
+    EROS (https://osf.io/qwurf/) is an Open Research working group within the Department of Education at York who advocate for more inclusive, open and reproducible research.
   city: York
   country: United Kingdom
   expertise:
@@ -1146,6 +1162,20 @@ davidviryachen:
   last-name: Chentanaman
   pronouns: he/him
   twitter: davidchenn
+deepakunni3:
+  affiliation: European Molecular Biology Laboratory
+  city: Heidelberg
+  country: Germany
+  expertise:
+  - Knowledge graphs
+  - Bio-ontologies
+  - Metadata management
+  - Fair data principles
+  first-name: Deepak
+  last-name: Unni
+  orcid: 0000-0002-3583-7340
+  pronouns: He/Him
+  twitter: deepakunni3
 delphine-l:
   affiliation: Penn State University
   bio: I am an Assistant Professor at Penn State University and I  have been   part
@@ -1480,44 +1510,19 @@ evacherbst:
   twitter: EvaCHerbst
 ewa-leś:
   affiliation: Coalition Clean Baltic (Ccb)
-  bio: 'Moving present dreams towards a better real future with committed ignited
-    teams, within the socio-environmental field. Skilled in environmental awareness,
-    empathic and efficient coordination, Non-Governmental Organizations (NGOs), community
-    & stakeholder engagement.
-
-    Founder of River University, under the wings of Coalition Clean Baltic (2018);
-    co-founder of Polish Save the Rivers Coalition/Koalicja Ratujmy Rzeki /KRR (2016);
-    co-initiator and coordinator of the first Water Round Table in Poland on the protection
-    of waters and rivers in cooperation with the Ministry of the Environment (2009-2011);
-    co-creator of Partnership for The Baltic initiative (2007-2012).
-
-    I''m particularly interested and working in areas of #transboundary waters, #water
-    stakeholders inclusion, #waterconflicts, #waterdiplomacy #waterdemocracy building,
-    #problemsolving. Additional advantages of my long life curiosity and learning
-    are certificates focused on global diplomacy, efficient management (PRINCE2® Foundation),
-    Governance for Transboundary Freshwater Security.
-
-    In 2021 nominated to Ashoka SHE SAYS program supporting women changemakers and
-    social entrepreneurs.
-
+  bio: |-
+    Moving present dreams towards a better real future with committed ignited teams, within the socio-environmental field. Skilled in environmental awareness, empathic and efficient coordination, Non-Governmental Organizations (NGOs), community & stakeholder engagement.
+    Founder of River University, under the wings of Coalition Clean Baltic (2018); co-founder of Polish Save the Rivers Coalition/Koalicja Ratujmy Rzeki /KRR (2016); co-initiator and coordinator of the first Water Round Table in Poland on the protection of waters and rivers in cooperation with the Ministry of the Environment (2009-2011); co-creator of Partnership for The Baltic initiative (2007-2012).
+    I'm particularly interested and working in areas of #transboundary waters, #water stakeholders inclusion, #waterconflicts, #waterdiplomacy #waterdemocracy building, #problemsolving. Additional advantages of my long life curiosity and learning are certificates focused on global diplomacy, efficient management (PRINCE2® Foundation), Governance for Transboundary Freshwater Security.
+    In 2021 nominated to Ashoka SHE SAYS program supporting women changemakers and social entrepreneurs.
 
     Actively present in:
-
-    Coalition Clean Baltic (CCB) - working on rivers, especially transboundary ones,
-    source to sea approach [https://ccb.se]
-
+    Coalition Clean Baltic (CCB) - working on rivers, especially transboundary ones, source to sea approach [https://ccb.se]
     Water working group of European Environment Bureau [https://eeb.org/membership/our-working-groups]
-
-    Save The Rivers Coalition (KRR) - Polish national coalition dedicated to rivers/water
-    protection [www.ratujmyrzeki.pl]
-
-    Friends of Ina and Gowienica Rivers Society (TPRIiG) [www.tpriig.pl] - regional
-    level of riverine activity
-
-    International Commission for the Protection of the Odra River against Pollution
-    (ICPO) [www.mkoo.pl]
-
-    You may also find some bits of me here: www.researchgate.net/profile/Ewa_Les'
+    Save The Rivers Coalition (KRR) - Polish national coalition dedicated to rivers/water protection [www.ratujmyrzeki.pl]
+    Friends of Ina and Gowienica Rivers Society (TPRIiG) [www.tpriig.pl] - regional level of riverine activity
+    International Commission for the Protection of the Odra River against Pollution (ICPO) [www.mkoo.pl]
+    You may also find some bits of me here: www.researchgate.net/profile/Ewa_Les
   country: Poland
   expertise:
   - Transboundary waters
@@ -1532,17 +1537,16 @@ ewa-leś:
   orcid: 0000-0002-7749-020X
   website: https://ccb.se/?event=15161&event_date=2021-08-11
 ewallace:
-  affiliation: School Of Biological Sciences, The University Of Edinburgh
-  bio: 'My research group studies how organisms respond to their environment, focusing
+  affiliation: University Of Edinburgh
+  bio: My research group studies how organisms respond to their environment, focusing
     on molecular mechanisms used by fungi. We collect and analyze genome-scale datasets
     to understand how fungi dynamically reorganize their RNA and protein to adapt
     to environmental change. We also produce open-science software tools, including
     tidyqpcr for quantitative PCR analysis in the tidyverse, and riboviz for ribosome
-    profiling analysis.
-
-
-    Alongside my research, I''m an open science advocate and teach data literacy to
-    scientists, working with The Carpentries and Edinburgh Carpentries.'
+    profiling analysis. Both of these packages are going through software review and
+    I'm learning a lot from the process. Alongside my research, I'm an open science
+    advocate and teach data literacy to scientists, working with The Carpentries and
+    Edinburgh Carpentries.
   city: Edinburgh
   country: United Kingdom
   expertise:
@@ -1552,13 +1556,16 @@ ewallace:
   - Bioinformatics
   - Open science
   - Data literacy
-  - Balancing open science with the rest of your career
+  - Open science in project and teaching context
+  - Practical github
+  - R packages
+  - Balancing open science with the rest of your career;
   first-name: Edward
   last-name: Wallace
   orcid: 0000-0001-8025-6361
   pronouns: he, him
   twitter: ewjwallace
-  website: https://ewallace.github.io/
+  website: https://ewallace.github.io
 ewuramaminka:
   affiliation: University of Manchester
   country: United Kingdom
@@ -1665,10 +1672,25 @@ gedankenstuecke:
   twitter: gedankenstuecke
   website: https://tzovar.as
 georgiahca:
-  country: United Kingdom
+  affiliation: The Alan Turing Institute
+  bio: I am a researcher at The Alan Turing Instiitute working on co-creating a citizen
+    science platform, AutSPACEs, with a community of autistic collaborators. I also
+    worked for 3 years for the British Civil Service in their fast track scheme. I'm
+    a believer in creating a collaborative over competitive work ethos, equity, and
+    open research.
+  city: London
+  country: England
+  expertise:
+  - Citizen science
+  - Participatory science
+  - Open source
+  - Neurodiversity
+  - Sensory processing
+  - Co-creation
   first-name: Georgia
   last-name: Aitkenhead
-  pronouns: she/her
+  pronouns: She/her
+  website: https://github.com/alan-turing-institute/AutisticaCitizenScience
 ghammad:
   affiliation: University Of Liège
   bio: High-energy physicist recruited by a neuroscience lab!
@@ -1719,6 +1741,23 @@ graciellehigino:
   pronouns: She/her
   twitter: graciellehigino
   website: https://graciellehigino.github.io/
+gugy89:
+  bio: Polyglot European Scientist. Thrives working in interdisciplinary environments
+    combining the study of enzyme reactions and mechanisms with bioinformatics, molecular
+    modelling, automated data analysis and data stewardship.
+  expertise:
+  - Enzymology
+  - Biochemstry
+  - Bioinformatics
+  - Molecular modelling
+  - Molecular dynamics simulations
+  - Deep eutectic solvents
+  - Oxidoreductases
+  - Data stewardship
+  - Laboratory automation
+  - Fair data
+  first-name: Gudrun
+  last-name: Gygli
 guille1107:
   bio: I am currently a Chemistry graduate student in the Universidad de Buenos Aires,
     Argentina. I find myself really interested in nanomaterials and the huge world
@@ -1892,34 +1931,26 @@ iramosp:
   - Sustainability science
   - Inter and transdisciplinary research
   first-name: Irene
-  last-name: Ramos Pérez
+  last-name: Ramos
   orcid: 0000-0003-3315-2281
   pronouns: she / her
 iratxepuebla:
   affiliation: Asapbio
-  bio: 'I am Associate Director for ASAPbio, a nonprofit with a mission to accelerate
-    innovation and transparency in life sciences communication. In this role I work
-    to foster awareness of preprints and drive community engagement, and support initiatives
-    to bring further transparency into peer review.
+  bio: |-
+    I am Associate Director for ASAPbio, a nonprofit with a mission to accelerate innovation and transparency in life sciences communication. In this role I work to foster awareness of preprints and drive community engagement, and support initiatives to bring further transparency into peer review.
 
-
-    Prior to ASAPbio, I worked in publishing for 16 years, I held editorial roles
-    with Open Access publishers, initially at BioMed Central and then PLOS, where
-    I was Deputy Editor-in-Chief at the journal PLOS ONE. I am also Facilitation and
-    Integrity Officer for the Committee on Publication Ethics (COPE).'
+    Prior to ASAPbio, I worked in publishing for 16 years, I held editorial roles with Open Access publishers, initially at BioMed Central and then PLOS, where I was Deputy Editor-in-Chief at the journal PLOS ONE. I am also Facilitation and Integrity Officer for the Committee on Publication Ethics (COPE).
   city: Cambridge
   country: United Kingdom
   expertise:
   - Preprints
-  - Science communication
   - Publishing
-  - Peer review
-  - Community engagement
-  - Research integrity
+  - Open access
+  - Data publication
   first-name: Iratxe
   last-name: Puebla
   orcid: 0000-0003-1258-0746
-  pronouns: she/her/hers
+  pronouns: she/her
   twitter: IratxePuebla
   website: https://asapbio.org/dt_team/iratxe-puebla
 irena-maus:
@@ -2070,6 +2101,24 @@ jelioth-muthoni:
   first-name: Jelioth
   github: false
   last-name: Muthoni
+jesperdramsch:
+  affiliation: Ecmwf
+  bio: Jesper Dramsch works at the intersection of machine learning and physical,
+    real-world data. Currently, they're working as a scientist for machine learning
+    in numerical weather prediction at the coordinated organisation ECMWF. Jesper
+    holds a PhD and recently gave their first keynote. They're passionate about teaching
+    Python and elevating people's careers with machine learning across the world.
+  city: Bonn
+  country: Germany
+  expertise:
+  - Machine learning
+  - Diversity
+  first-name: Jesper
+  last-name: Dramsch
+  orcid: 0000-0001-8273-905X
+  pronouns: they
+  twitter: jesperdramsch
+  website: https://dramsch.net
 jessica-sims:
   affiliation: University College London
   bio: I work at the UKCRC Tissue Directory and Coordination Centre (TDCC). It is
@@ -2133,22 +2182,24 @@ jezcope:
     alongside research data in the scholarly record, and helping researchers develop
     the skills to make the most of this. He is a Fellow of the Software Sustainability
     Institute, 2020 intake.
-  city: North Yorkshire
+  city: Harrogate
   country: United Kingdom
   expertise:
+  - Research data management
+  - Digital scholarship
   - Libraries
-  - Data management
-  - Digital preservation
-  - Open source
-  - Open access publishing
-  - Git
-  - Web
+  - Open research
+  - Licensing
+  - Open data
+  - Open scholarship
+  - Open science
+  - Research software engineering practice
   first-name: Jez
   last-name: Cope
   orcid: 0000-0003-3629-1383
   pronouns: he/him
   twitter: jezcope
-  website: https://erambler.co.uk/
+  website: https://erambler.co.uk
 jmmaok:
   bio: A project lead in Cohort 3, Jennifer Miller has a M.S. in Technical Communication
     and a PhD in Public Policy. She has 10+ years post-secondary teaching experience
@@ -2257,15 +2308,16 @@ joshsimmons:
   last-name: Simmons
   twitter: joshsimmons
 joyceykao:
-  affiliation: Open Innovation In Life Sciences Association
-  bio: I am a recovering academic researcher (in evolutionary biology), who is currently
-    occupied with the use and development of web-based applications, using tech to
-    make processes efficient and reproducible, and growing the Open Innovation in
-    Life Sciences association to promote open science among early career researchers
-    in Switzerland. In my spare time, I watch a lot of Netflix (i.e., crime dramas,
-    sci-fi, RPDR)  and go on long walks with my family in the Swiss countryside.
-  city: Zurich
-  country: Switzerland
+  affiliation: Uniklinikum Rwth Aachen
+  bio: Currently, I am a Senior Project Manager at the Univerisity Hospital RWTH Aachen
+    coordinating the development of digital health apps and an enthusiast for using
+    tech to make processes efficient and reproducible. In a previous position, I co-founded
+    the Open Innovation in Life Sciences association that promotes open science among
+    early career researchers in Switzerland. Things that make me happy at the moment
+    include playing piano and introducing chapter books from my childhood to my school-aged
+    kid.
+  city: Aachen
+  country: Germany
   expertise:
   - Web applications
   - App/software development
@@ -2279,7 +2331,31 @@ joyceykao:
   orcid: 0000-0003-2082-6937
   pronouns: she/her
   twitter: joyceykao
-  website: https://joyceykao.github.io/
+  website: https://jykao.com/
+jsheunis:
+  affiliation: Research Center Juelich, Germany
+  bio: Stephan is passionate about brains, accessible education, and making scientific
+    practice more transparent and inclusive. Throughout his doctoral research, he
+    has been active in the Dutch network of Open Science Communities and he founded
+    OpenMR Benelux, a community working on wider adoption of open science practices
+    in MRI research through talks, discussions, workshops and hackathons. Stephan
+    has since continued this passion as a Research Data and Software Engineer at the
+    Forschungszentrum Jülich in Germany, where he works on software solutions for
+    neuroinformatics and decentralised research data management. He also holds post-doctoral
+    positions in the SYNC developmental neuroscience lab at Erasmus University Rotterdam
+    and Leiden University in the Netherlands.
+  city: Juelich
+  country: Germany
+  expertise:
+  - Research data management
+  - Open source tools for code and data sharing
+  - Signal processing with python;
+  first-name: Stephan
+  last-name: Heunis
+  orcid: 0000-0003-3503-9872
+  pronouns: he/him
+  twitter: fmrwhy
+  website: https://jsheunis.github.io/
 juan-josé-garcía-granero:
   affiliation: Spanish National Research Council
   bio: I am an archaeobotanist interested in how late prehistoric societies interacted
@@ -2332,19 +2408,9 @@ karegapauline:
   pronouns: she/her
   twitter: KaregaP
 kariljordan:
-  bio: 'Kari is the Senior Director of Equity and Assessment for The Carpentries,
-    Executive Director of the Engineer Like a Girl after-school program, and a Zumba
-    Fitness Instructor!
-
-    Kari''s background is mechanical engineering, and she earned a PhD in Engineering
-    Education from The Ohio State University. Her doctoral research explored self-efficacy
-    of underrepresented engineering students. After completing a post-doc in the Engineering
-    Fundamentals Department at Embry-Riddle Aeronautical University, she was hired
-    to lead The Carpentries assessment efforts. In her current role, her focus is
-    developing programs through the lens of equity, and setting strategic efforts
-    around assessment that inform The Carpentries curriculum and other initiatives.
-
-    '
+  bio: |
+    Kari is the Senior Director of Equity and Assessment for The Carpentries, Executive Director of the Engineer Like a Girl after-school program, and a Zumba Fitness Instructor!
+    Kari's background is mechanical engineering, and she earned a PhD in Engineering Education from The Ohio State University. Her doctoral research explored self-efficacy of underrepresented engineering students. After completing a post-doc in the Engineering Fundamentals Department at Embry-Riddle Aeronautical University, she was hired to lead The Carpentries assessment efforts. In her current role, her focus is developing programs through the lens of equity, and setting strategic efforts around assessment that inform The Carpentries curriculum and other initiatives.
   country: United States
   expertise:
   - Equity and Inclusion
@@ -2367,23 +2433,23 @@ karinlag:
   twitter: karinlag
 karvovskaya:
   affiliation: Vu Amsterdam
-  bio: I am interested in linguistics, especially in semantic fieldwork and language
-    documentation. After completing my PhD at Leiden University I started working
-    at university libraries in the area of Research Data Management. My experience
-    with research and language archives is a great help and inspiration
+  bio: I am a theoretical linguist turned community manager for research data management
+    and open science. I am excited about research and infrastructure and look forward
+    to learning from OLS project leads about their projects and supporting them through
+    their challenges!
   city: Amsterdam
-  country: The Netherlands
+  country: Netherlands
   expertise:
   - Linguistics
-  - Language documentation
-  - Typology
-  - Semantics
   - Research data management
+  - Fieldwork
+  - Semantics
+  - Typology
   first-name: Lena
   last-name: Karvovskaya
   orcid: 0000-0001-7777-5603
   pronouns: she, her
-  twitter: LangData
+  twitter: Lingdata
 katesimpson:
   affiliation: Imperial College London/ The Alan Turing Institute
   bio: I am an early career researcher focused on building energy use with a passion
@@ -2516,26 +2582,28 @@ kirstiejane:
   twitter: kirstie_j
   website: https://whitakerlab.github.io/
 klauer2207:
-  bio: Kathi is charge of implementing and driving ELIXIR''s industry Programme. ELIXIR
-    is an intergovernmental organisation with over 220 bioinformatics research centres
-    in 22 countries and the EMBL-EBI with open science at the core. ELIXIR is active
-    in the areas of data, compute, interoperability, tools and training in the data
-    driven life science sector. Kathi is further involved developing and delivering
-    initiatives to support Cambridge researchers in their pursuit of business and
-    entrepreneurial ventures through the Entrepreneurial Postdocs of Cambridge University.
-    Prior to her current role Kathi worked as a researcher in vaccines & virology.
+  affiliation: Elixir
+  bio: PhD in medical sciences with expertise in infectious diseases and vaccines
+    with expansive knowledge of the data driven life science industry. Proven ability
+    to present and write clearly and persuasively, complex scientific and technical
+    content, tailored to different audiences. Experience in inspiring, enthusing and
+    influencing stakeholders and leading teams while navigating different cultural
+    contexts. Extensive experience in developing strategies for national and international
+    projects covering public-private partnerships, communication, and outreach as
+    well as scientific programmes.
+  city: Cambridge
   country: United Kingdom
   expertise:
-  - Stakeholder engagement
-  - Entrepreneurship
-  - Open data resources
-  - Strategy and business development
-  - Public-private partnerships
+  - Infectious diseases
   - Data driven life sciences
-  - Virology
+  - Entrepreneurship
+  - Strategy
+  - External relations
   first-name: Katharina
   last-name: Lauer
+  orcid: 0000-0002-4347-7525
   pronouns: she/her
+  twitter: lauerkatharina
   website: https://www.linkedin.com/in/katharina-lauer-33aa2674/
 kmexter:
   affiliation: Flanders Marine Institute (Vliz)
@@ -2578,23 +2646,6 @@ kristinariemer:
   last-name: Riemer
   pronouns: she/her
   twitter: KristinaRiemer
-kstackwhitney:
-  affiliation: Rochester Institute Of Technology
-  bio: Dr. Stack Whitney is an environmental studies and STS professor in upstate
-    NY, USA. She conducts research in part on ableism and inaccessibility as barriers
-    to open science and open research - as well as ethical issues in open data.
-  city: Rochester, Ny
-  country: United States
-  expertise:
-  - Accessibility
-  - Ableism
-  - Openness without extraction
-  first-name: Kaitlin
-  last-name: Stack Whitney
-  orcid: 0000-0002-0815-5037
-  pronouns: she/her/hers
-  twitter: kstackwhitney
-  website: https://www.rit.edu/sweetlab
 kswhitney:
   affiliation: Rochester Institute Of Technology
   bio: Dr. Stack Whitney is an environmental studies professor at RIT in upstate NY,
@@ -2619,9 +2670,10 @@ kswhitney:
   website: https://rit.edu/sweetlab
 lalmehlisy:
   affiliation: King Abdullah International Medical Research Center (KAIMRC)
-  bio: I am a Research Lab Technician in KAIMRC working on Metagenomics-based drug discovery 
-    Project. I am learning about how to apply Open Science practices in my reserach while 
-    at the same time simplify them and make them more accessible to my community.
+  bio: I am a Research Lab Technician in KAIMRC working on Metagenomics-based drug
+    discovery Project. I am learning about how to apply Open Science practices in
+    my reserach while at the same time simplify them and make them more accessible
+    to my community.
   city: Riyadh
   country: Saudi Arabia
   expertise:
@@ -2650,25 +2702,20 @@ landimi2:
   twitter: CofiaLandy
 lauracarter:
   affiliation: University Of Essex
-  bio: 'Laura is a PhD candidate at the University of Essex, researching the use of
-    data assemblages in the public sector in England. Before this, she worked for
-    almost a decade as a researcher at Amnesty International, focusing on gender,
-    women''s rights, and LGBTI rights. She believes in research as a means to an end:
-    to building a better world for everyone.'
+  bio: I'm a PhD student researching gender stereotypes in public sector technology.
+  city: London
   country: United Kingdom
   expertise:
+  - Gender
+  - Discrimination
   - Human rights
-  - Data usage in the public sector
-  - Gender and stereotyping
-  - Feminist and queer approaches to tech and data
-  - Ethical and reflexive research methodologies
-  - Equality, Anti-discrimination and justice
+  - Feminism
   first-name: Laura
   last-name: Carter
   orcid: 0000-0002-4285-1140
   pronouns: she/her
   twitter: LauraC_rter
-  website: https://lauracarter.github.io
+  website: https://lauracarter.github.io/
 lauracion:
   affiliation: University Of Buenos Aires - Conicet
   bio: I am a tenured adjunct researcher leading a health data science group. I also
@@ -2794,20 +2841,21 @@ lpantano:
   twitter: lopantano
   website: https://lpantano.github.com
 luispedro:
-  bio: Luis is Junior PI at Fudan University in Shanghai. His work in computational
-    biology focus on the global microbiome. He has written several open source scientific
-    software packages and organized and taught at multiple Software Carpentry workshops.
+  affiliation: Fudan University
+  bio: I am the principal investigator of the Big Data Biology Lab at Fudan University
+    (Shanghai) since September 2018. Our group works in computational biology, with
+    a focus on the very large-scale. See https://luispedro.org/
+  city: Shanghai
   country: China
   expertise:
-  - Computational biology
-  - Group leadership
   - Microbiome
+  - Computational biology
   first-name: Luis Pedro
   last-name: Coelho
-  orcid: 0000-0002-9280-7885
-  pronouns: he/him
+  orcid: 0000-0002-8046-9831
+  pronouns: he/them
   twitter: luispedrocoelho
-  website: http://luispedro.org
+  website: https://luispedro.org
 lukehare:
   affiliation: The Alan Turing Institute
   city: London
@@ -2859,20 +2907,19 @@ lydia-france:
   orcid: 0000-0003-4392-568X
 macelik:
   affiliation: Bezmialem Vakif University
-  bio: I studied Bioinformatics at University Malaya in Malaysia, and doing my MSc
-    at Konya Food and Agriculture University. I am currently working for a research
-    institute (Beykoz Institute of Life Sciences and Biotechnology), which is part
-    of a local University (Bezmialem Vakıf Üniversitesi) in Istanbul.
+  bio: He is a PhD student and his general interest lies in developing and applying
+    computational methods and algorithms to analyze large collections of biological
+    data. At the moment, he is participating in a research project to develop a platform
+    for a real-time comprehensive study of viral proteomics.
   city: Istanbul
   country: Turkey
   expertise:
-  - Bioinformatics
-  - Virology
-  - Immunology
+  - Bioinformatics methods
+  - Workflow development
+  - Hpc management
   - Metagenomics
-  - Evolutionary Trace Analysis
-  - miRNA analysis
   - Galaxy
+  - Open science;
   first-name: Muhammet
   last-name: Celik
   pronouns: He/Him
@@ -2920,20 +2967,11 @@ malloryfreeberg:
   pronouns: she/her
   twitter: malloryfreeberg
 malvikasharan:
-  bio: 'Malvika Sharan is the community manager of [_The Turing Way-](https://the-turing-way.netlify.com)
-    at [The Alan Turing Institute](https://turing.ac.uk).
-
-    Malvika works with its community of diverse members to develop resources and ways
-    that can make data science accessible for a wider audience.
-
-    Malvika has a PhD in Bioinformatics and she worked at  [European Molecular Biology
-    Laboratory](http://embl.org), Germany, that helped her solidify her values as
-    an Open Researcher and community builder.
-
-    She is a co-founder of the Open Life Science program, a fellow of [Software Sustainability
-    Institute](https://software.ac.uk/about/fellows/malvika-sharan), a board member
-    of [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a contributing
-    member of [The Carpentries](https://carpentries.org/) community.'''
+  bio: |-
+    Malvika Sharan is the community manager of [_The Turing Way-](https://the-turing-way.netlify.com) at [The Alan Turing Institute](https://turing.ac.uk).
+    Malvika works with its community of diverse members to develop resources and ways that can make data science accessible for a wider audience.
+    Malvika has a PhD in Bioinformatics and she worked at  [European Molecular Biology Laboratory](http://embl.org), Germany, that helped her solidify her values as an Open Researcher and community builder.
+    She is a co-founder of the Open Life Science program, a fellow of [Software Sustainability Institute](https://software.ac.uk/about/fellows/malvika-sharan), a board member of [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a contributing member of [The Carpentries](https://carpentries.org/) community.'
   city: London
   country: United Kingdom
   expertise:
@@ -3308,13 +3346,8 @@ mishrose123:
   twitter: mishrose2
   website: https://www.ebi.ac.uk/about/people/michelle-mendonca
 mkuzak:
-  bio: 'Mateusz is Research Software Community Manager at the Netherlands eScience
-    Center. He has background in life sciences and have been working with bioinformatics
-    data analysis and research software engineering. Past few years he has been involved
-    in the Carpentries as an instructor, trainer and mentor (both in the mentoring
-    subcommittee and mentoring teams).
-
-    '
+  bio: |
+    Mateusz is Research Software Community Manager at the Netherlands eScience Center. He has background in life sciences and have been working with bioinformatics data analysis and research software engineering. Past few years he has been involved in the Carpentries as an instructor, trainer and mentor (both in the mentoring subcommittee and mentoring teams).
   country: The Netherlands
   expertise:
   - Training
@@ -3384,6 +3417,27 @@ mruizvelley:
   orcid: 0000-0002-9248-1280
   pronouns: she/her
   twitter: mruizvelley
+msundukova:
+  bio: 'Mayya is a physicist by training, neuroscientist by experience and artist
+    by calling. Her favourite research topics evolve around touch/pain and fluorescent
+    tools to render invisible processes glowing. SISSA, EMBL, MCSA alumna, now an
+    Eccentric Mentor. Her motto is: "It is..what is if?"'
+  city: Bilbao
+  country: Spain
+  expertise:
+  - Neuroscience
+  - Electrophysiology
+  - Microscopy
+  - Creative thinking
+  - Reflection
+  - Work-life balance
+  - Mobility
+  - Transition
+  first-name: Mayya
+  last-name: Sundukova
+  orcid: 0000-0003-1328-0008
+  pronouns: she/her
+  twitter: mayya_sundukova
 muhammetcelik:
   country: Turkey
   first-name: Muhammet
@@ -3650,19 +3704,21 @@ pescini:
   pronouns: he/him
   twitter: darioPescini
 pherterich:
+  affiliation: Dcc, University Of Edinburgh
   bio: Patricia is currently a Research Data Specialist working at the Digital Curation
-    Centre at the University of Edinburgh working on the FAIRsFAIR project aiming
-    at fostering Fair Data Practices in Europe. Before joining the DCC, she was the
-    Research Repository Advisor at the University of Birmingham and have previously
-    worked as a data librarian at CERN''s Scientific Information Service working closely
+    Centre at the University of Edinburgh. Before joining the DCC, she was the Research
+    Repository Advisor at the University of Birmingham and have previously worked
+    as a data librarian at CERN’’s Scientific Information Service working closely
     with software developers to deliver data and code sharing solutions. She loves
     collaborating openly and making projects welcoming to new comers.
+  city: Edinburgh
   country: United Kingdom
   expertise:
-  - Data management
+  - Research data management
+  - Fair data
   - Collaboration
   - Library and archiving skills
-  - Open Science and community
+  - Open science and community
   first-name: Patricia
   last-name: Herterich
   orcid: 0000-0002-4542-9906
@@ -3713,16 +3769,11 @@ prakriti-karki:
   pronouns: She/her
 prashbio:
   affiliation: Bioclues.Org
-  bio: 'A Systems Biologist with wide interests in the areas on functional genomics,
-    protein informatics and interactions.
-
-    *Principal Investigator for four or more projects coalescing keywords #HypotheticalProteins
-    #VitaminK #LncRNAs #ProstateCancer
-
-    *Founder of Bioclues.org, India''s largest bioinformatics society working for
-    mentor-mentee relationships since 2005.
-
-    *Advocate #OpenAcess and #OpenSource'
+  bio: |-
+    A Systems Biologist with wide interests in the areas on functional genomics, protein informatics and interactions.
+    *Principal Investigator for four or more projects coalescing keywords #HypotheticalProteins #VitaminK #LncRNAs #ProstateCancer
+    *Founder of Bioclues.org, India's largest bioinformatics society working for mentor-mentee relationships since 2005.
+    *Advocate #OpenAcess and #OpenSource
   city: Jaipur
   country: India
   expertise:
@@ -3832,6 +3883,29 @@ rainsworth:
   pronouns: she/her
   twitter: rachaelevelyn
   website: https://rainsworth.github.io/
+raphaels1:
+  affiliation: Wellcome
+  bio: I'm a Technology Manager at Wellcome, a Research Associate at Imperial College
+    London, and a Senior Postdoctoral Fellow at University of Kaiserslautern. I have
+    a PhD in Statistics (specifically ML for survival analysis) from UCL and gained
+    experience in mathematical modelling from working in Prof. Neil Ferguson's COVID
+    response team.
+  city: London
+  country: United Kingdom
+  expertise:
+  - Machine learning
+  - Ethical modelling
+  - Risk and uncertainty communication
+  - Transparent and accessible ai
+  - Automl
+  - Benchmarking
+  - Survival analysis (and fundamental problems)
+  first-name: Raphael
+  last-name: Sonabend
+  orcid: 0000-0001-9225-4654
+  pronouns: They/He
+  twitter: RaphaelS101
+  website: https://http://www.raphaelsonabend.co.uk (don't open in Safari!)
 rgaiacs:
   bio: Raniere is a PhD student at Department of Infectious Diseases and Public Health,
     City University of Hong Kong. He worked with the Software Sustainability Institute
@@ -3987,18 +4061,26 @@ santi-rello-varona:
   pronouns: he/him
   twitter: KropTor
 santosrac:
-  bio: Bioinformatician working on genomics and transcriptomics of ascomycete and
-    basidiomycete fungi. Interested in education, teaching programming skills to bioscientists,
-    and in open science.
+  affiliation: Changing From Unicamp To Another Institution (Post-Doc)
+  bio: I am biologist. I worked with fungal genomics during my master and doctorate
+    projects. Over my career, I organized several workshops for teaching programming
+    skills to bioscientists, including the Brazilian Python Workshop for Biological
+    Data. This year (2022), I will be an Ambassador in the eLife Community Ambassadors
+    program.
+  city: Piracicaba
   country: Brazil
   expertise:
   - Bioinformatics
-  - Introduction to programming skills (Python or Perl)
-  - Fungal Biology
-  first-name: Renato Augusto Corrêa
-  last-name: dos Santos
-  pronouns: he/him
+  - Genomics
+  - Transcriptomics
+  - Omics
+  - Education
+  first-name: Renato Augusto
+  last-name: Correa Dos Santos
+  orcid: 0000-0003-0826-5479
+  pronouns: He
   twitter: CorreaSantosRA
+  website: https://santosrac.netlify.app/
 saranjeetkaur:
   bio: I am a Statistician by training. I have completed the Google Summer of Code
     2020 with the Turing team of the Julia language organisation. Recently I have
@@ -4052,15 +4134,10 @@ satagopam7:
 sayalaruano:
   affiliation: Regional Student Group Ecuador, Part Of The International Society For
     Computational Biology Student Council
-  bio: 'I am a focused and motivated young researcher that has worked in Bioinformatics
-    for four years at different laboratories. Phylogenetics and Structural Bioinformatics
-    have been the main topics of this research experience. However, my current interests
-    are devoted to Network Science, Complex Systems, and Machine Learning to understand
-    different biological phenomena.
+  bio: |-
+    I am a focused and motivated young researcher that has worked in Bioinformatics for four years at different laboratories. Phylogenetics and Structural Bioinformatics have been the main topics of this research experience. However, my current interests are devoted to Network Science, Complex Systems, and Machine Learning to understand different biological phenomena.
 
-
-    I am involved in various initiatives to empower Bioinformatics in Ecuador and
-    Latin America.'
+    I am involved in various initiatives to empower Bioinformatics in Ecuador and Latin America.
   city: Quito
   country: Ecuador
   expertise:
@@ -4102,15 +4179,16 @@ sebastianeggert:
   pronouns: he/his
   twitter: se_eggert
 selgebali:
-  affiliation: Opencider
-  bio: I'm a Research Data Manager, with a background in scientific curation, and
+  affiliation: Scilifelab-Data Centre
+  bio: I’m a Research Data Manager, with a background in scientific curation, and
     cancer research. Graduate of elife innovation leaders program with OpenCIDER (Open
-    Computational Inclusion and Digital Equity Resource).
+    Computational Inclusion and Digital Equity Resource) and cofounder of FAIRPoints
+    https://www.fairpoints.org/.
   city: Gothenburg
   country: Sweden
   expertise:
   - Research data management
-  - Open science
+  - Scientific biocuration
   - Fair principles
   - Computational inclusion
   - Digital equity
@@ -4121,7 +4199,7 @@ selgebali:
   orcid: 0000-0003-1378-5495
   pronouns: she/her
   twitter: yalahowy
-  website: https://www.opencider.org/
+  website: https://www.fairpoints.org/
 serahrono:
   affiliation: The Carpentries
   bio: Serah Rono is a computer scientist and writer with a knack and deep seated
@@ -4289,24 +4367,22 @@ stefan-gaillard:
   twitter: sdmgaillard
 stefaniebutland:
   affiliation: Ropensci
-  bio: I have my dream job as the Community Manager for rOpenSci. I'm a biologist,
-    bioinformatician, and compulsive people-connector and knowledge-sharer. I was
-    one of the inaugural AAAS Community Engagement Fellows and am actively involved
-    with the new Center for Scientific Collaboration and Community Engagement. My
-    former research life involved bacteria, plants, insects, and mammals, first at
-    the bench and then on a laptop. At rOpenSci I'm helping building up the social
-    and technical infrastructure for open and reproducible research with shared data
-    and reusable software.
+  bio: I'm a tech community manager and reformed research scientist who can never
+    resist connecting people, sharing knowledge, and helping people recognize the
+    value they bring to a project. I am actively involved with the Center for Scientific
+    Collaboration and Community Engagement as one of the inaugural Community Engagement
+    Fellows, a mentor, and member. My research life involved bacteria, plants, insects,
+    and mammals, first at the bench and then on a laptop. I was rOpenSci's Community
+    Manager from 2016 to 2022.
   city: Kamloops
   country: Canada
   expertise:
-  - Community building
+  - Building inclusive sustainable communities
   - Communicating in the open
-  - Maintaining a blog
-  - Open software peer review
-  - R
-  - GitHub
   - Virtual events
+  - Github
+  - ' r'
+  - Open software peer review
   first-name: Stefanie
   last-name: Butland
   orcid: 0000-0002-5427-8951
@@ -4336,6 +4412,17 @@ tai-rocha:
   last-name: Rocha
   orcid: 0000-0001-6874-2447
   twitter: Tai_Rocha_
+teresa-cisneros:
+  bio: I practice where I am from which is the MX/TX border the centres a politics
+    of collective action and care.
+  city: London
+  country: England
+  expertise:
+  - Equity
+  - Diversity and inclusion (transformative justice approaches)
+  first-name: Teresa
+  last-name: Cisneros
+  twitter: chicanaEnLondon
 teresa-m:
   affiliation: University Of Freiburg, Bioinformatics Group
   bio: I am Teresa, a PhD student in the Backofen lab at the University of Freiburg.
@@ -4557,17 +4644,15 @@ vcheplygina:
   twitter: DrVeronikaCH
   website: https://www.veronikach.com
 vickynembaware:
-  bio: 'Vicky has a PhD in Bioinformatics and an MPhil in Monitoring and Evaluation.
-
-    Her research experience (qualitative and quantitative) spans Genomics and Public
-    Health. She is currently a Project Coordinator for the Sickle Africa Data Coordinating
-    Center at the University of Cape Town. She also coordinates several other groups
-    and projects including the African Genomic Medicine Training Initiative (AGMT),
-    Sickle Cell Disease Ontology Working Group (SCDO) and mGenAfrica.
-
-    She is the current secretary of the African Society of Human Genetics (AfSHG).
-    She is passionate about building research capacity, mentoring young investigators
-    and translational research. '
+  bio: "Vicky has a PhD in Bioinformatics and an MPhil in Monitoring and Evaluation.\n\
+    Her research experience (qualitative and quantitative) spans Genomics and Public\
+    \ Health. She is currently a Project Coordinator for the Sickle Africa Data Coordinating\
+    \ Center at the University of Cape Town. She also coordinates several other groups\
+    \ and projects including the African Genomic Medicine Training Initiative (AGMT),\
+    \ Sickle Cell Disease Ontology Working Group (SCDO) and mGenAfrica.\nShe is the\
+    \ current secretary of the African Society of Human Genetics (AfSHG). She is passionate\
+    \ about building research capacity, mentoring young investigators and translational\
+    \ research. "
   country: South Africa
   expertise:
   - Bioinformatics
@@ -4601,18 +4686,15 @@ wykhuh:
   last-name: Kwan
   orcid: 0000-0001-6113-0210
 yochannah:
-  bio: Yo is Open Source Technology Lead at the Wellcome Trust's Data for Science and 
-    Health team, a [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/yo-yehudi),
-    co-founder of [Open Life Science](https://openlifesci.org/) and 
-    [Code is Science](http://www.codeisscience.com/manifesto), 
-    [EngD student at the University of 
-    Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html) 
-    studying pathogen-related data sharing and sustainability of open source 
-    software. Previously, they were editor for the [PLOS Open Source 
-    Toolkit](https://channels.plos.org/open-source-toolkit), editor emeritus at the 
-    [Journal of Open Source Software](https://joss.theoj.org/), board member of the
-    [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a 
-    software developer at the University of Cambridge, working on an open source
+  bio: Yo is Open Source Technology Lead at the Wellcome Trust's Data for Science
+    and Health team, a [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/yo-yehudi),
+    co-founder of [Open Life Science](https://openlifesci.org/) and [Code is Science](http://www.codeisscience.com/manifesto),
+    [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html)
+    studying pathogen-related data sharing and sustainability of open source software.
+    Previously, they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
+    editor emeritus at the [Journal of Open Source Software](https://joss.theoj.org/),
+    board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
+    and a software developer at the University of Cambridge, working on an open source
     biological data warehouse called [InterMine](http://intermine.org/).
   country: United Kingdom
   expertise:

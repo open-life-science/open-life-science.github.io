@@ -143,7 +143,7 @@ Add the person to their corresponding list to be visible on the website:
 
 Add many people in a row to `_data/people.yaml`:
 
-1. Create a CSV file with at least the following columns (named this way): 
+1. Create a CSV file with at least the following columns (named this way):
    - `First name`
    - `Last name`
    - `Email`
@@ -175,7 +175,47 @@ Add many people in a row to `_data/people.yaml`:
 4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`
 
    ```
-   $ python bin/prepare_website_data.py extractpeople -i <path to csv file>
+   $ python bin/prepare_website_data.py extractpeople \
+      -df <path to csv file with participants> OR -du <URL to csv file with participants>
+   ```
+
+## Add possible mentors and experts for a cohort
+
+1. Create a CSV file with at least the following columns (named this way):
+   - `First name`
+   - `Last name`
+   - `Email`
+   - `Github username`
+   - `Twitter username`
+   - `Website`
+   - `ORCID`
+   - `Affiliation`
+   - `City`
+   - `Country`
+   - `Pronouns`
+   - `Areas of expertise (1 element per line)`
+   - `Bio`
+
+   A form like [this one](https://docs.google.com/forms/d/e/1FAIpQLScmsWw0VSvdytz3A1k6HnbfgOnsE4SiJcL9_qkMTs_Na6-l2Q/viewform?usp=pp_url) can be used to generate such csv
+
+2. Activate the conda environment
+
+   ```
+   $ source activate open-life-science-website
+   ```
+
+   Or alternatively, get locally:
+   - Python 3.*
+   - pyyaml
+   - pandas
+
+4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`
+
+   ```
+   $ python bin/prepare_website_data.py addmentorsexperts \
+      -c <cohort id> \
+      -t <mentors or experts> \
+      -df <path to csv file with participants> OR -du <URL to csv file with participants>
    ```
 
 ## Add a partner/sponsor
@@ -196,7 +236,7 @@ The schedule displayed in a cohort page is automatically generated from a file `
 In this file, for each week, it is listed the timeframe and the different calls planned. For each call, several information are given:
 - `type`: `Mentor-Mentee`, `Cohort`, `Mentors` or `Coworking`
 - `duration` in min
-- `title` 
+- `title`
 - `date` in the format `Month Day, Year`
 - `time` in the format '14:00' and for Berlin time
 - `calendar-event`: link to calendar event
@@ -236,7 +276,7 @@ In this file, for each week, it is listed the timeframe and the different calls 
 
 ## Order experts and possible mentors by expertise areas
 
-In metadata file for cohort, experts and possible mentors can be ordered by expertise area to be display in cohort page given these areas. 
+In metadata file for cohort, experts and possible mentors can be ordered by expertise area to be display in cohort page given these areas.
 
 To order them:
 
@@ -285,9 +325,8 @@ To order them:
    ```
    $ python bin/prepare_website_data.py addprojects \
       -c <cohort id> \
-      -p <path to csv file with projects> \
-      -i <path to csv file with participants> \
-      -l <path to log file>
+      -pf <path to csv file with projects> OR -pu <URL to csv file with projects> \
+      -df <path to csv file with participants> OR -du <URL to csv file with participants>
    ```
 
 ## Add events to Google calendar
