@@ -94,7 +94,7 @@ def get_people_ids(names, people):
     if not pd.isnull(names):
         names = names.replace(' and ', ', ').title().split(', ')
         for n in names:
-            ids.append(get_people_id(n, people))
+            ids.append(get_people_id(n.rstrip(), people))
 
     return ids
 
@@ -159,6 +159,11 @@ def extract_people_info(row, people):
     github = github.replace('https://github.com/', '')
     github = github.rstrip()
     github = github.lower().replace(' ', '-').replace('@', '')
+    # format country
+    if info['country'] is not None:
+        info['country'] = info['country'].replace('UK', 'United Kingdom')
+        info['country'] = info['country'].replace('US', 'United States')
+        info['country'] = info['country'].replace('USA', 'United States')
     # format ORCID
     if info['orcid'] is not None:
         info['orcid'] = info['orcid'].replace('https://orcid.org/', '')
