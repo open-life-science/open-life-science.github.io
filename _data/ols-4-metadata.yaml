@@ -37,7 +37,7 @@ experts:
 - k8hertweck
 - karvovskaya
 - katoss
-- kstackwhitney
+- kswhitney
 - lauracarter
 - lwinfree
 - markuskonk
@@ -53,9 +53,9 @@ experts:
 - unode
 experts-with-expertise:
   Ableism:
-  - kstackwhitney
+  - kswhitney
   Accessibility:
-  - kstackwhitney
+  - kswhitney
   - smklusza
   Agrobiodiversity:
   - iramosp
@@ -349,7 +349,7 @@ experts-with-expertise:
   Open workflows:
   - ekaroune
   Openness without extraction:
-  - kstackwhitney
+  - kswhitney
   Osteology:
   - estherplomp
   Palaeoecology:

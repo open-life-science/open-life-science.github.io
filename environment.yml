@@ -1,5 +1,5 @@
 
-name: open-life-science-website
+name: ols-website
 channels:
   - conda-forge
   - defaults
@@ -9,7 +9,7 @@ dependencies:
   - nodejs
   - openssl
   - readline
-  - ruby
+  - ruby=2.6.6
   - yaml
   - yamllint
   - zlib
@@ -17,3 +17,4 @@ dependencies:
   - pkg-config
   - pandas
   - pyyaml
+  - gxx_linux-64
