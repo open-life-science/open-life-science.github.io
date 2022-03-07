@@ -22,19 +22,19 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 ## Applications
 
-[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5){:.button .is-link .is-fullwidth}
+<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before January 7, 2022 to allow activation of your Open Review profile as described in the [OLS-5 application guidelines and templates](https://github.com/open-life-science/application-forms).*
+*Please register on Open Review before January 7, 2022 to allow activation of your Open Review profile as described in the [OLS-5 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
 
-OLS-5 runs from February to June 2022. Applications for OLS-6 will open in mid 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open. 
+OLS-5 runs from February to June 2022. Applications for OLS-6 will open in mid 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open.
 
-### Timeline
+### Preliminary timeline
 
-{% assign schedule = site.data.ols-5-schedule %}
+{% assign schedule = site.data.ols-6-schedule %}
 {% include _includes/timeline.md %}
 
-Have a question or need any support to join this cohort? 
-We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}). 
+Have a question or need any support to join this cohort?
+We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}).
 
 ## Projects
 
@@ -102,14 +102,31 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-4-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
 {% assign ols-4-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
 
-Participants join this program with a project that they either are already working on or want to develop during this program individually or in teams. 
+<!-- OLS-5 -->
+{% assign ols-5-projects = site.data.ols-5-projects %}
+{% assign all-participants = '' %}
+{% assign all-mentors = '' %}
+{% for project in ols-5-projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-5-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign ols-5-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+
+Participants join this program with a project that they either are already working on or want to develop during this program individually or in teams.
 Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
 **Check out the projects developed in the previous cohorts:**
 - [OLS-1]({% link ols-1.md %}) from January to April 2020, [{{ ols-1-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects)
 - [OLS-2]({% link ols-2.md %}) from September to December 2020, [{{ ols-2-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ ols-2-projects | size }} projects](/ols-2/projects-participants#projects)
 - [OLS-3]({% link ols-3.md %}) from February to May 2021, [{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects)
-- [OLS-4]({% link ols-4.md %}) from September 2021 to Janauary 2022, [{{ ols-4-participants | size }} participants](/ols-4/projects-participants#participants) with [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects)
+- [OLS-4]({% link ols-4.md %}) from September 2021 to January 2022, [{{ ols-4-participants | size }} participants](/ols-4/projects-participants#participants) with [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects)
+- [OLS-5]({% link ols-5.md %}) from February 2022 to June 2022, [{{ ols-5-participants | size }} participants](/ols-5/projects-participants#participants) with [{{ ols-5-projects | size }} projects](/ols-5/projects-participants#projects)
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
 
@@ -149,7 +166,7 @@ Here are a few values we think you will receive from participating in this proje
 
 *To illustrate the OLS journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their open science training.*
 
-Joy will provide an outline of a project in their application that they will develop in the program. Additionally, they will indicate their interests in learning particular aspects of Open Science and research. 
+Joy will provide an outline of a project in their application that they will develop in the program. Additionally, they will indicate their interests in learning particular aspects of Open Science and research.
 
 Sam will register as a mentor and list their expertise that they would like to share with their mentee.
 
@@ -157,13 +174,13 @@ After the selection process, they will be involved in the following steps of thi
 
 1. Based on their common interests, they will be introduced to each other as suitable mentee and mentor
 
-    They will meet every 2nd week on **mentee-mentor calls** (around 30 minutes). Sam will help Joy evaluate their understanding of the new topics introduced in the program, and guide their progress by providing constructive feedback. 
+    They will meet every 2nd week on **mentee-mentor calls** (around 30 minutes). Sam will help Joy evaluate their understanding of the new topics introduced in the program, and guide their progress by providing constructive feedback.
     Joy will be given assignments before these calls to help them apply new skills to their project. When needed, Joy and Sam will connect with other [experts](about#experts) to invite consultation on their project.
 
 2. Joy will participate in online [training calls](ols-4#calls) and share insights with other participants in the program.
 
     In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
-    
+
 3. Joy will get to know their peers from the cohort during social and co-working calls.
 
     They will share their project ideas, learn about others' projects and discuss assignments.
