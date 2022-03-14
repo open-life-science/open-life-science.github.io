@@ -328,7 +328,6 @@ The sensitivity of this kit will be evaluated on extracted DNA from three sample
   name: Building Pathways for Onboarding to Research Software Engineering (RSE) Asia Association and Adoption of Code of Conduct
   participants:
   - jyoti-bhogal
-  - shubhamrj7
 - description: "We are to process bladder cancer RNA-Seq datasets that are publicly available. The co-authors of this manuscript will work on the analysis and apply bioinformatics methods for analysis of this large scale, heterogeneous RNA-sequencing dataset (20 + samples - 3Gb) that will be downloaded from any of the following databases; Genome Atlas (TCGA) database, Genotype-Tissue Expression (GTEx), cBio Cancer GenCancer Genomics Portal (cBioPortal) database and SRA NCBI database (choose any suitable database you are familiar with). The biological questions of particular interest include
 
 1. identification of differentially expressed transcripts (DEGs)
