@@ -84,3 +84,59 @@ Yes, please do! OLS is based legally in the UK, but dedicated to creating a glob
 ### For the research portion of this role, do I have to design the study? 
 
 This is flexible, based on the successful applicant! The OLS team has both hands-on experience in qualitative research, as well as partner organisations who can help. Applicants who would like to design the study and/or have qualitative research experience would be welcome to help design the study, but we can also offer supervision and assistance designing the study if you prefer. 
+
+### Details about overlap hours with UK timezone.
+
+OLS core team is working 9am-6pm in our respective time zones (GMT/CET) and we do a lot of work asynchronously. So we're looking for 2 hrs overlap with UK/Central Europe work time
+
+### What are the main communication and management systems that the OLS team uses?
+
+Slack, Zoom. LOT of Zoom ;) Google Docs/Sheets etc. (There is room here to improve!) GitHub. Google Workspace, Google Groups for cohort coordination. 
+
+### Do we need to add preference about part-time or full-time in the application or it can be decided later on?+1
+
+It can be decided later on, but if you already know, it's helpful to share it earlier on. 
+
+### What kind of opportunities are there for professional development? (ditto this)
+
+The position is time-bound to 18 months, but we would like to identify future funding to help the successful applicant do what they enjoy. Could reasonably see research and community career paths here. 
+
+### Can you describe the working culture of the organisation?
+
+We're getting embarassingly sappy <3  we try to be as inclusive and open minded as possible and recognise we're all humans. 
+Taking care of each other first, take care of each other too. 
+Mistakes happen, we try to admit them and learn and figure out if we can fix it for next time
+
+### Are there opportunities for training and progression within the role/organisation?
+
+Definitely - training, participating in workshops, mentoring training, 
+
+### What are the long-term expansion/sustainability plans for the OLS programme, organisation and team beyond 2023, and/or is this dependent on research outcomes of the WT and CZI grants?
+
+The person in this position will be involved in helping plan the next steps. They will take on responsibilities from Yo, allowing her to spend more time on planning what we do.
+
+### Is there flexibility in contract working hours, e.g. from 0.5 FTE for X month(s) to 1.0 FTE for the remainder? 
+
+Yes, so long as it fits within the 24 month time-frame. 
+
+### Confirm application deadline: on web+social media closing date is 22-Mar-2022; on PDF job description, this is 20-Mar-2022 ? (Also slight differences in word number for cover letter) 
+
+It's 22. Sorry 🙈
+
+### How would you act in the case of things not working well of the candidate in this job? And what would be the sign of "not working well"?
+
+People not learning from mistake, mistakes happen and we will give feedback and support, but biggest worry will be lack of communication of repeating the mistakes.
+
+Working in alignment with our [values](/about#our-values).
+
+### What are the next steps in the application process after the interviews?
+
+- We have a committee of OLS community members who are reviewing the applications
+- We will have a reasonably diverse review as well as interview committee
+- We will try to share interview question beforehand, follow up questions may not be shared
+- We might give a small task to do during the interview (you will be told with sufficient time in advance)
+
+### Is social/humanities background a pre-requisite? (ditto)
+
+Not at all. Some experience in research is important so that they can co-design the research and conduct that in the specified time (2022-2023)
+
