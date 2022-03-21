@@ -60,7 +60,7 @@ OLS is committed to providing a nurturing and flexible work environment. This jo
 ## How to apply
 
 
-Please send a CV (1-4 pages) and cover letter (no more than 800 words) stating why this opportunity is compelling to you, what you want to achieve in this space, and what you bring to this work to: [jobs@openlifesci.org](mailto:jobs@openlifesci.org).
+Please send a CV and cover letter stating why this opportunity is compelling to you, what you want to achieve in this space, and what you bring to this work to: [jobs@openlifesci.org](mailto:jobs@openlifesci.org).
 
 Interviews will take place virtually via Zoom. We are happy to arrange technical assistance to participate in the interviews (e.g. a month of high-speed internet, webcam, or headset costs), as well as childcare and access arrangements such as captioning or an interpreter. 
 
@@ -77,66 +77,68 @@ For more details, please download the [full job description](/images/2022-WT-OLS
 
 ## Frequently Asked Questions
 
-### I'm from country (insert your country name here), can I apply? 
+*These questions are curated from personal emails to the OLS team and the Q&A webinar organised for the applicants*
 
-Yes, please do! OLS is based legally in the UK, but dedicated to creating a global network. When we get to the point of being close to offering the job to candidates, we will consult with tax/legal advisors to find out the best way to manage hiring. Most likely, if we select a non-UK applicant, we expect to hire you as a contractor rather than an employee, and it may require changes to the contract deliverables depending in the specifics of the country you are working in. Our one requirement for applying is that **you must have the legal right to work in the country you live**, or you must be willing to move to a country where you have the right to work. If you have a visa that prevents you from working in the country where you live, we're unlikely to be able to help. 
+### I'm from the country (insert your country name here), can I apply? 
+
+Yes, please do! OLS is based legally in the UK but dedicated to creating a global network. When we get to the point of being close to offering the job to candidates, we will consult with tax/legal advisors to find out the best way to manage to hire. Most likely, if we select a non-UK applicant, we expect to hire you as a contractor rather than an employee, and it may require changes to the contract deliverables depending on the specifics of the country you are working in. Our one requirement for applying is that **you must have the legal right to work in the country you live**, or you must be willing to move to a country where you have the right to work. If you have a visa that prevents you from working in the country where you live, we're unlikely to be able to help. 
 
 ### For the research portion of this role, do I have to design the study? 
 
-This is flexible, based on the successful applicant! The OLS team has both hands-on experience in qualitative research, as well as partner organisations who can help. Applicants who would like to design the study and/or have qualitative research experience would be welcome to help design the study, but we can also offer supervision and assistance designing the study if you prefer. 
+This is flexible, based on the successful applicant! The OLS team has both hands-on experience in qualitative research, as well as partner organisations that can help. Applicants who would like to design the study and/or have qualitative research experience would be welcome to help design the study, but we can also offer supervision and assistance in designing the study if you prefer. 
 
 ### Details about overlap hours with UK timezone.
 
-OLS core team is working 9am-6pm in our respective time zones (GMT/CET) and we do a lot of work asynchronously. So we're looking for 2 hrs overlap with UK/Central Europe work time
+OLS core team is working 9 am-6 pm in our respective time zones (GMT/CET) and we do a lot of work asynchronously. So we're looking for 2 hrs overlap with UK/Central Europe work time
 
 ### What are the main communication and management systems that the OLS team uses?
 
-Slack, Zoom. LOT of Zoom ;) Google Docs/Sheets etc. (There is room here to improve!) GitHub. Google Workspace, Google Groups for cohort coordination. 
+Slack, emails, LOT of Zooms ;), Google Docs/Sheets etc. (There is room here to improve!).
+The main workspaces are GitHub. Google Workspace and Google Groups for cohort coordination. 
 
-### Do we need to add preference about part-time or full-time in the application or it can be decided later on?+1
+### Do we need to add preference about part-time or full-time in the application or it can be decided later on?
 
-It can be decided later on, but if you already know, it's helpful to share it earlier on. 
+It can be decided later on, but if you already know, it's helpful to share it earlier on in your application. 
 
-### What kind of opportunities are there for professional development? (ditto this)
+### What kind of opportunities are there for professional development?
 
 The position is time-bound to 18 months, but we would like to identify future funding to help the successful applicant do what they enjoy. Could reasonably see research and community career paths here. 
 
 ### Can you describe the working culture of the organisation?
 
-We're getting embarassingly sappy <3  we try to be as inclusive and open minded as possible and recognise we're all humans. 
-Taking care of each other first, take care of each other too. 
-Mistakes happen, we try to admit them and learn and figure out if we can fix it for next time
+(We're getting embarrassingly sappy <3) We try to be as inclusive and open-minded as possible and recognise we're all humans. 
+Taking care of personal well being and each other as a team.
+Mistakes happen, we try to admit them and learn and figure out how we can fix them for next time
 
 ### Are there opportunities for training and progression within the role/organisation?
 
-Definitely - training, participating in workshops, mentoring training, 
+Definitely - training, participating in workshops, professional mentoring/coaching training, 
 
 ### What are the long-term expansion/sustainability plans for the OLS programme, organisation and team beyond 2023, and/or is this dependent on research outcomes of the WT and CZI grants?
 
-The person in this position will be involved in helping plan the next steps. They will take on responsibilities from Yo, allowing her to spend more time on planning what we do.
+The person in this position will be involved in helping plan the next steps. They will take on responsibilities from Yo, allowing her to spend more time planning what we do in the sustainability direction.
 
 ### Is there flexibility in contract working hours, e.g. from 0.5 FTE for X month(s) to 1.0 FTE for the remainder? 
 
-Yes, so long as it fits within the 24 month time-frame. 
+Yes, so long as it fits within the 24-month time frame. 
 
-### Confirm application deadline: on web+social media closing date is 22-Mar-2022; on PDF job description, this is 20-Mar-2022 ? (Also slight differences in word number for cover letter) 
+### Confirm application deadline: on web+social media, closing date is 22-Mar-2022; on PDF job description, this is 20-Mar-2022? (Also slight differences in word number for a cover letter) 
 
 It's 22. Sorry 🙈
 
-### How would you act in the case of things not working well of the candidate in this job? And what would be the sign of "not working well"?
+### How would you act in the case of things not working well for the candidate in this job? And what would be the sign of "not working well"?
 
-People not learning from mistake, mistakes happen and we will give feedback and support, but biggest worry will be lack of communication of repeating the mistakes.
-
-Working in alignment with our [values](/about#our-values).
+People not learning from a mistake! Mistakes happen and we will give feedback and support, but the biggest worry will be lack of communication or repeating the mistakes.
+We expect all our colleagues to work in alignment with our [values](/about#our-values).
 
 ### What are the next steps in the application process after the interviews?
 
 - We have a committee of OLS community members who are reviewing the applications
-- We will have a reasonably diverse review as well as interview committee
-- We will try to share interview question beforehand, follow up questions may not be shared
+- We will have a reasonably diverse review as well as an interview committee
+- We will try to share interview questions beforehand, follow up questions may not be shared
 - We might give a small task to do during the interview (you will be told with sufficient time in advance)
 
-### Is social/humanities background a pre-requisite? (ditto)
+### Is social/humanities background a pre-requisite?
 
-Not at all. Some experience in research is important so that they can co-design the research and conduct that in the specified time (2022-2023)
+Not at all. Some experience in research is important so that they can co-design the study and conduct it in collaboration with the OLS team within the specified time (2022-2023)
 
