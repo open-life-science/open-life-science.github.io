@@ -21,10 +21,7 @@ _Note: If you like the scope of this job but unsure if your profile fits this ro
 
 Webinar joining instructions: 
 - Notes: [https://pad.sfconservancy.org/p/ols-recruiting-webinar-2022](https://pad.sfconservancy.org/p/ols-recruiting-webinar-2022)
-- Date: March 18 202
-- Joining link: [https://us02web.zoom.us/j/88952007466?pwd=Q0NkSHN6UW93bUxoRERQb3dPeFI2Zz09](https://us02web.zoom.us/j/88952007466?pwd=Q0NkSHN6UW93bUxoRERQb3dPeFI2Zz09)  
-  - Meeting ID: 889 5200 7466
-  - Passcode: 855982
+- Date: March 18, 2022. This call has concluded - please watch the recording from this call on [YouTube](https://www.youtube.com/watch?v=TOHZoIjumLc).
 
 ---
 
