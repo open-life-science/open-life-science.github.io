@@ -26,8 +26,8 @@ Create a GitHub issue: [https://github.com/open-life-science/open-life-science.g
         - [ ]  Add names of hosts and faciliators
         - [ ]  Add speaker names in "Confirmed speaker"
         - [ ]  Check links to slide deck
-        - [ ]  Check "Before" and "After"
-        - [ ]  Post on OLS Slack that the sheet has been updated
+        - [ ]  Check "Before" and "After"; the content should before and after call activities/assignments detailed in the cohort call notes.
+        - [ ]  Post on OLS Slack (cohort channel, e.g. #ols-5-cohort, or #general) that the sheet has been updated
 3. Website (in schedule in `_data` folder)
     - [ ]  Update the schedule on website from the schedule sheet using the script
     - [ ]  Add people to `people.yaml`
