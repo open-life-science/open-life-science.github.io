@@ -1,7 +1,11 @@
 ---
 layout: post
 title: OLS-4 speed blog: Developing a library in Python for applying measures of emergence and complexity
-author: 46372572
+author: nadinespy
+image: ../images/2022-04-01-header-image-speed-blod-nadine.jpg
+photos:
+  name: Illustration by Nadine Spychala
+  url: https://nadinespy.github.io/
 ---
 
 ## Project background
@@ -35,7 +39,25 @@ OLS-4 has also got me started on open science project essentials like code of co
 What I’ve done:
 
 - developed software which allows applying one or more measures to one or multiple datasets in one line of code, and which delivers a pandas dataframe storing all results alongside respective parameters,
-   
+
+```
+
+import complex_py as cp
+
+# define what data to use/generate, and what measures of emergence 
+# to apply to those data via the following five variables: 
+
+#       model_function:      contains functions to generate/load your data
+#       model_variables:     contains parameters for generating/loading your data
+#       emergence_functions: contains functions to calculate measures of emergence
+#       measure_variables:   contains parameters for calculating emergence
+#       parameters:          contains all parameters (data- and measure-related ones) 
+
+# compute measures of emergence for all parameter combination:
+emergence_df = cp.compute_emergence(model_functions, model_variables, 
+                                    emergence_functions, measure_variables, parameters)
+
+``` 
 
 - implemented one measure of emergence easily to be complemented by other measures as the code is scalable, 
 
