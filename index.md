@@ -22,11 +22,11 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 ## Applications
 
-<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5){:.button .is-link .is-fullwidth}
+[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before January 7, 2022 to allow activation of your Open Review profile as described in the [OLS-5 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
+*Please register on Open Review before July 1, 2022 to allow activation of your Open Review profile as described in the [OLS-6 application guidelines and templates](https://github.com/open-life-science/application-forms).*
 
-OLS-5 runs from February to June 2022. Applications for OLS-6 will open in mid 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open.
+OLS-6 will run from September 2022 to January 2023. Applications for OLS-7 will open in end 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open.
 
 ### Preliminary timeline
 

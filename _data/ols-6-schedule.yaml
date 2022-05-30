@@ -4,7 +4,9 @@ timeline:
 - date: June 1, 2022
   description: Call for Application opens
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
-- date: null
+- date: June 20, 2022
+  time: '14:00'
+  duration: 60 min
   description: Application webinar
   type:
   - Talk
@@ -12,7 +14,9 @@ timeline:
   notes: null
   recording: null
   details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
-- date: null
+- date: July 1, 2022
+  time: '11:00'
+  duration: 60 min
   description: Application Clinic Call
   type:
   - Q&A
@@ -53,8 +57,16 @@ weeks:
   '02':
     start: September 26, 2022
     calls:
-    - date: September 28, 2022
-      time: '13:30'
+    - time: '18:00'
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 1
+      type: Mentor
+    - time: '10:00'
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 2
+      type: Mentor
+    - date: September 27, 2022
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-02
       content: |-
@@ -86,14 +98,6 @@ weeks:
       - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         type: slides
         title: Introducing Road Mapping
-    - time: '18:00'
-      duration: 180 min
-      title: Mentor Skill Workshop by 360 Training - Group 1
-      type: Mentor
-    - time: '10:00'
-      duration: 180 min
-      title: Mentor Skill Workshop by 360 Training - Group 2
-      type: Mentor
   '03':
     start: October 03, 2022
     calls:
@@ -177,8 +181,8 @@ weeks:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
-    - date: October 19, 2022
-      time: '13:30'
+    - date: October 18, 2022
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-05
       content: |-
@@ -203,8 +207,8 @@ weeks:
   '06':
     start: October 24, 2022
     calls:
-    - date: October 26, 2022
-      time: '13:30'
+    - date: October 25, 2022
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-06
       content: |-
@@ -281,8 +285,8 @@ weeks:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: November 16, 2022
-      time: '13:30'
+    - date: November 15, 2022
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -313,8 +317,8 @@ weeks:
   '10':
     start: November 21, 2022
     calls:
-    - date: November 23, 2022
-      time: '13:30'
+    - date: November 22, 2022
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-10
       content: |-
@@ -334,14 +338,15 @@ weeks:
       resources:
       - link: https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
         type: slides
-        title: 'DOI and Citations: Preprints, pre-registration, open review'
+        title: Open access, Preprints
       - link: https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
         type: slides
-        title: 'Non-traditional publication: Open protocols, registered reports, citable
-          code, training resources'
-      - link: https://zenodo.org/record/4651431
+        title: 'DOI and Citations & Non-traditional publication: Open protocols, registered
+          reports, citable code, training resources, pre-registration, open review'
+      - link: https://zenodo.org/record/4651431, https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
         type: slides
-        title: 'Public engagement: Citizen Science, Science Communication'
+        title: Usable, comprehensive, accessible, FAIR and empowering training - The
+          case of the Galaxy Training Network
   '11':
     start: November 28, 2022
     calls:
@@ -379,6 +384,7 @@ weeks:
         type: slides
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
+        speaker: ''
       - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         type: slides
         title: Ally skills - Optional
@@ -388,8 +394,8 @@ weeks:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: December 14, 2022
-      time: '13:30'
+    - date: December 13, 2022
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-13
       content: |-
@@ -411,8 +417,8 @@ weeks:
   '14':
     start: December 19, 2022
     calls:
-    - date: December 21, 2022
-      time: '13:30'
+    - date: December 20, 2022
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-14
       content: "In this call, participants will:\n- Learn how to apply FAIR research\
@@ -425,19 +431,21 @@ weeks:
       resources:
       - link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
         type: slides
-        title: FAIR Data
-      - link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
-        type: slides
-        title: FAIR Training
+        title: 'Data Management Plans, Open science is all very well but how do you
+          make it FAIR in practice? '
       - type: slides
-        title: FAIR software
+        title: 'Public engagement: Open Infrastructure, Citizen Science, Science Communication'
+      - type: slides
+        title: CARE principles for indigenous data
   '15':
     start: January 09, 2023
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: January 11, 2023
+    - date: January 10, 2023
+      time: '10:00'
+      duration: 60 min
       notes: https://bit.ly/ols-6-week-15
       content: |-
         In this call, participants will:
@@ -467,7 +475,11 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-    - date: January 11, 2023
+      time: '15:00'
+      duration: 60 min
+    - date: January 12, 2023
+      time: '18:00'
+      duration: 60 min
       notes: https://bit.ly/ols-6-week-15
       content: |-
         In this call, participants will:
@@ -485,7 +497,9 @@ weeks:
   '16':
     start: January 16, 2023
     calls:
-    - date: January 18, 2023
+    - date: January 17, 2023
+      time: '10:00'
+      duration: 60 min
       notes: https://bit.ly/ols-6-week-16
       content: |-
         In this call, participants will:
@@ -515,7 +529,11 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-    - date: January 18, 2023
+      time: '15:00'
+      duration: 60 min
+    - date: January 19, 2023
+      time: '18:00'
+      duration: 60 min
       notes: https://bit.ly/ols-6-week-16
       content: |-
         In this call, participants will:
