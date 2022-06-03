@@ -38,7 +38,7 @@ We especially welcome you if you are:
 ## Call for application for OLS-6 is NOW OPEN!
 
 Interested in applying for the next round? We can't wait to see your project proposal! 
-Please submit your application via [OpenReview]([https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6)) before the end of the day on **7 July 2022** (hard deadline). **Important note:** The deadline for registering for OpenReview is 7 July, as all OpenReview accounts are approved manually. 
+Please submit your application via [OpenReview]([https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6)) before the end of the day on **7 July 2022** (hard deadline). **Important note:** The deadline for registering for OpenReview is 1 July, as all OpenReview accounts are approved manually. 
 
 To learn about the timeline, process and details for the OLS-6, visit our homepage: [{{ site.url }}]({{ site.url }}) and 
 [GitHub repo with application guidelines](https://github.com/open-life-science/application-forms).
