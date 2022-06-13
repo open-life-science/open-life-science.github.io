@@ -13,7 +13,7 @@ timeline:
   - Q&A
   notes: null
   recording: null
-  details: [**Register to join**](https://us02web.zoom.us/meeting/register/tZUvfu-grjotHtHKxPGh1m2oWmr3d8vKDbC8), or watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+  details: '[**Register to join**](https://us02web.zoom.us/meeting/register/tZUvfu-grjotHtHKxPGh1m2oWmr3d8vKDbC8), or watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
 - date: July 1, 2022
   time: '11:00'
   duration: 60 min
@@ -21,8 +21,7 @@ timeline:
   type:
   - Q&A
   notes: null
-  details: At this call, OLS team will be available to provide help if you have any
-    question related to your application. [**Register to join**](https://us02web.zoom.us/meeting/register/tZIvfuyuqT0qHdK1tMqA98j6EMI8qoX9_as0).
+  details: 'At this call, OLS team will be available to provide help if you have any questions related to your application. [**Register to join**](https://us02web.zoom.us/meeting/register/tZIvfuyuqT0qHdK1tMqA98j6EMI8qoX9_as0).'
 - date: July 7, 2022
   description: Call for applications closed
 - date: August 1, 2022
