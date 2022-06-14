@@ -571,7 +571,7 @@ weeks:
     - date: June 14, 2022
       time: '10:00'
       duration: 60 min
-      notes: https://bit.ly/ols-5-week-16
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-1
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
@@ -586,7 +586,7 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
     - date: June 15, 2022
-      notes: https://bit.ly/ols-5-week-16
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-2
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
@@ -605,12 +605,38 @@ weeks:
     - date: June 16, 2022
       time: '18:00'
       duration: 60 min
-      notes: https://bit.ly/ols-5-week-16
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-3
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
         - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 3
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n\
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
+        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
+        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
+        \ which you thrive - sustain them; identify the least fulfilling conditions\
+        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
+        \     "
+    - date: July 18, 2022
+      time: '10:00'
+      duration: 60 min
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-4
+      title: Final presentations & Graduation! - Group 4
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n\
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
+        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
+        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
+        \ which you thrive - sustain them; identify the least fulfilling conditions\
+        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
+        \     "
+    - date: July 20, 2022
+      time: '18:00'
+      duration: 60 min
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-5
+      title: Final presentations & Graduation! - Group 5
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
         - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
