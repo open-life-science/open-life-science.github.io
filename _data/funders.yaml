@@ -7,23 +7,17 @@
 # collection names should be lower case, with spaces replaced by `-`
 ---
 
-csands:
-    name: Code for Science and Society - Event Fund
-    website: https://eventfund.codeforscience.org/
-    logo: https://codeforscience.org/img/Blue-logo-black-text-stacked.png
-    description: |
-        Code for Science & Society works to advance the power of data to 
-        improve the social and economic lives of all people through education, 
-        scientific research, and technology development. The event fund is a 
-        community-advised fund to support inclusive and accessible training events,
-        which was offered to OLS to support the third cohort, OLS-3.
         
 czi:
     name: Chan Zuckerberg Initiative
     website: https://chanzuckerberg.com/
     logo: https://chanzuckerberg.com/wp-content/themes/czi/img/logo.svg
     description: |
-         Chan Zuckerberg Initiative has awarded OLS a total of USD 574,945.30 
+         Chan Zuckerberg Initiative (CZI) works across focus areas — Science, 
+         Education, Community and alongside our Justice & Opportunity partners. 
+         They pair technology, with grantmaking, impact investing, and collaboration 
+         to help accelerate the pace of progress towards an equitable future.
+         CZI has awarded OLS a total of USD 574,945.30 
          over the next two years. This grant will provide OLS with a truly valuable 
          opportunity to improve sustainability for the organisation and community, 
          and allow enough time to focus on planning for the longer term.
@@ -35,20 +29,9 @@ eosc-life:
     description: |
         EOSC-Life brings together the 13 Life Science ‘ESFRI’ research infrastructures (LS RIs) 
         to create an open, digital and collaborative space for biological and medical research.
-        Through our Training Open Call, the EOSC-Life Training team offered funding to OLS team 
+        Through our Training Open Call, the EOSC-Life Training team offered Euro 20,000 to OLS team 
         to support training activities in 2021 for the researchers from EOSC LS RIs and more widely.
 
-SSI:
-    name: Software Sustainability Institute - Fellowships
-    website: https://www.software.ac.uk
-    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
-    description: |
-        The Software Sustainability Institute cultivates better, more sustainable, research software 
-        to enable world-class research. The Institute’s Fellowship Programme provides funding for 
-        individuals who want to improve how research software is used in their domains and/or area 
-        of work. This first cohorts of the program was supported by SSI fellowship offered
-        to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
-        
 turing:
     name: The Alan Turing Institute - The Turing Online Training Grant
     website: https://www.software.ac.uk
@@ -57,5 +40,27 @@ turing:
         The Alan Turing Institute is committed to training new generations of data science 
         and AI leaders with the necessary breadth and depth of technical and ethical skills 
         to match the UK’s growing industrial and societal needs. The Turing Online Training 
-        Grant was offered for to OLS and The Turing Way to engage the Turing’s researchers 
+        Grant of GBP 10,000 was offered for to OLS and The Turing Way to engage the Turing’s researchers 
         and the broader UK community in open and reprodiucible research.
+        
+csands:
+    name: Code for Science and Society - Event Fund
+    website: https://eventfund.codeforscience.org/
+    logo: https://codeforscience.org/img/Blue-logo-black-text-stacked.png
+    description: |
+        Code for Science & Society works to advance the power of data to 
+        improve the social and economic lives of all people through education, 
+        scientific research, and technology development. The event fund is a 
+        community-advised fund to support inclusive and accessible training events.
+        USD 10,000 was offered to OLS to support the third cohort, OLS-3.
+        
+SSI:
+    name: Software Sustainability Institute - Fellowships
+    website: https://www.software.ac.uk
+    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
+    description: |
+        The Software Sustainability Institute cultivates better, more sustainable, research software 
+        to enable world-class research. The Institute’s Fellowship Programme provides funding for 
+        individuals who want to improve how research software is used in their domains and/or area 
+        of work. This first cohorts of the program was supported by SSI fellowship with a budget of 
+        GBP 3000 offered to Malvika from 2019-2020. Yo is a SSI fellow from the previous year.
