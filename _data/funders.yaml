@@ -6,6 +6,7 @@
 #
 # collection names should be lower case, with spaces replaced by `-`
 ---
+
 csands:
     name: Code for Science and Society - Event Fund
     website: https://eventfund.codeforscience.org/
@@ -16,6 +17,16 @@ csands:
         scientific research, and technology development. The event fund is a 
         community-advised fund to support inclusive and accessible training events,
         which was offered to OLS to support the third cohort, OLS-3.
+        
+czi:
+    name: Chan Zuckerberg Initiative
+    website: https://chanzuckerberg.com/
+    logo: https://chanzuckerberg.com/wp-content/themes/czi/img/logo-white.svg
+    description: |
+         Chan Zuckerberg Initiative has awarded OLS a total of USD 574,945.30 
+         over the next two years. This grant will provide OLS with a truly valuable 
+         opportunity to improve sustainability for the organisation and community, 
+         and allow enough time to focus on planning for the longer term.
         
 eosc-life:
     name: EOSC-Life
