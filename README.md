@@ -218,16 +218,40 @@ Add many people in a row to `_data/people.yaml`:
       -df <path to csv file with participants> OR -du <URL to csv file with participants>
    ```
 
-## Add a partner/sponsor
+## Add a new organization
 
-1. Open the `_data/partners.yaml` file
+1. Open the `_data/organizations.yaml` file
 2. Create a new entry there (using the name in lowercase, with spaces replaced by `-`) following an alphabetical order
 3. Fill in information using the tags:
     - `name`
     - `website`
     - `description`
-4. Add a logo (if possible) named as the entry in `images/partners` folder
-5. Add the path to the logo in `_data/partners.yaml` using `logo` tag
+    - `country`
+4. Add a logo (if possible) named as the entry in `images/organizations` folder
+5. Add the path to the logo in `_data/organizations.yaml` using `logo` tag
+
+## Add a partner
+
+1. Make sure the organization is listed in the `_data/organizations.yaml` file and add it otherwise (see above)
+2. Open the `_data/partners.yaml` file
+3. Create a new entry there
+3. Fill in information using the tags:
+    - `partner` using its short name from the `_data/organizations.yaml` file
+    - `details` with details about the partnership
+
+## Add a funding
+
+1. Make sure the organization is listed in the `_data/organizations.yaml` file and add it otherwise (see above)
+2. Open the `_data/funding.yaml` file
+3. Create a new entry there
+3. Fill in information using the tags:
+    - `funder` using its short name from the `_data/organizations.yaml` file
+    - `amount` of funding
+    - `currency` of funding
+    - `duration`
+    - `date_award`
+    - `purpose`
+    - `proposal` with link to the proposal
 
 ## Update schedule for a cohort
 

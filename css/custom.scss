@@ -196,20 +196,19 @@ $link-active: $link-hover;
   @include tablet() {
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .is-3by1 {
+    margin-top: 2em;
   }
 
   .entity-logo {
     max-height: 100%;
     max-width: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    width: auto !important;
+    height: auto !important;
+    position: absolute !important;
   }
 
   .entity-description-question {
@@ -301,7 +300,7 @@ $link-active: $link-hover;
     .people-card-meta {
       overflow-x: initial;
     }
-    
+
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
   }
