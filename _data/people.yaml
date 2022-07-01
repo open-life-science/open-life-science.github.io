@@ -426,7 +426,7 @@ anelda:
   - Open data
   - Capacity development;
   first-name: Anelda
-  last-name: Van Der Walt
+  last-name: van der Walt
   orcid: 0000-0003-4245-8119
   pronouns: she/her
   twitter: aneldavdw
@@ -1270,6 +1270,13 @@ cemonks:
   orcid: 0000-0001-8307-7043
   pronouns: She/Her
   twitter: archaeo_ecology
+chadsansing:
+  first-name: Chad
+  last-name: Sansing
+  country: United States
+  twitter: chadsansing
+  pronouns: he/him
+  affiliation: Mozilla Foundation
 chiara-damiani:
   first-name: Chiara
   github: false
@@ -1594,6 +1601,12 @@ dlebauer:
   last-name: LeBauer
   pronouns: he/him
   twitter: dlebauer
+dsarahstamps:
+  affiliation: Virginia Tech
+  first-name: Sarah
+  last-name: Stamps
+  twitter: dsarahstamps
+  country: United States
 dudova:
   affiliation: Masaryk University
   bio: Work as IT analyst at university, mainly do an interface between scientists
@@ -2323,6 +2336,18 @@ homo-sapiens34:
   first-name: Zoe
   last-name: Chervontseva
   pronouns: she/her
+honoluluskye:
+  affiliation: Code for Science and Society
+  country: United States
+  first-name: Angela
+  last-name: Okune
+  twitter: honoluluskye
+  website: https://angelaokune.me/contact/
+hpdang:
+  country: Singapore
+  first-name: Hong
+  last-name: Phuc Dang
+  twitter: hpdang
 hrhotz:
   affiliation: Friedrich Miescher Institute For Biomedical Research
   bio: Hans-Rudolf is a Molecular Biologist turned Bioinformatician who is working
@@ -3849,6 +3874,13 @@ mehak-chopra:
   pronouns: she/her
   twitter: chopramehak18
   website: https://www.bicpu.edu.in/node/1427
+melissawm:
+  first-name: Melissa
+  last-name: Weber Mendonça
+  website: https://melissawm.github.io/
+  country: Brasil
+  city: Florianópolis
+  twitter: melissawm
 merrcury:
   affiliation: Prepladder (Unacademy)
   bio: Himanshu is ML Engineer at PrepLadder, discovering User Behaviour patterns

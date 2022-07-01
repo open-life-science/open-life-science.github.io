@@ -118,6 +118,7 @@ weeks:
       - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         type: slides
         title: Introducing Road Mapping
+      recording: https://youtu.be/O3yk0yrOHGM
   '03':
     start: March 14, 2022
     calls:
@@ -205,15 +206,15 @@ weeks:
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources:
       - link: https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
-        speaker: ''
+        speaker: ha0ye
         type: slides
         title: Open Licensing
       - link: https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
-        speaker: alexwlchan
+        speaker: rgaiacs
         type: slides
         title: README
       - link: https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
-        speaker: ekaroune
+        speaker: dsarahstamps
         type: slides
         title: Contributing Guidelines and Code of Conduct
       - type: slides
@@ -277,11 +278,14 @@ weeks:
         title: Agile & Iterative Project Management Methods
       - type: slides
         title: 'Case study 1: Managing & developing an Open Source Software project'
+        speaker: ajstewartlang
       - link: https://doi.org/10.5281/zenodo.5582718
         type: slides
         title: 'Case study 2: Managing & developing research data (RDM)'
+        speaker: lwinfree
       - type: slides
         title: 'Case study 3: Managing & developing an open hardware project'
+        speaker: hpdang
   '07':
     start: April 11, 2022
     calls:
@@ -313,11 +317,11 @@ weeks:
         \ survey\n      \n        "
       resources:
       - link: https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
-        speaker: batoolmm
+        speaker: anelda
         type: slides
         title: Using Personas and Pathways to Build Community
       - link: https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
-        speaker: ''
+        speaker: chadsansing
         type: slides
         title: Mountain of Engagement
       - link: https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
@@ -355,12 +359,16 @@ weeks:
       resources:
       - type: slides
         title: Post-academia career path, Social entrepreneurship
+        speaker: msundukova
       - type: slides
         title: Academic leadership, group or project leaders
+        speaker: jasonjwilliamsny
       - type: slides
         title: Community building, Science Communication
+        speaker: melissawm
       - type: slides
         title: Policymakers, funders, meta-researchers
+        speaker: honoluluskye
   '10':
     start: May 02, 2022
     calls:
@@ -390,10 +398,17 @@ weeks:
         type: slides
         title: 'Non-traditional publication: Open protocols, registered reports, citable
           code, training resources'
-      - link: https://zenodo.org/record/4651431
+      - link: https://zenodo.org/record/4651431, https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
         type: slides
         title: Usable, comprehensive, accessible, FAIR and empowering training - The
           case of the Galaxy Training Network
+      - link: https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
+        type: slides
+        title: Open access, Preprints
+      - link: https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
+        type: slides
+        title: 'DOI and Citations & Non-traditional publication: Open protocols, registered
+          reports, citable code, training resources, pre-registration, open review'
   '11':
     start: May 09, 2022
     calls:
@@ -431,6 +446,7 @@ weeks:
         type: slides
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
+        speaker: rowland-mosbergen
       - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         type: slides
         title: Ally skills - Optional
@@ -483,13 +499,24 @@ weeks:
         title: 'Public engagement: Citizen Science, Science Communication'
       - type: slides
         title: FAIR software + Software Management plans
+      - link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
+        speaker: proccaserra
+        type: slides
+        title: 'Data Management Plans, Open science is all very well but how do you
+          make it FAIR in practice? '
+      - type: slides
+        title: 'Public engagement: Open Infrastructure, Citizen Science, Science Communication'
+      - type: slides
+        title: CARE principles for indigenous data
   '15':
     start: June 06, 2022
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: June 08, 2022
+    - date: June 07, 2022
+      time: '10:00'
+      duration: 60 min
       notes: https://bit.ly/ols-5-week-15
       content: |-
         In this call, participants will:
@@ -504,7 +531,6 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '11:00'
     - date: June 08, 2022
       notes: https://bit.ly/ols-5-week-15
       content: |-
@@ -520,8 +546,11 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '11:00'
-    - date: June 08, 2022
+      time: '15:00'
+      duration: 60 min
+    - date: June 09, 2022
+      time: '18:00'
+      duration: 60 min
       notes: https://bit.ly/ols-5-week-15
       content: |-
         In this call, participants will:
@@ -536,12 +565,13 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '11:00'
   '16':
     start: June 13, 2022
     calls:
-    - date: June 15, 2022
-      notes: https://bit.ly/ols-5-week-16
+    - date: June 14, 2022
+      time: '10:00'
+      duration: 60 min
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-1
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
@@ -555,9 +585,8 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '11:00'
     - date: June 15, 2022
-      notes: https://bit.ly/ols-5-week-16
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-2
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
@@ -571,9 +600,12 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '11:00'
-    - date: June 15, 2022
-      notes: https://bit.ly/ols-5-week-16
+      time: '15:00'
+      duration: 60 min
+    - date: June 16, 2022
+      time: '18:00'
+      duration: 60 min
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-3
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
@@ -587,5 +619,29 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '11:00'
-
+    - date: July 18, 2022
+      time: '10:00'
+      duration: 60 min
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-4
+      title: Final presentations & Graduation! - Group 4
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n\
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
+        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
+        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
+        \ which you thrive - sustain them; identify the least fulfilling conditions\
+        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
+        \     "
+    - date: July 20, 2022
+      time: '18:00'
+      duration: 60 min
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-5
+      title: Final presentations & Graduation! - Group 5
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n\
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
+        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
+        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
+        \ which you thrive - sustain them; identify the least fulfilling conditions\
+        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
+        \     "
