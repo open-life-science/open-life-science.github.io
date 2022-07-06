@@ -11,7 +11,7 @@ photos:
 
 # A mentoring & training program for Open Science ambassadors
 
-The Open Life Science (OLS) program helps **individuals and stakeholders in research** to become **Open Science ambassadors**.
+The **Open Life Science (OLS)** program is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
 
 ## About
 
