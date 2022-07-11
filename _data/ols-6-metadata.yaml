@@ -4,10 +4,590 @@
 # People should be also in people.yaml file and linked using their GitHub username
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
-experts: []
+experts:
+- alecandian
+- aleesteele
+- arielle-bennett
+- dimmestp
+- ekaroune
+- elisa-on-github
+- estherplomp
+- graciellehigino
+- hrhotz
+- iramosp
+- jezcope
+- joyceykao
+- karvovskaya
+- kipkurui
+- lauracarter
+- lwinfree
+- malloryfreeberg
+- msundukova
+- mxrtinez
+- nadinespy
+- profgiuseppe
+- saravilla
+experts-with-expertise:
+  Agrobiodiversity:
+  - iramosp
+  Anthropology:
+  - aleesteele
+  App development:
+  - joyceykao
+  Archaeology:
+  - estherplomp
+  Astrochemistry:
+  - alecandian
+  Best practices in open & reproducible science:
+  - nadinespy
+  Bioanthropology:
+  - estherplomp
+  Bioconductor:
+  - hrhotz
+  Biodiversity:
+  - graciellehigino
+  Bioinformatics:
+  - hrhotz
+  - malloryfreeberg
+  - profgiuseppe
+  Biophysics:
+  - msundukova
+  Career development:
+  - msundukova
+  Carpentries:
+  - profgiuseppe
+  Chromatin & dna:
+  - saravilla
+  Collaboration:
+  - graciellehigino
+  Communities:
+  - profgiuseppe
+  Community building:
+  - ekaroune
+  - joyceykao
+  - kipkurui
+  Community-building:
+  - aleesteele
+  Complexity science:
+  - nadinespy
+  Computational Biology:
+  - kipkurui
+  Computational studies:
+  - nadinespy
+  Data management:
+  - graciellehigino
+  - iramosp
+  - lwinfree
+  - malloryfreeberg
+  Data synthesis:
+  - graciellehigino
+  Databases:
+  - profgiuseppe
+  Datascience:
+  - nadinespy
+  Devops:
+  - profgiuseppe
+  Digital health:
+  - joyceykao
+  Digital medicine:
+  - joyceykao
+  Digital scholarship:
+  - jezcope
+  Digital social science:
+  - aleesteele
+  Discrimination:
+  - lauracarter
+  Diversity:
+  - alecandian
+  Ecology:
+  - graciellehigino
+  Education:
+  - alecandian
+  Electrophysiology:
+  - msundukova
+  Environmental archaeology:
+  - ekaroune
+  Ethnography:
+  - aleesteele
+  FAIR:
+  - estherplomp
+  Fair data:
+  - ekaroune
+  Fair principles:
+  - malloryfreeberg
+  Fair research software:
+  - nadinespy
+  Feminism:
+  - lauracarter
+  Fieldwork:
+  - karvovskaya
+  Galaxy:
+  - hrhotz
+  - malloryfreeberg
+  Gender:
+  - lauracarter
+  Genomics:
+  - saravilla
+  Github:
+  - dimmestp
+  - malloryfreeberg
+  Giving presentations:
+  - lwinfree
+  Glam:
+  - jezcope
+  Human genomics and phenomics:
+  - malloryfreeberg
+  Human rights:
+  - lauracarter
+  Imaging:
+  - msundukova
+  Inclusion & equity:
+  - alecandian
+  Information literacy:
+  - alecandian
+  Information theory:
+  - nadinespy
+  Inter and transdisciplinary research:
+  - iramosp
+  Isotopes:
+  - estherplomp
+  Journaling:
+  - msundukova
+  Libraries:
+  - jezcope
+  Life coaching:
+  - msundukova
+  Linguistics:
+  - karvovskaya
+  Machine learning:
+  - nadinespy
+  Mental health:
+  - msundukova
+  Mentoring:
+  - alecandian
+  Metadata:
+  - malloryfreeberg
+  Metascience:
+  - nadinespy
+  Microscopy:
+  - msundukova
+  Molecular biology:
+  - saravilla
+  Neurodiversity:
+  - jezcope
+  Neuroscience:
+  - lwinfree
+  - msundukova
+  - nadinespy
+  Next Generation Sequencing:
+  - hrhotz
+  Nextflow:
+  - dimmestp
+  Ngs:
+  - saravilla
+  No listed expertise:
+  - arielle-bennett
+  Ontologies:
+  - malloryfreeberg
+  Open data:
+  - estherplomp
+  - graciellehigino
+  - iramosp
+  - jezcope
+  - lwinfree
+  Open knowledge:
+  - aleesteele
+  Open protocols:
+  - estherplomp
+  Open publishing:
+  - ekaroune
+  Open research:
+  - jezcope
+  Open scholarship:
+  - jezcope
+  Open science:
+  - dimmestp
+  - jezcope
+  - lwinfree
+  - nadinespy
+  Open science support:
+  - elisa-on-github
+  Open source:
+  - lwinfree
+  Open source research:
+  - aleesteele
+  Operations management:
+  - joyceykao
+  Osteology:
+  - estherplomp
+  Palaeoecology:
+  - ekaroune
+  Phytoliths:
+  - ekaroune
+  Post-transcriptional gene regulation:
+  - malloryfreeberg
+  PostgreSQL:
+  - hrhotz
+  Project communications:
+  - lwinfree
+  Project management:
+  - joyceykao
+  - lwinfree
+  - malloryfreeberg
+  Psychology:
+  - nadinespy
+  R:
+  - dimmestp
+  - malloryfreeberg
+  Rdm:
+  - elisa-on-github
+  Rdm support:
+  - elisa-on-github
+  Regulatory Genomics:
+  - kipkurui
+  Reproducibility:
+  - graciellehigino
+  - kipkurui
+  - mxrtinez
+  - saravilla
+  Reproducible science:
+  - nadinespy
+  - profgiuseppe
+  Research data management:
+  - estherplomp
+  - jezcope
+  - karvovskaya
+  Research software engineering practice:
+  - jezcope
+  Research support:
+  - elisa-on-github
+  Rna biology:
+  - malloryfreeberg
+  Science communication:
+  - graciellehigino
+  Semantics:
+  - karvovskaya
+  Sensitive data:
+  - ekaroune
+  Sensitive data sharing:
+  - malloryfreeberg
+  Sequencing analysis:
+  - saravilla
+  Sociology:
+  - aleesteele
+  Software development:
+  - profgiuseppe
+  Sql:
+  - malloryfreeberg
+  Statistics:
+  - nadinespy
+  Strategy development:
+  - joyceykao
+  Sustainability science:
+  - iramosp
+  Teaching:
+  - profgiuseppe
+  Therapeutic writing facilitation:
+  - msundukova
+  Training:
+  - alecandian
+  Transcriptomics:
+  - dimmestp
+  Typology:
+  - karvovskaya
+  Volunteer-based group:
+  - nadinespy
+  Wiki*:
+  - profgiuseppe
+  Workflows:
+  - dimmestp
+  Working with a distributed team:
+  - lwinfree
+  Writing documentation:
+  - lwinfree
+  Yeast:
+  - dimmestp
 organizers:
 - bebatut
 - emmyft
 - malvikasharan
 - yochannah
-possible-mentors: []
+possible-mentors:
+- alecandian
+- aleesteele
+- arielle-bennett
+- diegoonna
+- ekaroune
+- estherplomp
+- graciellehigino
+- hrhotz
+- jezcope
+- joyceykao
+- k-c-martin
+- karvovskaya
+- kipkurui
+- malloryfreeberg
+- mariangelap
+- msundukova
+- nadinespy
+- olsjuju
+- saravilla
+- smhall97
+possible-mentors-with-expertise:
+  Anthropology:
+  - aleesteele
+  App development:
+  - joyceykao
+  Archaeology:
+  - estherplomp
+  Astrochemistry:
+  - alecandian
+  Best practices in open & reproducible science:
+  - nadinespy
+  Bioanthropology:
+  - estherplomp
+  Bioconductor:
+  - hrhotz
+  Biodiversity:
+  - graciellehigino
+  Bioinformatics:
+  - hrhotz
+  - malloryfreeberg
+  Biophysics:
+  - msundukova
+  Career development:
+  - msundukova
+  Chemical education:
+  - diegoonna
+  Chemistry of materials:
+  - diegoonna
+  Chemometrics:
+  - diegoonna
+  Chromatin & dna:
+  - saravilla
+  Collaboration:
+  - graciellehigino
+  Community building:
+  - ekaroune
+  - joyceykao
+  - kipkurui
+  Community engagement:
+  - mariangelap
+  Community-building:
+  - aleesteele
+  Complexity science:
+  - nadinespy
+  Computational Biology:
+  - kipkurui
+  Computational neuroscience:
+  - smhall97
+  Computational studies:
+  - nadinespy
+  Data management:
+  - graciellehigino
+  - malloryfreeberg
+  Data synthesis:
+  - graciellehigino
+  Datascience:
+  - nadinespy
+  Deep learning:
+  - smhall97
+  Depression:
+  - olsjuju
+  Digital health:
+  - joyceykao
+  Digital medicine:
+  - joyceykao
+  Digital scholarship:
+  - jezcope
+  Digital social science:
+  - aleesteele
+  Diversity:
+  - alecandian
+  Ecology:
+  - graciellehigino
+  Education:
+  - alecandian
+  Educational resources:
+  - mariangelap
+  Electrophysiology:
+  - msundukova
+  Environmental archaeology:
+  - ekaroune
+  Ethnography:
+  - aleesteele
+  FAIR:
+  - estherplomp
+  Fair data:
+  - ekaroune
+  Fair principles:
+  - malloryfreeberg
+  Fair research software:
+  - nadinespy
+  Fieldwork:
+  - karvovskaya
+  Galaxy:
+  - hrhotz
+  - malloryfreeberg
+  Genomics:
+  - saravilla
+  Github:
+  - malloryfreeberg
+  Glam:
+  - jezcope
+  Healthcare:
+  - smhall97
+  Human genomics and phenomics:
+  - malloryfreeberg
+  Imaging:
+  - msundukova
+  Inclusion & equity:
+  - alecandian
+  Information literacy:
+  - alecandian
+  Information theory:
+  - nadinespy
+  Innovation management:
+  - olsjuju
+  Isotopes:
+  - estherplomp
+  Journaling:
+  - msundukova
+  Knowledge graphs:
+  - k-c-martin
+  Libraries:
+  - jezcope
+  Life coaching:
+  - msundukova
+  Linguistics:
+  - karvovskaya
+  Linked data:
+  - k-c-martin
+  Machine learning:
+  - diegoonna
+  - nadinespy
+  Mental health:
+  - msundukova
+  Mentoring:
+  - alecandian
+  Metadata:
+  - malloryfreeberg
+  Metascience:
+  - nadinespy
+  Microscopy:
+  - msundukova
+  Molecular biology:
+  - saravilla
+  Nanomaterials:
+  - diegoonna
+  Neurodiversity:
+  - jezcope
+  Neuroinflammation:
+  - olsjuju
+  Neuroscience:
+  - mariangelap
+  - msundukova
+  - nadinespy
+  - smhall97
+  Next Generation Sequencing:
+  - hrhotz
+  Ngs:
+  - saravilla
+  No listed expertise:
+  - arielle-bennett
+  Ontologies:
+  - malloryfreeberg
+  Open data:
+  - estherplomp
+  - graciellehigino
+  - jezcope
+  Open innovation:
+  - olsjuju
+  Open knowledge:
+  - aleesteele
+  Open protocols:
+  - estherplomp
+  Open publishing:
+  - ekaroune
+  Open research:
+  - jezcope
+  Open scholarship:
+  - jezcope
+  Open science:
+  - jezcope
+  - nadinespy
+  Open source research:
+  - aleesteele
+  Operations management:
+  - joyceykao
+  Osteology:
+  - estherplomp
+  Palaeoecology:
+  - ekaroune
+  Photochemistry:
+  - diegoonna
+  Physical chemistry:
+  - diegoonna
+  Phytoliths:
+  - ekaroune
+  Post-transcriptional gene regulation:
+  - malloryfreeberg
+  PostgreSQL:
+  - hrhotz
+  Project management:
+  - joyceykao
+  - malloryfreeberg
+  Psychology:
+  - nadinespy
+  R:
+  - malloryfreeberg
+  Regulatory Genomics:
+  - kipkurui
+  Reproducibility:
+  - graciellehigino
+  - kipkurui
+  - saravilla
+  Reproducible research:
+  - k-c-martin
+  Reproducible science:
+  - nadinespy
+  Research data management:
+  - estherplomp
+  - jezcope
+  - karvovskaya
+  Research software engineering (rse):
+  - k-c-martin
+  Research software engineering practice:
+  - jezcope
+  Research translation:
+  - olsjuju
+  Rna biology:
+  - malloryfreeberg
+  Science communication:
+  - graciellehigino
+  Semantics:
+  - karvovskaya
+  Sensitive data:
+  - ekaroune
+  Sensitive data sharing:
+  - malloryfreeberg
+  Sequencing analysis:
+  - saravilla
+  Sociology:
+  - aleesteele
+  Sql:
+  - malloryfreeberg
+  Statistics:
+  - nadinespy
+  Strategy development:
+  - joyceykao
+  Therapeutic writing facilitation:
+  - msundukova
+  Training:
+  - alecandian
+  Typology:
+  - karvovskaya
+  Volunteer-based group:
+  - nadinespy
+  Women in life science:
+  - olsjuju
