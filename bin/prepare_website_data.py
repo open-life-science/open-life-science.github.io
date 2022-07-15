@@ -237,6 +237,87 @@ def extract_people(df):
     return people_l
 
 
+def extract_people_df(ids, people, fp):
+    '''
+    Create a dataframe with people information from a list of ids
+    and write in a file
+
+    :param ids: list of people ids
+    :param people: people information
+    '''
+    col = ['affiliation', 'bio', 'city', 'country', 'expertise', 'first-name', 'github', 'last-name', 'orcid', 'pronouns', 'twitter', 'website']
+    info = {}
+    for i in ids:
+        if i not in people:
+            print("%s not in people" % i)
+            continue
+        info[i] = {}
+        if 'github' not in people[i]:
+            info[i]['github'] = i
+        for c in col:
+            if c in people[i]:
+                if c == 'expertise':
+                    info[i][c] = ','.join(people[i][c])
+                elif c == 'bio':
+                    info[i][c] = people[i][c].replace("\n", '')
+                else:
+                    info[i][c] = people[i][c]
+            else:
+                info[i][c] = None
+    df = pd.DataFrame.from_dict(info, orient='index', columns=col)
+    df.to_csv(fp, sep="\t")
+
+
+def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp):
+    '''
+    Extract people information of a specific cohort from website to spreadsheets
+
+    :param cohort: cohort id
+    :param participant_fp: path to output sheet with participants details
+    :param mentor_fp: path to output sheet with mentor details
+    :param expert_fp: path to output sheet with expert details
+    :param speaker_fp: path to output sheet with speaker details
+    :param host_fp: path to output sheet with call host details
+    '''
+    # load people information
+    people = load_people()
+
+    # extract participants and mentors
+    participants = []
+    mentors = []
+    # load projects
+    fp = Path('_data') / Path('ols-%s-projects.yaml' % cohort )
+    projects = read_yaml(fp)
+    for p in projects:
+        participants += p['participants']
+        mentors += p['mentors']
+    extract_people_df(participants, people, participant_fp)
+    extract_people_df(mentors, people, mentor_fp)
+
+    # extract experts and organizers
+    # load metadata
+    fp = Path('_data') / Path('ols-%s-metadata.yaml' % cohort )
+    metadata = read_yaml(fp)
+    experts = metadata['experts']
+    extract_people_df(experts, people, expert_fp)
+
+    # extract speakers and call hosts
+    speakers = []
+    hosts = []
+    # load schedule
+    schedule = load_schedule(args.cohort)
+    for k, week in schedule['weeks'].items():
+        for call in week['calls']:
+            if call['type'] == 'cohort':
+                for r in call['resources']:
+                    if r['type'] == 'slides' and 'speaker' in r:
+                        speakers.append(r['speaker'])
+            if 'hosts' in call:
+                hosts += call['hosts']
+    extract_people_df(speakers, people, speaker_fp)
+    extract_people_df(hosts, people, host_fp)
+
+
 ### METHODS TO INTERACT WITH COHORT SCHEDULE FILES
 
 def create_empty_schedule():
@@ -763,7 +844,14 @@ if __name__ == '__main__':
     group = updateschedule.add_mutually_exclusive_group()
     group.add_argument('-sf', '--schedule_fp', help="Path to schedule CSV file")
     group.add_argument('-su', '--schedule_url', help="URL to schedule sheet file")
-
+    # Extract people information of a specific cohort from website to spreadsheets
+    getpeople = subparser.add_parser('getpeople', help='Extract people information of a specific cohort from website to spreadsheets')
+    getpeople.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
+    getpeople.add_argument('-pf', '--participants', help="Path to output sheet with participants details", required=True)
+    getpeople.add_argument('-mf', '--mentors', help="Path to output sheet with mentor details", required=True)
+    getpeople.add_argument('-ef', '--experts', help="Path to output sheet with expert details", required=True)
+    getpeople.add_argument('-sf', '--speakers', help="Path to output sheet with speaker details", required=True)
+    getpeople.add_argument('-hf', '--hosts', help="Path to output sheet with call host details", required=True)
 
     args = parser.parse_args()
 
@@ -798,3 +886,11 @@ if __name__ == '__main__':
         else:
             schedule_df = pd.read_csv(Path(args.schedule_fp))
         update_schedule(args.cohort, schedule_df)
+    elif args.command == 'getpeople':
+        get_people(
+            args.cohort,
+            Path(args.participants),
+            Path(args.mentors),
+            Path(args.experts),
+            Path(args.speakers),
+            Path(args.hosts))
