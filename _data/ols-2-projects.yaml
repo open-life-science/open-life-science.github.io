@@ -222,7 +222,7 @@
 #    working with open and reproducible software and workflows. Therefore, with
 #    my participation in this program, I would like to learn from my mentors
 #    about how to implement open science principles in my research.
-    
+
 
 - name: Global land-use and land-cover data under historical, current, and future climatic conditions for ecologists
   participants:
@@ -505,19 +505,19 @@
     - pradeep-eranti
   mentors:
     - sdopoku
-  description: |  
-    The Bioinformatics community is one of the ever-growing communities in India, 
-    which has its presence across the length and breadth of the country. Likewise, 
-    the education and research programs spread across different branches of the 
-    Bioinformatics topic as its focus. There is a need for establishing open 
-    platform(s) where students, (early-career and established) researchers, policy 
-    makers could exchange knowledge freely across these different areas through 
-    open science practices and principles. In realizing such a platform, the 
-    benefits of following open principles need to be widely communicated for 
-    bringing awareness among the community by building pathways and encouraging 
-    contributors & ambassadors. The aim of this project is to explore the scope 
-    and path towards establishing an open platform and provide opportunities to 
-    participate, contribute and organize open initiatives. 
+  description: |
+    The Bioinformatics community is one of the ever-growing communities in India,
+    which has its presence across the length and breadth of the country. Likewise,
+    the education and research programs spread across different branches of the
+    Bioinformatics topic as its focus. There is a need for establishing open
+    platform(s) where students, (early-career and established) researchers, policy
+    makers could exchange knowledge freely across these different areas through
+    open science practices and principles. In realizing such a platform, the
+    benefits of following open principles need to be widely communicated for
+    bringing awareness among the community by building pathways and encouraging
+    contributors & ambassadors. The aim of this project is to explore the scope
+    and path towards establishing an open platform and provide opportunities to
+    participate, contribute and organize open initiatives.
 
 - name: OpenWorkstation - A modular and open-source concept for customized automation equipment
   participants:
@@ -607,10 +607,10 @@
     The Turing Data Stories are detailed and pedagogic Jupyter Notebooks that
     document an interesting insight or result using real world open data.
     A Turing Data Story follows these principles:
-    1. The story should be told in an engaging and educational way, describing 
+    1. The story should be told in an engaging and educational way, describing
     both the context of the story and the methods used in the analysis.
-    2. The analysis must be fully reproducible (the notebooks should be 
-    executable by others using a provided computer environment, requiring no 
+    2. The analysis must be fully reproducible (the notebooks should be
+    executable by others using a provided computer environment, requiring no
     installation of software)
     3. The results should be transparent, all data sources are correctly referred to
     or included.
@@ -633,17 +633,17 @@
     responsibilities:
     1. Helping authors in effectively engaging with the
     project and collaborating in groups to write, edit and review current and
-    new chapters in the book. 
+    new chapters in the book.
     2. Developing resources that will ensure
     consistency across all chapters and make the book more comprehensible for
-    readers. 
+    readers.
     3. Making pages more responsive and discoverable so that readers
     can read it on any device (like a smartphone or a tablet) with the same
-    efficiency. 
+    efficiency.
     4. Participating in the community discussions of the project
     to learn about the experience of its readers, authors, collaborators, and
     other members through their stories of using the book.
-    
+
     All these tasks in The Turing Way will require me to integrate Open
     Science principles and community practices, which I am confident to learn
     with my participation in the Open Life Science training and mentoring program.
@@ -652,7 +652,7 @@
   participants:
     - katesimpson
   mentors:
-    - ArielleBL
+    - arielle-bennett
   description: |
     The Design for Retrofit project I work on at The Alan Turing Institute,
     within the Data-Centric Engineering programme aims to use data-driven methods
@@ -705,27 +705,27 @@
   mentors:
     - kipkurui
   description: |
-    The H3ABioNet Open Learning Circles (OLC) Initiative aims to build a 
-    community of peers committed to learning and teaching each other 
-    different skills (coding, data analysis, etc.) through lectures, 
-    tutorials and work on collaborative projects.  The goal is to have 
-    regular meetups for scientists, researchers and students to openly work 
-    together, learn/share code, learn new tools/software or simply improve 
-    their general coding skills. The project also allows space for continued 
-    learning and growth in various bioinformatics tools for our ex-trainees 
-    in this instance. In the beginning, learning circles will enable continuity 
-    of learning after IBT. To start a bioinformatics department and resource 
-    Centre at Muni University, Faculty of health sciences located in Arua City, 
-    West Nile, Uganda. The aim is to develop a critical mass of practitioners in 
-    this region who can develop and utilize Bioinformatics approaches to Biosciences. 
-    To enhance bioinformatics training at all levels and increase the size and 
-    quality of the pool of potential students and researchers. I am at a stage of 
-    proposal writing to start a bioinformatics department and resource centre at Muni 
-    University, Faculty of health sciences located in Arua City, West Nile, Uganda.  
-    The aim is to develop a critical mass of practitioners in this region who can 
-    develop and utilize Bioinformatics approaches to Biosciences. To enhance 
-    bioinformatics training at all levels and increase the size and quality of 
-    the pool of potential students and researchers. 
+    The H3ABioNet Open Learning Circles (OLC) Initiative aims to build a
+    community of peers committed to learning and teaching each other
+    different skills (coding, data analysis, etc.) through lectures,
+    tutorials and work on collaborative projects.  The goal is to have
+    regular meetups for scientists, researchers and students to openly work
+    together, learn/share code, learn new tools/software or simply improve
+    their general coding skills. The project also allows space for continued
+    learning and growth in various bioinformatics tools for our ex-trainees
+    in this instance. In the beginning, learning circles will enable continuity
+    of learning after IBT. To start a bioinformatics department and resource
+    Centre at Muni University, Faculty of health sciences located in Arua City,
+    West Nile, Uganda. The aim is to develop a critical mass of practitioners in
+    this region who can develop and utilize Bioinformatics approaches to Biosciences.
+    To enhance bioinformatics training at all levels and increase the size and
+    quality of the pool of potential students and researchers. I am at a stage of
+    proposal writing to start a bioinformatics department and resource centre at Muni
+    University, Faculty of health sciences located in Arua City, West Nile, Uganda.
+    The aim is to develop a critical mass of practitioners in this region who can
+    develop and utilize Bioinformatics approaches to Biosciences. To enhance
+    bioinformatics training at all levels and increase the size and quality of
+    the pool of potential students and researchers.
 
 - name: Western Cape-H3ABioNet Open Learning Circles
   participants:
@@ -734,14 +734,14 @@
     - kipkurui
     - karvovskaya
   description: |
-    The H3ABioNet Open Learning Circles (OLC) Initiative aims to build a 
-    community of peers committed to learning and teaching each other 
-    different skills (coding, data analysis, etc.) through lectures, 
-    tutorials and work on collaborative projects.  The goal is to have 
-    regular meetups for scientists, researchers and students to openly work 
-    together, learn/share code, learn new tools/software or simply improve 
-    their general coding skills. The project also allows space for continued 
-    learning and growth in various bioinformatics tools for our ex-trainees 
-    in this instance. Through my participation in OLS, I will adapt the Open 
-    learning Circles Concept to our community in UWC.    
-    
+    The H3ABioNet Open Learning Circles (OLC) Initiative aims to build a
+    community of peers committed to learning and teaching each other
+    different skills (coding, data analysis, etc.) through lectures,
+    tutorials and work on collaborative projects.  The goal is to have
+    regular meetups for scientists, researchers and students to openly work
+    together, learn/share code, learn new tools/software or simply improve
+    their general coding skills. The project also allows space for continued
+    learning and growth in various bioinformatics tools for our ex-trainees
+    in this instance. Through my participation in OLS, I will adapt the Open
+    learning Circles Concept to our community in UWC.
+
