@@ -73,11 +73,7 @@ At the moment, [Tiki-Toki](https://www.tiki-toki.com/timeline/entry/1753034/A-Hi
 
 There, stories are distributed along an interactive timeline, and each story has a title, an introductory line and the story itself.
 
-![Four bands of story categories show from left to right: "Opening Up Knowledge", "Legislation, Declarations & Frameworks", "Improving Research", and "Research Tragedies".
-
-Stories appear chronologically from bottom to top. The oldest three stories on display are "2600 BCE Edwin Smith Surgical Papyrus", "1755 BCE Code of Hamurabi", and "1500 BCE Ebers Papyrus".
-
-These appear closest and are easiest to read. The rest are further away as time's arrow marches forward.](/images/2022-07-18-ismaelkg-timeline-image.png)
+![Four bands of story categories show from left to right: "Opening Up Knowledge", "Legislation, Declarations & Frameworks", "Improving Research", and "Research Tragedies". Stories appear chronologically from bottom to top. The oldest three stories on display are "2600 BCE Edwin Smith Surgical Papyrus", "1755 BCE Code of Hamurabi", and "1500 BCE Ebers Papyrus". These appear closest and are easiest to read. The rest are further away as time's arrow marches forward.](/images/2022-07-18-ismaelkg-timeline-image.png)
 
 ## The Vision and Future
 In an attempt to capture all the above, the following vision statement was created and later polished [during the OLS-5 cohort](https://github.com/open-life-science/ols-5/issues/3):
