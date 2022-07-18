@@ -31,10 +31,18 @@ install: clean ## install dependencies
 		bundle install
 .PHONY: install
 
+bundle-install: clean  ## install gems if Ruby is already present (e.g. on gitpod.io)
+	bundle install
+.PHONE: bundle-install
+
 serve: ## run a local server
 	$(ACTIVATE_ENV) && \
 		bundle exec jekyll serve
 .PHONY: serve
+
+serve-gitpod: ## run a server on a gitpod.io environment
+	bundle exec jekyll serve --config _config.yml --incremental
+.PHONY: serve-gitpod
 
 build: clean ## build files but do not run a server (You can specify FLAGS= to pass additional flags to Jekyll)
 	$(ACTIVATE_ENV) && \
