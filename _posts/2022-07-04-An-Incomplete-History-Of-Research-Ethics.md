@@ -1,10 +1,9 @@
 ---
 layout: post
-title: <title of the post>
-author: <github id of the author>
+title: "OLS-5 Speed blog: Introducing An Incomplete History of Research Ethics"
+author: Ismael-KG
 image: images/yyyy-mm-dd-name.jpg
 ---
-# Introducing: An Incomplete History of Research Ethics
 How can we foster a responsible research ecosystem? 
 How can we ensure that research institutes and universities, funding bodies and publishers, junior researchers and senior academics, all work with integrity and care for wider society?
 Numerous initiatives respond to these questions.
