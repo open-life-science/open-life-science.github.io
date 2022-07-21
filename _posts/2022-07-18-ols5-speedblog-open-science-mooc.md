@@ -86,10 +86,8 @@ The MOOC's course team showed enthusiasm to improve the content, such as includi
 - Thanks to Ismael-KG for giving us food for thought and ideas for our Open Science introduction thanks to his amazing  “Timeline”; to Frederique Belliard to discuss our journey in OLS-5 and Evelyn Greeves for feedback at different stages.
 
 ## References
-@donnainfiorino (Alessandra Candian) “What is Open Science? …”, Twitter, 21 May 2022, https://twitter.com/donnainfiorino/status/1527919009395613696
 
-@donnainfiorino (Alessandra Candian) “The 2nd week of #OSMOOC2022 is all about #OpenData. …”, Twitter, 31 May 2022, https://twitter.com/donnainfiorino/status/1531644206325895170
-
-@donnainfiorino (Alessandra Candian) “The third week of the @tudelftlibrary #OSMOOC2022 has just come to an end and the topic was #OpenAccess. …”, Twitter, 8 June 2022, https://twitter.com/donnainfiorino/status/1534654326425149444
-
-@donnainfiorino (Alessandra Candian) “During the last three weeks of the @tudelftlibrary @TUDelftOnline #OSMOOC2022 … “, Twitter, 24 June 2022, https://twitter.com/donnainfiorino/status/1540409251054714886
+- [@donnainfiorino (Alessandra Candian) "What is Open Science? …", Twitter, 21 May 2022](https://twitter.com/donnainfiorino/status/1527919009395613696)
+- [@donnainfiorino (Alessandra Candian) "The 2nd week of #OSMOOC2022 is all about #OpenData. …", Twitter, 31 May 2022](https://twitter.com/donnainfiorino/status/1531644206325895170)
+- [@donnainfiorino (Alessandra Candian) "The third week of the @tudelftlibrary #OSMOOC2022 has just come to an end and the topic was #OpenAccess. …", Twitter, 8 June 2022](https://twitter.com/donnainfiorino/status/1534654326425149444)
+- [@donnainfiorino (Alessandra Candian) "During the last three weeks of the @tudelftlibrary @TUDelftOnline #OSMOOC2022 … ", Twitter, 24 June 2022](https://twitter.com/donnainfiorino/status/1540409251054714886)
