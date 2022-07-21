@@ -70,6 +70,7 @@ The MOOC’s course team showed enthusiasm to improve the content, such as inclu
 - Following this meeting we want to draw a clear governance structure and governance framework for all contributors for next year’s run.
 
 ## Longer term tasks
+
 - Implement the new governance structure and framework.
 - Review how the MOOC went, look at the participants’ feedback and think about further improvements to the MOOC’s content and community building.
 
