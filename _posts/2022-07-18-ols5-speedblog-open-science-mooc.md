@@ -19,7 +19,7 @@ _Figure1: Logo of the Open Science MOOC and titles of the six modules contained 
 
 ## Expectations from this program
 
-Since we had both just started in our jobs as open science teachers, the first thing we hoped to learn was more about the different themes within Open Science. We also hoped that through our participation in the OLS program, we would learn more ways to engage our MOOC’s participants and build a solid community, as well as workflows and processes to make our own work more open.
+Since we had both just started in our jobs as open science teachers, the first thing we hoped to learn was more about the different themes within Open Science. We also hoped that through our participation in the OLS program, we would learn more ways to engage our MOOC's participants and build a solid community, as well as workflows and processes to make our own work more open.
 
 ## Goals set at the beginning of the program
 
