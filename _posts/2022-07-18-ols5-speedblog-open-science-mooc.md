@@ -60,7 +60,7 @@ The result of our brainstorming sessions was to update as much MOOC content as w
 
 ## What elements helped you get there?
 
-The MOOC’s course team showed enthusiasm to improve the content, such as including a podcast and feedback videos, and this motivated us. The biweekly sessions with our mentor also really helped us to focus and reflect. We were lucky to get many helpful tips from the OLS community (for example about historical content, ways to promote the MOOC, or making courses more engaging). Finally, the OLS program materials and sessions were insightful and tools such as ‘personas and pathways’ and the ‘project development plan’ help us improve and reflect on our MOOC and our plans for next year.
+The MOOC's course team showed enthusiasm to improve the content, such as including a podcast and feedback videos, and this motivated us. The biweekly sessions with our mentor also really helped us to focus and reflect. We were lucky to get many helpful tips from the OLS community (for example about historical content, ways to promote the MOOC, or making courses more engaging). Finally, the OLS program materials and sessions were insightful and tools such as ‘personas and pathways’ and the ‘project development plan’ help us improve and reflect on our MOOC and our plans for next year.
 
 ## Next steps
 
