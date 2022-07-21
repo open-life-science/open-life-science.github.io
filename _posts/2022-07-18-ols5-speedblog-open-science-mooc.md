@@ -77,6 +77,7 @@ The MOOC’s course team showed enthusiasm to improve the content, such as inclu
 - Stay in touch with the OLS community through Slack and become a mentor for the next cohort.
 
 ## Special mentions and acknowledgements
+
 - Thanks to the great OLS community especially the project leads Yo, Malvika, Bérénice and Emmy.
 - Special thanks to Emmy for bringing this mentoring program to our attention and encouraging us to enroll
 - Thanks to our mentor Patricia for directing our crazy brainstorming sessions, giving great advice and for being very nice :)
