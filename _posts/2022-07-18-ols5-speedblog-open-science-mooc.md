@@ -13,7 +13,7 @@ The Delft University of Technology (TU Delft) in the Netherlands runs once a yea
 Our primary target is PhD candidates but the MOOC is meant also for MSc students, researchers, support staff, policy makers that want to learn the basic principles of and motivations behind Open Science.  
 The OSMOOC has been running for multiple years with a decreasing number of enrollments and varying levels of engagement. We have high dropout rates and we do not know if the participants practice Open Science later on. Our project goal was to improve the engagement by creating a community around the MOOC participants.
 
-![Logo of the Open Science MOOC](/images/2022-07-18-osmooc-logo.png)![titles of the six modules contained in the course: Introduction to Open Science, Open Data, Open Access Publishing, Visibility as a Researcher, FAIR Software, and Citizen Science](/images/2022-07-18-osmooc-modules.png)
+![Logo of the Open Science MOOC](/images/2022-07-18-osmooc-logo.png)![titles of the six modules contained in the course: Introduction to Open Science, Open Data, Open Access Publishing, Visibility as a Researcher, FAIR Software, and Citizen Science](/images/2022-07-18-osmooc-modules.png){: width="40%" }
 
 _Figure1: Logo of the Open Science MOOC and titles of the six modules contained in the course. Image by TU Delft and licensed under [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) International License._
 
@@ -41,7 +41,7 @@ For me (Alessandra) learning how to use Github was perfect since I had it in my 
 
 When possible, we updated the course content making it more relevant and engaging. We expanded the historical introduction to the Open Science Movement, introducing more diverse elements, such as women or people outside Europe.
 
-![Historial illuminated manuscripts on parchment, with the title "Open Science: The beginning"](/images/2022-07-18-tudelft-history.png)
+![Historial illuminated manuscripts on parchment, with the title "Open Science: The beginning"](/images/2022-07-18-tudelft-history.png){: width="70%" }
 
 _Figure 2: One of the slides used in the historical introduction video about the Open Science Movement. Material created by TU Delft and licensed under CC-BY-NC-SA 4.0 International License._
 
@@ -50,7 +50,7 @@ We also experimented with additional forms of feedback. We recorded a podcast wh
 
 We also found new ways to promote the MOOC, reaching additional communities via social media (Twitter, LinkedIn, university newsletters) and mailing list.
 
-![Twitter thread - linked in reference section for full text](/images/2022-07-18-twitter.png)
+![Twitter thread - linked in reference section for full text](/images/2022-07-18-twitter.png){: width="30%" }
 
 _Figure 3: Screenshot of Twitter threads created during the OSMOOC to engage on social media sharing additional resources and reflections. Links of the threads in the Reference Section._
 
