@@ -8,7 +8,9 @@ image: /images/2022-07-18-osmooc-logo.png
 ---
 
 
-The Delft University of Technology (TU Delft) in the Netherlands runs once a year a Massive Online Open Course (MOOC) on Open Science on the edX platform => [Open Science: Share your research with the world](https://learning.edx.org/course/course-v1:DelftX+OS101x+2T2022/home).  Our primary target is PhD candidates but the MOOC is meant also for MSc students, researchers, support staff, policy makers that want to learn the basic principles of and motivations behind Open Science.  
+The Delft University of Technology (TU Delft) in the Netherlands runs once a year a Massive Online Open Course (MOOC) on Open Science on the edX platform: [Open Science: Share your research with the world](https://learning.edx.org/course/course-v1:DelftX+OS101x+2T2022/home).
+
+Our primary target is PhD candidates but the MOOC is meant also for MSc students, researchers, support staff, policy makers that want to learn the basic principles of and motivations behind Open Science.  
 The OSMOOC has been running for multiple years with a decreasing number of enrollments and varying levels of engagement. We have high dropout rates and we do not know if the participants practice Open Science later on. Our project goal was to improve the engagement by creating a community around the MOOC participants.
 
 ![Logo of the Open Science MOOC](/images/2022-07-18-osmooc-logo.png)![titles of the six modules contained in the course: Introduction to Open Science, Open Data, Open Access Publishing, Visibility as a Researcher, FAIR Software, and Citizen Science](/images/2022-07-18-osmooc-modules.png)
