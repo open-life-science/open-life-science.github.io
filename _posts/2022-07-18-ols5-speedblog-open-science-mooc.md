@@ -55,6 +55,7 @@ We also found new ways to promote the MOOC, reaching additional communities via 
 _Figure 3: Screenshot of Twitter threads created during the OSMOOC to engage on social media sharing additional resources and reflections. Links of the threads in the Reference Section._
 
 ## The initial steps
+
 Our initial steps included a lot of brainstorming and making our goals clearer and achievable within the duration of the OLS program. Our mentor Patricia was very encouraging and supportive and created an environment where we could be ourselves and brainstorm freely, while at the same time giving us additional resources and asking us questions.
 The result of our brainstorming sessions was to update as much MOOC content as we could for the 2022 run of the MOOC (our MVP), and to use the tools provided by the OLS program to reflect on our project management practices and create a plan to implement changes in our practices for next year’s MOOC run.
 
