@@ -3,6 +3,7 @@ layout: post
 title: "OLS-5 Speed blog: Introducing An Incomplete History of Research Ethics"
 author: Ismael-KG
 image: /images/2022-07-18-ismaelkg-watches.jpg
+date: 2022-08-08
 ---
 How can we foster a responsible research ecosystem?
 
