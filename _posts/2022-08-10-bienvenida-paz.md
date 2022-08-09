@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Bienvenida Paz, al Equipo OLS
+title: "Bienvenida Paz, al Equipo OLS"
+authors:
 - bebatut
 - emmyft
 - malvikasharan
 - pazbc
 - yochannah
-image: ../images/2022-08-adi-goldstein-unsplash.jpg
+image: /images/2022-08-adi-goldstein-unsplash.jpg
 photos:
   name: Photo by Adi Goldstein on Unsplash
   url: https://unsplash.com/photos/Hli3R6LKibo
