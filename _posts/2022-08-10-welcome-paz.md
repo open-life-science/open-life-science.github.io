@@ -12,7 +12,7 @@ photos:
   url: https://unsplash.com/photos/Hli3R6LKibo
 ---
 
-# Welcome, Paz!
+Welcome, Paz!
 
 Back in January 2022, we shared that we were [looking for a Community Researcher and Programme Coordinator](https://openlifesci.org/posts/2022/02/18/ols-is-hiring/) to join our team, thanks to [support from the Wellcome Open Research Fund](https://openlifesci.org/posts/2021/12/21/wt-open-research-fund/).
 
