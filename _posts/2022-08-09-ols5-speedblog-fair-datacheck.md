@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "OLS-5 speed blog: FAIR data check in Open Access journals and publication Steps"
