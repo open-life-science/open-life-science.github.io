@@ -1,19 +1,19 @@
 ---
 layout: post
 title: Welcoming Paz to the OLS Team
+authors:
 - bebatut
 - emmyft
 - malvikasharan
 - pazbc
 - yochannah
-image: https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60
+image: /images/2022-08-adi-goldstein-unsplash.jpg
 photos:
   name: Photo by Adi Goldstein on Unsplash
   url: https://unsplash.com/photos/Hli3R6LKibo
 ---
 
 Welcome, Paz!
-
 Back in January 2022, we shared that we were [looking for a Community Researcher and Programme Coordinator](https://openlifesci.org/posts/2022/02/18/ols-is-hiring/) to join our team, thanks to [support from the Wellcome Open Research Fund](https://openlifesci.org/posts/2021/12/21/wt-open-research-fund/).
 
 __Today, we’re thrilled and beyond excited to (officially) welcome Paz Bernaldo to the OLS organizing team!__ :raised_hands:
