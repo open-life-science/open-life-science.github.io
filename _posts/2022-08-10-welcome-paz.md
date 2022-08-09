@@ -20,7 +20,7 @@ __Today, we’re thrilled and beyond excited to (officially) welcome Paz Bernald
 
 We’re so grateful to have her join our team, and looking forward to learning more from her! Read on to learn about Paz in her own words!
 
-![Paz is a woman from Chile. She has long black hair. She is wearing a black winter jacket and a pair of rimmed glasses, and holding her pet, a furry dog who seems to be enjoying sunlight](../images/2022-08-paz.jpg)
+<img src="../images/2022-08-paz.jpg" alt="Paz is a woman from Chile. She has long black hair. She is wearing a black winter jacket and a pair of rimmed glasses, and holding her pet, a furry dog who seems to be enjoying sunlight" width="200"/>
 
 _Open science became a thing for me in 2017 when I met people who seemed to feel similarly to how I had felt for a long time about science, as practices and systems that needed radical change. It was about systemic change, even revolutionary change I hoped, but also about change that felt manageable, like producing open tools to do science. I dived right in, becoming part of a larger community of people wanting to transform science, wanting to deal with the very tricky questions of who decides; who decides who decides; and who decides who decides who decides :).
 
@@ -34,4 +34,5 @@ In the next 2 years, Paz will continue to be a key coordinator of OLS cohorts. I
 
 You can connect with her on Twitter (follow [PazByC](https://twitter.com/PazByC)), and [follow OLS](https://twitter.com/openlifesci) for future updates.
 
-![Paz is connecting dots in her mind, mimicking a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named "Pepe Silvia" does not exist.](../images/2022-08-paz.jpg)
+<img src="../images/2022-08-paz.jpg" alt="Paz is connecting dots in her mind, mimicking a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named 'Pepe Silvia' does not exist." width="200"/>
+
