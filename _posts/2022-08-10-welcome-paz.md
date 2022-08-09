@@ -13,19 +13,20 @@ photos:
 ---
 
 # Welcome, Paz!
-Back in January 2022, we shared that we were [looking for a Community Researcher and Programme Coordinator](https://openlifesci.org/posts/2022/02/18/ols-is-hiring/) to join our team, thanks to [support from the Wellcome Open Research Fund](https://openlifesci.org/posts/2021/12/21/wt-open-research-fund/). 
+
+Back in January 2022, we shared that we were [looking for a Community Researcher and Programme Coordinator](https://openlifesci.org/posts/2022/02/18/ols-is-hiring/) to join our team, thanks to [support from the Wellcome Open Research Fund](https://openlifesci.org/posts/2021/12/21/wt-open-research-fund/).
 
 __Today, we’re thrilled and beyond excited to (officially) welcome Paz Bernaldo to the OLS organizing team!__ :raised_hands:
 
 We’re so grateful to have her join our team, and looking forward to learning more from her! Read on to learn about Paz in her own words!
 
-![Paz is a woman with long black hair. She is wearing a black rimmed glasses, and holding her pet, a furry dog who seems to be enjoying sunlight](../images/2022-08-paz.jpg)
+![Paz is a woman from Chile. She has long black hair. She is wearing a black winter jacket and a pair of rimmed glasses, and holding her pet, a furry dog who seems to be enjoying sunlight](../images/2022-08-paz.jpg)
 
-_Open science became a thing for me in 2017 when I met people who seemed to feel similarly to how I had felt for a long time about science, as practices and systems that were in need of radical change. It was about systemic change, even revolutionary change I hoped, but also about change that felt manageable, like producing open tools to do science. I dived right in, becoming part of a larger community of people wanting to transform science, wanting to deal with the very tricky questions of who decides; who decides who decides; and who decides who decides who decides :). 
+_Open science became a thing for me in 2017 when I met people who seemed to feel similarly to how I had felt for a long time about science, as practices and systems that needed radical change. It was about systemic change, even revolutionary change I hoped, but also about change that felt manageable, like producing open tools to do science. I dived right in, becoming part of a larger community of people wanting to transform science, wanting to deal with the very tricky questions of who decides; who decides who decides; and who decides who decides who decides :).
 
-I worked on a project that questioned who gets to participate in scientific processes and in what capacity, who gets to be called “contributor”, and who gets to decide what the problems are in the first place. That project was called [Vuela](https://vuela.cc/) and we copied first and then modified an open source drone (Go Open Hardware!) with the help of many usual suspects (like researchers, open science enthusiasts) but also many very unusual suspects like adult immigrants who never went to university. 
+I worked on a project that questioned who gets to participate in scientific processes and in what capacity, who gets to be called “contributor”, and who gets to decide what the problems are in the first place. That project was called [Vuela](https://vuela.cc/) and we copied first and then modified an open source drone (Go Open Hardware!) with the help of many usual suspects (like researchers, open science enthusiasts) but also many very unusual suspects like adult immigrants who never went to university.
 
-My formal academic background is humanities and social sciences, so no surprise that issues of governance, power and inequity in knowledge creation and sharing are what motivates me the most. I applied to OLS precisely because these issues matter to them, and because they work directly  towards creating communities that feel not only overwhelmed by the size of the expected transformation but also ready and capable of working collectively for the systemic change needed._
+My formal academic background is in humanities and social sciences, so no surprise that issues of governance, power and inequity in knowledge creation and sharing are what motivate me the most. I applied to OLS precisely because these issues matter to them, and because they work directly towards creating communities that feel not only overwhelmed by the size of the expected transformation but also ready and capable of working collectively for the systemic change needed._
 
 Paz has been working with us over the past month first, by leading OLS’s collaboration with The Alan Turing Institute to repackage and make OLS’s training materials available for on-demand training ([see proposal](https://zenodo.org/record/6974060)), and playing a crucial role in driving the organisation and coordination of OLS-6.
 
@@ -33,4 +34,4 @@ In the next 2 years, Paz will continue to be a key coordinator of OLS cohorts. I
 
 You can connect with her on Twitter (follow [PazByC](https://twitter.com/PazByC)), and [follow OLS](https://twitter.com/openlifesci) for future updates.
 
-![Paz is connecting dots in her mind, mimicking a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named "Pepe Silvia" does not exist.](../images/2022-08-paz-meme.jpg)
+![Paz is connecting dots in her mind, mimicking a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named "Pepe Silvia" does not exist.](../images/2022-08-paz.jpg)
