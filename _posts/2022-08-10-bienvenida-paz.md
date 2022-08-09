@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bienvenida Paz, al Equipo OLS"
+title: Bienvenida Paz, al Equipo OLS
 - bebatut
 - emmyft
 - malvikasharan
