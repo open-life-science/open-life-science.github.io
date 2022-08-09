@@ -5,7 +5,8 @@
 - name: Open Science Community Barcelona (OSCBa)
   participants:
     - bonetcarne
-  mentors: zebetus
+  mentors: 
+    - zebetus
   description: >
     This project aims to create a community of local scientists to share and promote open science in Barcelona,
     Spain. I would like to use as an example the <a href="https://openscience-utrecht.com/">OSCU</a>
@@ -30,7 +31,8 @@
     related policies
   participants:
     - ewuramaminka
-  mentors: vickynembaware
+  mentors: 
+    - vickynembaware
   description: >
     Most sub Saharan African countries barely have quality health data for national policy
     making, especially on cancer. Thus, more work might be needed to improve the data quality,
@@ -47,7 +49,8 @@
 - name: Infusing a culture of open science within the community of researchers at the Zuckerman Institute
   participants:
     - chiarabertipaglia
-  mentors: mkuzak
+  mentors: 
+    - mkuzak
   description: >
     The community of <a href="https://zuckermaninstitute.columbia.edu/">Columbia University’s Zuckerman Institute</a> is composed of neuroscientists at
     all career stages (graduate students, postdocs, faculty members). The Office of Scientific
@@ -93,7 +96,8 @@
 - name: Expanding plenoptic Python Package
   participants:
     - billbrod
-  mentors: rodrigocam
+  mentors: 
+    - rodrigocam
   description: >
     <a href="https://pypi.org/project/plenpy/">plenoptic</a> is a Python package for computational
     vision with two main components: standard differentiable models of the visual system and synthesis
@@ -115,7 +119,8 @@
   participants:
     - bruno-soares
     - naralb
-  mentors: unode
+  mentors: 
+    - unode
   description: >
     [Biodiversidade em Foco](http://www.abc.org.br/atuacao/nacional/projeto-de-ciencia-para-o-brasil/biodiversidade-em-foco/)
     (@Biodiversity in Focus, in English) will merge a twitter account
@@ -160,7 +165,8 @@
 - name: InterMine Similarity Explorer
   participants:
     - lazycipher
-  mentors: yochannah
+  mentors: 
+    - yochannah
   description: >
     <a href="http://intermine.org/">InterMine</a> is a powerful open source data warehouse system.
     It allows users to integrate
@@ -183,7 +189,8 @@
 - name: Open Connect Platform in Africa
   participants:
     - lilian9
-  mentors: kipkurui
+  mentors: 
+    - kipkurui
   description: >
     In Open community, there is disconnect between Open practitioners and advocates hence need for
     platform to connect everyone within open landscape. Therefore, Open Connect will be a platform where
@@ -197,7 +204,8 @@
 - name: EMBL Bio-IT Community Project
   participants:
     - unode
-  mentors: malvikasharan
+  mentors: 
+    - malvikasharan
   description: >
     <a href="https://bio-it.embl.de">Bio-IT project</a> at the <a href="https://embl.org">European Molecular Biology Laboratory (EMBL)</a>
     is an initiative established in 2010 to support the development and
@@ -216,7 +224,8 @@
 - name: "Oxford Neuroscience Open Science Co-ordinator: Changing Culture"
   participants:
     - cassgvp
-  mentors: npscience
+  mentors: 
+    - npscience
   description: >
     The <a href="https://www.win.ox.ac.uk/">Wellcome Centre for Integrative Neuroscience (WIN)</a> and other centres in Oxford
     Neuroscience recently received large awards which include substantial components of open
@@ -237,7 +246,8 @@
   participants:
     - anayan321
     - davidviryachen
-  mentors: hdinkel
+  mentors: 
+    - hdinkel
   description: >
     In South East Asia, herbal medicine has been used over the century as preventive
     and therapeutics intervention. However, due to the scarcity of scientific evidence, the use of
@@ -279,7 +289,8 @@
 - name: Benchmarking environment for bioinformatics tools
   participants:
     - homo-sapiens34
-  mentors: luispedro
+  mentors: 
+    - luispedro
   description: >
     The aim of this project is to provide a flexible protocol and unified instruments for iterative
     benchmarking of bioinformatics tools solving various problems. The results of benchmarking
@@ -292,7 +303,8 @@
 - name: EDAM ontology
   participants:
     - matuskalas
-  mentors: bgruening
+  mentors: 
+    - bgruening
   description: >
     <a href="http://edamontology.org/page">EDAM ontology</a> is a long-established project, defining a common, controlled vocabulary in
     the form of a network of concepts and terms. <a href="https://ifb-elixirfr.github.io/edam-browser/#topic_0091">EDAM</a> covers topics, operations, types of data,
@@ -320,7 +332,8 @@
     - dlebauer
     - magicmilly
     - sithyphus
-  mentors: katrinleinweber
+  mentors: 
+    - katrinleinweber
   description: >
     We are members of the Data Infrastructure for Agriculture Group at <a href="https://www.arizona.edu/">The University of Arizona</a>.
     Our mission is to provide scientists with open software, data, and computing that improves
@@ -344,7 +357,8 @@
 - name: Improving open platform accessibility
   participants:
     - christinerogers
-  mentors: ha0ye
+  mentors: 
+    - ha0ye
   description: >
     I'm a member of the technical team for LORIS (github.com/aces/loris), an open-source
     neuroinformatics platform that allows researchers to collaboratively collect, curate and share
@@ -368,7 +382,8 @@
 - name: Enabling open science practices in biology education
   participants:
     - morphofun
-  mentors: fpsom
+  mentors: 
+    - fpsom
   description: >
     The proposed project would establish a foundation for developing a tutorial on training
     researchers in biology to adopt more open science practices. The main goal would be to
@@ -391,7 +406,8 @@
   participants:
     - samguay
     - dannycolin
-  mentors: ajstewartlang
+  mentors: 
+    - ajstewartlang
   description: >
     In 2019, we founded Open Science UMontreal (OSUM) because we believe in an Open by Design approach
     when it comes to Science. As a student initiative, we want to establish an inclusive and collaborative
@@ -417,7 +433,8 @@
 - name: Creating network of Data Champions at the library of Free University of Amsterdam
   participants:
     - karvovskaya
-  mentors: pherterich
+  mentors: 
+    - pherterich
   description: >
     From February 1st I am starting a new position as community manager RDM at the library
     of Free University of Amsterdam (VU). My ultimate goal is to bridge the gap between
