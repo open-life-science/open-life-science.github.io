@@ -315,7 +315,7 @@ weeks:
         time: '17:00'
         notes: https://hackmd.io/@ols-2/coworking#Week-5
         hosts:
-        - KateSimpson
+        - katesimpson
       -
         type: Cohort
         duration: 90 min
@@ -478,7 +478,7 @@ weeks:
         time: '12:00'
         notes: https://hackmd.io/@ols-2/coworking#Week-7
         hosts:
-        - LauraCarter
+        - lauracarter
       -
         type: Mentors
         duration: 60 min
