@@ -34,5 +34,5 @@ En los próximos 2 años, Paz actuará como coordinadora clave de las cohortes d
 
 Puedes conectarte con Paz en Twitter ([PazByC] (https://twitter.com/PazByC)) y [siga OLS] (https://twitter.com/openlifesci) para recibir futuras noticias.
 
-<img src="../images/2022-08-paz-meme.png" alt="dPaz está conectando puntos en su mente, imitando una referencia de meme a una de las escenas más famosas de It's Always Sunny In Philadelphia en la que el personaje de Charlie hace una diatriba conspiradora sobre cómo cree que una persona llamada "Pepe Silvia" no existe." width="400"/>
+<img src="../images/2022-08-paz-meme.png" alt="Paz está conectando puntos en su mente, imitando una referencia de meme a una de las escenas más famosas de It's Always Sunny In Philadelphia en la que el personaje de Charlie hace una diatriba conspiradora sobre cómo cree que una persona llamada 'Pepe Silvia' no existe." width="400"/>
 
