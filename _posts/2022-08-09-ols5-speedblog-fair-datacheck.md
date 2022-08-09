@@ -4,7 +4,10 @@ layout: post
 title: "OLS-5 speed blog: FAIR data check in Open Access journals and publication Steps"
 authors:
 - fredbelliard
-image: /images/2022-07-18-osmooc-logo.png
+image: https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+photos:
+  name: Photo by Markus Winkler on Unsplash
+  url: https://unsplash.com/photos/Q2J2qQsoYH8
 ---
 
 ## Background
