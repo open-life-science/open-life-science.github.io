@@ -9,16 +9,19 @@ photos:
   url: https://unsplash.com/photos/Q2J2qQsoYH8
 ---
 
-## Background
+[TU Delft OPEN Publishing](https://www.tudelft.nl/en/library/open-publishing), the Open Access academic publisher of TU Delft, publishes Open Access (OA) journals and open textbooks and open books. It is a part of the open science programme of TU Delft that consists of seven interrelated projects: Open Education, Open Access, Open Publishing Platform, FAIR Data, FAIR Software, Open Hardware and Citizen Science. 
 
-[TU Delft OPEN Publishing](https://www.tudelft.nl/en/library/open-publishing), the Open Access academic publisher of TU Delft, publishes Open Access (OA) journals and open textbooks and open books. TU Delft OPEN Publishing is part of the open science program of TU Delft. The Programme consists of seven interrelated projects: Open Education, Open Access, Open Publishing Platform, FAIR Data, FAIR Software, Open Hardware and Citizen Science. 
-Although part of the open science programme, I noticed in most of the OA journals published by TU Delft OPEN Publishing, there is a lack of integration of [open science principles](https://www.tudelft.nl/open-science) such as Open Data, Open peer review or authorship transparency in their publication processes. It transpires that not every step of the publication workflow is fully described and available. Authors must share their data when publishing in our journals. At the same time, authors, reviewers and editors need to understand the benefits of [FAIR Data](https://www.go-fair.org/fair-principles/) in open publishing. We should also provide a toolkit to the journal users to help the implementation of FAIR Data in the publishing workflow. 
+# Background 
 
-> *The success of the project is linked to the _open collaboration_ of the journal editorial boards.*
+Although TU Delft OPEN Publishing is a part of the open science programme, I noticed in most of the Open Access (OA) journals published by TU Delft OPEN Publishing, there is a lack of integration of [open science principles](https://www.tudelft.nl/open-science) such as Open Data, Open peer review or authorship transparency in their publication processes. It indicates that not every step of the publication workflow is fully described and available.
+
+In OA journals, authors must share their data when publishing. At the same time, authors, reviewers and editors should be made aware of the importance and benefits of [FAIR Data](https://www.go-fair.org/fair-principles/) in open publishing. To enable that, we as publishers should provide a toolkit to the journal users so that they can effectively implementation FAIR Data in the publishing workflow. 
+
+*Ultimately, the success of the project is linked to the _open collaboration_ of the journal editorial boards with authors and users of published articles.*
 
 ## Expectations
 
-Being part of the Open Science program of the TU Delft, it was important for me to develop Open Science skills but also to understand better the true meaning behind open leadership, accessibility and openness. 
+Being part of the Open Science program of the TU Delft, it was important for me to develop Open Science skills while building a deeper understanding and the true meaning behind open leadership, accessibility and openness. 
 
 My main objectives were to:
 1. Lead an open project to promote open science principles
@@ -114,5 +117,7 @@ Here is a summary of the lessons learned:
 
 ### Acknowledgements
 
-I would like to thank my two mentors Arielle Bennet and Julien Colomb for dedicating their time to this project and for their valuable guidance. 
-I also would like to thank experts Patricia Herterich, Sara Elgebali and Jez Cope for their advice and for taking the time to talk to me. Finally, I am grateful to the entire OLS team for setting up this fantastic program and a special thank you to Emmy Tsang for convincing me to join OLS-5.
+I would like to thank my two mentors Arielle Bennett and Julien Colomb for dedicating their time to this project and for their valuable guidance. 
+I also would like to thank experts Patricia Herterich, Sara Elgebali and Jez Cope for their advice and for taking the time to talk to me. 
+
+Finally, I am grateful to the entire OLS team for setting up this fantastic program and a special thank you to Emmy Tsang for convincing me to join OLS-5.
