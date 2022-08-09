@@ -11,8 +11,7 @@ photos:
   name: Photo by Adi Goldstein on Unsplash
   url: https://unsplash.com/photos/Hli3R6LKibo
 ---
-
-# ¡Bienvenida Paz!
+¡Bienvenida Paz!
 
 En enero de 2022, compartimos que [buscábamos un/a investigadora comunitaria y  coordinadora de programas](https://openlifesci.org/posts/2022/02/18/ols-is-hiring/) para unirse a nuestro equipo, gracias al apoyo [del Fondo de Investigación Abierta Wellcome](https://openlifesci.org/posts/2021/12/21/wt-open-research-fund/).
 
