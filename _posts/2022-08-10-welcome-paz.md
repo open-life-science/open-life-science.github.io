@@ -33,4 +33,4 @@ In the next 2 years, Paz will continue to be a key coordinator of OLS cohorts. I
 
 You can connect with her on Twitter (follow [PazByC](https://twitter.com/PazByC)), and [follow OLS](https://twitter.com/openlifesci) for future updates.
 
-![Paz is connecting dots in her mind, mimicing a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named "Pepe Silvia" does not exist.](../images/2022-08-paz-meme.jpg)
+![Paz is connecting dots in her mind, mimicking a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named "Pepe Silvia" does not exist.](../images/2022-08-paz-meme.jpg)
