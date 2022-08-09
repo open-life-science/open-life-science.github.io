@@ -20,7 +20,7 @@ __¡Hoy estamos emocionadas y más que emocionadas de dar la bienvenida (oficial
 
 ¡Estamos muy agradecidas de que se una a nuestro equipo y esperamos aprender más de ella! ¡Sigue leyendo para aprender sobre Paz en sus propias palabras!
 
-![Paz es una mujer de Chile. Ella tiene el pelo largo y negro. Lleva una chaqueta de invierno negra y un par de anteojos con montura, y sostiene a su mascota, un perro peludo que parece estar disfrutando de la luz del sol.](../images/2022-08-paz.jpg)
+<img src="../images/2022-08-paz.jpg" alt="Paz es una mujer de Chile. Ella tiene el pelo largo y negro. Lleva una chaqueta de invierno negra y un par de anteojos con montura, y sostiene a su mascota, un perro peludo que parece estar disfrutando de la luz del sol." width="200"/>
 
 _La ciencia abierta se me apareció como algo en 2017, cuando conocí a personas que parecían sentir lo mismo que yo había sentido durante mucho tiempo en torno a  la ciencia, como prácticas y sistemas que necesitaban con urgencia un cambio radical. Se trataba de un cambio sistémico, incluso revolucionario, pensé entonces (y continúo pensando) pero también de cambios que se sintieran manejables, como por ejemplo el de producir herramientas físicas (hardware) abiertas para que muchas y muchos más puedan hacer ciencia. Me uní así a una comunidad grande y diversa de personas que quieren  transformar la ciencia, que quieren lidiar con las muy complejas preguntas  de quién decide; quién decide quién decide; y quién decide quién decide quién decide :).
 
@@ -34,5 +34,5 @@ En los próximos 2 años, Paz actuará como coordinadora clave de las cohortes d
 
 Puedes conectarte con Paz en Twitter ([PazByC] (https://twitter.com/PazByC)) y [siga OLS] (https://twitter.com/openlifesci) para recibir futuras noticias.
 
-![Paz está conectando puntos en su mente, imitando una referencia de meme a una de las escenas más famosas de It's Always Sunny In Philadelphia en la que el personaje de Charlie hace una diatriba conspiradora sobre cómo cree que una persona llamada "Pepe Silvia" no existe..](../images/2022-08-paz-meme.jpg)
+<img src="../images/2022-08-paz-meme.png" alt="dPaz está conectando puntos en su mente, imitando una referencia de meme a una de las escenas más famosas de It's Always Sunny In Philadelphia en la que el personaje de Charlie hace una diatriba conspiradora sobre cómo cree que una persona llamada "Pepe Silvia" no existe." width="400"/>
 
