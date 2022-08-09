@@ -6,13 +6,13 @@ title: Bienvenida Paz, al Equipo OLS
 - malvikasharan
 - pazbc
 - yochannah
-image: https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60
+image: ../images/2022-08-adi-goldstein-unsplash.jpg
 photos:
   name: Photo by Adi Goldstein on Unsplash
   url: https://unsplash.com/photos/Hli3R6LKibo
 ---
-¡Bienvenida Paz!
 
+¡Bienvenida Paz!
 En enero de 2022, compartimos que [buscábamos un/a investigadora comunitaria y  coordinadora de programas](https://openlifesci.org/posts/2022/02/18/ols-is-hiring/) para unirse a nuestro equipo, gracias al apoyo [del Fondo de Investigación Abierta Wellcome](https://openlifesci.org/posts/2021/12/21/wt-open-research-fund/).
 
 __¡Hoy estamos emocionadas y más que emocionadas de dar la bienvenida (oficialmente) a Paz Bernaldo al equipo organizador de OLS!__  :raised_hands:
@@ -21,7 +21,7 @@ __¡Hoy estamos emocionadas y más que emocionadas de dar la bienvenida (oficial
 
 <img src="../images/2022-08-paz.jpg" alt="Paz es una mujer de Chile. Ella tiene el pelo largo y negro. Lleva una chaqueta de invierno negra y un par de anteojos con montura, y sostiene a su mascota, un perro peludo que parece estar disfrutando de la luz del sol." width="200"/>
 
-_La ciencia abierta se me apareció como algo en 2017, cuando conocí a personas que parecían sentir lo mismo que yo había sentido durante mucho tiempo en torno a  la ciencia, como prácticas y sistemas que necesitaban con urgencia un cambio radical. Se trataba de un cambio sistémico, incluso revolucionario, pensé entonces (y continúo pensando) pero también de cambios que se sintieran manejables, como por ejemplo el de producir herramientas físicas (hardware) abiertas para que muchas y muchos más puedan hacer ciencia. Me uní así a una comunidad grande y diversa de personas que quieren  transformar la ciencia, que quieren lidiar con las muy complejas preguntas  de quién decide; quién decide quién decide; y quién decide quién decide quién decide :)._
+_La ciencia abierta se me apareció como "algo" en 2017, cuando conocí a personas que parecían sentir lo mismo que yo había sentido durante mucho tiempo en torno a  la ciencia, como prácticas y sistemas que necesitaban con urgencia un cambio radical. Se trataba de un cambio sistémico, incluso revolucionario, pensé entonces (y continúo pensando) pero también de cambios que se sintieran manejables, como por ejemplo el de producir herramientas físicas (hardware) abiertas para que muchas y muchos más puedan hacer ciencia. Me uní así a una comunidad grande y diversa de personas que quieren  transformar la ciencia, que quieren lidiar con las muy complejas preguntas  de quién decide; quién decide quién decide; y quién decide quién decide quién decide :)._
 
 _Trabajé en un proyecto que intentó cuestionar quién puede participar en los procesos científicos y en qué capacidad, a quién se le llama "colaborador" y quién decide cuáles son los problemas en primer lugar. Ese proyecto se llamó [Vuela](https://vuela.cc/) y primero copiamos y luego modificamos un dron de código abierto (Go Open Hardware!) con la ayuda de muchos sospechosos habituales (como investigadores, entusiastas de la ciencia abierta) pero también muchos sospechosos bastante inusuales como inmigrantes adultos que nunca pisaron una universidad._
 
