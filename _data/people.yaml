@@ -4503,6 +4503,19 @@ paulvill:
   pronouns: he/him
   twitter: paulvilloutreix
   website: https://paulcinq.wordpress.com
+pazbc:
+  bio:
+  city:
+  country: Argentine
+  expertise:
+  -
+  -
+  first-name: Paz
+  last-name: Bernaldo
+  orcid:
+  pronouns:
+  twitter:
+  website:
 pescini:
   affiliation: University Of Milano-Bicocca
   city: Milan
@@ -4565,7 +4578,7 @@ pinheirochagas:
   - Cognitive neuroscience
   first-name: Pedro
   last-name: Pinheiro-Chagas
-  orcid: ' 0000-0001-8512-0113'
+  orcid: 000-0001-8512-0113
   pronouns: He / him / his
   twitter: ppinheirochagas
   website: https://pinheirochagas.com/
