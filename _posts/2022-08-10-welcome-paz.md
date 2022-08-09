@@ -36,3 +36,4 @@ You can connect with her on Twitter (follow [PazByC](https://twitter.com/PazByC)
 
 <img src="../images/2022-08-paz-meme.png" alt="Paz is connecting dots in her mind, mimicking a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named 'Pepe Silvia' does not exist." width="500"/>
 
+*Paz is currently trying to connect various dots within OLS! ([meme reference](https://knowyourmeme.com/memes/pepe-silvia))``
