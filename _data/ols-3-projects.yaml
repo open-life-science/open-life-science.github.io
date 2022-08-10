@@ -215,7 +215,7 @@
   name: Intellectual Property, Indigenous Knowledges, and the Rise of Open Data in
     Australian Environmental Archaeology.
   participants:
-  - carly-monks
+  - cemonks
 - description: The MiSET initiative aims to develop a minimum set of quality standards
     in the form of a quality assessment tool that evaluates the technical aspects
     of cytometry publications, and to fully integrate these flow cytometry standards
@@ -247,8 +247,8 @@
   - bioinformatics
   - data visualization
   - open educational resource
-  mentors: 
-  - DimmestP
+  mentors:
+  - dimmestp
   - yochannah
   name: Global Distribution of APOL1 Genetic variants
   participants:
@@ -616,7 +616,8 @@
   - systematic review
   - public policy
   - open notebook science
-  mentors: bduckles
+  mentors:
+  - bduckles
   name: Postdoc Empirical Legal Research Open Notebook
   participants:
   - jmmaok
@@ -801,7 +802,7 @@
     \ Thus, we would very appreciate and welcome any training, help, advice, or good\
     \ practise on FAIRification and anonymisation of neuroimaging datasets."
   keywords: []
-  mentors: 
+  mentors:
   - loubez
   - bebatut
   name: 'FAIR MAFIL: FAIRification of imaging/neurophysiological data of MAFIL CEITEC
