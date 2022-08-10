@@ -9,28 +9,28 @@ photos:
   url: https://unsplash.com/photos/Q2J2qQsoYH8
 ---
 
-[TU Delft OPEN Publishing](https://www.tudelft.nl/en/library/open-publishing), the Open Access academic publisher of TU Delft, publishes Open Access (OA) journals and open textbooks and open books. It is a part of the open science programme of TU Delft that consists of seven interrelated projects: Open Education, Open Access, Open Publishing Platform, FAIR Data, FAIR Software, Open Hardware and Citizen Science. 
+[TU Delft OPEN Publishing](https://www.tudelft.nl/en/library/open-publishing), the Open Access academic publisher of TU Delft, publishes Open Access (OA) journals and open textbooks and open books. It is a part of the open science programme of TU Delft that consists of seven interrelated projects: Open Education, Open Access, Open Publishing Platform, FAIR Data, FAIR Software, Open Hardware and Citizen Science.
 
-# Background 
+# Background
 
 Although TU Delft OPEN Publishing is a part of the open science programme, I noticed in most of the Open Access (OA) journals published by TU Delft OPEN Publishing, there is a lack of integration of [open science principles](https://www.tudelft.nl/open-science) such as Open Data, Open peer review or authorship transparency in their publication processes. It indicates that not every step of the publication workflow is fully described and available.
 
-In OA journals, authors must share their data when publishing. At the same time, authors, reviewers and editors should be made aware of the importance and benefits of [FAIR Data](https://www.go-fair.org/fair-principles/) in open publishing. To enable that, we as publishers should provide a toolkit to the journal users so that they can effectively implementation FAIR Data in the publishing workflow. 
+In OA journals, authors must share their data when publishing. At the same time, authors, reviewers and editors should be made aware of the importance and benefits of [FAIR Data](https://www.go-fair.org/fair-principles/) in open publishing. To enable that, we as publishers should provide a toolkit to the journal users so that they can effectively implementation FAIR Data in the publishing workflow.
 
-*Ultimately, the success of the project is linked to the _open collaboration_ of the journal editorial boards with authors and users of published articles.*
+*Ultimately, the success of the project is linked to the **open collaboration** of the journal editorial boards with authors and users of published articles.*
 
 ## Expectations
 
-Being part of the Open Science program of the TU Delft, it was important for me to develop Open Science skills while building a deeper understanding and the true meaning behind open leadership, accessibility and openness. 
+Being part of the Open Science program of the TU Delft, it was important for me to develop Open Science skills while building a deeper understanding and the true meaning behind open leadership, accessibility and openness.
 
 My main objectives were to:
 1. Lead an open project to promote open science principles
 2. Work more openly by learning new skills to build an open project within a complex environment and with stakeholders with diverse needs and opinions
-3. Improve my open communication skills 
+3. Improve my open communication skills
   - by sharing knowledge and interacting with different communities
-  - by clearly defining my vision and ideas 
-    
-I choose the OLS program for three main reasons: 
+  - by clearly defining my vision and ideas
+
+I choose the OLS program for three main reasons:
 * the program: it focuses on open science with three principles that are very important to me, sharing, connection and empowering
 * The content: it includes skills, mentorship, tools
 * The environment: It is safe, diverse and inclusive and that is rare
@@ -46,10 +46,13 @@ Fruitful discussions and exchanges with my mentors and three experts resulted in
 
 ### Engaging the stakeholders
 
-1. Start with a Proof Of Concept (POC) with one newly launched AO journal and with one established OA journal => POC successful the new workflow with open data checking points might be better accepted by the community if it is coming from their peer (editors).
-2. Consider open data badges https://www.acm.org/publications/artifacts and 
-3. Check Open results of the data badges: Pilot results, Challenges, and Opportunities https://researchdata.springernature.com/posts/open-data-badges-pilot-results-challenges-and-opportunities
-4. Focus on and encourage Data Citation https://www.project-freya.eu/en/pid-graph/the-pid-graph rather than DAS which is a standard section in most publications
+1. Start with a Proof Of Concept (POC) with one newly launched AO journal and with one established OA journal
+
+  POC successful the new workflow with open data checking points might be better accepted by the community if it is coming from their peer (editors).
+
+2. Consider [open data badges](https://www.acm.org/publications/artifacts) and
+3. Check Open results of the data badges: [Pilot results, Challenges, and Opportunities](https://researchdata.springernature.com/posts/open-data-badges-pilot-results-challenges-and-opportunities)
+4. Focus on and encourage [Data Citation](https://www.project-freya.eu/en/pid-graph/the-pid-graph) rather than DAS which is a standard section in most publications
 5. Provide a template for DAS and datasets Reviewers and examples of dataset citations & DAS
 
 ## Metadata Check
@@ -64,18 +67,25 @@ Fruitful discussions and exchanges with my mentors and three experts resulted in
 ### Data Steward, Data manager, Curator roles
 
 1. As an expert, they could perform the DAS check of every submission
-2. in the case of TU Delft OPEN Publishing => approach TU Datastewards and 4TU.Research.Data community to hear their thoughts.
+2. in the case of TU Delft OPEN Publishing: approach TU Datastewards and 4TU.Research.Data community to hear their thoughts.
 
 ## Achievements
 
-1. Identify publication workflow [stages](https://github.com/fredbelliard/FAIR-Data-in-Publishing-workflow/issues/2): 3 stages were identified Submit-Review-Publish
-2. identity in the publication workflow checkpoints for data sharing: 
+1. Identify publication workflow [stages](https://github.com/fredbelliard/FAIR-Data-in-Publishing-workflow/issues/2)
 
-<img width="800" alt="Open Data in publication workflow" src="https://user-images.githubusercontent.com/100927928/183632572-19764ad3-de62-47aa-b0a7-7548c78b7a60.png">**
+    3 stages were identified:
+    - Submit
+    - Review
+    - Publish
 
-**_Datasets peer-review_**
+2. Identity in the publication workflow checkpoints for data sharing:
 
-<img width="700" alt="Datasets peer-review" src="https://user-images.githubusercontent.com/100927928/183636412-2e863fe4-1640-4944-b386-acb8ef17815b.png">
+  ![Open Data in publication workflow](https://user-images.githubusercontent.com/100927928/183632572-19764ad3-de62-47aa-b0a7-7548c78b7a60.png){: width="50%" }
+
+
+  **_Datasets peer-review_**
+
+  ![Datasets peer-review](https://user-images.githubusercontent.com/100927928/183636412-2e863fe4-1640-4944-b386-acb8ef17815b.png){: width="50%" }
 
 ## Next Steps
 
@@ -85,7 +95,7 @@ Fruitful discussions and exchanges with my mentors and three experts resulted in
 2. Get feedback from Datastewards and 4TU.Research.Data Community
 3. Use a Proof of Concept to implement FAIR Data in the publication workflow in a newly launched OA journal
 4. Seek funding to cover the work of checking the Data
- 
+
 **Long-term steps**
 
 1. Revise publishing workflow if necessary
@@ -100,10 +110,10 @@ I would like to give back to the OLS community by staying connected with the OLS
 
 On a personal level I aim to do the followings:
 
-1. Influence the Open Publishing team's ways of working to encourage sharing projects and progresses openly, to use (where applicable) Github or Hackmd for collaborative work and to use alternative open source software.  
+1. Influence the Open Publishing team's ways of working to encourage sharing projects and progresses openly, to use (where applicable) Github or Hackmd for collaborative work and to use alternative open source software.
 2. Raise awareness on open science best practices, diversity and inclusion, community interactions
 3. Apply the Open leadership skills developed during OLS-5 in my daily work
-4. Continue my [Open Leadership Training](https://mozilla.github.io/open-leadership-training-series/articles/readme/) 
+4. Continue my [Open Leadership Training](https://mozilla.github.io/open-leadership-training-series/articles/readme/)
 
 ## Lessons Learned
 
@@ -117,7 +127,7 @@ Here is a summary of the lessons learned:
 
 ### Acknowledgements
 
-I would like to thank my two mentors Arielle Bennett and Julien Colomb for dedicating their time to this project and for their valuable guidance. 
-I also would like to thank experts Patricia Herterich, Sara Elgebali and Jez Cope for their advice and for taking the time to talk to me. 
+I would like to thank my two mentors [Arielle Bennett](/community#arielle-bennett) and [Julien Colomb](/community#jcolomb) for dedicating their time to this project and for their valuable guidance.
+I also would like to thank experts [Patricia Herterich](/community#pherterich), [Sara Elgebali](/community#selgebali) and [Jez Cope](/community#jezcope) for their advice and for taking the time to talk to me.
 
-Finally, I am grateful to the entire OLS team for setting up this fantastic program and a special thank you to Emmy Tsang for convincing me to join OLS-5.
+Finally, I am grateful to the entire OLS team for setting up this fantastic program and a special thank you to [Emmy Tsang](/community#emmyft)  for convincing me to join OLS-5.

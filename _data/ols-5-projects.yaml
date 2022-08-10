@@ -99,7 +99,7 @@ The plan needs to integrate as much as possible open science principles such as 
   - jcolomb
   name: Publishing development plan for the Open access journals of TU Delft OPEN Publishing
   participants:
-  - frédérique-belliard
+  - fredbelliard
 - description: This project is envisioned as one that ends up as something that can explain the “why” when encouraging people from legal backgrounds to learn R and some data science. A case for open and reproducible research in a field that does not typically use R and qualitative methods. The idea is to get to that point by creating different data sets derived from commonly used legal sources that law students or graduates would be familiar with and incorporating them into a single platform with a few examples of practical use and application as well as code to encourage such persons to see the “why”. On this platform, I would like to share resources to places where the intro to R courses are available, etc. At this stage, this is an idea I have and I hope to develop it as the week's progress.
   keywords:
   - Rstudio
