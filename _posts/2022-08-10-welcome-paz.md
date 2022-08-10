@@ -13,10 +13,10 @@ photos:
   url: https://unsplash.com/photos/Hli3R6LKibo
 ---
 
-Welcome, Paz!
 Back in January 2022, we shared that we were [looking for a **Community Researcher and Programme Coordinator**]({% link _posts/2022-02-18-ols-is-hiring.md %}) to join our team, thanks to [support from the Wellcome Open Research Fund]({% link _posts/2021-12-21-wt-open-research-fund.md %}).
 
 __Today, we're thrilled and beyond excited to (officially) welcome Paz Bernaldo to the OLS organizing team!__
+Welcome, Paz!
 
 We're so grateful to have her join our team, and looking forward to learning more from her! Read on to learn about Paz in her own words!
 
