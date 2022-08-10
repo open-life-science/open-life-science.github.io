@@ -13,10 +13,10 @@ photos:
   url: https://unsplash.com/photos/Hli3R6LKibo
 ---
 
-¡Bienvenida Paz!
 En enero de 2022, compartimos que [buscábamos un/a **investigadora comunitaria y  coordinadora de programas**]({% link _posts/2022-02-18-ols-is-hiring.md %}) para unirse a nuestro equipo, gracias al apoyo [del Fondo de Investigación Abierta Wellcome]({% link _posts/2021-12-21-wt-open-research-fund.md %}).
 
 __¡Hoy estamos emocionadas y más que emocionadas de dar la bienvenida (oficialmente) a Paz Bernaldo al equipo organizador de OLS!__
+¡Bienvenida Paz!
 
 ¡Estamos muy agradecidas de que se una a nuestro equipo y esperamos aprender más de ella! ¡Sigue leyendo para aprender sobre Paz en sus propias palabras!
 
