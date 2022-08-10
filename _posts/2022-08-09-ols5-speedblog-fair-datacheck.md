@@ -30,7 +30,7 @@ My main objectives were to:
   - by sharing knowledge and interacting with different communities
   - by clearly defining my vision and ideas
 
-I choose the OLS program for three main reasons:
+I choose the OLS program for these main reasons:
 * the program: it focuses on open science with three principles that are very important to me, sharing, connection and empowering
 * The content: it includes skills, mentorship, tools
 * The environment: It is safe, diverse and inclusive and that is rare
