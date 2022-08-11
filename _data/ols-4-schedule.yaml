@@ -192,7 +192,7 @@ weeks:
       - link: https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
         type: slides
         title: Open Licensing
-        speaker: ''
+        speaker: kaythaney
       - link: https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
         type: slides
         title: README
@@ -206,8 +206,6 @@ weeks:
       - emmyft
       - ekaroune
       recording: https://youtu.be/kAxVZDI18RU
-      facilitators:
-      - ''
   '05':
     start: October 11, 2021
     calls:
@@ -259,7 +257,7 @@ weeks:
       - link: https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
         type: slides
         title: Agile & Iterative Project Management Methods
-        speaker: ''
+        speaker: nick-barlow
       - link: https://docs.google.com/presentation/d/19fZRMPzK2OrynrOdVzkq703j2fz6knAiFjn2JEPfmIQ/edit?usp=sharing
         type: slides
         title: 'Case study 1: Managing & developing an Open Source Software project'
@@ -271,7 +269,7 @@ weeks:
       - link: https://docs.google.com/presentation/d/1p9y7hBmz-ky38JsosaSYi2LmB1fPD0IyIB_BnLAidmo/edit?usp=sharing
         type: slides
         title: 'Case study 3: Managing & developing an open hardware project'
-        speaker: ''
+        speaker: hpdang
       before: '- Look up two other projects and comment on their issues with feedback
         on their README'
       after: |-
@@ -326,7 +324,7 @@ weeks:
       - link: https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
         type: slides
         title: Mountain of Engagement
-        speaker: ''
+        speaker: chadsansing
       - link: https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
         type: slides
         title: Mentored contributions

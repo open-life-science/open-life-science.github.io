@@ -16,7 +16,7 @@ OLS-5, aka Cohort Hope, is approaching the penultimate week of their OLS journey
 
 # OLS-5 graduations: you're invited!
 
-Over 30 individuals and teams from all around the world took part in OLS-5 ([see our projects and participants]({% link _ols-5/projects-participants.md %})). In the 16 weeks, they have learnt from mentors, experts, facilitators, and peers about open research practices, reflected deeply on practising open in their own communities and contexts, and grew their ideas and projects. We have really enjoyed witnessing the growth of their projects and networks and are immensely proud of their own personal growth as leaders and ambassadors of open research. 
+Over 30 individuals and teams from all around the world took part in OLS-5 ([see our projects and participants]({% link _ols-5/projects-participants.md %})). In the 16 weeks, they have learnt from mentors, experts, facilitators, and peers about open research practices, reflected deeply on practising open in their own communities and contexts, and grew their ideas and projects. We have really enjoyed witnessing the growth of their projects and networks and are immensely proud of their own personal growth as leaders and ambassadors of open research.
 
 In their graduation sessions, they will present and share their work with the wider community. We sincerely invite everyone to join, to learn more about project leads' journeys, celebrate their work, ask questions, and explore new ideas and collaborations!
 
@@ -37,12 +37,12 @@ We especially welcome you if you are:
 
 ## Call for application for OLS-6 is NOW OPEN!
 
-Interested in applying for the next round? We can't wait to see your project proposal! 
-Please submit your application via [OpenReview](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6) before the end of the day on **7 July 2022** (hard deadline). **Important note:** The deadline for registering for OpenReview is 1 July, as all OpenReview accounts are approved manually. 
+Interested in applying for the next round? We can't wait to see your project proposal!
+Please submit your application via [OpenReview](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6) before the end of the day on **7 July 2022** (hard deadline). **Important note:** The deadline for registering for OpenReview is 1 July, as all OpenReview accounts are approved manually.
 
-To learn about the timeline, process and details for the OLS-6, visit our homepage: [{{ site.url }}]({{ site.url }}) and 
+To learn about the timeline, process and details for the OLS-6, visit our homepage: [{{ site.url }}]({{ site.url }}) and
 [GitHub repo with application guidelines](https://github.com/open-life-science/application-forms).
 
-We encourage you to watch the OLS graduations from the last four cohorts [on YouTube]([https://www.youtube.com/openlifesci) to get a sense of what the project will be like (direct link to [OLS-4 graduation calls](https://www.youtube.com/playlist?list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA](https://www.youtube.com/playlist?list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D))).
+We encourage you to watch the OLS graduations from the last four cohorts [on YouTube](https://www.youtube.com/openlifesci) to get a sense of what the project will be like (direct link to [OLS-4 graduation calls](https://www.youtube.com/playlist?list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA](https://www.youtube.com/playlist?list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D))).
 
 For OLS-6 we'll be offering micro-grants, as we did in [OLS-3 and OLS-4]({% link _posts/2020-11-23-micro-grants-in-2021-ols-3-ols-4.md %}) to help grow participation and inclusion, and to support budding new projects. More details regarding the budget will be shared in a separate blog post.

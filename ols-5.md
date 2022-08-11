@@ -111,7 +111,7 @@ At the end of the program, our participants will be able to:
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-<!-- For the third round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-5/projects-participants#participants) with [{{ projects | size }} projects](/ols-5/projects-participants#projects).-->
+For the fifth round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-5/projects-participants#participants) with [{{ projects | size }} projects](/ols-5/projects-participants#projects).
 
 ## Mentors
 
@@ -126,7 +126,7 @@ Mentors advise and inspire
 ### Pool of mentors
 
 <!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-5-metadata.yaml file 
+Any modification of the content should be done in the _data/ols-5-metadata.yaml file
 
 We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
@@ -170,7 +170,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
 {% endif %} -->
 
 
-<!-- Pool of mentors (hidden before cohort starts) 
+<!-- Pool of mentors (hidden before cohort starts)
 Any modification of the content should be done in the _data/ols-5-projects.yaml file -->
 
 We thank the {{ p-mentors | size }} mentors this round.
@@ -180,7 +180,7 @@ We thank the {{ p-mentors | size }} mentors this round.
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
 {% endfor %}
-</div> 
+</div>
 
 ### Mentoring training
 
@@ -359,18 +359,24 @@ If you are unable to make it to any slot together, please find other ways (async
 
 If a mentor has to step back from the program for any reason, please communicate with the organisers to identify an alternative for their mentees.
 
-### Coworking calls
+### Skill-up calls
 
-The coworking sessions take place in weeks during which there is not cohort call.
-These calls are optional but highly valuable for enhancing your understanding of the materials discussed in OLS-5 with the help of other participants.
+In some weeks during which there is not cohort call, we will offer some optional skill-up calls.
 
-During these calls,
-- Participants can work together on the assignments
-- Participants connect and talk about their projects
+The calls will be hosted online using the Zoom web-conferencing option.
+A link for the calls will be shared for each meeting separately.
+
+Look up the shared notes for each call linked to the [schedule](#schedule) in this website.
+You will also be updated via email each week by the organisers with additional details to aid your participation.
+
+## Q&A calls
+
+The Q&A sessions take place in weeks during which there is not cohort call.
+These calls are optional but highly valuable for enhancing your understanding of the materials discussed in OLS-4 with the help of other participants.
 
 The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
 
-### Mentors calls
+### Mentor calls
 
 4 mentor calls will take place during the program.
 

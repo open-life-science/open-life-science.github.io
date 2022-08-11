@@ -77,7 +77,7 @@ ssi:
     country: United Kingdom
 tu-delft:
     name: Faculty of Applied Sciences/TNW - TU Delft
-    website: TU Delft - Faculty of Applied Sciences/TNW
+    website: https://www.tudelft.nl/en/faculty-of-applied-sciences
     logo: https://pbs.twimg.com/profile_images/2847488441/6ce5b022e228fee8ff302a16dca378c7_400x400.jpeg
     country: Netherlands
 turing:

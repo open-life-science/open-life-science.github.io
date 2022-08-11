@@ -21,7 +21,7 @@ We invite you to come and watch the [live-streamed calls on YouTube]({{site.yout
 
 - Slot 1: 15 December, Tuesday - 09:00 - 10:00 AM UTC
     - 📝 [Notes](https://hackmd.io/@ols-2/week-16-gr1)
-    - ⏰ [In your timezone]((https://arewemeetingyet.com/London/2020-12-15/09:00/week-16-ols-2-grad1))
+    - ⏰ [In your timezone](https://arewemeetingyet.com/London/2020-12-15/09:00/week-16-ols-2-grad1)
 - Slot 2: 16 December, Wednesday - 14:00 - 15:00 UTC
     - 📝 [Notes](https://hackmd.io/@ols-2/week-16-gr2)
     - ⏰ [In your timezone](https://arewemeetingyet.com/London/2020-12-16/14:00/week-16-ols-2-grad2)

@@ -52,7 +52,7 @@
   - reproducible research
   mentors:
   - dimmestp
-  name: 'Genestorian: An Open Source web application for model organism collections.'
+  name: 'Genestorian: An Open Source web application for model organism collections'
   participants:
   - manulera
 - description: Recent developments in electron microscopy have led to a significant
@@ -98,16 +98,16 @@
   - guille1107
   - diegoonna
   - princehoodie
-- description: "[**Bio-IT**](bio-it.embl.de) project at the [European Molecular Biology\
-    \ Laboratory](embl.org) (EMBL) is a community initiative aiming at: \n\n- delivering\
+- description: "[**Bio-IT**](https://bio-it.embl.de) project at the [European Molecular Biology\
+    \ Laboratory](https://www.embl.org) (EMBL) is a community initiative aiming at: \n\n- delivering\
     \ **training** in computational research skills;\n- creating connections between\
     \ **community** members;\n- developing and maintaining resources and supporting\
     \ **infrastructure**;\n- disseminating relevant **information** throughout the\
     \ community.\n\nIn order to strengthen the community interactions, Bio-IT launched\
-    \ the [**Grassroots** consulting initiative](bio-it.embl.de/grassroots-consulting/),\
+    \ the [**Grassroots** consulting initiative](https://bio-it.embl.de/grassroots-consulting/),\
     \ listing volunteers among EMBL Staff interested in providing assistance on a\
     \ wide range of computational topics. Building on this effort, I aim at expanding\
-    \ the crowdsourcing of Bio-IT’s activities and supporting the **community of practice\
+    \ the crowdsourcing of Bio-IT's activities and supporting the **community of practice\
     \ at EMBL**. In line with Open Science objectives, a culture of sharing (of skills,\
     \ resources, data and ideas) within the institute will also foster the same culture\
     \ beyond it. Within OLS program, I will elaborate a **Grassroots project strategic\
@@ -555,8 +555,7 @@
   - programming
   mentors:
   - bduckles
-  name: Building Open Science and Data Analysis Skills by Leading the OLS Survey Data
-    Project
+  name: Building Open Science and Data Analysis Skills by Leading the OLS Survey Data Project
   participants:
   - burce-elbasan
 - description: Binderhub is a service that allows users to share reproducible interactive
@@ -579,7 +578,7 @@
   - technical development
   mentors:
   - unode
-  name: 'Hub23: An open source community and infrastructure for Turing’s BinderHub'
+  name: "Hub23: An open source community and infrastructure for Turing's BinderHub"
   participants:
   - lydia-france
   - lukehare
@@ -600,8 +599,7 @@
   - gender equality
   mentors:
   - iratxepuebla
-  name: Online event ”Women in Data Science – Perspectives in Industry and Academia”
-    Part II
+  name: Online event "Women in Data Science - Perspectives in Industry and Academia" Part II
   participants:
   - irena-maus
 - description: "The international and open RIVER UNIVERSITY started in Poland with\

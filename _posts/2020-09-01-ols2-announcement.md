@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet our second cohort of project leads and their mentors
-authors: 
+authors:
 - bebatut
 - malvikasharan
 - yochannah
@@ -76,13 +76,13 @@ We are thrilled to announce that [{{ p-participants | size }} members](/{{ cohor
 
 ### Meet our mentees!
 
-The mentees joining this program are {{ p-participants | join: ', ' }}. These individuals are based in {{ p-countries | size }} countries ({{ p-countries | join: ', ' }}) where they will be leading their respective projects. 
+The mentees joining this program are {{ p-participants | join: ', ' }}. These individuals are based in {{ p-countries | size }} countries ({{ p-countries | join: ', ' }}) where they will be leading their respective projects.
 
 Topics for their projects include data-centric engineering, ethical research, data communication, developing community aspects of computational projects, enhancing lab automation, creating mentorship network, collaborative training delivery, open science education, online database for 3D modeling workflows, establishing disease-related preprints, applying machine learning practices,  interdisciplinary approaches to understanding infections and diseases, curating land-use land-cover data, science campaigning, metagenomic pipeline, Galaxy, applying the FAIR principle in a new field, creating a reproducible environment and open hardware, enhancing accessibility in community and citizen science projects, fundraising and ensuring project sustainability.
 
 ### Meet our mentors!
 
-Our project leads (aka mentees) have been paired with 1 or 2 mentors based on their specific requirements of expertise and interests along with time zones and language preferences. Our mentors are Open Science champions with previous experiences in training, mentoring, computing, and community skills. They are currently working in different professions in data science, education, citizen science, publishing, community building, software development, clinical studies, industries, scientific training, policymaking, IT services, and so on. 
+Our project leads (aka mentees) have been paired with 1 or 2 mentors based on their specific requirements of expertise and interests along with time zones and language preferences. Our mentors are Open Science champions with previous experiences in training, mentoring, computing, and community skills. They are currently working in different professions in data science, education, citizen science, publishing, community building, software development, clinical studies, industries, scientific training, policymaking, IT services, and so on.
 
 Additionally, we have an incredible experts' community who will be delivering specialised talks during the cohort calls and will be available for our project leads for expert consultations upon request.
 
@@ -105,7 +105,7 @@ Once again, let's welcome our mentors, mentees and experts to this program!
 | Project | Project leaders | Mentors |
 |----------|-----------------------|------------|
 {%- for project in projects %}
-| [{{ project.name }}](/{{ cohort }}/projects-participants/#{{ project.name | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}with [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}#{{ p }}) {% endfor %} {% endcapture %} {{ p-mentors | remove_first: 'with ' }} |
+| [{{ project.name }}](/{{ cohort }}/projects-participants/#{{ project.name | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | remove: "/" | remove: '"' | remove: "'" | remove: "&" | remove: ";" | replace: " ", "-"  }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}with [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}#{{ p }}) {% endfor %} {% endcapture %} {{ p-mentors | remove_first: 'with ' }} |
 {%- endfor %}
 
 We wish our cohort members all the best as they begin this journey with us.

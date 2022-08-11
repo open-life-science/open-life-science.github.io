@@ -4,7 +4,7 @@
 #   timeframe:
 #   calls:
 #     -
-#       type: Mentor-Mentee/Cohort/Mentors
+#       type: Mentor-Mentee/Cohort/Mentor
 #       duration: .. min
 #       title:
 #       date: Month Day, Year
@@ -27,10 +27,10 @@
 #           link:
 ---
 timeline:
-- 
+-
   date: December 1, 2021
   description: Opening of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
-  details: We have [templates](https://github.com/open-life-science/application-forms) you can download to use when preparing your application. 
+  details: We have [templates](https://github.com/open-life-science/application-forms) you can download to use when preparing your application.
 -
   date: January 4, 2021
   description: Application webinar
@@ -56,7 +56,7 @@ timeline:
 -
   date: January 18, 2021
   description: For the **[EOSC-Life](/ols-3#ols-3-for-eosc-life) collaborating organisation**, Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
-- 
+-
   date: January 26, 2021
   description: Successful applicants announced
 weeks:
@@ -101,7 +101,7 @@ weeks:
 
         - Add your vision statement to your GitHub issue
         - Check the [Syllabus](/ols-3) for notes and connection info for all the cohort calls
-    - type: Mentors
+    - type: Mentor
       duration: 60 min
       title: Mentor training
       date: February 8, 2021
@@ -110,7 +110,7 @@ weeks:
         During our first mentor training onboarding session, you will:
         - Understand common successes and challenges in mentoring OLS participants.
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-    - type: Mentors
+    - type: Mentor
       duration: 60 min
       title: Mentor training
       date: February 9, 2021
@@ -178,13 +178,13 @@ weeks:
   '03':
     start: February 22, 2021
     calls:
-    - type: Mentors
+    - type: Mentor
       duration: 180 min
       title: Mentoring workshop
       date: February 22, 2021
       time: '10:00'
     -
-      type: Mentors
+      type: Mentor
       duration: 180 min
       title: Mentoring workshop
       date: February 23, 2021
@@ -420,7 +420,7 @@ weeks:
         - Complete your week 6 assignments.
       after: |
         - Complete any week 6 assignments that you have left to do.
-    - type: Mentors
+    - type: Mentor
       duration: 60 min
       title: Mentor training
       content: |
@@ -442,7 +442,7 @@ weeks:
       after: |
         - Continue on with your project, and connect with others on Slack or other social media platforms.
   08:
-    start: 
+    start:
     end: March 29 - April 2, 2021
     calls:
     - type: Cohort
@@ -853,7 +853,7 @@ weeks:
       notes: https://pad.sfconservancy.org/p/ols-graduations-3
       recording: https://www.youtube.com/watch?v=2tezbbfJGu8
       resources: null
-    - type: Mentors
+    - type: Mentor
       duration: 60 min
       title: Mentor wrap up
       date: null

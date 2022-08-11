@@ -23,7 +23,7 @@ photos:
 
 Participants join this program with a project that they either are already working on or want to develop during this program.
 
-For the second round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects). 
+For the second round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects).
 
 # Projects
 
@@ -31,22 +31,22 @@ For the second round of the Open Life Science program, we are happy to have [{{ 
     {% if project.visible != false %}
 
         {% assign p-pparticipants = '' %}
-        
+
         {% for p in project.participants %}
             {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
         {% endfor %}
-        
+
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
-        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-2#{{ p }})
+        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/community#{{ p }})
         {% endfor %}
-        {% endcapture %} 
+        {% endcapture %}
 
 ## {{ project.name }}
 
 **By**: {{ p-pparticipants | remove_first: ', ' }}
 
-**Mentored by**: {{ p-mentors | remove_first: 'with ' }} 
+**Mentored by**: {{ p-mentors | remove_first: 'with ' }}
 
 {{ project.description }}
 
