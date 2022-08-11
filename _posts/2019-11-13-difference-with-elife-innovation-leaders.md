@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Curious what the difference is between Open Life Science and eLife Innovation leaders?
-author: bebatut, malvikasharan, yochannah
+authors:
+- bebatut
+- malvikasharan
+- yochannah
 image: /images/2019-11-13-difference-with-elife-innovation-leaders.jpg
 external: https://www.open-bio.org/2019/11/12/supercharge-your-open-project-with-leadership-training/
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: On being an Open Life Science programme mentor in 2021
 authors:
-- EstherPlomp
+- estherplomp
 image: ../images/2022-01-04-esthers-mentoring-blog-illustration.jpg
 photos:
   name: Illustration by Esther Plomp
@@ -18,9 +18,9 @@ The [Open Life Science programme (OLS)](https://openlifesci.org) is a mentoring 
 * Connect with community members across different projects, communities, backgrounds, and identities
 * Empower each other to become effective Open Science ambassadors in their communities
 
-Anyone in the world is welcome to join the programme. At TU Delft, the PhD candidates from the Faculty of Applied Sciences enjoy the additional benefit of [receiving credits if they follow the programme](https://intranet.tudelft.nl/-/open-life-science-programme) (link accessible only by TU Delft staff). 
+Anyone in the world is welcome to join the programme. At TU Delft, the PhD candidates from the Faculty of Applied Sciences enjoy the additional benefit of [receiving credits if they follow the programme](https://intranet.tudelft.nl/-/open-life-science-programme) (link accessible only by TU Delft staff).
 
-I have been an OLS mentor since the start of 2021 (OLS cohorts 3 and 4). This means that I meet once every two weeks with the mentees to discuss their projects and progress. I had very little experience with mentoring before I became an OLS mentor and I benefitted hugely from attending the mentoring training that the programme provides, the templates they have already set up for mentor-mentee meetings, and the support from the organisers and my fellow mentors in the Slack channel and in the mid-cohort mentor meetings. 
+I have been an OLS mentor since the start of 2021 (OLS cohorts 3 and 4). This means that I meet once every two weeks with the mentees to discuss their projects and progress. I had very little experience with mentoring before I became an OLS mentor and I benefitted hugely from attending the mentoring training that the programme provides, the templates they have already set up for mentor-mentee meetings, and the support from the organisers and my fellow mentors in the Slack channel and in the mid-cohort mentor meetings.
 
 In this blog post, I would like to share some of my experiences and resources that might be helpful in your own mentor journey.
 
@@ -30,11 +30,11 @@ In this blog post, I would like to share some of my experiences and resources th
 
 As a mentor in the OLS programme, my main responsibility is to hold an accountable space for the mentee to achieve their Open Science goals through participation in the OLS programme. The programme teaches mentees how to set goals, objectives and milestones to measure success in their projects. The mentor meetings serve primarily to check if the mentee is moving towards these objectives or whether they might need to be adjusted, and provide guidance where necessary. As a mentor, I listen without judgement to any concerns that the mentee has and encourage and support them with advice. I ask whether the mentee has questions or needs any specific feedback on the assignments, training materials or project work, and make sure to empower and prepare my mentee for the next meeting. I also serve as the mentee’s sounding board, which can mean that I recognise and celebrate their progress and encourage them to ask different questions to discover new ways to move their projects further. As a mentor, I also share my experiences and ideas with them, as well as hear the mentees' perspective and their insights. The mentor-mentee relationship provides an opportunity for both to learn and grow.
 
-One of the main skills I learned as a mentor is to ask open questions to get to the root of what is going on. Examples of open questions are questions that cannot be answered with a yes/no, such as: *‘describe for me… take me through what you have already done?’* Any question starting with how, what, where, when or why would generally work. To move forward to action I found the questions *‘What needs to change?’* or *‘What is the way forward?’ ‘How can I help you reach your goals?’* and *‘How do you feel about your progress?’* helpful. I also still use closed questions, primarily to clarify or summarise. Asking open-ended questions is not only a great skill to have as a mentor, but a useful tool in any conversation, personal or professional. 
+One of the main skills I learned as a mentor is to ask open questions to get to the root of what is going on. Examples of open questions are questions that cannot be answered with a yes/no, such as: *‘describe for me… take me through what you have already done?’* Any question starting with how, what, where, when or why would generally work. To move forward to action I found the questions *‘What needs to change?’* or *‘What is the way forward?’ ‘How can I help you reach your goals?’* and *‘How do you feel about your progress?’* helpful. I also still use closed questions, primarily to clarify or summarise. Asking open-ended questions is not only a great skill to have as a mentor, but a useful tool in any conversation, personal or professional.
 
 ## Setting up the Mentor-Mentee relationship
 
-In the OLS programme, mentors have the opportunity to review applications of mentees. This process allows mentors to identify mentees who they would feel most comfortable mentoring, because of shared research interest or mentoring needs that were indicated by the mentees. This helps with establishing a relationship with shared interests and aligning the goals of the mentee with the background and skills of the mentor. As part of the OLS programme, the role, purpose, duration and expectations of the mentor-mentee relationship are already clearly laid out, which helps to set expectations. This includes the format and frequency of meetings, but each mentor-mentee pair can adjust these to better suit their needs. 
+In the OLS programme, mentors have the opportunity to review applications of mentees. This process allows mentors to identify mentees who they would feel most comfortable mentoring, because of shared research interest or mentoring needs that were indicated by the mentees. This helps with establishing a relationship with shared interests and aligning the goals of the mentee with the background and skills of the mentor. As part of the OLS programme, the role, purpose, duration and expectations of the mentor-mentee relationship are already clearly laid out, which helps to set expectations. This includes the format and frequency of meetings, but each mentor-mentee pair can adjust these to better suit their needs.
 
 ## Mentor commitments
 
@@ -46,7 +46,7 @@ If you are interested in anything Open Science, I very much encourage you to con
 ## Resources
 * [Mentorship Program Toolkit](https://studylib.net/doc/18667183/mentorship-program-toolkit) (contains checklists, feedback templates and questions to ask)
 
-### Blogs 
+### Blogs
 * [Key skills to know before mentoring](https://www.software.ac.uk/blog/2020-10-09-key-skills-know-mentoring)
 * [How Great Coaches Ask, Listen, and Empathize](https://hbr.org/2015/02/how-great-coaches-ask-listen-and-empathize)
 
@@ -60,5 +60,5 @@ If you are interested in anything Open Science, I very much encourage you to con
 
 *The role of the mentor and a coach are quite similar which is why some resources on coaching are included here. Nevertheless, mentors tend to be more experienced in the particular topics that the mentee wishes to address, which allows them to provide advice. Coaches do not provide advice and instead aim to encourage people to unlock their own solutions to their problems by asking questions, challenging them and providing feedback.*
 
-## Thanks 
+## Thanks
 Thanks to the OLS team for making my mentor journey possible, and to Emmy Tsang and Malvika Sharan who’s feedback greatly improved the text of this blog!

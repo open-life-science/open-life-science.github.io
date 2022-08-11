@@ -299,21 +299,6 @@ aleesteele:
   pronouns: she/her
   twitter: aleesteele
   website: https://www.aleesteele.com
-alessandra-candian:
-  affiliation: Tu Delft
-  bio: Ex-astrochemist turned academic skills teacher. I am curious and talk a lot
-    (also with my hands!). I need coffee to function properly :)
-  city: Leiden
-  country: Netherlands
-  expertise:
-  - Information literacy
-  - Diversity equity and inclusion
-  - Astrochemistry;
-  first-name: Alessandra
-  last-name: Candian
-  orcid: 0000-0002-5431-4449
-  pronouns: She/Her
-  twitter: donnainfiorino
 alexandra-holinski:
   affiliation: EMBL-EBI
   bio: I am working as a Scientific Training Officer at EMBL-EBI and dedicate my work
@@ -1880,7 +1865,7 @@ estherplomp:
   orcid: 0000-0003-3625-1357
   pronouns: she/her/hers
   twitter: PhDToothFAIRy
-evacherbst:
+evaherbst:
   country: Switzerland
   first-name: Eva
   last-name: Herbst
@@ -3400,25 +3385,6 @@ lisanna:
   pronouns: She/they
   twitter: LisannaPaladin
   website: https://lisanna.github.io/
-lisanne-walma:
-  affiliation: Tu Delft
-  bio: I have a background in both Pharmacy and History, and I combined these fields
-    during my PhD, where I text-mined digitized newspapers to analyze historical debates
-    on morphine. I have always had a passion for education, which is why I am so happy
-    to be working as an open science and academic skills teacher at TU Delft library
-    since 2021. I am excited to join this community and learn more about open science!
-  city: Delft
-  country: The Netherlands
-  expertise:
-  - Information literacy
-  - Teaching
-  - History of medicine
-  - Basic text-mining
-  first-name: Lisanne
-  last-name: Walma
-  pronouns: she/her
-  twitter: lisannewalma
-  website: https://www.linkedin.com/in/lisannewalma/
 lomaxboydphd:
   affiliation: The Rockefeller University
   bio: Geneticist, educator, and filmmaker with experience spanning neuroscience,
@@ -3501,6 +3467,25 @@ lukehare:
   last-name: Hare
   orcid: 0000-0002-5178-5122
   pronouns: he/him
+lwbwalma:
+  affiliation: Tu Delft
+  bio: I have a background in both Pharmacy and History, and I combined these fields
+    during my PhD, where I text-mined digitized newspapers to analyze historical debates
+    on morphine. I have always had a passion for education, which is why I am so happy
+    to be working as an open science and academic skills teacher at TU Delft library
+    since 2021. I am excited to join this community and learn more about open science!
+  city: Delft
+  country: The Netherlands
+  expertise:
+  - Information literacy
+  - Teaching
+  - History of medicine
+  - Basic text-mining
+  first-name: Lisanne
+  last-name: Walma
+  pronouns: she/her
+  twitter: lisannewalma
+  website: https://www.linkedin.com/in/lisannewalma/
 lwinfree:
   affiliation: Open Knowledge Foundation
   bio: Lilly works on open source software for open science as the product manager
