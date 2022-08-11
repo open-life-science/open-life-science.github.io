@@ -7,7 +7,7 @@ layout: default
 <div class="post">
 {% for post in site.posts %}
     {% capture authors %}
-    {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}{{ name }}{% endfor %}
+    {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="/community#{{ id }}">{{ name }}</a>{% endfor %}
     {% endcapture %}
     <div class="card">
         {% if post.image %}
@@ -28,11 +28,11 @@ layout: default
                 {% endif %}
                 </div>
 
-                <p class="subtitle"> 
+                <p class="subtitle">
                     <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time>
                     - {{ authors | remove_first: ', ' | strip }}
                 </p>
-            
+
                 {{ post.excerpt }}
             </div>
         </div>
