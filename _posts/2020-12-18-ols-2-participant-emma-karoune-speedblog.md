@@ -2,7 +2,7 @@
 layout: post
 title: "OLS-2 speed blog: Creating community awareness of open science in phytolith research"
 authors:
-- EKaroune
+- ekaroune
 image: https://i.imgur.com/CsmrC1B.jpg
 photos:
   name: Image of a mixed phytolith assemblage under a light microscope.
@@ -65,7 +65,7 @@ I am currently finishing off the funding application for the phytolith FAIRifica
 ## Longer term tasks
 My main task for the next year is to start to grow the community that I have started in this project. I want to move from a small group of early adopters to my target audience of the whole phytolith community and beyond!
 
-I will be speaking at more conferences such as the AEA Spring Conference on Open Science and I have also recently become a committee member of AEA so I hope to work actively to promote open science in this role. I am also planning to present my current work concerning FAIRification at the 12th International Meeting on Phytolith Research in September 2021.    
+I will be speaking at more conferences such as the AEA Spring Conference on Open Science and I have also recently become a committee member of AEA so I hope to work actively to promote open science in this role. I am also planning to present my current work concerning FAIRification at the 12th International Meeting on Phytolith Research in September 2021.
 
 ## Staying connected
 

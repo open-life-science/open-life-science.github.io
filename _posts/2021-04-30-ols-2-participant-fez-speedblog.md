@@ -3,7 +3,7 @@ layout: post
 title: "OLS-2 speed blog: Finite Element Zurich (FEZ)"
 authors:
 - evaherbst
-- Dylan-Bastiaans
+- dylan-bastiaans
 image: /images/2021-04-30-ols-2-blog.png
 photos:
   name: Image of FEZ logo.
@@ -17,11 +17,11 @@ We are researches using FEA (finite element analysis) to model bioemchanical sys
 
 ## Expectations from this program
 
-We wanted to learn how to make our resources more openly available and inclusive. We also wanted to learn technical skills such as creating a contributor-driven database, using github and learning about licensing and DOIs. 
+We wanted to learn how to make our resources more openly available and inclusive. We also wanted to learn technical skills such as creating a contributor-driven database, using github and learning about licensing and DOIs.
 
 ## Goals set at the beginning of the project
 
-Our goal was to figure out the best way to host our database of workflows and enable contributions from researchers all over the world. 
+Our goal was to figure out the best way to host our database of workflows and enable contributions from researchers all over the world.
 
 ## Key understanding and accomplishments
 
@@ -29,7 +29,7 @@ We learned how to use github (which will enable contributors to share their work
 
 ## The main goals achieved in this project
 
-We learned to use github and decided that the best way to enable user contributions is by creating a [FEZ github organisation](https://github.com/FEZ-Finite-Element-Zurich/FEZ-Main-Info). Through this organisation, contributors can upload their workflow along with the license and any other material (for example code) that applies to their workflow. We are currently developing a landing page (with the help of Joyce Kao) to organize the workflows and provide a central hub for accessing them. 
+We learned to use github and decided that the best way to enable user contributions is by creating a [FEZ github organisation](https://github.com/FEZ-Finite-Element-Zurich/FEZ-Main-Info). Through this organisation, contributors can upload their workflow along with the license and any other material (for example code) that applies to their workflow. We are currently developing a landing page (with the help of Joyce Kao) to organize the workflows and provide a central hub for accessing them.
 
 ## The initial steps
 
@@ -56,7 +56,7 @@ We will focus on recruiting other researchers to share their workflows and conti
 
 ### Staying connected
 
-Our OLS 2020 cohort was a brilliant group of people (both the organisers and our mentor and the fellow mentees). We will keep in touch with everyone via the Slack group and also keep in touch with our mentor Holger Dinkel via email to keep him updated on the progress of our project. 
+Our OLS 2020 cohort was a brilliant group of people (both the organisers and our mentor and the fellow mentees). We will keep in touch with everyone via the Slack group and also keep in touch with our mentor Holger Dinkel via email to keep him updated on the progress of our project.
 
 ## Special mentions and acknowledgements
 

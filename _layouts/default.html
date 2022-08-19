@@ -14,7 +14,7 @@ layout: base
 
     {% if page.layout == 'post' %}
       {% capture authors %}
-      {% for id in page.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}{{ name }}{% endfor %}
+      {% for id in page.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="/community#{{ id }}">{{ name }}</a>{% endfor %}
       {% endcapture %}
       <p class="subtitle is-5">
           <time datetime="{{ page.date | date: date_format }}">{{ page.date | date: date_format }}</time>
