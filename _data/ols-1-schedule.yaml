@@ -1,13 +1,13 @@
 # Schedule for OLS-1
 #
 # 'weeknb':
-#   start: 
-#   end: 
+#   start:
+#   end:
 #   calls:
 #     -
-#       type: Mentor-Mentee/Cohort/Mentors
+#       type: Mentor-Mentee/Cohort/Mentor
 #       duration: .. min
-#       title: 
+#       title:
 #       date: Month Day, Year
 #       time: '14:00'
 #       calendar-event: link to calendar event
@@ -21,14 +21,14 @@
 #       after: |
 #         Tasks to do after as a list written in Markdown
 #       resources:
-#         - 
+#         -
 #           type: slides/document/external-link
-#           title: 
+#           title:
 #           speaker: username in people.yaml, if slides
 #           link:
 ---
 timeline:
-- 
+-
   date: October 25, 2019
   description: Opening of the applications
 -
@@ -84,7 +84,7 @@ weeks:
           - Add your vision statement to your GitHub issue
           - Check the [Syllabus](https://openlifesci.org/ols-1) for notes and connection info for all the cohort calls
       -
-        type: Mentors
+        type: Mentor
         duration: 60 min
         title: Mentor training
         date: January 17, 2020
@@ -94,7 +94,7 @@ weeks:
           - Understand common successes and challenges in mentoring OLS participants.
           - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       -
-        type: Mentors
+        type: Mentor
         duration: 60 min
         title: Mentor training
         date: January 20, 2020
@@ -137,12 +137,12 @@ weeks:
           - Comment on your issue with your draft Roadmap
           - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
         resources:
-          - 
+          -
             type: slides
             title: Open Canvas
             speaker: yochannah
             link: https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
-          - 
+          -
             type: slides
             title: Road Mapping
             speaker: bebatut
@@ -205,7 +205,7 @@ weeks:
               - LICENSE
               - CODE_OF_CONDUCT.md
               - CONTRIBUTING.md
-              
+
               The exact project structure and files used may look different on your project.
         before: |
           - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
@@ -224,7 +224,7 @@ weeks:
           - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
           - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
         resources:
-          - 
+          -
             type: slides
             title: A Primer on Open Licenses
             speaker: joshsimmons
@@ -234,12 +234,12 @@ weeks:
             title: READMEs for Open Projects
             speaker: mkuzak
             link: https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/present?token=AC4w5VjrSx12f9wVPfWbVMmUuiandgD48Q%3A1592336128442&includes_info_params=1&eisi=CI7KsqqKh-oCFYt4Hwoddd0HMQ#slide=id.g6e56d0296c_0_0
-          - 
+          -
             type: slides
             title: Contributing Guidelines and Codes of Conduct for Open Projects
             speaker: karinlag
             link: https://docs.google.com/presentation/d/1aLaDBwH64PCRtCLIftVkjBYT60ifWuIV7Im2t8BXN8Q/present?token=AC4w5ViOcFNSsUO1bcZGT6ntgoA9jOqOqg%3A1592336193207&includes_info_params=1&eisi=CPK0o8mKh-oCFcpMyAodzX4Jgg#slide=id.g6e56d02ad9_0_0
-          
+
   '05':
     start: February 17, 2020
     calls:
@@ -271,52 +271,52 @@ weeks:
         before: |
           - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
         resources:
-          - 
+          -
             type: slides
             title: Friendly GitHub Intro
             speaker: malvikasharan
             link: https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/present?token=AC4w5ViCtcZUmyKP5SsKPQXyN_beAAgvbA%3A1592338198143&includes_info_params=1&eisi=CI_4poWSh-oCFU6SSgod838NBA#slide=id.g526267be46_0_606
-          - 
+          -
             type: external-link
             title: GitHub for Collaboration (from Mozilla)
             link: https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
-          - 
+          -
             type: external-link
             title: Understanding the GitHub workflow
             link: https://guides.github.com/introduction/flow/
-          - 
+          -
             type: external-link
             title: A Friendly Github Intro Workshop (from Danielle Robinson)
             link: https://daniellecrobinson.github.io/friendly-github-intro/
-          - 
+          -
             type: external-link
             title: GitHub help
             link: https://help.github.com
-          - 
+          -
             type: external-link
             title: Oh Shit, Git!?!
             link: http://ohshitgit.com
-          - 
+          -
             type: external-link
             title: Try Git
             link: https://try.github.io
-          - 
+          -
             type: external-link
             title: Git book
             link: https://git-scm.com/book/en/v2
-          - 
+          -
             type: external-link
             title: GitHub glossary
             link: https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
-          - 
+          -
             type: external-link
             title: Writing on Github
             link: https://help.github.com/categories/writing-on-github/
-          - 
+          -
             type: external-link
             title: Markdown Cheatsheet
             link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-          - 
+          -
             type: external-link
             title: Git workflow
             link: https://www.atlassian.com/git/tutorials/comparing-workflows
@@ -343,35 +343,35 @@ weeks:
           - Look up two other projects and comment on their issues with feedback on their README
         after: |
           - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
-          
+
             For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
-          
+
           - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
-          
+
             Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
-            
+
             In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
-          
+
           - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your community
-          
+
             We will revisit this next week so no need to rush!
         resources:
-          - 
+          -
             type: slides
             title: Agile & Iterative Project Management Methods
             speaker: yochannah
             link: https://docs.google.com/presentation/d/1C_RurOY1W__HLRbPTTzmdYT-qdTpuF2qi7leL4Hzdok/present?token=AC4w5VhyJTsf5Y_l2r2yT6IvS3iYSyAGfQ%3A1596099131400&includes_info_params=1&eisi=CMKFhM7M9OoCFcV9gQodoSoDVQ#slide=id.g7e28a7e96f_0_0
-          - 
+          -
             type: slides
             title: Open science hardware
             speaker: thessaly
             link: https://docs.google.com/presentation/d/1JJWt0OtVWTMHbouXOF0w1QJsxwv-rUXiqHmkEx-A5B8/present?token=AC4w5VhEayeikxiuXpBr3wV61FBcNB_VnQ%3A1596099220442&includes_info_params=1&eisi=CNzdvvjM9OoCFT8LqQEdSo8LDg#slide=id.g7e3dff4cf5_0_112
-          - 
+          -
             type: slides
             title: Open Software in Research
             speaker: ajstewartlang
             link: https://ajstewartlang.github.io/talks/OLS_talk/assets/player/KeynoteDHTMLPlayer.html#0
-          - 
+          -
             type: slides
             title: Open data... in the Life Sciences
             speaker: lwinfree
@@ -383,12 +383,12 @@ weeks:
         type: Mentor-Mentee
         duration: 30 min
         title: Meet your mentor!
-        before: |       
+        before: |
           - Complete your week 6 assignments.
         after: |
           - Complete any week 6 assignments that you have left to do.
       -
-        type: Mentors
+        type: Mentor
         duration: 60 min
         title: Mentor training
         date: March 5, 2020
@@ -424,51 +424,51 @@ weeks:
           - Finish a contribution guideline for your community
           - Catch up on your project
         resources:
-          - 
+          -
             type: slides
             title: Open Humans
             speaker: gedankenstuecke
             link:
-          - 
+          -
             type: slides
             title: "Open Education and Training: OpenScienceKE Case Study"
             speaker: kipkurui
             link: https://docs.google.com/presentation/d/1T3Z51l8XIRtUQtSooZvUZzH60rFS-n73bDQwGwH639Y/present?token=AC4w5VgNgYGzfSEGZZkbGh9FurcbNc0iuQ%3A1596099792162&includes_info_params=1&eisi=CIGPjonP9OoCFUCeTwkdI4wLOA#slide=id.g6e56d02ad9_0_0
-          - 
+          -
             type: slides
             title: Pre-print and open review
             speaker: Demellina
             link: https://f1000-my.sharepoint.com/:p:/g/personal/demitra_ellina_f1000_online/Ed5_RBaVrrlGmZzicLlHESsBzCy2eW52SzoNTE3VBkzEDQ?e=tLWn2E
-          - 
+          -
             type: slides
             title: "Open protocols: creating, editing, and getting credit for scientific methods"
             speaker: anita-broellochs
             link: https://docs.google.com/presentation/d/13d3BgND53cviFRnuQpmWk5UtMYtpSDqpUu9jq4ykNrM/present?token=AC4w5VjpuGyljgP-BGgwhsHj__Cfgb2hOg%3A1596099958051&includes_info_params=1&eisi=CNrXmtjP9OoCFa6dIwAdB8wErg#slide=id.g6e56d02ad9_0_0
-          - 
+          -
             type: external-link
             title: Figshare - deposit your posters, slides, data
             link: https://figshare.com/
-          - 
+          -
             type: external-link
             title: Zenodo - deposit your posters, slides, data and DOIs for code
             link: https://zenodo.org/
-          - 
+          -
             type: external-link
             title: JOSS - Journal of Open Source Software
             link: http://joss.theoj.org/
-          - 
+          -
             type: external-link
             title: JORS - Journal of Open Research Software
             link: https://openresearchsoftware.metajnl.com/
-          - 
+          -
             type: external-link
-            title: Dryad 
-            link: Data deposit
-          - 
+            title: Dryad
+            link: https://datadryad.org/stash
+          -
             type: external-link
-            title: Open Science Framework 
+            title: Open Science Framework
             link: https://osf.io/
-          - 
+          -
             type: external-link
             title: Dataverse
             link: https://dataverse.org/
@@ -504,7 +504,7 @@ weeks:
           - Develop your contributing guideline
           - Do the implicit Bias Quiz
             - Go to [https://implicit.harvard.edu](https://implicit.harvard.edu) complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)
-            
+
                 You can 'continue as a guest' by choosing your country
 
             - Answer these questions when you've finished the implicit association test: What does inclusion mean to you? Did your results of the implicit association test surprise you?
@@ -514,26 +514,26 @@ weeks:
           - **Designing for inclusion**: fill the [Mountain of Engagement](https://docs.google.com/document/d/1X2-oXvq5ET30-hCcgWEG5iLvv9FbAiuEgXuVY5hle8o/edit?usp=sharing)
           - **Persona and Pathway**: [Create a Persona and Pathway for Your Project](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project), assignment from the Mozilla Open Leadership training
         resources:
-          - 
+          -
             type: slides
             title: Inclusion can't be an afterthought
             speaker: alexwlchan
             link: https://docs.google.com/presentation/d/1yaLMBcU1awyFZpeOQC2_QYDwlN-Z_dJ2GXNYDAm2jA8/present?token=AC4w5VgZU7PzZSkXFk2krzr6lS-gcjsYdw%3A1596110857564&includes_info_params=1&eisi=CJetwKX49OoCFUi3Zwodw9oL7g#slide=id.g7e28a7e96f_0_0
-          - 
+          -
             type: slides
             title: Mountain of Engagement & Community Interactions
             speaker: malvikasharan
             link: https://docs.google.com/presentation/d/1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y/present?token=AC4w5VhpTqbOWqPsxwOsnzqMG_DYvAqvGA%3A1596111012295&includes_info_params=1&eisi=CJfzpO_49OoCFYbTJAodKr0HAQ#slide=id.p
-          - 
+          -
             type: slides
             title: Using Personas and Pathways to Build Community
             speaker: kirstiejane
             link: https://docs.google.com/presentation/d/1-rdQipVmJ5lWelQ1oEbi86EbFwTpDh5TLeJ2TAg-oo4/present?token=AC4w5VjIFg3LDysFSoGymFzYFj2KWG5TLw%3A1596111072881&includes_info_params=1&eisi=CLmJloz59OoCFZFzJgodzMEHYA#slide=id.g6e991a6830_0_0
-          - 
+          -
             type: document
             title: "Combating Unconscious Bias As Participation Leaders: What you can do"
             link: https://docs.google.com/document/d/1U7kIwSyPRpovVLVIvKRcuuh9wNQBHQQZC3KSwP7kbxs/edit
-          - 
+          -
             type: document
             title: "Mountain of Engagement (MoE): Discovering pathways & patterns of engagement in your work"
             link: https://docs.google.com/document/d/1X2-oXvq5ET30-hCcgWEG5iLvv9FbAiuEgXuVY5hle8o/edit?usp=sharing
@@ -541,7 +541,7 @@ weeks:
             type: external-link
             title: Create a Persona and Pathway for Your Project
             link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project
-          - 
+          -
             type: slides
             title: "Value exchange: Ensuring equity in community interactions"
             link: https://docs.google.com/presentation/d/11YVAK5wwPKDUw6aM-KUngic8h7CVr6UhXuOMLIVAxQs/present?token=AC4w5VhYGDwJIubITNlf3ML9_D02NPIYOg%3A1596111389641&includes_info_params=1&eisi=CLylnKP69OoCFeiUTwkdfOYLow#slide=id.p
@@ -549,7 +549,7 @@ weeks:
             type: external-link
             title: Building Communities
             link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/
-          - 
+          -
             type: external-link
             title: Community Interactions
             link: https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
@@ -570,7 +570,7 @@ weeks:
           - Discuss self-care plans and learn about Ally skills
           - Hear from the professionals from different career paths
           - Ask them questions about their careers
-          - Share worries/insecurities related to your work and tips that you use to overcome them 
+          - Share worries/insecurities related to your work and tips that you use to overcome them
         before: |
           A few days before the event, think about how you might briefly answer the following questions (ref: https://www.bu.edu/lernet/pathways/organizers/panel.html):
           - How did you choose your career ?
@@ -582,37 +582,37 @@ weeks:
           - On a scale of 1-10 (10 being the most), how much do you enjoy your current work?
           - Do you want to switch your career or field? Why or why not?
         resources:
-          - 
+          -
             type: slides
             title: Leadership in Academia
             speaker: fpsom
             link: https://docs.google.com/presentation/d/13FfUMZ-_jd1bUNyVXG_Rwk51GLOp8rsFHRMCRpXebBE/present?token=AC4w5VhmSkL_SO3oZn0uhgwKddAI52JVag%3A1596111615284&includes_info_params=1&eisi=CLbh54779OoCFZnLZwodhdABbw#slide=id.g6e56d02ad9_0_0
-          - 
+          -
             type: slides
             title: Becoming a Post Academic
             speaker: bduckles
             link: https://docs.google.com/presentation/d/1Cx6XAxZMt3jlU8O8DM8fCYemjmzgHUd6Sx8-MI3kIz0/present?token=AC4w5VjdDvGy_PnD3oJ--k-_1e3rIUZmRQ%3A1596111657762&includes_info_params=1&eisi=CPeqiKP79OoCFZAGNwod6tYF2Q#slide=id.p
-          - 
+          -
             type: slides
             title: Leadership in training and education
             speaker: JasonJWilliamsNY
-          - 
+          -
             type: slides
-            title: Personal Ecology and Self care 
+            title: Personal Ecology and Self care
             link: https://docs.google.com/presentation/d/18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU/present?token=AC4w5Vi2oFSjZu8EA-g8OYqp8HyOGhpR5A%3A1596111738550&includes_info_params=1&eisi=CJWxy8n79OoCFRBhJgodZ6cNpA#slide=id.p
-          - 
+          -
             type: slides
-            title: Ally Skills 
+            title: Ally Skills
             link: https://docs.google.com/presentation/d/1-eaxorHL76DGMjcpmTzVDqcO-4Wz-W4VBoOtJa2py3U/present?token=AC4w5ViwyjmmKDRzshUipNH639CepBw04g%3A1596112051102&includes_info_params=1&eisi=CNKI0N789OoCFfuXIwAdLb0MJw#slide=id.g5a54ff9567_0_138
-          - 
+          -
             type: external-link
             title: Sustain Summit, SustainOSS, a Space for Open Source Sustainers
             link: https://sustainoss.org/
-          - 
+          -
             type: external-link
             title: "Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure"
             link: https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
-          - 
+          -
             type: external-link
             title: "Gitcoin: sustaining open source with cryptocurrency featuring Kevin Owocki (The Changelog #281)"
             link: https://changelog.com/podcast/281
@@ -650,12 +650,12 @@ weeks:
         title: Meet your mentor!
         agenda: Preparation for the final demos
         content: |
-          During this week's mentor meeting, you will: 
+          During this week's mentor meeting, you will:
           - Review your project with your mentor
           - Thank your mentor if this is your last mentor call in OLS-1.
         before: |
           - Review your project and identify important aspects that you can discuss with your mentor
-      - 
+      -
         type: Cohort
         duration: 90 min
         title: 'Group 1 - Final presentation rehearsal'
@@ -669,27 +669,27 @@ weeks:
           - Learn about giving and receiving feedback
           - Conduct rehearsal for the final presentation from the project leads registered in Group 1
         before: |
-          - Come prepared to share a 5 mins presentation of your project 
-          
+          - Come prepared to share a 5 mins presentation of your project
+
             Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
-          
+
             This could also be only the highlights from your presentation
 
             Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
         after: |
           - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
         resources:
-          - 
+          -
             type: external-link
             title: Building Skill With Feedback
             link: https://carpentries.github.io/instructor-training/06-feedback/
-          - 
+          -
             type: external-link
             title: Giving Constructive Feedback
             link: https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
-          - 
+          -
             type: external-link
-            title: Suggested Rubric for Teaching Demonstrations – Instructor Training  
+            title: Suggested Rubric for Teaching Demonstrations – Instructor Training
             link: https://carpentries.github.io/instructor-training/demos_rubric/
   '15':
     start: April 27, 2020
@@ -703,15 +703,15 @@ weeks:
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MnRsY291Y3U3ZmxuMDMxYmg3bnBnNTRtcTYgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         agenda: '5-minute demos of projects for group 1 (Audience: entire community & public, Open and recorded call)'
         notes: https://docs.google.com/document/d/1zfn5hLldbti-K4L244_4A6wGc80FymKTeixN8cWXq2Q/edit?usp=sharing
-        recording: 
+        recording:
         content: |
           During this week's cohort call, we will:
           - Witness the final presentations from the project leads registered in Group 1 and see them graduate.
         before: |
-          - Come prepared to share a 5 mins presentation of your project 
+          - Come prepared to share a 5 mins presentation of your project
 
             Your presentation can be in the form of a demo, short presentation or a walk through your website
-          
+
           - Invite your friends and colleagues to this call
 
             The audience will not need any preparation
@@ -721,11 +721,11 @@ weeks:
     start: May 3, 2020
     calls:
       -
-        type: Mentors
+        type: Mentor
         duration: 60 min
         title: Mentor wrap up
-        date: 
-        time: 
+        date:
+        time:
         content: |
           During our first cohort call, we will:
           - Wrap-up the cohort
@@ -733,7 +733,7 @@ weeks:
   '17':
     start: May 11, 2020
     calls:
-      - 
+      -
         type: Cohort
         duration: 90 min
         title: 'Group 2 - Final presentation rehearsal'
@@ -747,27 +747,27 @@ weeks:
           - Learn about giving and receiving feedback
           - Conduct rehearsal for the final presentation from the project leads registered in Group 2
         before: |
-          - Come prepared to share a 5 mins presentation of your project 
-          
+          - Come prepared to share a 5 mins presentation of your project
+
             Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
-          
+
             This could also be only the highlights from your presentation
 
             Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
         after: |
           - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
         resources:
-          - 
+          -
             type: external-link
             title: Building Skill With Feedback
             link: https://carpentries.github.io/instructor-training/06-feedback/
-          - 
+          -
             type: external-link
             title: Giving Constructive Feedback
             link: https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
-          - 
+          -
             type: external-link
-            title: Suggested Rubric for Teaching Demonstrations – Instructor Training  
+            title: Suggested Rubric for Teaching Demonstrations – Instructor Training
             link: https://carpentries.github.io/instructor-training/demos_rubric/
   '18':
     start: May 18, 2020
@@ -781,15 +781,15 @@ weeks:
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=XzY5MGpjYzI1OGNvazJiYTM2NHBqNGI5azZjcTNpYmExODRvNDZiYTI4NTEzMGc5bTc0cmthaDI2NnMgYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
         agenda: '5-minute demos of projects for group 2 (Audience: entire community & public, Open and recorded call)'
         notes: https://docs.google.com/document/d/1idZpXvmqqRNYN1KfAbHKpeLToqIvlcm1SVc6ln-fRGA/edit?usp=sharing
-        recording: 
+        recording:
         content: |
           During this week's cohort call, we will:
           - Witness the final presentations from the project leads registered in Group 2 and see them graduate.
         before: |
-          - Come prepared to share a 5 mins presentation of your project 
+          - Come prepared to share a 5 mins presentation of your project
 
             Your presentation can be in the form of a demo, short presentation or a walk through your website
-          
+
           - Invite your friends and colleagues to this call
 
             The audience will not need any preparation

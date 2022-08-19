@@ -170,7 +170,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
 
 
 <!-- Pool of mentors (hidden before cohort starts)
-Any modification of the content should be done in the _data/ols-4-projects.yaml file 
+Any modification of the content should be done in the _data/ols-4-projects.yaml file
 
 We thank the {{ p-mentors | size }} mentors this round.
 <div class="people">
@@ -201,7 +201,7 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 
 <!-- Any modification of the content should be done in the _data/ols-4-metadata.yaml file -->
 
-We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round. 
+We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round.
 
 <div class="people">
     {% for mentor in metadata.experts %}
@@ -289,7 +289,7 @@ Open Life Science has received the [EOSC-Life Training grant (first round)](http
 ## OLS-4 for Faculty of Applied Sciences/TNW - TU Delft
 
 Under the collaboration name OLS-4 for TNW, Open Life Science has partnered with the [Faculty of Applied Sciences](https://www.tudelft.nl/en/faculty-of-applied-sciences) through the [Faculty Graduate School](https://www.tudelft.nl/en/faculty-of-applied-sciences/research/phd) and the Data Steward, [Dr. Esther Plomp](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact/esther-plomp) at TU Delft.
-This partnership will offer training and mentoring to interested members from the Faculty of Applied Sciences to join the fourth cohort (OLS-4) individually or in teams. They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future. Mentors will be preferably selected within their own discipline, as PhD candidates will be eligible for 5 Discipline-related credits for their Doctoral Education Programme. 
+This partnership will offer training and mentoring to interested members from the Faculty of Applied Sciences to join the fourth cohort (OLS-4) individually or in teams. They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future. Mentors will be preferably selected within their own discipline, as PhD candidates will be eligible for 5 Discipline-related credits for their Doctoral Education Programme.
 
 ## OLS-4 for Turing
 
@@ -358,18 +358,24 @@ If you are unable to make it to any slot together, please find other ways (async
 
 If a mentor has to step back from the program for any reason, please communicate with the organisers to identify an alternative for their mentees.
 
-### Coworking calls
+### Skill-up calls
 
-The coworking sessions take place in weeks during which there is not cohort call.
+In some weeks during which there is not cohort call, we will offer some optional skill-up calls.
+
+The calls will be hosted online using the Zoom web-conferencing option.
+A link for the calls will be shared for each meeting separately.
+
+Look up the shared notes for each call linked to the [schedule](#schedule) in this website.
+You will also be updated via email each week by the organisers with additional details to aid your participation.
+
+### Q&A calls
+
+The Q&A sessions take place in weeks during which there is not cohort call.
 These calls are optional but highly valuable for enhancing your understanding of the materials discussed in OLS-4 with the help of other participants.
-
-During these calls,
-- Participants can work together on the assignments
-- Participants connect and talk about their projects
 
 The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
 
-### Mentors calls
+### Mentor calls
 
 4 mentor calls will take place during the program.
 

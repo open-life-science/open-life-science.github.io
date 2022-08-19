@@ -248,7 +248,7 @@ weeks:
       notes: https://bit.ly/ols-6-week-07
       title: Q&A call
       type: Q&A
-  08:
+  '08':
     start: November 07, 2022
     calls:
     - date: November 09, 2022
@@ -278,7 +278,7 @@ weeks:
       - link: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
         type: slides
         title: Community interactions
-  09:
+  '09':
     start: November 14, 2022
     calls:
     - duration: 30 min
@@ -381,9 +381,7 @@ weeks:
       resources:
       - link: https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
         type: slides
-        title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
-          matter?)'
-        speaker: ''
+        title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really matter?)'
       - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         type: slides
         title: Ally skills - Optional

@@ -204,7 +204,7 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 
 <!-- Any modification of the content should be done in the _data/ols-3-metadata.yaml file -->
 
-We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round. 
+We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round.
 
 <div class="people">
     {% for mentor in metadata.experts %}
@@ -357,6 +357,16 @@ If you are unable to make it to any slot together, please find other ways (async
 
 If a mentor has to step back from the program for any reason, please communicate with the organisers to identify an alternative for their mentees.
 
+### Skill-up calls
+
+In some weeks during which there is not cohort call, we will offer some optional skill-up calls.
+
+The calls will be hosted online using the Zoom web-conferencing option.
+A link for the calls will be shared for each meeting separately.
+
+Look up the shared notes for each call linked to the [schedule](#schedule) in this website.
+You will also be updated via email each week by the organisers with additional details to aid your participation.
+
 ### Coworking calls
 
 The coworking sessions take place in weeks during which there is not cohort call.
@@ -368,7 +378,7 @@ During these calls,
 
 The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
 
-### Mentors calls
+### Mentor calls
 
 4 mentor calls will take place during the program.
 

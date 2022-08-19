@@ -12,6 +12,7 @@ photos:
 {% assign projects = site.data.ols-1-projects %}
 {% assign metadata = site.data.ols-1-metadata %}
 {% assign schedule = site.data.ols-1-schedule %}
+{% assign cohort = 'ols-1' %}
 
 {% assign all-participants = '' %}
 {% assign all-mentors = '' %}
@@ -104,7 +105,7 @@ OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from Januar
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a mentee can be found [here](/about#mentees)
 
-For the first round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ projects | size }} projects](/ols-1/projects-participants#projects). 
+For the first round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ projects | size }} projects](/ols-1/projects-participants#projects).
 
 ## Mentors
 
@@ -202,7 +203,7 @@ The Mentor-mentee calls take place **every 2 weeks** (unless mentioned otherwise
 
 During these calls:
 - Mentors help their mentees evaluate their understanding of the new topics
-- Mentees will complete their task assigned at the cohort calls using new skills learned that week 
+- Mentees will complete their task assigned at the cohort calls using new skills learned that week
 - Mentors and mentee will review progress together where mentees provide constructive feedback
 
   Look for 1:1 notes shared with you by your mentor
@@ -219,7 +220,7 @@ If a mentor has to miss a mentee-mentor meeting, please discuss it with your men
 
 If you are unable to make it to any slot together, please find other ways (asynchronous documentation) to interact with your mentee.
 
-## Mentors calls
+## Mentor calls
 
 4 mentor call take place during the program.
 
@@ -229,7 +230,7 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## OLS-1 private Google group
 
-Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-1 Google group. 
+Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-1 Google group.
 
 An invitation is sent to all participants (mentees, mentors, etc) at the beginning of the program. If it is not the case, please [contact the team](mailto:{{ site.email }})
 

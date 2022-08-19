@@ -1,11 +1,11 @@
 # Schedule for OLS-1
 #
 # 'weeknb':
-#   start: 
+#   start:
 #   end:
 #   calls:
 #     -
-#       type: Mentor-Mentee/Cohort/Mentors
+#       type: Mentor-Mentee/Cohort/Mentor
 #       duration: .. min
 #       title:
 #       date: Month Day, Year
@@ -28,10 +28,10 @@
 #           link:
 ---
 timeline:
-- 
+-
   date: May 20, 2020
   description: Opening of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
-  details: We have [templates](https://github.com/open-life-science/application-forms) you can download to use when preparing your application. 
+  details: We have [templates](https://github.com/open-life-science/application-forms) you can download to use when preparing your application.
 -
   date: June 12, 2020
   description: Application webinar
@@ -52,10 +52,10 @@ timeline:
 -
   date: July 15, 2020
   description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2) for the collaborating organisations - [_The Turing Way_](/ols-2#collaborators)
-- 
+-
   date: July 24, 2020
   description: Call for applications closed
-- 
+-
   date: July 24, 2020
   description: Successful applicants announced
 weeks:
@@ -101,7 +101,7 @@ weeks:
           - Add your vision statement to your GitHub issue
           - Check the [Syllabus](/ols-2) for notes and connection info for all the cohort calls
       -
-        type: Mentors
+        type: Mentor
         duration: 60 min
         title: Mentor training
         date: September 1, 2020
@@ -111,7 +111,7 @@ weeks:
           - Understand common successes and challenges in mentoring OLS participants.
           - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       -
-        type: Mentors
+        type: Mentor
         duration: 60 min
         title: Mentor training
         date: September 4, 2020
@@ -124,13 +124,13 @@ weeks:
     start: September 7, 2020
     calls:
       -
-        type: Mentors
+        type: Mentor
         duration: 180 min
         title: Mentoring workshop
         date: September 8, 2020
         time: '11:00'
       -
-        type: Mentors
+        type: Mentor
         duration: 180 min
         title: Mentoring workshop
         date: September 8, 2020
@@ -141,10 +141,10 @@ weeks:
         title: Welcome to Open Life Science!
         date: September 10, 2020
         time: '10:00'
-        hosts: 
+        hosts:
           - bebatut
           - yochannah
-          - malvikasharan 
+          - malvikasharan
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/week-02
         recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
@@ -480,7 +480,7 @@ weeks:
         hosts:
         - lauracarter
       -
-        type: Mentors
+        type: Mentor
         duration: 60 min
         title: Mentor training
         date:
@@ -569,19 +569,19 @@ weeks:
           - ha0ye
         before: |
           - Personal Ecology and self care
-          
+
             Think about how you might briefly answer the following questions
             - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe it.
             - Imagine your most Unfulfilling day at work. Think of 3 word-pairs to describe it.
-            
+
             The big idea: identify the most fulfilling conditions under which you thrive - sustain them; identify the least fulfilling conditions that frustrate you - avoid them.
 
           - Preparing for the Ally Skills
-          
+
             Think how people step up for you in social scenarios and how you step up for them to support each othe:
             - What do your colleagues do to make your workplace inclusive for you?
             - What do you do to make your workplace inclusive for them?
-          
+
             The big idea: Based on your experience, what would you consider doing to make your project inclusive for your contributors or team members?
 
         resources:
@@ -641,7 +641,7 @@ weeks:
         content: |
           During this week's cohort call, we will discuss how to apply FAIR research principles on data, software, training
 
-          FAIR stands for findable, accessible, interoperable, reusable. The ideal is that research should be "as open as 
+          FAIR stands for findable, accessible, interoperable, reusable. The ideal is that research should be "as open as
           possible, as restricted as necessary."
         after: |
           Think about and plan to apply FAIR principles to your project in your own time

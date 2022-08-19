@@ -2,8 +2,8 @@ During the program,
 
 - Mentors and mentees meet every 2 weeks [for a 30 minutes call](/{{ cohort }}#mentor-mentee-calls)
 - Mentees participate every ~2 weeks to [90-minutes cohort calls](/{{ cohort }}#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite expert from the field to give talks
-- Mentees can meet together for coworking sessions every 2 weeks [for a 30 minutes call](/{{ cohort }}#coworking-calls)
-- Mentors take part to [mentoring workshop and calls](/{{ cohort }}#mentors-calls)
+- Mentees can participate to skill-up, Q&A or coworking session in the weeks without cohort calls
+- Mentors take part to [mentoring workshop and calls](/{{ cohort }}#mentor-calls)
 
 Organizers will inform participants of the week schedule by email.
 
@@ -19,7 +19,7 @@ Organizers will inform participants of the week schedule by email.
 {%- capture w-desc %}**Week {{ w[0] }}** (start. {{ w[1].start }}){% endcapture %}
 {%- for c in w[1].calls %}
 {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
-| {{ w-desc }} | [{{ c.type }}](/{{ cohort }}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" }}-calls) | {{ date }} | [**{{ c.title }}**](/{{ cohort }}/schedule#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
+| {{ w-desc }} | [{{ c.type }}](/{{ cohort }}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" | remove: "&"  }}-calls) | {{ date }} | [**{{ c.title }}**](/{{ cohort }}/schedule#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
 {%- assign w-desc = "" %}
 {%- endfor %}
 {%- endfor %}

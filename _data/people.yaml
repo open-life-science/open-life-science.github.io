@@ -611,7 +611,7 @@ annemtreasure:
   last-name: Treasure
   orcid: 0000-0002-8345-4811
   twitter: annemtreasure
-  website: https://Needs updating (https://sites.google.com/site/annemtreasure/about?authuser=0)
+  website: https://sites.google.com/site/annemtreasure/about?authuser=0
 anproulx:
   affiliation: Université de Montréal
   country: Canada
@@ -2014,7 +2014,6 @@ federico-cestares:
   orcid: 0000-0002-7443-3314
   pronouns: He- él
   twitter: fecestares
-  website: https://Don't have
 fnyasimi:
   affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
   bio: Festus is a bioinformatician interested in community outreach, open science
@@ -3109,6 +3108,11 @@ katrinleinweber:
   last-name: Leinweber
   orcid: 0000-0001-5135-5758
   pronouns: she/her
+kaythaney:
+  country: United States of America
+  first-name: Kaitlin
+  last-name: Thaney
+  twitter: kaythaney
 kevinxufs:
   affiliation: Civil Service
   country: United Kingdom
@@ -4275,7 +4279,6 @@ nelson-franco:
   orcid: 0000-0002-8457-8226
   pronouns: Nelson
   twitter: Nelson Franco Condori Salluco
-  website: https://No disponible
 nerantzis:
   bio: Physicist, Teacher, Mozillian
   country: Greece
@@ -4288,6 +4291,12 @@ nerantzis:
   pronouns: he/him
   twitter: nerantzis
   website: https://4myfiles.wordpress.com
+nick-barlow:
+  affiliation: Alan Turing Institute
+  country: United Kingdom
+  first-name: Nick
+  last-name: Barlow
+  website: https://www.turing.ac.uk/people/researchers/nick-barlow
 nihan-sultan-milat:
   affiliation: Bezmialem Vakif University, Beykoz Institute Of Life Science And Biotechnology
   bio: I am trying to be a good molecular biologist. I think that learning new things
@@ -4427,7 +4436,7 @@ olsjuju:
   - Depression
   first-name: Juyeon
   last-name: Kim
-  website: https://h t tps://www.linkedin.com/in/juyeon-kim-b7534793/
+  website: https://www.linkedin.com/in/juyeon-kim-b7534793/
 orchid00:
   bio: Paula is an Open Science advocate her passions are data management, data analytics,
     research, and diversity. She is a computer scientist who has worked on data intensive

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OLS Project and Community report - Part 1
-authors: 
+authors:
 - bebatut
 - malvikasharan
 - yochannah
@@ -15,7 +15,7 @@ photos:
 
 Around June 2019, OLS was originally dreamed up. Mozilla had launched a call for applications to [Open Leaders X](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/), the program that incubated OLS and several other related open leadership initiatives. In July 2019, we submitted a collaboratively prepared application written at the [BOSC 2019 CoFest](https://www.open-bio.org/events/bosc/about/2019/) (see [the draft]({% link _posts/2019-09-24-application.md %})), and in September we were delighted to learn we had been accepted to create our program as a part of Open Leaders X. Slightly more than a year has now passed, and we would like to share the first **annual OLS project and community report** with you.
 
-Since the report is quite elaborative, we are publishing them in 3 parts: 
+Since the report is quite elaborative, we are publishing them in 3 parts:
 1. we start by providing an overview of *where we are* in the project
 1. we give an account of *how far we have come*
 1. we end this report with *where we want to go*
@@ -26,8 +26,8 @@ Since the report is quite elaborative, we are publishing them in 3 parts:
 
 - **September 2019**: OLS team joined Mozilla Open Leaders X as an accepted project
 - **October 2019**: OLS is launched at [MozFest 2019](https://medium.com/mozilla-festival/mozfest-2019-highlights-b8084b8b64b2) with 30 mentors and 40 experts
-- **November 2019**: OLS-1 call for application opens 
-- **January 2020**: OLS-1 launched with 22 participating projects 
+- **November 2019**: OLS-1 call for application opens
+- **January 2020**: OLS-1 launched with 22 participating projects
 - **May 2020**: OLS-1 graduates - 29 applicants graduated across 20 projects
 - **July 2020**: OLS-2 call for application opens
 - **September 2020**: OLS-2 launched with 32 participating projects
@@ -45,14 +45,14 @@ We are still learning and are extremely grateful for the community members for s
 
 ### Timeline of organisation support and partnerships
 
-The project has been supported by [many organisations](/about#partners-and-sponsors) that have helped promote the program in their network allowing access to a wider research community. 
+The project has been supported by [many organisations](/funders#partners) that have helped promote the program in their network allowing access to a wider research community.
 
-- **November 2019**: Non-financial partnership from Mozilla Open Leaders, Backofen Lab, Software Sustainability Institute, ELIXIR, de.NBI, EMBL Bio-IT, Freiburg University, Manchester University. These partnerships represented our employers, advisors, and professional networks - no official partnership agreements or memorandum of understanding was signed. 
+- **November 2019**: Non-financial partnership from Mozilla Open Leaders, Backofen Lab, Software Sustainability Institute, ELIXIR, de.NBI, EMBL Bio-IT, Freiburg University, Manchester University. These partnerships represented our employers, advisors, and professional networks - no official partnership agreements or memorandum of understanding was signed.
 - **June 2020**: 'OLS-2 for Turing' collaboration with [*The Turing Way*](https://the-turing-way.netlify.app/welcome) to support Open Source projects from The Alan Turing Institute and The Turing Way community
 - **August 2020**: OLS was awarded the [EOSC-Life](https://www.eosc-portal.eu/eosc-life) Training grant to build a cohort with the EOSC Research Infrastructure community in **2021**
 - **August 2020**: OLS registers as a Limited company with **£1 (GBP 1) in assets**
-- **May-September 2020**: Software Sustainability Institute Fellowship pays for OLS-2 communication platform cost and mentorship training by [360 Training UK](http://360training.co.uk/) 
+- **May-September 2020**: Software Sustainability Institute Fellowship pays for OLS-2 communication platform cost and mentorship training by [360 Training UK](http://360training.co.uk/)
 
-Bonus trivia: In July 2020, OLS was also shortlisted as one of the two projects as ["best innovation in Open Source Technology"](https://cogx.co/cogx-awards/cogx-awards-2020-shortlisted/) by CogX - a global festival for AI and technology. Though we did not win the award, we attracted the attention of early-stage researchers interested in building their projects on AI and data science. 
+Bonus trivia: In July 2020, OLS was also shortlisted as one of the two projects as ["best innovation in Open Source Technology"](https://cogx.co/cogx-awards/cogx-awards-2020-shortlisted/) by CogX - a global festival for AI and technology. Though we did not win the award, we attracted the attention of early-stage researchers interested in building their projects on AI and data science.
 
 *TO BE CONTINUED: You can now read two other parts of the report: [**How far we have come**]({% link _posts/2020-10-01-annual-report-part-2.md %}) and [**Where we want to go**]({% link _posts/2020-10-01-annual-report-part-3.md %})*
