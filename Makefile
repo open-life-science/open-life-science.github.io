@@ -56,6 +56,18 @@ check-html: build ## validate HTML
 	      	--http-status-ignore 405,503,999 \
 	      	--url-ignore "/.*localhost.*/","/.*gitter\.im.*/" \
 	      	--allow-hash-href \
+	      	--empty_alt_ignore \
+	      	--disable-external \
+	      	./_site
+.PHONY: check-html
+
+check-links: build ## check all links
+	$(ACTIVATE_ENV) && \
+	  	htmlproofer \
+	      	--assume-extension \
+	      	--http-status-ignore 405,503,999 \
+	      	--url-ignore "/.*localhost.*/","/.*gitter\.im.*/" \
+	      	--allow-hash-href \
 			--empty_alt_ignore \
 	      	./_site
 .PHONY: check-html
