@@ -14,6 +14,7 @@ This program can only run with the active involvements of our volunteer communit
 - [Mentors](#mentors)
 - [Experts](#experts)
 - [Facilitators](#facilitators)
+- [Organisers](#organisers)
 - [Founders](#founders)
 
 # Mentees
@@ -60,7 +61,7 @@ They will meet their mentees every two weeks during the program and will attend 
 
 ## What are the benefits to be a mentor?
 
-Our mentors will 
+Our mentors will
 
 - gain mentoring skills (active listening, effective questioning, giving feedback) via mentoring training
 - learn to celebrate successes and approach challenges in mentoring
@@ -171,11 +172,23 @@ Facilitators are invited to:
 
 This is an invitation-based role. Facilitators are offered an honourarium in recognition of their valuable contributions to the programme.
 
-# Founders
 
-{% assign organizers = site.data.ols-1-metadata.organizers %}
+# Organisers
+
+{% assign organizers = site.data.organizers.organizers %}
 <div class="people">
 {% for entry in organizers %}
+    {% assign username = entry %}
+    {% assign user = site.data.people[username] %}
+    {% include _includes/people.html user=user username=username %}
+{% endfor %}
+</div>
+
+# Founders
+
+{% assign founders = site.data.ols-1-metadata.organizers %}
+<div class="people">
+{% for entry in founders %}
     {% assign username = entry %}
     {% assign user = site.data.people[username] %}
     {% include _includes/people.html user=user username=username %}
