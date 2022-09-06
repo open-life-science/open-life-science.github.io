@@ -41,7 +41,7 @@ serve: ## run a local server
 .PHONY: serve
 
 serve-gitpod: ## run a server on a gitpod.io environment
-	bundle exec jekyll serve --config _config.yml --incremental
+	bundle exec jekyll serve
 .PHONY: serve-gitpod
 
 build: clean ## build files but do not run a server (You can specify FLAGS= to pass additional flags to Jekyll)
