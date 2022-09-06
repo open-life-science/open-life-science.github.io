@@ -1,0 +1,13 @@
+  type: talk
+  title: "OLS: a training and mentoring program for the open-research-curious"
+  duration: 2 hours
+  date: 2022-09-30 16:00
+  event:
+    name: "FAIRPoints-FAIR & Open Research 4Beginners"
+    url: "https://www.scilifelab.se/event/fairpoints-fair-open-research-4beginners/"
+    location: 
+      online: true
+  people:
+  - yochannah
+  - selgebali
+ 
