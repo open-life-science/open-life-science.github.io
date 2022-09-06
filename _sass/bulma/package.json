@@ -29,7 +29,7 @@
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "clean-css-cli": "^4.3.0",
-    "node-sass": "^4.12.0",
+    "node-sass": ">=7.0.0",
     "postcss-cli": "^6.1.2",
     "rimraf": "^2.6.3"
   },
