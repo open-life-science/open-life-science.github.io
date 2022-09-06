@@ -6,3 +6,4 @@ gem 'jekyll-archives', group: :jekyll_plugins
 gem 'nokogiri', group: :jekyll_plugins
 gem 'html-proofer', group: :jekyll_plugins
 gem 'jekyll-redirect-from', group: :jekyll_plugins
+gem 'webrick', group: :jekyll_plugins
