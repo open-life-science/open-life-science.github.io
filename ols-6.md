@@ -65,11 +65,7 @@ and international bioinformatics communities.
 2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
 3. **Empowering** them to become effective Open Science ambassadors in their communities.
 
-# Table of content
-{:.no_toc}
-
-1. TOC
-{:toc}
+{% include _includes/toc.html %}
 
 # Goals and Learning Objectives
 
