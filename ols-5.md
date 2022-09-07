@@ -257,6 +257,22 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 </div>
 {% endif %}
 
+### Facilitators
+
+Facilitators work closely with the OLS organisers to manage and run cohort calls. They lead efforts in preparing cohort call notes, co-hosting cohort calls and ensuring the sharing of call recordings and resources through OLS channelss
+
+<!-- Any modification of the content should be done in the _data/ols-5-metadata.yaml file -->
+
+We thank the **{{ metadata.facilitators | size }} persons who facilitated** in this round.
+
+<div class="people">
+    {% for p in metadata.facilitators %}
+        {% assign username = p %}
+        {% assign user = site.data.people[username] %}
+        {% include _includes/people.html user=user username=username %}
+    {% endfor %}
+</div>
+
 ## Organizers
 
 <div class="people">
@@ -266,18 +282,6 @@ A dedicated slack channel will facilitate open discussions among experts and oth
     {% include _includes/people.html user=user username=username %}
 {% endfor %}
 </div>
-
-{% if all-hosts != '' %}
-### Hosts for calls
-
-<div class="people">
-{% for entry in p-hosts %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
-{% endif %}
 
 # Collaborators
 
