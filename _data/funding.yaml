@@ -4,19 +4,22 @@
   currency: GBP
   duration: 15 months
   date_award: January 2019
-  purpose: Software Sustainbility Institute Fellowship award to Dr. Malvika Sharan, to lead open source efforts for exploring and developing training strategies effective for the low-income research environment
+  purpose: Software Sustainability Institute Fellowship award to Dr. Malvika Sharan, to lead open source efforts for exploring and developing training strategies effective for the low-income research environment
+  proposal: https://fellows.software.ac.uk/fellow/malvika-sharan/
 - funder: css
   amount: 10000
   currency: USD
   duration: 13 months
   date_award: December 2020
   purpose: Code for Science and Society Event Fund awarded to organize and host the virtual event, Open Life Science Training and Mentoring
+  proposal: https://zenodo.org/record/4777229
 - funder: turing
   amount: 10000
   currency: GBP
   duration: 10 months (OLS cohorts 3 and 4)
   date_award: Februrary 2021
   purpose: Development and delivery of the Open Life Science cohort-based mentoring and training program that upskills researchers in open and reproducible research and empowers them to become open science ambassadors in their communities.
+  proposal: https://zenodo.org/record/6974060
 - funder: denbi
   amount: 2000
   currency: EUR
