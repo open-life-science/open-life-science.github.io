@@ -47,6 +47,53 @@ supportive environment for everyone who wants to participate. When you join us
 we ask that you follow our [code of conduct](CODE_OF_CONDUCT.md) in all
 interactions both on and offline.
 
+## How can I generate the website and contribute using GitPod?
+
+[GitPod](https://www.gitpod.io/) is an open-source developer platform for remote development. You can use it to generate the website without installing anything on your computer.
+
+1. Setting up GitPod
+   1. Create a fork of the OLS GitHub repository (to do only 1 time)
+      1. Go on the GitHub repository: [github.com/open-life-science/open-life-science.github.io](https://github.com/open-life-science/open-life-science.github.io)
+      2. Click on th Fork button (top-right corner of the page)
+   2. Open your browser and navigate to [gitpod.io](https://www.gitpod.io/)
+   3. Log in with GitHub
+   4. Copy the link to your fork of the GTN, e.g. https://github.com/bebatut/open-life-science.github.io
+
+      Gitpod will now configure your environment. This may take some time.
+
+      Once the setup is finished, you should see a page with:
+      - On the Left: All the files in the OLS repository
+      - Top: The main window where you can view and edit files
+      - Bottom: Terminal window, where you can type commands (e.g. to build the website preview) and read output and error messages
+
+2. Build and preview the OLS website
+   1. Type the following command `make serve-gitpod` in the terminal window (bottom)
+   2. Click on the link in the terminal to see the OLS in full-screen: `Server address: http://127.0.0.1:4000`
+
+3. Make and view changes
+   1. Open and/or create files via the file browser on the left
+   2. Make and save the changes in the files
+   3. Reload the preview page to view the changes
+
+4. Saving changes back to GitHub
+   1. Option 1: via the terminal
+      1. Create a new branch with `git checkout`
+      2. Commit your changes with `git add` and `git commit`
+      3. Push changes with `git push origin`
+   2. Option 2: via the web interface
+      1. Create a new branch
+         1. Click on the bottom-left on the branch logo button on the bottom of the page with the current branch (probably "main")
+         2. Give a new name for your new branch (at top of window)
+         3. Choose "+ Create new branch..." from the dropdown
+      2. Commit changes
+         1. Click on the "Source Control" tab button (branch) on the left menu to show changed files
+         2. Click on the "+" icon next to the edited files to stage changes stage changes button
+         3. Hit the checkmark icon at the top to commit the changes
+         4. Enter a commit message (top of window) - Publish changes
+         5. Click the cloud button at bottom left to publish your changes publish changes button.
+
+            Changes are now saved to your fork, and you can make a PR via the GitHub interface
+   
 ## How can I generate the website locally?
 
 You need a `ruby` environment (version >= 2.4). Either you have it installed and
