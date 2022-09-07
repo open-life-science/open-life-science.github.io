@@ -1,0 +1,21 @@
+# List of people (alphabetical order)
+#
+# Collection names should be equal to github username,
+
+---
+team:
+  directors:
+    - bebatut
+    - emmyft
+    - malvikasharan
+    - yochannah
+  staff:
+    - pazbc
+advisors: []
+trainers:
+  ols: []
+  ally: []
+  technical: []
+task_forces:
+  hiring: []
+  localization: []
