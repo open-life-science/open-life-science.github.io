@@ -24,7 +24,7 @@ Funder | Amount | Duration  | Date of Award | Purpose | Proposal
 [{{ organizations[f.funder].name }}]({{ organizations[f.funder].site }}) | {{ f.amount }} {{ f.currency }} | {{ f.duration }} | {{ f.date_award }} | {{ f.purpose }}  | {% if f.proposal %}[Proposal]({{ f.proposal }}){% endif %}
 {% endfor %}
 
-# Funders
+## Funders
 
 This program has been funded by the following funding organisations!
 
@@ -46,3 +46,5 @@ This program is made possible thanks to our supporters!
     {% include _includes/external-entities.html entity=entity type='partner' details=details %}
 {% endfor %}
 </div>
+
+## How to become a supporter?
