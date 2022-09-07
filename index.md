@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Open Life Science
-description: Sharing - Connecting - Empowering
+title: OLS
+description: A mentoring & training program for Open Science ambassadors
 image: /images/index.jpg
 photos:
   name: Bérénice Batut
@@ -9,26 +9,24 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-# A mentoring & training program for Open Science ambassadors
+The **OLS** program is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
 
-The **Open Life Science (OLS)** program is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
-
-## About
+# About
 
 This is a **16-week long personal mentorship and cohort-based training**, where participants (organisers, hosts, mentors and project leads/mentees) of this program will:
-- share their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
-- connect with members across different projects, communities, backgrounds, and identities
-- empower each other to become effective Open Science ambassadors in their communities
+- **share** their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
+- **connect** with members across different projects, communities, backgrounds, and identities
+- **empower** each other to become effective Open Science ambassadors in their communities
 
-## Applications
+# Applications
 
-[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6){:.button .is-link .is-fullwidth}
+<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before July 1, 2022 to allow activation of your Open Review profile as described in the [OLS-6 application guidelines and templates](https://github.com/open-life-science/application-forms).*
+*Please register on Open Review before July 1, 2022 to allow activation of your Open Review profile as described in the [OLS-6 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
 
-OLS-6 will run from September 2022 to January 2023. Applications for OLS-7 will open in end 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open.
+OLS-6 runs from September 2022 to January 2023. Applications for OLS-7 will open in end 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open.
 
-### Preliminary timeline
+## Timeline
 
 {% assign schedule = site.data.ols-6-schedule %}
 {% include _includes/timeline.md %}
@@ -130,7 +128,7 @@ Project ideas can range from solving technical questions to creating an open d
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
 
-- promote one or several Open Science practices (i.e. Open Access, Open Source, Citizen Science, ) in life science
+- promote one or several Open Science practices (i.e. Open Access, Open Source, Citizen Science, ) in science
 - state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
 - create an inclusive space and welcome contributions from their community members
 
@@ -162,33 +160,3 @@ Here are a few values we think you will receive from participating in this proje
 - Get recognition and acknowledgment for your work
 - Co-develop this program by sharing feedback
 
-## The program itself
-
-*To illustrate the OLS journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their open science training.*
-
-Joy will provide an outline of a project in their application that they will develop in the program. Additionally, they will indicate their interests in learning particular aspects of Open Science and research.
-
-Sam will register as a mentor and list their expertise that they would like to share with their mentee.
-
-After the selection process, they will be involved in the following steps of this program:
-
-1. Based on their common interests, they will be introduced to each other as suitable mentee and mentor
-
-    They will meet every 2nd week on **mentee-mentor calls** (around 30 minutes). Sam will help Joy evaluate their understanding of the new topics introduced in the program, and guide their progress by providing constructive feedback.
-    Joy will be given assignments before these calls to help them apply new skills to their project. When needed, Joy and Sam will connect with other [experts](about#experts) to invite consultation on their project.
-
-2. Joy will participate in online [training calls](ols-4#calls) and share insights with other participants in the program.
-
-    In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
-
-3. Joy will get to know their peers from the cohort during social and co-working calls.
-
-    They will share their project ideas, learn about others' projects and discuss assignments.
-
-4. A final graduation call will allow Joy to present their project to other participants and exchange values.
-
-Sam will also participate in **mentor training** calls and attend topic-based discussions with other mentors aimed at enhancing their mentoring skills.
-
-A self-evaluation survey, mid-cohort survey and post-cohort survey will help Joy and Sam in positioning their knowledge in open science leadership before, during and after the program.
-
-For the next round, Joy may share what they learned by [mentoring](about#mentors) a new project in the future cohort and Sam will continue their mentoring effort or take an [expert](about#experts) role.
