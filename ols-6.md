@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the 6th cohort of Open Life Science program!
+title: Welcome to the 6th cohort of OLS program!
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg
@@ -73,7 +73,7 @@ and international bioinformatics communities.
 
 # Goals and Learning Objectives
 
-The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life science.
+The vision of OLS is to strengthen Open Science skills for early stage researchers and young leaders in science.
 
 At the end of the program, our participants will be able to:
 - Describe and define the terms *openness*, *open science*, *open leadership*, *community interactions*, *value exchanges*, *inclusivity*, *accessibility*, *open Science practices in developing resources and training*
@@ -110,7 +110,7 @@ At the end of the program, our participants will be able to:
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-<!-- For the third round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-6/projects-participants#participants) with [{{ projects | size }} projects](/ols-6/projects-participants#projects).-->
+<!-- For the third round of the OLS program, we welcome [{{ p-participants | size }} participants](/ols-6/projects-participants#participants) with [{{ projects | size }} projects](/ols-6/projects-participants#projects).-->
 
 ## Mentors
 
@@ -284,16 +284,16 @@ OLS team have established the following collaborations to support organisation s
 
 ## OLS-6 for EOSC-Life
 
-Open Life Science has received the [EOSC-Life Training grant (first round)](https://www.eosc-life.eu/news/4-projects-awarded-funding-within-first-training-open-call/), to train and mentor EOSC-RI members under the collaboration name **OLS-6 for EOSC-Life**. In the simplest terms, [EOSC-Life](https://www.eosc-life.eu/about/) is [13 European life science Research Infrastructures](https://www.eosc-life.eu/about/partners/) making their data FAIR (Findable, Accessible, Interoperable and Reusable) so that researchers can combine resources from multiple RIs for new research funded through our Open Calls and receive support through the variety of additional services we offer, including alignment with relevant standards and policies (GDPR, etc.).
+OLS has received the [EOSC-Life Training grant (first round)](https://www.eosc-life.eu/news/4-projects-awarded-funding-within-first-training-open-call/), to train and mentor EOSC-RI members under the collaboration name **OLS-6 for EOSC-Life**. In the simplest terms, [EOSC-Life](https://www.eosc-life.eu/about/) is [13 European life science Research Infrastructures](https://www.eosc-life.eu/about/partners/) making their data FAIR (Findable, Accessible, Interoperable and Reusable) so that researchers can combine resources from multiple RIs for new research funded through our Open Calls and receive support through the variety of additional services we offer, including alignment with relevant standards and policies (GDPR, etc.).
 
 ## OLS-6 for Faculty of Applied Sciences/TNW - TU Delft
 
-Under the collaboration name OLS-6 for TNW, Open Life Science has partnered with the [Faculty of Applied Sciences](https://www.tudelft.nl/en/faculty-of-applied-sciences) through the [Faculty Graduate School](https://www.tudelft.nl/en/faculty-of-applied-sciences/research/phd) and the Data Steward, [Dr. Esther Plomp](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact/esther-plomp) at TU Delft.
+Under the collaboration name OLS-6 for TNW, OLS has partnered with the [Faculty of Applied Sciences](https://www.tudelft.nl/en/faculty-of-applied-sciences) through the [Faculty Graduate School](https://www.tudelft.nl/en/faculty-of-applied-sciences/research/phd) and the Data Steward, [Dr. Esther Plomp](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact/esther-plomp) at TU Delft.
 This partnership will offer training and mentoring to interested members from the Faculty of Applied Sciences to join the 6th cohort (OLS-6) individually or in teams. They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future. Mentors will be preferably selected within their own discipline, as PhD candidates will be eligible for 5 Discipline-related credits for their Doctoral Education Programme.
 
 ## OLS-6 for Turing
 
-Under the collaboration name **OLS-6 for Turing**, Open Life Science has partnered with [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way), a project within the [Tools, Practices and Systems Research Program](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems) in [The Alan Turing Institute](https://www.turing.ac.uk/).
+Under the collaboration name **OLS-6 for Turing**, OLS has partnered with [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way), a project within the [Tools, Practices and Systems Research Program](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems) in [The Alan Turing Institute](https://www.turing.ac.uk/).
 This partnership will offer training and mentoring to interested members from Turing and _The Turing Way_ communities to join the sixth cohort (OLS-6) individually or in teams.
 They will have an opportunity to develop Open Science aspects in the projects that they either already have been working on, or want to develop in the near future.
 Mentors will be preferably selected from The Alan Turing Institute but there will be a possibility to match projects with the right mentor from the broader cohort.

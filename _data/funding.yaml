@@ -10,13 +10,13 @@
   currency: USD
   duration: 13 months
   date_award: December 2020
-  purpose: Code for Science and Society Event Fund awarded to organize and host the virtual event, Open Life Science Training and Mentoring
+  purpose: Code for Science and Society Event Fund awarded to organize and host the virtual event, OLS Training and Mentoring
 - funder: turing
   amount: 10000
   currency: GBP
   duration: 10 months (OLS cohorts 3 and 4)
   date_award: Februrary 2021
-  purpose: Development and delivery of the Open Life Science cohort-based mentoring and training program that upskills researchers in open and reproducible research and empowers them to become open science ambassadors in their communities.
+  purpose: Development and delivery of the OLS cohort-based mentoring and training program that upskills researchers in open and reproducible research and empowers them to become open science ambassadors in their communities.
 - funder: denbi
   amount: 2000
   currency: EUR
@@ -27,7 +27,7 @@
   currency: USD
   duration: 2 years
   date_award: January 2022
-  purpose: Support for Open Life Science to support OLS in their education and capacity building efforts through trainings, developing curricula, and maturing their governance structure.
+  purpose: Support for OLS in their education and capacity building efforts through trainings, developing curricula, and maturing their governance structure.
   proposal: https://zenodo.org/record/5907922#.Yqxng-xBwkg
 - funder: wellcome
   amount: 99999
