@@ -7,7 +7,7 @@ layout: default
 <div class="post">
 {% for post in site.posts %}
     {% capture authors %}
-    {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="/community#{{ id }}">{{ name }}</a>{% endfor %}
+    {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="/people#{{ id }}">{{ name }}</a>{% endfor %}
     {% endcapture %}
     <div class="card">
         {% if post.image %}

@@ -44,6 +44,3 @@ includes_dir: .
 plugins:
   - jekyll-last-modified-at
   - jekyll-redirect-from
-
-kramdown:
-  parse_block_html: true

@@ -126,7 +126,7 @@ It's 22. Sorry 🙈
 ### How would you act in the case of things not working well for the candidate in this job? And what would be the sign of "not working well"?
 
 People not learning from a mistake! Mistakes happen and we will give feedback and support, but the biggest worry will be lack of communication or repeating the mistakes.
-We expect all our colleagues to work in alignment with our [values](/about#our-values).
+We expect all our colleagues to work in alignment with our [values](/community#our-values).
 
 ### What are the next steps in the application process after the interviews?
 

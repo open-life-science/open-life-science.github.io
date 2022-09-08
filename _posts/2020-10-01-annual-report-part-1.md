@@ -45,7 +45,7 @@ We are still learning and are extremely grateful for the community members for s
 
 ### Timeline of organisation support and partnerships
 
-The project has been supported by [many organisations](/funders#partners) that have helped promote the program in their network allowing access to a wider research community.
+The project has been supported by [many organisations]({% link partners.md %}) that have helped promote the program in their network allowing access to a wider research community.
 
 - **November 2019**: Non-financial partnership from Mozilla Open Leaders, Backofen Lab, Software Sustainability Institute, ELIXIR, de.NBI, EMBL Bio-IT, Freiburg University, Manchester University. These partnerships represented our employers, advisors, and professional networks - no official partnership agreements or memorandum of understanding was signed.
 - **June 2020**: 'OLS-2 for Turing' collaboration with [*The Turing Way*](https://the-turing-way.netlify.app/welcome) to support Open Source projects from The Alan Turing Institute and The Turing Way community

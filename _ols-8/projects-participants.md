@@ -38,7 +38,7 @@ For the third round of the OLS program, we are happy to have [{{ p-participants 
         
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
-        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-3#{{ p }})
+        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/people#{{ p }})
         {% endfor %}
         {% endcapture %} 
 

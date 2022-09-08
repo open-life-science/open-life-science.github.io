@@ -127,7 +127,7 @@ Here is a summary of the lessons learned:
 
 ### Acknowledgements
 
-I would like to thank my two mentors [Arielle Bennett](/community#arielle-bennett) and [Julien Colomb](/community#jcolomb) for dedicating their time to this project and for their valuable guidance.
-I also would like to thank experts [Patricia Herterich](/community#pherterich), [Sara Elgebali](/community#selgebali) and [Jez Cope](/community#jezcope) for their advice and for taking the time to talk to me.
+I would like to thank my two mentors [Arielle Bennett](/people#arielle-bennett) and [Julien Colomb](/people#jcolomb) for dedicating their time to this project and for their valuable guidance.
+I also would like to thank experts [Patricia Herterich](/people#pherterich), [Sara Elgebali](/people#selgebali) and [Jez Cope](/people#jezcope) for their advice and for taking the time to talk to me.
 
-Finally, I am grateful to the entire OLS team for setting up this fantastic program and a special thank you to [Emmy Tsang](/community#emmyft)  for convincing me to join OLS-5.
+Finally, I am grateful to the entire OLS team for setting up this fantastic program and a special thank you to [Emmy Tsang](/people#emmyft)  for convincing me to join OLS-5.
