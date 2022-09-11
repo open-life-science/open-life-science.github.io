@@ -20,6 +20,7 @@ This is a **16-week long personal mentorship and cohort-based training**, where 
 
 Participants join this program with a **project** that they either are already working on or want to develop during this program **individually or in teams**.
 
+![OLS schedule overview. In the middle, the timeline represents the 16 weeks. On the top, boxes in green represent the 8 different cohort calls pointing to the corresponding weeks (even week numbers). Below the week timeline, blue boxes represent the mentor-mentee meetings pointing to the uneven number weeks. Below the blue boxes, are red boxes corresponding to 3 skill-up calls: "GitHub tutorial for beginners" (week 5), "Open Leadership: Academia, industry, and beyond" (week 9), "Self-care & social call" (week 1s)](/images/schedule.png){: .schedule-overview}
 
 # Applications
 
