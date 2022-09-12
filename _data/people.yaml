@@ -974,6 +974,7 @@ bebatut:
   last-name: Batut
   orcid: 0000-0001-9852-1987
   pronouns: she/her
+  title: Director of learning and technology
   twitter: bebatut
   website: https://research.bebatut.fr
 benkrikler:
@@ -1833,6 +1834,7 @@ emmyft:
   last-name: Tsang
   orcid: 0000-0002-9248-1280
   pronouns: she/her
+  title: Director of finance
   twitter: emmy_ft
 esbusis:
   affiliation: Bezmialem Vakif University
@@ -3631,6 +3633,7 @@ malvikasharan:
   last-name: Sharan
   orcid: 0000-0001-6619-7369
   pronouns: she/her
+  title: Director of partnerships and strategy
   twitter: malvikasharan
 manulera:
   affiliation: Institut Curie
@@ -5779,6 +5782,7 @@ yochannah:
   last-name: Yehudi
   orcid: 0000-0003-2705-1724
   pronouns: they/them
+  title: Executive director, Business and development lead
   twitter: yoyehudi
 yvanlebras:
   affiliation: French Museum Of Natural History
