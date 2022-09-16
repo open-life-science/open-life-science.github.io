@@ -531,7 +531,7 @@ annalee-sekulic:
   affiliation: Ohio State University
   bio: I am driven to engage with communities to foster an appreciation and connection
     for both intangible and tangible culture. Growing up in a small town, I learned
-    what a gift it is to connect with people from another way of life; Open Life Sciences
+    what a gift it is to connect with people from another way of life; OLS
     makes that possible.
   city: Columbus
   country: United States
@@ -974,6 +974,7 @@ bebatut:
   last-name: Batut
   orcid: 0000-0001-9852-1987
   pronouns: she/her
+  title: Director of learning and technology
   twitter: bebatut
   website: https://research.bebatut.fr
 benkrikler:
@@ -1833,6 +1834,7 @@ emmyft:
   last-name: Tsang
   orcid: 0000-0002-9248-1280
   pronouns: she/her
+  title: Director of finance
   twitter: emmy_ft
 esbusis:
   affiliation: Bezmialem Vakif University
@@ -3295,8 +3297,7 @@ landimi2:
   bio: I am an EANBiT scholar from Pwani University with an MSc in Bioinformatics.
     I have developed a keen interest in immune-informatics, genomics and developing
     workflow management systems to enhance reproducible and scalable data analysis.
-    I am a certified software carpentry instructor and an Open Life Science (OLS),
-    graduate.
+    I am a certified software carpentry instructor and an OLS graduate.
   city: Nairobi
   country: Kenya
   expertise:
@@ -3615,7 +3616,7 @@ malvikasharan:
     Malvika Sharan is the community manager of [_The Turing Way-](https://the-turing-way.netlify.com) at [The Alan Turing Institute](https://turing.ac.uk).
     Malvika works with its community of diverse members to develop resources and ways that can make data science accessible for a wider audience.
     Malvika has a PhD in Bioinformatics and she worked at  [European Molecular Biology Laboratory](http://embl.org), Germany, that helped her solidify her values as an Open Researcher and community builder.
-    She is a co-founder of the Open Life Science program, a fellow of [Software Sustainability Institute](https://software.ac.uk/about/fellows/malvika-sharan), a board member of [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a contributing member of [The Carpentries](https://carpentries.org/) community.'
+    She is a co-founder of the OLS program, a fellow of [Software Sustainability Institute](https://software.ac.uk/about/fellows/malvika-sharan), a board member of [Open Bioinformatics Foundation](https://www.open-bio.org/board/), and a contributing member of [The Carpentries](https://carpentries.org/) community.'
   city: London
   country: United Kingdom
   expertise:
@@ -3632,6 +3633,7 @@ malvikasharan:
   last-name: Sharan
   orcid: 0000-0001-6619-7369
   pronouns: she/her
+  title: Director of partnerships and strategy
   twitter: malvikasharan
 manulera:
   affiliation: Institut Curie
@@ -5763,7 +5765,7 @@ wykhuh:
 yochannah:
   bio: Yo is Open Source Technology Lead at the Wellcome Trust's Data for Science
     and Health team, a [Software Sustainability Institute Fellow](https://software.ac.uk/about/fellows/yo-yehudi),
-    co-founder of [Open Life Science](https://openlifesci.org/) and [Code is Science](http://www.codeisscience.com/manifesto),
+    co-founder of [OLS](https://openlifesci.org/) and [Code is Science](http://www.codeisscience.com/manifesto),
     [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html)
     studying pathogen-related data sharing and sustainability of open source software.
     Previously, they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
@@ -5780,6 +5782,7 @@ yochannah:
   last-name: Yehudi
   orcid: 0000-0003-2705-1724
   pronouns: they/them
+  title: Executive director, Business and development lead
   twitter: yoyehudi
 yvanlebras:
   affiliation: French Museum Of Natural History

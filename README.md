@@ -1,4 +1,4 @@
-# Open Life Science
+# OLS
 
 ***Sharing. Connecting. Empowering***
 
@@ -25,9 +25,7 @@ training and education in their communities.
 
 ## Who are we?
 
-We are currently a team of 3 members who share a passion for Open Research and inclusiveness in Open Science.
-
-As the graduates, mentors, and hosts of various Mozilla Open Leaders cohorts, we have gained expertise in the technical and culture track. Furthermore, we participate in a wide range of activities in different international communities of practice in the life sciences: ELIXIR (European bioinformatics network), Galaxy, The Carpentries, Software Sustainability Institute (SSI), Open Bioinformatics Foundation (OBF), and Mozilla.
+We are currently a team of people who share a passion for Open Research and inclusiveness in Open Science. Please read me on [our website](https://openlifesci.org/community).
 
 ## What do we need?
 

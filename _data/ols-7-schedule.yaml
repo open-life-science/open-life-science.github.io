@@ -65,7 +65,7 @@ weeks:
         - Unpack the differences between “open by default” and “open by design”
         - Learn about common community interactions in open projects.
         - Learn about common value exchanges between community members in open science
-      title: Welcome to Open Life Science!
+      title: Welcome to OLS!
       type: Cohort
       before: '- Add your vision statement to your GitHub issue'
       after: |-
@@ -112,7 +112,7 @@ weeks:
         - Unpack the differences between “open by default” and “open by design”
         - Learn about common community interactions in open projects.
         - Learn about common value exchanges between community members in open science
-      title: Welcome to Open Life Science!
+      title: Welcome to OLS!
       type: Cohort
       before: '- Add your vision statement to your GitHub issue'
       after: |-

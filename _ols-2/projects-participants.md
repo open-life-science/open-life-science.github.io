@@ -38,7 +38,7 @@ For the second round of the Open Life Science program, we are happy to have [{{ 
 
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
-        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/community#{{ p }})
+        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/people#{{ p }})
         {% endfor %}
         {% endcapture %}
 

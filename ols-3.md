@@ -65,11 +65,7 @@ and international bioinformatics communities.
 2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
 3. **Empowering** them to become effective Open Science ambassadors in their communities.
 
-# Table of content
-{:.no_toc}
-
-1. TOC
-{:toc}
+{% include _includes/toc.html %}
 
 # Goals and Learning Objectives
 
@@ -258,6 +254,22 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 {% endfor %}
 </div>
 {% endif %}
+
+### Facilitators
+
+Facilitators work closely with the OLS organisers to manage and run cohort calls. They lead efforts in preparing cohort call notes, co-hosting cohort calls and ensuring the sharing of call recordings and resources through OLS channelss
+
+<!-- Any modification of the content should be done in the _data/ols-3-metadata.yaml file -->
+
+We thank the **{{ metadata.facilitators | size }} persons who facilitated** in this round.
+
+<div class="people">
+    {% for p in metadata.facilitators %}
+        {% assign username = p %}
+        {% assign user = site.data.people[username] %}
+        {% include _includes/people.html user=user username=username %}
+    {% endfor %}
+</div>
 
 ## Organizers
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Funding, Funders and Partners
+title: Funding & Supporters
 image: https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80
 photos:
   name: Anthony DELANOIX
@@ -10,7 +10,7 @@ photos:
 
 {% assign organizations = site.data.organizations %}
 
-Open Life Science (OLS) is supported through a mix of philantropic support, personal donations, grant funding, and partnerships with institutions.
+OLS is supported through a mix of philantropic support, personal donations, grant funding, and partnerships with institutions.
 
 # Funding
 
@@ -24,7 +24,7 @@ Funder | Amount | Duration  | Date of Award | Purpose | Proposal
 [{{ organizations[f.funder].name }}]({{ organizations[f.funder].site }}) | {{ f.amount }} {{ f.currency }} | {{ f.duration }} | {{ f.date_award }} | {{ f.purpose }}  | {% if f.proposal %}[Proposal]({{ f.proposal }}){% endif %}
 {% endfor %}
 
-# Funders
+## Funders
 
 This program has been funded by the following funding organisations!
 
@@ -35,14 +35,16 @@ This program has been funded by the following funding organisations!
 {% endfor %}
 </div>
 
-# Partners
+# Supporters
 
-This program is made possible thanks to our partners and collaborating organisations!
+This program is made possible thanks to our supporters!
 
 <div class="entities">
-{% for p in site.data.partners %}
-    {% assign entity = organizations[p.partner] %}
+{% for p in site.data.community.sponsors %}
+    {% assign entity = organizations[p.organization] %}
     {% assign details = p.details %}
     {% include _includes/external-entities.html entity=entity type='partner' details=details %}
 {% endfor %}
 </div>
+
+## How to become a supporter?

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Open Life Science
-description: Sharing - Connecting - Empowering
+title: OLS
+description: A mentoring & training program for Open Science ambassadors
 image: /images/index.jpg
 photos:
   name: Bérénice Batut
@@ -9,26 +9,28 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-# A mentoring & training program for Open Science ambassadors
+The **OLS** program is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
 
-The **Open Life Science (OLS)** program is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
-
-## About
+# About
 
 This is a **16-week long personal mentorship and cohort-based training**, where participants (organisers, hosts, mentors and project leads/mentees) of this program will:
-- share their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
-- connect with members across different projects, communities, backgrounds, and identities
-- empower each other to become effective Open Science ambassadors in their communities
+- **share** their expertise and gain knowledge essential to create, lead, and sustain an Open Science project
+- **connect** with members across different projects, communities, backgrounds, and identities
+- **empower** each other to become effective Open Science ambassadors in their communities
 
-## Applications
+Participants join this program with a **project** that they either are already working on or want to develop during this program **individually or in teams**.
 
-[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6){:.button .is-link .is-fullwidth}
+![OLS schedule overview. In the middle, the timeline represents the 16 weeks. On the top, boxes in green represent the 8 different cohort calls pointing to the corresponding weeks (even week numbers). Below the week timeline, blue boxes represent the mentor-mentee meetings pointing to the uneven number weeks. Below the blue boxes, are red boxes corresponding to 3 skill-up calls: "GitHub tutorial for beginners" (week 5), "Open Leadership: Academia, industry, and beyond" (week 9), "Self-care & social call" (week 1s)](/images/schedule.png){: .schedule-overview}
 
-*Please register on Open Review before July 1, 2022 to allow activation of your Open Review profile as described in the [OLS-6 application guidelines and templates](https://github.com/open-life-science/application-forms).*
+# Applications
 
-OLS-6 will run from September 2022 to January 2023. Applications for OLS-7 will open in end 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open.
+<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6){:.button .is-link .is-fullwidth}
 
-### Preliminary timeline
+*Please register on Open Review before July 1, 2022 to allow activation of your Open Review profile as described in the [OLS-6 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
+
+OLS-6 runs from September 2022 to January 2023. Applications for OLS-7 will open in end 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open.
+
+## Timeline
 
 {% assign schedule = site.data.ols-6-schedule %}
 {% include _includes/timeline.md %}
@@ -36,159 +38,144 @@ OLS-6 will run from September 2022 to January 2023. Applications for OLS-7 will 
 Have a question or need any support to join this cohort?
 We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}).
 
-## Projects
+# Cohorts
 
 <!-- OLS-1 -->
 {% assign ols-1-projects = site.data.ols-1-projects %}
-{% assign all-participants = '' %}
-{% assign all-mentors = '' %}
+{% assign ols-1-experts = site.data.ols-1-metadata.experts %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
 {% for project in ols-1-projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
     {% endfor %}
 {% endfor %}
-{% assign ols-1-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign ols-1-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
-
+{% assign ols-1-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-1-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-1-schedule = site.data.ols-1-schedule %}
+{% assign ols-1-end = '' %}
+{% for w in ols-1-schedule.weeks %}
+    {% assign ols-1-end = w[1].start %}
+{% endfor %}
 <!-- OLS-2 -->
 {% assign ols-2-projects = site.data.ols-2-projects %}
-{% assign all-participants = '' %}
-{% assign all-mentors = '' %}
+{% assign ols-2-experts = site.data.ols-2-metadata.experts %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
 {% for project in ols-2-projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
     {% endfor %}
 {% endfor %}
-{% assign ols-2-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign ols-2-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
-
+{% assign ols-2-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-2-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-2-schedule = site.data.ols-2-schedule %}
+{% assign ols-2-end = '' %}
+{% for w in ols-2-schedule.weeks %}
+    {% assign ols-2-end = w[1].start %}
+{% endfor %}
 <!-- OLS-3 -->
 {% assign ols-3-projects = site.data.ols-3-projects %}
-{% assign all-participants = '' %}
-{% assign all-mentors = '' %}
+{% assign ols-3-experts = site.data.ols-3-metadata.experts %}
+{% assign ols-3-facilitators = site.data.ols-3-metadata.facilitators %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
 {% for project in ols-3-projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
     {% endfor %}
 {% endfor %}
-{% assign ols-3-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign ols-3-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
-
-<!-- OLS-4 -->
+{% assign ols-3-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-3-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-3-schedule = site.data.ols-3-schedule %}
+{% assign ols-3-end = '' %}
+{% for w in ols-3-schedule.weeks %}
+    {% assign ols-3-end = w[1].start %}
+{% endfor %}
+<!-- OLS-4-->
 {% assign ols-4-projects = site.data.ols-4-projects %}
-{% assign all-participants = '' %}
-{% assign all-mentors = '' %}
+{% assign ols-4-experts = site.data.ols-4-metadata.experts %}
+{% assign ols-4-facilitators = site.data.ols-4-metadata.facilitators %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
 {% for project in ols-4-projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
     {% endfor %}
 {% endfor %}
-{% assign ols-4-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign ols-4-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
-
-<!-- OLS-5 -->
+{% assign ols-4-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-4-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-4-schedule = site.data.ols-4-schedule %}
+{% assign ols-4-end = '' %}
+{% for w in ols-4-schedule.weeks %}
+    {% assign ols-4-end = w[1].start %}
+{% endfor %}
+<!-- OLS-5-->
 {% assign ols-5-projects = site.data.ols-5-projects %}
-{% assign all-participants = '' %}
-{% assign all-mentors = '' %}
+{% assign ols-5-experts = site.data.ols-5-metadata.experts %}
+{% assign ols-5-facilitators = site.data.ols-5-metadata.facilitators %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
 {% for project in ols-5-projects %}
     {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }} {% endcapture %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }} {% endcapture %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
     {% endfor %}
 {% endfor %}
-{% assign ols-5-participants = all-participants | remove_first: ', ' | split: " , " | uniq | sort %}
-{% assign ols-5-mentors = all-mentors | remove_first: ', ' | split: " , " | uniq | sort %}
+{% assign ols-5-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-5-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-5-schedule = site.data.ols-5-schedule %}
+{% assign ols-5-end = '' %}
+{% for w in ols-5-schedule.weeks %}
+    {% assign ols-5-end = w[1].start %}
+{% endfor %}
+<!-- OLS-6-->
+{% assign ols-6-projects = site.data.ols-6-projects %}
+{% assign ols-6-experts = site.data.ols-6-metadata.experts %}
+{% assign ols-6-facilitators = site.data.ols-6-metadata.facilitators %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
+{% for project in ols-6-projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-6-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-6-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-6-schedule = site.data.ols-6-schedule %}
+{% assign ols-6-end = '' %}
+{% for w in ols-6-schedule.weeks %}
+    {% assign ols-6-end = w[1].start %}
+{% endfor %}
 
-Participants join this program with a project that they either are already working on or want to develop during this program individually or in teams.
-Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
-
-**Check out the projects developed in the previous cohorts:**
-- [OLS-1]({% link ols-1.md %}) from January to April 2020, [{{ ols-1-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects)
-- [OLS-2]({% link ols-2.md %}) from September to December 2020, [{{ ols-2-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ ols-2-projects | size }} projects](/ols-2/projects-participants#projects)
-- [OLS-3]({% link ols-3.md %}) from February to May 2021, [{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants) with [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects)
-- [OLS-4]({% link ols-4.md %}) from September 2021 to January 2022, [{{ ols-4-participants | size }} participants](/ols-4/projects-participants#participants) with [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects)
-- [OLS-5]({% link ols-5.md %}) from February 2022 to June 2022, [{{ ols-5-participants | size }} participants](/ols-5/projects-participants#participants) with [{{ ols-5-projects | size }} projects](/ols-5/projects-participants#projects)
-
-All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
-
-- promote one or several Open Science practices (i.e. Open Access, Open Source, Citizen Science, ) in life science
-- state a possible measurable outcome (i.e. feature, module, or minimum viable product) from this program
-- create an inclusive space and welcome contributions from their community members
-
-*You don't have a project but want to join the next OLS cohort? Please check our [dedicated issue]({{ site.github.repository_url }}/issues/297) and contact us at [{{ site.email }}](mailto:{{ site.email }}).*
-
-## Does OLS only accept life science projects?
-
-Modern science and scientific communities stand in the interface of computation and other research fields. Life science is one of them.
-This interdisciplinary position provides an exciting opportunity for new scientists to understand and welcome open leadership practices -- skills that aren’t necessarily taught in the traditional education system.
-
-OLS fills this gap by offering structured training and mentoring to help participants implement “open by design” principles in their projects systematically.
-
-The founders of this program come from the life science backgrounds and have an extensive network of Open Science practitioners from this field who are experts and mentors in this program.
-Therefore, OLS was initially designed with life science researchers and projects in mind.
-
-However, with the growing interest from the community members and the transferable nature of lessons learned in this program, we have expanded the scope to other fields where these skills will be directly applicable.
-
-## What's in it for you?
-
-We want to make this program mutually beneficial for all the participants.
-Here are a few values we think you will receive from participating in this project.
-
-- Become a contributing member of this community
-- Collaborate with others in Open Science projects
-- Exchange skills with others and build your profiles
-- Highlight and promote your resources
-- Gain insights from other experts in the field
-- Work on short-term projects and publish online
-- Get recognition and acknowledgment for your work
-- Co-develop this program by sharing feedback
-
-## The program itself
-
-*To illustrate the OLS journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their open science training.*
-
-Joy will provide an outline of a project in their application that they will develop in the program. Additionally, they will indicate their interests in learning particular aspects of Open Science and research.
-
-Sam will register as a mentor and list their expertise that they would like to share with their mentee.
-
-After the selection process, they will be involved in the following steps of this program:
-
-1. Based on their common interests, they will be introduced to each other as suitable mentee and mentor
-
-    They will meet every 2nd week on **mentee-mentor calls** (around 30 minutes). Sam will help Joy evaluate their understanding of the new topics introduced in the program, and guide their progress by providing constructive feedback.
-    Joy will be given assignments before these calls to help them apply new skills to their project. When needed, Joy and Sam will connect with other [experts](about#experts) to invite consultation on their project.
-
-2. Joy will participate in online [training calls](ols-4#calls) and share insights with other participants in the program.
-
-    In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
-
-3. Joy will get to know their peers from the cohort during social and co-working calls.
-
-    They will share their project ideas, learn about others' projects and discuss assignments.
-
-4. A final graduation call will allow Joy to present their project to other participants and exchange values.
-
-Sam will also participate in **mentor training** calls and attend topic-based discussions with other mentors aimed at enhancing their mentoring skills.
-
-A self-evaluation survey, mid-cohort survey and post-cohort survey will help Joy and Sam in positioning their knowledge in open science leadership before, during and after the program.
-
-For the next round, Joy may share what they learned by [mentoring](about#mentors) a new project in the future cohort and Sam will continue their mentoring effort or take an [expert](about#experts) role.
+Cohort | Schedule | Projects | Mentors | Experts | Facilitators
+--- | --- | --- | --- | --- | ---
+[OLS-1]({% link ols-1.md %}) | [{{ ols-1-schedule.weeks['01'].start }} - {{ ols-1-end }}]({% link _ols-1/schedule.md %}) | [{{ ols-1-participants | size }} mentees](/ols-1/projects-participants#participants) working on [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects) | [{{ ols-1-mentors | size }} mentors](/ols-1#mentors) | [{{ ols-1-experts | uniq | size }} experts](/ols-1#experts) | 
+[OLS-2]({% link ols-2.md %}) | [{{ ols-2-schedule.weeks['01'].start }} - {{ ols-2-end }}]({% link _ols-2/schedule.md %}) | [{{ ols-2-participants | size }} mentees](/ols-2/projects-participants#participants) working on [{{ ols-1-projects | size }} projects](/ols-2/projects-participants#projects) | [{{ ols-2-mentors | size }} mentors](/ols-2#mentors) | [{{ ols-2-experts | uniq | size }} experts](/ols-2#experts) | 
+[OLS-3]({% link ols-3.md %}) | [{{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }}]({% link _ols-3/schedule.md %}) | [{{ ols-3-participants | size }} mentees](/ols-3/projects-participants#participants) working on [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects) | [{{ ols-3-mentors | size }} mentors](/ols-3#mentors) | [{{ ols-3-experts | uniq | size }} experts](/ols-3#experts) | [{{ ols-3-facilitators | uniq | size }} facilitator](/ols-3#facilitators)
+[OLS-4]({% link ols-4.md %}) | [{{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }}]({% link _ols-4/schedule.md %}) | [{{ ols-4-participants | size }} mentees](/ols-4/projects-participants#participants) working on [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects) | [{{ ols-4-mentors | size }} mentors](/ols-4#mentors) | [{{ ols-4-experts | uniq | size }} experts](/ols-4#experts) | [{{ ols-4-facilitators | uniq | size }} facilitators](/ols-4#facilitators)
+[OLS-5]({% link ols-5.md %}) | [{{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }}]({% link _ols-5/schedule.md %}) | [{{ ols-5-participants | size }} mentees](/ols-5/projects-participants#participants) working on [{{ ols-5-projects | size }} projects](/ols-5/projects-participants#projects) | [{{ ols-5-mentors | size }} mentors](/ols-5#mentors) | [{{ ols-5-experts | uniq | size }} experts](/ols-5#experts) | [{{ ols-5-facilitators | uniq | size }} facilitators](/ols-5#facilitators)
+[OLS-6]({% link ols-6.md %}) | [{{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }}]({% link _ols-6/schedule.md %}) | [{{ ols-6-participants | size }} mentees](/ols-6/projects-participants#participants) working on [{{ ols-6-projects | size }} projects](/ols-6/projects-participants#projects) | [{{ ols-6-mentors | size }} mentors](/ols-6#mentors) | [{{ ols-6-experts | uniq | size }} experts](/ols-6#experts) | [{{ ols-6-facilitators | uniq | size }} facilitators](/ols-6#facilitators)

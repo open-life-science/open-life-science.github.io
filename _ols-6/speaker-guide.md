@@ -12,9 +12,9 @@ redirect_from: /ols-speaker-guide
 
 Thank you for considering speaking at our upcoming Cohort call! We look forward to welcoming you. **🎉🥳️👏**
 
-# About Open Life Science
+# About OLS
 
-The [Open Life Science (OLS) program]({% link index.md %}) is
+The [OLS program]({% link index.md %}) is
 designed for the early-stage researchers and potential academic leaders
 in becoming Open Science ambassadors in their communities.
 
@@ -36,7 +36,7 @@ To report an issue involving one of the organisers, please email one of the memb
 
 # About the cohort calls
 
-Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to Open Life Science]({% link _ols-6/schedule.md %}) is shared and discussed with all participants of the program.
+Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to OLS]({% link _ols-6/schedule.md %}) is shared and discussed with all participants of the program.
 
 These cohort calls introduce new Open Science related topics that are relevant for our participants to develop their project and bring them to the next stage.
 
