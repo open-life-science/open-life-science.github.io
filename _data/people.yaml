@@ -3614,10 +3614,12 @@ malloryfreeberg:
   twitter: MalloryFreeberg
 malvikasharan:
   bio: |-
-    Malvika Sharan is a Senior Researcher at [The Alan Turing Institute](https://turing.ac.uk), where she leads a [team of community managers](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems/community-management-and-open-research) and co-leads  [_The Turing Way-](https://the-turing-way.netlify.com), a community-led handbook on datas cience.
+    Malvika Sharan is a Senior Researcher at [The Alan Turing Institute](https://turing.ac.uk), where she leads a 
+    [team of community managers](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems/community-management-and-open-research) 
+    and co-leads [_The Turing Way_](https://the-turing-way.netlify.com), a community-led handbook on datas cience.
     She is a co-founder of Open Life Science, and an active contributor of several open source/science projects.
-    After receiving her PhD in Bioinformatics from Germany, she started her career in community building at the European Molecular Biology Laboratory. 
-    Connect with her on topics such as community building, open science, bioinformatics and representation of marginalised members in data science and research leadership.
+    Connect with her on topics such as community building, open science, strategic collaboration and representation of 
+    marginalised members in leadership.
   city: London
   country: United Kingdom
   expertise:
@@ -3637,6 +3639,7 @@ malvikasharan:
   pronouns: she/her
   title: Director of partnerships and strategy
   twitter: malvikasharan
+  website: https://malvikasharan.github.io/
 manulera:
   affiliation: Institut Curie
   bio: During my PhD, I used genetics, imaging and modelling to study the mitotic
