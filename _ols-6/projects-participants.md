@@ -13,49 +13,51 @@ photos:
 
 {% assign all-participants = '' %}
 {% for project in projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
+{% assign p-participants = '' %}
+{% for p in project.participants %}
+{% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
+{% endfor %}
 {% endfor %}
 
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
 
 Participants join this program with a project that they either are already working on or want to develop during this program.
 
-For the sixth round of the OLS program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects). 
+For the sixth round of the OLS program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects).
 
 # Projects
 
 {% for project in projects %}
-    {% if project.visible != false %}
+{% if project.visible != false %}
 
-        {% assign p-pparticipants = '' %}
-        
+        {% assign p-participants = '' %}
+
         {% for p in project.participants %}
-            {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
+            {% capture p-participants %}{{ p-participants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
         {% endfor %}
-        
+
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
         {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/people#{{ p }})
         {% endfor %}
-        {% endcapture %} 
+        {% endcapture %}
 
 ## {{ project.name }}
 
-**By**: {{ p-pparticipants | remove_first: ', ' }}
+**By**: {{ p-participants | remove_first: ', ' }}
 
 **Mentored by**: {{ p-mentors | remove_first: 'with ' }}
 
     {% capture difference %} {{ project.keywords | size | minus:1 }} {% endcapture %}
     {% unless difference contains '-' %}
+
 **Keywords**: {{ project.keywords | join: ', ' }}
-    {% endunless %}
+{% endunless %}
 
 {{ project.description }}
 
     {% endif %}
+
 {% endfor %}
 
 # Participants
