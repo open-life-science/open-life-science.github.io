@@ -439,8 +439,7 @@ To order them:
 
 3. Update `_config.yml` file to add new cohort in collection
 
-
-##License
+## License
 
 Attribution-ShareAlike 4.0 International
 
