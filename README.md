@@ -25,25 +25,25 @@ training and education in their communities.
 
 ## Who are we?
 
-We are currently a team of people who share a passion for Open Research and inclusiveness in Open Science. Please read me on [our website](https://openlifesci.org/community).
+We are currently a team of people who share a passion for Open Research and inclusiveness in Open Science. Please read more on [our website](https://openlifesci.org/community).
 
 ## What do we need?
 
 **You!** In whatever way you can help.
 
-We need expertise in open-science, training, mentoring, communication. We'd love your feedback along the way, and of course.
+We need expertise in open-science, training, mentoring, communication. We'd love your feedback along the way, of course.
 
 ## Get involved
 
 If you think you can help in any of the areas listed above (and we bet you can)
 or in any of the many areas that we haven't yet thought of (and here we're sure
-you can) then please check out [our contributors' guidelines](CONTRIBUTING.md)
+you can), then please check out [our contributors' guidelines](CONTRIBUTING.md)
 and our [roadmap](roadmap.md).
 
 Please note that it's very important to us that we maintain a positive and
-supportive environment for everyone who wants to participate. When you join us
+supportive environment for everyone who wants to participate. When you join us,
 we ask that you follow our [code of conduct](CODE_OF_CONDUCT.md) in all
-interactions both on and offline.
+interactions, both on and offline.
 
 ## How can I generate the website and contribute using GitPod?
 
@@ -52,7 +52,7 @@ interactions both on and offline.
 1. Setting up GitPod
    1. Create a fork of the OLS GitHub repository (to do only 1 time)
       1. Go on the GitHub repository: [github.com/open-life-science/open-life-science.github.io](https://github.com/open-life-science/open-life-science.github.io)
-      2. Click on th Fork button (top-right corner of the page)
+      2. Click on the Fork button (top-right corner of the page)
    2. Open your browser and navigate to [gitpod.io](https://www.gitpod.io/)
    3. Log in with GitHub
    4. Copy the link to your fork of the GTN, e.g. https://github.com/bebatut/open-life-science.github.io
@@ -60,9 +60,9 @@ interactions both on and offline.
       Gitpod will now configure your environment. This may take some time.
 
       Once the setup is finished, you should see a page with:
-      - On the Left: All the files in the OLS repository
-      - Top: The main window where you can view and edit files
-      - Bottom: Terminal window, where you can type commands (e.g. to build the website preview) and read output and error messages
+      - On the Left: All the files in the OLS repository.
+      - Top: The main window where you can view and edit files.
+      - Bottom: Terminal window, where you can type commands (e.g. to build the website preview) and read output and error messages.
 
 2. Build and preview the OLS website
    1. Type the following command `make serve-gitpod` in the terminal window (bottom)
@@ -81,14 +81,14 @@ interactions both on and offline.
    2. Option 2: via the web interface
       1. Create a new branch
          1. Click on the bottom-left on the branch logo button on the bottom of the page with the current branch (probably "main")
-         2. Give a new name for your new branch (at top of window)
+         2. Give your new branch a name (at top of window)
          3. Choose "+ Create new branch..." from the dropdown
       2. Commit changes
-         1. Click on the "Source Control" tab button (branch) on the left menu to show changed files
-         2. Click on the "+" icon next to the edited files to stage changes stage changes button
-         3. Hit the checkmark icon at the top to commit the changes
-         4. Enter a commit message (top of window) - Publish changes
-         5. Click the cloud button at bottom left to publish your changes publish changes button.
+         1. Click on the "Source Control" tab button (branch) on the left menu to show changed files.
+         2. Click on the "+" icon next to the edited files to stage changes (stage changes button).
+         3. Hit the checkmark icon at the top to commit the changes.
+         4. Enter a commit message (top of window) - Publish changes.
+         5. Click the cloud button at bottom left to publish your changes (publish changes button).
 
             Changes are now saved to your fork, and you can make a PR via the GitHub interface
    
@@ -110,7 +110,7 @@ In the sequel, we assume you use miniconda.
    $ git clone https://github.com/open-life-science/open-life-science.github.io.git
    ```
 
-3. Navigate to the `open-life-science.github.io/` folder with `cd`
+3. Navigate to the `open-life-science.github.io/` folder with the `cd` command
 4. Set up the conda environment:
 
    ```
@@ -156,15 +156,15 @@ To create a new blog post:
     ---
     ```
 
-4. Add content of the post in the file in Markdown
-3. Add images in `images/posts/`
+4. Add content of the post to the file in Markdown
+3. Add images in `images/posts/` directory
 
 ## Add someone as mentor, expert or organizer
 
 Add someone to the list of people:
 
 1. Open the `_data/people.yaml` file
-2. Create a new entry there (using the GitHub id, or firstname-lastname if no GitHub id) following the alphabetical order
+2. Create a new entry there (using the GitHub id, or firstname-lastname, if no GitHub id) following the alphabetical order
 3. Fill in information using the tags:
     - `first-name` (*mandatory*)
     - `last-name` (*mandatory*)
@@ -203,10 +203,10 @@ Add many people in a row to `_data/people.yaml`:
    - `Areas of expertise (1 element per line)`
    - `Bio`
 
-   A form like [this one](https://docs.google.com/forms/d/e/1FAIpQLScmsWw0VSvdytz3A1k6HnbfgOnsE4SiJcL9_qkMTs_Na6-l2Q/viewform?usp=pp_url) can be used to generate such csv
+   A form like [this one](https://docs.google.com/forms/d/e/1FAIpQLScmsWw0VSvdytz3A1k6HnbfgOnsE4SiJcL9_qkMTs_Na6-l2Q/viewform?usp=pp_url) can be used to generate such csv.
 
 2. Get a copy of the CSV file at the root of this folder
-3. Activate the conda environment
+3. Activate the conda environment:
 
    ```
    $ source activate open-life-science-website
@@ -217,7 +217,7 @@ Add many people in a row to `_data/people.yaml`:
    - pyyaml
    - pandas
 
-4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`
+4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`:
 
    ```
    $ python bin/prepare_website_data.py extractpeople \
@@ -241,9 +241,9 @@ Add many people in a row to `_data/people.yaml`:
    - `Areas of expertise (1 element per line)`
    - `Bio`
 
-   A form like [this one](https://docs.google.com/forms/d/e/1FAIpQLScmsWw0VSvdytz3A1k6HnbfgOnsE4SiJcL9_qkMTs_Na6-l2Q/viewform?usp=pp_url) can be used to generate such csv
+   A form like [this one](https://docs.google.com/forms/d/e/1FAIpQLScmsWw0VSvdytz3A1k6HnbfgOnsE4SiJcL9_qkMTs_Na6-l2Q/viewform?usp=pp_url) can be used to generate such csv.
 
-2. Activate the conda environment
+2. Activate the conda environment:
 
    ```
    $ source activate open-life-science-website
@@ -254,7 +254,7 @@ Add many people in a row to `_data/people.yaml`:
    - pyyaml
    - pandas
 
-4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`
+4. Run the script which extract information from the CSV file and add them to `_data/people.yaml`:
 
    ```
    $ python bin/prepare_website_data.py addmentorsexperts \
@@ -265,30 +265,30 @@ Add many people in a row to `_data/people.yaml`:
 
 ## Add a new organization
 
-1. Open the `_data/organizations.yaml` file
-2. Create a new entry there (using the name in lowercase, with spaces replaced by `-`) following an alphabetical order
+1. Open the `_data/organizations.yaml` file.
+2. Create a new entry there (using the name in lowercase, with spaces replaced by `-`) following an alphabetical order.
 3. Fill in information using the tags:
     - `name`
     - `website`
     - `description`
     - `country`
-4. Add a logo (if possible) named as the entry in `images/organizations` folder
-5. Add the path to the logo in `_data/organizations.yaml` using `logo` tag
+4. Add a logo (if possible) named as the entry in `images/organizations` folder.
+5. Add the path to the logo in `_data/organizations.yaml` using `logo` tag.
 
 ## Add a partner
 
-1. Make sure the organization is listed in the `_data/organizations.yaml` file and add it otherwise (see above)
-2. Open the `_data/partners.yaml` file
-3. Create a new entry there
+1. Make sure the organization is listed in the `_data/organizations.yaml` file and add it otherwise (see above).
+2. Open the `_data/partners.yaml` file.
+3. Create a new entry there.
 3. Fill in information using the tags:
-    - `partner` using its short name from the `_data/organizations.yaml` file
-    - `details` with details about the partnership
+    - `partner` using its short name from the `_data/organizations.yaml` file.
+    - `details` with details about the partnership.
 
 ## Add a funding
 
-1. Make sure the organization is listed in the `_data/organizations.yaml` file and add it otherwise (see above)
-2. Open the `_data/funding.yaml` file
-3. Create a new entry there
+1. Make sure the organization is listed in the `_data/organizations.yaml` file and add it otherwise (see above).
+2. Open the `_data/funding.yaml` file.
+3. Create a new entry there.
 3. Fill in information using the tags:
     - `funder` using its short name from the `_data/organizations.yaml` file
     - `amount` of funding
@@ -343,13 +343,13 @@ In this file, for each week, it is listed the timeframe and the different calls 
 
 2. Adapt the script in `bin/update_schedule.sh` with cohort id and link to CSV export of the spreadsheet
 
-## Order experts and possible mentors by expertise areas
+## Order experts and possible mentors by areas of expertise
 
-In metadata file for cohort, experts and possible mentors can be ordered by expertise area to be display in cohort page given these areas.
+In metadata file for cohort, experts and possible mentors can be ordered by areas of expertise, to be display in the cohort page given these areas.
 
 To order them:
 
-1. Activate the conda environment
+1. Activate the conda environment:
 
    ```
    $ source activate open-life-science-website
@@ -360,7 +360,7 @@ To order them:
    - pyyaml
    - pandas
 
-2. Run the script which sort expertise and save information in metadata file
+2. Run the script which sort expertise and save information in metadata file:
 
    ```
    $ python bin/prepare_website_data.py sortexpertises -c <cohort id>
@@ -376,9 +376,9 @@ To order them:
    - `Comment regarding review` (with `rejected` if needed)
    - `Keywords`
 
-2. Create a CSV file with participant information (similar as the one needed to add new people) with an extra column with project name
+2. Create a CSV file with participant information (similar to the one needed to add new people) and an extra column with project name
 
-3. Activate the conda environment
+3. Activate the conda environment:
 
    ```
    $ source activate open-life-science-website
@@ -389,7 +389,7 @@ To order them:
    - pyyaml
    - pandas
 
-4. Run the script which extract project information from a CSV file and add them in project file
+4. Run the script which extracts project information from a CSV file and add them in project file:
 
    ```
    $ python bin/prepare_website_data.py addprojects \
@@ -414,11 +414,11 @@ To order them:
    - `Note link`
    - `Description`
 
-2. Add events to [Google calendar](https://support.google.com/calendar/answer/37118#advanced&zippy=%2Ccreate-or-edit-a-csv-file)
+2. Add events to [Google calendar](https://support.google.com/calendar/answer/37118#advanced&zippy=%2Ccreate-or-edit-a-csv-file).
 
 ## Create files for a new cohort
 
-1. Activate the conda environment
+1. Activate the conda environment:
 
    ```
    $ source activate open-life-science-website
@@ -429,7 +429,7 @@ To order them:
    - pyyaml
    - pandas
 
-2. Run the script which create new cohort files
+2. Run the script which create new cohort files:
 
    ```
    $ python bin/prepare_website_data.py createcohort \
