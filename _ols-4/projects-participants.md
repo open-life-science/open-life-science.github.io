@@ -13,10 +13,10 @@ photos:
 
 {% assign all-participants = '' %}
 {% for project in projects %}
-{% assign p-participants = '' %}
-{% for p in project.participants %}
-{% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-{% endfor %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
+    {% endfor %}
 {% endfor %}
 
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
@@ -28,12 +28,12 @@ For the third round of the Open Life Science program, we are happy to have [{{ p
 # Projects
 
 {% for project in projects %}
-{% if project.visible != false %}
+    {% if project.visible != false %}
 
-        {% assign p-participants = '' %}
+        {% assign p-pparticipants = '' %}
 
         {% for p in project.participants %}
-            {% capture p-participants %}{{ p-participants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
+            {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
         {% endfor %}
 
         {% assign mentor = project.mentor %}
@@ -44,20 +44,18 @@ For the third round of the Open Life Science program, we are happy to have [{{ p
 
 ## {{ project.name }}
 
-**By**: {{ p-participants | remove_first: ', ' }}
+**By**: {{ p-pparticipants | remove_first: ', ' }}
 
 **Mentored by**: {{ p-mentors | remove_first: 'with ' }}
 
     {% capture difference %} {{ project.keywords | size | minus:1 }} {% endcapture %}
     {% unless difference contains '-' %}
-
 **Keywords**: {{ project.keywords | join: ', ' }}
-{% endunless %}
+    {% endunless %}
 
 {{ project.description }}
 
     {% endif %}
-
 {% endfor %}
 
 # Participants

@@ -18,13 +18,13 @@ photos:
 {% assign all-participants = '' %}
 {% assign all-mentors = '' %}
 {% for project in projects %}
-{% assign p-participants = '' %}
-{% for p in project.participants %}
-{% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-{% endfor %}
-{% for m in project.mentors %}
-{% capture all-mentors %}{{ all-mentors }}, {{ m }}{% endcapture %}
-{% endfor %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture all-mentors %}{{ all-mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
 {% endfor %}
 
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
@@ -33,26 +33,25 @@ photos:
 {% assign all-speakers = '' %}
 {% assign all-hosts = '' %}
 {% for w in schedule.weeks %}
-{% for c in w[1].calls %}
-{% if c.type == 'Cohort' %}
-{% for r in c.resources %}
-{% if r.type == 'slides' and r.speaker %}
-{% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
-{% endif %}
-{% endfor %}
-{% endif %}
-{% if c.hosts %}
-{% for h in c.hosts %}
-{% capture all-hosts %}{{ all-hosts}}, {{ h }}{% endcapture %}
-{% endfor %}
-{% endif %}
-{% endfor %}
+    {% for c in w[1].calls %}
+        {% if c.type == 'Cohort' %}
+            {% for r in c.resources %}
+                {% if r.type == 'slides' and r.speaker %}
+                    {% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {% if c.hosts %}
+            {% for h in c.hosts %}
+                {% capture all-hosts %}{{ all-hosts}}, {{ h }}{% endcapture %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
 {% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
 
 # The OLS-5 program
-
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
@@ -74,10 +73,9 @@ and international bioinformatics communities.
 The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life science.
 
 At the end of the program, our participants will be able to:
-
-- Describe and define the terms _openness_, _open science_, _open leadership_, _community interactions_, _value exchanges_, _inclusivity_, _accessibility_, _open Science practices in developing resources and training_
+- Describe and define the terms *openness*, *open science*, *open leadership*, *community interactions*, *value exchanges*, *inclusivity*, *accessibility*, *open Science practices in developing resources and training*
 - Learn how to apply those principles to open leadership and working open in their projects and communities
-  . Learn how to collect, invite, and tell stories that demonstrate how and why openness benefits the communities they serve
+. Learn how to collect, invite, and tell stories that demonstrate how and why openness benefits the communities they serve
 - Give original examples for the types of openness in science
 - Design
   - Illustrate the need for a project, its vision, and its goals
@@ -117,7 +115,6 @@ Our project leads are supported in this program by our mentor-community who are 
 Our mentors are Open Science practitioners and champions with previous experiences in training and mentoring. They are currently working in different professions in data science, publishing, community building, software development, clinical studies, industries, scientific training and IT services.
 
 Mentors advise and inspire
-
 - Connect: to people, programs, companies
 - Recommend: resources, readings, classes, experiences
 - Feedback: for the project leads to consider
@@ -168,11 +165,11 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
 </div>
 {% endif %} -->
 
+
 <!-- Pool of mentors (hidden before cohort starts)
 Any modification of the content should be done in the _data/ols-5-projects.yaml file -->
 
 We thank the {{ p-mentors | size }} mentors this round.
-
 <div class="people">
 {% for entry in p-mentors %}
     {% assign username = entry %}
@@ -245,7 +242,6 @@ We thank the **{{ metadata.experts | size }} persons who registered to be expert
 A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-5 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
 
 {% if all-speakers != '' %}
-
 ### Speakers during cohort calls
 
 <div class="people">
@@ -317,7 +313,6 @@ The resources available to the OLS-5 cohort members will facilitate their commun
 The full cohort meetings take place **every 2 weeks** (unless mentioned otherwise) and last for **90 minutes**.
 
 During these calls:
-
 - Organisers/hosts will introduce new topic of the week
 - Speakers will present their work related to the topic of the week
 - Participants will be given group discussion exercises
@@ -342,7 +337,6 @@ If you are unable to communicate with your mentor regularly or do not engage in 
 The Mentor-mentee calls take place **every 2 weeks** (unless mentioned otherwise) and last for **30 minutes**.
 
 During these calls:
-
 - Mentors help their mentees evaluate their understanding of the new topics
 - Mentees will complete their task assigned at the cohort calls using new skills learned that week
 - Mentors and mentee will review progress together where mentees provide constructive feedback
