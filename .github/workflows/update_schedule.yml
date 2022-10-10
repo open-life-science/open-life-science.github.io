@@ -1,0 +1,21 @@
+name:
+  Update schedule
+
+  # Controls when the workflow will run
+on:
+  # Triggers the workflow every 3 months (starting from october 2022)
+  schedule:
+    - cron: "0 0 10 */3 *" # every 3 months on the 10th of the month at 00:00
+
+jobs:
+  # This workflow contains a single job called "cron"
+  updateschedule:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v2
+      # Runs a update_schedule.sh script
+      - name: update schedule
+        run: bin/update_schedule.sh

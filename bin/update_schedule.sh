@@ -1,5 +1,7 @@
 #!/usr/bin/env bash#
-
+ACTIVE_COHORT=6
+NEXT_COHORT=$((ACTIVE_COHORT+1))
+EXPORT_URL="https://docs.google.com/spreadsheets/d/1jXJH8J4MKee80ODcgWoxpvPkV8ob0tw86Fov8nlXxXw/export?format=csv&gid=1181436982"
 #python bin/prepare_website_data.py \
 #    updateschedule \
 #    --cohort '4' \
@@ -12,8 +14,8 @@
 
 python bin/prepare_website_data.py \
     updateschedule \
-    --cohort '6' \
-    --schedule_url "https://docs.google.com/spreadsheets/d/13rJ_Qqre7VfiW6Ioh-v4r6Xc9PvodZYriJ1ZzUJrRF8/export?format=csv&gid=1181436982"
+    --cohort "$NEXT_COHORT" \
+    --schedule_url "$EXPORT_URL"
 
 #python bin/prepare_website_data.py \
 #    updateschedule \
