@@ -23,13 +23,14 @@ $link-active: $link-hover;
   a {
     border-bottom: 0;
     color: $link;
-    font-weight: 500;
-
+    font-weight: normal;
+    text-decoration: none;
     &:active,
     &:focus,
     &:hover {
       background: none;
-      color: $link-hover;
+      text-decoration: none;
+      color: $link;
     }
   }
 }
@@ -118,13 +119,16 @@ $link-active: $link-hover;
     color: inherit;
     font-weight: 500;
     padding: 2px;
+    text-decoration: none;
 
     &:active,
     &:focus,
     &:hover {
-      background-color: $link;
+      
+      font-weight: bold;
       border-radius: 2px;
-      color: $white;
+      color: $link;
+      text-decoration: none;
     }
   }
 }
@@ -255,7 +259,7 @@ $link-active: $link-hover;
       &:active,
       &:focus,
       &:hover {
-        color: $black;
+        color: $link;
         background: none;
       }
     }
@@ -318,11 +322,14 @@ $link-active: $link-hover;
   a {
     border-bottom: none;
     color: inherit;
-
+    text-decoration: none;
     &:active,
     &:focus,
     &:hover {
       background: none;
+      color: $link;
+      font-weight: bold;
+      text-decoration: none;
     }
   }
 }
