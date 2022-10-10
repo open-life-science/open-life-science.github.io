@@ -156,7 +156,7 @@ To create a new blog post:
     ---
     ```
 
-4. Add content of the post to the file in Markdown
+4. Add content of the post to the file in [Markdown](https://www.markdownguide.org/getting-started/)
 3. Add images in `images/posts/` directory
 
 ## Add someone as mentor, expert or organizer
