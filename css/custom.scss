@@ -23,13 +23,16 @@ $link-active: $link-hover;
   a {
     border-bottom: 0;
     color: $link;
-    font-weight: 500;
+    font-weight: normal;
+    text-decoration: none;
 
     &:active,
     &:focus,
     &:hover {
       background: none;
       color: $link-hover;
+      text-decoration: none;
+      color: $link;
     }
   }
 }
@@ -114,9 +117,9 @@ $link-active: $link-hover;
 
 .content {
   a {
-    border-bottom: 2px solid $link;
     color: inherit;
-    font-weight: 500;
+    font-weight: bold;
+    text-decoration: none;
     padding: 2px;
 
     &:active,
@@ -125,6 +128,7 @@ $link-active: $link-hover;
       background-color: $link;
       border-radius: 2px;
       color: $white;
+      text-decoration: none;
     }
   }
 }
@@ -251,12 +255,14 @@ $link-active: $link-hover;
       border-bottom: none;
       color: inherit;
       padding: 2px;
+      text-decoration: none;
 
       &:active,
       &:focus,
       &:hover {
         color: $black;
         background: none;
+        text-decoration: none;
       }
     }
   }
@@ -318,11 +324,14 @@ $link-active: $link-hover;
   a {
     border-bottom: none;
     color: inherit;
+    text-decoration: none;
 
     &:active,
     &:focus,
     &:hover {
       background: none;
+      text-decoration: none;
+      color: #48b87d;
     }
   }
 }
