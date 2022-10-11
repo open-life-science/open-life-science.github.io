@@ -441,9 +441,9 @@ To order them:
 
 ## License
 
-Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-
 The content of this website are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
+
+The code behind the infrastructure is licensed under the [MIT License](LICENSE.md)
 
 
  
