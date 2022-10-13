@@ -51,7 +51,6 @@ photos:
 {% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
 
 # The OLS-2 program
-
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
