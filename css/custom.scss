@@ -59,8 +59,8 @@ $link-active: $link-hover;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-  width: 450px;
+  height: 450px;
+  width: 100%;
 
   &.no-image {
     height: auto;
