@@ -29,7 +29,7 @@ photos:
     <h1>OLS - 2</h1>
     </div>
     <div class="flip-card-back">
-      <a href='ols-1'><h2>Click here to find out more about the fifth cohort!</h2></a>
+      <a href='ols-2'><h2>Click here to find out more about the second cohort!</h2></a>
     </div>
   </div>
  </div>
@@ -41,7 +41,7 @@ photos:
     <h1>OLS - 3</h1>
     </div>
     <div class="flip-card-back">
-      <a href='ols-1'><h2>Click here to find out more about the fifth cohort!</h2></a>
+      <a href='ols-3'><h2>Click here to find out more about the third cohort!</h2></a>
     </div>
   </div>
  </div>
@@ -52,7 +52,7 @@ photos:
     <h1>OLS - 4</h1>
     </div>
     <div class="flip-card-back">
-      <a href='ols-1'><h2>Click here to find out more about the fourth cohort!</h2></a>
+      <a href='ols-4'><h2>Click here to find out more about the fourth cohort!</h2></a>
     </div>
   </div>
  </div>
@@ -63,7 +63,7 @@ photos:
     <h1>OLS - 5</h1>
     </div>
     <div class="flip-card-back">
-      <a href='ols-1'><h2>Click here to find out more about the fifth cohort!</h2></a>
+      <a href='ols-5'><h2>Click here to find out more about the fifth cohort!</h2></a>
     </div>
   </div>
  </div>
@@ -74,7 +74,7 @@ photos:
     <h1>OLS - 6</h1>
     </div>
     <div class="flip-card-back">
-      <a href='ols-1'><h2>Click here to find out more about the sixth cohort!</h2></a>
+      <a href='ols-6'><h2>Click here to find out more about the sixth cohort!</h2></a>
     </div>
   </div>
  </div>
