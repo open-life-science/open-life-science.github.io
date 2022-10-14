@@ -28,7 +28,7 @@ Participants join this program with a **project** that they either are already w
 
 *Please register on Open Review before July 1, 2022 to allow activation of your Open Review profile as described in the [OLS-6 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
 
-OLS-6 runs from September 2022 to January 2023. Applications for OLS-7 will open in end 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to hear when next cohort applications open.
+OLS-6 runs from September 2022 to January 2023. Applications for OLS-7 will open at end of 2022. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates on the next cohort application.
 
 ## Timeline
 
