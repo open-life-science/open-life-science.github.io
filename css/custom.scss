@@ -34,6 +34,87 @@ $link-active: $link-hover;
   }
 }
 
+/*Cohort Addition*/
+/* The flip card container*/
+.cohort-grid{
+  width: 100%;
+  object-fit: contain;
+  height: auto;
+  text-align: center;
+}
+
+.flip-card{
+  background-color: transparent;
+  width: 350px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  display: inline-block;
+}
+
+.flip-card::after{
+  content: "";
+  clear:both;
+  display: table;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-image: linear-gradient($dark-green, #e9e5e5);
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-image: linear-gradient(#e9e5e5, $dark-green);
+  transform: rotateY(180deg);
+  color: white;
+}
+
+.flip-card-back a:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.flip-card-back a:hover{
+  background-image: linear-gradient(to right, $dark-green , #e9e5e5);
+}
+
+.flip-card-back h2{
+  color: white;
+}
+
+/*End if Cohort Addition*/
 .navbar {
   .navbar-dropdown {
     border-top: none;

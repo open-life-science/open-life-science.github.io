@@ -51,53 +51,13 @@ photos:
 {% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
 
-# The OLS-5 program
-{:.no_toc}
+# The OLS-5 Program
 
-**Purpose**: Training for early stage researchers and young leaders interested in furthering their
-Open Science skills
-
-**Outcome**: Ambassadors for Open Science practice, training and education across multiple European
-and international bioinformatics communities.
-
-**Process**: A 16-week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
-
-1. **Sharing** essential knowledge required to create, lead, and sustain an Open Science project.
-2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
-3. **Empowering** them to become effective Open Science ambassadors in their communities.
-
-{% include _includes/toc.html %}
-
-# Goals and Learning Objectives
-
-The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life science.
-
-At the end of the program, our participants will be able to:
-- Describe and define the terms *openness*, *open science*, *open leadership*, *community interactions*, *value exchanges*, *inclusivity*, *accessibility*, *open Science practices in developing resources and training*
-- Learn how to apply those principles to open leadership and working open in their projects and communities
-. Learn how to collect, invite, and tell stories that demonstrate how and why openness benefits the communities they serve
-- Give original examples for the types of openness in science
-- Design
-  - Illustrate the need for a project, its vision, and its goals
-  - Embrace and communicate the benefits of Open Science and how to strategically apply different open practices to their work
-  - Identify the public resources to share their data
-  - Identify the different type of Open Access and associated journals
-- Build
-  - Start any project with openness in mind from day one
-  - Setup a project repository on GitHub using best practices for enabling collaboration
-  - Choose and apply open licenses appropriately
-- Empower
-  - Create and enforce a safe working environment
-  - Promote the values of Open Science to empower others to lead and collaborate
-  - Include a broad range of contributors in their work
-  - Communicate their work and vision in a 2min demo of elevator pitch
-- Lead an open project in science
-
-# Timeline
+# The Program Timeline
 
 {% include _includes/timeline.md %}
 
-# Schedule
+# The Program Schedule
 
 {% include _includes/overall-schedule.md %}
 
