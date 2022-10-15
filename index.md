@@ -1,7 +1,7 @@
 ---
 layout: default
-title: OLS
-description: A mentoring & training program for Open Science ambassadors
+title: A mentoring & training program for Open Science ambassadors
+description: The OLS program is for people interested in applying open principles in their work and becoming Open Science ambassadors in their communities
 image: /images/index.jpg
 photos:
   name: Bérénice Batut
