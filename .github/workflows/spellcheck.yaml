@@ -1,15 +1,20 @@
-name: Spellcheck Action
-on: [push, pull_request]
-
+name: spellcheck
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - master
+      - main
 jobs:
-  build:
-    name: Spellcheck
+  check-spelling:
     runs-on: ubuntu-latest
     steps:
-      # The checkout step
-      - uses: actions/checkout@v3
-      - uses: rojopolis/spellcheck-github-actions@0.27.0
-        name: Spellcheck
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Check Spelling
+        uses: rojopolis/spellcheck-github-actions@0.23.0
         with:
-          source_files: "README.md" "./*.md" "./_data/*.md"
-          task_name: MarkdownCheck
+          config_path: .spellcheck.yml
+          task_name: spellcheck-markdown-files
