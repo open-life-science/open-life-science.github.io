@@ -22,8 +22,8 @@ matrix:
             - "pre"
             - "blockquote"
     sources:
-      - "*.md"
-      - "_data/**/*.md"
+      - "README.md"
+      #- "_data/**/*.md"
       # - '_includes/**/*.md'
       # - '_posts/**/*.md'
       # - '_ols-1/**/*.md'
