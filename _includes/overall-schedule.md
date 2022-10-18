@@ -29,10 +29,10 @@ Organizers will inform participants of the week schedule by email.
 <script type="application/ld+json" >
 {
   "@context": "https://schema.org",
-  "@id": "https://4000-docelijah-openlifescien-imqv6d2ud7l.ws-eu71.gitpod.io/ols-6/schedule/",
+  "@id": "https://openlifesci.org/ols-6/schedule/",
   "@type": "Course",
   "dct:conformsTo": "https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08",
-  "description": "The OLS program is for people interested in applying open principles in their work and becoming Open Science ambassadors in their communities.",
+  "description":  "{{site.description}}",
   "hasCourseInstance": [
     {
       "@context": "https://schema.org",
