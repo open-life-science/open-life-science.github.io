@@ -51,7 +51,7 @@ photos:
 {% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
 
-# The OLS-6 Program
+# The OLS-5 Program
 
 # The Program Timeline
 
