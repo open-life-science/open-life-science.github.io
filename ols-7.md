@@ -52,11 +52,11 @@ photos:
 
 # The OLS-7 Program
 
-# Timeline
+# The Program Timeline
 
 {% include _includes/timeline.md %}
 
-# Schedule
+# The Program Schedule
 
 {% include _includes/overall-schedule.md %}
 
