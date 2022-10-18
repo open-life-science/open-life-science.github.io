@@ -52,7 +52,7 @@ photos:
 {% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
 
 # The OLS-5 Program
-
+{% include _includes/timeline.md %}
 # The Program Timeline
 
 {% include _includes/timeline.md %}
