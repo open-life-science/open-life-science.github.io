@@ -14,7 +14,7 @@ photos:
   <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <h1>OLS - 1</h1>
+    <h1>OLS-1</h1>
     </div>
     <div class="flip-card-back">
    <a href='ols-1'><h2>Click here to find out more about the first cohort!</h2></a>
