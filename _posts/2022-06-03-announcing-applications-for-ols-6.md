@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OLS-5 graduations and apply now for OLS-6!
+categories: News
 authors:
 - bebatut
 - emmyft
