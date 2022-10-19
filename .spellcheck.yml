@@ -22,15 +22,15 @@ matrix:
             - "pre"
             - "blockquote"
     sources:
-      - "README.md"
-       - '*.md'
+      - 'README.md'
+      - '*.md'
       - '_includes/*.md'
-       - '_posts/*.md'
-       - '_ols-1/*.md'
-       - '_ols-2/*.md'
-       - '_ols-3/*.md'
-       - '_ols-4/*.md'
-       - '_ols-5/*.md'
-       - '_ols-6/*.md'
-       - '_ols-7/*.md'
-       - '_ols-8/*.md'
+      - '_posts/*.md'
+      - '_ols-1/*.md'
+      - '_ols-2/*.md'
+      - '_ols-3/*.md'
+      - '_ols-4/*.md'
+      - '_ols-5/*.md'
+      - '_ols-6/*.md'
+      - '_ols-7/*.md'
+      - '_ols-8/*.md'
