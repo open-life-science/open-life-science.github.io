@@ -3,11 +3,11 @@ matrix:
     expect_match: false
     apsell:
       mode: en
-#     dictionary:
-#       wordlists:
-#         - .wordlist.txt
-#       output: wordlist.dic
-#       encoding: utf-8
+     dictionary:
+       wordlists:
+         - .wordlist.txt
+       output: wordlist.dic
+       encoding: utf-8
     pipeline:
       - pyspelling.filters.markdown:
           markdown_extensions:
