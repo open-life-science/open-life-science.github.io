@@ -3,11 +3,11 @@ matrix:
     expect_match: false
     apsell:
       mode: en
-    dictionary:
-      wordlists:
-        - .wordlist.txt
-      output: wordlist.dic
-      encoding: utf-8
+#     dictionary:
+#       wordlists:
+#         - .wordlist.txt
+#       output: wordlist.dic
+#       encoding: utf-8
     pipeline:
       - pyspelling.filters.markdown:
           markdown_extensions:
@@ -22,15 +22,14 @@ matrix:
             - "pre"
             - "blockquote"
     sources:
-      - 'README.md'
-      - '*.md'
-      - '_includes/*.md'
-      - '_posts/*.md'
-      - '_ols-1/*.md'
-      - '_ols-2/*.md'
-      - '_ols-3/*.md'
-      - '_ols-4/*.md'
-      - '_ols-5/*.md'
-      - '_ols-6/*.md'
-      - '_ols-7/*.md'
-      - '_ols-8/*.md'
+      - **/*.md
+      - _includes/**/*.md
+      - _posts/**/*.md
+      - _ols-1/**/*.md
+      - _ols-2/**/*.md
+      - _ols-3/**/*.md
+      - _ols-4/**/*.md
+      - _ols-5/**/*.md
+      - _ols-6/**/*.md
+      - _ols-7/**/*.md
+      - _ols-8/**/*.md
