@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcoming Paz to the OLS Team
+categories: Blog
 authors:
 - bebatut
 - emmyft
