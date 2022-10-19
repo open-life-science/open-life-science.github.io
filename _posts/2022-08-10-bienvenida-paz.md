@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bienvenida Paz, al Equipo OLS"
+categories: Blog
 authors:
 - bebatut
 - emmyft
