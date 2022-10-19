@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OLS-5 speedblog: Open Science MOOC, TU Delft"
+categories: Blog
 authors:
 - alecandian
 - lwbwalma
