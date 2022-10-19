@@ -2018,13 +2018,15 @@ federico-cestares:
   pronouns: He- él
   twitter: fecestares
 fnyasimi:
-  affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
-  bio: Festus is a bioinformatician interested in community outreach, open science
+  affiliation: University of Chicago
+  bio: Festus is a researcher in bioinformatics and data science. His main interestes include 
+    community outreach, open science, reproducible research
     and networking. He is actively engaged in training activities and he is the lead
-    at the Bioinformatics Hub of Kenya.
+    at the Bioinformatics Hub of Kenya(BHKi).
   country: Kenya
   expertise:
   - Bioinformatics
+  - Data Science
   - Biomedical Research
   first-name: Festus
   last-name: Nyasimi
