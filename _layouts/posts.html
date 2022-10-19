@@ -27,13 +27,27 @@ layout: default
                     <a href="{{ post.url }}"><p>{{ post.title | escape }}</p></a>
                 {% endif %}
                 </div>
-
-                <p class="subtitle">
+                
+                    <p class="subtitle">
                     <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time>
                     - {{ authors | remove_first: ', ' | strip }}
-                </p>
+                    </p> 
+                
+        <div class="post-categories">
+            {% if post %}
+              {% assign categories = post.categories %}
+            {% else %}
+              {% assign categories = page.categories %}
+            {% endif %}
+            {% for category in categories %}
+            <a href="{{site.baseurl}}/categories/#{{category|slugize}}" style="color: red; font-style: italic; font-size: 16px; font-family: sans-serif;">{{category | join: ', '}}</a>
+            {% unless forloop.last %}&nbsp;{% endunless %}
+            {% endfor %}
+          </div>
 
-                {{ post.excerpt }}
+
+             
+                    {{ post.excerpt }}                    
             </div>
         </div>
     </div>
