@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Science should not be a hobby
+categories: Blog
 authors:
 - estherplomp
 image: ../images/2022-05-13-os-hobby-blog.jpg
