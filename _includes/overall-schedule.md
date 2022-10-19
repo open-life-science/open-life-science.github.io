@@ -23,90 +23,27 @@ Organizers will inform participants of the week schedule by email.
 {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
 | {{ w-desc }} | [{{ c.type }}](/{{ cohort }}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" | remove: "&"  }}-calls) | {{ date }} | [**{{ c.title }}**](/{{ cohort }}/schedule#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
 {%- assign w-desc = "" %}
-{%- endfor %}
+{%- endfor %} 
 {%- endfor %}
 
 <script type="application/ld+json" >
 {
   "@context": "https://schema.org",
-  "@id": "https://openlifesci.org/ols-6/schedule/",
+  "@id": "{{ site.url }}/{{ cohort }}](/schedule",
   "@type": "Course",
   "dct:conformsTo": "https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08",
   "description":  "{{site.description}}",
-  "hasCourseInstance": [
+    "hasCourseInstance": [
     {
       "@context": "https://schema.org",
       "@type": "CourseInstance",
       "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "Welcome to OLS",
-      "endDate": "2022-10-05",
-      "location": "online",
-      "startDate": "2022-09-27"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "Tooling and roadmapping for Open projects",
-      "endDate": "",
-      "location": "online",
-      "startDate": "2022-10-12"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "Open Science I: Project Development and Introduction to Working Open",
-      "endDate": "",
-      "location": "online",
-      "startDate": "2022-10-25"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "Community design for inclusivity",
-      "endDate": "",
-      "location": "online",
-      "startDate": "2022-11-09"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "Open Science II: Knowledge Dissemination",
-      "endDate": "",
-      "location": "online",
-      "startDate": "2022-11-22"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "Diversity and Inclusion & Ally skills",
-      "endDate": "",
-      "location": "online",
-      "startDate": "2022-12-07"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "Open Science III: Next steps - applying FAIR research principles",
-      "endDate": "",
-      "location": "online",
-      "startDate": "2022-12-20"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "Final presentations & Graduation",
-      "endDate": "2023-01-18",
-      "location": "online",
-      "startDate": "2023-01-17"
+      "courseMode": "{%- for w in schedule.weeks %} {%- capture w-desc %}**Week {{ w[0] }}** (start. {{ w[1].start }}){% endcapture %} {%- for c in w[1].calls %}{%- capture date %} {% if c.type !='Mentors-Mentee'%} {{ c.date }} {% if c.time %} ([{{ c.time }} European Time] (https://arewemeetingyet.com/Berlin/{{ c.date | date: '%Y-%m-%d' }}/{{ c.time }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))) {% endif %}{% endif %}{% endcapture %} | {{ w-desc }} | [{{ c.type }}](/{{ cohort }}#{{ c.type | downcase | remove: '(' remove: | remove:')'| remove: '@' | remove: ':' | remove: ',' | replace: ' ', '-' | remove: '&'}}-calls) | {{ date }} | [**{{ c.title }}**] (/{{ cohort }}/schedule#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |{%- assign w-desc = '' %} {%- endfor %} {%- endfor %}"
+   
     }
+ 
   ],
+
   "keywords": "OLS, Working Open, Cohorts",
   "name": "Cohorts Call"
 }
