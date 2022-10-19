@@ -38,6 +38,8 @@ collections:
   ols-8:
     permalink: /ols-8/:path/
     output: true
+  cohorts:
+    output: true
 
 includes_dir: .
 
