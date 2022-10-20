@@ -5,7 +5,7 @@ timeline:
   description: Call for Application opens
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
 - date: June 20, 2022
-  time: '15:00'
+  time: '14:00'
   duration: 60 min
   description: Application webinar
   type:
@@ -15,7 +15,7 @@ timeline:
   recording: null
   details: '[**Register to join**](https://us02web.zoom.us/meeting/register/tZUvfu-grjotHtHKxPGh1m2oWmr3d8vKDbC8), or watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
 - date: July 1, 2022
-  time: '11:00'
+  time: '10:00'
   duration: 60 min
   description: Application Clinic Call
   type:
@@ -37,7 +37,7 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '16:00'
+    - time: '15:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -45,7 +45,7 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 1
       type: Mentor
-    - time: '10:00'
+    - time: '09:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -56,16 +56,16 @@ weeks:
   '02':
     start: September 26, 2022
     calls:
-    - time: '18:00'
+    - time: '17:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
-    - time: '10:00'
+    - time: '09:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
     - date: September 27, 2022
-      time: '11:00'
+      time: '10:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-02
       content: |-
@@ -104,7 +104,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 05, 2022
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-03
       content: |-
@@ -140,7 +140,7 @@ weeks:
     start: October 10, 2022
     calls:
     - date: October 12, 2022
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -181,7 +181,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 18, 2022
-      time: '11:00'
+      time: '10:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-05
       content: |-
@@ -207,7 +207,7 @@ weeks:
     start: October 24, 2022
     calls:
     - date: October 25, 2022
-      time: '11:00'
+      time: '10:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-06
       content: |-
@@ -243,7 +243,7 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 02, 2022
-      time: '18:00'
+      time: '17:00'
       duration: 30 min
       notes: https://bit.ly/ols-6-week-07
       title: Q&A call
@@ -252,7 +252,7 @@ weeks:
     start: November 07, 2022
     calls:
     - date: November 09, 2022
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-08
       content: |-
@@ -285,7 +285,7 @@ weeks:
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 15, 2022
-      time: '11:00'
+      time: '10:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -317,7 +317,7 @@ weeks:
     start: November 21, 2022
     calls:
     - date: November 22, 2022
-      time: '11:00'
+      time: '10:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-10
       content: |-
@@ -353,7 +353,7 @@ weeks:
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 30, 2022
-      time: '18:00'
+      time: '17:00'
       duration: 30 min
       notes: https://bit.ly/ols-6-week-11
       title: Q&A call
@@ -362,7 +362,7 @@ weeks:
     start: December 05, 2022
     calls:
     - date: December 07, 2022
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-12
       title: Diversity and Inclusion & Ally skills
@@ -392,7 +392,7 @@ weeks:
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
     - date: December 13, 2022
-      time: '11:00'
+      time: '10:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-13
       content: |-
@@ -415,7 +415,7 @@ weeks:
     start: December 19, 2022
     calls:
     - date: December 20, 2022
-      time: '11:00'
+      time: '10:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-14
       content: "In this call, participants will:\n- Learn how to apply FAIR research\
@@ -441,7 +441,7 @@ weeks:
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
     - date: January 10, 2023
-      time: '10:00'
+      time: '09:00'
       duration: 60 min
       notes: https://bit.ly/ols-6-week-15
       content: |-
@@ -472,10 +472,10 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '15:00'
+      time: '14:00'
       duration: 60 min
     - date: January 12, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 60 min
       notes: https://bit.ly/ols-6-week-15
       content: |-
@@ -495,7 +495,7 @@ weeks:
     start: January 16, 2023
     calls:
     - date: January 17, 2023
-      time: '10:00'
+      time: '09:00'
       duration: 60 min
       notes: https://bit.ly/ols-6-week-16
       content: |-
@@ -526,10 +526,10 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '15:00'
+      time: '14:00'
       duration: 60 min
     - date: January 19, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 60 min
       notes: https://bit.ly/ols-6-week-16
       content: |-

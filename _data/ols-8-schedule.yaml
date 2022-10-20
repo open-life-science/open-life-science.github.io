@@ -34,7 +34,7 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '16:00'
+    - time: '15:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -42,7 +42,7 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 1
       type: Mentor
-    - time: '10:00'
+    - time: '09:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -54,7 +54,7 @@ weeks:
     start: September 25, 2023
     calls:
     - date: September 27, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-02
       content: |-
@@ -86,11 +86,11 @@ weeks:
       - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         type: slides
         title: Introducing Road Mapping
-    - time: '18:00'
+    - time: '17:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
-    - time: '10:00'
+    - time: '09:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
@@ -101,7 +101,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 04, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-03
       content: |-
@@ -137,7 +137,7 @@ weeks:
     start: October 09, 2023
     calls:
     - date: October 11, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -178,7 +178,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 18, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-05
       content: |-
@@ -204,7 +204,7 @@ weeks:
     start: October 23, 2023
     calls:
     - date: October 25, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-06
       content: |-
@@ -240,7 +240,7 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 01, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 30 min
       notes: https://bit.ly/ols-8-week-07
       title: Q&A call
@@ -249,7 +249,7 @@ weeks:
     start: November 06, 2023
     calls:
     - date: November 08, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-08
       content: |-
@@ -282,7 +282,7 @@ weeks:
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 15, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -314,7 +314,7 @@ weeks:
     start: November 20, 2023
     calls:
     - date: November 22, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-10
       content: |-
@@ -349,7 +349,7 @@ weeks:
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 29, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 30 min
       notes: https://bit.ly/ols-8-week-11
       title: Q&A call
@@ -358,7 +358,7 @@ weeks:
     start: December 04, 2023
     calls:
     - date: December 06, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-12
       title: Diversity and Inclusion & Ally skills
@@ -389,7 +389,7 @@ weeks:
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
     - date: December 13, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-13
       content: |-
@@ -412,7 +412,7 @@ weeks:
     start: December 18, 2023
     calls:
     - date: December 20, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-14
       content: "In this call, participants will:\n- Learn how to apply FAIR research\
