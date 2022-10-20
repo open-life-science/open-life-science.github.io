@@ -29,7 +29,7 @@ Organizers will inform participants of the week schedule by email.
 <script type="application/ld+json" >
 {
   "@context": "https://schema.org",
-  "@id": "{{ site.url }}/{{ cohort }}](/schedule",
+  "@id": "{{ site.url }}/{{ cohort }}/schedule",
   "@type": "Course",
   "dct:conformsTo": "https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08",
   "description":  "{{site.description}}",
