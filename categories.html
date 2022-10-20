@@ -6,18 +6,55 @@ title: Categories
 ---
 
 
+
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
+      <p></p>
 
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      <h3 class="category-head">{{ category_name }}</h3>
+      <a name="{{ category_name | slugize }}"></a>
+      {% for post in site.categories[category_name] %}
+    <article class="archive-item" >
+      
+      <div class="post">
+            {% capture authors %}
+            {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="/people#{{ id }}">{{ name }}</a>{% endfor %}
+            {% endcapture %}
+            <div class="card">
+                {% if post.image %}
+                <div class="card-image">
+                    <figure class="image">
+                    <img src="{{ post.image }}" alt="{{ post.title }}">
+                    </figure>
+                </div>
+                {% endif %}
+        
+                <div class="card-content">
+                    <div class="content">
+                        <div class="title">
+                        {% if post.external %}
+                            <a href="{{ post.external }}"><p>{{ post.title | escape }}</p></a>
+                        {% else %}
+                            <a href="{{ post.url }}"><p>{{ post.title | escape }}</p></a>
+                        {% endif %}
+                        </div>
+                        
+                            <p class="subtitle">
+                            <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time>
+                            - {{ authors | remove_first: ', ' | strip }}
+                            </p> 
+                                    
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+      
     </article>
     {% endfor %}
   </div>
