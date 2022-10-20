@@ -42,11 +42,15 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
         {% endfor %}
         {% endcapture %}
 
+        {% assign status = project.status %}
+
 ## {{ project.name }}
 
 **By**: {{ p-pparticipants | remove_first: ', ' }}
 
 **Mentored by**: {{ p-mentors | remove_first: 'with ' }}
+
+**Status**: {{ status }}
 
 {{ project.description }}
 

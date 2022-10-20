@@ -7,6 +7,8 @@
     - bonetcarne
   mentors: 
     - zebetus
+  status:
+    - active
   description: >
     This project aims to create a community of local scientists to share and promote open science in Barcelona,
     Spain. I would like to use as an example the <a href="https://openscience-utrecht.com/">OSCU</a>
