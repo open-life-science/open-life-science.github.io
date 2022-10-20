@@ -36,11 +36,11 @@ layout: default
         <div class="post-categories">
             {% if post %}
               {% assign categories = post.categories %}
-            {% else %}
-              {% assign categories = page.categories %}
             {% endif %}
+
             {% for category in categories %}
-            <a href="{{site.baseurl}}/categories/#{{category|slugize}}" style="color: red; font-style: italic; font-size: 16px; font-family: sans-serif;">{{category | join: ', '}}</a>
+            <button class="catag"><a href="{{site.url}}/categories/#{{category|slugize}}" style="color: white; font-style: italic; font-size: 16px; font-family: sans-serif;">{{category | join: ', '}}</a></button>
+
             {% unless forloop.last %}&nbsp;{% endunless %}
             {% endfor %}
           </div>
