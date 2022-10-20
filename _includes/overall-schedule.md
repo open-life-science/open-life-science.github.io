@@ -9,7 +9,7 @@ During the program,
 
 Organizers will inform participants of the week schedule by email.
 
-<iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=b3BlbmxpZmVzY2lAZ21haWwuY29t&amp;color=%23EF6C00&amp;mode=AGENDA&amp;showNav=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0" style="border-width:0" width="1152" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=UTC&amp;src=b3BlbmxpZmVzY2lAZ21haWwuY29t&amp;color=%23EF6C00&amp;mode=AGENDA&amp;showNav=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0" style="border-width:0" width="1152" height="600" frameborder="0" scrolling="no"></iframe>
 
 [<i class="fas fa-calendar-plus"></i> *Subscribe to the OLS calendar*](https://calendar.google.com/calendar?cid=b3BlbmxpZmVzY2lAZ21haWwuY29t)
 
@@ -20,7 +20,7 @@ Organizers will inform participants of the week schedule by email.
 {%- for w in schedule.weeks %}
 {%- capture w-desc %}**Week {{ w[0] }}** (start. {{ w[1].start }}){% endcapture %}
 {%- for c in w[1].calls %}
-{%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
+{%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time }} Universal Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
 | {{ w-desc }} | [{{ c.type }}](/{{ cohort }}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" | remove: "&"  }}-calls) | {{ date }} | [**{{ c.title }}**](/{{ cohort }}/schedule#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
 {%- assign w-desc = "" %}
 {%- endfor %}

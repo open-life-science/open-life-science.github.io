@@ -7,7 +7,7 @@
     {% assign type = type | remove_first: ' + ' %}
 {% endif %}
 {% if e.date %}
-- **{{ e.date }}** {% if e.time %}([{{ e.time }} European Time](https://arewemeetingyet.com/Berlin/{{ e.date | date: "%Y-%m-%d" }}/{{ e.time }}/OLS%20Application%20Call)){% endif %}: {{ e.description }}{% if e.type %}({{ type }}){% endif %}{% if e.notes %} - <i class="fas fa-clipboard"></i> [Notes with Zoom call link]({{ e.notes }}){% endif %}{% if e.recording %} - <i class="fab fa-youtube"></i> [Recording]({{ e.recording }}){% endif %}{% if e.details %}
+- **{{ e.date }}** {% if e.time %}([{{ e.time }} Universal Time](https://arewemeetingyet.com/Berlin/{{ e.date | date: "%Y-%m-%d" }}/{{ e.time }}/OLS%20Application%20Call)){% endif %}: {{ e.description }}{% if e.type %}({{ type }}){% endif %}{% if e.notes %} - <i class="fas fa-clipboard"></i> [Notes with Zoom call link]({{ e.notes }}){% endif %}{% if e.recording %} - <i class="fab fa-youtube"></i> [Recording]({{ e.recording }}){% endif %}{% if e.details %}
 
     {{ e.details }}
 
