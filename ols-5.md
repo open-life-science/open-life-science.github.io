@@ -60,7 +60,7 @@ Open Science skills
 **Outcome**: Ambassadors for Open Science practice, training and education across multiple European
 and international bioinformatics communities.
 
-**Process**: A 16 week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
+**Process**: A 16-week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
 
 1. **Sharing** essential knowledge required to create, lead, and sustain an Open Science project.
 2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
@@ -68,7 +68,7 @@ and international bioinformatics communities.
 
 {% include _includes/toc.html %}
 
-# Our Goals and Learning Objectives
+# Goals and Learning Objectives
 
 The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life science.
 
