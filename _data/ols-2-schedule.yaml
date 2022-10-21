@@ -105,7 +105,7 @@ weeks:
         duration: 60 min
         title: Mentor training
         date: September 1, 2020
-        time: '17:00'
+        time: '16:00'
         content: |
           During our first cohort call, you will:
           - Understand common successes and challenges in mentoring OLS participants.
@@ -115,7 +115,7 @@ weeks:
         duration: 60 min
         title: Mentor training
         date: September 4, 2020
-        time: '12:30'
+        time: '11:30'
         content: |
           During our first cohort call, you will:
           - Understand common successes and challenges in mentoring OLS participants.
@@ -128,19 +128,19 @@ weeks:
         duration: 180 min
         title: Mentoring workshop
         date: September 8, 2020
-        time: '10:00'
+        time: '09:00'
       -
         type: Mentor
         duration: 180 min
         title: Mentoring workshop
         date: September 8, 2020
-        time: '17:00'
+        time: '16:00'
       -
         type: Cohort
         duration: 90 min
         title: Welcome to Open Life Science!
         date: September 10, 2020
-        time: '09:00'
+        time: '08:00'
         hosts:
           - bebatut
           - yochannah
@@ -226,7 +226,7 @@ weeks:
         duration: 60 min
         title: 'Coworking on assignments, knowledge exchange and networking'
         date: September 17, 2020
-        time: '16:00'
+        time: '15:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/coworking#Week-3
         content: |
@@ -245,7 +245,7 @@ weeks:
         duration: 90 min
         title: Tooling and roadmapping for Open projects
         date: September 24, 2020
-        time: '17:30'
+        time: '16:30'
         hosts:
           - yochannah
           - malvikasharan
@@ -312,7 +312,7 @@ weeks:
         duration: 60 min
         title: Coworking on assignments, knowledge exchange and networking
         date: October 01, 2020
-        time: '16:00'
+        time: '15:00'
         notes: https://hackmd.io/@ols-2/coworking#Week-5
         hosts:
         - katesimpson
@@ -321,7 +321,7 @@ weeks:
         duration: 90 min
         title: 'Skill-up: GitHub tutorial for beginners'
         date: October 01, 2020
-        time: '12:30'
+        time: '11:30'
         hosts:
           - yochannah
           - malvikasharan
@@ -403,7 +403,7 @@ weeks:
         duration: 90 min
         title: 'Open Science I: Project Development'
         date: October 8, 2020
-        time: '09:00'
+        time: '08:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/week-06
         recording: https://www.youtube.com/watch?v=fyz4gB4XPJk
@@ -475,7 +475,7 @@ weeks:
         duration: 60 min
         title: Coworking on assignments, knowledge exchange and networking
         date: October 12, 2020
-        time: '11:00'
+        time: '10:00'
         notes: https://hackmd.io/@ols-2/coworking#Week-7
         hosts:
         - lauracarter
@@ -497,7 +497,7 @@ weeks:
         duration: 90 min
         title: 'Open Science II: Knowledge Dissemination'
         date: October 22, 2020
-        time: '17:30'
+        time: '16:30'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/week-08
         recording:

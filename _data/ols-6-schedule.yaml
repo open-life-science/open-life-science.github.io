@@ -5,7 +5,7 @@ timeline:
   description: Call for Application opens
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
 - date: June 20, 2022
-  time: '14:00'
+  time: '13:00'
   duration: 60 min
   description: Application webinar
   type:
@@ -15,7 +15,7 @@ timeline:
   recording: null
   details: '[**Register to join**](https://us02web.zoom.us/meeting/register/tZUvfu-grjotHtHKxPGh1m2oWmr3d8vKDbC8), or watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
 - date: July 1, 2022
-  time: '10:00'
+  time: '09:00'
   duration: 60 min
   description: Application Clinic Call
   type:
@@ -37,7 +37,7 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '15:00'
+    - time: '14:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -45,7 +45,7 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 1
       type: Mentor
-    - time: '09:00'
+    - time: '08:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -56,16 +56,16 @@ weeks:
   '02':
     start: September 26, 2022
     calls:
-    - time: '17:00'
+    - time: '16:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
-    - time: '09:00'
+    - time: '08:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
     - date: September 27, 2022
-      time: '10:00'
+      time: '09:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-02
       content: |-
@@ -104,7 +104,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 05, 2022
-      time: '17:00'
+      time: '16:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-03
       content: |-
@@ -140,7 +140,7 @@ weeks:
     start: October 10, 2022
     calls:
     - date: October 12, 2022
-      time: '17:00'
+      time: '16:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -181,7 +181,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 18, 2022
-      time: '10:00'
+      time: '09:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-05
       content: |-
@@ -207,7 +207,7 @@ weeks:
     start: October 24, 2022
     calls:
     - date: October 25, 2022
-      time: '10:00'
+      time: '09:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-06
       content: |-

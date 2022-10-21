@@ -37,7 +37,7 @@ weeks:
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
     - date: September 16, 2021
-      time: '15:00'
+      time: '14:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -46,7 +46,7 @@ weeks:
       title: Mentor onboarding group 1
       type: Mentor
     - date: September 17, 2021
-      time: '09:00'
+      time: '08:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -58,7 +58,7 @@ weeks:
     start: September 20, 2021
     calls:
     - date: September 22, 2021
-      time: '12:30'
+      time: '11:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-02
       content: |-
@@ -101,12 +101,12 @@ weeks:
       facilitators:
       - batoolmm
     - date: September 22, 2021
-      time: '17:00'
+      time: '16:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
     - date: September 23, 2021
-      time: '09:00'
+      time: '08:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
@@ -117,7 +117,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: September 29, 2021
-      time: '17:00'
+      time: '16:00'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-03
       content: |-
@@ -164,7 +164,7 @@ weeks:
     start: October 04, 2021
     calls:
     - date: October 06, 2021
-      time: '17:00'
+      time: '16:00'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -213,7 +213,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 13, 2021
-      time: '12:30'
+      time: '11:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-05
       content: |-
@@ -244,7 +244,7 @@ weeks:
     start: October 18, 2021
     calls:
     - date: October 20, 2021
-      time: '12:30'
+      time: '11:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-06
       content: |-
@@ -294,7 +294,7 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 27, 2021
-      time: '17:00'
+      time: '16:00'
       duration: 30 min
       notes: https://bit.ly/ols-4-week-07
       title: Q&A call
