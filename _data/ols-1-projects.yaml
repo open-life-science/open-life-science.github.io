@@ -7,8 +7,6 @@
     - bonetcarne
   mentors: 
     - zebetus
-  status:
-    - active
   description: >
     This project aims to create a community of local scientists to share and promote open science in Barcelona,
     Spain. I would like to use as an example the <a href="https://openscience-utrecht.com/">OSCU</a>
@@ -69,6 +67,8 @@
     developing community engagement for policy development, and will ultimately pave the way to
     establish the Zuckerman Institute as a golden standard for open science.
   graduated: true
+  status: graduated
+
 
 - name: Bioinformatics Hub of Kenya (BHK)
   participants:
@@ -94,6 +94,7 @@
     focus on innovation and bringing novelty to assigned projects promising quality, integrity,
     reliability and trust in their services.
   graduated: true
+  status: graduated
 
 - name: Expanding plenoptic Python Package
   participants:
@@ -116,6 +117,8 @@
     described in the literature, but none of which have standard, accessible implementations that work
     on more than a handful of specific models.
   graduated: true
+  status: graduated
+
 
 - name: "@Diversidade em Foco"
   participants:
@@ -138,6 +141,8 @@
     participants, their experience during the account administration time, the number of followers
     and reach information in the twitter account and the blog.
   graduated: true
+  status: graduated
+
 
 - name: Media Lab Nepal for Computational Biology
   participants:
@@ -163,6 +168,7 @@
     initiative. I also want to make this initiative feasible and sustainable by creating
     incoming generating platform with computational biology.
   graduated: true
+  status: graduated
 
 - name: InterMine Similarity Explorer
   participants:
@@ -202,6 +208,7 @@
     unique development dynamics, development of all phases of this project will put into consideration
     various divides such as rich vs poor, rural vs urban, research literate vs research illiterate among others.
   graduated: true
+  status: graduated
 
 - name: EMBL Bio-IT Community Project
   participants:
@@ -222,6 +229,7 @@
     knowledge transfer within the management team of the Bio-IT project and navigate my own
     path and future prospects as a community manager.
   graduated: true
+  status: graduated
 
 - name: "Oxford Neuroscience Open Science Co-ordinator: Changing Culture"
   participants:
@@ -243,6 +251,7 @@
     scientific and individual risks and benefits for research participants, researchers (at all
     levels), and the institution.
   graduated: true
+  status: graduated
 
 - name: "AMRITA: an online database for herbal medicine"
   participants:
@@ -263,6 +272,7 @@
     sciences in establishing a solid foundation of medicinal plants and enabling the use of these
     plants in modern medicine.
   graduated: true
+  status: graduated
 
 - name: How to build an healthy and open lab
   participants:
@@ -287,6 +297,7 @@
     scientists; and how to open your work to the public. Finally, I would like to approach
     organisations and institutions to help more young PIs get access to these resources.
   graduated: true
+  status: graduated
 
 - name: Benchmarking environment for bioinformatics tools
   participants:
@@ -301,6 +312,7 @@
     There should be an ability to add new tools as well as new datasets to an existing
     comparison.
   graduated: true
+  status: graduated
 
 - name: EDAM ontology
   participants:
@@ -327,6 +339,7 @@
     The goal of this concrete mentorship project is to further extend EDAM, so that other
     communities can benefit from it, and from the applications and use cases it fosters.
   graduated: true
+  status: graduated
 
 - name: Improving Documentation for Open Data and Software in the Agricultural Research Community
   participants:
@@ -355,6 +368,7 @@
     sub-project would result in an accompanying blog post describing the best practices
     implemented.
   graduated: true
+  status: graduated
 
 - name: Improving open platform accessibility
   participants:
@@ -380,6 +394,7 @@
     existing project -- to start putting this idea into action.
     What problem(s)
   graduated: true
+  status: graduated
 
 - name: Enabling open science practices in biology education
   participants:
@@ -403,6 +418,7 @@
     and student / staff mentees are fully transparent so that the mentoring process can be
     improved for science mentees.
   graduated: true
+  status: graduated
 
 - name: Open Science UMontreal (OSUM)
   participants:
@@ -431,6 +447,7 @@
     <a href="https://chat.openscience.ca">chat.openscience.ca</a>, an open-source alternative to Slack!
     We want to get to know you (and your initiative)!
   graduated: true
+  status: graduated
 
 - name: Creating network of Data Champions at the library of Free University of Amsterdam
   participants:
@@ -448,3 +465,4 @@
     Similar programs have been launched at the University of Cambridge, TU Delft, and Wageningen University.
     The main goal of the Data Champion programme is to drive cultural change towards open science and open data.
   graduated: true
+  status: graduated
