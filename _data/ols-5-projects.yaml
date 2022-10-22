@@ -1,4 +1,4 @@
-# List of projects for OLS-3
+# List of projects for OLS-5
 #
 # Check previous OLS for examples
 ---
@@ -17,6 +17,7 @@
   name: 'Multilingual Open Science: Creating Open Educational Resources in Central Asian Languages'
   participants:
   - sarenaz
+  graduated:
 - description: 'Our initiative is called "Training Latin American scientists community to create high-quality open journals with good editorial standards". We intend to build a community of native spanish speaking scientists who teach and learn about creating editorial boards and open access scientific journals that meet international high editorial quality standards. We intend to organise hands-on workshops about different steps in the editorial process of creating scientific open access journals, with experienced trainers and with open source tools. Some of the topics we would like to cover are:
 
 - Acquiring ISSN code for online journals,
@@ -44,6 +45,7 @@ These workshops would merge synchronic and asynchronic activities throughout  a 
   - andre-vargas-de
   - nelson-franco
   - jvillcavillegas
+  graduated: true
 - description: 'Cloud-SPAN trains researchers, and the research software engineers that support them, to run specialised analyses for environmental omics datasets on cloud-based high-performance computing infrastructure. It is a collaboration between the University of York and The Software Sustainability Institute funded by the UKRI Innovation Scholars award (Project Reference: MR/V038680/1). The primary objective of the project is to generate training materials and opportunities which are open, accessible and reusable (FAIR) for all researchers. We aim to build an engaged community of practice around the participation in, and the development and maintenance of, the materials. The community-building element would be the main focus of the OLS scheme project.'
   keywords:
   - Education
@@ -248,6 +250,7 @@ The issue was that a simple SMILES representation of a molecular scaffold does n
   participants:
   - malvikasharan
   - aleesteele
+  graduated: true
 - description: "The International Committee on Open Phytolith Science (ICOPS) was initiated as a new committee within the International Phytolith Society in September 2021 and the first committee meeting took place in December 2021. This committee aims to increase the knowledge of and implementation of open science practices in phytolith research. We are embracing an open source approach to our work in this committee so that the work of our committee is transparent. This will include open documentation, regularly communicating with our community, and providing guidelines and communication channels to enable our community to engage with us. Therefore, we want to establish a solid base for this work going forward by further developing our GitHub repository - adding clear contributing guidelines and documentation on how the committee   is to be run. All members of the committee will also benefit from training in  all aspects of open science practices. This will allow us to gain further insight into the training and initiatives that we want to work on with our community.
 
 We will also start to develop training packages specific to phytolith research such as in open publishing and open and FAIR data."
@@ -273,6 +276,7 @@ We will also start to develop training packages specific to phytolith research s
   - cel31
   - zdunseth
   - juanjo-garcía-granero
+  graduated: true
 - description: The Turing-Roche strategic partnership was established in June 2021 with the goal of establishing a collaboration in advanced analytics between the two organisations to develop new data science methods to investigate large, complex, clinical and healthcare datasets to better understand how and why patients respond differently to treatment, and how treatment can be improved.  As Community Manager for the project I am developing a collaborative and open community between both organisations and beyond. As the partnership is just beginning and is flexible in nature there are opportunities to embed open practices such as open publication,   reproducibility, open data, training, co-working as well as establishing networks such as an early career researchers.
   keywords:
   - treatment heterogeneity
@@ -317,6 +321,7 @@ The sensitivity of this kit will be evaluated on extracted DNA from three sample
   name: Developing thermally stable loop mediated isothermal amplification kit for a non invasive detection of malaria
   participants:
   - mgawe-cavin
+  graduated: true
 - description: In October 2021, the RSE Asia Association was launched. This was done to create awareness in the Asia region about the field of Research Software Engineering. The digital infrastructure for the association has been built during the Open Life Science Cohort 4 (OLS-4) program. The webpage is in place, the contact addresses have also been created for communication with people. A small community has also started emerging. It is time that the community can expand. With the expanding community, it is now required that we create well-defined pathways for people to get onboard to the association. This project aims at building such pathways. Also, a basic Code of Conduct is already present on the RSE Asia webpage. It is to be modified to make it more appropriate for the Asian region.
   keywords:
   - Community Building
@@ -496,6 +501,7 @@ Diagnosis of cancer relies on histology in nearly 80% of cases, cytology in 10%,
   - jafsia
   - fadanka
   - agossoubido2021
+  graduated: true
 - description: The "AI for Science and Government" (ASG) programme at The Alan Turing Institute seeks to produce three community-led white papers that will capture the outcomes of research into deploying AI and data science in priority areas to support the UK's economy. The papers will also highlight advances in practices towards open and reproducible research in the fields of AI and data science. The process of authoring the white papers will itself be collaborative, open and transparent, soliciting contributions from the wider ASG community at every step of the way.
   keywords:
   - community management
@@ -507,6 +513,7 @@ Diagnosis of cancer relies on histology in nearly 80% of cases, cytology in 10%,
   name: Cultivating a Community of Practice of AI researchers
   participants:
   - raoofphysics
+  graduated: true
 - description: "ARPHAI is an interdisciplinary research consortium, whose mission is to develop technological tools and recommendations to anticipate and manage epidemiological events. ARPHAI pilots data-driven open source tools using artificial intelligence and data science towards upgrading Argentina's electronic health record (EHR) system. ARPHAI is part of the [Global South AI4COVID Program](https://covidsouth.ai/).
 
 
@@ -530,6 +537,7 @@ There are two additional lines of work ARPHAI undertakes that are transversal to
   - vickygisel
   - federico-cestares
   - lauracion
+  graduated: true
 - description: The project focuses on building tools to understand the evolution of life. We develop bioinformatic tools to determine evolutionary processes to detect early stage life development. The project looks at data from two specific parts of detecting life - co-evolution of life and environment and biosignature assessment within the context of habitability. We use data from current experimental projects and develop new models to aid the growth of astrobiology search for life. The platform will cater to multiple sections such as- data management from all astrobiology projects, experiments, research labs and conferences; new tools to analyse data, predictive model section to simulations from the data set and collaborative forum to encourage citizen science.The platform will help create open source bioinformatic tools to help detect biosignature, assess habitability, promote involvement within  astrobiology. In addition to using bioinformatic tools, a part of the platform will use game theory and gamification to test the citizen science component. Using both the platform as a destination for tool testing and science education, we hope to advance the research in astrobiology.
   keywords:
   - Bioinformatics

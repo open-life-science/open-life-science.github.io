@@ -76,6 +76,7 @@
   name: Multibeam electron microscopy for imaging large tissue volumes
   participants:
   - arentkievits
+  graduated: true
 - description: We propose to build a database that compiles literature data for the
     Stöber synthesis of sílica nanoparticles. This data is aimed to generate a database
     for other studies, such as statistical and machine learning models to guide the
@@ -98,6 +99,7 @@
   - guille1107
   - diegoonna
   - princehoodie
+  graduated: true
 - description: "[**Bio-IT**](https://bio-it.embl.de) project at the [European Molecular Biology\
     \ Laboratory](https://www.embl.org) (EMBL) is a community initiative aiming at: \n\n- delivering\
     \ **training** in computational research skills;\n- creating connections between\
@@ -157,6 +159,7 @@
     and biodiversity
   participants:
   - gedaloop
+  graduated: true
 - description: "In my project, I want to interview several colleagues/peers who were\
     \ hired or recently started working as generic data stewards at Dutch universities,\
     \ and, to some extent, Dutch Universities of Applied Sciences – I am one of them.\
@@ -203,6 +206,7 @@
   name: Open and reproducible data analysis for wet lab neuroscientists
   participants:
   - saravilla
+  graduated: true
 - description: We plan to create a "Research Software Engineering Association in Asia
     region -- RSE Association (Asia) ". The motive of this association would be to
     emphasize the importance of good software practices to be adopted by researchers
@@ -228,6 +232,7 @@
   name: Building the Research Software Engineering (RSE) Association in Asia region
   participants:
   - saranjeetkaur
+  graduated: true
 - description: "Operating from a place of data for co-liberation, we have three complementary\
     \ goals: conduct a landscape analysis of open source synthetic data projects,\
     \ ask critical questions about the embedded assumptions and ethical considerations\
@@ -281,6 +286,7 @@
   name: Talleres Open Source community platform
   participants:
   - chucklesongithub
+  graduated: true
 - description: There is a considerable gap in cases of sub-Saharan African countries
     regarding assessment of embodied energy of building materials and operational
     energy of various building types. Lack of open data remains a critical barrier
@@ -302,6 +308,7 @@
   name: Creating an open database for carbon foot printing of buildings in Ghana
   participants:
   - michael-addy
+  graduated: true
 - description: "Portable land is an urban DIY Agriculture project which aims to create\
     \ a distributed farm. Currently we have four dedicated sites based in the West\
     \ Midlands - a washyard which has been converted into a growing space, a community\
@@ -358,6 +365,7 @@
   - mai-alajaji
   - batoolmm
   - lalmehlisy
+  graduated: true
 - description: 'I aim to develop a Python library which allows to call and apply several
     measures of emergence and complexity to either empirical or simulated data, and
     provide guidance for comparisons among and conclusions about different measures.
@@ -395,6 +403,7 @@
   name: Developing a library in Python for applying measures of emergence and complexity
   participants:
   - nadinespy
+  graduated: true
 - description: "We propose a **living**, **free** and **open** document, named The\
     \ Environmental AI book, compiling research in the application of AI and Data\
     \ Science for monitoring and modelling a wide diversity of settings of the natural\
@@ -423,6 +432,7 @@
   name: The Environmental AI Book
   participants:
   - acocac
+  graduated: true
 - description: Bioinformatics Secondary School Outreach (BSSO) is an initiative to  develop
     bioinformatics capacity among  High school students in Nigeria and this will  create
     early interest in genomics data analysis among the students and equip them with
@@ -455,6 +465,7 @@
   name: Citizen Scientists as Data Explorers
   participants:
   - wykhuh
+  graduated: true
 - description: 'Established in 2018, EROS (education researchers for open science)
     is an open research working group at the University of York. We monitor and communicate
     ongoing developments within the open research landscape, provide guidance and
@@ -558,6 +569,7 @@
   name: Building Open Science and Data Analysis Skills by Leading the OLS Survey Data Project
   participants:
   - burce-elbasan
+  graduated: true
 - description: Binderhub is a service that allows users to share reproducible interactive
     computing environments through public code repositories. The subject of our project,
     Hub23, is an organisational deployment of Binderhub, designed to allow Turing
@@ -602,6 +614,7 @@
   name: Online event "Women in Data Science - Perspectives in Industry and Academia" Part II
   participants:
   - irena-maus
+  graduated: true
 - description: "The international and open RIVER UNIVERSITY started in Poland with\
     \ its pilot in 2018 and the 1st edition in 2020.\nIts professional river education\
     \ has the ambition to change the reality by creating a strong center/network of\
@@ -649,6 +662,7 @@
   name: open and international River University
   participants:
   - ewa-leś
+  graduated: true
 - description: 'In _The Turing Way,_ we want to systematically understand community
     practices including the community engagement pathways, contributors'' roles and
     nature of their participation that have been successful at supporting its community

@@ -26,6 +26,7 @@
   name: Best practices for online collaboration/peer-production in citizen science
   participants:
   - katoss
+  graduated: true
 - description: VCMS (vcms.simonduerr.eu) is convenient tool to setup a website for
     a virtual conference including an abstract submission portal, timezone adapted
     scheduling of talks and an interactive virtual poster session with video chat
@@ -38,9 +39,10 @@
   - poster session
   mentors:
   - ealescak
-  name: A virtual conference managment system with seamless open science integration
+  name: A virtual conference management system with seamless open science integration
   participants:
   - duerrsimon
+  graduated: true
 - description: 'The “Memory Collecting: Croatian Homeland War” project aims to create
     a platform where survivors can submit video recordings of their own memories and
     reflections of the 1992 Homeland War. The repository will also store them in a
@@ -62,6 +64,7 @@
   name: 'Memory Collecting: Croatian Homeland War'
   participants:
   - annalee-sekulic
+  graduated: true
 - description: "I want to help build a culture of open science and good practice (as\
     \ well as fun) within the plant synthetic biology community, with an initial emphasis\
     \ on the US. \n\nI hope to do this by (1) establishing an open toolset for genetic\
@@ -166,6 +169,7 @@
   participants:
   - spitschan
   - ghammad
+  graduated: true
 - description: BioFerm is a web application platform which can be used for kinetic
     study, simulation and optimization of bioprocesses. The user is able to calculate
     the best initial conditions as well as overall operating conditions which will
@@ -190,6 +194,7 @@
     and simulation of bioprocesses'
   participants:
   - olayile
+  graduated: true
 - description: "This project will investigate existing literature on the benefits,\
     \ risks, and limitations of open data practices in Australian environmental archaeology,\
     \ seeking to characterise the ethical and practical issues associated with the\
@@ -215,6 +220,7 @@
   name: Intellectual Property, Indigenous Knowledges, and the Rise of Open Data in Australian Environmental Archaeology
   participants:
   - cemonks
+  graduated: true
 - description: The MiSET initiative aims to develop a minimum set of quality standards
     in the form of a quality assessment tool that evaluates the technical aspects
     of cytometry publications, and to fully integrate these flow cytometry standards
@@ -236,6 +242,7 @@
     information'
   participants:
   - fabienne-lucas
+  graduated: true
 - description: Genetic variants of APOL1 commonly found in people of recent African
     ancestry can predispose to chronic kidney disease. It is however unknown if and
     to what extent the variants are present outside of Africa. This project aims to
@@ -280,6 +287,7 @@
   participants:
   - camachoreina
   - mxrtinez
+  graduated: true
 - description: Inspired by the social clubs founded by Benjamin Franklin, the Junto
     Labs initiative seeks to provide life science researchers with an online space
     for pursuing collaborative research and supporting active learning. Life science
@@ -332,6 +340,7 @@
   name: 'metaNanoPype: a reproducible Nanopore python pipeline for metabarcoding'
   participants:
   - antonioggsousa
+  graduated: true
 - description: The field of molecular biology is a concept to discover, identify and
     explain mechanisms of everything about DNA, RNA and protein level in a cell. Despite
     it is a relatively young discipline, its prominence in the life sciences is becoming
@@ -358,6 +367,7 @@
   name: 'MBiO: Designing an open-collaborative website in the field of molecular biology'
   participants:
   - nihan-sultan-milat
+  graduated: true
 - description: OLS is a great platform to open life science with the objective of
     train young researchers towards the practices in open science skills. I am a graduand
     of OLS-2 that recently concluded and coming out of that program I felt that there
@@ -412,6 +422,7 @@
   participants:
   - afzal442
   - abdulelahsm
+  graduated: true
 - description: 'This project is to develop a Turing Service Area in Open Source that
     will provide formal support in open working and embedding best practices of open
     software development into Turing projects. This service area will create an Open
@@ -433,6 +444,7 @@
   name: An Open Source Service Area for Turing research projects
   participants:
   - sgibson91
+  graduated: true
 - description: 'Phytoliths are microfossils of plants used world-wide to address a
     variety of questions in fields like archaeology, palaeoecology and palaeontology.
     Diverse laboratory procedures, analyses and identification criteria are used resulting
@@ -465,6 +477,7 @@
   - juan-josé-garcía-granero
   - cl379
   - marco-madella
+  graduated: true
 - description: Obesity causes approximately 4.7 million premature deaths annually,
     which accounts for a loss of ca. 8% globally. Obesity is an outcome of complex,
     heritable, and multi-factorial interaction of multiple genes, environmental factors,
@@ -500,6 +513,7 @@
   - mehak-chopra
   - harpreetsingh05
   - prashbio
+  graduated: true
 - description: AKADEMISI PREPRINTS is a free distribution service of preprints from
     multidisciplinary fields. The server plans to include connection hub to journals
     and open peer review community. By doing so, we hope to promote the transparency
@@ -516,6 +530,7 @@
   - didik-utomo
   - hzahroh
   - zenita-milla-luthfiya
+  graduated: true
 - description: Although there is an increasing number of initiatives in Saudi Arabia
     to raise awareness in Data Science (DS) and connect researchers in artificial
     intelligence (AI), there is no single community dedicated to stimulating responsible
@@ -532,6 +547,7 @@
   name: Open Science Community in Saudi Arabia
   participants:
   - batoolmm
+  graduated: true
 - description: 'Biological activity data was retrieved from the ChEMBL database and
     pre-processed by selecting the target which was SARS coronavirus 3C-like proteinase
     in the project and the data frame of the target protein was filtered by removing
@@ -568,6 +584,7 @@
   name: COMPUTATIONAL DRUG DISCOVERY (CORONAVIRUS)
   participants:
   - anshika-sah
+  graduated: true   
 - description: I aim to develop training materials to support the use of open data
     by researchers working on agrobiodiversity conservation. At CONABIO (Mexico),
     a governmental agency that coordinates biodiversity data collection, I collaborate
@@ -594,6 +611,7 @@
   name: Skills for Open Agrobiodiversity Data
   participants:
   - iramosp
+  graduated: true
 - description: "The project is an open notebook living systematic review of legal\
     \ documents related to postdoctoral scholars and appointments (postdocs). The\
     \ project aims to use the methods of empirical legal scholarship to describe and\
@@ -620,6 +638,7 @@
   name: Postdoc Empirical Legal Research Open Notebook
   participants:
   - jmmaok
+  graduated: true
 - description: 'The mission of the UKCRC Tissue Directory and Coordination Centre
     (UKCRC TDCC) is to maximise the use, value and impact of the UK''s human sample
     resources in the UK, and beyond. The UKCRC TDCC is creating a world-leading, research-enabling,
@@ -645,6 +664,7 @@
   participants:
   - emma-lawrence
   - jessica-sims
+  graduated: true
 # - description: This is a prototype for target approaches in the stages of disease
 #     prognosis. By creating a constructive study of liver disease and bioinformatics
 #     pipeline. Construction of bioinformatics study to find out the key enzymes responsible
@@ -697,6 +717,7 @@
   - shmuhammad2004
   - isahmadbbr
   - rukynas
+  graduated: true
 - description: In Europe, prostate cancer (PCa) is the second most frequent type of
     cancer in men and the third most lethal. Current clinical practices, often leading
     to overdiagnosis and overtreatment of indolent tumors, suffer from a lack of precision
@@ -724,6 +745,7 @@
   participants:
   - kon0925
   - sgsfak
+  graduated: true
 - description: "The long term project objective is to establish in my university a\
     \ core-team/lab able to aid the community to design and implement open science\
     \ projects.\n In order to start this long term project I believe that working\
@@ -783,6 +805,7 @@
   - marta-marin
   - santi-rello-varona
   - irisbotas
+  graduated: true
 - description: "Multimodal and Functional Imaging Laboratory (MAFIL, http://mafil.ceitec.cz/en/)\
     \ is one of core facilities at CEITEC MUNI and part of national large research\
     \ infrastructure Czech-BioImaging and European research infrastructure Euro-BioImaging.\
@@ -809,6 +832,7 @@
   - michal-ruzicka
   - michal-javornik
   - dudova
+  graduated: true
 - description: "In The Turing Way, we want to systematically understand community\
     \ practices including the community engagement pathways, contributors’ roles and\
     \ nature of their participation that have been successful at supporting its community\
@@ -875,6 +899,7 @@
   - prakriti-karki
   - mohan-gupta
   - ujwal-shrestha
+  graduated: true
 - description: "In The Turing Way, we define reproducible research as work that can\
     \ be independently recreated using the same data and code from the original study.\
     \ Reproducible research is necessary to ensure that scientific output can be trusted\
@@ -905,6 +930,7 @@
   name: Open Source Project for Evaluating Reproducibility Trends in AI Research Projects
   participants:
   - martinagvilas
+  graduated: true
 - description: This project aims to devise, develop and implement an online tool that
     allows interested users to suggest or contribute to training courses in an open
     source fashion. The tool could involve a GitHub repository where users can suggest
@@ -957,3 +983,4 @@
   - khanteymoori
   - masako-kaufmann
   - heylf
+  graduated: true
