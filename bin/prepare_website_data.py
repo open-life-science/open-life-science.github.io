@@ -641,7 +641,7 @@ def add_projects(cohort, project_df, people_df):
             print('No mentor')
         #
         if row['Keywords'] is not None:
-            p['keywords'] = row['Keywords'].split(',\n')
+            p['keywords'] = [x.rstrip() for x in row['Keywords'].split(',')]
         projects[p['name']] = p
         print('')
 
