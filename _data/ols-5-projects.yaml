@@ -1,4 +1,4 @@
-# List of projects for OLS-3
+# List of projects for OLS-5
 #
 # Check previous OLS for examples
 ---
@@ -17,6 +17,7 @@
   name: 'Multilingual Open Science: Creating Open Educational Resources in Central Asian Languages'
   participants:
   - sarenaz
+  graduated:
 - description: 'Our initiative is called "Training Latin American scientists community to create high-quality open journals with good editorial standards". We intend to build a community of native spanish speaking scientists who teach and learn about creating editorial boards and open access scientific journals that meet international high editorial quality standards. We intend to organise hands-on workshops about different steps in the editorial process of creating scientific open access journals, with experienced trainers and with open source tools. Some of the topics we would like to cover are:
 
 - Acquiring ISSN code for online journals,
@@ -44,6 +45,7 @@ These workshops would merge synchronic and asynchronic activities throughout  a 
   - andre-vargas-de
   - nelson-franco
   - jvillcavillegas
+  graduated: true
 - description: 'Cloud-SPAN trains researchers, and the research software engineers that support them, to run specialised analyses for environmental omics datasets on cloud-based high-performance computing infrastructure. It is a collaboration between the University of York and The Software Sustainability Institute funded by the UKRI Innovation Scholars award (Project Reference: MR/V038680/1). The primary objective of the project is to generate training materials and opportunities which are open, accessible and reusable (FAIR) for all researchers. We aim to build an engaged community of practice around the participation in, and the development and maintenance of, the materials. The community-building element would be the main focus of the OLS scheme project.'
   keywords:
   - Education
@@ -56,6 +58,7 @@ These workshops would merge synchronic and asynchronic activities throughout  a 
   name: Building a Cloud-SPAN community of practice
   participants:
   - evelyngreeves
+  graduated: true
 - description: There is a considerable gap in cases of sub-Saharan African countries regarding assessment of embodied energy of building materials and operational energy of various building types. Lack of data remains a critical barrier to closing this gap. Creating a database of embodied energy of building materials and operational energy of building typologies will be key in establishing the carbon footprint of buildings in Ghana. The development of an online platform will also allow interested groups, individuals and cooperation's to submit key information needed for the computation of energy outputs in buildings.  The aim of this project is to explore the scope and path towards establishing an open database and an inclusive community.
   keywords:
   - Sustainabilty
@@ -100,6 +103,7 @@ The plan needs to integrate as much as possible open science principles such as 
   name: Publishing development plan for the Open access journals of TU Delft OPEN Publishing
   participants:
   - fredbelliard
+  graduated: true
 - description: This project is envisioned as one that ends up as something that can explain the “why” when encouraging people from legal backgrounds to learn R and some data science. A case for open and reproducible research in a field that does not typically use R and qualitative methods. The idea is to get to that point by creating different data sets derived from commonly used legal sources that law students or graduates would be familiar with and incorporating them into a single platform with a few examples of practical use and application as well as code to encourage such persons to see the “why”. On this platform, I would like to share resources to places where the intro to R courses are available, etc. At this stage, this is an idea I have and I hope to develop it as the week's progress.
   keywords:
   - Rstudio
@@ -112,6 +116,7 @@ The plan needs to integrate as much as possible open science principles such as 
   name: Why R, for those with legal backgrounds using examples from South Africa
   participants:
   - b14-rsa
+  graduated: true
 - description: Next-generation sequencing (NGS) is a revolutionary technique with wide applications in biology. Its applications are widely being used from young researchers to pioneer researchers of the field. The NGS data analysis has various approaches and many resources are explaining these methods. However, it can be difficult for beginners in this field to quickly understand and apply these methods. Also, beginner researchers might not have enough knowledge to overcome the most common errors that are encountered during these analyses. Due to the challenges that we mentioned above, in this project, we aimed to create a comprehensive open educational resource explaining NGS data analysis and its different methods and offer an example for the application of methodology and solutions to the most common errors. We believe that this project will be enlightening for anyone interested in NGS data analysis by providing a necessary roadmap.
   keywords:
   - Next-generation sequencing
@@ -212,6 +217,7 @@ The issue was that a simple SMILES representation of a molecular scaffold does n
   name: Increasing the usability of ChemSpaX, a Python tool for chemical space exploration
   participants:
   - akalikadien
+  graduated: true
 - description: We have created the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia), a FLOSS platform containing AI/ML models for infectious and neglected disease research . These models can be accessed with little to no-coding expertise, solving a major roadblock in the applicability of such technologies to day-to-day research. The Hub currently includes a hundred open source models, both from the literature and developed by the [Ersilia organization](https://ersilia.io). With this project, we aim to open the Hub to the whole computer science community, encouraging third-author model depositions so that the code they develop is not simply open source but also deployed in a user-friendly manner. By leveraging the Hub architecture, computer scientists can reach more users, interact with them and further the impact of the assets they have developed by facilitating its implementation in real case scenarios. To this end, the project will focus on establishing clear guidelines on the quality of the software and its reproducibility (as it won't necessarily be yet peer-reviewed) and creating a standard model deposition form and minimum required documentation. The ultimate goal of the project is to build a community of contributors by facilitating their access.
   keywords:
   - reproducibility
@@ -224,6 +230,7 @@ The issue was that a simple SMILES representation of a molecular scaffold does n
   name: 'The Ersilia Model Hub: encouraging deployment of computer-based research tools for non-expert usage'
   participants:
   - gemmaturon
+  graduated: true
 - description: Living in South Africa, and in much of the world, you can see a large gap in the accessibility of healthcare resources based on a person's income and education level. I am privileged enough to have had access to good quality healthcare resources throughout my life, which resulted in me being seen by numerous different therapists, counsellors and psychologists and being diagnosed with Autism Spectrum Disorder, more specifically Asperger's syndrome. I am also privileged in that I am able to comfortably speak and read English.   Unfortunately, a large percentage of our country has a very poor level of education, often not being able to read or speak English very well. Most South African resources I have found for individuals with, and parents of children with, autism are only available in English. My project aims to create a database of resources in a variety of South African languages, both written and as a video format (due to poor literacy rates, especially among older generations due to historical discrimination), in easy to understand language and with concepts that are easy to grasp. This is also useful as more people will be able to access online resources than resources at a healthcare facility.
   keywords:
   - free resources
@@ -248,6 +255,7 @@ The issue was that a simple SMILES representation of a molecular scaffold does n
   participants:
   - malvikasharan
   - aleesteele
+  graduated: true
 - description: "The International Committee on Open Phytolith Science (ICOPS) was initiated as a new committee within the International Phytolith Society in September 2021 and the first committee meeting took place in December 2021. This committee aims to increase the knowledge of and implementation of open science practices in phytolith research. We are embracing an open source approach to our work in this committee so that the work of our committee is transparent. This will include open documentation, regularly communicating with our community, and providing guidelines and communication channels to enable our community to engage with us. Therefore, we want to establish a solid base for this work going forward by further developing our GitHub repository - adding clear contributing guidelines and documentation on how the committee   is to be run. All members of the committee will also benefit from training in  all aspects of open science practices. This will allow us to gain further insight into the training and initiatives that we want to work on with our community.
 
 We will also start to develop training packages specific to phytolith research such as in open publishing and open and FAIR data."
@@ -273,6 +281,7 @@ We will also start to develop training packages specific to phytolith research s
   - cel31
   - zdunseth
   - juanjo-garcía-granero
+  graduated: true
 - description: The Turing-Roche strategic partnership was established in June 2021 with the goal of establishing a collaboration in advanced analytics between the two organisations to develop new data science methods to investigate large, complex, clinical and healthcare datasets to better understand how and why patients respond differently to treatment, and how treatment can be improved.  As Community Manager for the project I am developing a collaborative and open community between both organisations and beyond. As the partnership is just beginning and is flexible in nature there are opportunities to embed open practices such as open publication,   reproducibility, open data, training, co-working as well as establishing networks such as an early career researchers.
   keywords:
   - treatment heterogeneity
@@ -302,6 +311,7 @@ We will also start to develop training packages specific to phytolith research s
   name: An Incomplete History of Research Ethics
   participants:
   - ismael-kg
+  graduated: true
 - description: 'This study aims to develop a diagnostic LAMP kit that''s sensitive and robust to Plasmodium falciparum from saliva and urine to enhance simple and easy non-invasive molecular testing. The first phase of this study involved target validation, primer, and probe design using open-access tools. Here, a principal component analysis (PCA) of the R/adegenet package (Jombart et al, 2010) and phylogenetic tree (Neighbour-joining) using R/ape package (Paradis et al, 2004) to cluster repeats of the chosen amplification target. These clusters were aligned to generate a consensus sequence for designing primers and probes for establishing the LAMP assay. I have designed an incorporated strand displacement probe using the engineering guideline of Juan et al, 2015 and the open-access Nupack software tool. The assay has and the master mix is being lyophilized for further experimental evaluation.
 
 
@@ -317,6 +327,7 @@ The sensitivity of this kit will be evaluated on extracted DNA from three sample
   name: Developing thermally stable loop mediated isothermal amplification kit for a non invasive detection of malaria
   participants:
   - mgawe-cavin
+  graduated: true
 - description: In October 2021, the RSE Asia Association was launched. This was done to create awareness in the Asia region about the field of Research Software Engineering. The digital infrastructure for the association has been built during the Open Life Science Cohort 4 (OLS-4) program. The webpage is in place, the contact addresses have also been created for communication with people. A small community has also started emerging. It is time that the community can expand. With the expanding community, it is now required that we create well-defined pathways for people to get onboard to the association. This project aims at building such pathways. Also, a basic Code of Conduct is already present on the RSE Asia webpage. It is to be modified to make it more appropriate for the Asian region.
   keywords:
   - Community Building
@@ -328,6 +339,7 @@ The sensitivity of this kit will be evaluated on extracted DNA from three sample
   name: Building Pathways for Onboarding to Research Software Engineering (RSE) Asia Association and Adoption of Code of Conduct
   participants:
   - jyoti-bhogal
+  graduated: true
 - description: "We are to process bladder cancer RNA-Seq datasets that are publicly available. The co-authors of this manuscript will work on the analysis and apply bioinformatics methods for analysis of this large scale, heterogeneous RNA-sequencing dataset (20 + samples - 3Gb) that will be downloaded from any of the following databases; Genome Atlas (TCGA) database, Genotype-Tissue Expression (GTEx), cBio Cancer GenCancer Genomics Portal (cBioPortal) database and SRA NCBI database (choose any suitable database you are familiar with). The biological questions of particular interest include
 
 1. identification of differentially expressed transcripts (DEGs)
@@ -374,6 +386,7 @@ Open source software such as R/Bioconductor (DESeq2), Unix/Linux, Python and Jup
   name: OpenGHG - a cloud platform for greenhouse gas data analysis and collaboration
   participants:
   - gareth-j
+  graduated: true
 - description: '**Visualization of participants by their countries**  I would like to work on a project ''Visualization of participants by their countries'' from the projects listed [here](https://github.com/open-life-science/open-life-science.github.io/issues/297).
 
 
@@ -409,6 +422,7 @@ The first Open Science MOOC started in 2018 and on average the course attracts a
   participants:
   - alecandian
   - lisanne-walma
+  graduated: true
 - description: "Binderhub is a service that allows users to share reproducible interactive computing environments through public code repositories. The subject of our project, Hub23, is an organisational deployment of Binderhub, designed to allow Turing Researchers to use binder (the user interface) to collaborate on repositories internal to Turing. This is sometimes necessary if the underlying repository can not be shared for some reason, or is not yet ready to publish openly. During the OLS program, we aim to build an open community around Hub23 to help to guide future technical developments, and encourage use and contributions from the wider Turing community. We will host a series of Zero-to-Binder workshops aimed at introducing Turing researchers to regular binder, followed by structured discussion of what the ideal features of a collaborative reproducible environment for research would be. Any conclusions and subsequent technical development will be fed upstream to Binderhub, and we also aim to open source the methodologies used to create an internal binderhub deployment, allowing other organisations to do so."
   keywords:
   - Open Source
@@ -423,6 +437,7 @@ The first Open Science MOOC started in 2018 and on average the course attracts a
   - callummole
   - lydiafrance
   - lukehare
+  graduated: true
 - description: "We aim to build an online platform and community that allows open sharing, storage, and synthesis of clinical (meta)data, crucial for the development of modern, transdiagnostic, FAIR neuropsychology. First, published peer-reviewed papers will be scrapped to collect already available (meta)data. Second, our platform will allow direct uploading of clinical brain maps and their corresponding metadata.
 
 
@@ -452,6 +467,7 @@ A basic automated preprocessing and data-quality check pipeline will be implemen
   - complexbrains
   - pinheirochagas
   - sladjana-lukic
+  graduated: true
 - description: 'Open science is vital for reproducible, fair, and rigorous research. For its principles to thrive, we need OS practices to be shared and adopted by as many scientists as possible, from the earliest stages of their career. A 2017 survey by the European Commission reports that, among 1277 researchers at all career stages, the majority were unaware of the OS concept, and had never attended an OS initiative (from the Open Science Skills Working Group Report, July 2017).
 
 
@@ -496,6 +512,7 @@ Diagnosis of cancer relies on histology in nearly 80% of cases, cytology in 10%,
   - jafsia
   - fadanka
   - agossoubido2021
+  graduated: true
 - description: The "AI for Science and Government" (ASG) programme at The Alan Turing Institute seeks to produce three community-led white papers that will capture the outcomes of research into deploying AI and data science in priority areas to support the UK's economy. The papers will also highlight advances in practices towards open and reproducible research in the fields of AI and data science. The process of authoring the white papers will itself be collaborative, open and transparent, soliciting contributions from the wider ASG community at every step of the way.
   keywords:
   - community management
@@ -507,6 +524,7 @@ Diagnosis of cancer relies on histology in nearly 80% of cases, cytology in 10%,
   name: Cultivating a Community of Practice of AI researchers
   participants:
   - raoofphysics
+  graduated: true
 - description: "ARPHAI is an interdisciplinary research consortium, whose mission is to develop technological tools and recommendations to anticipate and manage epidemiological events. ARPHAI pilots data-driven open source tools using artificial intelligence and data science towards upgrading Argentina's electronic health record (EHR) system. ARPHAI is part of the [Global South AI4COVID Program](https://covidsouth.ai/).
 
 
@@ -530,6 +548,7 @@ There are two additional lines of work ARPHAI undertakes that are transversal to
   - vickygisel
   - federico-cestares
   - lauracion
+  graduated: true
 - description: The project focuses on building tools to understand the evolution of life. We develop bioinformatic tools to determine evolutionary processes to detect early stage life development. The project looks at data from two specific parts of detecting life - co-evolution of life and environment and biosignature assessment within the context of habitability. We use data from current experimental projects and develop new models to aid the growth of astrobiology search for life. The platform will cater to multiple sections such as- data management from all astrobiology projects, experiments, research labs and conferences; new tools to analyse data, predictive model section to simulations from the data set and collaborative forum to encourage citizen science.The platform will help create open source bioinformatic tools to help detect biosignature, assess habitability, promote involvement within  astrobiology. In addition to using bioinformatic tools, a part of the platform will use game theory and gamification to test the citizen science component. Using both the platform as a destination for tool testing and science education, we hope to advance the research in astrobiology.
   keywords:
   - Bioinformatics
