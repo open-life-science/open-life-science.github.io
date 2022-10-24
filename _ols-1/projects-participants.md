@@ -28,7 +28,7 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
 # Projects
 
 {% for project in projects %}
-{% if project.visible != false %}
+  {% if project.visible != false %}
 
         {% assign p-pparticipants = '' %}
 
