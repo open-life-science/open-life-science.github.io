@@ -13,10 +13,10 @@ photos:
 
 {% assign all-participants = '' %}
 {% for project in projects %}
-{% assign p-pparticipants = '' %}
-{% for p in project.participants %}
-{% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-{% endfor %}
+  {% assign p-pparticipants = '' %}
+  {% for p in project.participants %}
+    {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
+  {% endfor %}
 {% endfor %}
 
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
