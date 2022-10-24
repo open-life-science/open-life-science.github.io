@@ -43,7 +43,7 @@ photos:
 {% endfor %}
 {% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 
-# The OLS-1 Program
+# The OLS-1 program
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their

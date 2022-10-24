@@ -50,7 +50,7 @@ photos:
 {% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
 {% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
 
-# The OLS-3 Program
+# The OLS-3 program
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
