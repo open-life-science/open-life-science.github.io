@@ -17,7 +17,7 @@
     fraud, questionable research practices and biases, and how science intersects
     with the broader society and policy. Overall, this course will deepen students
     understanding of science as a collective activity and a complex system with many
-    players – helping young people to navigate their career in research and develop
+    players - helping young people to navigate their career in research and develop
     critical skills for other career paths.
   keywords:
   - Open Science
@@ -29,7 +29,7 @@
   - Bibliometrics
   mentors:
   - olsjuju
-  name: Evaluating criteria of ”best paper” awards from research journals across disciplines
+  name: Evaluating criteria of "best paper" awards from research journals across disciplines
   participants:
   - mlagisz
 - description: The project consists of finding the right ways (media, news and tools)
@@ -68,8 +68,7 @@
   keywords: []
   mentors:
   - jafsia
-  name: Development of a Multi-Adaptor Quality Control Kit for Integration with Radiographic
-    Equipment
+  name: Development of a Multi-Adaptor Quality Control Kit for Integration with Radiographic Equipment
   participants:
   - umar-farouk-ahmad
 - description: 'Objective: to provide a FAIR by design training course on Open Science
@@ -234,7 +233,7 @@
   participants:
   - marie-nugent
 - description: Under Agape, would like to build a community of open science practice
-    to grow our work up to date in a way that can catalyse changes in researchers’
+    to grow our work up to date in a way that can catalyse changes in researchers'
     perceptions of open science across Ireland and later internationally. The first
     step we underwent was creating a massive online open course (MOOC) by early career
     researchers (ECRs) for ECRs and other academics. The content of the MOOC is currently
@@ -249,7 +248,7 @@
   - Ireland
   mentors:
   - saravilla
-  name: AGAPE - Building an open science practicing community in Ireland
+  name: "AGAPE: Building an open science practicing community in Ireland"
   participants:
   - macziatko
   - cassmurph
@@ -306,10 +305,10 @@
   - usmood
 - description: Our project aims to map the relationship between people, skills and
     technologies, structured under the AI and data-science landscape, in order to
-    develop an ontology that can assist Research Software Engineers (RSE’s) to better
+    develop an ontology that can assist Research Software Engineers (RSE's) to better
     manage their teams and affiliates. It also aims to enable better collaboration
     within the RSE community and between research institutions.    This project is
-    driven by the growing need for RSE’s by researchers, as research is becoming increasingly
+    driven by the growing need for RSE's by researchers, as research is becoming increasingly
     reliant on data-driven technologies, and within the academic community itself,
     there is an emphasis on providing reusable, reproducible data which is not a skill
     that most researchers have. By creating a semantic overview of the interaction
@@ -330,8 +329,7 @@
   - Knowledge engineering
   mentors:
   - k-c-martin
-  name: Developing an ontology to connect open science technology, RSE’s and the different
-    skills and services that follow.
+  name: Developing an ontology to connect open science technology, RSEs and the different skills and services that follow
   participants:
   - megan-lisa-stock
   - nina-roux
@@ -453,7 +451,7 @@
   - Life Science
   mentors:
   - yochannah
-  name: OpSciHack – Open Life Science Hackathon
+  name: "OpSciHack: Open Life Science Hackathon"
   participants:
   - harinilakshminarayanan
 - description: The Hub portal and academy seeks to create a curriculum and a data
@@ -586,11 +584,7 @@
   name: Multiomics profiling and analysis of cardiovascular diseases
   participants:
   - rushda-patel
-- description: '**The Undergraduate’s Guide To Research Software Engineering** aims
-    to provide an *open-source*, *dynamic*, and *accessible* collection of resources
-    on Research Software Engineering to undergraduates and newcomers interested in
-    knowing more about the field.  The project aims to develop resources majorly around
-    the following four areas:  1. **Information and Background of Research Software
+- description: "**The Undergraduate's Guide To Research Software Engineering** aims to provide an *open-source*, *dynamic*, and *accessible* collection of resources on Research Software Engineering to undergraduates and newcomers interested in knowing more about the field.  The project aims to develop resources majorly around the following four areas:  1. **Information and Background of Research Software
     Engineering**  * This area would cover all the necessary context, history, background
     information, and the current situation of the Research Software Engineering movement
     across the world.  2. **Training and Education Resources**  * This area would
@@ -601,7 +595,7 @@
     Software Engineering and Open Science to lower the entry barrier for newcomers.  4.
     **Support and Community Engagement Resources**  * This area would provide support
     to newcomers in the form of open access community platforms as well as aim to
-    provide help from experts on a case-to-case basis.'
+    provide help from experts on a case-to-case basis."
   keywords:
   - research software engineering
   - open science
@@ -609,19 +603,21 @@
   - community
   mentors:
   - marimeireles
-  name: The Undergraduate's Guide To Research Software Engineering
+  name: The Undergraduates Guide To Research Software Engineering
   participants:
   - amangoel185
 - description: ''
   keywords: []
   mentors:
   - natalie-banner
-  name: Developing policy briefs on mental well-being of researchers in academia across
-    different countries
+  name: Developing policy briefs on mental well-being of researchers in academia across different countries
   participants:
   - msundukova
-- description: ''
-  keywords: []
+- description: Bioinformatics Secondary School Outreach (BSSO) is an initiative to develop bioinformatics capacity among High school students in Nigeria and this will create early interest in genomics data analysis among the students and equip them with the relevant skills and knowledge in Bioinformatics. Bioinformatics Hub Nigeria will be training these students on how to use Bioinformatics tools and pipelines and this can be achieved by establishing Bioinformatics research clubs in the visited schools to facilitate the trainings. We would be working alongside with other sister organizations to achieve this goal
+  keywords:
+  - Bioinformatics
+  - Students
+  - data analysis
   mentors:
   - landimi2
   name: Bioinformatics Secondary school Outreach in Nigeria
