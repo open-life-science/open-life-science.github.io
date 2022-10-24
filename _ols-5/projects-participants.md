@@ -13,10 +13,10 @@ photos:
 
 {% assign all-participants = '' %}
 {% for project in projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
+{% assign p-pparticipants = '' %}
+{% for p in project.participants %}
+{% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
+{% endfor %}
 {% endfor %}
 
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
@@ -28,7 +28,7 @@ For the third round of the Open Life Science program, we are happy to have [{{ p
 # Projects
 
 {% for project in projects %}
-    {% if project.visible != false %}
+{% if project.visible != false %}
 
         {% assign p-pparticipants = '' %}
 
@@ -50,12 +50,18 @@ For the third round of the Open Life Science program, we are happy to have [{{ p
 
     {% capture difference %} {{ project.keywords | size | minus:1 }} {% endcapture %}
     {% unless difference contains '-' %}
+
+{% if project.status %}
+**Status**: {{ project.status }}
+{% endif %}
+
 **Keywords**: {{ project.keywords | join: ', ' }}
-    {% endunless %}
+{% endunless %}
 
 {{ project.description }}
 
     {% endif %}
+
 {% endfor %}
 
 # Participants

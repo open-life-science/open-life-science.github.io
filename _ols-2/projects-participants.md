@@ -13,10 +13,10 @@ photos:
 
 {% assign all-participants = '' %}
 {% for project in projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
+{% assign p-pparticipants = '' %}
+{% for p in project.participants %}
+{% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
+{% endfor %}
 {% endfor %}
 
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
@@ -28,7 +28,7 @@ For the second round of the Open Life Science program, we are happy to have [{{ 
 # Projects
 
 {% for project in projects %}
-    {% if project.visible != false %}
+{% if project.visible != false %}
 
         {% assign p-pparticipants = '' %}
 
@@ -48,9 +48,14 @@ For the second round of the Open Life Science program, we are happy to have [{{ 
 
 **Mentored by**: {{ p-mentors | remove_first: 'with ' }}
 
+{% if project.status %}
+**Status**: {{ project.status }}
+{% endif %}
+
 {{ project.description }}
 
     {% endif %}
+
 {% endfor %}
 
 # Participants

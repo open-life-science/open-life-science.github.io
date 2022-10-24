@@ -13,10 +13,10 @@ photos:
 
 {% assign all-participants = '' %}
 {% for project in projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
+{% assign p-pparticipants = '' %}
+{% for p in project.participants %}
+{% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
+{% endfor %}
 {% endfor %}
 
 {% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
@@ -28,7 +28,7 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
 # Projects
 
 {% for project in projects %}
-    {% if project.visible != false %}
+{% if project.visible != false %}
 
         {% assign p-pparticipants = '' %}
 
@@ -41,8 +41,6 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
         {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/people#{{ p }})
         {% endfor %}
         {% endcapture %}
-
-        {% assign status = project.status %}
 
 ## {{ project.name }}
 
@@ -57,6 +55,7 @@ For the first round of the Open Life Science program, we are happy to have [{{ p
 {{ project.description }}
 
     {% endif %}
+
 {% endfor %}
 
 # Participants
