@@ -80,7 +80,6 @@
   name: Multibeam electron microscopy for imaging large tissue volumes
   participants:
     - arentkievits
-  graduated: true
   status: graduated
 - description:
     We propose to build a database that compiles literature data for the
@@ -105,7 +104,6 @@
     - guille1107
     - diegoonna
     - princehoodie
-  graduated: true
   status: graduated
 - description:
     "[**Bio-IT**](https://bio-it.embl.de) project at the [European Molecular Biology\
@@ -169,7 +167,6 @@
     and biodiversity
   participants:
     - gedaloop
-  graduated: true
   status: graduated
 - description:
     "In my project, I want to interview several colleagues/peers who were\
@@ -220,7 +217,6 @@
   name: Open and reproducible data analysis for wet lab neuroscientists
   participants:
     - saravilla
-  graduated: true
   status: graduated
 - description:
     We plan to create a "Research Software Engineering Association in Asia
@@ -248,7 +244,6 @@
   name: Building the Research Software Engineering (RSE) Association in Asia region
   participants:
     - saranjeetkaur
-  graduated: true
   status: graduated
 - description:
     "Operating from a place of data for co-liberation, we have three complementary\
@@ -306,7 +301,6 @@
   name: Talleres Open Source community platform
   participants:
     - chucklesongithub
-  graduated: true
   status: graduated
 - description:
     There is a considerable gap in cases of sub-Saharan African countries
@@ -330,7 +324,6 @@
   name: Creating an open database for carbon foot printing of buildings in Ghana
   participants:
     - michael-addy
-  graduated: true
   status: graduated
 - description:
     "Portable land is an urban DIY Agriculture project which aims to create\
@@ -390,7 +383,6 @@
     - mai-alajaji
     - batoolmm
     - lalmehlisy
-  graduated: true
   status: graduated
 - description:
     "I aim to develop a Python library which allows to call and apply several
@@ -430,7 +422,6 @@
   name: Developing a library in Python for applying measures of emergence and complexity
   participants:
     - nadinespy
-  graduated: true
   status: graduated
 - description:
     "We propose a **living**, **free** and **open** document, named The\
@@ -461,7 +452,6 @@
   name: The Environmental AI Book
   participants:
     - acocac
-  graduated: true
   status: graduated
 - description:
     Bioinformatics Secondary School Outreach (BSSO) is an initiative to  develop
@@ -497,7 +487,6 @@
   name: Citizen Scientists as Data Explorers
   participants:
     - wykhuh
-  graduated: true
   status: graduated
 - description:
     "Established in 2018, EROS (education researchers for open science)
@@ -608,7 +597,6 @@
   name: Building Open Science and Data Analysis Skills by Leading the OLS Survey Data Project
   participants:
     - burce-elbasan
-  graduated: true
   status: graduated
 - description:
     Binderhub is a service that allows users to share reproducible interactive
@@ -656,7 +644,6 @@
   name: Online event "Women in Data Science - Perspectives in Industry and Academia" Part II
   participants:
     - irena-maus
-  graduated: true
   status: graduated
 - description:
     "The international and open RIVER UNIVERSITY started in Poland with\
@@ -706,7 +693,6 @@
   name: open and international River University
   participants:
     - ewa-leś
-  graduated: true
   status: graduated
 - description:
     'In _The Turing Way,_ we want to systematically understand community
