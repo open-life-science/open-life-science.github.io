@@ -219,7 +219,47 @@ $link-active: $link-hover;
     @include reset-links();
   }
 }
-
+.category-item{
+  width: 460px;
+  height: 500px;
+  margin: 10px;
+    .card{
+      background-color: #fff;
+      box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+      height: 100%;
+      width: fit-content;
+    }
+    .image{
+      width: auto;
+      height: 250px;
+      overflow: hidden;
+    }
+    .image img{
+      height: 100%;
+      object-fit: cover;
+      padding: 5px;
+    }
+    p{
+      display: contents;
+      font-size: 30px;
+    }
+    .card-content{
+      padding: 1rem;
+      
+    } 
+}
+.category-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.category{
+  h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
 .post {
   @include mobile() {
     .card {
