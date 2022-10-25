@@ -5,7 +5,7 @@
 
 $black: #000;
 $white: #fff;
-$dark-green: #265F3F;
+$dark-green: #276243;
 
 $bg-image: #333;
 $hero-text-color: $white;
@@ -120,7 +120,7 @@ $link-active: $link-hover;
   a {
     color: inherit;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 2px;
     color: $link;
 
