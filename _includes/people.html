@@ -50,19 +50,20 @@
       </div>
     </div>
 
-    {% if user.roles or user.title %}
-    <p class="people-description">
-      {% if user.roles %}
-      <p class="people-description-question">
-        Role in OLS: {% if user.title %}<a class="card-toggle">{{ user.title }} <i class="fa fa-angle-down"></i></a>{% endif %}
+    {% if roles or user.title %}
+      <p class="people-description">
+        {% if user.title %}
+        <p class="people-description-question">
+          Role in OLS:
+          <a class="card-toggle">{{ user.title }} <i class="fa fa-angle-down"></i></a>
+        </p>
+        <div class="content is-hidden">
+          {{ roles | markdownify }}
+        </div>
+        {% else %}
+        <p class="people-description-question">Role in OLS: <strong>{{ roles | remove_first: ', ' }}</strong></p>
       </p>
-      <div class="content is-hidden">
-        {{ user.roles | markdownify }}
-      </div>
-      {% else %}
-      <p class="people-description-question">Role in OLS: <strong>{{ user.title }}</strong></p>
       {% endif %}
-    </p>
     {% endif %}
 
     {% if user.expertise %}
