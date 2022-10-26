@@ -57,7 +57,7 @@
         {% if user.title %}
           {{ user.title }}
         {% endif %}
-        {% if user.title %}
+        {% if roles %}
           {{ roles | remove_first: ', ' | markdownify }}
         {% endif %}
         </p>
