@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Curious what the difference is between Open Life Science and eLife Innovation leaders?
+categories: Blog
 authors:
 - bebatut
 - malvikasharan
