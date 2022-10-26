@@ -219,6 +219,19 @@ $link-active: $link-hover;
     @include reset-links();
   }
 }
+.button-category{
+  background: rgb(17, 17, 136);
+  color: #fff;
+  padding: 8px 6px;
+  border-radius: 5px;
+      a{
+        text-decoration: none;
+        border-bottom: none;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+}
 .category-item{
   width: 460px;
   height: 500px;
