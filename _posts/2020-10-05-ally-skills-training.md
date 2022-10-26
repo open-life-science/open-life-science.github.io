@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ally Skills Training Workshop
+categories: News
 authors:
 - bebatut
 - malvikasharan
