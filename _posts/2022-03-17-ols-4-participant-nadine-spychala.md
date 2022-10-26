@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'OLS-4 speed blog: Developing a library in Python for applying measures of emergence and complexity'
-categories: [Blog, News]
+categories: Blog
 authors:
 - nadinespy
 image: ../images/2022-04-01-header-image-speed-blod-nadine.jpg
