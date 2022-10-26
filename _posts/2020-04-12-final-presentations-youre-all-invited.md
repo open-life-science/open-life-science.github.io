@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Graduation and final presentations - you're all invited!
+categories: 
+  News
+  Blog
 authors:
 - yochannah
 - malvikasharan
