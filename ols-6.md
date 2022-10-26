@@ -121,7 +121,7 @@ Mentors advise and inspire
 ### Pool of mentors
 
 <!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-6-metadata.yaml file -->
+Any modification of the content should be done in the _data/ols-6-metadata.yaml file
 
 We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
@@ -166,7 +166,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
 
 
 <!-- Pool of mentors (hidden before cohort starts)
-Any modification of the content should be done in the _data/ols-6-projects.yaml file
+Any modification of the content should be done in the _data/ols-6-projects.yaml file -->
 
 We thank the {{ p-mentors | size }} mentors this round.
 <div class="people">
@@ -175,7 +175,7 @@ We thank the {{ p-mentors | size }} mentors this round.
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
 {% endfor %}
-</div> -->
+</div>
 
 ### Mentoring training
 
