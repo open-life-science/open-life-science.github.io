@@ -351,9 +351,9 @@ This is an invitation-based role. Facilitators are offered an honourarium in rec
 
 ### Our facilitators
 
-Our facilitator are essential for the program:
+Our facilitators are essential for the program:
 
-- [{{ ols-3-facilitators | uniq | size }} facilitators](/ols-3#facilitators) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
-- [{{ ols-4-facilitators | uniq | size }} facilitators](/ols-4#facilitators) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
-- [{{ ols-5-facilitators | uniq | size }} facilitators](/ols-5#facilitators) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
-- [{{ ols-6-facilitators | uniq | size }} facilitators](/ols-6#facilitators) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-3-facilitators | uniq | size }} facilitator(s)](/ols-3#facilitators) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
+- [{{ ols-4-facilitators | uniq | size }} facilitator(s)](/ols-4#facilitators) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
+- [{{ ols-5-facilitators | uniq | size }} facilitator(s)](/ols-5#facilitators) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
+- [{{ ols-6-facilitators | uniq | size }} facilitator(s)](/ols-6#facilitators) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})

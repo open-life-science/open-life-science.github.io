@@ -48,6 +48,10 @@ For the second round of the Open Life Science program, we are happy to have [{{ 
 
 **Mentored by**: {{ p-mentors | remove_first: 'with ' }}
 
+{% if project.status %}
+**Status**: {{ project.status }}
+{% endif %}
+
 {{ project.description }}
 
     {% endif %}

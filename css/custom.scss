@@ -59,7 +59,7 @@ $link-active: $link-hover;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: auto;
   width: 100%;
 
   &.no-image {
@@ -184,6 +184,7 @@ $link-active: $link-hover;
   border-radius: 50%;
   margin-left: 0.25em;
   margin-right: 0.25em;
+  vertical-align: middle;
 }
 
 .entities {
@@ -338,4 +339,15 @@ $link-active: $link-hover;
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 20px;
+}
+
+// table responsiveness (mobile)
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  table {
+    font-size: 1em;
+    line-height: 1.5;
+    display: block;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
 }
