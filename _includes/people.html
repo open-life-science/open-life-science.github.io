@@ -33,10 +33,10 @@
           {% if user.orcid %}
           <a href="https://orcid.org/{{ user.orcid }}"><i class="ai ai-orcid"></i></a>
           {% endif %}
-        
+
           {% if user.affiliation or user.country %}
             <br>
-            <i class="fas fa-map-marker-alt"></i> 
+            <i class="fas fa-map-marker-alt"></i>
             {% assign delim = '' %}
             {% if user.affiliation %}
             {{ user.affiliation }}
@@ -64,25 +64,26 @@
       {% endif %}
     </p>
     {% endif %}
-
-    {% if user.expertise %}
-    <p class="people">
-      <div class="people-description-question">Expertise:</div> {{ user.expertise | join: ", " }}
-    </p>
-    {% endif %}
-
-    <div class="people-description">
-      {% if user.bio %}      
-      <p class="people-description-question">
-        <a class="card-toggle">
-          More about {{ user.first-name }}
-          <i class="fa fa-angle-down"></i>
-        </a>
+    <div class="people-details">
+      {% if user.expertise %}
+      <p class="people">
+        <div class="people-description-question">Expertise:</div> {{ user.expertise | join: ", " }}
       </p>
-      <div class="content is-hidden">
-        {{ user.bio | markdownify }}
-      </div>
       {% endif %}
+
+      <div class="people-description">
+        {% if user.bio %}
+        <p class="people-description-question">
+          <a class="card-toggle">
+            More about {{ user.first-name }}
+            <i class="fa fa-angle-down"></i>
+          </a>
+        </p>
+        <div class="content is-hidden">
+          {{ user.bio | markdownify }}
+        </div>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
