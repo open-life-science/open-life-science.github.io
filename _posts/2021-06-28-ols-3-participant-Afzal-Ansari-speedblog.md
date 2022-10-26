@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OLS-3 Speed Blog: Documentation enhancement with open science practices at sktime (open-source project)"
+categories: Blog
 authors:
 - afzal442
 - abdulelahsm
