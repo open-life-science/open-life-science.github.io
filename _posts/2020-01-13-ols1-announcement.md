@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Meet our first cohort of project leads and their mentors
-categories:
- News
- Blog
+categories: News
 authors:
 - bebatut
 - malvikasharan
