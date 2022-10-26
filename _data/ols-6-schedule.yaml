@@ -189,7 +189,6 @@ weeks:
         - Create a GitHub repository
         - Write in Markdown
         - Create a README file
-        - Enable a small website via GitHub
         - Managing issues and labels
         - Submit changes via Pull Request
       title: GitHub tutorial for beginners
@@ -220,7 +219,7 @@ weeks:
         on their README'
       after: |-
         - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
-          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
+          For help with GitHub and Git Pages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
         - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
           Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
@@ -516,7 +515,7 @@ weeks:
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
+        - Celebrate OLS-6 success
       title: Final presentations & Graduation! - Group 2
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
