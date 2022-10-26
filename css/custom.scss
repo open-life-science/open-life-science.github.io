@@ -164,6 +164,16 @@ $link-active: $link-hover;
     font-weight: 600;
   }
 
+  .people-details {
+    padding-bottom: 1px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .people-details:first-child {
+    margin-top: 1em;
+  }
+
   .people-description {
     padding-left: 0px;
     padding-right: 0px;

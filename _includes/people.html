@@ -79,10 +79,21 @@
           <i class="fa fa-angle-down"></i>
         </a>
       </p>
-      <div class="content is-hidden">
-        {{ user.bio | markdownify }}
-      </div>
       {% endif %}
+
+      <div class="people-description">
+        {% if user.bio %}
+        <p class="people-description-question">
+          <a class="card-toggle">
+            More about {{ user.first-name }}
+            <i class="fa fa-angle-down"></i>
+          </a>
+        </p>
+        <div class="content is-hidden">
+          {{ user.bio | markdownify }}
+        </div>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
