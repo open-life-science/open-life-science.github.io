@@ -542,6 +542,7 @@ annalee-sekulic:
   github: false
   last-name: Sekulic
   pronouns: She/Her/Hers
+  website:  https://www.linkedin.com/in/annalee-sekuli%C4%87-682042134/
 anneclinio:
   bio: Anne currently works at Oswald Cruz foundation with the development of a bottom
     up open data policy. She is also part of a research group dedicated to open science
@@ -1479,6 +1480,7 @@ dasaderi:
   orcid: 0000-0002-6109-0367
   pronouns: she/her
   twitter: Neurosarda
+  website:  https://www.prereview.org/
 david-selassie-opoku:
   affiliation: Hellofresh
   city: Berlin
@@ -2559,9 +2561,10 @@ jafsia:
   - Healtcare
   first-name: Elisee
   last-name: Jafsia
-  orcid: my-orcid?orcid=0000-0001-9262-4053
+  orcid: 0000-0001-9262-4053
   pronouns: He/his/him
   twitter: euclude
+  website:  http://www.mboalab.africa
 jasonjwilliamsny:
   bio: Jason is a life scientist who spends most of his time working to help researchers
     adopt computational practices in research and education
@@ -3443,6 +3446,7 @@ lpantano:
   last-name: Pantano
   pronouns: she/her
   twitter: lopantano
+  website:  http://lpantano.github.com
 luispedro:
   affiliation: Fudan University
   bio: I am the principal investigator of the Big Data Biology Lab at Fudan University
@@ -3652,6 +3656,7 @@ manulera:
   orcid: 0000-0002-8666-9746
   pronouns: He/him
   twitter: manu_lera
+  website:  https://www.genestorian.org/
 marco-madella:
   affiliation: Cases Research Group - Icrea - Universitat Pompeu Fabra
   city: Barcelona
@@ -5269,6 +5274,7 @@ sladjana-lukic:
   orcid: 0000-0001-7009-3474
   pronouns: she/her
   twitter: NoLaB_Lukic
+  website:  https://sites.google.com/view/sladjanalukic/home
 slldec:
   affiliation: Arphai / Instituto De Cálculo (Uba-Conicet)
   bio: I have a Ph.D. in Biology (neuroscience) where I acquired diverse tools for
@@ -5458,7 +5464,7 @@ thatspacegirl:
   - Data science;
   first-name: Sagarika
   last-name: Valluri
-  orcid: ' 0000-0003-2764-4028'
+  orcid: 0000-0003-2764-4028
   pronouns: She/Her
   twitter: thatspacegirl__
 thessaly:
@@ -5762,7 +5768,7 @@ yochannah:
   bio: Yo is the executive director and a co-founder of [OLS](https://openlifesci.org/).
     As an [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html),
     Yo is studying pathogen-related data sharing and sustainability of open source software.
-    Yo is a founder of [Code is Science]( https://codeisscience.github.io/manifesto/), and previously, 
+    Yo is a founder of [Code is Science](https://codeisscience.github.io/manifesto/), and previously, 
     they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
     editor emeritus at the [Journal of Open Source Software](https://joss.theoj.org/),
     board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
@@ -5794,6 +5800,7 @@ yvanlebras:
   orcid: 0000-0002-8504-068X
   pronouns: He
   twitter: Yvan2935
+  website: https://www.stationmarinedeconcarneau.fr
 zdunseth:
   affiliation: Icops
   city: Providence
