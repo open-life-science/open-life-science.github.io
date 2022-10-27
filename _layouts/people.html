@@ -54,9 +54,9 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 <!-- extract experts and organizers -->
 {% assign ols-1-experts = site.data.ols-1-metadata.experts | join: ' ' %}
 {% assign ols-1-organizers = site.data.ols-1-metadata.organizers | join: ' ' %}
-<!-- extract speakers and call facilitators -->
+<!-- extract speakers -->
 {% assign ols-1-speakers = '' %}
-{% assign ols-1-facilitators = '' %}
+{% assign ols-1-hosts = '' %}
 {% for w in site.data.ols-1-schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
@@ -66,15 +66,10 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
                 {% endif %}
             {% endfor %}
         {% endif %}
-        {% if c.facilitators %}
-            {% for h in c.facilitators %}
-                {% capture ols-1-facilitators %}{{ ols-1-facilitators}} {{ h }}{% endcapture %}
-            {% endfor %}
-        {% endif %}
     {% endfor %}
 {% endfor %}
 <!-- combine all -->
-{% capture ols-1-people %}{{ ols-1-participants }} {{ ols-1-experts }} {{ ols-1-mentors }} {{ ols-1-organizers }} {{ ols-1-speakers }} {{ ols-1-facilitators }}{% endcapture %}
+{% capture ols-1-people %}{{ ols-1-participants }} {{ ols-1-experts }} {{ ols-1-mentors }} {{ ols-1-organizers }} {{ ols-1-speakers }}{% endcapture %}
 
 <!-- OLS-2 -->
 <!-- extract participants and mentors -->
@@ -92,9 +87,9 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 <!-- extract experts and organizers -->
 {% assign ols-2-experts = site.data.ols-2-metadata.experts %}
 {% assign ols-2-organizers = site.data.ols-2-metadata.organizers %}
-<!-- extract speakers and call facilitators -->
+<!-- extract speakers -->
 {% assign ols-2-speakers = '' %}
-{% assign ols-2-facilitators = '' %}
+{% assign ols-2-hosts = '' %}
 {% for w in site.data.ols-2-schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
@@ -104,15 +99,10 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
                 {% endif %}
             {% endfor %}
         {% endif %}
-        {% if c.facilitators %}
-            {% for h in c.facilitators %}
-                {% capture ols-2-facilitators %}{{ ols-2-facilitators}} {{ h }}{% endcapture %}
-            {% endfor %}
-        {% endif %}
     {% endfor %}
 {% endfor %}
 <!-- combine all -->
-{% capture ols-2-people %}{{ ols-2-participants }} {{ ols-2-experts }} {{ ols-2-mentors }} {{ ols-2-organizers }} {{ ols-2-speakers }} {{ ols-2-facilitators }}{% endcapture %}
+{% capture ols-2-people %}{{ ols-2-participants }} {{ ols-2-experts }} {{ ols-2-mentors }} {{ ols-2-organizers }} {{ ols-2-speakers }}{% endcapture %}
 
 <!-- OLS-3 -->
 <!-- extract participants and mentors -->
@@ -285,9 +275,6 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
             {% if ols-1-speakers contains username %}
                 {% capture roles %}{{ roles }},OLS-1 speaker{% endcapture %}
             {% endif %}
-            {% if ols-1-facilitators contains username %}
-                {% capture roles %}{{ roles }}, OLS-1 facilitator{% endcapture %}
-            {% endif %}
             {% if ols-1-organizers contains username %}
                 {% capture roles %}{{ roles }}, OLS-1 organizer{% endcapture %}
             {% endif %}
@@ -306,9 +293,6 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
             {% endif %}
             {% if ols-2-speakers contains username %}
                 {% capture roles %}{{ roles }}, OLS-2 speaker{% endcapture %}
-            {% endif %}
-            {% if ols-2-facilitators contains username %}
-                {% capture roles %}{{ roles }}, OLS-2 facilitator{% endcapture %}
             {% endif %}
             {% if ols-2-organizers contains username %}
                 {% capture roles %}{{ roles }}, OLS-2 organizer{% endcapture %}
