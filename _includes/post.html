@@ -1,18 +1,6 @@
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 
 
-{% for category in site.categories %}
-<div class="category">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h1 class="category-head">{{ category_name }}</h1>
-    <a name="{{ category_name | slugize }}"></a>
-
-    <div class="category-container">
-        {% for post in site.categories[category_name] %}
-
         <div class="category-item">
 
             <div>
@@ -54,11 +42,3 @@
                 </div>
             </div>
         </div>
-      {% endfor %}  
-    </div>
-</div>
-
-
-</div>
-</div>
-{% endfor %}
