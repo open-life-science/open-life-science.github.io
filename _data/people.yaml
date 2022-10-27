@@ -1522,14 +1522,23 @@ da5nsy:
   twitter: da5nsy
   website: https://dannygarside.co.uk
 dadditolu:
-  bio: I am a scientist interested in host-parasite interactions who loves to learn
-    and help
+  affiliation: Institute Of Biodiversity, Animal Health & Comparative Medicine, University
+    Of Glasgow
+  bio: I am a budding scientist, interested in host-parasite interactions. I am open to 
+  continuous learning, and passionate about improving the health of man and animals.
+  city: Glasgow
+  country: United Kingdom
   expertise:
   - Genomics
   - Renal pathology
   - Trypanosome biology
+  - Biological sciences
+  - Trypanosomiasis
+  - Veterinary pathology
   first-name: John
   last-name: Ogunsola
+  pronouns: he/him
+  twitter: JohnOgunsola
 danae-carelis-davila-espinoza:
   bio: "Medical student\nAssociate editor of the Journal of the scientific society\
     \ of medical students of the Universidad Mayor de San Simón \"Revista Científica\
@@ -2841,7 +2850,7 @@ jesperdramsch:
   first-name: Jesper
   last-name: Dramsch
   orcid: 0000-0001-8273-905X
-  pronouns: they
+  pronouns: they/them
   twitter: jesperdramsch
   website: https://dramsch.net
 jessica-sims:
@@ -3024,22 +3033,6 @@ johav:
   orcid: 0000-0002-6157-1494
   twitter: openscicomm
   website: https://access2perspectives.com
-john-ogunsola:
-  affiliation: Institute Of Biodiversity, Animal Health & Comparative Medicine, University
-    Of Glasgow
-  bio: John is a budding scientist, open to continuously learning, and passionate
-    about improving the health of man and animals.
-  city: Glasgow
-  country: United Kingdom
-  expertise:
-  - Biological sciences
-  - Trypanosomiasis
-  - Veterinary pathology
-  first-name: John
-  github: false
-  last-name: Ogunsola
-  pronouns: he/him
-  twitter: JohnOgunsola
 jonny-heath:
   bio: I am a poet and performance artist. One of my main practices is 'empathic literature',
     in which a conversation with an individual leads to my creating a unique piece
