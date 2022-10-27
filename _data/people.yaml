@@ -314,7 +314,7 @@ aleesteele:
   pronouns: she/her
   twitter: aleesteele
   website: https://www.aleesteele.com
-alexandra-holinski:
+alexholinski:
   affiliation: EMBL-EBI
   bio: I am working as a Scientific Training Officer at EMBL-EBI and dedicate my work
     time to developing and designing training in the field of biomedical sciences
@@ -339,9 +339,6 @@ alexandra-holinski:
   last-name: Holinski
   orcid: 0000-0003-2321-5568
   pronouns: She/her
-alexholinski:
-  first-name: Alexandra
-  last-name: Holinski
 alexwlchan:
   affiliation: Wellcome Collection
   country: United Kingdom
@@ -350,13 +347,19 @@ alexwlchan:
   pronouns: they/she
   twitter: alexwlchan
   website: https://alexwlchan.net
-ali-humayun:
+alihumayun:
   bio: I am 23 years old and currently working at a sports media company as an editor.
-    I graduated in October 2020 from UCL in MSc Digital Humanities and have a previous
-    background in history. I am extremely interested in the intersection between technology,
-    the law and society. Also, I'm very keen to help address educational inequity
-    as well as learning more about community building.
+    I graduated in October 2020 from UCL in MSc Digital Humanities, with a year of experience
+    in journalism. I also have a previous background in history, and I am about to embark on a
+    postgraduate diploma in law, with hopes of pursuing a career at the intersection of law and
+    technology. Also, I'm very keen to help address educational inequity as well as learning more
+    about community building and the open science community!
   city: London
+  country: United Kingdom
+  expertise:
+  - Editing
+  - Legal
+  - Diversity issues
   first-name: Ali
   github: false
   last-name: Humayun
@@ -378,20 +381,6 @@ aliaslaurel:
   pronouns: She/her/ella
   twitter: lauradaiana
   website: https://www.metadocencia.org/en/authors/laurel/
-alihumayun:
-  bio: I am 23 years old and have completed a Masters in Digital Humanities as well
-    as a year of experience in journalism. I am about to embark on a postgraduate
-    diploma in law and hope to pursue a career at the intersection of law and technology.
-    I am also very keen to learn more about the open science community!
-  city: London
-  country: United Kingdom
-  expertise:
-  - Editing
-  - Legal
-  - Diversity issues
-  first-name: Ali
-  last-name: Humayun
-  pronouns: He/Him
 amangoel185:
   affiliation: University Of Delhi
   bio: I'm a recent Computer Science and Maths graduate from the University of Delhi
