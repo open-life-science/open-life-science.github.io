@@ -1151,17 +1151,12 @@ bruno-soares:
   pronouns: He/Him
   twitter: Bruno_E_Soares
   website: https://sites.google.com/view/bruno-eleres-soares
-burce-elbasan:
-  expertise:
-  - Cancer biology
-  - Brain tumors
-  first-name: Burce
-  github: false
-  last-name: Elbasan
 burceelbasan:
   affiliation: University Ulm
   country: Germany
   expertise:
+  - Cancer biology
+  - Brain tumors
   - Molecular genetics
   - Molecular mechanisms of cancer pathogenesis
   first-name: Burce
