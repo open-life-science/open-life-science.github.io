@@ -3763,7 +3763,7 @@ lydiafrance:
     mostly working with hawks and eagles! I recently joined the Alan Turing Institute
     as a research data scientist, working on lots of projects. I have great interest in
     education and awareness of reproducibility in science and research, especially for
-    life scientists. I am a self taught programmer and have been involved with Software
+    life scientists. I'm a self taught programmer and have been involved with Software
     Carpentries and The Turing Way.
   city: London
   country: United Kingdom
@@ -3911,13 +3911,6 @@ marco-madella:
   pronouns: he/his
   twitter: m4bcn
   website: https://www.upf.edu/web/cases
-margaret-wanjiku:
-  city: Nairobi
-  country: Kenya
-  first-name: Margaret
-  github: false
-  last-name: Wanjiku
-  twitter: meg_wanjiku
 maria-andrea-gonzales-castillo:
   bio: Maria Andrea Gonzales is a 4th year Bioengineering undergraduate in UTEC (Lima,
     Peru). She is currently working in a variety of biotechnology research projects
