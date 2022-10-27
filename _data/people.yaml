@@ -4674,7 +4674,7 @@ nickynicolson:
   last-name: Nicolson
   orcid: 0000-0003-3700-4884
   twitter: nickynicolson
-nihan-sultan-milat:
+nihansultan:
   affiliation: Bezmialem Vakif University, Beykoz Institute Of Life Science And Biotechnology
   bio: I am trying to be a good molecular biologist. I think that learning new things
     and sharing them in this field is great.
@@ -4684,16 +4684,6 @@ nihan-sultan-milat:
   - Life Sciences
   - Molecular biology
   - Developmental Genetics
-  first-name: Nihan Sultan
-  github: false
-  last-name: Milat
-  twitter: MilatNihan
-nihansultan:
-  affiliation: Bezmialem Vakıf University
-  city: İstanbul
-  country: Turkey
-  expertise:
-  - Molecular biology
   first-name: Nihan Sultan
   last-name: Milat
   twitter: MilatNihan
