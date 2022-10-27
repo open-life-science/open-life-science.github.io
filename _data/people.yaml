@@ -437,7 +437,7 @@ andreasancheztapia:
     (ENBT-JBRJ, Brazil). I am a member of RLadies and the Carpentries, and one of
     the leads for translation and localisation of The Turing Way.
   city: Merced, Ca
-  country: United States
+  country: United Statesa
   expertise:
   - Biodiversity informatics
   - Plant community ecology
@@ -3757,28 +3757,14 @@ lwinfree:
   pronouns: she/her
   twitter: lilscientista
   website: https://lwinfree.github.io/
-lydia-france:
-  affiliation: The Alan Turing Institute
-  bio: I have a PhD in bird flight aerodynamics, mostly working with hawks and eagles!
-    Now I'm working on lots of projects at The Alan Turing Institute, and feel very
-    strongly about teaching reproducible data science especially for life scientists.
-  city: London
-  country: United Kingdom
-  expertise:
-  - Biology
-  - Zoology
-  - Data science
-  first-name: Lydia
-  github: false
-  last-name: France
-  orcid: 0000-0003-4392-568X
 lydiafrance:
-  affiliation: Alan Turing Institute
-  bio: I'm Lydia, my background is in Zoology and the aerodynamics/control of bird
-    flight. I recently joined the Alan Turing Institute as a research data scientist
-    and have great interest in education and awareness of reproducibility in science
-    and research. I'm a self taught programmer and have been involved with Software
-    Carpentries and The Turing Way
+  affiliation: The Alan Turing Institute
+  bio: My background is in Zoology and I have a PhD in bird flight aerodynamics,
+    mostly working with hawks and eagles! I recently joined the Alan Turing Institute
+    as a research data scientist, working on lots of projects. I have great interest in
+    education and awareness of reproducibility in science and research, especially for
+    life scientists. I am a self taught programmer and have been involved with Software
+    Carpentries and The Turing Way.
   city: London
   country: United Kingdom
   expertise:
@@ -3787,9 +3773,10 @@ lydiafrance:
   - Binder
   - Biology
   - Zoology
+  - Data science
   first-name: Lydia
   last-name: France
-  orcid: ' 0000-0003-4392-568X'
+  orcid: 0000-0003-4392-568X 
 macelik:
   affiliation: Bezmialem Vakif University
   bio: He is a PhD student and his general interest lies in developing and applying
