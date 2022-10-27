@@ -132,11 +132,6 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
                 {% endif %}
             {% endfor %}
         {% endif %}
-        {% if c.facilitators %}
-            {% for h in c.facilitators %}
-                {% capture ols-3-facilitators %}{{ ols-3-facilitators}} {{ h }}{% endcapture %}
-            {% endfor %}
-        {% endif %}
     {% endfor %}
 {% endfor %}
 <!-- combine all -->
@@ -168,11 +163,6 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
                 {% if r.type == 'slides' and r.speaker %}
                     {% capture ols-4-speakers %}{{ ols-4-speakers}} {{ r.speaker }}{% endcapture %}
                 {% endif %}
-            {% endfor %}
-        {% endif %}
-        {% if c.facilitators %}
-            {% for h in c.facilitators %}
-                {% capture ols-4-facilitators %}{{ ols-4-facilitators}} {{ h }}{% endcapture %}
             {% endfor %}
         {% endif %}
     {% endfor %}
@@ -208,11 +198,6 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
                 {% endif %}
             {% endfor %}
         {% endif %}
-        {% if c.facilitators %}
-            {% for h in c.facilitators %}
-                {% capture ols-5-facilitators %}{{ ols-5-facilitators}} {{ h }}{% endcapture %}
-            {% endfor %}
-        {% endif %}
     {% endfor %}
 {% endfor %}
 <!-- combine all -->
@@ -244,11 +229,6 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
                 {% if r.type == 'slides' and r.speaker %}
                     {% capture ols-6-speakers %}{{ ols-6-speakers}} {{ r.speaker }}{% endcapture %}
                 {% endif %}
-            {% endfor %}
-        {% endif %}
-        {% if c.facilitators %}
-            {% for h in c.facilitators %}
-                {% capture ols-6-facilitators %}{{ ols-6-facilitators}} {{ h }}{% endcapture %}
             {% endfor %}
         {% endif %}
     {% endfor %}
