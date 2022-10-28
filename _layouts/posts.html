@@ -3,52 +3,6 @@ layout: default
 ---
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-
-<div class="post">
 {% for post in site.posts %}
-    {% capture authors %}
-    {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="/people#{{ id }}">{{ name }}</a>{% endfor %}
-    {% endcapture %}
-    <div class="card">
-        {% if post.image %}
-        <div class="card-image">
-            <figure class="image">
-            <img src="{{ post.image }}" alt="{{ post.title }}">
-            </figure>
-        </div>
-        {% endif %}
-
-        <div class="card-content">
-            <div class="content">
-                <div class="title">
-                {% if post.external %}
-                    <a href="{{ post.external }}"><p>{{ post.title | escape }}</p></a>
-                {% else %}
-                    <a href="{{ post.url }}"><p>{{ post.title | escape }}</p></a>
-                {% endif %}
-                </div>
-                
-                    <p class="subtitle">
-                    <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time>
-                    - {{ authors | remove_first: ', ' | strip }}
-                    </p> 
-                
-        <div class="post-categories">
-            {% if post %}
-              {% assign categories = post.categories %}
-            {% endif %}
-
-            {% for category in categories %}
-            <button class="button-category"><a href="{{site.url}}/categories/#{{category|slugize}}" >{{category}}</a></button>
-
-            {% endfor %}
-          </div>
-
-
-             
-                    {{ post.excerpt }}                    
-            </div>
-        </div>
-    </div>
+{% include _includes/post.html %}
 {% endfor %}
-</div>
