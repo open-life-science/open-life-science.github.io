@@ -39,7 +39,6 @@
   orcid: 0000-0002-1359-1730
   pronouns: He/Him
   twitter: '0x174'
-  website: https://0x174.io
 aath0:
   bio: Athina is a neuroscientist, with a background in electrical and computer engineering.
     Her research combines computational and electrophysiological techniques to study
@@ -186,7 +185,7 @@ agossoubido2021:
   first-name: Agossou
   last-name: Bidossessi Emmanuel
   pronouns: He/Him/His
-  website: https://http://bidossessi.atwebpages.com/
+  website: http://bidossessi.atwebpages.com/
 aida-turing:
   affiliation: The Alan Turing Institute
   bio: I am a Research Application Manager at The Alan Turing Institute. It's a new
@@ -217,7 +216,7 @@ aidanbudd:
   orcid: 0000-0003-0196-9051
   pronouns: he/him
   twitter: aidanbudd
-  website: https://http://about.me/aidan.budd
+  website: http://about.me/aidan.budd
 ajstewartlang:
   affiliation: University Of Manchester
   bio: I am an Experimental Psychologist and Fellow of the SSI at the University of
@@ -503,7 +502,7 @@ anelda:
   orcid: 0000-0003-4245-8119
   pronouns: she/her
   twitter: aneldavdw
-  website: https://talarify.co.za
+  website: https://www.talarify.co.za
 anenadic:
   affiliation: University Of Manchester
   bio: Software Sustainability Institute's training lead. Over the past 5 years committed
@@ -611,7 +610,7 @@ annalee-sekulic:
   github: false
   last-name: Sekulic
   pronouns: She/Her/Hers
-  website: https://www.linkedin.com/in/annalee-sekulic-682042134/
+  website:  https://www.linkedin.com/in/annalee-sekuli%C4%87-682042134/
 anneclinio:
   bio: Anne currently works at Oswald Cruz foundation with the development of a bottom
     up open data policy. She is also part of a research group dedicated to open science
@@ -1594,7 +1593,7 @@ dasaderi:
   orcid: 0000-0002-6109-0367
   pronouns: she/her
   twitter: Neurosarda
-  website: https://v2.prereview.org
+  website:  https://www.prereview.org/
 david-selassie-opoku:
   affiliation: Hellofresh
   city: Berlin
@@ -2774,10 +2773,10 @@ jafsia:
   - Data scientist
   first-name: Elisee
   last-name: Jafsia
-  orcid: my-orcid?orcid=0000-0001-9262-4053
-  pronouns: he/him
+  orcid: 0000-0001-9262-4053
+  pronouns: He/his/him
   twitter: euclude
-  website: https://www.mboalab.africa
+  website:  http://www.mboalab.africa
 jasonjwilliamsny:
   bio: Jason is a life scientist who spends most of his time working to help researchers
     adopt computational practices in research and education
@@ -3501,7 +3500,7 @@ kon0925:
   last-name: Kondylakis
   orcid: 0000-0002-9917-4486
   twitter: kondylak
-  website: https://http://users.ics.forth.gr/~kondylak/
+  website: http://users.ics.forth.gr/~kondylak/
 koudyk:
   country: Canada
   first-name: Kendra
@@ -3606,7 +3605,7 @@ lauracion:
   orcid: 0000-0001-5213-6012
   pronouns: she/ella
   twitter: _lacion_
-  website: https://http://lacion.rbind.io/
+  website: http://lacion.rbind.io/
 laurichi13:
   affiliation: IMDEA Food Institute
   country: Spain
@@ -3669,7 +3668,6 @@ lomaxboydphd:
   last-name: Boyd
   pronouns: He/him
   twitter: lomaxboyd
-  website: https://lomaxboyd.com
 loubez:
   affiliation: University Of Oxford And University Of Cape Town
   bio: Louise is a social scientist specialising in Critical Data Studies. Her work
@@ -3710,7 +3708,7 @@ lpantano:
   last-name: Pantano
   pronouns: she/her
   twitter: lopantano
-  website: https://lpantano.github.com
+  website:  http://lpantano.github.io
 luispedro:
   affiliation: Fudan University
   bio: I am the principal investigator of the Big Data Biology Lab at Fudan University
@@ -3932,7 +3930,7 @@ manulera:
   orcid: 0000-0002-8666-9746
   pronouns: He/him
   twitter: manu_lera
-  website: https://genestorian.org
+  website:  https://www.genestorian.org/
 marco-madella:
   affiliation: Cases Research Group - Icrea - Universitat Pompeu Fabra
   city: Barcelona
@@ -5794,7 +5792,7 @@ sladjana-lukic:
   orcid: 0000-0001-7009-3474
   pronouns: she/her
   twitter: NoLaB_Lukic
-  website: https://​sites.​google.​com/​view/​sladjanalukic/​home
+  website:  https://sites.google.com/view/sladjanalukic/home
 slldec:
   affiliation: Arphai / Instituto De Cálculo (Uba-Conicet)
   bio: I have a Ph.D. in Biology (neuroscience) where I acquired diverse tools for
@@ -6014,10 +6012,9 @@ thatspacegirl:
   - Data science;
   first-name: Sagarika
   last-name: Valluri
-  orcid: ' 0000-0003-2764-4028'
+  orcid: 0000-0003-2764-4028
   pronouns: She/Her
   twitter: thatspacegirl__
-  website: https://www.thatspacegirl.com
 thessaly:
   affiliation: University Of Bath & Drexel University
   bio: Julieta Arancio is a postdoctoral researcher at Drexel University (US) & the
@@ -6249,7 +6246,7 @@ veroxgithub:
   orcid: 0000-0002-0184-0277
   pronouns: She/Her
   twitter: xhardez
-  website: https://http://www.ciecti.org.ar/arphai/
+  website: http://www.ciecti.org.ar/arphai/
 vhellon:
   affiliation: The Alan Turing Institution
   bio: Vicky Hellon is currently a community manager based at the Turing Institute,
@@ -6328,9 +6325,9 @@ wykhuh:
 yochannah:
   bio: Yo is the executive director and a co-founder of [OLS](https://openlifesci.org/).
     As an [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html),
-    Yo is studying pathogen-related data sharing and sustainability of open source
-    software. Yo is a founder of [Code is Science](http://www.codeisscience.com/manifesto),
-    and previously, they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
+    Yo is studying pathogen-related data sharing and sustainability of open source 
+    software.Yo is a founder of [Code is Science](https://codeisscience.github.io/manifesto/), and previously, 
+    they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
     editor emeritus at the [Journal of Open Source Software](https://joss.theoj.org/),
     board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
     and a software developer at the University of Cambridge, working on an open source
@@ -6361,7 +6358,7 @@ yvanlebras:
   orcid: 0000-0002-8504-068X
   pronouns: He
   twitter: Yvan2935
-  website: https://yvanlebras.fr
+  website: https://www.stationmarinedeconcarneau.fr
 zdunseth:
   affiliation: Icops
   city: Providence
