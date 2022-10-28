@@ -9,7 +9,7 @@ $dark-green: #48b87d;
 
 $bg-image: #333;
 $hero-text-color: $white;
-$text-shadown: $black;
+$text-shadow: $black;
 
 $link: $dark-green;
 $link-visited: $link;
@@ -81,7 +81,7 @@ $link-active: $link-hover;
 .hero-body {
   padding-top: 160px;
   text-align: center;
-  text-shadow: 2px 2px 5px $text-shadown;
+  text-shadow: 2px 2px 5px $text-shadow;
 
   h1,
   p {
@@ -108,7 +108,7 @@ $link-active: $link-hover;
   .credit {
     text-align: right;
     font-size: 0.6em;
-    text-shadow: 1px 1px 1px $text-shadown;
+    text-shadow: 1px 1px 1px $text-shadow;
   }
 }
 
