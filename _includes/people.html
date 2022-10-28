@@ -57,8 +57,9 @@
       {% if user.title %}
         {{ user.title }}
       {% endif %}
+      <br>
       {% if roles %}
-        {{ ols-roles }}
+        {{ ols-roles | remove_first: ', ' }}
       {% endif %}
       </p>
     </p>
