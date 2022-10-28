@@ -5,20 +5,15 @@ layout: default
 
 
 {% for category in site.categories %}
-<div class="category">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
 
-    <h1 class="category-head">{{ category_name }}</h1>
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+
+    <h1 class="category-head" id="#{{ category_name | slugize }}">{{ category_name }}</h1>
     <a name="{{ category_name | slugize }}"></a>
 
-    <div class="category-container">
+    <div class="category">
       {% for post in site.categories[category_name] %}
-        {% include _includes/post.html%}
+        {% include _includes/post.html%}            
       {% endfor %}  
     </div>
-</div>
-</div>
-</div>
 {% endfor %}
