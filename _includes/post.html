@@ -1,44 +1,51 @@
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 
 
-        <div class="category-item">
+<div class="post">
 
-            <div>
-                {% capture authors %}
-                {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a
-                    href="/people#{{ id }}">{{ name }}</a>{% endfor %}
-                {% endcapture %}
-                <div class="card">
-                    {% if post.image %}
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="{{ post.image }}" alt="{{ post.title }}">
-                        </figure>
-                    </div>
+    {% capture authors %}
+    {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a
+        href="/people#{{ id }}">{{ name }}</a>{% endfor %}
+    {% endcapture %}
+    <div class="card">
+        {% if post.image %}
+        <div class="card-image">
+            <figure class="image">
+                <img src="{{ post.image }}" alt="{{ post.title }}">
+            </figure>
+        </div>
+        {% endif %}
+
+        <div class="card-content">
+            <div class="content">
+                <div class="title">
+                    {% if post.external %}
+                    <a href="{{ post.external }}">
+                        <p>{{ post.title | escape }}</p>
+                    </a>
+                    {% else %}
+                    <a href="{{ post.url }}">
+                        <p>{{ post.title | escape }}</p>
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="post-categories">
+                    {% if post %}
+                    {% assign categories = post.categories %}
                     {% endif %}
 
-                    <div class="card-content">
-                        <div class="content">
-                            <div class="title">
-                                {% if post.external %}
-                                <a href="{{ post.external }}">
-                                    <p>{{ post.title | escape }}</p>
-                                </a>
-                                {% else %}
-                                <a href="{{ post.url }}">
-                                    <p>{{ post.title | escape }}</p>
-                                </a>
-                                {% endif %}
-                            </div>
+                    {% for category in categories %}
+                    <button class="button-category"><a href="#">{{category}}</a></button>
 
-                            <p class="subtitle">
-                                <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format
-                                    }}</time>
-                                - {{ authors | remove_first: ', ' | strip }}
-                            </p>
-
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
+                <p class="subtitle">
+                    <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time>
+                    - {{ authors | remove_first: ', ' | strip }}
+                </p>
+
+                {{ post.excerpt }}
             </div>
         </div>
+    </div>
+</div>
