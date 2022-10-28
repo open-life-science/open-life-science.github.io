@@ -51,17 +51,17 @@
     </div>
 
     {% if roles or user.title %}
-      <p class="people-description">
-        <p class="people-description-question">
-        Role in OLS:
-        {% if user.title %}
-          {{ user.title }}
-        {% endif %}
-        {% if roles %}
-          {{ roles | remove_first: ', ' }}
-        {% endif %}
-        </p>
+    <p class="people-description">
+      <p class="people-description-question">
+      Role in OLS:
+      {% if user.title %}
+        {{ user.title }}
+      {% endif %}
+      {% if roles %}
+        {{ ols-roles }}
+      {% endif %}
       </p>
+    </p>
     {% endif %}
 
     {% if user.expertise %}
