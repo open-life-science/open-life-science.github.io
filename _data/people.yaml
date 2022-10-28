@@ -434,7 +434,7 @@ anelda:
   orcid: 0000-0003-4245-8119
   pronouns: she/her
   twitter: aneldavdw
-  website: http://www.talarify.co.za
+  website: https://www.talarify.co.za
 anenadic:
   affiliation: University Of Manchester
   bio: Software Sustainability Institute's training lead. Over the past 5 years committed
@@ -2561,7 +2561,7 @@ jafsia:
   - Healtcare
   first-name: Elisee
   last-name: Jafsia
-  orcid: 0000-0001-9262-4053
+  orcid: my-orcid?orcid=0000-0001-9262-405
   pronouns: He/his/him
   twitter: euclude
   website:  http://www.mboalab.africa
@@ -4796,6 +4796,11 @@ rgaiacs:
   last-name: Silva
   pronouns: he/him
   twitter: rgaiacs
+  website: https://rgaiacs.com
+  rhoné-roux:
+   affiliation: Stellenbosch University
+   first-name: Rhoné
+   last-name: Roux
 robandeep-kaur:
   bio: Light of hope
   city: Jalandhar
@@ -5767,8 +5772,8 @@ wykhuh:
 yochannah:
   bio: Yo is the executive director and a co-founder of [OLS](https://openlifesci.org/).
     As an [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html),
-    Yo is studying pathogen-related data sharing and sustainability of open source software.
-    Yo is a founder of [Code is Science](https://codeisscience.github.io/manifesto/), and previously, 
+    Yo is studying pathogen-related data sharing and sustainability of open source 
+    software.Yo is a founder of [Code is Science](https://codeisscience.github.io/manifesto/), and previously, 
     they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
     editor emeritus at the [Journal of Open Source Software](https://joss.theoj.org/),
     board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
