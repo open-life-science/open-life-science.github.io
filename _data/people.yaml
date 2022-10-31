@@ -3114,7 +3114,7 @@ jsheunis:
   pronouns: he/him
   twitter: fmrwhy
   website: https://jsheunis.github.io/
-juan-josé-garcía-granero:
+juanjo-garcía-granero:
   affiliation: Spanish National Research Council
   bio: I am an archaeobotanist interested in how late prehistoric societies interacted
     with their environment in terms of plant food acquisition and transformation practices,
@@ -3123,19 +3123,10 @@ juan-josé-garcía-granero:
   country: Spain
   expertise:
   - Archaeology
-  first-name: Juan José
-  github: false
-  last-name: García-Granero
-  orcid: 0000-0002-7546-2176
-  pronouns: He/him/his
-juanjo-garcía-granero:
-  affiliation: Spanish National Research Council
-  city: Barcelona
-  country: Spain
   first-name: Juanjo
   last-name: García-Granero
   orcid: 0000-0002-7546-2176
-  pronouns: he/his
+  pronouns: He/him/his
 jvillcavillegas:
   affiliation: Universidad Mayor De San Simon
   bio: Proactive, Courageous, Positive
