@@ -939,11 +939,17 @@ banshee1221:
   twitter: edebeste
 batoolmm:
   affiliation: Kaimrc
-  bio: Same as before
+  bio: Batool is a computational biologist affiliated with both KAIMRC in Saudi Arabia
+    and the University of Liverpool in the UK. As an advocate for Open Science and
+    its role in improving scientific and economic outputs in the Middle east, Batool
+    established an Open Science Community in Saudi Arabia (OSCSA). OSCSA aims to create
+    significant value towards Saudi Arabia’s Vision 2030, which focus on enhancing
+    knowledge and improving equal access to education in the Kingdom
   city: Liverpool
   country: Saudi Arabia
   expertise:
-  - Same as before
+  - Reproducibility
+  - Computational biology
   first-name: Batool
   last-name: Almarzouq
   orcid: 0000-0002-3905-2751
