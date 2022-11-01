@@ -32,8 +32,10 @@ Organizers will inform participants of the week schedule by email.
   "@id": "{{ site.url }}/{{ cohort }}/schedule",
   "@type": "Course",
   "dct:conformsTo": "https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08",
-  "description": "{%- for w in schedule.weeks %} {%- capture w-desc %}**Week {{ w[0] }}** (start. {{ w[1].start }}){% endcapture %} {%- for c in w[1].calls %}{%- capture date %} {% if c.type !='Mentors-Mentee'%} {{ c.date }} {% if c.time %} ([{{ c.time }} European Time] (https://arewemeetingyet.com/Berlin/{{ c.date | date: '%Y-%m-%d' }}/{{ c.time }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))) {% endif %}{% endif %}{% endcapture %} | {{ w-desc }} | [{{ c.type }}](/{{ cohort }}#{{ c.type | downcase | remove: '(' remove: | remove:')'| remove: '@' | remove: ':' | remove: ',' | replace: ' ', '-' | remove: '&'}}-calls) | {{ date }} | [**{{ c.title }}**] (/{{ cohort }}/schedule#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |{%- assign w-desc = '' %} {%- endfor %} {%- endfor %}",
+  "description":"{{site.description}}" ,
     "hasCourseInstance": [
+     {%- for w in schedule.weeks %} {%- for c in w.calls %} {%- endfor %} {%- endfor %}
+
     {
       "@context": "https://schema.org",
       "@type": "CourseInstance",
@@ -44,7 +46,18 @@ Organizers will inform participants of the week schedule by email.
       "duration": "{{c.date}}",
       "name" : "{{c.title}}"
    
-    }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CourseInstance",
+      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
+      "courseMode": "['online', 'synchronous']",
+      "startDate" : "{{c.date}}",
+      "endDate" :"{{c.date}}",
+      "duration": "{{c.date}}",
+      "name" : "{{c.title}}"
+   
+    },
  
   ],
 
