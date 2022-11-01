@@ -135,23 +135,7 @@
   name: Open Data Custodianship tool
   participants:
   - dingaaling
-- description: Generation Z stands to become the new entrants into the world of research
-    from 2024. I believe new systems and easier ways of accessing information with
-    more vocal communities are needed to usher in the new generation. But to do so,
-    the new bachelor and high school students must be the recipient of effective scientific
-    communication to help them realize the existing communities and opportunities
-    in life science research in India. As a penultimate bioengineering student, my
-    exposure to existing communities is recent and new. This fact allows me to understand
-    and appreciate the importance of such communities in guiding students with a passion
-    for research in life sciences.  Life Science in 2022 India is a concept that seeks
-    to unite parallel enterprises by individuals across the nation under one banner.  The
-    goal is to provide a complete and interconnected picture of Life Science research
-    and communities in India. Simultaneously, as a founder of a Bioengineering Chapter
-    in my institution, I will be applying our findings to build and train my colleagues
-    and juniors to have the tools and awareness to choose their next steps in research.  Finally,
-    we measure the success of this project through the successful publication of a
-    paper that encompasses the findings and suggestions for building a better and
-    more robust open community of life science research in India.
+- description: ODC (Open Data Custodians) is an open tool for connecting public domain Github repo data to a DB/API. Inspired by the BigScience Data Governance Framework, this project seeks to empower repo maintainers to do more with their data and create new pathways for responsible data sharing in the open AI ecosystem.
   keywords:
   - Generation Z researchers
   - Research Trends
