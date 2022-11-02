@@ -9,7 +9,7 @@
 #       duration: .. min
 #       title:
 #       date: Month Day, Year
-#       time: '14:00'
+#       time: '13:00'
 #       calendar-event: link to calendar event
 #       agenda: tldr
 #       notes: link to notes
@@ -105,7 +105,7 @@ weeks:
         duration: 60 min
         title: Mentor training
         date: September 1, 2020
-        time: '18:00'
+        time: '16:00'
         content: |
           During our first cohort call, you will:
           - Understand common successes and challenges in mentoring OLS participants.
@@ -115,7 +115,7 @@ weeks:
         duration: 60 min
         title: Mentor training
         date: September 4, 2020
-        time: '13:30'
+        time: '11:30'
         content: |
           During our first cohort call, you will:
           - Understand common successes and challenges in mentoring OLS participants.
@@ -128,19 +128,19 @@ weeks:
         duration: 180 min
         title: Mentoring workshop
         date: September 8, 2020
-        time: '11:00'
+        time: '09:00'
       -
         type: Mentor
         duration: 180 min
         title: Mentoring workshop
         date: September 8, 2020
-        time: '18:00'
+        time: '16:00'
       -
         type: Cohort
         duration: 90 min
         title: Welcome to Open Life Science!
         date: September 10, 2020
-        time: '10:00'
+        time: '08:00'
         hosts:
           - bebatut
           - yochannah
@@ -226,7 +226,7 @@ weeks:
         duration: 60 min
         title: 'Coworking on assignments, knowledge exchange and networking'
         date: September 17, 2020
-        time: '17:00'
+        time: '15:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/coworking#Week-3
         content: |
@@ -245,7 +245,7 @@ weeks:
         duration: 90 min
         title: Tooling and roadmapping for Open projects
         date: September 24, 2020
-        time: '18:30'
+        time: '16:30'
         hosts:
           - yochannah
           - malvikasharan
@@ -312,7 +312,7 @@ weeks:
         duration: 60 min
         title: Coworking on assignments, knowledge exchange and networking
         date: October 01, 2020
-        time: '17:00'
+        time: '15:00'
         notes: https://hackmd.io/@ols-2/coworking#Week-5
         hosts:
         - katesimpson
@@ -321,7 +321,7 @@ weeks:
         duration: 90 min
         title: 'Skill-up: GitHub tutorial for beginners'
         date: October 01, 2020
-        time: '13:30'
+        time: '11:30'
         hosts:
           - yochannah
           - malvikasharan
@@ -403,7 +403,7 @@ weeks:
         duration: 90 min
         title: 'Open Science I: Project Development'
         date: October 8, 2020
-        time: '10:00'
+        time: '08:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/week-06
         recording: https://www.youtube.com/embed/fyz4gB4XPJk
@@ -475,7 +475,7 @@ weeks:
         duration: 60 min
         title: Coworking on assignments, knowledge exchange and networking
         date: October 12, 2020
-        time: '12:00'
+        time: '10:00'
         notes: https://hackmd.io/@ols-2/coworking#Week-7
         hosts:
         - lauracarter
@@ -497,7 +497,7 @@ weeks:
         duration: 90 min
         title: 'Open Science II: Knowledge Dissemination'
         date: October 22, 2020
-        time: '18:30'
+        time: '16:30'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/week-08
         recording:
@@ -554,7 +554,7 @@ weeks:
         duration: 90 min
         title: "Skill-up: Personal Ecology and Ally Skills"
         date: October 29, 2020
-        time: '16:00'
+        time: '15:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
         notes: https://hackmd.io/@ols-2/week-09
         recording: https://www.youtube.com/embed/8niC2UB25ys
@@ -629,7 +629,7 @@ weeks:
         duration: 90 min
         title: 'Open Science III: Next steps - applying FAIR research principles'
         date: November 5, 2020
-        time: '10:00'
+        time: '09:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/week-10
         recording: https://www.youtube.com/embed/ylqDx_ELfus
@@ -700,7 +700,7 @@ weeks:
         duration: 90 min
         title: 'Open Leadership: Academia, industry and beyond!'
         date: November 19, 2020
-        time: '18:30'
+        time: '15:30'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/week-12
         recording: https://www.youtube.com/embed/hS-6GE0X2UY
@@ -760,7 +760,7 @@ weeks:
         duration: 60 min
         title: Pub Quiz!
         date: November 26, 2020
-        time: '15:00'
+        time: '14:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M2xtbjdpc2FqMjN0N3MzOTg5aWw3NGYyZnUgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
         notes: https://hackmd.io/@ols-2/week-13
         hosts:
@@ -778,7 +778,7 @@ weeks:
         duration: 90 min
         title: 'Designing & Empowering for inclusivity'
         date: December 3, 2020
-        time: '10:00'
+        time: '09:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://hackmd.io/@ols-2/week-14
         recording: https://www.youtube.com/embed/Tl8MOTVznXs
@@ -838,7 +838,7 @@ weeks:
         duration: 90 min
         title: 'Final presentation rehearsal - Group 1'
         date: December 10, 2020
-        time: '10:00'
+        time: '09:00'
         notes: https://hackmd.io/@ols-2/week-15-gr1
         recording: https://www.youtube.com/embed/zFzNxxBjg4c
         hosts:
@@ -864,7 +864,7 @@ weeks:
         duration: 90 min
         title: 'Final presentation rehearsal - Group 2'
         date: December 10, 2020
-        time: '18:30'
+        time: '17:30'
         notes: https://hackmd.io/@ols-2/week-15-gr2
         hosts:
           - yochannah
@@ -892,7 +892,7 @@ weeks:
         duration: 60 min
         title: 'Final presentations & Graduation! - Group 1'
         date: December 15, 2020
-        time: '10:00'
+        time: '09:00'
         hosts:
           - yochannah
           - emmyft
@@ -915,7 +915,7 @@ weeks:
         duration: 60 min
         title: 'Final presentations & Graduation! - Group 2'
         date: December 16, 2020
-        time: '15:00'
+        time: '14:00'
         hosts:
           - yochannah
           - emmyft
@@ -937,7 +937,7 @@ weeks:
         duration: 60 min
         title: 'Final presentations & Graduation! - Group 3'
         date: December 17, 2020
-        time: '18:30'
+        time: '17:30'
         hosts:
           - yochannah
           - emmyft
