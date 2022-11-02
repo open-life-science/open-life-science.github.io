@@ -114,17 +114,7 @@
   name: Ethical standards and reproducibility of computer models in Neurobiology
   participants:
   - susana465
-- description: 'Citi Map is a React template for creating a web app to collect on-the-ground
-    data to visualise on a map. The tool allows users to click on icons that represent
-    categories of items or behaviours occurring around their city. For example, trash
-    piles, shade, cherry blossoms in bloom, or mask wearing behaviour (see: [Mask
-    Map](https://maskmap.us/), the original Citi Map). By clicking on the icon that
-    represents the occurrence, the user logs a count under the respective icon and
-    as a geolocation point on the map. With Citi Map, users may easily collect timestamped,
-    geolocation data of their interest while moving around a city. Data collected
-    through Citi Map can be visualised through the map interface itself or downloaded
-    as a CSV. The data points saved simply are: Timestamp, GPS Coordinates, Icon Number,
-    and Accuracy of Location Data.'
+- description: ODC (Open Data Custodians) is an open tool for connecting public domain Github repo data to a DB/API. Inspired by the BigScience Data Governance Framework, this project seeks to empower repo maintainers to do more with their data and create new pathways for responsible data sharing in the open AI ecosystem. 
   keywords:
   - civic tech
   - data collection
