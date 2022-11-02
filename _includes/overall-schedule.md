@@ -34,31 +34,24 @@ Organizers will inform participants of the week schedule by email.
   "dct:conformsTo": "https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08",
   "description":"{{site.description}}" ,
     "hasCourseInstance": [
-     {%- for w in schedule.weeks %} {%- for c in w.calls %} {%- endfor %} {%- endfor %}
+        {%- for w in schedule.weeks %}
+        {%- capture w-desc %} Week {{ w[0] }} {{ w[1].start }}{% endcapture %}
+        {%- for c in w[1].calls %}
+        {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time }}{% endif %}{% endif %}{% endcapture %}
+        | {{ w-desc }} | {{ c.type }} | {{ date }} | [{{ c.title }}]|{{c.duration}}| {% if c.agenda %}{{ c.agenda }}{% endif %} |
+        {%- endfor %} 
+        {%- endfor %}
+    {
+      "@context": "https://schema.org",
+      "@type": "CourseInstance",
+      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
+      "courseMode": ["online", "synchronous"],
+      "startDate" : "{{c.date}}",
+      "endDate" :"{{c.date}}",
+      "duration": "{{c.duration}}",
+      "name" : "{{c.title}}"
+    }
 
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "['online', 'synchronous']",
-      "startDate" : "{{c.date}}",
-      "endDate" :"{{c.date}}",
-      "duration": "{{c.date}}",
-      "name" : "{{c.title}}"
-   
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": "['online', 'synchronous']",
-      "startDate" : "{{c.date}}",
-      "endDate" :"{{c.date}}",
-      "duration": "{{c.date}}",
-      "name" : "{{c.title}}"
-   
-    },
- 
   ],
 
   "keywords": "OLS, Working Open, Cohorts",
