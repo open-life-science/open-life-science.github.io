@@ -37,10 +37,9 @@ Organizers will inform participants of the week schedule by email.
         {%- for w in schedule.weeks %}
         {%- capture w-desc %} Week {{ w[0] }} {{ w[1].start }}{% endcapture %}
         {%- for c in w[1].calls %}
-        {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time }}{% endif %}{% endif %}{% endcapture %}
+        {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }}{% endif %}{% endcapture %}
         | {{ w-desc }} | {{ c.type }} | {{ date }} | [{{ c.title }}]|{{c.duration}}| {% if c.agenda %}{{ c.agenda }}{% endif %} |
-        {%- endfor %} 
-        {%- endfor %}
+       
     {
       "@context": "https://schema.org",
       "@type": "CourseInstance",
@@ -51,7 +50,8 @@ Organizers will inform participants of the week schedule by email.
       "duration": "{{c.duration}}",
       "name" : "{{c.title}}"
     }
-
+ {%- endfor %} 
+{%- endfor %}
   ],
 
   "keywords": "OLS, Working Open, Cohorts",
