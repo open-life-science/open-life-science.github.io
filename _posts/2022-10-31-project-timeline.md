@@ -3,6 +3,7 @@ layout: post
 title: Outreachy Project Timeline Presentation
 authors:
 - bisola
+image: https://images.pexels.com/photos/45842/clasped-hands-comfort-hands-people-45842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 ---
 
 # Outreachy Project Timeline Presentation: How to #
