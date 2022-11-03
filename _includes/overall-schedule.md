@@ -37,7 +37,6 @@ Organizers will inform participants of the week schedule by email.
         {% for w in schedule.weeks %}
         {%- for c in w[1].calls %}
         {% if c.type != "Mentor-Mentee" %}
-        | {{ w-desc }} | {{ c.type }} | {{ date }} | [{{ c.title }}]|{{c.duration}}| {% if c.agenda %}{{ c.agenda }}{% endif %} |
        
     {
       "@context": "https://schema.org",
