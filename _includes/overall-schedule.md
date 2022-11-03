@@ -48,6 +48,7 @@ Organizers will inform participants of the week schedule by email.
       "duration": "{{c.duration}}",
       "name" : "{{c.title}}"
     }
+ {% endif %}
  {%- endfor %} 
 {%- endfor %}
   ],
