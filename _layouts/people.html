@@ -368,6 +368,6 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
             {% capture ols-roles %}{{ ols-roles }} / OLS-6 {{ roles | remove_first: ', ' }}{% endcapture %}
         {% endif %}
         {% assign ols-roles = ols-roles | remove_first: ' / ' %}
-        {% include _includes/people.html username=username user=user ols-roles=ols-roles%}
+        {% include _includes/people.html username=username user=user ols-roles=ols-roles %}
     {% endfor %}
 </div>
