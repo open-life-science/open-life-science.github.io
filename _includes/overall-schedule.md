@@ -17,7 +17,7 @@ Organizers will inform participants of the week schedule by email.
 
 | Week | Call | Date | Topic | Agenda |
 |------|------|------|-------|--------|
- {%- for w in schedule.weeks %}
+{%- for w in schedule.weeks %}
 {%- capture w-desc %}**Week {{ w[0] }}** (start. {{ w[1].start }}){% endcapture %}
 {%- for c in w[1].calls %}
 {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time }} European Time](https://arewemeetingyet.com/Berlin/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
