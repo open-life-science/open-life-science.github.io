@@ -36,7 +36,7 @@ Organizers will inform participants of the week schedule by email.
     "hasCourseInstance": [
         {% for w in schedule.weeks %}
         {%- for c in w[1].calls %}
-        {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }}{% endif %}{% endcapture %}
+        {% if c.type != "Mentor-Mentee" %}
         | {{ w-desc }} | {{ c.type }} | {{ date }} | [{{ c.title }}]|{{c.duration}}| {% if c.agenda %}{{ c.agenda }}{% endif %} |
        
     {
