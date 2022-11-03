@@ -39,7 +39,6 @@
   orcid: 0000-0002-1359-1730
   pronouns: He/Him
   twitter: '0x174'
-  website: https://0x174.io
 aath0:
   bio: Athina is a neuroscientist, with a background in electrical and computer engineering.
     Her research combines computational and electrophysiological techniques to study
@@ -186,7 +185,7 @@ agossoubido2021:
   first-name: Agossou
   last-name: Bidossessi Emmanuel
   pronouns: He/Him/His
-  website: https://http://bidossessi.atwebpages.com/
+  website: http://bidossessi.atwebpages.com/
 aida-turing:
   affiliation: The Alan Turing Institute
   bio: I am a Research Application Manager at The Alan Turing Institute. It's a new
@@ -217,7 +216,7 @@ aidanbudd:
   orcid: 0000-0003-0196-9051
   pronouns: he/him
   twitter: aidanbudd
-  website: https://http://about.me/aidan.budd
+  website: http://about.me/aidan.budd
 ajstewartlang:
   affiliation: University Of Manchester
   bio: I am an Experimental Psychologist and Fellow of the SSI at the University of
@@ -314,7 +313,7 @@ aleesteele:
   pronouns: she/her
   twitter: aleesteele
   website: https://www.aleesteele.com
-alexandra-holinski:
+alexholinski:
   affiliation: EMBL-EBI
   bio: I am working as a Scientific Training Officer at EMBL-EBI and dedicate my work
     time to developing and designing training in the field of biomedical sciences
@@ -339,9 +338,6 @@ alexandra-holinski:
   last-name: Holinski
   orcid: 0000-0003-2321-5568
   pronouns: She/her
-alexholinski:
-  first-name: Alexandra
-  last-name: Holinski
 alexwlchan:
   affiliation: Wellcome Collection
   country: United Kingdom
@@ -350,15 +346,20 @@ alexwlchan:
   pronouns: they/she
   twitter: alexwlchan
   website: https://alexwlchan.net
-ali-humayun:
+alihumayun:
   bio: I am 23 years old and currently working at a sports media company as an editor.
-    I graduated in October 2020 from UCL in MSc Digital Humanities and have a previous
-    background in history. I am extremely interested in the intersection between technology,
-    the law and society. Also, I'm very keen to help address educational inequity
-    as well as learning more about community building.
+    I graduated in October 2020 from UCL in MSc Digital Humanities, with a year of experience
+    in journalism. I also have a previous background in history, and I am about to embark on a
+    postgraduate diploma in law, with hopes of pursuing a career at the intersection of law and
+    technology. Also, I'm very keen to help address educational inequity as well as learning more
+    about community building and the open science community!
   city: London
+  country: United Kingdom
+  expertise:
+  - Editing
+  - Legal
+  - Diversity issues
   first-name: Ali
-  github: false
   last-name: Humayun
   pronouns: He/Him
 aliaslaurel:
@@ -378,20 +379,6 @@ aliaslaurel:
   pronouns: She/her/ella
   twitter: lauradaiana
   website: https://www.metadocencia.org/en/authors/laurel/
-alihumayun:
-  bio: I am 23 years old and have completed a Masters in Digital Humanities as well
-    as a year of experience in journalism. I am about to embark on a postgraduate
-    diploma in law and hope to pursue a career at the intersection of law and technology.
-    I am also very keen to learn more about the open science community!
-  city: London
-  country: United Kingdom
-  expertise:
-  - Editing
-  - Legal
-  - Diversity issues
-  first-name: Ali
-  last-name: Humayun
-  pronouns: He/Him
 amangoel185:
   affiliation: University Of Delhi
   bio: I'm a recent Computer Science and Maths graduate from the University of Delhi
@@ -447,7 +434,7 @@ andreasancheztapia:
     in Biology (UNAL, Colombia), a MSc in Ecology (UFRJ, Brazil), and a PhD in Botany
     (ENBT-JBRJ, Brazil). I am a member of RLadies and the Carpentries, and one of
     the leads for translation and localisation of The Turing Way.
-  city: Merced, Ca
+  city: Merced, CA
   country: United States
   expertise:
   - Biodiversity informatics
@@ -503,7 +490,7 @@ anelda:
   orcid: 0000-0003-4245-8119
   pronouns: she/her
   twitter: aneldavdw
-  website: https://talarify.co.za
+  website: https://www.talarify.co.za
 anenadic:
   affiliation: University Of Manchester
   bio: Software Sustainability Institute's training lead. Over the past 5 years committed
@@ -611,7 +598,7 @@ annalee-sekulic:
   github: false
   last-name: Sekulic
   pronouns: She/Her/Hers
-  website: https://www.linkedin.com/in/annalee-sekulic-682042134/
+  website:  https://www.linkedin.com/in/annalee-sekuli%C4%87-682042134/
 anneclinio:
   bio: Anne currently works at Oswald Cruz foundation with the development of a bottom
     up open data policy. She is also part of a research group dedicated to open science
@@ -952,11 +939,17 @@ banshee1221:
   twitter: edebeste
 batoolmm:
   affiliation: Kaimrc
-  bio: Same as before
+  bio: Batool is a computational biologist affiliated with both KAIMRC in Saudi Arabia
+    and the University of Liverpool in the UK. As an advocate for Open Science and
+    its role in improving scientific and economic outputs in the Middle east, Batool
+    established an Open Science Community in Saudi Arabia (OSCSA). OSCSA aims to create
+    significant value towards Saudi Arabia’s Vision 2030, which focus on enhancing
+    knowledge and improving equal access to education in the Kingdom
   city: Liverpool
   country: Saudi Arabia
   expertise:
-  - Same as before
+  - Reproducibility
+  - Computational biology
   first-name: Batool
   last-name: Almarzouq
   orcid: 0000-0002-3905-2751
@@ -1162,17 +1155,12 @@ bruno-soares:
   pronouns: He/Him
   twitter: Bruno_E_Soares
   website: https://sites.google.com/view/bruno-eleres-soares
-burce-elbasan:
-  expertise:
-  - Cancer biology
-  - Brain tumors
-  first-name: Burce
-  github: false
-  last-name: Elbasan
 burceelbasan:
   affiliation: University Ulm
   country: Germany
   expertise:
+  - Cancer biology
+  - Brain tumors
   - Molecular genetics
   - Molecular mechanisms of cancer pathogenesis
   first-name: Burce
@@ -1538,14 +1526,23 @@ da5nsy:
   twitter: da5nsy
   website: https://dannygarside.co.uk
 dadditolu:
-  bio: I am a scientist interested in host-parasite interactions who loves to learn
-    and help
+  affiliation: Institute Of Biodiversity, Animal Health & Comparative Medicine, University
+    Of Glasgow
+  bio: I am a budding scientist, interested in host-parasite interactions. I am open to 
+    continuous learning, and passionate about improving the health of man and animals.
+  city: Glasgow
+  country: United Kingdom
   expertise:
   - Genomics
   - Renal pathology
   - Trypanosome biology
+  - Biological sciences
+  - Trypanosomiasis
+  - Veterinary pathology
   first-name: John
   last-name: Ogunsola
+  pronouns: he/him
+  twitter: JohnOgunsola
 danae-carelis-davila-espinoza:
   bio: "Medical student\nAssociate editor of the Journal of the scientific society\
     \ of medical students of the Universidad Mayor de San Simón \"Revista Científica\
@@ -1594,7 +1591,7 @@ dasaderi:
   orcid: 0000-0002-6109-0367
   pronouns: she/her
   twitter: Neurosarda
-  website: https://v2.prereview.org
+  website:  https://www.prereview.org/
 david-selassie-opoku:
   affiliation: Hellofresh
   city: Berlin
@@ -2261,10 +2258,10 @@ gabimusaubach:
     ceramic residues and sediments in pre-Hispanic sites in Argentina.
   country: Argentina
   expertise:
-  - '"phytolith analysis"'
-  - '" pre-hispanic archaeology"'
-  - '"archaeobotany"'
-  - '"ancient starch analysis"'
+  - Phytolith analysis
+  - Pre-hispanic archaeology
+  - Archaeobotany
+  - Ancient starch analysis
   first-name: Maria Gabriela
   last-name: Musaubach
   orcid: 0000-0002-6770-7145
@@ -2774,10 +2771,10 @@ jafsia:
   - Data scientist
   first-name: Elisee
   last-name: Jafsia
-  orcid: my-orcid?orcid=0000-0001-9262-4053
-  pronouns: he/him
+  orcid: 0000-0001-9262-4053
+  pronouns: He/his/him
   twitter: euclude
-  website: https://www.mboalab.africa
+  website:  http://www.mboalab.africa
 jasonjwilliamsny:
   bio: Jason is a life scientist who spends most of his time working to help researchers
     adopt computational practices in research and education
@@ -2857,7 +2854,7 @@ jesperdramsch:
   first-name: Jesper
   last-name: Dramsch
   orcid: 0000-0001-8273-905X
-  pronouns: they
+  pronouns: they/them
   twitter: jesperdramsch
   website: https://dramsch.net
 jessica-sims:
@@ -3040,22 +3037,6 @@ johav:
   orcid: 0000-0002-6157-1494
   twitter: openscicomm
   website: https://access2perspectives.com
-john-ogunsola:
-  affiliation: Institute Of Biodiversity, Animal Health & Comparative Medicine, University
-    Of Glasgow
-  bio: John is a budding scientist, open to continuously learning, and passionate
-    about improving the health of man and animals.
-  city: Glasgow
-  country: United Kingdom
-  expertise:
-  - Biological sciences
-  - Trypanosomiasis
-  - Veterinary pathology
-  first-name: John
-  github: false
-  last-name: Ogunsola
-  pronouns: he/him
-  twitter: JohnOgunsola
 jonny-heath:
   bio: I am a poet and performance artist. One of my main practices is 'empathic literature',
     in which a conversation with an individual leads to my creating a unique piece
@@ -3138,7 +3119,7 @@ jsheunis:
   pronouns: he/him
   twitter: fmrwhy
   website: https://jsheunis.github.io/
-juan-josé-garcía-granero:
+juanjo-garcía-granero:
   affiliation: Spanish National Research Council
   bio: I am an archaeobotanist interested in how late prehistoric societies interacted
     with their environment in terms of plant food acquisition and transformation practices,
@@ -3152,14 +3133,6 @@ juan-josé-garcía-granero:
   last-name: García-Granero
   orcid: 0000-0002-7546-2176
   pronouns: He/him/his
-juanjo-garcía-granero:
-  affiliation: Spanish National Research Council
-  city: Barcelona
-  country: Spain
-  first-name: Juanjo
-  last-name: García-Granero
-  orcid: 0000-0002-7546-2176
-  pronouns: he/his
 jvillcavillegas:
   affiliation: Universidad Mayor De San Simon
   bio: Proactive, Courageous, Positive
@@ -3501,7 +3474,7 @@ kon0925:
   last-name: Kondylakis
   orcid: 0000-0002-9917-4486
   twitter: kondylak
-  website: https://http://users.ics.forth.gr/~kondylak/
+  website: http://users.ics.forth.gr/~kondylak/
 koudyk:
   country: Canada
   first-name: Kendra
@@ -3606,7 +3579,7 @@ lauracion:
   orcid: 0000-0001-5213-6012
   pronouns: she/ella
   twitter: _lacion_
-  website: https://http://lacion.rbind.io/
+  website: http://lacion.rbind.io/
 laurichi13:
   affiliation: IMDEA Food Institute
   country: Spain
@@ -3669,7 +3642,6 @@ lomaxboydphd:
   last-name: Boyd
   pronouns: He/him
   twitter: lomaxboyd
-  website: https://lomaxboyd.com
 loubez:
   affiliation: University Of Oxford And University Of Cape Town
   bio: Louise is a social scientist specialising in Critical Data Studies. Her work
@@ -3710,7 +3682,7 @@ lpantano:
   last-name: Pantano
   pronouns: she/her
   twitter: lopantano
-  website: https://lpantano.github.com
+  website:  http://lpantano.github.io
 luispedro:
   affiliation: Fudan University
   bio: I am the principal investigator of the Big Data Biology Lab at Fudan University
@@ -3780,28 +3752,14 @@ lwinfree:
   pronouns: she/her
   twitter: lilscientista
   website: https://lwinfree.github.io/
-lydia-france:
-  affiliation: The Alan Turing Institute
-  bio: I have a PhD in bird flight aerodynamics, mostly working with hawks and eagles!
-    Now I'm working on lots of projects at The Alan Turing Institute, and feel very
-    strongly about teaching reproducible data science especially for life scientists.
-  city: London
-  country: United Kingdom
-  expertise:
-  - Biology
-  - Zoology
-  - Data science
-  first-name: Lydia
-  github: false
-  last-name: France
-  orcid: 0000-0003-4392-568X
 lydiafrance:
-  affiliation: Alan Turing Institute
-  bio: I'm Lydia, my background is in Zoology and the aerodynamics/control of bird
-    flight. I recently joined the Alan Turing Institute as a research data scientist
-    and have great interest in education and awareness of reproducibility in science
-    and research. I'm a self taught programmer and have been involved with Software
-    Carpentries and The Turing Way
+  affiliation: The Alan Turing Institute
+  bio: My background is in Zoology and I have a PhD in bird flight aerodynamics,
+    mostly working with hawks and eagles! I recently joined the Alan Turing Institute
+    as a research data scientist, working on lots of projects. I have great interest in
+    education and awareness of reproducibility in science and research, especially for
+    life scientists. I'm a self taught programmer and have been involved with Software
+    Carpentries and The Turing Way.
   city: London
   country: United Kingdom
   expertise:
@@ -3810,9 +3768,10 @@ lydiafrance:
   - Binder
   - Biology
   - Zoology
+  - Data science
   first-name: Lydia
   last-name: France
-  orcid: ' 0000-0003-4392-568X'
+  orcid: 0000-0003-4392-568X 
 macelik:
   affiliation: Bezmialem Vakif University
   bio: He is a PhD student and his general interest lies in developing and applying
@@ -3932,7 +3891,7 @@ manulera:
   orcid: 0000-0002-8666-9746
   pronouns: He/him
   twitter: manu_lera
-  website: https://genestorian.org
+  website:  https://www.genestorian.org/
 marco-madella:
   affiliation: Cases Research Group - Icrea - Universitat Pompeu Fabra
   city: Barcelona
@@ -3947,13 +3906,6 @@ marco-madella:
   pronouns: he/his
   twitter: m4bcn
   website: https://www.upf.edu/web/cases
-margaret-wanjiku:
-  city: Nairobi
-  country: Kenya
-  first-name: Margaret
-  github: false
-  last-name: Wanjiku
-  twitter: meg_wanjiku
 maria-andrea-gonzales-castillo:
   bio: Maria Andrea Gonzales is a 4th year Bioengineering undergraduate in UTEC (Lima,
     Peru). She is currently working in a variety of biotechnology research projects
@@ -3987,7 +3939,7 @@ mariangelap:
   twitter: marpamondo
   website: https://www.iit.it/it/people-details/-/people/mariangela-panniello
 marie-nugent:
-  affiliation: Https://Www.Genomicsengland.Co.Uk/Initiatives/Diverse-Data
+  affiliation: Genomics England
   bio: I work as Community Manager for the Diverse Data initiative at Genomics England
     and I'm interested in building an open source tooling and sharing network across
     a range of people developing exciting tools that enhance our understanding and
@@ -4003,6 +3955,7 @@ marie-nugent:
   last-name: Nugent
   orcid: 0000-0001-7962-6679
   twitter: mimi_nugget
+  website: https://www.Genomicsengland.Co.Uk/Initiatives/Diverse-Data
 marimeireles:
   affiliation: Numfocus
   bio: |-
@@ -4717,7 +4670,7 @@ nickynicolson:
   last-name: Nicolson
   orcid: 0000-0003-3700-4884
   twitter: nickynicolson
-nihan-sultan-milat:
+nihansultan:
   affiliation: Bezmialem Vakif University, Beykoz Institute Of Life Science And Biotechnology
   bio: I am trying to be a good molecular biologist. I think that learning new things
     and sharing them in this field is great.
@@ -4727,16 +4680,6 @@ nihan-sultan-milat:
   - Life Sciences
   - Molecular biology
   - Developmental Genetics
-  first-name: Nihan Sultan
-  github: false
-  last-name: Milat
-  twitter: MilatNihan
-nihansultan:
-  affiliation: Bezmialem Vakıf University
-  city: İstanbul
-  country: Turkey
-  expertise:
-  - Molecular biology
   first-name: Nihan Sultan
   last-name: Milat
   twitter: MilatNihan
@@ -5727,7 +5670,7 @@ shmuhammad2004:
   - Machine learning
   - R
   first-name: Shamsuddeen
-  last-name: Muhamamd
+  last-name: Muhammad
   orcid: 0000-0001-7708-0799
   pronouns: He/Him
   twitter: shmuhammadd
@@ -5794,7 +5737,7 @@ sladjana-lukic:
   orcid: 0000-0001-7009-3474
   pronouns: she/her
   twitter: NoLaB_Lukic
-  website: https://​sites.​google.​com/​view/​sladjanalukic/​home
+  website:  https://sites.google.com/view/sladjanalukic/home
 slldec:
   affiliation: Arphai / Instituto De Cálculo (Uba-Conicet)
   bio: I have a Ph.D. in Biology (neuroscience) where I acquired diverse tools for
@@ -6014,10 +5957,9 @@ thatspacegirl:
   - Data science;
   first-name: Sagarika
   last-name: Valluri
-  orcid: ' 0000-0003-2764-4028'
+  orcid: 0000-0003-2764-4028
   pronouns: She/Her
   twitter: thatspacegirl__
-  website: https://www.thatspacegirl.com
 thessaly:
   affiliation: University Of Bath & Drexel University
   bio: Julieta Arancio is a postdoctoral researcher at Drexel University (US) & the
@@ -6249,7 +6191,7 @@ veroxgithub:
   orcid: 0000-0002-0184-0277
   pronouns: She/Her
   twitter: xhardez
-  website: https://http://www.ciecti.org.ar/arphai/
+  website: http://www.ciecti.org.ar/arphai/
 vhellon:
   affiliation: The Alan Turing Institution
   bio: Vicky Hellon is currently a community manager based at the Turing Institute,
@@ -6328,9 +6270,9 @@ wykhuh:
 yochannah:
   bio: Yo is the executive director and a co-founder of [OLS](https://openlifesci.org/).
     As an [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html),
-    Yo is studying pathogen-related data sharing and sustainability of open source
-    software. Yo is a founder of [Code is Science](http://www.codeisscience.com/manifesto),
-    and previously, they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
+    Yo is studying pathogen-related data sharing and sustainability of open source 
+    software.Yo is a founder of [Code is Science](https://codeisscience.github.io/manifesto/), and previously, 
+    they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
     editor emeritus at the [Journal of Open Source Software](https://joss.theoj.org/),
     board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
     and a software developer at the University of Cambridge, working on an open source
@@ -6361,7 +6303,7 @@ yvanlebras:
   orcid: 0000-0002-8504-068X
   pronouns: He
   twitter: Yvan2935
-  website: https://yvanlebras.fr
+  website: https://www.stationmarinedeconcarneau.fr
 zdunseth:
   affiliation: Icops
   city: Providence
