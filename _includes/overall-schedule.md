@@ -34,7 +34,7 @@ Organizers will inform participants of the week schedule by email.
   "dct:conformsTo": "https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08",
   "description":"{{site.description}}" ,
     "hasCourseInstance": [
-        {%- for w in schedule.weeks %}
+        {% for w in schedule.weeks %}
         {%- for c in w[1].calls %}
         {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }}{% endif %}{% endcapture %}
         | {{ w-desc }} | {{ c.type }} | {{ date }} | [{{ c.title }}]|{{c.duration}}| {% if c.agenda %}{{ c.agenda }}{% endif %} |
