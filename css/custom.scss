@@ -351,3 +351,25 @@ $link-active: $link-hover;
     padding-bottom: 20px;
   }
 }
+
+.search-area {
+  padding: 100px;
+  display: grid;
+  align-items: center;
+
+}
+
+.searchbar {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+// input[type=text] {
+//    width: 30%;
+//    -webkit-transition: width 0.15s ease-in-out;
+//    transition: width 0.15s ease-in-out;
+// }
+
+// input[type=text]:focus {
+//   width: 70%;
+// }

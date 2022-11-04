@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<div class="search-area">
+  <input id="searchbar" onkeyup="search_posts()" type="text" name="search" placeholder="Search posts...">
+</div>
+
+
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 
 <div class="post">
