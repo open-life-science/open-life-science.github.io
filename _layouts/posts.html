@@ -3,7 +3,13 @@ layout: default
 ---
 
 <div class="search-area">
-  <input id="searchbar" onkeyup="search_posts()" type="text" name="search" placeholder="Search posts...">
+  <label for="searchbar">Search posts</label>
+  <input
+    placeholder="Search posts"
+    type="search"
+    oninput="searchPosts()"
+    id="searchbar"
+  >
 </div>
 
 

@@ -353,7 +353,7 @@ $link-active: $link-hover;
 }
 
 .search-area {
-  padding: 100px;
+  padding: 30px;
   display: grid;
   place-items: center;
 
@@ -363,4 +363,8 @@ $link-active: $link-hover;
   width: 200px;
   padding: 15px;
   border-radius: 10px;
+}
+
+.is-hidden {
+  display: none;
 }

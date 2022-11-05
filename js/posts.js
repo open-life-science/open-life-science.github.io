@@ -1,14 +1,21 @@
-// searchbar functionality
-function search_posts() {
-  let input = document.getElementById('searchbar').value
-  input = input.toLowerCase();
-  let x = document.getElementsByClassName('content')
-  for (i = 0; i < x.length; i++) {
-      if (!x[i].innerHTML.toLowerCase().includes(input)) {
-          x[i].style.display = "none";
-      }
-      else {
-          x[i].style.display= "inherit";
+// Searchbar functionality
+
+function searchPosts() {
+  // Find the cards
+  let cards = document.querySelectorAll('.card')
+  // Locate search input
+  let search_query = document.getElementById('searchbar').value;
+  // Loop through the cards
+  for (var i = 0; i < cards.length; i++) {
+    // If text is in the card:
+    if (cards[i].innerHTML.toLowerCase()
+    // AND if the text matches the search query:
+      .includes(search_query.toLowerCase())) {
+        // THEN remove the '.is-hidden' class
+        cards[i].classList.remove('is-hidden');
+      } else {
+        // Otherwise, add the class:
+        cards[i].classList.add('is-hidden');
       }
   }
 };
