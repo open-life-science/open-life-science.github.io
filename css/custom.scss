@@ -352,17 +352,8 @@ $link-active: $link-hover;
   }
 }
 
-.search-area {
+.field {
   padding: 30px;
-  display: grid;
-  place-items: center;
-
-}
-
-.searchbar {
-  width: 200px;
-  padding: 15px;
-  border-radius: 10px;
 }
 
 .is-hidden {
