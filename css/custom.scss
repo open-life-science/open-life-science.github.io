@@ -355,21 +355,12 @@ $link-active: $link-hover;
 .search-area {
   padding: 100px;
   display: grid;
-  align-items: center;
+  place-items: center;
 
 }
 
 .searchbar {
+  width: 200px;
   padding: 15px;
   border-radius: 10px;
 }
-
-// input[type=text] {
-//    width: 30%;
-//    -webkit-transition: width 0.15s ease-in-out;
-//    transition: width 0.15s ease-in-out;
-// }
-
-// input[type=text]:focus {
-//   width: 70%;
-// }
