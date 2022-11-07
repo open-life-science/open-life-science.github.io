@@ -69,7 +69,7 @@ and international bioinformatics communities.
 
 # Goals and Learning Objectives
 
-The vision of OLS program is to strengthen Open Science skills for early stage researchers and young leaders in science.
+The vision of Open Life Science program is to strengthen Open Science skills for early stage researchers and young leaders in life science.
 
 At the end of the program, our participants will be able to:
 - Describe and define the terms *openness*, *open science*, *open leadership*, *community interactions*, *value exchanges*, *inclusivity*, *accessibility*, *open Science practices in developing resources and training*
@@ -92,11 +92,11 @@ At the end of the program, our participants will be able to:
   - Communicate their work and vision in a 2min demo of elevator pitch
 - Lead an open project in science
 
-# Timeline
+# The ProgramTimeline
 
 {% include _includes/timeline.md %}
 
-# Schedule
+# The Program Schedule
 
 {% include _includes/overall-schedule.md %}
 

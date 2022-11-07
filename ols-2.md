@@ -92,13 +92,13 @@ At the end of the program, our participants will be able to:
   - Communicate their work and vision in a 2min demo of elevator pitch
 - Lead an open project in science
 
-# Timeline
+# The Program Timeline
 
 OLS's second cohort (OLS-2) will be conducted from September 2020 until December 2020.
 
 {% include _includes/timeline.md %}
 
-# Schedule
+# The Program Schedule
 
 {% include _includes/overall-schedule.md %}
 

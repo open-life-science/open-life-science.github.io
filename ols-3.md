@@ -92,13 +92,13 @@ At the end of the program, our participants will be able to:
   - Communicate their work and vision in a 2min demo of elevator pitch
 - Lead an open project in science
 
-# Timeline
+# The Program Timeline
 
 OLS's third cohort (OLS-3) will be conducted from February to May 2021.
 
 {% include _includes/timeline.md %}
 
-# Schedule
+# The Program Schedule
 
 {% include _includes/overall-schedule.md %}
 

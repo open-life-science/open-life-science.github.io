@@ -93,11 +93,11 @@ At the end of the program, our participants will be able to:
   - Communicate their work and vision in a 2min demo of elevator pitch
 - Lead an open project in science
 
-# Timeline
+# The Program Timeline
 
 {% include _includes/timeline.md %}
 
-# Schedule
+# The Program Schedule
 
 {% include _includes/overall-schedule.md %}
 

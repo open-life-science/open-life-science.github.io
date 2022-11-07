@@ -85,13 +85,13 @@ At the end of the program, our participants will be able to:
   - Communicate their work and vision in a 2min demo of elevator pitch
 - Lead an open project in science
 
-# Timeline
+# The Program Timeline
 
 OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from January 2020 until May 2020 with [{{ p-participants | size }} project leaders](/ols-1/projects-participants#participants) working on [{{ projects | size }} projects](/ols-1/projects-participants#projects).
 
 {% include _includes/timeline.md %}
 
-# Schedule
+# The Program Schedule
 
 {% include _includes/overall-schedule.md %}
 
