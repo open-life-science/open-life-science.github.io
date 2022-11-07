@@ -17,8 +17,12 @@
         {{ content }}
         {% include _includes/default-footer.html %}
 
+
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
         <script src="/js/scripts.js"></script>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-    </body>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        {% if page.layout == 'posts' %}
+          <script src="/js/posts.js"></script>
+        {% endif %}
+      </body>
 </html>
