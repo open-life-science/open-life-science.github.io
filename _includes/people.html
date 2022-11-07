@@ -50,18 +50,17 @@
       </div>
     </div>
 
-    {% if user.roles or user.title %}
+    {% if ols-roles and ols-roles != ''  or user.title %}
     <p class="people-description">
-      {% if user.roles %}
-      <p class="people-description-question">
-        Role in OLS: {% if user.title %}<a class="card-toggle">{{ user.title }} <i class="fa fa-angle-down"></i></a>{% endif %}
-      </p>
-      <div class="content is-hidden">
-        {{ user.roles | markdownify }}
-      </div>
-      {% else %}
-      <p class="people-description-question">Role in OLS: <strong>{{ user.title }}</strong></p>
+      Role in OLS:
+      {% if user.title %}
+        {{ user.title }}
       {% endif %}
+      <br>
+      {% if ols-roles and ols-roles != ''  %}
+        {{ ols-roles }}
+      {% endif %}
+      </p>
     </p>
     {% endif %}
 
