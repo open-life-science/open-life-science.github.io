@@ -190,7 +190,7 @@
     - interview
   mentors:
     - cemonks
-    - alexandra-holinski
+    - alexholinski
   name:
     "Generic data stewards in the Netherlands: who they are, what they do, and
     who they could become"
@@ -596,7 +596,7 @@
     - bduckles
   name: Building Open Science and Data Analysis Skills by Leading the OLS Survey Data Project
   participants:
-    - burce-elbasan
+    - burceelbasan
   status: graduated
 - description:
     Binderhub is a service that allows users to share reproducible interactive
@@ -621,7 +621,7 @@
     - unode
   name: "Hub23: An open source community and infrastructure for Turing's BinderHub"
   participants:
-    - lydia-france
+    - lydiafrance
     - lukehare
     - callummole
 - description:
