@@ -169,6 +169,9 @@ Add someone to the list of people:
     - `first-name` (*mandatory*)
     - `last-name` (*mandatory*)
     - `twitter`
+    - `mastodon`
+      - `server`
+      - `profile`
     - `email`
     - `website`
     - `gitter`
