@@ -4,7 +4,8 @@ timeline:
 - date: December 1, 2022
   description: Call for Application opens
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
-- date: null
+- date: December 12, 2022
+  time: '15:00'
   description: Application webinar
   type:
   - Talk
@@ -12,7 +13,8 @@ timeline:
   notes: null
   recording: null
   details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
-- date: null
+- date: January 11, 2023
+  time: '12:00'
   description: Application Clinic Call
   type:
   - Q&A
