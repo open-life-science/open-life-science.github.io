@@ -1476,6 +1476,13 @@ complexbrains:
   orcid: 0000-0003-3600-7004
   pronouns: She/her
   twitter: complexbrains
+contraexemplo:
+  affiliation: Outreachy
+  country: Brazil
+  first-name: Anna
+  last-name: e só
+  twitter: annaeso
+  website: https://notapplicable.dev/
 coopersmout:
   affiliation: Institute For Globally Distributed Open Research And Education
   bio: I studied psychology in my undergraduate degree (University of Queensland,
@@ -1528,7 +1535,7 @@ da5nsy:
 dadditolu:
   affiliation: Institute Of Biodiversity, Animal Health & Comparative Medicine, University
     Of Glasgow
-  bio: I am a budding scientist, interested in host-parasite interactions. I am open to 
+  bio: I am a budding scientist, interested in host-parasite interactions. I am open to
     continuous learning, and passionate about improving the health of man and animals.
   city: Glasgow
   country: United Kingdom
@@ -3771,7 +3778,7 @@ lydiafrance:
   - Data science
   first-name: Lydia
   last-name: France
-  orcid: 0000-0003-4392-568X 
+  orcid: 0000-0003-4392-568X
 macelik:
   affiliation: Bezmialem Vakif University
   bio: He is a PhD student and his general interest lies in developing and applying
@@ -6270,8 +6277,8 @@ wykhuh:
 yochannah:
   bio: Yo is the executive director and a co-founder of [OLS](https://openlifesci.org/).
     As an [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html),
-    Yo is studying pathogen-related data sharing and sustainability of open source 
-    software.Yo is a founder of [Code is Science](https://codeisscience.github.io/manifesto/), and previously, 
+    Yo is studying pathogen-related data sharing and sustainability of open source
+    software.Yo is a founder of [Code is Science](https://codeisscience.github.io/manifesto/), and previously,
     they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
     editor emeritus at the [Journal of Open Source Software](https://joss.theoj.org/),
     board member of the [Open Bioinformatics Foundation](https://www.open-bio.org/board/),
