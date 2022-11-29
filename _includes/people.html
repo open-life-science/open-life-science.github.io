@@ -33,10 +33,10 @@
           {% if user.orcid %}
           <a href="https://orcid.org/{{ user.orcid }}"><i class="ai ai-orcid"></i></a>
           {% endif %}
-        
+
           {% if user.affiliation or user.country %}
             <br>
-            <i class="fas fa-map-marker-alt"></i> 
+            <i class="fas fa-map-marker-alt"></i>
             {% assign delim = '' %}
             {% if user.affiliation %}
             {{ user.affiliation }}
@@ -50,14 +50,15 @@
       </div>
     </div>
 
-    {% if ols-roles and ols-roles != ''  or user.title %}
+    {% if ols-roles and ols-roles != '' or user.title %}
     <p class="people-description">
       Role in OLS:
       {% if user.title %}
         {{ user.title }}
       {% endif %}
       <br>
-      {% if ols-roles and ols-roles != ''  %}
+      {% if ols-roles and ols-roles != '' %}
+        there
         {{ ols-roles }}
       {% endif %}
       </p>
@@ -71,7 +72,7 @@
     {% endif %}
 
     <div class="people-description">
-      {% if user.bio %}      
+      {% if user.bio %}
       <p class="people-description-question">
         <a class="card-toggle">
           More about {{ user.first-name }}
