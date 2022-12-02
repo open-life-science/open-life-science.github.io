@@ -38,7 +38,7 @@ We especially welcome you if you are:
 
 Interested in applying for the next round? We can't wait to see your project proposal!
 
-Please submit your application via [OpenReview](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_6) before the end of the day on **February 1st, 2023** (hard deadline). **Important note:** The deadline for registering for OpenReview is January 23, as all OpenReview accounts are approved manually.
+Please submit your application via [OpenReview](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_7) before the end of the day on **January 15, 2023** (hard deadline). **Important note:** The deadline for registering for OpenReview is January 10, as all OpenReview accounts are approved manually.
 
 To learn about the timeline, process and details for the OLS-7, visit our homepage: [{{ site.url }}]({{ site.url }}) and
 [GitHub repo with application guidelines](https://github.com/open-life-science/application-forms).
