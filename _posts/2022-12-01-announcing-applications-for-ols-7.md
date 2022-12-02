@@ -6,7 +6,7 @@ authors:
 - emmyft
 - malvikasharan
 - yochannah
-image: https://unsplash.com/photos/5x4U6InVXpc/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fGhpa2UlMjBncm91cCUyMHBlYWt8ZW58MHx8fHwxNjU0MjQxMDI2&force=true&w=1920
+image: https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw0NTU2ODgyNDkyMS1pbWFnZS1rencxbm1kZi5qcGc.jpg
 photos:
   name: Photo by Mathias Jensen on Unsplash
   url: https://unsplash.com/@mathiasjensen
