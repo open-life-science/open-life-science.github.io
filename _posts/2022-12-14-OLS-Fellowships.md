@@ -1,7 +1,10 @@
 ---
 layout: post
 title: OLS Fellowships: Announcing our next generation of community changemakers
-author: yochannah
+authors: 
+- yochannah
+- pherterich
+- msundukova
 image: images/yyyy-mm-dd-name.jpg
 ---
 
