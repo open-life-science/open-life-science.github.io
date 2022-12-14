@@ -11,8 +11,6 @@ photos:
   url: https://unsplash.com/photos/r9T0LZv8xWQ
 ---
 
-# OLS Fellowships: Announcing our next generation of community changemakers
-
 In September 2022, OLS had a leadership retreat in Scotland, where all four directors gathered together to discuss future plans and strategic director for our organisation. One of the key activities we identified was a desire to work with community members in a more official capacity, beyond the mentorship program that is our core. As a young organisation with funding, we have a relatively high level of flexibility when it comes to defining our mission and how we deliver it. 
 
 ## A plan: let’s recruit “Resident Fellows”
