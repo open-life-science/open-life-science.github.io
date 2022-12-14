@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OLS Fellowships: Announcing our next generation of community changemakers
+title: "OLS Fellowships: Announcing our next generation of community changemakers"
 authors: 
 - yochannah
 - pherterich
