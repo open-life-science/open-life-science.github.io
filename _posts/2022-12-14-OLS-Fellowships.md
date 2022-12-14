@@ -5,7 +5,10 @@ authors:
 - yochannah
 - pherterich
 - msundukova
-image: images/yyyy-mm-dd-name.jpg
+image: https://images.unsplash.com/photo-1516381548400-349d680edb56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80
+photos:
+  name: Photo by Jon Tyson on Unsplash
+  url: https://unsplash.com/photos/r9T0LZv8xWQ
 ---
 
 # OLS Fellowships: Announcing our next generation of community changemakers
