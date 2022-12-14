@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OLS-5 Speed blog: Introducing An Incomplete History of Research Ethics"
+categories: Blog
 authors:
 - ismael-kg
 image: /images/2022-07-18-ismaelkg-watches.jpg

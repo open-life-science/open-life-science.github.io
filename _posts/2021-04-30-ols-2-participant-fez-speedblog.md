@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OLS-2 speed blog: Finite Element Zurich (FEZ)"
+categories: Blog
 authors:
 - evaherbst
 - dylan-bastiaans

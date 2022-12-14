@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meet our third cohort of project leads and their mentors
+categories: News
 authors:
 - bebatut
 - malvikasharan

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OLS-5 Launch Webinar and Promotional Materials!
+categories: News
 authors:
 - bebatut
 - emmyft

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+{% for category in site.categories %}
+
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+
+    <h1 class="category-head" id="#{{ category_name | slugize }}">{{ category_name }}</h1>
+    <a name="{{ category_name | slugize }}"></a>
+
+    <div class="category">
+      {% for post in site.categories[category_name] %}
+        {% include _includes/post.html%}            
+      {% endfor %}  
+    </div>
+{% endfor %}

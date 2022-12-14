@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OLS-4 Graduations and applications open for OLS-5!
+categories: News
 authors:
 - bebatut
 - emmyft

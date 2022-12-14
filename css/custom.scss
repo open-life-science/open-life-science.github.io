@@ -220,7 +220,39 @@ $link-active: $link-hover;
     @include reset-links();
   }
 }
-
+.button-category{
+  background: rgb(17, 17, 136);
+  color: #fff;
+  padding: 8px 6px;
+  border-radius: 5px;
+  margin: 5px;
+      a{
+        text-decoration: none;
+        border-bottom: none;
+      }
+      a:hover{
+        text-decoration: none;
+        background: rgb(17, 17, 136);
+      }
+}
+.category{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+    .post{
+      width: 30%;
+      margin: 10px;
+    }
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+    .post{
+      width: 30%;
+      margin: 10px;
+    }
+}
 .post {
   @include mobile() {
     .card {

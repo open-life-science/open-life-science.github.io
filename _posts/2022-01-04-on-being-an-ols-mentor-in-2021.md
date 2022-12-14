@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On being an Open Life Science programme mentor in 2021
+categories: Blog
 authors:
 - estherplomp
 image: ../images/2022-01-04-esthers-mentoring-blog-illustration.jpg

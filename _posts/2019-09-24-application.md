@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Our application to the OLx
+categories: Blog
 authors: 
 - bebatut
 - malvikasharan

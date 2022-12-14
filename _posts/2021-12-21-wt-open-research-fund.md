@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Life Science is awarded Wellcome Trust Open Research Fund 2021
+categories: News
 authors:
 - bebatut
 - emmyft

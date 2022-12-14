@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OLS-3 speed blog: How to design peer production platforms? Guidelines and design inspiration in a blog format"
+categories: Blog
 authors:
 - katoss
 image: https://i.imgur.com/fbzanCT.png

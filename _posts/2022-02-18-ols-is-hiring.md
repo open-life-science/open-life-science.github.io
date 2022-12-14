@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Job vacancy: Community Researcher and Programme Coordinator - OLS is hiring!"
+categories: News
 authors:
 - bebatut
 - emmyft

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OLS-2 speed blog: Creating community awareness of open science in phytolith research"
+categories: Blog
 authors:
 - ekaroune
 image: https://i.imgur.com/CsmrC1B.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Applications are open for OLS-4!
+categories: News
 authors:
 - bebatut
 - malvikasharan

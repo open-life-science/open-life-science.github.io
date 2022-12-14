@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OLS Project and Community report - Part 3
+categories: Blog
 authors:
 - bebatut
 - malvikasharan

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OLS Community support micro grants
+categories: News
 authors:
 - bebatut
 - malvikasharan

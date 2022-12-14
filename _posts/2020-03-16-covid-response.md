@@ -1,6 +1,7 @@
 ---
 layout: post
 title: COVID-19 and the Open Life Science Program
+categories: News
 authors: 
 - yochannah
 - malvikasharan

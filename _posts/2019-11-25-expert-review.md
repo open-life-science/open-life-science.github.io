@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Revising our program with the help of Open Science Leaders
+categories: Blog
 authors:
 - malvikasharan
 - yochannah
