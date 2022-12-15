@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OLS Fellowships: Announcing our next generation of community changemakers"
+title: OLS Fellowships; Announcing our next generation of community changemakers
 authors: 
 - yochannah
 - pherterich
@@ -13,7 +13,7 @@ photos:
 
 In September 2022, OLS had a leadership retreat in Scotland, where all four directors gathered together to discuss future plans and strategic director for our organisation. One of the key activities we identified was a desire to work with community members in a more official capacity, beyond the mentorship program that is our core. As a young organisation with funding, we have a relatively high level of flexibility when it comes to defining our mission and how we deliver it. 
 
-## A plan: let’s recruit “Resident Fellows”
+# A plan: let’s recruit “Resident Fellows”
 
 Out of these discussions, we developed a new plan: to launch a program that would allow valued community members to spend paid time working with OLS, but also have paid time to explore things that interest them - whether that be research, community management, coaching, consultancy, or anything else that is OLS-aligned. 
 
