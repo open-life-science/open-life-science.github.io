@@ -28,9 +28,13 @@ The selected fellows are already valued community members and we’re looking fo
 
 I am a Colombian biologist (she/her) with a background in Plant Ecology, Restoration Ecology, and Biodiversity Informatics. I have a deep interest in Open and Responsible Science. I use R since 2009 and develop scientific workflows related to ecological niche modeling and biodiversity informatics. I am part of RLadies, a CODATA-RDA alumna, and a Certified Carpentries Instructor. I also teach research computational skills, open science principles, and scientific programming. I am a core member of The Turing Way, as co-lead of the translation and localisation team.
 
-### Melissa Black
+### Melissa Black  
 
-![](/images/Melissa_Black.jpg)   
+<div class="columns">
+  <div class="column is-3" markdown="1">
+![Melissa is a woman from Brazil. She has black long hair, parted to one side. She is wearing a blue denim shirt, a pair of blacck rimmed glasses. She is standing against the wall and smiling while directly looking at the camera.](/images/Melissa_Black.jpg)
+  </div>
+<div class="column" markdown="1">
 
 Melissa is an experienced technology & society researcher trained in community engagement and evidence-based teaching. She is currently the infrastructure and impact measurement coordinator at MetaDocencia and was a NASA TOPS OpenCore Subject Matter Expert (SME) on its Open Science Tools and Resources module.
 
@@ -40,7 +44,11 @@ Melissa currently volunteers as a co-lead at the Turing Way (TTW) Portuguese tra
 
 ### Reina Camacho Toro
 
-![](images/Reina_Camacho.png)  
+<div class="columns">
+  <div class="column is-3" markdown="1">
+![Reina is a woman from Venezuela. She has black short hair parted to to left side, with a subtle fringe. She is wearing a black t shirt with mid-length sleeves. She has a necklace on with black thread and black solid stone pendant. She is sitting against a table with her hand folded, and smiling while directly looking at the camera. Her background is blurred but it looks like she is in a university class room.](/images/Reina_Camacho.png)
+  </div>
+<div class="column" markdown="1">  
 
 I am an experimental particle physicist working at the ATLAS experiment of the Large Hadron Collider (LHC) at CERN. Comprehensive background in data analysis, mathematical modelling and statistical analysis. Several years of experience in creating scientific and educational capacity development initiatives based on open science principles. I am currently working as a researcher for the French National Center for Scientific Research (CNRS) and I am one of the coordinators of the LA-CoNGA physics project.
 
