@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Announcing the 2023 OLS/SSI Fellows"
+title: Announcing the 2023 OLS-SSI Fellows
 authors: 
 - yochannah
 - pherterich
@@ -11,7 +11,8 @@ photos:
 ---
 
 Complementing our Resident Fellows and the Software Sustainability Institute’s International Fellowship pilot, we’re happy to announce that the SSI has agreed to support three additional international Fellows that will be hosted by Open Life Science. 
-OLS/SSI Fellows are part of the [SSI Fellows 2023 cohort](https://www.software.ac.uk/blog/2022-12-15-announcing-2023-software-sustainability-institute-fellows) (via SSI sponsorship of OLS) and have gone through the competitive selection process for SSI Fellows. 
+
+OLS/SSI Fellows are part of the [SSI Fellows 2023 cohort](https://www.software.ac.uk/blog/2022-12-15-announcing-2023-software-sustainability-institute-fellows), via the SSI sponsorship of OLS, and have gone through the competitive selection process for SSI Fellows. 
 
 The selected fellows are already valued community members and we’re looking forward to supporting their fellowship plans over the next 15 months. OLS will administer their £3000 budget and provide any other support they might need to succeed.
 
@@ -19,7 +20,11 @@ The selected fellows are already valued community members and we’re looking fo
 
 ### Andrea Sánchez Tapia
 
-![](images/Andrea_Sanchez.jpg)
+<div class="columns">
+  <div class="column is-3" markdown="1">
+![Andrea is a woman from Argentina. She has tied back her hair. She is wearing a pair of red rimmed glasses, has her white earbud - probably listening to music on a sunny day. She is wearing a blue T shirt and a backpack. She is smiling and seem to be enjoying a pause from her walk to take a selfie.](/images/Andrea_Sanchez.jpg)
+  </div>
+<div class="column" markdown="1">
 
 I am a Colombian biologist (she/her) with a background in Plant Ecology, Restoration Ecology, and Biodiversity Informatics. I have a deep interest in Open and Responsible Science. I use R since 2009 and develop scientific workflows related to ecological niche modeling and biodiversity informatics. I am part of RLadies, a CODATA-RDA alumna, and a Certified Carpentries Instructor. I also teach research computational skills, open science principles, and scientific programming. I am a core member of The Turing Way, as co-lead of the translation and localisation team.
 
