@@ -10,7 +10,6 @@ photos:
   url: https://unsplash.com/photos/H3htK85wwnU
 ---
 
-
 Complementing our Resident Fellows and the Software Sustainability Institute’s International Fellowship pilot, we’re happy to announce that the SSI has agreed to support three additional international Fellows that will be hosted by Open Life Science. 
 OLS/SSI Fellows are part of the [SSI Fellows 2023 cohort](https://www.software.ac.uk/blog/2022-12-15-announcing-2023-software-sustainability-institute-fellows) (via SSI sponsorship of OLS) and have gone through the competitive selection process for SSI Fellows. 
 
@@ -19,11 +18,15 @@ The selected fellows are already valued community members and we’re looking fo
 ## Meet the OLS/SSI Fellows
 
 ### Andrea Sánchez Tapia
-![](/images/Andrea_Sanchez.jpg)  
+
+![](images/Andrea_Sanchez.jpg)
+
 I am a Colombian biologist (she/her) with a background in Plant Ecology, Restoration Ecology, and Biodiversity Informatics. I have a deep interest in Open and Responsible Science. I use R since 2009 and develop scientific workflows related to ecological niche modeling and biodiversity informatics. I am part of RLadies, a CODATA-RDA alumna, and a Certified Carpentries Instructor. I also teach research computational skills, open science principles, and scientific programming. I am a core member of The Turing Way, as co-lead of the translation and localisation team.
 
 ### Melissa Black
+
 ![](/images/Melissa_Black.jpg)   
+
 Melissa is an experienced technology & society researcher trained in community engagement and evidence-based teaching. She is currently the infrastructure and impact measurement coordinator at MetaDocencia and was a NASA TOPS OpenCore Subject Matter Expert (SME) on its Open Science Tools and Resources module.
 
 She has 10 years of experience as a researcher on the production of software, the Internet, technology, and society in Brazil and Latin America, and was an open journal editor for 8 years. Prior to working at MetaDocencia, Melissa was a diversity, equity, and inclusion community engineer with the Common Workflow Language project and has been focusing her career on making open science more accessible to marginalized communities. She was an Outreachy intern in 2021 working with EDAM, an ontology of bioscientific data analysis and management, and is currently an Outreachy co-mentor with the Open Science Community Saudi Arabia (OSCSA). In 2022, Melissa was the organization administrator for the Open Bioinformatics Foundation at the Google Summer of Code mentorship program.
@@ -31,7 +34,9 @@ She has 10 years of experience as a researcher on the production of software, th
 Melissa currently volunteers as a co-lead at the Turing Way (TTW) Portuguese translation team. She is a certified Carpentries instructor and recently completed the CSCCE Scientific Community Engagement Fundamentals course and the OLS Ally Skills training.
 
 ### Reina Camacho Toro
+
 ![](images/Reina_Camacho.png)  
+
 I am an experimental particle physicist working at the ATLAS experiment of the Large Hadron Collider (LHC) at CERN. Comprehensive background in data analysis, mathematical modelling and statistical analysis. Several years of experience in creating scientific and educational capacity development initiatives based on open science principles. I am currently working as a researcher for the French National Center for Scientific Research (CNRS) and I am one of the coordinators of the LA-CoNGA physics project.
 
 ## Fellowship plans
