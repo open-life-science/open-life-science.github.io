@@ -13,7 +13,7 @@ photos:
 Announcing the 2023 OLS/SSI Fellows
 
 Complementing our Resident Fellows and the Software Sustainability Institute’s International Fellowship pilot, we’re happy to announce that the SSI has agreed to support three additional international Fellows that will be hosted by Open Life Science. 
-OLS/SSI Fellows are part of the [SSI Fellows 2023 cohort]() (via SSI sponsorship of OLS) and have gone through the competitive selection process for SSI Fellows. 
+OLS/SSI Fellows are part of the [SSI Fellows 2023 cohort](https://www.software.ac.uk/blog/2022-12-15-announcing-2023-software-sustainability-institute-fellows) (via SSI sponsorship of OLS) and have gone through the competitive selection process for SSI Fellows. 
 
 The selected fellows are already valued community members and we’re looking forward to supporting their fellowship plans over the next 15 months. OLS will administer their £3000 budget and provide any other support they might need to succeed.
 
