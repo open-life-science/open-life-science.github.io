@@ -16,9 +16,9 @@ OLS/SSI Fellows are part of the [SSI Fellows 2023 cohort](https://www.software.a
 
 The selected fellows are already valued community members and we’re looking forward to supporting their fellowship plans over the next 15 months. OLS will administer their £3000 budget and provide any other support they might need to succeed.
 
-## Meet the OLS/SSI Fellows
+# Meet the OLS/SSI Fellows
 
-### Andrea Sánchez Tapia
+## Andrea Sánchez Tapia
 
 <div class="columns">
   <div class="column is-3" markdown="1">
@@ -28,7 +28,7 @@ The selected fellows are already valued community members and we’re looking fo
 
 I am a Colombian biologist (she/her) with a background in Plant Ecology, Restoration Ecology, and Biodiversity Informatics. I have a deep interest in Open and Responsible Science. I use R since 2009 and develop scientific workflows related to ecological niche modeling and biodiversity informatics. I am part of RLadies, a CODATA-RDA alumna, and a Certified Carpentries Instructor. I also teach research computational skills, open science principles, and scientific programming. I am a core member of The Turing Way, as co-lead of the translation and localisation team.
 
-### Melissa Black  
+## Melissa Black  
 
 <div class="columns">
   <div class="column is-3" markdown="1">
@@ -42,7 +42,7 @@ She has 10 years of experience as a researcher on the production of software, th
 
 Melissa currently volunteers as a co-lead at the Turing Way (TTW) Portuguese translation team. She is a certified Carpentries instructor and recently completed the CSCCE Scientific Community Engagement Fundamentals course and the OLS Ally Skills training.
 
-### Reina Camacho Toro
+## Reina Camacho Toro
 
 <div class="columns">
   <div class="column is-3" markdown="1">
@@ -51,6 +51,8 @@ Melissa currently volunteers as a co-lead at the Turing Way (TTW) Portuguese tra
 <div class="column" markdown="1">  
 
 I am an experimental particle physicist working at the ATLAS experiment of the Large Hadron Collider (LHC) at CERN. Comprehensive background in data analysis, mathematical modelling and statistical analysis. Several years of experience in creating scientific and educational capacity development initiatives based on open science principles. I am currently working as a researcher for the French National Center for Scientific Research (CNRS) and I am one of the coordinators of the LA-CoNGA physics project.
+
+---
 
 ## Fellowship plans
 
