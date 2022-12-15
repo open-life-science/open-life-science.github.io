@@ -4,7 +4,7 @@ title: Announcing the 2023 OLS-SSI Fellows
 authors: 
 - yochannah
 - pherterich
-image: https://images.unsplash.com/photo-1569406125624-98ee19b01d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+image: /images/2022-12-mitchell-luo-unsplash.jpg
 photos:
   name: Photo by Mitchell Luo on Unsplash
   url: https://unsplash.com/photos/H3htK85wwnU
@@ -22,20 +22,18 @@ The selected fellows are already valued community members and we’re looking fo
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Andrea is a woman from Argentina. She has tied back her hair. She is wearing a pair of red rimmed glasses, has her white earbud - probably listening to music on a sunny day. She is wearing a blue T shirt and a backpack. She is smiling and seem to be enjoying a pause from her walk to take a selfie.](/images/Andrea_Sanchez.jpg)
+![Andrea is a woman from Argentina. She has tied back her hair. She is wearing a pair of red rimmed glasses, has her white earbud - probably listening to music on a sunny day. She is wearing a blue T shirt and a backpack. She is smiling and seem to be enjoying a pause from her walk to take a selfie.](/images/2022-12-andrea-sanchez.jpg)
   </div>
 <div class="column" markdown="1">
-
 I am a Colombian biologist (she/her) with a background in Plant Ecology, Restoration Ecology, and Biodiversity Informatics. I have a deep interest in Open and Responsible Science. I use R since 2009 and develop scientific workflows related to ecological niche modeling and biodiversity informatics. I am part of RLadies, a CODATA-RDA alumna, and a Certified Carpentries Instructor. I also teach research computational skills, open science principles, and scientific programming. I am a core member of The Turing Way, as co-lead of the translation and localisation team.
 
 ## Melissa Black  
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Melissa is a woman from Brazil. She has black long hair, parted to one side. She is wearing a blue denim shirt, a pair of blacck rimmed glasses. She is standing against the wall and smiling while directly looking at the camera.](/images/Melissa_Black.jpg)
+![Melissa is a woman from Brazil. She has black long hair, parted to one side. She is wearing a blue denim shirt, a pair of blacck rimmed glasses. She is standing against the wall and smiling while directly looking at the camera.](/images/2022-12-melissa-black.jpg)
   </div>
 <div class="column" markdown="1">
-
 Melissa is an experienced technology & society researcher trained in community engagement and evidence-based teaching. She is currently the infrastructure and impact measurement coordinator at MetaDocencia and was a NASA TOPS OpenCore Subject Matter Expert (SME) on its Open Science Tools and Resources module.
 
 She has 10 years of experience as a researcher on the production of software, the Internet, technology, and society in Brazil and Latin America, and was an open journal editor for 8 years. Prior to working at MetaDocencia, Melissa was a diversity, equity, and inclusion community engineer with the Common Workflow Language project and has been focusing her career on making open science more accessible to marginalized communities. She was an Outreachy intern in 2021 working with EDAM, an ontology of bioscientific data analysis and management, and is currently an Outreachy co-mentor with the Open Science Community Saudi Arabia (OSCSA). In 2022, Melissa was the organization administrator for the Open Bioinformatics Foundation at the Google Summer of Code mentorship program.
@@ -46,13 +44,10 @@ Melissa currently volunteers as a co-lead at the Turing Way (TTW) Portuguese tra
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Reina is a woman from Venezuela. She has black short hair parted to to left side, with a subtle fringe. She is wearing a black t shirt with mid-length sleeves. She has a necklace on with black thread and black solid stone pendant. She is sitting against a table with her hand folded, and smiling while directly looking at the camera. Her background is blurred but it looks like she is in a university class room.](/images/Reina_Camacho.png)
+![Reina is a woman from Venezuela. She has black short hair parted to to left side, with a subtle fringe. She is wearing a black t shirt with mid-length sleeves. She has a necklace on with black thread and black solid stone pendant. She is sitting against a table with her hand folded, and smiling while directly looking at the camera. Her background is blurred but it looks like she is in a university class room.](/images/2022-12-reina-camacho.png)
   </div>
 <div class="column" markdown="1">  
-
 I am an experimental particle physicist working at the ATLAS experiment of the Large Hadron Collider (LHC) at CERN. Comprehensive background in data analysis, mathematical modelling and statistical analysis. Several years of experience in creating scientific and educational capacity development initiatives based on open science principles. I am currently working as a researcher for the French National Center for Scientific Research (CNRS) and I am one of the coordinators of the LA-CoNGA physics project.
-
----
 
 ## Fellowship plans
 
@@ -60,6 +55,6 @@ Andrea plans to use her fellowship budget to support translation and localisatio
 Melissa will work on creating [EspañOLS](https://doi.org/10.5281/zenodo.7405807). Following on from our efforts around hosting a Spanish cohort in OLS-5, she will build more capacity and work on translating the OLS curriculum into Spanish.
 Reina plans a case study on [LA-CoNGA physics](https://laconga.redclara.net/en/home/), summarizing lessons learned and highlighting areas for improvement and publishing recommendations that other initiatives can build on.
 
-We can’t wait to welcome Andrea, Melissa and Reina as OLS/SSI Fellows and hope you do the same!
+*We can’t wait to welcome Andrea, Melissa and Reina as OLS/SSI Fellows and hope you do the same!*
 
 If you’re interested in capacity building in open science and would like to help fund additional Fellows or run a similar fellowship in-house at your organisation, we’re all ears. Contact [team@openlifesci.org](mailto:team@openlifesci.org) and we’ll set up a chat! 
