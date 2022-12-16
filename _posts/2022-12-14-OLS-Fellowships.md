@@ -13,8 +13,6 @@ photos:
 
 In September 2022, OLS had a leadership retreat in Scotland, where all four directors gathered together to discuss future plans and strategic director for our organisation. One of the key activities we identified was a desire to work with community members in a more official capacity, beyond the mentorship program that is our core. As a young organisation with funding, we have a relatively high level of flexibility when it comes to defining our mission and how we deliver it. 
 
-![A pink background with faint sketch of leaves. Header: OLS Resident Fellows, 2022023. OLS Fellowship is an opportunity for Open Leaders to explore, create and forge ahead in areas of work that interest them. On the left is the picture of Mayya Sundukova: A European women, with black shoulder length hair, smiling for the camera. She is wearing a white T shirt with colourful pattern, and a blue blazer. On the right is the picture of Patricia Herterich: A European women, with golden hair below shoulder, a part of hair is styled and clipped to her left. She is indoor, looking over her shoulder and smiling for the camera. She is wearing a brown top. On the top left is the OLS logo depicted as a hybrid of DNA helix and a leaf as a metaphor for life. The title is Open Life Science. Footer: If you are interested in capacity building in open science and would like to help fund additional Resident Fellows or run a similar fellowship in-house at your organisation, contact team@openlifesci.org](/images/2022-12-ols-resident-fellows.jpg)
-
 # A plan: let’s recruit “Resident Fellows”
 
 Out of these discussions, we developed a new plan: to launch a program that would allow valued community members to spend paid time working with OLS, but also have paid time to explore things that interest them - whether that be research, community management, coaching, consultancy, or anything else that is OLS-aligned. 
@@ -23,8 +21,9 @@ Resident fellows are set a fixed budget and employed (if in the UK) or offered a
 
 Fellows are encouraged to use their creativity to explore what interests them, and are welcome to apply for grant or contract funding as a PI working under the OLS umbrella. 
 
-
 ## Meet the fellows
+
+![A pink background with faint sketch of leaves. Header: OLS Resident Fellows, 2022-23. OLS Fellowship is an opportunity for Open Leaders to explore, create and forge ahead in areas of work that interest them. On the left is the picture of Mayya Sundukova: A European women, with black shoulder length hair, smiling for the camera. She is wearing a white T shirt with colourful pattern, and a blue blazer. On the right is the picture of Patricia Herterich: A European women, with golden hair below shoulder, a part of hair is styled and clipped to her left. She is indoor, looking over her shoulder and smiling for the camera. She is wearing a brown top. On the top left is the OLS logo depicted as a hybrid of DNA helix and a leaf as a metaphor for life. The title is Open Life Science. Footer: If you are interested in capacity building in open science and would like to help fund additional Resident Fellows or run a similar fellowship in-house at your organisation, contact team@openlifesci.org](/images/2022-12-ols-resident-fellows.jpg)
 
 ### Patricia Herterich
 
