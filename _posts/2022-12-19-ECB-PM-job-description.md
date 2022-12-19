@@ -118,6 +118,6 @@ We plan to interview candidates within 4 weeks of the closing date.
 
 OLS is an employer that recognises that experience can be more about opportunity than ability. We aim to identify talented individuals who may not have been given the opportunities of their peers due to the cumulative effects of discrimination on factors such as race, gender, disability, gender identity, and the intersectionality of that discrimination.
 
-### Note: If you like the scope of this job but are unsure if your profile fits this role - please apply anyway.
+*Note: If you like the scope of this job but are unsure if your profile fits this role - please apply anyway.*
 
 We celebrate diversity and are committed to creating a safe and inclusive environment for all employees. If you feel that the description of this role has not matched up to the commitment of these ideals, please let us know via jobs@openlifesci.org, or contact one of the OLS directors directly - one of (Yo, Bérénice, Emmy, Malvika) at openlifesci.org. The OLS Code of Conduct can be found here: <https://openlifesci.org/code-of-conduct>.
