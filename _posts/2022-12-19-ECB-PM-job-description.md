@@ -26,7 +26,7 @@ This is an exciting opportunity for someone who is passionate about working with
 Team composition
 ================
 
-Reporting to the OLS Director of Finance and Operations Emmy Tsang, who is a Co-PI on this grant, you'll play a central role coordinating a project team that includes representatives from the six collaborating organisations ([2i2c](https://2i2c.org/), The Carpentries, [Center for Collaboration and Community Engagement](https://www.cscce.org/), [Invest in Open Infrastructure](https://investinopen.org/), MetaDocencia, and Open Life Science). You'll also interact with community leaders at local communities that will be involved in this work. On a day-to-day basis, you'll be embedded within the OLS team, which currently includes 4 Co-Directors, a community coordinator and 5 fellows, as well as within the OLS community of 400+ mentors, experts, and participants.
+Reporting to the OLS Director of Finance and Operations Emmy Tsang, who is a Co-PI on this grant, you'll play a central role coordinating a project team that includes representatives from the six collaborating organisations ([2i2c](https://2i2c.org/), The Carpentries, Center for Collaboration and Community Engagement, Invest in Open Infrastructure, MetaDocencia, and Open Life Science). You'll also interact with community leaders at local communities that will be involved in this work. On a day-to-day basis, you'll be embedded within the OLS team, which currently includes 4 Co-Directors, a community coordinator and 5 fellows, as well as within the OLS community of 400+ mentors, experts, and participants.
 
 Key responsibilities
 ====================
@@ -106,13 +106,13 @@ If the successful candidate is based outside the UK, we will work to offer the b
 How to apply
 ============
 
-Please use [this application form](https://tally.so/r/3jeJQ4) to apply. On the form, you will be asked to upload a CV (2-5 pages) and a cover letter (about 750 words; stating why this opportunity is compelling to you, what you want to achieve in this space, and what you bring to this work).
+**Please use [this application form](https://tally.so/r/3jeJQ4) to apply.** On the form, you will be asked to upload a CV (2-5 pages) and a cover letter (about 750 words; stating why this opportunity is compelling to you, what you want to achieve in this space, and what you bring to this work).
 
 When uploading your CV and cover letter, please name your files "Name_CV" and "Name_CoverLetter". Please limit file sizes to maximum 10MB.
 
 Interviews will take place virtually via Zoom. We are happy to arrange technical assistance to participate in the interviews (e.g. a month of high-speed internet, webcam, or headset costs), as well as childcare and access arrangements such as captioning or an interpreter.
 
-Job application closing date: 15 January 2023.
+**Job application closing date: 15 January 2023.**
 
 We plan to interview candidates within 4 weeks of the closing date.
 
