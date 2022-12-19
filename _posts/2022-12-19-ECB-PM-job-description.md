@@ -4,7 +4,7 @@ title: Job vacancy - Programme Manager
 authors: 
 - emmyft
 - yochannah
-image: /images/2022-12-mitchell-luo-unsplash.jpg
+image: /images/2022-12-ecb-pm-jd.jpg
 photos:
   name: Photo by Linda Eller-Shein on Pexels
   url: https://www.pexels.com/photo/join-us-scrabbles-letters-3127880/
