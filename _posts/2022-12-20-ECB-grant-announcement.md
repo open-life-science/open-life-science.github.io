@@ -33,3 +33,5 @@ We may be hiring other positions related to this effort (and other efforts from 
 # Where to follow along
 
 If you'd like to follow along with this work, please [share your e-mail address in this short form](https://forms.gle/5boZswKNUn2NcTUv9). We'll send updates as we work out longer-term spaces for communication or documentation.
+
+*Note: This announcement may be cross-posted on the websites of several collaborating organizations of this grant.*
