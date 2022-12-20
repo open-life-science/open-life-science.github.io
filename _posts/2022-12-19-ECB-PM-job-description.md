@@ -10,7 +10,7 @@ photos:
   url: https://www.pexels.com/photo/join-us-scrabbles-letters-3127880
 ---
 
-Open Life Science (OLS, <https://openlifesci.org>) is hiring a Programme Manager to coordinate and manage a global, multilateral grant-funded project with the aims to (1) deploy and manage open cloud infrastructure for under-resourced communities in Latin America and Africa, (2) create training and build capacity within these communities, and (3) identify a participatory service model for this infrastructure. 
+Open Life Science (OLS, https://openlifesci.org) is hiring a Programme Manager to coordinate and manage a global, multilateral grant-funded project with the aims to (1) deploy and manage open cloud infrastructure for under-resourced communities in Latin America and Africa, (2) create training and build capacity within these communities, and (3) identify a participatory service model for this infrastructure. 
 
 # About OLS and this role
 
@@ -22,11 +22,11 @@ This Programme Manager role is instrumental to the successful execution of the "
 
 This is an exciting opportunity for someone who is passionate about working with a global, multicultural, and distributed team and is looking to grow their project management, community building, communication, stakeholder engagement, and open leadership skills.
 
-# Team composition
+## Team composition
 
 Reporting to the OLS Director of Finance and Operations Emmy Tsang, who is a Co-PI on this grant, you'll play a central role coordinating a project team that includes representatives from the six collaborating organisations ([2i2c](https://2i2c.org/), The Carpentries, Center for Collaboration and Community Engagement, Invest in Open Infrastructure, MetaDocencia, and Open Life Science). You'll also interact with community leaders at local communities that will be involved in this work. On a day-to-day basis, you'll be embedded within the OLS team, which currently includes 4 Co-Directors, a community coordinator and 5 fellows, as well as within the OLS community of 400+ mentors, experts, and participants.
 
-# Key responsibilities
+## Key responsibilities
 
 -   Coordinate with the project partners to make sure all partners are regularly updated and stay on track with project requirements, deadlines, and schedules.
 -   Facilitate communication between and with project partners, including establishing and ensuring effective project communication and content management plans and systems, arranging regular project meetings, and coordinating communications around project administrative issues.
@@ -37,7 +37,7 @@ Reporting to the OLS Director of Finance and Operations Emmy Tsang, who is a Co-
 -   Work with the financial and administrative staff at the funded organizations to prepare and manage grant reporting.
 -   Lead the organization and coordination of a Spanish and/or French open science training and mentoring programme for the communities involved, with support from the MetaDocencia and the Carpentries teams.
 
-# Essential selection criteria
+## Essential selection criteria
 
 -   Highly organised with the ability to document actions and processes, translate objectives into specific tasks, and prioritise and assign/delegate tasks.
 -   Experience with coordinating a global, multi-cultural and distributed team.
@@ -50,7 +50,7 @@ Reporting to the OLS Director of Finance and Operations Emmy Tsang, who is a Co-
 
 We do not expect the applicants to already have all the skills within the scope of this project. We will create possibilities to develop new expertise and grow in the role.
 
-# Desirable selection criteria
+## Desirable selection criteria
 
 -   Confidence using Git and GitHub 
 -   Ability to establish processes for facilitating multi-stakeholder collaboration
@@ -65,7 +65,7 @@ OLS is committed to providing a nurturing and flexible work environment. This jo
 
 OLS is committed to providing a nurturing and flexible work environment. This job will be fully remote, and we are happy to consider applicants from any country, although ideally 1-2 of your working hours or more would overlap with the OLS leadership team, who are based in the UK and Europe. Non-UK applicants may need to be hired as a contractor and manage tax/benefits themselves in their home country, in which case your base rate of compensation will be higher to cover overheads and benefits. 
 
-# Benefits and salary
+## Benefits and salary
 
 If the successful candidate has the right to work in the UK and is based in the UK (where OLS is registered as a company), we will offer:
 -   £45,000 to £48,000 GBP per year salary, depending on experience
@@ -77,7 +77,7 @@ If the successful candidate has the right to work in the UK and is based in the 
 
 If the successful candidate is based outside the UK, we will work to offer the best equivalent options available in compliance with local and international labour laws, or equivalent pay as a contractor to allow these benefits to be purchased locally. 
 
-# How to apply
+## How to apply
 
 **Please use [this application form](https://tally.so/r/3jeJQ4) to apply.** On the form, you will be asked to upload a CV (2-5 pages) and a cover letter (about 750 words; stating why this opportunity is compelling to you, what you want to achieve in this space, and what you bring to this work).
 
