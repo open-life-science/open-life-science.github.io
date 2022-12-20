@@ -14,6 +14,8 @@ photos:
 
 We are excited to announce that the team and proposal [described in this blog post](https://2i2c.org/blog/2022/czi-global-communities-proposal/) has been awarded funding by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/)!
 
+This announcement may be cross-posted on the websites of several collaborating organizations of this grant, including [2i2c](https://2i2c.org/blog/2022/czi-global-communities-announcement/) and [Invest in Open Infrastructure](https://investinopen.org/blog/). ***Para leer este post en español, [vea el blog de MetaDocencia](https://www.metadocencia.org/post/infraestructura-nube/)***. 
+
 Our goal is to create a collaborative learning and cloud infrastructure service that teaches communities cloud-native workflows in the biosciences. We will promote values of open and inclusive community practices, infrastructure that enables these practices, and a "train the trainers" teaching approach that empowers community leaders to share expertise in cloud infrastructure with others in their communities. Our focus in this project will be on communities in Latin America and Africa, and we hope to learn how this model could be extended to other global communities that are historically marginalized from large-scale scientific infrastructure projects.
 
 For this work, OLS will be hiring and hosting a programme manager, who will oversee the delivery of the programme (see below). In 2024, we will also be running a Spanish and/or French cohort-based training programme for the community leaders involved in this work. 
@@ -33,5 +35,3 @@ We may be hiring other positions related to this effort (and other efforts from 
 # Where to follow along
 
 If you'd like to follow along with this work, please [share your e-mail address in this short form](https://forms.gle/5boZswKNUn2NcTUv9). We'll send updates as we work out longer-term spaces for communication or documentation.
-
-*Note: This announcement may be cross-posted on the websites of several collaborating organizations of this grant.*
