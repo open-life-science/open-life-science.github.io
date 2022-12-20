@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing a new project: Open science cloud infrastructure and training for communities in Latin America and Africa
+title: "Announcing a new project: Open science cloud infrastructure and training for communities in Latin America and Africa"
 authors: 
 - bebatut
 - yochannah
