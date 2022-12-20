@@ -5,7 +5,7 @@ authors:
 - yochannah
 - pherterich
 - msundukova
-image: https://images.unsplash.com/photo-1516381548400-349d680edb56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80
+image: /images/2022-12-jon-tyson-unsplash.jpg
 photos:
   name: Photo by Jon Tyson on Unsplash
   url: https://unsplash.com/photos/r9T0LZv8xWQ
