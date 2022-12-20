@@ -6,7 +6,7 @@ authors:
 - yochannah
 - malvikasharan
 - emmyft
-image: /images/2022-12-ecb-pm-jd.jpg
+image: /images/2022-12-ecg-grant-announcement.png
 photos:
   name: Photo by Anh Tuan To on Unsplash
   url: https://unsplash.com/photos/opvtOEXSf0k
