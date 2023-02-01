@@ -14,7 +14,7 @@ OLS is undergoing a **rebranding project** to make it more inclusive and accessi
 > Hello! I am Jilaga Nneoma. As the design intern at OLS, I am thrilled to be playing a key role in this rebranding project. My passion for design, combined with my Outreachy Internship, has given me the opportunity to offer a unique perspective and contribute new ideas. Working with OLS on this exciting project is a true honor and I am eager to share with you what we have accomplished so far. 
 
 
-## Rebranding OLS:The Journey so far...
+## Rebranding OLS: The Journey so far...
 
 OLS was founded as an initiative for life science researchers, but over time we've grown to include a diverse community of researchers and scientists from a variety of fields, such as physics, anthropology, law, and archaeology.
 
