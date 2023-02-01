@@ -13,8 +13,7 @@ OLS is undergoing a rebranding project to make it more inclusive and accessible 
 
 > Hello! I am Jilaga Nneoma. As the design intern at OLS, I am thrilled to be playing a key role in this rebranding project. My passion for design, combined with my Outreachy Internship, has given me the opportunity to offer a unique perspective and contribute new ideas. Working with OLS on this exciting project is a true honor and I am eager to share with you what we have accomplished so far. 
 
-
-## **Rebranding OLS:** The Journey so far...
+## Rebranding OLS:The Journey so far...
 
 OLS was founded as an initiative for life science researchers, but over time we've grown to include a diverse community of researchers and scientists from a variety of fields, such as physics, anthropology, law, and archaeology.
 
@@ -22,7 +21,7 @@ Recognizing the diversity of our community, we've decided to undertake a rebrand
 
 
 
-## **Objective**
+## Objective
 
 
 <div class="columns">
@@ -45,7 +44,7 @@ These elements are:
 
 
 
-## **Approach**
+## Approach
 
 
 To ensure that the rebranding project is successful, we have taken a thorough and collaborative approach within the community to conduct extensive research and analysis to understand the needs and perceptions of our audience, collaborators, and current brand positioning. This research has been critical in serving as a guide to create a new brand identity that accurately reflects OLS’ values and mission.
@@ -56,7 +55,7 @@ We have also begun to explore different design directions and concepts, includin
 
 
 
-## **The Challenge**
+## The Challenge
 
 
 While we have made great progress so far, we currently face a major challenge: Generating a new brand name. This has made the project longer than expected, but we are determined to find a solution that accurately reflects our mission and values.
@@ -70,7 +69,7 @@ We value the power of community, openness and collaboration and would love to de
 
 To participate in the voting process, simply follow the [link](https://voteupapp.com/shared/B7yJUuS6F) provided. The survey will take just a few minutes to complete and you can use your preferred alias in your response. Your input is incredibly valuable to us, and we look forward to seeing which of the select name resonates most with our community.
 
-[vote here](https://voteupapp.com/shared/B7yJUuS6F)
+[vote here](https://voteupapp.com/shared/B7yJUuS6F){:.button .is-link .is-fullwidth}
  
 In conclusion, we are thrilled to be undergoing this rebranding project and can't wait to share the final result.
 
