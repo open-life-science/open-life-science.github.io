@@ -9,7 +9,7 @@ photos:
   url: https://unsplash.com/photos/0n1pmev3w2A
 ---
 
-OLS is undergoing a rebranding project to make it more inclusive and accessible to researchers from various fields of study. The project is led by a design intern from Outreachy, who brings a fresh outlook to the process. So far, we have  conducted research and documentation to understand OLS's ideal targets and collaborators, and the current brand positioning. The biggest challenge faced is generating a new brand name. OLS is reaching out to its community for support and to vote for their preferred brand name choice from a shortlisted two.
+OLS is undergoing a **rebranding project** to make it more inclusive and accessible to researchers from various fields of study. The project is led by a design intern from Outreachy, who brings a fresh outlook to the process. So far, we have  conducted research and documentation to understand OLS's ideal targets and collaborators, and the current brand positioning. The biggest challenge faced is generating a new brand name. OLS is reaching out to its community for support and to vote for their preferred brand name choice from a shortlisted two.
 
 > Hello! I am Jilaga Nneoma. As the design intern at OLS, I am thrilled to be playing a key role in this rebranding project. My passion for design, combined with my Outreachy Internship, has given me the opportunity to offer a unique perspective and contribute new ideas. Working with OLS on this exciting project is a true honor and I am eager to share with you what we have accomplished so far. 
 
@@ -29,9 +29,9 @@ Recognizing the diversity of our community, we've decided to undertake a rebrand
   ![this image shows a dart with a bullseye pin to represent target](https://images.unsplash.com/photo-1589959864690-24091a905ea1?ixlib=rb-4.0.3&dl=silvan-arnet-PFqfV5bn91A-unsplash.jpg)
   </div>
   <div class="column" markdown="1">
-Our goal is to make OLS more inclusive and accessible to all researchers, regardless of their field of study. We believe this will allow us to continue to accelerate scientific progress by making it easier for researchers to access, share, and build upon existing knowledge.
+Our goal is to make OLS more **inclusive** and **accessible** to all researchers, regardless of their field of study. We believe this will allow us to continue to accelerate scientific progress by making it easier for researchers to access, share, and build upon existing knowledge.
 
-To better serve our community, we identified key areas for improvement and developed a strategic plan for the project. This included identifying specific goals and objectives for the rebranding effort, as well as outlining the key elements of this new identity.
+To better serve our community, we identified key areas for improvement and developed a strategic plan for the project. This included identifying specific goals and objectives for the rebranding effort, as well as outlining the key elements of this **new identity**.
   </div>
 </div>
 These elements are:
@@ -58,16 +58,16 @@ We have also begun to explore different design directions and concepts, includin
 ## The Challenge
 
 
-While we have made great progress so far, we currently face a major challenge: Generating a new brand name. This has made the project longer than expected, but we are determined to find a solution that accurately reflects our mission and values.
+While we have made great progress so far, we currently face a major challenge: **Generating a new brand name.** This has made the project longer than expected, but we are determined to find a solution that accurately reflects our mission and values.
 
 A brand name is a crucial element of a brand identity and it needs to be memorable, unique, and align with the company's values and messaging. It is important that we find a name that accurately reflects who we are and what we stand for. This can be a challenging task, especially when you are trying to capture a diverse community of researchers from different scopes.
 
 After much consideration and review, we have narrowed down our list of potential new brand names to just two options that capture the essence of OLS.
-This is where you come in! We are now eager to hear from you on which option you prefer.
+**This is where you come in!** We are now eager to hear from you on which option you prefer.
 
 We value the power of community, openness and collaboration and would love to demonstrate that by  reaching out to our community for help. Your feedback is crucial in helping us make this important decision, and by including your input in this process, we can ensure that the new name accurately reflects the diversity of our community and our mission to nurture and grow.
 
-To participate in the voting process, simply follow the [link](https://voteupapp.com/shared/B7yJUuS6F) provided. The survey will take just a few minutes to complete and you can use your preferred alias in your response. Your input is incredibly valuable to us, and we look forward to seeing which of the select name resonates most with our community.
+To participate in the **voting** process, simply follow the [link](https://voteupapp.com/shared/B7yJUuS6F) provided. The survey will take just a few minutes to complete and you can use your preferred alias in your response. Your input is incredibly valuable to us, and we look forward to seeing which of the select name resonates most with our community.
 
 [vote here](https://voteupapp.com/shared/B7yJUuS6F){:.button .is-link .is-fullwidth}
  
