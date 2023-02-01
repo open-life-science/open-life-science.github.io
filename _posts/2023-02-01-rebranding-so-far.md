@@ -68,7 +68,7 @@ This is where you come in! We are now eager to hear from you on which option you
 
 We value the power of community, openness and collaboration and would love to demonstrate that by  reaching out to our community for help. Your feedback is crucial in helping us make this important decision, and by including your input in this process, we can ensure that the new name accurately reflects the diversity of our community and our mission to nurture and grow.
 
-To participate in the** voting process**, simply follow the [link](https://voteupapp.com/shared/B7yJUuS6F) provided. The survey will take just a few minutes to complete and you can use your preferred alias in your response. Your input is incredibly valuable to us, and we look forward to seeing which of the select name resonates most with our community.
+To participate in the **voting process**, simply follow the [link](https://voteupapp.com/shared/B7yJUuS6F) provided. The survey will take just a few minutes to complete and you can use your preferred alias in your response. Your input is incredibly valuable to us, and we look forward to seeing which of the select name resonates most with our community.
 
 [vote here](https://voteupapp.com/shared/B7yJUuS6F){:.button .is-link .is-fullwidth}
  
