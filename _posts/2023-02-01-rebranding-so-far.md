@@ -2,7 +2,7 @@
 layout: post
 title: Rebranding so far...
 authors:
-- Jilaga
+- jilaga
 image: /images/2023-02-1-milad-fakurian-0n1pmev3w2A-unsplash.jpg
 photos:
   name: Photo by Milad Fakurian on Unsplash
