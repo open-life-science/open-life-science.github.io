@@ -1476,6 +1476,13 @@ complexbrains:
   orcid: 0000-0003-3600-7004
   pronouns: She/her
   twitter: complexbrains
+contraexemplo:
+  affiliation: Outreachy
+  country: Brazil
+  first-name: Anna
+  last-name: e só
+  twitter: annaeso
+  website: https://notapplicable.dev/
 coopersmout:
   affiliation: Institute For Globally Distributed Open Research And Education
   bio: I studied psychology in my undergraduate degree (University of Queensland,

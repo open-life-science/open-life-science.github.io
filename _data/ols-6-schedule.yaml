@@ -13,20 +13,30 @@ timeline:
   - Q&A
   notes: null
   recording: null
-  details: '[**Register to join**](https://us02web.zoom.us/meeting/register/tZUvfu-grjotHtHKxPGh1m2oWmr3d8vKDbC8), or watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
+  details: '[**Register to join**](https://us02web.zoom.us/meeting/register/tZUvfu-grjotHtHKxPGh1m2oWmr3d8vKDbC8),
+    or watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
 - date: July 1, 2022
-  time: '09:00'
+  time: 09:00
   duration: 60 min
   description: Application Clinic Call
   type:
   - Q&A
   notes: null
-  details: 'At this call, OLS team will be available to provide help if you have any questions related to your application. [**Register to join**](https://us02web.zoom.us/meeting/register/tZIvfuyuqT0qHdK1tMqA98j6EMI8qoX9_as0).'
+  details: At this call, OLS team will be available to provide help if you have any
+    questions related to your application. [**Register to join**](https://us02web.zoom.us/meeting/register/tZIvfuyuqT0qHdK1tMqA98j6EMI8qoX9_as0).
 - date: July 7, 2022
   description: Call for applications closed
 - date: August 1, 2022
   description: Successful applicants announced
 weeks:
+  '00':
+    start: ''
+    calls:
+    - date: September 16, 2022
+      time: 09:00
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 1
+      type: Mentor
   '01':
     start: September 19, 2022
     calls:
@@ -37,15 +47,7 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '14:00'
-      duration: 60 min
-      content: |-
-        In this call, participants will:
-        - Understand common successes and challenges in mentoring OLS participants
-        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-      title: Mentor onboarding group 1
-      type: Mentor
-    - time: '08:00'
+    - time: '11:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -53,6 +55,8 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 2
       type: Mentor
+      date: September 21, 2022
+      notes: https://bit.ly/3f60GUT
   '02':
     start: September 26, 2022
     calls:
@@ -60,12 +64,13 @@ weeks:
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
-    - time: '08:00'
+    - time: '13:30'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
+      date: September 27, 2022
     - date: September 27, 2022
-      time: '09:00'
+      time: 09:00
       duration: 90 min
       notes: https://bit.ly/ols-6-week-02
       content: |-
@@ -97,6 +102,45 @@ weeks:
       - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         type: slides
         title: Introducing Road Mapping
+    - date: September 27, 2022
+      time: '10:00'
+      duration: 90 min
+      notes: https://bit.ly/ols-6-week-02
+      content: |-
+        In this call, participants will:
+        - Say hello and introduce ourselves
+        - Review our Community Participation Guidelines
+        - Review our definition of open leadership
+        - Unpack the differences between “open by default” and “open by design”
+        - Learn about common community interactions in open projects.
+        - Learn about common value exchanges between community members in open science
+      title: Welcome to Open Life Science!
+      recording: https://youtu.be/bAS74USoPxk
+      type: Cohort
+      before: '- Add your vision statement to your GitHub issue'
+      after: |-
+        - Look up two other projects and comment on their issues with feedback on their vision statement
+        - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
+        - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
+        - Share a link to your Open Canvas in your GitHub issue
+        - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
+        - Comment on your issue with your draft Roadmap
+        - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
+      resources:
+      - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        type: slides
+        title: Welcome to OLS!
+      - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        type: slides
+        title: Introducing Open Canvas
+      - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        type: slides
+        title: Introducing Road Mapping
+    - date: September 29, 2022
+      time: '17:00'
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 3
+      type: Mentor
   '03':
     start: October 03, 2022
     calls:
@@ -136,11 +180,45 @@ weeks:
       - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         type: slides
         title: Introducing Road Mapping
+    - date: October 05, 2022
+      time: '17:00'
+      duration: 90 min
+      notes: https://bit.ly/ols-6-week-03
+      content: |-
+        In this call, participants will:
+        - Say hello and introduce ourselves
+        - Review our Community Participation Guidelines
+        - Review our definition of open leadership
+        - Unpack the differences between “open by default” and “open by design”
+        - Learn about common community interactions in open projects.
+        - Learn about common value exchanges between community members in open science
+      title: Welcome to Open Life Science!
+      recording: https://youtu.be/Q1ae8ip4o54
+      type: Cohort
+      before: '- Add your vision statement to your GitHub issue'
+      after: |-
+        - Look up two other projects and comment on their issues with feedback on their vision statement
+        - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
+        - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
+        - Share a link to your Open Canvas in your GitHub issue
+        - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
+        - Comment on your issue with your draft Roadmap
+        - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
+      resources:
+      - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        type: slides
+        title: Welcome to OLS!
+      - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        type: slides
+        title: Introducing Open Canvas
+      - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        type: slides
+        title: Introducing Road Mapping
   '04':
     start: October 10, 2022
     calls:
     - date: October 12, 2022
-      time: '16:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -168,12 +246,16 @@ weeks:
       - link: https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
         type: slides
         title: Open Licensing
+        speaker: contraexemplo
       - link: https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
         type: slides
         title: README
+        speaker: mxrtinez
       - link: https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
         type: slides
         title: Contributing Guidelines and Code of Conduct
+        speaker: sayalaruano
+      recording: https://youtu.be/M0szFcbGdBU
   '05':
     start: October 17, 2022
     calls:
@@ -181,32 +263,34 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 18, 2022
-      time: '09:00'
+      time: '10:00'
       duration: 90 min
-      notes: https://bit.ly/ols-6-week-05
+      notes: https://bit.ly/ols-6-week-5
       content: |-
         In this call, participants will:
         - Create a GitHub repository
         - Write in Markdown
         - Create a README file
+        - Enable a small website via GitHub
         - Managing issues and labels
         - Submit changes via Pull Request
       title: GitHub tutorial for beginners
       type: Skill-up
       before: |
         - Please create a GitHub account: https://github.com
-        - Have a look at the [OLS-6 repository](https://github.com/open-life-science/ols-6/issues) for 'project issues'
+        - Have a look at the [OLS-4 repository](https://github.com/open-life-science/ols-4/issues) for 'project issues'
         - Comment of 1-2 project's recent post (vision, open canvas etc.)
         - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
       resources:
       - link: https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
         type: slides
         title: Introduction to GitHub
+      recording: https://youtu.be/7Oq81K27NmU
   '06':
     start: October 24, 2022
     calls:
     - date: October 25, 2022
-      time: '09:00'
+      time: '10:00'
       duration: 90 min
       notes: https://bit.ly/ols-6-week-06
       content: |-
@@ -219,7 +303,7 @@ weeks:
         on their README'
       after: |-
         - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
-          For help with GitHub and GitHub Pages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
+          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
         - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
           Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
@@ -228,13 +312,18 @@ weeks:
       - link: https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
         type: slides
         title: Agile & Iterative Project Management Methods
+        speaker: alexwlchan
       - type: slides
         title: 'Case study 1: Managing & developing an Open Source Software project'
+        speaker: luispedro
       - link: https://doi.org/10.5281/zenodo.5582718
         type: slides
         title: 'Case study 2: Managing & developing research data (RDM)'
+        speaker: sapetti9
       - type: slides
         title: 'Case study 3: Managing & developing an open hardware project'
+        speaker: pazbc
+      recording: https://youtu.be/AggJQTgsaaU
   '07':
     start: October 31, 2022
     calls:
@@ -247,7 +336,7 @@ weeks:
       notes: https://bit.ly/ols-6-week-07
       title: Q&A call
       type: Q&A
-  '08':
+  08:
     start: November 07, 2022
     calls:
     - date: November 09, 2022
@@ -277,7 +366,8 @@ weeks:
       - link: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
         type: slides
         title: Community interactions
-  '09':
+      recording: https://youtu.be/6ZlrGVxjd5Q
+  09:
     start: November 14, 2022
     calls:
     - duration: 30 min
@@ -312,6 +402,7 @@ weeks:
         title: Community building, Science Communication
       - type: slides
         title: Policymakers, funders, meta-researchers
+      recording: https://youtu.be/5fTXmHIKaL4
   '10':
     start: November 21, 2022
     calls:
@@ -345,6 +436,7 @@ weeks:
         type: slides
         title: Usable, comprehensive, accessible, FAIR and empowering training - The
           case of the Galaxy Training Network
+      recording: https://youtu.be/HKsK9CCcQYU
   '11':
     start: November 28, 2022
     calls:
@@ -357,6 +449,22 @@ weeks:
       notes: https://bit.ly/ols-6-week-11
       title: Q&A call
       type: Q&A
+    - date: November 30, 2022
+      time: '17:00'
+      duration: 30 min
+      notes: https://bit.ly/ols-6-week-11
+      title: Open-source software
+      type: Skill-up
+      resources:
+      - speaker: gemmaturon
+        type: slides
+        title: Code style, testing
+      - speaker: graciellehigino
+        type: slides
+        title: Code-review
+      - speaker: ha0ye
+        type: slides
+        title: Package management
   '12':
     start: December 05, 2022
     calls:
@@ -380,7 +488,8 @@ weeks:
       resources:
       - link: https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
         type: slides
-        title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really matter?)'
+        title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
+          matter?)'
       - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         type: slides
         title: Ally skills - Optional
@@ -440,7 +549,7 @@ weeks:
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
     - date: January 10, 2023
-      time: '09:00'
+      time: 09:00
       duration: 60 min
       notes: https://bit.ly/ols-6-week-15
       content: |-
@@ -494,13 +603,13 @@ weeks:
     start: January 16, 2023
     calls:
     - date: January 17, 2023
-      time: '09:00'
+      time: 09:00
       duration: 60 min
       notes: https://bit.ly/ols-6-week-16
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
-        - Celebrate OLS-6 success
+        - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 1
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
@@ -515,7 +624,7 @@ weeks:
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
-        - Celebrate OLS-6 success
+        - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 2
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
@@ -534,7 +643,7 @@ weeks:
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
-        - Celebrate OLS-6 success
+        - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 3
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
