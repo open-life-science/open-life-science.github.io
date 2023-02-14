@@ -24,9 +24,9 @@ Participants join this program with a **project** that they either are already w
 
 # Applications
 
-[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_7){:.button .is-link .is-fullwidth}
+<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_7){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before January 13, 2023 to allow activation of your Open Review profile as described in the [OLS-7 application guidelines and templates](https://github.com/open-life-science/application-forms).*
+*Please register on Open Review before January 13, 2023 to allow activation of your Open Review profile as described in the [OLS-7 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
 
 OLS-7 runs from February to June 2023. Applications for OLS-8 will open at mid 2023. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates on the next cohort application.
 

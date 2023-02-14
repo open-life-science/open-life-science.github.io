@@ -78,7 +78,7 @@ def get_people_id(name, people):
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     '''
     if name not in people:
-        print("'%s' for not found in people " % name)
+        print(f"'{name}' for not found in people ")
         return ''
     else:
         return people[name]
@@ -212,15 +212,16 @@ def extract_people(df):
     for index, row in df.iterrows():
         github, info = extract_people_info(row, people)
         if github not in people:
-            print("Add info for %s" % github)
+            print(f"Add info for {github}")
             people[github] = info
         else:
-            print("Update info for %s" % github)
+            print(f"Update info for {github}")
             people[github] = info
         people_l.append(github)
     print("Full list")
     people_l.sort()
-    print('- %s' % '\n- '.join(people_l))
+    s = '\n- '.join(people_l)
+    print(f"- {s}")
 
     # dump people dictionary into people.yaml file
     with people_fp.open("w") as people_f:
@@ -249,7 +250,7 @@ def extract_people_df(ids, people, fp):
     info = {}
     for i in ids:
         if i not in people:
-            print("%s not in people" % i)
+            print(f"{i} not in people")
             continue
         info[i] = {}
         if 'github' not in people[i]:
@@ -418,16 +419,20 @@ def update_call(call, row, people):
         call['title'] = row['Title']
     if not pd.isnull(row['Recording']):
         call['recording'] = row['Recording']
-    if not pd.isnull(row['Hosts']):
-        call['hosts'] = get_people_ids(row['Hosts'], people)
-    if not pd.isnull(row['Facilitators']):
+    if 'Hosts' in row and not pd.isnull(row['Hosts']):
+            call['hosts'] = get_people_ids(row['Hosts'], people)
+    elif 'Call lead' in row and not pd.isnull(row['Call lead']):
+            call['hosts'] = get_people_ids(row['Call lead'], people)
+    if 'Facilitators' in row and not pd.isnull(row['Facilitators']):
         call['facilitators'] = get_people_ids(row['Facilitators'], people)
     if not pd.isnull(row['Type']):
         call['type'] = row['Type']
     if not pd.isnull(row['Before']):
         call['before'] = row['Before']
-    if not pd.isnull(row['After']):
+    if 'After' in row and not pd.isnull(row['After']):
         call['after'] = row['After']
+    elif 'Assignments' in row and not pd.isnull(row['Assignments']):
+        call['after'] = row['Assignments']
     return call
 
 
@@ -482,15 +487,16 @@ def add_event_information(schedule, schedule_df, people):
             time=lambda x: pd.to_datetime(x['time']),
             duration=lambda x: pd.to_timedelta(x['duration'])))
 
-    call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A']
+    call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A', 'Cafeteria']
 
     # format date and time columns, add event information
     last_call = {}
     for index, row in df.iterrows():
-        w = "{:02d}".format(row['Week'])
+        print(row)
+        w = "{:02d}".format(int(row['Week']))
 
         if not w in schedule['weeks']:
-            print("Adding week %s too the schedule")
+            print(f"Adding week {w} to the schedule")
             schedule['weeks'][w] = {'start': '', 'calls': []}
 
         if row['Type'] == "Week":
@@ -499,9 +505,9 @@ def add_event_information(schedule, schedule_df, people):
                     if schedule['weeks'][w]['start'] is None:
                         schedule['weeks'][w]['start'] = row['date'].strftime('%B %d, %Y')
                     else:
-                        print("Different start date for week %s" % w)
-                        print("In schedule file: %s" % schedule['weeks'][w]['start'])
-                        print("In event file: %s" % row['date'].strftime('%B %d, %Y'))
+                        print(f"Different start date for week {w}")
+                        print(f"In schedule file: {schedule['weeks'][w]['start']}")
+                        print(f"In event file: {row['date'].strftime('%B %d, %Y')}")
             else:
                 schedule['weeks'][w]['start'] = row['date'].strftime('%B %d, %Y')
         elif row['Type'] in call_types:
@@ -656,18 +662,18 @@ def add_projects(cohort, project_df, people_df):
         projects_people[row['OLS-%s Project title' % args.cohort]].append(name.title())
     # 2. check each project
     for pr in projects_people:
-        print("%s" % pr)
+        print(f"{pr}")
         if pr not in projects:
             print("Not found in project list")
             continue
         for pa in projects_people[pr]:
             if pa not in reorder_people:
-                print("'%s' not found in people" % pa)
+                print(f"'{pa}' not found in people")
                 continue
             pa_id = reorder_people[pa]
             if pa_id not in projects[pr]['participants']:
                 projects[pr]['participants'].append(pa_id)
-                print("'%s' added to project" % pa)
+                print(f"'{pa}' added to project")
         print('')
 
     # transform project dictionary to list
