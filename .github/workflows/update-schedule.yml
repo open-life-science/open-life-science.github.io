@@ -36,7 +36,7 @@ jobs:
         with:
           commit-message: Update schedule
           title: Automatic schedule update
-          body: Automatic schedule update done via GitHub Action
+          body: Automatic schedule update done via GitHub Action once a week
           base: main
           branch: schedule-update
           delete-branch: true
