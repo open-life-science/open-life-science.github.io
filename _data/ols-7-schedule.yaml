@@ -200,6 +200,7 @@ weeks:
       time: "14:00"
       title: OLS Cafetería
       type: Cafeteria
+      duration: 90 min
   '05':
     start: March 27, 2023
     calls:
@@ -235,6 +236,7 @@ weeks:
       time: "13:00"
       title: OLS Cafetería
       type: Cafeteria
+      duration: 90 min
   '06':
     start: April 03, 2023
     calls:
@@ -420,7 +422,7 @@ weeks:
       type: Mentor-Mentee
     - date: May 10, 2023
       time: "16:00"
-      duration: 30 min
+      duration: 90 min
       notes: https://bit.ly/ols-7-week-11
       title: Open-source software
       hosts:
@@ -474,6 +476,7 @@ weeks:
       time: "13:00"
       title: OLS Cafetería
       type: Cafeteria
+      duration: 90 min
   '13':
     start: May 22, 2023
     calls:
@@ -559,12 +562,12 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: "14:00"
+      time: "13:00"
       duration: 60 min
       hosts:
       - ''
     - date: June 06, 2023
-      time: "09:00"
+      time: "08:00"
       duration: 60 min
       notes: https://bit.ly/ols-7-week-15
       content: |-
@@ -583,7 +586,7 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
     - date: June 08, 2023
-      time: "17:00"
+      time: "16:00"
       duration: 60 min
       notes: https://bit.ly/ols-7-week-15
       content: |-
@@ -619,12 +622,12 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: "14:00"
+      time: "13:00"
       duration: 60 min
       hosts:
       - malvikasharan
     - date: June 13, 2023
-      time: "09:00"
+      time: "08:00"
       duration: 60 min
       notes: https://bit.ly/ols-7-week-16
       content: |-
@@ -643,7 +646,7 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
     - date: June 15, 2023
-      time: "17:00"
+      time: "16:00"
       duration: 60 min
       notes: https://bit.ly/ols-7-week-16
       content: |-
