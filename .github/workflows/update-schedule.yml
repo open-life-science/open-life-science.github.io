@@ -29,7 +29,7 @@ jobs:
       - name: Update schedule
         shell: bash -el {0}
         run: |
-          bash src/update_schedule.sh
+          bash bin/update_schedule.sh
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
