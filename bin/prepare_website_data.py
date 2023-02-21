@@ -2,37 +2,20 @@
 
 import argparse
 import pandas as pd
-import yaml
 
 from pathlib import Path
+from ruamel.yaml import YAML
+from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
 optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
 to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
 
 
+
 ### GENERAL METHODS
 
-### https://stackoverflow.com/questions/8640959/how-can-i-control-what-scalar-form-pyyaml-uses-for-my-data/15423007#15423007
-def should_use_block(value):
-    for c in u"\u000a\u000d\u001c\u001d\u001e\u0085\u2028\u2029":
-        if c in value:
-            return True
-    return False
-
-
-def represent_scalar(self, tag, value, style=None):
-    if style is None:
-        if should_use_block(value):
-            style='|'
-        else:
-            style = self.default_style
-
-    node = yaml.representer.ScalarNode(tag, value, style=style)
-    if self.alias_key is not None:
-        self.represented_objects[self.alias_key] = node
-    return node
-yaml.representer.BaseRepresenter.represent_scalar = represent_scalar
-
+yaml = YAML()
+yaml.preserve_quotes = True
 
 def read_yaml(fp):
     '''
@@ -41,7 +24,7 @@ def read_yaml(fp):
     :param fp: Path to YAML file
     '''
     with open(fp, 'r') as f:
-        content = yaml.load(f, Loader=yaml.FullLoader)
+        content = yaml.load(f)
     return content
 
 
@@ -54,7 +37,7 @@ def load_people():
     people_fp = Path('_data') / Path('people.yaml')
     # load people.yaml file into a dictionary
     with open(people_fp, 'r') as people_f:
-        people = yaml.load(people_f, Loader=yaml.FullLoader)
+        people = yaml.load(people_f)
     return people
 
 
@@ -233,7 +216,7 @@ def extract_people(df):
         people_f.write('#\n')
         people_f.write('# Mandatory: first-name, last-name, country\n')
         people_f.write('---\n')
-        people_f.write(yaml.dump(people, allow_unicode=True))
+        yaml.dump(people, people_f)
 
     return people_l
 
@@ -391,10 +374,7 @@ def dump_schedule(schedule, cohort):
     with fp.open("w") as schedule_f:
         schedule_f.write("# Schedule for the OLS-%s\n" % cohort)
         schedule_f.write("---\n")
-        schedule_f.write(yaml.dump(schedule,
-            allow_unicode=True,
-            default_flow_style=False,
-            sort_keys=False))
+        yaml.dump(schedule, schedule_f)
 
 
 def update_call(call, row, people):
@@ -408,7 +388,7 @@ def update_call(call, row, people):
     if not pd.isnull(row['date']):
         call['date'] = row['date'].strftime('%B %d, %Y')
     if not pd.isnull(row['time']):
-        call['time'] = row['time'].strftime('%H:%M')
+        call['time'] = DQS(row['time'].strftime('%H:%M'))
     if not pd.isnull(row['duration']):
         call['duration'] = "%s min" % int(int(row['duration'].seconds)/60)
     if not pd.isnull(row['Note link']):
@@ -492,7 +472,6 @@ def add_event_information(schedule, schedule_df, people):
     # format date and time columns, add event information
     last_call = {}
     for index, row in df.iterrows():
-        print(row)
         w = "{:02d}".format(int(row['Week']))
 
         if not w in schedule['weeks']:
@@ -554,7 +533,7 @@ def dump_projects(projects, cohort):
         project_f.write('#\n')
         project_f.write('# Check previous OLS for examples\n')
         project_f.write('---\n')
-        project_f.write(yaml.dump(projects, allow_unicode=True))
+        yaml.dump(projects, project_f)
 
 
 ### METHODS TO INTERACT WITH COHORT METADATA FILE
@@ -580,7 +559,7 @@ def load_metadata(cohort):
     metadata_fp = Path('_data') / Path('ols-%s-metadata.yaml' % args.cohort )
     # load metadata cohort file into a dictionary
     with open(metadata_fp, 'r') as metadata_f:
-        metadata = yaml.load(metadata_f, Loader=yaml.FullLoader)
+        metadata = yaml.load(metadata_f)
     return metadata
 
 
@@ -599,7 +578,7 @@ def dump_metadata(metadata, cohort):
         metadata_f.write('# People should be also in people.yaml file and linked using their GitHub username\n')
         metadata_f.write('# Ordering by expertise should be done by running the bin/sort-expertises.py script\n')
         metadata_f.write('---\n')
-        metadata_f.write(yaml.dump(metadata))
+        yaml.dump(metadata, metadata_f)
 
 
 ### COMMANDS
