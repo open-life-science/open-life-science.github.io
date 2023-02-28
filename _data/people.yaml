@@ -1015,8 +1015,8 @@ bebatut:
     and regularly giving talks and workshops on topics like data analysis, and tool
     development. She is also a founder of [Street Science Community](https://streetscience.community/),
     a citizen science and outreach program.
-  city: Freiburg
-  country: Germany
+  city: Clermont-Ferrand
+  country: France
   expertise:
   - Galaxy
   - Galaxy training
@@ -1047,6 +1047,14 @@ benkrikler:
   last-name: Krikler
   twitter: benkrikler
   website: https://krikler.be/
+bethaniley:
+  affiliation: Queen's University Belfast
+  city: Belfast
+  country: United Kingdom
+  first-name: Bethan
+  last-name: Iley
+  pronouns: she/her
+  twitter: bethaniley
 bgruening:
   bio: Björn is working in the European Galaxy team and tries to help make science
     open wherever he can. He is an expert in the topics related to Container, Conda,
@@ -1560,6 +1568,13 @@ danae-carelis-davila-espinoza:
   last-name: Davila Espinoza
   orcid: 0000-0002-0877-5041
   twitter: CarelisDavila
+danielagduca:
+  city: London
+  country: United Kingdom
+  first-name: Daniela
+  last-name: Duca
+  twitter: danielagduca
+  mastodon: danielagduca@hachyderm.io
 dannycolin:
   affiliation: Université de Montréal
   country: Canada
@@ -1599,6 +1614,12 @@ dasaderi:
   pronouns: she/her
   twitter: Neurosarda
   website:  https://www.prereview.org/
+dasaptaerwin:
+  affiliation: Institut Teknologi Bandung
+  country: India
+  first-name: Dasapta Erwin
+  last-name: Irawan
+  twitter: dasaptaeiwnr
 david-selassie-opoku:
   affiliation: Hellofresh
   city: Berlin
@@ -2973,8 +2994,8 @@ jhon-anderson-pérez-silva:
   twitter: https://twitter.com/JhonPrz6
   website: https://www.instagram.com/scihack/
 jilaga:
-  affiliation: Outreachy 
-  bio: Jilaga is a design enthusiast whose strongest attribute is seeing every layer of design as important as the final work and believes every design should communicate empathy. 
+  affiliation: Outreachy
+  bio: Jilaga is a design enthusiast whose strongest attribute is seeing every layer of design as important as the final work and believes every design should communicate empathy.
   city: Lagos
   country: Nigeria
   expertise:
@@ -2985,9 +3006,9 @@ jilaga:
   - User research
   first-name: Nneoma
   last-name: Jilaga
-  pronouns: She/her 
-  title: Brand design intern 
-  twitter: nohmaah  
+  pronouns: She/her
+  title: Brand design intern
+  twitter: nohmaah
 jmmaok:
   bio: A project lead in Cohort 3, Jennifer Miller has a M.S. in Technical Communication
     and a PhD in Public Policy. She has 10+ years post-secondary teaching experience
@@ -3189,10 +3210,17 @@ jyoti-bhogal:
   - Software quality testing
   first-name: Jyoti
   last-name: Bhogal
-  orcid: ' 0000-0002-6289-0737'
+  orcid: 0000-0002-6289-0737
   pronouns: she/her
   twitter: JyotiBhogal7
   website: https://rse-asia.github.io/RSE_Asia/
+jywarren:
+  city: Providence, RI
+  country: United States
+  first-name: Jeffrey
+  last-name: Warren
+  twitter: jywarren
+  website: https://unterbahn.com
 k-c-martin:
   affiliation: Stellenbosch University
   bio: |-
@@ -3936,6 +3964,12 @@ marco-madella:
   pronouns: he/his
   twitter: m4bcn
   website: https://www.upf.edu/web/cases
+marcoanteghini:
+  city: Berlin
+  country: Germany
+  first-name: Marco
+  last-name: Anteghini
+  twitter: AnteghiniMarco
 maria-andrea-gonzales-castillo:
   bio: Maria Andrea Gonzales is a 4th year Bioengineering undergraduate in UTEC (Lima,
     Peru). She is currently working in a variety of biotechnology research projects
@@ -4846,6 +4880,12 @@ olayile:
   first-name: Olayile
   last-name: Ejekwu
   pronouns: She/Her
+olya-vvedenskaya:
+  city: Dresden
+  country: Germany
+  first-name: Olya
+  last-name: Vvedenskaya
+  twitter: earlgrey_addict
 olsjuju:
   affiliation: Binnobase Llc.
   bio: A research translator and innovation architect in the life science industry
@@ -6290,6 +6330,11 @@ wasifarahman:
   country: Bangladesh
   first-name: Wasifa
   last-name: Rahman
+wingram:
+  country: United States
+  first-name: Wendy
+  last-name: Ingram
+  website: https://www.wendymarieingram.com
 wykhuh:
   bio: A lifelong learner who turned two hobbies into careers (paper engineering and
     software engineering), and  I want to do it for a third time. I am interested

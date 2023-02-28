@@ -11,8 +11,8 @@ timeline:
   type:
   - Talk
   - Q&A
-  notes: null
-  recording: null
+  notes:
+  recording:
   details: '[**Register to join**](https://us02web.zoom.us/meeting/register/tZUvfu-grjotHtHKxPGh1m2oWmr3d8vKDbC8),
     or watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
 - date: July 1, 2022
@@ -21,7 +21,7 @@ timeline:
   description: Application Clinic Call
   type:
   - Q&A
-  notes: null
+  notes:
   details: At this call, OLS team will be available to provide help if you have any
     questions related to your application. [**Register to join**](https://us02web.zoom.us/meeting/register/tZIvfuyuqT0qHdK1tMqA98j6EMI8qoX9_as0).
 - date: July 7, 2022
@@ -33,7 +33,7 @@ weeks:
     start: ''
     calls:
     - date: September 16, 2022
-      time: 09:00
+      time: "09:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
@@ -47,7 +47,7 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '11:00'
+    - time: "11:00"
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -64,7 +64,7 @@ weeks:
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
-    - time: '13:30'
+    - time: "13:30"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
@@ -103,7 +103,7 @@ weeks:
         type: slides
         title: Introducing Road Mapping
     - date: September 27, 2022
-      time: '10:00'
+      time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-02
       content: |-
@@ -127,17 +127,20 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources:
-      - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+      - link: https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit#slide=id.p2
         type: slides
         title: Welcome to OLS!
-      - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        speaker: yochannah
+      - link: https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
         type: slides
         title: Introducing Open Canvas
-      - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speaker: yochannah
+      - link: https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
         type: slides
         title: Introducing Road Mapping
+        speaker: yochannah
     - date: September 29, 2022
-      time: '17:00'
+      time: "17:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 3
       type: Mentor
@@ -181,7 +184,7 @@ weeks:
         type: slides
         title: Introducing Road Mapping
     - date: October 05, 2022
-      time: '17:00'
+      time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-03
       content: |-
@@ -205,20 +208,22 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources:
-      - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+      - link: https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit#slide=id.p2
         type: slides
         title: Welcome to OLS!
-      - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        speaker: yochannah
+      - link: https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
         type: slides
         title: Introducing Open Canvas
-      - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speaker: malvikasharan
+      - link: https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
         type: slides
         title: Introducing Road Mapping
   '04':
     start: October 10, 2022
     calls:
     - date: October 12, 2022
-      time: '17:00'
+      time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -243,15 +248,15 @@ weeks:
         - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources:
-      - link: https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
+      - link: https://docs.google.com/presentation/d/1YGZVJhEuvuv1YKEVH_DW8aCVnwqCoBRC/edit#slide=id.p1
         type: slides
         title: Open Licensing
         speaker: contraexemplo
-      - link: https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
+      - link: https://docs.google.com/presentation/d/1Sh_9lEJ50HtWecB_Zaews-3Shah4TFld/edit?usp=drive_web&ouid=113583685317579296794&rtpof=true
         type: slides
         title: README
         speaker: mxrtinez
-      - link: https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
+      - link: https://docs.google.com/presentation/d/1hN_aYQT_uL3CczvB-62MSlhPa8Opnukh/edit#slide=id.p2
         type: slides
         title: Contributing Guidelines and Code of Conduct
         speaker: sayalaruano
@@ -263,7 +268,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 18, 2022
-      time: '10:00'
+      time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-5
       content: |-
@@ -282,15 +287,16 @@ weeks:
         - Comment of 1-2 project's recent post (vision, open canvas etc.)
         - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
       resources:
-      - link: https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
+      - link: https://docs.google.com/presentation/d/1a14DBUdW2LOAtlNv181gZ_KTc_W_xAqy/edit#slide=id.p1
         type: slides
         title: Introduction to GitHub
+        speaker: pherterich
       recording: https://youtu.be/7Oq81K27NmU
   '06':
     start: October 24, 2022
     calls:
     - date: October 25, 2022
-      time: '10:00'
+      time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-06
       content: |-
@@ -309,20 +315,25 @@ weeks:
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
         - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
       resources:
-      - link: https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
+      - link: https://docs.google.com/presentation/d/12pcWhXgmYwuAXo_h--lIFEqGgJoGmXcprguTKg8obLA/edit#slide=id.g6e56d0296c_0_0
         type: slides
         title: Agile & Iterative Project Management Methods
         speaker: alexwlchan
       - type: slides
         title: 'Case study 1: Managing & developing an Open Source Software project'
         speaker: luispedro
-      - link: https://doi.org/10.5281/zenodo.5582718
+      - link: https://docs.google.com/presentation/d/147I53rNPEMHqixXPDc6vt0Eg9O9mIPBQ/edit?usp=drive_web&ouid=113583685317579296794&rtpof=true
         type: slides
         title: 'Case study 2: Managing & developing research data (RDM)'
         speaker: sapetti9
       - type: slides
         title: 'Case study 3: Managing & developing an open hardware project'
         speaker: pazbc
+        link: https://docs.google.com/presentation/d/1SJJjYujbAjRUgrjbT7ZSofqp4tgZ5eNf5wPMqHRfmn4/edit#slide=id.g175a0ec481e_1_88
+      - link: https://2022-10-25-lpc-oss.netlify.app/#8
+        speaker: luispedro
+        type: slides
+        title: 'Case study 1: open source software in science'
       recording: https://youtu.be/AggJQTgsaaU
   '07':
     start: October 31, 2022
@@ -331,50 +342,49 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 02, 2022
-      time: '17:00'
+      time: "17:00"
       duration: 30 min
       notes: https://bit.ly/ols-6-week-07
       title: Q&A call
       type: Q&A
-  08:
+  '08':
     start: November 07, 2022
     calls:
     - date: November 09, 2022
-      time: '17:00'
+      time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-08
-      content: |-
-        In this call, participants will:
-        - Learn how to develop Open collaboration by design
-        - Hear Mountain of engagement and community interactions
-        - Learn about Personas and pathways and welcoming new contributors
+      content: "In this call, participants will:\n- Learn how to develop Open collaboration\
+        \ by design\n- Hear Mountain of engagement and community interactions\n- Learn\
+        \ about Personas and pathways and welcoming new contributors"
       title: Community design for inclusivity
+      recording: https://youtu.be/6ZlrGVxjd5Q
       type: Cohort
       after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
         \ assignment\n- Think through community interactions\n- Complete the midterm\
         \ survey\n      \n        "
       resources:
-      - link: https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
+      - link: https://docs.google.com/presentation/d/1_0LMMqMrcDh9IfGOv45jXNkxPku3mdehcb51QjVaTCI/present
+        speaker: melibleq
         type: slides
-        title: Using Personas and Pathways to Build Community
-      - link: https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
+        title: Personas, community design for inclusivity
+      - link: https://docs.google.com/presentation/d/1ZmgEnKaED_4Nc9H_UhXC1G3J61qOcjAcuN7Un_RxxWo/edit#slide=id.gf6411d1bc9_1_1
+        speaker: chadsansing
         type: slides
         title: Mountain of Engagement
-      - link: https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
+      - type: slides
+      - link: https://docs.google.com/presentation/d/1p_r-mgcOWJD34Tc4V_dgkksmoPjUsILHecSdQuxwyQE/edit?usp=sharing
+        speaker: jywarren
         type: slides
-        title: Mentored contributions
-      - link: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
-        type: slides
-        title: Community interactions
-      recording: https://youtu.be/6ZlrGVxjd5Q
-  09:
+        title: Hardware and inclusive structures for collaborative work
+  '09':
     start: November 14, 2022
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 15, 2022
-      time: '10:00'
+      time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -382,6 +392,7 @@ weeks:
         \ worries/insecurities related to your career path, profession or area of\
         \ work \n- Tips and advice to overcome challenges as an open researcher"
       title: 'Open Leadership: Academia, industry and beyond!'
+      recording: https://youtu.be/5fTXmHIKaL4
       type: Skill-up
       before: "A few days before the event, think about how you might briefly answer\
         \ the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
@@ -394,20 +405,22 @@ weeks:
         - do you want to switch your career or field? Why or why not?      \n    \
         \  \n        "
       resources:
-      - type: slides
+      - speaker: olya-vvedenskaya
+        type: slides
         title: Post-academia career path, Social entrepreneurship
-      - type: slides
+      - link: https://docs.google.com/presentation/d/1a9OlvL9AY8EMbZm3JPg6dESfbqIdVudpA1IbnznzG2M/edit#slide=id.g7e28a7e96f_0_0
+        speaker: jafsia
+        type: slides
         title: Academic leadership, group or project leaders
-      - type: slides
-        title: Community building, Science Communication
-      - type: slides
-        title: Policymakers, funders, meta-researchers
-      recording: https://youtu.be/5fTXmHIKaL4
+      - link: https://docs.google.com/presentation/d/1MzbVKP8zcKC-SRJlpXUwFOHxl1OxssZO_lq4sKghzLo/edit?usp=sharing
+        speaker: danielagduca
+        type: slides
+        title: Open secrets to finding your path
   '10':
     start: November 21, 2022
     calls:
     - date: November 22, 2022
-      time: '10:00'
+      time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-10
       content: |-
@@ -436,6 +449,14 @@ weeks:
         type: slides
         title: Usable, comprehensive, accessible, FAIR and empowering training - The
           case of the Galaxy Training Network
+      - link: https://docs.google.com/presentation/d/1lwPYHKFaH221S-Y8T8tk1phJpk7fsPA64kn3TfaGWHQ/edit#slide=id.g7e28a7e96f_0_0
+        speaker: dasaptaerwin
+        type: slides
+        title: (Earthquake), preprints, and everything in between
+      - link: https://docs.google.com/presentation/d/14wVZJauH4wT4GBJwz4gCA2AeV6kTPTRZRW1ZMhnJ2Yk/edit
+        speaker: malloryfreeberg
+        type: slides
+        title: "FAIR Principles\nPromoting openness in science"
       recording: https://youtu.be/HKsK9CCcQYU
   '11':
     start: November 28, 2022
@@ -450,8 +471,8 @@ weeks:
       title: Q&A call
       type: Q&A
     - date: November 30, 2022
-      time: '17:00'
-      duration: 30 min
+      time: "17:00"
+      duration: 90 min
       notes: https://bit.ly/ols-6-week-11
       title: Open-source software
       type: Skill-up
@@ -459,17 +480,19 @@ weeks:
       - speaker: gemmaturon
         type: slides
         title: Code style, testing
+        link: https://drive.google.com/file/d/1w8AUnsbwSpqfEK0YxKmSZGIeIlEbppSN/view?usp=share_link
       - speaker: graciellehigino
         type: slides
         title: Code-review
       - speaker: ha0ye
         type: slides
         title: Package management
+        link: https://docs.google.com/presentation/d/12hqzyIdYqSKnFokcTT2i8QhO74vcx7OkluUdiRd_ah8/edit?usp=share_link
   '12':
     start: December 05, 2022
     calls:
     - date: December 07, 2022
-      time: '17:00'
+      time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-12
       title: Diversity and Inclusion & Ally skills
@@ -493,6 +516,14 @@ weeks:
       - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         type: slides
         title: Ally skills - Optional
+      - link: https://docs.google.com/presentation/d/1Kf6Xw0pZr34JAYp1D48PdLxZKMfI2O_NLZ2SHyrMrl0/edit?usp=sharing
+        speaker: pivg
+        type: slides
+        title: Diversity and Inclusion
+      - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
+        speaker: ''
+        type: slides
+        title: Ally skills
   '13':
     start: December 12, 2022
     calls:
@@ -500,7 +531,7 @@ weeks:
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
     - date: December 13, 2022
-      time: '10:00'
+      time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-13
       content: |-
@@ -516,14 +547,15 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
       resources:
-      - link: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+      - link: https://drive.google.com/file/d/1wtX0_5ZMO03dsoFliWyWSgbnTCkjpjY2/view?usp=share_link
         type: slides
         title: Personal Ecology and Self Care
+        speaker: wingram
   '14':
     start: December 19, 2022
     calls:
     - date: December 20, 2022
-      time: '10:00'
+      time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-14
       content: "In this call, participants will:\n- Learn how to apply FAIR research\
@@ -540,8 +572,14 @@ weeks:
           make it FAIR in practice? '
       - type: slides
         title: 'Public engagement: Open Infrastructure, Citizen Science, Science Communication'
+        link: https://www.canva.com/design/DAFR7veE-rw/C_LmTG_0lzCxAYcSM-QZhQ/view?utm_content=DAFR7veE-rw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+        speaker: 'marcoanteghini'
       - type: slides
         title: CARE principles for indigenous data
+      - link: https://osf.io/w3v7j
+        speaker: 'bethaniley'
+        type: slides
+        title: Applying FAIR principles to (open) data management
   '15':
     start: January 09, 2023
     calls:
@@ -549,7 +587,7 @@ weeks:
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
     - date: January 10, 2023
-      time: 09:00
+      time: "09:00"
       duration: 60 min
       notes: https://bit.ly/ols-6-week-15
       content: |-
@@ -580,10 +618,10 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '14:00'
+      time: "14:00"
       duration: 60 min
     - date: January 12, 2023
-      time: '17:00'
+      time: "17:00"
       duration: 60 min
       notes: https://bit.ly/ols-6-week-15
       content: |-
@@ -603,13 +641,13 @@ weeks:
     start: January 16, 2023
     calls:
     - date: January 17, 2023
-      time: 09:00
+      time: "09:00"
       duration: 60 min
-      notes: https://bit.ly/ols-6-week-16
+      notes: https://pad.sfconservancy.org/p/ols-6-graduations
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
+        - Celebrate OLS-6 success
       title: Final presentations & Graduation! - Group 1
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
@@ -620,11 +658,11 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
     - date: January 18, 2023
-      notes: https://bit.ly/ols-6-week-16
+      notes: https://pad.sfconservancy.org/p/ols-6-graduations
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
+        - Celebrate OLS-6 success
       title: Final presentations & Graduation! - Group 2
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
@@ -634,16 +672,16 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '14:00'
+      time: "14:00"
       duration: 60 min
     - date: January 19, 2023
-      time: '17:00'
+      time: "17:00"
       duration: 60 min
-      notes: https://bit.ly/ols-6-week-16
+      notes: https://pad.sfconservancy.org/p/ols-6-graduations
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
+        - Celebrate OLS-6 success
       title: Final presentations & Graduation! - Group 3
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
