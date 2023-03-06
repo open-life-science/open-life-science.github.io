@@ -400,9 +400,9 @@ def update_call(call, row, people):
     if not pd.isnull(row['Recording']):
         call['recording'] = row['Recording']
     if 'Hosts' in row and not pd.isnull(row['Hosts']):
-            call['hosts'] = get_people_ids(row['Hosts'], people)
+        call['hosts'] = get_people_ids(row['Hosts'], people)
     elif 'Call lead' in row and not pd.isnull(row['Call lead']):
-            call['hosts'] = get_people_ids(row['Call lead'], people)
+        call['hosts'] = get_people_ids(row['Call lead'], people)
     if 'Facilitators' in row and not pd.isnull(row['Facilitators']):
         call['facilitators'] = get_people_ids(row['Facilitators'], people)
     if not pd.isnull(row['Type']):
@@ -413,6 +413,7 @@ def update_call(call, row, people):
         call['after'] = row['After']
     elif 'Assignments' in row and not pd.isnull(row['Assignments']):
         call['after'] = row['Assignments']
+    call['resources'] = []
     return call
 
 
@@ -463,8 +464,8 @@ def add_event_information(schedule, schedule_df, people):
             'Start Time': 'time',
             'Duration': 'duration'})
         .assign(
-            date=lambda x: pd.to_datetime(x['date'], dayfirst=True),
-            time=lambda x: pd.to_datetime(x['time']),
+            date=lambda x: pd.to_datetime(x['date'], dayfirst=True, errors='coerce'),
+            time=lambda x: pd.to_datetime(x['time'], errors='coerce'),
             duration=lambda x: pd.to_timedelta(x['duration'])))
 
     call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A', 'Cafeteria']
@@ -503,18 +504,7 @@ def add_event_information(schedule, schedule_df, people):
                 last_call = call
 
         elif row['Type'] == 'Presentation':
-            found = False
-            if 'resources' not in last_call:
-                last_call['resources'] = []
-            else:
-                for res in last_call['resources']:
-                    if 'title' in res and row['Title'] == res['title']:
-                        res = update_resource(res, row, people)
-                        found = True
-
-            if not found:
-                res = update_resource({}, row, people)
-                last_call['resources'].append(res)
+            last_call['resources'].append(update_resource({}, row, people))
 
     return schedule
 
