@@ -7,54 +7,29 @@
 experts:
 - alecandian
 - aleesteele
-- aliaslaurel
-- andreasancheztapia
 - arielle-bennett
-- batoolmm
-- cgentemann
-- deepakunni3
 - dimmestp
 - ekaroune
 - elisa-on-github
 - estherplomp
 - graciellehigino
-- ha0ye
 - hrhotz
 - iramosp
 - jezcope
 - joyceykao
 - karvovskaya
 - kipkurui
-- koerding
 - lauracarter
 - lwinfree
 - malloryfreeberg
-- marimeireles
-- martlj
-- matouse
-- melibleq
 - msundukova
 - mxrtinez
 - nadinespy
-- pherterich
 - profgiuseppe
-- sapetti9
 - saravilla
-- sayalaruano
-- selgebali
-- tallmar
-- tobyhodges
 experts-with-expertise:
-  ' ecological niche modeling':
-  - andreasancheztapia
   Agrobiodiversity:
   - iramosp
-  Ally skills training:
-  - ha0ye
-  Anaconda:
-  - marimeireles
-  And inclusion.:
-  - andreasancheztapia
   Anthropology:
   - aleesteele
   App development:
@@ -65,104 +40,51 @@ experts-with-expertise:
   - alecandian
   Best practices in open & reproducible science:
   - nadinespy
-  Bio(medical) ontologies:
-  - deepakunni3
   Bioanthropology:
   - estherplomp
   Bioconductor:
   - hrhotz
   Biodiversity:
   - graciellehigino
-  Biodiversity informatics:
-  - andreasancheztapia
-  Bioimage analysis:
-  - matouse
   Bioinformatics:
   - hrhotz
   - malloryfreeberg
   - profgiuseppe
-  - sayalaruano
-  Biomedical science:
-  - martlj
   Biophysics:
   - msundukova
   Career development:
   - msundukova
   Carpentries:
   - profgiuseppe
-  Cheminformatics:
-  - sayalaruano
-  Chromatin:
-  - tallmar
   Chromatin & dna:
   - saravilla
-  Climate science:
-  - cgentemann
-  Code of conducts:
-  - arielle-bennett
-  Collaborating with git & github/gitlab:
-  - tobyhodges
   Collaboration:
   - graciellehigino
-  - pherterich
-  Communications:
-  - aliaslaurel
   Communities:
   - profgiuseppe
   Community building:
-  - andreasancheztapia
   - ekaroune
   - joyceykao
   - kipkurui
-  - tallmar
-  Community consultation:
-  - arielle-bennett
-  Community goals:
-  - arielle-bennett
-  Community management:
-  - ha0ye
   Community-building:
   - aleesteele
-  Competency frameworks:
-  - tallmar
   Complexity science:
   - nadinespy
   Computational Biology:
   - kipkurui
-  Computational biology:
-  - arielle-bennett
-  - sayalaruano
   Computational studies:
   - nadinespy
-  Correlative light and electron microscopy:
-  - martlj
-  Course design:
-  - tallmar
-  Course organisation:
-  - tallmar
-  Culture change:
-  - arielle-bennett
-  Data integration:
-  - deepakunni3
   Data management:
   - graciellehigino
   - iramosp
   - lwinfree
   - malloryfreeberg
-  Data modeling:
-  - deepakunni3
-  Data science:
-  - sayalaruano
   Data synthesis:
   - graciellehigino
   Databases:
   - profgiuseppe
   Datascience:
   - nadinespy
-  Deep learning:
-  - matouse
-  Designing and developing training material:
-  - tobyhodges
   Devops:
   - profgiuseppe
   Digital health:
@@ -177,83 +99,50 @@ experts-with-expertise:
   - lauracarter
   Diversity:
   - alecandian
-  - andreasancheztapia
-  Drug discovery:
-  - arielle-bennett
-  - sayalaruano
-  Earth science:
-  - cgentemann
   Ecology:
   - graciellehigino
-  - ha0ye
   Education:
   - alecandian
-  Electron microscopy:
-  - martlj
   Electrophysiology:
   - msundukova
   Environmental archaeology:
   - ekaroune
-  Equity:
-  - andreasancheztapia
   Ethnography:
   - aleesteele
   FAIR:
   - estherplomp
-  Fair:
-  - deepakunni3
   Fair data:
   - ekaroune
-  - pherterich
   Fair principles:
   - malloryfreeberg
-  - selgebali
   Fair research software:
   - nadinespy
   Feminism:
   - lauracarter
   Fieldwork:
   - karvovskaya
-  Fiji:
-  - matouse
-  Fluorescence microscopy:
-  - martlj
   Galaxy:
   - hrhotz
   - malloryfreeberg
   Gender:
   - lauracarter
-  Gene expression:
-  - tallmar
   Genomics:
   - saravilla
-  Geography:
-  - melibleq
-  Git and github:
-  - ha0ye
   Github:
   - dimmestp
   - malloryfreeberg
-  Github/gitlab pages:
-  - tobyhodges
   Giving presentations:
   - lwinfree
   Glam:
   - jezcope
-  Health sciences:
-  - ha0ye
   Human genomics and phenomics:
   - malloryfreeberg
   Human rights:
   - lauracarter
-  Image analysis:
-  - martlj
   Imaging:
-  - martlj
   - msundukova
   Inclusion & equity:
   - alecandian
-  - selgebali
   Information literacy:
   - alecandian
   Information theory:
@@ -262,26 +151,16 @@ experts-with-expertise:
   - iramosp
   Isotopes:
   - estherplomp
-  Jekyll:
-  - tobyhodges
   Journaling:
   - msundukova
-  Jupyter ecosystems):
-  - marimeireles
-  Knowledge graphs:
-  - deepakunni3
   Libraries:
   - jezcope
-  Library and archiving skills:
-  - pherterich
   Life coaching:
   - msundukova
   Linguistics:
   - karvovskaya
   Machine learning:
-  - matouse
   - nadinespy
-  - sayalaruano
   Mental health:
   - msundukova
   Mentoring:
@@ -294,35 +173,22 @@ experts-with-expertise:
   - msundukova
   Molecular biology:
   - saravilla
-  - tallmar
-  Napari:
-  - matouse
-  Network science:
-  - sayalaruano
   Neurodiversity:
   - jezcope
   Neuroscience:
   - lwinfree
   - msundukova
   - nadinespy
-  Neuroscience.:
-  - arielle-bennett
   Next Generation Sequencing:
   - hrhotz
   Nextflow:
   - dimmestp
   Ngs:
   - saravilla
-  Numfocus:
-  - marimeireles
-  Oceanography:
-  - cgentemann
-  Online training:
-  - tallmar
+  No listed expertise:
+  - arielle-bennett
   Ontologies:
   - malloryfreeberg
-  Open communities:
-  - sapetti9
   Open data:
   - estherplomp
   - graciellehigino
@@ -331,11 +197,8 @@ experts-with-expertise:
   - lwinfree
   Open knowledge:
   - aleesteele
-  - sapetti9
   Open protocols:
   - estherplomp
-  Open publications:
-  - melibleq
   Open publishing:
   - ekaroune
   Open research:
@@ -343,23 +206,14 @@ experts-with-expertise:
   Open scholarship:
   - jezcope
   Open science:
-  - andreasancheztapia
   - dimmestp
   - jezcope
   - lwinfree
   - nadinespy
-  - sayalaruano
-  - selgebali
-  Open science and community:
-  - pherterich
-  Open science software (python:
-  - marimeireles
   Open science support:
   - elisa-on-github
   Open source:
   - lwinfree
-  Open source organization:
-  - marimeireles
   Open source research:
   - aleesteele
   Operations management:
@@ -370,8 +224,6 @@ experts-with-expertise:
   - ekaroune
   Phytoliths:
   - ekaroune
-  Plant community ecology:
-  - andreasancheztapia
   Post-transcriptional gene regulation:
   - malloryfreeberg
   PostgreSQL:
@@ -384,12 +236,8 @@ experts-with-expertise:
   - malloryfreeberg
   Psychology:
   - nadinespy
-  Publishing web content:
-  - tobyhodges
   R:
-  - andreasancheztapia
   - dimmestp
-  - ha0ye
   - malloryfreeberg
   Rdm:
   - elisa-on-github
@@ -398,7 +246,6 @@ experts-with-expertise:
   Regulatory Genomics:
   - kipkurui
   Reproducibility:
-  - andreasancheztapia
   - graciellehigino
   - kipkurui
   - mxrtinez
@@ -410,32 +257,14 @@ experts-with-expertise:
   - estherplomp
   - jezcope
   - karvovskaya
-  - pherterich
-  - selgebali
-  Research reproducibility:
-  - ha0ye
   Research software engineering practice:
   - jezcope
   Research support:
   - elisa-on-github
-  Rigor in neuroscience and beyond:
-  - koerding
-  Rna:
-  - tallmar
   Rna biology:
   - malloryfreeberg
-  Road mapping and strategy planning:
-  - arielle-bennett
-  Same as before:
-  - batoolmm
-  Satellite remote sensing:
-  - cgentemann
   Science communication:
   - graciellehigino
-  Scientific community engagement:
-  - tobyhodges
-  Segmentation:
-  - matouse
   Semantics:
   - karvovskaya
   Sensitive data:
@@ -444,8 +273,6 @@ experts-with-expertise:
   - malloryfreeberg
   Sequencing analysis:
   - saravilla
-  Shallow learning:
-  - matouse
   Sociology:
   - aleesteele
   Software development:
@@ -458,36 +285,20 @@ experts-with-expertise:
   - joyceykao
   Sustainability science:
   - iramosp
-  Sustainable coding practices:
-  - matouse
   Teaching:
   - profgiuseppe
-  Teaching and organising workshops:
-  - tobyhodges
-  Terminologies:
-  - deepakunni3
   Therapeutic writing facilitation:
   - msundukova
-  Time series analysis:
-  - ha0ye
-  Tools for online education:
-  - melibleq
   Training:
   - alecandian
   Transcriptomics:
   - dimmestp
-  Translation:
-  - melibleq
   Typology:
   - karvovskaya
-  Version control:
-  - ha0ye
   Volunteer-based group:
   - nadinespy
   Wiki*:
   - profgiuseppe
-  Wordpress:
-  - tobyhodges
   Workflows:
   - dimmestp
   Working with a distributed team:
@@ -497,13 +308,7 @@ experts-with-expertise:
   Yeast:
   - dimmestp
 facilitators:
-- batoolmm
-- complexbrains
-- ismael-kg
-- fnyasimi
-- karegapauline
-- mgawe-cavin
-- msundukova
+- 
 organizers:
 - bebatut
 - emmyft
@@ -513,46 +318,25 @@ organizers:
 possible-mentors:
 - alecandian
 - aleesteele
-- andreasancheztapia
-- annemtreasure
 - arielle-bennett
-- batoolmm
-- cgentemann
-- dadditolu
 - diegoonna
 - ekaroune
 - estherplomp
-- fadanka
 - graciellehigino
 - hrhotz
-- jafsia
 - jezcope
 - joyceykao
 - k-c-martin
 - karvovskaya
 - kipkurui
-- landimi2
 - malloryfreeberg
 - mariangelap
-- marimeireles
 - msundukova
 - nadinespy
-- natalie-banner
 - olsjuju
-- pherterich
 - saravilla
-- sayalaruano
-- selgebali
 - smhall97
 possible-mentors-with-expertise:
-  ' ecological niche modeling':
-  - andreasancheztapia
-  3d printing:
-  - fadanka
-  Anaconda:
-  - marimeireles
-  And inclusion.:
-  - andreasancheztapia
   Anthropology:
   - aleesteele
   App development:
@@ -568,87 +352,43 @@ possible-mentors-with-expertise:
   Bioconductor:
   - hrhotz
   Biodiversity:
-  - annemtreasure
   - graciellehigino
-  Biodiversity informatics:
-  - andreasancheztapia
   Bioinformatics:
   - hrhotz
   - malloryfreeberg
-  - sayalaruano
-  'Bioinformatics: cassava epigeneitics':
-  - landimi2
   Biophysics:
   - msundukova
-  Capacity development:
-  - annemtreasure
   Career development:
   - msundukova
   Chemical education:
   - diegoonna
-  Cheminformatics:
-  - sayalaruano
   Chemistry of materials:
   - diegoonna
   Chemometrics:
   - diegoonna
   Chromatin & dna:
   - saravilla
-  Climate change:
-  - annemtreasure
-  Climate science:
-  - cgentemann
-  Code of conducts:
-  - arielle-bennett
   Collaboration:
   - graciellehigino
-  - pherterich
   Community building:
-  - andreasancheztapia
   - ekaroune
   - joyceykao
   - kipkurui
-  Community consultation:
-  - arielle-bennett
   Community engagement:
-  - fadanka
   - mariangelap
-  Community goals:
-  - arielle-bennett
   Community-building:
   - aleesteele
   Complexity science:
   - nadinespy
   Computational Biology:
   - kipkurui
-  Computational biology:
-  - arielle-bennett
-  - sayalaruano
   Computational neuroscience:
   - smhall97
   Computational studies:
   - nadinespy
-  Culture change:
-  - arielle-bennett
-  Data curation:
-  - annemtreasure
-  Data governance:
-  - natalie-banner
-  Data life cycle:
-  - annemtreasure
   Data management:
-  - annemtreasure
   - graciellehigino
   - malloryfreeberg
-  Data pipelines & workflows:
-  - annemtreasure
-  Data science:
-  - annemtreasure
-  - sayalaruano
-  Data scientist:
-  - jafsia
-  Data sharing:
-  - annemtreasure
   Data synthesis:
   - graciellehigino
   Datascience:
@@ -667,14 +407,7 @@ possible-mentors-with-expertise:
   - aleesteele
   Diversity:
   - alecandian
-  - andreasancheztapia
-  Drug discovery:
-  - arielle-bennett
-  - sayalaruano
-  Earth science:
-  - cgentemann
   Ecology:
-  - annemtreasure
   - graciellehigino
   Education:
   - alecandian
@@ -682,24 +415,16 @@ possible-mentors-with-expertise:
   - mariangelap
   Electrophysiology:
   - msundukova
-  Environment:
-  - annemtreasure
   Environmental archaeology:
   - ekaroune
-  Equity:
-  - andreasancheztapia
-  Ethics:
-  - natalie-banner
   Ethnography:
   - aleesteele
   FAIR:
   - estherplomp
   Fair data:
   - ekaroune
-  - pherterich
   Fair principles:
   - malloryfreeberg
-  - selgebali
   Fair research software:
   - nadinespy
   Fieldwork:
@@ -708,17 +433,11 @@ possible-mentors-with-expertise:
   - hrhotz
   - malloryfreeberg
   Genomics:
-  - dadditolu
-  - natalie-banner
   - saravilla
-  Git/github:
-  - fadanka
   Github:
   - malloryfreeberg
   Glam:
   - jezcope
-  Hardware prototyping.:
-  - fadanka
   Healthcare:
   - smhall97
   Human genomics and phenomics:
@@ -727,27 +446,20 @@ possible-mentors-with-expertise:
   - msundukova
   Inclusion & equity:
   - alecandian
-  - selgebali
   Information literacy:
   - alecandian
   Information theory:
   - nadinespy
   Innovation management:
   - olsjuju
-  Invasion biology:
-  - annemtreasure
   Isotopes:
   - estherplomp
   Journaling:
   - msundukova
-  Jupyter ecosystems):
-  - marimeireles
   Knowledge graphs:
   - k-c-martin
   Libraries:
   - jezcope
-  Library and archiving skills:
-  - pherterich
   Life coaching:
   - msundukova
   Linguistics:
@@ -757,9 +469,6 @@ possible-mentors-with-expertise:
   Machine learning:
   - diegoonna
   - nadinespy
-  - sayalaruano
-  Marine & terrestrial sciences:
-  - annemtreasure
   Mental health:
   - msundukova
   Mentoring:
@@ -771,12 +480,9 @@ possible-mentors-with-expertise:
   Microscopy:
   - msundukova
   Molecular biology:
-  - fadanka
   - saravilla
   Nanomaterials:
   - diegoonna
-  Network science:
-  - sayalaruano
   Neurodiversity:
   - jezcope
   Neuroinflammation:
@@ -786,20 +492,15 @@ possible-mentors-with-expertise:
   - msundukova
   - nadinespy
   - smhall97
-  Neuroscience.:
-  - arielle-bennett
   Next Generation Sequencing:
   - hrhotz
   Ngs:
   - saravilla
-  Numfocus:
-  - marimeireles
-  Oceanography:
-  - cgentemann
+  No listed expertise:
+  - arielle-bennett
   Ontologies:
   - malloryfreeberg
   Open data:
-  - annemtreasure
   - estherplomp
   - graciellehigino
   - jezcope
@@ -816,20 +517,8 @@ possible-mentors-with-expertise:
   Open scholarship:
   - jezcope
   Open science:
-  - andreasancheztapia
-  - annemtreasure
   - jezcope
   - nadinespy
-  - sayalaruano
-  - selgebali
-  Open science and community:
-  - pherterich
-  Open science software (python:
-  - marimeireles
-  Open source contribution:
-  - fadanka
-  Open source organization:
-  - marimeireles
   Open source research:
   - aleesteele
   Operations management:
@@ -844,38 +533,24 @@ possible-mentors-with-expertise:
   - diegoonna
   Phytoliths:
   - ekaroune
-  Plant community ecology:
-  - andreasancheztapia
-  Polar science:
-  - annemtreasure
-  Policy:
-  - natalie-banner
   Post-transcriptional gene regulation:
   - malloryfreeberg
   PostgreSQL:
   - hrhotz
   Project management:
-  - fadanka
   - joyceykao
   - malloryfreeberg
   Psychology:
   - nadinespy
-  Public trust:
-  - natalie-banner
   R:
-  - andreasancheztapia
   - malloryfreeberg
   Regulatory Genomics:
   - kipkurui
-  Renal pathology:
-  - dadditolu
   Reproducibility:
-  - andreasancheztapia
   - graciellehigino
   - kipkurui
   - saravilla
   Reproducible research:
-  - annemtreasure
   - k-c-martin
   Reproducible science:
   - nadinespy
@@ -883,8 +558,6 @@ possible-mentors-with-expertise:
   - estherplomp
   - jezcope
   - karvovskaya
-  - pherterich
-  - selgebali
   Research software engineering (rse):
   - k-c-martin
   Research software engineering practice:
@@ -893,12 +566,6 @@ possible-mentors-with-expertise:
   - olsjuju
   Rna biology:
   - malloryfreeberg
-  Road mapping and strategy planning:
-  - arielle-bennett
-  Same as before:
-  - batoolmm
-  Satellite remote sensing:
-  - cgentemann
   Science communication:
   - graciellehigino
   Semantics:
@@ -909,8 +576,6 @@ possible-mentors-with-expertise:
   - malloryfreeberg
   Sequencing analysis:
   - saravilla
-  Skills training:
-  - annemtreasure
   Sociology:
   - aleesteele
   Sql:
@@ -923,8 +588,6 @@ possible-mentors-with-expertise:
   - msundukova
   Training:
   - alecandian
-  Trypanosome biology:
-  - dadditolu
   Typology:
   - karvovskaya
   Volunteer-based group:

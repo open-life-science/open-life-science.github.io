@@ -5,7 +5,7 @@ timeline:
   description: Call for Application opens on [Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5)
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
 - date: December 14, 2021
-  time: '16:00'
+  time: '17:00'
   duration: 60 min
   description: Application webinar
   type:
@@ -15,7 +15,7 @@ timeline:
   recording: null
   details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
 - date: January 7, 2022
-  time: '10:00'
+  time: '11:00'
   duration: 60 min
   description: Application Clinic Call
   type:
@@ -32,7 +32,7 @@ weeks:
     start: February 21, 2022
     calls:
     - date: February 21, 2022
-      time: '17:00'
+      time: '18:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -41,7 +41,7 @@ weeks:
       title: Mentor onboarding group 1
       type: Mentor
     - date: February 22, 2022
-      time: '09:00'
+      time: '10:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
@@ -55,7 +55,7 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '09:00'
+    - time: '10:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -64,7 +64,7 @@ weeks:
       title: Mentor onboarding group 2
       type: Mentor
       date: March 02, 2022
-    - time: '15:00'
+    - time: '16:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -73,12 +73,12 @@ weeks:
       title: Mentor onboarding group 1
       type: Mentor
     - date: March 02, 2022
-      time: '13:00'
+      time: '14:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
     - date: March 03, 2022
-      time: '17:00'
+      time: '18:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 3
       type: Mentor
@@ -86,7 +86,7 @@ weeks:
     start: March 07, 2022
     calls:
     - date: March 07, 2022
-      time: '17:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-02
       content: |-
@@ -126,7 +126,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: March 16, 2022
-      time: '10:00'
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-03
       content: |-
@@ -173,7 +173,7 @@ weeks:
     start: March 21, 2022
     calls:
     - date: March 23, 2022
-      time: '10:00'
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -226,7 +226,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: March 28, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-05
       content: |-
@@ -252,7 +252,7 @@ weeks:
     start: April 04, 2022
     calls:
     - date: April 04, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-06
       content: |-
@@ -293,7 +293,7 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: April 13, 2022
-      time: '09:00'
+      time: '11:00'
       duration: 30 min
       notes: https://bit.ly/ols-5-week-07
       title: Q&A call
@@ -302,7 +302,7 @@ weeks:
     start: April 18, 2022
     calls:
     - date: April 20, 2022
-      time: '09:00'
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-08
       content: |-
@@ -337,7 +337,7 @@ weeks:
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
     - date: April 25, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -373,7 +373,7 @@ weeks:
     start: May 02, 2022
     calls:
     - date: May 02, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-10
       content: |-
@@ -416,7 +416,7 @@ weeks:
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
     - date: May 11, 2022
-      time: '09:00'
+      time: '11:00'
       duration: 30 min
       notes: https://bit.ly/ols-5-week-11
       title: Q&A call
@@ -425,7 +425,7 @@ weeks:
     start: May 16, 2022
     calls:
     - date: May 18, 2022
-      time: '09:00'
+      time: '11:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-12
       title: Diversity and Inclusion & Ally skills
@@ -457,7 +457,7 @@ weeks:
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
     - date: May 23, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-13
       content: |-
@@ -480,7 +480,7 @@ weeks:
     start: May 30, 2022
     calls:
     - date: May 30, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-14
       content: "In this call, participants will:\n- Learn how to apply FAIR research\
@@ -515,7 +515,7 @@ weeks:
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
     - date: June 07, 2022
-      time: '08:00'
+      time: '10:00'
       duration: 60 min
       notes: https://bit.ly/ols-5-week-15
       content: |-
@@ -546,10 +546,10 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '13:00'
+      time: '15:00'
       duration: 60 min
     - date: June 09, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 60 min
       notes: https://bit.ly/ols-5-week-15
       content: |-
@@ -569,7 +569,7 @@ weeks:
     start: June 13, 2022
     calls:
     - date: June 14, 2022
-      time: '08:00'
+      time: '10:00'
       duration: 60 min
       notes: https://pad.sfconservancy.org/p/ols-5-graduations-1
       content: |-
@@ -600,10 +600,10 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: '13:00'
+      time: '15:00'
       duration: 60 min
     - date: June 16, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 60 min
       notes: https://pad.sfconservancy.org/p/ols-5-graduations-3
       content: |-
@@ -620,7 +620,7 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
     - date: July 18, 2022
-      time: '08:00'
+      time: '10:00'
       duration: 60 min
       notes: https://pad.sfconservancy.org/p/ols-5-graduations-4
       title: Final presentations & Graduation! - Group 4
@@ -633,7 +633,7 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
     - date: July 20, 2022
-      time: '16:00'
+      time: '18:00'
       duration: 60 min
       notes: https://pad.sfconservancy.org/p/ols-5-graduations-5
       title: Final presentations & Graduation! - Group 5

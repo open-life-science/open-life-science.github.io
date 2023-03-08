@@ -4,26 +4,21 @@ timeline:
 - date: December 1, 2022
   description: Call for Application opens
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
-- date: December 12, 2022
-  time: '15:00'
-  duration: 60 min
+- date: null
   description: Application webinar
   type:
   - Talk
   - Q&A
-  notes:
-  recording:
-  details: '[**Recording from this webinar**](https://youtu.be/shM2mVyLjxU) or watch
-    recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
-- date: January 11, 2023
-  time: '12:00'
-  duration: 60 min
+  notes: null
+  recording: null
+  details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+- date: null
   description: Application Clinic Call
   type:
   - Q&A
-  notes:
+  notes: null
   details: At this call, OLS team will be available to provide help if you have any
-    question related to your application. [Register to attend](https://www.eventbrite.co.uk/e/application-clinic-call-qa-tickets-506693121767)
+    question related to your application
 - date: January 15, 2023
   description: Call for applications closed
 - date: February 1, 2023
@@ -39,7 +34,7 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '15:00'
+    - time: '16:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -47,9 +42,7 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 1
       type: Mentor
-      hosts:
-      - malvikasharan
-    - time: 09:00
+    - time: '10:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -57,21 +50,11 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 2
       type: Mentor
-      hosts:
-      - emmyft
   '02':
     start: March 06, 2023
     calls:
-    - time: '17:00'
-      duration: 180 min
-      title: Mentor Skill Workshop by 360 Training - Group 1
-      type: Mentor
-    - time: 09:00
-      duration: 180 min
-      title: Mentor Skill Workshop by 360 Training - Group 2
-      type: Mentor
-    - date: March 07, 2023
-      time: "10:00"
+    - date: March 08, 2023
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-02
       content: |-
@@ -82,9 +65,7 @@ weeks:
         - Unpack the differences between “open by default” and “open by design”
         - Learn about common community interactions in open projects.
         - Learn about common value exchanges between community members in open science
-      title: Welcome to Open Life Science!
-      hosts:
-      - bebatut
+      title: Welcome to OLS!
       type: Cohort
       before: '- Add your vision statement to your GitHub issue'
       after: |-
@@ -105,11 +86,14 @@ weeks:
       - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         type: slides
         title: Introducing Road Mapping
-    - date: March 08, 2023
-      time: "14:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
+    - time: '18:00'
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 1
+      type: Mentor
+    - time: '10:00'
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 2
+      type: Mentor
   '03':
     start: March 13, 2023
     calls:
@@ -117,7 +101,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: March 15, 2023
-      time: "17:00"
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-03
       content: |-
@@ -128,9 +112,7 @@ weeks:
         - Unpack the differences between “open by default” and “open by design”
         - Learn about common community interactions in open projects.
         - Learn about common value exchanges between community members in open science
-      title: Welcome to Open Life Science!
-      hosts:
-      - yochannah
+      title: Welcome to OLS!
       type: Cohort
       before: '- Add your vision statement to your GitHub issue'
       after: |-
@@ -151,16 +133,11 @@ weeks:
       - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         type: slides
         title: Introducing Road Mapping
-    - date: March 15, 2023
-      time: "14:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
   '04':
     start: March 20, 2023
     calls:
     - date: March 22, 2023
-      time: "17:00"
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -194,21 +171,14 @@ weeks:
       - link: https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
         type: slides
         title: Contributing Guidelines and Code of Conduct
-      hosts:
-      - emmyft
-    - date: March 22, 2023
-      time: "14:00"
-      title: OLS Cafetería
-      type: Cafeteria
-      duration: 90 min
   '05':
     start: March 27, 2023
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
-    - date: March 28, 2023
-      time: "09:00"
+    - date: March 29, 2023
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-05
       content: |-
@@ -220,8 +190,6 @@ weeks:
         - Managing issues and labels
         - Submit changes via Pull Request
       title: GitHub tutorial for beginners
-      hosts:
-      - pherterich
       type: Skill-up
       before: |
         - Please create a GitHub account: https://github.com
@@ -232,16 +200,11 @@ weeks:
       - link: https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
         type: slides
         title: Introduction to GitHub
-    - date: March 29, 2023
-      time: "13:00"
-      title: OLS Cafetería
-      type: Cafeteria
-      duration: 90 min
   '06':
     start: April 03, 2023
     calls:
-    - date: April 04, 2023
-      time: "09:00"
+    - date: April 05, 2023
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-06
       content: |-
@@ -249,8 +212,6 @@ weeks:
         - Hear about Iterative Project management
         - Get familiar with Open Software, Open Hardware, Research Data Management
       title: 'Open Science I: Project Development and Introduction to Working Open'
-      hosts:
-      - bebatut
       type: Cohort
       before: '- Look up two other projects and comment on their issues with feedback
         on their README'
@@ -272,11 +233,6 @@ weeks:
         title: 'Case study 2: Managing & developing research data (RDM)'
       - type: slides
         title: 'Case study 3: Managing & developing an open hardware project'
-    - date: April 05, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
   '07':
     start: April 10, 2023
     calls:
@@ -284,29 +240,24 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: April 12, 2023
-      time: "16:00"
+      time: '18:00'
       duration: 30 min
       notes: https://bit.ly/ols-7-week-07
       title: Q&A call
       type: Q&A
-    - date: April 12, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-  '08':
+  08:
     start: April 17, 2023
     calls:
     - date: April 19, 2023
-      time: "16:00"
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-08
-      content: "In this call, participants will:\n- Learn how to develop Open collaboration\
-        \ by design\n- Hear Mountain of engagement and community interactions\n- Learn\
-        \ about Personas and pathways and welcoming new contributors"
+      content: |-
+        In this call, participants will:
+        - Learn how to develop Open collaboration by design
+        - Hear Mountain of engagement and community interactions
+        - Learn about Personas and pathways and welcoming new contributors
       title: Community design for inclusivity
-      hosts:
-      - malvikasharan
       type: Cohort
       after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
         \ assignment\n- Think through community interactions\n- Complete the midterm\
@@ -324,19 +275,14 @@ weeks:
       - link: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
         type: slides
         title: Community interactions
-    - date: April 19, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-  '09':
+  09:
     start: April 24, 2023
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: April 25, 2023
-      time: "09:00"
+    - date: April 26, 2023
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -344,8 +290,6 @@ weeks:
         \ worries/insecurities related to your career path, profession or area of\
         \ work \n- Tips and advice to overcome challenges as an open researcher"
       title: 'Open Leadership: Academia, industry and beyond!'
-      hosts:
-      - pherterich
       type: Skill-up
       before: "A few days before the event, think about how you might briefly answer\
         \ the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
@@ -366,16 +310,11 @@ weeks:
         title: Community building, Science Communication
       - type: slides
         title: Policymakers, funders, meta-researchers
-    - date: April 26, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
   '10':
     start: May 01, 2023
     calls:
-    - date: May 02, 2023
-      time: "09:00"
+    - date: May 03, 2023
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-10
       content: |-
@@ -385,8 +324,6 @@ weeks:
         - Non-tradtional publication: pre-registrations, code, protocols, training materials
         - Public engagement: Citizen Science/Participatory research, Scientific communication
       title: 'Open Science II: Knowledge Dissemination'
-      hosts:
-      - malvikasharan
       type: Cohort
       before: |-
         - Create a project development plan for your project
@@ -397,7 +334,7 @@ weeks:
       resources:
       - link: https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
         type: slides
-        title: Open access, Preprints
+        title: 'DOI and Citations: Preprints, pre-registration, open review'
       - link: https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
         type: slides
         title: 'Non-traditional publication: Open protocols, registered reports, citable
@@ -405,15 +342,6 @@ weeks:
       - link: https://zenodo.org/record/4651431
         type: slides
         title: 'Public engagement: Citizen Science, Science Communication'
-      - type: slides
-        title: |-
-          FAIR Principles
-          Promoting openness in science
-    - date: May 03, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
   '11':
     start: May 08, 2023
     calls:
@@ -421,32 +349,16 @@ weeks:
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
     - date: May 10, 2023
-      time: "16:00"
-      duration: 90 min
+      time: '18:00'
+      duration: 30 min
       notes: https://bit.ly/ols-7-week-11
-      title: Open-source software
-      hosts:
-      - yochannah
-      type: Skill-up
-      resources:
-      - link: https://drive.google.com/file/d/1w8AUnsbwSpqfEK0YxKmSZGIeIlEbppSN/view?usp=share_link
-        type: slides
-        title: Code style, testing
-      - type: slides
-        title: Code-review
-      - link: https://docs.google.com/presentation/d/12hqzyIdYqSKnFokcTT2i8QhO74vcx7OkluUdiRd_ah8/edit?usp=share_link
-        type: slides
-        title: Package management
-    - date: May 10, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
+      title: Q&A call
+      type: Q&A
   '12':
     start: May 15, 2023
     calls:
     - date: May 17, 2023
-      time: "16:00"
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-12
       title: Diversity and Inclusion & Ally skills
@@ -470,29 +382,20 @@ weeks:
       - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         type: slides
         title: Ally skills - Optional
-      hosts:
-      - pherterich
-    - date: May 17, 2023
-      time: "13:00"
-      title: OLS Cafetería
-      type: Cafeteria
-      duration: 90 min
   '13':
     start: May 22, 2023
     calls:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: May 23, 2023
-      time: "09:00"
+    - date: May 24, 2023
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-13
       content: |-
         In this call, participants will:
         - Discuss the importance of taking care of mental health and avoiding burn out for both project leaders and community members
       title: Self-care & Social call
-      hosts:
-      - pazbc
       type: Skill-up
       before: "Think about how you might briefly answer the following questions\n\
         - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
@@ -505,48 +408,50 @@ weeks:
       - link: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
         type: slides
         title: Personal Ecology and Self Care
-    - date: May 24, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
   '14':
     start: May 29, 2023
     calls:
-    - date: May 30, 2023
-      time: "09:00"
+    - date: May 31, 2023
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-7-week-14
       content: "In this call, participants will:\n- Learn how to apply FAIR research\
         \ principles on data, software, training to make research \"as open as possible,\
         \ as restricted as necessary.\"\n      \n        "
       title: 'Open Science III: Next steps - applying FAIR research principles'
-      hosts:
-      - bebatut
       type: Cohort
       after: '- Think about and plan to apply FAIR principles to your project in your
         own time'
       resources:
       - link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
         type: slides
-        title: 'Data Management Plans, Open science is all very well but how do you
-          make it FAIR in practice? '
+        title: FAIR Data
       - link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
         type: slides
         title: FAIR Training
       - type: slides
         title: FAIR software
-    - date: May 31, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
   '15':
     start: June 05, 2023
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
+    - date: June 07, 2023
+      notes: https://bit.ly/ols-7-week-15
+      content: |-
+        In this call, participants will:
+        - Learn about giving and receiving feedback
+        - Conduct rehearsal for the final presentation from the project leads registered
+      title: Final presentation rehearsal - Group 1
+      type: Skill-up
+      before: "Think about how you might briefly answer the following questions\n\
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
+        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
+        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
+        \ which you thrive - sustain them; identify the least fulfilling conditions\
+        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
+        \     "
     - date: June 07, 2023
       notes: https://bit.ly/ols-7-week-15
       content: |-
@@ -562,40 +467,13 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: "13:00"
-      duration: 60 min
-      hosts:
-      - ''
-    - date: June 06, 2023
-      time: "08:00"
-      duration: 60 min
-      notes: https://bit.ly/ols-7-week-15
-      content: |-
-        In this call, participants will:
-        - Learn about giving and receiving feedback
-        - Conduct rehearsal for the final presentation from the project leads registered
-      title: Final presentation rehearsal - Group 1
-      hosts:
-      - bebatut
-      type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
-    - date: June 08, 2023
-      time: "16:00"
-      duration: 60 min
+    - date: June 07, 2023
       notes: https://bit.ly/ols-7-week-15
       content: |-
         In this call, participants will:
         - Learn about giving and receiving feedback
         - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 3
-      hosts:
-      - ''
       type: Skill-up
       before: "Think about how you might briefly answer the following questions\n\
         - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
@@ -613,6 +491,21 @@ weeks:
         In this call, participants will:
         - Share a 5 mins presentation of their project
         - Celebrate OLS-4 success
+      title: Final presentations & Graduation! - Group 1
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n\
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
+        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
+        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
+        \ which you thrive - sustain them; identify the least fulfilling conditions\
+        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
+        \     "
+    - date: June 14, 2023
+      notes: https://bit.ly/ols-7-week-16
+      content: |-
+        In this call, participants will:
+        - Share a 5 mins presentation of their project
+        - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 2
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
@@ -622,40 +515,13 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      time: "13:00"
-      duration: 60 min
-      hosts:
-      - malvikasharan
-    - date: June 13, 2023
-      time: "08:00"
-      duration: 60 min
-      notes: https://bit.ly/ols-7-week-16
-      content: |-
-        In this call, participants will:
-        - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
-      title: Final presentations & Graduation! - Group 1
-      hosts:
-      - yochannah
-      type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
-    - date: June 15, 2023
-      time: "16:00"
-      duration: 60 min
+    - date: June 14, 2023
       notes: https://bit.ly/ols-7-week-16
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
         - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 3
-      hosts:
-      - emmyft
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n\
         - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\

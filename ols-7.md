@@ -381,10 +381,6 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
 
-### Cafeteria calls
-
-The Cafetería is a zoom call in which we pretend we are at a normal Catefería: we chat if we want, we work on our stuff, we work on stuff with others, we stay for 5 minutes or for the entire time. We drink coffee, tea, mate, water, any beverage.
-
 ## Speaker Guide
 
 We have [a short guide for invited speakers]({% link _ols-7/speaker-guide.md %}).

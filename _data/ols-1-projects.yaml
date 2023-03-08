@@ -5,7 +5,7 @@
 - name: Open Science Community Barcelona (OSCBa)
   participants:
     - bonetcarne
-  mentors:
+  mentors: 
     - zebetus
   description: >
     This project aims to create a community of local scientists to share and promote open science in Barcelona,
@@ -26,13 +26,12 @@
     We will also use this plantform to motivate colleages from other parts of the country to create
     their own local community and then connect for some events.
 
-- name:
-    Investigate feasible solutions to help create a system that creates, collects and processes
+- name: Investigate feasible solutions to help create a system that creates, collects and processes
     data efficiently for impactful research especially for driving health research and driving health
     related policies
   participants:
     - ewuramaminka
-  mentors:
+  mentors: 
     - vickynembaware
   description: >
     Most sub Saharan African countries barely have quality health data for national policy
@@ -50,7 +49,7 @@
 - name: Infusing a culture of open science within the community of researchers at the Zuckerman Institute
   participants:
     - chiarabertipaglia
-  mentors:
+  mentors: 
     - mkuzak
   description: >
     The community of <a href="https://zuckermaninstitute.columbia.edu/">Columbia University’s Zuckerman Institute</a> is composed of neuroscientists at
@@ -67,7 +66,7 @@
     mapping, action plans, and outreach. In the long run, work done in this project aims at
     developing community engagement for policy development, and will ultimately pave the way to
     establish the Zuckerman Institute as a golden standard for open science.
-  status: graduated
+  graduated: true
 
 - name: Bioinformatics Hub of Kenya (BHK)
   participants:
@@ -92,12 +91,12 @@
     through peer training and mentorship to provide a pool of qualified bioinformaticians who will
     focus on innovation and bringing novelty to assigned projects promising quality, integrity,
     reliability and trust in their services.
-  status: graduated
+  graduated: true
 
 - name: Expanding plenoptic Python Package
   participants:
     - billbrod
-  mentors:
+  mentors: 
     - rodrigocam
   description: >
     <a href="https://pypi.org/project/plenpy/">plenoptic</a> is a Python package for computational
@@ -114,13 +113,13 @@
     comparison and validation experiments. We will include four such methods, all of which have been
     described in the literature, but none of which have standard, accessible implementations that work
     on more than a handful of specific models.
-  status: graduated
+  graduated: true
 
 - name: "@Diversidade em Foco"
   participants:
     - bruno-soares
     - naralb
-  mentors:
+  mentors: 
     - unode
   description: >
     [Biodiversidade em Foco](http://www.abc.org.br/atuacao/nacional/projeto-de-ciencia-para-o-brasil/biodiversidade-em-foco/)
@@ -136,7 +135,7 @@
     audience and promote science communication. Reports will consider the number of tweets,
     participants, their experience during the account administration time, the number of followers
     and reach information in the twitter account and the blog.
-  status: graduated
+  graduated: true
 
 - name: Media Lab Nepal for Computational Biology
   participants:
@@ -161,12 +160,12 @@
     we can benefit life sciences sector of whole country through open science
     initiative. I also want to make this initiative feasible and sustainable by creating
     incoming generating platform with computational biology.
-  status: graduated
+  graduated: true
 
 - name: InterMine Similarity Explorer
   participants:
     - lazycipher
-  mentors:
+  mentors: 
     - yochannah
   description: >
     <a href="http://intermine.org/">InterMine</a> is a powerful open source data warehouse system.
@@ -190,7 +189,7 @@
 - name: Open Connect Platform in Africa
   participants:
     - lilian9
-  mentors:
+  mentors: 
     - kipkurui
   description: >
     In Open community, there is disconnect between Open practitioners and advocates hence need for
@@ -200,12 +199,12 @@
     researchers in shaping Open policies each country at a time in Africa. Since Africa poses different and
     unique development dynamics, development of all phases of this project will put into consideration
     various divides such as rich vs poor, rural vs urban, research literate vs research illiterate among others.
-  status: graduated
+  graduated: true
 
 - name: EMBL Bio-IT Community Project
   participants:
     - unode
-  mentors:
+  mentors: 
     - malvikasharan
   description: >
     <a href="https://bio-it.embl.de">Bio-IT project</a> at the <a href="https://embl.org">European Molecular Biology Laboratory (EMBL)</a>
@@ -220,12 +219,12 @@
     who is my predecessor in Bio-IT. I want to take this opportunity to ensure a smooth
     knowledge transfer within the management team of the Bio-IT project and navigate my own
     path and future prospects as a community manager.
-  status: graduated
+  graduated: true
 
 - name: "Oxford Neuroscience Open Science Co-ordinator: Changing Culture"
   participants:
     - cassgvp
-  mentors:
+  mentors: 
     - npscience
   description: >
     The <a href="https://www.win.ox.ac.uk/">Wellcome Centre for Integrative Neuroscience (WIN)</a> and other centres in Oxford
@@ -241,13 +240,13 @@
     through an understanding of the principles of behavior change, including recognizing
     scientific and individual risks and benefits for research participants, researchers (at all
     levels), and the institution.
-  status: graduated
+  graduated: true
 
 - name: "AMRITA: an online database for herbal medicine"
   participants:
     - anayan321
     - davidviryachen
-  mentors:
+  mentors: 
     - hdinkel
   description: >
     In South East Asia, herbal medicine has been used over the century as preventive
@@ -261,7 +260,7 @@
     collaboration of researchers across the fields of biological, pharmaceutical, and clinical
     sciences in establishing a solid foundation of medicinal plants and enabling the use of these
     plants in modern medicine.
-  status: graduated
+  graduated: true
 
 - name: How to build an healthy and open lab
   participants:
@@ -285,12 +284,12 @@
     work open, project management tools etc.); how to train the next generation of open
     scientists; and how to open your work to the public. Finally, I would like to approach
     organisations and institutions to help more young PIs get access to these resources.
-  status: graduated
+  graduated: true
 
 - name: Benchmarking environment for bioinformatics tools
   participants:
     - homo-sapiens34
-  mentors:
+  mentors: 
     - luispedro
   description: >
     The aim of this project is to provide a flexible protocol and unified instruments for iterative
@@ -299,12 +298,12 @@
     updated each time somebody provide new data on the performance of any considered tool.
     There should be an ability to add new tools as well as new datasets to an existing
     comparison.
-  status: graduated
+  graduated: true
 
 - name: EDAM ontology
   participants:
     - matuskalas
-  mentors:
+  mentors: 
     - bgruening
   description: >
     <a href="http://edamontology.org/page">EDAM ontology</a> is a long-established project, defining a common, controlled vocabulary in
@@ -325,7 +324,7 @@
 
     The goal of this concrete mentorship project is to further extend EDAM, so that other
     communities can benefit from it, and from the applications and use cases it fosters.
-  status: graduated
+  graduated: true
 
 - name: Improving Documentation for Open Data and Software in the Agricultural Research Community
   participants:
@@ -333,7 +332,7 @@
     - dlebauer
     - magicmilly
     - sithyphus
-  mentors:
+  mentors: 
     - katrinleinweber
   description: >
     We are members of the Data Infrastructure for Agriculture Group at <a href="https://www.arizona.edu/">The University of Arizona</a>.
@@ -353,12 +352,12 @@
     have each person in the group complete a sub-project that can be finished in 15 weeks. Each
     sub-project would result in an accompanying blog post describing the best practices
     implemented.
-  status: graduated
+  graduated: true
 
 - name: Improving open platform accessibility
   participants:
     - christinerogers
-  mentors:
+  mentors: 
     - ha0ye
   description: >
     I'm a member of the technical team for LORIS (github.com/aces/loris), an open-source
@@ -378,12 +377,12 @@
     feasible in this timeline to also pilot open tools with a new project or as an extension to an
     existing project -- to start putting this idea into action.
     What problem(s)
-  status: graduated
+  graduated: true
 
 - name: Enabling open science practices in biology education
   participants:
     - morphofun
-  mentors:
+  mentors: 
     - fpsom
   description: >
     The proposed project would establish a foundation for developing a tutorial on training
@@ -401,13 +400,13 @@
     communication between lab members and make sure that expectations of the faculty mentor
     and student / staff mentees are fully transparent so that the mentoring process can be
     improved for science mentees.
-  status: graduated
+  graduated: true
 
 - name: Open Science UMontreal (OSUM)
   participants:
     - samguay
     - dannycolin
-  mentors:
+  mentors: 
     - ajstewartlang
   description: >
     In 2019, we founded Open Science UMontreal (OSUM) because we believe in an Open by Design approach
@@ -429,12 +428,12 @@
     If you're reading this and you're interested in open research feel free to come chat with us on
     <a href="https://chat.openscience.ca">chat.openscience.ca</a>, an open-source alternative to Slack!
     We want to get to know you (and your initiative)!
-  status: graduated
+  graduated: true
 
 - name: Creating network of Data Champions at the library of Free University of Amsterdam
   participants:
     - karvovskaya
-  mentors:
+  mentors: 
     - pherterich
   description: >
     From February 1st I am starting a new position as community manager RDM at the library
@@ -446,4 +445,4 @@
     proper handling of research data.<br>
     Similar programs have been launched at the University of Cambridge, TU Delft, and Wageningen University.
     The main goal of the Data Champion programme is to drive cultural change towards open science and open data.
-  status: graduated
+  graduated: true

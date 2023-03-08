@@ -22,7 +22,6 @@
     Not only limited to materials, as well as virtual training
     by promoting the practuce of creating and sharing of Computational
     Environment and Analysis in a reproducible manner with systems in scaling.
-  status: graduated
 
 - name: Mapping Science using Open Scholarship
   participants:
@@ -65,7 +64,6 @@
     data, developing resources/training opportunities for students and early
     career researchers, and recommending/publishing guidelines for colleagues
     to follow.
-  status: graduated
 
 - name: Synthetic Biology Chassis Toolkit for Public Domain Use
   participants:
@@ -85,7 +83,6 @@
     toolkit that exclusively uses technologies in the public domain is the first
     step towards providing scientists and non-scientists the tools to conduct
     science and create valuable biomaterials for their communities without restriction.
-  status: graduated
 
 - name: Creating a single pipeline for metagenome classification
   participants:
@@ -100,10 +97,9 @@
     in our microbial community, the first step is to find out about our community,
     what the community ultimately looks like. My idea is that benchmark the state
     of the art tools (such as Kraken2, Centrifuge and CLARK) and create a single
-    pipeline that will produce a single pdf file with cutoff-significance-sensitivity
+    pipeline that will produce a single pdf file with cutoff-signifance-sensitivity
     values for each tool. Later we can set that pipeline on web-based system that
     would make the researchers easier for the scientists.
-  status: graduated
 
 - name: Chronic Learning
   participants:
@@ -119,7 +115,6 @@
     purposes, such as lecture slides or handouts. The materials are made up of
     a mixture of graphical abstracts, tutorials, and reference pdfs; I hope to
     incorporate more formats, such as videos, as well.
-  status: graduated
 
 - name: Open Innovation in Life Sciences
   participants:
@@ -142,7 +137,6 @@
     skills (e.g. teamwork, communication, etc.) and learning non-scientific
     expertise (e.g. project management, budgeting, advertising, etc.) to
     enhance traditional Ph.D. and Postdoctoral training.
-  status: graduated
 
 - name: Using collective action to change cultural norms and drive progress in the life sciences
   participants:
@@ -168,7 +162,6 @@
     reached, everyone who has signed that campaign will be listed on the website
     and directed to carry out the new behaviour in unison, with the protection
     of their peers.
-  status: graduated
 
 - name: Developing the Research Software and Systems Engineering Community to support Life Sciences in Africa
   participants:
@@ -209,7 +202,6 @@
     this personal project, I would like to advance my community building and
     project management skill while enhancing the connection with the
     communities outside Europe.
-  status: graduated
 
 #- name: Advancing MolPDF using open principles
 #  participants:
@@ -230,6 +222,7 @@
 #    working with open and reproducible software and workflows. Therefore, with
 #    my participation in this program, I would like to learn from my mentors
 #    about how to implement open science principles in my research.
+
 
 - name: Global land-use and land-cover data under historical, current, and future climatic conditions for ecologists
   participants:
@@ -254,7 +247,6 @@
     for thirty-seven time slices from year 900 to 2100, with the following
     temporal resolution - every 100 years from 900 to 1950, every 10 years from
     1950 to 2010, and every five years from 2010 to 2300.
-  status: graduated
 
 - name: BioLab Open Source Projects
   participants:
@@ -321,7 +313,6 @@
     global public issues. Connections with companies can also be established
     (for example, to help in the production of prototypes) but with the
     requirement of use open licenses and follow the precepts of this program.
-  status: graduated
 
 - name: Supervised Classification with UMAP and Network Propagation
   participants:
@@ -367,7 +358,6 @@
     divided into subsections of publications from the 7 continents to be able
     to easily identify how the disease is affecting different geographical
     locations.
-  status: graduated
 
 - name: Sharing 3D Modeling Workflows for Biomechanists and Palaeontologists
   participants:
@@ -390,7 +380,6 @@
     specifically want to build a website with open source workflows, tips and
     tricks for setting up models for finite element analysis, as well as other
     3D workflows (such as fossil reconstruction in freeware programs).
-  status: graduated
 
 - name: Open Science Office Hours to support trainees in Montreal to help make their research more open and reproducible
   participants:
@@ -416,7 +405,6 @@
     can compensate TA’s; this would help enable less-privileged trainees to get
     involved as TA's. Finally, we would need to recruit the TA's. Thus, this
     project will involve community contributions at all stages, in various capacities.
-  status: graduated
 
 - name: Registered Reports in Primate Neurophysiology
   participants:
@@ -440,7 +428,6 @@
     seems a particularly valuable idea. This project would explore ways in
     which to find compromise in the conflict between existing registered
     report formats and current methodologies in primate neurophysiology.
-  status: graduated
 
 - name: OSUM - Open Science UMontreal
   participants:
@@ -470,7 +457,6 @@
     is a broad and wide-ranging concept with domain-specific definitions,
     we want to provide opportunities to meet and encourage the exchange of
     ideas within and across fields because we can all learn from each other.
-  status: graduated
 
 - name: APBioNetTalks
   participants:
@@ -490,7 +476,6 @@
     resources and foster the growth of bioinformatics. Additionally, the
     program is also expected to reach wider audiences and introduce more people
     to the bioinformatics.
-  status: graduated
 
 - name: Database for coordinating training needs in Kenya to faciliatate preparation and collaboration
   participants:
@@ -514,7 +499,6 @@
     also allow collaboration of students from various institutions. From
     requests obtained, organization of talks and trainings can be more
     efficient and organized. These can transition into physical meetups eventually
-  status: graduated
 
 - name: Open platform for Indian Bioinformatics community
   participants:
@@ -534,7 +518,6 @@
     contributors & ambassadors. The aim of this project is to explore the scope
     and path towards establishing an open platform and provide opportunities to
     participate, contribute and organize open initiatives.
-  status: graduated
 
 - name: OpenWorkstation - A modular and open-source concept for customized automation equipment
   participants:
@@ -562,7 +545,6 @@
     reliable experimentation for in vitro research. Ultimately, the
     OpenWorkstation concept will allow empower academic groups to the develop
     their own equipment to automated their research workflows.
-  status: graduated
 
 - name: The Turing Way - Guide for Ethical Research
   participants:
@@ -587,7 +569,6 @@
     2. Equipping scientists working in a range of fields to advocate for ethical
     research at all stages of the research process.
     3. Compiling diverse research ethics resources in one area.
-  status: graduated
 
 - name: sktime - a unified toolbox for machine learning with time series
   participants:
@@ -606,7 +587,6 @@
     learning tasks, bringing together contributors from academia and the wider
     data science community into a joint framework and embedding best practices
     into the time series analysis field.
-  status: graduated
 
 - name: Turing Data Stories
   participants:
@@ -636,7 +616,6 @@
     or included.
     4. In order to maintain the quality of the results, the story
     should be peer-reviewed by other contributors before being published.
-  status: graduated
 
 - name: Embedding Accessibility in The Turing Way Open Source Community Guidance
   participants:
@@ -668,7 +647,6 @@
     All these tasks in The Turing Way will require me to integrate Open
     Science principles and community practices, which I am confident to learn
     with my participation in the Open Life Science training and mentoring program.
-  status: graduated
 
 - name: Towards open and citizen-led data informing the decarbonisation of existing housing
   participants:
@@ -694,7 +672,6 @@
     through a citizen science approach. This is an idea in development for follow-on
     research which requires data collection protocols, ethical guidelines and data
     repositories.
-  status: graduated
 
 - name: Autistica - Turing Citizen Science Project
   participants:
@@ -721,7 +698,6 @@
     co-designing the front-end interface with the input of the autistic
     community. Most important are a diverse and growing number of autistic
     participants and (sometimes overlapping) open source developers.
-  status: graduated
 
 - name: Arua City Open Learning Circles
   participants:
@@ -768,3 +744,4 @@
     learning and growth in various bioinformatics tools for our ex-trainees
     in this instance. Through my participation in OLS, I will adapt the Open
     learning Circles Concept to our community in UWC.
+

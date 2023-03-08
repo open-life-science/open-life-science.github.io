@@ -23,7 +23,7 @@ photos:
 
 Participants join this program with a project that they either are already working on or want to develop during this program.
 
-For the third round of the OLS program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects).
+For the third round of the OLS program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects). 
 
 # Projects
 
@@ -31,26 +31,22 @@ For the third round of the OLS program, we are happy to have [{{ p-participants 
     {% if project.visible != false %}
 
         {% assign p-pparticipants = '' %}
-
+        
         {% for p in project.participants %}
             {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
         {% endfor %}
-
+        
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
         {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/peopls#{{ p }})
         {% endfor %}
-        {% endcapture %}
+        {% endcapture %} 
 
 ## {{ project.name }}
 
 **By**: {{ p-pparticipants | remove_first: ', ' }}
 
 **Mentored by**: {{ p-mentors | remove_first: 'with ' }}
-
-{% if project.status %}
-**Status**: {{ project.status }}
-{% endif %}
 
     {% capture difference %} {{ project.keywords | size | minus:1 }} {% endcapture %}
     {% unless difference contains '-' %}

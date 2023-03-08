@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the 5th cohort of OLS program!
+title: Welcome to the 5th cohort of Open Life Science program!
 image: /images/syllabus.jpg
 redirect_from: /OLS-5
 photos:

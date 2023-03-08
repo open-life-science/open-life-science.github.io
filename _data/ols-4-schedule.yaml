@@ -37,7 +37,7 @@ weeks:
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
     - date: September 16, 2021
-      time: '14:00'
+      time: '16:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -46,7 +46,7 @@ weeks:
       title: Mentor onboarding group 1
       type: Mentor
     - date: September 17, 2021
-      time: '08:00'
+      time: '10:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -58,7 +58,7 @@ weeks:
     start: September 20, 2021
     calls:
     - date: September 22, 2021
-      time: '11:30'
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-02
       content: |-
@@ -101,12 +101,12 @@ weeks:
       facilitators:
       - batoolmm
     - date: September 22, 2021
-      time: '16:00'
+      time: '18:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
     - date: September 23, 2021
-      time: '08:00'
+      time: '10:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
@@ -117,7 +117,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: September 29, 2021
-      time: '16:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-03
       content: |-
@@ -164,7 +164,7 @@ weeks:
     start: October 04, 2021
     calls:
     - date: October 06, 2021
-      time: '16:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -213,7 +213,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 13, 2021
-      time: '11:30'
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-05
       content: |-
@@ -244,7 +244,7 @@ weeks:
     start: October 18, 2021
     calls:
     - date: October 20, 2021
-      time: '11:30'
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-06
       content: |-
@@ -294,7 +294,7 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 27, 2021
-      time: '16:00'
+      time: '18:00'
       duration: 30 min
       notes: https://bit.ly/ols-4-week-07
       title: Q&A call
@@ -303,7 +303,7 @@ weeks:
     start: November 01, 2021
     calls:
     - date: November 03, 2021
-      time: '17:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-08
       content: |-
@@ -338,7 +338,7 @@ weeks:
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 10, 2021
-      time: '12:30'
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -380,7 +380,7 @@ weeks:
     start: November 15, 2021
     calls:
     - date: November 17, 2021
-      time: '12:30'
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-10
       content: |-
@@ -417,7 +417,7 @@ weeks:
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 24, 2021
-      time: '17:00'
+      time: '18:00'
       duration: 30 min
       notes: https://bit.ly/ols-4-week-11
       title: Q&A call
@@ -426,7 +426,7 @@ weeks:
     start: November 29, 2021
     calls:
     - date: December 01, 2021
-      time: '17:00'
+      time: '18:00'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-12
       title: Diversity and Inclusion & Ally skills
@@ -457,7 +457,7 @@ weeks:
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
     - date: December 08, 2021
-      time: '12:30'
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-13
       content: |-
@@ -480,7 +480,7 @@ weeks:
     start: December 13, 2021
     calls:
     - date: December 15, 2021
-      time: '12:30'
+      time: '13:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-14
       content: "In this call, participants will:\n- Learn how to apply FAIR research\
