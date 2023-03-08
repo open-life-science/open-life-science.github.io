@@ -220,6 +220,8 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    minitest (5.17.0)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.0)
       faraday (>= 1, < 3)
