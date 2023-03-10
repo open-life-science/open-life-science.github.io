@@ -243,7 +243,7 @@ $link-active: $link-hover;
     }
 
     .image {
-      height: 250px;
+      height: 300px;
       width: auto;
       overflow: hidden;
 
@@ -255,6 +255,9 @@ $link-active: $link-hover;
 
     .card-content {
       padding: 2rem;
+    }
+    .card-content .content .title {
+      height: 250px;
     }
 }
 
