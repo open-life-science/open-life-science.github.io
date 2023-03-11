@@ -277,6 +277,13 @@ $link-active: $link-hover;
         display: none;
       }
     }
+
+    .image {
+      height: auto;
+    }
+    .card-content .content .title {
+      height: auto;
+    }
   }
 
   @include tablet() {
