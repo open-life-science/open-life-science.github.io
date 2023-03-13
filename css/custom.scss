@@ -222,38 +222,36 @@ $link-active: $link-hover;
 }
 
 .post {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
-    .card {
-      background-color: #fff;
-      box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
-      height: 100%;
-      width: fit-content;
-    }
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+    height: 100%;
+    width: fit-content;
+  }
 
-    .image {
-      height: 300px;
-      width: auto;
-      overflow: hidden;
+  .image {
+    height: 300px;
+    width: auto;
+    overflow: hidden;
 
-    }
-    .image img {
-        max-height: 100%;
-        object-fit: cover;
-    }
+  }
+  .image img {
+    max-height: 100%;
+    object-fit: cover;
+  }
 
-    .card-content {
-      padding: 2rem;
-    }
-    .card-content .content .title {
-      height: 250px;
-    }
-}
+  .card-content {
+    padding: 2rem;
+  }
+  .card-content .content .title {
+    height: 250px;
+  }
 
-.post {
   @include mobile() {
     .card {
       margin-bottom: 1em;
