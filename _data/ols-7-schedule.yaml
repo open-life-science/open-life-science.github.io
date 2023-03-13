@@ -39,7 +39,8 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '15:00'
+      resources: []
+    - time: "09:30"
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -49,7 +50,10 @@ weeks:
       type: Mentor
       hosts:
       - malvikasharan
-    - time: 09:00
+      date: March 02, 2023
+      notes: https://bit.ly/ols-7-week-01
+      resources: []
+    - time: "14:00"
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -58,7 +62,23 @@ weeks:
       title: Mentor onboarding group 2
       type: Mentor
       hosts:
-      - emmyft
+      - pherterich
+      date: March 03, 2023
+      notes: https://bit.ly/ols-7-week-01
+      resources: []
+    - date: March 07, 2023
+      time: "17:00"
+      duration: 60 min
+      notes: https://bit.ly/ols-7-week-01
+      content: "In this call, participants will:\n- Understand common successes and\
+        \ challenges in mentoring OLS participants\n- Know how to celebrate successes\
+        \ and approach challenges in mentoring OLS participants."
+      title: Mentor onboarding group 3
+      hosts:
+      - malvikasharan
+      - pherterich
+      type: Mentor
+      resources: []
   '02':
     start: March 06, 2023
     calls:
@@ -66,10 +86,12 @@ weeks:
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
+      resources: []
     - time: 09:00
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
+      resources: []
     - date: March 07, 2023
       time: "10:00"
       duration: 90 min
@@ -96,13 +118,16 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources:
-      - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+      - link: https://docs.google.com/presentation/d/16M5R6YhvAeK0-old_hV9RjrshdA0sdJPgZBRO_MyRLA/edit?usp=sharing
+        speaker: emmyft
         type: slides
         title: Welcome to OLS!
-      - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+      - link: https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
+        speaker: bebatut
         type: slides
         title: Introducing Open Canvas
-      - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+      - link: https://docs.google.com/presentation/d/1xpVo-66m0mWs8_ZFGuHQwPBTT-vkfBRXwr6WJEb5QRw/edit?usp=sharing
+        speaker: bebatut
         type: slides
         title: Introducing Road Mapping
     - date: March 08, 2023
@@ -110,12 +135,14 @@ weeks:
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '03':
     start: March 13, 2023
     calls:
     - duration: 30 min
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
+      resources: []
     - date: March 15, 2023
       time: "17:00"
       duration: 90 min
@@ -156,13 +183,14 @@ weeks:
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '04':
     start: March 20, 2023
     calls:
     - date: March 22, 2023
       time: "17:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-04
+      notes: https://bit.ly/ols-7-week-4
       content: "In this call, participants will:\n- Look at project structure as we\
         \ build open projects\n- Go over the standard files in open projects\n   -\
         \ README\n   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n\
@@ -201,16 +229,18 @@ weeks:
       title: OLS Cafetería
       type: Cafeteria
       duration: 90 min
+      resources: []
   '05':
     start: March 27, 2023
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
+      resources: []
     - date: March 28, 2023
       time: "09:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-05
+      notes: https://bit.ly/ols-7-week-5
       content: |-
         In this call, participants will:
         - Create a GitHub repository
@@ -221,7 +251,7 @@ weeks:
         - Submit changes via Pull Request
       title: GitHub tutorial for beginners
       hosts:
-      - pherterich
+      - malvikasharan
       type: Skill-up
       before: |
         - Please create a GitHub account: https://github.com
@@ -237,13 +267,14 @@ weeks:
       title: OLS Cafetería
       type: Cafeteria
       duration: 90 min
+      resources: []
   '06':
     start: April 03, 2023
     calls:
     - date: April 04, 2023
       time: "09:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-06
+      notes: https://bit.ly/ols-7-week-6
       content: |-
         In this call, participants will:
         - Hear about Iterative Project management
@@ -262,13 +293,11 @@ weeks:
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
         - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
       resources:
-      - link: https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
-        type: slides
+      - type: slides
         title: Agile & Iterative Project Management Methods
       - type: slides
         title: 'Case study 1: Managing & developing an Open Source Software project'
-      - link: https://doi.org/10.5281/zenodo.5582718
-        type: slides
+      - type: slides
         title: 'Case study 2: Managing & developing research data (RDM)'
       - type: slides
         title: 'Case study 3: Managing & developing an open hardware project'
@@ -277,30 +306,34 @@ weeks:
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '07':
     start: April 10, 2023
     calls:
     - duration: 30 min
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
+      resources: []
     - date: April 12, 2023
       time: "16:00"
       duration: 30 min
-      notes: https://bit.ly/ols-7-week-07
+      notes: https://bit.ly/ols-7-week-7
       title: Q&A call
       type: Q&A
+      resources: []
     - date: April 12, 2023
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '08':
     start: April 17, 2023
     calls:
     - date: April 19, 2023
       time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-08
+      notes: https://bit.ly/ols-7-week-8
       content: "In this call, participants will:\n- Learn how to develop Open collaboration\
         \ by design\n- Hear Mountain of engagement and community interactions\n- Learn\
         \ about Personas and pathways and welcoming new contributors"
@@ -329,16 +362,18 @@ weeks:
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '09':
     start: April 24, 2023
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
+      resources: []
     - date: April 25, 2023
       time: "09:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-09
+      notes: https://bit.ly/ols-7-week-9
       content: "In this call, participants will:\n- Hear from the professionals from\
         \ different career paths\n- Ask them questions about their careers\n- Share\
         \ worries/insecurities related to your career path, profession or area of\
@@ -371,6 +406,7 @@ weeks:
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '10':
     start: May 01, 2023
     calls:
@@ -406,20 +442,20 @@ weeks:
         type: slides
         title: 'Public engagement: Citizen Science, Science Communication'
       - type: slides
-        title: |-
-          FAIR Principles
-          Promoting openness in science
+        title: "FAIR Principles\nPromoting openness in science"
     - date: May 03, 2023
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '11':
     start: May 08, 2023
     calls:
     - duration: 30 min
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
+      resources: []
     - date: May 10, 2023
       time: "16:00"
       duration: 90 min
@@ -442,6 +478,7 @@ weeks:
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '12':
     start: May 15, 2023
     calls:
@@ -477,12 +514,14 @@ weeks:
       title: OLS Cafetería
       type: Cafeteria
       duration: 90 min
+      resources: []
   '13':
     start: May 22, 2023
     calls:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
+      resources: []
     - date: May 23, 2023
       time: "09:00"
       duration: 90 min
@@ -510,6 +549,7 @@ weeks:
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '14':
     start: May 29, 2023
     calls:
@@ -527,12 +567,10 @@ weeks:
       after: '- Think about and plan to apply FAIR principles to your project in your
         own time'
       resources:
-      - link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
-        type: slides
+      - type: slides
         title: 'Data Management Plans, Open science is all very well but how do you
           make it FAIR in practice? '
-      - link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
-        type: slides
+      - type: slides
         title: FAIR Training
       - type: slides
         title: FAIR software
@@ -541,12 +579,14 @@ weeks:
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
+      resources: []
   '15':
     start: June 05, 2023
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
+      resources: []
     - date: June 07, 2023
       notes: https://bit.ly/ols-7-week-15
       content: |-
@@ -566,6 +606,7 @@ weeks:
       duration: 60 min
       hosts:
       - ''
+      resources: []
     - date: June 06, 2023
       time: "08:00"
       duration: 60 min
@@ -585,6 +626,7 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      resources: []
     - date: June 08, 2023
       time: "16:00"
       duration: 60 min
@@ -604,6 +646,7 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      resources: []
   '16':
     start: June 12, 2023
     calls:
@@ -626,6 +669,7 @@ weeks:
       duration: 60 min
       hosts:
       - malvikasharan
+      resources: []
     - date: June 13, 2023
       time: "08:00"
       duration: 60 min
@@ -645,6 +689,7 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      resources: []
     - date: June 15, 2023
       time: "16:00"
       duration: 60 min
@@ -664,3 +709,4 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
+      resources: []
