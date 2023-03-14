@@ -24,7 +24,7 @@ $link-active: $link-hover;
     border-bottom: 0;
     color: $link;
     font-weight: 500;
-
+  
     &:active,
     &:focus,
     &:hover {
@@ -222,6 +222,38 @@ $link-active: $link-hover;
 }
 
 .post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+    height: 100%;
+    width: fit-content;
+  }
+
+  .image {
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+
+    img {
+       max-height: 100%;
+       object-fit: cover;
+    }
+  }
+  
+
+  .card-content {
+    padding: 2rem;
+    
+    .content .title {
+       height: 250px;
+    }
+  }
+
   @include mobile() {
     .card {
       margin-bottom: 1em;
@@ -233,6 +265,13 @@ $link-active: $link-hover;
       .media-left {
         display: none;
       }
+    }
+
+    .image {
+      height: auto;
+    }
+    .card-content .content .title {
+      height: auto;
     }
   }
 
@@ -340,6 +379,7 @@ $link-active: $link-hover;
   margin-top: 25px;
   margin-bottom: 20px;
 }
+
 
 // table responsiveness (mobile)
 @media screen and (max-width: 768px) and (min-width: 320px) {
