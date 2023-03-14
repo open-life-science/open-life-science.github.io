@@ -248,9 +248,10 @@ $link-active: $link-hover;
 
   .card-content {
     padding: 2rem;
-  }
-  .card-content .content .title {
-    height: 250px;
+    
+    .content .title {
+       height: 250px;
+    }
   }
 
   @include mobile() {
