@@ -132,6 +132,13 @@ $link-active: $link-hover;
 .people {
   margin-bottom: 1em;
 
+  .media {
+    height: 230px;
+  }
+  .people-description {
+    height: 150px;
+  }
+
   @include mobile() {
     .people-card {
       margin-bottom: 1em;
