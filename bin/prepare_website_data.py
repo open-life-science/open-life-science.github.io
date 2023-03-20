@@ -140,7 +140,7 @@ def extract_people_info(row, people):
     info = {
         'first-name': row['First name'].rstrip(),
         'last-name': row['Last name'].rstrip(),
-        'twitter': row['Twitter username'],
+        'twitter': row['Twitter'],
         'website': row['Website'],
         'orcid': row['ORCID'],
         'affiliation': row['Affiliation'] if 'Affiliation' in row else None,
@@ -151,21 +151,18 @@ def extract_people_info(row, people):
         'bio': row['Bio']
     }
     # get id
-    github = row['Github username']
-    if github is None:
+    id = row['GitHub']
+    if id is None:
         # check if person exists from first and last name
         for p in people:
             if people[p]['first-name'] == info['first-name'] and people[p]['last-name'] == info['last-name']:
-                github = p
+                id = p
         # create username
-        if github is None:
-            github = '%s-%s' % (
-                info['first-name'],
-                info['last-name'])
+        if id is None:
+            id = f"{info['first-name']}-{info['last-name']}"
             info['github'] = False
-    github = github.replace('https://github.com/', '')
-    github = github.rstrip()
-    github = github.lower().replace(' ', '-').replace('@', '')
+    id = id.replace('https://github.com/', '').rstrip()
+    id = id.lower().replace(' ', '-').replace('@', '')
     # format country
     if info['country'] is not None:
         info['country'] = info['country'].replace('UK', 'United Kingdom')
@@ -188,8 +185,8 @@ def extract_people_info(row, people):
     info_k = list(info.keys())
     for i in info_k:
         if info[i] is None:
-            if github in people and i in people[github]:
-                info[i] = people[github][i]
+            if id in people and i in people[id]:
+                info[i] = people[id][i]
             elif i in optional_info:
                 del info[i]
         else:
@@ -197,7 +194,7 @@ def extract_people_info(row, people):
                 info[i] = info[i].rstrip()
             if i in to_capitalize_info:
                 info[i] = info[i].title()
-    return github, info
+    return id, info
 
 
 def extract_people(df):
@@ -214,14 +211,15 @@ def extract_people(df):
     df = df.where(pd.notnull(df), None)
     people_l = []
     for index, row in df.iterrows():
-        github, info = extract_people_info(row, people)
-        if github not in people:
-            print(f"Add info for {github}")
-            people[github] = info
+        id, info = extract_people_info(row, people)
+        if id not in people:
+            print(f"Add info for {id}")
+            people[id] = info
         else:
-            print(f"Update info for {github}")
-            people[github] = info
-        people_l.append(github)
+            print(f"Update info for {id}")
+            for i in info:
+                people[id][i] = info[i]
+        people_l.append(id)
     print("Full list")
     people_l.sort()
     s = '\n- '.join(people_l)
