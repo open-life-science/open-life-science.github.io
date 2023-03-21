@@ -384,3 +384,4 @@ Our facilitators are essential for the program:
 - [{{ ols-4-facilitators | uniq | size }} facilitator(s)](/ols-4#facilitators) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-facilitators | uniq | size }} facilitator(s)](/ols-5#facilitators) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
 - [{{ ols-6-facilitators | uniq | size }} facilitator(s)](/ols-6#facilitators) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-facilitators | uniq | size }} facilitator(s)](/ols-7#facilitators) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
