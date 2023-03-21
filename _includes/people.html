@@ -1,6 +1,6 @@
 <div class="card people-card" id="{{ username }}">
   <div class="card-content">
-    <div class="media" style="height: 230px;">
+    <div class="media">
       <div class="media-left people-card-avatar">
         <figure class="image is-64x64">
           <img
@@ -51,7 +51,7 @@
     </div>
 
     {% if ols-roles and ols-roles != '' or user.title %}
-    <p class="people-description" style="height: 150px;">
+    <p class="people-description">
       Role in OLS:
       {% if user.title %}
         {{ user.title }}
