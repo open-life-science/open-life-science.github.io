@@ -356,6 +356,7 @@ We are currently recruiting the experts - this route is a good way to join the p
 - [{{ ols-4-experts | uniq | size }} experts](/ols-4#experts) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-experts | uniq | size }} experts](/ols-5#experts) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
 - [{{ ols-6-experts | uniq | size }} experts](/ols-6#experts) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-experts | uniq | size }} experts](/ols-7#experts) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
 
 ## Facilitators
 
