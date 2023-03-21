@@ -180,7 +180,8 @@ Project ideas can range from solving technical questions to creating an open d
 - [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects) ([{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants)) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
 - [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects) ([{{ ols-4-participants | size }} participants](/ols-4/projects-participants#participants)) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-projects | size }} projects](/ols-5/projects-participants#projects) ([{{ ols-5-participants | size }} participants](/ols-5/projects-participants#participants)) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
-- [{{ ols-s-projects | size }} projects](/ols-6/projects-participants#projects) ([{{ ols-6-participants | size }} participants](/ols-6/projects-participants#participants)) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-6-projects | size }} projects](/ols-6/projects-participants#projects) ([{{ ols-6-participants | size }} participants](/ols-6/projects-participants#participants)) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-projects | size }} projects](/ols-7/projects-participants#projects) ([{{ ols-7-participants | size }} participants](/ols-7/projects-participants#participants)) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
 
