@@ -140,6 +140,29 @@ photos:
     {% assign ols-6-end = w[1].start %}
 {% endfor %}
 
+<!--OLS-7-->
+{% assign ols-7-projects = site.data.ols-7-projects %}
+{% assign ols-7-experts = site.data.ols-7-metadata.experts %}
+{% assign ols-7-facilitators = site.data.ols-7-metadata.facilitators %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
+{% for project in ols-7-projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-7-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-7-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-7-schedule = site.data.ols-7-schedule %}
+{% assign ols-7-end = '' %}
+{% for w in ols-7-schedule.weeks %}
+    {% assign ols-7-end = w[1].start %}
+{% endfor %}
+
 *To illustrate the OLS journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their open science training.*
 
 Joy will provide an outline of a project in their application that they will develop in the program. Additionally, they will indicate their interests in learning particular aspects of Open Science and research.
@@ -180,7 +203,8 @@ Project ideas can range from solving technical questions to creating an open d
 - [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects) ([{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants)) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
 - [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects) ([{{ ols-4-participants | size }} participants](/ols-4/projects-participants#participants)) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-projects | size }} projects](/ols-5/projects-participants#projects) ([{{ ols-5-participants | size }} participants](/ols-5/projects-participants#participants)) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
-- [{{ ols-s-projects | size }} projects](/ols-6/projects-participants#projects) ([{{ ols-6-participants | size }} participants](/ols-6/projects-participants#participants)) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-6-projects | size }} projects](/ols-6/projects-participants#projects) ([{{ ols-6-participants | size }} participants](/ols-6/projects-participants#participants)) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-projects | size }} projects](/ols-7/projects-participants#projects) ([{{ ols-7-participants | size }} participants](/ols-7/projects-participants#participants)) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
 
@@ -252,6 +276,7 @@ Recruitment of the mentees for the next cohort will start in few months. Stay tu
 - [{{ ols-4-participants | size }} mentees](/ols-4/projects-participants#participants) working on [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-participants | size }} mentees](/ols-5/projects-participants#participants) working on [{{ ols-5-projects | size }} projects](/ols-5/projects-participants#projects) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
 - [{{ ols-6-participants | size }} mentees](/ols-6/projects-participants#participants) working on [{{ ols-6-projects | size }} projects](/ols-6/projects-participants#projects) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-participants | size }} mentees](/ols-7/projects-participants#participants) working on [{{ ols-7-projects | size }} projects](/ols-7/projects-participants#projects) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
 
 ## Mentors
 
@@ -299,6 +324,7 @@ Our program is only possible thanks to our awesome mentors:
 - [{{ ols-4-mentors | size }} mentors](/ols-4#mentors) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-mentors | size }} mentors](/ols-5#mentors) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
 - [{{ ols-6-mentors | size }} mentors](/ols-6#mentors) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-mentors | size }} mentors](/ols-7#mentors) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
 
 ## Experts
 
@@ -330,6 +356,7 @@ We are currently recruiting the experts - this route is a good way to join the p
 - [{{ ols-4-experts | uniq | size }} experts](/ols-4#experts) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-experts | uniq | size }} experts](/ols-5#experts) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
 - [{{ ols-6-experts | uniq | size }} experts](/ols-6#experts) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-experts | uniq | size }} experts](/ols-7#experts) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
 
 ## Facilitators
 
@@ -357,3 +384,4 @@ Our facilitators are essential for the program:
 - [{{ ols-4-facilitators | uniq | size }} facilitator(s)](/ols-4#facilitators) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-facilitators | uniq | size }} facilitator(s)](/ols-5#facilitators) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
 - [{{ ols-6-facilitators | uniq | size }} facilitator(s)](/ols-6#facilitators) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-facilitators | uniq | size }} facilitator(s)](/ols-7#facilitators) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
