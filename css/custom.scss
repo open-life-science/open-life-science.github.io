@@ -142,7 +142,7 @@ $link-active: $link-hover;
   #people-bio {
     height: auto;
   }
-  
+
   @include mobile() {
     .people-card {
       margin-bottom: 1em;
@@ -154,6 +154,10 @@ $link-active: $link-hover;
 
     .people-card-avatar {
       display: none;
+    }
+
+    .media, .people-description {
+      height: auto;
     }
   }
 
