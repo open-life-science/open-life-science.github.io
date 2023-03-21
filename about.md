@@ -140,6 +140,29 @@ photos:
     {% assign ols-6-end = w[1].start %}
 {% endfor %}
 
+<!--OLS-7-->
+{% assign ols-7-projects = site.data.ols-7-projects %}
+{% assign ols-7-experts = site.data.ols-7-metadata.experts %}
+{% assign ols-7-facilitators = site.data.ols-7-metadata.facilitators %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
+{% for project in ols-7-projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-7-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-7-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign ols-7-schedule = site.data.ols-7-schedule %}
+{% assign ols-7-end = '' %}
+{% for w in ols-7-schedule.weeks %}
+    {% assign ols-7-end = w[1].start %}
+{% endfor %}
+
 *To illustrate the OLS journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their open science training.*
 
 Joy will provide an outline of a project in their application that they will develop in the program. Additionally, they will indicate their interests in learning particular aspects of Open Science and research.
