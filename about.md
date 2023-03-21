@@ -324,6 +324,7 @@ Our program is only possible thanks to our awesome mentors:
 - [{{ ols-4-mentors | size }} mentors](/ols-4#mentors) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
 - [{{ ols-5-mentors | size }} mentors](/ols-5#mentors) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
 - [{{ ols-6-mentors | size }} mentors](/ols-6#mentors) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
+- [{{ ols-7-mentors | size }} mentors](/ols-7#mentors) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
 
 ## Experts
 
