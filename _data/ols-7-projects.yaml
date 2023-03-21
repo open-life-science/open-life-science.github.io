@@ -2,8 +2,7 @@
 #
 # Check previous OLS for examples
 ---
-- name: Collective and open research in planetary sciences, with a focus on  climate
-    change, space exploration, and astrobiology
+- name: Collective and open research in planetary sciences, with a focus on climate change, space exploration, and astrobiology
   description: The idea is to create an environment (a working group or a community,
     eventually) were researchers, students, citizen scientists can collaborate on
     projects, research projects, articles or just share their work based on open science
@@ -25,8 +24,7 @@
   - Biology
   - Chemistry
   - Global Changes
-- name: Implementing Facial Recognition and Biometric Attendance Monitoring in Educational
-    and Corporate Settings
+- name: Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings
   description: This project aims to design and implement a system for tracking attendance
     using facial recognition or biometric technology in educational and corporate
     settings. The project will begin by reviewing current attendance tracking systems
@@ -59,8 +57,7 @@
   - Cloud Computing
   - Data Visualization
   - Project Management
-- name: 'From invisible to Citizens:  Apparent Age for Primary School children without
-    birth certificates'
+- name: 'From invisible to Citizens: Apparent Age for Primary School children without birth certificates'
   description: Ages fraud scandals have tarnished African sport at the international
     level. In 2009, FIFA adopted MRI as an age determination tool for its youth level
     competitions but recent studies show that bone age assessment has a very large
@@ -98,8 +95,7 @@
   - Determinants
   - Machine Learning
   - Birth Certificate
-- name: Development of an online open science platform, easy and accessible for agricultural
-    students in Cameroon.
+- name: Development of an online open science platform, easy and accessible for agricultural students in Cameroon.
   description: 'The main aim of the project is to contribute to the quality and adaptable
     research work through the practice of open science in Cameroon. Specifically,
     it will be to:  - Develop a platform that will connect researchers, students,
@@ -114,8 +110,7 @@
   - Open Science
   - Agriculture
   - Cameroon
-- name: 'Data analysis in soil physics: an opportunity of teaching data management
-    and reproducibility'
+- name: 'Data analysis in soil physics: an opportunity of teaching data management and reproducibility'
   description: The core idea of this project is to create an online repository that
     hosts as well as examples, datasets and demos for soil science data management.
     Stakeholders will include early soil scientists who are not familiar with programming,
@@ -150,8 +145,7 @@
   - Sovereignty
   - Ecology
   - Enviromental
-- name: Knowledge and perspectives of open science among researchers in Ghana, West
-    Africa.
+- name: Knowledge and perspectives of open science among researchers in Ghana, West Africa
   description: 'Open Science in Africa: The Ghanaian narrative. UNESCO and its stakeholders
     perceive the Open Science concept as an essential component to advancement of  human
     development through increasing accessibility of the scientific process. To that
@@ -305,8 +299,7 @@
   - Open Data
   - Responsible Ai
   - Explainability
-- name: Open-source object recognition software specifically designed for mice  in
-    Alzheimer's disease
+- name: Open-source object recognition software specifically designed for mice in Alzheimers disease
   description: "Here are the general steps to developing an open-source object recognition\
     \ software for mice in Alzheimer's disease studies: 1-Gather a diverse dataset\
     \ of images of mice commonly used in Alzheimer's research. 2-Preprocess the dataset\
@@ -326,8 +319,7 @@
   mentors:
   - macziatko
   keywords: []
-- name: Open educational hands-on tutorial for evaluating fairness in AI classification
-    models
+- name: Open educational hands-on tutorial for evaluating fairness in AI classification models
   description: The main objective of this project is to develop a **hands-on** tutorial
     for evaluating machine learning models *fairness* in different contexts. Specifically,
     to generate **open-source class material** (pipeline, slides, code) and a **trainer
@@ -353,9 +345,7 @@
   - Fairness
   - Bias Analysis
   - Classification
-- name: Comparison of three growth curves for the diagnosis of extrauterine growth
-    retardation at 40 weeks postconceptional age and associated factors in preterm
-    infants in the city of Yaoundé, Cameroon
+- name: Comparison of three growth curves for the diagnosis of extrauterine growth retardation at 40 weeks postconceptional age and associated factors in preterm infants in the city of Yaoundé, Cameroon
   description: Extra-uterin growth retardation (EUGR) is defined as weight or height
     below the 10th percentile relative to the mean for the child's age and sex at
     40 weeks post-conceptional  age. The objective of this work is to analyze the
@@ -403,8 +393,7 @@
   - Ambassadors
   - Champions
   - Community Building
-- name: 'momenTUM Research Platform: An open-source, reproducible research infrastructure
-    for digital health'
+- name: 'momenTUM Research Platform: An open-source, reproducible research infrastructure for digital health'
   description: Over the past year, we built the new research platform **[momenTUM](https://www.momentumresearch.eu/)**,
     which consists of an iOS/Android app for delivering interventions and questionnaires
     to participants in research studies and server software to configure trials, accept
@@ -467,8 +456,7 @@
   - Access
   - Intersectionality
   - Equal Opportunity
-- name: 'Queering the law: How to make AI with a Queer Perspective from the Majority
-    of the World'
+- name: 'Queering the law: How to make AI with a Queer Perspective from the Majority of the World'
   description: 'For an AI framework with a queer perspective from the Majority World
     that is going to be used by technologists, final users, policymakers, sociologists,
     activists, and everyone involved with Artificial Intelligence, we must consider
@@ -556,7 +544,7 @@
   - Sleep Deprivation
   - Mental Health
   - Illness
-- name: liforient.com
+- name: liforient
   description: This project is to help every user, be it parents, children or other
     adults wishing to follow a particular career path find the right pattern towards
     achieving their life goals. The platform uses the top-down or bottom-up approach
@@ -612,8 +600,7 @@
   - karvovskaya
   keywords:
   - Project Database
-- name: 'Closer to the sky: co-creating astronomical knowledge in a favela of Rio
-    de Janeiro'
+- name: 'Closer to the sky: co-creating astronomical knowledge in a favela of Rio de Janeiro'
   description: '“Closer to the sky” is an astronomy public engagement project in Rio
     de Janeiro, Brazil that builds upon workshops for children based on the practice
     of non-violence developed by the astronomy club, initiated by A. Cortesi and C.
@@ -669,8 +656,7 @@
   - Spanish-Speaking Communities
   - Mapping
   - Visualization
-- name: Developing an online snake venomics catalog for easy access to venom proteomics
-    data
+- name: Developing an online snake venomics catalog for easy access to venom proteomics data
   description: Snake venoms are incredibly complex mixtures of many different proteins
     called toxins. Understanding which particular toxins are in the venoms of each
     snake is important information for researchers working with snakes, particularly

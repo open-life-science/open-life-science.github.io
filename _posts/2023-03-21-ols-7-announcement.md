@@ -123,7 +123,7 @@ Once again, let's welcome our mentors, mentees and experts to this program!
 | Project | Project leaders | Mentors |
 |----------|-----------------------|------------|
 {%- for project in projects %}
-| [{{ project.name }}](/{{ cohort }}/projects-participants/#{{ project.name | slugify }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}#{{ p }}){% endfor %} {% endcapture %} {{ p-mentors | remove_first: ', ' }} |
+| [{{ project.name }}](/{{ cohort }}/projects-participants#{{ project.name | slugify }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}#{{ p }}){% endfor %} {% endcapture %} {{ p-mentors | remove_first: ', ' }} |
 {%- endfor %}
 
 {{ project.name | slugify  }}
