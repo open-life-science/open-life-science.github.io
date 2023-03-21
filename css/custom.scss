@@ -139,6 +139,10 @@ $link-active: $link-hover;
     height: 150px;
   }
 
+  #people-bio {
+    height: auto;
+  }
+  
   @include mobile() {
     .people-card {
       margin-bottom: 1em;
