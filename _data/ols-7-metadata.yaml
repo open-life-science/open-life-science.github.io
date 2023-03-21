@@ -5,11 +5,21 @@
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
 experts:
-- lauracarter
-- iramosp
-- miguel-silan
 - georgianaelena
-facilitators: []
+- iramosp
+- lauracarter
+- miguel-silan
+facilitators:
+- amangoel185
+- cassmurph
+- glado718
+- jafsia
+- laurah-nyasita-ondari
+- melibleq
+- macziatko
+- peranti
+- phaarouknucleus
+- slldec
 organizers:
 - bebatut
 - emmyft
