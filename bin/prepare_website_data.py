@@ -7,9 +7,10 @@ from pathlib import Path
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
+
 optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
 to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
-
+people_fp = Path('_data') / Path('people.yaml')
 
 
 ### GENERAL METHODS
@@ -28,17 +29,20 @@ def read_yaml(fp):
     return content
 
 
+def get_list_from_string(s):
+    '''
+    Transform a string into a list
+    '''
+    return s.rstrip().replace(' and ', ', ').replace('|', ', ').title().split(', ')
+
+
 ### METHODS TO INTERACT WITH people.yaml FILE AND DATA
 
 def load_people():
     '''
     Load people.yaml file into a dictionary
     '''
-    people_fp = Path('_data') / Path('people.yaml')
-    # load people.yaml file into a dictionary
-    with open(people_fp, 'r') as people_f:
-        people = yaml.load(people_f)
-    return people
+    return read_yaml(people_fp)
 
 
 def load_reordered_people():
@@ -54,6 +58,24 @@ def load_reordered_people():
     return reorder_people
 
 
+def dump_people(people):
+    '''
+    Dump people dictionary in people file
+
+    :param people: dictionary with people information
+    '''
+    with people_fp.open("w") as people_f:
+        people_f.write('# List of people (alphabetical order)\n')
+        people_f.write('#\n')
+        people_f.write('# Collection names should be equal to github username,\n')
+        people_f.write('# if not, add github: false tag and\n')
+        people_f.write('# use firstname-lastname as collection name\n')
+        people_f.write('#\n')
+        people_f.write('# Mandatory: first-name, last-name, country\n')
+        people_f.write('---\n')
+        yaml.dump(dict(sorted(people.items())), people_f)
+
+
 def get_people_id(name, people):
     '''Extract id in people.yaml from a string with a name
 
@@ -61,8 +83,8 @@ def get_people_id(name, people):
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     '''
     if name not in people:
-        print(f"'{name}' for not found in people ")
-        return ''
+        print(f"'{name}' not found in people ")
+        return None
     else:
         return people[name]
 
@@ -75,9 +97,11 @@ def get_people_ids(names, people):
     '''
     ids = []
     if not pd.isnull(names):
-        names = names.replace(' and ', ', ').title().split(', ')
+        names = get_list_from_string(names)
         for n in names:
-            ids.append(get_people_id(n.rstrip(), people))
+            id = get_people_id(n.rstrip(), people)
+            if id is not None:
+                ids.append(id)
 
     return ids
 
@@ -116,10 +140,10 @@ def extract_people_info(row, people):
     info = {
         'first-name': row['First name'].rstrip(),
         'last-name': row['Last name'].rstrip(),
-        'twitter': row['Twitter username'],
+        'twitter': row['Twitter'],
         'website': row['Website'],
         'orcid': row['ORCID'],
-        'affiliation': row['Affiliation'],
+        'affiliation': row['Affiliation'] if 'Affiliation' in row else None,
         'city': row['City'],
         'country': row['Country'],
         'pronouns': row['Pronouns'],
@@ -127,21 +151,18 @@ def extract_people_info(row, people):
         'bio': row['Bio']
     }
     # get id
-    github = row['Github username']
-    if github is None:
+    id = row['GitHub']
+    if id is None:
         # check if person exists from first and last name
         for p in people:
             if people[p]['first-name'] == info['first-name'] and people[p]['last-name'] == info['last-name']:
-                github = p
+                id = p
         # create username
-        if github is None:
-            github = '%s-%s' % (
-                info['first-name'],
-                info['last-name'])
+        if id is None:
+            id = f"{info['first-name']}-{info['last-name']}"
             info['github'] = False
-    github = github.replace('https://github.com/', '')
-    github = github.rstrip()
-    github = github.lower().replace(' ', '-').replace('@', '')
+    id = id.replace('https://github.com/', '').rstrip()
+    id = id.lower().replace(' ', '-').replace('@', '')
     # format country
     if info['country'] is not None:
         info['country'] = info['country'].replace('UK', 'United Kingdom')
@@ -155,7 +176,7 @@ def extract_people_info(row, people):
         info['twitter'] = info['twitter'].replace('@', '')
     # format expertise
     if info['expertise'] is not None:
-        info['expertise'] = info['expertise'].rstrip().replace(",",";").split("; ")
+        info['expertise'] = get_list_from_string(info['expertise'])
         info['expertise'] = [x.capitalize() for x in info['expertise']]
     # format website
     if info['website'] is not None and not info['website'].startswith('https'):
@@ -164,8 +185,8 @@ def extract_people_info(row, people):
     info_k = list(info.keys())
     for i in info_k:
         if info[i] is None:
-            if github in people and i in people[github]:
-                info[i] = people[github][i]
+            if id in people and i in people[id]:
+                info[i] = people[id][i]
             elif i in optional_info:
                 del info[i]
         else:
@@ -173,7 +194,7 @@ def extract_people_info(row, people):
                 info[i] = info[i].rstrip()
             if i in to_capitalize_info:
                 info[i] = info[i].title()
-    return github, info
+    return id, info
 
 
 def extract_people(df):
@@ -181,11 +202,8 @@ def extract_people(df):
 
     :param df: Path to information sheet file
     '''
-    people_fp = Path('_data') / Path('people.yaml')
-
-    # load people.yaml file into a dictionary
-    with open(people_fp, 'r') as people_f:
-        people = yaml.load(people_f, Loader=yaml.FullLoader)
+    # get people information
+    people = load_people()
 
     # load people information from sheet file
     # parse it
@@ -193,30 +211,22 @@ def extract_people(df):
     df = df.where(pd.notnull(df), None)
     people_l = []
     for index, row in df.iterrows():
-        github, info = extract_people_info(row, people)
-        if github not in people:
-            print(f"Add info for {github}")
-            people[github] = info
+        id, info = extract_people_info(row, people)
+        if id not in people:
+            print(f"Add info for {id}")
+            people[id] = info
         else:
-            print(f"Update info for {github}")
-            people[github] = info
-        people_l.append(github)
+            print(f"Update info for {id}")
+            for i in info:
+                people[id][i] = info[i]
+        people_l.append(id)
     print("Full list")
     people_l.sort()
     s = '\n- '.join(people_l)
     print(f"- {s}")
 
     # dump people dictionary into people.yaml file
-    with people_fp.open("w") as people_f:
-        people_f.write('# List of people (alphabetical order)\n')
-        people_f.write('#\n')
-        people_f.write('# Collection names should be equal to github username,\n')
-        people_f.write('# if not, add github: false tag and\n')
-        people_f.write('# use firstname-lastname as collection name\n')
-        people_f.write('#\n')
-        people_f.write('# Mandatory: first-name, last-name, country\n')
-        people_f.write('---\n')
-        yaml.dump(people, people_f)
+    dump_people(people)
 
     return people_l
 
@@ -517,9 +527,9 @@ def dump_projects(projects, cohort):
     :param projects: dictionary with project details
     :param cohort: cohort number
     '''
-    project_fp = Path('_data') / Path('ols-%s-projects.yaml' % cohort )
+    project_fp = Path('_data') / Path(f'ols-{cohort}-projects.yaml')
     with project_fp.open("w") as project_f:
-        project_f.write('# List of projects for OLS-3\n')
+        project_f.write(f'# List of projects for OLS-{cohort}\n')
         project_f.write('#\n')
         project_f.write('# Check previous OLS for examples\n')
         project_f.write('---\n')
@@ -616,33 +626,8 @@ def add_projects(cohort, project_df, people_df):
             print('No mentor')
         #
         if row['Keywords'] is not None:
-            p['keywords'] = [x.rstrip() for x in row['Keywords'].split(',')]
+            p['keywords'] = get_list_from_string(row['Keywords'])
         projects[p['name']] = p
-        print('')
-
-    # check if everybody are correctly added to projects from participant file
-    print('Check project participants')
-    # 1. get projects and people from participant registration
-    df = people_df.where(pd.notnull(people_df), None)
-    projects_people = {}
-    for index, row in df.iterrows():
-        projects_people.setdefault(row['OLS-%s Project title' % args.cohort ], [])
-        name = "%s %s" % (row['First name'].rstrip(), row['Last name'].rstrip())
-        projects_people[row['OLS-%s Project title' % args.cohort]].append(name.title())
-    # 2. check each project
-    for pr in projects_people:
-        print(f"{pr}")
-        if pr not in projects:
-            print("Not found in project list")
-            continue
-        for pa in projects_people[pr]:
-            if pa not in reorder_people:
-                print(f"'{pa}' not found in people")
-                continue
-            pa_id = reorder_people[pa]
-            if pa_id not in projects[pr]['participants']:
-                projects[pr]['participants'].append(pa_id)
-                print(f"'{pa}' added to project")
         print('')
 
     # transform project dictionary to list
