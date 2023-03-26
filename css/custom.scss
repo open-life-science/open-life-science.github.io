@@ -341,6 +341,65 @@ $link-active: $link-hover;
   margin-bottom: 20px;
 }
 
+.cohort {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+
+  .cohort-content {
+    width: 65%;
+  }
+  
+  .cohort-toc {
+    width: 30%;
+  }
+
+  .toc__list:before {
+    content: "Table Of Contents";
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .toc__list {
+    border: 2px solid #eee;
+    border-radius: 4px;
+    line-height: 1.8rem;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    list-style-position: inside;
+  }
+  
+  .toc-h2:first-child {
+    margin-top: 1rem;
+  }  
+  
+  #toc a {
+    color: #9D174D;
+  }
+
+  #toc a:hover {
+    color: #FFF;
+  }
+
+  @include mobile() {
+    display: block;
+    
+    .cohort-content {
+      width: 100%;
+    }
+    
+    .cohort-toc {
+      width: 80%;
+    }
+
+    .toc__list {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      margin-bottom: 1em;
+    }
+  }
+}
+
 // table responsiveness (mobile)
 @media screen and (max-width: 768px) and (min-width: 320px) {
   table {
