@@ -106,7 +106,7 @@ At the end of the program, our participants will be able to:
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-<!-- For the third round of the OLS program, we welcome [{{ p-participants | size }} participants](/ols-7/projects-participants#participants) with [{{ projects | size }} projects](/ols-7/projects-participants#projects).-->
+For the seventh round of the OLS program, we welcome [{{ p-participants | size }} participants](/ols-7/projects-participants#participants) with [{{ projects | size }} projects](/ols-7/projects-participants#projects).
 
 ## Mentors
 
@@ -121,7 +121,7 @@ Mentors advise and inspire
 ### Pool of mentors
 
 <!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-7-metadata.yaml file -->
+Any modification of the content should be done in the _data/ols-7-metadata.yaml file
 
 We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
@@ -166,7 +166,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
 
 
 <!-- Pool of mentors (hidden before cohort starts)
-Any modification of the content should be done in the _data/ols-7-projects.yaml file
+Any modification of the content should be done in the _data/ols-7-projects.yaml file -->
 
 We thank the {{ p-mentors | size }} mentors this round.
 <div class="people">
@@ -175,7 +175,7 @@ We thank the {{ p-mentors | size }} mentors this round.
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
 {% endfor %}
-</div> -->
+</div>
 
 ### Mentoring training
 
@@ -380,6 +380,10 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 4 mentor calls will take place during the program.
 
 The calls will be hosted online using the Zoom web-conferencing option. A link for the calls will be shared for each meeting separately.
+
+### Cafeteria calls
+
+The Cafetería is a zoom call in which we pretend we are at a normal Catefería: we chat if we want, we work on our stuff, we work on stuff with others, we stay for 5 minutes or for the entire time. We drink coffee, tea, mate, water, any beverage.
 
 ## Speaker Guide
 

@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<div class="field">
+  <p class="control has-icons-left">
+    <input class="input is-medium is-focused" type="text" placeholder="Search stories" oninput="searchPosts()" id="searchbar">
+    <span class="icon is-small is-left">
+      <i class="fa fa-search"></i>
+    </span>
+  </p>
+</div>
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 

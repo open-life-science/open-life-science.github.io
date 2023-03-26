@@ -16,5 +16,5 @@ dependencies:
   - libxml2
   - pkg-config
   - pandas
-  - pyyaml
+  - ruamel.yaml
   - gxx_linux-64

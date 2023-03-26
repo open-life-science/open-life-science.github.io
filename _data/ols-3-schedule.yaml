@@ -564,7 +564,7 @@ weeks:
       - type: slides
         title: Making training materials FAIR in 10 steps
         link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
-        speaker: alexandra-holinski
+        speaker: alexholinski
       - type: external-link
         title: 10 rules for making training FAIR
         link: https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1007854
