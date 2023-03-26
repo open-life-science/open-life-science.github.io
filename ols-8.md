@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cohort
 title: Welcome to the 8th cohort of OLS program!
 image: /images/syllabus.jpg
 photos:

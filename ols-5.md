@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cohort
 title: Welcome to the 5th cohort of Open Life Science program!
 image: /images/syllabus.jpg
 redirect_from: /OLS-5
@@ -65,8 +65,6 @@ and international bioinformatics communities.
 1. **Sharing** essential knowledge required to create, lead, and sustain an Open Science project.
 2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
 3. **Empowering** them to become effective Open Science ambassadors in their communities.
-
-{% include _includes/toc.html %}
 
 # Goals and Learning Objectives
 
