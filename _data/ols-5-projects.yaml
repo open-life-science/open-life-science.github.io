@@ -420,7 +420,7 @@ The first Open Science MOOC started in 2018 and on average the course attracts a
   name: Build a community around the TU Delft Open Science MOOC
   participants:
   - alecandian
-  - lisanne-walma
+  - lwbwalma
   status: graduated
 - description: "Binderhub is a service that allows users to share reproducible interactive computing environments through public code repositories. The subject of our project, Hub23, is an organisational deployment of Binderhub, designed to allow Turing Researchers to use binder (the user interface) to collaborate on repositories internal to Turing. This is sometimes necessary if the underlying repository can not be shared for some reason, or is not yet ready to publish openly. During the OLS program, we aim to build an open community around Hub23 to help to guide future technical developments, and encourage use and contributions from the wider Turing community. We will host a series of Zero-to-Binder workshops aimed at introducing Turing researchers to regular binder, followed by structured discussion of what the ideal features of a collaborative reproducible environment for research would be. Any conclusions and subsequent technical development will be fed upstream to Binderhub, and we also aim to open source the methodologies used to create an internal binderhub deployment, allowing other organisations to do so."
   keywords:

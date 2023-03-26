@@ -2,37 +2,21 @@
 
 import argparse
 import pandas as pd
-import yaml
 
 from pathlib import Path
+from ruamel.yaml import YAML
+from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
+
 
 optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
 to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
+people_fp = Path('_data') / Path('people.yaml')
 
 
 ### GENERAL METHODS
 
-### https://stackoverflow.com/questions/8640959/how-can-i-control-what-scalar-form-pyyaml-uses-for-my-data/15423007#15423007
-def should_use_block(value):
-    for c in u"\u000a\u000d\u001c\u001d\u001e\u0085\u2028\u2029":
-        if c in value:
-            return True
-    return False
-
-
-def represent_scalar(self, tag, value, style=None):
-    if style is None:
-        if should_use_block(value):
-            style='|'
-        else:
-            style = self.default_style
-
-    node = yaml.representer.ScalarNode(tag, value, style=style)
-    if self.alias_key is not None:
-        self.represented_objects[self.alias_key] = node
-    return node
-yaml.representer.BaseRepresenter.represent_scalar = represent_scalar
-
+yaml = YAML()
+yaml.preserve_quotes = True
 
 def read_yaml(fp):
     '''
@@ -41,8 +25,15 @@ def read_yaml(fp):
     :param fp: Path to YAML file
     '''
     with open(fp, 'r') as f:
-        content = yaml.load(f, Loader=yaml.FullLoader)
+        content = yaml.load(f)
     return content
+
+
+def get_list_from_string(s):
+    '''
+    Transform a string into a list
+    '''
+    return s.rstrip().replace(' and ', ', ').replace('|', ', ').title().split(', ')
 
 
 ### METHODS TO INTERACT WITH people.yaml FILE AND DATA
@@ -51,11 +42,7 @@ def load_people():
     '''
     Load people.yaml file into a dictionary
     '''
-    people_fp = Path('_data') / Path('people.yaml')
-    # load people.yaml file into a dictionary
-    with open(people_fp, 'r') as people_f:
-        people = yaml.load(people_f, Loader=yaml.FullLoader)
-    return people
+    return read_yaml(people_fp)
 
 
 def load_reordered_people():
@@ -71,6 +58,24 @@ def load_reordered_people():
     return reorder_people
 
 
+def dump_people(people):
+    '''
+    Dump people dictionary in people file
+
+    :param people: dictionary with people information
+    '''
+    with people_fp.open("w") as people_f:
+        people_f.write('# List of people (alphabetical order)\n')
+        people_f.write('#\n')
+        people_f.write('# Collection names should be equal to github username,\n')
+        people_f.write('# if not, add github: false tag and\n')
+        people_f.write('# use firstname-lastname as collection name\n')
+        people_f.write('#\n')
+        people_f.write('# Mandatory: first-name, last-name, country\n')
+        people_f.write('---\n')
+        yaml.dump(dict(sorted(people.items())), people_f)
+
+
 def get_people_id(name, people):
     '''Extract id in people.yaml from a string with a name
 
@@ -78,8 +83,8 @@ def get_people_id(name, people):
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     '''
     if name not in people:
-        print("'%s' for not found in people " % name)
-        return ''
+        print(f"'{name}' not found in people ")
+        return None
     else:
         return people[name]
 
@@ -92,9 +97,11 @@ def get_people_ids(names, people):
     '''
     ids = []
     if not pd.isnull(names):
-        names = names.replace(' and ', ', ').title().split(', ')
+        names = get_list_from_string(names)
         for n in names:
-            ids.append(get_people_id(n.rstrip(), people))
+            id = get_people_id(n.rstrip(), people)
+            if id is not None:
+                ids.append(id)
 
     return ids
 
@@ -133,10 +140,10 @@ def extract_people_info(row, people):
     info = {
         'first-name': row['First name'].rstrip(),
         'last-name': row['Last name'].rstrip(),
-        'twitter': row['Twitter username'],
+        'twitter': row['Twitter'],
         'website': row['Website'],
         'orcid': row['ORCID'],
-        'affiliation': row['Affiliation'],
+        'affiliation': row['Affiliation'] if 'Affiliation' in row else None,
         'city': row['City'],
         'country': row['Country'],
         'pronouns': row['Pronouns'],
@@ -144,21 +151,18 @@ def extract_people_info(row, people):
         'bio': row['Bio']
     }
     # get id
-    github = row['Github username']
-    if github is None:
+    id = row['GitHub']
+    if id is None:
         # check if person exists from first and last name
         for p in people:
             if people[p]['first-name'] == info['first-name'] and people[p]['last-name'] == info['last-name']:
-                github = p
+                id = p
         # create username
-        if github is None:
-            github = '%s-%s' % (
-                info['first-name'],
-                info['last-name'])
+        if id is None:
+            id = f"{info['first-name']}-{info['last-name']}"
             info['github'] = False
-    github = github.replace('https://github.com/', '')
-    github = github.rstrip()
-    github = github.lower().replace(' ', '-').replace('@', '')
+    id = id.replace('https://github.com/', '').rstrip()
+    id = id.lower().replace(' ', '-').replace('@', '')
     # format country
     if info['country'] is not None:
         info['country'] = info['country'].replace('UK', 'United Kingdom')
@@ -172,7 +176,7 @@ def extract_people_info(row, people):
         info['twitter'] = info['twitter'].replace('@', '')
     # format expertise
     if info['expertise'] is not None:
-        info['expertise'] = info['expertise'].rstrip().replace(",",";").split("; ")
+        info['expertise'] = get_list_from_string(info['expertise'])
         info['expertise'] = [x.capitalize() for x in info['expertise']]
     # format website
     if info['website'] is not None and not info['website'].startswith('https'):
@@ -181,8 +185,8 @@ def extract_people_info(row, people):
     info_k = list(info.keys())
     for i in info_k:
         if info[i] is None:
-            if github in people and i in people[github]:
-                info[i] = people[github][i]
+            if id in people and i in people[id]:
+                info[i] = people[id][i]
             elif i in optional_info:
                 del info[i]
         else:
@@ -190,7 +194,7 @@ def extract_people_info(row, people):
                 info[i] = info[i].rstrip()
             if i in to_capitalize_info:
                 info[i] = info[i].title()
-    return github, info
+    return id, info
 
 
 def extract_people(df):
@@ -198,11 +202,8 @@ def extract_people(df):
 
     :param df: Path to information sheet file
     '''
-    people_fp = Path('_data') / Path('people.yaml')
-
-    # load people.yaml file into a dictionary
-    with open(people_fp, 'r') as people_f:
-        people = yaml.load(people_f, Loader=yaml.FullLoader)
+    # get people information
+    people = load_people()
 
     # load people information from sheet file
     # parse it
@@ -210,29 +211,22 @@ def extract_people(df):
     df = df.where(pd.notnull(df), None)
     people_l = []
     for index, row in df.iterrows():
-        github, info = extract_people_info(row, people)
-        if github not in people:
-            print("Add info for %s" % github)
-            people[github] = info
+        id, info = extract_people_info(row, people)
+        if id not in people:
+            print(f"Add info for {id}")
+            people[id] = info
         else:
-            print("Update info for %s" % github)
-            people[github] = info
-        people_l.append(github)
+            print(f"Update info for {id}")
+            for i in info:
+                people[id][i] = info[i]
+        people_l.append(id)
     print("Full list")
     people_l.sort()
-    print('- %s' % '\n- '.join(people_l))
+    s = '\n- '.join(people_l)
+    print(f"- {s}")
 
     # dump people dictionary into people.yaml file
-    with people_fp.open("w") as people_f:
-        people_f.write('# List of people (alphabetical order)\n')
-        people_f.write('#\n')
-        people_f.write('# Collection names should be equal to github username,\n')
-        people_f.write('# if not, add github: false tag and\n')
-        people_f.write('# use firstname-lastname as collection name\n')
-        people_f.write('#\n')
-        people_f.write('# Mandatory: first-name, last-name, country\n')
-        people_f.write('---\n')
-        people_f.write(yaml.dump(people, allow_unicode=True))
+    dump_people(people)
 
     return people_l
 
@@ -249,7 +243,7 @@ def extract_people_df(ids, people, fp):
     info = {}
     for i in ids:
         if i not in people:
-            print("%s not in people" % i)
+            print(f"{i} not in people")
             continue
         info[i] = {}
         if 'github' not in people[i]:
@@ -390,10 +384,7 @@ def dump_schedule(schedule, cohort):
     with fp.open("w") as schedule_f:
         schedule_f.write("# Schedule for the OLS-%s\n" % cohort)
         schedule_f.write("---\n")
-        schedule_f.write(yaml.dump(schedule,
-            allow_unicode=True,
-            default_flow_style=False,
-            sort_keys=False))
+        yaml.dump(schedule, schedule_f)
 
 
 def update_call(call, row, people):
@@ -407,7 +398,7 @@ def update_call(call, row, people):
     if not pd.isnull(row['date']):
         call['date'] = row['date'].strftime('%B %d, %Y')
     if not pd.isnull(row['time']):
-        call['time'] = row['time'].strftime('%H:%M')
+        call['time'] = DQS(row['time'].strftime('%H:%M'))
     if not pd.isnull(row['duration']):
         call['duration'] = "%s min" % int(int(row['duration'].seconds)/60)
     if not pd.isnull(row['Note link']):
@@ -418,16 +409,21 @@ def update_call(call, row, people):
         call['title'] = row['Title']
     if not pd.isnull(row['Recording']):
         call['recording'] = row['Recording']
-    if not pd.isnull(row['Hosts']):
+    if 'Hosts' in row and not pd.isnull(row['Hosts']):
         call['hosts'] = get_people_ids(row['Hosts'], people)
-    if not pd.isnull(row['Facilitators']):
+    elif 'Call lead' in row and not pd.isnull(row['Call lead']):
+        call['hosts'] = get_people_ids(row['Call lead'], people)
+    if 'Facilitators' in row and not pd.isnull(row['Facilitators']):
         call['facilitators'] = get_people_ids(row['Facilitators'], people)
     if not pd.isnull(row['Type']):
         call['type'] = row['Type']
     if not pd.isnull(row['Before']):
         call['before'] = row['Before']
-    if not pd.isnull(row['After']):
+    if 'After' in row and not pd.isnull(row['After']):
         call['after'] = row['After']
+    elif 'Assignments' in row and not pd.isnull(row['Assignments']):
+        call['after'] = row['Assignments']
+    call['resources'] = []
     return call
 
 
@@ -478,19 +474,19 @@ def add_event_information(schedule, schedule_df, people):
             'Start Time': 'time',
             'Duration': 'duration'})
         .assign(
-            date=lambda x: pd.to_datetime(x['date'], dayfirst=True),
-            time=lambda x: pd.to_datetime(x['time']),
+            date=lambda x: pd.to_datetime(x['date'], dayfirst=True, errors='coerce'),
+            time=lambda x: pd.to_datetime(x['time'], errors='coerce'),
             duration=lambda x: pd.to_timedelta(x['duration'])))
 
-    call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A']
+    call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A', 'Cafeteria']
 
     # format date and time columns, add event information
     last_call = {}
     for index, row in df.iterrows():
-        w = "{:02d}".format(row['Week'])
+        w = "{:02d}".format(int(row['Week']))
 
         if not w in schedule['weeks']:
-            print("Adding week %s too the schedule")
+            print(f"Adding week {w} to the schedule")
             schedule['weeks'][w] = {'start': '', 'calls': []}
 
         if row['Type'] == "Week":
@@ -499,9 +495,9 @@ def add_event_information(schedule, schedule_df, people):
                     if schedule['weeks'][w]['start'] is None:
                         schedule['weeks'][w]['start'] = row['date'].strftime('%B %d, %Y')
                     else:
-                        print("Different start date for week %s" % w)
-                        print("In schedule file: %s" % schedule['weeks'][w]['start'])
-                        print("In event file: %s" % row['date'].strftime('%B %d, %Y'))
+                        print(f"Different start date for week {w}")
+                        print(f"In schedule file: {schedule['weeks'][w]['start']}")
+                        print(f"In event file: {row['date'].strftime('%B %d, %Y')}")
             else:
                 schedule['weeks'][w]['start'] = row['date'].strftime('%B %d, %Y')
         elif row['Type'] in call_types:
@@ -518,18 +514,7 @@ def add_event_information(schedule, schedule_df, people):
                 last_call = call
 
         elif row['Type'] == 'Presentation':
-            found = False
-            if 'resources' not in last_call:
-                last_call['resources'] = []
-            else:
-                for res in last_call['resources']:
-                    if 'title' in res and row['Title'] == res['title']:
-                        res = update_resource(res, row, people)
-                        found = True
-
-            if not found:
-                res = update_resource({}, row, people)
-                last_call['resources'].append(res)
+            last_call['resources'].append(update_resource({}, row, people))
 
     return schedule
 
@@ -542,13 +527,13 @@ def dump_projects(projects, cohort):
     :param projects: dictionary with project details
     :param cohort: cohort number
     '''
-    project_fp = Path('_data') / Path('ols-%s-projects.yaml' % cohort )
+    project_fp = Path('_data') / Path(f'ols-{cohort}-projects.yaml')
     with project_fp.open("w") as project_f:
-        project_f.write('# List of projects for OLS-3\n')
+        project_f.write(f'# List of projects for OLS-{cohort}\n')
         project_f.write('#\n')
         project_f.write('# Check previous OLS for examples\n')
         project_f.write('---\n')
-        project_f.write(yaml.dump(projects, allow_unicode=True))
+        yaml.dump(projects, project_f)
 
 
 ### METHODS TO INTERACT WITH COHORT METADATA FILE
@@ -574,7 +559,7 @@ def load_metadata(cohort):
     metadata_fp = Path('_data') / Path('ols-%s-metadata.yaml' % args.cohort )
     # load metadata cohort file into a dictionary
     with open(metadata_fp, 'r') as metadata_f:
-        metadata = yaml.load(metadata_f, Loader=yaml.FullLoader)
+        metadata = yaml.load(metadata_f)
     return metadata
 
 
@@ -593,7 +578,7 @@ def dump_metadata(metadata, cohort):
         metadata_f.write('# People should be also in people.yaml file and linked using their GitHub username\n')
         metadata_f.write('# Ordering by expertise should be done by running the bin/sort-expertises.py script\n')
         metadata_f.write('---\n')
-        metadata_f.write(yaml.dump(metadata))
+        yaml.dump(metadata, metadata_f)
 
 
 ### COMMANDS
@@ -641,33 +626,8 @@ def add_projects(cohort, project_df, people_df):
             print('No mentor')
         #
         if row['Keywords'] is not None:
-            p['keywords'] = [x.rstrip() for x in row['Keywords'].split(',')]
+            p['keywords'] = get_list_from_string(row['Keywords'])
         projects[p['name']] = p
-        print('')
-
-    # check if everybody are correctly added to projects from participant file
-    print('Check project participants')
-    # 1. get projects and people from participant registration
-    df = people_df.where(pd.notnull(people_df), None)
-    projects_people = {}
-    for index, row in df.iterrows():
-        projects_people.setdefault(row['OLS-%s Project title' % args.cohort ], [])
-        name = "%s %s" % (row['First name'].rstrip(), row['Last name'].rstrip())
-        projects_people[row['OLS-%s Project title' % args.cohort]].append(name.title())
-    # 2. check each project
-    for pr in projects_people:
-        print("%s" % pr)
-        if pr not in projects:
-            print("Not found in project list")
-            continue
-        for pa in projects_people[pr]:
-            if pa not in reorder_people:
-                print("'%s' not found in people" % pa)
-                continue
-            pa_id = reorder_people[pa]
-            if pa_id not in projects[pr]['participants']:
-                projects[pr]['participants'].append(pa_id)
-                print("'%s' added to project" % pa)
         print('')
 
     # transform project dictionary to list
