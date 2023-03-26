@@ -44,3 +44,21 @@ includes_dir: .
 plugins:
   - jekyll-last-modified-at
   - jekyll-redirect-from
+  - jekyll-toc
+
+# TOC Settings
+toc:
+ min_level: 1
+ max_level: 6
+ ordered_list: false
+ list_class: toc
+ list_class: toc__list
+ sublist_class: toc__sublist
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      toc: true
