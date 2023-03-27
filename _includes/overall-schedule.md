@@ -57,35 +57,4 @@ Organizers will inform participants of the week schedule by email.
   "keywords": "OLS, Working Open, Cohorts",
   "name": "Cohorts Call for {{cohort}}"
 }
-</script >
-{
-  "@context": "https://schema.org",
-  "@id": "{{ site.url }}/{{ cohort }}/schedule",
-  "@type": "Course",
-  "dct:conformsTo": "https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08",
-  "description":"{{site.description}}" ,
-    "hasCourseInstance": [
-        {% for w in schedule.weeks %}
-        {%- for c in w[1].calls %}
-        {% if c.type != "Mentor-Mentee" %}
-       
-    {
-      "@context": "https://schema.org",
-      "@type": "CourseInstance",
-      "dct:conformsTo": "https://bioschemas.org/profiles/CourseInstance/0.8-DRAFT-2020_10_06",
-      "courseMode": ["online", "synchronous"],
-      "startDate" : "{{c.date}}",
-      "endDate" :"{{c.date}}",
-      "duration": "{{c.duration}}",
-      "name" : "{{c.title}}"
-    }
- {% endif %}
- {%- endfor %} 
-{%- endfor %}
-  ],
-
-  "keywords": "OLS, Working Open, Cohorts",
-  "name": "Cohorts Call for {{cohort}}"
-}
-</script >
-
+</script>
