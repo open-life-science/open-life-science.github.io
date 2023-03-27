@@ -458,6 +458,8 @@ def update_resource(res, row, people):
     res['type'] = 'slides'
     if not pd.isnull(row['Title']):
         res['title'] = row['Title']
+    if not pd.isnull(row['Recording']):
+        res['recording'] = row['Recording']
     return res
 
 
