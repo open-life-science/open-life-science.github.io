@@ -119,7 +119,7 @@ Mentors advise and inspire
 ### Pool of mentors
 
 <!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-6-metadata.yaml file
+Any modification of the content should be done in the _data/ols-6-metadata.yaml file -->
 
 We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
@@ -160,7 +160,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
         {% endfor %}
     </ul>
 </div>
-{% endif %} -->
+{% endif %}
 
 
 <!-- Pool of mentors (hidden before cohort starts)

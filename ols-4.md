@@ -160,7 +160,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
         {% endfor %}
     </ul>
 </div>
-{% endif %} -->
+{% endif %}
 
 
 <!-- Pool of mentors (hidden before cohort starts)
