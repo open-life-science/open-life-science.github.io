@@ -131,7 +131,49 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
     {% endfor %}
 </div>
 
+{% if metadata.possible-mentors-with-expertise %}
 
+<div class="expertise">
+    <h4 class="expertise-detail-question">
+        <a class="expertise-detail-toggle">
+            Mentors sorted by their expertise areas
+            <i class="fa fa-angle-down"></i>
+        </a>
+    </h4>
+    <ul class="expertise-detail is-hidden">
+        {% for expertise in metadata.possible-mentors-with-expertise %}
+        <li class="expertise-question">
+            <a class="expertise-toggle">
+                {{ expertise[0] }}
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <div class="peoples is-hidden">
+                <div class="people">
+                {% for mentor in expertise[1] %}
+                    {% assign username = mentor %}
+                    {% assign user = site.data.people[username] %}
+                    {% include _includes/people.html user=user username=username %}
+                {% endfor %}
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %} -->
+
+
+<!-- Pool of mentors (hidden before cohort starts)
+Any modification of the content should be done in the _data/ols-4-projects.yaml file
+
+We thank the {{ p-mentors | size }} mentors this round.
+<div class="people">
+{% for entry in p-mentors %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div> -->
 
 ### Mentoring training
 
@@ -163,6 +205,36 @@ We thank the **{{ metadata.experts | size }} persons who registered to be expert
     {% endfor %}
 </div>
 
+{% if metadata.experts-with-expertise %}
+
+<div class="expertise">
+    <h4 class="expertise-detail-question">
+        <a class="expertise-detail-toggle">
+            Experts sorted by their expertise areas
+            <i class="fa fa-angle-down"></i>
+        </a>
+    </h4>
+    <ul class="expertise-detail is-hidden">
+        {% for expertise in metadata.experts-with-expertise %}
+        <li class="expertise-question">
+            <a class="expertise-toggle">
+                {{ expertise[0] }}
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <div class="peoples is-hidden">
+                <div class="people">
+                {% for mentor in expertise[1] %}
+                    {% assign username = mentor %}
+                    {% assign user = site.data.people[username] %}
+                    {% include _includes/people.html user=user username=username %}
+                {% endfor %}
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
 
 A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-4 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
 
