@@ -1,5 +1,5 @@
 ---
-layout: cohort
+layout: page-with-toc
 title: Welcome to the 1st cohort of OLS program!
 image: /images/syllabus.jpg
 photos:
