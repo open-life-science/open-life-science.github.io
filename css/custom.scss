@@ -435,7 +435,10 @@ code {
     line-height: 1.8rem;
     padding: 0.5rem 1.5rem;
     font-weight: 600;
-    list-style-type: none;
+    
+    .toc-entry, .toc__sublist {
+      list-style: none;
+    }
   }
   
   .toc-h2:first-child {
