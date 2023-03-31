@@ -421,18 +421,24 @@ code {
   
   .cohort-toc {
     width: 30%;
+    height: 90vh;
+    overflow: auto;
+    position: sticky;
+    top: 45px;
   }
 
   .toc__list:before {
     content: "Table Of Contents";
     font-weight: bold;
     font-size: 1.5rem;
+    margin-bottom: 20px;
   }
 
   .toc__list {
     border: 2px solid #eee;
     border-radius: 4px;
-    line-height: 1.8rem;
+    font-size: 1em;
+    line-height: 1.3rem;
     padding: 0.5rem 1.5rem;
     font-weight: 600;
     
@@ -463,6 +469,8 @@ code {
     
     .cohort-toc {
       width: 80%;
+      height: auto;
+      position: static;
     }
 
     .toc__list {
