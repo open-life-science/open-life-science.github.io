@@ -208,8 +208,12 @@ We thank the **{{ metadata.experts | size }} persons who registered to be expert
 {% if metadata.experts-with-expertise %}
 
 <div class="expertise">
-    <h4 class="expertise-detail-question"><a class="expertise-detail-toggle">Experts sorted by their expertise areas<i class="fa fa-angle-down"></i></a></h4>
-
+    <h4 class="expertise-detail-question">
+        <a class="expertise-detail-toggle">
+            Experts sorted by their expertise areas
+            <i class="fa fa-angle-down"></i>
+        </a>
+    </h4>
     <ul class="expertise-detail is-hidden">
         {% for expertise in metadata.experts-with-expertise %}
         <li class="expertise-question">
