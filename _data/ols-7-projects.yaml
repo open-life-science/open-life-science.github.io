@@ -2,19 +2,17 @@
 #
 # Check previous OLS for examples
 ---
-- name: Collective and open research in planetary sciences, with a focus on climate change, space exploration, and astrobiology
-  description: The idea is to create an environment (a working group or a community,
-    eventually) were researchers, students, citizen scientists can collaborate on
-    projects, research projects, articles or just share their work based on open science
-    principles.  There are examples of open research environments in the scientific
-    community, in particular in the machine learning field. Examples are mlcollective  https://mlcollective.org/,
-    Machine Learning Tokyo https://machinelearningtokyo.com/ and Neuromatch Academy
-    https://academy.neuromatch.io/ .  Those communities run by volunteers created
-    a friendly environment and study groups for machine learning practitioners and
-    also curricula to introduce students to data sciece. The mlcollective effort led
-    to the publication of many projects https://mlcollective.org/projects/ . Eventually
-    this examples could be used to create or simply design (white paper / report)
-    a similar project in other research areas such as planetary science .
+- name: Collective and Open Research in Climate Science
+  description: The idea is to facilitate the creation of an environment (a working group or a community, eventually)
+  where researchers, students, citizen scientists can collaborate on projects, research projects, articles or just share
+  their work based on open science principles.
+There are examples of open research environments in the scientific community, in particular in the machine learning field.
+Examples are [mlcollective](https://mlcollective.org/), [Machine Learning Tokyo](https://machinelearningtokyo.com/) 
+and [Neuromatch Academy](https://academy.neuromatch.io/).
+Those communities run by volunteers created a friendly environment and study groups for machine learning practitioners and also
+curricula to introduce students to data science.
+In e.g., the [mlcollective](https://mlcollective.org/projects/) effort led to the publication of many projects.
+Eventually, these examples could be used to create or simply design (white paper/report) a similar project in other research areas.
   participants:
   - varlottaang
   mentors:
