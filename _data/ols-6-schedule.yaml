@@ -38,6 +38,7 @@ weeks:
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
       resources: []
+      talks: []
   '01':
     start: September 19, 2022
     calls:
@@ -49,6 +50,7 @@ weeks:
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
+      talks: []
     - time: "11:00"
       duration: 60 min
       content: |-
@@ -60,6 +62,7 @@ weeks:
       date: September 21, 2022
       notes: https://bit.ly/3f60GUT
       resources: []
+      talks: []
   '02':
     start: September 26, 2022
     calls:
@@ -73,6 +76,7 @@ weeks:
       type: Mentor
       date: September 27, 2022
       resources: []
+      talks: []
     - date: September 27, 2022
       time: "10:00"
       duration: 90 min
@@ -97,25 +101,27 @@ weeks:
         - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
-      resources:
-      - link: https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit#slide=id.p2
+      resources: []
+      talks:
+      - slides: https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit#slide=id.p2
         speaker: yochannah
-        type: slides
         title: Welcome to OLS!
-      - link: https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
+        tag: OLS Introduction
+      - slides: https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
         speaker: yochannah
-        type: slides
         title: Introducing Open Canvas
-      - link: https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
+        tag: Open Canvas
+      - slides: https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
         speaker: yochannah
-        type: slides
         title: Introducing Road Mapping
+        tag: Road Mapping
     - date: September 29, 2022
       time: "17:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 3
       type: Mentor
       resources: []
+      talks: []
   '03':
     start: October 03, 2022
     calls:
@@ -123,6 +129,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
+      talks: []
     - date: October 05, 2022
       time: "17:00"
       duration: 90 min
@@ -147,18 +154,19 @@ weeks:
         - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
-      resources:
-      - link: https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit#slide=id.p2
+      resources: []
+      talks:
+      - slides: https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit#slide=id.p2
         speaker: yochannah
-        type: slides
         title: Welcome to OLS!
-      - link: https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
+        tag: OLS Introduction
+      - slides: https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
         speaker: malvikasharan
-        type: slides
         title: Introducing Open Canvas
-      - link: https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
-        type: slides
+        tag: Open Canvas
+      - slides: https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
         title: Introducing Road Mapping
+        tag: Road Mapping
   '04':
     start: October 10, 2022
     calls:
@@ -187,20 +195,21 @@ weeks:
         - Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
         - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
-      resources:
-      - link: https://docs.google.com/presentation/d/1YGZVJhEuvuv1YKEVH_DW8aCVnwqCoBRC/edit#slide=id.p1
-        speaker: contraexemplo
-        type: slides
-        title: Open Licensing
-      - link: https://docs.google.com/presentation/d/1Sh_9lEJ50HtWecB_Zaews-3Shah4TFld/edit?usp=drive_web&ouid=113583685317579296794&rtpof=true
-        speaker: mxrtinez
-        type: slides
-        title: README
-      - link: https://docs.google.com/presentation/d/1hN_aYQT_uL3CczvB-62MSlhPa8Opnukh/edit#slide=id.p2
-        speaker: sayalaruano
-        type: slides
-        title: Contributing Guidelines and Code of Conduct
+      resources: []
       recording: https://youtu.be/M0szFcbGdBU
+      talks:
+      - slides: https://docs.google.com/presentation/d/1YGZVJhEuvuv1YKEVH_DW8aCVnwqCoBRC/edit#slide=id.p1
+        speaker: contraexemplo
+        title: Open Licensing
+        tag: Open Licensing
+      - slides: https://docs.google.com/presentation/d/1Sh_9lEJ50HtWecB_Zaews-3Shah4TFld/edit?usp=drive_web&ouid=113583685317579296794&rtpof=true
+        speaker: mxrtinez
+        title: README
+        tag: README
+      - slides: https://docs.google.com/presentation/d/1hN_aYQT_uL3CczvB-62MSlhPa8Opnukh/edit#slide=id.p2
+        speaker: sayalaruano
+        title: Contributing Guidelines and Code of Conduct
+        tag: Code of Conduct
   '05':
     start: October 17, 2022
     calls:
@@ -208,6 +217,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
+      talks: []
     - date: October 18, 2022
       time: "10:00"
       duration: 90 min
@@ -227,12 +237,13 @@ weeks:
         - Have a look at the [OLS-4 repository](https://github.com/open-life-science/ols-4/issues) for 'project issues'
         - Comment of 1-2 project's recent post (vision, open canvas etc.)
         - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
-      resources:
-      - link: https://docs.google.com/presentation/d/1a14DBUdW2LOAtlNv181gZ_KTc_W_xAqy/edit#slide=id.p1
-        speaker: pherterich
-        type: slides
-        title: Introduction to GitHub
+      resources: []
       recording: https://youtu.be/7Oq81K27NmU
+      talks:
+      - slides: https://docs.google.com/presentation/d/1a14DBUdW2LOAtlNv181gZ_KTc_W_xAqy/edit#slide=id.p1
+        speaker: pherterich
+        title: Introduction to GitHub
+        tag: GitHub Introduction
   '06':
     start: October 24, 2022
     calls:
@@ -255,24 +266,28 @@ weeks:
           Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
         - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
-      resources:
-      - link: https://docs.google.com/presentation/d/12pcWhXgmYwuAXo_h--lIFEqGgJoGmXcprguTKg8obLA/edit#slide=id.g6e56d0296c_0_0
-        speaker: alexwlchan
-        type: slides
-        title: Agile & Iterative Project Management Methods
-      - link: https://2022-10-25-lpc-oss.netlify.app/#8
-        speaker: luispedro
-        type: slides
-        title: Make a robust tool requires real-world usage
-      - link: https://docs.google.com/presentation/d/147I53rNPEMHqixXPDc6vt0Eg9O9mIPBQ/edit?usp=drive_web&ouid=113583685317579296794&rtpof=true
-        speaker: sapetti9
-        type: slides
-        title: Managing & developing research data (RDM)
-      - link: https://docs.google.com/presentation/d/1SJJjYujbAjRUgrjbT7ZSofqp4tgZ5eNf5wPMqHRfmn4/edit#slide=id.g175a0ec481e_1_88
-        speaker: pazbc
-        type: slides
-        title: Open science hardware
+      resources: []
       recording: https://youtu.be/AggJQTgsaaU
+      talks:
+      - slides: https://docs.google.com/presentation/d/12pcWhXgmYwuAXo_h--lIFEqGgJoGmXcprguTKg8obLA/edit#slide=id.g6e56d0296c_0_0
+        speaker: alexwlchan
+        title: Agile & Iterative Project Management Methods
+        recording: https://youtu.be/AggJQTgsaaU?t=2695
+        tag: Agile & Iteractive Project Management
+      - slides: https://2022-10-25-lpc-oss.netlify.app/#8
+        speaker: luispedro
+        title: Make a robust tool requires real-world usage
+        recording: https://youtu.be/AggJQTgsaaU?t=1281
+        tag: Open Source Software
+      - slides: https://docs.google.com/presentation/d/147I53rNPEMHqixXPDc6vt0Eg9O9mIPBQ/edit?usp=drive_web&ouid=113583685317579296794&rtpof=true
+        speaker: sapetti9
+        title: Managing & developing research data (RDM)
+        recording: https://youtu.be/AggJQTgsaaU?t=3717
+        tag: Open Data
+      - slides: https://docs.google.com/presentation/d/1SJJjYujbAjRUgrjbT7ZSofqp4tgZ5eNf5wPMqHRfmn4/edit#slide=id.g175a0ec481e_1_88
+        speaker: pazbc
+        title: Open science hardware
+        tag: Open Hardware
   '07':
     start: October 31, 2022
     calls:
@@ -280,6 +295,7 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
+      talks: []
     - date: November 02, 2022
       time: "17:00"
       duration: 30 min
@@ -287,6 +303,7 @@ weeks:
       title: Q&A call
       type: Q&A
       resources: []
+      talks: []
   '08':
     start: November 07, 2022
     calls:
@@ -303,19 +320,20 @@ weeks:
       after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
         \ assignment\n- Think through community interactions\n- Complete the midterm\
         \ survey\n      \n        "
-      resources:
-      - link: https://docs.google.com/presentation/d/1_0LMMqMrcDh9IfGOv45jXNkxPku3mdehcb51QjVaTCI/present
+      resources: []
+      talks:
+      - slides: https://docs.google.com/presentation/d/1_0LMMqMrcDh9IfGOv45jXNkxPku3mdehcb51QjVaTCI/present
         speaker: melibleq
-        type: slides
         title: Personas, community design for inclusivity
-      - link: https://docs.google.com/presentation/d/1ZmgEnKaED_4Nc9H_UhXC1G3J61qOcjAcuN7Un_RxxWo/edit#slide=id.gf6411d1bc9_1_1
+        tag: Community Design for Inclusivity
+      - slides: https://docs.google.com/presentation/d/1ZmgEnKaED_4Nc9H_UhXC1G3J61qOcjAcuN7Un_RxxWo/edit#slide=id.gf6411d1bc9_1_1
         speaker: chadsansing
-        type: slides
         title: Mountain of Engagement
-      - link: https://docs.google.com/presentation/d/1p_r-mgcOWJD34Tc4V_dgkksmoPjUsILHecSdQuxwyQE/edit?usp=sharing
+        tag: Mountain of Engagement
+      - slides: https://docs.google.com/presentation/d/1p_r-mgcOWJD34Tc4V_dgkksmoPjUsILHecSdQuxwyQE/edit?usp=sharing
         speaker: jywarren
-        type: slides
         title: Hardware and inclusive structures for collaborative work
+        tag: Structures for Collaborative Work
   '09':
     start: November 14, 2022
     calls:
@@ -323,6 +341,7 @@ weeks:
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
+      talks: []
     - date: November 15, 2022
       time: "10:00"
       duration: 90 min
@@ -344,19 +363,20 @@ weeks:
         \ of 1-10 (10 being the most), how much do you enjoy your current work?\n\
         - do you want to switch your career or field? Why or why not?      \n    \
         \  \n        "
-      resources:
+      resources: []
+      talks:
       - speaker: olya-vvedenskaya
-        type: slides
         title: Post-academia career path, Social entrepreneurship
-      - link: https://docs.google.com/presentation/d/1a9OlvL9AY8EMbZm3JPg6dESfbqIdVudpA1IbnznzG2M/edit#slide=id.g7e28a7e96f_0_0
+        tag: Open Leadership
+      - slides: https://docs.google.com/presentation/d/1a9OlvL9AY8EMbZm3JPg6dESfbqIdVudpA1IbnznzG2M/edit#slide=id.g7e28a7e96f_0_0
         speaker: jafsia
-        type: slides
         title: Academic leadership, group or project leaders
-      - link: https://docs.google.com/presentation/d/1MzbVKP8zcKC-SRJlpXUwFOHxl1OxssZO_lq4sKghzLo/edit?usp=sharing
+        tag: Open Leadership
+      - slides: https://docs.google.com/presentation/d/1MzbVKP8zcKC-SRJlpXUwFOHxl1OxssZO_lq4sKghzLo/edit?usp=sharing
         speaker: danielagduca
-        type: slides
         title: Open secrets to finding your path
-      - type: slides
+        tag: Open Leadership
+      - {}
   '10':
     start: November 21, 2022
     calls:
@@ -378,16 +398,19 @@ weeks:
         - You can transfer your tasks to a project management or kanban tools such as GitHub projects ([short intro](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
         - Make sure that by now you have added a license, contribution guideline and a Code of Conduct in your GitHub repository. If you feel stuck and don’t know where you start, take a look at [this repo](https://github.com/malvikasharan/developing_collaborative_document)
         - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-4/issues) with feedback on their project
-      resources:
-      - link: https://docs.google.com/presentation/d/1lwPYHKFaH221S-Y8T8tk1phJpk7fsPA64kn3TfaGWHQ/edit#slide=id.g7e28a7e96f_0_0
-        speaker: dasaptaerwin
-        type: slides
-        title: (Earthquake), preprints, and everything in between
-      - link: https://docs.google.com/presentation/d/14wVZJauH4wT4GBJwz4gCA2AeV6kTPTRZRW1ZMhnJ2Yk/edit
-        speaker: malloryfreeberg
-        type: slides
-        title: "FAIR Principles\nPromoting openness in science"
+      resources: []
       recording: https://youtu.be/HKsK9CCcQYU
+      talks:
+      - slides: https://docs.google.com/presentation/d/1lwPYHKFaH221S-Y8T8tk1phJpk7fsPA64kn3TfaGWHQ/edit#slide=id.g7e28a7e96f_0_0
+        speaker: dasaptaerwin
+        title: (Earthquake), preprints, and everything in between
+        recording: https://youtu.be/HKsK9CCcQYU?t=2156
+        tag: Open Access Publication
+      - slides: https://docs.google.com/presentation/d/14wVZJauH4wT4GBJwz4gCA2AeV6kTPTRZRW1ZMhnJ2Yk/edit
+        speaker: malloryfreeberg
+        title: "FAIR Principles\nPromoting openness in science"
+        recording: https://youtu.be/HKsK9CCcQYU?t=196
+        tag: Open Data
   '11':
     start: November 28, 2022
     calls:
@@ -395,6 +418,7 @@ weeks:
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
+      talks: []
     - date: November 30, 2022
       time: '17:00'
       duration: 30 min
@@ -407,18 +431,20 @@ weeks:
       notes: https://bit.ly/ols-6-week-11
       title: Open-source software
       type: Skill-up
-      resources:
-      - link: https://drive.google.com/file/d/1w8AUnsbwSpqfEK0YxKmSZGIeIlEbppSN/view?usp=share_link
+      resources: []
+      recording: https://youtu.be/n3JkOyt6bRM
+      talks:
+      - slides: https://drive.google.com/file/d/1w8AUnsbwSpqfEK0YxKmSZGIeIlEbppSN/view?usp=share_link
         speaker: gemmaturon
-        type: slides
         title: Code style, testing
+        tag: Good Coding Practices
       - speaker: graciellehigino
-        type: slides
         title: Code-review
-      - link: https://docs.google.com/presentation/d/12hqzyIdYqSKnFokcTT2i8QhO74vcx7OkluUdiRd_ah8/edit?usp=share_link
+        tag: Code Review
+      - slides: https://docs.google.com/presentation/d/12hqzyIdYqSKnFokcTT2i8QhO74vcx7OkluUdiRd_ah8/edit?usp=share_link
         speaker: ha0ye
-        type: slides
         title: Package management
+        tag: Package Management
   '12':
     start: December 05, 2022
     calls:
@@ -439,15 +465,17 @@ weeks:
         \ your workplace inclusive for them?\n   The big idea: Based on your experience,\
         \ what would you consider doing to make your project inclusive for your contributors\
         \ or team members?"
-      resources:
-      - link: https://docs.google.com/presentation/d/1Kf6Xw0pZr34JAYp1D48PdLxZKMfI2O_NLZ2SHyrMrl0/edit?usp=sharing
+      resources: []
+      recording: https://youtu.be/M3fN65m00PU
+      talks:
+      - slides: https://docs.google.com/presentation/d/1Kf6Xw0pZr34JAYp1D48PdLxZKMfI2O_NLZ2SHyrMrl0/edit?usp=sharing
         speaker: pivg
-        type: slides
         title: Diversity and Inclusion
-      - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
-        speaker: ''
-        type: slides
+        tag: Diversity & Inclusion
+      - slides: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
+        speaker:
         title: Ally skills
+        tag: Ally Skills
   '13':
     start: December 12, 2022
     calls:
@@ -455,6 +483,7 @@ weeks:
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
+      talks: []
     - date: December 13, 2022
       time: "10:00"
       duration: 90 min
@@ -471,11 +500,13 @@ weeks:
         \ which you thrive - sustain them; identify the least fulfilling conditions\
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
-      resources:
-      - link: https://drive.google.com/file/d/1wtX0_5ZMO03dsoFliWyWSgbnTCkjpjY2/view?usp=share_link
+      resources: []
+      recording: https://youtu.be/nvNSivr9nO4
+      talks:
+      - slides: https://drive.google.com/file/d/1wtX0_5ZMO03dsoFliWyWSgbnTCkjpjY2/view?usp=share_link
         speaker: wingram
-        type: slides
         title: Personal Ecology and Self Care
+        tag: Personal Ecology
   '14':
     start: December 19, 2022
     calls:
@@ -490,15 +521,19 @@ weeks:
       type: Cohort
       after: '- Think about and plan to apply FAIR principles to your project in your
         own time'
-      resources:
-      - link: https://osf.io/w3v7j
+      resources: []
+      recording: https://youtu.be/I1Jks2PE0ME
+      talks:
+      - slides: https://osf.io/w3v7j
         speaker: bethaniley
-        type: slides
         title: Applying FAIR principles to (open) data management
-      - link: https://www.canva.com/design/DAFR7veE-rw/C_LmTG_0lzCxAYcSM-QZhQ/view?utm_content=DAFR7veE-rw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+        recording: https://youtu.be/I1Jks2PE0ME?t=595
+        tag: Open Data
+      - slides: https://www.canva.com/design/DAFR7veE-rw/C_LmTG_0lzCxAYcSM-QZhQ/view?utm_content=DAFR7veE-rw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
         speaker: marcoanteghini
-        type: slides
         title: 'Public engagement: Open Infrastructure, Citizen Science, Science Communication'
+        recording: https://youtu.be/I1Jks2PE0ME?t=2130
+        tag: Open Engagement of Social Actors
   '15':
     start: January 09, 2023
     calls:
@@ -506,6 +541,7 @@ weeks:
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
+      talks: []
     - date: January 10, 2023
       time: "09:00"
       duration: 60 min
@@ -524,6 +560,7 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
       resources: []
+      talks: []
     - date: January 11, 2023
       notes: https://bit.ly/ols-6-week-15
       content: |-
@@ -542,6 +579,7 @@ weeks:
       time: "14:00"
       duration: 60 min
       resources: []
+      talks: []
     - date: January 12, 2023
       time: "17:00"
       duration: 60 min
@@ -560,6 +598,7 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
       resources: []
+      talks: []
   '16':
     start: January 16, 2023
     calls:
@@ -581,6 +620,8 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
       resources: []
+      recording: https://youtu.be/VlWA7vygULc
+      talks: []
     - date: January 18, 2023
       notes: https://pad.sfconservancy.org/p/ols-6-graduations
       content: |-
@@ -599,6 +640,8 @@ weeks:
       time: "14:00"
       duration: 60 min
       resources: []
+      recording: https://youtu.be/lplbwoq6ZTg
+      talks: []
     - date: January 19, 2023
       time: "17:00"
       duration: 60 min
@@ -617,3 +660,5 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
       resources: []
+      recording: https://youtu.be/Rvs4d5JzCPo
+      talks: []

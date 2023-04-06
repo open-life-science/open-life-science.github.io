@@ -1,956 +1,847 @@
-# Schedule for OLS-1
-#
-# 'weeknb':
-#   start:
-#   end:
-#   calls:
-#     -
-#       type: Mentor-Mentee/Cohort/Mentor
-#       duration: .. min
-#       title:
-#       date: Month Day, Year
-#       time: '13:00'
-#       calendar-event: link to calendar event
-#       agenda: tldr
-#       notes: link to notes
-#       recording: link to recording
-#       content: |
-#         Details of the content written in Markdown
-#       before: |
-#         Tasks to do before as a list written in Markdown
-#       after: |
-#         Tasks to do after as a list written in Markdown
-#       resources:
-#         -
-#           type: slides/document/external-link
-#           title:
-#           speaker: username in people.yaml, if slides
-#           link:
+# Schedule for the OLS-2
 ---
 timeline:
--
-  date: May 20, 2020
+- date: May 20, 2020
   description: Opening of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
-  details: We have [templates](https://github.com/open-life-science/application-forms) you can download to use when preparing your application.
--
-  date: June 12, 2020
+  details: We have [templates](https://github.com/open-life-science/application-forms)
+    you can download to use when preparing your application.
+- date: June 12, 2020
   description: Application webinar
   type:
   - Talk
   - Q&A
   notes: https://docs.google.com/document/d/1bXfKuEOJebqIoM3tT2Qn5Y9_y1VLu4Mi8vimLHhSi78/edit?usp=sharing
--
-  date: June 23, 2020
+- date: June 23, 2020
   description: Application webinar
   type:
   - Recording
   - Q&A
   notes: https://docs.google.com/document/d/1bboIr0_tkji8qnMOsMvqz8zyHfboe7fJJV8eV0J_cSs/edit?usp=sharing
--
-  date: June 30, 2020
-  description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2) for main cohort applications
--
-  date: July 15, 2020
-  description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2) for the collaborating organisations - [_The Turing Way_](/ols-2#collaborators)
--
-  date: July 24, 2020
+- date: June 30, 2020
+  description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
+    for main cohort applications
+- date: July 15, 2020
+  description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
+    for the collaborating organisations - [_The Turing Way_](/ols-2#collaborators)
+- date: July 24, 2020
   description: Call for applications closed
--
-  date: July 24, 2020
+- date: July 24, 2020
   description: Successful applicants announced
 weeks:
   '01':
     start: August 31, 2020
     calls:
-      -
-        type: Mentor-Mentee
-        duration: 30 min
-        title: Meet your mentor!
-        agenda: Meet each other and discuss your personal motivation, expectations, working practices and project goals
-        content: |
-          This is your first meeting with your OLS mentor. This call should include you and your mentor. If you are working on a team of up to (and no more than) 3 registered participants, you can all meet together with your mentor.
+    - type: Mentor-Mentee
+      duration: 30 min
+      title: Meet your mentor!
+      agenda: Meet each other and discuss your personal motivation, expectations,
+        working practices and project goals
+      content: |
+        This is your first meeting with your OLS mentor. This call should include you and your mentor. If you are working on a team of up to (and no more than) 3 registered participants, you can all meet together with your mentor.
 
-          These 30-minute meetings will happen every other week during OLS. The default time is during your cohort call time. Your mentor will reach out to you this week to confirm when and where you'll be meeting.
+        These 30-minute meetings will happen every other week during OLS. The default time is during your cohort call time. Your mentor will reach out to you this week to confirm when and where you'll be meeting.
 
-          In your first meeting with your mentor, introduce yourselves and then:
-          - Make sure you have your GitHub account set up
-          - Review your self-assessment
-          - Set 1-2 personal open science goals for yourself
-          - Set 1-2 open culture goals for your community, organization, or project
+        In your first meeting with your mentor, introduce yourselves and then:
+        - Make sure you have your GitHub account set up
+        - Review your self-assessment
+        - Set 1-2 personal open science goals for yourself
+        - Set 1-2 open culture goals for your community, organization, or project
 
-          Document your goals in your shared notes; you will return to these goals frequently to assess your progress towards meeting them.
-        before: |
-          - Create an account on [GitHub](https://github.com)
-          - Complete **your own copy** of the [open leadership self-assessment](https://docs.google.com/document/d/1oQgdfj4lPnypAyb9_Ba0Zt7E8J5L6qMvuKwu0wgQsjs/edit?usp=sharing) and share it with your mentor
+        Document your goals in your shared notes; you will return to these goals frequently to assess your progress towards meeting them.
+      before: |
+        - Create an account on [GitHub](https://github.com)
+        - Complete **your own copy** of the [open leadership self-assessment](https://docs.google.com/document/d/1oQgdfj4lPnypAyb9_Ba0Zt7E8J5L6qMvuKwu0wgQsjs/edit?usp=sharing) and share it with your mentor
 
-              If you're a group, each teammate should complete this assessment individually. This is here to help you set your own personal goals during the program. No need to share your results, but be ready to share your thoughts with your mentor.
+            If you're a group, each teammate should complete this assessment individually. This is here to help you set your own personal goals during the program. No need to share your results, but be ready to share your thoughts with your mentor.
 
-          - Make sure you know when and how you'll be meeting with your mentor
-        after: |
-          - Create an issue on the [OLS-2 GitHub repository](https://github.com/open-life-science/ols-2/issues/new) for your OLS work and share the link with your mentor
-          - Draft a brief vision statement using your goals
+        - Make sure you know when and how you'll be meeting with your mentor
+      after: |
+        - Create an issue on the [OLS-2 GitHub repository](https://github.com/open-life-science/ols-2/issues/new) for your OLS work and share the link with your mentor
+        - Draft a brief vision statement using your goals
 
-              [This lesson](https://mozilla.github.io/open-leadership-training-series/articles/introduction-to-open-leadership/stating-your-project-vision/) from the Open Leadership Training Series (OLTS) might be helpful
+            [This lesson](https://mozilla.github.io/open-leadership-training-series/articles/introduction-to-open-leadership/stating-your-project-vision/) from the Open Leadership Training Series (OLTS) might be helpful
 
-              You might address:
-              - The problem you're trying to solve.
-              - How you think openness and open leadership will help solve it.
-              - How meeting your personal goals will help you and help solve the problem.
-              - How meeting your cultural goals for your community, organization, or project will help solve the problem.
+            You might address:
+            - The problem you're trying to solve.
+            - How you think openness and open leadership will help solve it.
+            - How meeting your personal goals will help you and help solve the problem.
+            - How meeting your cultural goals for your community, organization, or project will help solve the problem.
 
-          - Add your vision statement to your GitHub issue
-          - Check the [Syllabus](/ols-2) for notes and connection info for all the cohort calls
-      -
-        type: Mentor
-        duration: 60 min
-        title: Mentor training
-        date: September 1, 2020
-        time: '16:00'
-        content: |
-          During our first cohort call, you will:
-          - Understand common successes and challenges in mentoring OLS participants.
-          - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-      -
-        type: Mentor
-        duration: 60 min
-        title: Mentor training
-        date: September 4, 2020
-        time: '11:30'
-        content: |
-          During our first cohort call, you will:
-          - Understand common successes and challenges in mentoring OLS participants.
-          - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+        - Add your vision statement to your GitHub issue
+        - Check the [Syllabus](/ols-2) for notes and connection info for all the cohort calls
+    - type: Mentor
+      duration: 60 min
+      title: Mentor training
+      date: September 1, 2020
+      time: '16:00'
+      content: |
+        During our first cohort call, you will:
+        - Understand common successes and challenges in mentoring OLS participants.
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+    - type: Mentor
+      duration: 60 min
+      title: Mentor training
+      date: September 4, 2020
+      time: '11:30'
+      content: |
+        During our first cohort call, you will:
+        - Understand common successes and challenges in mentoring OLS participants.
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
   '02':
-    start: September 7, 2020
+    start: September 07, 2020
     calls:
-      -
-        type: Mentor
-        duration: 180 min
-        title: Mentoring workshop
-        date: September 8, 2020
-        time: '09:00'
-      -
-        type: Mentor
-        duration: 180 min
-        title: Mentoring workshop
-        date: September 8, 2020
-        time: '16:00'
-      -
-        type: Cohort
-        duration: 90 min
-        title: Welcome to Open Life Science!
-        date: September 10, 2020
-        time: '08:00'
-        hosts:
-          - bebatut
-          - yochannah
-          - malvikasharan
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/week-02
-        recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
-        agenda: Meet other members of your cohort, Share project vision, Intro to working openly (open canvas)
-        content: |
-          During our first cohort call, we will:
-          - Say hello and introduce ourselves.
-          - Review our Community Participation Guidelines.
-          - Review our definition of open leadership.
-          - Unpack the differences between "open by default" and "open by design"
-          - Learn about common community interactions in open projects.
-          - Learn about common value exchanges between community members in open science
+    - type: Mentor
+      duration: 180 min
+      title: Mentoring workshop
+      date: September 8, 2020
+      time: '09:00'
+    - type: Mentor
+      duration: 180 min
+      title: Mentoring workshop
+      date: September 8, 2020
+      time: '16:00'
+    - type: Cohort
+      duration: 90 min
+      title: Welcome to Open Life Science!
+      date: September 10, 2020
+      time: "08:00"
+      hosts:
+      - bebatut
+      - yochannah
+      - malvikasharan
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/@ols-2/week-02
+      recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
+      agenda: Meet other members of your cohort, Share project vision, Intro to working
+        openly (open canvas)
+      content: |
+        During our first cohort call, we will:
+        - Say hello and introduce ourselves.
+        - Review our Community Participation Guidelines.
+        - Review our definition of open leadership.
+        - Unpack the differences between "open by default" and "open by design"
+        - Learn about common community interactions in open projects.
+        - Learn about common value exchanges between community members in open science
 
-          **Haven't heard from your mentor yet?** Let us know.
-        before: |
-          - Add your vision statement to your GitHub issue.
-        after: |
-          - Look up two other projects and comment on their issues with feedback on their vision statement
-          - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
-          - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
-          - Share a link to your Open Canvas in your GitHub issue
-          - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
-          - Comment on your issue with your draft Roadmap
-          - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
-        resources:
-          -
-            type: slides
-            title: Introducing OLS
-            speaker: bebatut
-            link: https://docs.google.com/presentation/d/1XZKm1oPAv87zeBn1RdEQxm10azwO719GP8jiGOwGMks/present?token=AC4w5VhXi2dlXXfeE4czpXZ5jOVuP2N8cw%3A1599113361392&includes_info_params=1&eisi=CM_q8r6pzOsCFQXaOgcdawAMQA#slide=id.g6e457e6ac5_0_69
-          -
-            type: slides
-            title: Open Canvas
-            speaker: yochannah
-            link: https://docs.google.com/presentation/d/1aWbD7rLCQ5fvjUuT8lPGlD4mj8WAKR_oXDB_8jDxJTU/present?token=AC4w5ViVcBEZL29ZyuACPXFL3uC3Tji5NA%3A1599113484923&includes_info_params=1&eisi=CIDs5fmpzOsCFWkTswUdEPYLKg#slide=id.g1088c5b110_0_183
-          -
-            type: slides
-            title: Road Mapping
-            link: https://docs.google.com/presentation/d/17JbIvsXpSEZ82FYzpf63CuR1LJoICJ8lOSUdN0BpYjM/present?token=AC4w5Vj3tQExRMn2-nsVcJAgTo1qQlzizg%3A1599113488303&includes_info_params=1&eisi=CKPHtPupzOsCFZMiqQEd6d0EAA#slide=id.g1088c5b110_0_183
-          -
-            type: document
-            title: Open Canvas
-            link: https://docs.google.com/presentation/d/119EmheHg4mPySmbSamMZ-6V3cQKmVgTllbWhNOf7Sbo/edit?usp=sharing
-          -
-            type: document
-            title: Compare & contrast - community interactions
-            link: https://docs.google.com/document/d/1sVuFTh_YMfLzxx8gkp7Oc3mHGjRP6bmQiipUfhxGNog/edit?usp=sharing
+        **Haven't heard from your mentor yet?** Let us know.
+      before: |
+        - Add your vision statement to your GitHub issue.
+      after: |
+        - Look up two other projects and comment on their issues with feedback on their vision statement
+        - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
+        - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
+        - Share a link to your Open Canvas in your GitHub issue
+        - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
+        - Comment on your issue with your draft Roadmap
+        - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
+      resources:
+      - type: document
+        title: Open Canvas
+        link: https://docs.google.com/presentation/d/119EmheHg4mPySmbSamMZ-6V3cQKmVgTllbWhNOf7Sbo/edit?usp=sharing
+      - type: document
+        title: Compare & contrast - community interactions
+        link: https://docs.google.com/document/d/1sVuFTh_YMfLzxx8gkp7Oc3mHGjRP6bmQiipUfhxGNog/edit?usp=sharing
+      talks:
+      - slides: https://docs.google.com/presentation/d/1w_WWb7Mj7NgX4pLBejB4Vc_ofK7ZHOUYOT1MCeKVi20/present?token=AC4w5VjvHWSZBrOwwb1EcSm8v45lUi3nqQ%3A1599724146314&includes_info_params=1&eisi=CLPd6-uM3usCFdIWswUdsiINRA#slide=id.g6e457e6ac5_0_69
+        speaker: bebatut
+        title: Welcome to OLS!
+      - slides: https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
+        speaker: yochannah
+        title: Introducing Open Canvas
+      - slides: https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
+        title: Road Mapping
   '03':
     start: September 14, 2020
     calls:
-      -
-        type: Mentor-Mentee
-        duration: 30 min
-        title: Meet your mentor!
-        agenda: Discuss assignments from the cohort call & concrete implementations
-        content: |
-          During this week's mentor meeting, you will:
-          - Establish a check-in ritual.
-          - Establish a gratitude ritual.
-          - Review your goals and any progress you've made towards them.
-          - Review your community interactions and value exchanges assignment.
-          - Review your repo and get any help you need adding your vision statement, open canvas, and open license to it.
-          - Identify any experts you'd like to invite to your next mentor meeting.
+    - type: Mentor-Mentee
+      duration: 30 min
+      title: Meet your mentor!
+      agenda: Discuss assignments from the cohort call & concrete implementations
+      content: |
+        During this week's mentor meeting, you will:
+        - Establish a check-in ritual.
+        - Establish a gratitude ritual.
+        - Review your goals and any progress you've made towards them.
+        - Review your community interactions and value exchanges assignment.
+        - Review your repo and get any help you need adding your vision statement, open canvas, and open license to it.
+        - Identify any experts you'd like to invite to your next mentor meeting.
 
-          **Haven't heard from your mentor yet?** Let us know.
-        before: |
-          - Complete your week 2 assignments.
-        after: |
-          - Complete any week 2 assignments that you have left to do
-          - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
-          - Rework on your vision statement
-              - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/)
-              - Refine it with the editor's help
-              - Paste it in your GitHub issue
-              - Read it to the Breakout room friends during the next call and hear their feedback :)
-              - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
-      -
-        type: Coworking
-        duration: 60 min
-        title: 'Coworking on assignments, knowledge exchange and networking'
-        date: September 17, 2020
-        time: '15:00'
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/coworking#Week-3
-        content: |
-          During this week's coworking call, you will:
-          - take some time to get to know each other over informal networking opportunity
-          - start coworking session
-        before: |
-          - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
-        after: |
-          - Continue on with your project, and connect with others on Gitter or other social media platforms.
+        **Haven't heard from your mentor yet?** Let us know.
+      before: |
+        - Complete your week 2 assignments.
+      after: |
+        - Complete any week 2 assignments that you have left to do
+        - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
+        - Rework on your vision statement
+            - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/)
+            - Refine it with the editor's help
+            - Paste it in your GitHub issue
+            - Read it to the Breakout room friends during the next call and hear their feedback :)
+            - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
+    - type: Coworking
+      duration: 60 min
+      title: 'Coworking on assignments, knowledge exchange and networking'
+      date: September 17, 2020
+      time: '15:00'
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/@ols-2/coworking#Week-3
+      content: |
+        During this week's coworking call, you will:
+        - take some time to get to know each other over informal networking opportunity
+        - start coworking session
+      before: |
+        - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
+      after: |
+        - Continue on with your project, and connect with others on Gitter or other social media platforms.
   '04':
     start: September 21, 2020
     calls:
-      -
-        type: Cohort
-        duration: 90 min
-        title: Tooling and roadmapping for Open projects
-        date: September 24, 2020
-        time: '16:30'
-        hosts:
-          - yochannah
-          - malvikasharan
-          - emmyft
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmM3OTVlMGFpbTJjajJhdXExZ2JvOGNlaDQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/week-04
-        recording: https://www.youtube.com/watch?v=aX40ntw0uIg&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=2
-        agenda: 'Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
-        content: |
-          During this week's cohort call, we will:
-          - Look at project structure as we build open projects
-          - Go over the standard files in open projects
-              - README
-              - LICENSE
-              - CODE_OF_CONDUCT.md
-              - CONTRIBUTING.md
+    - type: Cohort
+      duration: 90 min
+      title: Tooling and roadmapping for Open projects
+      date: September 24, 2020
+      time: "16:30"
+      hosts:
+      - yochannah
+      - malvikasharan
+      - emmyft
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmM3OTVlMGFpbTJjajJhdXExZ2JvOGNlaDQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/lkBuXlnRRyepHIS9GPMyVw?view
+      recording: https://www.youtube.com/watch?v=aX40ntw0uIg&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=2
+      agenda: 'Working with GitHub as a community hub: Markdown as a tool to make
+        websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
+      content: |
+        During this week's cohort call, we will:
+        - Look at project structure as we build open projects
+        - Go over the standard files in open projects
+            - README
+            - LICENSE
+            - CODE_OF_CONDUCT.md
+            - CONTRIBUTING.md
 
-              The exact project structure and files used may look different on your project.
-        before: |
-          - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
-          - Rework on your vision statement
-              - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/)
-              - Refine it with the editor's help
-              - Paste it in your GitHub issue
-              - Read it to the Breakout room friends during the next call and hear their feedback :)
-              - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
-        after: |
-          - Create a GitHub repository for your project
-          - Add the link to your repository in your issue
-          - Use your canvas to [start writing a `README.md` file](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/), or landing page, for your project
-          - Link your README in a comment on this issue
-          - Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
-          - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
-          - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
-        resources:
-          -
-            type: slides
-            title: A Primer on Open Licenses
-            speaker: christinerogers
-            link: https://docs.google.com/presentation/d/1qep_rtGuiD7MXOul1KJrgjNYjYw_4WOvdpUO1tTUj1w/present?token=AC4w5Vj7DkKeJTKiibVnpKF8HKXCHouOUg%3A1599113585685&includes_info_params=1&eisi=CKaU7KmqzOsCFVh6gQod7lAFVw#slide=id.g6e56d02ad9_0_0
-          -
-            type: slides
-            title: READMEs for Open Projects
-            speaker: mkuzak
-            link: https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/present?token=AC4w5VgdWZQVAj-MpxsAlpTYxoakRsYGWw%3A1603709512329&includes_info_params=1&eisi=COHeuL6L0uwCFbiWTwkdeyMALg#slide=id.g6e56d0296c_0_0
-          -
-            type: slides
-            title: Contributing Guidelines and Codes of Conduct for Open Projects
-            speaker: lwinfree
-            link: https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/present?token=AC4w5VgJd1eOqut8MVK92Mz0WZj2MLXHqA%3A1599113591961&includes_info_params=1&eisi=CIWw66yqzOsCFWoSswUdMzUGDA#slide=id.g6e56d02ad9_0_0
+            The exact project structure and files used may look different on your project.
+      before: |
+        - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
+        - Rework on your vision statement
+            - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/)
+            - Refine it with the editor's help
+            - Paste it in your GitHub issue
+            - Read it to the Breakout room friends during the next call and hear their feedback :)
+            - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
+      after: |
+        - Create a GitHub repository for your project
+        - Add the link to your repository in your issue
+        - Use your canvas to [start writing a `README.md` file](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/), or landing page, for your project
+        - Link your README in a comment on this issue
+        - Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
+        - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
+        - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
+      resources: []
+      talks:
+      - slides: https://docs.google.com/presentation/d/1qep_rtGuiD7MXOul1KJrgjNYjYw_4WOvdpUO1tTUj1w/edit?usp=sharing
+        speaker: christinerogers
+        title: A Primer on Open Licenses
+      - slides: https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/edit?usp=sharing
+        speaker: mkuzak
+        title: READMEs for Open Projects
+      - slides: https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/edit?usp=sharing
+        speaker: lwinfree
+        title: Contributing Guidelines and Codes of Conduct for Open Projects
   '05':
     start: September 28, 2020
     calls:
-      -
-        type: Mentor-Mentee
-        duration: 30 min
-        title: Meet your mentor!
-        before: |
-          - Complete your week 4 assignments
-        after: |
-          - Complete any week 4 assignments that you have left to do.
-      -
-        type: Coworking
-        duration: 60 min
-        title: Coworking on assignments, knowledge exchange and networking
-        date: October 01, 2020
-        time: '15:00'
-        notes: https://hackmd.io/@ols-2/coworking#Week-5
-        hosts:
-        - katesimpson
-      -
-        type: Cohort
-        duration: 90 min
-        title: 'Skill-up: GitHub tutorial for beginners'
-        date: October 01, 2020
-        time: '11:30'
-        hosts:
-          - yochannah
-          - malvikasharan
-          - cassgvp
-          - mloning
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/week-05
-        recording: https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
-        content: |
-          During this week's cohort call, we will give you an optional 1 hour GitHub tutorial covering:
-          - Creating a repository
-          - Writing in Markdown
-          - Creating a README file
-          - Enabling a small website via GitHub
-          - Managing issues and labels
-          - Submit changes via Pull Request
-        before: |
-          - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
-        resources:
-          -
-            type: slides
-            title: Friendly GitHub Intro
-            speaker: malvikasharan
-            link: https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/present?token=AC4w5Vgao-CJFJTShFlWh9cIG6CEbMU5WA%3A1603709681166&includes_info_params=1&eisi=CNaw-o6M0uwCFcqPTwkd5_0HMQ#slide=id.g526267be46_0_606
-          -
-            type: slides
-            title: GitHub for collaborative documentation
-            speaker: cassgvp
-            link: https://slides.com/cassgvp/deck-12bf49/
-          -
-            type: external-link
-            title: GitHub for Collaboration (from Mozilla)
-            link: https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
-          -
-            type: external-link
-            title: Understanding the GitHub workflow
-            link: https://guides.github.com/introduction/flow/
-          -
-            type: external-link
-            title: A Friendly Github Intro Workshop (from Danielle Robinson)
-            link: https://daniellecrobinson.github.io/friendly-github-intro/
-          -
-            type: external-link
-            title: GitHub help
-            link: https://help.github.com
-          -
-            type: external-link
-            title: Oh Shit, Git!?!
-            link: http://ohshitgit.com
-          -
-            type: external-link
-            title: Try Git
-            link: https://try.github.io
-          -
-            type: external-link
-            title: Git book
-            link: https://git-scm.com/book/en/v2
-          -
-            type: external-link
-            title: GitHub glossary
-            link: https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
-          -
-            type: external-link
-            title: Writing on Github
-            link: https://help.github.com/categories/writing-on-github/
-          -
-            type: external-link
-            title: Markdown Cheatsheet
-            link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-          -
-            type: external-link
-            title: Git workflow
-            link: https://www.atlassian.com/git/tutorials/comparing-workflows
+    - type: Mentor-Mentee
+      duration: 30 min
+      title: Meet your mentor!
+      before: |
+        - Complete your week 4 assignments
+      after: |
+        - Complete any week 4 assignments that you have left to do.
+    - type: Coworking
+      duration: 60 min
+      title: Coworking on assignments, knowledge exchange and networking
+      date: October 01, 2020
+      time: '15:00'
+      notes: https://hackmd.io/@ols-2/coworking#Week-5
+      hosts:
+      - katesimpson
+    - type: Cohort
+      duration: 90 min
+      title: 'Skill-up: GitHub tutorial for beginners'
+      date: October 01, 2020
+      time: '11:30'
+      hosts:
+      - yochannah
+      - malvikasharan
+      - cassgvp
+      - mloning
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/@ols-2/week-05
+      recording: https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
+      content: |
+        During this week's cohort call, we will give you an optional 1 hour GitHub tutorial covering:
+        - Creating a repository
+        - Writing in Markdown
+        - Creating a README file
+        - Enabling a small website via GitHub
+        - Managing issues and labels
+        - Submit changes via Pull Request
+      before: |
+        - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
+      resources:
+      - type: external-link
+        title: GitHub for Collaboration (from Mozilla)
+        link: https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
+      - type: external-link
+        title: Understanding the GitHub workflow
+        link: https://guides.github.com/introduction/flow/
+      - type: external-link
+        title: A Friendly Github Intro Workshop (from Danielle Robinson)
+        link: https://daniellecrobinson.github.io/friendly-github-intro/
+      - type: external-link
+        title: GitHub help
+        link: https://help.github.com
+      - type: external-link
+        title: Oh Shit, Git!?!
+        link: http://ohshitgit.com
+      - type: external-link
+        title: Try Git
+        link: https://try.github.io
+      - type: external-link
+        title: Git book
+        link: https://git-scm.com/book/en/v2
+      - type: external-link
+        title: GitHub glossary
+        link: https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
+      - type: external-link
+        title: Writing on Github
+        link: https://help.github.com/categories/writing-on-github/
+      - type: external-link
+        title: Markdown Cheatsheet
+        link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+      - type: external-link
+        title: Git workflow
+        link: https://www.atlassian.com/git/tutorials/comparing-workflows
+    - date: October 01, 2020
+      time: "11:30"
+      duration: 90 min
+      notes: https://hackmd.io/@ols-2/week-05
+      title: GitHub tutorial for beginners
+      recording: https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
+      type: Skill-up
+      talks: []
   '06':
-    start: October 5, 2020
+    start: October 05, 2020
     calls:
-      -
-        type: Cohort
-        duration: 90 min
-        title: 'Open Science I: Project Development'
-        date: October 8, 2020
-        time: '08:00'
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/week-06
-        recording: https://www.youtube.com/watch?v=fyz4gB4XPJk
-        hosts:
-          - yochannah
-          - malvikasharan
-          - emmyft
-        agenda: 'Developing Open Projects: Iterative and agile project management, Open- Source, Software, Hardware, Data'
-        content: |
-          During this week's cohort call, we will cover :
-          - Agile and iterative project management methods
-          - Open Source Software
-          - Open Hardware
-          - Open Data
-        before: |
-          - Look up two other projects and comment on their issues with feedback on their README
-        after: |
-          - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
+    - type: Cohort
+      duration: 90 min
+      title: 'Open Science I: Project Development'
+      date: October 08, 2020
+      time: "08:00"
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/@ols-2/week-06
+      recording: https://www.youtube.com/watch?v=fyz4gB4XPJk
+      hosts:
+      - yochannah
+      - malvikasharan
+      - emmyft
+      agenda: 'Developing Open Projects: Iterative and agile project management, Open-
+        Source, Software, Hardware, Data'
+      content: |
+        During this week's cohort call, we will cover :
+        - Agile and iterative project management methods
+        - Open Source Software
+        - Open Hardware
+        - Open Data
+      before: |
+        - Look up two other projects and comment on their issues with feedback on their README
+      after: |
+        - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
 
-            For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
+          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
 
-          - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
+        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
 
-            Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
+          Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
 
-            In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
+          In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
 
-          - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your community
+        - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your community
 
-            We will revisit this next week so no need to rush!
-        resources:
-          -
-            type: slides
-            title: Agile & Iterative Project Management Methods
-            speaker: unode
-            link: https://docs.google.com/presentation/d/1CWnHXZHFDYFTqE2KKgZ8R5i_46XqAqnjy12gYSDESxk/present?token=AC4w5VhuZrjLyqzEl19afWzJms0ROGsZpA%3A1603710036881&includes_info_params=1&eisi=CKmOybiN0uwCFUbcJgodoF8EYA#slide=id.g7e28a7e96f_0_0
-          -
-            type: slides
-            title: Open Scientific Code in Research
-            speaker: anenadic
-            link: https://docs.google.com/presentation/d/1uZuqgoJp67uRB6t0LCZJ06V8YYyff9-iqrv6zfqtOhk/present?token=AC4w5ViAMNxRgG09-7TdDDvqx-iLzJCvTQ%3A1603710096463&includes_info_params=1&eisi=CPKL_tSN0uwCFYrMOgcdZ5sDOw#slide=id.p
-          -
-            type: slides
-            title: Open Data
-            speaker: orchid00
-            link: https://figshare.com/articles/presentation/Open_data_Open_Life_Science_OSL-2/13065308/1
-          -
-            type: slides
-            title: Open Hardware
-            speaker: thessaly
-            link: https://youtu.be/BtUNjoTr5eg
-          -
-            type: document
-            title: Project Development Plan
-            link: https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
+          We will revisit this next week so no need to rush!
+      resources:
+      - type: document
+        title: Project Development Plan
+        link: https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
+      talks:
+      - slides: https://docs.google.com/presentation/d/1CWnHXZHFDYFTqE2KKgZ8R5i_46XqAqnjy12gYSDESxk/edit?usp=sharing
+        speaker: unode
+        title: Agile and iterative project management methods
+        recording: https://youtu.be/fyz4gB4XPJk?t=410
+      - slides: https://docs.google.com/presentation/d/1uZuqgoJp67uRB6t0LCZJ06V8YYyff9-iqrv6zfqtOhk
+        speaker: anenadic
+        title: Open Source Software
+        recording: https://youtu.be/fyz4gB4XPJk?t=1266
+      - slides: https://doi.org/10.6084/m9.figshare.13065308.v1
+        speaker: orchid00
+        title: Open Data
+        recording: https://youtu.be/fyz4gB4XPJk?t=2304
+      - speaker: thessaly
+        title: Open tools, for opening science
+        recording: https://www.youtube.com/watch?v=BtUNjoTr5eg
   '07':
     start: October 12, 2020
     calls:
-      -
-        type: Mentor-Mentee
-        duration: 30 min
-        title: Meet your mentor!
-        before: |
-          - Complete your week 6 assignments.
-        after: |
-          - Complete any week 6 assignments that you have left to do.
-      -
-        type: Coworking
-        duration: 60 min
-        title: Coworking on assignments, knowledge exchange and networking
-        date: October 12, 2020
-        time: '10:00'
-        notes: https://hackmd.io/@ols-2/coworking#Week-7
-        hosts:
-        - lauracarter
-      -
-        type: Mentor
-        duration: 60 min
-        title: Mentor training
-        date:
-        time:
-        content: |
-          During our first cohort call, you will:
-          - Share your experience been so far as a mentor in OLS-1
-          - Learn about the GROW model
+    - type: Mentor-Mentee
+      duration: 30 min
+      title: Meet your mentor!
+      before: |
+        - Complete your week 6 assignments.
+      after: |
+        - Complete any week 6 assignments that you have left to do.
+    - type: Coworking
+      duration: 60 min
+      title: Coworking on assignments, knowledge exchange and networking
+      date: October 12, 2020
+      time: '10:00'
+      notes: https://hackmd.io/@ols-2/coworking#Week-7
+      hosts:
+      - lauracarter
+    - type: Mentor
+      duration: 60 min
+      title: Mentor training
+      date:
+      time:
+      content: |
+        During our first cohort call, you will:
+        - Share your experience been so far as a mentor in OLS-1
+        - Learn about the GROW model
   '08':
     start: October 19, 2020
     calls:
-      -
-        type: Cohort
-        duration: 90 min
-        title: 'Open Science II: Knowledge Dissemination'
-        date: October 22, 2020
-        time: '16:30'
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/week-08
-        recording:
-        hosts:
-          - yochannah
-          - malvikasharan
-          - emmyft
-        agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training'
-        content: |
-          During this week's cohort call, we will:
-          - Preprint publications, DOI and citation
-          - Open protocols
-          - Open Education & Training
-          - Citizen Science
-        before:
-        resources:
-          -
-            type: slides
-            title: Open Education and Training - MetaDocencia Case Study
-            speaker: lauracion
-            link: https://docs.google.com/presentation/d/1Pw8w5EYw_N2hhrGQaFBXnsK5Qg5ID84tCNzCTpNbYyA/present?token=AC4w5VhTbMcvRCEBTBID_RjTsUAnzObzpg%3A1603710553527&includes_info_params=1&eisi=CKri9q6P0uwCFXWCIwAdZz4LfQ#slide=id.g7e28a7e96f_0_0
-          -
-            type: slides
-            title: Preprint in the Context of Open Science
-            speaker: babasaraki
-            link: https://docs.google.com/presentation/d/1__yFTZycGuIF4T-0c7iImTwbUDHzEEwSUz-WU7f7F-Q/present?token=AC4w5ViWSc90Iydz3kssZC0G9X_hOxJK-g%3A1603710619782&includes_info_params=1&eisi=CIDdws6P0uwCFdAaqQEdcacKzA#slide=id.g7e28a7e96f_0_0
-          -
-            type: slides
-            title: Open Protocols
-            speaker: ganleyemma
-            link: https://docs.google.com/presentation/d/1_8Fp5DKh_XXwj34DwR-dzTvUCk1c0ynhy7MvmaHFFoA/present?token=AC4w5ViYvEiWzkDp6pI6j2zDny92AF5luQ%3A1603710808548&includes_info_params=1&eisi=CMH6w6iQ0uwCFXVpTAodBIcBVw#slide=id.g849ffa2549_0_171
-          -
-            type: slides
-            title: Citizen Science
-            speaker: gedankenstuecke
-            link: https://youtu.be/HaQyv48sMPY?t=860
+    - type: Cohort
+      duration: 90 min
+      title: 'Open Science II: Knowledge Dissemination'
+      date: October 22, 2020
+      time: "16:30"
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/@ols-2/week-08
+      recording: https://youtu.be/0BkHqudkjWg
+      hosts:
+      - yochannah
+      - malvikasharan
+      - emmyft
+      agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open
+        protocols, Open Education & Training'
+      content: |
+        During this week's cohort call, we will:
+        - Preprint publications, DOI and citation
+        - Open protocols
+        - Open Education & Training
+        - Citizen Science
+      before: None
+      resources: []
+      talks:
+      - speaker: lauracion
+        title: Open Education and Training - MetaDocencia Case Study
+        recording: https://youtu.be/0BkHqudkjWg?t=929
+      - slides: https://bit.ly/OLS-AfricArXiv
+        speaker: babasaraki
+        title: Preprint in the Context of Open Science
+        recording: https://youtu.be/0BkHqudkjWg?t=2064
+      - slides: https://docs.google.com/presentation/d/1_8Fp5DKh_XXwj34DwR-dzTvUCk1c0ynhy7MvmaHFFoA/edit?usp=sharing
+        speaker: ganleyemma
+        title: Open Protocols
+        recording: https://youtu.be/0BkHqudkjWg?t=3557
+      - speaker: gedankenstuecke
+        title: Citizen Science
+        recording: https://youtu.be/HaQyv48sMPY?t=860
   '09':
     start: October 26, 2020
     calls:
-      -
-        type: Mentor-Mentee
-        duration: 30 min
-        title: Meet your mentor!
-      -
-        type: Coworking
-        duration: 60 min
-        title: Coworking on assignments, knowledge exchange and networking
-        date: October 29, 2020
-        time:
-        calendar-event:
-        notes: https://hackmd.io/@ols-2/coworking
-      -
-        type: Cohort
-        duration: 90 min
-        title: "Skill-up: Personal Ecology and Ally Skills"
-        date: October 29, 2020
-        time: '15:00'
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
-        notes: https://hackmd.io/@ols-2/week-09
-        recording: https://www.youtube.com/watch?v=8niC2UB25ys
-        content: |
-          During this week's cohort call, we will hold a skill-up session on Personal Ecology and Ally Skills:
-          - Discuss the importance of taking care your our mental health and avoiding burn out for both project leaders and community members
-          - Understanding our societal privileges and stepping up for our colleagues and community as an ally
-        hosts:
-          - yochannah
-          - malvikasharan
-          - emmyft
-          - ha0ye
-        before: |
-          - Personal Ecology and self care
+    - type: Mentor-Mentee
+      duration: 30 min
+      title: Meet your mentor!
+    - type: Coworking
+      duration: 60 min
+      title: Coworking on assignments, knowledge exchange and networking
+      date: October 29, 2020
+      time:
+      calendar-event:
+      notes: https://hackmd.io/@ols-2/coworking
+    - type: Cohort
+      duration: 90 min
+      title: "Skill-up: Personal Ecology and Ally Skills"
+      date: October 29, 2020
+      time: '15:00'
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
+      notes: https://hackmd.io/@ols-2/week-09
+      recording: https://www.youtube.com/watch?v=8niC2UB25ys
+      content: |
+        During this week's cohort call, we will hold a skill-up session on Personal Ecology and Ally Skills:
+        - Discuss the importance of taking care your our mental health and avoiding burn out for both project leaders and community members
+        - Understanding our societal privileges and stepping up for our colleagues and community as an ally
+      hosts:
+      - yochannah
+      - malvikasharan
+      - emmyft
+      - ha0ye
+      before: |
+        - Personal Ecology and self care
 
-            Think about how you might briefly answer the following questions
-            - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe it.
-            - Imagine your most Unfulfilling day at work. Think of 3 word-pairs to describe it.
+          Think about how you might briefly answer the following questions
+          - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe it.
+          - Imagine your most Unfulfilling day at work. Think of 3 word-pairs to describe it.
 
-            The big idea: identify the most fulfilling conditions under which you thrive - sustain them; identify the least fulfilling conditions that frustrate you - avoid them.
+          The big idea: identify the most fulfilling conditions under which you thrive - sustain them; identify the least fulfilling conditions that frustrate you - avoid them.
 
-          - Preparing for the Ally Skills
+        - Preparing for the Ally Skills
 
-            Think how people step up for you in social scenarios and how you step up for them to support each othe:
-            - What do your colleagues do to make your workplace inclusive for you?
-            - What do you do to make your workplace inclusive for them?
+          Think how people step up for you in social scenarios and how you step up for them to support each othe:
+          - What do your colleagues do to make your workplace inclusive for you?
+          - What do you do to make your workplace inclusive for them?
 
-            The big idea: Based on your experience, what would you consider doing to make your project inclusive for your contributors or team members?
+          The big idea: Based on your experience, what would you consider doing to make your project inclusive for your contributors or team members?
 
-        resources:
-          -
-            type: slides
-            title: Personal Ecology and Self care
-            link: https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
-          -
-            type: external-link
-            title: Sustain Summit
-            link: https://sustainoss.org/
-          -
-            type: external-link
-            title: 'Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure'
-            link: https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
-          -
-            type: external-link
-            title: 'Changelog episode #281'
-            link: https://changelog.com/podcast/281
-          -
-            type: external-link
-            title: Cooperative model eg doug Belshaw et al
-            link: https://blog.weareopen.coop/about
-          -
-            type: slides
-            title: Ally Skills
-            link: https://docs.google.com/presentation/d/e/2PACX-1vRTxI8-8OH_1hv-KH65zB73hoqGCUBIlPxzFYYIBQrT4gfGV7tcUKOwfXo0Xu3O4tqZ-Z9gwTJyDN0z/pub?start=false&loop=false&delayms=3000#slide=id.ga513c4eb7e_0_0
-          -
-            type: external-link
-            title: Self-care Handout
-            link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20handout%20-%20Letter.pdf
-          -
-            type: external-link
-            title: Identifying power and privileges
-            link: https://files.frameshiftconsulting.com/Identifying%20your%20power%20and%20privilege%20-%20Letter.pdf
-          -
-            type: external-link
-            title: Goal setting exercise
-            link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
+      resources:
+      - type: external-link
+        title: Self-care Handout
+        link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20handout%20-%20Letter.pdf
+      - type: external-link
+        title: Identifying power and privileges
+        link: https://files.frameshiftconsulting.com/Identifying%20your%20power%20and%20privilege%20-%20Letter.pdf
+      - type: external-link
+        title: Goal setting exercise
+        link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
+      talks:
+      - slides: https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
+        title: Personal Ecology and Self Care
+    - date: October 29, 2020
+      time: "15:00"
+      duration: 90 min
+      notes: https://hackmd.io/@ols-2/week-09
+      title: Personal Ecology and Ally Skills
+      recording: https://www.youtube.com/watch?v=8niC2UB25ys
+      type: Skill-up
+      talks:
+      - slides: https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
+        title: Personal Ecology and Self Care
   '10':
-    start: November 2, 2020
+    start: November 02, 2020
     calls:
-      -
-        type: Cohort
-        duration: 90 min
-        title: 'Open Science III: Next steps - applying FAIR research principles'
-        date: November 5, 2020
-        time: '09:00'
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/week-10
-        recording: https://www.youtube.com/watch?v=ylqDx_ELfus
-        agenda: FAIRification of existing or mature projects, etc
-        hosts:
-          - yochannah
-          - emmyft
-          - bebatut
-        content: |
-          During this week's cohort call, we will discuss how to apply FAIR research principles on data, software, training
+    - type: Cohort
+      duration: 90 min
+      title: 'Open Science III: Next steps - applying FAIR research principles'
+      date: November 05, 2020
+      time: "09:00"
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/@ols-2/week-10
+      recording: https://www.youtube.com/watch?v=ylqDx_ELfus
+      agenda: FAIRification of existing or mature projects, etc
+      hosts:
+      - yochannah
+      - emmyft
+      - bebatut
+      content: |
+        During this week's cohort call, we will discuss how to apply FAIR research principles on data, software, training
 
-          FAIR stands for findable, accessible, interoperable, reusable. The ideal is that research should be "as open as
-          possible, as restricted as necessary."
-        after: |
-          Think about and plan to apply FAIR principles to your project in your own time
-        resources:
-          -
-            type: slides
-            title: 'FAIR Data: Insights and perspectives'
-            speaker: proccaserra
-            link: https://docs.google.com/presentation/d/1ER_ZQ_Fe_PFWBPrP87dU6jRaPT2dlB4hCu-wGXJwnBA/present?token=AC4w5ViSH5zunGHSyI1GZfySDANR6HsdTA%3A1606212785356&includes_info_params=1&eisi=CK-shfT4mu0CFUwmHwod_GcLYQ#slide=id.g9f69d2be7a_0_0
-          -
-            type: slides
-            title: 'Making training materials FAIR in 10 steps'
-            speaker: burkemlou
-            link: https://f1000research.com/slides/9-1294
-          -
-            type: external-link
-            title: 10 rules for making training FAIR
-            link: https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1007854
-          -
-            type: slides
-            title: 'FAIR Research Software, a.k.a. software as a first-class citizen in research'
-            speaker: fpsom
-            link: https://drive.google.com/file/d/1LtG_gVhszVl13yohYuxTipaKnxV77cqP/view?usp=sharing
-          -
-            type: external-link
-            title: 'Top 10 FAIR Data & Software Things: Research Software'
-            link: https://zenodo.org/record/2555498#.XwgeqSgzZPZ
-          -
-            type: external-link
-            title: Towards FAIR principles for research software
-            link: https://doi.org/10.3233/DS-190026
-          -
-            type: external-link
-            title: Four Simple Recommendations for Open Source Software (4OSS)
-            link: https://f1000research.com/articles/6-876/v1
-          -
-            type: external-link
-            title: Six Recommendations for Implementation of FAIR Practice
-            link: https://op.europa.eu/en/publication-detail/-/publication/4630fa57-1348-11eb-9a54-01aa75ed71a1/language-en
-          -
-            type: external-link
-            title: RDA FAIR for Research Software (FAIR4RS) WG
-            link: https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
+        FAIR stands for findable, accessible, interoperable, reusable. The ideal is that research should be "as open as
+        possible, as restricted as necessary."
+      after: |
+        Think about and plan to apply FAIR principles to your project in your own time
+      resources:
+      - type: external-link
+        title: 'Top 10 FAIR Data & Software Things: Research Software'
+        link: https://zenodo.org/record/2555498#.XwgeqSgzZPZ
+      - type: external-link
+        title: Towards FAIR principles for research software
+        link: https://doi.org/10.3233/DS-190026
+      - type: external-link
+        title: Four Simple Recommendations for Open Source Software (4OSS)
+        link: https://f1000research.com/articles/6-876/v1
+      - type: external-link
+        title: Six Recommendations for Implementation of FAIR Practice
+        link: https://op.europa.eu/en/publication-detail/-/publication/4630fa57-1348-11eb-9a54-01aa75ed71a1/language-en
+      - type: external-link
+        title: RDA FAIR for Research Software (FAIR4RS) WG
+        link: https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
+      talks:
+      - slides: https://docs.google.com/presentation/d/1ER_ZQ_Fe_PFWBPrP87dU6jRaPT2dlB4hCu-wGXJwnBA/edit?usp=sharing
+        speaker: proccaserra
+        title: 'FAIR Data: Insights and perspectives'
+        recording: https://youtu.be/ylqDx_ELfus?t=268
+      - slides: https://f1000research.com/slides/9-1294
+        speaker: burkemlou
+        title: Making training materials FAIR in 10 steps
+        recording: https://youtu.be/ylqDx_ELfus?t=1108
+      - slides: https://drive.google.com/file/d/1LtG_gVhszVl13yohYuxTipaKnxV77cqP/view?usp=sharing
+        speaker: fpsom
+        title: FAIR Research Software
+        recording: https://youtu.be/ylqDx_ELfus?t=2848
   '11':
-    start: November 9, 2020
+    start: November 09, 2020
     calls:
-      -
-        type: Mentor-Mentee
-        duration: 30 min
-        title: Meet your mentor!
+    - type: Mentor-Mentee
+      duration: 30 min
+      title: Meet your mentor!
   '12':
     start: November 16, 2020
     calls:
-      -
-        type: Cohort
-        duration: 90 min
-        title: 'Open Leadership: Academia, industry and beyond!'
-        date: November 19, 2020
-        time: '17:30'
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/week-12
-        recording: https://www.youtube.com/watch?v=hS-6GE0X2UY
-        hosts:
-          - yochannah
-          - emmyft
-          - malvikasharan
-        content: |
-          During this week's cohort call, we will:
-          - Hear from the professionals from different career paths
-          - Ask them questions about their careers
-          - Share worries/insecurities related to your work and tips that you use to overcome them
-        before: |
-          A few days before the event, think about how you might briefly answer the following questions (ref: https://www.bu.edu/lernet/pathways/organizers/panel.html):
-          - how did you choose your career ?
-          - what did you study to prepare ?
-          - what do you actually do at work on a typical day ?
-          - have you ever felt discriminated against (e.g. due to gender, race, ethnicity...) and how did you respond ?
-          - do you have a life outside your work ? a family ? hobbies ?
-          - what advice would you give someone wanting to enter your field ?
-          - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
-          - do you want to switch your career or field? Why or why not?
-        resources:
-          -
-            type: slides
-            title: Community building
-            speaker: rainsworth
-            link: https://docs.google.com/presentation/d/1jeTk_PzsWpaR4DRmBrbrDGol2_drPEizp26o4d8jnnA/localpresent?token=AC4w5ViUwg7eAFYcjgOY9aUJ-ulGu-uFzg%3A1606213723739&includes_info_params=1&eisi=CK7bv7P8mu0CFRWiNwodLgkHsg&slide=id.p
-          -
-            type: slides
-            title: Navigating a career through academia and industry/start-up
-            speaker: natasha_wood
-            link: https://docs.google.com/presentation/d/1RsvcKd_5uW-TtawLAOw6N95gOLO6MinN0I94dUIII8s/present?token=AC4w5VgKYecuXzGQ1Zze1bZmv1lCEyv6MQ%3A1606213784867&includes_info_params=1&eisi=CK7r0tD8mu0CFZcFswUdN1QIRA#slide=id.g7e28a7e96f_0_0
-          -
-            type: slides
-            title: Academia
-            speaker: ajstewartlang
-          -
-            type: slides
-            title: Research Funding
-            speaker: ekin-bolukbasi
-            link: https://drive.google.com/file/d/1i1g9pxmkW8gr4f3S380NBJ6-k8GGVnrx/view
-          -
-            type: slides
-            title: Social entrepreneurship
-            speaker: sdopoku
-            link: https://docs.google.com/presentation/d/1Sac0MqvkmgK4vWSDrdiEkEWUdgyznySX45WDpV-XkyQ/present?token=AC4w5VhWciRTQRu_kOVudKzeGsHRTmBsrA%3A1606214445403&includes_info_params=1&eisi=CM6Jz4v_mu0CFdmXTwkdFOwJ1w#slide=id.gc6f9e470d_0_0
+    - type: Cohort
+      duration: 90 min
+      title: 'Open Leadership: Academia, industry and beyond!'
+      date: November 19, 2020
+      time: "17:30"
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/@ols-2/week-12
+      recording: https://www.youtube.com/watch?v=hS-6GE0X2UY
+      hosts:
+      - yochannah
+      - emmyft
+      - malvikasharan
+      content: |
+        During this week's cohort call, we will:
+        - Hear from the professionals from different career paths
+        - Ask them questions about their careers
+        - Share worries/insecurities related to your work and tips that you use to overcome them
+      before: |
+        A few days before the event, think about how you might briefly answer the following questions (ref: https://www.bu.edu/lernet/pathways/organizers/panel.html):
+        - how did you choose your career ?
+        - what did you study to prepare ?
+        - what do you actually do at work on a typical day ?
+        - have you ever felt discriminated against (e.g. due to gender, race, ethnicity...) and how did you respond ?
+        - do you have a life outside your work ? a family ? hobbies ?
+        - what advice would you give someone wanting to enter your field ?
+        - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
+        - do you want to switch your career or field? Why or why not?
+      resources: []
+      talks:
+      - slides: https://docs.google.com/presentation/d/1jeTk_PzsWpaR4DRmBrbrDGol2_drPEizp26o4d8jnnA/edit?usp=sharing
+        speaker: rainsworth
+        title: Community building
+      - slides: https://docs.google.com/presentation/d/1RsvcKd_5uW-TtawLAOw6N95gOLO6MinN0I94dUIII8s/edit
+        speaker: natasha_wood
+        title: Navigating a career through academia and industry/start-up
+      - speaker: ajstewartlang
+        title: Academia
+      - slides: https://drive.google.com/file/d/1i1g9pxmkW8gr4f3S380NBJ6-k8GGVnrx/view?usp=sharing
+        speaker: ekin-bolukbasi
+        title: Data Challenges Manager, Wellcome
   '13':
     start: November 23, 2020
     calls:
-      -
-        type: Mentor-Mentee
-        duration: 30 min
-        title: Meet your mentor!
-      -
-        type: Cohort
-        duration: 60 min
-        title: Pub Quiz!
-        date: November 26, 2020
-        time: '14:00'
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M2xtbjdpc2FqMjN0N3MzOTg5aWw3NGYyZnUgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
-        notes: https://hackmd.io/@ols-2/week-13
-        hosts:
-          - yochannah
-          - malvikasharan
-        before: |
-          - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
-        after: |
-          - Continue on with your project, and connect with others on Gitter or other social media platforms.
+    - type: Mentor-Mentee
+      duration: 30 min
+      title: Meet your mentor!
+    - type: Cohort
+      duration: 60 min
+      title: Pub Quiz!
+      date: November 26, 2020
+      time: '14:00'
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M2xtbjdpc2FqMjN0N3MzOTg5aWw3NGYyZnUgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
+      notes: https://hackmd.io/@ols-2/week-13
+      hosts:
+      - yochannah
+      - malvikasharan
+      before: |
+        - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
+      after: |
+        - Continue on with your project, and connect with others on Gitter or other social media platforms.
+    - date: October 26, 2020
+      time: "14:00"
+      duration: 90 min
+      title: Pub Quiz!
+      type: Skill-up
+      talks: []
   '14':
     start: November 30, 2020
     calls:
-    -
-        type: Cohort
-        duration: 90 min
-        title: 'Designing & Empowering for inclusivity'
-        date: December 3, 2020
-        time: '09:00'
-        calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-        notes: https://hackmd.io/@ols-2/week-14
-        recording: https://www.youtube.com/watch?v=Tl8MOTVznXs
-        hosts:
-          - emmyft
-          - malvikasharan
-        agenda: Personas and pathways for contributors, Implicit bias & Community interactions
-        content: |
-          During this week's cohort call, we will:
-          - Implicit bias, Diversity and Inclusion
-          - Mountain of engagement and community interactions
-          - Personas and pathways and welcoming new contributors
-        before: |
-          - Do the implicit Bias Quiz
-            - Go to [https://implicit.harvard.edu](https://implicit.harvard.edu) complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)
+    - type: Cohort
+      duration: 90 min
+      title: 'Designing & Empowering for inclusivity'
+      date: December 3, 2020
+      time: '09:00'
+      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: https://hackmd.io/@ols-2/week-14
+      recording: https://www.youtube.com/watch?v=Tl8MOTVznXs
+      hosts:
+      - emmyft
+      - malvikasharan
+      agenda: Personas and pathways for contributors, Implicit bias & Community interactions
+      content: |
+        During this week's cohort call, we will:
+        - Implicit bias, Diversity and Inclusion
+        - Mountain of engagement and community interactions
+        - Personas and pathways and welcoming new contributors
+      before: |
+        - Do the implicit Bias Quiz
+          - Go to [https://implicit.harvard.edu](https://implicit.harvard.edu) complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)
 
-                You can 'continue as a guest' by choosing your country
+              You can 'continue as a guest' by choosing your country
 
-            - Answer these questions when you've finished the implicit association test: What does inclusion mean to you? Did your results of the implicit association test surprise you?
-            - Bring your notes to the cohort call
-        after: |
-          - [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/) assignment
-          - Think through community interactions
-          - Complete the midterm survey
-        resources:
-          -
-            type: slides
-            title: Inclusion not an afterthought
-            speaker: alexwlchan
-            link: https://docs.google.com/presentation/d/10pAmCttT5W4LtuFOMwuw9pVWBC03kfeAR1PIamqTsJI/edit
-          -
-            type: slides
-            title: Community interactions and mountain of engagements
-            speaker: trallard
-            link: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
-          -
-            type: slides
-            title: Using Personas and Pathways to Build Community
-            speaker: benkrikler
-            link: https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
+          - Answer these questions when you've finished the implicit association test: What does inclusion mean to you? Did your results of the implicit association test surprise you?
+          - Bring your notes to the cohort call
+      after: |
+        - [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/) assignment
+        - Think through community interactions
+        - Complete the midterm survey
+      resources: []
+      talks:
+      - slides: https://alexwlchan.net/2020/03/inclusion-cant-be-an-afterthought/
+        speaker: alexwlchan
+        title: Inclusion not an afterthought
+      - slides: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
+        speaker: trallard
+        title: Community interactions and mountain of engagements
+      - slides: https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
+        speaker:
+        title: Using Personas and Pathways to Build Community
+    - date: December 03, 2020
+      time: "09:00"
+      duration: 90 min
+      notes: https://hackmd.io/@ols-2/week-14
+      title: Designing & Empowering for inclusivity
+      recording: https://www.youtube.com/watch?v=Tl8MOTVznXs
+      type: Cohort
+      talks:
+      - slides: https://alexwlchan.net/2020/03/inclusion-cant-be-an-afterthought/
+        speaker: alexwlchan
+        title: Inclusion not an afterthought
+      - slides: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
+        speaker: trallard
+        title: Community interactions and mountain of engagements
+      - slides: https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
+        speaker: benkrikler
+        title: Using Personas and Pathways to Build Community
   '15':
-    start: December 7, 2020
+    start: December 07, 2020
     calls:
-      -
-        type: Mentor-Mentee
-        duration: 30 min
-        title: Meet your mentor!
-        agenda: Preparation for the final demos
-        content: |
-          During this week's mentor meeting, you will:
-          - Review your project with your mentor
-          - Thank your mentor if this is your last mentor call in OLS-2.
-        before: |
-          - Review your project and identify important aspects that you can discuss with your mentor
-      -
-        type: Cohort
-        duration: 90 min
-        title: 'Final presentation rehearsal - Group 1'
-        date: December 10, 2020
-        time: '09:00'
-        notes: https://hackmd.io/@ols-2/week-15-gr1
-        recording: https://youtu.be/zFzNxxBjg4c
-        hosts:
-          - yochannah
-          - emmyft
-          - malvikasharan
-        content: |
-          During this week's cohort call, we will:
-          - Learn about giving and receiving feedback
-          - Conduct rehearsal for the final presentation from the project leads registered
-        before: |
-          - Come prepared to share a 5 mins presentation of your project
+    - type: Mentor-Mentee
+      duration: 30 min
+      title: Meet your mentor!
+      agenda: Preparation for the final demos
+      content: |
+        During this week's mentor meeting, you will:
+        - Review your project with your mentor
+        - Thank your mentor if this is your last mentor call in OLS-2.
+      before: |
+        - Review your project and identify important aspects that you can discuss with your mentor
+    - type: Cohort
+      duration: 90 min
+      title: 'Final presentation rehearsal - Group 1'
+      date: December 10, 2020
+      time: '09:00'
+      notes: https://hackmd.io/@ols-2/week-15-gr1
+      recording: https://youtu.be/zFzNxxBjg4c
+      hosts:
+      - yochannah
+      - emmyft
+      - malvikasharan
+      content: |
+        During this week's cohort call, we will:
+        - Learn about giving and receiving feedback
+        - Conduct rehearsal for the final presentation from the project leads registered
+      before: |
+        - Come prepared to share a 5 mins presentation of your project
 
-            Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
+          Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
 
-            This could also be only the highlights from your presentation
+          This could also be only the highlights from your presentation
 
-            Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
-        after: |
-          - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
-      -
-        type: Cohort
-        duration: 90 min
-        title: 'Final presentation rehearsal - Group 2'
-        date: December 10, 2020
-        time: '17:30'
-        notes: https://hackmd.io/@ols-2/week-15-gr2
-        hosts:
-          - yochannah
-          - emmyft
-          - malvikasharan
-        content: |
-          During this week's cohort call, we will:
-          - Learn about giving and receiving feedback
-          - Conduct rehearsal for the final presentation from the project leads registered
-        before: |
-          - Come prepared to share a 5 mins presentation of your project
+          Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
+      after: |
+        - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
+    - type: Cohort
+      duration: 90 min
+      title: 'Final presentation rehearsal - Group 2'
+      date: December 10, 2020
+      time: '17:30'
+      notes: https://hackmd.io/@ols-2/week-15-gr2
+      hosts:
+      - yochannah
+      - emmyft
+      - malvikasharan
+      content: |
+        During this week's cohort call, we will:
+        - Learn about giving and receiving feedback
+        - Conduct rehearsal for the final presentation from the project leads registered
+      before: |
+        - Come prepared to share a 5 mins presentation of your project
 
-            Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
+          Your presentation can be in the form of a demo, short 1-2 slides presentation or walk through your website
 
-            This could also be only the highlights from your presentation
+          This could also be only the highlights from your presentation
 
-            Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
-        after: |
-          - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
+          Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
+      after: |
+        - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
   '16':
     start: December 14, 2020
     calls:
-      -
-        type: Cohort
-        duration: 60 min
-        title: 'Final presentations & Graduation! - Group 1'
-        date: December 15, 2020
-        time: '09:00'
-        hosts:
-          - yochannah
-          - emmyft
-          - malvikasharan
-          - bebatut
-        notes: https://hackmd.io/@ols-2/week-16-gr1
-        recording: https://youtu.be/IGyoiFnCvis
-        agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
-        content: |
-          During this week's cohort call, we will:
-          - Witness the final presentations from the project leads registered in Group 1 and see them graduate.
-        before: |
-          - Come prepared to share a 5 mins presentation of your project
+    - type: Cohort
+      duration: 60 min
+      title: 'Final presentations & Graduation! - Group 1'
+      date: December 15, 2020
+      time: '09:00'
+      hosts:
+      - yochannah
+      - emmyft
+      - malvikasharan
+      - bebatut
+      notes: https://hackmd.io/@ols-2/week-16-gr1
+      recording: https://youtu.be/IGyoiFnCvis
+      agenda: '5-minute demos of projects (Audience: entire community & public, Open
+        and recorded call)'
+      content: |
+        During this week's cohort call, we will:
+        - Witness the final presentations from the project leads registered in Group 1 and see them graduate.
+      before: |
+        - Come prepared to share a 5 mins presentation of your project
 
-            Your presentation can be in the form of a demo, short presentation or a walk through your website
-        after: |
-          - Celebrate your graduation from OLS-2!
-      -
-        type: Cohort
-        duration: 60 min
-        title: 'Final presentations & Graduation! - Group 2'
-        date: December 16, 2020
-        time: '14:00'
-        hosts:
-          - yochannah
-          - emmyft
-          - malvikasharan
-        notes: https://hackmd.io/@ols-2/week-16-gr2
-        recording: https://youtu.be/28OiRoBz3ww
-        agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
-        content: |
-          During this week's cohort call, we will:
-          - Witness the final presentations from the project leads registered in Group 2 and see them graduate.
-        before: |
-          - Come prepared to share a 5 mins presentation of your project
+          Your presentation can be in the form of a demo, short presentation or a walk through your website
+      after: |
+        - Celebrate your graduation from OLS-2!
+    - type: Cohort
+      duration: 60 min
+      title: 'Final presentations & Graduation! - Group 2'
+      date: December 16, 2020
+      time: '14:00'
+      hosts:
+      - yochannah
+      - emmyft
+      - malvikasharan
+      notes: https://hackmd.io/@ols-2/week-16-gr2
+      recording: https://youtu.be/28OiRoBz3ww
+      agenda: '5-minute demos of projects (Audience: entire community & public, Open
+        and recorded call)'
+      content: |
+        During this week's cohort call, we will:
+        - Witness the final presentations from the project leads registered in Group 2 and see them graduate.
+      before: |
+        - Come prepared to share a 5 mins presentation of your project
 
-            Your presentation can be in the form of a demo, short presentation or a walk through your website
-        after: |
-          - Celebrate your graduation from OLS-2!
-      -
-        type: Cohort
-        duration: 60 min
-        title: 'Final presentations & Graduation! - Group 3'
-        date: December 17, 2020
-        time: '17:30'
-        hosts:
-          - yochannah
-          - emmyft
-          - malvikasharan
-        notes: https://hackmd.io/@ols-2/week-16-gr3
-        recording: https://youtu.be/wv8_0iOMpGs
-        agenda: '5-minute demos of projects (Audience: entire community & public, Open and recorded call)'
-        content: |
-          During this week's cohort call, we will:
-          - Witness the final presentations from the project leads registered in Group 3 and see them graduate.
-        before: |
-          - Come prepared to share a 5 mins presentation of your project
+          Your presentation can be in the form of a demo, short presentation or a walk through your website
+      after: |
+        - Celebrate your graduation from OLS-2!
+    - type: Cohort
+      duration: 60 min
+      title: 'Final presentations & Graduation! - Group 3'
+      date: December 17, 2020
+      time: '17:30'
+      hosts:
+      - yochannah
+      - emmyft
+      - malvikasharan
+      notes: https://hackmd.io/@ols-2/week-16-gr3
+      recording: https://youtu.be/wv8_0iOMpGs
+      agenda: '5-minute demos of projects (Audience: entire community & public, Open
+        and recorded call)'
+      content: |
+        During this week's cohort call, we will:
+        - Witness the final presentations from the project leads registered in Group 3 and see them graduate.
+      before: |
+        - Come prepared to share a 5 mins presentation of your project
 
-            Your presentation can be in the form of a demo, short presentation or a walk through your website
-        after: |
-          - Celebrate your graduation from OLS-2!
+          Your presentation can be in the form of a demo, short presentation or a walk through your website
+      after: |
+        - Celebrate your graduation from OLS-2!

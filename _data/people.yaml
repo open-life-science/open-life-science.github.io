@@ -523,7 +523,7 @@ anelda:
   expertise:
   - Community building
   first-name: Anelda
-  last-name: Van Der Walt
+  last-name: van der Walt
   orcid: 0000-0003-4245-8119
   pronouns: she/her
   twitter: aneldavdw
@@ -6761,12 +6761,6 @@ ujwal-shrestha:
   github: false
   last-name: Shrestha
   pronouns: He/Him
-umar-farouk-ahmad:
-  affiliation: Centre For Renewable Energy Research
-  first-name: Umar Farouk
-  last-name: Ahmad
-  orcid: 0000-0002-2854-9690
-  twitter: pharouknuclues
 umutpajaro:
   first-name: Umut
   last-name: Pajaro Velasquez

@@ -1,73 +1,44 @@
-# Schedule for OLS-1
-#
-# 'weeknb':
-#   timeframe:
-#   calls:
-#     -
-#       type: Mentor-Mentee/Cohort/Mentor
-#       duration: .. min
-#       title:
-#       date: Month Day, Year
-#       time: '13:00'
-#       calendar-event: link to calendar event
-#       agenda: tldr
-#       notes: link to notes
-#       recording: link to recording
-#       content: |
-#         Details of the content written in Markdown
-#       before: |
-#         Tasks to do before as a list written in Markdown
-#       after: |
-#         Tasks to do after as a list written in Markdown
-#       resources:
-#         -
-#           type: slides/document/external-link
-#           title:
-#           speaker: username in people.yaml, if slides
-#           link:
+# Schedule for the OLS-3
 ---
 timeline:
--
-  date: December 1, 2021
+- date: December 1, 2021
   description: Opening of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
-  details: We have [templates](https://github.com/open-life-science/application-forms) you can download to use when preparing your application.
--
-  date: January 4, 2021
+  details: We have [templates](https://github.com/open-life-science/application-forms)
+    you can download to use when preparing your application.
+- date: January 4, 2021
   description: Application webinar
   type:
   - Talk
   - Q&A
   notes: https://tinyurl.com/ols-3-webinar
   recording: https://youtu.be/rksUzRDFn20
--
-  date: January 7, 2021
+- date: January 7, 2021
   description: Application Clinic Call
   type:
   - Q&A
   notes: https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
-  details: At this call, OLS team will be available to provide help if you have any question related to your application
--
-  date: January 11, 2021
+  details: At this call, OLS team will be available to provide help if you have any
+    question related to your application
+- date: January 11, 2021
   description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
--
-  date: January 13, 2021
-  description: For the **[EOSC-Life](/ols-3#ols-3-for-eosc-life) collaborating organisation**, Open office hour (<i class="fas fa-question"></i> Q&A)
+- date: January 13, 2021
+  description: For the **[EOSC-Life](/ols-3#ols-3-for-eosc-life) collaborating organisation**,
+    Open office hour (<i class="fas fa-question"></i> Q&A)
   notes: https://tinyurl.com/ols-3-webinar
--
-  date: January 18, 2021
-  description: For the **[EOSC-Life](/ols-3#ols-3-for-eosc-life) collaborating organisation**, Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
--
-  date: January 26, 2021
+- date: January 18, 2021
+  description: For the **[EOSC-Life](/ols-3#ols-3-for-eosc-life) collaborating organisation**,
+    Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
+- date: January 26, 2021
   description: Successful applicants announced
 weeks:
   '01':
-    start: February 8, 2021
+    start: February 08, 2021
     calls:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-      agenda: Meet each other and discuss your personal motivation, expectations, working
-        practices and project goals
+      agenda: Meet each other and discuss your personal motivation, expectations,
+        working practices and project goals
       content: |
         This is your first meeting with your OLS mentor. This call should include you and your mentor. If you are working on a team of up to (and no more than) 3 registered participants, you can all meet together with your mentor.
 
@@ -126,14 +97,14 @@ weeks:
       duration: 90 min
       title: Welcome to Open Life Science!
       date: February 17, 2021
-      time: '12:30'
+      time: "12:30"
       notes: https://bit.ly/ols-3-week-02-cohort-call
       recording: https://youtu.be/lFaMk01Z_gY
       hosts:
-        - bebatut
-        - yochannah
-        - malvikasharan
-        - emmyft
+      - bebatut
+      - yochannah
+      - malvikasharan
+      - emmyft
       agenda: Meet other members of your cohort, Share project vision, Intro to working
         openly (open canvas)
       content: |
@@ -157,24 +128,22 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources:
-      - type: slides
-        title: Introducing OLS
-        speaker: malvikasharan
-        link: https://docs.google.com/presentation/d/e/2PACX-1vT_e2ngwmyjwApVc1CC-dUpSHSArCPsZQjw4oo-0USZFn1lw4OtwPB6LsTSAStocYGIScfgrq5Esea7/pub?start=false&loop=false&delayms=3000
-      - type: slides
-        title: Open Canvas
-        speaker: yochannah
-        link: https://docs.google.com/presentation/d/e/2PACX-1vR8j2NXWFyWKldK2OoTseN1t5YhLgeCG2OWNIjER5PKfnfGSdYQSjo8LeUCoYFyc3nZedBaNxc-aneH/pub?start=false&loop=false&delayms=3000
-      - type: slides
-        title: Road Mapping
-        speaker: emmyft
-        link: https://docs.google.com/presentation/d/e/2PACX-1vRwCxOy-Xl240eB2j0xwuyA-1wPhQMiJV1nfQsbtsiGSUxPiuJZotZb91o23dtRS_RbYeyFHlq_z8XN/pub?start=false&loop=false&delayms=3000
       - type: document
         title: Open Canvas
         link: https://docs.google.com/presentation/d/10KRm5c5ILm8wpqd30uet7VVMB_WFEyZzrIAg058mXSk/edit?usp=sharing
       - type: document
         title: Compare & contrast - community interactions
         link: https://docs.google.com/document/d/1ucN2-bMoB_-zJE7bUrbEKZw03DCHIZM4A10NwNfRmy0/edit?usp=sharing
+      talks:
+      - slides: https://docs.google.com/presentation/d/e/2PACX-1vT_e2ngwmyjwApVc1CC-dUpSHSArCPsZQjw4oo-0USZFn1lw4OtwPB6LsTSAStocYGIScfgrq5Esea7/pub?start=false&loop=false&delayms=3000
+        speaker: malvikasharan
+        title: Welcome to OLS!
+      - slides: https://docs.google.com/presentation/d/e/2PACX-1vR8j2NXWFyWKldK2OoTseN1t5YhLgeCG2OWNIjER5PKfnfGSdYQSjo8LeUCoYFyc3nZedBaNxc-aneH/pub?start=false&loop=false&delayms=3000
+        speaker: yochannah
+        title: Introducing Open Canvas
+      - slides: https://docs.google.com/presentation/d/e/2PACX-1vRwCxOy-Xl240eB2j0xwuyA-1wPhQMiJV1nfQsbtsiGSUxPiuJZotZb91o23dtRS_RbYeyFHlq_z8XN/pub?start=false&loop=false&delayms=3000
+        speaker: emmyft
+        title: Road Mapping
   '03':
     start: February 22, 2021
     calls:
@@ -183,8 +152,7 @@ weeks:
       title: Mentoring workshop
       date: February 22, 2021
       time: '09:00'
-    -
-      type: Mentor
+    - type: Mentor
       duration: 180 min
       title: Mentoring workshop
       date: February 23, 2021
@@ -229,13 +197,13 @@ weeks:
       after: |
         - Continue on with your project, and connect with others on Slack or other social media platforms.
   '04':
-    start: March 1, 2021
+    start: March 01, 2021
     calls:
     - type: Cohort
       duration: 90 min
       title: Tooling and roadmapping for Open projects
-      agenda: 'Working with GitHub as a community hub: Markdown as a tool to make websites,
-        Licence, Goals and Roadmap, Contributors, Code of Conduct'
+      agenda: 'Working with GitHub as a community hub: Markdown as a tool to make
+        websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
       content: |
         During this week's cohort call, we will:
         - Look at project structure as we build open projects
@@ -262,29 +230,28 @@ weeks:
         - Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
         - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
-      resources:
-      - type: slides
-        title: A Primer on Open Licenses
-        speaker: ha0ye
-        link: https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
-      - type: slides
-        title: READMEs for Open Projects
-        speaker: c-martinez
-        link: https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing” with “https://docs.google.com/presentation/d/1K-to88_TV4UI7-ek2ph5PIsqEZcYEprT1KkEXysCWiA/edit?usp=sharing
-      - type: slides
-        title: Contributing Guidelines and Codes of Conduct for Open Projects
-        speaker: malvikasharan
-        link: https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
+      resources: []
       date: March 03, 2021
-      time: '17:00'
+      time: "17:00"
       notes: https://bit.ly/ols-3-week-04-cohort-call
       recording: https://youtu.be/Enn2NGMGC2k
       hosts:
-        - yochannah
-        - malvikasharan
-        - emmyft
+      - yochannah
+      - malvikasharan
+      - emmyft
+      talks:
+      - slides: https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
+        speaker: ha0ye
+        title: A Primer on Open Licenses
+      - slides: https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing”
+          with “https://docs.google.com/presentation/d/1K-to88_TV4UI7-ek2ph5PIsqEZcYEprT1KkEXysCWiA/edit?usp=sharing
+        speaker: c-martinez
+        title: README
+      - slides: https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
+        speaker: malvikasharan
+        title: Contributing Guidelines and Code of Conduct
   '05':
-    start: March 8, 2021
+    start: March 08, 2021
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -345,13 +312,21 @@ weeks:
         title: Git workflow
         link: https://www.atlassian.com/git/tutorials/comparing-workflows
       date: March 10, 2021
-      time: '12:30'
+      time: "12:30"
       notes: https://bit.ly/ols-3-week-05
       recording: https://youtu.be/Hj4kpy9LB6c
       hosts:
-        - yochannah
-        - malvikasharan
-        - bebatut
+      - yochannah
+      - malvikasharan
+      - bebatut
+    - date: March 10, 2021
+      time: "12:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-3-week-05
+      title: GitHub tutorial for beginners
+      recording: https://youtu.be/Hj4kpy9LB6c
+      type: Skill-up
+      talks: []
   '06':
     start: March 15, 2021
     calls:
@@ -383,33 +358,34 @@ weeks:
 
           We will revisit this next week so no need to rush!
       resources:
-      - type: slides
-        title: Agile & Iterative Project Management Methods
-        speaker: unode
-        link: https://docs.google.com/presentation/d/1MQZS-Nh_mlUJ2JMxzAHAbqP8q1ny_Ktxx0GX0vaj2a4/edit#slide=id.g7e28a7e96f_0_0
-      - type: slides
-        title: Open Source in Research
-        speaker: hexylena
-        link: https://docs.google.com/presentation/d/19fZRMPzK2OrynrOdVzkq703j2fz6knAiFjn2JEPfmIQ/edit?usp=sharing
-      - type: slides
-        title: Open Data
-        speaker: estherplomp
-        link: https://doi.org/10.5281/zenodo.4609017
-      - type: slides
-        title: Open Hardware
-        speaker: amchagas
-        link: https://docs.google.com/presentation/d/1p9y7hBmz-ky38JsosaSYi2LmB1fPD0IyIB_BnLAidmo/edit?usp=sharing
       - type: document
         title: Project Development Plan
         link: https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
       date: March 17, 2021
-      time: '12:30'
+      time: "12:30"
       notes: https://bit.ly/ols-3-week-06-cohort-call
       recording: https://youtu.be/XkzCr3fiSCg
       hosts:
-        - malvikasharan
-        - bebatut
-        - emmyft
+      - malvikasharan
+      - bebatut
+      - emmyft
+      talks:
+      - slides: https://docs.google.com/presentation/d/1MQZS-Nh_mlUJ2JMxzAHAbqP8q1ny_Ktxx0GX0vaj2a4/edit#slide=id.g7e28a7e96f_0_0
+        speaker: unode
+        title: Agile and iterative project management methods
+        recording: https://youtu.be/XkzCr3fiSCg?t=207
+      - slides: https://docs.google.com/presentation/d/19fZRMPzK2OrynrOdVzkq703j2fz6knAiFjn2JEPfmIQ/edit?usp=sharing
+        speaker: hexylena
+        title: Open Source in Research
+        recording: https://youtu.be/XkzCr3fiSCg?t=1190
+      - slides: https://doi.org/10.5281/zenodo.4609017
+        speaker: estherplomp
+        title: Open Data
+        recording: https://youtu.be/XkzCr3fiSCg?t=2182
+      - slides: https://docs.google.com/presentation/d/1p9y7hBmz-ky38JsosaSYi2LmB1fPD0IyIB_BnLAidmo/edit?usp=sharing
+        speaker: amchagas
+        title: Open Source/Science Hardware
+        recording: https://youtu.be/XkzCr3fiSCg?t=3593
   '07':
     start: March 22, 2021
     calls:
@@ -441,15 +417,15 @@ weeks:
         - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
       after: |
         - Continue on with your project, and connect with others on Slack or other social media platforms.
-  08:
-    start:
+  '08':
+    start: March 31, 2021
     end: March 29 - April 2, 2021
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Open Science II: Knowledge Dissemination'
-      agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open protocols,
-        Open Education & Training'
+      agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open
+        protocols, Open Education & Training'
       content: |
         During this week's cohort call, we will:
         - Preprint publications, DOI and citation
@@ -462,24 +438,25 @@ weeks:
         - Make sure that by now you have added a license, contribution guideline and a Code of Conduct in your GitHub repository. If you feel stuck and don’t know where you start, take a look at [this repo](https://github.com/malvikasharan/developing_collaborative_document)
         - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-3/issues) with feedback on their project
       recording: https://www.youtube.com/watch?v=Vizk7fni5Eo
-      resources:
-      - type: slides
-        title: Preprint, pre-registration, open review
-        link: https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
-        speaker: iratxepuebla
-      - type: slides
-        title: Open Protocols
-        link: https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
-        speaker: lenny-teytelman
-      - type: slides
-        title: Citizen Science
-        link: https://zenodo.org/record/4651431
-        speaker: georgiahca
+      resources: []
       date: March 31, 2021
-      time: '16:00'
+      time: "16:00"
       notes: https://bit.ly/ols-3-week-08-cohort-call
-  09:
-    start: April 5, 2021
+      talks:
+      - slides: https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
+        speaker: iratxepuebla
+        title: "Let's talk #preprint"
+        recording: https://youtu.be/Vizk7fni5Eo?t=710
+      - slides: https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
+        speaker: lenny-teytelman
+        title: Open Protocols
+        recording: https://youtu.be/Vizk7fni5Eo?t=2287
+      - slides: https://zenodo.org/record/4651431
+        speaker: georgiahca
+        title: Participatory Citizen Science
+        recording: https://youtu.be/Vizk7fni5Eo?t=3792
+  '09':
+    start: April 05, 2021
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -508,10 +485,6 @@ weeks:
 
           The big idea: Based on your experience, what would you consider doing to make your project inclusive for your contributors or team members?
       resources:
-      - type: slides
-        title: Personal Ecology and Self care
-        speaker: emmyft
-        link: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
       - type: external-link
         title: Sustain Summit
         link: https://sustainoss.org/
@@ -538,10 +511,24 @@ weeks:
         title: Goal setting exercise
         link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
       date: April 07, 2021
-      time: '11:30'
-      duration: 30 min
+      time: "11:30"
       notes: https://bit.ly/ols-3-week-09-q-a
       recording: https://youtu.be/5BlB0RUY-7c
+      talks:
+      - slides: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+        speaker: emmyft
+        title: Personal Ecology and Self Care
+    - date: April 07, 2021
+      time: "11:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-3-week-09-q-a
+      title: Personal Ecology and Ally Skills
+      recording: https://youtu.be/5BlB0RUY-7c
+      type: Skill-up
+      talks:
+      - slides: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+        speaker: emmyft
+        title: Personal Ecology and Self Care
   '10':
     start: April 12, 2021
     calls:
@@ -557,21 +544,9 @@ weeks:
       after: |
         Think about and plan to apply FAIR principles to your project in your own time
       resources:
-      - type: slides
-        link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
-        speaker: emma-anne-harris
-        title: 'FAIR Data: Insights and perspectives'
-      - type: slides
-        title: Making training materials FAIR in 10 steps
-        link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
-        speaker: alexholinski
       - type: external-link
         title: 10 rules for making training FAIR
         link: https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1007854
-      - type: slides
-        title: FAIR Research Software, a.k.a. software as a first-class citizen in research
-        speaker: npch
-        link: https://doi.org/10.6084/m9.figshare.14410751.v1
       - type: external-link
         title: 'Top 10 FAIR Data & Software Things: Research Software'
         link: https://zenodo.org/record/2555498#.XwgeqSgzZPZ
@@ -594,9 +569,22 @@ weeks:
         title: Good enough Practices in Scientific Computing
         link: https://doi.org/10.1371/journal.pcbi.1005510
       date: April 14, 2021
-      time: '11:30'
+      time: "11:30"
       notes: https://bit.ly/ols-3-week-10-cohort-call
       recording: https://www.youtube.com/watch?v=j-rPaiojNFk
+      talks:
+      - slides: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
+        speaker: emma-anne-harris
+        title: FAIR data
+        recording: https://youtu.be/j-rPaiojNFk?t=206
+      - slides: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
+        speaker: alexholinski
+        title: FAIR training
+        recording: https://youtu.be/j-rPaiojNFk?t=1380
+      - slides: https://doi.org/10.6084/m9.figshare.14410751.v1
+        speaker: npch
+        title: Good enough practices for FAIR software
+        recording: https://youtu.be/j-rPaiojNFk?t=2915
   '11':
     start: April 19, 2021
     calls:
@@ -639,21 +627,30 @@ weeks:
         - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
         - do you want to switch your career or field? Why or why not?
       date: April 28, 2021
-      time: '16:00'
+      time: "16:00"
       notes: https://bit.ly/ols-3-week-12-cohort-call
       recording: https://www.youtube.com/watch?v=EMVGOapd0M4
+      talks:
+      - speaker: sdopoku
+        title: Social entrepreneurship
+      - speaker:
+        title: Open Lab and Makers movement
+      - speaker:
+        title: Journal and public relations
+      - speaker: natalie-banner
+        title: Talking about data in trustworthy ways
   '13':
-    start: May 3, 2021
+    start: May 03, 2021
     calls:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
     - date: May 05, 2021
-      time: '11:30'
+      time: "11:30"
       duration: 90 min
       notes: https://docs.google.com/document/d/1tS7UG2PvZhcNhUQU1xyURTEuIh7QwQnlDyQU4libZ10/edit#
       type: Cohort
-      title: 'Skill-up & social: Sketchnoting and visual storytelling'
+      title: Sketchnoting and visual storytelling
       content: |
         During this week's coworking call, you will:
         - Learn about sketchnoting, a way to tell stories visually
@@ -663,6 +660,14 @@ weeks:
       after: |
         - Continue on with your project, and connect with others on Slack or other social media platforms.
       recording: https://www.youtube.com/watch?v=mHCYpX6WLZw
+    - date: May 05, 2021
+      time: "11:30"
+      duration: 90 min
+      notes: https://docs.google.com/document/d/1tS7UG2PvZhcNhUQU1xyURTEuIh7QwQnlDyQU4libZ10/edit#
+      title: Sketchnoting and visual storytelling
+      recording: https://www.youtube.com/watch?v=mHCYpX6WLZw
+      type: Skill-up
+      talks: []
   '14':
     start: May 10, 2021
     calls:
@@ -680,28 +685,9 @@ weeks:
         - Think through community interactions
         - Complete the midterm survey
       resources:
-      - type: slides
-        title: 'Unconscious Bias- does it really matter?'
-        link: https://figshare.com/articles/presentation/Unconscious_bias_-_does_it_really_matter_/14479875/5
-        speaker: rowland-mosbergen
-      - type: slides
-        title: Using Personas and Pathways to Build Community
-        link: https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
-        speaker: anelda
-      - type: slides
-        title: Mountain of Engagement & Community Interactions
-        link: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/present?token=AC4w5VidYTmudwv11GFa0VWvc4lrMoUVTw%3A1599124059444&includes_info_params=1&eisi=CJeckKzRzOsCFSOOTwkda3gCVA#slide=id.p
-        speaker: emmyft
-      - type: slides
-        title: Mentored contributions
-        link: https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
-        speaker: bebatut
-      - type: slides
-        speaker: yochannah
-        title: Community interactions
-        link: https://docs.google.com/presentation/d/1eT1coMa8_kp504wPkJvz8E_58ngmW6w-1kji1TdjPNE/present?token=AC4w5Vi74N6acwl2cG04O9g5SRageyTPvA%3A1599124047692&includes_info_params=1&eisi=CJatwqbRzOsCFdAlgQoddgkPhw#slide=id.g6e991a6830_0_0
       - type: document
-        title: 'Combating Unconscious Bias As Participation Leaders: What you can do'
+        title: 'Combating Unconscious Bias As Participation Leaders: What you can
+          do'
         link: https://docs.google.com/document/d/179heuuprjlCPDHs-qNxaIKefHj72uQFzOLIlqyq-0WE/edit?usp=sharing
       - type: document
         title: 'Mountain of Engagement (MoE): Discovering pathways & patterns of engagement
@@ -720,9 +706,26 @@ weeks:
         title: Community Interactions
         link: https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
       date: May 12, 2021
-      time: '11:30'
+      time: "11:30"
       notes: https://bit.ly/ols-3-week-14-cohort-call
       recording: https://www.youtube.com/watch?v=GdZ3kfKP43A
+      talks:
+      - slides: https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
+        speaker: rowland-mosbergen
+        title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
+          matter?)'
+      - slides: https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
+        speaker: anelda
+        title: Personas & Pathways
+      - slides: https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
+        speaker: emmyft
+        title: Mountain of Engagement
+      - slides: https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
+        speaker: bebatut
+        title: Welcoming new contributions to your project
+      - slides: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
+        speaker: yochannah
+        title: Community interactions
   '15':
     start: May 17, 2021
     calls:
@@ -753,7 +756,7 @@ weeks:
           Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
       after: |
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
-      resources: null
+      resources:
       date: May 18, 2021
       time: '07:00'
       notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
@@ -774,7 +777,7 @@ weeks:
           Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
       after: |
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
-      resources: null
+      resources:
       date: May 19, 2021
       time: '12:00'
       notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
@@ -795,7 +798,7 @@ weeks:
           Use this [HackMD template](https://hackmd.io/@malvikasharan/BJqVPw5wL) to guide your talk (OLS team should have shared link to your project HackMD via email)
       after: |
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
-      resources: null
+      resources:
       date: May 20, 2021
       time: '15:00'
       notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
@@ -816,7 +819,7 @@ weeks:
           Your presentation can be in the form of a demo, short presentation or a walk through your website
       after: |
         - Celebrate your graduation from OLS-3!
-      resources: null
+      resources:
       notes: https://pad.sfconservancy.org/p/ols-graduations-1
       recording: https://youtu.be/pU-HosUM5-8
     - type: Cohort
@@ -835,7 +838,7 @@ weeks:
         - Celebrate your graduation from OLS-3!
       notes: https://pad.sfconservancy.org/p/ols-graduations-2
       recording: https://www.youtube.com/watch?v=kNQz0ap71yg
-      resources: null
+      resources:
     - type: Cohort
       duration: 60 min
       title: Final presentations & Graduation! - Group 2
@@ -852,12 +855,12 @@ weeks:
         - Celebrate your graduation from OLS-3!
       notes: https://pad.sfconservancy.org/p/ols-graduations-3
       recording: https://www.youtube.com/watch?v=2tezbbfJGu8
-      resources: null
+      resources:
     - type: Mentor
       duration: 60 min
       title: Mentor wrap up
-      date: null
-      time: null
+      date:
+      time:
       content: |
         During our first cohort call, we will:
         - Wrap-up the cohort

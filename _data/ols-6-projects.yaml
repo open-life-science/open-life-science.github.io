@@ -70,7 +70,7 @@
   - jafsia
   name: Development of a Multi-Adaptor Quality Control Kit for Integration with Radiographic Equipment
   participants:
-  - umar-farouk-ahmad
+  - phaarouknucleus
 - description: 'Objective: to provide a FAIR by design training course on Open Science
     The project aims at creating FAIRer teaching material on my subject of expertise,
     Open Science, improving my teaching skills by attending your course on opening
@@ -114,7 +114,7 @@
   name: Ethical standards and reproducibility of computer models in Neurobiology
   participants:
   - susana465
-- description: ODC (Open Data Custodians) is an open tool for connecting public domain Github repo data to a DB/API. Inspired by the BigScience Data Governance Framework, this project seeks to empower repo maintainers to do more with their data and create new pathways for responsible data sharing in the open AI ecosystem. 
+- description: ODC (Open Data Custodians) is an open tool for connecting public domain Github repo data to a DB/API. Inspired by the BigScience Data Governance Framework, this project seeks to empower repo maintainers to do more with their data and create new pathways for responsible data sharing in the open AI ecosystem.
   keywords:
   - civic tech
   - data collection
