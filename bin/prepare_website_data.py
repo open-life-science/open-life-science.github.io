@@ -303,8 +303,8 @@ def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp
     for k, week in schedule['weeks'].items():
         for call in week['calls']:
             if call['type'] == 'cohort':
-                for r in call['resources']:
-                    if r['type'] == 'slides' and 'speaker' in r:
+                for r in call['talks']:
+                    if 'speaker' in r:
                         speakers.append(r['speaker'])
             if 'hosts' in call:
                 hosts += call['hosts']
@@ -403,7 +403,7 @@ def update_call(call, row, people):
         call['duration'] = "%s min" % int(int(row['duration'].seconds)/60)
     if not pd.isnull(row['Note link']):
         call['notes'] = row['Note link']
-    if not pd.isnull(row['Learning objectives']):
+    if 'Learning objectives' in row and not pd.isnull(row['Learning objectives']):
         call['content'] = 'In this call, participants will:\n%s' % row['Learning objectives']
     if not pd.isnull(row['Title']):
         call['title'] = row['Title']
@@ -417,13 +417,13 @@ def update_call(call, row, people):
         call['facilitators'] = get_people_ids(row['Facilitators'], people)
     if not pd.isnull(row['Type']):
         call['type'] = row['Type']
-    if not pd.isnull(row['Before']):
+    if 'Before' in row and not pd.isnull(row['Before']):
         call['before'] = row['Before']
     if 'After' in row and not pd.isnull(row['After']):
         call['after'] = row['After']
     elif 'Assignments' in row and not pd.isnull(row['Assignments']):
         call['after'] = row['Assignments']
-    call['resources'] = []
+    call['talks'] = []
     return call
 
 
@@ -442,25 +442,26 @@ def check_same_event(call, row):
     return same
 
 
-def update_resource(res, row, people):
+def update_talks(talks, row, people):
     ''''
     Update resource details
 
-    :param res: dictionary with resource details
-    :param row: row from dataframe with resource details
+    :param talks: dictionary with talk details
+    :param row: row from dataframe with talk details
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     '''
     if not pd.isnull(row['Slides']):
-        res['link'] = row['Slides']
+        talks['slides'] = row['Slides']
     if not pd.isnull(row['Confirmed speaker']):
         name = row['Confirmed speaker']
-        res['speaker'] = get_people_id(name, people)
-    res['type'] = 'slides'
+        talks['speaker'] = get_people_id(name, people)
     if not pd.isnull(row['Title']):
-        res['title'] = row['Title']
+        talks['title'] = row['Title']
     if not pd.isnull(row['Recording']):
-        res['recording'] = row['Recording']
-    return res
+        talks['recording'] = row['Recording']
+    if not pd.isnull(row['Topic']):
+        talks['tag'] = row['Topic']
+    return talks
 
 
 def add_event_information(schedule, schedule_df, people):
@@ -516,7 +517,7 @@ def add_event_information(schedule, schedule_df, people):
                 last_call = call
 
         elif row['Type'] == 'Presentation':
-            last_call['resources'].append(update_resource({}, row, people))
+            last_call['talks'].append(update_talks({}, row, people))
 
     return schedule
 

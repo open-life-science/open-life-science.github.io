@@ -33,8 +33,8 @@ photos:
 {% for w in schedule.weeks %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
                     {% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
                 {% endif %}
             {% endfor %}

@@ -26,11 +26,16 @@
 
 {% if c.type == "Cohort" %}
 
+**Talks**
+{% for r in c.talks %}
+- <i class="fas fa-file-powerpoint"></i>{% if r.link %} [{{ r.title }}]({{ r.link }}){% else %} {{ r.title }}{% endif %}{% if r.speaker %}{% if site.data.people[r.speaker].first-name %}, by [{{ site.data.people[r.speaker].first-name }} {{ site.data.people[r.speaker].last-name }}](/{{ cohort }}#{{ r.speaker }}){% endif %}{% endif %}
+{% endfor %}
+
 **Resources**:
 - <i class="fas fa-clipboard"></i> [Notes]({{ c.notes }})
 - <i class="fab fa-youtube"></i> {% if c.recording %} [Recording]({{ c.recording }}) {% else %} Recording available on the [OLS YouTube channel]({{ site.youtube }}) after the call {% endif %}
 {% for r in c.resources %}
-- {% if r.type == 'slides' %}<i class="fas fa-file-powerpoint"></i>{% elsif r.type == 'document' %} <i class="fas fa-file"></i>{% elsif r.type == 'external-link' %} <i class="fas fa-external-link-square-alt"></i>{% endif %} {% if r.link %} [{{ r.title }}]({{ r.link }}){% else %} {{ r.title }}{% endif %}{% if r.type == 'slides' and r.speaker %}{% if site.data.people[r.speaker].first-name %}, by [{{ site.data.people[r.speaker].first-name }} {{ site.data.people[r.speaker].last-name }}](/{{ cohort }}#{{ r.speaker }}){% endif %} {% endif %}
+- {% if r.type == 'slides' %}<i class="fas fa-file-powerpoint"></i>{% elsif r.type == 'document' %} <i class="fas fa-file"></i>{% elsif r.type == 'external-link' %} <i class="fas fa-external-link-square-alt"></i>{% endif %} {% if r.link %} [{{ r.title }}]({{ r.link }}){% else %} {{ r.title }}{% endif %}
 {% endfor %}
 
 {% endif %}
