@@ -124,57 +124,18 @@ Any modification of the content should be done in the _data/ols-5-metadata.yaml 
 
 We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
-<div class="people">
-    {% for mentor in metadata.possible-mentors %}
-        {% assign username = mentor %}
-        {% assign user = site.data.people[username] %}
-        {% include _includes/people.html user=user username=username %}
-    {% endfor %}
-</div>
+{% include _includes/people-list.html people-list=metadata.possible-mentors people-expertise=metadata.possible-mentors-with-expertise %}
 
-{% if metadata.possible-mentors-with-expertise %}
-
-<div class="expertise">
-    <h4 class="expertise-detail-question">
-        <a class="expertise-detail-toggle">
-            Mentors sorted by their expertise areas
-            <i class="fa fa-angle-down"></i>
-        </a>
-    </h4>
-    <ul class="expertise-detail is-hidden">
-        {% for expertise in metadata.possible-mentors-with-expertise %}
-        <li class="expertise-question">
-            <a class="expertise-toggle">
-                {{ expertise[0] }}
-                <i class="fa fa-angle-down"></i>
-            </a>
-            <div class="peoples is-hidden">
-                <div class="people">
-                {% for mentor in expertise[1] %}
-                    {% assign username = mentor %}
-                    {% assign user = site.data.people[username] %}
-                    {% include _includes/people.html user=user username=username %}
-                {% endfor %}
-                </div>
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-{% endif %} -->
+-->
 
 
 <!-- Pool of mentors (hidden before cohort starts)
 Any modification of the content should be done in the _data/ols-5-projects.yaml file -->
 
 We thank the {{ p-mentors | size }} mentors this round.
-<div class="people">
-{% for entry in p-mentors %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+
+{% include _includes/people-list.html people-list=p-mentors %}
+
 
 ### Mentoring training
 
@@ -198,60 +159,18 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 
 We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round.
 
-<div class="people">
-    {% for mentor in metadata.experts %}
-        {% assign username = mentor %}
-        {% assign user = site.data.people[username] %}
-        {% include _includes/people.html user=user username=username %}
-    {% endfor %}
-</div>
-
-{% if metadata.experts-with-expertise %}
-
-<div class="expertise">
-    <h4 class="expertise-detail-question">
-        <a class="expertise-detail-toggle">
-            Experts sorted by their expertise areas
-            <i class="fa fa-angle-down"></i>
-        </a>
-    </h4>
-    <ul class="expertise-detail is-hidden">
-        {% for expertise in metadata.experts-with-expertise %}
-        <li class="expertise-question">
-            <a class="expertise-toggle">
-                {{ expertise[0] }}
-                <i class="fa fa-angle-down"></i>
-            </a>
-            <div class="peoples is-hidden">
-                <div class="people">
-                {% for mentor in expertise[1] %}
-                    {% assign username = mentor %}
-                    {% assign user = site.data.people[username] %}
-                    {% include _includes/people.html user=user username=username %}
-                {% endfor %}
-                </div>
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-{% endif %}
+{% include _includes/people-list.html people-list=metadata.experts people-expertise=metadata.experts-with-expertise %}
 
 A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-5 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
 
 {% if all-speakers != '' %}
-### Speakers during cohort calls
+## Speakers during cohort calls
 
-<div class="people">
-{% for entry in p-speakers %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=p-speakers %}
+
 {% endif %}
 
-### Facilitators
+## Facilitators
 
 Facilitators work closely with the OLS organisers to manage and run cohort calls. They lead efforts in preparing cohort call notes, co-hosting cohort calls and ensuring the sharing of call recordings and resources through OLS channelss
 
@@ -259,23 +178,11 @@ Facilitators work closely with the OLS organisers to manage and run cohort calls
 
 We thank the **{{ metadata.facilitators | size }} persons who facilitated** in this round.
 
-<div class="people">
-    {% for p in metadata.facilitators %}
-        {% assign username = p %}
-        {% assign user = site.data.people[username] %}
-        {% include _includes/people.html user=user username=username %}
-    {% endfor %}
-</div>
+{% include _includes/people-list.html people-list=metadata.facilitators %}
 
 ## Organizers
 
-<div class="people">
-{% for entry in metadata.organizers %}
-    {% assign username = entry %}
-    {% assign user = site.data.people[username] %}
-    {% include _includes/people.html user=user username=username %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=metadata.organizers %}
 
 # Collaborators
 

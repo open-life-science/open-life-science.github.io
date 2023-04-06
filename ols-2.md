@@ -121,22 +121,11 @@ Mentors advise and inspire
 <!-- Any modification of the content should be done in the _data/ols-2-projects.yaml file -->
 
 <!--**Pool of mentors for OLS-2**
+{% include _includes/people-list.html people-list=metadata.possible-mentors %}
 
-<div class="people">
-{% for entry in metadata.possible-mentors %}
-    {% assign username = entry %}
-    {% assign user = site.data.people[username] %}
-    {% include _includes/people.html user=user username=username %}
-{% endfor %}
-</div>-->
+-->
 
-<div class="people">
-{% for entry in p-mentors %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=p-mentors %}
 
 ### Mentoring training
 
@@ -158,48 +147,27 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 
 <!-- Any modification of the content should be done in the _data/ols-2-metadata.yaml file -->
 
-<div class="people">
-{% for entry in metadata.experts %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=metadata.experts %}
+
 
 A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-2 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
 
 {% if all-speakers != '' %}
-### Speakers during cohort calls
+## Speakers during cohort calls
 
-<div class="people">
-{% for entry in p-speakers %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=p-speakers %}
+
 {% endif %}
 
 ## Organizers
 
-<div class="people">
-{% for entry in metadata.organizers %}
-    {% assign username = entry %}
-    {% assign user = site.data.people[username] %}
-    {% include _includes/people.html user=user username=username %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=metadata.organizers %}
 
 {% if all-hosts != '' %}
 ### Hosts for calls
 
-<div class="people">
-{% for entry in p-hosts %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=p-hosts %}
+
 {% endif %}
 
 # Collaborators

@@ -1,0 +1,32 @@
+<div class="people">
+{% for person in include.people-list %}
+    {% assign username = person %}
+    {% assign user = site.data.people[username] %}
+    {% include _includes/people.html user=user username=username %}
+{% endfor %}
+</div>
+
+{% if include.people-expertise %}
+
+<div class="expertise">
+    <p class="expertise-detail-question"><a class="expertise-detail-toggle">Sorted by their expertise areas<i class="fa fa-angle-down"></i></a></p>
+    <ul class="expertise-detail is-hidden">
+        {% for expertise in include.people-expertise %}
+        <li class="expertise-question">
+            <a class="expertise-toggle">
+            {{ expertise[0] }}<i class="fa fa-angle-down"></i>
+            </a>
+            <div class="peoples is-hidden">
+                <div class="people">
+                {% for person in expertise[1] %}
+                    {% assign username = person %}
+                    {% assign user = site.data.people[username] %}
+                    {% include _includes/people.html %}
+                {% endfor %}
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}

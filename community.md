@@ -29,89 +29,42 @@ We have high ethical standards, including:
 
 ## Directors
 
-<div class="people">
-{% for entry in community.team.directors %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=community.team.directors %}
 
 ## Staff
 
-<div class="people">
-{% for entry in community.team.staff %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=community.team.staff %}
 
 <!--
 # Informal advisors
+
 Community leaders from different projects who take on advisory roles in OLS
 
-<div class="people">
-{% for entry in community.advisors %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=community.advisors %}
 
 # Trainers
 
 ## OLS skills
 
-<div class="people">
-{% for entry in community.trainers.ols %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=community.trainers.ols %}
 
 ## Ally skills
 
-<div class="people">
-{% for entry in community.trainers.ally %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=community.trainers.ally %}
 
 ## Technical skills
 
-<div class="people">
-{% for entry in community.trainers.technical %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=community.trainers.technical %}
 
 # Task forces
 
 ## Hiring committee
 
-<div class="people">
-{% for entry in community.task_forces.hiring %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=community.task_forces.hiring %}
 
 ## Localisation team
 
-<div class="people">
-{% for entry in community.task_forces.localization %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=community.task_forces.localization %}
 
 -->
 

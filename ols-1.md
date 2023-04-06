@@ -112,13 +112,7 @@ Mentors advice and inspire
 
 <!-- Any modification of the content should be done in the _data/ols-1-projects.yaml file -->
 
-<div class="people">
-{% for entry in p-mentors %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=p-mentors %}
 
 ### Mentoring training
 
@@ -138,33 +132,15 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 
 <!-- Any modification of the content should be done in the _data/ols-1-metadata.yaml file -->
 
-<div class="people">
-{% for entry in metadata.experts %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=metadata.experts %}
 
-### Speakers during cohort calls
+## Speakers during cohort calls
 
-<div class="people">
-{% for entry in p-speakers %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=p-speakers %}
 
 ## Organizers
 
-<div class="people">
-{% for entry in metadata.organizers %}
-    {% assign username = entry %}
-    {% assign user = people[username] %}
-    {% include _includes/people.html user=user username=username %}
-{% endfor %}
-</div>
+{% include _includes/people-list.html people-list=metadata.organizers %}
 
 # Calls
 
