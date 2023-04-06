@@ -380,9 +380,9 @@ def dump_schedule(schedule, cohort):
     :param schedule: dictionary with schedule details
     :param cohort: cohort number
     '''
-    fp = Path('_data') / Path('ols-%s-schedule.yaml' % cohort )
+    fp = Path('_data') / Path(f'ols-{cohort}-schedule.yaml')
     with fp.open("w") as schedule_f:
-        schedule_f.write("# Schedule for the OLS-%s\n" % cohort)
+        schedule_f.write(f"# Schedule for the OLS-{cohort}\n")
         schedule_f.write("---\n")
         yaml.dump(schedule, schedule_f)
 
@@ -584,6 +584,76 @@ def dump_metadata(metadata, cohort):
         yaml.dump(metadata, metadata_f)
 
 
+### METHODS TO BUILD THE CATALOG
+
+def extract_talks():
+    '''
+    Extract talks from all cohort
+    '''
+    talks = []
+    for sched_fp in Path('_data').iterdir():
+        if 'schedule' not in sched_fp.name:
+            continue
+        # get cohort schedule
+        cohort = sched_fp.name.split('-')[1]
+        schedule = load_schedule(cohort)
+        # extract talks
+        for w, week in schedule['weeks'].items():
+            if 'calls' not in week:
+                continue
+            for c, call in enumerate(week['calls']):
+                if 'talks' in call:
+                    for talk in call['talks']:
+                        talk = dict(talk)
+                        talk['date'] = call['date']
+                        talk['cohort'] = f'ols-{cohort}'
+                        talks.append(talk)
+    return talks
+
+
+def aggregate_talks(talks):
+    '''
+    Aggregate talks by tag
+
+    :param talks: list with talks
+    '''
+    talks_by_tag = {}
+    for talk in talks:
+        if 'tag' in talk:
+            tag = talk['tag']
+            del talk['tag']
+        else:
+            tag = 'Not tagged'
+        talks_by_tag.setdefault(tag, [])
+        talks_by_tag[tag].append(dict(talk))
+    return talks_by_tag
+
+
+def combine_tags(talks_by_tag):
+    '''
+    Combine tags by topic to build catalog
+
+    :param talks_by_tag: dictionary with talks grouped by tags
+    '''
+    # get tag to topic mapping
+    tag_topic_mapping = pd.read_csv("https://docs.google.com/spreadsheets/d/1sDJLG8RuoShWUQN78lvx_mghBbGfusdzlb1WwYrCbjk/export?format=csv&gid=0")
+    # build catalog
+    catalog = {}
+    for tag, talks in talks_by_tag.items():
+        #print(tag)
+        # identify topic
+        if tag == 'Not tagged':
+            topic = 'Not sorted'
+        elif tag in tag_topic_mapping.Tag.values:
+            topic = tag_topic_mapping[tag_topic_mapping.Tag == tag].Topic.tolist()[0]
+        else:
+            topic = 'Not sorted'
+        # add talks to catalog
+        catalog.setdefault(topic, {})
+        catalog[topic][tag] = talks
+    return catalog
+
+
 ### COMMANDS
 
 def add_projects(cohort, project_df, people_df):
@@ -771,6 +841,24 @@ def update_schedule(cohort, schedule_df):
     dump_schedule(schedule, args.cohort)
 
 
+def build_catalog():
+    '''
+    Extract talks from all cohort schedule to build catalog
+    '''
+    # extract talks
+    talks = extract_talks()
+    # aggregate talks by tags
+    talks_by_tag = aggregate_talks(talks)
+    # combine tags by topic to build catalog
+    catalog = combine_tags(talks_by_tag)
+    # write catalog to file
+    fp = Path('_data') / Path('catalog.yaml')
+    with fp.open("w") as cat_f:
+        cat_f.write("# Catalog of expert talks in cohort calls\n")
+        cat_f.write("---\n")
+        yaml.dump(catalog, cat_f)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Interact and prepare OLS website data')
     subparser = parser.add_subparsers(dest='command')
@@ -815,6 +903,8 @@ if __name__ == '__main__':
     getpeople.add_argument('-ef', '--experts', help="Path to output sheet with expert details", required=True)
     getpeople.add_argument('-sf', '--speakers', help="Path to output sheet with speaker details", required=True)
     getpeople.add_argument('-hf', '--hosts', help="Path to output sheet with call host details", required=True)
+    # Extract talks to build catalog
+    buildcatalog = subparser.add_parser('buildcatalog', help='Extract talks to build catalog')
 
     args = parser.parse_args()
 
@@ -857,3 +947,5 @@ if __name__ == '__main__':
             Path(args.experts),
             Path(args.speakers),
             Path(args.hosts))
+    elif args.command == 'buildcatalog':
+        build_catalog()
