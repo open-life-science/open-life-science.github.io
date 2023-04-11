@@ -7,7 +7,7 @@
     where researchers, students, citizen scientists can collaborate on projects, research projects, articles or just share
     their work based on open science principles.
     There are examples of open research environments in the scientific community, in particular in the machine learning field.
-    Examples are [mlcollective](https://mlcollective.org/), [Machine Learning Tokyo](https://machinelearningtokyo.com/) and 
+    Examples are [mlcollective](https://mlcollective.org/), [Machine Learning Tokyo](https://machinelearningtokyo.com/) and
     [Neuromatch Academy](https://academy.neuromatch.io/).
     Those communities run by volunteers created a friendly environment and study groups for machine learning practitioners and also
     curricula to introduce students to data science.
@@ -764,3 +764,15 @@
   - Students
   - Supervisor
   - Machine Learning
+- name: Bioinformatics University Outreach
+  description: Bioinformatics, an interdisciplinary field that combines computer science, statistics, and biology to analyze and interpret biological data. As the amount of biological data generated continues to grow rapidly, there is an increasing demand for professionals with expertise in bioinformatics. To help meet this demand, we propose a university outreach program focused on developing bioinformatics capacity among University students in Nigeria and this will create early interest in genomics data analysis among the students and equip them with the relevant skills set  and knowledge in Bioinformatics. Also, we will be creating awareness of Open science among the university students. We would be working alongside other sister organizations to achieve this goal.
+  participants:
+  - emmanuel19-ada
+  - seunolufemi123
+  - aymd23
+  mentors:
+  - landimi2
+  keywords:
+  - Bioinformatics
+  - Open Science
+  - Outreach
