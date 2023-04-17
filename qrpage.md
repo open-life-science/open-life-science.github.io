@@ -7,3 +7,5 @@ photos:
   license: Unsplash License
   url: https://unsplash.com/photos/FYNh6W7_GII
 ---
+
+{% include _includes/qrpage.html %}
