@@ -401,6 +401,49 @@ code {
   margin-bottom: 20px;
 }
 
+.qr-container {
+  width: 95%;
+  height: auto;
+  display: grid;
+  margin: 0 auto;
+  font-size: 16px;
+  box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
+
+  .qr-description, .row, .socials {
+    box-shadow: 0 0 2.5rem rgba(78, 77, 77, 0.28);
+  }
+
+  .qr-description {
+    width: 60%;
+    margin: 10px auto;
+    padding: 30px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #686565;
+  }
+
+  .row {
+    width: 70%;
+    padding: 20px;
+    font-weight: 400;
+    margin: 40px auto;
+    box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
+  }
+
+  .socials {
+    width: fit-content;
+    color: #48b87d;
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+
+    .social {
+      padding: 10px;
+    }
+  }
+}
 
 // table responsiveness (mobile)
 @media screen and (max-width: 768px) and (min-width: 320px) {
