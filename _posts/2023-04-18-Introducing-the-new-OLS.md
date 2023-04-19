@@ -2,11 +2,10 @@
 layout: post
 title: Introducing the new OLS look
 authors:
-- Jilaga
+- jilaga
 image: /images/rebranding-Jilaga/2023-04-18-open-by-design.png
 photos:
-  name: photo by Jilaga 
-  url: 
+  name: photo by Jilaga
 ---
 
 Exciting news! We wrapped up our rebranding excercise by **refreshing our logo** and **introducing a new name for our mentoring program**; **Open Seeds**! The new logo reaffirms our core values **Growth**, **Community** and **Nurture**, with a cohesive **colour palette**. We're excited to launch our refreshed brand identity and continue our commitment to advancing open research and scholarship.
