@@ -2,37 +2,4 @@
 layout: default
 ---
 
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage":
-    "@type": "WebPage",
-    "@id": "{{ site.url }}/posts/"
-    },
-
-    "headline": "{{ page.title }}",
-    "description": "{{ page.excerpt }}",
-    "image": "{{ page.image }}",  
-    "author": {
-        "@type": "Person",
-        "name": "{{ page.authors | join: ", "}}",
-        "url": "{{ site.url }}/people#{{ page.authors[0] }}"
-    },
-
-    "publisher": {
-        "@type": "Organization",
-        "name": "Openlifescience",
-        "logo": {
-            "@type": "ImageObject",
-            "url": ""
-        }
-    },
-
-    "datePublished": "
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}",
-    "dateModified": ""
-</script>
-
 {{content}}
