@@ -23,14 +23,14 @@
             "headline": "{{ page.title }}",
             "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}",
             "image": "{{ page.image }}",
+            {% for author in page.authors %}
             "author": {
                   "@type": "Person",
-                  "name": "{{ page.authors | join: ", "}}",
+                  "name": "{{ author }}",
                   "url": 
-                  {% for author in page.authors %}
                   "{{ site.url }}/people#{{ author }}",
-                  {%- endfor -%}
-              },
+                },
+              {% endfor %}
             "publisher": {
               "@type": "Organization",
               "name": "Open Life Science",
