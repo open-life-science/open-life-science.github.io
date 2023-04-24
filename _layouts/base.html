@@ -26,7 +26,10 @@
             "author": {
                   "@type": "Person",
                   "name": "{{ page.authors | join: ", "}}",
-                  "url": "{{ site.url }}/people#{{ page.authors[0] }}"
+                  "url": 
+                  {% for author in page.authors %}
+                  "{{ site.url }}/people#{{ author }}",
+                  {%- endfor -%}
               },
             "publisher": {
               "@type": "Organization",
