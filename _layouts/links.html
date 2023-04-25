@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: index
 ---
 
 <div class="qr-container">
@@ -21,7 +21,7 @@ layout: base
         
         <div class="row events">
             <p>
-                Check out some <a href="/events">upcoming events</a> and mark your calender.
+                Upcoming <a href="/events">events</a>.
                 <!-- A direct link to OLS events page-->
             </p>
         </div>
@@ -31,41 +31,38 @@ layout: base
                 Stay up-to-date with the latest happenings by reading our <a href="/posts">posts</a>.
             </p>
         </div>
-    </div>
 
-    <div class="socials">
-        <div class="social twitter">
+        <div class="row twitter">
             <p>
-                <a href="https://twitter.com/{{ site.twitter }}"><i class="fab fa-twitter"></i>
+                <a href="https://twitter.com/{{ site.twitter }}"><i class="fab fa-twitter"></i>Twitter
                 </a>
             </p>
         </div>
 
-        <div class="social linkedin">
+        <div class="row linkedin">
             <p>
-                <a href="https://www.linkedin.com/company/openlifesci/"><i class="fab fa-linkedin-in"></i>
-                </a>
-            </p>
-            
-        </div>
-
-        <div class="social email">
-            <p>
-                <a href="mailto:{{ site.email }}"><i class="fas fa-at"></i>
+                <a href="https://www.linkedin.com/company/openlifesci/"><i class="fab fa-linkedin-in"></i>Linkedin
                 </a>
             </p>
         </div>
 
-        <div class="social github">
+        <div class="row email">
             <p>
-                <a href="{{ site.github.repository_url }}"><i class="fab fa-github"></i>
+                <a href="mailto:{{ site.email }}"><i class="fas fa-at"></i>Email
                 </a>
             </p>
         </div>
 
-        <div class="social youtube">
+        <div class="row github">
             <p>
-                <a href="{{ site.youtube }}"><i class="fab fa-youtube"></i>
+                <a href="{{ site.github.repository_url }}"><i class="fab fa-github"></i>Github
+                </a>
+            </p>
+        </div>
+
+        <div class="row youtube">
+            <p>
+                <a href="{{ site.youtube }}"><i class="fab fa-youtube"></i>Youtube
                 </a>
             </p>
         </div>
