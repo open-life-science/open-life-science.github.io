@@ -405,7 +405,7 @@ code {
   width: 80%;
   height: auto;
   display: grid;
-  margin: 100px auto;
+  margin: 80px auto;
   font-size: 16px;
   box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
 
@@ -428,20 +428,6 @@ code {
     font-weight: 400;
     margin: 40px auto;
     box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
-  }
-
-  .socials {
-    width: fit-content;
-    color: #48b87d;
-    font-size: 22px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    justify-self: center;
-
-    .social {
-      padding: 10px;
-    }
   }
 }
 
