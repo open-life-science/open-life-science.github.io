@@ -407,9 +407,10 @@ code {
   display: grid;
   margin: 80px auto;
   font-size: 16px;
+  text-align: center;
   box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
 
-  .qr-description, .row, .socials {
+  .qr-description, .row {
     box-shadow: 0 0 2.5rem rgba(78, 77, 77, 0.28);
   }
 
@@ -428,6 +429,17 @@ code {
     font-weight: 400;
     margin: 40px auto;
     box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
+
+    svg {
+      display: inline;
+      width: 1.4em;
+      height: 1em;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #333;
+    }
   }
 }
 
