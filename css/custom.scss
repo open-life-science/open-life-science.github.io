@@ -435,7 +435,6 @@ code {
     font-weight: 400;
     margin: 20px auto;
     background: #333;
-    box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
 
     svg {
       display: inline;
@@ -445,7 +444,7 @@ code {
 
     a:hover {
       text-decoration: underline;
-      color: #333;
+      color: white;
     }
   }
 }
