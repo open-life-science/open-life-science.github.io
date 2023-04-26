@@ -405,13 +405,18 @@ code {
   width: 80%;
   height: auto;
   display: grid;
-  margin: 80px auto;
+  margin: 50px auto;
   font-size: 16px;
   text-align: center;
   box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
 
   .qr-description, .row {
-    box-shadow: 0 0 2.5rem rgba(78, 77, 77, 0.28);
+    box-shadow: 0 0 1.5rem rgba(78, 77, 77, 0.28);
+  }
+
+  img {
+    width: 120px;
+    margin: 20px auto;
   }
 
   .qr-description {
@@ -424,10 +429,11 @@ code {
   }
 
   .row {
-    width: 70%;
+    width: 60%;
     padding: 20px;
     font-weight: 400;
-    margin: 40px auto;
+    margin: 20px auto;
+    background: #333;
     box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
 
     svg {
