@@ -23,23 +23,24 @@
             "headline": "{{ page.title }}",
             "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}",
             "image": "{{ page.image }}",
-            {% for author in page.authors %}
-            "author": {
-                  "@type": "Person",
-                  "name": "{{ author }}",
-                  "url": "{{ site.url }}/people#{{ author }}",
-                },
-              {% endfor %}
+            "author": [
+            {%- for author in page.authors -%}
+              {
+              "@type": "Person",
+              "name": "{{ site.data.people[author].first-name }} {{ site.data.people[author].last-name }}",
+              "url": "{{ site.url }}/people#{{ author }}",
+              },
+            {%- endfor -%}]
             "publisher": {
               "@type": "Organization",
               "name": "Open Life Science",
+              "url": "{{ site.url }}"
                 "logo": {
                   "@type": "ImageObject",
                   "url": "{{ site.url }}/images/logo.png"
                 }
               },
             "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
-            "dateModified": ""
           }
         </script>
         {% endif %}
