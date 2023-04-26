@@ -25,13 +25,13 @@ Nevertheless, we remain committed to improving our brand identity and expanding 
 
 ## The New Logo
 
-![image](/images/rebranding-Jilaga/2023-04-18-logo-refresh.png)
+![The image shows the previous Open Life Science logo on the left and the new logo on the right.](/images/rebranding-Jilaga/2023-04-18-logo-refresh.png "Refresh of the Open Life Science logo")
 
 The new design features a simple yet dynamic logo mark that conveys the concept of community, growth and nurture.
 
 ## The Shape
 
-![image](/images/rebranding-Jilaga/2023-04-18-logomark.png)
+![The image shows the design of the new Open Life Science logo composed of two growing leaves, symbolizing the collaborative nature of OLS and the community it supports.](/images/rebranding-Jilaga/2023-04-18-logomark.png "New Open Life Science logo")
 
 Plant seeding is a powerful growth metaphor that symbolises new beginnings, potential, and growth. Just as a seed needs the right conditions to germinate and grow, individuals and ideas also require the right environment and support to thrive.
 
@@ -42,7 +42,7 @@ The organic shapes of the leaves evoke a sense of natural growth and development
 
 ## The Colour
 
-![image](/images/rebranding-Jilaga/2023-04-18-colourrefresh.png)
+![The image shows the old color palette on the left and the new one on the right, which consists of three colors: the first is pigment green, the second is a soft, stimulating green called spring bud, and finally a shade of blue called phthalo blue.](/images/rebranding-Jilaga/2023-04-18-colourrefresh.png "New color palette")
 
 These colors were chosen to represent growth, vibrancy, and innovation.
 
@@ -61,7 +61,7 @@ The new brand colors will be incorporated across all of OLS's platforms, from ou
 ## Open Seeds Mentoring and Training Program
 
 
-![image](/images/rebranding-Jilaga/2023-04-18-open-seeds.png)
+![The image shows the logo of the Open Life Sciences Mentoring and Training Program called Open Seeds.](/images/rebranding-Jilaga/2023-04-18-open-seeds.png "Open Life Science Mentoring and Training Program Logo")
 
 **Open Seeds** is the new name for the Open Life Science mentoring program, reflecting their commitment to growing and nurturing talent within our community. It represents our focus on providing support and resources to help new ideas and projects flourish, while also honouring the spirit of openness and collaboration that is central to our mission. 
 With Open Seeds, OLS is planting the seeds of innovation and cultivating a community of leaders who will shape the future of research and discovery.
@@ -75,4 +75,4 @@ The rebranding exercise has been an exciting journey for us and we have gained v
 Our refreshed brand identity also captures the essence of our mission, and we are confident that it will resonate with our community. 
 We appreciate everyone who participated in the voting process and provided us with feedback.
 
-![image](/images/rebranding-Jilaga/2023-04-18-identity-poster.png)
+![The image shows the new OLS brand identity applied to different objects such as T-shirts and bags.](/images/rebranding-Jilaga/2023-04-18-identity-poster.png "New OLS brand identity")
