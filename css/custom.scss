@@ -410,7 +410,7 @@ code {
   text-align: center;
   box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
 
-  .qr-description, .row {
+  .qr-description {
     box-shadow: 0 0 1.5rem rgba(78, 77, 77, 0.28);
   }
 
@@ -420,7 +420,7 @@ code {
   }
 
   .qr-description {
-    width: 60%;
+    width: 65%;
     margin: 10px auto;
     padding: 30px;
     font-weight: 500;
@@ -435,6 +435,7 @@ code {
     font-weight: 400;
     margin: 20px auto;
     background: #333;
+    border-radius: 7px;
 
     svg {
       display: inline;
@@ -443,7 +444,7 @@ code {
     }
 
     a:hover {
-      text-decoration: underline;
+      text-decoration: underline #48b87d;
       color: white;
     }
   }
