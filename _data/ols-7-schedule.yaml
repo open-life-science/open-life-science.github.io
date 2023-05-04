@@ -266,7 +266,7 @@ weeks:
       type: Skill-up
       before: |
         - Please create a GitHub account: https://github.com
-        - Have a look at the [OLS-4 repository](https://github.com/open-life-science/ols-4/issues) for 'project issues'
+        - Have a look at the [OLS-7 repository](https://github.com/open-life-science/ols-7/issues) for 'project issues'
         - Comment of 1-2 project's recent post (vision, open canvas etc.)
         - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
       resources:
