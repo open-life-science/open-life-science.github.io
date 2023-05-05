@@ -29,7 +29,11 @@
               "@type": "Person",
               "name": "{{ site.data.people[author].first-name }} {{ site.data.people[author].last-name }}",
               "url": "{{ site.url }}/people#{{ author }}"
-              },
+                {%- if forloop.last -%}
+                  }
+                  {%- else -%}
+                  },
+                {% endif %}
             {%- endfor -%}]
             "publisher": {
               "@type": "Organization",
