@@ -32,7 +32,7 @@ OLS-7 runs from February to June 2023. Applications for OLS-8 will open at mid 2
 
 ## Timeline
 
-{% assign schedule = site.data.ols-7-schedule %}
+{% assign schedule = site.data.cohorts.ols-7.schedule %}
 {% include _includes/timeline.md %}
 
 Have a question or need any support to join this cohort?
@@ -45,9 +45,9 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign all-experts = '' %}
 {% assign all-facilitators = '' %}
 <!-- OLS-1 -->
-{% assign ols-1-projects = site.data.ols-1-projects %}
-{% assign ols-1-experts = site.data.ols-1-metadata.experts | uniq | size %}
-{% capture all-experts %}{{ all-experts}}, {{ site.data.ols-1-metadata.experts | join: ', ' }}{% endcapture %}
+{% assign ols-1-projects = site.data.cohorts.ols-1.projects %}
+{% assign ols-1-experts = site.data.cohorts.ols-1.metadata.experts | uniq | size %}
+{% capture all-experts %}{{ all-experts}}, {{ site.data.cohorts.ols-1.metadata.experts | join: ', ' }}{% endcapture %}
 {% assign mentors = '' %}
 {% assign participants = '' %}
 {% for project in ols-1-projects %}
@@ -64,14 +64,14 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-1-participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size %}
 {% capture all-participants %}{{ all-participants}}, {{ participants }}{% endcapture %}
 {% assign ols-1-projects = ols-1-projects | size %}
-{% assign ols-1-schedule = site.data.ols-1-schedule %}
+{% assign ols-1-schedule = site.data.cohorts.ols-1.schedule %}
 {% assign ols-1-end = '' %}
 {% for w in ols-1-schedule.weeks %}
     {% assign ols-1-end = w[1].start %}
 {% endfor %}
 <!-- OLS-2 -->
-{% assign ols-2-projects = site.data.ols-2-projects %}
-{% assign ols-2-experts = site.data.ols-2-metadata.experts | uniq | size %}
+{% assign ols-2-projects = site.data.cohorts.ols-2.projects %}
+{% assign ols-2-experts = site.data.cohorts.ols-2.metadata.experts | uniq | size %}
 {% capture all-experts %}{{ all-experts}}, {{ site.data.ols-2-metadata.experts | join: ', ' }}{% endcapture %}
 {% assign mentors = '' %}
 {% assign participants = '' %}
@@ -89,17 +89,17 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-2-participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size %}
 {% capture all-participants %}{{ all-participants}}, {{ participants }}{% endcapture %}
 {% assign ols-2-projects = ols-2-projects | size %}
-{% assign ols-2-schedule = site.data.ols-2-schedule %}
+{% assign ols-2-schedule = site.data.cohorts.ols-2.schedule %}
 {% assign ols-2-end = '' %}
 {% for w in ols-2-schedule.weeks %}
     {% assign ols-2-end = w[1].start %}
 {% endfor %}
 <!-- OLS-3 -->
-{% assign ols-3-projects = site.data.ols-3-projects %}
-{% assign ols-3-experts = site.data.ols-3-metadata.experts | uniq | size %}
-{% capture all-experts %}{{ all-experts}}, {{ site.data.ols-3-metadata.experts | join: ', ' }}{% endcapture %}
-{% assign ols-3-facilitators = site.data.ols-3-metadata.facilitators | uniq | size %}
-{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.ols-3-metadata.facilitators | join: ', ' }}{% endcapture %}
+{% assign ols-3-projects = site.data.cohorts.ols-3.projects %}
+{% assign ols-3-experts = site.data.cohorts.ols-3.metadata.experts | uniq | size %}
+{% capture all-experts %}{{ all-experts}}, {{ site.data.cohorts.ols-3.metadata.experts | join: ', ' }}{% endcapture %}
+{% assign ols-3-facilitators = site.data.cohorts.ols-3.metadata.facilitators | uniq | size %}
+{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.cohorts.ols-3.metadata.facilitators | join: ', ' }}{% endcapture %}
 {% assign mentors = '' %}
 {% assign participants = '' %}
 {% for project in ols-3-projects %}
@@ -116,16 +116,16 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-3-participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size %}
 {% capture all-participants %}{{ all-participants}}, {{ participants }}{% endcapture %}
 {% assign ols-3-projects = ols-3-projects | size %}
-{% assign ols-3-schedule = site.data.ols-3-schedule %}
+{% assign ols-3-schedule = site.data.cohorts.ols-3.schedule %}
 {% assign ols-3-end = '' %}
 {% for w in ols-3-schedule.weeks %}
     {% assign ols-3-end = w[1].start %}
 {% endfor %}
 <!-- OLS-4-->
-{% assign ols-4-projects = site.data.ols-4-projects %}
-{% assign ols-4-experts = site.data.ols-4-metadata.experts | uniq | size %}
-{% capture all-experts %}{{ all-experts}}, {{ site.data.ols-4-metadata.experts | join: ', ' }}{% endcapture %}
-{% assign ols-4-facilitators = site.data.ols-4-metadata.facilitators | uniq | size %}
+{% assign ols-4-projects = site.data.cohorts.ols-4.projects %}
+{% assign ols-4-experts = site.data.cohorts.ols-4.metadata.experts | uniq | size %}
+{% capture all-experts %}{{ all-experts}}, {{ site.data.cohorts.ols-4.metadata.experts | join: ', ' }}{% endcapture %}
+{% assign ols-4-facilitators = site.data.cohorts.ols-4.metadata.facilitators | uniq | size %}
 {% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.ols-4-metadata.facilitators | join: ', ' }}{% endcapture %}
 {% assign mentors = '' %}
 {% assign participants = '' %}
@@ -143,17 +143,17 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-4-participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size %}
 {% capture all-participants %}{{ all-participants}}, {{ participants }}{% endcapture %}
 {% assign ols-4-projects = ols-4-projects | size %}
-{% assign ols-4-schedule = site.data.ols-4-schedule %}
+{% assign ols-4-schedule = site.data.cohorts.ols-4.schedule %}
 {% assign ols-4-end = '' %}
 {% for w in ols-4-schedule.weeks %}
     {% assign ols-4-end = w[1].start %}
 {% endfor %}
 <!-- OLS-5-->
-{% assign ols-5-projects = site.data.ols-5-projects %}
-{% assign ols-5-experts = site.data.ols-5-metadata.experts | uniq | size %}
-{% capture all-experts %}{{ all-experts}}, {{ site.data.ols-5-metadata.experts | join: ', ' }}{% endcapture %}
-{% assign ols-5-facilitators = site.data.ols-5-metadata.facilitators | uniq | size %}
-{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.ols-5-metadata.facilitators | join: ', ' }}{% endcapture %}
+{% assign ols-5-projects = site.data.cohorts.ols-5.projects %}
+{% assign ols-5-experts = site.data.cohorts.ols-5.metadata.experts | uniq | size %}
+{% capture all-experts %}{{ all-experts}}, {{ site.data.cohorts.ols-5.metadata.experts | join: ', ' }}{% endcapture %}
+{% assign ols-5-facilitators = site.data.cohorts.ols-5.metadata.facilitators | uniq | size %}
+{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.cohorts.ols-5.metadata.facilitators | join: ', ' }}{% endcapture %}
 {% assign mentors = '' %}
 {% assign participants = '' %}
 {% for project in ols-5-projects %}
@@ -170,17 +170,17 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-5-participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size %}
 {% capture all-participants %}{{ all-participants}}, {{ participants }}{% endcapture %}
 {% assign ols-5-projects = ols-5-projects | size %}
-{% assign ols-5-schedule = site.data.ols-5-schedule %}
+{% assign ols-5-schedule = site.data.cohorts.ols-5.schedule %}
 {% assign ols-5-end = '' %}
 {% for w in ols-5-schedule.weeks %}
     {% assign ols-5-end = w[1].start %}
 {% endfor %}
 <!-- OLS-6-->
-{% assign ols-6-projects = site.data.ols-6-projects %}
-{% assign ols-6-experts = site.data.ols-6-metadata.experts | uniq | size %}
-{% capture all-experts %}{{ all-experts}}, {{ site.data.ols-6-metadata.experts | join: ', ' }}{% endcapture %}
-{% assign ols-6-facilitators = site.data.ols-6-metadata.facilitators | uniq | size %}
-{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.ols-6-metadata.facilitators | join: ', ' }}{% endcapture %}
+{% assign ols-6-projects = site.data.cohorts.ols-6.projects %}
+{% assign ols-6-experts = site.data.cohorts.ols-6.metadata.experts | uniq | size %}
+{% capture all-experts %}{{ all-experts}}, {{ site.data.cohorts.ols-6.metadata.experts | join: ', ' }}{% endcapture %}
+{% assign ols-6-facilitators = site.data.cohorts.ols-6.metadata.facilitators | uniq | size %}
+{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.cohorts.ols-6.metadata.facilitators | join: ', ' }}{% endcapture %}
 {% assign mentors = '' %}
 {% assign participants = '' %}
 {% for project in ols-6-projects %}
@@ -197,17 +197,17 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-6-participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size %}
 {% capture all-participants %}{{ all-participants}}, {{ participants }}{% endcapture %}
 {% assign ols-6-projects = ols-6-projects | size %}
-{% assign ols-6-schedule = site.data.ols-6-schedule %}
+{% assign ols-6-schedule = site.data.cohorts.ols-6.schedule %}
 {% assign ols-6-end = '' %}
 {% for w in ols-6-schedule.weeks %}
     {% assign ols-6-end = w[1].start %}
 {% endfor %}
 <!-- OLS-7-->
-{% assign ols-7-projects = site.data.ols-7-projects %}
-{% assign ols-7-experts = site.data.ols-7-metadata.experts | uniq | size %}
-{% capture all-experts %}{{ all-experts}}, {{ site.data.ols-7-metadata.experts | join: ', ' }}{% endcapture %}
+{% assign ols-7-projects = site.data.cohorts.ols-7.projects %}
+{% assign ols-7-experts = site.data.cohorts.ols-7.metadata.experts | uniq | size %}
+{% capture all-experts %}{{ all-experts}}, {{ site.data.cohorts.ols-7.metadata.experts | join: ', ' }}{% endcapture %}
 {% assign ols-7-facilitators = site.data.ols-7-metadata.facilitators | uniq | size %}
-{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.ols-7-metadata.facilitators | join: ', ' }}{% endcapture %}
+{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.cohorts.ols-7.metadata.facilitators | join: ', ' }}{% endcapture %}
 {% assign mentors = '' %}
 {% assign participants = '' %}
 {% for project in ols-7-projects %}
@@ -224,7 +224,7 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% assign ols-7-participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size %}
 {% capture all-participants %}{{ all-participants}}, {{ participants }}{% endcapture | size %}
 {% assign ols-7-projects = ols-7-projects | size %}
-{% assign ols-7-schedule = site.data.ols-7-schedule %}
+{% assign ols-7-schedule = site.data.cohorts.ols-7.schedule %}
 {% assign ols-7-end = '' %}
 {% for w in ols-7-schedule.weeks %}
     {% assign ols-7-end = w[1].start %}
