@@ -4,18 +4,28 @@ title: "Welcoming new OLS Staff — Debs and Tajuddeen"
 authors:
 - yochannah
 - npdebs
+image: https://images.pexels.com/photos/128299/pexels-photo-128299.jpeg
+photos:
+  name: Mabel Amber
+  url: https://www.pexels.com/@mabelamber/
 ---
 
 _This blog is in [Nigerian Pidgin](https://en.wikipedia.org/wiki/Nigerian_Pidgin) and in [English](https://en.wikipedia.org/wiki/English_language). Scroll down to find the English-language translation._
 
-## Taj
+## Nigerian Pidgin
+### Taj
 My name na Tajuddeen Gwadabe and I get PhD for Computer Science and Technology from University of Chinese Academy of Science. To arrange and organise things dey catch my attention well well. Na wetin carry me enter this Project Management career.
 
 I really like to meet people from everywhere for this world, and to learn how dem dey do things for other cultures. So far, I don talk with people from 40 countries, either face-to-face or online.
 
 I dey watch plenty videos on sustainability in agriculture, climate, building and technology.
 
-## Debs
+### Debs
+<div class="columns">
+  <div class="column is-3" markdown="1">
+![A photo of Debs, a woman from Nigeria. She has rich, black hair and is wearing a blue sleeveless dress, a pair of glasses and a smile.](/images/2023-05-debs.jpg)
+  </div>
+  <div class="column" markdown="1">
 My name na Deborah Udoh, but dem dey also call me Debs. I from Anang tribe, inside Akwa Ibom, for Nigeria. Dem sey my people dey chop human being, but na book I dey like chop sha.
 
 Wetin dey give me joy for life na people and tech. Na why I dey study to become professional Nurse, and I dey design website the same time too.
@@ -23,6 +33,8 @@ Wetin dey give me joy for life na people and tech. Na why I dey study to become 
 I too like food, podcast, photography, horror feem and to tell computer wetin to do (* winch laugh *)
 
 The things I no fit do for dark chocolate and ice cream no too plenty.
+  </div>
+</div>
 
 ## English
 
