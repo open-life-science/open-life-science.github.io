@@ -9,7 +9,7 @@ For many, 2023 is the [Year of Open Science](https://www.whitehouse.gov/ostp/new
 
 ## What will we do? 
 
-Spanish is the second most spoken language in the United States, after English. When NASA launched the grant call, MD & OLS partnered to propose a dual Spanish/English language set of training cohorts using our expertise in online virtual cohort training and Spanish-language education. [We are delighted to share that we've been awarded a three-year grant to deliver this training!](https://www.nasa.gov/centers/marshall/news/releases/2023/nasa-boosts-open-science-through-innovative-training/)
+Spanish is the **second most spoken language in the United States**, after English. When NASA launched the grant call, MD & OLS partnered to propose a **dual Spanish/English language set of training cohorts** using our expertise in online virtual cohort training and Spanish-language education. [**We are delighted to share that we've been awarded a three-year grant to deliver this training!**](https://www.nasa.gov/centers/marshall/news/releases/2023/nasa-boosts-open-science-through-innovative-training/)
 
 The training will cover [the five modules in OpenCore](https://opensciency.github.io/sprint-content), and participants will work with a mentor to discuss real-world application of the skills they use. The schedule for individual cohorts is shown below: 
 
