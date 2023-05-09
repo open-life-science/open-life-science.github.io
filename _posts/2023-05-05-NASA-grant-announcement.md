@@ -31,4 +31,4 @@ After OLS-8, we'll **probably take a break from the longer-format mentoring coho
 
 That said - one of the biggest focuses for OLS and MD has **always** been **global community**, so we're still **looking for different ways** to **fund and support** our **networking**, our **global opportunity** and **skillsharing**, and the compassion and love we get from you all. 
 
-💌 Do you have ideas you want to see, fund, commision us to deliver? Ping team@openlifesci.org, or message us on Slack. 
+<i class="fa-solid fa-envelope-open-text"></i> **Do you have ideas you want to see, fund, commision us to deliver?** Ping [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), or message us on Slack. 
