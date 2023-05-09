@@ -15,7 +15,7 @@ The training will cover [the five modules in OpenCore](https://opensciency.githu
 
 ![Gantt chart showing five training modules taking 2.5 hours each, as well as 30 minutes of mentor discussion, and an hour of self-reflection each week, totalling 4 hours per week for six weeks. The final week is a live-streamed graduation presentation.](https://hackmd.io/_uploads/Hk-H2tEb2.png)
   
-We plan to run five cohorts per year. 
+We plan to run **five cohorts per year**. 
   
 ## What's the difference between this and OLS's traditional mentorship training? 
 
