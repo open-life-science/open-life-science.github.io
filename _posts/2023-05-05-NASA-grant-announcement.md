@@ -19,7 +19,7 @@ We plan to run **five cohorts per year**.
   
 ## What's the difference between this and OLS's traditional mentorship training? 
 
-We foresee this being very similar to what we already did, but more condensed - rather than ~2 hours over 16 weeks, participants will be spending ~4 hours over 6 weeks. We may also add additional seminars and group discussions to cover topics that were in the OLS curriculum historically, but that aren't part of OpenCore. 
+We foresee this being very similar to what we already did, but **more condensed** - rather than ~2 hours over 16 weeks, participants will be spending ~4 hours over 6 weeks. We may also add **additional seminars and group discussions** to cover topics that were in the OLS curriculum historically, but that aren't part of OpenCore. 
 
 ## What does this mean for OLS and MetaDocencia? 
 
