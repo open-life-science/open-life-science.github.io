@@ -584,7 +584,7 @@ def dump_metadata(metadata, cohort):
         yaml.dump(metadata, metadata_f)
 
 
-### METHODS TO BUILD THE CATALOG
+### METHODS TO BUILD THE LIBRARY
 
 def extract_talks():
     '''
@@ -631,14 +631,14 @@ def aggregate_talks(talks):
 
 def combine_tags(talks_by_tag):
     '''
-    Combine tags by topic to build catalog
+    Combine tags by topic to build library
 
     :param talks_by_tag: dictionary with talks grouped by tags
     '''
     # get tag to topic mapping
     tag_topic_mapping = pd.read_csv("https://docs.google.com/spreadsheets/d/1sDJLG8RuoShWUQN78lvx_mghBbGfusdzlb1WwYrCbjk/export?format=csv&gid=0")
-    # build catalog
-    catalog = {}
+    # build library
+    library = {}
     for tag, talks in talks_by_tag.items():
         #print(tag)
         # identify topic
@@ -648,10 +648,10 @@ def combine_tags(talks_by_tag):
             topic = tag_topic_mapping[tag_topic_mapping.Tag == tag].Topic.tolist()[0]
         else:
             topic = 'Not sorted'
-        # add talks to catalog
-        catalog.setdefault(topic, {})
-        catalog[topic][tag] = talks
-    return catalog
+        # add talks to library
+        library.setdefault(topic, {})
+        library[topic][tag] = talks
+    return library
 
 
 ### COMMANDS
@@ -841,22 +841,22 @@ def update_schedule(cohort, schedule_df):
     dump_schedule(schedule, args.cohort)
 
 
-def build_catalog():
+def build_library():
     '''
-    Extract talks from all cohort schedule to build catalog
+    Extract talks from all cohort schedule to build library
     '''
     # extract talks
     talks = extract_talks()
     # aggregate talks by tags
     talks_by_tag = aggregate_talks(talks)
-    # combine tags by topic to build catalog
-    catalog = combine_tags(talks_by_tag)
-    # write catalog to file
-    fp = Path('_data') / Path('catalog.yaml')
+    # combine tags by topic to build library
+    library = combine_tags(talks_by_tag)
+    # write library to file
+    fp = Path('_data') / Path('library.yaml')
     with fp.open("w") as cat_f:
-        cat_f.write("# Catalog of expert talks in cohort calls\n")
+        cat_f.write("# Library of expert talks in cohort calls\n")
         cat_f.write("---\n")
-        yaml.dump(catalog, cat_f)
+        yaml.dump(library, cat_f)
 
 
 if __name__ == '__main__':
@@ -903,8 +903,8 @@ if __name__ == '__main__':
     getpeople.add_argument('-ef', '--experts', help="Path to output sheet with expert details", required=True)
     getpeople.add_argument('-sf', '--speakers', help="Path to output sheet with speaker details", required=True)
     getpeople.add_argument('-hf', '--hosts', help="Path to output sheet with call host details", required=True)
-    # Extract talks to build catalog
-    buildcatalog = subparser.add_parser('buildcatalog', help='Extract talks to build catalog')
+    # Extract talks to build library
+    buildlibrary = subparser.add_parser('buildlibrary', help='Extract talks to build library')
 
     args = parser.parse_args()
 
@@ -947,5 +947,5 @@ if __name__ == '__main__':
             Path(args.experts),
             Path(args.speakers),
             Path(args.hosts))
-    elif args.command == 'buildcatalog':
-        build_catalog()
+    elif args.command == 'buildlibrary':
+        build_library()
