@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "One small step for NASA, one big step for open research: OLS and MetaDocencia to deliver OpenCore Science Training"
+title: "One small step for NASA, one big step for open research"
+subtitle: "OLS and MetaDocencia to deliver OpenCore Science Training"
 authors:
 - yochannah
-image: 
-photos: https://unsplash.com/photos/bJhT_8nbUAO
+image: https://images.unsplash.com/photo-1502101872923-d48509bff386?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80
+photos:
   name: Photo by Jukan Tateisi on Unsplash
   url: https://unsplash.com/@tateisimikito
 ---

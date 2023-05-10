@@ -32,7 +32,14 @@ layout: default
                 {% if post.external %}
                     <a href="{{ post.external }}"><p>{{ post.title | escape }}</p></a>
                 {% else %}
-                    <a href="{{ post.url }}"><p>{{ post.title | escape }}</p></a>
+                    <a href="{{ post.url }}">
+                    <p>{{ post.title | escape }}
+                        {% if post.subtitle %}
+                        <br><br>
+                        {{ post.subtitle }}
+                        {% endif %}
+                    </p>
+                    </a>
                 {% endif %}
                 </div>
 
