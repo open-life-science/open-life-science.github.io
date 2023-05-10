@@ -13,14 +13,14 @@ photos:
 _This blog is in [Nigerian Pidgin](https://en.wikipedia.org/wiki/Nigerian_Pidgin) and in [English](https://en.wikipedia.org/wiki/English_language). Scroll down to find the English-language translation._
 
 ## Nigerian Pidgin
-### Taj
+### Taj, Programme Manager
 My name na Tajuddeen Gwadabe and I get PhD for Computer Science and Technology from University of Chinese Academy of Science. To arrange and organise things dey catch my attention well well. Na wetin carry me enter this Project Management career.
 
 I really like to meet people from everywhere for this world, and to learn how dem dey do things for other cultures. So far, I don talk with people from 40 countries, either face-to-face or online.
 
 I dey watch plenty videos on sustainability in agriculture, climate, building and technology.
 
-### Debs
+### Debs, Junior Web Developer
 <div class="columns">
   <div class="column is-3" markdown="1">
 ![A photo of Debs, a woman from Nigeria. She has rich, black hair and is wearing a blue sleeveless dress, a pair of glasses and a smile.](/images/2023-05-debs.jpg)
