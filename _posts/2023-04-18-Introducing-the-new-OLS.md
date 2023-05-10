@@ -71,8 +71,8 @@ The rebranding exercise has been an exciting journey for us and we have gained v
 
 Our refreshed brand identity also captures the essence of our mission, and we are confident that it will resonate with our community.
 
-As we move forward, you may have noticed that we have started incorporating our refreshed identity in our in our slides and stickers. Over the next few months, we will be slowly rolling it out across all our channels. In Q3 of 2023, we plan to update our website too.
+As we move forward, you may have noticed that we have **started incorporating** our refreshed identity in our slides and stickers. Over the next few months, we will be slowly rolling it out across all our channels. In **Q3 of 2023**, we plan to **update our website** too.
  
-We appreciate everyone who participated in the voting process and provided us with feedback.
+**We appreciate everyone who participated in the voting process and provided us with feedback**.
 
 ![The image shows the new OLS brand identity applied to different objects such as T-shirts and bags.](/images/2023-04-18-introducing-the-new-OLS/identity-poster.png "New OLS brand identity")
