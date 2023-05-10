@@ -32,7 +32,7 @@ In a word: **Sustainability**.
 
 We're delighted to have a **three-year roadmap** to help us keep **doing the work we love**. We'd also spent time **brainstorming ways to collaborate** as organisations, and one of our biggest **joint dreams** was to run *EspañOLS* - Spanish-language-first open research training.
 
-After OLS-8, we'll **probably take a break from the longer-format mentoring cohorts** (recently rebranded to be [*Open Seeds*]({% link  _posts/2023-04-18-Introducing-the-new-OLS.md %}), at the very least until we get comfortable with running these shorter, more intense cohorts. This break will also give us time to [further **evaluate and understand the impact** of OLS-1 to OLS-8]({% link  posts/2022-02-18-ols-is-hiring.md %}), and to invest into [**localizing Open Seeds**]({% link _posts/2022-12-20-ECB-grant-announcement.md %}). 
+After OLS-8, we'll **probably take a break from the longer-format mentoring cohorts** (recently rebranded to be [*Open Seeds*]({% link  _posts/2023-04-18-Introducing-the-new-OLS.md %}), at the very least until we get comfortable with running these shorter, more intense cohorts. This break will also give us time to [further **evaluate and understand the impact** of OLS-1 to OLS-8]({% link  _posts/2022-02-18-ols-is-hiring.md %}), and to invest into [**localizing Open Seeds**]({% link _posts/2022-12-20-ECB-grant-announcement.md %}). 
 
 That said - one of the biggest focuses for OLS and MD has **always** been **global community**, so we're still **looking for different ways** to **fund and support** our **networking**, our **global opportunity** and **skillsharing**, and the compassion and love we get from you all. 
 
