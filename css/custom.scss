@@ -405,14 +405,10 @@ code {
   width: 80%;
   height: auto;
   display: grid;
-  margin: 50px auto;
+  margin: 30px auto;
   font-size: 16px;
   text-align: center;
   box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
-
-  .qr-description {
-    box-shadow: 0 0 1.5rem rgba(78, 77, 77, 0.28);
-  }
 
   img {
     width: 120px;
@@ -420,35 +416,24 @@ code {
   }
 
   .qr-description {
-    width: 65%;
-    margin: 10px auto;
-    padding: 30px;
+    width: 70%;
+    margin: 5px auto;
+    padding: 20px;
     font-weight: 500;
     text-align: center;
-    border: 1px solid #686565;
   }
-
-  .row {
-    width: 60%;
-    padding: 20px;
-    color: white;
-    font-weight: 400;
-    margin: 10px auto;
-    background: #333;
-    border-radius: 7px;
+    .button {
+      width: 80%;
+      margin: 5px auto;
+    }
 
     svg {
       display: inline;
       width: 1.4em;
       height: 1em;
-    }
-
-    a:hover {
-      text-decoration: underline #48b87d;
-      color: white;
+      margin-right: 5px;
     }
   }
-}
 
 // table responsiveness (mobile)
 @media screen and (max-width: 768px) and (min-width: 320px) {
