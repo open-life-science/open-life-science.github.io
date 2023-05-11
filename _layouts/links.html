@@ -16,10 +16,7 @@ layout: base
 
     {% for item in site.data.links.items %}
     <div class="main">
-        <a href="{{ item.link }}">
-        <button class="btn row">{{ item.icon }}{{ item.text }}
-        </button>
-        </a>
+        <a href="{{ item.link }}" class="button is-link is-fullwidth">{{ item.icon }}{{ item.text }}</a>
     </div>
     {% endfor %}
 </div>
