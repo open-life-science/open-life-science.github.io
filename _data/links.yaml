@@ -8,32 +8,32 @@ items:
   -
     text: Apply for our next cohort
     link: /index#applications
-    icon: <i class="fa-regular fa-pen-field"></i>
+    icon: fa fa-graduation-cap
   -
     text: Upcoming events
     link: /events
-    icon: <i class="fa-solid fa-calendar-lines-pen"></i>
+    icon:  fa fa-calendar
   -
     text: Read our stories
     link: /posts
-    icon: <i class="fa-solid fa-square-rss"></i>
+    icon: fa fa-book-open
   -
     text: Follow us on Twitter
     link: https://twitter.com/openlifesci
-    icon: <i class="fab fa-twitter"></i>
+    icon: fab fa-twitter
   -
     text: Connect with us on LinkedIn
     link: https://www.linkedin.com/company/openlifesci/
-    icon: <i class="fab fa-linkedin-in"></i>
+    icon: fab fa-linkedin-in
   -
     text: Write us via email
     link: mailto:team@openlifesci.org
-    icon: <i class="fas fa-at"></i>
+    icon: fas fa-at
   -
     text: Explore our github repositories
     link: https://github.com/open-life-science/open-life-science.github.io
-    icon: <i class="fab fa-github"></i>
+    icon: fab fa-github
   -
     text: Check out our youtube
     link: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
-    icon: <i class="fab fa-youtube"></i>
+    icon: fab fa-youtube
