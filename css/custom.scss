@@ -416,7 +416,7 @@ code {
   }
 
   .qr-description {
-    width: 70%;
+    width: 90%;
     margin: 5px auto;
     padding: 20px;
     font-weight: 500;
@@ -425,6 +425,8 @@ code {
     .button {
       width: 80%;
       margin: 5px auto;
+      font-size: .8em;
+      font-weight: 500;
     }
 
     svg {

@@ -16,7 +16,7 @@ layout: base
 
     {% for item in site.data.links.items %}
     <div class="main">
-        <a href="{{ item.link }}" class="button is-link is-medium">
+        <a href="{{ item.link }}" class="button is-link">
             {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
             {{ item.text }}
         </a>
