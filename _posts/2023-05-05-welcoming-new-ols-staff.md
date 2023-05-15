@@ -57,7 +57,7 @@ I passionately care about learning new cultures and meeting people from all over
 I watch a lot of videos on sustainability in agriculture, climate, building and technology.
 
 
-### More about Debs, Junior Web Developer:
+### Debs, Junior Web Developer
 
 My name is Deborah Udoh A.K.A Debs. I'm a Nigerian, of the Anang tribe in Akwa Ibom state. Fun fact! Anang people are rumoured to be cannibalistic. I'd rather devour Jack Reacher novels though.
 
