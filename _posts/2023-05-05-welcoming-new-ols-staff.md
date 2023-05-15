@@ -8,6 +8,7 @@ image: https://images.pexels.com/photos/128299/pexels-photo-128299.jpeg
 photos:
   name: Mabel Amber
   url: https://www.pexels.com/photo/person-standing-near-brown-welcome-on-board-printed-floor-map-128299/
+  licence: CC-BY
 ---
 
 _This blog is in [Nigerian Pidgin](https://en.wikipedia.org/wiki/Nigerian_Pidgin) and in [English](https://en.wikipedia.org/wiki/English_language). Scroll down to find the English-language translation._
