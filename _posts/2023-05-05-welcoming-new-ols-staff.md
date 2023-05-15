@@ -48,7 +48,7 @@ The things I no fit do for dark chocolate and ice cream no too plenty.
 We're delighted to share that OLS has two new staff members: Tajuddeen, who has joined OLS as the coordinator for our [collaborative ECB grant]({% link _posts/2022-12-20-ECB-grant-announcement.md %}), and Debs, who has joined the OLS team as a junior web developer. Between Tajuddeen, Debs, and Jilaga (OLS's Outreachy intern for re-branding), Nigerians are now the most highly-represented nationality in the OLS team! 
 
 
-### More about Taj, Programme Manager: 
+### Taj, Programme Manager
 
 My name is Tajuddeen Gwadabe and I have a PhD in Computer Science and Technology from the University of Chinese Academy of Science. I am really interested in organising and coordinating stuff and that led me to a career in project management. 
 
