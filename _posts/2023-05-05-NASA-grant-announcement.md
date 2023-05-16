@@ -8,7 +8,7 @@ image: https://images.unsplash.com/photo-1502101872923-d48509bff386?ixlib=rb-4.0
 photos:
   name: Jukan Tateisi
   url: https://unsplash.com/photos/bJhT_8nbUA0
-  license: CC-BY
+  license: CC0
 ---
 
 For many, 2023 is the [Year of Open Science](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/). OLS and [MetaDocencia (MD)](https://www.metadocencia.org/) are delighted to announce that we will be participating in the Year of Open Science by **delivering Open Science training** for **[NASA](https://www.nasa.gov/)**, using materials originally developed by [a huge group of open researchers worldwide](https://opensciency.github.io/sprint-content/#contributors), alongside [American Geophysical Union (AGU)](https://www.agu.org/).
