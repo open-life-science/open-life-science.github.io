@@ -20,7 +20,23 @@ Spanish is the **second most spoken language in the United States**, after Engli
 The training will cover [the five modules in OpenCore](https://opensciency.github.io/sprint-content), and participants will work with a mentor to discuss real-world application of the skills they use. The schedule for individual cohorts is shown below: 
 
 ![Gantt chart showing five training modules taking 2.5 hours each, as well as 30 minutes of mentor discussion, and an hour of self-reflection each week, totalling 4 hours per week for six weeks. The final week is a live-streamed graduation presentation.](https://hackmd.io/_uploads/Hk-H2tEb2.png)
-  
+
+| **Cohort timeline** |                | Before the course |   |   | Week |   |   |   |   |   |
+|---------------------|----------------|:-----------------:|:-:|:-:|:----:|:-:|:-:|:-:|:-:|:-:|
+|                     |                | 8 weeks | 4 weeks |  2 weeks | 1 | 2 | 3 | 4 | 5 | 6 |
+| **Pre-cohort**      |    Application period opens        |  x |  |  |   |   |   |   |   |   |
+|                     |    Application period closes       |   | x |  |   |   |   |   |   |   |
+|                     |    Applicants notified             |   |  | x |   |   |   |   |   |   |
+| **TOPS OpenCore module 2.5 hours each** | **Ethos**  |   |   |   | 2:30 |   |   |   |   |   |
+|                                         | **Data**       |   |  |   |    | 2:30 |  | |  |   |
+|                                         | **Software**   |    |   |  |  |  | 2:30 |  |  |   |
+|                                         | **Results**    |    |   |  |  |  |  | 2:30 |  |   |
+|                                         | **Tools & Resources**  ||  |  | | |  |  | 2:30 |  |
+| **Final Graduation**                    |Group live-streamed presentations | || | || |||2:30|
+| **Mentor** (30 mins) | 1:1 or 1 mentor:group project || | | 0:30 | 0:30 | 0:30 | 0:30 | 0:30|
+| **Reflection & implementation** | Self-led by participants <br>- optional assignments <br>- prep for final presentations | | | | 1:00 | 1:00 | 1:00 | 1:00 | 1:00 | 1:30 |
+|                        | Weekly hours  |  |   |   | 4:00 | 4:00 | 4:00 | 4:00 | 4:00 | 4:00 |
+
 We plan to run **five cohorts per year**. 
   
 ## What's the difference between this and OLS's traditional mentorship training? 
