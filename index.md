@@ -24,19 +24,19 @@ Participants join this program with a **project** that they either are already w
 
 # Applications
 
-<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_7){:.button .is-link .is-fullwidth}
+[Apply via Open Review (not open yet)](){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before January 13, 2023 to allow activation of your Open Review profile as described in the [OLS-7 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
+*Please register on Open Review before July 3, 2023 to allow activation of your Open Review profile as described in the [OLS-8 application guidelines and templates](https://github.com/open-life-science/application-forms).*
 
-OLS-7 runs from February to June 2023. Applications for OLS-8 will open at mid 2023. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates on the next cohort application.
+OLS-8 runs from September 2023 to January 2024. We are not sure if we will run OLS-9 in the same format. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates.
 
 ## Timeline
 
-{% assign schedule = site.data.ols-7-schedule %}
+{% assign schedule = site.data.ols-8-schedule %}
 {% include _includes/timeline.md %}
 
 Have a question or need any support to join this cohort?
-We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}).
+We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}).
 
 # Cohorts
 
@@ -229,12 +229,39 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {% for w in ols-7-schedule.weeks %}
     {% assign ols-7-end = w[1].start %}
 {% endfor %}
+<!-- OLS-8-->
+{% assign ols-8-projects = site.data.ols-8-projects %}
+{% assign ols-8-experts = site.data.ols-8-metadata.experts | uniq | size %}
+{% capture all-experts %}{{ all-experts}}, {{ site.data.ols-8-metadata.experts | join: ', ' }}{% endcapture %}
+{% assign ols-8-facilitators = site.data.ols-8-metadata.facilitators | uniq | size %}
+{% capture all-facilitators %}{{ all-facilitators}}, {{ site.data.ols-8-metadata.facilitators | join: ', ' }}{% endcapture %}
+{% assign mentors = '' %}
+{% assign participants = '' %}
+{% for project in ols-8-projects %}
+    {% assign p-pparticipants = '' %}
+    {% for p in project.participants %}
+        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+{% assign ols-8-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort | size %}
+{% capture all-mentors %}{{ all-mentors}}, {{ mentors }}{% endcapture %}
+{% assign ols-8-participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size %}
+{% capture all-participants %}{{ all-participants}}, {{ participants }}{% endcapture | size %}
+{% assign ols-8-projects = ols-8-projects | size %}
+{% assign ols-8-schedule = site.data.ols-8-schedule %}
+{% assign ols-8-end = '' %}
+{% for w in ols-8-schedule.weeks %}
+    {% assign ols-8-end = w[1].start %}
+{% endfor %}
 <!-- all -->
 {% assign all-participants = all-participants | remove_first: ', ' | split: ", " | uniq | size %}
 {% assign all-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | size %}
 {% assign all-facilitators = all-facilitators | remove_first: ', ' | split: ", " | uniq | size %}
 {% assign all-experts = all-experts | remove_first: ', ' | split: ", " | uniq | size %}
-{% assign all-projects = ols-1-projects | plus: ols-2-projects  | plus: ols-3-projects | plus: ols-4-projects | plus: ols-5-projects | plus: ols-6-projects | plus: ols-7-projects%}
+{% assign all-projects = ols-1-projects | plus: ols-2-projects  | plus: ols-3-projects | plus: ols-4-projects | plus: ols-5-projects | plus: ols-6-projects | plus: ols-7-projects | plus: ols-8-projects %}
 
 
 Cohort | Schedule | Projects | Mentors | Experts | Facilitators
@@ -246,4 +273,5 @@ Cohort | Schedule | Projects | Mentors | Experts | Facilitators
 [OLS-5]({% link ols-5.md %}) | [{{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }}]({% link _ols-5/schedule.md %}) | [{{ ols-5-participants }} mentees](/ols-5/projects-participants#participants) on [{{ ols-5-projects }} projects](/ols-5/projects-participants#projects) | [{{ ols-5-mentors }} mentors](/ols-5#mentors) | [{{ ols-5-experts }} experts](/ols-5#experts) | [{{ ols-5-facilitators }} facilitators](/ols-5#facilitators)
 [OLS-6]({% link ols-6.md %}) | [{{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }}]({% link _ols-6/schedule.md %}) | [{{ ols-6-participants }} mentees](/ols-6/projects-participants#participants) on [{{ ols-6-projects }} projects](/ols-6/projects-participants#projects) | [{{ ols-6-mentors }} mentors](/ols-6#mentors) | [{{ ols-6-experts }} experts](/ols-6#experts) | [{{ ols-6-facilitators }} facilitators](/ols-6#facilitators)
 [OLS-7]({% link ols-7.md %}) | [{{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }}]({% link _ols-7/schedule.md %}) | [{{ ols-7-participants }} mentees](/ols-7/projects-participants#participants) on [{{ ols-7-projects }} projects](/ols-7/projects-participants#projects) | [{{ ols-7-mentors }} mentors](/ols-7#mentors) | [{{ ols-7-experts }} experts](/ols-7#experts) | [{{ ols-7-facilitators }} facilitators](/ols-7#facilitators)
+[OLS-8]({% link ols-8.md %}) | [{{ ols-8-schedule.weeks['01'].start }} - {{ ols-8-end }}]({% link _ols-8/schedule.md %}) | 
 **Total** | | {{ all-participants }} mentees on {{ all-projects }} projects | {{ all-mentors }} mentors | {{ all-experts }} experts | {{ all-facilitators }} facilitators
