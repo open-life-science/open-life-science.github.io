@@ -17,9 +17,7 @@ For many, 2023 is the [Year of Open Science](https://www.whitehouse.gov/ostp/new
 
 Spanish is the **second most spoken language in the United States**, after English. When NASA launched the grant call, MD & OLS partnered to propose a **dual Spanish/English language set of training cohorts** using our expertise in online virtual cohort training and Spanish-language education. [**We are delighted to share that we've been awarded a three-year grant to deliver this training!**](https://www.nasa.gov/centers/marshall/news/releases/2023/nasa-boosts-open-science-through-innovative-training/)
 
-The training will cover [the five modules in OpenCore](https://opensciency.github.io/sprint-content), and participants will work with a mentor to discuss real-world application of the skills they use. The schedule for individual cohorts is shown below: 
-
-![Gantt chart showing five training modules taking 2.5 hours each, as well as 30 minutes of mentor discussion, and an hour of self-reflection each week, totalling 4 hours per week for six weeks. The final week is a live-streamed graduation presentation.](https://hackmd.io/_uploads/Hk-H2tEb2.png)
+The training will cover [the five modules in OpenCore](https://opensciency.github.io/sprint-content), and participants will work with a mentor to discuss real-world application of the skills they use. The schedule for individual cohorts is shown below:
 
 | **Cohort timeline** |                | Before the course |   |   | Week |   |   |   |   |   |
 |---------------------|----------------|:-----------------:|:-:|:-:|:----:|:-:|:-:|:-:|:-:|:-:|
