@@ -408,15 +408,20 @@ code {
   margin: 30px auto;
   font-size: 16px;
   text-align: center;
+  background-color: #48b87d;
   box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
 
   img {
     width: 120px;
     margin: 20px auto;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #fff;
   }
 
   .qr-description {
     width: 90%;
+    color: #fff;
     margin: 5px auto;
     padding: 20px;
     font-weight: 500;
@@ -427,6 +432,8 @@ code {
       margin: 5px auto;
       font-size: 1em;
       font-weight: 500;
+      background-color: #fff;
+      color: black;
     }
 
     svg {
