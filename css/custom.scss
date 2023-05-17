@@ -428,7 +428,7 @@ code {
     text-align: center;
   }
     .button {
-      width: 85%;
+      width: 50%;
       margin: 5px auto;
       font-size: 1em;
       font-weight: 500;
@@ -442,8 +442,14 @@ code {
       height: 1em;
       margin-right: 5px;
     }
-  }
+}
 
+//Buttons on linkspage (mobile)
+@media screen and (max-width:767px) {
+  #links-btn {
+    width: 90%;
+  }
+}
 // table responsiveness (mobile)
 @media screen and (max-width: 768px) and (min-width: 320px) {
   table {
