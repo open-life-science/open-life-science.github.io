@@ -1,3 +1,4 @@
 ---
 layout: links
+title: Links
 ---
