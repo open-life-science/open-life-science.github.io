@@ -1,17 +1,16 @@
-
+---
 name: ols-website
 channels:
   - conda-forge
-  - defaults
+  - bioconda
 dependencies:
-  - gcc=9
-  - gxx=9
+  - clang
   - gmp>=6.1.2
   - jemalloc>=5.0.1
   - libiconv>=1.15
   - nodejs>=9.11.1
   - openssl>=1.0.2o
-  - pandas>=0.22
+  - pandas>=0.22.0
   - readline
   - requests>=2.18.4
   - ruamel.yaml
