@@ -401,55 +401,6 @@ code {
   margin-bottom: 20px;
 }
 
-.qr-container {
-  width: 80%;
-  height: auto;
-  display: grid;
-  margin: 30px auto;
-  font-size: 16px;
-  text-align: center;
-  background-color: #48b87d;
-  box-shadow: 0 0 2.5rem rgba(58, 56, 56, 0.28);
-
-  img {
-    width: 120px;
-    margin: 20px auto;
-    padding: 12px;
-    border-radius: 12px;
-    background-color: #fff;
-  }
-
-  .qr-description {
-    width: 90%;
-    color: #fff;
-    margin: 5px auto;
-    padding: 20px;
-    font-weight: 500;
-    text-align: center;
-  }
-    .button {
-      width: 50%;
-      margin: 5px auto;
-      font-size: 1em;
-      font-weight: 500;
-      background-color: #fff;
-      color: black;
-    }
-
-    svg {
-      display: inline;
-      width: 1.4em;
-      height: 1em;
-      margin-right: 5px;
-    }
-}
-
-//Buttons on linkspage (mobile)
-@media screen and (max-width:767px) {
-  #links-btn {
-    width: 90%;
-  }
-}
 // table responsiveness (mobile)
 @media screen and (max-width: 768px) and (min-width: 320px) {
   table {
@@ -467,4 +418,40 @@ code {
 
 .is-hidden {
   display: none;
+}
+
+
+.links {
+  .hero {
+    background-color: $dark-green;
+    max-height: 500px;
+    min-height: 250px;
+    height: 10vh;
+
+    .hero-body {
+      padding-top: 20px;
+
+      img {
+        max-width: 120px;
+        margin: 20px auto;
+        padding: 12px;
+        border-radius: 12px;
+        background-color: $white;
+      }
+    }
+  }
+
+  .section {
+    padding-top: 20px;
+
+    .button {
+      background-color: $dark-green;
+      color: $white;
+      text-shadow: 2px 2px 5px $black;
+      margin: 20px auto;
+      padding: 20px auto;
+      min-height: 50px;
+    }
+  }
+  
 }

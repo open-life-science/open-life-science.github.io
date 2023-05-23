@@ -2,24 +2,22 @@
 layout: base
 ---
 
-<div class="qr-container">
-    <div class="qr-header">
-        <div class="qr-logo">
-            <a href="{{ site.url }}"><img src="../images/logo.png" alt="logo of Open Life Science"></a>
+<div class="container is-fullhd links">
+    <section class="hero link-hero">
+        <div class="hero-body">
+            <a href="/" class="logo">
+                <img src="/images/logo.png" alt="logo of OLS">
+            </a>
+            {{ site.data.links.description | markdownify }}
         </div>
-        <div class="qr-description">
-            <div class="about-div">
-                <p>{{ site.data.links.description }}</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
-    {% for item in site.data.links.items %}
-    <div class="main">
-        <a href="{{ item.link }}" class="button is-link" id="links-btn">
-            {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
-            {{ item.text }}
+    <section class="section">
+        {% for item in site.data.links.items %}
+        <a href="{{ item.link }}" class="button is-link is-medium is-fullwidth">
+            {% if item.icon %}<i class="icon {{ item.icon }}"></i>{% endif %}
+            &nbsp;&nbsp;&nbsp;&nbsp;{{ item.text }}
         </a>
-    </div>
-    {% endfor %}
+        {% endfor %}
+    </section>
 </div>
