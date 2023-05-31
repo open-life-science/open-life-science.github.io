@@ -100,7 +100,9 @@ Here are a few more considerations to help plan this workshop at your organisati
 - We recommend organisations hosting the OLS Ally Skills workshop create a registration page that requires interested members to state their personal motivation to attend this workshop. 
 
    The OLS team will be happy to provide a dedicated Eventbrite page for handling registration.
-- Participants should have access to internet bandwidth for video conferencing. We recommend that the event organisers check if their members may require any audiovisual equipment that can be arranged for them in advance.
+- Participants should have access to internet bandwidth for video conferencing.
+
+  We recommend that the event organisers check if their members may require any audiovisual equipment that can be arranged for them in advance.
 
 ### References:
 - Testimonial by OLS Ally Skills workshop participants: https://openworking.wordpress.com/2020/12/07/ally-skills-workshop/
