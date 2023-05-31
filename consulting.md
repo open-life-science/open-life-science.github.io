@@ -70,16 +70,22 @@ The workshop is delivered in English. Nonetheless, we are very interested and we
 
 #### Format and Accessibility
 
-- Duration of each workshop is 3 - 3.5 hours with breaks 
-- The workshop will be hosted online via Zoom. This will not be recorded or broadcasted
-- 2-3 trainers and co-facilitators will be available (trainers are trained by the Frameshift Consulting Train-the-trainers programme).
-- 20 participants make an ideal size for a single online session to allow safe space and open discussion. 
-- Workshop format will combine training, scenario-based group discussions and share outs. 
-- We use live transcription to enhance the accessibility of our workshop. This means that participants can see an automated live transcript (provided by otter.ai) during presentations and discussions held in the main room.
-- Discussion sessions are facilitated in spoken and written form allowing active contribution by all participants. 
+- Duration of each workshop is **3 - 3.5 hours with breaks**
+- The workshop will be hosted online via **Zoom**
+
+     This will not be recorded or broadcasted
+
+- **2-3 trainers and co-facilitators** will be available (trainers are trained by the Frameshift Consulting Train-the-trainers programme).
+- **20 participants make an ideal size** for a single online session to allow safe space and open discussion. 
+- Workshop format will **combine training, scenario-based group discussions and share outs**. 
+- We use live transcription to enhance the accessibility of our workshop.
+
+   This means that participants can see an automated live transcript (provided by otter.ai) during presentations and discussions held in the main room.
+   
+- Discussion sessions are facilitated in **spoken and written form** allowing active contribution by all participants. 
 - Slides and handouts can be shared ahead of the workshop to participants who may have to miss parts of the workshop.
 - Different perspectives and experiences of participants enrich the discussion overall, however, participants will not be forced to share their thoughts.
-- We are happy to discuss individual needs with participants.
+- We are happy to **discuss individual needs** with participants.
 
 #### Content:
 
