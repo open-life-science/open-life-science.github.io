@@ -1,62 +1,71 @@
-{% assign tag = include.tag %}
-{% assign subtag = include.subtag %}
+{% assign parent-id = include.parent-id %}
 {% assign video = include.video %}
 {% assign index = include.index %}
 
 {% assign id = video.title | slugify %}
-{% assign speaker = site.data.people[video.speaker] %}
+
+{% assign speakers = '' %}
+{% for s in video.speakers %}
+    {% assign speaker = site.data.people[s] %}
+    {% capture speakers %} {{ speakers }} {%- unless forloop.last -%},{%- endunless -%}{{ speaker.first-name }} {{ speaker.last-name }}{% endcapture %}
+{% endfor %}
+
+{% capture card_id %}{{ parent_id }}-{{ index }}{% endcapture %}
 
 {% if video.recording %}
 
-<!--<div class="accordion-item">
-  {% capture accordion_id %}{{ tag }}-{{ subtag }}-{{ index }}{% endcapture %}
-  <div class="accordion-header" id="{{ accordion_id }}">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ accordion_id }}" aria-expanded="false" aria-controls="collapse{{ accordion_id }}">
-        {{ video.title }} by {{ speaker.first-name }} {{ speaker.last-name }}
-   </button>
-  </div>
-
-  <div id="collapse{{ accordion_id }}" class="accordion-collapse collapse" aria-labelledby="{{ accordion_id }}" data-bs-parent="#accordion{{module_id}}">
-    <div class="accordion-body">-->
-        <h4>"{{ video.title }}", by {{ speaker.first-name }} {{ speaker.last-name }}</h4>
-        <div class="columns">
-            <div class="column is-two-thirds">
-                <div>
-                    <iframe
-                        style="width:100%;height:100%;min-height:300px;"
-                        src="{{ video.recording | replace: 'youtu.be/', 'youtube.com/embed/' | replace: '?t', '?start' }}"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
+<div class="card">
+    <header class="card-header">
+        <p class="card-header-title">
+            "{{ video.title }}", by {{ speakers }}
+        </p>
+        <a href="#collapsible-card-{{ message_id }}" data-action="collapse" class="card-header-icon is-hidden-fullscreen" aria-label="more options">
+            <span class="icon">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+        </a>
+    </header>
+    <div id="collapsible-card-{{ message_id }}" class="is-collapsible">
+        <div class="card-content">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <div>
+                        <iframe
+                            style="width:100%;height:100%;min-height:300px;"
+                            src="{{ video.recording | replace: 'youtu.be/', 'youtube.com/embed/' | replace: '?t', '?start' }}"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div style="margin-top:1em;" class="video-metadata">
+                        <table>
+                            <tr>
+                                <td><strong>Recorded</strong></td>
+                                <td>{{ video.date }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Material</strong></td>
+                                <td><a href="{{ video.slides }}"><i class="fab fa-slideshare"></i> Slides</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Cohort</strong></td>
+                                <td><a href="/{{ video.cohort }}">{{ video.cohort }}</a></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-                <div style="margin-top:1em;" class="video-metadata">
-                    <table>
-                        <tr>
-                            <td><strong>Recorded</strong></td>
-                            <td>{{ video.date }}</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Material</strong></td>
-                            <td><a href="{{ video.slides }}"><i class="fab fa-slideshare"></i> Slides</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Cohort</strong></td>
-                            <td>{{ video.cohort }}</td>
-                        </tr>
-                    </table>
+                <div class="column">
+                    {% for username in video.speakers %}
+                        {% assign user = speaker %}
+                        {% include _includes/people.html user=speaker username=video.speaker %}
+                    {% endfor %}
                 </div>
             </div>
-            <div class="column">
-                {% assign username = video.speaker %}
-                {% assign user = speaker %}
-                {% include _includes/people.html user=speaker username=video.speaker %}
-            </div>
-        </div>
-    <!--</div><!-- end accordion body -->
-  <!--</div><!-- end collapse -->
-<!--</div><!-- end accordion item (training session) -->
+		</div>
+	</div>
+</div>
 
 
 {% endif %}

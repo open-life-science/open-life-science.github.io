@@ -18,6 +18,7 @@ $link-focus: $link-hover;
 $link-active: $link-hover;
 
 @import 'bulma/bulma.sass';
+@import 'bulma-collapsible.sass';
 
 @mixin reset-links() {
   a {
