@@ -39,7 +39,7 @@ The Open Life Science (OLS) Ally Skills workshop trainers are trained from the [
 
 ### About Ally Skills
 
-Often, when we witness oppression, we are so busy being shocked that we can't quickly react. Other times we have plenty of time to react but can’t figure out what to do, or we do something but it turns out to be more harmful than helpful. This is true even for people who have a lot of experience and education in supporting members of marginalised groups in their communities.
+Often, when we witness oppression, we are so busy being shocked that we can't quickly react. Other times we have plenty of time to react but can't figure out what to do, or we do something but it turns out to be more harmful than helpful. This is true even for people who have a lot of experience and education in supporting members of marginalised groups in their communities.
 
 The solution is education and practice. Ally Skills workshop is an opportunity to learn and discuss real-world scenarios ranging from creating a friendly environment to confronting overt harassment. By coming up with answers in a friendly environment at this workshop, our participants have a better chance of responding in the real world. We also learn how to make long-term systemic changes to prevent bias or oppression from happening in the first place.
 
