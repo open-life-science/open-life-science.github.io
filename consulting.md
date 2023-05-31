@@ -24,13 +24,6 @@ Rates start at $75USD / hour for video captioning.
 
 Multiple OLS community members are trained Ally skill facilitators. We offer ad-hoc in-house workshops (starting at £2,000 GBP for universities) as well as anyone-may-register workshops. Visit [OLS Ally Skills Eventbrite](https://www.eventbrite.com/cc/ally-skills-1223279) to find the next dates available or contact [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) for a bespoke quote. 
 
-Ally Skills Materials:  
-
-- [Exercise: Identify your Power and Privilege](https://docs.google.com/document/d/1xlRf6265EovRoolY1DFLE4N7N_8jajNvDS9YT1_Nc_I/copy)
-- [Exercise: Set Ally Skills Goals](https://docs.google.com/document/d/1k3iBHkPZ18NJQ5zrdWB5mERPXopm4trJeVIBNSQqhbY/copy)
-- [Terminology](https://docs.google.com/document/d/1iGj11dxJJiAjpa_-Q9CZf1H4Htu-ojo2WUJYfVhK3NM/copy)
-- [Workshop Slides](https://docs.google.com/presentation/d/1qOiSO6dcgYHxrVLm4ShvGbr8KgBNyYKT/edit#slide=id.p1)
-
 [Download a copy of the course description](https://docs.google.com/document/d/1BfwarY5zR5jFBI_UemDfQdmcHS4nQViar95W2yt8fx8/edit?usp=sharing)
 
 ### OLS Ally Skills Workshops: Organisation Guide
@@ -112,6 +105,13 @@ Here are a few more considerations to help plan this workshop at your organisati
 - Participants should have access to internet bandwidth for video conferencing.
 
   We recommend that the event organisers check if their members may require any audiovisual equipment that can be arranged for them in advance.
+  
+### Ally Skills Materials
+
+- [Exercise: Identify your Power and Privilege](https://docs.google.com/document/d/1xlRf6265EovRoolY1DFLE4N7N_8jajNvDS9YT1_Nc_I/copy)
+- [Exercise: Set Ally Skills Goals](https://docs.google.com/document/d/1k3iBHkPZ18NJQ5zrdWB5mERPXopm4trJeVIBNSQqhbY/copy)
+- [Terminology](https://docs.google.com/document/d/1iGj11dxJJiAjpa_-Q9CZf1H4Htu-ojo2WUJYfVhK3NM/copy)
+- [Workshop Slides](https://docs.google.com/presentation/d/1qOiSO6dcgYHxrVLm4ShvGbr8KgBNyYKT/edit#slide=id.p1)
 
 ### References
 
