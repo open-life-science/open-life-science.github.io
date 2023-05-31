@@ -87,7 +87,7 @@ The workshop is delivered in English. Nonetheless, we are very interested and we
 - Different perspectives and experiences of participants enrich the discussion overall, however, participants will not be forced to share their thoughts.
 - We are happy to **discuss individual needs** with participants.
 
-#### Content:
+#### Content
 
 - Learn what ally skills are and explore terminologies such as privilege, oppression and intersectionality.
 - Understand different types of privileges they may have.
@@ -96,12 +96,15 @@ The workshop is delivered in English. Nonetheless, we are very interested and we
 
 After the workshop, we would like to understand the impact of the workshop as well as gather any feedback from participants about the workshop-style and content. Please clarify with the OLS team in advance if this will be handled by your organisation or the OLS team directly.
 
-#### Logistics for the external organisations:
+#### Logistics for the external organisations
 
 Here are a few more considerations to help plan this workshop at your organisation:
 
-- Ally skills training needs to be opt-in registration - it’s fine to encourage people to come, but important that no one reluctant or ambivalent is asked to attend. This is to ensure that the session remains productive and on-target, as well as ensuring people can state their expectations from the workshop in the registration form. 
-- Please let the OLS team know if you expect more than 20 members.
+- Ally skills training needs to be opt-in registration
+
+   It's fine to encourage people to come, but important that no one reluctant or ambivalent is asked to attend. This is to ensure that the session remains productive and on-target, as well as ensuring people can state their expectations from the workshop in the registration form. 
+   
+- If you expect more than 20 members, please let the OLS team know.
 - For the session to be effective we recommend no more than three levels of hierarchy attending the workshop, for example, employees, managers, and their managers. Ideally, one level only is better. 
 - We recommend organisations hosting the OLS Ally Skills workshop create a registration page that requires interested members to state their personal motivation to attend this workshop. 
 
