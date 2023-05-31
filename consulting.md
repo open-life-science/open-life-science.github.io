@@ -35,7 +35,7 @@ Ally Skills Materials:
 
 ### OLS Ally Skills Workshops: Organisation Guide
 
-The Open Life Science (OLS) Ally Skills workshop trainers are trained from the Frame Shift Consulting and training materials provided by them are built on the CC BY-SA 4.0 Licensed resources provided by Frame Shift Consulting (© 2016 - 2020), Dr Sheila Addison (© 2016) and The Ada Initiative (© 2011 - 2015). To learn more about Open Life Science, our open science training and mentoring programme and how to collaborate with us, please visit https://openlifesci.org. For any enquiry and details please email team@openlifesci.org. 
+The Open Life Science (OLS) Ally Skills workshop trainers are trained from the [Frame Shift Consulting](http://frameshiftconsulting.com) and training materials provided by them are built on the CC BY-SA 4.0 Licensed resources provided by [Frame Shift Consulting](http://frameshiftconsulting.com) (© 2016 - 2020), [Dr Sheila Addison](http://www.drsheilaaddison.com) (© 2016) and [The Ada Initiative](http://adainitiative.org) (© 2011 - 2015). To learn more about Open Life Science, our open science training and mentoring programme and how to collaborate with us, please visit https://openlifesci.org. For any enquiry and details please email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}). 
 
 ### About Ally Skills
 
