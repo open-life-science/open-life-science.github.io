@@ -2,21 +2,25 @@
 ---
 timeline:
 - date: June 21, 2021
-  description: Call for Application opens on [Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4)
+  description: Call for Application opens on [Open 
+    Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4)
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
 - date: June 30, 2021
   description: Application webinar
   type:
   - Talk
   - Q&A
-  notes: https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
+  notes: 
+    https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
   recording:
-  details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+  details: Watch recordings from previous webinars on 
+    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
 - date: July 09, 2021
   description: Application Clinic Call
   type:
   - Q&A
-  notes: https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
+  notes: 
+    https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
   details: At this call, OLS team will be available to provide help if you have any
     question related to your application
 - date: July 19, 2021
@@ -95,14 +99,20 @@ weeks:
       facilitators:
       - batoolmm
       talks:
-      - slides: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
-        speaker: yochannah
+      - slides: 
+          https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        speakers:
+        - yochannah
         title: Welcome to OLS!
-      - slides: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
-        speaker: bebatut
+      - slides: 
+          https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        speakers:
+        - bebatut
         title: Introducing Open Canvas
-      - slides: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
-        speaker: emmyft
+      - slides: 
+          https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speakers:
+        - emmyft
         title: Introducing Road Mapping
     - date: September 22, 2021
       time: "18:00"
@@ -159,14 +169,20 @@ weeks:
       - batoolmm
       - ekaroune
       talks:
-      - slides: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
-        speaker: malvikasharan
+      - slides: 
+          https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        speakers:
+        - malvikasharan
         title: Welcome to OLS!
-      - slides: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
-        speaker: emmyft
+      - slides: 
+          https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        speakers:
+        - emmyft
         title: Introducing Open Canvas
-      - slides: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
-        speaker: yochannah
+      - slides: 
+          https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speakers:
+        - yochannah
         title: Introducing Road Mapping
   '04':
     start: October 04, 2021
@@ -175,11 +191,10 @@ weeks:
       time: "18:00"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-04
-      content: "In this call, participants will:\n- Look at project structure as we\
-        \ build open projects\n- Go over the standard files in open projects\n   -\
-        \ README\n   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n\
-        \   The exact project structure and files used may look different on your\
-        \ project.\n  "
+      content: "In this call, participants will:\n- Look at project structure as we
+        build open projects\n- Go over the standard files in open projects\n   - README\n
+          - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
+        project structure and files used may look different on your project.\n  "
       title: Tooling and roadmapping for Open projects
       type: Cohort
       before: |
@@ -205,14 +220,20 @@ weeks:
       facilitators:
       - landimi2
       talks:
-      - slides: https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
-        speaker: kaythaney
+      - slides: 
+          https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
+        speakers:
+        - kaythaney
         title: Open Licensing
-      - slides: https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
-        speaker: alexwlchan
+      - slides: 
+          https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
+        speakers:
+        - alexwlchan
         title: README
-      - slides: https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
-        speaker: ekaroune
+      - slides: 
+          https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
+        speakers:
+        - ekaroune
         title: Contributing Guidelines and Code of Conduct
   '05':
     start: October 11, 2021
@@ -247,8 +268,10 @@ weeks:
         - Comment of 1-2 project's recent post (vision, open canvas etc.)
         - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
       talks:
-      - slides: https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
-        speaker: malvikasharan
+      - slides: 
+          https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
+        speakers:
+        - malvikasharan
         title: Introduction to GitHub
   '06':
     start: October 18, 2021
@@ -282,16 +305,21 @@ weeks:
       facilitators:
       - fnyasimi
       talks:
-      - slides: https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
-        speaker: nick-barlow
+      - slides: 
+          https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
+        speakers:
+        - nick-barlow
         title: Agile & Iterative Project Management Methods
         recording: https://youtu.be/kjhrrfF2fvM?t=2573
-      - slides: https://docs.google.com/presentation/d/1cfeNl3URWS-IOrG-gwfEzIsg1VN9JQepQhcP54xvAkY/edit?usp=sharing
-        speaker: samvanstroud
+      - slides: 
+          https://docs.google.com/presentation/d/1cfeNl3URWS-IOrG-gwfEzIsg1VN9JQepQhcP54xvAkY/edit?usp=sharing
+        speakers:
+        - samvanstroud
         title: Open Source in Research
         recording: https://youtu.be/kjhrrfF2fvM?t=1463
       - slides: https://doi.org/10.5281/zenodo.5582718
-        speaker: selgebali
+        speakers:
+        - selgebali
         title: Research data management
         recording: https://youtu.be/kjhrrfF2fvM?t=244
   '07':
@@ -324,9 +352,9 @@ weeks:
         - Learn about Personas and pathways and welcoming new contributors
       title: Community design for inclusivity
       type: Cohort
-      after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
-        \ assignment\n- Think through community interactions\n- Complete the midterm\
-        \ survey\n      \n        "
+      after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n
+        assignment\n- Think through community interactions\n- Complete the midterm
+        survey\n      \n        "
       resources: []
       recording: https://youtu.be/Mu5Dq6KAMqA
       hosts:
@@ -336,16 +364,23 @@ weeks:
       facilitators:
       - da5nsy
       talks:
-      - slides: https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
-        speaker: batoolmm
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
+        speakers:
+        - batoolmm
         title: Using Personas and Pathways to Build Community
-      - slides: https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
-        speaker: chadsansing
+      - slides: 
+          https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
+        speakers:
+        - chadsansing
         title: Mountain of Engagement
-      - slides: https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
-        speaker: contraexemplo
+      - slides: 
+          https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
+        speakers:
+        - contraexemplo
         title: Mentored contributions
-      - slides: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
+      - slides: 
+          https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
         title: Community interactions
   '09':
     start: November 08, 2021
@@ -359,30 +394,31 @@ weeks:
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-09
-      content: "In this call, participants will:\n- Hear from the professionals from\
-        \ different career paths\n- Ask them questions about their careers\n- Share\
-        \ worries/insecurities related to your career path, profession or area of\
-        \ work \n- Tips and advice to overcome challenges as an open researcher"
+      content: "In this call, participants will:\n- Hear from the professionals from
+        different career paths\n- Ask them questions about their careers\n- Share
+        worries/insecurities related to your career path, profession or area of work
+        \n- Tips and advice to overcome challenges as an open researcher"
       title: 'Open Leadership: Academia, industry and beyond!'
       type: Skill-up
-      before: "A few days before the event, think about how you might briefly answer\
-        \ the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
-        - how did you choose your career ?\n- what did you study to prepare ?\n- what\
-        \ do you actually do at work on a typical day ?\n- have you ever felt discriminated\
-        \ against (e.g. due to gender, race, ethnicity...) and how did you respond\
-        \ ?\n- do you have a life outside your work ? a family ? hobbies ?\n- what\
-        \ advice would you give someone wanting to enter your field ?\n- on a scale\
-        \ of 1-10 (10 being the most), how much do you enjoy your current work?\n\
-        - do you want to switch your career or field? Why or why not?      \n    \
-        \  \n        "
+      before: "A few days before the event, think about how you might briefly answer
+        the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n
+        - how did you choose your career ?\n- what did you study to prepare ?\n- what
+        do you actually do at work on a typical day ?\n- have you ever felt discriminated
+        against (e.g. due to gender, race, ethnicity...) and how did you respond ?\n
+        - do you have a life outside your work ? a family ? hobbies ?\n- what advice
+        would you give someone wanting to enter your field ?\n- on a scale of 1-10
+        (10 being the most), how much do you enjoy your current work?\n- do you want
+        to switch your career or field? Why or why not?      \n      \n        "
       resources: []
       recording: https://youtu.be/qGF0ubW2RWE
       talks:
-      - speaker:
+      - speakers:
+        - 
         title: Post-academia career path, Social entrepreneurship
       - title: Academic leadership, group or project leaders
       - title: Community building, Science Communication
-      - speaker:
+      - speakers:
+        - 
         title: Policymakers, funders, meta-researchers
   '10':
     start: November 15, 2021
@@ -408,16 +444,22 @@ weeks:
       resources: []
       recording: https://youtu.be/SfGHnCedkwY
       talks:
-      - slides: https://docs.google.com/presentation/d/1ThmPqDzvdNvThXK0Q0hlCiRX6rG3Ha5IDbvfyy4YuPw/edit#slide=id.g7e28a7e96f_0_146
-        speaker:
+      - slides: 
+          https://docs.google.com/presentation/d/1ThmPqDzvdNvThXK0Q0hlCiRX6rG3Ha5IDbvfyy4YuPw/edit#slide=id.g7e28a7e96f_0_146
+        speakers:
+        - 
         title: Getting started with preprints
         recording: https://youtu.be/SfGHnCedkwY?t=1862
-      - slides: https://github.com/Nikoleta-v3/talks/blob/master/talks/2021-11-17-Open-Life-Science/main.pdf
-        speaker:
+      - slides: 
+          https://github.com/Nikoleta-v3/talks/blob/master/talks/2021-11-17-Open-Life-Science/main.pdf
+        speakers:
+        - 
         title: Publishing & Citing Open Research Code
         recording: https://youtu.be/SfGHnCedkwY?t=3485
-      - slides: https://docs.google.com/presentation/d/1AaZETO7piGCfhJP9_UoQGFOWKD5LA5Pg7X0r7rlfkts/edit?usp=sharing
-        speaker: bebatut
+      - slides: 
+          https://docs.google.com/presentation/d/1AaZETO7piGCfhJP9_UoQGFOWKD5LA5Pg7X0r7rlfkts/edit?usp=sharing
+        speakers:
+        - bebatut
         title: Usable, comprehensive, accessible, FAIR and empowering training - The
           case of the Galaxy Training Network
         recording: https://youtu.be/SfGHnCedkwY?t=205
@@ -447,24 +489,26 @@ weeks:
       notes: https://bit.ly/ols-4-week-12
       title: Diversity and Inclusion & Ally skills
       type: Cohort
-      before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)\
-        \ complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes) \
-        \     \n   - You can 'continue as a guest' by choosing your country\n   -\
-        \ Answer these questions when you've finished the implicit association test:\
-        \ What does inclusion mean to you? Did your results of the implicit association\
-        \ test surprise you?\n- Think how people step up for you in social scenarios\
-        \ and how you step up for them to support each other:\n   - What do your colleagues\
-        \ do to make your workplace inclusive for you?\n   - What do you do to make\
-        \ your workplace inclusive for them?\n   The big idea: Based on your experience,\
-        \ what would you consider doing to make your project inclusive for your contributors\
-        \ or team members?"
+      before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)
+        complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)   \
+        \   \n   - You can 'continue as a guest' by choosing your country\n   - Answer
+        these questions when you've finished the implicit association test: What does
+        inclusion mean to you? Did your results of the implicit association test surprise
+        you?\n- Think how people step up for you in social scenarios and how you step
+        up for them to support each other:\n   - What do your colleagues do to make
+        your workplace inclusive for you?\n   - What do you do to make your workplace
+        inclusive for them?\n   The big idea: Based on your experience, what would
+        you consider doing to make your project inclusive for your contributors or
+        team members?"
       resources: []
       recording: https://youtu.be/tT-hmAWUFKI
       talks:
-      - slides: https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
+      - slides: 
+          https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
-      - slides: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
+      - slides: 
+          https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         title: Ally skills - Optional
   '13':
     start: December 06, 2021
@@ -483,18 +527,20 @@ weeks:
         - Discuss the importance of taking care of mental health and avoiding burn out for both project leaders and community members
       title: Self-care & Social call
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       resources: []
       recording: https://youtu.be/94FySX0WwPM
       talks:
-      - slides: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
-        speaker: malvikasharan
+      - slides: 
+          https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+        speakers:
+        - malvikasharan
         title: Personal Ecology and Self Care
   '14':
     start: December 13, 2021
@@ -503,16 +549,18 @@ weeks:
       time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-4-week-14
-      content: "In this call, participants will:\n- Learn how to apply FAIR research\
-        \ principles on data, software, training to make research \"as open as possible,\
-        \ as restricted as necessary.\"\n      \n        "
+      content: "In this call, participants will:\n- Learn how to apply FAIR research
+        principles on data, software, training to make research \"as open as possible,
+        as restricted as necessary.\"\n      \n        "
       title: 'Open Science III: Next steps - applying FAIR research principles'
       type: Cohort
       resources:
-      - link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
+      - link: 
+          https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
         type: slides
         title: FAIR Data
-      - link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
+      - link: 
+          https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
         type: slides
         title: FAIR Training
       - type: slides
@@ -523,9 +571,9 @@ weeks:
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-14
-      content: "In this call, participants will:\n- Learn how to apply FAIR research\
-        \ principles on data, software, training to make research \"as open as possible,\
-        \ as restricted as necessary.\"\n      \n        "
+      content: "In this call, participants will:\n- Learn how to apply FAIR research
+        principles on data, software, training to make research \"as open as possible,
+        as restricted as necessary.\"\n      \n        "
       title: 'Open Science III: Next steps in open'
       recording: https://youtu.be/DbqsS1-ueqI
       type: Cohort
@@ -533,15 +581,19 @@ weeks:
         own time'
       resources: []
       talks:
-      - slides: https://docs.google.com/presentation/d/19jspjhFN2kb9H3S-4UEBb5q9aZt22eUdDdxfWWbb6CI/edit?usp=sharing
-        speaker: pherterich
+      - slides: 
+          https://docs.google.com/presentation/d/19jspjhFN2kb9H3S-4UEBb5q9aZt22eUdDdxfWWbb6CI/edit?usp=sharing
+        speakers:
+        - pherterich
         title: The future of Open Science? DMPs and FAIR data
         recording: https://youtu.be/DbqsS1-ueqI?t=204
-      - speaker: yvanlebras
+      - speakers:
+        - yvanlebras
         title: 'Open / citizen sience, the only way to '
         recording: https://youtu.be/DbqsS1-ueqI?t=1705
       - slides: https://doi.org/10.5281/zenodo.5783459
-        speaker:
+        speakers:
+        - 
         title: Software citation with the Citation File Format
         recording: https://youtu.be/DbqsS1-ueqI?t=3007
   '15':
@@ -559,13 +611,13 @@ weeks:
         - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 1
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       date: January 11, 2022
       time: "10:00"
       duration: 60 min
@@ -578,13 +630,13 @@ weeks:
         - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 2
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       date: January 12, 2022
       time: "15:00"
       duration: 60 min
@@ -597,13 +649,13 @@ weeks:
         - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 3
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       date: January 13, 2022
       time: "18:00"
       duration: 60 min
@@ -619,13 +671,13 @@ weeks:
         - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 1
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       date: January 18, 2022
       time: "10:00"
       duration: 60 min
@@ -638,13 +690,13 @@ weeks:
         - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 2
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       date: January 19, 2022
       time: "15:00"
       duration: 60 min
@@ -657,13 +709,13 @@ weeks:
         - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 3
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       date: January 20, 2022
       time: "18:00"
       duration: 60 min

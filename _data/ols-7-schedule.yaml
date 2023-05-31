@@ -127,18 +127,24 @@ weeks:
       resources: []
       recording: https://youtu.be/05w7h9T3GhQ
       talks:
-      - slides: https://docs.google.com/presentation/d/16M5R6YhvAeK0-old_hV9RjrshdA0sdJPgZBRO_MyRLA/edit?usp=sharing
-        speaker: emmyft
+      - slides: 
+          https://docs.google.com/presentation/d/16M5R6YhvAeK0-old_hV9RjrshdA0sdJPgZBRO_MyRLA/edit?usp=sharing
+        speakers:
+        - emmyft
         title: Welcome to OLS!
         recording: https://youtu.be/05w7h9T3GhQ?t=1096
         tag: OLS Introduction
-      - slides: https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
-        speaker: bebatut
+      - slides: 
+          https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
+        speakers:
+        - bebatut
         title: Introducing Open Canvas
         recording: https://youtu.be/05w7h9T3GhQ?t=2325
         tag: Open Canvas
-      - slides: https://docs.google.com/presentation/d/1xpVo-66m0mWs8_ZFGuHQwPBTT-vkfBRXwr6WJEb5QRw/edit?usp=sharing
-        speaker: bebatut
+      - slides: 
+          https://docs.google.com/presentation/d/1xpVo-66m0mWs8_ZFGuHQwPBTT-vkfBRXwr6WJEb5QRw/edit?usp=sharing
+        speakers:
+        - bebatut
         title: Introducing Road Mapping
         recording: https://youtu.be/05w7h9T3GhQ?t=3144
         tag: Road Mapping
@@ -185,18 +191,24 @@ weeks:
       resources: []
       recording: https://youtu.be/XulHUHQru2I
       talks:
-      - slides: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
-        speaker: yochannah
+      - slides: 
+          https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        speakers:
+        - yochannah
         title: Welcome to OLS!
         recording: https://youtu.be/XulHUHQru2I?t=1124
         tag: OLS Introduction
-      - slides: https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
-        speaker: malvikasharan
+      - slides: 
+          https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
+        speakers:
+        - malvikasharan
         title: Introducing Open Canvas
         recording: https://youtu.be/XulHUHQru2I
         tag: Open Canvas
-      - slides: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
-        speaker: pazbc
+      - slides: 
+          https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speakers:
+        - pazbc
         title: Introducing Road Mapping
         recording: https://youtu.be/XulHUHQru2I?t=2885
         tag: Road Mapping
@@ -215,8 +227,8 @@ weeks:
       duration: 90 min
       notes: https://bit.ly/ols-7-week-4
       content: "In this call, participants will:\n- Look at project structure as we
-        build open projects\n- Go over the standard files in open projects\n   - README\n\
-        \   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
+        build open projects\n- Go over the standard files in open projects\n   - README\n
+          - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
         project structure and files used may look different on your project.\n  "
       title: Tooling and roadmapping for Open projects
       type: Cohort
@@ -241,18 +253,24 @@ weeks:
       talks:
       - title: Project Structure
         tag: Project Structure
-      - slides: https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
-        speaker: ha0ye
+      - slides: 
+          https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
+        speakers:
+        - ha0ye
         title: Open Licensing
         recording: https://youtu.be/DG3La_p22N0
         tag: Open Licensing
-      - slides: https://docs.google.com/presentation/d/1V2-6PbJiPOYGBGsHJbKj9Y49iPHsHnAIKnhCuV40U3I/edit#slide=id.g2224fafcba8_0_37
-        speaker:
+      - slides: 
+          https://docs.google.com/presentation/d/1V2-6PbJiPOYGBGsHJbKj9Y49iPHsHnAIKnhCuV40U3I/edit#slide=id.g2224fafcba8_0_37
+        speakers:
+        - 
         title: README & contributing
         recording: https://youtu.be/DG3La_p22N0
         tag: README
-      - slides: https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
-        speaker: andreasancheztapia
+      - slides: 
+          https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
+        speakers:
+        - andreasancheztapia
         title: Code of Conduct
         recording: https://youtu.be/DG3La_p22N0
         tag: Code of Conduct
@@ -295,7 +313,8 @@ weeks:
       resources: []
       recording: https://youtu.be/hXRw33CbDJk
       talks:
-      - slides: https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit#slide=id.g6e56d02ad9_0_0
+      - slides: 
+          https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit#slide=id.g6e56d02ad9_0_0
         title: Introduction to GitHub
         recording: https://youtu.be/hXRw33CbDJk
         tag: GitHub Introduction
@@ -328,35 +347,43 @@ weeks:
       type: Cohort
       before: '- Look up two other projects and comment on their issues with feedback
         on their README'
-      after: "- [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)\n\
-        \  For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
+      after: "- [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)\n
+         For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
         and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).\n
-        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)\n\
-        \  Assignment to help you use Agile methods to breakdown your milestones into\
-        \ smaller tasks and define a timeline for your milestones\n  In your own time:\
-        \ After this assignment, you can transfer your tasks to a project management\
-        \ or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)),\
-        \ [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board),\
-        \ [Zenhub in GitHub](https://www.zenhub.com/)\n- Start creating a [contribution\
-        \ guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/)\
-        \ for your communit"
+        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)\n
+         Assignment to help you use Agile methods to breakdown your milestones into
+        smaller tasks and define a timeline for your milestones\n  In your own time:
+        After this assignment, you can transfer your tasks to a project management
+        or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)),
+        [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board),
+        [Zenhub in GitHub](https://www.zenhub.com/)\n- Start creating a [contribution
+        guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/)
+        for your communit"
       resources: []
       talks:
-      - slides: https://docs.google.com/presentation/d/1eKRgozsGmJvjPELyP4KMgrgHchp7o58YowC5RkgLNd4/edit?usp=sharing
-        speaker: yochannah
+      - slides: 
+          https://docs.google.com/presentation/d/1eKRgozsGmJvjPELyP4KMgrgHchp7o58YowC5RkgLNd4/edit?usp=sharing
+        speakers:
+        - yochannah
         title: Open Science
         tag: Open Science
-      - slides: https://drive.google.com/file/d/1BQ641IWIKjgC33ltqdAkEaxUkGljh3eL/view?usp=share_link
-        speaker:
+      - slides: 
+          https://drive.google.com/file/d/1BQ641IWIKjgC33ltqdAkEaxUkGljh3eL/view?usp=share_link
+        speakers:
+        - 
         title: Open Evaluation in JOSS - Journal of Open Source Software
         tag: Open Evaluation
-      - slides: https://docs.google.com/presentation/d/1c5r83gUCdg_2_sS5LAB-7NLQccYfeN6OmkUSj_WFwGs/edit?usp=sharing
-        speaker:
+      - slides: 
+          https://docs.google.com/presentation/d/1c5r83gUCdg_2_sS5LAB-7NLQccYfeN6OmkUSj_WFwGs/edit?usp=sharing
+        speakers:
+        - 
         title: Nigerian Open Science Highlights
         tag: Open Science Infrastructures
-      - speaker: phaarouknucleus
+      - speakers:
+        - phaarouknucleus
         title: Open engagement of social actors
         tag: Open Engagement of Social Actors
+      recording: https://youtu.be/ViqeEI3J9dY
   '07':
     start: April 10, 2023
     calls:
@@ -394,17 +421,24 @@ weeks:
       hosts:
       - malvikasharan
       type: Cohort
-      after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
-        \ assignment\n- Think through community interactions\n- Complete the midterm\
-        \ survey\n      \n        "
+      after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n
+        assignment\n- Think through community interactions\n- Complete the midterm
+        survey\n      \n        "
       resources: []
       talks:
-      - title: Using Personas and Pathways to Build Community
-        tag: Community Design for Inclusivity
-      - title: Mountain of Engagement
+      - slides: 
+          https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit#slide=id.p
+        speakers:
+        - 
+        title: The Mountain of Engagement
         tag: Mountain of Engagement
-      - title: Mentored contributions
-      - title: Community interactions
+      - slides: 
+          https://docs.google.com/presentation/d/1JmO4S1XVnsVUg2HCKHeoGHhWAF_Gbz8Vmd9mVwtFR_k/edit?usp=sharing
+        speakers:
+        - meagdoh
+        title: Using Personas and Pathways to Build Community
+        tag: Personas & Pathways
+      recording: https://youtu.be/ycMEiZXmHp8
     - date: April 19, 2023
       time: "13:00"
       duration: 90 min
@@ -432,27 +466,32 @@ weeks:
       hosts:
       - pherterich
       type: Skill-up
-      before: "A few days before the event, think about how you might briefly answer\
-        \ the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
-        - how did you choose your career ?\n- what did you study to prepare ?\n- what\
-        \ do you actually do at work on a typical day ?\n- have you ever felt discriminated\
-        \ against (e.g. due to gender, race, ethnicity...) and how did you respond\
-        \ ?\n- do you have a life outside your work ? a family ? hobbies ?\n- what\
-        \ advice would you give someone wanting to enter your field ?\n- on a scale\
-        \ of 1-10 (10 being the most), how much do you enjoy your current work?\n\
-        - do you want to switch your career or field? Why or why not?      \n    \
-        \  \n        "
+      before: "A few days before the event, think about how you might briefly answer
+        the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n
+        - how did you choose your career ?\n- what did you study to prepare ?\n- what
+        do you actually do at work on a typical day ?\n- have you ever felt discriminated
+        against (e.g. due to gender, race, ethnicity...) and how did you respond ?\n
+        - do you have a life outside your work ? a family ? hobbies ?\n- what advice
+        would you give someone wanting to enter your field ?\n- on a scale of 1-10
+        (10 being the most), how much do you enjoy your current work?\n- do you want
+        to switch your career or field? Why or why not?      \n      \n        "
       resources: []
       talks:
-      - title: Post-academia career path, Social entrepreneurship
+      - speakers:
+        - 
+        title: Social enterprise
         tag: Open Leadership
-      - speaker:
-        title: Academic leadership, group or project leaders
+      - slides: 
+          https://docs.google.com/presentation/d/1DvXK_F28DRRTQWjTSx1JpBzcH-YP6EIL0_JszOvmn9U/edit?usp=sharing
+        speakers:
+        - 
+        title: Open Science and its impact on global science and community
         tag: Open Leadership
-      - title: Community building, Science Communication
+      - speakers:
+        - 
+        title: Policymakers, funders, meta-researchers
         tag: Open Leadership
-      - title: Policymakers, funders, meta-researchers
-        tag: Open Leadership
+      recording: https://youtu.be/8xfQrbnm_Io
     - date: April 26, 2023
       time: "13:00"
       duration: 90 min
@@ -482,24 +521,39 @@ weeks:
       hosts:
       - malvikasharan
       type: Cohort
-      before: "- Create a project development plan for your project\n  - [Assignment\
-        \ to help you use Agile methods](https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing)\
-        \ to breakdown your milestones into smaller tasks and define a timeline for\
-        \ your milestones\n- You can transfer your tasks to a project management or\
-        \ kanban tools such as GitHub projects ([short intro](https://unito.io/blog/github-projects-agile/)),\
-        \ [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board),\
-        \ [Zenhub in GitHub](https://www.zenhub.com/)\n- Make sure that by now you\
-        \ have added a license, contribution guideline and a Code of Conduct in your\
-        \ GitHub repository. If you feel stuck and don’t know where you start, take\
-        \ a look at [this repo](https://github.com/malvikasharan/developing_collaborative_document)\n\
-        - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-4/issues)\
-        \ with feedback on their project"
+      before: "- Create a project development plan for your project\n  - [Assignment
+        to help you use Agile methods](https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing)
+        to breakdown your milestones into smaller tasks and define a timeline for
+        your milestones\n- You can transfer your tasks to a project management or
+        kanban tools such as GitHub projects ([short intro](https://unito.io/blog/github-projects-agile/)),
+        [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board),
+        [Zenhub in GitHub](https://www.zenhub.com/)\n- Make sure that by now you have
+        added a license, contribution guideline and a Code of Conduct in your GitHub
+        repository. If you feel stuck and don’t know where you start, take a look
+        at [this repo](https://github.com/malvikasharan/developing_collaborative_document)\n
+        - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-4/issues)
+        with feedback on their project"
       resources: []
       talks:
-      - {}
-      - {}
-      - {}
-      - {}
+      - slides: 
+          https://docs.google.com/presentation/d/1ecLEm7aNPeswOCnpiQQE8rnSyl6Equce_6YAJrR2_oc/edit?usp=sharing
+        speakers:
+        - amchagas
+        title: Open Source Hardware
+        tag: Open Hardware
+      - slides: 
+          https://docs.google.com/presentation/d/1i9ZS2bw_zefmjYBVTZSieyp4xI_T9PrH-pIiPeP3wY0/edit#slide=id.g21280744133_2_33 
+        speakers:
+        - batoolmm
+        title: Openness to diversity of knowledge
+        tag: Openness to Diversity of Knowledge
+      - slides: 
+          https://docs.google.com/presentation/d/1HRxtMemWWYrBniYkW60twA3Fd0AuEDdNryGREagDypk/edit#slide=id.g21f04b7f88a_0_77
+        speakers:
+        - 
+        title: Open Source Software
+        tag: Open Source Software
+      recording: https://youtu.be/iAckka2c6yc
   '11':
     start: May 08, 2023
     calls:
@@ -518,12 +572,24 @@ weeks:
       type: Skill-up
       resources: []
       talks:
-      - title: Code style, testing
+      - slides: https://olscoding.netlify.app/
+        speakers:
+        - 
+        title: Programming for science
         tag: Good Coding Practices
-      - title: Code-review
+      - slides: 
+          https://docs.google.com/presentation/d/1snmV5BMFIuTAs60-PcejRj0NUhpvswvb/edit?usp=sharing&ouid=113583685317579296794&rtpof=true&sd=true
+        speakers:
+        - 
+        title: Writing reproducible code
         tag: Code Review
-      - title: Package management
+      - slides: 
+          https://docs.google.com/presentation/d/1V0ns7MiBRlKWgJHq15Xy-q0HZOeJYdkKs0PMAMoKXn8/edit?usp=sharing
+        speakers:
+        - 
+        title: "Open Source Drives Open Science - \npyOpenSci"
         tag: Package Management
+      recording: https://youtu.be/hOiDzn4Iqp4
     - date: May 10, 2023
       time: "13:00"
       duration: 90 min
@@ -549,22 +615,30 @@ weeks:
       hosts:
       - pherterich
       type: Cohort
-      before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)\
-        \ complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes) \
-        \     \n   - You can 'continue as a guest' by choosing your country\n   -\
-        \ Answer these questions when you've finished the implicit association test:\
-        \ What does inclusion mean to you? Did your results of the implicit association\
-        \ test surprise you?\n- Think how people step up for you in social scenarios\
-        \ and how you step up for them to support each other:\n   - What do your colleagues\
-        \ do to make your workplace inclusive for you?\n   - What do you do to make\
-        \ your workplace inclusive for them?\n   The big idea: Based on your experience,\
-        \ what would you consider doing to make your project inclusive for your contributors\
-        \ or team members?"
+      before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)
+        complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)   \
+        \   \n   - You can 'continue as a guest' by choosing your country\n   - Answer
+        these questions when you've finished the implicit association test: What does
+        inclusion mean to you? Did your results of the implicit association test surprise
+        you?\n- Think how people step up for you in social scenarios and how you step
+        up for them to support each other:\n   - What do your colleagues do to make
+        your workplace inclusive for you?\n   - What do you do to make your workplace
+        inclusive for them?\n   The big idea: Based on your experience, what would
+        you consider doing to make your project inclusive for your contributors or
+        team members?"
       resources: []
       talks:
-      - {}
-      - {}
-      - {}
+      - slides: https://doi.org/10.5281/zenodo.7938759
+        speakers:
+        - estherplomp
+        title: Open Data
+        tag: Open Data
+      - slides: https://doi.org/10.5281/zenodo.7946506
+        speakers:
+        - 
+        title: Brief overview of Open access publication
+        tag: Open Access Publication
+      recording: https://youtu.be/CzkkO4wO2eQ
   '13':
     start: May 22, 2023
     calls:
@@ -584,17 +658,23 @@ weeks:
       hosts:
       - pazbc
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       resources: []
       talks:
-      - title: Personal Ecology and Self Care
+      - slides: 
+          https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit#slide=id.p
+        speakers:
+        - malvikasharan
+        - msundukova
+        title: Personal Ecology and Self Care
         tag: Personal Ecology
+      recording: https://youtu.be/4KEakWZjJJA
     - date: May 24, 2023
       time: "13:00"
       duration: 90 min
@@ -618,17 +698,12 @@ weeks:
       notes: https://bit.ly/ols-7-week-14
       title: Ally skills
       hosts:
-      - bebatut
+      - estherplomp
+      - rowland-mosbergen
       type: Cohort
-      after: '- Think about and plan to apply FAIR principles to your project in your
-        own time'
+      after: '- Think about how to apply ally principles and skills in your own work'
       resources: []
-      talks:
-      - title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
-          matter?)'
-        tag: Diversity & Inclusion
-      - title: Ally skills - Optional
-        tag: Ally Skills
+      talks: []
   '15':
     start: June 05, 2023
     calls:

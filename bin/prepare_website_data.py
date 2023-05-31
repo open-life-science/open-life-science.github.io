@@ -304,8 +304,8 @@ def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp
         for call in week['calls']:
             if call['type'] == 'cohort':
                 for r in call['talks']:
-                    if 'speaker' in r:
-                        speakers.append(r['speaker'])
+                    if 'speakers' in r:
+                        speakers += r['speakers']
             if 'hosts' in call:
                 hosts += call['hosts']
     extract_people_df(speakers, people, speaker_fp)
@@ -453,8 +453,8 @@ def update_talks(talks, row, people):
     if not pd.isnull(row['Slides']):
         talks['slides'] = row['Slides']
     if not pd.isnull(row['Confirmed speaker']):
-        name = row['Confirmed speaker']
-        talks['speaker'] = get_people_id(name, people)
+        names = row['Confirmed speaker'].split(', ')
+        talks['speakers'] = [get_people_id(n, people) for n in names]
     if not pd.isnull(row['Title']):
         talks['title'] = row['Title']
     if not pd.isnull(row['Recording']):
@@ -478,7 +478,7 @@ def add_event_information(schedule, schedule_df, people):
             'Duration': 'duration'})
         .assign(
             date=lambda x: pd.to_datetime(x['date'], dayfirst=True, errors='coerce'),
-            time=lambda x: pd.to_datetime(x['time'], errors='coerce'),
+            time=lambda x: pd.to_datetime(x['time'], format='%H:%M', errors='coerce'),
             duration=lambda x: pd.to_timedelta(x['duration'])))
 
     call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A', 'Cafeteria']
@@ -642,16 +642,21 @@ def combine_tags(talks_by_tag):
     for tag, talks in talks_by_tag.items():
         #print(tag)
         # identify topic
-        if tag == 'Not tagged':
-            topic = 'Not sorted'
-        elif tag in tag_topic_mapping.Tag.values:
+        #if tag == 'Not tagged':
+        #    topic = 'Not sorted'
+        if tag in tag_topic_mapping.Tag.values:
             topic = tag_topic_mapping[tag_topic_mapping.Tag == tag].Topic.tolist()[0]
         else:
-            topic = 'Not sorted'
+            print(f'No topic found for {tag}')
+        #    topic = 'Not sorted'
         # add talks to library
         library.setdefault(topic, {})
         library[topic][tag] = talks
-    return library
+    # reorder library
+    ordered_library = {}
+    for t in tag_topic_mapping.Topic.unique():
+        ordered_library[t] = library[t]
+    return ordered_library
 
 
 ### COMMANDS

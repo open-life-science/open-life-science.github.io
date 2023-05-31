@@ -5,7 +5,8 @@ timeline:
   description: Opening of the applications
 - date: November 27, 2019
   description: Pre-application webinar
-  notes: https://docs.google.com/document/d/1EIDzZi5mgRiWR7cJQl0up470C87GsbcoTR_6-cs-SeE/edit
+  notes: 
+    https://docs.google.com/document/d/1EIDzZi5mgRiWR7cJQl0up470C87GsbcoTR_6-cs-SeE/edit
 - date: December 8, 2019
   description: Closing of the applications
 - date: December 20, 2019
@@ -78,10 +79,12 @@ weeks:
       title: Welcome to Open Life Science!
       date: January 29, 2020
       time: "13:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmIzdWlmZTR2cG9uaXU5a2IxcGVvMm5icG8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=NmIzdWlmZTR2cG9uaXU5a2IxcGVvMm5icG8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       agenda: Meet other members of your cohort, Share project vision, Intro to working
         openly (open canvas)
-      notes: https://docs.google.com/document/d/1q9HnEKKX2y50JiovpTDaOziFI0iDmPGYxvelUXuES90/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1q9HnEKKX2y50JiovpTDaOziFI0iDmPGYxvelUXuES90/edit?usp=sharing
       recording: https://youtu.be/3-cvl7UfSTY
       content: |
         During our first cohort call, we will:
@@ -106,19 +109,27 @@ weeks:
       resources:
       - type: document
         title: Open Canvas
-        link: https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing
+        link: 
+          https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing
       - type: document
         title: Compare and contrast assignment
-        link: https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing
+        link: 
+          https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing
       talks:
-      - slides: https://docs.google.com/presentation/d/1w_WWb7Mj7NgX4pLBejB4Vc_ofK7ZHOUYOT1MCeKVi20/edit?usp=sharing
-        speaker: malvikasharan
+      - slides: 
+          https://docs.google.com/presentation/d/1w_WWb7Mj7NgX4pLBejB4Vc_ofK7ZHOUYOT1MCeKVi20/edit?usp=sharing
+        speakers:
+        - malvikasharan
         title: Welcome to OLS!
-      - slides: https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
-        speaker: yochannah
+      - slides: 
+          https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
+        speakers:
+        - yochannah
         title: Introducing Open Canvas
-      - slides: https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
-        speaker: bebatut
+      - slides: 
+          https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
+        speakers:
+        - bebatut
         title: Road Mapping
   '03':
     start: February 03, 2020
@@ -156,10 +167,12 @@ weeks:
       title: Tooling and roadmapping for Open projects
       date: February 12, 2020
       time: "18:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MTFnaW44c2RyYWprMGF0ZnFjdmxjcG82YTQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MTFnaW44c2RyYWprMGF0ZnFjdmxjcG82YTQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       agenda: 'Working with GitHub as a community hub: Markdown as a tool to make
         websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
-      notes: https://docs.google.com/document/d/1KmXb7Vf-J7J8YolTEhc-YFrDHfz6GfOS3LHxLTcrELs/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1KmXb7Vf-J7J8YolTEhc-YFrDHfz6GfOS3LHxLTcrELs/edit?usp=sharing
       recording: https://www.youtube.com/watch?v=y9y8a3O4fjg
       content: |
         During this week's cohort call, we will:
@@ -189,14 +202,20 @@ weeks:
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources: []
       talks:
-      - slides: https://docs.google.com/presentation/d/1ymSOc9vPnFJpU0FwFBqw25qhSmJVAv5scpi-N9KVopc/edit?usp=sharing
-        speaker: joshsimmons
+      - slides: 
+          https://docs.google.com/presentation/d/1ymSOc9vPnFJpU0FwFBqw25qhSmJVAv5scpi-N9KVopc/edit?usp=sharing
+        speakers:
+        - joshsimmons
         title: A Primer on Open Licenses
-      - slides: https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing
-        speaker: mkuzak
+      - slides: 
+          https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing
+        speakers:
+        - mkuzak
         title: READMEs for Open Projects
-      - slides: https://docs.google.com/presentation/d/1aLaDBwH64PCRtCLIftVkjBYT60ifWuIV7Im2t8BXN8Q/edit?usp=sharing
-        speaker: karinlag
+      - slides: 
+          https://docs.google.com/presentation/d/1aLaDBwH64PCRtCLIftVkjBYT60ifWuIV7Im2t8BXN8Q/edit?usp=sharing
+        speakers:
+        - karinlag
         title: Contributing Guidelines and Codes of Conduct for Open Projects
   '05':
     start: February 17, 2020
@@ -213,8 +232,10 @@ weeks:
       title: GitHub Tutorial
       date: February 19, 2020
       time: '13:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzEzaWltNDhrcThwZ3ZlOGdyZHAzMGRsNzEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://docs.google.com/document/d/1HeWcj5RuouvHjx2x-AgL92qEwhRosE_qRknaWmCBWM4/edit?usp=sharing
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MzEzaWltNDhrcThwZ3ZlOGdyZHAzMGRsNzEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: 
+        https://docs.google.com/document/d/1HeWcj5RuouvHjx2x-AgL92qEwhRosE_qRknaWmCBWM4/edit?usp=sharing
       recording: https://www.youtube.com/watch?v=QRUvQgKbVZQ
       content: |
         During this week's cohort call, we will give you an optional 1 hour GitHub tutorial covering:
@@ -229,7 +250,8 @@ weeks:
       resources:
       - type: external-link
         title: GitHub for Collaboration (from Mozilla)
-        link: https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
+        link: 
+          https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
       - type: external-link
         title: Understanding the GitHub workflow
         link: https://guides.github.com/introduction/flow/
@@ -263,7 +285,8 @@ weeks:
     - date: February 19, 2020
       time: "13:00"
       duration: 90 min
-      notes: https://docs.google.com/document/d/1HeWcj5RuouvHjx2x-AgL92qEwhRosE_qRknaWmCBWM4/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1HeWcj5RuouvHjx2x-AgL92qEwhRosE_qRknaWmCBWM4/edit?usp=sharing
       title: GitHub tutorial for beginners
       recording: https://www.youtube.com/watch?v=QRUvQgKbVZQ
       type: Skill-up
@@ -276,9 +299,11 @@ weeks:
       title: 'Open Science I: Project Development'
       date: February 26, 2020
       time: "13:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MHMyc3FzMmtxdDBtdWR1a2drcjdzMTFtdDkgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MHMyc3FzMmtxdDBtdWR1a2drcjdzMTFtdDkgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       agenda: 'Developing Open Projects: Open-Source, Software, Hardware, Data'
-      notes: https://docs.google.com/document/d/1Nbu2XycI2q9kVg3YAY-LtWsGPYj63xlGLXEthCv_9SA/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1Nbu2XycI2q9kVg3YAY-LtWsGPYj63xlGLXEthCv_9SA/edit?usp=sharing
       recording: https://www.youtube.com/watch?v=hiLDGLfXa2s
       content: |
         During this week's cohort call, we will cover :
@@ -304,20 +329,28 @@ weeks:
           We will revisit this next week so no need to rush!
       resources: []
       talks:
-      - slides: https://docs.google.com/presentation/d/1C_RurOY1W__HLRbPTTzmdYT-qdTpuF2qi7leL4Hzdok/edit#slide=id.g7e28a7e96f_0_0
-        speaker: yochannah
+      - slides: 
+          https://docs.google.com/presentation/d/1C_RurOY1W__HLRbPTTzmdYT-qdTpuF2qi7leL4Hzdok/edit#slide=id.g7e28a7e96f_0_0
+        speakers:
+        - yochannah
         title: Agile and iterative project management methods
         recording: https://youtu.be/hiLDGLfXa2s?t=165
-      - slides: https://docs.google.com/presentation/d/1JJWt0OtVWTMHbouXOF0w1QJsxwv-rUXiqHmkEx-A5B8/edit?usp=sharing
-        speaker: thessaly
+      - slides: 
+          https://docs.google.com/presentation/d/1JJWt0OtVWTMHbouXOF0w1QJsxwv-rUXiqHmkEx-A5B8/edit?usp=sharing
+        speakers:
+        - thessaly
         title: Open Science Hardware
         recording: https://youtu.be/hiLDGLfXa2s?t=1141
-      - slides: https://ajstewartlang.github.io/talks/OLS_talk/assets/player/KeynoteDHTMLPlayer.html
-        speaker: ajstewartlang
+      - slides: 
+          https://ajstewartlang.github.io/talks/OLS_talk/assets/player/KeynoteDHTMLPlayer.html
+        speakers:
+        - ajstewartlang
         title: Open Software in Research
         recording: https://youtu.be/hiLDGLfXa2s?t=2239
-      - slides: https://docs.google.com/presentation/d/e/2PACX-1vTm51ExlLfv1L_oI59D_9EZlBWf1UbSXmHVAIutII9Cs8AnGqLkH9meXGiwBajn-r_u297hdV7MdWCL/pub?start=false&loop=false&delayms=3000
-        speaker: lwinfree
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTm51ExlLfv1L_oI59D_9EZlBWf1UbSXmHVAIutII9Cs8AnGqLkH9meXGiwBajn-r_u297hdV7MdWCL/pub?start=false&loop=false&delayms=3000
+        speakers:
+        - lwinfree
         title: Open Data
         recording: https://youtu.be/hiLDGLfXa2s?t=3848
   '07':
@@ -347,10 +380,12 @@ weeks:
       title: 'Open Science II: Knowledge Dissemination'
       date: March 11, 2020
       time: "18:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M3U0OGZjbGY1aTYxYW5ua3Z1YWYxbGV1cXQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=M3U0OGZjbGY1aTYxYW5ua3Z1YWYxbGV1cXQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open
         protocols, Open Education & Training'
-      notes: https://docs.google.com/document/d/19o-BXGx6Q7Rc2-jlW76HRoi_onKmAidtIFWXvYVXqOA/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/19o-BXGx6Q7Rc2-jlW76HRoi_onKmAidtIFWXvYVXqOA/edit?usp=sharing
       recording: https://www.youtube.com/watch?v=HaQyv48sMPY&t=1s
       content: |
         During this week's cohort call, we will discuss about Knowledge Dissemination with
@@ -389,19 +424,26 @@ weeks:
         link: https://dataverse.org/
       talks:
       - slides: https://www.slideshare.net/gedankenstuecke/2020-0311openlifesciences
-        speaker: gedankenstuecke
+        speakers:
+        - gedankenstuecke
         title: Citizen science using your own personal data
         recording: https://youtu.be/HaQyv48sMPY?t=891
-      - slides: https://docs.google.com/presentation/d/1T3Z51l8XIRtUQtSooZvUZzH60rFS-n73bDQwGwH639Y/edit?usp=sharing
-        speaker: kipkurui
+      - slides: 
+          https://docs.google.com/presentation/d/1T3Z51l8XIRtUQtSooZvUZzH60rFS-n73bDQwGwH639Y/edit?usp=sharing
+        speakers:
+        - kipkurui
         title: Open Education and Training
         recording: https://youtu.be/HaQyv48sMPY?t=1879
-      - slides: https://f1000-my.sharepoint.com/:p:/g/personal/demitra_ellina_f1000_online/Ed5_RBaVrrlGmZzicLlHESsBzCy2eW52SzoNTE3VBkzEDQ?e=tLWn2E
-        speaker: demellina
+      - slides: 
+          https://f1000-my.sharepoint.com/:p:/g/personal/demitra_ellina_f1000_online/Ed5_RBaVrrlGmZzicLlHESsBzCy2eW52SzoNTE3VBkzEDQ?e=tLWn2E
+        speakers:
+        - demellina
         title: Pre-print and open review
         recording: https://youtu.be/HaQyv48sMPY?t=2895
-      - slides: https://docs.google.com/presentation/d/13d3BgND53cviFRnuQpmWk5UtMYtpSDqpUu9jq4ykNrM/edit?usp=sharing
-        speaker: anita-broellochs
+      - slides: 
+          https://docs.google.com/presentation/d/13d3BgND53cviFRnuQpmWk5UtMYtpSDqpUu9jq4ykNrM/edit?usp=sharing
+        speakers:
+        - anita-broellochs
         title: Open Protocols
         recording: https://youtu.be/HaQyv48sMPY?t=3708
   '09':
@@ -418,10 +460,12 @@ weeks:
       title: 'Designing & Empowering for inclusivity'
       date: March 25, 2020
       time: "13:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXA4Nm4wYXRqaG01ZmcwOHRzYjR1OWpqcTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MXA4Nm4wYXRqaG01ZmcwOHRzYjR1OWpqcTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       agenda: Personas and pathways for contributors, Implicit bias & mental health
         care, Community interactions & Ally-skill
-      notes: https://docs.google.com/document/d/1YF3Uw-fU2-mhf-FyuPdx07KSTSlvnBZeMbQdQGJq4A4/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1YF3Uw-fU2-mhf-FyuPdx07KSTSlvnBZeMbQdQGJq4A4/edit?usp=sharing
       recording: https://www.youtube.com/watch?v=81mG4L7S3Oc
       content: |
         During this week's cohort call, we will discuss about:
@@ -446,34 +490,45 @@ weeks:
         - **Persona and Pathway**: [Create a Persona and Pathway for Your Project](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project), assignment from the Mozilla Open Leadership training
       resources:
       - type: document
-        title: "Combating Unconscious Bias As Participation Leaders: What you can\
-          \ do"
-        link: https://docs.google.com/document/d/1U7kIwSyPRpovVLVIvKRcuuh9wNQBHQQZC3KSwP7kbxs/edit
+        title: "Combating Unconscious Bias As Participation Leaders: What you can
+          do"
+        link: 
+          https://docs.google.com/document/d/1U7kIwSyPRpovVLVIvKRcuuh9wNQBHQQZC3KSwP7kbxs/edit
       - type: document
-        title: "Mountain of Engagement (MoE): Discovering pathways & patterns of engagement\
-          \ in your work"
-        link: https://docs.google.com/document/d/1X2-oXvq5ET30-hCcgWEG5iLvv9FbAiuEgXuVY5hle8o/edit?usp=sharing
+        title: "Mountain of Engagement (MoE): Discovering pathways & patterns of engagement
+          in your work"
+        link: 
+          https://docs.google.com/document/d/1X2-oXvq5ET30-hCcgWEG5iLvv9FbAiuEgXuVY5hle8o/edit?usp=sharing
       - type: external-link
         title: Create a Persona and Pathway for Your Project
-        link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project
+        link: 
+          https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/#assignment--create-a-persona-and-pathway-for-your-project
       - type: slides
         title: "Value exchange: Ensuring equity in community interactions"
-        link: https://docs.google.com/presentation/d/11YVAK5wwPKDUw6aM-KUngic8h7CVr6UhXuOMLIVAxQs/present?token=AC4w5VhYGDwJIubITNlf3ML9_D02NPIYOg%3A1596111389641&includes_info_params=1&eisi=CLylnKP69OoCFeiUTwkdfOYLow#slide=id.p
+        link: 
+          https://docs.google.com/presentation/d/11YVAK5wwPKDUw6aM-KUngic8h7CVr6UhXuOMLIVAxQs/present?token=AC4w5VhYGDwJIubITNlf3ML9_D02NPIYOg%3A1596111389641&includes_info_params=1&eisi=CLylnKP69OoCFeiUTwkdfOYLow#slide=id.p
       - type: external-link
         title: Building Communities
-        link: https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/
+        link: 
+          https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/
       - type: external-link
         title: Community Interactions
-        link: https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
+        link: 
+          https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
       talks:
-      - slides: https://docs.google.com/presentation/d/1yaLMBcU1awyFZpeOQC2_QYDwlN-Z_dJ2GXNYDAm2jA8/edit?usp=sharing
-        speaker: alexwlchan
+      - slides: 
+          https://docs.google.com/presentation/d/1yaLMBcU1awyFZpeOQC2_QYDwlN-Z_dJ2GXNYDAm2jA8/edit?usp=sharing
+        speakers:
+        - alexwlchan
         title: Inclusion can't be an afterthought
       - slides: https://drive.google.com/open?id=1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y
-        speaker: malvikasharan
+        speakers:
+        - malvikasharan
         title: Mountain of Engagement & Community Interactions
-      - slides: https://docs.google.com/presentation/d/1-rdQipVmJ5lWelQ1oEbi86EbFwTpDh5TLeJ2TAg-oo4/edit?usp=sharing
-        speaker: kirstiejane
+      - slides: 
+          https://docs.google.com/presentation/d/1-rdQipVmJ5lWelQ1oEbi86EbFwTpDh5TLeJ2TAg-oo4/edit?usp=sharing
+        speakers:
+        - kirstiejane
         title: Using Personas and Pathways to Build Community
   '11':
     start: March 30, 2020
@@ -483,8 +538,10 @@ weeks:
       title: 'Mental health care, Ally skills and Career Guidance Call'
       date: April 01, 2020
       time: "17:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MG1ra3N1cmlzM2ZobHVkOWo2YTc5cThodm8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://docs.google.com/document/d/1kKXcwsVRnM05W4ZWfGwnaTJlLXvqnP7JVCOpqcvo6vU/edit
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MG1ra3N1cmlzM2ZobHVkOWo2YTc5cThodm8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: 
+        https://docs.google.com/document/d/1kKXcwsVRnM05W4ZWfGwnaTJlLXvqnP7JVCOpqcvo6vU/edit
       recording: https://www.youtube.com/watch?v=un4lsSMdAB0
       content: |
         During this week's cohort call, we will:
@@ -508,25 +565,34 @@ weeks:
         link: https://sustainoss.org/
       - type: external-link
         title: "Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure"
-        link: https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
+        link: 
+          https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
       - type: external-link
-        title: "Gitcoin: sustaining open source with cryptocurrency featuring Kevin\
-          \ Owocki (The Changelog #281)"
+        title: "Gitcoin: sustaining open source with cryptocurrency featuring Kevin
+          Owocki (The Changelog #281)"
         link: https://changelog.com/podcast/281
       talks:
-      - slides: https://docs.google.com/presentation/d/13FfUMZ-_jd1bUNyVXG_Rwk51GLOp8rsFHRMCRpXebBE/edit?usp=sharing
-        speaker: fpsom
+      - slides: 
+          https://docs.google.com/presentation/d/13FfUMZ-_jd1bUNyVXG_Rwk51GLOp8rsFHRMCRpXebBE/edit?usp=sharing
+        speakers:
+        - fpsom
         title: Leadership in Academia
-      - slides: https://docs.google.com/presentation/d/1Cx6XAxZMt3jlU8O8DM8fCYemjmzgHUd6Sx8-MI3kIz0/edit?usp=sharing
-        speaker: bduckles
+      - slides: 
+          https://docs.google.com/presentation/d/1Cx6XAxZMt3jlU8O8DM8fCYemjmzgHUd6Sx8-MI3kIz0/edit?usp=sharing
+        speakers:
+        - bduckles
         title: 'Becoming a Post Academic '
-      - speaker: jasonjwilliamsny
+      - speakers:
+        - jasonjwilliamsny
         title: Leadership in training and education
       - slides: https://drive.google.com/open?id=18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU
-        speaker: yochannah
+        speakers:
+        - yochannah
         title: 'Personal Ecology and Self Care '
-      - slides: https://docs.google.com/presentation/d/1-eaxorHL76DGMjcpmTzVDqcO-4Wz-W4VBoOtJa2py3U/edit?usp=sharing
-        speaker: malvikasharan
+      - slides: 
+          https://docs.google.com/presentation/d/1-eaxorHL76DGMjcpmTzVDqcO-4Wz-W4VBoOtJa2py3U/edit?usp=sharing
+        speakers:
+        - malvikasharan
         title: Ally Skills
   '12':
     start: April 06, 2020
@@ -542,8 +608,10 @@ weeks:
       title: 'Open Agenda - Social Call'
       date: April 15, 2020
       time: "12:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N2drNnZvbHRhY2ZxYjZhOTBlcWNqc29vYjAgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://docs.google.com/document/d/1f2Y3SCB9OOuxdd5TDehOuynTXvWA6cc13lK5AovgEdI/edit?usp=sharing
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=N2drNnZvbHRhY2ZxYjZhOTBlcWNqc29vYjAgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      notes: 
+        https://docs.google.com/document/d/1f2Y3SCB9OOuxdd5TDehOuynTXvWA6cc13lK5AovgEdI/edit?usp=sharing
       content: |
         During this week's cohort call, we will:
         - take some time to get to know each other over informal networking opportunity and a pub quiz!
@@ -570,9 +638,11 @@ weeks:
       title: 'Group 1 - Final presentation rehearsal'
       date: April 22, 2020
       time: '17:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
       agenda: Test of the final demos for the group 1
-      notes: https://docs.google.com/document/d/1rM6Msvj2ReaUFkEy8CPKyXSAC3RY7xnamkttug0M6PM/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1rM6Msvj2ReaUFkEy8CPKyXSAC3RY7xnamkttug0M6PM/edit?usp=sharing
       content: |
         During this week's cohort call, we will:
         - Learn about giving and receiving feedback
@@ -593,7 +663,8 @@ weeks:
         link: https://carpentries.github.io/instructor-training/06-feedback/
       - type: external-link
         title: Giving Constructive Feedback
-        link: https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
+        link: 
+          https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
       - type: external-link
         title: Suggested Rubric for Teaching Demonstrations – Instructor Training
         link: https://carpentries.github.io/instructor-training/demos_rubric/
@@ -605,10 +676,12 @@ weeks:
       title: 'Group 1 - Final presentations & Graduation!'
       date: April 29, 2020
       time: '17:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MnRsY291Y3U3ZmxuMDMxYmg3bnBnNTRtcTYgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MnRsY291Y3U3ZmxuMDMxYmg3bnBnNTRtcTYgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       agenda: '5-minute demos of projects for group 1 (Audience: entire community
         & public, Open and recorded call)'
-      notes: https://docs.google.com/document/d/1zfn5hLldbti-K4L244_4A6wGc80FymKTeixN8cWXq2Q/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1zfn5hLldbti-K4L244_4A6wGc80FymKTeixN8cWXq2Q/edit?usp=sharing
       recording:
       content: |
         During this week's cohort call, we will:
@@ -643,9 +716,11 @@ weeks:
       title: 'Group 2 - Final presentation rehearsal'
       date: May 13, 2020
       time: '17:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=Xzg5MzNjY2E0ODkyazJiYTU4NHBqYWI5azcwbzQ2YjlwNzByajBiOW03MTJqOGMxbTZkMmo0Z2kxNm8gYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=Xzg5MzNjY2E0ODkyazJiYTU4NHBqYWI5azcwbzQ2YjlwNzByajBiOW03MTJqOGMxbTZkMmo0Z2kxNm8gYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
       agenda: Test of the final demos for the group 2
-      notes: https://docs.google.com/document/d/1PG3jXV1A9OjFR1EEZ0rNafbD-oJdp3R4rGL2VzPbAaA/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1PG3jXV1A9OjFR1EEZ0rNafbD-oJdp3R4rGL2VzPbAaA/edit?usp=sharing
       content: |
         During this week's cohort call, we will:
         - Learn about giving and receiving feedback
@@ -666,7 +741,8 @@ weeks:
         link: https://carpentries.github.io/instructor-training/06-feedback/
       - type: external-link
         title: Giving Constructive Feedback
-        link: https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
+        link: 
+          https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
       - type: external-link
         title: Suggested Rubric for Teaching Demonstrations – Instructor Training
         link: https://carpentries.github.io/instructor-training/demos_rubric/
@@ -678,10 +754,12 @@ weeks:
       title: 'Group 2 - Final presentations & Graduation!'
       date: May 20, 2020
       time: '17:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=XzY5MGpjYzI1OGNvazJiYTM2NHBqNGI5azZjcTNpYmExODRvNDZiYTI4NTEzMGc5bTc0cmthaDI2NnMgYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=XzY5MGpjYzI1OGNvazJiYTM2NHBqNGI5azZjcTNpYmExODRvNDZiYTI4NTEzMGc5bTc0cmthaDI2NnMgYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
       agenda: '5-minute demos of projects for group 2 (Audience: entire community
         & public, Open and recorded call)'
-      notes: https://docs.google.com/document/d/1idZpXvmqqRNYN1KfAbHKpeLToqIvlcm1SVc6ln-fRGA/edit?usp=sharing
+      notes: 
+        https://docs.google.com/document/d/1idZpXvmqqRNYN1KfAbHKpeLToqIvlcm1SVc6ln-fRGA/edit?usp=sharing
       recording:
       content: |
         During this week's cohort call, we will:

@@ -10,13 +10,15 @@ timeline:
   type:
   - Talk
   - Q&A
-  notes: https://docs.google.com/document/d/1bXfKuEOJebqIoM3tT2Qn5Y9_y1VLu4Mi8vimLHhSi78/edit?usp=sharing
+  notes: 
+    https://docs.google.com/document/d/1bXfKuEOJebqIoM3tT2Qn5Y9_y1VLu4Mi8vimLHhSi78/edit?usp=sharing
 - date: June 23, 2020
   description: Application webinar
   type:
   - Recording
   - Q&A
-  notes: https://docs.google.com/document/d/1bboIr0_tkji8qnMOsMvqz8zyHfboe7fJJV8eV0J_cSs/edit?usp=sharing
+  notes: 
+    https://docs.google.com/document/d/1bboIr0_tkji8qnMOsMvqz8zyHfboe7fJJV8eV0J_cSs/edit?usp=sharing
 - date: June 30, 2020
   description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
     for main cohort applications
@@ -109,9 +111,11 @@ weeks:
       - bebatut
       - yochannah
       - malvikasharan
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MXY5c2VocGhrY2hmbzFybGZobDQ1ZGV2c3UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-02
-      recording: https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
+      recording: 
+        https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
       agenda: Meet other members of your cohort, Share project vision, Intro to working
         openly (open canvas)
       content: |
@@ -137,18 +141,25 @@ weeks:
       resources:
       - type: document
         title: Open Canvas
-        link: https://docs.google.com/presentation/d/119EmheHg4mPySmbSamMZ-6V3cQKmVgTllbWhNOf7Sbo/edit?usp=sharing
+        link: 
+          https://docs.google.com/presentation/d/119EmheHg4mPySmbSamMZ-6V3cQKmVgTllbWhNOf7Sbo/edit?usp=sharing
       - type: document
         title: Compare & contrast - community interactions
-        link: https://docs.google.com/document/d/1sVuFTh_YMfLzxx8gkp7Oc3mHGjRP6bmQiipUfhxGNog/edit?usp=sharing
+        link: 
+          https://docs.google.com/document/d/1sVuFTh_YMfLzxx8gkp7Oc3mHGjRP6bmQiipUfhxGNog/edit?usp=sharing
       talks:
-      - slides: https://docs.google.com/presentation/d/1w_WWb7Mj7NgX4pLBejB4Vc_ofK7ZHOUYOT1MCeKVi20/present?token=AC4w5VjvHWSZBrOwwb1EcSm8v45lUi3nqQ%3A1599724146314&includes_info_params=1&eisi=CLPd6-uM3usCFdIWswUdsiINRA#slide=id.g6e457e6ac5_0_69
-        speaker: bebatut
+      - slides: 
+          https://docs.google.com/presentation/d/1w_WWb7Mj7NgX4pLBejB4Vc_ofK7ZHOUYOT1MCeKVi20/present?token=AC4w5VjvHWSZBrOwwb1EcSm8v45lUi3nqQ%3A1599724146314&includes_info_params=1&eisi=CLPd6-uM3usCFdIWswUdsiINRA#slide=id.g6e457e6ac5_0_69
+        speakers:
+        - bebatut
         title: Welcome to OLS!
-      - slides: https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
-        speaker: yochannah
+      - slides: 
+          https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
+        speakers:
+        - yochannah
         title: Introducing Open Canvas
-      - slides: https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
+      - slides: 
+          https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
         title: Road Mapping
   '03':
     start: September 14, 2020
@@ -183,7 +194,8 @@ weeks:
       title: 'Coworking on assignments, knowledge exchange and networking'
       date: September 17, 2020
       time: '15:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=NnY0ZGhkZ3M0OGEydWQ2OGRxc2VqNThuaW0gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/coworking#Week-3
       content: |
         During this week's coworking call, you will:
@@ -205,9 +217,11 @@ weeks:
       - yochannah
       - malvikasharan
       - emmyft
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmM3OTVlMGFpbTJjajJhdXExZ2JvOGNlaDQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=NmM3OTVlMGFpbTJjajJhdXExZ2JvOGNlaDQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/lkBuXlnRRyepHIS9GPMyVw?view
-      recording: https://www.youtube.com/watch?v=aX40ntw0uIg&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=2
+      recording: 
+        https://www.youtube.com/watch?v=aX40ntw0uIg&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=2
       agenda: 'Working with GitHub as a community hub: Markdown as a tool to make
         websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
       content: |
@@ -238,14 +252,20 @@ weeks:
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources: []
       talks:
-      - slides: https://docs.google.com/presentation/d/1qep_rtGuiD7MXOul1KJrgjNYjYw_4WOvdpUO1tTUj1w/edit?usp=sharing
-        speaker: christinerogers
+      - slides: 
+          https://docs.google.com/presentation/d/1qep_rtGuiD7MXOul1KJrgjNYjYw_4WOvdpUO1tTUj1w/edit?usp=sharing
+        speakers:
+        - christinerogers
         title: A Primer on Open Licenses
-      - slides: https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/edit?usp=sharing
-        speaker: mkuzak
+      - slides: 
+          https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/edit?usp=sharing
+        speakers:
+        - mkuzak
         title: READMEs for Open Projects
-      - slides: https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/edit?usp=sharing
-        speaker: lwinfree
+      - slides: 
+          https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/edit?usp=sharing
+        speakers:
+        - lwinfree
         title: Contributing Guidelines and Codes of Conduct for Open Projects
   '05':
     start: September 28, 2020
@@ -275,9 +295,11 @@ weeks:
       - malvikasharan
       - cassgvp
       - mloning
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=NnA4NzRzdWppbnN0NmU1YzBucTgwNGJsaTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-05
-      recording: https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
+      recording: 
+        https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
       content: |
         During this week's cohort call, we will give you an optional 1 hour GitHub tutorial covering:
         - Creating a repository
@@ -291,7 +313,8 @@ weeks:
       resources:
       - type: external-link
         title: GitHub for Collaboration (from Mozilla)
-        link: https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
+        link: 
+          https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/
       - type: external-link
         title: Understanding the GitHub workflow
         link: https://guides.github.com/introduction/flow/
@@ -327,7 +350,8 @@ weeks:
       duration: 90 min
       notes: https://hackmd.io/@ols-2/week-05
       title: GitHub tutorial for beginners
-      recording: https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
+      recording: 
+        https://www.youtube.com/watch?v=Wui21rKrCNk&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=3
       type: Skill-up
       talks: []
   '06':
@@ -338,7 +362,8 @@ weeks:
       title: 'Open Science I: Project Development'
       date: October 08, 2020
       time: "08:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-06
       recording: https://www.youtube.com/watch?v=fyz4gB4XPJk
       hosts:
@@ -372,21 +397,28 @@ weeks:
       resources:
       - type: document
         title: Project Development Plan
-        link: https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
+        link: 
+          https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
       talks:
-      - slides: https://docs.google.com/presentation/d/1CWnHXZHFDYFTqE2KKgZ8R5i_46XqAqnjy12gYSDESxk/edit?usp=sharing
-        speaker: unode
+      - slides: 
+          https://docs.google.com/presentation/d/1CWnHXZHFDYFTqE2KKgZ8R5i_46XqAqnjy12gYSDESxk/edit?usp=sharing
+        speakers:
+        - unode
         title: Agile and iterative project management methods
         recording: https://youtu.be/fyz4gB4XPJk?t=410
-      - slides: https://docs.google.com/presentation/d/1uZuqgoJp67uRB6t0LCZJ06V8YYyff9-iqrv6zfqtOhk
-        speaker: anenadic
+      - slides: 
+          https://docs.google.com/presentation/d/1uZuqgoJp67uRB6t0LCZJ06V8YYyff9-iqrv6zfqtOhk
+        speakers:
+        - anenadic
         title: Open Source Software
         recording: https://youtu.be/fyz4gB4XPJk?t=1266
       - slides: https://doi.org/10.6084/m9.figshare.13065308.v1
-        speaker: orchid00
+        speakers:
+        - orchid00
         title: Open Data
         recording: https://youtu.be/fyz4gB4XPJk?t=2304
-      - speaker: thessaly
+      - speakers:
+        - thessaly
         title: Open tools, for opening science
         recording: https://www.youtube.com/watch?v=BtUNjoTr5eg
   '07':
@@ -424,7 +456,8 @@ weeks:
       title: 'Open Science II: Knowledge Dissemination'
       date: October 22, 2020
       time: "16:30"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-08
       recording: https://youtu.be/0BkHqudkjWg
       hosts:
@@ -442,18 +475,23 @@ weeks:
       before: None
       resources: []
       talks:
-      - speaker: lauracion
+      - speakers:
+        - lauracion
         title: Open Education and Training - MetaDocencia Case Study
         recording: https://youtu.be/0BkHqudkjWg?t=929
       - slides: https://bit.ly/OLS-AfricArXiv
-        speaker: babasaraki
+        speakers:
+        - babasaraki
         title: Preprint in the Context of Open Science
         recording: https://youtu.be/0BkHqudkjWg?t=2064
-      - slides: https://docs.google.com/presentation/d/1_8Fp5DKh_XXwj34DwR-dzTvUCk1c0ynhy7MvmaHFFoA/edit?usp=sharing
-        speaker: ganleyemma
+      - slides: 
+          https://docs.google.com/presentation/d/1_8Fp5DKh_XXwj34DwR-dzTvUCk1c0ynhy7MvmaHFFoA/edit?usp=sharing
+        speakers:
+        - ganleyemma
         title: Open Protocols
         recording: https://youtu.be/0BkHqudkjWg?t=3557
-      - speaker: gedankenstuecke
+      - speakers:
+        - gedankenstuecke
         title: Citizen Science
         recording: https://youtu.be/HaQyv48sMPY?t=860
   '09':
@@ -474,7 +512,8 @@ weeks:
       title: "Skill-up: Personal Ecology and Ally Skills"
       date: October 29, 2020
       time: '15:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
       notes: https://hackmd.io/@ols-2/week-09
       recording: https://www.youtube.com/watch?v=8niC2UB25ys
       content: |
@@ -506,15 +545,19 @@ weeks:
       resources:
       - type: external-link
         title: Self-care Handout
-        link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20handout%20-%20Letter.pdf
+        link: 
+          https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20handout%20-%20Letter.pdf
       - type: external-link
         title: Identifying power and privileges
-        link: https://files.frameshiftconsulting.com/Identifying%20your%20power%20and%20privilege%20-%20Letter.pdf
+        link: 
+          https://files.frameshiftconsulting.com/Identifying%20your%20power%20and%20privilege%20-%20Letter.pdf
       - type: external-link
         title: Goal setting exercise
-        link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
+        link: 
+          https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
       talks:
-      - slides: https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
         title: Personal Ecology and Self Care
     - date: October 29, 2020
       time: "15:00"
@@ -524,7 +567,8 @@ weeks:
       recording: https://www.youtube.com/watch?v=8niC2UB25ys
       type: Skill-up
       talks:
-      - slides: https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
         title: Personal Ecology and Self Care
   '10':
     start: November 02, 2020
@@ -534,7 +578,8 @@ weeks:
       title: 'Open Science III: Next steps - applying FAIR research principles'
       date: November 05, 2020
       time: "09:00"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-10
       recording: https://www.youtube.com/watch?v=ylqDx_ELfus
       agenda: FAIRification of existing or mature projects, etc
@@ -561,21 +606,27 @@ weeks:
         link: https://f1000research.com/articles/6-876/v1
       - type: external-link
         title: Six Recommendations for Implementation of FAIR Practice
-        link: https://op.europa.eu/en/publication-detail/-/publication/4630fa57-1348-11eb-9a54-01aa75ed71a1/language-en
+        link: 
+          https://op.europa.eu/en/publication-detail/-/publication/4630fa57-1348-11eb-9a54-01aa75ed71a1/language-en
       - type: external-link
         title: RDA FAIR for Research Software (FAIR4RS) WG
         link: https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
       talks:
-      - slides: https://docs.google.com/presentation/d/1ER_ZQ_Fe_PFWBPrP87dU6jRaPT2dlB4hCu-wGXJwnBA/edit?usp=sharing
-        speaker: proccaserra
+      - slides: 
+          https://docs.google.com/presentation/d/1ER_ZQ_Fe_PFWBPrP87dU6jRaPT2dlB4hCu-wGXJwnBA/edit?usp=sharing
+        speakers:
+        - proccaserra
         title: 'FAIR Data: Insights and perspectives'
         recording: https://youtu.be/ylqDx_ELfus?t=268
       - slides: https://f1000research.com/slides/9-1294
-        speaker: burkemlou
+        speakers:
+        - burkemlou
         title: Making training materials FAIR in 10 steps
         recording: https://youtu.be/ylqDx_ELfus?t=1108
-      - slides: https://drive.google.com/file/d/1LtG_gVhszVl13yohYuxTipaKnxV77cqP/view?usp=sharing
-        speaker: fpsom
+      - slides: 
+          https://drive.google.com/file/d/1LtG_gVhszVl13yohYuxTipaKnxV77cqP/view?usp=sharing
+        speakers:
+        - fpsom
         title: FAIR Research Software
         recording: https://youtu.be/ylqDx_ELfus?t=2848
   '11':
@@ -592,7 +643,8 @@ weeks:
       title: 'Open Leadership: Academia, industry and beyond!'
       date: November 19, 2020
       time: "17:30"
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-12
       recording: https://www.youtube.com/watch?v=hS-6GE0X2UY
       hosts:
@@ -616,16 +668,23 @@ weeks:
         - do you want to switch your career or field? Why or why not?
       resources: []
       talks:
-      - slides: https://docs.google.com/presentation/d/1jeTk_PzsWpaR4DRmBrbrDGol2_drPEizp26o4d8jnnA/edit?usp=sharing
-        speaker: rainsworth
+      - slides: 
+          https://docs.google.com/presentation/d/1jeTk_PzsWpaR4DRmBrbrDGol2_drPEizp26o4d8jnnA/edit?usp=sharing
+        speakers:
+        - rainsworth
         title: Community building
-      - slides: https://docs.google.com/presentation/d/1RsvcKd_5uW-TtawLAOw6N95gOLO6MinN0I94dUIII8s/edit
-        speaker: natasha_wood
+      - slides: 
+          https://docs.google.com/presentation/d/1RsvcKd_5uW-TtawLAOw6N95gOLO6MinN0I94dUIII8s/edit
+        speakers:
+        - natasha_wood
         title: Navigating a career through academia and industry/start-up
-      - speaker: ajstewartlang
+      - speakers:
+        - ajstewartlang
         title: Academia
-      - slides: https://drive.google.com/file/d/1i1g9pxmkW8gr4f3S380NBJ6-k8GGVnrx/view?usp=sharing
-        speaker: ekin-bolukbasi
+      - slides: 
+          https://drive.google.com/file/d/1i1g9pxmkW8gr4f3S380NBJ6-k8GGVnrx/view?usp=sharing
+        speakers:
+        - ekin-bolukbasi
         title: Data Challenges Manager, Wellcome
   '13':
     start: November 23, 2020
@@ -638,7 +697,8 @@ weeks:
       title: Pub Quiz!
       date: November 26, 2020
       time: '14:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M2xtbjdpc2FqMjN0N3MzOTg5aWw3NGYyZnUgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=M2xtbjdpc2FqMjN0N3MzOTg5aWw3NGYyZnUgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
       notes: https://hackmd.io/@ols-2/week-13
       hosts:
       - yochannah
@@ -661,7 +721,8 @@ weeks:
       title: 'Designing & Empowering for inclusivity'
       date: December 3, 2020
       time: '09:00'
-      calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
+      calendar-event: 
+        https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
       notes: https://hackmd.io/@ols-2/week-14
       recording: https://www.youtube.com/watch?v=Tl8MOTVznXs
       hosts:
@@ -690,10 +751,12 @@ weeks:
       - slides: https://alexwlchan.net/2020/03/inclusion-cant-be-an-afterthought/
         speaker: alexwlchan
         title: Inclusion not an afterthought
-      - slides: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
+      - slides: 
+          https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
         speaker: trallard
         title: Community interactions and mountain of engagements
-      - slides: https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
+      - slides: 
+          https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
         speaker:
         title: Using Personas and Pathways to Build Community
     - date: December 03, 2020
@@ -705,13 +768,18 @@ weeks:
       type: Cohort
       talks:
       - slides: https://alexwlchan.net/2020/03/inclusion-cant-be-an-afterthought/
-        speaker: alexwlchan
+        speakers:
+        - alexwlchan
         title: Inclusion not an afterthought
-      - slides: https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
-        speaker: trallard
+      - slides: 
+          https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
+        speakers:
+        - trallard
         title: Community interactions and mountain of engagements
-      - slides: https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
-        speaker: benkrikler
+      - slides: 
+          https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
+        speakers:
+        - benkrikler
         title: Using Personas and Pathways to Build Community
   '15':
     start: December 07, 2020
