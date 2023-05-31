@@ -97,7 +97,9 @@ Here are a few more considerations to help plan this workshop at your organisati
 - Ally skills training needs to be opt-in registration - it’s fine to encourage people to come, but important that no one reluctant or ambivalent is asked to attend. This is to ensure that the session remains productive and on-target, as well as ensuring people can state their expectations from the workshop in the registration form. 
 - Please let the OLS team know if you expect more than 20 members.
 - For the session to be effective we recommend no more than three levels of hierarchy attending the workshop, for example, employees, managers, and their managers. Ideally, one level only is better. 
-- We recommend organisations hosting the OLS Ally Skills workshop create a registration page that requires interested members to state their personal motivation to attend this workshop. The OLS team will be happy to provide a dedicated Eventbrite page for handling registration.
+- We recommend organisations hosting the OLS Ally Skills workshop create a registration page that requires interested members to state their personal motivation to attend this workshop. 
+
+   The OLS team will be happy to provide a dedicated Eventbrite page for handling registration.
 - Participants should have access to internet bandwidth for video conferencing. We recommend that the event organisers check if their members may require any audiovisual equipment that can be arranged for them in advance.
 
 ### References:
