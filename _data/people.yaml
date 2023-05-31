@@ -925,6 +925,15 @@ ayeshadunk:
   last-name: Dunk
   orcid: 0000-0002-1033-208X
   pronouns: She/her
+aymd23:
+  affiliation: Medical Laboratory Science of Lead City University
+  bio: Ayomide is a Medical Laboratory Scientist working in the department of Medical Laboratory Science of Lead City University, Ibadan, Nigeria. He holds a Bachelor of Medical Laboratory Science Degree from Ladoke Akintola University of Technology, Ogbomoso, Nigeria. With 5 years of experience working as a Laboratory Scientist and 2 years exploring bioinformatics, he has developed an interest in using bioinformatics to study the genetic basis of non-communicable diseases. Notable bioinformatics training he has participated in include Introduction to bioinformatics and African Genomic Medicine Training Initiative organized by H3ABionet. He looks forward to being a bioinformatics trainer in the nearest future.
+  city: Ibadan
+  country: Nigeria
+  first-name: Ayomide
+  last-name: Akinlotan
+  pronouns: He/his
+  twitter: aymd23
 b14-rsa:
   affiliation: Independent Researcher
   bio: 'For fun: I am very into catch and release fly-fishing and fly tying as well
@@ -2243,11 +2252,13 @@ emma-lawrence:
   website: https://biobankinguk.org/
 emmanuel19-ada:
   affiliation: Helix Biogen Institute
-  bio: I love Science
+  bio: Emmanuel Adamolekun is a Research fellow with Helix Biogen Institute, Ogbomosho, Nigeria ,a research organization focused on accelerating research in life through in-depth technical skills, training and capacity building in Bioinformatics and Genomics. Emmanuel graduated with a Bachelor's degree in Medical Laboratory Science from the prestigious Ladoke Akintola University of Technology, Ogbomosho, Oyo State, Nigeria. He is currently a member of the Education and Internship committee of the International Society for Computational Biology-Student Council (ISCB-SB). He is a member of the International Society of Computational biology (ISCB) and African Society Bioinformatics and Computational Biology (ASBCB).
   city: Ogbomosho
   country: Nigeria
   expertise:
   - Bioinformatics
+  - Infectious diseases
+  - Community engagement
   first-name: Emmanuel
   last-name: Adamolekun
   orcid: 0000-0003-2992-5448
@@ -6283,6 +6294,13 @@ serahrono:
   last-name: Rono
   pronouns: she, her, hers
   twitter: serahrono
+seunolufemi123:
+  bio: Seun, is a student of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Nigeria, who is passionate about understanding the  molecular pathogenesis of diseases progression and the development of  therapeutic against it. Also, he is a Research and Teaching Assistant at Helix Biogen Institute, Ogbomoso where his major role includes conducting and co leading translational research, training interns, IT students and workshop participant in various areas of Bioinformatics, Research Writing and Molecular Biology. To his credit he had published over 3 articles in internationally highly indexed peer reviewed journals,With several others in-view. He had attended several  seminars, workshops and trainings on Bioinformatics,  Genomics and Research Writing. In 2021, he won a grant award for his poster presentation at the NAU international conference. However, he is a passionate advocate of Good health and wellbeing as a result he earned the millennium fellow class  of 21 and a 2022  YLP fellow. Overall, Seun seeks to promote health via translational research and advocacy.
+  city: Ogbomoso
+  country: Nigeria
+  first-name: Seun Elijah
+  last-name: Olufemi
+  twitter: seunolufemi9
 sgibson91:
   affiliation: The Alan Turing Institute
   bio: Sarah Gibson is a Research Software Engineer at the Alan Turing Institute where

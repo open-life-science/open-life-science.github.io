@@ -23,7 +23,8 @@ timeline:
   - Q&A
   notes:
   details: At this call, OLS team will be available to provide help if you have any
-    question related to your application. [Register to attend](https://www.eventbrite.co.uk/e/application-clinic-call-qa-tickets-506693121767)
+    question related to your application. [Register to 
+    attend](https://www.eventbrite.co.uk/e/application-clinic-call-qa-tickets-506693121767)
 - date: January 15, 2023
   description: Call for applications closed
 - date: February 1, 2023
@@ -73,9 +74,9 @@ weeks:
       time: "17:00"
       duration: 60 min
       notes: https://bit.ly/ols-7-week-01
-      content: "In this call, participants will:\n- Understand common successes and\
-        \ challenges in mentoring OLS participants\n- Know how to celebrate successes\
-        \ and approach challenges in mentoring OLS participants."
+      content: "In this call, participants will:\n- Understand common successes and
+        challenges in mentoring OLS participants\n- Know how to celebrate successes
+        and approach challenges in mentoring OLS participants."
       title: Mentor onboarding group 3
       hosts:
       - malvikasharan
@@ -213,11 +214,10 @@ weeks:
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-4
-      content: "In this call, participants will:\n- Look at project structure as we\
-        \ build open projects\n- Go over the standard files in open projects\n   -\
-        \ README\n   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n\
-        \   The exact project structure and files used may look different on your\
-        \ project.\n  "
+      content: "In this call, participants will:\n- Look at project structure as we
+        build open projects\n- Go over the standard files in open projects\n   - README\n\
+        \   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
+        project structure and files used may look different on your project.\n  "
       title: Tooling and roadmapping for Open projects
       type: Cohort
       before: |
@@ -320,7 +320,7 @@ weeks:
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-6
-      content: "In this call, participants will:\n- Hear about Iterative Project management\n\
+      content: "In this call, participants will:\n- Hear about Iterative Project management\n
         - Get familiar with Open Software, Open Hardware, Research Data Management"
       title: Open Science Garden I
       hosts:
@@ -329,8 +329,8 @@ weeks:
       before: '- Look up two other projects and comment on their issues with feedback
         on their README'
       after: "- [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)\n\
-        \  For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)\
-        \ and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).\n\
+        \  For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
+        and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).\n
         - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)\n\
         \  Assignment to help you use Agile methods to breakdown your milestones into\
         \ smaller tasks and define a timeline for your milestones\n  In your own time:\
@@ -387,9 +387,9 @@ weeks:
       time: "16:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-8
-      content: "In this call, participants will:\n- Learn how to develop Open collaboration\
-        \ by design\n- Hear Mountain of engagement and community interactions\n- Learn\
-        \ about Personas and pathways and welcoming new contributors"
+      content: "In this call, participants will:\n- Learn how to develop Open collaboration
+        by design\n- Hear Mountain of engagement and community interactions\n- Learn
+        about Personas and pathways and welcoming new contributors"
       title: Community design for inclusivity
       hosts:
       - malvikasharan
@@ -424,10 +424,10 @@ weeks:
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-9
-      content: "In this call, participants will:\n- Hear from the professionals from\
-        \ different career paths\n- Ask them questions about their careers\n- Share\
-        \ worries/insecurities related to your career path, profession or area of\
-        \ work \n- Tips and advice to overcome challenges as an open researcher"
+      content: "In this call, participants will:\n- Hear from the professionals from
+        different career paths\n- Ask them questions about their careers\n- Share
+        worries/insecurities related to your career path, profession or area of work
+        \n- Tips and advice to overcome challenges as an open researcher"
       title: 'Open Leadership: Academia, industry and beyond!'
       hosts:
       - pherterich
@@ -474,10 +474,10 @@ weeks:
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-10
-      content: "In this call, participants will:\n- Practicing open science\n- DOI\
-        \ and citations: Paper, data, preprints, blogs\n- Non-tradtional publication:\
-        \ pre-registrations, code, protocols, training materials\n- Public engagement:\
-        \ Citizen Science/Participatory research, Scientific communication"
+      content: "In this call, participants will:\n- Practicing open science\n- DOI
+        and citations: Paper, data, preprints, blogs\n- Non-tradtional publication:
+        pre-registrations, code, protocols, training materials\n- Public engagement:
+        Citizen Science/Participatory research, Scientific communication"
       title: Open Science Garden II
       hosts:
       - malvikasharan
@@ -514,7 +514,7 @@ weeks:
       notes: https://bit.ly/ols-7-week-11
       title: Open-source software
       hosts:
-      - yochannah
+      - pazbc
       type: Skill-up
       resources: []
       talks:
@@ -616,10 +616,7 @@ weeks:
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-14
-      content: "In this call, participants will:\n- Learn how to apply FAIR research\
-        \ principles on data, software, training to make research \"as open as possible,\
-        \ as restricted as necessary.\"\n      \n        "
-      title: Diversity and Inclusion & Ally skills
+      title: Ally skills
       hosts:
       - bebatut
       type: Cohort
@@ -648,13 +645,13 @@ weeks:
         - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 2
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       time: "13:00"
       duration: 60 min
       hosts: []
@@ -672,13 +669,13 @@ weeks:
       hosts:
       - bebatut
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       resources: []
       talks: []
     - date: June 08, 2023
@@ -692,13 +689,13 @@ weeks:
       title: Final presentation rehearsal - Group 3
       hosts: []
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       resources: []
       talks: []
   '16':
@@ -712,13 +709,13 @@ weeks:
         - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 2
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       time: "13:00"
       duration: 60 min
       hosts:
@@ -737,13 +734,13 @@ weeks:
       hosts:
       - yochannah
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       resources: []
       talks: []
     - date: June 15, 2023
@@ -758,12 +755,12 @@ weeks:
       hosts:
       - emmyft
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
       resources: []
       talks: []
