@@ -22,7 +22,7 @@ Rates start at $75USD / hour for video captioning.
 
 ## Ally Skills
 
-Multiple OLS community members are trained facilitators. We offer ad-hoc in-house workshops (starting at £2,000 GBP for universities) as well as anyone-may-register workshops. Visit Eventbrite to find the next dates available to you: [OLS Ally Skills Eventbrite](https://www.eventbrite.com/cc/ally-skills-1223279) or contact team@openlifesci.org for a bespoke quote. 
+Multiple OLS community members are trained Ally skill facilitators. We offer ad-hoc in-house workshops (starting at £2,000 GBP for universities) as well as anyone-may-register workshops. Visit [OLS Ally Skills Eventbrite](https://www.eventbrite.com/cc/ally-skills-1223279) to find the next dates available or contact [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) for a bespoke quote. 
 
 Ally Skills Materials:  
 
