@@ -105,7 +105,7 @@ Here are a few more considerations to help plan this workshop at your organisati
   We recommend that the event organisers check if their members may require any audiovisual equipment that can be arranged for them in advance.
 
 ### References:
-- Testimonial by OLS Ally Skills workshop participants: https://openworking.wordpress.com/2020/12/07/ally-skills-workshop/
+- [Testimonial by OLS Ally Skills workshop participants](https://openworking.wordpress.com/2020/12/07/ally-skills-workshop/)
 - [OLS post about a previous workshop]({% link _posts/2020-10-05-ally-skills-training.md %})
 - [Report by OLS describing why we discuss Ally Skills in science](https://www.software.ac.uk/blog/2021-07-05-why-we-discuss-ally-skills-open-science)
 - Workshop materials and format are based on the Ally Skills workshops designed by Frameshift Consulting.
