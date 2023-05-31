@@ -51,7 +51,7 @@ Diverse perspectives and collaboration drive better research and innovation. Mea
 
 ### Target audience/requirements
 
-The Ally Skills workshop is focused on teaching people with privilege how to support members of marginalised groups in their daily lives by taking small, simple, everyday actions—and then learning to make systemic changes to prevent oppression in the first place. We use ally skills instead of “allies” because it emphasises that actions are what make a difference, not self-identification as a supporter by itself.
+The Ally Skills workshop is focused on teaching people with privilege how to support members of marginalised groups in their daily lives by taking small, simple, everyday actions—and then learning to make systemic changes to prevent oppression in the first place. We use ally skills instead of "allies" because it emphasises that actions are what make a difference, not self-identification as a supporter by itself.
 
 **This workshop is designed for**
 - People who are voluntarily attending the workshop.
