@@ -68,7 +68,7 @@ Customisation of our workshops: Our training is designed for researchers and sci
 
 The workshop is delivered in English. Nonetheless, we are very interested and welcome the possibility to work with a sign language interpreter or translator, please discuss this further with the OLS team.
 
-### Format and Accessibility:
+#### Format and Accessibility
 
 - Duration of each workshop is 3 - 3.5 hours with breaks 
 - The workshop will be hosted online via Zoom. This will not be recorded or broadcasted
