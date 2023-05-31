@@ -401,7 +401,6 @@ code {
   margin-bottom: 20px;
 }
 
-
 // table responsiveness (mobile)
 @media screen and (max-width: 768px) and (min-width: 320px) {
   table {
@@ -419,4 +418,40 @@ code {
 
 .is-hidden {
   display: none;
+}
+
+
+.links {
+  .hero {
+    background-color: $dark-green;
+    max-height: 500px;
+    min-height: 250px;
+    height: 10vh;
+
+    .hero-body {
+      padding-top: 20px;
+
+      img {
+        max-width: 120px;
+        margin: 20px auto;
+        padding: 12px;
+        border-radius: 12px;
+        background-color: $white;
+      }
+    }
+  }
+
+  .section {
+    padding-top: 20px;
+
+    .button {
+      background-color: $dark-green;
+      color: $white;
+      text-shadow: 2px 2px 5px $black;
+      margin: 20px auto;
+      padding: 20px auto;
+      min-height: 50px;
+    }
+  }
+  
 }
