@@ -39,38 +39,22 @@ Have a question or need any support to join this cohort?
 We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}).
 
 # Cohorts
-{% assign cohorts_path = '_data/cohorts' %}
 
 {% for cohort_folder in site.data.cohorts %}
-    
-    {% assign cohort_folder_path = cohorts_path | append: '/' | append: cohort_folder %}
-    {% for subfolder in site.static_files %}
-    {% if subfolder.path contains cohort_folder_path %}
-        <!--Store path of matching subfolder-->
-        {% assign subfolder_path = subfolder.path %}
-        {% break %}
-    {% endif %}
+    {% assign cohort_id = forloop.index %}
+
+    {% assign cohort_metadata = site.data.cohorts[cohort_folder].metadata %}
+    {% assign cohort_projects = site.data.cohorts[cohort_folder].metadata %}
+    {% assign cohort_schedule = site.data.cohorts[cohort_folder].metadata %}
+
+<!-- Display the details for each cohort -->
+  Projects in {{ cohort_folder }}:
+  <ul>
+    {% for project in cohort_projects %}
+      <li>{{ project.title }}</li>
     {% endfor %}
-
-    {% assign metadata_path = subfolder_path | append: '/metadata.yaml' %}
-    {% assign projects_path = subfolder_path | append: '/projects.yaml' %}
-    {% assign schedule_path = subfolder_path | append: '/schedule.yaml' %}
-
-<!--Parse yaml files and store extracted data in extracted files-->
-    {% assign cohort_metadata = site.data | yaml_parse: metadata_path %}
-    {% assign cohort_projects = site.data | yaml_parse: projects_path %}
-    {% assign cohort_schedule = site.data | yaml_parse: schedule_path %}
-
-  <!-- Test: Access the extracted data -->
-  <p>{{ cohort_metadata }}</p>
-  <p>{{ cohort_metadata[0] }}</p>
+  </ul>
   
-  <!-- test -->
-  {% if cohort_folder == ols-1 %}
-    {% assign ols-1_metadata = cohort_metadata %}
-    {% assign ols-1_projects = cohort_projects %}
-    {% assign ols-1_schedule = cohort_schedule %}
-  {% endif %}
 {% endfor %}
 
 {% assign all-participants = '' %}
