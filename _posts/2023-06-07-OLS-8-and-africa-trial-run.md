@@ -24,7 +24,7 @@ Importantly, as part of this 8th version, we are also launching a **trial run** 
 up to four in-person mentorship sessions for a maximum of three selected participant projects from each country.  
 
 A maximum of **3 projects from Kenya** and **3 from South Africa** will be admitted into the trial run. If more projects from these 
-countries apply and get selected for Open Seeds, a second selection process for the trail run will take place. 
+countries apply and get selected for Open Seeds, a second selection process for the trial run will take place. 
 
 The goal, learning objectives, timelines, and schedules can be found on OLS's [website]({% link ols-8.md %}). 
 
