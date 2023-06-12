@@ -143,16 +143,19 @@ weeks:
         speakers:
         - malvikasharan
         title: Welcome to OLS!
+        tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vR8j2NXWFyWKldK2OoTseN1t5YhLgeCG2OWNIjER5PKfnfGSdYQSjo8LeUCoYFyc3nZedBaNxc-aneH/pub?start=false&loop=false&delayms=3000
         speakers:
         - yochannah
         title: Introducing Open Canvas
+        tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vRwCxOy-Xl240eB2j0xwuyA-1wPhQMiJV1nfQsbtsiGSUxPiuJZotZb91o23dtRS_RbYeyFHlq_z8XN/pub?start=false&loop=false&delayms=3000
         speakers:
         - emmyft
         title: Road Mapping
+        tag: Project Roadmapping
   '03':
     start: February 22, 2021
     calls:
@@ -254,6 +257,7 @@ weeks:
         speakers:
         - ha0ye
         title: A Primer on Open Licenses
+        tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing”
           with 
@@ -261,11 +265,13 @@ weeks:
         speakers:
         - c-martinez
         title: README
+        tag: README
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
         speakers:
         - malvikasharan
         title: Contributing Guidelines and Code of Conduct
+        tag: Code of Conduct
   '05':
     start: March 08, 2021
     calls:
@@ -395,23 +401,27 @@ weeks:
         - unode
         title: Agile and iterative project management methods
         recording: https://youtu.be/XkzCr3fiSCg?t=207
+        tag: Agile & Iteractive Project Management
       - slides: 
           https://docs.google.com/presentation/d/19fZRMPzK2OrynrOdVzkq703j2fz6knAiFjn2JEPfmIQ/edit?usp=sharing
         speakers:
         - hexylena
         title: Open Source in Research
         recording: https://youtu.be/XkzCr3fiSCg?t=1190
+        tag: Open Source Software
       - slides: https://doi.org/10.5281/zenodo.4609017
         speakers:
         - estherplomp
         title: Open Data
         recording: https://youtu.be/XkzCr3fiSCg?t=2182
+        tag: Open Data
       - slides: 
           https://docs.google.com/presentation/d/1p9y7hBmz-ky38JsosaSYi2LmB1fPD0IyIB_BnLAidmo/edit?usp=sharing
         speakers:
         - amchagas
         title: Open Source/Science Hardware
         recording: https://youtu.be/XkzCr3fiSCg?t=3593
+        tag: Open Hardware
   '07':
     start: March 22, 2021
     calls:
@@ -475,17 +485,20 @@ weeks:
         - iratxepuebla
         title: "Let's talk #preprint"
         recording: https://youtu.be/Vizk7fni5Eo?t=710
+        tag: Open Access Publication
       - slides: 
           https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
         speakers:
         - lenny-teytelman
         title: Open Protocols
         recording: https://youtu.be/Vizk7fni5Eo?t=2287
+        tag: Open Evaluation
       - slides: https://zenodo.org/record/4651431
         speakers:
         - georgiahca
         title: Participatory Citizen Science
         recording: https://youtu.be/Vizk7fni5Eo?t=3792
+        tag: Open Engagement of Social Actors
   '09':
     start: April 05, 2021
     calls:
@@ -568,6 +581,7 @@ weeks:
         speakers:
         - emmyft
         title: Personal Ecology and Self Care
+        tag: Personal Ecology
   '10':
     start: April 12, 2021
     calls:
@@ -620,17 +634,20 @@ weeks:
         - emma-anne-harris
         title: FAIR data
         recording: https://youtu.be/j-rPaiojNFk?t=206
+        tag: Open Data
       - slides: 
           https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
         speakers:
         - alexholinski
         title: FAIR training
         recording: https://youtu.be/j-rPaiojNFk?t=1380
+        tag: Open Educational Resources
       - slides: https://doi.org/10.6084/m9.figshare.14410751.v1
         speakers:
         - npch
         title: Good enough practices for FAIR software
         recording: https://youtu.be/j-rPaiojNFk?t=2915
+        tag: Open Source Software
   '11':
     start: April 19, 2021
     calls:
@@ -680,15 +697,19 @@ weeks:
       - speakers:
         - sdopoku
         title: Social entrepreneurship
+        tag: Open Leadership in Practice
       - speakers:
         - 
         title: Open Lab and Makers movement
+        tag: Open Leadership in Practice
       - speakers:
         - 
         title: Journal and public relations
+        tag: Open Leadership in Practice
       - speakers:
         - natalie-banner
         title: Talking about data in trustworthy ways
+        tag: Open Leadership in Practice
   '13':
     start: May 03, 2021
     calls:
@@ -774,26 +795,31 @@ weeks:
         - rowland-mosbergen
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
+        tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
         speakers:
         - anelda
         title: Personas & Pathways
+        tag: Personas & Pathways
       - slides: 
           https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
         speakers:
         - emmyft
         title: Mountain of Engagement
+        tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
         speakers:
         - bebatut
         title: Welcoming new contributions to your project
+        tag: Project Design for Collaboration
       - slides: 
           https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
         speakers:
         - yochannah
         title: Community interactions
+        tag: Community Interactions
   '15':
     start: May 17, 2021
     calls:

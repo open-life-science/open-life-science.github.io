@@ -459,8 +459,8 @@ def update_talks(talks, row, people):
         talks['title'] = row['Title']
     if not pd.isnull(row['Recording']):
         talks['recording'] = row['Recording']
-    if not pd.isnull(row['Topic']):
-        talks['tag'] = row['Topic']
+    if not pd.isnull(row['Tag']):
+        talks['tag'] = row['Tag']
     return talks
 
 
@@ -640,18 +640,19 @@ def combine_tags(talks_by_tag):
     # build library
     library = {}
     for tag, talks in talks_by_tag.items():
-        #print(tag)
-        # identify topic
-        #if tag == 'Not tagged':
-        #    topic = 'Not sorted'
         if tag in tag_topic_mapping.Tag.values:
-            topic = tag_topic_mapping[tag_topic_mapping.Tag == tag].Topic.tolist()[0]
+            tag_row = tag_topic_mapping[tag_topic_mapping.Tag == tag]
+            topic = tag_row.Topic.tolist()[0]
+            description = tag_row.Description.tolist()[0]
         else:
             print(f'No topic found for {tag}')
-        #    topic = 'Not sorted'
+            continue
         # add talks to library
         library.setdefault(topic, {})
-        library[topic][tag] = talks
+        library[topic][tag] = {
+            'description': description,
+            'talks': talks
+        } 
     # reorder library
     ordered_library = {}
     for t in tag_topic_mapping.Topic.unique():

@@ -121,7 +121,7 @@ weeks:
         speakers:
         - yochannah
         title: Introducing Road Mapping
-        tag: Road Mapping
+        tag: Project Roadmapping
     - date: September 29, 2022
       time: "17:00"
       duration: 180 min
@@ -178,7 +178,7 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
         title: Introducing Road Mapping
-        tag: Road Mapping
+        tag: Project Roadmapping
   '04':
     start: October 10, 2022
     calls:
@@ -187,8 +187,8 @@ weeks:
       duration: 90 min
       notes: https://bit.ly/ols-6-week-04
       content: "In this call, participants will:\n- Look at project structure as we
-        build open projects\n- Go over the standard files in open projects\n   - README\n
-          - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
+        build open projects\n- Go over the standard files in open projects\n   - README\n\
+        \   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
         project structure and files used may look different on your project.\n  "
       title: Tooling and roadmapping for Open projects
       type: Cohort
@@ -365,7 +365,7 @@ weeks:
         speakers:
         - jywarren
         title: Hardware and inclusive structures for collaborative work
-        tag: Structures for Collaborative Work
+        tag: Project Design for Collaboration
   '09':
     start: November 14, 2022
     calls:
@@ -399,19 +399,19 @@ weeks:
       - speakers:
         - olya-vvedenskaya
         title: Post-academia career path, Social entrepreneurship
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1a9OlvL9AY8EMbZm3JPg6dESfbqIdVudpA1IbnznzG2M/edit#slide=id.g7e28a7e96f_0_0
         speakers:
         - jafsia
         title: Academic leadership, group or project leaders
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1MzbVKP8zcKC-SRJlpXUwFOHxl1OxssZO_lq4sKghzLo/edit?usp=sharing
         speakers:
         - danielagduca
         title: Open secrets to finding your path
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       - {}
   '10':
     start: November 21, 2022
@@ -518,7 +518,7 @@ weeks:
         speakers:
         - pivg
         title: Diversity and Inclusion
-        tag: Diversity & Inclusion
+        tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         speakers:
@@ -526,7 +526,7 @@ weeks:
         - ismael-kg
         - 
         title: Ally skills
-        tag: Ally Skills
+        tag: Ally Skills for Open Leaders
   '13':
     start: December 12, 2022
     calls:

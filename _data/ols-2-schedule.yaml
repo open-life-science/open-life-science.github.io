@@ -153,14 +153,17 @@ weeks:
         speakers:
         - bebatut
         title: Welcome to OLS!
+        tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
         speakers:
         - yochannah
         title: Introducing Open Canvas
+        tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
         title: Road Mapping
+        tag: Project Roadmapping
   '03':
     start: September 14, 2020
     calls:
@@ -257,16 +260,19 @@ weeks:
         speakers:
         - christinerogers
         title: A Primer on Open Licenses
+        tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/edit?usp=sharing
         speakers:
         - mkuzak
         title: READMEs for Open Projects
+        tag: README
       - slides: 
           https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/edit?usp=sharing
         speakers:
         - lwinfree
         title: Contributing Guidelines and Codes of Conduct for Open Projects
+        tag: Code of Conduct
   '05':
     start: September 28, 2020
     calls:
@@ -406,21 +412,25 @@ weeks:
         - unode
         title: Agile and iterative project management methods
         recording: https://youtu.be/fyz4gB4XPJk?t=410
+        tag: Agile & Iteractive Project Management
       - slides: 
           https://docs.google.com/presentation/d/1uZuqgoJp67uRB6t0LCZJ06V8YYyff9-iqrv6zfqtOhk
         speakers:
         - anenadic
         title: Open Source Software
         recording: https://youtu.be/fyz4gB4XPJk?t=1266
+        tag: Open Source Software
       - slides: https://doi.org/10.6084/m9.figshare.13065308.v1
         speakers:
         - orchid00
         title: Open Data
         recording: https://youtu.be/fyz4gB4XPJk?t=2304
+        tag: Open Data
       - speakers:
         - thessaly
         title: Open tools, for opening science
         recording: https://www.youtube.com/watch?v=BtUNjoTr5eg
+        tag: Open Hardware
   '07':
     start: October 12, 2020
     calls:
@@ -479,21 +489,25 @@ weeks:
         - lauracion
         title: Open Education and Training - MetaDocencia Case Study
         recording: https://youtu.be/0BkHqudkjWg?t=929
+        tag: Open Educational Resources
       - slides: https://bit.ly/OLS-AfricArXiv
         speakers:
         - babasaraki
         title: Preprint in the Context of Open Science
         recording: https://youtu.be/0BkHqudkjWg?t=2064
+        tag: Open Access Publication
       - slides: 
           https://docs.google.com/presentation/d/1_8Fp5DKh_XXwj34DwR-dzTvUCk1c0ynhy7MvmaHFFoA/edit?usp=sharing
         speakers:
         - ganleyemma
         title: Open Protocols
         recording: https://youtu.be/0BkHqudkjWg?t=3557
+        tag: Open Evaluation
       - speakers:
         - gedankenstuecke
         title: Citizen Science
         recording: https://youtu.be/HaQyv48sMPY?t=860
+        tag: Openness to Diversity of Knowledge
   '09':
     start: October 26, 2020
     calls:
@@ -570,6 +584,7 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
         title: Personal Ecology and Self Care
+        tag: Personal Ecology
   '10':
     start: November 02, 2020
     calls:
@@ -673,19 +688,23 @@ weeks:
         speakers:
         - rainsworth
         title: Community building
+        tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1RsvcKd_5uW-TtawLAOw6N95gOLO6MinN0I94dUIII8s/edit
         speakers:
         - natasha_wood
         title: Navigating a career through academia and industry/start-up
+        tag: Open Leadership in Practice
       - speakers:
         - ajstewartlang
         title: Academia
+        tag: Open Leadership in Practice
       - slides: 
           https://drive.google.com/file/d/1i1g9pxmkW8gr4f3S380NBJ6-k8GGVnrx/view?usp=sharing
         speakers:
         - ekin-bolukbasi
         title: Data Challenges Manager, Wellcome
+        tag: Open Leadership in Practice
   '13':
     start: November 23, 2020
     calls:
@@ -771,16 +790,19 @@ weeks:
         speakers:
         - alexwlchan
         title: Inclusion not an afterthought
+        tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
         speakers:
         - trallard
         title: Community interactions and mountain of engagements
+        tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
         speakers:
         - benkrikler
         title: Using Personas and Pathways to Build Community
+        tag: Personas & Pathways
   '15':
     start: December 07, 2020
     calls:

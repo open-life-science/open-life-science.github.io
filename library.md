@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OLS Video Library
+title: Open Seeds Video Library
 image: https://images.unsplash.com/photo-1481137344492-d5a150a97f8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 photos:
   name: Chris Lawton
@@ -22,7 +22,7 @@ photos:
 {% endfor %}
 {% assign speaker_nb = speakers | remove_first: ',' | split: "," | uniq | sort | size %}
 
-This page shows you the full library of available OLS videos from talks in cohort calls: **{{ video_nb }} videos** by **{{ speaker_nb }} speakers**.
+This page shows you the full library of available videos from talks in Open Seeds cohort calls: **{{ video_nb }} videos** by **{{ speaker_nb }} speakers**.
 
 Below are all of the individual videos, but the videos are part of cohort calls that you can watch directly from the same links. You can use these for self-study, courses, and more! 
 
@@ -33,9 +33,9 @@ Below are all of the individual videos, but the videos are part of cohort calls 
         {% assign tag-name = tag[0] | slugify %}
         {% capture parent_id %}{{ topic-name }}-{{ tag-name }}-{{ index }}{% endcapture %}
 <h3 id="{{ tag-name }}">{{ tag[0] | replace: '-',' ' }}</h3>
-<!-- Add description -->
+<p>{{ tag[1].description }}</p>
 <div id="{{ parent_id }}">
-        {% for video in tag[1] %}
+        {% for video in tag[1].talks %}
             {% include _includes/video.html video=video parent_id=parent_id index=forloop.index %}
         {% endfor %}
 </div>

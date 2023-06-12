@@ -121,16 +121,19 @@ weeks:
         speakers:
         - malvikasharan
         title: Welcome to OLS!
+        tag: Open Science Introduction
       - slides: 
           https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
         speakers:
         - yochannah
         title: Introducing Open Canvas
+        tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
         speakers:
         - bebatut
         title: Road Mapping
+        tag: Project Roadmapping
   '03':
     start: February 03, 2020
     calls:
@@ -207,16 +210,19 @@ weeks:
         speakers:
         - joshsimmons
         title: A Primer on Open Licenses
+        tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing
         speakers:
         - mkuzak
         title: READMEs for Open Projects
+        tag: README
       - slides: 
           https://docs.google.com/presentation/d/1aLaDBwH64PCRtCLIftVkjBYT60ifWuIV7Im2t8BXN8Q/edit?usp=sharing
         speakers:
         - karinlag
         title: Contributing Guidelines and Codes of Conduct for Open Projects
+        tag: Code of Conduct
   '05':
     start: February 17, 2020
     calls:
@@ -335,24 +341,28 @@ weeks:
         - yochannah
         title: Agile and iterative project management methods
         recording: https://youtu.be/hiLDGLfXa2s?t=165
+        tag: Agile & Iteractive Project Management
       - slides: 
           https://docs.google.com/presentation/d/1JJWt0OtVWTMHbouXOF0w1QJsxwv-rUXiqHmkEx-A5B8/edit?usp=sharing
         speakers:
         - thessaly
         title: Open Science Hardware
         recording: https://youtu.be/hiLDGLfXa2s?t=1141
+        tag: Open Hardware
       - slides: 
           https://ajstewartlang.github.io/talks/OLS_talk/assets/player/KeynoteDHTMLPlayer.html
         speakers:
         - ajstewartlang
         title: Open Software in Research
         recording: https://youtu.be/hiLDGLfXa2s?t=2239
+        tag: Open Source Software
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vTm51ExlLfv1L_oI59D_9EZlBWf1UbSXmHVAIutII9Cs8AnGqLkH9meXGiwBajn-r_u297hdV7MdWCL/pub?start=false&loop=false&delayms=3000
         speakers:
         - lwinfree
         title: Open Data
         recording: https://youtu.be/hiLDGLfXa2s?t=3848
+        tag: Open Data
   '07':
     start: March 02, 2020
     calls:
@@ -428,24 +438,28 @@ weeks:
         - gedankenstuecke
         title: Citizen science using your own personal data
         recording: https://youtu.be/HaQyv48sMPY?t=891
+        tag: Open Engagement of Social Actors
       - slides: 
           https://docs.google.com/presentation/d/1T3Z51l8XIRtUQtSooZvUZzH60rFS-n73bDQwGwH639Y/edit?usp=sharing
         speakers:
         - kipkurui
         title: Open Education and Training
         recording: https://youtu.be/HaQyv48sMPY?t=1879
+        tag: Open Educational Resources
       - slides: 
           https://f1000-my.sharepoint.com/:p:/g/personal/demitra_ellina_f1000_online/Ed5_RBaVrrlGmZzicLlHESsBzCy2eW52SzoNTE3VBkzEDQ?e=tLWn2E
         speakers:
         - demellina
         title: Pre-print and open review
         recording: https://youtu.be/HaQyv48sMPY?t=2895
+        tag: Open Access Publication
       - slides: 
           https://docs.google.com/presentation/d/13d3BgND53cviFRnuQpmWk5UtMYtpSDqpUu9jq4ykNrM/edit?usp=sharing
         speakers:
         - anita-broellochs
         title: Open Protocols
         recording: https://youtu.be/HaQyv48sMPY?t=3708
+        tag: Open Evaluation
   '09':
     start: March 16, 2020
     calls:
@@ -521,15 +535,18 @@ weeks:
         speakers:
         - alexwlchan
         title: Inclusion can't be an afterthought
+        tag: Equity, Diversity and Inclusion (EDI)
       - slides: https://drive.google.com/open?id=1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y
         speakers:
         - malvikasharan
         title: Mountain of Engagement & Community Interactions
+        tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1-rdQipVmJ5lWelQ1oEbi86EbFwTpDh5TLeJ2TAg-oo4/edit?usp=sharing
         speakers:
         - kirstiejane
         title: Using Personas and Pathways to Build Community
+        tag: Personas & Pathways
   '11':
     start: March 30, 2020
     calls:
@@ -577,23 +594,28 @@ weeks:
         speakers:
         - fpsom
         title: Leadership in Academia
+        tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1Cx6XAxZMt3jlU8O8DM8fCYemjmzgHUd6Sx8-MI3kIz0/edit?usp=sharing
         speakers:
         - bduckles
         title: 'Becoming a Post Academic '
+        tag: Open Leadership in Practice
       - speakers:
         - jasonjwilliamsny
         title: Leadership in training and education
+        tag: Open Leadership in Practice
       - slides: https://drive.google.com/open?id=18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU
         speakers:
         - yochannah
         title: 'Personal Ecology and Self Care '
+        tag: Personal Ecology
       - slides: 
           https://docs.google.com/presentation/d/1-eaxorHL76DGMjcpmTzVDqcO-4Wz-W4VBoOtJa2py3U/edit?usp=sharing
         speakers:
         - malvikasharan
         title: Ally Skills
+        tag: Ally Skills for Open Leaders
   '12':
     start: April 06, 2020
     calls:

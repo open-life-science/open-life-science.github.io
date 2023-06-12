@@ -136,7 +136,7 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         title: Introducing Road Mapping
-        tag: Road Mapping
+        tag: Project Roadmapping
   '03':
     start: March 14, 2022
     calls:
@@ -189,7 +189,7 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         title: Introducing Road Mapping
-        tag: Road Mapping
+        tag: Project Roadmapping
   '04':
     start: March 21, 2022
     calls:
@@ -198,8 +198,8 @@ weeks:
       duration: 90 min
       notes: https://bit.ly/ols-5-week-04
       content: "In this call, participants will:\n- Look at project structure as we
-        build open projects\n- Go over the standard files in open projects\n   - README\n
-          - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
+        build open projects\n- Go over the standard files in open projects\n   - README\n\
+        \   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
         project structure and files used may look different on your project.\n  "
       title: Tooling and roadmapping for Open projects
       recording: https://youtu.be/d0A2TaLyhlY
@@ -227,7 +227,7 @@ weeks:
       resources: []
       talks:
       - title: Project Structure
-        tag: Project Structure
+        tag: Setting up a project
       - slides: 
           https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
         speakers:
@@ -414,19 +414,19 @@ weeks:
       - speakers:
         - msundukova
         title: Post-academia career path, Social entrepreneurship
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       - speakers:
         - jasonjwilliamsny
         title: Academic leadership, group or project leaders
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       - speakers:
         - melissawm
         title: Community building, Science Communication
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       - speakers:
         - honoluluskye
         title: Policymakers, funders, meta-researchers
-        tag: Open Leadership
+        tag: Open Leadership in Practice
   '10':
     start: May 02, 2022
     calls:
@@ -517,11 +517,11 @@ weeks:
         - rowland-mosbergen
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
-        tag: Diversity & Inclusion
+        tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         title: Ally skills - Optional
-        tag: Ally Skills
+        tag: Ally Skills for Open Leaders
   '13':
     start: May 23, 2022
     calls:

@@ -147,7 +147,7 @@ weeks:
         - bebatut
         title: Introducing Road Mapping
         recording: https://youtu.be/05w7h9T3GhQ?t=3144
-        tag: Road Mapping
+        tag: Project Roadmapping
     - date: March 08, 2023
       time: "14:00"
       duration: 90 min
@@ -204,14 +204,14 @@ weeks:
         - malvikasharan
         title: Introducing Open Canvas
         recording: https://youtu.be/XulHUHQru2I
-        tag: Open Canvas
+        tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         speakers:
         - pazbc
         title: Introducing Road Mapping
         recording: https://youtu.be/XulHUHQru2I?t=2885
-        tag: Road Mapping
+        tag: Project Roadmapping
     - date: March 15, 2023
       time: "14:00"
       duration: 90 min
@@ -227,8 +227,8 @@ weeks:
       duration: 90 min
       notes: https://bit.ly/ols-7-week-4
       content: "In this call, participants will:\n- Look at project structure as we
-        build open projects\n- Go over the standard files in open projects\n   - README\n
-          - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
+        build open projects\n- Go over the standard files in open projects\n   - README\n\
+        \   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
         project structure and files used may look different on your project.\n  "
       title: Tooling and roadmapping for Open projects
       type: Cohort
@@ -252,7 +252,7 @@ weeks:
       recording: https://www.youtube.com/watch?v=DG3La_p22N0
       talks:
       - title: Project Structure
-        tag: Project Structure
+        tag: Setting up a project
       - slides: 
           https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
         speakers:
@@ -347,11 +347,11 @@ weeks:
       type: Cohort
       before: '- Look up two other projects and comment on their issues with feedback
         on their README'
-      after: "- [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)\n
-         For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
+      after: "- [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)\n\
+        \  For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
         and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).\n
-        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)\n
-         Assignment to help you use Agile methods to breakdown your milestones into
+        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)\n\
+        \  Assignment to help you use Agile methods to breakdown your milestones into
         smaller tasks and define a timeline for your milestones\n  In your own time:
         After this assignment, you can transfer your tasks to a project management
         or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)),
@@ -366,7 +366,7 @@ weeks:
         speakers:
         - yochannah
         title: Open Science
-        tag: Open Science
+        tag: Open Science Introduction
       - slides: 
           https://drive.google.com/file/d/1BQ641IWIKjgC33ltqdAkEaxUkGljh3eL/view?usp=share_link
         speakers:
@@ -480,17 +480,17 @@ weeks:
       - speakers:
         - 
         title: Social enterprise
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1DvXK_F28DRRTQWjTSx1JpBzcH-YP6EIL0_JszOvmn9U/edit?usp=sharing
         speakers:
         - 
         title: Open Science and its impact on global science and community
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       - speakers:
         - 
         title: Policymakers, funders, meta-researchers
-        tag: Open Leadership
+        tag: Open Leadership in Practice
       recording: https://youtu.be/8xfQrbnm_Io
     - date: April 26, 2023
       time: "13:00"

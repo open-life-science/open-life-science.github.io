@@ -104,16 +104,19 @@ weeks:
         speakers:
         - yochannah
         title: Welcome to OLS!
+        tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
         speakers:
         - bebatut
         title: Introducing Open Canvas
+        tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         speakers:
         - emmyft
         title: Introducing Road Mapping
+        tag: Project Roadmapping
     - date: September 22, 2021
       time: "18:00"
       duration: 180 min
@@ -192,8 +195,8 @@ weeks:
       duration: 90 min
       notes: https://bit.ly/ols-4-week-04
       content: "In this call, participants will:\n- Look at project structure as we
-        build open projects\n- Go over the standard files in open projects\n   - README\n
-          - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
+        build open projects\n- Go over the standard files in open projects\n   - README\n\
+        \   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
         project structure and files used may look different on your project.\n  "
       title: Tooling and roadmapping for Open projects
       type: Cohort
