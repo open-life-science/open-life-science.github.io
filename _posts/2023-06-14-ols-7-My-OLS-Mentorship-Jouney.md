@@ -3,9 +3,8 @@ layout: post
 title: My OLS Mentorship Journey 
 authors: Richard Dushime Mudahera 
 ---
-![Logo](https://drive.google.com/uc?id=1-TCowLHojFowpz8gQXXRxkkAn7hUDjNG) 
 > "***✨Joining OLS mentorship is not just about learning and growing; it's about being part of a supportive community that empowers you to reach your full potential.✨***"
->By *Richard Dushime*
+>  *Richard Dushime*
 
 
 # Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings
