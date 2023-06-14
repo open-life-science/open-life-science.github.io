@@ -4,6 +4,8 @@ title: My OLS Mentorship Journey
 authors: Richard Dushime Mudahera 
 ---
 ![Logo](https://drive.google.com/uc?id=1-TCowLHojFowpz8gQXXRxkkAn7hUDjNG) 
+
+
 # **Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings** 
 ![Richard](https://drive.google.com/uc?id=103Sq7VKmF_0hbVLNaG1peviF6mOlevdU)
 
