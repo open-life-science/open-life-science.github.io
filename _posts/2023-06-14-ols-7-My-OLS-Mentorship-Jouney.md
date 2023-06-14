@@ -73,7 +73,7 @@ I extend my sincere gratitude to the OLS organizers, particularly Yo Yehudi, PAZ
 ### ✨ Special_Thanks🌱 🌱 For Your Time ✨ 
 <img src="https://drive.google.com/uc?id=1FlxDoDya2lR1GLbBApPE6x4hm5NB0w19"
      alt="sample image"
-     style="display: block; margin-right: auto; margin-left: auto; width: 20%;" />
+     style=" width: 20%;" />
   
 <h3 align="left">👯 Connect With Me on 👯</h3>
 
