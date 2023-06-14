@@ -4,12 +4,12 @@ title: My OLS Mentorship Journey
 authors: Richard Dushime Mudahera 
 ---
 ![Logo](https://drive.google.com/uc?id=1-TCowLHojFowpz8gQXXRxkkAn7hUDjNG) 
-
-
-# **Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings** 
-![Richard](https://drive.google.com/uc?id=103Sq7VKmF_0hbVLNaG1peviF6mOlevdU)
-
 > "***✨Joining OLS mentorship is not just about learning and growing; it's about being part of a supportive community that empowers you to reach your full potential.✨***"
+>By *Richard Dushime*
+
+
+# Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings
+![Richard](https://drive.google.com/uc?id=103Sq7VKmF_0hbVLNaG1peviF6mOlevdU)
 
 Hello 👋, I'm **Richard Dushime**, and I'm thrilled to take you on a transformative journey through my mentorship experience with Open Seeds (OLS) Cohort 7. In this blog, I will share the remarkable story of my journey, focusing on the project I worked on to implement facial recognition and biometric attendance monitoring in educational and corporate settings. Join me as we uncover the challenges faced, the elements of success encountered, and the profound impact this journey has had on both my personal growth and the domains I am passionate about. Together, let's delve into the power of open science, foster collaboration, and make a lasting impact.
 
