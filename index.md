@@ -24,19 +24,19 @@ Participants join this program with a **project** that they either are already w
 
 # Applications
 
-<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_7){:.button .is-link .is-fullwidth}
+[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_8){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before January 13, 2023 to allow activation of your Open Review profile as described in the [OLS-7 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
+*Please register on Open Review before July 3, 2023 to allow activation of your Open Review profile as described in the [OLS-8 application guidelines and templates](https://github.com/open-life-science/application-forms).*
 
-OLS-7 runs from February to June 2023. Applications for OLS-8 will open at mid 2023. [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates on the next cohort application.
+OLS-8 runs from September 2023 to January 2024. We are not sure if we will run OLS-9 in the same format - see our [blog post]({% link _posts/2023-05-05-NASA-grant-announcement.md %}). [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates. 
 
 ## Timeline
 
-{% assign schedule = site.data.cohorts.ols-7.schedule %}
+{% assign schedule = site.data.ols-8-schedule %}
 {% include _includes/timeline.md %}
 
 Have a question or need any support to join this cohort?
-We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), chat in real-time on [Gitter](https://gitter.im/{{ site.gitter }}) or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}).
+We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}).
 
 # Cohorts
 {% assign all_participants = '' %}
