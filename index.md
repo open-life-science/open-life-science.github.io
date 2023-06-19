@@ -94,7 +94,7 @@ the second iteration as the data contained in the cohort's files-->
   {% assign cohortProjects = projectName | remove_first: ', ' | split: ", " | uniq | sort | size %}
   {% capture all_projects %}{{ all_projects }}, {{ projectName }}{% endcapture %}
 
-  <!--Extract the schedule for each cohort-->
+  <!--Extract the schedule (start and end dates) for each cohort-->
   {% assign cohortSchedule = site.data.cohorts[cohortName].schedule %}
   {% assign cohortStart = cohortSchedule.weeks['01'].start %}
   {% assign cohortEnd = '' %}
