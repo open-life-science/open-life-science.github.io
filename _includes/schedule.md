@@ -111,8 +111,8 @@
             "email": "{{ site.email }}",
             "url": "{{ site.url }}"
         }]
-    }
-            {%- assign sep="," -%}
+    }      
+    {%- unless forloop.last -%} {%- assign sep="," -%} {%- endunless -%}
         {%- endif -%}
     {%- endfor -%}
 {%- endfor -%}
