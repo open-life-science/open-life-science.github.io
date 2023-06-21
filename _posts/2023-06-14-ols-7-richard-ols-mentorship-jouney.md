@@ -11,7 +11,7 @@ authors: richarddushime
 <div class="columns">
   <div class="column is-one-fifth" markdown="1">
 
-![](/images/2023-06-14-richard-ols-mentorship-journey/Biometric1.png)
+![Logo](/images/2023-06-14-richard-ols-mentorship-journey/Biometric1.png)
 
   </div>
   <div class="column" markdown="1">
@@ -25,19 +25,19 @@ Hello 👋, I'm **Richard Dushime**, and I'm thrilled to take you on a transform
 
 ## Project Background
 
-![](/images/2023-06-14-richard-ols-mentorship-journey/home.png){: width="90%" }
+![Project Home View](/images/2023-06-14-richard-ols-mentorship-journey/home.png){: width="90%" }
      
 The project aims to leverage the power of facial recognition technology and biometric attendance monitoring to enhance efficiency and accuracy in educational and corporate environments. By utilizing these advanced technologies, the project seeks to streamline attendance tracking processes, eliminate manual errors, and provide a seamless experience for both students and employees. The motivation behind this project stems from the increasing need for accurate and reliable attendance management systems. Traditional methods, such as manual sign-in sheets or swipe cards, are prone to errors, buddy punching, and time-consuming administrative tasks. To address these challenges, the project sets out to develop a secure solution that ensures reliable attendance tracking while reducing administrative burden.
 
 ## Program Expectations
 
-![](/images/2023-06-14-richard-ols-mentorship-journey/Graduation.png)
+![Graduation Group Picture](/images/2023-06-14-richard-ols-mentorship-journey/Graduation.png)
 
 This program surpassed my expectations, offering valuable lessons in diversity, inclusivity, openness, and the ethical considerations of working with advanced technologies. Connecting and sharing with like-minded individuals in the community expanded my knowledge and perspective. It was a transformative learning journey.
 
 ## Goals
 
-![](/images/2023-06-14-richard-ols-mentorship-journey/3362.jpg){: width="50%" }
+![Goals](/images/2023-06-14-richard-ols-mentorship-journey/3362.jpg){: width="50%" }
      
 In participating in the OLS program, my primary goal was to gain knowledge and skills in implementing facial recognition and biometric attendance monitoring in educational and corporate settings. I aimed to deepen my understanding of open science principles and promote their adoption within communities. Specifically, my project focused on developing a secure solution to streamline attendance tracking, eliminate errors, and enhance efficiency. Ethical considerations and data privacy were also key priorities throughout the project.
 
@@ -84,7 +84,7 @@ I extend my sincere gratitude to the OLS organizers, particularly Yo Yehudi, PAZ
 <div class="columns">
   <div class="column is-2" markdown="1">
 
-![](/images/2023-06-14-richard-ols-mentorship-journey/richard.png)
+![My Profile](/images/2023-06-14-richard-ols-mentorship-journey/richard.png)
 
   </div>
   <div class="column" markdown="1">
