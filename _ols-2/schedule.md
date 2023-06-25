@@ -8,6 +8,6 @@ photos:
   url: https://unsplash.com/photos/FoKO4DpXamQ
 ---
 
-{% assign schedule = site.data.ols-2-schedule %}
 {% assign cohort = 'ols-2' %}
+{% assign schedule = site.data.cohorts.[cohort].schedule %}
 {% include _includes/schedule.md %}
