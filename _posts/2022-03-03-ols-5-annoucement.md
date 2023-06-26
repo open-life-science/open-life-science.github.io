@@ -15,74 +15,7 @@ photos:
 
 *We are excited to kick-off the fifth round of Open Life Science with another incredible cohort of mentors, mentees, and experts. We are honored to bring together members of diverse identities and backgrounds who represent expertise from different domains of research, who are working to address a wide range of relevant questions in their field and are motivated to bring a culture change in their areas. Many of them are long-standing Open Scientists who aim to use this opportunity to apply open science and community-based principles in their projects through this program.*
 
-{% assign people = site.data.people %}
-{% assign projects = site.data.ols-5-projects %}
-{% assign experts = site.data.ols-5-metadata.experts %}
-{% assign cohort = 'ols-5' %}
-
-<!-- extract previous participants and mentors and count them later among mentors -->
-{% assign prev-projects = site.data.ols-4-projects %}
-{% assign prev-participants = '' %}
-{% assign prev-mentors = '' %}
-{% for project in prev-projects %}
-    {% for p in project.participants %}
-        {% capture prev-participants %}{{ prev-participants }}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture prev-mentors %}{{ prev-mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-
-{% assign all-participants = '' %}
-{% assign all-p-countries = '' %}
-{% assign all-mentors = '' %}
-{% assign all-m-countries = '' %}
-{% assign all-keywords = '' %}
-{% assign prev-part-count = 0 %}
-{% assign prev-mentor-count = 0 %}
-
-{% for project in projects %}
-
-<!-- parse participants of the project -->
-    {% for p in project.participants %}
-<!-- for name and link to them -->
-        {% capture all-participants %}{{ all-participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
-<!-- for list of countries -->
-        {% if people[p].country %}
-            {% capture all-p-countries %}{{ all-p-countries }}, {{ people[p].country }}{% endcapture %}
-        {% endif %}
-    {% endfor %}
-
-<!-- parse mentors of the project -->
-    {% for m in project.mentors %}
-<!-- for name and link to them -->
-        {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
-<!-- for list of countries -->
-        {% if people[m].country %}
-            {% capture all-m-countries %}{{ all-m-countries }}, {{ people[m].country }}{% endcapture %}
-        {% endif %}
-<!-- add +1 if participant in previous cohort -->
-        {% if prev-participants contains m %}
-            {% assign prev-part-count = prev-part-count | plus: 1 %}
-        {% endif %}
-<!-- add +1 if mentor in previous cohort -->
-        {% if prev-mentors contains m %}
-            {% assign prev-mentor-count = prev-mentor-count | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-
-<!-- parse keywords -->
-    {% for k in project.keywords %}
-        {% capture all-keywords %}{{ all-keywords }}, {{ k }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-
-<!-- transform into lists -->
-{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-countries = all-p-countries | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign m-countries = all-m-countries | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign keywords = all-keywords | remove_first: ', ' | split: ", " | uniq | sort %}
+{% include _includes/announcement-blog.html cohort='ols-5' %}
 
 We are thrilled to announce that [{{ p-participants | size }} members](/{{ cohort }}/projects-participants/#participants), who are the project leads of [{{ projects | size }} diverse projects](/{{ cohort }}/projects-participants/#projects), have joined the fourth cohort of the Open Life Science mentoring program - OLS-5!
 
