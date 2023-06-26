@@ -1,5 +1,779 @@
-# List of projects for OLS-3
+# List of projects for OLS-7
 #
 # Check previous OLS for examples
 ---
-[]
+- name: Collective and Open Research in Climate Science
+  description: The idea is to facilitate the creation of an environment (a working group or a community, eventually)
+    where researchers, students, citizen scientists can collaborate on projects, research projects, articles or just share
+    their work based on open science principles.
+    There are examples of open research environments in the scientific community, in particular in the machine learning field.
+    Examples are [mlcollective](https://mlcollective.org/), [Machine Learning Tokyo](https://machinelearningtokyo.com/) and
+    [Neuromatch Academy](https://academy.neuromatch.io/).
+    Those communities run by volunteers created a friendly environment and study groups for machine learning practitioners and also
+    curricula to introduce students to data science.
+    In e.g., the [mlcollective](https://mlcollective.org/projects/) effort led to the publication of many projects.
+    Eventually, these examples could be used to create or simply design (white paper/report) a similar project in other research areas.
+  participants:
+  - varlottaang
+  mentors:
+  - saravilla
+  keywords:
+  - Planetary Sciences
+  - Biology
+  - Chemistry
+  - Global Changes
+- name: Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings
+  description: This project aims to design and implement a system for tracking attendance
+    using facial recognition or biometric technology in educational and corporate
+    settings. The project will begin by reviewing current attendance tracking systems
+    and analyzing various facial recognition and biometric technologies. Based on
+    this analysis, a suitable technology will be chosen and a prototype system will
+    be developed. The project will also consider the ethical and privacy implications
+    of using such technology and develop strategies to mitigate any potential risks.
+    The end result will be a functional system for tracking attendance and a report
+    detailing the technical, ethical, and privacy considerations involved. This system
+    will provide a reliable and efficient solution for tracking attendance in educational
+    and corporate settings while addressing ethical and privacy concerns.
+  participants:
+  - richarddushime
+  mentors:
+  - yochannah
+  keywords:
+  - Attendance Tracking
+  - Facial Recognition
+  - Biometric Technology
+  - Educational Settings
+  - Corporate Settings
+  - Data Management
+  - Data Privacy
+  - Ethics
+  - Machine Learning
+  - Artificial Intelligence
+  - Python
+  - Django
+  - Web Development
+  - Cloud Computing
+  - Data Visualization
+  - Project Management
+- name: 'From invisible to Citizens: Apparent Age for Primary School children without birth certificates'
+  description: Ages fraud scandals have tarnished African sport at the international
+    level. In 2009, FIFA adopted MRI as an age determination tool for its youth level
+    competitions but recent studies show that bone age assessment has a very large
+    margin of error and cannot be a standard for determining apparent age when we
+    know that environmental factors greatly influence the development of the child.
+    There are populations in which the disappearance of growth cartilage is 4 to 5
+    years earlier than in another. The ugly face of the problem is that many children
+    are born out of the healthcare system.  In Cameroon, approximately 1.7 million
+    children, or 66 %, do not have a birth certificate. These children are said to
+    be "invisible" In other words, they live without being recognised by the country
+    whose citizenship they claim.  According to a study carried out by Unicef, 40,000
+    children, in the Far North region alone, will find it difficult to present their
+    end of year First School Leaving Certificate (FSLC) for lack of a birth certificate.
+    To establish these birth certificates, it will be necessary to make an estimate
+    of their apparent age in a complex process which discourages parents. It is evident
+    that the determination of apparent age should not only be seen from a clinical
+    standpoint. Instead, socio-cultural and environment factors must also be taken
+    into account. To remedy this situation which has reached the alert level, it is
+    urgent to propose a simplified and open system for determining Apparent Age to
+    turn invisible kids to visible ones based on available Data and Machine Learning
+    techniques.
+  participants:
+  - jafsia
+  - fadanka
+  - nathanael-kedmayla
+  - yanick-diapa-nana
+  - hylary-emmanuela-ndegala-nhana
+  - babari-a-babari-michelle-freddia
+  mentors:
+  - jcolomb
+  keywords:
+  - Apparent Age
+  - Children
+  - Process
+  - Determinants
+  - Machine Learning
+  - Birth Certificate
+- name: Development of an online open science platform, easy and accessible for agricultural students in Cameroon.
+  description: 'The main aim of the project is to contribute to the quality and adaptable
+    research work through the practice of open science in Cameroon. Specifically,
+    it will be to:  - Develop a platform that will connect researchers, students,
+    potential funders and research institutions; - Empower students with skills like
+    research methodology, proposal writing (in the context of Cameroon), and grant
+    writing and management; - Provide job placement opportunities for fresher'
+  participants:
+  - lessa-tchohou-fabrice
+  mentors:
+  - gladys-jerono-rotich
+  keywords:
+  - Open Science
+  - Agriculture
+  - Cameroon
+- name: 'Data analysis in soil physics: an opportunity of teaching data management and reproducibility'
+  description: The core idea of this project is to create an online repository that
+    hosts as well as examples, datasets and demos for soil science data management.
+    Stakeholders will include early soil scientists who are not familiar with programming,
+    task automatization and open science principles. Overall, we plan to develop online
+    materials that help students to understand how open science + use of scripts +
+    soil science can be merge and create a skillset that is essential in research.
+  participants:
+  - saryace
+  - carolina-giraldo-olmos
+  mentors:
+  - diegoonna
+  keywords:
+  - Soil Dataset
+  - Soil Data Reproducibility
+  - Soil Physics
+- name: An interactive map of socio-ecological projects
+  description: We seek to bring knowledge to the general public and provide tools
+    for change in order to generate a natural-human environment that is beneficial
+    to both parties. The dissemination of socio-environmental and biodiversity conservation
+    projects, actions and problems is a key point to achieve this objective. Today,
+    with so much information available, but at the same time dispersed in different
+    platforms, there is more than ever a need to concentrate and centralize it, so
+    that it is easily accessible. In this text the fundamental concepts that define
+    us will be explained and we will present the first version of a web tool, which
+    manages to provide information on different socio-environmental projects and detail
+    them in an Interactive Map idealy managed by contributing users.
+  participants:
+  - nahuele
+  mentors:
+  - yochannah
+  keywords:
+  - Socialecology
+  - Sovereignty
+  - Ecology
+  - Enviromental
+- name: Knowledge and perspectives of open science among researchers in Ghana, West Africa
+  description: 'Open Science in Africa: The Ghanaian narrative. UNESCO and its stakeholders
+    perceive the Open Science concept as an essential component to advancement of  human
+    development through increasing accessibility of the scientific process. To that
+    end, UNESCO has adopted the Open Science recommendations in 2021 to define shared
+    values and principles for OS, identify concrete measures towards OS and provide
+    an international framework for OS policy and practice. However, uptake and adoption
+    of open science in Africa and for that matter, Ghana, has been low, denying researchers
+    and the country in general benefits that the practices accrue. The goal of this
+    project is  to assess the knowledge base, understanding and perception of open
+    science in the Ghanaian research  space while considering the challenges faced
+    by researchers practising open science. Findings of this study will help establish
+    gaps in practising open science by researchers and advise areas of intervention.'
+  participants:
+  - bsolodzi
+  mentors:
+  - johanssen-obanda
+  keywords:
+  - Open Science
+  - Os
+  - Open Access
+  - Low Middle-Income Countries
+  - Ghana
+  - Unesco
+  - Open Science Knowledge
+  - Open Science Challenges
+- name: Open Science Awareness Project for Central Asian Universities
+  description: I would like to conduct a series of open science awareness training
+    on Zoom in frames of which I would like to analyze the developing context of Central
+    Asia and how open science responds OR does not respond to the regional science
+    development needs. I would like to share my findings with Central Asian colleagues.
+  participants:
+  - anafinovas
+  mentors:
+  - saranjeetkaur
+  keywords:
+  - Open Science
+  - Central Asia
+  - Developing Countries
+- name: Open Science platform for humanities and computational social scientists
+  description: Open Data (OD) plays a crucial role in openly sharing scientific knowledge
+    with a worldwide audience (among both academic and non-academic audiences) and
+    encouraging reproducibility. But OD is much less developed in Humanities and Social
+    Science (HSS) research, primarily because of the levels of sensitivity of the
+    data involved, and consent required from participants, which could be difficult
+    for researchers, especially if they are new to data sharing. With the growing
+    interest in computing, researchers working in Computational Social Science (CSS)
+    face similar issues when working with social data in their research, while conforming
+    to legal and ethical restrictions. As per OD guidelines, data must comply with
+    the FAIR principles. But the metrics offered by various OD repositories and publication
+    platforms could be different, which limits the affordances of social activity
+    and the type of OD published.   To embrace Open Science projects among HSS and
+    CSS researchers who are working or looking to work with sensitive data, this project
+    proposes a platform (or hub) to promote free, online resources for both professionals
+    and students looking to learn about science and ethics. Here, they can also contribute
+    to discussions related to the topic, post questions, and learn from others' experiences.
+  participants:
+  - booktrackergirl
+  mentors:
+  - rivaquiroga
+  - nyasita
+  keywords:
+  - Open Research
+  - Open Data
+  - Accessibility
+  - Reproducibility
+  - Humanities
+  - Social Science
+  - Computational Social Science
+- name: Open NeuroScience
+  description: Neuroscience is a vast field of research, ranging from single – cell
+    recordings in animals and primates to electrophysiological and behavioural research
+    in humans and work with patients suffering of brain diseases. This big and diverse
+    field has the unifying goal of studying the underlying structure and function
+    of the brain and uncovering its secrets. Each of the areas in neuroscience use
+    a variety of research practices and while the results they yield are qualitatively
+    different, their ultimate integration towards answering the big ‘how the brain
+    works’ question, is of paramount importance.  Open science has a big role to play
+    in this exchange and integration of information.   Towards that end I would like
+    to examine closely the degree that the practices of Open Science are used in each
+    of the main areas of Neuroscience and write a scientific report. This report will
+    include literature review, examples of specific cases that Open Science practices
+    are already being used as well as challenges that researchers may be facing while
+    applying these practices in a day to day basis. Finally, the report will conclude
+    with final remarks and future directions.
+  participants: []
+  mentors:
+  - arielle-bennett
+  keywords: []
+- name: Translate Science
+  description: "[Translate Science](https://translatescience.org/) is an open volunteer\
+    \ group interested in improving the translation of scientific texts. The group\
+    \ has come together to advocate for and support work on tools, services, and policy\
+    \ for translating science. This encompasses a range of activities to help translations\
+    \ including: providing information, networking, designing and building tools,\
+    \ and advocating for seeing translations as valuable research output. A core activity\
+    \ has been the development of the [Translation Switchboard](https://codeberg.org/translate-science),\
+    \ an open source web application to discover scientific translations. The members\
+    \ of Translate Science are from different backgrounds and motivations, but we\
+    \ are interested in collaborating. For our group, the term “scientific texts\"\
+    \ has a wide spectrum of forms and can mean anything from articles, reports and\
+    \ books, to abstracts, titles, keywords, and indices. We also consider summaries\
+    \ of research for non-research audiences as scientific texts.  The project we\
+    \ would like to undertake within the OLS program is to define the scope and mission\
+    \ of the organization and develop shared governance that will have sustainable\
+    \ legitimacy. This project has taken on new urgency with the passing of the organization's\
+    \ founder, Victor Venema."
+  participants:
+  - danwchan
+  - jmmaok
+  mentors:
+  - ailís-o'carroll
+  keywords:
+  - Translation
+  - Database
+  - Academic Culture
+  - Publishing
+  - Governance
+  - Global
+  - Multilingual
+- name: 'Ethical Implications of Open Source AI: Transparency and Accountability'
+  description: Exploring the ethical implications of open-source AI is a topic that
+    deals with understanding the potential consequences of making AI systems and their
+    underlying data and algorithms available to the public.   One of the main ethical
+    implications of using AI is that it can potentially lead to bias and discrimination,
+    as the data and algorithms used to train these systems may reflect societal biases.
+    Additionally, open data could also raise concerns about data privacy, as the release
+    of sensitive data could lead to negative consequences for individuals and organizations.  However,
+    open source AI can also be used to promote transparency and accountability in
+    AI systems. Making the data and algorithms used to train AI systems publicly available,
+    allows for greater oversight and monitoring of these systems to ensure that they
+    are not being used in unethical or harmful ways. Additionally, open source AI
+    can also foster community development and collaboration, allowing for transparency,
+    a wider range of perspectives and expertise to be brought to bear on the development
+    and use of AI.  In summary, open source AI has both potential benefits and drawbacks
+    and it is important to consider the ethical implications before implementing it.
+    Therefore, responsible AI governance and social responsibility are crucial.
+  participants:
+  - gigikenneth
+  mentors:
+  - complexbrains
+  keywords:
+  - Ethics
+  - Open Source Ai
+  - Transparency
+  - Accountability
+  - Bias
+  - Machine Learning
+  - Governance
+  - Data Privacy
+  - Algorithmic Fairness
+  - Open Data
+  - Responsible Ai
+  - Explainability
+- name: Open-source object recognition software specifically designed for mice in Alzheimers disease
+  description: "Here are the general steps to developing an open-source object recognition\
+    \ software for mice in Alzheimer's disease studies: 1-Gather a diverse dataset\
+    \ of images of mice commonly used in Alzheimer's research. 2-Preprocess the dataset\
+    \ by cropping, resizing, and converting images to a consistent format. 3-Train\
+    \ a CNN model using the preprocessed dataset with libraries like TensorFlow or\
+    \ PyTorch. 4-Evaluate the model's performance on a test set of images to determine\
+    \ its ability to recognize mice in different scenarios. 5-Integrate the model\
+    \ into a software application for analyzing images of mice in Alzheimer's disease\
+    \ studies, including object detection, tracking, and annotation. 6-Test the software\
+    \ on a diverse set of images and make necessary adjustments. 7-Share the code\
+    \ and dataset on an open-source platform such as GitHub for other researchers\
+    \ to use and improve. To the best of our knowledge, this is a almost exact overview\
+    \ of the process and the actual development that may require more steps and resources\
+    \ depending on the specific requirements."
+  participants:
+  - jafari-amir
+  mentors:
+  - macziatko
+  keywords: []
+- name: Open educational hands-on tutorial for evaluating fairness in AI classification models
+  description: The main objective of this project is to develop a **hands-on** tutorial
+    for evaluating machine learning models *fairness* in different contexts. Specifically,
+    to generate **open-source class material** (pipeline, slides, code) and a **trainer
+    user guide** to develop and reproduce the tutorial. It is expected to be a ~3
+    hours class where the tutor presents different datasets and different approaches
+    of *fairness*. The analysis will focus on **understanding which definition of
+    *fairness*** is appropriate in each context; to understand the relations between
+    the selected evaluation method and the implications they could have to disadvantage
+    groups when deployed.   On one hand, the focus will be on **alerting and understanding
+    how to evaluate *fairness*** and, on the other hand, **how to do it using open-source
+    libraries**. The code part will be developed on Python using mainly Scikit-Learn
+    and Fairlearn open-source libraries.
+  participants:
+  - marielaraj
+  mentors:
+  - sayalaruano
+  - slldec
+  keywords:
+  - Training
+  - Educational
+  - Hands-On Tutorial
+  - Machine Learning
+  - Fairness
+  - Bias Analysis
+  - Classification
+- name: Comparison of three growth curves for the diagnosis of extrauterine growth retardation at 40 weeks postconceptional age and associated factors in preterm infants in the city of Yaoundé, Cameroon
+  description: Extra-uterin growth retardation (EUGR) is defined as weight or height
+    below the 10th percentile relative to the mean for the child's age and sex at
+    40 weeks post-conceptional  age. The objective of this work is to analyze the
+    applicability of growth curves (Intergrowth -21, Fenton and WHO) for the assessment
+    of extra-uterin growth at 40 weeks post-conceptional age and the factors associated
+    with extra-uterin growth retardation in preterm infant in Cameroon. This will
+    be an analytical study of all low birth weight preterm mother-infant pairs present
+    in referral hospitals in the city of Yaoundé whose mothers have given their consent
+    to participate in the study between June 2022 and March 2023. For the diagnosis
+    of EUGR and its associated factors, we will first take the anthropometric parameters
+    of the children at birth at 36 and at 40 PCA as well as information on the parents
+    or their environment. At the end of this analysis, we will be able to choose the
+    appropriate curve for the evaluation of the extra-uterin growth of preterm infants
+    with low birth weight in Yaoundé and to determine the factors associated with
+    the EUGR.
+  participants:
+  - sandrine-kengne
+  mentors:
+  - jafsia
+  keywords:
+  - Preterm Infants
+  - Growth Curves
+  - Evaluation
+  - Extra-Uterin Growth Failure
+  - Associated Factors
+- name: Euro-BioImaging Scientific Ambassadors Program
+  description: Euro-BioImaging (https://www.eurobioimaging.eu/) is a research infrastructure
+    that offers open access to imaging technologies, training, and data services in
+    biological and biomedical imaging. Euro-BioImaging consists of imaging facilities,
+    called ‘Nodes’, that have opened their doors to all life science researchers.
+    There are informal community leads within the nodes’ staff and users that often
+    raise awareness about Euro-BioImaging and the provided services. However, there
+    is no official program at the moment that acknowledges them as formal ambassadors.  This
+    project aims at launching a Scientific Ambassadors Program for Euro-BioImaging,
+    which will officially reward such contributions and encourage new leads to emerge
+    in the community.
+  participants:
+  - beatrizserrano
+  mentors:
+  - joyceykao
+  keywords:
+  - Imaging
+  - Microscopy
+  - Community
+  - Ambassadors
+  - Champions
+  - Community Building
+- name: 'momenTUM Research Platform: An open-source, reproducible research infrastructure for digital health'
+  description: Over the past year, we built the new research platform **[momenTUM](https://www.momentumresearch.eu/)**,
+    which consists of an iOS/Android app for delivering interventions and questionnaires
+    to participants in research studies and server software to configure trials, accept
+    data and register them into a REDCap server. Based on the previously developed
+    [schema-app](https://github.com/schema-app/schema), the app uses reproducible
+    JSON files to specify the timing, order and properties of interventions and questionnaires
+    sent to the end-user device. We are beginning to use momenTUM in our research
+    studies examining human sleep and circadian physiology and believe it will be
+    valuable to the scientific community. Currently, while there are various commercial
+    and sometimes pricy solutions to design smartphone-based interventions, we believe
+    that developing an open-source solution is the right thing to do. Our diverse
+    team – consisting of two software developers and two researchers – shares this
+    ethos. Through our participation in OLS-7, we will advance our project, grow our
+    network and learn how to build a community around the project.
+  participants:
+  - spitschan
+  - annambiller
+  - marcotxma
+  mentors:
+  - rowland-mosbergen
+  keywords:
+  - Digital Health
+  - Open Source
+  - Smartphone App
+  - Reproducibility
+  - Experience Sampling
+  - Field Studies
+  - Psychology
+- name: Investigating effective strategies for radical inclusion at academic events
+  description: 'We are a group of researchers from the University of Oxford looking
+    to establish a discussion about pushing the boundaries of what it means to host
+    an inclusive academic event. This discussion cannot happen in a vacuum and we
+    are mindful of our limited experience and expertise in this space. As such, we
+    intend to take a proactive stance and give voice to thoughts, opinions and lived
+    experiences of conference organisers and attendees with inclusivity concerns.  We
+    intend to work towards a publication which is a compilation of our investigation
+    into multiple mediums for collecting viewpoints, debate and strategic implementations.
+    As a first step in achieving this aim and an effective pilot of the discussion
+    points, we have recently hosted our first round of focus groups where we addressed
+    the following topics: * Who are we not seeing at conferences, and what would it
+    actually take to get them there? * Implementation of considerations for constantly
+    changing and sensitive geopolitical issues? * Support for visas and other regulatory
+    considerations  * Enforcement of harassment policies and embedding of harassment
+    prevention methods at the earliest planning stages  Through this endeavour, we
+    connected with interesting and passionate people. We set up a mailing list where
+    we share regular updates on the ongoing work, and excitingly, we have a list of
+    people potentially interested in collaborating on this project. We hope to draw
+    on their perspectives and experiences in developing a publication and any other
+    potential outputs that will help incite real, tangible change in the space of
+    academic events.'
+  participants:
+  - smhall97
+  - daniel-kochin
+  - carmel-carne
+  mentors:
+  - malvikasharan
+  keywords:
+  - Inclusion
+  - Awareness
+  - Access
+  - Intersectionality
+  - Equal Opportunity
+- name: 'Queering the law: How to make AI with a Queer Perspective from the Majority of the World'
+  description: 'For an AI framework with a queer perspective from the Majority World
+    that is going to be used by technologists, final users, policymakers, sociologists,
+    activists, and everyone involved with Artificial Intelligence, we must consider
+    using a common language in all stages of the foundation of any AI: design, development,
+    deployment, and detection of biases. Furthermore, this common language should
+    go around the concepts of fairness, accountability, transparency, and ethics because
+    of actions those could bring in setting the AI foundation and making them less
+    harmful for queer people from the Majority World.   This is going to demand that
+    all of us involved in this process think outside the box and bring queer, Majority
+    World theories, methods, and methodologies, also the use of MLP, NLP, neurosciences,
+    and trans theories from the majority world, body theories, cultural studies as
+    a methodology, interviews, focus groups, participatory design, documentary, or
+    case analysis, field research, law-making, regulatory processes, and others, altogether
+    creating this framework.   It is understandable, needs to include the language
+    that can transform this specific harmful stereotype into regulations, formal definitions,
+    and actions that can benefit not only queer people but all of us.'
+  participants:
+  - umutpajaro
+  mentors:
+  - milagros-miceli
+  keywords:
+  - Gender
+  - Queer
+  - Theory
+  - Majority World
+  - Frameword
+  - Ai
+- name: Data management materials for ELIXIR Estonia
+  description: 'Online data management materials for researchers should include the
+    following: * Introduction on FAIR principles * Walkthrough of data life cycle      *
+    Expanding different life cycle stages with relevant info        * Plan - Requirements
+    for data management in Estonia and Europe        * Process, Analyse – links to
+    local HPC capabilities        * Preserve, Share – links to local and generic repositories        *
+    Reuse – Information on how to write good metadata, READMEs, licensing * Open Science
+    * DMP   * Current requirements   * Programs available for writing DMPs   * Tips
+    for writing a good DMP'
+  participants:
+  - diana-pilvar
+  mentors:
+  - pherterich
+  keywords:
+  - Data Management
+  - Data Life Cycle
+  - Dmp
+  - Fair
+  - Open Science
+- name: Build community
+  description: Open science community in Egypt  I intend to build up Open science
+    community in Egypt to raise awareness among researchers of the importance of Open
+    Science  and how we will guide them to make their research more organized and
+    manageable, increase their visibility, and meet the FAIR principles ( Findable,
+    Accessible, Interoperable, Reusable). also it will be in the line with Egypt Vision
+    2030. we will have support from FAIR points to meet the researcher's needs by
+    providing workshops, webinars, and conferences to guide them to the right path
+    further Open Science (OS) is an umbrella term that is used to describe movements
+    and practices aimed at increasing the accessibility of scientific knowledge and
+    fostering innovations. To demystify these principles, we briefly describe six
+    of its core components.
+  participants:
+  - doaamkader
+  mentors:
+  - landimi2
+  keywords:
+  - Open Science
+  - Research Data Amangement
+  - Research Service
+- name: The Impact of Sleep Deprivation on Mental Health
+  description: Millennials and Gen Zs recently have become obsessed with being online
+    and informed 24/7 so much that it has encroached on sleep time. We tend to attach
+    more importance to skin care, beauty products, exercise and many others ways to
+    live healthy but fail to acknowledge the importance of a good night rest. The
+    need for sleep tends to be underestimated.  With the evidence garnered from cumulative
+    research works, one can boldly assert that sleep deprivation has a profound effect
+    on one’s health. This project pays particular attention to the negative impacts
+    of lack of sleep on mental health.  Thus, the work will include various sleep
+    disorders, and other causes of sleep loss. It will touch on the normal sleep cycle
+    and factors that distort this cycle. The aim is to provide adequate evidence to
+    enable people make an informed decision about getting better sleep.
+  participants:
+  - npdebs
+  - bisola15
+  mentors:
+  - bresearcher101
+  keywords:
+  - Sleep Deprivation
+  - Mental Health
+  - Illness
+- name: liforient
+  description: This project is to help every user, be it parents, children or other
+    adults wishing to follow a particular career path find the right pattern towards
+    achieving their life goals. The platform uses the top-down or bottom-up approach
+    to achieve this goal. Using the top-down approach, a user can be interested in
+    a particular field, say Artificial intelligence. The user then keys in the word
+    artificial intelligence and the system gives a detailed guide of all that is required
+    of the field such as academic qualifications needed/natural skills needed too.
+    The program also includes various study programs, schools, scholarships etc, differentiating
+    if it is remote, onsite and hybrid taking note of the locations of the available
+    programs. Each program will also have fees allocation and other details provided
+    by the dataset fed into the system. Statistics such as average salary, working
+    hours etc will also be provided, and related fields as well, which if a user clicks,
+    it will redirect to the clicked field.  The bottom up approach uses qualifications
+    be it academic or natural to direct an individual towards available careers for
+    that qualification. Say a student just had the Advanced level passing Biology,
+    chemistry, computer science and maths. The system will also prompt the student
+    to give in natural qualifications such as great organizational skills, working
+    alone or in team, interpersonal skills etc, from which a roadmap to the various
+    available careers based on those qualifications will be given as a guide for the
+    student to follow. Other information such as scholarship opportuinities, internships,
+    schools, programmes etc will be given in the system as well.   This system is
+    to take data from contributors all over the world, and updates will be made every
+    now and then to ensure arcuracy of the data.
+  participants:
+  - petraag
+  mentors:
+  - kipkurui
+  keywords:
+  - Artificial Intelligence
+  - Machine Learning
+  - Data Set
+  - Skills
+  - Degrees
+  - Career Path
+  - Internships
+  - Scholarships
+  - Programmes
+  - Schools
+  - Qualifications
+  - Requirements.
+- name: Building a searchable project database
+  description: Funders, consortia and RIs dealing with a large array of different
+    smaller projects often find it difficult to clearly communicate to the outside
+    what kind of projects they support. While there are efforts to build repositories
+    that focus on data, software or research outputs as primary units, there is less
+    attention to projects as focal points that lead to further outcomes (e.g. data,
+    software, journal articles).  I want to build an open, searchable database which
+    connects project descriptions to project members, keywords, and related outcomes.
+    As a use case, I want to build a searchable database of past OLS projects.
+  participants:
+  - angelicamaineri
+  mentors:
+  - karvovskaya
+  keywords:
+  - Project Database
+- name: 'Closer to the sky: co-creating astronomical knowledge in a favela of Rio de Janeiro'
+  description: '“Closer to the sky” is an astronomy public engagement project in Rio
+    de Janeiro, Brazil that builds upon workshops for children based on the practice
+    of non-violence developed by the astronomy club, initiated by A. Cortesi and C.
+    Araujo. It entails two parts: 1) The collective exploration of astronomical images
+    and space-based images of Earth (available from open access databases) with children,
+    artists and people in a favela (slum) in Rio. Children will use space imagery
+    to create poems, music, performances and street art together with local artists,
+    to promote a positive and healthy vision of their environment. By exploring images
+    with computers at the local cultural centre, they will practice digital skills
+    while handling data containing information to observe the environment.  2) The
+    creation of a digital map of cultural projects in Rio favelas, including the new
+    artwork and educational material, along with locations linked to the history and
+    practice of astronomy in the city.   The project is informed by different aspects
+    of the Open Science framework, from opening a dialogue with the community to creating
+    science and educational material together. The interactive map, all content, lessons
+    learnt and documentation on how to run similar initiatives will be released as
+    open source projects.'
+  participants:
+  - claudia-mignone
+  - arianna-cortesi
+  - gabriela-rufino
+  - maria-clara-heringer-lourenço
+  mentors:
+  - graciellehigino
+  keywords:
+  - Astronomy
+  - Space Science
+  - Public Engagement Of Science
+  - Community Building
+  - Science-Art
+- name: Mapping open-science communities, organizations, and events in Latin America
+  description: This project aims to identify communities that actively participate
+    in the **implementation, training, and dissemination of open practices** such
+    as open access, open data, open science, and open educational resources in the
+    **Latin American region**. We will create a **repository** that will collect **information
+    regarding main areas, topics of expertise, and geographical location, as well
+    as the contact information** of the identified organizations and communities.
+    Then, we will create a **website or web-based application** that will feature
+    a **searchable list and an interactive map interface**. Organizations interested
+    in being added to the knowledge base will be able to do so through a pull request
+    on GitHub. The project foresees an automatic update of the list and the map every
+    time a pull request is approved after the new information is curated.
+  participants:
+  - jformoso
+  - 4iro
+  - patriloto
+  mentors:
+  - mxrtinez
+  keywords:
+  - Open Access
+  - Open Source
+  - Open Science Communities
+  - Spanish-Speaking Communities
+  - Mapping
+  - Visualization
+- name: Developing an online snake venomics catalog for easy access to venom proteomics data
+  description: Snake venoms are incredibly complex mixtures of many different proteins
+    called toxins. Understanding which particular toxins are in the venoms of each
+    snake is important information for researchers working with snakes, particularly
+    for those developing new anti-venoms against snakebite.  There have been many
+    previous studies which have identified which toxins are in which snakes. This
+    is incredibly valuable information for researchers, but the data is trapped in
+    tables, scattered across many different scientific papers. These papers are themselves
+    often trapped behind journal pay-walls.  In this project, I propose to; firstly,
+    create a database of snake venom proteomics studies and secondly, create an online
+    platform which will allow easy access to, and visualisation of, the proteins that
+    have been identified in each snake venom. I hope to create a tool which will be
+    useful to anyone interested in understanding snake venoms.
+  participants:
+  - carol-o'brien
+  mentors:
+  - billbrod
+  keywords:
+  - Online Platform
+  - Open Research
+  - Snakebite
+  - Venom
+  - Proteomics
+  - Neglected Tropical Disease
+- name: Biodegradability of Drilling Fluids in different soil types
+  description: Drilling fluid is a lubricant used in drilling oil and gas wells and
+    in exploration rigs. It may vary with additives aimed at optimizing and improving
+    the drilling process(Sadiq et al., 2003). They are mixture of natural and synthetic
+    chemical compounds applied to cool and lubricate the drill bit; clean the borehole
+    bottom; drive cuttings to the surface, control formation pressure and improve
+    the function of the drill string and tools in the borehole (API, 1992).   The
+    decline of the environment is presently a common and overwhelming challenge globally
+    (Gazali et al., 2017). Studies have shown that uncontrolled disposal of drilling
+    fluid wastes, with accompanying toxic components contribute heavily to the diminishing
+    biodiversity (Vincent-Akpu, 2015; Vincent-Akpu and Sikoki, 2013; Sil et al., 2012).
+    Most drilling firms especially on-shore, prefer to use land spraying (or throwing)
+    as a method of disposing the waste drilling muds. Such unsustainable methods could
+    lead to some hostile environmental impacts (Gazali et al., 2017). Yet, if biodegradation
+    is relied on as a natural and cost-effective option for pollutant breakdown and
+    pollution control (Nrior et al., 2017).  The aim of this study is to investigate
+    the biodegradability of drilling fluid in the different soil types. This study,
+    in addition to specifying the ecotoxicological effect of the drilling fluid pollutants
+    in the soil, will chiefly show which soil type most efficiently promotes the drilling
+    waste biodegradability and by implication provide reliable data for policy makers
+    as regards to environmental reclamation
+  participants:
+  - chukaogbo
+  mentors:
+  - fadanka
+  keywords:
+  - Biodegradability
+  - Drilling Fluid
+  - Soil
+  - Petroleum Hydrocarbons
+- name: Building an open, structured, knowledge listing system
+  description: The project I have in mind for this program has 2 major components.   The
+    first component is to build a resource listing system, likely based on Quarto
+    (https://quarto.org/docs/websites/website-listings-custom.html), that will take
+    data from YAML files, and convert to a listing on a static web page that allows
+    for filter and sorting. The openlifesci.org website actually does an incredible
+    job of displaying structured lists that come from YAML, but uses Jekyll to do
+    this.   I also intend to build out a system in GitHub actions that will accept
+    and validate new entries that come through a form or GitHub Issues. The second
+    component would be to create training program that teaches how to use the system
+    -- while also teaching the concepts of version control, metadata schemas, and
+    continuous integration to complete novices.
+  participants:
+  - miketrizna
+  mentors:
+  - karegapauline
+  keywords:
+  - Knowledge Management
+  - Data Hubs
+  - Awesome Lists
+  - Quarto
+  - Version Control
+  - Schema Validation
+- name: LA-CoNGA Physics Citizen Science Project
+  description: "The LA-CoNGA Physics  Citizen Science project is a collaborative experience\
+    \ that aims to  educate young people about climate change from an open science\
+    \ and data  science framework. The project aims to expose secondary school students\
+    \ \nin Colombia, Ecuador, Peru and Venezuela to data science research  environments\
+    \ and tools at an early age. Through the creation of research workshops and the\
+    \ data generated in a network of weather stations,  students will be guided in\
+    \ understanding open science concepts, climate  change, statistics and programming.\
+    \ Ultimately, it is hoped that by \ncarrying out a project, the students will\
+    \ be able to take action to  address the effects of climate change in their communities."
+  participants:
+  - mxrtinez
+  mentors:
+  - melibleq
+  keywords:
+  - Citizen Science
+  - Climate Change
+  - Research Seedbed
+  - Programming
+- name: Facilitating easier academic selection of research students using ML
+  description: Our project is to build a machine learning-based tool to match the
+    research students with the most suitable supervisor for them and vice versa by
+    receiving their requirements and expectations. Our ML model uses the responses
+    received from users and classifies them on a high-to-low suitability scale.
+  participants:
+  - sivasubramanian-murugappan
+  mentors:
+  - harinilakshminarayanan
+  keywords:
+  - Research
+  - Students
+  - Supervisor
+  - Machine Learning
+- name: Bioinformatics University Outreach
+  description: Bioinformatics, an interdisciplinary field that combines computer science, statistics, and biology to analyze and interpret biological data. As the amount of biological data generated continues to grow rapidly, there is an increasing demand for professionals with expertise in bioinformatics. To help meet this demand, we propose a university outreach program focused on developing bioinformatics capacity among University students in Nigeria and this will create early interest in genomics data analysis among the students and equip them with the relevant skills set  and knowledge in Bioinformatics. Also, we will be creating awareness of Open science among the university students. We would be working alongside other sister organizations to achieve this goal.
+  participants:
+  - emmanuel19-ada
+  - seunolufemi123
+  - aymd23
+  mentors:
+  - landimi2
+  keywords:
+  - Bioinformatics
+  - Open Science
+  - Outreach

@@ -8,7 +8,7 @@
 #       duration: .. min
 #       title:
 #       date: Month Day, Year
-#       time: '14:00'
+#       time: '13:00'
 #       calendar-event: link to calendar event
 #       agenda: tldr
 #       notes: link to notes
@@ -105,7 +105,7 @@ weeks:
       duration: 60 min
       title: Mentor training
       date: February 8, 2021
-      time: '18:30'
+      time: '17:30'
       content: |
         During our first mentor training onboarding session, you will:
         - Understand common successes and challenges in mentoring OLS participants.
@@ -114,7 +114,7 @@ weeks:
       duration: 60 min
       title: Mentor training
       date: February 9, 2021
-      time: '15:00'
+      time: '14:00'
       content: |
         (This session is identical to the session the previous day). During our first mentor training onboarding session, you will:
         - Understand common successes and challenges in mentoring OLS participants.
@@ -126,7 +126,7 @@ weeks:
       duration: 90 min
       title: Welcome to Open Life Science!
       date: February 17, 2021
-      time: '13:30'
+      time: '12:30'
       notes: https://bit.ly/ols-3-week-02-cohort-call
       recording: https://youtu.be/lFaMk01Z_gY
       hosts:
@@ -182,13 +182,13 @@ weeks:
       duration: 180 min
       title: Mentoring workshop
       date: February 22, 2021
-      time: '10:00'
+      time: '09:00'
     -
       type: Mentor
       duration: 180 min
       title: Mentoring workshop
       date: February 23, 2021
-      time: '18:00'
+      time: '17:00'
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
@@ -218,7 +218,7 @@ weeks:
       duration: 30 min
       title: Open office hour, coworking on assignments, knowledge exchange and networking
       date: February 24, 2021
-      time: '18:00'
+      time: '17:00'
       notes: https://bit.ly/ols-3-week-03-q-a
       content: |
         During this week's coworking call, you will:
@@ -276,7 +276,7 @@ weeks:
         speaker: malvikasharan
         link: https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
       date: March 03, 2021
-      time: '18:00'
+      time: '17:00'
       notes: https://bit.ly/ols-3-week-04-cohort-call
       recording: https://youtu.be/Enn2NGMGC2k
       hosts:
@@ -345,7 +345,7 @@ weeks:
         title: Git workflow
         link: https://www.atlassian.com/git/tutorials/comparing-workflows
       date: March 10, 2021
-      time: '13:30'
+      time: '12:30'
       notes: https://bit.ly/ols-3-week-05
       recording: https://youtu.be/Hj4kpy9LB6c
       hosts:
@@ -403,7 +403,7 @@ weeks:
         title: Project Development Plan
         link: https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
       date: March 17, 2021
-      time: '13:30'
+      time: '12:30'
       notes: https://bit.ly/ols-3-week-06-cohort-call
       recording: https://youtu.be/XkzCr3fiSCg
       hosts:
@@ -428,7 +428,7 @@ weeks:
         - Share your experience been so far as a mentor in OLS-1
         - Learn about the GROW model
     - date: March 24, 2021
-      time: '18:00'
+      time: '17:00'
       duration: 30 min
       notes: https://bit.ly/ols-3-week-06-q-a
       type: Coworking
@@ -476,7 +476,7 @@ weeks:
         link: https://zenodo.org/record/4651431
         speaker: georgiahca
       date: March 31, 2021
-      time: '18:00'
+      time: '16:00'
       notes: https://bit.ly/ols-3-week-08-cohort-call
   09:
     start: April 5, 2021
@@ -538,7 +538,7 @@ weeks:
         title: Goal setting exercise
         link: https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
       date: April 07, 2021
-      time: '13:30'
+      time: '11:30'
       duration: 30 min
       notes: https://bit.ly/ols-3-week-09-q-a
       recording: https://youtu.be/5BlB0RUY-7c
@@ -564,7 +564,7 @@ weeks:
       - type: slides
         title: Making training materials FAIR in 10 steps
         link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
-        speaker: alexandra-holinski
+        speaker: alexholinski
       - type: external-link
         title: 10 rules for making training FAIR
         link: https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1007854
@@ -594,7 +594,7 @@ weeks:
         title: Good enough Practices in Scientific Computing
         link: https://doi.org/10.1371/journal.pcbi.1005510
       date: April 14, 2021
-      time: '13:30'
+      time: '11:30'
       notes: https://bit.ly/ols-3-week-10-cohort-call
       recording: https://www.youtube.com/watch?v=j-rPaiojNFk
   '11':
@@ -604,7 +604,7 @@ weeks:
       duration: 30 min
       title: Meet your mentor!
     - date: April 21, 2021
-      time: '18:00'
+      time: '16:00'
       duration: 30 min
       notes: https://bit.ly/ols-3-week-11-q-a
       type: Coworking
@@ -639,7 +639,7 @@ weeks:
         - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
         - do you want to switch your career or field? Why or why not?
       date: April 28, 2021
-      time: '18:00'
+      time: '16:00'
       notes: https://bit.ly/ols-3-week-12-cohort-call
       recording: https://www.youtube.com/watch?v=EMVGOapd0M4
   '13':
@@ -649,7 +649,7 @@ weeks:
       duration: 30 min
       title: Meet your mentor!
     - date: May 05, 2021
-      time: '13:30'
+      time: '11:30'
       duration: 90 min
       notes: https://docs.google.com/document/d/1tS7UG2PvZhcNhUQU1xyURTEuIh7QwQnlDyQU4libZ10/edit#
       type: Cohort
@@ -720,7 +720,7 @@ weeks:
         title: Community Interactions
         link: https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
       date: May 12, 2021
-      time: '13:30'
+      time: '11:30'
       notes: https://bit.ly/ols-3-week-14-cohort-call
       recording: https://www.youtube.com/watch?v=GdZ3kfKP43A
   '15':
@@ -755,7 +755,7 @@ weeks:
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
       resources: null
       date: May 18, 2021
-      time: '09:00'
+      time: '07:00'
       notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
     - type: Cohort
       duration: 60 min
@@ -776,7 +776,7 @@ weeks:
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
       resources: null
       date: May 19, 2021
-      time: '14:00'
+      time: '12:00'
       notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
     - type: Cohort
       duration: 60 min
@@ -797,7 +797,7 @@ weeks:
         - Integrate changes suggested in this call to your final talk of 5 minutes to be presented a week later
       resources: null
       date: May 20, 2021
-      time: '17:00'
+      time: '15:00'
       notes: https://docs.google.com/document/d/1eyJba_7Ltrhxgbb4_vVYXylCXwsgjJRnWIn8XwIGkq4/edit#heading=h.9ukr4y4nfb16
   '16':
     start: May 24, 2021

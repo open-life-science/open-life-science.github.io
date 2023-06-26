@@ -9,7 +9,7 @@ $dark-green: #48b87d;
 
 $bg-image: #333;
 $hero-text-color: $white;
-$text-shadown: $black;
+$text-shadow: $black;
 
 $link: $dark-green;
 $link-visited: $link;
@@ -24,7 +24,7 @@ $link-active: $link-hover;
     border-bottom: 0;
     color: $link;
     font-weight: 500;
-
+  
     &:active,
     &:focus,
     &:hover {
@@ -32,6 +32,12 @@ $link-active: $link-hover;
       color: $link-hover;
     }
   }
+}
+
+img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar {
@@ -59,7 +65,7 @@ $link-active: $link-hover;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: auto;
   width: 100%;
 
   &.no-image {
@@ -81,7 +87,7 @@ $link-active: $link-hover;
 .hero-body {
   padding-top: 160px;
   text-align: center;
-  text-shadow: 2px 2px 5px $text-shadown;
+  text-shadow: 2px 2px 5px $text-shadow;
 
   h1,
   p {
@@ -108,7 +114,7 @@ $link-active: $link-hover;
   .credit {
     text-align: right;
     font-size: 0.6em;
-    text-shadow: 1px 1px 1px $text-shadown;
+    text-shadow: 1px 1px 1px $text-shadow;
   }
 }
 
@@ -132,6 +138,17 @@ $link-active: $link-hover;
 .people {
   margin-bottom: 1em;
 
+  .media {
+    height: 230px;
+  }
+  .people-description {
+    height: 150px;
+  }
+
+  #people-bio {
+    height: auto;
+  }
+
   @include mobile() {
     .people-card {
       margin-bottom: 1em;
@@ -143,6 +160,10 @@ $link-active: $link-hover;
 
     .people-card-avatar {
       display: none;
+    }
+
+    .media, .people-description {
+      height: auto;
     }
   }
 
@@ -184,6 +205,7 @@ $link-active: $link-hover;
   border-radius: 50%;
   margin-left: 0.25em;
   margin-right: 0.25em;
+  vertical-align: middle;
 }
 
 .entities {
@@ -221,6 +243,38 @@ $link-active: $link-hover;
 }
 
 .post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+    height: 100%;
+    width: fit-content;
+  }
+
+  .image {
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    
+    img {
+       max-height: 100%;
+       object-fit: cover;
+    }
+  }
+  
+
+  .card-content {
+    padding: 2rem;
+    
+    .content .title {
+       height: 250px;
+    }
+  }
+
   @include mobile() {
     .card {
       margin-bottom: 1em;
@@ -232,6 +286,13 @@ $link-active: $link-hover;
       .media-left {
         display: none;
       }
+    }
+
+    .image {
+      height: auto;
+    }
+    .card-content .content .title {
+      height: auto;
     }
   }
 
@@ -331,6 +392,12 @@ $link-active: $link-hover;
   margin-top: 1em;
 }
 
+code {
+  background-color: #DBDBDB;
+  color:  #85001B;
+  font-weight: bold;
+}
+
 .schedule-overview{
   width: 80%;
   display: block;
@@ -338,4 +405,59 @@ $link-active: $link-hover;
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 20px;
+}
+
+// table responsiveness (mobile)
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  table {
+    font-size: 1em;
+    line-height: 1.5;
+    display: block;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+}
+
+.field {
+  padding: 30px;
+}
+
+.is-hidden {
+  display: none;
+}
+
+
+.links {
+  .hero {
+    background-color: $dark-green;
+    max-height: 500px;
+    min-height: 250px;
+    height: 10vh;
+
+    .hero-body {
+      padding-top: 20px;
+
+      img {
+        max-width: 120px;
+        margin: 20px auto;
+        padding: 12px;
+        border-radius: 12px;
+        background-color: $white;
+      }
+    }
+  }
+
+  .section {
+    padding-top: 20px;
+
+    .button {
+      background-color: $dark-green;
+      color: $white;
+      text-shadow: 2px 2px 5px $black;
+      margin: 20px auto;
+      padding: 20px auto;
+      min-height: 50px;
+    }
+  }
+  
 }

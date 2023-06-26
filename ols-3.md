@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the 3rd cohort of Open Life Science program!
+title: Welcome to the 3rd cohort of OLS program!
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg

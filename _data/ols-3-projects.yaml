@@ -2,7 +2,8 @@
 #
 # Check previous OLS for examples
 ---
-- description: Citizen science revolves around the idea of integrating the public
+- description:
+    Citizen science revolves around the idea of integrating the public
     in scientific research. However, there are different interpretations of this idea.
     An important part of citizen science projects allows laymen only to participate
     in a limited scope of microtasks and keeps thus reinforcing the power gap between
@@ -18,51 +19,57 @@
     first steps, I am working on a best practices guide, summarizing the experiences
     of existing similar projects.
   keywords:
-  - citizen science
-  - peer-production
-  - participatory design
+    - citizen science
+    - peer-production
+    - participatory design
   mentors:
-  - fpsom
+    - fpsom
   name: Best practices for online collaboration/peer-production in citizen science
   participants:
-  - katoss
-- description: VCMS (vcms.simonduerr.eu) is convenient tool to setup a website for
+    - katoss
+  status: graduated
+- description:
+    VCMS (vcms.simonduerr.eu) is convenient tool to setup a website for
     a virtual conference including an abstract submission portal, timezone adapted
     scheduling of talks and an interactive virtual poster session with video chat
     and spotlights for posters with some features still in development. The tool is
     currently in beta and will be released as FOSS under MPL once the software is
     battle tested (in mid february).
   keywords:
-  - conferences
-  - virtual
-  - poster session
+    - conferences
+    - virtual
+    - poster session
   mentors:
-  - ealescak
-  name: A virtual conference managment system with seamless open science integration
+    - ealescak
+  name: A virtual conference management system with seamless open science integration
   participants:
-  - duerrsimon
-- description: 'The “Memory Collecting: Croatian Homeland War” project aims to create
+    - duerrsimon
+  status: graduated
+- description:
+    "The “Memory Collecting: Croatian Homeland War” project aims to create
     a platform where survivors can submit video recordings of their own memories and
     reflections of the 1992 Homeland War. The repository will also store them in a
     publicly accessible database. By having the software be open to citizen scientists,
     the database will be one of the most inclusive and easily accessible memory banks.
     This initiative seeks to preserve the memory of the role of Croatian-Americans
-    in the creation of free, modern Croatia during the Homeland War in the 1990s.'
+    in the creation of free, modern Croatia during the Homeland War in the 1990s."
   keywords:
-  - database
-  - video
-  - generational memory
-  - record
-  - document
-  - historical
-  - Croatia
-  - Diaspora
+    - database
+    - video
+    - generational memory
+    - record
+    - document
+    - historical
+    - Croatia
+    - Diaspora
   mentors:
-  - katesimpson
-  name: 'Memory Collecting: Croatian Homeland War'
+    - katesimpson
+  name: "Memory Collecting: Croatian Homeland War"
   participants:
-  - annalee-sekulic
-- description: "I want to help build a culture of open science and good practice (as\
+    - annalee-sekulic
+  status: graduated
+- description:
+    "I want to help build a culture of open science and good practice (as\
     \ well as fun) within the plant synthetic biology community, with an initial emphasis\
     \ on the US. \n\nI hope to do this by (1) establishing an open toolset for genetic\
     \ manipulation of algae and photosynthesis enzymes (2) developing an open repository\
@@ -70,29 +77,31 @@
     \ aid experimentation, both in academia and for citizen scientists (4) building\
     \ a community of interested individuals to expand and contribute to the project."
   keywords:
-  - synthetic biology
-  - community building
-  - citizen science
+    - synthetic biology
+    - community building
+    - citizen science
   mentors:
-  - smklusza
+    - smklusza
   name: Open Phototroph
   participants:
-  - sjb287
-- description: An open-source software tool and associated protocol repository that
+    - sjb287
+- description:
+    An open-source software tool and associated protocol repository that
     translates wet-lab protocols into instruction sets for commonly available robotic
     liquid handlers. Protocols will be hosted on a publically accessible website,
     and community members can edit, annotate, and report on different protocols. Think
     Github for biological protocols with an issue tracker.
   keywords:
-  - Robotics
-  - Synthetic Biology
-  - Open Source
-  - Community Enhancement
+    - Robotics
+    - Synthetic Biology
+    - Open Source
+    - Community Enhancement
   mentors: []
   name: Opensource Transpiler of Synthetic Biology Lab Protocols for Wetlab Robotics
   participants:
-  - '0x174'
-- description: This project is a field and laboratory based research project researching,
+    - "0x174"
+- description:
+    This project is a field and laboratory based research project researching,
     surveying, and discovering the palaeoecology and palaeogeography of West Cork.
     The project will make use of:- paper research methods; sampling and scientific
     analysis of sediments; digital mapping; field and site visits and landscape analysis;
@@ -111,25 +120,27 @@
     and environment and thus to give an understanding how the future development may
     progress.
   keywords:
-  - palaeoecology
-  - palaeoenvironment
-  - palynology
-  - interdependence
-  - interconnectedness
-  - landscape
-  - public
-  - geomorphology
-  - geology
-  - geography
-  - microscopy
-  - microfossils
+    - palaeoecology
+    - palaeoenvironment
+    - palynology
+    - interdependence
+    - interconnectedness
+    - landscape
+    - public
+    - geomorphology
+    - geology
+    - geography
+    - microscopy
+    - microfossils
   mentors:
-  - bruno-soares
-  name: Field and laboratory based research project researching, surveying, and discovering
+    - bruno-soares
+  name:
+    Field and laboratory based research project researching, surveying, and discovering
     the palaeoecology and palaeogeography of West Cork
   participants:
-  - robin-lewando
-- description: 'Actigraphy provides a measure of the 24h rest-activity cycles based
+    - robin-lewando
+- description:
+    "Actigraphy provides a measure of the 24h rest-activity cycles based
     on movement counts, typically of the wrist. It is obtained using wearable devices
     and is a widely used, non-invasive way to determine sleep and circadian properties.
     Importantly, metrics derived from actigraphy are being increasingly used in clinical
@@ -148,25 +159,27 @@
     actigraphy devices produced by different commercial manufacturers and for use
     by researchers and research users. This project builds upon core research and
     technical expertise amongst the team members, and provides a framework to structure
-    the work of the newly funded Chronobiology Data Standards Interest Group (CDSIG).'
+    the work of the newly funded Chronobiology Data Standards Interest Group (CDSIG)."
   keywords:
-  - open data
-  - open science
-  - data schemas
-  - metadata
-  - actigraphy
-  - actimetry
-  - rest-activity cycles
-  - circadian rhythms
-  - chronobiology
-  - sleep research
+    - open data
+    - open science
+    - data schemas
+    - metadata
+    - actigraphy
+    - actimetry
+    - rest-activity cycles
+    - circadian rhythms
+    - chronobiology
+    - sleep research
   mentors:
-  - malloryfreeberg
+    - malloryfreeberg
   name: Open data schema for actigraphy data in chronobiology and sleep research
   participants:
-  - spitschan
-  - ghammad
-- description: BioFerm is a web application platform which can be used for kinetic
+    - spitschan
+    - ghammad
+  status: graduated
+- description:
+    BioFerm is a web application platform which can be used for kinetic
     study, simulation and optimization of bioprocesses. The user is able to calculate
     the best initial conditions as well as overall operating conditions which will
     result in the highest product yield (or any user specified output). Kinetic modelling
@@ -179,18 +192,21 @@
     currently being written in Python using an open-source app framework(streamlit)
     to run the app but will later be written using Django, also a popular web framework.
   keywords:
-  - Kinetic modelling
-  - optimization
-  - Bioprocesses
-  - Microbial growth
-  - parameter estimation
+    - Kinetic modelling
+    - optimization
+    - Bioprocesses
+    - Microbial growth
+    - parameter estimation
   mentors:
-  - unode
-  name: 'BioFerm: A web application used for kinetic modeling, parameter estimation
-    and simulation of bioprocesses'
+    - unode
+  name:
+    "BioFerm: A web application used for kinetic modeling, parameter estimation
+    and simulation of bioprocesses"
   participants:
-  - olayile
-- description: "This project will investigate existing literature on the benefits,\
+    - olayile
+  status: graduated
+- description:
+    "This project will investigate existing literature on the benefits,\
     \ risks, and limitations of open data practices in Australian environmental archaeology,\
     \ seeking to characterise the ethical and practical issues associated with the\
     \ dissemination of data owned or stewarded (either wholly or in part) by Indigenous\
@@ -207,52 +223,58 @@
     \ archaeologists and palaeoecologists seeking to work openly while supporting\
     \ the rights of Indigenous communities to manage access as they consider appropriate."
   keywords:
-  - Australian archaeology
-  - Open data
-  - Indigenous Knowledge
+    - Australian archaeology
+    - Open data
+    - Indigenous Knowledge
   mentors:
-  - estherplomp
+    - estherplomp
   name: Intellectual Property, Indigenous Knowledges, and the Rise of Open Data in Australian Environmental Archaeology
   participants:
-  - cemonks
-- description: The MiSET initiative aims to develop a minimum set of quality standards
+    - cemonks
+  status: graduated
+- description:
+    The MiSET initiative aims to develop a minimum set of quality standards
     in the form of a quality assessment tool that evaluates the technical aspects
     of cytometry publications, and to fully integrate these flow cytometry standards
     into grant submission and publication requirements across scientific fields (Lucas
     et al., Cytometry A 2019).
   keywords:
-  - rigor
-  - reproducibility
-  - peer-review
-  - publishing
-  - research quality defects
-  - experimental methods
-  - flow cytometry
-  - tool
-  - AI-assisted peer-review
+    - rigor
+    - reproducibility
+    - peer-review
+    - publishing
+    - research quality defects
+    - experimental methods
+    - flow cytometry
+    - tool
+    - AI-assisted peer-review
   mentors:
-  - tsonika
-  name: 'MiSET Publication Standards: A tool for AI-assisted peer-review of experimental
-    information'
+    - tsonika
+  name:
+    "MiSET Publication Standards: A tool for AI-assisted peer-review of experimental
+    information"
   participants:
-  - fabienne-lucas
-- description: Genetic variants of APOL1 commonly found in people of recent African
+    - fabienne-lucas
+  status: graduated
+- description:
+    Genetic variants of APOL1 commonly found in people of recent African
     ancestry can predispose to chronic kidney disease. It is however unknown if and
     to what extent the variants are present outside of Africa. This project aims to
     create a visual representation of the global distribution of the frequencies of
     these genetic variants, by mining genomic information from publicly available
     datasets.
   keywords:
-  - bioinformatics
-  - data visualization
-  - open educational resource
+    - bioinformatics
+    - data visualization
+    - open educational resource
   mentors:
-  - dimmestp
-  - yochannah
+    - dimmestp
+    - yochannah
   name: Global Distribution of APOL1 Genetic variants
   participants:
-  - john-ogunsola
-- description: "LA-CoNGA physics is an Erasmus+ project, an European-Latinamerican\
+    - dadditolu
+- description:
+    "LA-CoNGA physics is an Erasmus+ project, an European-Latinamerican\
     \ network of 11 universities, 9 research institutions and 3 industrial partners\
     \ (2 of them being in the data science field) in advanced physics. We aim to create\
     \ a set of postgraduate courses in Advanced Physics (high energy physics and complex\
@@ -270,17 +292,20 @@
     \ and applied from the first day\n\nOur website: https://laconga.redclara.net\n\
     Our github repository: https://github.com/LA-CoNGA"
   keywords:
-  - Open educational content
-  - Data science training
-  - Open science training
+    - Open educational content
+    - Data science training
+    - Open science training
   mentors:
-  - lauracion
-  name: LA-CoNGA physics (Latin American alliance for Capacity buildiNG in Advanced
+    - lauracion
+  name:
+    LA-CoNGA physics (Latin American alliance for Capacity buildiNG in Advanced
     physics)
   participants:
-  - camachoreina
-  - mxrtinez
-- description: Inspired by the social clubs founded by Benjamin Franklin, the Junto
+    - camachoreina
+    - mxrtinez
+  status: graduated
+- description:
+    Inspired by the social clubs founded by Benjamin Franklin, the Junto
     Labs initiative seeks to provide life science researchers with an online space
     for pursuing collaborative research and supporting active learning. Life science
     laboratories can be open and highly collaborative spaces for in person research,
@@ -297,17 +322,19 @@
     or universities where opportunities to participate in life science research are
     limited or nonexistent.
   keywords:
-  - online research
-  - mentorship
-  - virtual environments
-  - Jupyter notebooks
+    - online research
+    - mentorship
+    - virtual environments
+    - Jupyter notebooks
   mentors:
-  - burkemlou
-  name: Junto Labs - Advancing Virtual Environments for Life Science Research and
+    - burkemlou
+  name:
+    Junto Labs - Advancing Virtual Environments for Life Science Research and
     Active Learning
   participants:
-  - lomaxboydphd
-- description: 'The emergence of short-read NGS technologies have brought a profound
+    - lomaxboydphd
+- description:
+    "The emergence of short-read NGS technologies have brought a profound
     knowledge to the field of microbial ecology/evolution through the taxonomic identification
     of microbial communities - metabarcoding. Although its main limitation resides
     on their short read-length that has been suppressed by long-read/real-time sequencing
@@ -322,17 +349,19 @@
     references of software used. The report built would ensure reproducibility, transparency,
     acknowledgement and could be used as supplementary material of papers. metaNanoPype
     could be publicly available on github (open source) with further documentation
-    published with github pages.'
+    published with github pages."
   keywords:
-  - metabarcoding
-  - python pipeline
-  - reproducible
+    - metabarcoding
+    - python pipeline
+    - reproducible
   mentors:
-  - hrhotz
-  name: 'metaNanoPype: a reproducible Nanopore python pipeline for metabarcoding'
+    - hrhotz
+  name: "metaNanoPype: a reproducible Nanopore python pipeline for metabarcoding"
   participants:
-  - antonioggsousa
-- description: The field of molecular biology is a concept to discover, identify and
+    - antonioggsousa
+  status: graduated
+- description:
+    The field of molecular biology is a concept to discover, identify and
     explain mechanisms of everything about DNA, RNA and protein level in a cell. Despite
     it is a relatively young discipline, its prominence in the life sciences is becoming
     more and more popular. Within the scope of my project, I aim to evaluate the paper
@@ -348,17 +377,19 @@
     researchers in this field of science to improve knowledge, share and even find
     new ideas.
   keywords:
-  - open educational resource
-  - open-collaborative
-  - molecular biology
+    - open educational resource
+    - open-collaborative
+    - molecular biology
   mentors:
-  - landimi2
-  - unode
-  - tobyhodges
-  name: 'MBiO: Designing an open-collaborative website in the field of molecular biology'
+    - landimi2
+    - unode
+    - tobyhodges
+  name: "MBiO: Designing an open-collaborative website in the field of molecular biology"
   participants:
-  - nihan-sultan-milat
-- description: OLS is a great platform to open life science with the objective of
+    - nihansultan
+  status: graduated
+- description:
+    OLS is a great platform to open life science with the objective of
     train young researchers towards the practices in open science skills. I am a graduand
     of OLS-2 that recently concluded and coming out of that program I felt that there
     is tremendous value in the program. However, this might not be reaching out to
@@ -371,19 +402,21 @@
     and having this it self as a project with the goal of coming up as a tangible
     document in the form of a publication to be shared with the community at large.
   keywords:
-  - value of OLS
-  - participant perspective
-  - internalize openess
-  - pendown
+    - value of OLS
+    - participant perspective
+    - internalize openess
+    - pendown
   mentors:
-  - bebatut
-  - yochannah
-  - malvikasharan
-  name: 'Open Life Science (OLS) Program, a driver of open science skills among early
-    stage researchers and young leaders: mentee perspective'
+    - bebatut
+    - yochannah
+    - malvikasharan
+  name:
+    "Open Life Science (OLS) Program, a driver of open science skills among early
+    stage researchers and young leaders: mentee perspective"
   participants:
-  - muhammetcelik
-- description: sktime is a new Python toolbox for machine learning with time series
+    - muhammetcelik
+- description:
+    sktime is a new Python toolbox for machine learning with time series
     (https://github.com/alan-turing-institute/sktime). It provides state-of-the-art
     time series algorithms and scikit-learn compatible tools for building, tuning
     and evaluating complex models. The goal of this project is to improve sktime’s
@@ -402,17 +435,19 @@
     generation of this documentation by making use of the existing documentation and
     other components such as CODEOWNERS file and __author__ strings in Python files.
   keywords:
-  - sktime
-  - documentation
-  - algorithm maintainer
-  - codeowner
+    - sktime
+    - documentation
+    - algorithm maintainer
+    - codeowner
   mentors:
-  - tobyhodges
+    - tobyhodges
   name: Documentation enhancement with open science practices in sktime
   participants:
-  - afzal442
-  - abdulelahsm
-- description: 'This project is to develop a Turing Service Area in Open Source that
+    - afzal442
+    - abdulelahsm
+  status: graduated
+- description:
+    "This project is to develop a Turing Service Area in Open Source that
     will provide formal support in open working and embedding best practices of open
     software development into Turing projects. This service area will create an Open
     Developer Advocate position whose role will be to work with and guide projects
@@ -423,17 +458,19 @@
     sessions and would address roadmapping of the project in terms of its open goals,
     and developing project policies for engaging openly. The area would work with
     the Turing Way project to draw on existing material and contribute new processes
-    there.'
+    there."
   keywords:
-  - open-source
-  - research
-  - strategy
+    - open-source
+    - research
+    - strategy
   mentors:
-  - meagdoh
+    - meagdoh
   name: An Open Source Service Area for Turing research projects
   participants:
-  - sgibson91
-- description: 'Phytoliths are microfossils of plants used world-wide to address a
+    - sgibson91
+  status: graduated
+- description:
+    "Phytoliths are microfossils of plants used world-wide to address a
     variety of questions in fields like archaeology, palaeoecology and palaeontology.
     Diverse laboratory procedures, analyses and identification criteria are used resulting
     from different research traditions. Some steps, such as the normalisation of nomenclature
@@ -449,23 +486,25 @@
     data: an evaluation of sharing practices in phytolith research; the creation of
     a GitHub repository for collaborative use by this working group and in the forthcoming
     FAIRification project; and the development of a webpage to provide the community
-    with information as the project proceeds.'
+    with information as the project proceeds."
   keywords:
-  - FAIR
-  - data sharing
-  - palaeobotany
-  - phytolith research
-  - archaeology
-  - palaeoecology
+    - FAIR
+    - data sharing
+    - palaeobotany
+    - phytolith research
+    - archaeology
+    - palaeoecology
   mentors:
-  - ekaroune
+    - ekaroune
   name: Towards FAIRer phytolith data
   participants:
-  - javier-ruiz-pérez
-  - juan-josé-garcía-granero
-  - cl379
-  - marco-madella
-- description: Obesity causes approximately 4.7 million premature deaths annually,
+    - javier-ruiz-pérez
+    - juanjo-garcía-granero
+    - cl379
+    - marco-madella
+  status: graduated
+- description:
+    Obesity causes approximately 4.7 million premature deaths annually,
     which accounts for a loss of ca. 8% globally. Obesity is an outcome of complex,
     heritable, and multi-factorial interaction of multiple genes, environmental factors,
     and behavioral traits that makes management and prevention challenging in the
@@ -482,41 +521,46 @@
     the genes common to these complex diseases using a systems genomic integrated
     approach, thereby using Galaxy as a platform.
   keywords:
-  - Obesity
-  - Diabetes
-  - Gut microbiome
-  - Linkage disequilibrium
-  - pleiotropy
+    - Obesity
+    - Diabetes
+    - Gut microbiome
+    - Linkage disequilibrium
+    - pleiotropy
   mentors:
-  - prashbio
-  - harpreetsingh05
-  - bebatut
-  name: 'Systems Genomic Integration of Diabetes Related Genes: A Quest for Development
-    of Biomarkers'
+    - prashbio
+    - harpreetsingh05
+    - bebatut
+  name:
+    "Systems Genomic Integration of Diabetes Related Genes: A Quest for Development
+    of Biomarkers"
   participants:
-  - arvinpreet-kaur
-  - ashutosh-tiwari
-  - robandeep-kaur
-  - mehak-chopra
-  - harpreetsingh05
-  - prashbio
-- description: AKADEMISI PREPRINTS is a free distribution service of preprints from
+    - arvinpreet-kaur
+    - ashutosh-tiwari
+    - robandeep-kaur
+    - mehak-chopra
+    - harpreetsingh05
+    - prashbio
+  status: graduated
+- description:
+    AKADEMISI PREPRINTS is a free distribution service of preprints from
     multidisciplinary fields. The server plans to include connection hub to journals
     and open peer review community. By doing so, we hope to promote the transparency
     and quick visibility of research results to the public.
   keywords:
-  - preprints
-  - open resource
-  - open access
-  - publishing
+    - preprints
+    - open resource
+    - open access
+    - publishing
   mentors:
-  - iratxepuebla
+    - iratxepuebla
   name: Boosting research visibility using Preprints
   participants:
-  - didik-utomo
-  - hzahroh
-  - zenita-milla-luthfiya
-- description: Although there is an increasing number of initiatives in Saudi Arabia
+    - didik-utomo
+    - hzahroh
+    - zenita-milla-luthfiya
+  status: graduated
+- description:
+    Although there is an increasing number of initiatives in Saudi Arabia
     to raise awareness in Data Science (DS) and connect researchers in artificial
     intelligence (AI), there is no single community dedicated to stimulating responsible
     research practices and Open Science policies. I wish (with the help of a mentor)
@@ -524,15 +568,17 @@
     researchers and students who are open and curious about open science but have
     little to no experience with open science practices.
   keywords:
-  - Open science
-  - Saudi Arabia
-  - Community
+    - Open science
+    - Saudi Arabia
+    - Community
   mentors:
-  - anelda
+    - anelda
   name: Open Science Community in Saudi Arabia
   participants:
-  - batoolmm
-- description: 'Biological activity data was retrieved from the ChEMBL database and
+    - batoolmm
+  status: graduated
+- description:
+    "Biological activity data was retrieved from the ChEMBL database and
     pre-processed by selecting the target which was SARS coronavirus 3C-like proteinase
     in the project and the data frame of the target protein was filtered by removing
     the molecules which do not have the standard type as IC50 and those having missing
@@ -543,32 +589,34 @@
     The SMILES notation (representing the unique chemical structure of compounds)
     from the dataset was used to compute the molecular descriptors.
 
-    Lipinski''s descriptors are used in the project which considers molecular weight,
+    Lipinski's descriptors are used in the project which considers molecular weight,
     LogP, number of hydrogen bond donors, and number of hydrogen bond acceptors. These
     descriptors are related to the pharmacokinetic properties of molecules.
 
-    The exploratory data analysis was performed via Lipinski''s descriptors. Simple
+    The exploratory data analysis was performed via Lipinski's descriptors. Simple
     box plots and scatter plots were plotted to discern differences between the active
     and inactive sets of compounds.
 
     Mann-Whitney U test was performed for each descriptor to determine the statistically
-    significant difference between active and inactive molecules.'
+    significant difference between active and inactive molecules."
   keywords:
-  - SARS coronavirus 3C-like proteinase
-  - IC50
-  - pIC50
-  - Bioactivity
-  - Lipinski's rule
-  - Scatter plot
-  - Frequency plot
-  - Box plot
-  - Mann-Whitney test
+    - SARS coronavirus 3C-like proteinase
+    - IC50
+    - pIC50
+    - Bioactivity
+    - Lipinski's rule
+    - Scatter plot
+    - Frequency plot
+    - Box plot
+    - Mann-Whitney test
   mentors:
-  - yochannah
+    - yochannah
   name: COMPUTATIONAL DRUG DISCOVERY (CORONAVIRUS)
   participants:
-  - anshika-sah
-- description: I aim to develop training materials to support the use of open data
+    - anshika-sah
+  status: graduated
+- description:
+    I aim to develop training materials to support the use of open data
     by researchers working on agrobiodiversity conservation. At CONABIO (Mexico),
     a governmental agency that coordinates biodiversity data collection, I collaborate
     in the development of an Agrobiodiversity Information System (SIAgroBD); my role
@@ -586,15 +634,17 @@
     expect this serves as a prototype for advanced training modules that could be
     used by future contributors or other researchers working on agrobiodiversity topics.
   keywords:
-  - agrobiodiversity
-  - open data
-  - oer
+    - agrobiodiversity
+    - open data
+    - oer
   mentors:
-  - pivg
+    - pivg
   name: Skills for Open Agrobiodiversity Data
   participants:
-  - iramosp
-- description: "The project is an open notebook living systematic review of legal\
+    - iramosp
+  status: graduated
+- description:
+    "The project is an open notebook living systematic review of legal\
     \ documents related to postdoctoral scholars and appointments (postdocs). The\
     \ project aims to use the methods of empirical legal scholarship to describe and\
     \ categorize the ways postdoctoral scholars and their appointments have been involved\
@@ -610,21 +660,23 @@
     \ in a services market. \n\nMore information about the project is available on\
     \ GitHub https://github.com/JMMaok/postdoc/projects and Zotero https://www.zotero.org/groups/"
   keywords:
-  - postdoc
-  - empirical legal research
-  - systematic review
-  - public policy
-  - open notebook science
+    - postdoc
+    - empirical legal research
+    - systematic review
+    - public policy
+    - open notebook science
   mentors:
-  - bduckles
+    - bduckles
   name: Postdoc Empirical Legal Research Open Notebook
   participants:
-  - jmmaok
-- description: 'The mission of the UKCRC Tissue Directory and Coordination Centre
-    (UKCRC TDCC) is to maximise the use, value and impact of the UK''s human sample
+    - jmmaok
+  status: graduated
+- description:
+    "The mission of the UKCRC Tissue Directory and Coordination Centre
+    (UKCRC TDCC) is to maximise the use, value and impact of the UK's human sample
     resources in the UK, and beyond. The UKCRC TDCC is creating a world-leading, research-enabling,
     and networked biobanking infrastructure to facilitate the discovery and use of
-    the UK''s human samples and data.
+    the UK's human samples and data.
 
     The UKCRC TDCC works to help researchers discover samples and data, help sample
     resources improve their data systems for sharing, and harmonise policy relating
@@ -632,19 +684,20 @@
 
     The work of the UKCRC TDCC is guided by the belief that the biomedical research
     ecosystem should be based on open standards, open-science, and pre-competitive
-    collaboration.'
+    collaboration."
   keywords:
-  - Biobanking
-  - research
-  - samples
-  - biospecimens
-  - COVID19
+    - Biobanking
+    - research
+    - samples
+    - biospecimens
+    - COVID19
   mentors:
-  - sgibson91
+    - sgibson91
   name: The UKCRC Tissue Directory and Coordination Centre
   participants:
-  - emma-lawrence
-  - jessica-sims
+    - emma-lawrence
+    - jessica-sims
+  status: graduated
 # - description: This is a prototype for target approaches in the stages of disease
 #     prognosis. By creating a constructive study of liver disease and bioinformatics
 #     pipeline. Construction of bioinformatics study to find out the key enzymes responsible
@@ -660,7 +713,8 @@
 #   name: Target Approach in the Stages of Liver Cirrhosis to Reverse Back in Good Condition
 #   participants:
 #   - wasifarahman
-- description: "This work aims to create a Nigerian sentiment corpus, sentiment, and\
+- description:
+    "This work aims to create a Nigerian sentiment corpus, sentiment, and\
     \ hate speech lexicon through manual annotation for three different languages\
     \ (Hausa, Igbo, Yoruba). Our method for the creation of these language resources\
     \ is as follows: \n \n Nigerian Sentiment Corpus: To create the sentiment corpus,\
@@ -685,19 +739,21 @@
     \ guidelines provided by the project teams. \n \n HausaNLP aims to create more\
     \ language resources that can be used to train models in machine learning."
   keywords:
-  - Natural Language Processing
-  - ' Low-resources'
-  - ' Machine Learning'
-  - ' Corpus'
-  - ' Language resources'
+    - Natural Language Processing
+    - " Low-resources"
+    - " Machine Learning"
+    - " Corpus"
+    - " Language resources"
   mentors:
-  - lauracarter
+    - lauracarter
   name: Development of language resources for Hausa Natural Language Processing
   participants:
-  - shmuhammad2004
-  - isahmadbbr
-  - rukynas
-- description: In Europe, prostate cancer (PCa) is the second most frequent type of
+    - shmuhammad2004
+    - isahmadbbr
+    - rukynas
+  status: graduated
+- description:
+    In Europe, prostate cancer (PCa) is the second most frequent type of
     cancer in men and the third most lethal. Current clinical practices, often leading
     to overdiagnosis and overtreatment of indolent tumors, suffer from a lack of precision
     calling for advanced AI models to go beyond SoA. The ProCAncer-I project brings
@@ -715,16 +771,18 @@
     regulatory roadmap for validating the effectiveness of AI-based models for clinical
     decision making.
   keywords:
-  - Prostate Cancer
-  - ' Open Data'
-  - ' Pca'
+    - Prostate Cancer
+    - " Open Data"
+    - " Pca"
   mentors:
-  - harpreetsingh05
+    - harpreetsingh05
   name: ProCancer-I - An AI Platform integrating imaging data and models, supporting precision care through prostate cancer's continuum
   participants:
-  - kon0925
-  - sgsfak
-- description: "The long term project objective is to establish in my university a\
+    - kon0925
+    - sgsfak
+  status: graduated
+- description:
+    "The long term project objective is to establish in my university a\
     \ core-team/lab able to aid the community to design and implement open science\
     \ projects.\n In order to start this long term project I believe that working\
     \ on a use case would help various aspects.\n It will help to coalesce and uniform\
@@ -739,21 +797,22 @@
     \ can be great opportunity to learn the open science approach in an organic way\
     \ and to discover how to do it."
   keywords:
-  - community building
-  - ' Systems Biology'
-  - ' Metabolism'
-  - ' quantitative Life Science'
-  - ' technology'
-  - ' infrastructure'
+    - community building
+    - " Systems Biology"
+    - " Metabolism"
+    - " quantitative Life Science"
+    - " technology"
+    - " infrastructure"
   mentors:
-  - bebatut
+    - bebatut
   name: Seeding
   participants:
-  - pescini
-  - marzia-di-filippo
-  - chiara-damiani
-  - paolo-pedaletti
-- description: "This project will create a network of Open Science (OS) ambassadors\
+    - pescini
+    - marzia-di-filippo
+    - chiara-damiani
+    - paolo-pedaletti
+- description:
+    "This project will create a network of Open Science (OS) ambassadors\
     \ in Spanish Health Research Institutes (HRI). Thus, aiming to implement OS in\
     \ HRI by raising consciousness about its principles that apply to this particular\
     \ field (i.e., reproducibility, transparency, dissemination and data sharing).\
@@ -771,19 +830,22 @@
     \ principles in health research in their institutes. That would allow the progressive\
     \ implementation of OS in HRI."
   keywords:
-  - Health Research Institutes
-  - Network of Open Science Ambassadors
-  - Best practices' Toolkits
-  - Open Science implementation
+    - Health Research Institutes
+    - Network of Open Science Ambassadors
+    - Best practices' Toolkits
+    - Open Science implementation
   mentors:
-  - joyceykao
-  name: Creating a network of Open Science ambassadors in Spanish Health Research
+    - joyceykao
+  name:
+    Creating a network of Open Science ambassadors in Spanish Health Research
     Institutes
   participants:
-  - marta-marin
-  - santi-rello-varona
-  - irisbotas
-- description: "Multimodal and Functional Imaging Laboratory (MAFIL, http://mafil.ceitec.cz/en/)\
+    - marta-marin
+    - santi-rello-varona
+    - irisbotas
+  status: graduated
+- description:
+    "Multimodal and Functional Imaging Laboratory (MAFIL, http://mafil.ceitec.cz/en/)\
     \ is one of core facilities at CEITEC MUNI and part of national large research\
     \ infrastructure Czech-BioImaging and European research infrastructure Euro-BioImaging.\
     \ The main role is to provide access to medical imaging technologies – mainly\
@@ -801,15 +863,18 @@
     \ practise on FAIRification and anonymisation of neuroimaging datasets."
   keywords: []
   mentors:
-  - loubez
-  - bebatut
-  name: 'FAIR MAFIL: FAIRification of imaging/neurophysiological data of MAFIL CEITEC
-    MUNI laboratory for EOSC'
+    - loubez
+    - bebatut
+  name:
+    "FAIR MAFIL: FAIRification of imaging/neurophysiological data of MAFIL CEITEC
+    MUNI laboratory for EOSC"
   participants:
-  - michal-ruzicka
-  - michal-javornik
-  - dudova
-- description: "In The Turing Way, we want to systematically understand community\
+    - michal-ruzicka
+    - michal-javornik
+    - dudova
+  status: graduated
+- description:
+    "In The Turing Way, we want to systematically understand community\
     \ practices including the community engagement pathways, contributors’ roles and\
     \ nature of their participation that have been successful at supporting its community\
     \ of diverse contributors. Simultaneously, we want to identify factors that may\
@@ -828,11 +893,12 @@
     \ inviting their contributions and thoughts."
   keywords: []
   mentors:
-  - malvikasharan
+    - malvikasharan
   name: The Turing Way - Developing a community health report and assessing its impact on the wider data science community
   participants:
-  - ali-humayun
-- description: "I have just started a new role as a Research Application Manager at\
+    - alihumayun
+- description:
+    "I have just started a new role as a Research Application Manager at\
     \ the Turing Institute. My responsibility is to define my own workplan as well\
     \ as guide the development of the workplans of 2 other Research Application Managers\
     \ once they are recruited. This is a new role and we do not yet have a blueprint\
@@ -844,18 +910,20 @@
     \ we create a good basis for open science practices within ASG and hopefully in\
     \ other parts of Turing that RAMs interface with."
   keywords:
-  - open science workflow
-  - ' open source code'
-  - ' stakeholder engagement'
-  - ' research application'
-  - ' ASG'
+    - open science workflow
+    - " open source code"
+    - " stakeholder engagement"
+    - " research application"
+    - " ASG"
   mentors:
-  - malvikasharan
-  name: Developing and embedding open science practices within the Research Application
+    - malvikasharan
+  name:
+    Developing and embedding open science practices within the Research Application
     Management team at Turing
   participants:
-  - aida-turing
-- description: Project aims to connect rural school students to the cities of Nepal
+    - aida-turing
+- description:
+    Project aims to connect rural school students to the cities of Nepal
     and other countries. Pandemic has helped few Nepalese rural schools get internet
     facilities. Our project will take help of internet, online conferencing tool and
     team of young people from different disciplines to connect our little heroes to
@@ -863,19 +931,21 @@
     meeting new friends, learning science, doing DIY innovations and initiating makerspace
     movement through virtual collaborative environment.
   keywords:
-  - online
-  - village
-  - education
-  - DIY
-  - Makerspace
+    - online
+    - village
+    - education
+    - DIY
+    - Makerspace
   mentors:
-  - tlaguna
-  name: 'GyaNamuna: Virtual School Connecting Rural Students To The World'
+    - tlaguna
+  name: "GyaNamuna: Virtual School Connecting Rural Students To The World"
   participants:
-  - prakriti-karki
-  - mohan-gupta
-  - ujwal-shrestha
-- description: "In The Turing Way, we define reproducible research as work that can\
+    - prakriti-karki
+    - mohan-gupta
+    - ujwal-shrestha
+  status: graduated
+- description:
+    "In The Turing Way, we define reproducible research as work that can\
     \ be independently recreated using the same data and code from the original study.\
     \ Reproducible research is necessary to ensure that scientific output can be trusted\
     \ and built upon. Despite this importance, many studies are difficult to reproduce,\
@@ -894,18 +964,20 @@
     \ will also curate relevant guidelines and expert-recommendations. The findings\
     \ will be collaboratively reported as chapters in The Turing Way."
   keywords:
-  - Reproducibility
-  - ' AI trends'
-  - ' Data Science'
-  - ' Reproducible research practices'
-  - ' Computational research methods'
-  - ' Research software'
+    - Reproducibility
+    - " AI trends"
+    - " Data Science"
+    - " Reproducible research practices"
+    - " Computational research methods"
+    - " Research software"
   mentors:
-  - annakrystalli
+    - annakrystalli
   name: Open Source Project for Evaluating Reproducibility Trends in AI Research Projects
   participants:
-  - martinagvilas
-- description: This project aims to devise, develop and implement an online tool that
+    - martinagvilas
+  status: graduated
+- description:
+    This project aims to devise, develop and implement an online tool that
     allows interested users to suggest or contribute to training courses in an open
     source fashion. The tool could involve a GitHub repository where users can suggest
     training ideas, review and comment on existing courses, or share their resources
@@ -914,19 +986,21 @@
     be well placed to support such an engagement stream with the wider community of
     trainers and researchers.
   keywords:
-  - education
-  - ' training'
-  - ' data science'
-  - ' AI'
-  - ' open infrastructure'
-  - ' community'
+    - education
+    - " training"
+    - " data science"
+    - " AI"
+    - " open infrastructure"
+    - " community"
   mentors:
-  - jezcope
-  name: Towards an infrastructure for open-source (online) training in data science
+    - jezcope
+  name:
+    Towards an infrastructure for open-source (online) training in data science
     and AI
   participants:
-  - mihaelanemes
-- description: "As part of the Street Science Community, we successfully developed\
+    - mihaelanemes
+- description:
+    "As part of the Street Science Community, we successfully developed\
     \ the BeerDeCoded project: a hands-on workshop for pupils and citizens with the\
     \ general aim of scientific outreach. During these workshops, we help participants\
     \ to extract and identify different yeasts contained in a beer sample. The identification\
@@ -944,16 +1018,18 @@
     \ with the Galaxy community on the technical part and with teachers on the pedagogical\
     \ and gamification side."
   keywords:
-  - citizens science
-  - ' DNA sequencing'
-  - ' metagenomics'
-  - ' Galaxy'
+    - citizens science
+    - " DNA sequencing"
+    - " metagenomics"
+    - " Galaxy"
   mentors:
-  - yvanlebras
-  name: Implementing a series of pedagogical games to teach pupils and citizens (metagenomic)
+    - yvanlebras
+  name:
+    Implementing a series of pedagogical games to teach pupils and citizens (metagenomic)
     data analysis
   participants:
-  - teresa-m
-  - khanteymoori
-  - masako-kaufmann
-  - heylf
+    - teresa-m
+    - khanteymoori
+    - masako-kaufmann
+    - heylf
+  status: graduated

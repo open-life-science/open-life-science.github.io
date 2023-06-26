@@ -9,7 +9,7 @@
 #       duration: .. min
 #       title:
 #       date: Month Day, Year
-#       time: '14:00'
+#       time: '13:00'
 #       calendar-event: link to calendar event
 #       agenda: tldr
 #       notes: link to notes
@@ -88,7 +88,7 @@ weeks:
         duration: 60 min
         title: Mentor training
         date: January 17, 2020
-        time: '17:00'
+        time: '16:00'
         content: |
           During our first cohort call, you will:
           - Understand common successes and challenges in mentoring OLS participants.
@@ -98,7 +98,7 @@ weeks:
         duration: 60 min
         title: Mentor training
         date: January 20, 2020
-        time: '12:00'
+        time: '11:00'
         content: |
           During our first cohort call, you will:
           - Understand common successes and challenges in mentoring OLS participants.
@@ -111,7 +111,7 @@ weeks:
         duration: 90 min
         title: Welcome to Open Life Science!
         date: January 29, 2020
-        time: '14:00'
+        time: '13:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=NmIzdWlmZTR2cG9uaXU5a2IxcGVvMm5icG8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         agenda: Meet other members of your cohort, Share project vision, Intro to working openly (open canvas)
         notes: https://docs.google.com/document/d/1q9HnEKKX2y50JiovpTDaOziFI0iDmPGYxvelUXuES90/edit?usp=sharing
@@ -192,7 +192,7 @@ weeks:
         duration: 90 min
         title: Tooling and roadmapping for Open projects
         date: February 12, 2020
-        time: '19:00'
+        time: '18:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MTFnaW44c2RyYWprMGF0ZnFjdmxjcG82YTQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         agenda: 'Working with GitHub as a community hub: Markdown as a tool to make websites, Licence, Goals and Roadmap, Contributors, Code of Conduct'
         notes: https://docs.google.com/document/d/1KmXb7Vf-J7J8YolTEhc-YFrDHfz6GfOS3LHxLTcrELs/edit?usp=sharing
@@ -256,7 +256,7 @@ weeks:
         duration: 90 min
         title: GitHub Tutorial
         date: February 19, 2020
-        time: '14:00'
+        time: '13:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MzEzaWltNDhrcThwZ3ZlOGdyZHAzMGRsNzEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://docs.google.com/document/d/1HeWcj5RuouvHjx2x-AgL92qEwhRosE_qRknaWmCBWM4/edit?usp=sharing
         recording: https://www.youtube.com/watch?v=QRUvQgKbVZQ
@@ -328,7 +328,7 @@ weeks:
         duration: 90 min
         title: 'Open Science I: Project Development'
         date: February 26, 2020
-        time: '14:00'
+        time: '13:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MHMyc3FzMmtxdDBtdWR1a2drcjdzMTFtdDkgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         agenda: 'Developing Open Projects: Open-Source, Software, Hardware, Data'
         notes: https://docs.google.com/document/d/1Nbu2XycI2q9kVg3YAY-LtWsGPYj63xlGLXEthCv_9SA/edit?usp=sharing
@@ -392,7 +392,7 @@ weeks:
         duration: 60 min
         title: Mentor training
         date: March 5, 2020
-        time: '20:30'
+        time: '19:30'
         content: |
           During our first cohort call, you will:
           - Share your experience been so far as a mentor in OLS-1
@@ -405,7 +405,7 @@ weeks:
         duration: 90 min
         title: 'Open Science II: Knowledge Dissemination'
         date: March 11, 2020
-        time: '19:00'
+        time: '18:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=M3U0OGZjbGY1aTYxYW5ua3Z1YWYxbGV1cXQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         agenda: 'Sharing Open Project: Preprint publications, DOI and citation, Open protocols, Open Education & Training'
         notes: https://docs.google.com/document/d/19o-BXGx6Q7Rc2-jlW76HRoi_onKmAidtIFWXvYVXqOA/edit?usp=sharing
@@ -437,7 +437,7 @@ weeks:
           -
             type: slides
             title: Pre-print and open review
-            speaker: Demellina
+            speaker: demellina
             link: https://f1000-my.sharepoint.com/:p:/g/personal/demitra_ellina_f1000_online/Ed5_RBaVrrlGmZzicLlHESsBzCy2eW52SzoNTE3VBkzEDQ?e=tLWn2E
           -
             type: slides
@@ -487,7 +487,7 @@ weeks:
         duration: 90 min
         title: 'Designing & Empowering for inclusivity'
         date: March 25, 2020
-        time: '14:00'
+        time: '13:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MXA4Nm4wYXRqaG01ZmcwOHRzYjR1OWpqcTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         agenda: Personas and pathways for contributors, Implicit bias & mental health care, Community interactions & Ally-skill
         notes: https://docs.google.com/document/d/1YF3Uw-fU2-mhf-FyuPdx07KSTSlvnBZeMbQdQGJq4A4/edit?usp=sharing
@@ -561,7 +561,7 @@ weeks:
         duration: 90 min
         title: 'Mental health care, Ally skills and Career Guidance Call'
         date: April 1, 2020
-        time: '19:00'
+        time: '17:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MG1ra3N1cmlzM2ZobHVkOWo2YTc5cThodm8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://docs.google.com/document/d/1kKXcwsVRnM05W4ZWfGwnaTJlLXvqnP7JVCOpqcvo6vU/edit
         recording: https://www.youtube.com/watch?v=un4lsSMdAB0
@@ -595,7 +595,7 @@ weeks:
           -
             type: slides
             title: Leadership in training and education
-            speaker: JasonJWilliamsNY
+            speaker: jasonjwilliamsny
           -
             type: slides
             title: Personal Ecology and Self care
@@ -631,7 +631,7 @@ weeks:
         duration: 90 min
         title: 'Open Agenda - Social Call'
         date: April 15, 2020
-        time: '14:00'
+        time: '12:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=N2drNnZvbHRhY2ZxYjZhOTBlcWNqc29vYjAgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         notes: https://docs.google.com/document/d/1f2Y3SCB9OOuxdd5TDehOuynTXvWA6cc13lK5AovgEdI/edit?usp=sharing
         content: |
@@ -660,7 +660,7 @@ weeks:
         duration: 90 min
         title: 'Group 1 - Final presentation rehearsal'
         date: April 22, 2020
-        time: '19:00'
+        time: '17:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
         agenda: Test of the final demos for the group 1
         notes: https://docs.google.com/document/d/1rM6Msvj2ReaUFkEy8CPKyXSAC3RY7xnamkttug0M6PM/edit?usp=sharing
@@ -699,7 +699,7 @@ weeks:
         duration: 90 min
         title: 'Group 1 - Final presentations & Graduation!'
         date: April 29, 2020
-        time: '19:00'
+        time: '17:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MnRsY291Y3U3ZmxuMDMxYmg3bnBnNTRtcTYgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
         agenda: '5-minute demos of projects for group 1 (Audience: entire community & public, Open and recorded call)'
         notes: https://docs.google.com/document/d/1zfn5hLldbti-K4L244_4A6wGc80FymKTeixN8cWXq2Q/edit?usp=sharing
@@ -738,7 +738,7 @@ weeks:
         duration: 90 min
         title: 'Group 2 - Final presentation rehearsal'
         date: May 13, 2020
-        time: '19:00'
+        time: '17:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=Xzg5MzNjY2E0ODkyazJiYTU4NHBqYWI5azcwbzQ2YjlwNzByajBiOW03MTJqOGMxbTZkMmo0Z2kxNm8gYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
         agenda: Test of the final demos for the group 2
         notes: https://docs.google.com/document/d/1PG3jXV1A9OjFR1EEZ0rNafbD-oJdp3R4rGL2VzPbAaA/edit?usp=sharing
@@ -777,7 +777,7 @@ weeks:
         duration: 90 min
         title: 'Group 2 - Final presentations & Graduation!'
         date: May 20, 2020
-        time: '19:00'
+        time: '17:00'
         calendar-event: https://calendar.google.com/event?action=TEMPLATE&tmeid=XzY5MGpjYzI1OGNvazJiYTM2NHBqNGI5azZjcTNpYmExODRvNDZiYTI4NTEzMGc5bTc0cmthaDI2NnMgYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com
         agenda: '5-minute demos of projects for group 2 (Audience: entire community & public, Open and recorded call)'
         notes: https://docs.google.com/document/d/1idZpXvmqqRNYN1KfAbHKpeLToqIvlcm1SVc6ln-fRGA/edit?usp=sharing

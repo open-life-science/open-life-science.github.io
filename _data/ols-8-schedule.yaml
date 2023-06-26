@@ -4,7 +4,8 @@ timeline:
 - date: June 1, 2023
   description: Call for Application opens
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
-- date: null
+- date: June 9, 2023
+  time: '10:00'
   description: Application webinar
   type:
   - Talk
@@ -12,7 +13,8 @@ timeline:
   notes: null
   recording: null
   details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
-- date: null
+- date: June 28, 2023
+  time: '17:00'
   description: Application Clinic Call
   type:
   - Q&A
@@ -34,7 +36,7 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '16:00'
+    - time: '14:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -42,7 +44,7 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 1
       type: Mentor
-    - time: '10:00'
+    - time: '08:00'
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -54,7 +56,7 @@ weeks:
     start: September 25, 2023
     calls:
     - date: September 27, 2023
-      time: '13:30'
+      time: '11:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-02
       content: |-
@@ -77,20 +79,11 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources:
-      - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
-        type: slides
-        title: Welcome to OLS!
-      - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
-        type: slides
-        title: Introducing Open Canvas
-      - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
-        type: slides
-        title: Introducing Road Mapping
-    - time: '18:00'
+    - time: '16:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
-    - time: '10:00'
+    - time: '08:00'
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
@@ -101,7 +94,7 @@ weeks:
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 04, 2023
-      time: '18:00'
+      time: '16:00'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-03
       content: |-
@@ -124,20 +117,11 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources:
-      - link: https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
-        type: slides
-        title: Welcome to OLS!
-      - link: https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
-        type: slides
-        title: Introducing Open Canvas
-      - link: https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
-        type: slides
-        title: Introducing Road Mapping
   '04':
     start: October 09, 2023
     calls:
     - date: October 11, 2023
-      time: '18:00'
+      time: '16:00'
       duration: 90 min
       notes: https://bit.ly/ols-5-week-04
       content: "In this call, participants will:\n- Look at project structure as we\
@@ -162,15 +146,6 @@ weeks:
         - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources:
-      - link: https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
-        type: slides
-        title: Open Licensing
-      - link: https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
-        type: slides
-        title: README
-      - link: https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
-        type: slides
-        title: Contributing Guidelines and Code of Conduct
   '05':
     start: October 16, 2023
     calls:
@@ -178,7 +153,7 @@ weeks:
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
     - date: October 18, 2023
-      time: '13:30'
+      time: '11:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-05
       content: |-
@@ -197,21 +172,18 @@ weeks:
         - Comment of 1-2 project's recent post (vision, open canvas etc.)
         - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
       resources:
-      - link: https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
-        type: slides
-        title: Introduction to GitHub
   '06':
     start: October 23, 2023
     calls:
     - date: October 25, 2023
-      time: '13:30'
+      time: '11:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-06
       content: |-
         In this call, participants will:
         - Hear about Iterative Project management
         - Get familiar with Open Software, Open Hardware, Research Data Management
-      title: 'Open Science I: Project Development and Introduction to Working Open'
+      title: Open Science Garden I
       type: Cohort
       before: '- Look up two other projects and comment on their issues with feedback
         on their README'
@@ -223,16 +195,6 @@ weeks:
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
         - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
       resources:
-      - link: https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
-        type: slides
-        title: Agile & Iterative Project Management Methods
-      - type: slides
-        title: 'Case study 1: Managing & developing an Open Source Software project'
-      - link: https://doi.org/10.5281/zenodo.5582718
-        type: slides
-        title: 'Case study 2: Managing & developing research data (RDM)'
-      - type: slides
-        title: 'Case study 3: Managing & developing an open hardware project'
   '07':
     start: October 30, 2023
     calls:
@@ -240,16 +202,16 @@ weeks:
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 01, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 30 min
       notes: https://bit.ly/ols-8-week-07
       title: Q&A call
       type: Q&A
-  08:
+  '08':
     start: November 06, 2023
     calls:
     - date: November 08, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-08
       content: |-
@@ -263,26 +225,14 @@ weeks:
         \ assignment\n- Think through community interactions\n- Complete the midterm\
         \ survey\n      \n        "
       resources:
-      - link: https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
-        type: slides
-        title: Using Personas and Pathways to Build Community
-      - link: https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
-        type: slides
-        title: Mountain of Engagement
-      - link: https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
-        type: slides
-        title: Mentored contributions
-      - link: https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
-        type: slides
-        title: Community interactions
-  09:
+  '09':
     start: November 13, 2023
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 15, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-09
       content: "In this call, participants will:\n- Hear from the professionals from\
@@ -302,19 +252,11 @@ weeks:
         - do you want to switch your career or field? Why or why not?      \n    \
         \  \n        "
       resources:
-      - type: slides
-        title: Post-academia career path, Social entrepreneurship
-      - type: slides
-        title: Academic leadership, group or project leaders
-      - type: slides
-        title: Community building, Science Communication
-      - type: slides
-        title: Policymakers, funders, meta-researchers
   '10':
     start: November 20, 2023
     calls:
     - date: November 22, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-10
       content: |-
@@ -323,7 +265,7 @@ weeks:
         - DOI and citations: Paper, data, preprints, blogs
         - Non-tradtional publication: pre-registrations, code, protocols, training materials
         - Public engagement: Citizen Science/Participatory research, Scientific communication
-      title: 'Open Science II: Knowledge Dissemination'
+      title: Open Science Garden II
       type: Cohort
       before: |-
         - Create a project development plan for your project
@@ -332,16 +274,6 @@ weeks:
         - Make sure that by now you have added a license, contribution guideline and a Code of Conduct in your GitHub repository. If you feel stuck and don’t know where you start, take a look at [this repo](https://github.com/malvikasharan/developing_collaborative_document)
         - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-4/issues) with feedback on their project
       resources:
-      - link: https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
-        type: slides
-        title: 'DOI and Citations: Preprints, pre-registration, open review'
-      - link: https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
-        type: slides
-        title: 'Non-traditional publication: Open protocols, registered reports, citable
-          code, training resources'
-      - link: https://zenodo.org/record/4651431
-        type: slides
-        title: 'Public engagement: Citizen Science, Science Communication'
   '11':
     start: November 27, 2023
     calls:
@@ -349,39 +281,21 @@ weeks:
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
     - date: November 29, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 30 min
       notes: https://bit.ly/ols-8-week-11
-      title: Q&A call
-      type: Q&A
+      title: Open-source software
+      type: Skill-up
   '12':
     start: December 04, 2023
     calls:
     - date: December 06, 2023
-      time: '18:00'
+      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-12
-      title: Diversity and Inclusion & Ally skills
+      title: Open Science Garden III
       type: Cohort
-      before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)\
-        \ complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes) \
-        \     \n   - You can 'continue as a guest' by choosing your country\n   -\
-        \ Answer these questions when you've finished the implicit association test:\
-        \ What does inclusion mean to you? Did your results of the implicit association\
-        \ test surprise you?\n- Think how people step up for you in social scenarios\
-        \ and how you step up for them to support each other:\n   - What do your colleagues\
-        \ do to make your workplace inclusive for you?\n   - What do you do to make\
-        \ your workplace inclusive for them?\n   The big idea: Based on your experience,\
-        \ what would you consider doing to make your project inclusive for your contributors\
-        \ or team members?"
       resources:
-      - link: https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
-        type: slides
-        title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
-          matter?)'
-      - link: https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
-        type: slides
-        title: Ally skills - Optional
   '13':
     start: December 11, 2023
     calls:
@@ -389,7 +303,7 @@ weeks:
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
     - date: December 13, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-13
       content: |-
@@ -405,32 +319,18 @@ weeks:
         \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
         \     "
       resources:
-      - link: https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
-        type: slides
-        title: Personal Ecology and Self Care
   '14':
     start: December 18, 2023
     calls:
     - date: December 20, 2023
-      time: '13:30'
+      time: '12:30'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-14
-      content: "In this call, participants will:\n- Learn how to apply FAIR research\
-        \ principles on data, software, training to make research \"as open as possible,\
-        \ as restricted as necessary.\"\n      \n        "
-      title: 'Open Science III: Next steps - applying FAIR research principles'
+      content: 
+      title: Diversity and Inclusion & Ally skills
       type: Cohort
-      after: '- Think about and plan to apply FAIR principles to your project in your
-        own time'
+      after: 
       resources:
-      - link: https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
-        type: slides
-        title: FAIR Data
-      - link: https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
-        type: slides
-        title: FAIR Training
-      - type: slides
-        title: FAIR software
   '15':
     start: January 08, 2024
     calls:

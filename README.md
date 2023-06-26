@@ -45,6 +45,7 @@ supportive environment for everyone who wants to participate. When you join us,
 we ask that you follow our [code of conduct](CODE_OF_CONDUCT.md) in all
 interactions, both on and offline.
 
+
 ## How can I generate the website and contribute using GitPod?
 
 [GitPod](https://www.gitpod.io/) is an open-source developer platform for remote development. You can use it to generate the website without installing anything on your computer.
@@ -437,3 +438,10 @@ To order them:
    ```
 
 3. Update `_config.yml` file to add new cohort in collection
+
+
+## License
+
+The content of this website are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
+
+The code behind the infrastructure is licensed under the [MIT License](LICENSE.md)
