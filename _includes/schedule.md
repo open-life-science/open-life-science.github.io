@@ -112,7 +112,7 @@
             "url": "{{ site.url }}"
         }]
     }      
-    {%- unless forloop.last -%} {%- assign sep="," -%} {%- endunless -%}
+        {%- assign sep="," -%}
         {%- endif -%}
     {%- endfor -%}
 {%- endfor -%}
