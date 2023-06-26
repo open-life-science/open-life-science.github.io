@@ -44,3 +44,4 @@ includes_dir: .
 plugins:
   - jekyll-last-modified-at
   - jekyll-redirect-from
+  - jekyll-sitemap
