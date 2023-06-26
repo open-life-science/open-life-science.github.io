@@ -8,160 +8,7 @@ photos:
   url: https://flic.kr/p/2gHNtNq
 ---
 
-
-<!-- OLS-1 -->
-{% assign ols-1-projects = site.data.ols-1-projects %}
-{% assign ols-1-experts = site.data.ols-1-metadata.experts %}
-{% assign mentors = '' %}
-{% assign participants = '' %}
-{% for project in ols-1-projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-{% assign ols-1-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-1-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-1-schedule = site.data.ols-1-schedule %}
-{% assign ols-1-end = '' %}
-{% for w in ols-1-schedule.weeks %}
-    {% assign ols-1-end = w[1].start %}
-{% endfor %}
-<!-- OLS-2 -->
-{% assign ols-2-projects = site.data.ols-2-projects %}
-{% assign ols-2-experts = site.data.ols-2-metadata.experts %}
-{% assign mentors = '' %}
-{% assign participants = '' %}
-{% for project in ols-2-projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-{% assign ols-2-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-2-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-2-schedule = site.data.ols-2-schedule %}
-{% assign ols-2-end = '' %}
-{% for w in ols-2-schedule.weeks %}
-    {% assign ols-2-end = w[1].start %}
-{% endfor %}
-<!-- OLS-3 -->
-{% assign ols-3-projects = site.data.ols-3-projects %}
-{% assign ols-3-experts = site.data.ols-3-metadata.experts %}
-{% assign ols-3-facilitators = site.data.ols-3-metadata.facilitators %}
-{% assign mentors = '' %}
-{% assign participants = '' %}
-{% for project in ols-3-projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-{% assign ols-3-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-3-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-3-schedule = site.data.ols-3-schedule %}
-{% assign ols-3-end = '' %}
-{% for w in ols-3-schedule.weeks %}
-    {% assign ols-3-end = w[1].start %}
-{% endfor %}
-<!-- OLS-4-->
-{% assign ols-4-projects = site.data.ols-4-projects %}
-{% assign ols-4-experts = site.data.ols-4-metadata.experts %}
-{% assign ols-4-facilitators = site.data.ols-4-metadata.facilitators %}
-{% assign mentors = '' %}
-{% assign participants = '' %}
-{% for project in ols-4-projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-{% assign ols-4-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-4-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-4-schedule = site.data.ols-4-schedule %}
-{% assign ols-4-end = '' %}
-{% for w in ols-4-schedule.weeks %}
-    {% assign ols-4-end = w[1].start %}
-{% endfor %}
-<!-- OLS-5-->
-{% assign ols-5-projects = site.data.ols-5-projects %}
-{% assign ols-5-experts = site.data.ols-5-metadata.experts %}
-{% assign ols-5-facilitators = site.data.ols-5-metadata.facilitators %}
-{% assign mentors = '' %}
-{% assign participants = '' %}
-{% for project in ols-5-projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-{% assign ols-5-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-5-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-5-schedule = site.data.ols-5-schedule %}
-{% assign ols-5-end = '' %}
-{% for w in ols-5-schedule.weeks %}
-    {% assign ols-5-end = w[1].start %}
-{% endfor %}
-<!-- OLS-6-->
-{% assign ols-6-projects = site.data.ols-6-projects %}
-{% assign ols-6-experts = site.data.ols-6-metadata.experts %}
-{% assign ols-6-facilitators = site.data.ols-6-metadata.facilitators %}
-{% assign mentors = '' %}
-{% assign participants = '' %}
-{% for project in ols-6-projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-{% assign ols-6-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-6-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-6-schedule = site.data.ols-6-schedule %}
-{% assign ols-6-end = '' %}
-{% for w in ols-6-schedule.weeks %}
-    {% assign ols-6-end = w[1].start %}
-{% endfor %}
-
-<!--OLS-7-->
-{% assign ols-7-projects = site.data.ols-7-projects %}
-{% assign ols-7-experts = site.data.ols-7-metadata.experts %}
-{% assign ols-7-facilitators = site.data.ols-7-metadata.facilitators %}
-{% assign mentors = '' %}
-{% assign participants = '' %}
-{% for project in ols-7-projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture participants %}{{ participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture mentors %}{{ mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-{% assign ols-7-mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-7-participants = participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign ols-7-schedule = site.data.ols-7-schedule %}
-{% assign ols-7-end = '' %}
-{% for w in ols-7-schedule.weeks %}
-    {% assign ols-7-end = w[1].start %}
-{% endfor %}
+{% include _includes/cohort-loop.html %}
 
 *To illustrate the OLS journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their open science training.*
 
@@ -198,13 +45,29 @@ Participants join this program with a project that they either are already worki
 Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
 **Check out the projects developed in the previous cohorts:**
-- [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects) ([{{ ols-1-participants | size }} participants](/ols-1/projects-participants#participants)) for [**OLS-1**]({% link ols-1.md %}) ({{ ols-1-schedule.weeks['01'].start }} - {{ ols-1-end }})
-- [{{ ols-2-projects | size }} projects](/ols-2/projects-participants#projects) ([{{ ols-2-participants | size }} participants](/ols-2/projects-participants#participants)) for [**OLS-2**]({% link ols-2.md %}) ({{ ols-2-schedule.weeks['01'].start }} - {{ ols-2-end }})
-- [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects) ([{{ ols-3-participants | size }} participants](/ols-3/projects-participants#participants)) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
-- [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects) ([{{ ols-4-participants | size }} participants](/ols-4/projects-participants#participants)) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
-- [{{ ols-5-projects | size }} projects](/ols-5/projects-participants#projects) ([{{ ols-5-participants | size }} participants](/ols-5/projects-participants#participants)) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
-- [{{ ols-6-projects | size }} projects](/ols-6/projects-participants#projects) ([{{ ols-6-participants | size }} participants](/ols-6/projects-participants#participants)) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
-- [{{ ols-7-projects | size }} projects](/ols-7/projects-participants#projects) ([{{ ols-7-participants | size }} participants](/ols-7/projects-participants#participants)) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
+{% for cohort_folder in cohorts %}
+{% assign cohortName = cohort_folder[0] %}
+{% assign cohortData = cohort_folder[1] %}
+
+{%- assign projects = site.data.cohorts[cohortName].projects -%}
+{%- assign schedule = site.data.cohorts[cohortName].schedule -%}
+{%- assign cohortStart = schedule.weeks['01'].start -%}
+{%- assign cohortEnd = '' -%}
+
+    {%- for week in schedule.weeks -%}
+    {%- assign cohortEnd = week[1].start -%}
+    {%- endfor -%}
+
+    {%- assign participants = '' -%}
+    {%- for project in projects -%}
+    {%- for p in project.participants -%}
+        {%- capture participants %}{{ participants }}, {{ p }}{% endcapture -%}
+    {%- endfor -%}
+    {%- endfor -%}
+    {%- assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size -%}
+
+- [{{ projects | size }} projects](/{{ cohortName }}/projects-participants#projects) ([{{ participants }} participants](/{{ cohortName }}/projects-participants#participants)) for [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{% endfor %}
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
 
@@ -269,14 +132,29 @@ A mentee dedicates about 2 hours per week to the program to attend cohort/mentor
 Recruitment of the mentees for the next cohort will start in few months. Stay tuned!
 
 ### Our mentees
+{% for cohort_folder in cohorts %}
+{% assign cohortName = cohort_folder[0] %}
+{% assign cohortData = cohort_folder[1] %}
 
-- [{{ ols-1-participants | size }} mentees](/ols-1/projects-participants#participants) working on [{{ ols-1-projects | size }} projects](/ols-1/projects-participants#projects) for [**OLS-1**]({% link ols-1.md %}) ({{ ols-1-schedule.weeks['01'].start }} - {{ ols-1-end }})
-- [{{ ols-2-participants | size }} mentees](/ols-2/projects-participants#participants) working on [{{ ols-2-projects | size }} projects](/ols-2/projects-participants#projects) for [**OLS-2**]({% link ols-2.md %}) ({{ ols-2-schedule.weeks['01'].start }} - {{ ols-2-end }})
-- [{{ ols-3-participants | size }} mentees](/ols-3/projects-participants#participants) working on [{{ ols-3-projects | size }} projects](/ols-3/projects-participants#projects) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
-- [{{ ols-4-participants | size }} mentees](/ols-4/projects-participants#participants) working on [{{ ols-4-projects | size }} projects](/ols-4/projects-participants#projects) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
-- [{{ ols-5-participants | size }} mentees](/ols-5/projects-participants#participants) working on [{{ ols-5-projects | size }} projects](/ols-5/projects-participants#projects) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
-- [{{ ols-6-participants | size }} mentees](/ols-6/projects-participants#participants) working on [{{ ols-6-projects | size }} projects](/ols-6/projects-participants#projects) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
-- [{{ ols-7-participants | size }} mentees](/ols-7/projects-participants#participants) working on [{{ ols-7-projects | size }} projects](/ols-7/projects-participants#projects) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
+{%- assign projects = site.data.cohorts[cohortName].projects -%}
+{%- assign schedule = site.data.cohorts[cohortName].schedule -%}
+{%- assign cohortStart = schedule.weeks['01'].start -%}
+{%- assign cohortEnd = '' -%}
+
+    {%- for week in schedule.weeks -%}
+    {%- assign cohortEnd = week[1].start -%}
+    {%- endfor -%}
+
+    {%- assign participants = '' -%}
+        {%- for project in projects -%}
+        {%- for p in project.participants -%}
+            {%- capture participants %}{{ participants }}, {{ p }}{% endcapture -%}
+        {%- endfor -%}
+        {%- endfor -%}
+    {%- assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size -%}
+
+- [{{ participants }} mentees](/{{ cohortName }}/projects-participants#participants) working on ([{{ projects | size }} projects](/{{ cohortName }}/projects-participants#projects)) for [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{% endfor %}
 
 ## Mentors
 
@@ -318,13 +196,29 @@ Mentoring is usually an invitation-based role. Mentors join by graduating from a
 
 Our program is only possible thanks to our awesome mentors:
 
-- [{{ ols-1-mentors | size }} mentors](/ols-1#mentors) for [**OLS-1**]({% link ols-1.md %}) ({{ ols-1-schedule.weeks['01'].start }} - {{ ols-1-end }})
-- [{{ ols-2-mentors | size }} mentors](/ols-2#mentors) for [**OLS-2**]({% link ols-2.md %}) ({{ ols-2-schedule.weeks['01'].start }} - {{ ols-2-end }})
-- [{{ ols-3-mentors | size }} mentors](/ols-3#mentors) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
-- [{{ ols-4-mentors | size }} mentors](/ols-4#mentors) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
-- [{{ ols-5-mentors | size }} mentors](/ols-5#mentors) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
-- [{{ ols-6-mentors | size }} mentors](/ols-6#mentors) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
-- [{{ ols-7-mentors | size }} mentors](/ols-7#mentors) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
+{% for cohort_folder in cohorts %}
+{% assign cohortName = cohort_folder[0] %}
+{% assign cohortData = cohort_folder[1] %}
+
+{%- assign projects = site.data.cohorts[cohortName].projects -%}
+{%- assign schedule = site.data.cohorts[cohortName].schedule -%}
+{%- assign cohortStart = schedule.weeks['01'].start -%}
+{%- assign cohortEnd = '' -%}
+    
+    {%- for week in schedule.weeks -%}
+    {%- assign cohortEnd = week[1].start -%}
+    {%- endfor -%}
+
+    {%- assign mentors = '' -%}
+    {%- for project in projects -%}
+    {%- for mentor in project.mentors -%}
+        {%- capture mentors %}{{ mentors }}, {{ mentor }}{% endcapture -%}
+    {%- endfor -%}
+    {%- endfor -%}
+    {%- assign mentors = mentors | remove_first: ', ' | split: ', ' | uniq | size -%}
+
+- [{{ mentors }} mentors](/{{ cohortName }}#mentors) for [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{% endfor %}
 
 ## Experts
 
@@ -349,14 +243,21 @@ Experts may be invited to:
 We are currently recruiting the experts - this route is a good way to join the program if you are already an open research practitioner and don't wish to participate as a cohort member.
 
 ### Our experts
+{% for cohort_folder in cohorts %}
+{% assign cohortName = cohort_folder[0] %}
+{% assign cohortData = cohort_folder[1] %}
+{%- assign experts = site.data.cohorts[cohortName].metadata.experts | uniq | size -%}
 
-- [{{ ols-1-experts | uniq | size }} experts](/ols-1#experts) for [**OLS-1**]({% link ols-1.md %}) ({{ ols-1-schedule.weeks['01'].start }} - {{ ols-1-end }})
-- [{{ ols-2-experts | uniq | size }} experts](/ols-2#experts) for [**OLS-2**]({% link ols-2.md %}) ({{ ols-2-schedule.weeks['01'].start }} - {{ ols-2-end }})
-- [{{ ols-3-experts | uniq | size }} experts](/ols-3#experts) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
-- [{{ ols-4-experts | uniq | size }} experts](/ols-4#experts) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
-- [{{ ols-5-experts | uniq | size }} experts](/ols-5#experts) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
-- [{{ ols-6-experts | uniq | size }} experts](/ols-6#experts) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
-- [{{ ols-7-experts | uniq | size }} experts](/ols-7#experts) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
+{%- assign projects = site.data.cohorts[cohortName].projects -%}
+{%- assign schedule = site.data.cohorts[cohortName].schedule -%}
+{%- assign cohortStart = schedule.weeks['01'].start -%}
+{%- assign cohortEnd = '' -%}
+    {%- for week in schedule.weeks -%}
+    {%- assign cohortEnd = week[1].start -%}
+    {%- endfor -%}
+
+- [{{ experts }} experts ](/{{ cohortName }}#experts) for [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{% endfor %}
 
 ## Facilitators
 
@@ -379,9 +280,20 @@ This is an invitation-based role. Facilitators are offered an honourarium in rec
 ### Our facilitators
 
 Our facilitators are essential for the program:
+{% for cohort_folder in cohorts %}
+  {% assign cohortName = cohort_folder[0] %}
+  {% assign cohortData = cohort_folder[1] %}
+    {%- assign facilitators = site.data.cohorts[cohortName].metadata.facilitators | uniq | size -%}
+  
+  {%- assign projects = site.data.cohorts[cohortName].projects -%}
+  {%- assign schedule = site.data.cohorts[cohortName].schedule -%}
+  {%- assign cohortStart = schedule.weeks['01'].start -%}
+  {%- assign cohortEnd = '' -%}
+  {%- for week in schedule.weeks -%}
+    {%- assign cohortEnd = week[1].start -%}
+  {%- endfor -%}
 
-- [{{ ols-3-facilitators | uniq | size }} facilitator(s)](/ols-3#facilitators) for [**OLS-3**]({% link ols-3.md %}) ({{ ols-3-schedule.weeks['01'].start }} - {{ ols-3-end }})
-- [{{ ols-4-facilitators | uniq | size }} facilitator(s)](/ols-4#facilitators) for [**OLS-4**]({% link ols-4.md %}) ({{ ols-4-schedule.weeks['01'].start }} - {{ ols-4-end }})
-- [{{ ols-5-facilitators | uniq | size }} facilitator(s)](/ols-5#facilitators) for [**OLS-5**]({% link ols-5.md %}) ({{ ols-5-schedule.weeks['01'].start }} - {{ ols-5-end }})
-- [{{ ols-6-facilitators | uniq | size }} facilitator(s)](/ols-6#facilitators) for [**OLS-6**]({% link ols-6.md %}) ({{ ols-6-schedule.weeks['01'].start }} - {{ ols-6-end }})
-- [{{ ols-7-facilitators | uniq | size }} facilitator(s)](/ols-7#facilitators) for [**OLS-7**]({% link ols-7.md %}) ({{ ols-7-schedule.weeks['01'].start }} - {{ ols-7-end }})
+{%- if facilitators.size > 0 -%}
+- [{{ facilitators }} facilitators](/{{ cohortName }}#facilitators) [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{%- endif -%}
+{% endfor %}
