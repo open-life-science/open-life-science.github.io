@@ -2,7 +2,7 @@
 layout: post
 title: My OLS Mentorship Journey 
 authors: richarddushime
-image: /images/2023-06-14-richard-ols-mentorship-journey/Graduation.png
+image: /images/2023-06-14-richard-ols-mentorship-journey/home.png
 ---
 
 > "***✨Joining OLS mentorship is not just about learning and growing; it's about being part of a supportive community that empowers you to reach your full potential.✨***"
