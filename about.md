@@ -66,7 +66,9 @@ Project ideas can range from solving technical questions to creating an open d
     {%- endfor -%}
     {%- assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size -%}
 
+{%- if projects > 0 -%}
 - [{{ projects | size }} projects](/{{ cohortName }}/projects-participants#projects) ([{{ participants }} participants](/{{ cohortName }}/projects-participants#participants)) for [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{%- endif -%}
 {% endfor %}
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
@@ -153,7 +155,9 @@ Recruitment of the mentees for the next cohort will start in few months. Stay tu
         {%- endfor -%}
     {%- assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size -%}
 
+{%- if participants > 0 -%}
 - [{{ participants }} mentees](/{{ cohortName }}/projects-participants#participants) working on ([{{ projects | size }} projects](/{{ cohortName }}/projects-participants#projects)) for [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{%- endif -%}
 {% endfor %}
 
 ## Mentors
@@ -217,7 +221,9 @@ Our program is only possible thanks to our awesome mentors:
     {%- endfor -%}
     {%- assign mentors = mentors | remove_first: ', ' | split: ', ' | uniq | size -%}
 
+{%- if mentors > 0 -%}
 - [{{ mentors }} mentors](/{{ cohortName }}#mentors) for [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{%- endif -%}
 {% endfor %}
 
 ## Experts
@@ -256,7 +262,9 @@ We are currently recruiting the experts - this route is a good way to join the p
     {%- assign cohortEnd = week[1].start -%}
     {%- endfor -%}
 
+{%- if experts > 0 -%}
 - [{{ experts }} experts ](/{{ cohortName }}#experts) for [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
+{%- endif -%}
 {% endfor %}
 
 ## Facilitators
@@ -293,7 +301,7 @@ Our facilitators are essential for the program:
     {%- assign cohortEnd = week[1].start -%}
   {%- endfor -%}
 
-{%- if facilitators.size > 0 -%}
+{%- if facilitators > 0 -%}
 - [{{ facilitators }} facilitators](/{{ cohortName }}#facilitators) [**{{ cohortName | upcase }}**]({{ cohortName }}.html) ({{ cohortStart }} - {{ cohortEnd }})
 {%- endif -%}
 {% endfor %}
