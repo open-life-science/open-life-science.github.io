@@ -82,7 +82,7 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
   {%- for week in cohortSchedule.weeks -%}
       {%- assign cohortEnd = week[1].start -%}
   {%- endfor %}
-| [{{ cohortName | upcase }}](/{{ cohortName }}.html) | [{{ cohortStart }} - {{ cohortEnd }}](/{{ cohortName }}/schedule) | [{{ cohortParticipants }} mentees](/{{ cohortName }}/projects-participants#participants) on [{{ cohortProjects }} projects](/{{ cohortName }}/projects-participants#projects) | [{{ cohortMentors }} mentors](/{{ cohortName }}#mentors) | [{{ experts }} experts](/{{ cohortName }}#experts) | {%- if facilitators > 0 -%}[{{ facilitators }} facilitator(s)](/{{ cohortName }}#facilitators) {%- endif -%} |
+| [{{ cohortName | upcase }}](/{{ cohortName }}.html) | [{{ cohortStart }} - {{ cohortEnd }}](/{{ cohortName }}/schedule) | {%- if cohortParticipants > 0 -%}[{{ cohortParticipants }} mentees](/{{ cohortName }}/projects-participants#participants) on {%- endif -%} {%- if cohortProjects > 0 -%}[{{ cohortProjects }} projects](/{{ cohortName }}/projects-participants#projects) {%- endif -%}| {%- if cohortMentors > 0 -%}[{{ cohortMentors }} mentors](/{{ cohortName }}#mentors) {%- endif -%}| {%- if experts > 0 -%}[{{ experts }} experts](/{{ cohortName }}#experts) {%- endif -%}| {%- if facilitators > 0 -%}[{{ facilitators }} facilitator(s)](/{{ cohortName }}#facilitators) {%- endif -%} |
 {%- endfor -%}
 {%- assign all_participants = all_participants | remove_first: ', ' | split: ", " | uniq | size -%}
 {%- assign all_mentors = all_mentors | remove_first: ', ' | split: ", " | uniq | size -%}
