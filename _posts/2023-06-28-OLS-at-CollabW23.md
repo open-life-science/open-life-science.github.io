@@ -4,7 +4,8 @@ title: "The OLS community at CollabW23"
 authors:
 - pherterich
 - gemmaturon
-- saranjeetkaur 
+- saranjeetkaur
+- amangoel185 
 photos:
   name: Some OLS community members posing under a dinosaur skeleton at the CollabW23 drinks reception.
   url: images/2023-06-28-OLS-at-CW23.jpg
@@ -49,3 +50,11 @@ During the Hack Day, I had the opportunity to collaborate with Gemma Turon (and 
 It was a rewarding experience to work alongside Gemma and bring our collective expertise to the table. 
 In addition to that, during the Collaborative Ideas session, I had the opportunity of collaborating with Aman Goel (and others) to come up with the idea of creating a RSE Kaleidoscope. 
 It was inspiring to see our vision taking shape as we shared perspectives.
+
+### Aman Goel
+This year’s Collaboration Workshop has been undoubtedly the highlight of my year so far. 
+Having met so much of the community online via OLS and SSI, it was quite refreshing to finally meet Zoom-familiar folks in person! 
+Right from the event registration until the last minute of the hack-day, I had the opportunity to closely interact and collaborate with fellow OLS community members. 
+Moreover, I had the pleasure of introducing OLS to several SSI community members at the workshop, and their enthusiasm to learn more about the mentorship program was truly inspiring. 
+As Gemma mentioned, I shared a workshop session with her, where I showcased my OLS project, titled ‘[The Undergraduate's Guide To Research Software Engineering](https://software.ac.uk/cw23/mini-workshops-and-demo-sessions#3.4b)’, which received a warm reception from the attendees. 
+All in all, the workshop was both productive and rejuvenating, and I’m looking forward to similar events in the future.
