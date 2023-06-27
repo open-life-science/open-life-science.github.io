@@ -37,6 +37,7 @@ supportive environment for everyone who wants to participate. When you join us
 we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all interactions both on and offline.
 
 <h2>Details</h2>
+<div class="people">
 {% assign cohorts = site.data.cohorts %}
 {% assign people = site.data.people %}
 {% assign all-people = '' %}
@@ -81,140 +82,36 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
     
     <!-- combine all people in the cohort -->
     {% capture cohortPeople %}{{ participants }} {{ experts }} {{ mentors }} {{ organizers }} {{ speakers }} {{ facilitators }}{% endcapture %}
-{% endfor %}
 
-<div class="people">
+    <!-- Extract roles for people in different cohort-->
     {% for entry in site.data.people %}
-        {% assign username = entry[0] %}
-        {% assign user = entry[1] %}
-        {% assign ols-roles = '' %}
-        {% if ols-1-people contains username %}
-            {% assign roles = '' %}
-            {% if ols-1-participants contains username %}
-                {% capture roles %}{{ roles }}, project lead{% endcapture %}
-            {% endif %}
-            {% if ols-1-mentors contains username %}
-                {% capture roles %}{{ roles }}, mentor{% endcapture %}
-            {% endif %}
-            {% if ols-1-experts contains username %}
-                {% capture roles %}{{ roles }}, expert{% endcapture %}
-            {% endif %}
-            {% if ols-1-speakers contains username %}
-                {% capture roles %}{{ roles }}, speaker{% endcapture %}
-            {% endif %}
-            {% if ols-1-organizers contains username %}
-                {% capture roles %}{{ roles }}, organizer{% endcapture %}
-            {% endif %}
-            {% capture ols-roles %}{{ ols-roles }} / OLS-1 {{ roles | remove_first: ', ' }}{% endcapture %}
+    {% assign username = entry[0] %}
+    {% assign user = entry[1] %}
+    {% assign ols-roles = '' %}
+    {% if cohortPeople contains username %}
+        {% assign roles = '' %}
+        {% if participants contains username %}
+            {% capture roles %}{{ roles }}, project lead{% endcapture %}
         {% endif %}
-        {% if ols-2-people contains username %}
-            {% assign roles = '' %}
-            {% if ols-2-participants contains username %}
-                {% capture roles %}{{ roles }}, project lead{% endcapture %}
-            {% endif %}
-            {% if ols-2-mentors contains username %}
-                {% capture roles %}{{ roles }}, mentor{% endcapture %}
-            {% endif %}
-            {% if ols-2-experts contains username %}
-                {% capture roles %}{{ roles }}, expert{% endcapture %}
-            {% endif %}
-            {% if ols-2-speakers contains username %}
-                {% capture roles %}{{ roles }}, speaker{% endcapture %}
-            {% endif %}
-            {% if ols-2-organizers contains username %}
-                {% capture roles %}{{ roles }}, organizer{% endcapture %}
-            {% endif %}
-            {% capture ols-roles %}{{ ols-roles }} / OLS-2 {{ roles | remove_first: ', ' }}{% endcapture %}
+        {% if mentors contains username %}
+            {% capture roles %}{{ roles }}, mentor{% endcapture %}
         {% endif %}
-        {% if ols-3-people contains username %}
-            {% assign roles = '' %}
-            {% if ols-3-participants contains username %}
-                {% capture roles %}{{ roles }}, project lead{% endcapture %}
-            {% endif %}
-            {% if ols-3-mentors contains username %}
-                {% capture roles %}{{ roles }}, mentor{% endcapture %}
-            {% endif %}
-            {% if ols-3-experts contains username %}
-                {% capture roles %}{{ roles }}, expert{% endcapture %}
-            {% endif %}
-            {% if ols-3-speakers contains username %}
-                {% capture roles %}{{ roles }}, speaker{% endcapture %}
-            {% endif %}
-            {% if ols-3-facilitators contains username %}
-                {% capture roles %}{{ roles }}, facilitator{% endcapture %}
-            {% endif %}
-            {% if ols-3-organizers contains username %}
-                {% capture roles %}{{ roles }}, organizer{% endcapture %}
-            {% endif %}
-            {% capture ols-roles %}{{ ols-roles }} / OLS-3 {{ roles | remove_first: ', ' }}{% endcapture %}
+        {% if experts contains username %}
+            {% capture roles %}{{ roles }}, expert{% endcapture %}
         {% endif %}
-        {% if ols-4-people contains username %}
-            {% assign roles = '' %}
-            {% if ols-4-participants contains username %}
-                {% capture roles %}{{ roles }}, project lead{% endcapture %}
-            {% endif %}
-            {% if ols-4-mentors contains username %}
-                {% capture roles %}{{ roles }}, mentor{% endcapture %}
-            {% endif %}
-            {% if ols-4-experts contains username %}
-                {% capture roles %}{{ roles }}, expert{% endcapture %}
-            {% endif %}
-            {% if ols-4-speakers contains username %}
-                {% capture roles %}{{ roles }}, speaker{% endcapture %}
-            {% endif %}
-            {% if ols-4-facilitators contains username %}
-                {% capture roles %}{{ roles }}, facilitator{% endcapture %}
-            {% endif %}
-            {% if ols-4-organizers contains username %}
-                {% capture roles %}{{ roles }}, organizer{% endcapture %}
-            {% endif %}
-            {% capture ols-roles %}{{ ols-roles }} / OLS-4 {{ roles | remove_first: ', ' }}{% endcapture %}
+        {% if speakers contains username %}
+            {% capture roles %}{{ roles }}, speaker{% endcapture %}
         {% endif %}
-        {% if ols-5-people contains username %}
-            {% assign roles = '' %}
-            {% if ols-5-participants contains username %}
-                {% capture roles %}{{ roles }}, project lead{% endcapture %}
-            {% endif %}
-            {% if ols-5-mentors contains username %}
-                {% capture roles %}{{ roles }}, mentor{% endcapture %}
-            {% endif %}
-            {% if ols-5-experts contains username %}
-                {% capture roles %}{{ roles }}, expert{% endcapture %}
-            {% endif %}
-            {% if ols-5-speakers contains username %}
-                {% capture roles %}{{ roles }}, speaker{% endcapture %}
-            {% endif %}
-            {% if ols-5-facilitators contains username %}
-                {% capture roles %}{{ roles }}, facilitator{% endcapture %}
-            {% endif %}
-            {% if ols-5-organizers contains username %}
-                {% capture roles %}{{ roles }}, organizer{% endcapture %}
-            {% endif %}
-            {% capture ols-roles %}{{ ols-roles }} / OLS-5 {{ roles | remove_first: ', ' }}{% endcapture %}
+        {% if facilitators contains username %}
+            {% capture roles %}{{ roles }}, facilitator{% endcapture %}
         {% endif %}
-        {% if ols-6-people contains username %}
-            {% assign roles = '' %}
-            {% if ols-6-participants contains username %}
-                {% capture roles %}{{ roles }}, project lead{% endcapture %}
-            {% endif %}
-            {% if ols-6-mentors contains username %}
-                {% capture roles %}{{ roles }}, mentor{% endcapture %}
-            {% endif %}
-            {% if ols-6-experts contains username %}
-                {% capture roles %}{{ roles }}, expert{% endcapture %}
-            {% endif %}
-            {% if ols-6-speakers contains username %}
-                {% capture roles %}{{ roles }}, speaker{% endcapture %}
-            {% endif %}
-            {% if ols-6-facilitators contains username %}
-                {% capture roles %}{{ roles }}, facilitator{% endcapture %}
-            {% endif %}
-            {% if ols-6-organizers contains username %}
-                {% capture roles %}{{ roles }}, organizer{% endcapture %}
-            {% endif %}
-            {% capture ols-roles %}{{ ols-roles }} / OLS-6 {{ roles | remove_first: ', ' }}{% endcapture %}
+        {% if organizers contains username %}
+            {% capture roles %}{{ roles }}, organizer{% endcapture %}
         {% endif %}
-        {% assign ols-roles = ols-roles | remove_first: ' / ' %}
-        {% include _includes/people.html username=username user=user ols-roles=ols-roles %}
+        {% capture ols-roles %}{{ ols-roles }} / {{ cohort }} {{ roles | remove_first: ', ' }}{% endcapture %}
+    {% endif %}
+    {% assign ols-roles = ols-roles | remove_first: ' / ' %}
+    {% include _includes/people.html username=username user=user ols-roles=ols-roles %}
     {% endfor %}
+{% endfor %}
 </div>
