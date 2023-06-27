@@ -4,7 +4,7 @@ title: "The OLS community at CollabW23"
 authors:
 - pherterich
 - gemmaturon
-- SaranjeetKaur 
+- saranjeetkaur 
 photos:
   name: Some OLS community members posing under a dinosaur skeleton at the CollabW23 drinks reception.
   url: images/2023-06-28-OLS-at-CW23.jpg
