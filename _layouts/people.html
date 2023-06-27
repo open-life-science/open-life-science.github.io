@@ -37,204 +37,51 @@ supportive environment for everyone who wants to participate. When you join us
 we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all interactions both on and offline.
 
 <h2>Details</h2>
+{% assign cohorts = site.data.cohorts %}
+{% assign people = site.data.people %}
+{% assign all-people = '' %}
 
-<!-- OLS-1 -->
-<!-- extract participants and mentors -->
-{% assign ols-1-projects = site.data.ols-1-projects %}
-{% assign ols-1-participants = '' %}
-{% assign ols-1-mentors = '' %}
-{% for project in ols-1-projects %}
-    {% for p in project.participants %}
-        {% capture ols-1-participants %}{{ ols-1-participants }} {{ p }}{% endcapture %}
+{% for cohort in cohorts %}
+    {% assign cohortData = site.data.cohorts[cohort] %}
+    {% assign projects = cohortData.projects %}
+    {% assign metadata = cohortData.metadata %}
+    {% assign schedule = cohortData.schedule %}
+    
+    <!-- extract participants and mentors -->
+    {% assign participants = '' %}
+    {% assign mentors = '' %}
+    {% for project in projects %}
+        {% for p in project.participants %}
+            {% capture participants %}{{ participants }} {{ p }}{% endcapture %}
+        {% endfor %}
+        {% for m in project.mentors %}
+            {% capture mentors %}{{ mentors }} {{ m }}{% endcapture %}
+        {% endfor %}
     {% endfor %}
-    {% for m in project.mentors %}
-        {% capture ols-1-mentors %}{{ ols-1-mentors }} {{ m }}{% endcapture %}
+    
+    <!-- extract experts, organizers, speakers, and facilitators -->
+    {% assign experts = metadata.experts | join: ' ' %}
+    {% assign organizers = metadata.organizers | join: ' ' %}
+    {% assign speakers = '' %}
+    {% assign facilitators = '' %}
+    {% for w in schedule %}
+        {% for c in w[1].calls %}
+            {% if c.type == 'Cohort' %}
+                {% for r in c.resources %}
+                    {% if r.type == 'slides' and r.speaker %}
+                        {% capture speakers %}{{ speakers }} {{ r.speaker }}{% endcapture %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            {% if c.type == 'Facilitator' %}
+                {% capture facilitators %}{{ facilitators }} {{ c.person }}{% endcapture %}
+            {% endif %}
+        {% endfor %}
     {% endfor %}
+    
+    <!-- combine all people in the cohort -->
+    {% capture cohortPeople %}{{ participants }} {{ experts }} {{ mentors }} {{ organizers }} {{ speakers }} {{ facilitators }}{% endcapture %}
 {% endfor %}
-<!-- extract experts and organizers -->
-{% assign ols-1-experts = site.data.ols-1-metadata.experts | join: ' ' %}
-{% assign ols-1-organizers = site.data.ols-1-metadata.organizers | join: ' ' %}
-<!-- extract speakers -->
-{% assign ols-1-speakers = '' %}
-{% assign ols-1-hosts = '' %}
-{% for w in site.data.ols-1-schedule %}
-    {% for c in w[1].calls %}
-        {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
-                    {% capture ols-1-speakers %}{{ ols-1-speakers}} {{ r.speaker }}{% endcapture %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-<!-- combine all -->
-{% capture ols-1-people %}{{ ols-1-participants }} {{ ols-1-experts }} {{ ols-1-mentors }} {{ ols-1-organizers }} {{ ols-1-speakers }}{% endcapture %}
-
-<!-- OLS-2 -->
-<!-- extract participants and mentors -->
-{% assign ols-2-projects = site.data.ols-2-projects %}
-{% assign ols-2-participants = '' %}
-{% assign ols-2-mentors = '' %}
-{% for project in ols-2-projects %}
-    {% for p in project.participants %}
-        {% capture ols-2-participants %}{{ ols-2-participants }} {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture ols-2-mentors %}{{ ols-2-mentors }} {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-<!-- extract experts and organizers -->
-{% assign ols-2-experts = site.data.ols-2-metadata.experts %}
-{% assign ols-2-organizers = site.data.ols-2-metadata.organizers %}
-<!-- extract speakers -->
-{% assign ols-2-speakers = '' %}
-{% assign ols-2-hosts = '' %}
-{% for w in site.data.ols-2-schedule %}
-    {% for c in w[1].calls %}
-        {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
-                    {% capture ols-2-speakers %}{{ ols-2-speakers}} {{ r.speaker }}{% endcapture %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-<!-- combine all -->
-{% capture ols-2-people %}{{ ols-2-participants }} {{ ols-2-experts }} {{ ols-2-mentors }} {{ ols-2-organizers }} {{ ols-2-speakers }}{% endcapture %}
-
-<!-- OLS-3 -->
-<!-- extract participants and mentors -->
-{% assign ols-3-projects = site.data.ols-3-projects %}
-{% assign ols-3-participants = '' %}
-{% assign ols-3-mentors = '' %}
-{% for project in ols-3-projects %}
-    {% for p in project.participants %}
-        {% capture ols-3-participants %}{{ ols-3-participants }} {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture ols-3-mentors %}{{ ols-3-mentors }} {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-<!-- extract experts and organizers -->
-{% assign ols-3-experts = site.data.ols-3-metadata.experts %}
-{% assign ols-3-facilitators = site.data.ols-3-metadata.facilitators %}
-{% assign ols-3-organizers = site.data.ols-3-metadata.organizers %}
-<!-- extract speakers and call facilitators -->
-{% assign ols-3-speakers = '' %}
-{% for w in site.data.ols-3-schedule %}
-    {% for c in w[1].calls %}
-        {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
-                    {% capture ols-3-speakers %}{{ ols-3-speakers}} {{ r.speaker }}{% endcapture %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-<!-- combine all -->
-{% capture ols-3-people %}{{ ols-3-participants }} {{ ols-3-experts }} {{ ols-3-mentors }} {{ ols-3-organizers }} {{ ols-3-speakers }} {{ ols-3-facilitators }}{% endcapture %}
-
-<!-- OLS-4 -->
-<!-- extract participants and mentors -->
-{% assign ols-4-projects = site.data.ols-4-projects %}
-{% assign ols-4-participants = '' %}
-{% assign ols-4-mentors = '' %}
-{% for project in ols-4-projects %}
-    {% for p in project.participants %}
-        {% capture ols-4-participants %}{{ ols-4-participants }} {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture ols-4-mentors %}{{ ols-4-mentors }} {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-<!-- extract experts and organizers -->
-{% assign ols-4-experts = site.data.ols-4-metadata.experts %}
-{% assign ols-4-facilitators = site.data.ols-4-metadata.facilitators %}
-{% assign ols-4-organizers = site.data.ols-4-metadata.organizers %}
-<!-- extract speakers and call facilitators -->
-{% assign ols-4-speakers = '' %}
-{% for w in site.data.ols-4-schedule %}
-    {% for c in w[1].calls %}
-        {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
-                    {% capture ols-4-speakers %}{{ ols-4-speakers}} {{ r.speaker }}{% endcapture %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-<!-- combine all -->
-{% capture ols-4-people %}{{ ols-4-participants }} {{ ols-4-experts }} {{ ols-4-mentors }} {{ ols-4-organizers }} {{ ols-4-speakers }} {{ ols-4-facilitators }}{% endcapture %}
-
-<!-- OLS-5 -->
-<!-- extract participants and mentors -->
-{% assign ols-5-projects = site.data.ols-5-projects %}
-{% assign ols-5-participants = '' %}
-{% assign ols-5-mentors = '' %}
-{% for project in ols-5-projects %}
-    {% for p in project.participants %}
-        {% capture ols-5-participants %}{{ ols-5-participants }} {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture ols-5-mentors %}{{ ols-5-mentors }} {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-<!-- extract experts and organizers -->
-{% assign ols-5-experts = site.data.ols-5-metadata.experts %}
-{% assign ols-5-facilitators = site.data.ols-5-metadata.facilitators %}
-{% assign ols-5-organizers = site.data.ols-5-metadata.organizers %}
-<!-- extract speakers and call facilitators -->
-{% assign ols-5-speakers = '' %}
-{% for w in site.data.ols-5-schedule %}
-    {% for c in w[1].calls %}
-        {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
-                    {% capture ols-5-speakers %}{{ ols-5-speakers}} {{ r.speaker }}{% endcapture %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-<!-- combine all -->
-{% capture ols-5-people %}{{ ols-5-participants }} {{ ols-5-experts }} {{ ols-5-mentors }} {{ ols-5-organizers }} {{ ols-5-speakers }} {{ ols-5-facilitators }}{% endcapture %}
-
-<!-- OLS-6 -->
-<!-- extract participants and mentors -->
-{% assign ols-6-projects = site.data.ols-6-projects %}
-{% assign ols-6-participants = '' %}
-{% assign ols-6-mentors = '' %}
-{% for project in ols-6-projects %}
-    {% for p in project.participants %}
-        {% capture ols-6-participants %}{{ ols-6-participants }} {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture ols-6-mentors %}{{ ols-6-mentors }} {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-<!-- extract experts and organizers -->
-{% assign ols-6-experts = site.data.ols-6-metadata.experts %}
-{% assign ols-6-facilitators = site.data.ols-6-metadata.facilitators %}
-{% assign ols-6-organizers = site.data.ols-6-metadata.organizers %}
-<!-- extract speakers and call facilitators -->
-{% assign ols-6-speakers = '' %}
-{% for w in site.data.ols-6-schedule %}
-    {% for c in w[1].calls %}
-        {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
-                    {% capture ols-6-speakers %}{{ ols-6-speakers}} {{ r.speaker }}{% endcapture %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-<!-- combine all -->
-{% capture ols-6-people %}{{ ols-6-participants }} {{ ols-6-experts }} {{ ols-6-mentors }} {{ ols-6-organizers }} {{ ols-6-speakers }} {{ ols-6-facilitators }}{% endcapture %}
 
 <div class="people">
     {% for entry in site.data.people %}
