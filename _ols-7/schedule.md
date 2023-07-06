@@ -9,5 +9,5 @@ photos:
 ---
 
 {% assign cohort = 'ols-7' %}
-{% assign schedule = site.data.cohorts.[cohort].schedule %}
+{% assign schedule = site.data.cohorts[cohort].schedule %}
 {% include _includes/schedule.md %}
