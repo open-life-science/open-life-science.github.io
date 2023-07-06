@@ -40,79 +40,66 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 <div class="people">
 {% assign cohorts = site.data.cohorts %}
 {% assign people = site.data.people %}
-{% assign cohortPeople = '' %}
   
-<!-- Extract roles for people in different cohorts -->
 {% for entry in site.data.people %}
   {% assign username = entry[0] %}
   {% assign user = entry[1] %}
   {% assign ols-roles = '' %}
   
+  <!-- Extract roles for people in different cohorts -->
   {% for cohort in cohorts %}
-    {% assign cohortData = site.data.cohorts[cohort] %}
-    {% assign projects = cohortData.projects %}
-    {% assign metadata = cohortData.metadata %}
-    {% assign schedule = cohortData.schedule %}
+    {% assign projects = cohort[1].projects %}
+    {% assign metadata = cohort[1].metadata %}
+    {% assign schedule = cohort[1].schedule %}
+    {% assign roles = '' %}
 
-    <!-- extract participants and mentors -->
+    <!-- Check for role as participant and mentor -->
     {% assign participants = '' %}
     {% assign mentors = '' %}
     {% for project in projects %}
-      {% for p in project.participants %}
-        {% capture participants %}{{ participants }} {{ p }}{% endcapture %}
-      {% endfor %}
-      {% for m in project.mentors %}
-        {% capture mentors %}{{ mentors }} {{ m }}{% endcapture %}
-      {% endfor %}
+      {% if project.participants contains username %}
+        {% capture roles %}{{ roles }}, project lead{% endcapture %}
+      {% endif %}
+      {% if project.mentors contains username %}
+        {% capture roles %}{{ roles }}, mentor{% endcapture %}
+      {% endif %}
     {% endfor %}
 
-    <!-- extract experts, organizers, speakers, and facilitators -->
-    {% assign experts = metadata.experts | join: ' ' %}
-    {% assign organizers = metadata.organizers | join: ' ' %}
+    <!-- Check for role as speaker and facilitator -->
     {% assign speakers = '' %}
     {% assign facilitators = '' %}
     {% for w in schedule %}
       {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
           {% for r in c.resources %}
-            {% if r.type == 'slides' and r.speaker %}
-              {% capture speakers %}{{ speakers }} {{ r.speaker }}{% endcapture %}
+            {% if r.type == 'slides' and r.speaker and r.speaker contains username %}
+              {% capture roles %}{{ roles }}, speaker{% endcapture %}
             {% endif %}
           {% endfor %}
         {% endif %}
         {% if c.type == 'Facilitator' %}
-          {% capture facilitators %}{{ facilitators }} {{ c.person }}{% endcapture %}
+          {% if c.person contains username %}
+            {% capture roles %}{{ roles }}, facilitator{% endcapture %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     {% endfor %}
-  
-    <!-- combine all people in the cohort -->
-    {% capture cohortPeople %}{{ participants }} {{ experts }} {{ mentors }} {{ organizers }} {{ speakers }} {{ facilitators }}{% endcapture %}
 
-    {% if cohortPeople contains username %}
-      {% assign roles = '' %}
-        {% if participants contains username %}
-          {% capture roles %}{{ roles }}, project lead{% endcapture %}
-        {% endif %}
-        {% if mentors contains username %}
-          {% capture roles %}{{ roles }}, mentor{% endcapture %}
-        {% endif %}
-        {% if experts contains username %}
-          {% capture roles %}{{ roles }}, expert{% endcapture %}
-        {% endif %}
-        {% if speakers contains username %}
-          {% capture roles %}{{ roles }}, speaker{% endcapture %}
-        {% endif %}
-        {% if facilitators contains username %}
-          {% capture roles %}{{ roles }}, facilitator{% endcapture %}
-        {% endif %}
-        {% if organizers contains username %}
-          {% capture roles %}{{ roles }}, organizer{% endcapture %}
-        {% endif %}
-        {% capture ols-roles %}{{ ols-roles }} / {{ cohort }} {{ roles | remove_first: ', ' }}{% endcapture %}
+    <!-- Check for role as expert and organizer -->  
+    {% assign experts = metadata.experts | join: ' ' %}
+    {% if experts contains username %}
+      {% capture roles %}{{ roles }}, expert{% endcapture %}
     {% endif %}
-    {% endfor %}
-    {% assign ols-roles = ols-roles | remove_first: ' / ' %}
-    {% include _includes/people.html username=username user=user ols-roles=ols-roles %}
+    {% assign organizers = metadata.organizers | join: ' ' %}
+    {% if organizers contains username %}
+      {% capture roles %}{{ roles }}, organizer{% endcapture %}
+    {% endif %}
+  
+    {% if roles != '' %}
+      {% capture ols-roles %}{{ ols-roles }} / {{ cohort[0] | upcase }} {{ roles | remove_first: ', '  | split: ', ' | uniq | join: ', ' }}{% endcapture %}
+    {% endif %}
+  {% endfor %}
+  {% assign ols-roles = ols-roles | remove_first: ' / ' %}
+  {% include _includes/people.html username=username user=user ols-roles=ols-roles %}
 {% endfor %}
 </div>
