@@ -38,7 +38,7 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 
 <h2>Details</h2>
 <div class="people">
-{% assign cohorts = site.data.cohorts %}
+{% assign cohorts = site.data.cohorts | sort %}
 {% assign people = site.data.people %}
   
 {% for entry in site.data.people %}
