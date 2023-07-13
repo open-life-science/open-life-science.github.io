@@ -22,7 +22,6 @@ For this round of the OLS program, we are happy to have [{{ p-participants | siz
     {% if project.visible != false %}
 
         {% assign p-pparticipants = '' %}
-
         {% for p in project.participants %}
             {% capture p-pparticipants %}{{ p-pparticipants }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](#{{ p }}){% endcapture %}
         {% endfor %}
