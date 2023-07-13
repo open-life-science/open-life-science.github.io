@@ -1,69 +1,69 @@
 {% assign cohort = include.cohort | strip %}
 {% assign people = site.data.people %}
-{% assign cohortData = site.data.cohorts[cohort] %}
-{% assign projects = cohortData.projects %}
-{% assign experts = cohortData.metadata.experts %}
+{% assign cohort_data = site.data.cohorts[cohort] %}
+{% assign projects = cohort_data.projects %}
+{% assign experts = cohort_data.metadata.experts %}
 
 {% assign cohorts = site.data.cohorts | sort %}
-{% assign currentCohortIndex = cohorts | map: 0 | index: cohort %}
-{% assign prevCohort = cohorts[currentCohortIndex | minus: 1][0] %}
+{% assign current_cohort_index = cohorts | map: 0 | index: cohort %}
+{% assign prev_cohort = cohorts[current_cohort_index | minus: 1][0] %}
 
 <!-- extract previous participants and mentors and count them later among mentors -->
-{% assign prevCohort = 'ols-' | append: cohortData.metadata.previous-cohort %}
-{% assign prevProjects = site.data.cohorts[prevCohort].projects %}
-{% assign prevParticipants = '' %}
-{% assign prevMentors = '' %}
-{% for project in prevProjects %}
+{% assign prev_cohort = 'ols-' | append: cohort_data.metadata.previous-cohort %}
+{% assign prev_projects = site.data.cohorts[prev_cohort].projects %}
+{% assign prev_participants = '' %}
+{% assign prev_mentors = '' %}
+{% for project in prev_projects %}
     {% for p in project.participants %}
-        {% capture prevParticipants %}{{ prevParticipants }}, {{ p }}{% endcapture %}
+        {% capture prev_participants %}{{ prev_participants }}, {{ p }}{% endcapture %}
     {% endfor %}
     {% for m in project.mentors %}
-        {% capture prevMentors %}{{ prevMentors }}, {{ m }}{% endcapture %}
+        {% capture prev_mentors %}{{ prev_mentors }}, {{ m }}{% endcapture %}
     {% endfor %}
 {% endfor %}
 
-{% assign all-participants = '' %}
-{% assign all-p-countries = '' %}
-{% assign all-mentors = '' %}
-{% assign all-m-countries = '' %}
-{% assign all-keywords = '' %}
-{% assign prev-part-count = 0 %}
-{% assign prev-mentor-count = 0 %}
+{% assign all_participants = '' %}
+{% assign all_p_countries = '' %}
+{% assign all_mentors = '' %}
+{% assign all_m_countries = '' %}
+{% assign all_keywords = '' %}
+{% assign prev_part_count = 0 %}
+{% assign prev_mentor_count = 0 %}
 
 {% for project in projects %}
 <!-- parse participants of the project -->
 {% for p in project.participants %}
 <!-- for name and link to them -->
-{% capture all-participants %}{{ all-participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
+{% capture all_participants %}{{ all_participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
 <!-- for list of countries -->
-{% capture all-p-countries %}{{ all-p-countries }}, {{ people[p].country }}{% endcapture %}
+{% capture all_p_countries %}{{ all_p_countries }}, {{ people[p].country }}{% endcapture %}
 {% endfor %}
 
 <!-- parse mentors of the project -->
 {% for m in project.mentors %}
 <!-- for name and link to them -->
-{% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
+{% capture all_mentors %}{{ all_mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
 <!-- for list of countries -->
-{% capture all-m-countries %}{{ all-m-countries }}, {{ people[m].country }}{% endcapture %}
+{% capture all_m_countries %}{{ all_m_countries }}, {{ people[m].country }}{% endcapture %}
 <!-- add +1 if participant in previous cohort -->
-{% if prevParticipants contains m %}
-    {% assign prev-part-count = prev-part-count | plus: 1 %}
+{% if prev_participants contains m %}
+    {% assign prev_part_count = prev_part_count | plus: 1 %}
 {% endif %}
 <!-- add +1 if mentor in previous cohort -->
-{% if prevMentors contains m %}
-    {% assign prev-mentor-count = prev-mentor-count | plus: 1 %}
+{% if prev_mentors contains m %}
+    {% assign prev_mentor_count = prev_mentor_count | plus: 1 %}
 {% endif %}
 {% endfor %}
 
 <!-- parse keywords -->
 {% for k in project.keywords %}
-{% capture all-keywords %}{{ all-keywords }}, {{ k }}{% endcapture %}
+{% capture all_keywords %}{{ all_keywords }}, {{ k }}{% endcapture %}
 {% endfor %}
 {% endfor %}
 
 <!-- transform into lists -->
-{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-countries = all-p-countries | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign m-countries = all-m-countries | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign keywords = all-keywords | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-participants = all_participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-countries = all_p_countries | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-mentors = all_mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign m-countries = all_m_countries | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign keywords = all_keywords | remove_first: ', ' | split: ", " | uniq | sort %}
