@@ -1,8 +1,7 @@
 {% assign cohort = include.cohort %}
 {% assign people = site.data.people %}
-{% assign projects = site.data.cohorts.[cohort].projects %}
-{% assign metadata = site.data.cohorts.[cohort].metadata %}
-{% assign schedule = site.data.cohorts.[cohort].schedule %}
+{% assign projects = site.data.cohorts[cohort].projects %}
+{% assign schedule = site.data.cohorts[cohort].schedule %}
 
 {% assign all-participants = '' %}
 {% assign all-mentors = '' %}
