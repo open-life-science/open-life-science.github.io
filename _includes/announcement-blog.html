@@ -57,8 +57,8 @@
 {% endfor %}
 
 <!-- transform into lists -->
-{% assign p-participants = all_participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-countries = all_p_countries | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-mentors = all_mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign m-countries = all_m_countries | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign keywords = all_keywords | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-countries = all-p-countries | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign m-countries = all-m-countries | remove_first: ', ' | split: ", " | uniq | sort %}
+{% assign keywords = all-keywords | remove_first: ', ' | split: ", " | uniq | sort %}
