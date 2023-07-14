@@ -22,37 +22,37 @@
     {% endfor %}
 {% endfor %}
 
-{% assign all_participants = '' %}
-{% assign all_p_countries = '' %}
-{% assign all_mentors = '' %}
-{% assign all_m_countries = '' %}
-{% assign all_keywords = '' %}
-{% assign prev_part_count = 0 %}
-{% assign prev_mentor_count = 0 %}
+{% assign all-participants = '' %}
+{% assign all-p-countries = '' %}
+{% assign all-mentors = '' %}
+{% assign all-m-countries = '' %}
+{% assign all-keywords = '' %}
+{% assign prev-part-count = 0 %}
+{% assign prev-mentor-count = 0 %}
 
 <!-- parse project participants, mentors and their countries -->
 {% for project in projects %}
     {% for p in project.participants %}
-        {% capture all_participants %}{{ all_participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
-        {% capture all_p_countries %}{{ all_p_countries }}, {{ people[p].country }}{% endcapture %}
+        {% capture all-participants %}{{ all-participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
+        {% capture all-p-countries %}{{ all-p-countries }}, {{ people[p].country }}{% endcapture %}
     {% endfor %}
 
     {% for m in project.mentors %}
-        {% capture all_mentors %}{{ all_mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
-        {% capture all_m_countries %}{{ all_m_countries }}, {{ people[m].country }}{% endcapture %}
+        {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
+        {% capture all-m-countries %}{{ all-m-countries }}, {{ people[m].country }}{% endcapture %}
 <!-- add +1 if participant in previous cohort -->
         {% if prev_participants contains m %}
-            {% assign prev_part_count = prev_part_count | plus: 1 %}
+            {% assign prev-part-count = prev-part-count | plus: 1 %}
         {% endif %}
 <!-- add +1 if mentor in previous cohort -->
         {% if prev_mentors contains m %}
-            {% assign prev_mentor_count = prev_mentor_count | plus: 1 %}
+            {% assign prev-mentor-count = prev-mentor-count | plus: 1 %}
         {% endif %}
     {% endfor %}
 
 <!-- parse keywords -->
     {% for k in project.keywords %}
-        {% capture all_keywords %}{{ all_keywords }}, {{ k }}{% endcapture %}
+        {% capture all-keywords %}{{ all-keywords }}, {{ k }}{% endcapture %}
     {% endfor %}
 {% endfor %}
 
