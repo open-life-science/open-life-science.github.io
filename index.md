@@ -48,17 +48,16 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 
 | Cohort | Schedule | Projects | Mentors | Experts | Facilitators |
 | --- | --- | --- | --- | --- | --- |
-{%- for cohort_folder in cohorts -%}
-  {%- assign cohortName = cohort_folder[0] -%}
-  {%- assign cohortData = cohort_folder[1] -%}
-  {%- assign experts = site.data.cohorts[cohortName].metadata.experts | uniq | size -%}
-  {%- capture all_experts %}{{ all_experts }}, {{ site.data.cohorts[cohortName].metadata.experts | join: ', ' }}{% endcapture -%}
-  {%- assign facilitators = site.data.cohorts[cohortName].metadata.facilitators | uniq | size -%}
-  {%- capture all_facilitators %}{{ all_facilitators }}, {{ site.data.cohorts[cohortName].metadata.facilitators | join: ', ' }}{% endcapture -%}
-  {%- assign projects = site.data.cohorts[cohortName].projects -%}
+{%- for cohort in cohorts -%}
+  {%- assign cohort_name = cohort[0] -%}
+  {%- assign experts = site.data.cohorts[cohort_name].metadata.experts | uniq | size -%}
+  {%- capture all_experts %}{{ all_experts }}, {{ site.data.cohorts[cohort_name].metadata.experts | join: ', ' }}{% endcapture -%}
+  {%- assign facilitators = site.data.cohorts[cohort_name].metadata.facilitators | uniq | size -%}
+  {%- capture all_facilitators %}{{ all_facilitators }}, {{ site.data.cohorts[cohort_name].metadata.facilitators | join: ', ' }}{% endcapture -%}
+  {%- assign projects = site.data.cohorts[cohort_name].projects -%}
   {%- assign mentors = '' -%}
   {%- assign participants = '' -%}
-  {%- assign projectName = '' -%}
+  {%- assign project_name = '' -%}
   {%- for project in projects -%}
       {%- for p in project.participants -%}
           {%- capture participants %}{{ participants }}, {{ p }}{% endcapture -%}
@@ -67,22 +66,22 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
           {%- capture mentors %}{{ mentors }}, {{ m }}{% endcapture -%}
       {%- endfor -%}
       {%- for p-name in project.name -%}
-          {%- capture projectName %}{{ projectName }}, {{ p-name }}{% endcapture -%}
+          {%- capture project_name %}{{ project_name }}, {{ p-name }}{% endcapture -%}
       {%- endfor -%}
   {%- endfor %}
-  {%- assign cohortMentors = mentors | remove_first: ', ' | split: ", " | uniq | sort | size -%}
+  {%- assign cohort_mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort | size -%}
   {%- capture all_mentors %}{{ all_mentors }}, {{ mentors }}{% endcapture -%}
-  {%- assign cohortParticipants = participants | remove_first: ', ' | split: ", " | uniq | sort | size -%}
+  {%- assign cohort_participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size -%}
   {%- capture all_participants %}{{ all_participants }}, {{ participants }}{% endcapture -%}
-  {%- assign cohortProjects = projectName | remove_first: ', ' | split: ", " | uniq | sort | size -%}
-  {%- capture all_projects %}{{ all_projects }}, {{ projectName }}{% endcapture -%}
-  {%- assign cohortSchedule = site.data.cohorts[cohortName].schedule -%}
-  {%- assign cohortStart = cohortSchedule.weeks['01'].start -%}
-  {%- assign cohortEnd = '' -%}
-  {%- for week in cohortSchedule.weeks -%}
-      {%- assign cohortEnd = week[1].start -%}
+  {%- assign cohort_projects = project_name | remove_first: ', ' | split: ", " | uniq | sort | size -%}
+  {%- capture all_projects %}{{ all_projects }}, {{ project_name }}{% endcapture -%}
+  {%- assign cohort_schedule = site.data.cohorts[cohort_name].schedule -%}
+  {%- assign cohort_start = cohort_schedule.weeks['01'].start -%}
+  {%- assign cohort_end = '' -%}
+  {%- for week in cohort_schedule.weeks -%}
+      {%- assign cohort_end = week[1].start -%}
   {%- endfor %}
-| [{{ cohortName | upcase }}](/{{ cohortName }}.html) | [{{ cohortStart }} - {{ cohortEnd }}](/{{ cohortName }}/schedule) | {%- if cohortParticipants > 0 -%}[{{ cohortParticipants }} mentees](/{{ cohortName }}/projects-participants#participants) on {%- endif -%} {%- if cohortProjects > 0 -%}[{{ cohortProjects }} projects](/{{ cohortName }}/projects-participants#projects) {%- endif -%}| {%- if cohortMentors > 0 -%}[{{ cohortMentors }} mentors](/{{ cohortName }}#mentors) {%- endif -%}| {%- if experts > 0 -%}[{{ experts }} experts](/{{ cohortName }}#experts) {%- endif -%}| {%- if facilitators > 0 -%}[{{ facilitators }} facilitator(s)](/{{ cohortName }}#facilitators) {%- endif -%} |
+| [{{ cohort_name | upcase }}](/{{ cohort_name }}.html) | [{{ cohort_start }} - {{ cohort_end }}](/{{ cohort_name }}/schedule) | {%- if cohort_participants > 0 -%}[{{ cohort_participants }} mentees](/{{ cohort_name }}/projects-participants#participants) on {%- endif -%} {%- if cohort_projects > 0 -%}[{{ cohort_projects }} projects](/{{ cohort_name }}/projects-participants#projects) {%- endif -%}| {%- if cohort_mentors > 0 -%}[{{ cohort_mentors }} mentors](/{{ cohort_name }}#mentors) {%- endif -%}| {%- if experts > 0 -%}[{{ experts }} experts](/{{ cohort_name }}#experts) {%- endif -%}| {%- if facilitators > 0 -%}[{{ facilitators }} facilitator(s)](/{{ cohort_name }}#facilitators) {%- endif -%} |
 {%- endfor -%}
 {%- assign all_participants = all_participants | remove_first: ', ' | split: ", " | uniq | size -%}
 {%- assign all_mentors = all_mentors | remove_first: ', ' | split: ", " | uniq | size -%}
