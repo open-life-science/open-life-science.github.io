@@ -16,7 +16,7 @@ photos:
 
 *We are excited to kick-off the 6th round of Open Life Science with another incredible cohort of mentors, mentees, and experts. We are honored to bring together members of diverse identities and backgrounds who represent expertise from different domains of research, who are working to address a wide range of relevant questions in their field and are motivated to bring a culture change in their areas. Many of them are long-standing Open Scientists who aim to use this opportunity to apply open science and community-based principles in their projects through this program.*
 
-{% include _includes/announcement-blog.html cohort='ols-6' %}
+{% include _includes/announcement-blog-metadata.html cohort='ols-6' %}
 
 We are thrilled to announce that [{{ p-participants | size }} members](/{{ cohort }}/projects-participants/#participants), who are the project leads of [{{ projects | size }} diverse projects](/{{ cohort }}/projects-participants/#projects), have joined the fourth cohort of the Open Life Science mentoring program - OLS-6!
 

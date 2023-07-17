@@ -8,7 +8,7 @@ photos:
   url: https://flic.kr/p/5BXB6s
 ---
 
-{% include _includes/cohort-data.html cohort='ols-4' %}
+{% include _includes/cohort-metadata.html cohort='ols-4' %}
 
 # The OLS-4 program
 {:.no_toc}
