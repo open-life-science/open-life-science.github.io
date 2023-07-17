@@ -56,8 +56,8 @@ photos:
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
 Open Science skills
 
-**Outcome**: Ambassadors for Open Science practice, training and education across multiple European
-and international bioinformatics communities.
+**Outcome**: Ambassadors for Open Science practice, training and education across multiple countries
+and scientific communities.
 
 **Process**: A 16-week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
 

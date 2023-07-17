@@ -35,6 +35,12 @@ $link-active: $link-hover;
   }
 }
 
+img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .navbar {
   .navbar-dropdown {
     border-top: none;
@@ -254,7 +260,7 @@ $link-active: $link-hover;
     height: 300px;
     width: auto;
     overflow: hidden;
-
+    
     img {
        max-height: 100%;
        object-fit: cover;
