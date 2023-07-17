@@ -11,12 +11,13 @@ image: https://github-production-user-asset-6210df.s3.amazonaws.com/32418102/246
 
 _This post summarizes our OLS journey, the project we worked on during the entire period of cohort 7, and what our plans for the future are_
 
-Thanks goes to:
+Thanks go to:
 - Project leads: [Jesica Formoso](https://github.com/JFormoso), [Patricia Loto](https://github.com/PatriLoto), [Irene Vazano](https://github.com/4iro)
 - Mentor: [Alexander Martinez](https://github.com/mxrtinez)
-- Website: [https://ciencia-abierta-en-latinoamerica.netlify.app/](https://ciencia-abierta-en-latinoamerica.netlify.app/)
 
-*Header picture by Roberto Huczek on [Unsplash](https://unsplash.com/es/licencia)*
+For detail, please visit the project's website: [https://ciencia-abierta-en-latinoamerica.netlify.app/](https://ciencia-abierta-en-latinoamerica.netlify.app/)
+
+*Header picture credit: Picture by Roberto Huczek on [Unsplash](https://unsplash.com/es/licencia)*
 
 -----
 
