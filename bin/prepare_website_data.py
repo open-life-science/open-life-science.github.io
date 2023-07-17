@@ -9,7 +9,7 @@ from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
 
 optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
-to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
+to_capitalize_info = ['affiliation', 'city', 'country']
 people_fp = Path('_data') / Path('people.yaml')
 
 
@@ -140,15 +140,15 @@ def extract_people_info(row, people):
     info = {
         'first-name': row['First name'].rstrip(),
         'last-name': row['Last name'].rstrip(),
-        'twitter': row['Twitter'],
-        'website': row['Website'],
-        'orcid': row['ORCID'],
+        'twitter': row['Twitter'] if 'Twitter' in row else None,
+        'website': row['Website'] if 'Website' in row else None,
+        'orcid': row['ORCID'] if 'ORCID' in row else None,
         'affiliation': row['Affiliation'] if 'Affiliation' in row else None,
-        'city': row['City'],
-        'country': row['Country'],
-        'pronouns': row['Pronouns'],
-        'expertise': row['Areas of expertise'],
-        'bio': row['Bio']
+        'city': row['City'] if 'City' in row else None,
+        'country': row['Country'] if 'Country' in row else None,
+        'pronouns': row['Pronouns'] if 'Pronouns' in row else None,
+        'expertise': row['Areas of expertise'] if 'Areas of expertise' in row else None,
+        'bio': row['Bio'] if 'Bio' in row else None
     }
     # get id
     id = row['GitHub']
