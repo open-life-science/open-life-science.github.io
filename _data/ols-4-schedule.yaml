@@ -416,12 +416,12 @@ weeks:
       recording: https://youtu.be/qGF0ubW2RWE
       talks:
       - speakers:
-        - 
+        - mannyco
         title: Post-academia career path, Social entrepreneurship
       - title: Academic leadership, group or project leaders
       - title: Community building, Science Communication
       - speakers:
-        - 
+        - aki-macfarlane
         title: Policymakers, funders, meta-researchers
   '10':
     start: November 15, 2021
@@ -450,13 +450,13 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1ThmPqDzvdNvThXK0Q0hlCiRX6rG3Ha5IDbvfyy4YuPw/edit#slide=id.g7e28a7e96f_0_146
         speakers:
-        - 
+        - marcel-laflamme
         title: Getting started with preprints
         recording: https://youtu.be/SfGHnCedkwY?t=1862
       - slides: 
           https://github.com/Nikoleta-v3/talks/blob/master/talks/2021-11-17-Open-Life-Science/main.pdf
         speakers:
-        - 
+        - nikoleta-v3
         title: Publishing & Citing Open Research Code
         recording: https://youtu.be/SfGHnCedkwY?t=3485
       - slides: 
@@ -596,7 +596,7 @@ weeks:
         recording: https://youtu.be/DbqsS1-ueqI?t=1705
       - slides: https://doi.org/10.5281/zenodo.5783459
         speakers:
-        - 
+        - sdruskat
         title: Software citation with the Citation File Format
         recording: https://youtu.be/DbqsS1-ueqI?t=3007
   '15':

@@ -229,17 +229,17 @@ weeks:
       - title: Project Structure
         tag: Setting up a project
       - slides: 
-          https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
-        speakers:
-        - ha0ye
-        title: Open Licensing
-        tag: Open Licensing
-      - slides: 
           https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
         speakers:
-        - rgaiacs
+        - ha0ye
         title: README
         tag: README
+      - slides: 
+          https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
+        speakers:
+        - rgaiacs
+        title: Open Licensing
+        tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
         speakers:
@@ -305,14 +305,16 @@ weeks:
       resources: []
       recording: https://youtu.be/yCCNZH9JS-0
       talks:
-      - title: Using project management skills during development stage
       - slides: 
           https://docs.google.com/presentation/d/1UhSKnz0deqsgzEHYdJGfFlOEN64_BIZ2GRjY6fKk44Y/edit?usp=sharing
+        title: Using project management skills during development stage
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQ__5JVOhFNoKufqIPflvEfUE1Vuxi9Euj975yCI14nJfeeyansg1RpuIteyTtmlQCyfacWTwB_QZ3N/pub?start=false&loop=false&delayms=3000#slide=id.p
         speakers:
         - unode
-        title: Agile & Iterative Project Management Methods
+        title: Open Data
         recording: https://youtu.be/yCCNZH9JS-0?t=2361
-        tag: Agile & Iteractive Project Management
+        tag: Open Data
       - slides: https://tinyurl.com/59754uzx
         speakers:
         - ajstewartlang
@@ -320,10 +322,10 @@ weeks:
         recording: https://youtu.be/yCCNZH9JS-0?t=1390
         tag: Open Source Software
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vQ__5JVOhFNoKufqIPflvEfUE1Vuxi9Euj975yCI14nJfeeyansg1RpuIteyTtmlQCyfacWTwB_QZ3N/pub?start=false&loop=false&delayms=3000#slide=id.p
+          https://docs.google.com/presentation/d/1UhSKnz0deqsgzEHYdJGfFlOEN64_BIZ2GRjY6fKk44Y/edit?usp=sharing
         speakers:
         - lwinfree
-        title: Open Data in the Life Science
+        title: Agile & Iterative Project Management Methods
         recording: https://youtu.be/yCCNZH9JS-0?t=257
         tag: Open Data
   '07':
@@ -363,23 +365,22 @@ weeks:
       recording: https://youtu.be/X7RbljtdgAQ
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
-        speakers:
-        - anelda
-        title: Using Personas and Pathways to Build Community
-        tag: Community Design for Inclusivity
-      - slides: 
-          https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
+          https://docs.google.com/presentation/d/1n_UBrrMoHcfdqtFIg0sDcA0H3yojsHMwbW8P38_W9-s/edit?usp=sharing
         speakers:
         - chadsansing
         title: Mountain of Engagement
         tag: Mountain of Engagement
       - slides: 
-          https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
-        title: Mentored contributions
+          https://docs.google.com/presentation/d/1tYKBiCJdpXmTwwinsk4gF8eb9LIteJWnxEOfZOJgZbo/edit?usp=sharing
+        speakers:
+        - anelda
+        title: 'Designing & empowering for inclusivity: Personas & Pathways'
+        tag: Personas & Pathways
       - slides: 
-          https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
-        title: Community interactions
+          https://docs.google.com/presentation/d/1kTyCM574JDxFdXqhqKFWPZnCvI2FUFdtCTq6Lhpx7Nw
+        speakers:
+        - yochannah
+        title: Welcoming New Contributors on Your Project
         tag: Community Interactions
   '09':
     start: April 25, 2022
@@ -413,19 +414,18 @@ weeks:
       talks:
       - speakers:
         - msundukova
-        title: Post-academia career path, Social entrepreneurship
-        tag: Open Leadership in Practice
-      - speakers:
-        - jasonjwilliamsny
         title: Academic leadership, group or project leaders
         tag: Open Leadership in Practice
       - speakers:
+        - jasonjwilliamsny
+        title: Post-academia career path, Social entrepreneurship
+        tag: Open Leadership in Practice
+      - speakers:
         - melissawm
-        title: Community building, Science Communication
+        title: Post-academia career path, Social entrepreneurship
         tag: Open Leadership in Practice
       - speakers:
         - honoluluskye
-        title: Policymakers, funders, meta-researchers
         tag: Open Leadership in Practice
   '10':
     start: May 02, 2022
@@ -451,25 +451,23 @@ weeks:
       resources: []
       recording: https://youtu.be/TqzM6cAeBoI
       talks:
-      - slides: 
-          https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
-        speakers:
-        - 
-        title: Open access, Preprints
+      - speakers:
+        - alex-mendonça
+        title: Preprints
         recording: https://youtu.be/TqzM6cAeBoI?t=3508
         tag: Open Access Publication
       - slides: 
-          https://docs.google.com/presentation/d/1lrodEXOSuh_01-EuLOi5hyZmDJ7xJBQaQ4iF3Ylvlyo/edit?usp=sharing
+          https://docs.google.com/presentation/d/18r-Zpec769BwP4TUAfG_ChGsOrdnU7Ber9ofjbLdwS8/edit?usp=sharing
         speakers:
-        - 
-        title: Persistent identifiers and discoverability 
+        - joy-owango
+        title: Open training in low and middle income settings 
         recording: https://youtu.be/TqzM6cAeBoI?t=206
         tag: Open Science Infrastructures
       - slides: 
-          https://docs.google.com/presentation/d/18r-Zpec769BwP4TUAfG_ChGsOrdnU7Ber9ofjbLdwS8/edit?usp=sharing
+          https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
         speakers:
         - pivg
-        title: Open training in low and middle income settings 
+        title: Open access, Preprints
         recording: https://youtu.be/TqzM6cAeBoI?t=2308
         tag: Open Educational Resources
   '11':
@@ -571,12 +569,12 @@ weeks:
       recording: https://youtu.be/rUusShaYC4o
       talks:
       - speakers:
-        - 
+        - gilbert-beyamba
         title: 'Public engagement: Open Infrastructure, Citizen Science, Science Communication'
         recording: https://youtu.be/rUusShaYC4o?t=460
         tag: Open Engagement of Social Actors
       - speakers:
-        - 
+        - sdruskat
         title: Steps towards FAIRer and more citable software
         tag: Open Source Software
   '15':

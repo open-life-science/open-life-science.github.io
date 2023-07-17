@@ -125,28 +125,28 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources: []
-      recording: https://youtu.be/05w7h9T3GhQ
+      recording: https://youtu.be/AMliNkrJIaQ
       talks:
       - slides: 
           https://docs.google.com/presentation/d/16M5R6YhvAeK0-old_hV9RjrshdA0sdJPgZBRO_MyRLA/edit?usp=sharing
         speakers:
         - emmyft
         title: Welcome to OLS!
-        recording: https://youtu.be/05w7h9T3GhQ?t=1096
+        recording: https://youtu.be/AMliNkrJIaQ?t=1110
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
         speakers:
         - bebatut
         title: Introducing Open Canvas
-        recording: https://youtu.be/05w7h9T3GhQ?t=2325
+        recording: https://youtu.be/AMliNkrJIaQ?t=2325
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1xpVo-66m0mWs8_ZFGuHQwPBTT-vkfBRXwr6WJEb5QRw/edit?usp=sharing
         speakers:
         - bebatut
         title: Introducing Road Mapping
-        recording: https://youtu.be/05w7h9T3GhQ?t=3144
+        recording: https://youtu.be/AMliNkrJIaQ?t=3166
         tag: Project Roadmapping
     - date: March 08, 2023
       time: "14:00"
@@ -196,21 +196,21 @@ weeks:
         speakers:
         - yochannah
         title: Welcome to OLS!
-        recording: https://youtu.be/XulHUHQru2I?t=1124
+        recording: https://youtu.be/XulHUHQru2I?t=1113
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
         speakers:
         - malvikasharan
         title: Introducing Open Canvas
-        recording: https://youtu.be/XulHUHQru2I
+        recording: https://youtu.be/XulHUHQru2I?t=2168
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         speakers:
         - pazbc
         title: Introducing Road Mapping
-        recording: https://youtu.be/XulHUHQru2I?t=2885
+        recording: https://youtu.be/XulHUHQru2I?t=2887
         tag: Project Roadmapping
     - date: March 15, 2023
       time: "14:00"
@@ -254,25 +254,25 @@ weeks:
       - title: Project Structure
         tag: Setting up a project
       - slides: 
+          https://docs.google.com/presentation/d/1V2-6PbJiPOYGBGsHJbKj9Y49iPHsHnAIKnhCuV40U3I/edit#slide=id.g2224fafcba8_0_37
+        speakers:
+        - ekariuki-sleepy
+        title: README & Contributing for Open Projects
+        recording: https://youtu.be/DG3La_p22N0?t=1080
+        tag: README
+      - slides: 
           https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
         speakers:
         - ha0ye
         title: Open Licensing
-        recording: https://youtu.be/DG3La_p22N0
+        recording: https://youtu.be/DG3La_p22N0?t=2065
         tag: Open Licensing
-      - slides: 
-          https://docs.google.com/presentation/d/1V2-6PbJiPOYGBGsHJbKj9Y49iPHsHnAIKnhCuV40U3I/edit#slide=id.g2224fafcba8_0_37
-        speakers:
-        - 
-        title: README & contributing
-        recording: https://youtu.be/DG3La_p22N0
-        tag: README
       - slides: 
           https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
         speakers:
         - andreasancheztapia
         title: Code of Conduct
-        recording: https://youtu.be/DG3La_p22N0
+        recording: https://youtu.be/DG3La_p22N0?t=3131
         tag: Code of Conduct
     - date: March 22, 2023
       time: "14:00"
@@ -366,22 +366,26 @@ weeks:
         speakers:
         - yochannah
         title: Open Science
+        recording: https://youtu.be/ViqeEI3J9dY?t=262
         tag: Open Science Introduction
       - slides: 
           https://drive.google.com/file/d/1BQ641IWIKjgC33ltqdAkEaxUkGljh3eL/view?usp=share_link
         speakers:
-        - 
+        - olexandr-konovalov
         title: Open Evaluation in JOSS - Journal of Open Source Software
+        recording: https://youtu.be/ViqeEI3J9dY?t=962
         tag: Open Evaluation
       - slides: 
           https://docs.google.com/presentation/d/1c5r83gUCdg_2_sS5LAB-7NLQccYfeN6OmkUSj_WFwGs/edit?usp=sharing
         speakers:
-        - 
+        - ahoyi
         title: Nigerian Open Science Highlights
+        recording: https://youtu.be/ViqeEI3J9dY?t=1753
         tag: Open Science Infrastructures
       - speakers:
         - phaarouknucleus
         title: Open engagement of social actors
+        recording: https://youtu.be/ViqeEI3J9dY?t=3046
         tag: Open Engagement of Social Actors
       recording: https://youtu.be/ViqeEI3J9dY
   '07':
@@ -429,14 +433,16 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit#slide=id.p
         speakers:
-        - 
+        - zee-moz
         title: The Mountain of Engagement
+        recording: https://youtu.be/ycMEiZXmHp8?t=247
         tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1JmO4S1XVnsVUg2HCKHeoGHhWAF_Gbz8Vmd9mVwtFR_k/edit?usp=sharing
         speakers:
         - meagdoh
         title: Using Personas and Pathways to Build Community
+        recording: https://youtu.be/ycMEiZXmHp8?t=2341
         tag: Personas & Pathways
       recording: https://youtu.be/ycMEiZXmHp8
     - date: April 19, 2023
@@ -478,18 +484,21 @@ weeks:
       resources: []
       talks:
       - speakers:
-        - 
+        - chartgerink
         title: Social enterprise
+        recording: https://youtu.be/8xfQrbnm_Io?t=221
         tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1DvXK_F28DRRTQWjTSx1JpBzcH-YP6EIL0_JszOvmn9U/edit?usp=sharing
         speakers:
-        - 
+        - anshulbharadwaj
         title: Open Science and its impact on global science and community
+        recording: https://youtu.be/8xfQrbnm_Io?t=1185
         tag: Open Leadership in Practice
       - speakers:
-        - 
+        - pragya-chaube
         title: Policymakers, funders, meta-researchers
+        recording: https://youtu.be/8xfQrbnm_Io?t=2799
         tag: Open Leadership in Practice
       recording: https://youtu.be/8xfQrbnm_Io
     - date: April 26, 2023
@@ -540,19 +549,22 @@ weeks:
         speakers:
         - amchagas
         title: Open Source Hardware
+        recording: https://youtu.be/iAckka2c6yc?t=147
         tag: Open Hardware
+      - slides: 
+          https://docs.google.com/presentation/d/1HRxtMemWWYrBniYkW60twA3Fd0AuEDdNryGREagDypk/edit#slide=id.g21f04b7f88a_0_77
+        speakers:
+        - mdbarker
+        title: Open Source Software
+        recording: https://youtu.be/iAckka2c6yc?t=884
+        tag: Open Source Software
       - slides: 
           https://docs.google.com/presentation/d/1i9ZS2bw_zefmjYBVTZSieyp4xI_T9PrH-pIiPeP3wY0/edit#slide=id.g21280744133_2_33 
         speakers:
         - batoolmm
         title: Openness to diversity of knowledge
+        recording: https://youtu.be/iAckka2c6yc?t=2577
         tag: Openness to Diversity of Knowledge
-      - slides: 
-          https://docs.google.com/presentation/d/1HRxtMemWWYrBniYkW60twA3Fd0AuEDdNryGREagDypk/edit#slide=id.g21f04b7f88a_0_77
-        speakers:
-        - 
-        title: Open Source Software
-        tag: Open Source Software
       recording: https://youtu.be/iAckka2c6yc
   '11':
     start: May 08, 2023
@@ -572,23 +584,26 @@ weeks:
       type: Skill-up
       resources: []
       talks:
-      - slides: https://olscoding.netlify.app/
-        speakers:
-        - 
-        title: Programming for science
-        tag: Good Coding Practices
       - slides: 
           https://docs.google.com/presentation/d/1snmV5BMFIuTAs60-PcejRj0NUhpvswvb/edit?usp=sharing&ouid=113583685317579296794&rtpof=true&sd=true
         speakers:
-        - 
+        - laitanawe
         title: Writing reproducible code
+        recording: https://youtu.be/hOiDzn4Iqp4?t=332
         tag: Code Review
       - slides: 
           https://docs.google.com/presentation/d/1V0ns7MiBRlKWgJHq15Xy-q0HZOeJYdkKs0PMAMoKXn8/edit?usp=sharing
         speakers:
-        - 
+        - lwasser
         title: "Open Source Drives Open Science - \npyOpenSci"
-        tag: Package Management
+        recording: https://youtu.be/hOiDzn4Iqp4?t=1594
+        tag: Open Source Software
+      - slides: https://olscoding.netlify.app/
+        speakers:
+        - yabellini
+        title: Programming for science
+        recording: https://youtu.be/hOiDzn4Iqp4?t=2920
+        tag: Good Coding Practices
       recording: https://youtu.be/hOiDzn4Iqp4
     - date: May 10, 2023
       time: "13:00"
@@ -632,11 +647,13 @@ weeks:
         speakers:
         - estherplomp
         title: Open Data
+        recording: https://youtu.be/CzkkO4wO2eQ?t=145
         tag: Open Data
       - slides: https://doi.org/10.5281/zenodo.7946506
         speakers:
-        - 
+        - godwyns-onwuchekwa
         title: Brief overview of Open access publication
+        recording: https://youtu.be/CzkkO4wO2eQ?t=1341
         tag: Open Access Publication
       recording: https://youtu.be/CzkkO4wO2eQ
   '13':
@@ -673,6 +690,7 @@ weeks:
         - malvikasharan
         - msundukova
         title: Personal Ecology and Self Care
+        recording: https://youtu.be/4KEakWZjJJA?t=21
         tag: Personal Ecology
       recording: https://youtu.be/4KEakWZjJJA
     - date: May 24, 2023

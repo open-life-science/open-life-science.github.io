@@ -113,13 +113,13 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
         speakers:
-        - yochannah
+        - malvikasharan
         title: Introducing Open Canvas
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
         speakers:
-        - yochannah
+        - emmyft
         title: Introducing Road Mapping
         tag: Project Roadmapping
     - date: September 29, 2022
@@ -172,11 +172,13 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
         speakers:
-        - malvikasharan
+        - yochannah
         title: Introducing Open Canvas
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
+        speakers:
+        - yochannah
         title: Introducing Road Mapping
         tag: Project Roadmapping
   '04':
@@ -289,25 +291,24 @@ weeks:
       recording: https://youtu.be/AggJQTgsaaU
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/12pcWhXgmYwuAXo_h--lIFEqGgJoGmXcprguTKg8obLA/edit#slide=id.g6e56d0296c_0_0
-        speakers:
-        - alexwlchan
-        title: Agile & Iterative Project Management Methods
-        recording: https://youtu.be/AggJQTgsaaU?t=2695
-        tag: Agile & Iteractive Project Management
-      - slides: https://2022-10-25-lpc-oss.netlify.app/#8
-        speakers:
-        - luispedro
-        title: Make a robust tool requires real-world usage
-        recording: https://youtu.be/AggJQTgsaaU?t=1281
-        tag: Open Source Software
-      - slides: 
           https://docs.google.com/presentation/d/147I53rNPEMHqixXPDc6vt0Eg9O9mIPBQ/edit?usp=drive_web&ouid=113583685317579296794&rtpof=true
         speakers:
         - sapetti9
         title: Managing & developing research data (RDM)
+        recording: https://youtu.be/AggJQTgsaaU?t=2695
+      - slides: https://2022-10-25-lpc-oss.netlify.app/#8
+        speakers:
+        - luispedro
+        title: Open Science Software
+        recording: https://youtu.be/AggJQTgsaaU?t=1281
+        tag: Open Source Software
+      - slides: 
+          https://docs.google.com/presentation/d/12pcWhXgmYwuAXo_h--lIFEqGgJoGmXcprguTKg8obLA/edit#slide=id.g6e56d0296c_0_0
+        speakers:
+        - alexwlchan
+        title: Agile & Iterative Project Management
         recording: https://youtu.be/AggJQTgsaaU?t=3717
-        tag: Open Data
+        tag: Agile & Iteractive Project Management
       - slides: 
           https://docs.google.com/presentation/d/1SJJjYujbAjRUgrjbT7ZSofqp4tgZ5eNf5wPMqHRfmn4/edit#slide=id.g175a0ec481e_1_88
         speakers:
@@ -349,17 +350,17 @@ weeks:
       resources: []
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/1_0LMMqMrcDh9IfGOv45jXNkxPku3mdehcb51QjVaTCI/present
-        speakers:
-        - melibleq
-        title: Personas, community design for inclusivity
-        tag: Community Design for Inclusivity
-      - slides: 
           https://docs.google.com/presentation/d/1ZmgEnKaED_4Nc9H_UhXC1G3J61qOcjAcuN7Un_RxxWo/edit#slide=id.gf6411d1bc9_1_1
         speakers:
         - chadsansing
         title: Mountain of Engagement
         tag: Mountain of Engagement
+      - slides: 
+          https://docs.google.com/presentation/d/1_0LMMqMrcDh9IfGOv45jXNkxPku3mdehcb51QjVaTCI/present
+        speakers:
+        - melibleq
+        title: Personas, community design for inclusivity
+        tag: Community Design for Inclusivity
       - slides: 
           https://docs.google.com/presentation/d/1p_r-mgcOWJD34Tc4V_dgkksmoPjUsILHecSdQuxwyQE/edit?usp=sharing
         speakers:
@@ -396,10 +397,6 @@ weeks:
         to switch your career or field? Why or why not?      \n      \n        "
       resources: []
       talks:
-      - speakers:
-        - olya-vvedenskaya
-        title: Post-academia career path, Social entrepreneurship
-        tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1a9OlvL9AY8EMbZm3JPg6dESfbqIdVudpA1IbnznzG2M/edit#slide=id.g7e28a7e96f_0_0
         speakers:
@@ -411,6 +408,10 @@ weeks:
         speakers:
         - danielagduca
         title: Open secrets to finding your path
+        tag: Open Leadership in Practice
+      - speakers:
+        - olya-vvedenskaya
+        title: Post Academia Career Path & Social Entrepreneurship
         tag: Open Leadership in Practice
       - {}
   '10':
@@ -438,17 +439,17 @@ weeks:
       recording: https://youtu.be/HKsK9CCcQYU
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/1lwPYHKFaH221S-Y8T8tk1phJpk7fsPA64kn3TfaGWHQ/edit#slide=id.g7e28a7e96f_0_0
-        speakers:
-        - dasaptaerwin
-        title: (Earthquake), preprints, and everything in between
-        recording: https://youtu.be/HKsK9CCcQYU?t=2156
-        tag: Open Access Publication
-      - slides: 
           https://docs.google.com/presentation/d/14wVZJauH4wT4GBJwz4gCA2AeV6kTPTRZRW1ZMhnJ2Yk/edit
         speakers:
         - malloryfreeberg
         title: "FAIR Principles\nPromoting openness in science"
+        recording: https://youtu.be/HKsK9CCcQYU?t=2156
+        tag: Open Access Publication
+      - slides: 
+          https://docs.google.com/presentation/d/1lwPYHKFaH221S-Y8T8tk1phJpk7fsPA64kn3TfaGWHQ/edit#slide=id.g7e28a7e96f_0_0
+        speakers:
+        - dasaptaerwin
+        title: Earthquakes, preprints and everything in between
         recording: https://youtu.be/HKsK9CCcQYU?t=196
         tag: Open Data
   '11':
@@ -488,8 +489,8 @@ weeks:
           https://docs.google.com/presentation/d/12hqzyIdYqSKnFokcTT2i8QhO74vcx7OkluUdiRd_ah8/edit?usp=share_link
         speakers:
         - ha0ye
-        title: Package management
-        tag: Package Management
+        title: 'Open Source Software '
+        tag: Open Source Software
   '12':
     start: December 05, 2022
     calls:
@@ -519,12 +520,10 @@ weeks:
         - pivg
         title: Diversity and Inclusion
         tag: Equity, Diversity and Inclusion (EDI)
-      - slides: 
-          https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
-        speakers:
+      - speakers:
         - yochannah
         - ismael-kg
-        - 
+        - pazbc
         title: Ally skills
         tag: Ally Skills for Open Leaders
   '13':
