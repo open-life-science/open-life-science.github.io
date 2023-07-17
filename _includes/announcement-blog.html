@@ -5,12 +5,20 @@
 {% assign experts = cohort_data.metadata.experts %}
 
 {% assign cohorts = site.data.cohorts | sort %}
-{% assign current_cohort_index = cohorts | map: 0 | index: cohort %}
-{% assign prev_cohort = cohorts[current_cohort_index | minus: 1][0] %}
+{% for c in cohorts %}
+    {% if c[0] == cohort %} 
+        {% assign current_cohort_index = forloop.index0 %}
+    {% endif %}
+{% endfor %}
+{% assign prev_cohort_index = current_cohort_index | minus: 1 %}
+{% for c in cohorts %}
+    {% if forloop.index0 == prev_cohort_index %} 
+        {% assign prev_cohort = c %}
+    {% endif %}
+{% endfor %}
 
 <!-- extract previous participants and mentors and count them later among mentors -->
-{% assign prev_cohort = 'ols-' | append: cohort_data.metadata.previous-cohort %}
-{% assign prev_projects = site.data.cohorts[prev_cohort].projects %}
+{% assign prev_projects = prev_cohort[1].projects %}
 {% assign prev_participants = '' %}
 {% assign prev_mentors = '' %}
 {% for project in prev_projects %}
