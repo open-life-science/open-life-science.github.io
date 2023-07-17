@@ -8,17 +8,17 @@ authors:
 image: https://github-production-user-asset-6210df.s3.amazonaws.com/32418102/246192342-62c5e32b-15c1-49b6-942c-8a4a7f3792be.jpg
 ---
 # Speed Blog: Mapping open-science communities, organizations, and events in Latin America
-#### [Jesica Formoso](https://github.com/JFormoso), [Patricia Loto](https://github.com/PatriLoto), [Irene Vazano](https://github.com/4iro)
-#### Mentor: [Alexander Martinez](https://github.com/mxrtinez)
-#### Website: https://ciencia-abierta-en-latinoamerica.netlify.app/
-
-![roberto-huczek-qS8BH24w7mk-unsplash](https://github.com/JFormoso/Comunidad-Abierta-LATAM/assets/32418102/62c5e32b-15c1-49b6-942c-8a4a7f3792be)
-Picture by Roberto Huczek on [Unsplash](https://unsplash.com/es/licencia)
------
 
 _This post summarizes our OLS journey, the project we worked on during the entire period of cohort 7, and what our plans for the future are_
 
-----
+Thanks goes to:
+- Project leads: [Jesica Formoso](https://github.com/JFormoso), [Patricia Loto](https://github.com/PatriLoto), [Irene Vazano](https://github.com/4iro)
+- Mentor: [Alexander Martinez](https://github.com/mxrtinez)
+- Website: [https://ciencia-abierta-en-latinoamerica.netlify.app/](https://ciencia-abierta-en-latinoamerica.netlify.app/)
+
+*Header picture by Roberto Huczek on [Unsplash](https://unsplash.com/es/licencia)*
+
+-----
 
 ## Project Background and Motivation
 
