@@ -2,12 +2,13 @@
 layout: post
 title: Mapping open-science communities, organizations, and events in Latin America
 authors: 
-- JFormoso
-- PatriLoto
+- jformoso
+- patriloto
 - 4iro
 image: https://github-production-user-asset-6210df.s3.amazonaws.com/32418102/246192342-62c5e32b-15c1-49b6-942c-8a4a7f3792be.jpg
+photos:
+  name: Picture by Roberto Huczek on Unsplash
 ---
-# Speed Blog: Mapping open-science communities, organizations, and events in Latin America
 
 _This post summarizes our OLS journey, the project we worked on during the entire period of cohort 7, and what our plans for the future are_
 
@@ -17,8 +18,6 @@ Thanks go to:
 
 For detail, please visit the project's website: [https://ciencia-abierta-en-latinoamerica.netlify.app/](https://ciencia-abierta-en-latinoamerica.netlify.app/)
 
-*Header picture credit: Picture by Roberto Huczek on [Unsplash](https://unsplash.com/es/licencia)*
-
 -----
 
 ## Project Background and Motivation
@@ -26,17 +25,21 @@ For detail, please visit the project's website: [https://ciencia-abierta-en-lati
 As the benefits of open science become increasingly evident, we believe it is crucial to foster its adoption and support the development of open science practitioners in Latin America. This project was born out of our desire to orient our practice towards open science and the struggles we faced while doing so. The three of us come from very different backgrounds but faced the same challenges: we were having difficulties finding people in our discipline that could help us make our work open, generating connections with groups or communities with similar goals, as well as accessing resources in our language that were applicable locally. During our attempts, we recognized the need for a centralized hub of information useful not only to us but that could potentially help other individuals and communities. So we decided to create a repository that collects and centralizes open resources with a focus on Latin America, such as communities, events, workshops, and funders. This repository, we believe, will help to: 
 
 
-1. Promoting Collaboration and Networking:
-The repository would serve as a virtual meeting place, bringing together like-minded researchers, institutions, and organizations across Latin America that are actively engaged in promoting open science principles. By providing a comprehensive directory of open science communities, the repository would facilitate networking opportunities, encourage interdisciplinary collaborations and the sharing of best practices, break down geographical barriers, and enable knowledge exchange.
+1. **Promoting Collaboration and Networking**
 
-2. Showcasing Latin America's Scientific Contributions:
-Latin America has made significant contributions to the scientific community, but these achievements sometimes go unnoticed on the global stage. The repository would act as a platform to highlight the remarkable work being conducted in Latin America, making it easily discoverable and accessible to the broader scientific community. By centralizing information about communities, resources, events, and funding opportunities, the repository would raise visibility and recognition for the region's achievements, ultimately contributing to a more diverse and inclusive global scientific landscape.
+    The repository would serve as a virtual meeting place, bringing together like-minded researchers, institutions, and organizations across Latin America that are actively engaged in promoting open science principles. By providing a comprehensive directory of open science communities, the repository would facilitate networking opportunities, encourage interdisciplinary collaborations and the sharing of best practices, break down geographical barriers, and enable knowledge exchange.
 
-3. Facilitating Access to Resources:
-One of the key objectives of the repository would be to compile and organize resources that support the adoption of open science practices. Latin America's open science communities often face unique challenges, such as limited access to funding, infrastructure, and training opportunities. The repository would address these challenges by providing a curated collection of resources, including funding databases, open-access journals, data repositories, and educational materials. This centralized information would potentially empower researchers and institutions in Latin America to overcome barriers and embrace open science practices more effectively.
+2. **Showcasing Latin America's Scientific Contributions**
 
-4. Empowering Early-Career Researchers:
-Early-career researchers in Latin America face numerous hurdles when navigating the scientific landscape. The creation of a repository such as this recognizes the importance of fostering the next generation of scientists and provides a dedicated section for resources and mentorship programs aimed at supporting early-career researchers. By connecting them with established researchers and offering guidance on open science methodologies, the repository would help bridge the gap between experienced and emerging scientists, nurture talent, and foster the growth of open science in the region.
+    Latin America has made significant contributions to the scientific community, but these achievements sometimes go unnoticed on the global stage. The repository would act as a platform to highlight the remarkable work being conducted in Latin America, making it easily discoverable and accessible to the broader scientific community. By centralizing information about communities, resources, events, and funding opportunities, the repository would raise visibility and recognition for the region's achievements, ultimately contributing to a more diverse and inclusive global scientific landscape.
+
+3. **Facilitating Access to Resources**
+
+    One of the key objectives of the repository would be to compile and organize resources that support the adoption of open science practices. Latin America's open science communities often face unique challenges, such as limited access to funding, infrastructure, and training opportunities. The repository would address these challenges by providing a curated collection of resources, including funding databases, open-access journals, data repositories, and educational materials. This centralized information would potentially empower researchers and institutions in Latin America to overcome barriers and embrace open science practices more effectively.
+
+4. **Empowering Early-Career Researchers**
+
+    Early-career researchers in Latin America face numerous hurdles when navigating the scientific landscape. The creation of a repository such as this recognizes the importance of fostering the next generation of scientists and provides a dedicated section for resources and mentorship programs aimed at supporting early-career researchers. By connecting them with established researchers and offering guidance on open science methodologies, the repository would help bridge the gap between experienced and emerging scientists, nurture talent, and foster the growth of open science in the region.
 
 We, therefore, had a concept but had no idea what we needed to learn, what to do, or whom to contact in order to make it a workable project.   
 
@@ -56,13 +59,10 @@ In the beginning, we devoted most of our time to understanding our project as th
 
 Thanks to our multiple meetings with our mentor and the experts, we were able to create a strategy and plan specific actions to carry out in order to achieve our goals. Some of these are listed below: 
 
-📝 Creating a monthly newsletter with content regarding open science, inspired by UNESCO’s recommendations. 
-
-🤝 Establish collaborations with fellow communities to enhance de dissemination of the project, the collection of data, and recruiting of collaborators.
-
-📊 Program the application to showcase the data we collect in a way that is accessible to all potential users and contributors. 
-
-🎤Present our work at meetings and conferences. 
+- 📝 Creating a monthly newsletter with content regarding open science, inspired by UNESCO's recommendations. 
+- 🤝 Establish collaborations with fellow communities to enhance de dissemination of the project, the collection of data, and recruiting of collaborators.
+- 📊 Program the application to showcase the data we collect in a way that is accessible to all potential users and contributors. 
+- 🎤 Present our work at meetings and conferences. 
 
 ### Staying connected
 
@@ -70,10 +70,10 @@ Thanks to our multiple meetings with our mentor and the experts, we were able to
 
 ### Special mentions and acknowledgments
 
-In the first place, we would like to express our gratitude to everyone who has supported and encouraged us throughout our OLS mentorship journey, especially a big thanks to our mentor Alex Martinez and the experts Jo Havemann and Anelda Van der Walt for their guidance and support along the way in OLS Cohort 7. We would also like to thank MetaDocencia’s communication team, Laura Ascenzi and Julian Buede, for helping us make the project grow, and Melissa Black, who encouraged us to participate. 
+In the first place, we would like to express our gratitude to everyone who has supported and encouraged us throughout our OLS mentorship journey, especially a big thanks to our mentor Alex Martinez and the experts Jo Havemann and Anelda Van der Walt for their guidance and support along the way in OLS Cohort 7. We would also like to thank MetaDocencia's communication team, Laura Ascenzi and Julian Buede, for helping us make the project grow, and Melissa Black, who encouraged us to participate. 
 
-### Twitter:
+### Twitter
 
-Irene Vazano: @ni_airo
-Patricia Loto: @patriloto
-Jesica Formoso: @jesiformoso
+- Irene Vazano: [@ni_airo](https://twitter.com/ni_airo)
+- Patricia Loto: [@patriloto](https://twitter.com/patriloto)
+- Jesica Formoso: [@jesiformoso](https://twitter.com/jesiformoso)
