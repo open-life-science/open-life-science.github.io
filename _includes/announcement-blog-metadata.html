@@ -42,12 +42,20 @@
 {% for project in projects %}
     {% for p in project.participants %}
         {% capture all-participants %}{{ all-participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
-        {% capture all-p-countries %}{{ all-p-countries }}, {{ people[p].country }}{% endcapture %}
+        {% if all-p-countries == '' %}
+            {% capture all-p-countries %}{{ people[p].country }}{% endcapture %}
+        {% else %}
+            {% capture all-p-countries %}{{ all-p-countries }}, {{ people[p].country }}{% endcapture %}
+        {% endif %}
     {% endfor %}
 
     {% for m in project.mentors %}
         {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
-        {% capture all-m-countries %}{{ all-m-countries }}, {{ people[m].country }}{% endcapture %}
+        {% if all-m-countries == '' %}
+            {% capture all-m-countries %}{{ people[m].country }}{% endcapture %}
+        {% else %}
+            {% capture all-m-countries %}{{ all-m-countries }}, {{ people[m].country }}{% endcapture %}
+        {% endif %}
 <!-- add +1 if participant in previous cohort -->
         {% if prev_participants contains m %}
             {% assign prev-part-count = prev-part-count | plus: 1 %}
