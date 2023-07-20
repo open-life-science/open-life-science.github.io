@@ -42,19 +42,25 @@
 {% for project in projects %}
     {% for p in project.participants %}
         {% capture all-participants %}{{ all-participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
-        {% if all-p-countries == '' %}
-            {% capture all-p-countries %}{{ people[p].country }}{% endcapture %}
-        {% else %}
-            {% capture all-p-countries %}{{ all-p-countries }}, {{ people[p].country }}{% endcapture %}
+        {% assign p_country = people[p].country | strip %}
+        {% if p_country != '' %}
+            {% if all-p-countries == '' %}
+                {% capture all-p-countries %}{{ p_country }}{% endcapture %}
+            {% else %}
+                {% capture all-p-countries %}{{ all-p-countries }}, {{ p_country }}{% endcapture %}
+            {% endif %}
         {% endif %}
     {% endfor %}
 
     {% for m in project.mentors %}
         {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
-        {% if all-m-countries == '' %}
-            {% capture all-m-countries %}{{ people[m].country }}{% endcapture %}
-        {% else %}
-            {% capture all-m-countries %}{{ all-m-countries }}, {{ people[m].country }}{% endcapture %}
+        {% assign m_country = people[m].country | strip %}
+        {% if m_country != '' %}
+            {% if all-m-countries == '' %}
+                {% capture all-m-countries %}{{ m_country }}{% endcapture %}
+            {% else %}
+                {% capture all-m-countries %}{{ all-m-countries }}, {{ m_country }}{% endcapture %}
+            {% endif %}
         {% endif %}
 <!-- add +1 if participant in previous cohort -->
         {% if prev_participants contains m %}
