@@ -44,11 +44,7 @@
         {% capture all-participants %}{{ all-participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
         {% assign p_country = people[p].country | strip %}
         {% if p_country != '' %}
-            {% if all-p-countries == '' %}
-                {% capture all-p-countries %}{{ p_country }}{% endcapture %}
-            {% else %}
-                {% capture all-p-countries %}{{ all-p-countries }}, {{ p_country }}{% endcapture %}
-            {% endif %}
+        {% capture all-p-countries %}{{ all-p-countries }}, {{ p_country }}{% endcapture %}
         {% endif %}
     {% endfor %}
 
@@ -56,11 +52,7 @@
         {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
         {% assign m_country = people[m].country | strip %}
         {% if m_country != '' %}
-            {% if all-m-countries == '' %}
-                {% capture all-m-countries %}{{ m_country }}{% endcapture %}
-            {% else %}
-                {% capture all-m-countries %}{{ all-m-countries }}, {{ m_country }}{% endcapture %}
-            {% endif %}
+        {% capture all-m-countries %}{{ all-m-countries }}, {{ m_country }}{% endcapture %}
         {% endif %}
 <!-- add +1 if participant in previous cohort -->
         {% if prev_participants contains m %}
