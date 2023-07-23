@@ -128,14 +128,17 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
         title: Welcome to OLS!
+        recording: https://youtu.be/O3yk0yrOHGM?t=1234
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
         title: Introducing Open Canvas
+        recording: https://youtu.be/O3yk0yrOHGM?t=2455
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         title: Introducing Road Mapping
+        recording: https://youtu.be/O3yk0yrOHGM?t=3053
         tag: Project Roadmapping
   '03':
     start: March 14, 2022
@@ -181,14 +184,17 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
         title: Welcome to OLS!
+        recording: https://youtu.be/CnTWxXVM0Qw?t=726
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
         title: Introducing Open Canvas
+        recording: https://youtu.be/CnTWxXVM0Qw?t=1398
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         title: Introducing Road Mapping
+        recording: https://youtu.be/CnTWxXVM0Qw?t=2821
         tag: Project Roadmapping
   '04':
     start: March 21, 2022
@@ -233,18 +239,21 @@ weeks:
         speakers:
         - ha0ye
         title: README
+        recording: https://youtu.be/d0A2TaLyhlY?t=714
         tag: README
       - slides: 
           https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
         speakers:
         - rgaiacs
         title: Open Licensing
+        recording: https://youtu.be/d0A2TaLyhlY?t=1604
         tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
         speakers:
         - dsarahstamps
         title: Contributing Guidelines and Code of Conduct
+        recording: https://youtu.be/d0A2TaLyhlY?t=2455
         tag: Code of Conduct
   '05':
     start: March 28, 2022
@@ -279,6 +288,7 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
         title: Introduction to GitHub
+        recording: https://youtu.be/90BOler9hqI
         tag: GitHub Introduction
   '06':
     start: April 04, 2022
@@ -308,26 +318,27 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1UhSKnz0deqsgzEHYdJGfFlOEN64_BIZ2GRjY6fKk44Y/edit?usp=sharing
         title: Using project management skills during development stage
+        recording: https://youtu.be/yCCNZH9JS-0?t=2381
         tag: Agile & Iteractive Project Management
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vQ__5JVOhFNoKufqIPflvEfUE1Vuxi9Euj975yCI14nJfeeyansg1RpuIteyTtmlQCyfacWTwB_QZ3N/pub?start=false&loop=false&delayms=3000#slide=id.p
         speakers:
         - unode
         title: Open Data
-        recording: https://youtu.be/yCCNZH9JS-0?t=2361
+        recording: https://youtu.be/yCCNZH9JS-0?t=199
         tag: Open Data
       - slides: https://tinyurl.com/59754uzx
         speakers:
         - ajstewartlang
         title: Open Source Software in Research
-        recording: https://youtu.be/yCCNZH9JS-0?t=1390
+        recording: https://youtu.be/yCCNZH9JS-0?t=1387
         tag: Open Source Software
       - slides: 
           https://docs.google.com/presentation/d/1UhSKnz0deqsgzEHYdJGfFlOEN64_BIZ2GRjY6fKk44Y/edit?usp=sharing
         speakers:
         - lwinfree
         title: Agile & Iterative Project Management Methods
-        recording: https://youtu.be/yCCNZH9JS-0?t=257
+        recording: https://youtu.be/yCCNZH9JS-0?t=2381
         tag: Open Data
   '07':
     start: April 11, 2022
@@ -370,18 +381,21 @@ weeks:
         speakers:
         - chadsansing
         title: Mountain of Engagement
+        recording: https://youtu.be/X7RbljtdgAQ?t=146
         tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1tYKBiCJdpXmTwwinsk4gF8eb9LIteJWnxEOfZOJgZbo/edit?usp=sharing
         speakers:
         - anelda
         title: 'Designing & empowering for inclusivity: Personas & Pathways'
+        recording: https://youtu.be/X7RbljtdgAQ?t=1402
         tag: Personas & Pathways
       - slides: 
           https://docs.google.com/presentation/d/1kTyCM574JDxFdXqhqKFWPZnCvI2FUFdtCTq6Lhpx7Nw
         speakers:
         - yochannah
         title: Welcoming New Contributors on Your Project
+        recording: https://youtu.be/X7RbljtdgAQ?t=2971
         tag: Community Interactions
   '09':
     start: April 25, 2022
@@ -416,14 +430,17 @@ weeks:
       - speakers:
         - msundukova
         title: Academic leadership, group or project leaders
+        recording: https://youtu.be/xIYmPhYsqrE?t=215
         tag: Open Leadership in Practice
       - speakers:
         - jasonjwilliamsny
         title: Post-academia career path, Social entrepreneurship
+        recording: https://youtu.be/xIYmPhYsqrE?t=2420
         tag: Open Leadership in Practice
       - speakers:
         - melissawm
         title: Post-academia career path, Social entrepreneurship
+        recording: https://youtu.be/xIYmPhYsqrE?t=3512
         tag: Open Leadership in Practice
       - speakers:
         - honoluluskye
@@ -455,21 +472,21 @@ weeks:
       - speakers:
         - alex-mendonça
         title: Preprints
-        recording: https://youtu.be/TqzM6cAeBoI?t=3508
+        recording: https://youtu.be/TqzM6cAeBoI?t=209
         tag: Open Access Publication
       - slides: 
           https://docs.google.com/presentation/d/18r-Zpec769BwP4TUAfG_ChGsOrdnU7Ber9ofjbLdwS8/edit?usp=sharing
         speakers:
         - joy-owango
         title: Open training in low and middle income settings 
-        recording: https://youtu.be/TqzM6cAeBoI?t=206
+        recording: https://youtu.be/TqzM6cAeBoI?t=2309
         tag: Open Science Infrastructures
       - slides: 
           https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
         speakers:
         - pivg
         title: Open access, Preprints
-        recording: https://youtu.be/TqzM6cAeBoI?t=2308
+        recording: https://youtu.be/TqzM6cAeBoI?t=3508
         tag: Open Educational Resources
   '11':
     start: May 09, 2022
@@ -516,10 +533,12 @@ weeks:
         - rowland-mosbergen
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
+        recording: https://youtu.be/WH9Z3lyw9ik?t=433
         tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         title: Ally skills - Optional
+        recording: https://youtu.be/WH9Z3lyw9ik?t=2263
         tag: Ally Skills for Open Leaders
   '13':
     start: May 23, 2022
@@ -572,11 +591,12 @@ weeks:
       - speakers:
         - gilbert-beyamba
         title: 'Public engagement: Open Infrastructure, Citizen Science, Science Communication'
-        recording: https://youtu.be/rUusShaYC4o?t=460
+        recording: https://youtu.be/rUusShaYC4o?t=466
         tag: Open Engagement of Social Actors
       - speakers:
         - sdruskat
         title: Steps towards FAIRer and more citable software
+        recording: https://youtu.be/rUusShaYC4o?t=2438
         tag: Open Source Software
   '15':
     start: June 06, 2022

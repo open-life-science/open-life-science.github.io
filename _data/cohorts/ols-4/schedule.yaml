@@ -91,7 +91,7 @@ weeks:
         - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
-      recording: https://www.youtube.com/watch?v=NsVX4a3ZOF8&t=1969s
+      recording: https://youtu.be/NsVX4a3ZOF8
       hosts:
       - yochannah
       - emmyft
@@ -110,12 +110,14 @@ weeks:
         speakers:
         - bebatut
         title: Introducing Open Canvas
+        recording: https://youtu.be/NsVX4a3ZOF8?t=1866
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         speakers:
         - emmyft
         title: Introducing Road Mapping
+        recording: https://youtu.be/NsVX4a3ZOF8?t=2642
         tag: Project Roadmapping
     - date: September 22, 2021
       time: "18:00"
@@ -183,12 +185,14 @@ weeks:
         speakers:
         - emmyft
         title: Introducing Open Canvas
+        recording: https://youtu.be/gcDNb_-JbDI?t=1968
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         speakers:
         - yochannah
         title: Introducing Road Mapping
+        recording: https://youtu.be/gcDNb_-JbDI?t=3069
         tag: Project Roadmapping
   '04':
     start: October 04, 2021
@@ -231,18 +235,21 @@ weeks:
         speakers:
         - kaythaney
         title: Open Licensing
+        recording: https://youtu.be/kAxVZDI18RU?t=973
         tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
         speakers:
         - alexwlchan
         title: README
+        recording: https://youtu.be/kAxVZDI18RU?t=2270
         tag: README
       - slides: 
           https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
         speakers:
         - ekaroune
         title: Contributing Guidelines and Code of Conduct
+        recording: https://youtu.be/kAxVZDI18RU?t=3329
         tag: Code of Conduct
   '05':
     start: October 11, 2021
@@ -282,6 +289,7 @@ weeks:
         speakers:
         - malvikasharan
         title: Introduction to GitHub
+        recording: https://youtu.be/lRW8mlpTw5M
         tag: GitHub Introduction
   '06':
     start: October 18, 2021
@@ -320,20 +328,20 @@ weeks:
         speakers:
         - nick-barlow
         title: Agile & Iterative Project Management Methods
-        recording: https://youtu.be/kjhrrfF2fvM?t=2573
+        recording: https://youtu.be/kjhrrfF2fvM?t=2548
         tag: Agile & Iteractive Project Management
       - slides: 
           https://docs.google.com/presentation/d/1cfeNl3URWS-IOrG-gwfEzIsg1VN9JQepQhcP54xvAkY/edit?usp=sharing
         speakers:
         - samvanstroud
         title: Open Source in Research
-        recording: https://youtu.be/kjhrrfF2fvM?t=1463
+        recording: https://youtu.be/kjhrrfF2fvM?t=4383
         tag: Open Source Software
       - slides: https://doi.org/10.5281/zenodo.5582718
         speakers:
         - selgebali
         title: Research data management
-        recording: https://youtu.be/kjhrrfF2fvM?t=244
+        recording: https://youtu.be/kjhrrfF2fvM?t=261
         tag: Open Data
   '07':
     start: October 25, 2021
@@ -382,22 +390,21 @@ weeks:
         speakers:
         - batoolmm
         title: Using Personas and Pathways to Build Community
+        recording: https://youtu.be/Mu5Dq6KAMqA?t=199
         tag: Personas & Pathways
       - slides: 
           https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
         speakers:
         - chadsansing
         title: Mountain of Engagement
+        recording: https://youtu.be/Mu5Dq6KAMqA?t=1715
         tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
         speakers:
         - contraexemplo
-        title: Mentored contributions
-        tag: Community Interactions
-      - slides: 
-          https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
-        title: Community interactions
+        title: Welcoming new contributors + Thinking about community interactions
+        recording: https://youtu.be/Mu5Dq6KAMqA?t=2752
         tag: Community Interactions
   '09':
     start: November 08, 2021
@@ -531,10 +538,12 @@ weeks:
           https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
+        recording: https://youtu.be/tT-hmAWUFKI?t=965
         tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         title: Ally skills - Optional
+        recording: https://youtu.be/tT-hmAWUFKI?t=2126
         tag: Ally Skills for Open Leaders
   '13':
     start: December 06, 2021
@@ -568,6 +577,7 @@ weeks:
         speakers:
         - malvikasharan
         title: Personal Ecology and Self Care
+        recording: https://youtu.be/94FySX0WwPM?t=154
         tag: Personal Ecology
   '14':
     start: December 13, 2021
@@ -615,8 +625,7 @@ weeks:
         title: The future of Open Science? DMPs and FAIR data
         recording: https://youtu.be/DbqsS1-ueqI?t=204
         tag: Open Data
-      - slides: https://youtu.be/DbqsS1-ueqI?t=201
-        speakers:
+      - speakers:
         - yvanlebras
         title: 'Open / citizen sience, the only way to '
         recording: https://youtu.be/DbqsS1-ueqI?t=1705
@@ -625,7 +634,7 @@ weeks:
         speakers:
         - sdruskat
         title: Software citation with the Citation File Format
-        recording: https://youtu.be/DbqsS1-ueqI?t=3007
+        recording: https://youtu.be/DbqsS1-ueqI?t=2997
         tag: Open Source Software
   '15':
     start: January 10, 2022
