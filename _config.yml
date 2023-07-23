@@ -11,6 +11,8 @@ url: https://openlifesci.org/
 announcement_list: https://groups.google.com/forum/#!forum/ols-news
 youtube: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
 
+markdown: kramdown
+
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/

@@ -199,6 +199,10 @@ agossoubido2021:
   last-name: Bidossessi Emmanuel
   pronouns: He/Him/His
   website: http://bidossessi.atwebpages.com/
+ahoyi:
+  first-name: Owen
+  last-name: Iyoha
+  country: Nigeria
 aida-turing:
   affiliation: The Alan Turing Institute
   bio: I am a Research Application Manager at The Alan Turing Institute. It's a new
@@ -284,6 +288,11 @@ akalikadien:
   first-name: Adarsh
   last-name: Kalikadien
   orcid: 0000-0002-5414-3424
+aki-macfarlane:
+  first-name: Aki
+  last-name: MacFarlane
+  affiliation: Wellcome
+  github: false
 aldenc:
   affiliation: The Alan Turing Institute
   bio: I am a Research Application Manager at the Alan Turing Institute. I work with
@@ -344,6 +353,12 @@ aleesteele:
   pronouns: she/her
   twitter: aleesteele
   website: https://www.aleesteele.com
+alex-mendonça:
+  first-name: Alex
+  last-name: Mendonça
+  affiliation: Scielo
+  country: Brazil
+  github: false
 alexholinski:
   affiliation: EMBL-EBI
   bio: I am working as a Scientific Training Officer at EMBL-EBI and dedicate my work
@@ -523,7 +538,7 @@ anelda:
   expertise:
   - Community building
   first-name: Anelda
-  last-name: Van Der Walt
+  last-name: van der Walt
   orcid: 0000-0003-4245-8119
   pronouns: she/her
   twitter: aneldavdw
@@ -757,6 +772,10 @@ anshika-sah:
   orcid: 0000-0002-2605-132X
   pronouns: SHE
   twitter: anshika24092962
+anshulbharadwaj:
+  first-name: Anshu
+  last-name: Bharadwaj
+  country: India / France
 antonioggsousa:
   affiliation: Instituto Gulbenkian De Ciência
   bio: I am a bioinformatician, with background in molecular/cell biology, working
@@ -927,7 +946,15 @@ ayeshadunk:
   pronouns: She/her
 aymd23:
   affiliation: Medical Laboratory Science of Lead City University
-  bio: Ayomide is a Medical Laboratory Scientist working in the department of Medical Laboratory Science of Lead City University, Ibadan, Nigeria. He holds a Bachelor of Medical Laboratory Science Degree from Ladoke Akintola University of Technology, Ogbomoso, Nigeria. With 5 years of experience working as a Laboratory Scientist and 2 years exploring bioinformatics, he has developed an interest in using bioinformatics to study the genetic basis of non-communicable diseases. Notable bioinformatics training he has participated in include Introduction to bioinformatics and African Genomic Medicine Training Initiative organized by H3ABionet. He looks forward to being a bioinformatics trainer in the nearest future.
+  bio: Ayomide is a Medical Laboratory Scientist working in the department of Medical
+    Laboratory Science of Lead City University, Ibadan, Nigeria. He holds a Bachelor
+    of Medical Laboratory Science Degree from Ladoke Akintola University of Technology,
+    Ogbomoso, Nigeria. With 5 years of experience working as a Laboratory Scientist
+    and 2 years exploring bioinformatics, he has developed an interest in using bioinformatics
+    to study the genetic basis of non-communicable diseases. Notable bioinformatics
+    training he has participated in include Introduction to bioinformatics and African
+    Genomic Medicine Training Initiative organized by H3ABionet. He looks forward
+    to being a bioinformatics trainer in the nearest future.
   city: Ibadan
   country: Nigeria
   first-name: Ayomide
@@ -1490,12 +1517,11 @@ cbolibaugh:
   website: https://www.york.ac.uk/education/research/eros/
 cel31:
   affiliation: University Pompeu Fabra
-  bio: "I am an early career researcher with a deep interest in past plant technology\
-    \ and \nresponsible research. My research aims at identifying plant fibre remains\
-    \ preserved in \narchaeological contexts and in museum collections. For this,\
-    \ I combine micro (comparative \nanatomy, phytoliths) and macro studies (plant\
-    \ morphology and indigenous/local knowledge) \nwith data gathered from experimental\
-    \ archaeology"
+  bio: "I am an early career researcher with a deep interest in past plant technology
+    and \nresponsible research. My research aims at identifying plant fibre remains
+    preserved in \narchaeological contexts and in museum collections. For this, I
+    combine micro (comparative \nanatomy, phytoliths) and macro studies (plant morphology
+    and indigenous/local knowledge) \nwith data gathered from experimental archaeology"
   city: Barcelona
   country: Spain
   expertise:
@@ -1549,6 +1575,12 @@ chadsansing:
   last-name: Sansing
   pronouns: he/him
   twitter: chadsansing
+chartgerink:
+  first-name: Chris
+  last-name: Hartgerink
+  twitter: chartgerink
+  website: https://chjh.nl
+  country: Germany
 chiara-damiani:
   first-name: Chiara
   github: false
@@ -1591,12 +1623,12 @@ christinerogers:
   twitter: xtinerogers
 chucklesongithub:
   affiliation: Talleres Open Source; Ifiba, Uba-Conicet
-  bio: "I'm a biologist working with physicists in songbird neuroscience. I really\
-    \ like doing ephys experiments, data analysis and building stuff for the lab.\
-    \ \n\nI am a volunteer in open science initiatives since I am passionate about\
-    \ teaching people new tools to help solve their problems and encouraging others\
-    \ to learn.\n\nI love doing outreach on bioacoustics and sound visualization,\
-    \ and also enjoy everything DIY, baking and playing the oboe in orchestra."
+  bio: "I'm a biologist working with physicists in songbird neuroscience. I really
+    like doing ephys experiments, data analysis and building stuff for the lab. \n
+    \nI am a volunteer in open science initiatives since I am passionate about teaching
+    people new tools to help solve their problems and encouraging others to learn.\n
+    \nI love doing outreach on bioacoustics and sound visualization, and also enjoy
+    everything DIY, baking and playing the oboe in orchestra."
   city: Buenos Aires
   country: Argentina
   expertise:
@@ -1761,10 +1793,10 @@ dadditolu:
   pronouns: he/him
   twitter: JohnOgunsola
 danae-carelis-davila-espinoza:
-  bio: "Medical student\nAssociate editor of the Journal of the scientific society\
-    \ of medical students of the Universidad Mayor de San Simón \"Revista Científica\
-    \ Ciencia Médica\" \nJunior Researcher \nAuxiliary of the journal of the faculty\
-    \ of medicine of the Universidad Mayor de San Simón"
+  bio: "Medical student\nAssociate editor of the Journal of the scientific society
+    of medical students of the Universidad Mayor de San Simón \"Revista Científica
+    Ciencia Médica\" \nJunior Researcher \nAuxiliary of the journal of the faculty
+    of medicine of the Universidad Mayor de San Simón"
   country: Bolivia
   first-name: Danae Carelis
   last-name: Davila Espinoza
@@ -2129,6 +2161,11 @@ eirinibotsari:
   last-name: Botsari
   pronouns: she/her
   twitter: eirini_botsari
+ekariuki-sleepy:
+  first-name: Eric
+  last-name: Kariuki
+  twitter: avoc_addict
+  affiliation: Bhki
 ekaroune:
   affiliation: The Alan Turing Institute And Historic England
   bio: I’m an Open Archaeobotanist specialising in phytolith research. I’m currently
@@ -2252,7 +2289,15 @@ emma-lawrence:
   website: https://biobankinguk.org/
 emmanuel19-ada:
   affiliation: Helix Biogen Institute
-  bio: Emmanuel Adamolekun is a Research fellow with Helix Biogen Institute, Ogbomosho, Nigeria ,a research organization focused on accelerating research in life through in-depth technical skills, training and capacity building in Bioinformatics and Genomics. Emmanuel graduated with a Bachelor's degree in Medical Laboratory Science from the prestigious Ladoke Akintola University of Technology, Ogbomosho, Oyo State, Nigeria. He is currently a member of the Education and Internship committee of the International Society for Computational Biology-Student Council (ISCB-SB). He is a member of the International Society of Computational biology (ISCB) and African Society Bioinformatics and Computational Biology (ASBCB).
+  bio: Emmanuel Adamolekun is a Research fellow with Helix Biogen Institute, Ogbomosho,
+    Nigeria ,a research organization focused on accelerating research in life through
+    in-depth technical skills, training and capacity building in Bioinformatics and
+    Genomics. Emmanuel graduated with a Bachelor's degree in Medical Laboratory Science
+    from the prestigious Ladoke Akintola University of Technology, Ogbomosho, Oyo
+    State, Nigeria. He is currently a member of the Education and Internship committee
+    of the International Society for Computational Biology-Student Council (ISCB-SB).
+    He is a member of the International Society of Computational biology (ISCB) and
+    African Society Bioinformatics and Computational Biology (ASBCB).
   city: Ogbomosho
   country: Nigeria
   expertise:
@@ -2547,7 +2592,8 @@ gabimusaubach:
   last-name: Musaubach
   orcid: 0000-0002-6770-7145
   twitter: Gabi Musa
-  website: https://www.conicet.gov.ar/new_scp/detalle.php?id=28034&keywords=MUSAUBACH%2BMARIA%2BGABRIELA&datos_academicos=yes
+  website: 
+    https://www.conicet.gov.ar/new_scp/detalle.php?id=28034&keywords=MUSAUBACH%2BMARIA%2BGABRIELA&datos_academicos=yes
 gabriela-rufino:
   first-name: Gabriela
   last-name: Rufino
@@ -2692,6 +2738,11 @@ gigikenneth:
     bringing a unique perspective to her work. Outside of her professional role, she
     volunteers as a program manager and enjoys writing about the latest developments
     in artificial intelligence.
+gilbert-beyamba:
+  first-name: Gilbert
+  last-name: Beyamba
+  affiliation: Pollicy
+  github: false
 gill-francis:
   bio: I am a Leverhulme Fellowship holder at the University of York. My research
     explores novel explanations to understanding why children play and how early years
@@ -2729,6 +2780,10 @@ gladys-jerono-rotich:
   - Bioinformatics
   bio: open life science ambassador and bioinformatician interested with infectious
     disease research
+godwyns-onwuchekwa:
+  first-name: Godwyns
+  last-name: Onwuchekwa
+  github: false
 graciellehigino:
   affiliation: University Of British Columbia
   bio: Theoretical & Quantitative Ecology freak. SciComm & Open Science leader. Catalyst
@@ -3439,6 +3494,10 @@ joshsimmons:
   first-name: Josh
   last-name: Simmons
   twitter: joshsimmons
+joy-owango:
+  first-name: Joy
+  last-name: Owango
+  github: false
 joyceykao:
   affiliation: University Hospital Rwth Aachen
   bio: I am a Senior Project Manager at the University Hospital RWTH Aachen coordinating
@@ -3892,6 +3951,9 @@ kswhitney:
   pronouns: she/her
   twitter: kstackwhitney
   website: https://rit.edu/sweetlab
+laitanawe:
+  first-name: Olaitan
+  last-name: Awe
 lalmehlisy:
   affiliation: King Abdullah International Medical Research Center (KAIMRC)
   bio: I am a Research Lab Technician in KAIMRC working on Metagenomics-based drug
@@ -4127,6 +4189,14 @@ lukehare:
   last-name: Hare
   orcid: 0000-0002-5178-5122
   pronouns: he/him
+lwasser:
+  first-name: Leah
+  last-name: Wasser
+  twitter: leahawasser
+  website: https://http://www.leahwasser.com/
+  orcid: 0000-0002-8177-6550
+  affiliation: Pyopensci
+  country: United States
 lwbwalma:
   affiliation: Tu Delft
   bio: I have a background in both Pharmacy and History, and I combined these fields
@@ -4256,13 +4326,13 @@ malloryfreeberg:
   website: https://malloryfreeberg.github.io/whoami/
 malvikasharan:
   affiliation: The Alan Turing Institute
-  bio: "Malvika Sharan is a Senior Researcher at [The Alan Turing Institute](https://turing.ac.uk),\
-    \ where she leads a \n[team of community managers](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems/community-management-and-open-research)\
-    \ \nand co-leads [_The Turing Way_](https://the-turing-way.netlify.com), a community-led\
-    \ handbook on data science.\nShe is a co-founder of Open Life Science, and an\
-    \ active contributor of several open source/science projects.\nConnect with her\
-    \ on topics such as community building, open science, strategic collaboration\
-    \ and representation of \nmarginalised members in leadership."
+  bio: "Malvika Sharan is a Senior Researcher at [The Alan Turing Institute](https://turing.ac.uk),
+    where she leads a \n[team of community managers](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems/community-management-and-open-research)
+    \nand co-leads [_The Turing Way_](https://the-turing-way.netlify.com), a community-led
+    handbook on data science.\nShe is a co-founder of Open Life Science, and an active
+    contributor of several open source/science projects.\nConnect with her on topics
+    such as community building, open science, strategic collaboration and representation
+    of \nmarginalised members in leadership."
   city: London
   country: United Kingdom
   expertise:
@@ -4283,6 +4353,10 @@ malvikasharan:
   title: Director of partnerships and strategy
   twitter: malvikasharan
   website: https://malvikasharan.github.io
+mannyco:
+  first-name: Manuel
+  last-name: Corpas
+  country: United Kingdom
 manulera:
   affiliation: Institut Curie
   bio: During my PhD, I used genetics, imaging and modelling to study the mitotic
@@ -4301,6 +4375,14 @@ manulera:
   pronouns: He/him
   twitter: manu_lera
   website: https://www.genestorian.org/
+marcel-laflamme:
+  first-name: Marcel
+  last-name: LaFlamme
+  twitter: MarcelLaFlamme_
+  orcid: 0000-0002-7489-4233
+  affiliation: Plos
+  country: United States
+  github: false
 marco-madella:
   affiliation: Cases Research Group - Icrea - Universitat Pompeu Fabra
   city: Barcelona
@@ -4605,6 +4687,13 @@ mblue9:
   first-name: Maria
   last-name: Doyle
   pronouns: she/her
+mdbarker:
+  first-name: Michelle
+  last-name: Barker
+  twitter: Michelle1Barker
+  website: https://www.linkedin.com/in/michelledbarker/
+  affiliation: Research Software Alliance
+  country: Australia
 meagdoh:
   bio: A designer and open source advocate with experience building on and offline
     communities in open government and health and life sciences
@@ -5228,6 +5317,9 @@ nihansultan:
   last-name: Milat
   twitter: MilatNihan
   website: https://nihansultan.github.io/MBio/
+nikoleta-v3:
+  first-name: Nikoleta
+  last-name: Glynatsi
 nilabha1512:
   first-name: Nilabha
   last-name: Mukherjea
@@ -5370,6 +5462,11 @@ olayile:
   first-name: Olayile
   last-name: Ejekwu
   pronouns: She/Her
+olexandr-konovalov:
+  first-name: Olexandr
+  last-name: Konovalov
+  affiliation: University Of St Andrews
+  country: United Kingdom / Ukraine
 olsjuju:
   affiliation: Binnobase Llc.
   bio: A research translator and innovation architect in the life science industry
@@ -5638,6 +5735,10 @@ pradeep-eranti:
   last-name: Eranti
   pronouns: he/his
   twitter: pradeeperanti
+pragya-chaube:
+  first-name: Pragya
+  last-name: Chaube
+  github: false
 prakriti-karki:
   affiliation: Tribhuvan University, Media Lab Nepal
   bio: Microbiology Researcher from Nepal struggling to create next generation scientists
@@ -5674,11 +5775,11 @@ prashbio:
 princehoodie:
   affiliation: Departamento De Química Inorgánica Analitica Y Fisicoquímica (Dqiaqf),
     Facultad De Ciencas Exactas Y Naturales (Fcen), Universidad De Buenos Aires (Uba)
-  bio: "I'm a young degree student passionate for learning. \nThe world that sourrounds\
-    \ us intrigues me and it never stops surprising me a little more every day.\n\
-    In my free time I love reading, skateboarding, playing futbol, studying languages\
-    \ like french ( <3 ) and hanging out with my friends.\nI'm looking forward to\
-    \ meeting you!"
+  bio: "I'm a young degree student passionate for learning. \nThe world that sourrounds
+    us intrigues me and it never stops surprising me a little more every day.\nIn
+    my free time I love reading, skateboarding, playing futbol, studying languages
+    like french ( <3 ) and hanging out with my friends.\nI'm looking forward to meeting
+    you!"
   city: Buenos Aires
   country: Argentina
   expertise:
@@ -6246,6 +6347,12 @@ sdopoku:
   last-name: Selassie Opoku
   pronouns: he/him
   twitter: sdopoku
+sdruskat:
+  first-name: Stephan
+  last-name: Druskat
+  website: https://www.dlr.de
+  affiliation: Dlr
+  country: Germany
 sebastianeggert:
   country: Germany
   first-name: Sebastian
@@ -6295,7 +6402,20 @@ serahrono:
   pronouns: she, her, hers
   twitter: serahrono
 seunolufemi123:
-  bio: Seun, is a student of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Nigeria, who is passionate about understanding the  molecular pathogenesis of diseases progression and the development of  therapeutic against it. Also, he is a Research and Teaching Assistant at Helix Biogen Institute, Ogbomoso where his major role includes conducting and co leading translational research, training interns, IT students and workshop participant in various areas of Bioinformatics, Research Writing and Molecular Biology. To his credit he had published over 3 articles in internationally highly indexed peer reviewed journals,With several others in-view. He had attended several  seminars, workshops and trainings on Bioinformatics,  Genomics and Research Writing. In 2021, he won a grant award for his poster presentation at the NAU international conference. However, he is a passionate advocate of Good health and wellbeing as a result he earned the millennium fellow class  of 21 and a 2022  YLP fellow. Overall, Seun seeks to promote health via translational research and advocacy.
+  bio: Seun, is a student of Biochemistry, Ladoke Akintola University of Technology,
+    Ogbomoso, Nigeria, who is passionate about understanding the  molecular pathogenesis
+    of diseases progression and the development of  therapeutic against it. Also,
+    he is a Research and Teaching Assistant at Helix Biogen Institute, Ogbomoso where
+    his major role includes conducting and co leading translational research, training
+    interns, IT students and workshop participant in various areas of Bioinformatics,
+    Research Writing and Molecular Biology. To his credit he had published over 3
+    articles in internationally highly indexed peer reviewed journals,With several
+    others in-view. He had attended several  seminars, workshops and trainings on
+    Bioinformatics,  Genomics and Research Writing. In 2021, he won a grant award
+    for his poster presentation at the NAU international conference. However, he is
+    a passionate advocate of Good health and wellbeing as a result he earned the millennium
+    fellow class  of 21 and a 2022  YLP fellow. Overall, Seun seeks to promote health
+    via translational research and advocacy.
   city: Ogbomoso
   country: Nigeria
   first-name: Seun Elijah
@@ -6665,6 +6785,12 @@ thessaly:
   pronouns: She/her
   twitter: cassandreces
   website: https://julieta.aranc.io
+thomas-mboa:
+  first-name: Thomas
+  last-name: Mboa
+  affiliation: Mboalab
+  country: Cameroon
+  github: false
 tklingstrom:
   affiliation: Swedish University of Agricultural Sciences
   bio: Biotechnician turned bioinformatician turned animal scientist trying to standardise
@@ -6779,12 +6905,6 @@ ujwal-shrestha:
   github: false
   last-name: Shrestha
   pronouns: He/Him
-umar-farouk-ahmad:
-  affiliation: Centre For Renewable Energy Research
-  first-name: Umar Farouk
-  last-name: Ahmad
-  orcid: 0000-0002-2854-9690
-  twitter: pharouknuclues
 umutpajaro:
   first-name: Umut
   last-name: Pajaro Velasquez
@@ -6916,7 +7036,8 @@ vhellon:
   orcid: ' 0000-0002-2745-0445'
   pronouns: she/her
   twitter: vickyhellon
-  website: https://www.turing.ac.uk/research/research-projects/alan-turing-institute-roche-strategic-partnership
+  website: 
+    https://www.turing.ac.uk/research/research-projects/alan-turing-institute-roche-strategic-partnership
 vickygisel:
   affiliation: Fundación Sadosky - Arphai
   bio: I'm a very curious person who enjoy teaching and learning. My personal interests
@@ -6934,15 +7055,15 @@ vickygisel:
   pronouns: She, Her
   twitter: VickyDumas
 vickynembaware:
-  bio: "Vicky has a PhD in Bioinformatics and an MPhil in Monitoring and Evaluation.\n\
-    Her research experience (qualitative and quantitative) spans Genomics and Public\
-    \ Health. She is currently a Project Coordinator for the Sickle Africa Data Coordinating\
-    \ Center at the University of Cape Town. She also coordinates several other groups\
-    \ and projects including the African Genomic Medicine Training Initiative (AGMT),\
-    \ Sickle Cell Disease Ontology Working Group (SCDO) and mGenAfrica.\nShe is the\
-    \ current secretary of the African Society of Human Genetics (AfSHG). She is passionate\
-    \ about building research capacity, mentoring young investigators and translational\
-    \ research. "
+  bio: "Vicky has a PhD in Bioinformatics and an MPhil in Monitoring and Evaluation.\n
+    Her research experience (qualitative and quantitative) spans Genomics and Public
+    Health. She is currently a Project Coordinator for the Sickle Africa Data Coordinating
+    Center at the University of Cape Town. She also coordinates several other groups
+    and projects including the African Genomic Medicine Training Initiative (AGMT),
+    Sickle Cell Disease Ontology Working Group (SCDO) and mGenAfrica.\nShe is the
+    current secretary of the African Society of Human Genetics (AfSHG). She is passionate
+    about building research capacity, mentoring young investigators and translational
+    research. "
   country: South Africa
   expertise:
   - Bioinformatics
@@ -6989,6 +7110,12 @@ xaxasm:
   expertise:
   - Physics
   - Astronomy
+yabellini:
+  first-name: Yanina
+  last-name: Bellini
+  website: https://yabellini.netlify.com/
+  affiliation: Ropensci
+  country: Argentina
 yanick-diapa-nana:
   first-name: Yanick
   last-name: Diapa Nana
@@ -7005,7 +7132,8 @@ yanick-diapa-nana:
   github: false
 yochannah:
   bio: Yo is the executive director and a co-founder of [OLS](https://openlifesci.org/).
-    As an [EngD student at the University of Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html),
+    As an [EngD student at the University of 
+    Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html),
     Yo is studying pathogen-related data sharing and sustainability of open source
     software.Yo is a founder of [Code is Science](https://codeisscience.github.io/manifesto/),
     and previously, they were editor for the [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit),
@@ -7063,6 +7191,10 @@ zebetus:
   first-name: Harry
   last-name: Smith
   twitter: Zebetus
+zee-moz:
+  first-name: Zannah
+  last-name: Marsh
+  website: https://www.zannah.fyi/
 zenita-milla-luthfiya:
   affiliation: Akademisi
   bio: I am eager to learn
@@ -7073,3 +7205,8 @@ zenita-milla-luthfiya:
   last-name: Luthfiya
   pronouns: She
   twitter: zenitamilla
+zulidyana-rusnalasari:
+  first-name: Zulidyana
+  last-name: Rusnalasari
+  country: Indonesia
+  github: false

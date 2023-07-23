@@ -18,6 +18,7 @@ $link-focus: $link-hover;
 $link-active: $link-hover;
 
 @import 'bulma/bulma.sass';
+@import 'bulma-collapsible.sass';
 
 @mixin reset-links() {
   a {
@@ -460,4 +461,31 @@ code {
     }
   }
   
+}
+
+
+// menu
+.menu {
+  font-size: small;
+
+  ul {
+    margin-left: 0px;
+    margin-right: 2em;
+
+    list-style-type: none;
+
+    ul {
+      list-style-type: none;
+
+      ul {
+        list-style-type: none;
+
+      }
+    }
+  }
+  
+}
+
+.columns-toc {
+  margin-top: 2em;
 }
