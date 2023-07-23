@@ -74,7 +74,7 @@ photos:
 {% endfor %}
 {% assign speaker_nb = all-speakers | remove_first: ',' | split: "," | uniq | sort | size %}
 
-Since its launch in 2020, OLS ran **7 cohorts**, **{{ cohort-calls }} cohort calls** with **{{ video_nb }} talks** by **{{ speaker_nb }} speakers**. The cohort calls are all available on [OLS YouTube channel]({{ site.youtube }}) and linked in the dedicated cohort schedule. But **all these talks were alo interesting individually and are currently hard to find**.
+Since its launch in 2020, OLS ran **7 cohorts**, **{{ cohort-calls }} cohort calls** with **{{ video_nb }} talks** by **{{ speaker_nb }} speakers**. The cohort calls are all available on [OLS YouTube channel]({{ site.youtube }}) and linked in the dedicated cohort schedule. But **all these talks were also interesting individually and are currently hard to find**.
 
 To improve talk findability and give more visibility to these experts, we created the [**Open Seeds Video Library**]({% link library.md %}). This page shows the full library of available videos from talks in Open Seeds cohort calls: **{{ video_nb }} videos** by **{{ speaker_nb }} speakers**, **organized by topic** (Open Science, Tooling for Collaboration, Project, Community & Personal Management, etc), **annotated** with the recording date, **information about the speakers**, and slidedeck link when available.
 
