@@ -656,7 +656,8 @@ def combine_tags(talks_by_tag):
     # reorder library
     ordered_library = {}
     for t in tag_topic_mapping.Topic.unique():
-        ordered_library[t] = library[t]
+        if t in library:
+            ordered_library[t] = library[t]
     return ordered_library
 
 

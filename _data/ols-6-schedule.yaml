@@ -296,6 +296,7 @@ weeks:
         - sapetti9
         title: Managing & developing research data (RDM)
         recording: https://youtu.be/AggJQTgsaaU?t=2695
+        tag: Open Data
       - slides: https://2022-10-25-lpc-oss.netlify.app/#8
         speakers:
         - luispedro
@@ -413,7 +414,6 @@ weeks:
         - olya-vvedenskaya
         title: Post Academia Career Path & Social Entrepreneurship
         tag: Open Leadership in Practice
-      - {}
   '10':
     start: November 21, 2022
     calls:

@@ -177,16 +177,19 @@ weeks:
         speakers:
         - malvikasharan
         title: Welcome to OLS!
+        tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
         speakers:
         - emmyft
         title: Introducing Open Canvas
+        tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         speakers:
         - yochannah
         title: Introducing Road Mapping
+        tag: Project Roadmapping
   '04':
     start: October 04, 2021
     calls:
@@ -228,16 +231,19 @@ weeks:
         speakers:
         - kaythaney
         title: Open Licensing
+        tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
         speakers:
         - alexwlchan
         title: README
+        tag: README
       - slides: 
           https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
         speakers:
         - ekaroune
         title: Contributing Guidelines and Code of Conduct
+        tag: Code of Conduct
   '05':
     start: October 11, 2021
     calls:
@@ -276,6 +282,7 @@ weeks:
         speakers:
         - malvikasharan
         title: Introduction to GitHub
+        tag: GitHub Introduction
   '06':
     start: October 18, 2021
     calls:
@@ -314,17 +321,20 @@ weeks:
         - nick-barlow
         title: Agile & Iterative Project Management Methods
         recording: https://youtu.be/kjhrrfF2fvM?t=2573
+        tag: Agile & Iteractive Project Management
       - slides: 
           https://docs.google.com/presentation/d/1cfeNl3URWS-IOrG-gwfEzIsg1VN9JQepQhcP54xvAkY/edit?usp=sharing
         speakers:
         - samvanstroud
         title: Open Source in Research
         recording: https://youtu.be/kjhrrfF2fvM?t=1463
+        tag: Open Source Software
       - slides: https://doi.org/10.5281/zenodo.5582718
         speakers:
         - selgebali
         title: Research data management
         recording: https://youtu.be/kjhrrfF2fvM?t=244
+        tag: Open Data
   '07':
     start: October 25, 2021
     calls:
@@ -372,19 +382,23 @@ weeks:
         speakers:
         - batoolmm
         title: Using Personas and Pathways to Build Community
+        tag: Personas & Pathways
       - slides: 
           https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
         speakers:
         - chadsansing
         title: Mountain of Engagement
+        tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
         speakers:
         - contraexemplo
         title: Mentored contributions
+        tag: Community Interactions
       - slides: 
           https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
         title: Community interactions
+        tag: Community Interactions
   '09':
     start: November 08, 2021
     calls:
@@ -418,11 +432,15 @@ weeks:
       - speakers:
         - mannyco
         title: Post-academia career path, Social entrepreneurship
+        tag: Open Leadership in Practice
       - title: Academic leadership, group or project leaders
+        tag: Open Leadership in Practice
       - title: Community building, Science Communication
+        tag: Open Leadership in Practice
       - speakers:
         - aki-macfarlane
         title: Policymakers, funders, meta-researchers
+        tag: Open Leadership in Practice
   '10':
     start: November 15, 2021
     calls:
@@ -453,12 +471,14 @@ weeks:
         - marcel-laflamme
         title: Getting started with preprints
         recording: https://youtu.be/SfGHnCedkwY?t=1862
+        tag: Open Access Publication
       - slides: 
           https://github.com/Nikoleta-v3/talks/blob/master/talks/2021-11-17-Open-Life-Science/main.pdf
         speakers:
         - nikoleta-v3
         title: Publishing & Citing Open Research Code
         recording: https://youtu.be/SfGHnCedkwY?t=3485
+        tag: Open Source Software
       - slides: 
           https://docs.google.com/presentation/d/1AaZETO7piGCfhJP9_UoQGFOWKD5LA5Pg7X0r7rlfkts/edit?usp=sharing
         speakers:
@@ -466,6 +486,7 @@ weeks:
         title: Usable, comprehensive, accessible, FAIR and empowering training - The
           case of the Galaxy Training Network
         recording: https://youtu.be/SfGHnCedkwY?t=205
+        tag: Open Educational Resources
   '11':
     start: November 22, 2021
     end: November 26, 2021
@@ -510,9 +531,11 @@ weeks:
           https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
+        tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
         title: Ally skills - Optional
+        tag: Ally Skills for Open Leaders
   '13':
     start: December 06, 2021
     calls:
@@ -545,6 +568,7 @@ weeks:
         speakers:
         - malvikasharan
         title: Personal Ecology and Self Care
+        tag: Personal Ecology
   '14':
     start: December 13, 2021
     calls:
@@ -590,15 +614,19 @@ weeks:
         - pherterich
         title: The future of Open Science? DMPs and FAIR data
         recording: https://youtu.be/DbqsS1-ueqI?t=204
-      - speakers:
+        tag: Open Data
+      - slides: https://youtu.be/DbqsS1-ueqI?t=201
+        speakers:
         - yvanlebras
         title: 'Open / citizen sience, the only way to '
         recording: https://youtu.be/DbqsS1-ueqI?t=1705
+        tag: Open Engagement of Social Actors
       - slides: https://doi.org/10.5281/zenodo.5783459
         speakers:
         - sdruskat
         title: Software citation with the Citation File Format
         recording: https://youtu.be/DbqsS1-ueqI?t=3007
+        tag: Open Source Software
   '15':
     start: January 10, 2022
     calls:

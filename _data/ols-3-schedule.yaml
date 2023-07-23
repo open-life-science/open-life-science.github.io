@@ -143,18 +143,21 @@ weeks:
         speakers:
         - malvikasharan
         title: Welcome to OLS!
+        recording: https://youtu.be/lFaMk01Z_gY?t=1595
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vR8j2NXWFyWKldK2OoTseN1t5YhLgeCG2OWNIjER5PKfnfGSdYQSjo8LeUCoYFyc3nZedBaNxc-aneH/pub?start=false&loop=false&delayms=3000
         speakers:
         - yochannah
         title: Introducing Open Canvas
+        recording: https://youtu.be/lFaMk01Z_gY?t=2311
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vRwCxOy-Xl240eB2j0xwuyA-1wPhQMiJV1nfQsbtsiGSUxPiuJZotZb91o23dtRS_RbYeyFHlq_z8XN/pub?start=false&loop=false&delayms=3000
         speakers:
         - emmyft
         title: Road Mapping
+        recording: https://youtu.be/lFaMk01Z_gY?t=3055
         tag: Project Roadmapping
   '03':
     start: February 22, 2021
@@ -257,6 +260,7 @@ weeks:
         speakers:
         - ha0ye
         title: A Primer on Open Licenses
+        recording: https://youtu.be/Enn2NGMGC2k?t=1176
         tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing”
@@ -265,12 +269,14 @@ weeks:
         speakers:
         - c-martinez
         title: README
+        recording: https://youtu.be/Enn2NGMGC2k?t=2138
         tag: README
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vSohISYePu3i64JyoI3Lc_GRBTNuWT9x98uFd2HVI0zGQSODiNv03ZSGTcPZcm_cz38K-vhtRRzdhfI/pub?start=false&loop=false&delayms=3000
         speakers:
         - malvikasharan
         title: Contributing Guidelines and Code of Conduct
+        recording: https://youtu.be/Enn2NGMGC2k?t=3066
         tag: Code of Conduct
   '05':
     start: March 08, 2021
@@ -505,9 +511,9 @@ weeks:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-    - type: Cohort
+    - type: Skill-up
       duration: 90 min
-      title: 'Skill-up: Personal Ecology and Ally Skills'
+      title: 'Personal Ecology and Ally Skills'
       content: |
         During this week's cohort call, we will hold a skill-up session on Personal Ecology and Ally Skills:
         - Discuss the importance of taking care your our mental health and avoiding burn out for both project leaders and community members
@@ -563,18 +569,6 @@ weeks:
       time: "11:30"
       notes: https://bit.ly/ols-3-week-09-q-a
       recording: https://youtu.be/5BlB0RUY-7c
-      talks:
-      - slides: 
-          https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
-        speaker: emmyft
-        title: Personal Ecology and Self Care
-    - date: April 07, 2021
-      time: "11:30"
-      duration: 90 min
-      notes: https://bit.ly/ols-3-week-09-q-a
-      title: Personal Ecology and Ally Skills
-      recording: https://youtu.be/5BlB0RUY-7c
-      type: Skill-up
       talks:
       - slides: 
           https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
@@ -697,18 +691,22 @@ weeks:
       - speakers:
         - sdopoku
         title: Social entrepreneurship
+        recording: https://youtu.be/EMVGOapd0M4?t=146
         tag: Open Leadership in Practice
       - speakers:
         - thomas-mboa
         title: Open Lab and Makers movement
+        recording: https://youtu.be/EMVGOapd0M4?t=888
         tag: Open Leadership in Practice
       - speakers:
         - zulidyana-rusnalasari
         title: Journal and public relations
+        recording: https://youtu.be/EMVGOapd0M4?t=1595
         tag: Open Leadership in Practice
       - speakers:
         - natalie-banner
         title: Talking about data in trustworthy ways
+        recording: https://youtu.be/EMVGOapd0M4?t=2951
         tag: Open Leadership in Practice
   '13':
     start: May 03, 2021
@@ -795,24 +793,28 @@ weeks:
         - rowland-mosbergen
         title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
           matter?)'
+        recording: https://youtu.be/GdZ3kfKP43A?t=438
         tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
         speakers:
         - anelda
         title: Personas & Pathways
+        recording: https://youtu.be/GdZ3kfKP43A?t=2263
         tag: Personas & Pathways
       - slides: 
           https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
         speakers:
         - emmyft
         title: Mountain of Engagement
+        recording: https://youtu.be/GdZ3kfKP43A?t=3725
         tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
         speakers:
         - bebatut
         title: Welcoming new contributions to your project
+        recording: https://youtu.be/GdZ3kfKP43A?t=3927
         tag: Project Design for Collaboration
       - slides: 
           https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209

@@ -159,6 +159,7 @@ weeks:
         speakers:
         - yochannah
         title: Introducing Open Canvas
+        recording: https://youtu.be/5lkkHPm6aj8?t=982
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
@@ -260,18 +261,21 @@ weeks:
         speakers:
         - christinerogers
         title: A Primer on Open Licenses
+        recording: https://youtu.be/aX40ntw0uIg?t=1946
         tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/12nifeGLgbZWeq7D1EMjLZIvMieM4pEa522sQLQNnT2g/edit?usp=sharing
         speakers:
         - mkuzak
         title: READMEs for Open Projects
+        recording: https://youtu.be/aX40ntw0uIg?t=2939
         tag: README
       - slides: 
           https://docs.google.com/presentation/d/196NOwvIx2A_cSOKE7YEyDvww7lehxBmef9O4B_FLodc/edit?usp=sharing
         speakers:
         - lwinfree
         title: Contributing Guidelines and Codes of Conduct for Open Projects
+        recording: https://youtu.be/aX40ntw0uIg?t=3747
         tag: Code of Conduct
   '05':
     start: September 28, 2020
@@ -521,15 +525,14 @@ weeks:
       time:
       calendar-event:
       notes: https://hackmd.io/@ols-2/coworking
-    - type: Cohort
+    - date: October 29, 2020
       duration: 90 min
-      title: "Skill-up: Personal Ecology and Ally Skills"
-      date: October 29, 2020
-      time: '15:00'
+      notes: https://hackmd.io/@ols-2/week-09
+      title: Personal Ecology and Ally Skills
+      recording: https://www.youtube.com/watch?v=8niC2UB25ys
+      type: Skill-up
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=MDhrYW1oZ2w5YXJyODFnam1vNGkycG9saDQgb3BlbmxpZmVzY2lAbQ&tmsrc=openlifesci%40gmail.com
-      notes: https://hackmd.io/@ols-2/week-09
-      recording: https://www.youtube.com/watch?v=8niC2UB25ys
       content: |
         During this week's cohort call, we will hold a skill-up session on Personal Ecology and Ally Skills:
         - Discuss the importance of taking care your our mental health and avoiding burn out for both project leaders and community members
@@ -569,17 +572,6 @@ weeks:
         title: Goal setting exercise
         link: 
           https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
-      talks:
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
-        title: Personal Ecology and Self Care
-    - date: October 29, 2020
-      time: "15:00"
-      duration: 90 min
-      notes: https://hackmd.io/@ols-2/week-09
-      title: Personal Ecology and Ally Skills
-      recording: https://www.youtube.com/watch?v=8niC2UB25ys
-      type: Skill-up
       talks:
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
@@ -633,17 +625,20 @@ weeks:
         - proccaserra
         title: 'FAIR Data: Insights and perspectives'
         recording: https://youtu.be/ylqDx_ELfus?t=268
+        tag: Open Data
       - slides: https://f1000research.com/slides/9-1294
         speakers:
         - burkemlou
         title: Making training materials FAIR in 10 steps
         recording: https://youtu.be/ylqDx_ELfus?t=1108
+        tag: Open Educational Resources
       - slides: 
           https://drive.google.com/file/d/1LtG_gVhszVl13yohYuxTipaKnxV77cqP/view?usp=sharing
         speakers:
         - fpsom
         title: FAIR Research Software
         recording: https://youtu.be/ylqDx_ELfus?t=2848
+        tag: Open Source Software
   '11':
     start: November 09, 2020
     calls:
@@ -688,22 +683,33 @@ weeks:
         speakers:
         - rainsworth
         title: Community building
+        recording: https://youtu.be/hS-6GE0X2UY?t=149
         tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1RsvcKd_5uW-TtawLAOw6N95gOLO6MinN0I94dUIII8s/edit
         speakers:
         - natasha_wood
         title: Navigating a career through academia and industry/start-up
+        recording: https://youtu.be/hS-6GE0X2UY?t=917
         tag: Open Leadership in Practice
       - speakers:
         - ajstewartlang
         title: Academia
+        recording: https://youtu.be/hS-6GE0X2UY?t=1495
         tag: Open Leadership in Practice
       - slides: 
           https://drive.google.com/file/d/1i1g9pxmkW8gr4f3S380NBJ6-k8GGVnrx/view?usp=sharing
         speakers:
         - ekin-bolukbasi
         title: Data Challenges Manager, Wellcome
+        recording: https://youtu.be/hS-6GE0X2UY?t=2333
+        tag: Open Leadership in Practice
+      - slides: 
+          https://docs.google.com/presentation/d/1Sac0MqvkmgK4vWSDrdiEkEWUdgyznySX45WDpV-XkyQ/edit?usp=sharing
+        speakers:
+        - sdopoku
+        title: Social entrepreneurship
+        recording: https://youtu.be/hS-6GE0X2UY?t=3016
         tag: Open Leadership in Practice
   '13':
     start: November 23, 2020
@@ -735,49 +741,6 @@ weeks:
   '14':
     start: November 30, 2020
     calls:
-    - type: Cohort
-      duration: 90 min
-      title: 'Designing & Empowering for inclusivity'
-      date: December 3, 2020
-      time: '09:00'
-      calendar-event: 
-        https://calendar.google.com/event?action=TEMPLATE&tmeid=MzRkMjlycHQ3NWpxaXVidWhqY2Zya2hjazEgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      notes: https://hackmd.io/@ols-2/week-14
-      recording: https://www.youtube.com/watch?v=Tl8MOTVznXs
-      hosts:
-      - emmyft
-      - malvikasharan
-      agenda: Personas and pathways for contributors, Implicit bias & Community interactions
-      content: |
-        During this week's cohort call, we will:
-        - Implicit bias, Diversity and Inclusion
-        - Mountain of engagement and community interactions
-        - Personas and pathways and welcoming new contributors
-      before: |
-        - Do the implicit Bias Quiz
-          - Go to [https://implicit.harvard.edu](https://implicit.harvard.edu) complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)
-
-              You can 'continue as a guest' by choosing your country
-
-          - Answer these questions when you've finished the implicit association test: What does inclusion mean to you? Did your results of the implicit association test surprise you?
-          - Bring your notes to the cohort call
-      after: |
-        - [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/) assignment
-        - Think through community interactions
-        - Complete the midterm survey
-      resources: []
-      talks:
-      - slides: https://alexwlchan.net/2020/03/inclusion-cant-be-an-afterthought/
-        speaker: alexwlchan
-        title: Inclusion not an afterthought
-      - slides: 
-          https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
-        speaker: trallard
-        title: Community interactions and mountain of engagements
-      - slides: 
-          https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
-        speaker:
-        title: Using Personas and Pathways to Build Community
     - date: December 03, 2020
       time: "09:00"
       duration: 90 min
@@ -790,18 +753,21 @@ weeks:
         speakers:
         - alexwlchan
         title: Inclusion not an afterthought
+        recording: https://youtu.be/Tl8MOTVznXs?t=742
         tag: Equity, Diversity and Inclusion (EDI)
       - slides: 
           https://docs.google.com/presentation/d/1NldyVwPU-_3lLCd8sZqWNeD3kKmF9VspTDzs58iKCk0/edit?usp=sharing
         speakers:
         - trallard
         title: Community interactions and mountain of engagements
+        recording: https://youtu.be/Tl8MOTVznXs?t=2322
         tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1zAjdIylwTfavFDhPDB9-ykmW_DB-zUnpFjJ7tiNexcw/edit
         speakers:
         - benkrikler
         title: Using Personas and Pathways to Build Community
+        recording: https://youtu.be/Tl8MOTVznXs?t=4051
         tag: Personas & Pathways
   '15':
     start: December 07, 2020

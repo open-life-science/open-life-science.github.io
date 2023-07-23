@@ -121,18 +121,21 @@ weeks:
         speakers:
         - malvikasharan
         title: Welcome to OLS!
+        recording: https://youtu.be/3-cvl7UfSTY?t=278
         tag: Open Science Introduction
       - slides: 
           https://docs.google.com/presentation/d/14LsolqKJdd1T7XMV8PK6yQrjjrz9VPFHRDtjrL_55Js/edit?usp=sharing
         speakers:
         - yochannah
         title: Introducing Open Canvas
+        recording: https://youtu.be/3-cvl7UfSTY?t=1751
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1IqvBjHlqXk8tkKj7nbp5pneQq19z6yuUq9Bkp3eTYPE/edit?usp=sharing
         speakers:
         - bebatut
         title: Road Mapping
+        recording: https://youtu.be/3-cvl7UfSTY?t=2427
         tag: Project Roadmapping
   '03':
     start: February 03, 2020
@@ -210,18 +213,21 @@ weeks:
         speakers:
         - joshsimmons
         title: A Primer on Open Licenses
+        recording: https://youtu.be/y9y8a3O4fjg?t=383
         tag: Open Licensing
       - slides: 
           https://docs.google.com/presentation/d/1APGIvU1aZ_zNkLmC5SYlLXBh6LZK_Qe97-3C_3oXcFI/edit?usp=sharing
         speakers:
         - mkuzak
         title: READMEs for Open Projects
+        recording: https://youtu.be/y9y8a3O4fjg?t=1831
         tag: README
       - slides: 
           https://docs.google.com/presentation/d/1aLaDBwH64PCRtCLIftVkjBYT60ifWuIV7Im2t8BXN8Q/edit?usp=sharing
         speakers:
         - karinlag
         title: Contributing Guidelines and Codes of Conduct for Open Projects
+        recording: https://youtu.be/y9y8a3O4fjg?t=2605
         tag: Code of Conduct
   '05':
     start: February 17, 2020
@@ -295,7 +301,7 @@ weeks:
         https://docs.google.com/document/d/1HeWcj5RuouvHjx2x-AgL92qEwhRosE_qRknaWmCBWM4/edit?usp=sharing
       title: GitHub tutorial for beginners
       recording: https://www.youtube.com/watch?v=QRUvQgKbVZQ
-      type: Skill-up
+      type: Cohort
       talks: []
   '06':
     start: February 24, 2020
@@ -535,17 +541,20 @@ weeks:
         speakers:
         - alexwlchan
         title: Inclusion can't be an afterthought
+        recording: https://youtu.be/81mG4L7S3Oc?t=749
         tag: Equity, Diversity and Inclusion (EDI)
       - slides: https://drive.google.com/open?id=1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y
         speakers:
         - malvikasharan
         title: Mountain of Engagement & Community Interactions
+        recording: https://youtu.be/81mG4L7S3Oc?t=2264
         tag: Mountain of Engagement
       - slides: 
           https://docs.google.com/presentation/d/1-rdQipVmJ5lWelQ1oEbi86EbFwTpDh5TLeJ2TAg-oo4/edit?usp=sharing
         speakers:
         - kirstiejane
         title: Using Personas and Pathways to Build Community
+        recording: https://youtu.be/81mG4L7S3Oc?t=2980
         tag: Personas & Pathways
   '11':
     start: March 30, 2020
@@ -594,27 +603,32 @@ weeks:
         speakers:
         - fpsom
         title: Leadership in Academia
+        recording: https://youtu.be/un4lsSMdAB0?t=246
         tag: Open Leadership in Practice
       - slides: 
           https://docs.google.com/presentation/d/1Cx6XAxZMt3jlU8O8DM8fCYemjmzgHUd6Sx8-MI3kIz0/edit?usp=sharing
         speakers:
         - bduckles
         title: 'Becoming a Post Academic '
+        recording: https://youtu.be/un4lsSMdAB0?t=1433
         tag: Open Leadership in Practice
       - speakers:
         - jasonjwilliamsny
         title: Leadership in training and education
+        recording: https://youtu.be/un4lsSMdAB0?t=2256
         tag: Open Leadership in Practice
       - slides: https://drive.google.com/open?id=18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU
         speakers:
         - yochannah
         title: 'Personal Ecology and Self Care '
+        recording: https://youtu.be/un4lsSMdAB0?t=3299
         tag: Personal Ecology
       - slides: 
           https://docs.google.com/presentation/d/1-eaxorHL76DGMjcpmTzVDqcO-4Wz-W4VBoOtJa2py3U/edit?usp=sharing
         speakers:
         - malvikasharan
         title: Ally Skills
+        recording: https://youtu.be/un4lsSMdAB0?t=3851
         tag: Ally Skills for Open Leaders
   '12':
     start: April 06, 2020
