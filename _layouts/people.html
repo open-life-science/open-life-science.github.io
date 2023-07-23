@@ -60,8 +60,8 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 {% for w in site.data.ols-1-schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
                     {% capture ols-1-speakers %}{{ ols-1-speakers}} {{ r.speaker }}{% endcapture %}
                 {% endif %}
             {% endfor %}
@@ -93,8 +93,8 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 {% for w in site.data.ols-2-schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
                     {% capture ols-2-speakers %}{{ ols-2-speakers}} {{ r.speaker }}{% endcapture %}
                 {% endif %}
             {% endfor %}
@@ -126,8 +126,8 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 {% for w in site.data.ols-3-schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
                     {% capture ols-3-speakers %}{{ ols-3-speakers}} {{ r.speaker }}{% endcapture %}
                 {% endif %}
             {% endfor %}
@@ -159,8 +159,8 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 {% for w in site.data.ols-4-schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
                     {% capture ols-4-speakers %}{{ ols-4-speakers}} {{ r.speaker }}{% endcapture %}
                 {% endif %}
             {% endfor %}
@@ -192,8 +192,8 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 {% for w in site.data.ols-5-schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
                     {% capture ols-5-speakers %}{{ ols-5-speakers}} {{ r.speaker }}{% endcapture %}
                 {% endif %}
             {% endfor %}
@@ -225,8 +225,8 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 {% for w in site.data.ols-6-schedule %}
     {% for c in w[1].calls %}
         {% if c.type == 'Cohort' %}
-            {% for r in c.resources %}
-                {% if r.type == 'slides' and r.speaker %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
                     {% capture ols-6-speakers %}{{ ols-6-speakers}} {{ r.speaker }}{% endcapture %}
                 {% endif %}
             {% endfor %}
@@ -235,6 +235,39 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
 {% endfor %}
 <!-- combine all -->
 {% capture ols-6-people %}{{ ols-6-participants }} {{ ols-6-experts }} {{ ols-6-mentors }} {{ ols-6-organizers }} {{ ols-6-speakers }} {{ ols-6-facilitators }}{% endcapture %}
+
+<!-- OLS-7 -->
+<!-- extract participants and mentors -->
+{% assign ols-7-projects = site.data.ols-7-projects %}
+{% assign ols-7-participants = '' %}
+{% assign ols-7-mentors = '' %}
+{% for project in ols-7-projects %}
+    {% for p in project.participants %}
+        {% capture ols-7-participants %}{{ ols-7-participants }} {{ p }}{% endcapture %}
+    {% endfor %}
+    {% for m in project.mentors %}
+        {% capture ols-7-mentors %}{{ ols-7-mentors }} {{ m }}{% endcapture %}
+    {% endfor %}
+{% endfor %}
+<!-- extract experts and organizers -->
+{% assign ols-6-experts = site.data.ols-7-metadata.experts %}
+{% assign ols-6-facilitators = site.data.ols-7-metadata.facilitators %}
+{% assign ols-6-organizers = site.data.ols-7-metadata.organizers %}
+<!-- extract speakers and call facilitators -->
+{% assign ols-6-speakers = '' %}
+{% for w in site.data.ols-7-schedule %}
+    {% for c in w[1].calls %}
+        {% if c.type == 'Cohort' %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
+                    {% capture ols-7-speakers %}{{ ols-6-speakers}} {{ r.speaker }}{% endcapture %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+<!-- combine all -->
+{% capture ols-7-people %}{{ ols-7-participants }} {{ ols-7-experts }} {{ ols-7-mentors }} {{ ols-7-organizers }} {{ ols-7-speakers }} {{ ols-7-facilitators }}{% endcapture %}
 
 <div class="people">
     {% for entry in site.data.people %}
@@ -366,6 +399,28 @@ we ask that you follow our <a href="/code-of-conduct">code of conduct</a> in all
                 {% capture roles %}{{ roles }}, organizer{% endcapture %}
             {% endif %}
             {% capture ols-roles %}{{ ols-roles }} / OLS-6 {{ roles | remove_first: ', ' }}{% endcapture %}
+        {% endif %}
+        {% if ols-7-people contains username %}
+            {% assign roles = '' %}
+            {% if ols-7-participants contains username %}
+                {% capture roles %}{{ roles }}, project lead{% endcapture %}
+            {% endif %}
+            {% if ols-7-mentors contains username %}
+                {% capture roles %}{{ roles }}, mentor{% endcapture %}
+            {% endif %}
+            {% if ols-7-experts contains username %}
+                {% capture roles %}{{ roles }}, expert{% endcapture %}
+            {% endif %}
+            {% if ols-7-speakers contains username %}
+                {% capture roles %}{{ roles }}, speaker{% endcapture %}
+            {% endif %}
+            {% if ols-7-facilitators contains username %}
+                {% capture roles %}{{ roles }}, facilitator{% endcapture %}
+            {% endif %}
+            {% if ols-7-organizers contains username %}
+                {% capture roles %}{{ roles }}, organizer{% endcapture %}
+            {% endif %}
+            {% capture ols-roles %}{{ ols-roles }} / OLS-7 {{ roles | remove_first: ', ' }}{% endcapture %}
         {% endif %}
         {% assign ols-roles = ols-roles | remove_first: ' / ' %}
         {% include _includes/people.html username=username user=user ols-roles=ols-roles %}

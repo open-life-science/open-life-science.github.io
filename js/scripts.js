@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  bulmaCollapsible.attach();
 });
 
 document.addEventListener('DOMContentLoaded', function() {

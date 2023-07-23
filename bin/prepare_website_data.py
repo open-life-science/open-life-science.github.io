@@ -9,7 +9,7 @@ from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
 
 optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
-to_capitalize_info = ['affiliation', 'city', 'country', 'first-name', 'last-name']
+to_capitalize_info = ['affiliation', 'city', 'country']
 people_fp = Path('_data') / Path('people.yaml')
 
 
@@ -140,15 +140,15 @@ def extract_people_info(row, people):
     info = {
         'first-name': row['First name'].rstrip(),
         'last-name': row['Last name'].rstrip(),
-        'twitter': row['Twitter'],
-        'website': row['Website'],
-        'orcid': row['ORCID'],
+        'twitter': row['Twitter'] if 'Twitter' in row else None,
+        'website': row['Website'] if 'Website' in row else None,
+        'orcid': row['ORCID'] if 'ORCID' in row else None,
         'affiliation': row['Affiliation'] if 'Affiliation' in row else None,
-        'city': row['City'],
-        'country': row['Country'],
-        'pronouns': row['Pronouns'],
-        'expertise': row['Areas of expertise'],
-        'bio': row['Bio']
+        'city': row['City'] if 'City' in row else None,
+        'country': row['Country'] if 'Country' in row else None,
+        'pronouns': row['Pronouns'] if 'Pronouns' in row else None,
+        'expertise': row['Areas of expertise'] if 'Areas of expertise' in row else None,
+        'bio': row['Bio'] if 'Bio' in row else None
     }
     # get id
     id = row['GitHub']
@@ -303,9 +303,9 @@ def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp
     for k, week in schedule['weeks'].items():
         for call in week['calls']:
             if call['type'] == 'cohort':
-                for r in call['resources']:
-                    if r['type'] == 'slides' and 'speaker' in r:
-                        speakers.append(r['speaker'])
+                for r in call['talks']:
+                    if 'speakers' in r:
+                        speakers += r['speakers']
             if 'hosts' in call:
                 hosts += call['hosts']
     extract_people_df(speakers, people, speaker_fp)
@@ -380,9 +380,9 @@ def dump_schedule(schedule, cohort):
     :param schedule: dictionary with schedule details
     :param cohort: cohort number
     '''
-    fp = Path('_data') / Path('ols-%s-schedule.yaml' % cohort )
+    fp = Path('_data') / Path(f'ols-{cohort}-schedule.yaml')
     with fp.open("w") as schedule_f:
-        schedule_f.write("# Schedule for the OLS-%s\n" % cohort)
+        schedule_f.write(f"# Schedule for the OLS-{cohort}\n")
         schedule_f.write("---\n")
         yaml.dump(schedule, schedule_f)
 
@@ -403,7 +403,7 @@ def update_call(call, row, people):
         call['duration'] = "%s min" % int(int(row['duration'].seconds)/60)
     if not pd.isnull(row['Note link']):
         call['notes'] = row['Note link']
-    if not pd.isnull(row['Learning objectives']):
+    if 'Learning objectives' in row and not pd.isnull(row['Learning objectives']):
         call['content'] = 'In this call, participants will:\n%s' % row['Learning objectives']
     if not pd.isnull(row['Title']):
         call['title'] = row['Title']
@@ -417,13 +417,13 @@ def update_call(call, row, people):
         call['facilitators'] = get_people_ids(row['Facilitators'], people)
     if not pd.isnull(row['Type']):
         call['type'] = row['Type']
-    if not pd.isnull(row['Before']):
+    if 'Before' in row and not pd.isnull(row['Before']):
         call['before'] = row['Before']
     if 'After' in row and not pd.isnull(row['After']):
         call['after'] = row['After']
     elif 'Assignments' in row and not pd.isnull(row['Assignments']):
         call['after'] = row['Assignments']
-    call['resources'] = []
+    call['talks'] = []
     return call
 
 
@@ -442,25 +442,26 @@ def check_same_event(call, row):
     return same
 
 
-def update_resource(res, row, people):
+def update_talks(talks, row, people):
     ''''
     Update resource details
 
-    :param res: dictionary with resource details
-    :param row: row from dataframe with resource details
+    :param talks: dictionary with talk details
+    :param row: row from dataframe with talk details
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     '''
     if not pd.isnull(row['Slides']):
-        res['link'] = row['Slides']
+        talks['slides'] = row['Slides']
     if not pd.isnull(row['Confirmed speaker']):
-        name = row['Confirmed speaker']
-        res['speaker'] = get_people_id(name, people)
-    res['type'] = 'slides'
+        names = row['Confirmed speaker'].split(', ')
+        talks['speakers'] = [get_people_id(n, people) for n in names]
     if not pd.isnull(row['Title']):
-        res['title'] = row['Title']
+        talks['title'] = row['Title']
     if not pd.isnull(row['Recording']):
-        res['recording'] = row['Recording']
-    return res
+        talks['recording'] = row['Recording']
+    if not pd.isnull(row['Tag']):
+        talks['tag'] = row['Tag']
+    return talks
 
 
 def add_event_information(schedule, schedule_df, people):
@@ -477,7 +478,7 @@ def add_event_information(schedule, schedule_df, people):
             'Duration': 'duration'})
         .assign(
             date=lambda x: pd.to_datetime(x['date'], dayfirst=True, errors='coerce'),
-            time=lambda x: pd.to_datetime(x['time'], errors='coerce'),
+            time=lambda x: pd.to_datetime(x['time'], format='%H:%M', errors='coerce'),
             duration=lambda x: pd.to_timedelta(x['duration'])))
 
     call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A', 'Cafeteria']
@@ -516,7 +517,7 @@ def add_event_information(schedule, schedule_df, people):
                 last_call = call
 
         elif row['Type'] == 'Presentation':
-            last_call['resources'].append(update_resource({}, row, people))
+            last_call['talks'].append(update_talks({}, row, people))
 
     return schedule
 
@@ -581,6 +582,83 @@ def dump_metadata(metadata, cohort):
         metadata_f.write('# Ordering by expertise should be done by running the bin/sort-expertises.py script\n')
         metadata_f.write('---\n')
         yaml.dump(metadata, metadata_f)
+
+
+### METHODS TO BUILD THE LIBRARY
+
+def extract_talks():
+    '''
+    Extract talks from all cohort
+    '''
+    talks = []
+    for sched_fp in Path('_data').iterdir():
+        if 'schedule' not in sched_fp.name:
+            continue
+        # get cohort schedule
+        cohort = sched_fp.name.split('-')[1]
+        schedule = load_schedule(cohort)
+        # extract talks
+        for w, week in schedule['weeks'].items():
+            if 'calls' not in week:
+                continue
+            for c, call in enumerate(week['calls']):
+                if 'talks' in call:
+                    for talk in call['talks']:
+                        talk = dict(talk)
+                        talk['date'] = call['date']
+                        talk['cohort'] = f'ols-{cohort}'
+                        talks.append(talk)
+    return talks
+
+
+def aggregate_talks(talks):
+    '''
+    Aggregate talks by tag
+
+    :param talks: list with talks
+    '''
+    talks_by_tag = {}
+    for talk in talks:
+        if 'tag' in talk:
+            tag = talk['tag']
+            del talk['tag']
+        else:
+            tag = 'Not tagged'
+        talks_by_tag.setdefault(tag, [])
+        talks_by_tag[tag].append(dict(talk))
+    return talks_by_tag
+
+
+def combine_tags(talks_by_tag):
+    '''
+    Combine tags by topic to build library
+
+    :param talks_by_tag: dictionary with talks grouped by tags
+    '''
+    # get tag to topic mapping
+    tag_topic_mapping = pd.read_csv("https://docs.google.com/spreadsheets/d/1sDJLG8RuoShWUQN78lvx_mghBbGfusdzlb1WwYrCbjk/export?format=csv&gid=0")
+    # build library
+    library = {}
+    for tag, talks in talks_by_tag.items():
+        if tag in tag_topic_mapping.Tag.values:
+            tag_row = tag_topic_mapping[tag_topic_mapping.Tag == tag]
+            topic = tag_row.Topic.tolist()[0]
+            description = tag_row.Description.tolist()[0]
+        else:
+            print(f'No topic found for {tag}')
+            continue
+        # add talks to library
+        library.setdefault(topic, {})
+        library[topic][tag] = {
+            'description': description,
+            'talks': talks
+        } 
+    # reorder library
+    ordered_library = {}
+    for t in tag_topic_mapping.Topic.unique():
+        if t in library:
+            ordered_library[t] = library[t]
+    return ordered_library
 
 
 ### COMMANDS
@@ -770,6 +848,24 @@ def update_schedule(cohort, schedule_df):
     dump_schedule(schedule, args.cohort)
 
 
+def build_library():
+    '''
+    Extract talks from all cohort schedule to build library
+    '''
+    # extract talks
+    talks = extract_talks()
+    # aggregate talks by tags
+    talks_by_tag = aggregate_talks(talks)
+    # combine tags by topic to build library
+    library = combine_tags(talks_by_tag)
+    # write library to file
+    fp = Path('_data') / Path('library.yaml')
+    with fp.open("w") as cat_f:
+        cat_f.write("# Library of expert talks in cohort calls\n")
+        cat_f.write("---\n")
+        yaml.dump(library, cat_f)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Interact and prepare OLS website data')
     subparser = parser.add_subparsers(dest='command')
@@ -814,6 +910,8 @@ if __name__ == '__main__':
     getpeople.add_argument('-ef', '--experts', help="Path to output sheet with expert details", required=True)
     getpeople.add_argument('-sf', '--speakers', help="Path to output sheet with speaker details", required=True)
     getpeople.add_argument('-hf', '--hosts', help="Path to output sheet with call host details", required=True)
+    # Extract talks to build library
+    buildlibrary = subparser.add_parser('buildlibrary', help='Extract talks to build library')
 
     args = parser.parse_args()
 
@@ -856,3 +954,5 @@ if __name__ == '__main__':
             Path(args.experts),
             Path(args.speakers),
             Path(args.hosts))
+    elif args.command == 'buildlibrary':
+        build_library()
