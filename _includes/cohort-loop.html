@@ -8,10 +8,10 @@
 {%- for cohort in cohorts -%}
   {%- assign cohort_name = cohort[0] -%}
   {%- assign experts = cohort[1].metadata.experts | uniq | size -%}
-  {%- capture all_experts %}{{ all_experts }}, {{ site.data.cohorts[cohort_name].metadata.experts | join: ', ' }}{% endcapture -%}
-  {%- assign facilitators = site.data.cohorts[cohort_name].metadata.facilitators | uniq | size -%}
-  {%- capture all_facilitators %}{{ all_facilitators }}, {{ site.data.cohorts[cohort_name].metadata.facilitators | join: ', ' }}{% endcapture -%}
-  {%- assign projects = site.data.cohorts[cohort_name].projects -%}
+  {%- capture all_experts %}{{ all_experts }}, {{ cohort[1].metadata.experts | join: ', ' }}{% endcapture -%}
+  {%- assign facilitators = cohort[1].metadata.facilitators | uniq | size -%}
+  {%- capture all_facilitators %}{{ all_facilitators }}, {{ cohort[1].metadata.facilitators | join: ', ' }}{% endcapture -%}
+  {%- assign projects = cohort[1].projects -%}
   {%- assign mentors = '' -%}
   {%- assign participants = '' -%}
   {%- assign project_name = '' -%}
@@ -32,7 +32,7 @@
   {%- capture all_participants %}{{ all_participants }}, {{ participants }}{% endcapture -%}
   {%- assign cohort_projects = project_name | remove_first: ', ' | split: ", " | uniq | sort | size -%}
   {%- capture all_projects %}{{ all_projects }}, {{ project_name }}{% endcapture -%}
-  {%- assign cohort_schedule = site.data.cohorts[cohort_name].schedule -%}
+  {%- assign cohort_schedule = cohort[1].schedule -%}
   {%- assign cohort_start = cohort_schedule.weeks['01'].start -%}
   {%- assign cohort_end = '' -%}
   {%- for week in cohort_schedule.weeks -%}
