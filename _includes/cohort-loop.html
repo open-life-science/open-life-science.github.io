@@ -7,7 +7,7 @@
 
 {%- for cohort in cohorts -%}
   {%- assign cohort_name = cohort[0] -%}
-  {%- assign experts = site.data.cohorts[cohort_name].metadata.experts | uniq | size -%}
+  {%- assign experts = cohort[1].metadata.experts | uniq | size -%}
   {%- capture all_experts %}{{ all_experts }}, {{ site.data.cohorts[cohort_name].metadata.experts | join: ', ' }}{% endcapture -%}
   {%- assign facilitators = site.data.cohorts[cohort_name].metadata.facilitators | uniq | size -%}
   {%- capture all_facilitators %}{{ all_facilitators }}, {{ site.data.cohorts[cohort_name].metadata.facilitators | join: ', ' }}{% endcapture -%}
