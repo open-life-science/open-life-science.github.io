@@ -45,29 +45,26 @@ Participants join this program with a project that they either are already worki
 Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
 **Check out the projects developed in the previous cohorts:**
+
 {% for cohort in cohorts %}
-{% assign cohort_name = cohort[0] %}
-
-{%- assign projects = cohort[1].projects -%}
-{%- assign schedule = cohort[1].schedule -%}
-{%- assign cohort_start = schedule.weeks['01'].start -%}
-{%- assign cohort_end = '' -%}
-
-    {%- for week in schedule.weeks -%}
-    {%- assign cohort_end = week[1].start -%}
-    {%- endfor -%}
-
-    {%- assign participants = '' -%}
-    {%- for project in projects -%}
-    {%- for p in project.participants -%}
-        {%- capture participants %}{{ participants }}, {{ p }}{% endcapture -%}
-    {%- endfor -%}
-    {%- endfor -%}
-    {%- assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size -%}
-
-{%- if projects > 0 -%}
+    {% assign cohort_name = cohort[0] %}
+    {% assign projects = cohort[1].projects %}
+    {% assign schedule = cohort[1].schedule %}
+    {% assign cohort_start = schedule.weeks['01'].start %}
+    {% assign cohort_end = '' %}
+    {% for week in schedule.weeks %}
+        {% assign cohort_end = week[1].start %}
+    {% endfor %}
+    {% assign participants = '' %}
+    {% for project in projects %}
+        {% for p in project.participants %}
+            {% capture participants %}{{ participants }}, {{ p }}{% endcapture %}
+        {% endfor %}
+    {% endfor %}
+    {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
+    {% if participants > 0 %}
 - [{{ projects | size }} projects](/{{ cohort_name }}/projects-participants#projects) ([{{ participants }} participants](/{{ cohort_name }}/projects-participants#participants)) for [**{{ cohort_name | upcase }}**]({{ cohort_name }}.html) ({{ cohort_start }} - {{ cohort_end }})
-{%- endif -%}
+    {% endif %}
 {% endfor %}
 
 All applications are welcome, whether the project is just an idea at this stage or something that is running for years, but, the projects must:
@@ -133,29 +130,26 @@ A mentee dedicates about 2 hours per week to the program to attend cohort/mentor
 Recruitment of the mentees for the next cohort will start in few months. Stay tuned!
 
 ### Our mentees
+
 {% for cohort in cohorts %}
-{% assign cohort_name = cohort[0] %}
-
-{%- assign projects = cohort[1].projects -%}
-{%- assign schedule = cohort[1].schedule -%}
-{%- assign cohort_start = schedule.weeks['01'].start -%}
-{%- assign cohort_end = '' -%}
-
-    {%- for week in schedule.weeks -%}
-    {%- assign cohort_end = week[1].start -%}
-    {%- endfor -%}
-
-    {%- assign participants = '' -%}
-        {%- for project in projects -%}
-        {%- for p in project.participants -%}
-            {%- capture participants %}{{ participants }}, {{ p }}{% endcapture -%}
-        {%- endfor -%}
-        {%- endfor -%}
-    {%- assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size -%}
-
-{%- if participants > 0 -%}
+    {% assign cohort_name = cohort[0] %}
+    {% assign projects = cohort[1].projects %}
+    {% assign schedule = cohort[1].schedule %}
+    {% assign cohort_start = schedule.weeks['01'].start %}
+    {% assign cohort_end = '' %}
+    {% for week in schedule.weeks %}
+        {% assign cohort_end = week[1].start %}
+    {% endfor %}
+    {% assign participants = '' %}
+    {% for project in projects %}
+        {% for p in project.participants %}
+            {% capture participants %}{{ participants }}, {{ p }}{% endcapture %}
+        {% endfor %}
+    {% endfor %}
+    {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
+    {% if participants > 0 %}
 - [{{ participants }} mentees](/{{ cohort_name }}/projects-participants#participants) working on ([{{ projects | size }} projects](/{{ cohort_name }}/projects-participants#projects)) for [**{{ cohort_name | upcase }}**]({{ cohort_name }}.html) ({{ cohort_start }} - {{ cohort_end }})
-{%- endif -%}
+    {% endif %}
 {% endfor %}
 
 ## Mentors
@@ -199,28 +193,24 @@ Mentoring is usually an invitation-based role. Mentors join by graduating from a
 Our program is only possible thanks to our awesome mentors:
 
 {% for cohort in cohorts %}
-{% assign cohort_name = cohort[0] %}
-
-{%- assign projects = cohort[1].projects -%}
-{%- assign schedule = cohort[1].schedule -%}
-{%- assign cohort_start = schedule.weeks['01'].start -%}
-{%- assign cohort_end = '' -%}
-    
-    {%- for week in schedule.weeks -%}
-    {%- assign cohort_end = week[1].start -%}
-    {%- endfor -%}
-
-    {%- assign mentors = '' -%}
-    {%- for project in projects -%}
-    {%- for mentor in project.mentors -%}
-        {%- capture mentors %}{{ mentors }}, {{ mentor }}{% endcapture -%}
-    {%- endfor -%}
-    {%- endfor -%}
-    {%- assign mentors = mentors | remove_first: ', ' | split: ', ' | uniq | size -%}
-
-{%- if mentors > 0 -%}
+    {% assign cohort_name = cohort[0] %}
+    {% assign projects = cohort[1].projects %}
+    {% assign schedule = cohort[1].schedule %}
+    {% assign cohort_start = schedule.weeks['01'].start %}
+    {% assign cohort_end = '' %}
+    {% for week in schedule.weeks %}
+        {% assign cohort_end = week[1].start %}
+    {% endfor %}
+    {% assign mentors = '' %}
+    {% for project in projects %}
+        {% for mentor in project.mentors %}
+            {% capture mentors %}{{ mentors }}, {{ mentor }}{% endcapture %}
+        {% endfor %}
+    {% endfor %}
+    {% assign mentors = mentors | remove_first: ', ' | split: ', ' | uniq | size %}
+    {% if mentors > 0 %}
 - [{{ mentors }} mentors](/{{ cohort_name }}#mentors) for [**{{ cohort_name | upcase }}**]({{ cohort_name }}.html) ({{ cohort_start }} - {{ cohort_end }})
-{%- endif -%}
+    {% endif %}
 {% endfor %}
 
 ## Experts
@@ -247,20 +237,18 @@ We are currently recruiting the experts - this route is a good way to join the p
 
 ### Our experts
 {% for cohort in cohorts %}
-{% assign cohort_name = cohort[0] %}
-{%- assign experts = cohort[1].metadata.experts | uniq | size -%}
-
-{%- assign projects = cohort[1].projects -%}
-{%- assign schedule = cohort[1].schedule -%}
-{%- assign cohort_start = schedule.weeks['01'].start -%}
-{%- assign cohort_end = '' -%}
-    {%- for week in schedule.weeks -%}
-    {%- assign cohort_end = week[1].start -%}
-    {%- endfor -%}
-
-{%- if experts > 0 -%}
+    {% assign cohort_name = cohort[0] %}
+    {% assign experts = cohort[1].metadata.experts | uniq | size %}
+    {% assign projects = cohort[1].projects %}
+    {% assign schedule = cohort[1].schedule %}
+    {% assign cohort_start = schedule.weeks['01'].start %}
+    {% assign cohort_end = '' %}
+    {% for week in schedule.weeks %}
+        {%- assign cohort_end = week[1].start %}
+    {% endfor %}
+    {% if experts > 0 %}
 - [{{ experts }} experts ](/{{ cohort_name }}#experts) for [**{{ cohort_name | upcase }}**]({{ cohort_name }}.html) ({{ cohort_start }} - {{ cohort_end }})
-{%- endif -%}
+    {% endif %}
 {% endfor %}
 
 ## Facilitators
@@ -285,19 +273,16 @@ This is an invitation-based role. Facilitators are offered an honourarium in rec
 
 Our facilitators are essential for the program:
 {% for cohort in cohorts %}
-{% assign cohort_name = cohort[0] %}
-{%- assign facilitators = cohort[1].metadata.facilitators | uniq | size -%}
-
-{%- assign projects = cohort[1].projects -%}
-{%- assign schedule = cohort[1].schedule -%}
-{%- assign cohort_start = schedule.weeks['01'].start -%}
-{%- assign cohort_end = '' -%}
-
-    {%- for week in schedule.weeks -%}
-        {%- assign cohort_end = week[1].start -%}
-    {%- endfor -%}
-
-{%- if facilitators > 0 -%}
+    {% assign cohort_name = cohort[0] %}
+    {% assign facilitators = cohort[1].metadata.facilitators | uniq | size %}
+    {% assign projects = cohort[1].projects %}
+    {% assign schedule = cohort[1].schedule %}
+    {% assign cohort_start = schedule.weeks['01'].start %}
+    {% assign cohort_end = '' %}
+    {% for week in schedule.weeks %}
+        {% assign cohort_end = week[1].start %}
+    {% endfor %}
+    {% if facilitators > 0 %}
 - [{{ facilitators }} facilitators](/{{ cohort_name }}#facilitators) [**{{ cohort_name | upcase }}**]({{ cohort_name }}.html) ({{ cohort_start }} - {{ cohort_end }})
-{%- endif -%}
+    {% endif %}
 {% endfor %}
