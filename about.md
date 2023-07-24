@@ -49,7 +49,7 @@ Project ideas can range from solving technical questions to creating an open d
 {% assign cohortName = cohort_folder[0] %}
 {% assign cohortData = cohort_folder[1] %}
 
-{%- assign projects = site.data.cohorts[cohortName].projects -%}
+{%- assign projects = cohort[1].projects -%}
 {%- assign schedule = site.data.cohorts[cohortName].schedule -%}
 {%- assign cohortStart = schedule.weeks['01'].start -%}
 {%- assign cohortEnd = '' -%}
