@@ -1,37 +1,58 @@
-# Schedule for the OLS-7
+# Schedule for the OLS-5
 ---
 timeline:
-- date: December 1, 2022
-  description: Call for Application opens
+- date: December 1, 2021
+  description: Call for Application opens on [Open 
+    Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5)
   details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
-- date: December 12, 2022
-  time: '15:00'
+- date: December 14, 2021
+  time: '16:00'
   duration: 60 min
   description: Application webinar
   type:
   - Talk
   - Q&A
-  notes:
-  recording: https://youtu.be/shM2mVyLjxU
+  notes: https://pad.sfconservancy.org/p/ols-5-launch
+  recording:
   details: Watch recordings from previous webinars on 
     [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
-- date: January 11, 2023
-  time: '12:00'
+- date: January 7, 2022
+  time: '10:00'
   duration: 60 min
   description: Application Clinic Call
   type:
   - Q&A
   notes:
-  details: At this call, OLS team will be available to provide help if you have any
-    question related to your application. [Register to 
-    attend](https://www.eventbrite.co.uk/e/application-clinic-call-qa-tickets-506693121767)
-- date: January 15, 2023
+  recording:
+  details: '[**Register to attend the call**](https://us02web.zoom.us/meeting/register/tZAldemsqDIpEtffhaBVdFRKv82pJ1xpG_kt).'
+- date: January 15, 2022
   description: Call for applications closed
-- date: February 1, 2023
+- date: February 1, 2022
   description: Successful applicants announced
 weeks:
+  '00':
+    start: February 21, 2022
+    calls:
+    - date: February 21, 2022
+      time: "18:00"
+      duration: 60 min
+      content: |-
+        In this call, participants will:
+        - Understand common successes and challenges in mentoring OLS participants
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+      title: Mentor onboarding group 1
+      type: Mentor
+      resources: []
+      talks: []
+    - date: February 22, 2022
+      time: "10:00"
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 1
+      type: Mentor
+      resources: []
+      talks: []
   '01':
-    start: February 27, 2023
+    start: February 28, 2022
     calls:
     - duration: 30 min
       content: |-
@@ -42,21 +63,7 @@ weeks:
       type: Mentor-Mentee
       resources: []
       talks: []
-    - time: "09:30"
-      duration: 60 min
-      content: |-
-        In this call, participants will:
-        - Understand common successes and challenges in mentoring OLS participants
-        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-      title: Mentor onboarding group 1
-      type: Mentor
-      hosts:
-      - malvikasharan
-      date: March 02, 2023
-      notes: https://bit.ly/ols-7-week-01
-      resources: []
-      talks: []
-    - time: "14:00"
+    - time: "10:00"
       duration: 60 min
       content: |-
         In this call, participants will:
@@ -64,45 +71,38 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 2
       type: Mentor
-      hosts:
-      - pherterich
-      date: March 03, 2023
-      notes: https://bit.ly/ols-7-week-01
+      date: March 02, 2022
       resources: []
       talks: []
-    - date: March 07, 2023
-      time: "17:00"
+    - time: '15:00'
       duration: 60 min
-      notes: https://bit.ly/ols-7-week-01
-      content: "In this call, participants will:\n- Understand common successes and
-        challenges in mentoring OLS participants\n- Know how to celebrate successes
-        and approach challenges in mentoring OLS participants."
-      title: Mentor onboarding group 3
-      hosts:
-      - malvikasharan
-      - pherterich
+      content: |-
+        In this call, participants will:
+        - Understand common successes and challenges in mentoring OLS participants
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+      title: Mentor onboarding group 1
       type: Mentor
-      resources: []
-      talks: []
-  '02':
-    start: March 06, 2023
-    calls:
-    - time: '17:00'
-      duration: 180 min
-      title: Mentor Skill Workshop by 360 Training - Group 1
-      type: Mentor
-      resources: []
-      talks: []
-    - time: 09:00
+    - date: March 02, 2022
+      time: "14:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
       resources: []
       talks: []
-    - date: March 07, 2023
-      time: "10:00"
+    - date: March 03, 2022
+      time: "18:00"
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 3
+      type: Mentor
+      resources: []
+      talks: []
+  '02':
+    start: March 07, 2022
+    calls:
+    - date: March 07, 2022
+      time: "18:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-02
+      notes: https://bit.ly/ols-5-week-02
       content: |-
         In this call, participants will:
         - Say hello and introduce ourselves
@@ -112,8 +112,6 @@ weeks:
         - Learn about common community interactions in open projects.
         - Learn about common value exchanges between community members in open science
       title: Welcome to Open Life Science!
-      hosts:
-      - bebatut
       type: Cohort
       before: '- Add your vision statement to your GitHub issue'
       after: |-
@@ -125,48 +123,35 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources: []
-      recording: https://youtu.be/AMliNkrJIaQ
+      recording: https://youtu.be/O3yk0yrOHGM
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/16M5R6YhvAeK0-old_hV9RjrshdA0sdJPgZBRO_MyRLA/edit?usp=sharing
-        speakers:
-        - emmyft
+          https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
         title: Welcome to OLS!
-        recording: https://youtu.be/AMliNkrJIaQ?t=1110
+        recording: https://youtu.be/O3yk0yrOHGM?t=1234
         tag: OLS Introduction
       - slides: 
-          https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
-        speakers:
-        - bebatut
+          https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
         title: Introducing Open Canvas
-        recording: https://youtu.be/AMliNkrJIaQ?t=2325
+        recording: https://youtu.be/O3yk0yrOHGM?t=2455
         tag: Open Canvas
       - slides: 
-          https://docs.google.com/presentation/d/1xpVo-66m0mWs8_ZFGuHQwPBTT-vkfBRXwr6WJEb5QRw/edit?usp=sharing
-        speakers:
-        - bebatut
+          https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
         title: Introducing Road Mapping
-        recording: https://youtu.be/AMliNkrJIaQ?t=3166
+        recording: https://youtu.be/O3yk0yrOHGM?t=3053
         tag: Project Roadmapping
-    - date: March 08, 2023
-      time: "14:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
   '03':
-    start: March 13, 2023
+    start: March 14, 2022
     calls:
     - duration: 30 min
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: March 15, 2023
-      time: "17:00"
+    - date: March 16, 2022
+      time: "11:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-03
+      notes: https://bit.ly/ols-5-week-03
       content: |-
         In this call, participants will:
         - Say hello and introduce ourselves
@@ -176,8 +161,14 @@ weeks:
         - Learn about common community interactions in open projects.
         - Learn about common value exchanges between community members in open science
       title: Welcome to Open Life Science!
+      recording: https://youtu.be/CnTWxXVM0Qw
       hosts:
       - yochannah
+      - emmyft
+      - malvikasharan
+      facilitators:
+      - batoolmm
+      - ekaroune
       type: Cohort
       before: '- Add your vision statement to your GitHub issue'
       after: |-
@@ -189,48 +180,41 @@ weeks:
         - Comment on your issue with your draft Roadmap
         - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
       resources: []
-      recording: https://youtu.be/XulHUHQru2I
       talks:
       - slides: 
           https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
-        speakers:
-        - yochannah
         title: Welcome to OLS!
-        recording: https://youtu.be/XulHUHQru2I?t=1113
+        recording: https://youtu.be/CnTWxXVM0Qw?t=726
         tag: OLS Introduction
       - slides: 
-          https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
-        speakers:
-        - malvikasharan
+          https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
         title: Introducing Open Canvas
-        recording: https://youtu.be/XulHUHQru2I?t=2168
-        tag: OLS Introduction
+        recording: https://youtu.be/CnTWxXVM0Qw?t=1398
+        tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
-        speakers:
-        - pazbc
         title: Introducing Road Mapping
-        recording: https://youtu.be/XulHUHQru2I?t=2887
+        recording: https://youtu.be/CnTWxXVM0Qw?t=2821
         tag: Project Roadmapping
-    - date: March 15, 2023
-      time: "14:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
   '04':
-    start: March 20, 2023
+    start: March 21, 2022
     calls:
-    - date: March 22, 2023
-      time: "17:00"
+    - date: March 23, 2022
+      time: "11:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-4
+      notes: https://bit.ly/ols-5-week-04
       content: "In this call, participants will:\n- Look at project structure as we
         build open projects\n- Go over the standard files in open projects\n   - README\n\
         \   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
         project structure and files used may look different on your project.\n  "
       title: Tooling and roadmapping for Open projects
+      recording: https://youtu.be/d0A2TaLyhlY
+      hosts:
+      - yochannah
+      - emmyft
+      - ekaroune
+      facilitators:
+      - ''
       type: Cohort
       before: |
         - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
@@ -247,52 +231,42 @@ weeks:
         - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources: []
-      hosts:
-      - emmyft
-      recording: https://www.youtube.com/watch?v=DG3La_p22N0
       talks:
       - title: Project Structure
         tag: Setting up a project
       - slides: 
-          https://docs.google.com/presentation/d/1V2-6PbJiPOYGBGsHJbKj9Y49iPHsHnAIKnhCuV40U3I/edit#slide=id.g2224fafcba8_0_37
-        speakers:
-        - ekariuki-sleepy
-        title: README & Contributing for Open Projects
-        recording: https://youtu.be/DG3La_p22N0?t=1080
-        tag: README
-      - slides: 
-          https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
+          https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
         speakers:
         - ha0ye
+        title: README
+        recording: https://youtu.be/d0A2TaLyhlY?t=714
+        tag: README
+      - slides: 
+          https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
+        speakers:
+        - rgaiacs
         title: Open Licensing
-        recording: https://youtu.be/DG3La_p22N0?t=2065
+        recording: https://youtu.be/d0A2TaLyhlY?t=1604
         tag: Open Licensing
       - slides: 
-          https://docs.google.com/presentation/d/1-Ns22S18_eP6VvEwMx6Mxo5cukFYVSG8W6kaZctyWpc/edit?usp=sharing
+          https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
         speakers:
-        - andreasancheztapia
-        title: Code of Conduct
-        recording: https://youtu.be/DG3La_p22N0?t=3131
+        - dsarahstamps
+        title: Contributing Guidelines and Code of Conduct
+        recording: https://youtu.be/d0A2TaLyhlY?t=2455
         tag: Code of Conduct
-    - date: March 22, 2023
-      time: "14:00"
-      title: OLS Cafetería
-      type: Cafeteria
-      duration: 90 min
-      resources: []
-      talks: []
   '05':
-    start: March 27, 2023
+    start: March 28, 2022
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: March 28, 2023
-      time: "09:00"
+    - date: March 28, 2022
+      time: "18:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-5
+      notes: https://bit.ly/ols-5-week-05
       content: |-
         In this call, participants will:
         - Create a GitHub repository
@@ -302,8 +276,6 @@ weeks:
         - Managing issues and labels
         - Submit changes via Pull Request
       title: GitHub tutorial for beginners
-      hosts:
-      - malvikasharan
       type: Skill-up
       before: |
         - Please create a GitHub account: https://github.com
@@ -311,166 +283,137 @@ weeks:
         - Comment of 1-2 project's recent post (vision, open canvas etc.)
         - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
       resources: []
-      recording: https://youtu.be/hXRw33CbDJk
+      recording: https://youtu.be/90BOler9hqI
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit#slide=id.g6e56d02ad9_0_0
+          https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
         title: Introduction to GitHub
-        recording: https://youtu.be/hXRw33CbDJk
+        recording: https://youtu.be/90BOler9hqI
         tag: GitHub Introduction
-    - date: March 29, 2023
-      time: "13:00"
-      title: OLS Cafetería
-      type: Cafeteria
-      duration: 90 min
-      resources: []
-      talks: []
   '06':
-    start: April 03, 2023
+    start: April 04, 2022
     calls:
-    - date: April 05, 2023
-      time: "13:00"
+    - date: April 04, 2022
+      time: "18:00"
       duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
-    - date: April 04, 2023
-      time: "09:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-7-week-6
-      content: "In this call, participants will:\n- Hear about Iterative Project management\n
-        - Get familiar with Open Software, Open Hardware, Research Data Management"
-      title: Open Science Garden I
-      hosts:
-      - bebatut
+      notes: https://bit.ly/ols-5-week-06
+      content: |-
+        In this call, participants will:
+        - Hear about Iterative Project management
+        - Get familiar with Open Software, Open Hardware, Research Data Management
+      title: 'Open Science I: Project Development and Introduction to Working Open'
       type: Cohort
       before: '- Look up two other projects and comment on their issues with feedback
         on their README'
-      after: "- [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)\n\
-        \  For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
-        and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).\n
-        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)\n\
-        \  Assignment to help you use Agile methods to breakdown your milestones into
-        smaller tasks and define a timeline for your milestones\n  In your own time:
-        After this assignment, you can transfer your tasks to a project management
-        or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)),
-        [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board),
-        [Zenhub in GitHub](https://www.zenhub.com/)\n- Start creating a [contribution
-        guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/)
-        for your communit"
+      after: |-
+        - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
+          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/ols-1/week05/).
+        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
+          Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
+          In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
+        - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
       resources: []
+      recording: https://youtu.be/yCCNZH9JS-0
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/1eKRgozsGmJvjPELyP4KMgrgHchp7o58YowC5RkgLNd4/edit?usp=sharing
-        speakers:
-        - yochannah
-        title: Open Science
-        recording: https://youtu.be/ViqeEI3J9dY?t=262
-        tag: Open Science Introduction
+          https://docs.google.com/presentation/d/1UhSKnz0deqsgzEHYdJGfFlOEN64_BIZ2GRjY6fKk44Y/edit?usp=sharing
+        title: Using project management skills during development stage
+        recording: https://youtu.be/yCCNZH9JS-0?t=2381
+        tag: Agile & Iteractive Project Management
       - slides: 
-          https://drive.google.com/file/d/1BQ641IWIKjgC33ltqdAkEaxUkGljh3eL/view?usp=share_link
+          https://docs.google.com/presentation/d/e/2PACX-1vQ__5JVOhFNoKufqIPflvEfUE1Vuxi9Euj975yCI14nJfeeyansg1RpuIteyTtmlQCyfacWTwB_QZ3N/pub?start=false&loop=false&delayms=3000#slide=id.p
         speakers:
-        - olexandr-konovalov
-        title: Open Evaluation in JOSS - Journal of Open Source Software
-        recording: https://youtu.be/ViqeEI3J9dY?t=962
-        tag: Open Evaluation
+        - unode
+        title: Open Data
+        recording: https://youtu.be/yCCNZH9JS-0?t=199
+        tag: Open Data
+      - slides: https://tinyurl.com/59754uzx
+        speakers:
+        - ajstewartlang
+        title: Open Source Software in Research
+        recording: https://youtu.be/yCCNZH9JS-0?t=1387
+        tag: Open Source Software
       - slides: 
-          https://docs.google.com/presentation/d/1c5r83gUCdg_2_sS5LAB-7NLQccYfeN6OmkUSj_WFwGs/edit?usp=sharing
+          https://docs.google.com/presentation/d/1UhSKnz0deqsgzEHYdJGfFlOEN64_BIZ2GRjY6fKk44Y/edit?usp=sharing
         speakers:
-        - ahoyi
-        title: Nigerian Open Science Highlights
-        recording: https://youtu.be/ViqeEI3J9dY?t=1753
-        tag: Open Science Infrastructures
-      - speakers:
-        - phaarouknucleus
-        title: Open engagement of social actors
-        recording: https://youtu.be/ViqeEI3J9dY?t=3046
-        tag: Open Engagement of Social Actors
-      recording: https://youtu.be/ViqeEI3J9dY
+        - lwinfree
+        title: Agile & Iterative Project Management Methods
+        recording: https://youtu.be/yCCNZH9JS-0?t=2381
+        tag: Open Data
   '07':
-    start: April 10, 2023
+    start: April 11, 2022
     calls:
     - duration: 30 min
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: April 12, 2023
-      time: "16:00"
+    - date: April 13, 2022
+      time: "11:00"
       duration: 30 min
-      notes: https://bit.ly/ols-7-week-7
+      notes: https://bit.ly/ols-5-week-07
       title: Q&A call
       type: Q&A
       resources: []
       talks: []
-    - date: April 12, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
   '08':
-    start: April 17, 2023
+    start: April 18, 2022
     calls:
-    - date: April 19, 2023
-      time: "16:00"
+    - date: April 20, 2022
+      time: "11:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-8
-      content: "In this call, participants will:\n- Learn how to develop Open collaboration
-        by design\n- Hear Mountain of engagement and community interactions\n- Learn
-        about Personas and pathways and welcoming new contributors"
+      notes: https://bit.ly/ols-5-week-08
+      content: |-
+        In this call, participants will:
+        - Learn how to develop Open collaboration by design
+        - Hear Mountain of engagement and community interactions
+        - Learn about Personas and pathways and welcoming new contributors
       title: Community design for inclusivity
-      hosts:
-      - malvikasharan
       type: Cohort
       after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n
         assignment\n- Think through community interactions\n- Complete the midterm
         survey\n      \n        "
       resources: []
+      recording: https://youtu.be/X7RbljtdgAQ
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit#slide=id.p
+          https://docs.google.com/presentation/d/1n_UBrrMoHcfdqtFIg0sDcA0H3yojsHMwbW8P38_W9-s/edit?usp=sharing
         speakers:
-        - zee-moz
-        title: The Mountain of Engagement
-        recording: https://youtu.be/ycMEiZXmHp8?t=247
+        - chadsansing
+        title: Mountain of Engagement
+        recording: https://youtu.be/X7RbljtdgAQ?t=146
         tag: Mountain of Engagement
       - slides: 
-          https://docs.google.com/presentation/d/1JmO4S1XVnsVUg2HCKHeoGHhWAF_Gbz8Vmd9mVwtFR_k/edit?usp=sharing
+          https://docs.google.com/presentation/d/1tYKBiCJdpXmTwwinsk4gF8eb9LIteJWnxEOfZOJgZbo/edit?usp=sharing
         speakers:
-        - meagdoh
-        title: Using Personas and Pathways to Build Community
-        recording: https://youtu.be/ycMEiZXmHp8?t=2341
+        - anelda
+        title: 'Designing & empowering for inclusivity: Personas & Pathways'
+        recording: https://youtu.be/X7RbljtdgAQ?t=1402
         tag: Personas & Pathways
-      recording: https://youtu.be/ycMEiZXmHp8
-    - date: April 19, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
+      - slides: 
+          https://docs.google.com/presentation/d/1kTyCM574JDxFdXqhqKFWPZnCvI2FUFdtCTq6Lhpx7Nw
+        speakers:
+        - yochannah
+        title: Welcoming New Contributors on Your Project
+        recording: https://youtu.be/X7RbljtdgAQ?t=2971
+        tag: Community Interactions
   '09':
-    start: April 24, 2023
+    start: April 25, 2022
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: April 25, 2023
-      time: "09:00"
+    - date: April 25, 2022
+      time: "18:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-9
+      notes: https://bit.ly/ols-5-week-09
       content: "In this call, participants will:\n- Hear from the professionals from
         different career paths\n- Ask them questions about their careers\n- Share
         worries/insecurities related to your career path, profession or area of work
         \n- Tips and advice to overcome challenges as an open researcher"
       title: 'Open Leadership: Academia, industry and beyond!'
-      hosts:
-      - pherterich
       type: Skill-up
       before: "A few days before the event, think about how you might briefly answer
         the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n
@@ -482,153 +425,93 @@ weeks:
         (10 being the most), how much do you enjoy your current work?\n- do you want
         to switch your career or field? Why or why not?      \n      \n        "
       resources: []
+      recording: https://youtu.be/xIYmPhYsqrE
       talks:
       - speakers:
-        - chartgerink
-        title: Social enterprise
-        recording: https://youtu.be/8xfQrbnm_Io?t=221
-        tag: Open Leadership in Practice
-      - slides: 
-          https://docs.google.com/presentation/d/1DvXK_F28DRRTQWjTSx1JpBzcH-YP6EIL0_JszOvmn9U/edit?usp=sharing
-        speakers:
-        - anshulbharadwaj
-        title: Open Science and its impact on global science and community
-        recording: https://youtu.be/8xfQrbnm_Io?t=1185
+        - msundukova
+        title: Academic leadership, group or project leaders
+        recording: https://youtu.be/xIYmPhYsqrE?t=215
         tag: Open Leadership in Practice
       - speakers:
-        - pragya-chaube
-        title: Policymakers, funders, meta-researchers
-        recording: https://youtu.be/8xfQrbnm_Io?t=2799
+        - jasonjwilliamsny
+        title: Post-academia career path, Social entrepreneurship
+        recording: https://youtu.be/xIYmPhYsqrE?t=2420
         tag: Open Leadership in Practice
-      recording: https://youtu.be/8xfQrbnm_Io
-    - date: April 26, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
+      - speakers:
+        - melissawm
+        title: Post-academia career path, Social entrepreneurship
+        recording: https://youtu.be/xIYmPhYsqrE?t=3512
+        tag: Open Leadership in Practice
+      - speakers:
+        - honoluluskye
+        tag: Open Leadership in Practice
   '10':
-    start: May 01, 2023
+    start: May 02, 2022
     calls:
-    - date: May 03, 2023
-      time: "13:00"
+    - date: May 02, 2022
+      time: "18:00"
       duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
-    - date: May 02, 2023
-      time: "09:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-7-week-10
-      content: "In this call, participants will:\n- Practicing open science\n- DOI
-        and citations: Paper, data, preprints, blogs\n- Non-tradtional publication:
-        pre-registrations, code, protocols, training materials\n- Public engagement:
-        Citizen Science/Participatory research, Scientific communication"
-      title: Open Science Garden II
-      hosts:
-      - malvikasharan
+      notes: https://bit.ly/ols-5-week-10
+      content: |-
+        In this call, participants will:
+        - Practicing open science
+        - DOI and citations: Paper, data, preprints, blogs
+        - Non-tradtional publication: pre-registrations, code, protocols, training materials
+        - Public engagement: Citizen Science/Participatory research, Scientific communication
+      title: 'Open Science II: Knowledge Dissemination'
       type: Cohort
-      before: "- Create a project development plan for your project\n  - [Assignment
-        to help you use Agile methods](https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing)
-        to breakdown your milestones into smaller tasks and define a timeline for
-        your milestones\n- You can transfer your tasks to a project management or
-        kanban tools such as GitHub projects ([short intro](https://unito.io/blog/github-projects-agile/)),
-        [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board),
-        [Zenhub in GitHub](https://www.zenhub.com/)\n- Make sure that by now you have
-        added a license, contribution guideline and a Code of Conduct in your GitHub
-        repository. If you feel stuck and don’t know where you start, take a look
-        at [this repo](https://github.com/malvikasharan/developing_collaborative_document)\n
-        - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-4/issues)
-        with feedback on their project"
+      before: |-
+        - Create a project development plan for your project
+          - [Assignment to help you use Agile methods](https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing) to breakdown your milestones into smaller tasks and define a timeline for your milestones
+        - You can transfer your tasks to a project management or kanban tools such as GitHub projects ([short intro](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
+        - Make sure that by now you have added a license, contribution guideline and a Code of Conduct in your GitHub repository. If you feel stuck and don’t know where you start, take a look at [this repo](https://github.com/malvikasharan/developing_collaborative_document)
+        - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-4/issues) with feedback on their project
       resources: []
+      recording: https://youtu.be/TqzM6cAeBoI
       talks:
+      - speakers:
+        - alex-mendonça
+        title: Preprints
+        recording: https://youtu.be/TqzM6cAeBoI?t=209
+        tag: Open Access Publication
       - slides: 
-          https://docs.google.com/presentation/d/1ecLEm7aNPeswOCnpiQQE8rnSyl6Equce_6YAJrR2_oc/edit?usp=sharing
+          https://docs.google.com/presentation/d/18r-Zpec769BwP4TUAfG_ChGsOrdnU7Ber9ofjbLdwS8/edit?usp=sharing
         speakers:
-        - amchagas
-        title: Open Source Hardware
-        recording: https://youtu.be/iAckka2c6yc?t=147
-        tag: Open Hardware
+        - joy-owango
+        title: Open training in low and middle income settings 
+        recording: https://youtu.be/TqzM6cAeBoI?t=2309
+        tag: Open Science Infrastructures
       - slides: 
-          https://docs.google.com/presentation/d/1HRxtMemWWYrBniYkW60twA3Fd0AuEDdNryGREagDypk/edit#slide=id.g21f04b7f88a_0_77
+          https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
         speakers:
-        - mdbarker
-        title: Open Source Software
-        recording: https://youtu.be/iAckka2c6yc?t=884
-        tag: Open Source Software
-      - slides: 
-          https://docs.google.com/presentation/d/1i9ZS2bw_zefmjYBVTZSieyp4xI_T9PrH-pIiPeP3wY0/edit#slide=id.g21280744133_2_33 
-        speakers:
-        - batoolmm
-        title: Openness to diversity of knowledge
-        recording: https://youtu.be/iAckka2c6yc?t=2577
-        tag: Openness to Diversity of Knowledge
-      recording: https://youtu.be/iAckka2c6yc
+        - pivg
+        title: Open access, Preprints
+        recording: https://youtu.be/TqzM6cAeBoI?t=3508
+        tag: Open Educational Resources
   '11':
-    start: May 08, 2023
+    start: May 09, 2022
     calls:
     - duration: 30 min
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: May 10, 2023
-      time: "16:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-7-week-11
-      title: Open-source software
-      hosts:
-      - pazbc
-      type: Skill-up
-      resources: []
-      talks:
-      - slides: 
-          https://docs.google.com/presentation/d/1snmV5BMFIuTAs60-PcejRj0NUhpvswvb/edit?usp=sharing&ouid=113583685317579296794&rtpof=true&sd=true
-        speakers:
-        - laitanawe
-        title: Writing reproducible code
-        recording: https://youtu.be/hOiDzn4Iqp4?t=332
-        tag: Code Review
-      - slides: 
-          https://docs.google.com/presentation/d/1V0ns7MiBRlKWgJHq15Xy-q0HZOeJYdkKs0PMAMoKXn8/edit?usp=sharing
-        speakers:
-        - lwasser
-        title: "Open Source Drives Open Science - \npyOpenSci"
-        recording: https://youtu.be/hOiDzn4Iqp4?t=1594
-        tag: Open Source Software
-      - slides: https://olscoding.netlify.app/
-        speakers:
-        - yabellini
-        title: Programming for science
-        recording: https://youtu.be/hOiDzn4Iqp4?t=2920
-        tag: Good Coding Practices
-      recording: https://youtu.be/hOiDzn4Iqp4
-    - date: May 10, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
+    - date: May 11, 2022
+      time: "11:00"
+      duration: 30 min
+      notes: https://bit.ly/ols-5-week-11
+      title: Q&A call
+      type: Q&A
       resources: []
       talks: []
   '12':
-    start: May 15, 2023
+    start: May 16, 2022
     calls:
-    - date: May 17, 2023
-      time: "13:00"
-      title: OLS Cafetería
-      type: Cafeteria
+    - date: May 18, 2022
+      time: "11:00"
       duration: 90 min
-      resources: []
-      talks: []
-    - date: May 17, 2023
-      time: "16:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-7-week-12
-      title: Open Science Garden III
-      hosts:
-      - pherterich
+      notes: https://bit.ly/ols-5-week-12
+      title: Diversity and Inclusion & Ally skills
       type: Cohort
       before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)
         complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)   \
@@ -642,38 +525,37 @@ weeks:
         you consider doing to make your project inclusive for your contributors or
         team members?"
       resources: []
+      recording: https://youtu.be/WH9Z3lyw9ik
       talks:
-      - slides: https://doi.org/10.5281/zenodo.7938759
+      - slides: 
+          https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
         speakers:
-        - estherplomp
-        title: Open Data
-        recording: https://youtu.be/CzkkO4wO2eQ?t=145
-        tag: Open Data
-      - slides: https://doi.org/10.5281/zenodo.7946506
-        speakers:
-        - godwyns-onwuchekwa
-        title: Brief overview of Open access publication
-        recording: https://youtu.be/CzkkO4wO2eQ?t=1341
-        tag: Open Access Publication
-      recording: https://youtu.be/CzkkO4wO2eQ
+        - rowland-mosbergen
+        title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
+          matter?)'
+        recording: https://youtu.be/WH9Z3lyw9ik?t=433
+        tag: Equity, Diversity and Inclusion (EDI)
+      - slides: 
+          https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
+        title: Ally skills - Optional
+        recording: https://youtu.be/WH9Z3lyw9ik?t=2263
+        tag: Ally Skills for Open Leaders
   '13':
-    start: May 22, 2023
+    start: May 23, 2022
     calls:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: May 23, 2023
-      time: "09:00"
+    - date: May 23, 2022
+      time: "18:00"
       duration: 90 min
-      notes: https://bit.ly/ols-7-week-13
+      notes: https://bit.ly/ols-5-week-13
       content: |-
         In this call, participants will:
         - Discuss the importance of taking care of mental health and avoiding burn out for both project leaders and community members
       title: Self-care & Social call
-      hosts:
-      - pazbc
       type: Skill-up
       before: "Think about how you might briefly answer the following questions\n
         - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
@@ -683,55 +565,68 @@ weeks:
         that frustrate you - avoid them.\n      \n      \n        \n      \n     \
         \   "
       resources: []
+      recording: https://youtu.be/gelhbQrRCnU
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit#slide=id.p
-        speakers:
-        - malvikasharan
-        - msundukova
+          https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
         title: Personal Ecology and Self Care
-        recording: https://youtu.be/4KEakWZjJJA?t=21
         tag: Personal Ecology
-      recording: https://youtu.be/4KEakWZjJJA
-    - date: May 24, 2023
-      time: "13:00"
-      duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
   '14':
-    start: May 29, 2023
+    start: May 30, 2022
     calls:
-    - date: May 31, 2023
-      time: "13:00"
+    - date: May 30, 2022
+      time: "18:00"
       duration: 90 min
-      title: OLS Cafetería
-      type: Cafeteria
-      resources: []
-      talks: []
-    - date: May 30, 2023
-      time: "09:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-7-week-14
-      title: Ally skills
-      hosts:
-      - estherplomp
-      - rowland-mosbergen
+      notes: https://bit.ly/ols-5-week-14
+      content: "In this call, participants will:\n- Learn how to apply FAIR research
+        principles on data, software, training to make research \"as open as possible,
+        as restricted as necessary.\"\n      \n        "
+      title: 'Open Science III: Next steps in open'
       type: Cohort
-      after: '- Think about how to apply ally principles and skills in your own work'
+      after: '- Think about and plan to apply FAIR principles to your project in your
+        own time'
       resources: []
-      talks: []
+      recording: https://youtu.be/rUusShaYC4o
+      talks:
+      - speakers:
+        - gilbert-beyamba
+        title: 'Public engagement: Open Infrastructure, Citizen Science, Science Communication'
+        recording: https://youtu.be/rUusShaYC4o?t=466
+        tag: Open Engagement of Social Actors
+      - speakers:
+        - sdruskat
+        title: Steps towards FAIRer and more citable software
+        recording: https://youtu.be/rUusShaYC4o?t=2438
+        tag: Open Source Software
   '15':
-    start: June 05, 2023
+    start: June 06, 2022
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: June 07, 2023
-      notes: https://bit.ly/ols-7-week-15
+    - date: June 07, 2022
+      time: "10:00"
+      duration: 60 min
+      notes: https://bit.ly/ols-5-week-15
+      content: |-
+        In this call, participants will:
+        - Learn about giving and receiving feedback
+        - Conduct rehearsal for the final presentation from the project leads registered
+      title: Final presentation rehearsal - Group 1
+      type: Skill-up
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      resources: []
+      talks: []
+    - date: June 08, 2022
+      notes: https://bit.ly/ols-5-week-15
       content: |-
         In this call, participants will:
         - Learn about giving and receiving feedback
@@ -745,42 +640,19 @@ weeks:
         which you thrive - sustain them; identify the least fulfilling conditions
         that frustrate you - avoid them.\n      \n      \n        \n      \n     \
         \   "
-      time: "13:00"
+      time: "15:00"
       duration: 60 min
-      hosts: []
       resources: []
       talks: []
-    - date: June 06, 2023
-      time: "08:00"
+    - date: June 09, 2022
+      time: "18:00"
       duration: 60 min
-      notes: https://bit.ly/ols-7-week-15
-      content: |-
-        In this call, participants will:
-        - Learn about giving and receiving feedback
-        - Conduct rehearsal for the final presentation from the project leads registered
-      title: Final presentation rehearsal - Group 1
-      hosts:
-      - bebatut
-      type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
-        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
-        describe it.\nThe big idea: identify the most fulfilling conditions under
-        which you thrive - sustain them; identify the least fulfilling conditions
-        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
-        \   "
-      resources: []
-      talks: []
-    - date: June 08, 2023
-      time: "16:00"
-      duration: 60 min
-      notes: https://bit.ly/ols-7-week-15
+      notes: https://bit.ly/ols-5-week-15
       content: |-
         In this call, participants will:
         - Learn about giving and receiving feedback
         - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 3
-      hosts: []
       type: Skill-up
       before: "Think about how you might briefly answer the following questions\n
         - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
@@ -792,10 +664,29 @@ weeks:
       resources: []
       talks: []
   '16':
-    start: June 12, 2023
+    start: June 13, 2022
     calls:
-    - date: June 14, 2023
-      notes: https://bit.ly/ols-7-week-16
+    - date: June 14, 2022
+      time: "10:00"
+      duration: 60 min
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-1
+      content: |-
+        In this call, participants will:
+        - Share a 5 mins presentation of their project
+        - Celebrate OLS-4 success
+      title: Final presentations & Graduation! - Group 1
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      resources: []
+      talks: []
+    - date: June 15, 2022
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-2
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
@@ -809,23 +700,19 @@ weeks:
         which you thrive - sustain them; identify the least fulfilling conditions
         that frustrate you - avoid them.\n      \n      \n        \n      \n     \
         \   "
-      time: "13:00"
+      time: "15:00"
       duration: 60 min
-      hosts:
-      - malvikasharan
       resources: []
       talks: []
-    - date: June 13, 2023
-      time: "08:00"
+    - date: June 16, 2022
+      time: "18:00"
       duration: 60 min
-      notes: https://bit.ly/ols-7-week-16
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-3
       content: |-
         In this call, participants will:
         - Share a 5 mins presentation of their project
         - Celebrate OLS-4 success
-      title: Final presentations & Graduation! - Group 1
-      hosts:
-      - yochannah
+      title: Final presentations & Graduation! - Group 3
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n
         - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
@@ -836,17 +723,26 @@ weeks:
         \   "
       resources: []
       talks: []
-    - date: June 15, 2023
-      time: "16:00"
+    - date: July 18, 2022
+      time: "10:00"
       duration: 60 min
-      notes: https://bit.ly/ols-7-week-16
-      content: |-
-        In this call, participants will:
-        - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
-      title: Final presentations & Graduation! - Group 3
-      hosts:
-      - emmyft
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-4
+      title: Final presentations & Graduation! - Group 4
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      resources: []
+      talks: []
+    - date: July 20, 2022
+      time: "18:00"
+      duration: 60 min
+      notes: https://pad.sfconservancy.org/p/ols-5-graduations-5
+      title: Final presentations & Graduation! - Group 5
       type: Cohort
       before: "Think about how you might briefly answer the following questions\n
         - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe

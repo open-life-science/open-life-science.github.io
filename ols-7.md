@@ -8,47 +8,7 @@ photos:
   url: https://flic.kr/p/5BXB6s
 ---
 
-{% assign people = site.data.people %}
-{% assign projects = site.data.ols-7-projects %}
-{% assign metadata = site.data.ols-7-metadata %}
-{% assign schedule = site.data.ols-7-schedule %}
-{% assign cohort = 'ols-7' %}
-
-{% assign all-participants = '' %}
-{% assign all-mentors = '' %}
-{% for project in projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-
-{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-
-{% assign all-speakers = '' %}
-{% assign all-hosts = '' %}
-{% for w in schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type == 'Cohort' %}
-            {% for r in c.talks %}
-                {% if r.speaker %}
-                    {% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-        {% if c.hosts %}
-            {% for h in c.hosts %}
-                {% capture all-hosts %}{{ all-hosts}}, {{ h }}{% endcapture %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-{% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
+{% include _includes/cohort-metadata.html cohort='ols-7' %}
 
 # The OLS-7 program
 {:.no_toc}

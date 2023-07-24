@@ -1,0 +1,41 @@
+{% assign all_participants = '' %}
+{%- assign all_mentors = '' -%}
+{%- assign all_experts = '' -%}
+{%- assign all_facilitators = '' -%}
+{%- assign all_projects = '' -%}
+{%- assign cohorts = site.data.cohorts | sort -%}
+
+{%- for cohort in cohorts -%}
+  {%- assign cohort_name = cohort[0] -%}
+  {%- assign experts = cohort[1].metadata.experts | uniq | size -%}
+  {%- capture all_experts %}{{ all_experts }}, {{ cohort[1].metadata.experts | join: ', ' }}{% endcapture -%}
+  {%- assign facilitators = cohort[1].metadata.facilitators | uniq | size -%}
+  {%- capture all_facilitators %}{{ all_facilitators }}, {{ cohort[1].metadata.facilitators | join: ', ' }}{% endcapture -%}
+  {%- assign projects = cohort[1].projects -%}
+  {%- assign mentors = '' -%}
+  {%- assign participants = '' -%}
+  {%- assign project_name = '' -%}
+  {%- for project in projects -%}
+      {%- for p in project.participants -%}
+          {%- capture participants %}{{ participants }}, {{ p }}{% endcapture -%}
+      {%- endfor -%}
+      {%- for m in project.mentors -%}
+          {%- capture mentors %}{{ mentors }}, {{ m }}{% endcapture -%}
+      {%- endfor -%}
+      {%- for p-name in project.name -%}
+          {%- capture project_name %}{{ project_name }}, {{ p-name }}{% endcapture -%}
+      {%- endfor -%}
+  {%- endfor %}
+  {%- assign cohort_mentors = mentors | remove_first: ', ' | split: ", " | uniq | sort | size -%}
+  {%- capture all_mentors %}{{ all_mentors }}, {{ mentors }}{% endcapture -%}
+  {%- assign cohort_participants = participants | remove_first: ', ' | split: ", " | uniq | sort | size -%}
+  {%- capture all_participants %}{{ all_participants }}, {{ participants }}{% endcapture -%}
+  {%- assign cohort_projects = project_name | remove_first: ', ' | split: ", " | uniq | sort | size -%}
+  {%- capture all_projects %}{{ all_projects }}, {{ project_name }}{% endcapture -%}
+  {%- assign cohort_schedule = cohort[1].schedule -%}
+  {%- assign cohort_start = cohort_schedule.weeks['01'].start -%}
+  {%- assign cohort_end = '' -%}
+  {%- for week in cohort_schedule.weeks -%}
+      {%- assign cohort_end = week[1].start -%}
+  {%- endfor %}
+{%- endfor -%}

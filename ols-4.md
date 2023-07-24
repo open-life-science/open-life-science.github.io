@@ -8,47 +8,7 @@ photos:
   url: https://flic.kr/p/5BXB6s
 ---
 
-{% assign people = site.data.people %}
-{% assign projects = site.data.ols-4-projects %}
-{% assign metadata = site.data.ols-4-metadata %}
-{% assign schedule = site.data.ols-4-schedule %}
-{% assign cohort = 'ols-4' %}
-
-{% assign all-participants = '' %}
-{% assign all-mentors = '' %}
-{% for project in projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, {{ m }}{% endcapture %}
-    {% endfor %}
-{% endfor %}
-
-{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-
-{% assign all-speakers = '' %}
-{% assign all-hosts = '' %}
-{% for w in schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type == 'Cohort' %}
-            {% for r in c.talks %}
-                {% if r.speaker %}
-                    {% capture all-speakers %}{{ all-speakers}}, {{ r.speaker }}{% endcapture %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-        {% if c.hosts %}
-            {% for h in c.hosts %}
-                {% capture all-hosts %}{{ all-hosts}}, {{ h }}{% endcapture %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-{% assign p-speakers = all-speakers | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-hosts = all-hosts | remove_first: ', ' | split: ", " | uniq | sort %}
+{% include _includes/cohort-metadata.html cohort='ols-4' %}
 
 # The OLS-4 program
 {:.no_toc}
@@ -121,7 +81,7 @@ Mentors advise and inspire
 ### Pool of mentors
 
 <!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-4-metadata.yaml file -->
+Any modification of the content should be done in the _data/ols-4-metadata.yaml file 
 
 We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
@@ -166,16 +126,16 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
 
 
 <!-- Pool of mentors (hidden before cohort starts)
-Any modification of the content should be done in the _data/ols-4-projects.yaml file
+Any modification of the content should be done in the _data/ols-4-projects.yaml file -->
 
-We thank the {{ p-mentors | size }} mentors this round.
+We thank the **{{ p-mentors | size }}** mentors this round.
 <div class="people">
 {% for entry in p-mentors %}
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
 {% endfor %}
-</div> -->
+</div> 
 
 ### Mentoring training
 

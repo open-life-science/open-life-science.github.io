@@ -11,53 +11,16 @@ photos:
 ---
 
 {% assign cohort-calls = 0 %}
-{% for w in site.data.ols-1-schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type != "Mentor-Mentee" %}
-            {% assign cohort-calls = cohort-calls | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-{% for w in site.data.ols-2-schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type != "Mentor-Mentee" %}
-            {% assign cohort-calls = cohort-calls | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-{% for w in site.data.ols-3-schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type != "Mentor-Mentee" %}
-            {% assign cohort-calls = cohort-calls | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-{% for w in site.data.ols-4-schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type != "Mentor-Mentee" %}
-            {% assign cohort-calls = cohort-calls | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-{% for w in site.data.ols-5-schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type != "Mentor-Mentee" %}
-            {% assign cohort-calls = cohort-calls | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-{% for w in site.data.ols-6-schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type != "Mentor-Mentee" %}
-            {% assign cohort-calls = cohort-calls | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-{% for w in site.data.ols-7-schedule.weeks %}
-    {% for c in w[1].calls %}
-        {% if c.type != "Mentor-Mentee" %}
-            {% assign cohort-calls = cohort-calls | plus: 1 %}
-        {% endif %}
+{% assign cohorts = site.data.cohorts | sort %}
+
+{% for cohort in cohorts %}
+    {% assign schedule = cohort[1].schedule %}
+    {% for w in schedule.weeks %}
+        {% for c in w[1].calls %}
+            {% if c.type != "Mentor-Mentee" %}
+                {% assign cohort-calls = cohort-calls | plus: 1 %}
+            {% endif %}
+        {% endfor %}
     {% endfor %}
 {% endfor %}
 

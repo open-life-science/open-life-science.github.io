@@ -182,10 +182,10 @@ Add someone to the list of people:
     - `bio`
 
 Add the person to their corresponding list to be visible on the website:
-- If they are a participant for a cohort, add their GitHub id with their project to `_data/ols-n-projects.yaml`
-- If they are a potential mentor for a cohort, add their GitHub id in the `_data/ols-n-metadata.yaml`
-- If they are an expert for a cohort, add their GitHub id in the `_data/ols-n-metadata.yaml`
-- If they are a speaker for a cohort, add their GitHub id with their talk details in `_data/ols-n-schedule.yaml`
+- If they are a participant for a cohort, add their GitHub id with their project to `_data/ols-n/projects.yaml`
+- If they are a potential mentor for a cohort, add their GitHub id in the `_data/ols-n/metadata.yaml`
+- If they are an expert for a cohort, add their GitHub id in the `_data/ols-n/metadata.yaml`
+- If they are a speaker for a cohort, add their GitHub id with their talk details in `_data/ols-n/schedule.yaml`
 
 Add many people in a row to `_data/people.yaml`:
 
@@ -301,7 +301,7 @@ Add many people in a row to `_data/people.yaml`:
 
 ## Update schedule for a cohort
 
-The schedule displayed in a cohort page is automatically generated from a file `_data/ols-n-schedule.yaml`.
+The schedule displayed in a cohort page is automatically generated from a file `_data/ols-n/schedule.yaml`.
 
 In this file, for each week, it is listed the timeframe and the different calls planned. For each call, several information are given:
 - `type`: `Mentor-Mentee`, `Cohort`, `Mentors` or `Coworking`

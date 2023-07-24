@@ -10,7 +10,7 @@ from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
 optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
 to_capitalize_info = ['affiliation', 'city', 'country']
-people_fp = Path('_data') / Path('people.yaml')
+people_fp = Path('_data/people.yaml')
 
 
 ### GENERAL METHODS
@@ -280,7 +280,7 @@ def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp
     participants = []
     mentors = []
     # load projects
-    fp = Path('_data') / Path('ols-%s-projects.yaml' % cohort )
+    fp = Path(f'_data/cohorts/ols-{cohort}/projects.yaml' )
     projects = read_yaml(fp)
     for p in projects:
         participants += p['participants']
@@ -290,7 +290,7 @@ def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp
 
     # extract experts and organizers
     # load metadata
-    fp = Path('_data') / Path('ols-%s-metadata.yaml' % cohort )
+    fp = Path(f'_data/cohorts/ols-{cohort}/metadata.yaml' )
     metadata = read_yaml(fp)
     experts = metadata['experts']
     extract_people_df(experts, people, expert_fp)
@@ -360,7 +360,7 @@ def load_schedule(cohort):
 
     :param cohort: cohort number
     '''
-    fp = Path('_data') / Path('ols-%s-schedule.yaml' % cohort )
+    fp = Path(f'_data/cohorts/ols-{cohort}/schedule.yaml' )
     schedule = read_yaml(fp)
     for w in schedule['weeks']:
         for c in schedule['weeks'][w]['calls']:
@@ -380,7 +380,7 @@ def dump_schedule(schedule, cohort):
     :param schedule: dictionary with schedule details
     :param cohort: cohort number
     '''
-    fp = Path('_data') / Path(f'ols-{cohort}-schedule.yaml')
+    fp = Path(f'_data/cohorts/ols-{cohort}/schedule.yaml')
     with fp.open("w") as schedule_f:
         schedule_f.write(f"# Schedule for the OLS-{cohort}\n")
         schedule_f.write("---\n")
@@ -530,7 +530,7 @@ def dump_projects(projects, cohort):
     :param projects: dictionary with project details
     :param cohort: cohort number
     '''
-    project_fp = Path('_data') / Path(f'ols-{cohort}-projects.yaml')
+    project_fp = Path(f'_data/cohorts/ols-{cohort}/projects.yaml')
     with project_fp.open("w") as project_f:
         project_f.write(f'# List of projects for OLS-{cohort}\n')
         project_f.write('#\n')
@@ -559,7 +559,7 @@ def load_metadata(cohort):
 
     :param cohort: cohort number
     '''
-    metadata_fp = Path('_data') / Path('ols-%s-metadata.yaml' % args.cohort )
+    metadata_fp = Path(f'_data/cohorts/ols-{cohort}/metadata.yaml' )
     # load metadata cohort file into a dictionary
     with open(metadata_fp, 'r') as metadata_f:
         metadata = yaml.load(metadata_f)
@@ -573,9 +573,9 @@ def dump_metadata(metadata, cohort):
     :param metadata: dictionary with metadata details
     :param cohort: cohort number
     '''
-    metadata_fp = Path('_data') / Path('ols-%s-metadata.yaml' % args.cohort )
+    metadata_fp = Path(f'_data/cohorts/ols-{cohort}/metadata.yaml' )
     with metadata_fp.open("w") as metadata_f:
-        metadata_f.write('# List of experts, possible mentors and organizers for OLS-%s\n' % args.cohort)
+        metadata_f.write(f'# List of experts, possible mentors and organizers for OLS-{cohort}\n')
         metadata_f.write('#\n')
         metadata_f.write('#\n')
         metadata_f.write('# People should be also in people.yaml file and linked using their GitHub username\n')
@@ -591,11 +591,9 @@ def extract_talks():
     Extract talks from all cohort
     '''
     talks = []
-    for sched_fp in Path('_data').iterdir():
-        if 'schedule' not in sched_fp.name:
-            continue
+    for c in Path('_data/cohorts').iterdir():
         # get cohort schedule
-        cohort = sched_fp.name.split('-')[1]
+        cohort = c.name.split("-")[1]
         schedule = load_schedule(cohort)
         # extract talks
         for w, week in schedule['weeks'].items():
@@ -859,7 +857,7 @@ def build_library():
     # combine tags by topic to build library
     library = combine_tags(talks_by_tag)
     # write library to file
-    fp = Path('_data') / Path('library.yaml')
+    fp = Path('_data/library.yaml')
     with fp.open("w") as cat_f:
         cat_f.write("# Library of expert talks in cohort calls\n")
         cat_f.write("---\n")
