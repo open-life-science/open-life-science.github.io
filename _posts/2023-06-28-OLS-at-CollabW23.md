@@ -37,6 +37,7 @@ It is great to see these topics being so central in a conference as they are usu
 ## OLS community activities and highlights
 
 ### Gemma Turon
+
 As a 2022 SSI Fellow and OLS participant, it was a welcome surprise to find so many known faces from both programs in Collaborations Workshop 2023. 
 While the online organisation at OLS is amazing, with a very active Slack channel, regular coffee chats and co-working sessions, to me nothing beats meeting people in person, and having the chance to have dinner together under a whale skeleton with Aman was definitely an important community building experience! 
 I also had the pleasure of sharing one of the workshop sessions with Aman. 
