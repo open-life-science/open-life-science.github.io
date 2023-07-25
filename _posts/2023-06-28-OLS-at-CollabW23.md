@@ -18,7 +18,7 @@ Together with Resident Fellow Mayya Sundukova I also hosted a session on self ca
 
 ## Personal highlights from CollabW23
 
-This year’s theme was “Sustainable Career Development for those in the research software community: looking after your software, your career, and yourself” which is a topic that resonated very much with me as I spent last year thinking much about burnout, self care and career changes that might follow from that. 
+This year's theme was "Sustainable Career Development for those in the research software community: looking after your software, your career, and yourself" which is a topic that resonated very much with me as I spent last year thinking much about burnout, self care and career changes that might follow from that. 
 The [keynote panel](https://www.youtube.com/watch?v=vqVtB3B8vVo) on careers was incredibly insightful and I loved how vulnerable and honest all speakers were.
 
 During the discussion session, my group discussed how to build collaborative teams that have different experience levels, locations, working patterns and contract types. 
