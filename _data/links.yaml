@@ -22,10 +22,10 @@ items:
     text: Watch our videos on YouTube
     link: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
     icon: fab fa-youtube
-  #-
-  #  text: Check out our Open Science video library 
-  #  link: /library
-  #  icon: fas fa-video
+  -
+    text: Check out our Open Science video library 
+    link: /library
+    icon: fas fa-video
   -
     text: Follow us on Twitter
     link: https://twitter.com/openlifesci
