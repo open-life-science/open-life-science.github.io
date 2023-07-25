@@ -36,6 +36,8 @@ It is great to see these topics being so central in a conference as they are usu
 
 ## OLS community activities and highlights
 
+To continue the theme of collaboration, this blog post is a joint effort and some OLS community members will share their highlights from the event below.
+
 ### Gemma Turon
 
 As a 2022 SSI Fellow and OLS participant, it was a welcome surprise to find so many known faces from both programs in Collaborations Workshop 2023. 
@@ -44,6 +46,7 @@ I also had the pleasure of sharing one of the workshop sessions with Aman.
 In this session, I presented the pipeline we are developing at [Ersilia](https://ersilia.io) to facilitate the onboarding of new Open Source contributors (mainly from the Outreachy program) to our ecosystem, very much based on the learnings from our participation in the OLS cohort 5. 
 
 ### Saranjeet Kaur Bhogal
+
 I had the pleasure of interacting with Malvika Sharan on multiple occasions. 
 During the Hack Day, I had the opportunity to collaborate with Gemma Turon (and others) on a project focusing on Software Authorship. 
 It was a rewarding experience to work alongside Gemma and bring our collective expertise to the table. 
@@ -51,6 +54,7 @@ In addition to that, during the Collaborative Ideas session, I had the opportuni
 It was inspiring to see our vision taking shape as we shared perspectives.
 
 ### Aman Goel
+
 This year's Collaboration Workshop has been undoubtedly the highlight of my year so far. 
 Having met so much of the community online via OLS and SSI, it was quite refreshing to finally meet Zoom-familiar folks in person! 
 Right from the event registration until the last minute of the hack-day, I had the opportunity to closely interact and collaborate with fellow OLS community members. 
