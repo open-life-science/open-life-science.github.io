@@ -55,4 +55,4 @@ Having met so much of the community online via OLS and SSI, it was quite refresh
 Right from the event registration until the last minute of the hack-day, I had the opportunity to closely interact and collaborate with fellow OLS community members. 
 Moreover, I had the pleasure of introducing OLS to several SSI community members at the workshop, and their enthusiasm to learn more about the mentorship program was truly inspiring. 
 As Gemma mentioned, I shared a workshop session with her, where I showcased my OLS project, titled ["The Undergraduate's Guide To Research Software Engineering"](https://software.ac.uk/cw23/mini-workshops-and-demo-sessions#3.4b), which received a warm reception from the attendees. 
-All in all, the workshop was both productive and rejuvenating, and I’m looking forward to similar events in the future.
+All in all, the workshop was both productive and rejuvenating, and I'm looking forward to similar events in the future.
