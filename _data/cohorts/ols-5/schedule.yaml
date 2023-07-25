@@ -127,16 +127,22 @@ weeks:
       talks:
       - slides: 
           https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        speakers:
+        - emmyft
         title: Welcome to OLS!
         recording: https://youtu.be/O3yk0yrOHGM?t=1234
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        speakers:
+        - yochannah
         title: Introducing Open Canvas
         recording: https://youtu.be/O3yk0yrOHGM?t=2455
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speakers:
+        - emmyft
         title: Introducing Road Mapping
         recording: https://youtu.be/O3yk0yrOHGM?t=3053
         tag: Project Roadmapping
@@ -183,16 +189,22 @@ weeks:
       talks:
       - slides: 
           https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        speakers:
+        - yochannah
         title: Welcome to OLS!
         recording: https://youtu.be/CnTWxXVM0Qw?t=726
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        speakers:
+        - emmyft
         title: Introducing Open Canvas
         recording: https://youtu.be/CnTWxXVM0Qw?t=1398
         tag: Open Canvas
       - slides: 
           https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speakers:
+        - malvikasharan
         title: Introducing Road Mapping
         recording: https://youtu.be/CnTWxXVM0Qw?t=2821
         tag: Project Roadmapping
@@ -287,6 +299,8 @@ weeks:
       talks:
       - slides: 
           https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
+        speakers:
+        - malvikasharan
         title: Introduction to GitHub
         recording: https://youtu.be/90BOler9hqI
         tag: GitHub Introduction
