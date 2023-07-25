@@ -50,7 +50,7 @@ In addition to that, during the Collaborative Ideas session, I had the opportuni
 It was inspiring to see our vision taking shape as we shared perspectives.
 
 ### Aman Goel
-This year’s Collaboration Workshop has been undoubtedly the highlight of my year so far. 
+This year's Collaboration Workshop has been undoubtedly the highlight of my year so far. 
 Having met so much of the community online via OLS and SSI, it was quite refreshing to finally meet Zoom-familiar folks in person! 
 Right from the event registration until the last minute of the hack-day, I had the opportunity to closely interact and collaborate with fellow OLS community members. 
 Moreover, I had the pleasure of introducing OLS to several SSI community members at the workshop, and their enthusiasm to learn more about the mentorship program was truly inspiring. 
