@@ -1192,6 +1192,26 @@ def reformate_people():
     dump_people(people)
 
 
+def extract_library(out_fp):
+    '''
+    Extract library data to CSV
+
+    :param out_fp: Path to CSV file
+    '''
+    library = read_yaml('_data/library.yaml')
+    # flatten the library
+    flat_library = []
+    for tag, t_v in library.items():
+        for subtag, st_v in t_v.items():
+            for v in st_v:
+                v['tag'] = tag
+                v['subtag'] = subtag
+                flat_library.append(v)
+    # transform to data frame to export it to csv
+    library_df = pd.DataFrame(flat_library)
+    library_df.to_csv(out_fp)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Interact and prepare OLS website data')
     subparser = parser.add_subparsers(dest='command')
@@ -1238,9 +1258,12 @@ if __name__ == '__main__':
     getpeople.add_argument('-hf', '--hosts', help="Path to output sheet with call host details", required=True)
     # Extract talks to build library
     buildlibrary = subparser.add_parser('buildlibrary', help='Extract talks to build library')
-     # Reformate people data
+    # Reformate people data
     reformatepeople = subparser.add_parser('reformatepeople', help='Reformate people information')
-    
+    # Extract library data to CSV
+    extractlibrary = subparser.add_parser('extractlibrary', help='Extract library data to CSV')
+    extractlibrary.add_argument('-o', '--out', help="Path to output file", required=True)
+
     args = parser.parse_args()
 
     if args.command == 'addprojects':
@@ -1286,3 +1309,5 @@ if __name__ == '__main__':
         build_library()
     elif args.command == 'reformatepeople':
         reformate_people()
+    elif args.command == 'extractlibrary':
+        extract_library(Path(args.out))
