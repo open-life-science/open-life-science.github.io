@@ -35,7 +35,7 @@ _Mi formación académica formal es humanidades y ciencias sociales, por lo que 
 
 Paz ha estado trabajando con nosotros durante el último mes,
 1. **liderando** la **colaboración de OLS con el Instituto Alan Turing** para re-empaquetar y poner a **disposición para quien los necesite, los  materiales de capacitación de OLS** ([ver propuesta](https://zenodo.org/record/6974060)), y
-2. jugando un papel crucial en el impulso de la **organización y coordinación de [OLS-6]({% link ols-6.md %})**.
+2. jugando un papel crucial en el impulso de la **organización y coordinación de [OLS-6](../openseeds/ols-6.md)**.
 
 En los **próximos 2 años**, Paz actuará como **coordinadora clave de las cohortes de OLS**. Además, liderará la **investigación** para
 - **evaluar** el impacto a largo plazo de capacitaciones y tutorías contextuales (utilizando OLS como un estudio de caso),
