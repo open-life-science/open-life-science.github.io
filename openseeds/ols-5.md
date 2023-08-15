@@ -344,7 +344,7 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## Speaker Guide
 
-We have [a short guide for invited speakers](../openseeds/_ols-5/speaker-guide.md).
+We have [a short guide for invited speakers](../openseeds/ols-5/speaker-guide.md).
 
 ## Communication channels
 

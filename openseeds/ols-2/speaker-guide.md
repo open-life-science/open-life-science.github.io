@@ -14,7 +14,7 @@ Thank you for considering speaking at our upcoming Cohort call! We look forward 
 
 # About OLS
 
-The [OLS program]({% link index.md %}) is
+The [OLS program](../index.md) is
 designed for the early-stage researchers and potential academic leaders
 in becoming Open Science ambassadors in their communities.
 
@@ -23,10 +23,10 @@ Malvika Sharan and Yo Yehudi. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
 We are currently running our [second cohort with 33
-projects]({% link _ols-2/projects-participants.md %})
+projects](../ols-2/projects-participants.md)
 (September-December 2020) that consist of around 50 participants ([see this
 post]({% link _posts/2020-09-01-ols2-announcement.md %})).
-A complete syllabus of this cohort can be found [here]({% link _ols-2/schedule.md %}).
+A complete syllabus of this cohort can be found [here](../ols-2/schedule.md).
 
 # About our Code of Conduct
 
@@ -38,7 +38,7 @@ To report an issue involving one of the organisers, please email one of the memb
 
 # About the cohort calls
 
-Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to OLS]({% link _ols-2/schedule.md %}) is shared and discussed with all participants of the program.
+Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to OLS](../ols-2/schedule.md) is shared and discussed with all participants of the program.
 
 These cohort calls introduce new Open Science related topics that are relevant for our participants to develop their project and bring them to the next stage.
 
@@ -60,7 +60,7 @@ You can check if Zoom works on your system by using this link: [http://zoom.us/t
 
 ## Call notes
 
-The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule]({% link _ols-2/schedule.md %})
+The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule](../ols-2/schedule.md)
 
 These notes will be available for all our participants for future reference. You are welcome to contribute to the notes from your session.
 

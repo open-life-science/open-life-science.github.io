@@ -12,19 +12,19 @@ redirect_from: /ols-speaker-guide
 
 Thank you for considering speaking at our upcoming Cohort call! We look forward to welcoming you. **🎉🥳️👏**
 
-# About Open Life Science
+# About OLS
 
-The [Open Life Science (OLS) program]({% link index.md %}) is
+The [OLS program](../index.md) is
 designed for the early-stage researchers and potential academic leaders
 in becoming Open Science ambassadors in their communities.
 
 This program is led by the OLS team members, i.e. us - Bérénice Batut,
-Malvika Sharan and Yo Yehudi. You can reach out to us by emailing
+Malvika Sharan, Yo Yehudi and Emmy Tsang. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
-We are currently running our [third cohort]({% link _ols-3/projects-participants.md %})
-(Feb-May 2021).
-A complete syllabus of this cohort can be found [here]({% link _ols-3/schedule.md %}).
+We will be running our [6th cohort](../ols-6/projects-participants.md)
+(Sep 2021 - Jan 2022).
+A complete syllabus of this cohort can be found [here](../ols-6/schedule.md).
 
 # About our Code of Conduct
 
@@ -32,11 +32,11 @@ All our members, participants and speakers are expected to abide by our [Code of
 
 If you experience or witness any unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Bérénice, Malvika and Yo. ([{{ site.email }}](mailto:{{ site.email }})).
 
-To report an issue involving one of the organisers, please email one of the members individually ([berenice@openlifesci.org](mailto:berenice@openlifesci.org), [malvika@openlifesci.org](mailto:malvika@openlifesci.org), [yo@openlifesci.org](mailto:yo@openlifesci.org)).
+To report an issue involving one of the organisers, please email one of the members individually ([berenice@openlifesci.org](mailto:berenice@openlifesci.org), [malvika@openlifesci.org](mailto:malvika@openlifesci.org), [yo@openlifesci.org](mailto:yo@openlifesci.org)), [emmy@openlifesci.org](mailto:emmy@openlifesci.org)).
 
 # About the cohort calls
 
-Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to Open Life Science]({% link _ols-3/schedule.md %}) is shared and discussed with all participants of the program.
+Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to OLS](../ols-6/schedule.md) is shared and discussed with all participants of the program.
 
 These cohort calls introduce new Open Science related topics that are relevant for our participants to develop their project and bring them to the next stage.
 
@@ -58,7 +58,7 @@ You can check if Zoom works on your system by using this link: [http://zoom.us/t
 
 ## Call notes
 
-The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule]({% link _ols-2/schedule.md %})
+The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule](../ols-6/schedule.md)
 
 These notes will be available for all our participants for future reference. You are welcome to contribute to the notes from your session.
 

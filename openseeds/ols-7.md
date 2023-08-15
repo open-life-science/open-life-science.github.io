@@ -347,7 +347,7 @@ The Cafetería is a zoom call in which we pretend we are at a normal Catefería:
 
 ## Speaker Guide
 
-We have [a short guide for invited speakers](../openseeds/_ols-7/speaker-guide.md).
+We have [a short guide for invited speakers](../openseeds/ols-7/speaker-guide.md).
 
 ## Communication channels
 

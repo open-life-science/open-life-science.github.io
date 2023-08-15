@@ -268,7 +268,7 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## OLS Speaker Guide
 
-We have [a short guide for invited speakers](../openseeds/_ols-2/speaker-guide.md).
+We have [a short guide for invited speakers](../openseeds/ols-2/speaker-guide.md).
 
 ## Communication channels
 
