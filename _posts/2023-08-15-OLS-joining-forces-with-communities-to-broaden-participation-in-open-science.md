@@ -20,9 +20,9 @@ photos:
 _OLS is happy to announce our collaboration with multiple international organisations and communities to deliver the Open Seeds OLS-8 programme_ 
 -----
 
-Authors: Laurah Nyasita Ondari, Laura Acion, Nicolás Palopoli, Malvika Sharan, Andela Van de Valt, Lena Karvovskaya, Laura Ascenzi, Esther Plomp, Michael Landi, Paz Bernaldo
+Authors: Laurah Nyasita Ondari, Laura Acion, Nicolás Palopoli, Malvika Sharan, Andela Van de Valt, Lena Karvovskaya, Laura Ascenzi, Esther Plomp, Mike Landi Kofia, Paz Bernaldo
 
-[OLS](https://openlifesci.org/) is joining forces with the [Bioinformatics Hub of Kenya initiative (BHKi)](https://bhki.org/),the South African Center for Digital Language Resources [SADiLaR](https://sadilar.org/index.php/en/) via the [ESCALATOR programme](https://escalator.sadilar.org/), [VU Amsterdam](https://vu.nl/en) and [MetaDocencia](https://www.metadocencia.org/), to bring together the newest [Open Seeds cohort](https://openlifesci.org/posts/2023/04/18/Introducing-the-new-OLS/), OLS-8. Our goal is to connect community members from our respective regions in the international open science network as well as strengthen their role as ambassadors for open science through local activities. 
+[OLS](https://openlifesci.org/) is joining forces with the [Bioinformatics Hub of Kenya initiative (BHKi)](https://bhki.org/),the South African Center for Digital Language Resources [(SADiLaR)](https://sadilar.org/index.php/en/) via the [ESCALATOR programme](https://escalator.sadilar.org/), [VU Amsterdam](https://vu.nl/en) and [MetaDocencia](https://www.metadocencia.org/), to bring together the newest [Open Seeds cohort](https://openlifesci.org/posts/2023/04/18/Introducing-the-new-OLS/), OLS-8. Our goal is to connect community members from our respective regions in the international open science network as well as strengthen their role as ambassadors for open science through local activities. 
 
 Leads and members from the partnering organisations and communities have worked with OLS since the very beginning. As OLS fellows, they have taken different roles in Open Seeds as well as provided the OLS team with several opportunities to learn from their work. 
 
@@ -62,7 +62,7 @@ Mmasibidi Setaka, one of the OLS-8 participants, introducing people to Voyant, a
 
 
 ## VU Amsterdam
-Incentivising members in research infrastructure roles to become involved in the international open science movement - Lena Karvovskaya, Community Manager RDM and Open Science 
+_Incentivising members in research infrastructure roles to become involved in the international open science movement - Lena Karvovskaya, Community Manager RDM and Open Science_ 
 
 The VU Amsterdam group will have a few in person events open to the broader VU community to attend. These events will probably be special editions of the VU Data Conversations. During the meetings, the OLS-8 participants will give lightning talks about their work. This will also help to get research infrastructure colleagues more involved because they typically attend such meetings. We want to show researchers what possible OLS projects can look like for different disciplines. At the same time, we want to highlight that there is a lot of important work happening that is not always recognized by the academic system and that researchers can benefit from looking at what they do from other perspectives.
 
@@ -78,11 +78,11 @@ MetaDocencia launches its work in [two of the three NASA Transform to Open Scien
 ![The image shows 12 people of different ages, informally dressed, in a natural garden, smiling and happy.](/images/2023-16-08-metadocencia-team-OLS-8-blog-post.jpg) Part of the MetaDocencia team and external collaborators at their first in-person retreat, held in Buenos Aires in 2023. 
 
 ## Making the most of this diverse cohort!
-Through this collaborative effort, we also want to reimagine some aspects of Open Seeds  so that better opportunities are made available for everyone. We would like all participants to  benefit from the diversity of expertise, perspectives and ideas members of this cohort and team will bring, and also engage with one another beyond their local contexts. In view os this goal we together thought of a couple of activities to implement in oLS-8:
+Through this collaborative effort, we also want to reimagine some aspects of Open Seeds  so that better opportunities are made available for everyone. We would like all participants to  benefit from the diversity of expertise, perspectives and ideas members of this cohort and team will bring, and also engage with one another beyond their local contexts. In view os this goal we together thought of a couple of activities to implement in OLS-8:
 
-Each partnering organisation will host themed sessions, in which a wide range of topics of shared interest will be discussed (from how to access academic publications to how to use alt-text or structure a CV). Topics will be suggested based on an informal survey with the cohort members. 
+- Each partnering organisation will host themed sessions, in which a wide range of topics of shared interest will be discussed (from how to access academic publications to how to use alt-text or structure a CV). Topics will be suggested based on an informal survey with the cohort members. 
 
-We will host randomised peer-networking calls (3 mentees/project leads) each month. These calls will be a good place to meet informally, talk about their work (projects, struggles, successes, questions, etc.) or discuss assignments or presentations from the cohort calls. These calls will replace the OLS-7 Cafeterías that weren’t well attended. We hope these smaller self-organised meetings will work better for most people. 
+- We will host randomised peer-networking calls (3 mentees/project leads) each month. These calls will be a good place to meet informally, talk about their work (projects, struggles, successes, questions, etc.) or discuss assignments or presentations from the cohort calls. These calls will replace the OLS-7 Cafeterías that weren’t well attended. We hope these smaller self-organised meetings will work better for most people. 
 
 Although not mandatory for graduating, we will encourage our cohort participants to engage in the community through various activities and channels. We believe this helps us all broaden our networks, increase our chances of collaboration and stay aware of the huge diversity of perspectives in science practise.   
 
