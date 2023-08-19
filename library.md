@@ -178,7 +178,7 @@ photos:
                                 {% endif %}
                                 <tr>
                                     <td><strong>Cohort</strong></td>
-                                    <td><a href="/{{ video.cohort }}">{{ video.cohort }}</a></td>
+                                    <td><a href="/openseeds/{{ video.cohort }}">{{ video.cohort }}</a></td>
                                 </tr>
                             </table>
                         </div>

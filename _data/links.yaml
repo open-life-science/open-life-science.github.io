@@ -8,7 +8,7 @@ description: >
 items:
   -
     text: Apply for our next cohort
-    link: /index#applications
+    link: openseeds/index#applications
     icon: fa fa-graduation-cap
   -
     text: Check out our upcoming events
