@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+import copy
 import pandas as pd
 import pycountry
 
@@ -264,7 +265,7 @@ optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country'
 to_capitalize_info = ['affiliation', 'city', 'country']
 people_fp = Path('_data/people.yaml')
 geolocator = Nominatim(user_agent="MyApp")
-
+artifact_dp = Path('_data/artifacts/')
 
 ### GENERAL METHODS
 
@@ -357,6 +358,24 @@ def get_people_ids(names, people):
                 ids.append(id)
 
     return ids
+
+
+def get_people_names(p_list, people):
+    '''Get names of peoke
+
+    :param p_list: list of people id
+    :param people: dictionary with people information
+    '''
+    names = []
+    for p in p_list:
+        if p is None:
+            names.append(None)
+        elif p not in people:
+            print(f"{p} not found in people")
+            names.append(None)
+        else:
+            names.append(f"{people[p]['first-name']} {people[p]['last-name']}")
+    return names
 
 
 def extract_expertise(people_list, people):
@@ -963,6 +982,101 @@ def combine_tags(talks_by_tag):
     return ordered_library
 
 
+### METHODS TO EXTRACT DATA TO CSV
+
+def update_people_info(p_list, p_dict, cohort, role, value):
+    '''
+    Update people attribute for a cohort
+
+    :param p_list: list of people id to update
+    :param p_dict: dictionary with people information
+    :param role: status to add
+    :param cohort: concerned cohort
+    '''
+    for p in p_list:
+        if p is None:
+            continue
+        if p not in p_dict:
+            print(f"{p} not found in people")
+            continue
+        p_dict[p][f'{cohort}-role'].append(role)
+        if role == 'participant' or role == 'mentor':
+            p_dict[p][f'{cohort}-{role}'].append(value)
+        else:
+            p_dict[p][f'{cohort}-{role}'] = value
+
+
+def format_people_per_cohort(people, projects):
+    '''
+    Format to get people with their location and cohort and role
+    (1 entry per person, per cohort, per role)
+
+    :param people: dictionary with people information
+    :param projects: 
+    '''
+    people_per_cohort = []
+    for key, value in people.items():
+        info = {'id': key}
+        # get localisation information
+        for e in ['country', 'country_3', 'city', 'longitude', 'latitude']:
+            info[e] = value[e] if e in value else None
+        # get cohort participation
+        for c in Path('_data/cohorts').iterdir():
+            cohort = get_cohort_name(c)
+            el = f'{cohort}-role'
+            if el in value and len( value[el]) > 0:
+                for r in value[el]:
+                    t_info = copy.copy(info)
+                    t_info['cohort'] = cohort.split('-')[-1]
+                    t_info['role'] = r
+                    people_per_cohort.append(t_info)
+    return people_per_cohort
+
+
+def export_people_per_roles(people_df, out_dp):
+    '''
+    Export people per role
+
+    :param people_df: dataframe with people information
+    :param out_dp: Path object to output directory
+    '''
+    people_info_df = people_df[[
+        'city',
+        'country',
+        'first-name',
+        'last-name',
+        'pronouns',
+        'country_3',
+        'continent',
+        'longitude',
+        'latitude']]
+    out_dp = out_dp / Path("roles")
+    out_dp.mkdir(parents=True, exist_ok=True)
+    for r in ROLES:
+        role_df = people_df.filter(regex = r)
+        role_df = role_df[role_df.filter(regex = r).notna().any(axis=1)]
+        for c in Path('_data/cohorts').iterdir():
+            i = c.name.split("-")[1]
+            role_df.rename(columns={f"ols-{i}-{r}": f"ols-{i}"}, inplace=True)
+        df = pd.merge(
+            people_info_df,
+            role_df,
+            left_index=True,
+            right_index=True,
+            how="inner")
+        fp = Path(out_dp) / Path(f"{r}.csv")
+        df.to_csv(fp)
+
+
+def get_cohort_name(c):
+    '''Get cohort name from cohort data path
+    
+    :param c: Path object to cohort data
+    '''
+    i = c.name.split("-")[1]
+    return f'ols-{i}'
+
+
 ### COMMANDS
 
 def add_projects(cohort, project_df, people_df):
@@ -1212,6 +1326,103 @@ def extract_library(out_fp):
     library_df.to_csv(out_fp)
 
 
+def extract_full_people_data(out_dp):
+    '''
+    Extract full people data from website into CSV files
+
+    :param out_dp: Path object to output folder
+    '''
+    # prepare output folder
+    out_dp = Path('_data/artifacts/')
+    out_dp.mkdir(parents=True, exist_ok=True)
+
+    # get people information
+    people = load_people()
+    # format information
+    for key, value in people.items():
+        # remove some keys
+        value.pop('affiliation', None)
+        value.pop('bio', None)
+        value.pop('orcid', None)
+        value.pop('twitter', None)
+        value.pop('website', None)
+        value.pop('github', None)
+        value.pop('title', None)
+        value.pop('expertise', None)
+        # add space for cohorts
+        for c in Path('_data/cohorts').iterdir():
+            cohort = get_cohort_name(c)
+            value[f'{cohort}-role'] = []
+            value[f'{cohort}-participant'] = []
+            value[f'{cohort}-mentor'] = []
+            value[f'{cohort}-expert'] = None
+            value[f'{cohort}-speaker'] = None
+            value[f'{cohort}-facilitator'] =  None
+            value[f'{cohort}-organizer'] =  None
+
+    # get cohort and project informations
+    projects = []
+    for c in Path('_data/cohorts').iterdir():
+        cohort = get_cohort_name(c)
+        # extract experts, facilitators, organizers from metadata
+        metadata = read_yaml(f"{c}/metadata.yaml")
+        update_people_info(metadata['experts'], people, cohort, 'expert', 'expert')
+        if 'facilitators' in metadata:
+            update_people_info(metadata['facilitators'], people, cohort, 'facilitator', 'facilitator')
+        update_people_info(metadata['organizers'], people, cohort, 'organizer',  'organizer')
+        # extract participants, mentors from projects
+        # extract project details
+        cohort_projects = read_yaml(f"{c}/projects.yaml")
+        for p in cohort_projects:
+            # update participant and mentor information
+            update_people_info(p['participants'], people, cohort, 'participant', p['name'])
+            update_people_info(p['mentors'], people, cohort, 'mentor', p['name'])
+            # get project details
+            pr = copy.copy(p)
+            pr['participants'] = get_people_names(p['participants'], people)
+            pr['mentors'] = get_people_names(p['mentors'], people)
+            pr['cohort'] = cohort.split("-")[-1]
+            pr['keywords'] = p['keywords'] if 'keywords' in p else []
+            projects.append(pr)
+        # extract speakers from schedule
+        schedule = read_yaml(f"{c}/schedule.yaml")
+        for w, week in schedule['weeks'].items():
+            for c in week['calls']:
+                if c['type'] == 'Cohort' and 'resources' in c and c['resources'] is not None:
+                    for r in c['resources']:
+                        if r['type'] == 'slides' and 'speaker' in r and r['speaker'] is not None:
+                            update_people_info([r['speaker']], people, cohort,'speaker', 'speaker')
+    
+    # format people / project information per cohort
+    people_per_cohort = format_people_per_cohort(people, projects)
+    
+    # export people information to CSV file
+    people_df = pd.DataFrame.from_dict(people, orient='index')
+    for c in Path('_data/cohorts').iterdir():
+        cohort = get_cohort_name(c)
+        people_df[f'{cohort}-role'] = people_df[f'{cohort}-role'].apply(lambda x: ', '.join([str(i) for i in x]) if len(x)>0 else None)
+        people_df[f'{cohort}-participant'] = people_df[f'{cohort}-participant'].apply(lambda x: ', '.join([str(i) for i in x]) if len(x)>0 else None)
+        people_df[f'{cohort}-mentor'] = people_df[f'{cohort}-mentor'].apply(lambda x: ', '.join([str(i) for i in x]) if len(x)>0 else None)
+    people_fp = out_dp / Path('people.csv')
+    people_df.to_csv(people_fp)
+
+    # export project information to CSV file
+    project_df = pd.DataFrame(projects)
+    project_df['participants'] = project_df['participants'].apply(lambda x: ', '.join([str(i) for i in x]))
+    project_df['mentors'] = project_df['mentors'].apply(lambda x: ', '.join([str(i) for i in x]))
+    project_df['keywords'] = project_df['keywords'].apply(lambda x: ', '.join([str(i) for i in x]))
+    project_fp = out_dp / Path('projects.csv')
+    project_df.to_csv(project_fp)
+
+    # export people per cohort
+    people_per_cohort_df = pd.DataFrame(people_per_cohort)
+    people_per_cohort_fp = out_dp / Path('people_per_cohort.csv')
+    people_per_cohort_df.to_csv(people_per_cohort_fp)
+
+    # export people per role
+    export_people_per_roles(people_df, out_dp)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Interact and prepare OLS website data')
     subparser = parser.add_subparsers(dest='command')
@@ -1263,8 +1474,13 @@ if __name__ == '__main__':
     # Extract library data to CSV
     extractlibrary = subparser.add_parser('extractlibrary', help='Extract library data to CSV')
     extractlibrary.add_argument('-o', '--out', help="Path to output file", required=True)
-
+    # Extract full people data to CSV
+    extractfullpeopledata = subparser.add_parser('extractfullpeopledata', help='Extract full people data (location, participation, etc) into CSV files stored in _data folder')
+    
     args = parser.parse_args()
+
+    # prepare artifact folder
+    artifact_dp.mkdir(parents=True, exist_ok=True)
 
     if args.command == 'addprojects':
         if args.project_fp:
@@ -1311,3 +1527,5 @@ if __name__ == '__main__':
         reformate_people()
     elif args.command == 'extractlibrary':
         extract_library(Path(args.out))
+    elif args.command == 'extractfullpeopledata':
+        extract_full_people_data(artifact_dp)
