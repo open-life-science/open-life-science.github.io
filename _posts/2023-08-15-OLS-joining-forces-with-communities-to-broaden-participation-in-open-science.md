@@ -94,4 +94,4 @@ We are excited to welcome our new cohort members together with our partnering or
 
 Do you have an idea or feedback that you'd like to share with us? Please email team@openlifesci.org, or connect with Paz on Slack if you are an OLS member.
 
-Funding acknowledgement: This cohort is funded by the Wellcome Trust Open Research Fund and the CZI grant awarded to OLS in 2022.
+**Funding acknowledgement:** This cohort is funded by the Wellcome Trust Open Research Fund and the CZI grant awarded to OLS in 2022.
