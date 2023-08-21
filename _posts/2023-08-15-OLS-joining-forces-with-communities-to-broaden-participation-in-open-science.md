@@ -26,7 +26,7 @@ _OLS is happy to announce our collaboration with multiple international organisa
 
 Leads and members from the partnering organisations and communities have worked with OLS since the very beginning. As OLS fellows, they have taken different roles in Open Seeds as well as provided the OLS team with several opportunities to learn from their work. 
 
-Who we are:
+**Who we are:**
 
 - Mike Landi Kofia and Laurah Nyasita (representing BHKi), and Anelda Van der Walt (representing ESCALATOR by SADILAR) are piloting OLS-Africa chapter under which they will upskill undergraduate, postgraduate, early- and mid-career researchers in open science as well as create local opportunities in Kenya and South Africa.
 
