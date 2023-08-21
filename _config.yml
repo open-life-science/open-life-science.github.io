@@ -17,7 +17,7 @@ collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
   ols-1:
-    permalink: openseeds/ols-1/:path/
+    permalink: /openseeds/ols-1/:path/
     output: true
   ols-2:
     permalink: openseeds/ols-2/:path/
