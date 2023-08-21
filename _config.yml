@@ -20,25 +20,25 @@ collections:
     permalink: /openseeds/ols-1/:path/
     output: true
   ols-2:
-    permalink: openseeds/ols-2/:path/
+    permalink: /openseeds/ols-2/:path/
     output: true
   ols-3:
-    permalink: openseeds/ols-3/:path/
+    permalink: /openseeds/ols-3/:path/
     output: true
   ols-4:
-    permalink: openseeds/ols-4/:path/
+    permalink: /openseeds/ols-4/:path/
     output: true
   ols-5:
-    permalink: openseeds/ols-5/:path/
+    permalink: /openseeds/ols-5/:path/
     output: true
   ols-6:
-    permalink: openseeds/ols-6/:path/
+    permalink: /openseeds/ols-6/:path/
     output: true
   ols-7:
-    permalink: openseeds/ols-7/:path/
+    permalink: /openseeds/ols-7/:path/
     output: true
   ols-8:
-    permalink: openseeds/ols-8/:path/
+    permalink: /openseeds/ols-8/:path/
     output: true
 
 includes_dir: .
