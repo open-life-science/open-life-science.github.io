@@ -18,7 +18,6 @@ photos:
 
 
 _OLS is happy to announce our collaboration with multiple international organisations and communities to deliver the Open Seeds OLS-8 programme_ 
------
 
 **Authors:** Laurah Nyasita Ondari, Laura Acion, Nicolás Palopoli, Malvika Sharan, Andela Van de Valt, Lena Karvovskaya, Laura Ascenzi, Esther Plomp, Mike Landi Kofia and Paz Bernaldo.
 
