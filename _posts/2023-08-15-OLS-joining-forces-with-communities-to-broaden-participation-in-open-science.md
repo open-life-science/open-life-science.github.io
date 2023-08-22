@@ -38,6 +38,7 @@ Open Seeds Programme Coordinator, Paz Bernaldo, the OLS Directors and team membe
 **Below we share the goals and visions behind these new partnerships and explain what they mean for the OLS-8 cohort.**
 ## Africa-OLS
 ### BHKi
+
 _Introducing open science to learners early in their education, deepening their understanding and retaining them in science through international mentorship - Mike Landi and Laurah Nyasita, Co-leads of BHKi team_
 
 At its core, [BHKi](https://bhki.org/) is a community of bioinformatics enthusiasts spanning from novices to seasoned experts. BHKi's overarching goal is to be a dynamic, well-coordinated, and enthusiastic hub that plays a central role in the advancement of bioinformatics. Through various activities  such as seminars, workshops and trainings, **BHKi seeks to raise awareness, forge meaningful collaborations, and enhance bioinformatics capacity**. Since 2022, BHKi has been sensitising bioinformatics and open science to early career researchers including undergraduate and postgraduate students through outreach activities. The turnouts at these gatherings have been overwhelming, with enthusiastic students from various departments eager to learn and engage. The networking sessions (which are a part of the outreach program) provided a platform for students to interact with mentors, share experiences, and seek guidance on their academic and career paths. Through these interactions, we have recognized the crucial need for mentorship and career guidance for undergraduate students. 
