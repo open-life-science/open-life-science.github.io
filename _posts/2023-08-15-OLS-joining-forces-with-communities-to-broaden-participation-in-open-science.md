@@ -63,6 +63,7 @@ Mmasibidi Setaka, one of the OLS-8 participants, introducing people to Voyant, a
 
 
 ## VU Amsterdam
+
 _Incentivising members in research infrastructure roles to become involved in the international open science movement - Lena Karvovskaya, Community Manager RDM and Open Science_ 
 
 The VU Amsterdam group will have **a few in person events open to the broader VU community to attend**. These events will probably be special editions of the VU Data Conversations. During the meetings, the **OLS-8 participants will give lightning talks about their work**. This will also help to get research infrastructure colleagues more involved because they typically attend such meetings. We want to show researchers what possible OLS projects can look like for different disciplines. At the same time, we want to highlight that there is a lot of important work happening that is not always recognized by the academic system and that researchers can benefit from looking at what they do from other perspectives.
