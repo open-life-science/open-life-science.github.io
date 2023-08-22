@@ -29,7 +29,7 @@ Here are a few ways you can get started with contributing to this program.
 4. Write about your [Mozilla Open Leader project and share with our participants](https://openlifesci.org/posts).
 5. Contribute your blog posts that could be relevant for our participants. You can [check out our the stories](https://openlifesci.org/posts) to get an idea of what we post there.
 
-Do you have other ideas for contributions? Contact the organisers (team@openlifesci.org).
+Do you have other ideas for contributions? Contact the organisers ([{{ site.email }}](mailto:{{ site.email }})).
 
 ## How can I contribute in "advanced" mode?
 
