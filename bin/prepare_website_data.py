@@ -1308,7 +1308,7 @@ def reformate_people():
 
 def extract_library(out_fp):
     '''
-    Extract library data to CSV
+    Extract library data to a CSV file
 
     :param out_fp: Path to CSV file
     '''
@@ -1317,7 +1317,7 @@ def extract_library(out_fp):
     flat_library = []
     for tag, t_v in library.items():
         for subtag, st_v in t_v.items():
-            for v in st_v:
+            for v in st_v['talks']:
                 v['tag'] = tag
                 v['subtag'] = subtag
                 flat_library.append(v)
@@ -1472,8 +1472,7 @@ if __name__ == '__main__':
     # Reformate people data
     reformatepeople = subparser.add_parser('reformatepeople', help='Reformate people information')
     # Extract library data to CSV
-    extractlibrary = subparser.add_parser('extractlibrary', help='Extract library data to CSV')
-    extractlibrary.add_argument('-o', '--out', help="Path to output file", required=True)
+    extractlibrary = subparser.add_parser('extractlibrary', help='Extract library data to CSV file stored in _data folder')
     # Extract full people data to CSV
     extractfullpeopledata = subparser.add_parser('extractfullpeopledata', help='Extract full people data (location, participation, etc) into CSV files stored in _data folder')
     
@@ -1526,6 +1525,6 @@ if __name__ == '__main__':
     elif args.command == 'reformatepeople':
         reformate_people()
     elif args.command == 'extractlibrary':
-        extract_library(Path(args.out))
+        extract_library(artifact_dp / Path('library.csv'))
     elif args.command == 'extractfullpeopledata':
         extract_full_people_data(artifact_dp)

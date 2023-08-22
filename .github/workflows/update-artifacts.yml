@@ -31,6 +31,11 @@ jobs:
         run: |
           python bin/prepare_website_data.py extractfullpeopledata
 
+      - name: Update library artifacts
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py extractlibrary
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
