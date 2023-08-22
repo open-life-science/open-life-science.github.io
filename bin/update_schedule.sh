@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+ 
 echo "OLS-1"
 python bin/prepare_website_data.py \
     updateschedule \
@@ -49,7 +49,8 @@ python bin/prepare_website_data.py \
     --schedule_url "https://docs.google.com/spreadsheets/d/1jXJH8J4MKee80ODcgWoxpvPkV8ob0tw86Fov8nlXxXw/export?format=csv&gid=1181436982"
 echo
 
-#python bin/prepare_website_data.py \
-#    updateschedule \
-#    --cohort '8' \
-#    --schedule_url "https://docs.google.com/spreadsheets/d/1Tnk-kkHUmPOEfUOEAl627l6JS9SoY5D4gSAPCYoBRSY/export?format=csv&gid=1181436982"
+echo "OLS-8"
+python bin/prepare_website_data.py \
+    updateschedule \
+    --cohort '8' \
+    --schedule_url "https://docs.google.com/spreadsheets/d/1Tnk-kkHUmPOEfUOEAl627l6JS9SoY5D4gSAPCYoBRSY/export?format=csv&gid=2109933309"
