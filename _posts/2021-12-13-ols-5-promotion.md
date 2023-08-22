@@ -35,7 +35,7 @@ With this additional call, we want to offer extra support for folks interested i
 
 A recording from a previous webinar is available on our YouTube channel ([video link](https://youtu.be/rksUzRDFn20)).
 
-Please feel free to contact the OLS team for more information by emailing ([team@openlifesci.org](mailto:team@openlifesci.org)) or connecting on Twitter [@openlifesci](https://twitter.com/openlifesci).
+Please feel free to contact the OLS team for more information by emailing ([{{ site.email }}](mailto:{{ site.email }})) or connecting on Twitter [@openlifesci](https://twitter.com/openlifesci).
 
 ## Help us share about OLS-5 in your network!
 
@@ -87,7 +87,7 @@ Experts have existing experience in a relevant subject area and may be invited t
 
 ### Connect with us for more questions!
     
-Please contact the OLS team ([team@openlifesci.org](mailto:team@openlifesci.org)) for any additional information or to share your ideas for OLS-5.
+Please contact the OLS team ([{{ site.email }}](mailto:{{ site.email }})) for any additional information or to share your ideas for OLS-5.
 
 ### Other ways to connect!
 
