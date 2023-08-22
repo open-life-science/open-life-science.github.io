@@ -43,6 +43,6 @@ During OLS residency Mayya will work with OLS on the marketing and communication
 
 After initial fellowship terms complete, we’re taking a leaf from the Software Sustainability Institute’s “Once a fellow, always a fellow” book. Whilst this initial cohort of Resident Fellows is highly experimental (and we’re grateful to Mayya and Patricia for being kind enough to let us learn about the process with their help), we hope this will only be the start of something exciting and longer term around rewarding our community members, working closely with people we care about, and building capacity in open and compassionate research community building. 
 
-If you’re interested in becoming a fellow in the future, or learning more about Open Life Science’s mentorship program, please consider applying for OLS-7 (if you haven’t joined as a community member in a previous cohort), or contact team@openlifesci.org to discuss your ideas. 
+If you’re interested in becoming a fellow in the future, or learning more about Open Life Science’s mentorship program, please consider applying for OLS-7 (if you haven’t joined as a community member in a previous cohort), or contact [{{ site.email }}](mailto:{{ site.email }}) to discuss your ideas. 
 
-If you’re interested in capacity building in open science and would like to help fund additional Resident Fellows or run a similar fellowship in-house at your organisation, we’re all ears. Contact team@openlifesci.org and we’ll set up a chat! 
+If you’re interested in capacity building in open science and would like to help fund additional Resident Fellows or run a similar fellowship in-house at your organisation, we’re all ears. Contact [{{ site.email }}](mailto:{{ site.email }}) and we’ll set up a chat! 
