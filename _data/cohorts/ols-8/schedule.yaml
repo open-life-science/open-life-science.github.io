@@ -286,13 +286,6 @@ weeks:
       type: Skill-up
       talks: []
       time: "09:00"
-    - date: January 11, 2024
-      duration: 60 min
-      notes: https://bit.ly/ols-8-week-15
-      title: Final presentation rehearsal - Group 3
-      type: Skill-up
-      talks: []
-      time: "17:00"
     - date: January 10, 2024
       duration: 60 min
       notes: https://bit.ly/ols-8-week-15
@@ -300,6 +293,13 @@ weeks:
       type: Skill-up
       talks: []
       time: "14:00"
+    - date: January 11, 2024
+      duration: 60 min
+      notes: https://bit.ly/ols-8-week-15
+      title: Final presentation rehearsal - Group 3
+      type: Skill-up
+      talks: []
+      time: "17:00"
   '16':
     start: January 15, 2024
     calls:
@@ -310,6 +310,13 @@ weeks:
       type: Cohort
       talks: []
       time: "09:00"
+    - date: January 17, 2024
+      duration: 60 min
+      notes: https://bit.ly/ols-8-week-16
+      title: Final presentations & Graduation! - Group 2
+      type: Cohort
+      talks: []
+      time: "14:00"
     - date: January 18, 2024
       duration: 60 min
       notes: https://bit.ly/ols-8-week-16
@@ -319,10 +326,3 @@ weeks:
       type: Cohort
       talks: []
       time: "17:00"
-    - date: January 17, 2024
-      duration: 60 min
-      notes: https://bit.ly/ols-8-week-16
-      title: Final presentations & Graduation! - Group 2
-      type: Cohort
-      talks: []
-      time: "14:00"
