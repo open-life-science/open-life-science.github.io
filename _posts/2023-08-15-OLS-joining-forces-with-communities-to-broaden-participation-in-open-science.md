@@ -11,7 +11,7 @@ authors:
 - estherplomp
 - pazbc
 - anelda
-image: /images/2023-16-08-SouthAfrica-pic-OLS-8-blog-post.jpg
+image: https://images/2023-16-08-SouthAfrica-pic-OLS-8-blog-post.jpg
 photos:
   name: Photo by Anelda Van der Walt
 ---
