@@ -12,19 +12,19 @@ photos:
   license: Public domain
 ---
 
-It's been a long and exciting journey, from applications opening in October 2019, [announcing selected applicants in early January]({% link _posts/2020-01-13-ols1-announcement.md %}), and kicking off [the program's first cohort call on the 29th of January](../openseeds/ols-1/week02.md). Since then we've had an amazing range of guest speakers from around the world, sharing their expertise on topics in [the OLS syllabus](../openseeds/ols-1.md), as well as a variety of breakout and discussion sessions, interspersed with mentor calls every other week. We wrapped up our learning calls with [a cohort call on self care, ally skills, and careers](../openseeds/ols-1/week11.md).
+It's been a long and exciting journey, from applications opening in October 2019, [announcing selected applicants in early January]({% link _posts/2020-01-13-ols1-announcement.md %}), and kicking off [the program's first cohort call on the 29th of January]({% link openseeds/ols-1/week02.md %}). Since then we've had an amazing range of guest speakers from around the world, sharing their expertise on topics in [the OLS syllabus]({% link openseeds/ols-1/index.md %}), as well as a variety of breakout and discussion sessions, interspersed with mentor calls every other week. We wrapped up our learning calls with [a cohort call on self care, ally skills, and careers]({% link openseeds/ols-1/week11.md %}).
 
-While we'd originally planned to have a single final presentations call, with the additional stress and factors of a pandemic, we've added a second date as well. **Please feel free to come along and share with your network**. As a reminder, [here are the twenty projects run by our fabulous twenty-nine project leads](../openseeds/ols-1/projects-participants.md).
+While we'd originally planned to have a single final presentations call, with the additional stress and factors of a pandemic, we've added a second date as well. **Please feel free to come along and share with your network**. As a reminder, [here are the twenty projects run by our fabulous twenty-nine project leads]({% link openseeds/ols-1/projects-participants.md %}).
 
 
 ## It's time to show off what we've learned
 
 We've been learning, applying our new skills and ideas to our projects - and now it's time to share! You're invited to rehearse your final presentations across two dates:
 
-- **Group 1:** [Joining details and notes](../openseeds/ols-1/week14.md) - April 22 7:00 - 8:30 pm CEST ([time zone](https://arewemeetingyet.com/Berlin/2020-04-22/19:00/OLS-1%20Cohort%20Call%20(Week%2014)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com)
-- **Group 2:** [Joining details and notes](../openseeds/ols-1/week17.md) - May 13 7:00 - 8:30 pm CEST ([time zone](https://arewemeetingyet.com/Berlin/2020-05-13/19:00/OLS-1%20Cohort%20Call%20(Week%2017)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=Xzg5MzNjY2E0ODkyazJiYTU4NHBqYWI5azcwbzQ2YjlwNzByajBiOW03MTJqOGMxbTZkMmo0Z2kxNm8gYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com))
+- **Group 1:** [Joining details and notes]({% link openseeds/ols-1/week14.md %}) - April 22 7:00 - 8:30 pm CEST ([time zone](https://arewemeetingyet.com/Berlin/2020-04-22/19:00/OLS-1%20Cohort%20Call%20(Week%2014)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=XzhjcTNhaGhwOG9wa2NiOW84Z29rNGI5azZzcjQyYmExODkwamViOW44bDFqMGNocDhjcjNhYzluODggYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com)
+- **Group 2:** [Joining details and notes]({% link openseeds/ols-1/week17.md %}) - May 13 7:00 - 8:30 pm CEST ([time zone](https://arewemeetingyet.com/Berlin/2020-05-13/19:00/OLS-1%20Cohort%20Call%20(Week%2017)), [Google calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=Xzg5MzNjY2E0ODkyazJiYTU4NHBqYWI5azcwbzQ2YjlwNzByajBiOW03MTJqOGMxbTZkMmo0Z2kxNm8gYWd0cXA1Z2NyNXYycHBnNm5hZmtzMDlxbWNAZw&tmsrc=agtqp5gcr5v2ppg6nafks09qmc%40group.calendar.google.com))
 
-Graduation dates are scheduled a week after the rehearsal dates, on [April 29 for Group 1](../openseeds/ols-1/week15.md) and [May 20 for Group 2](../openseeds/ols-1/week18.md).
+Graduation dates are scheduled a week after the rehearsal dates, on [April 29 for Group 1]({% link openseeds/ols-1/week15.md %}) and [May 20 for Group 2]({% link openseeds/ols-1/week18.md %}).
 
 ### Eek, I'm an OLS-1 participant! What do I do?
 

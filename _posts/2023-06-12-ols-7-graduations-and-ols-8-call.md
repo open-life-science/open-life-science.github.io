@@ -19,7 +19,7 @@ and how you can join as a participant in the next cohort, Open Seeds OLS-8.
 # Open Seeds OLS-7 graduations: you're invited!
 
 Around [50 individuals]({% link _posts/2022-12-01-announcing-applications-for-ols-7.md %}) with 30 projects
-from all around the world participated in OLS-7 ([see our projects and participants](../openseeds/ols-7/projects-participants.md)). 
+from all around the world participated in OLS-7 ([see our projects and participants]({% link openseeds/ols-7/projects-participants.md %})). 
 We have reached the 16th week of the Open Seeds Mentoring and Training Programme.
 Our participants have learnt from the OLS team, their mentors, experts, facilitators, and peers about open research practices, 
 reflected deeply and practised open skills in their own communities and contexts, and grew their ideas and projects. 

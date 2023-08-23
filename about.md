@@ -23,7 +23,7 @@ After the selection process, they will be involved in the following steps of thi
     They will meet every 2nd week on **mentee-mentor calls** (around 30 minutes). Sam will help Joy evaluate their understanding of the new topics introduced in the program, and guide their progress by providing constructive feedback.
     Joy will be given assignments before these calls to help them apply new skills to their project. When needed, Joy and Sam will connect with other [experts](about#experts) to invite consultation on their project.
 
-2. Joy will participate in online [training calls](/openseeds/ols-4#calls) and share insights with other participants in the program.
+2. Joy will participate in online [training calls]({% link openseeds/ols-4/ols-4#calls %}) and share insights with other participants in the program.
 
     In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
 
