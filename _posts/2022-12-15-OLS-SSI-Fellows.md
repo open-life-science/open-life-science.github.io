@@ -48,4 +48,4 @@ Reina plans a case study on [LA-CoNGA physics](https://laconga.redclara.net/en/h
 
 *We can’t wait to welcome Andrea, Melissa and Reina as OLS/SSI Fellows and hope you do the same!*
 
-If you’re interested in capacity building in open science and would like to help fund additional Fellows or run a similar fellowship in-house at your organisation, we’re all ears. Contact [team@openlifesci.org](mailto:team@openlifesci.org) and we’ll set up a chat! 
+If you’re interested in capacity building in open science and would like to help fund additional Fellows or run a similar fellowship in-house at your organisation, we’re all ears. Contact [{{ site.email }}](mailto:{{ site.email }}) and we’ll set up a chat! 
