@@ -83,6 +83,7 @@ MetaDocencia launches its work in [two of the three NASA Transform to Open Scien
 ![The image shows 12 people of different ages, informally dressed, in a natural garden, smiling and happy.](/images/2023-16-08-metadocencia-team-OLS-8-blog-post.jpg) Part of the MetaDocencia team and external collaborators at their first in-person retreat, held in Buenos Aires in 2023. 
 
 ## Making the most of this diverse cohort!
+
 **Through this collaborative effort, we also want to reimagine some aspects of Open Seeds**, so that better opportunities are made available for everyone. We would like all participants to benefit from the diversity of expertise, perspectives and ideas members of this cohort and team will bring, and also engage with one another beyond their local contexts. In view of this goal, we together thought of a couple of activities to implement in OLS-8:
 
 - **Each partnering organisation will host themed sessions**, in which a wide range of topics of shared interest will be discussed (from how to access academic publications to how to use alt-text or structure a CV). Topics will be suggested based on an informal survey with cohort members. 
