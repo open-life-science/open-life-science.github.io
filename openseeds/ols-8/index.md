@@ -343,7 +343,7 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## Speaker Guide
 
-We have [a short guide for invited speakers](../openseeds/ols-8/speaker-guide.md).
+We have [a short guide for invited speakers](speaker-guide.md).
 
 ## Communication channels
 

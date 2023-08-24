@@ -22,9 +22,9 @@ This program is led by the OLS team members, i.e. us - Bérénice Batut,
 Malvika Sharan, Yo Yehudi and Emmy Tsang. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
-We will be running our [8th cohort](../ols-8/projects-participants.md)
+We will be running our [8th cohort](projects-participants.md)
 (Sep 2021 - Jan 2022).
-A complete syllabus of this cohort can be found [here](../ols-8/schedule.md).
+A complete syllabus of this cohort can be found [here](schedule.md).
 
 # About our Code of Conduct
 
@@ -36,7 +36,7 @@ To report an issue involving one of the organisers, please email one of the memb
 
 # About the cohort calls
 
-Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to OLS](../ols-8/schedule.md) is shared and discussed with all participants of the program.
+Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to OLS](schedule.md) is shared and discussed with all participants of the program.
 
 These cohort calls introduce new Open Science related topics that are relevant for our participants to develop their project and bring them to the next stage.
 
@@ -58,7 +58,7 @@ You can check if Zoom works on your system by using this link: [http://zoom.us/t
 
 ## Call notes
 
-The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule](../ols-8/schedule.md)
+The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule](schedule.md)
 
 These notes will be available for all our participants for future reference. You are welcome to contribute to the notes from your session.
 
