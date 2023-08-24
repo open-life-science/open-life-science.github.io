@@ -63,7 +63,7 @@ Project ideas can range from solving technical questions to creating an open d
     {% endfor %}
     {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if participants > 0 %}
-- [{{ projects | size }} projects](/openseeds/{{ cohort_name }}/projects-participants#projects) ([{{ participants }} participants](/openseeds/{{ cohort_name }}/projects-participants#participants)) for [**{{ cohort_name | upcase }}**](/openseeds/{{ cohort_name }}.html) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ projects | size }} projects](/openseeds/{{ cohort_name }}/projects-participants#projects) ([{{ participants }} participants](/openseeds/{{ cohort_name }}/projects-participants#participants)) for [**{{ cohort_name | upcase }}**](/openseeds/{{ cohort_name }}) ({{ cohort_start }} - {{ cohort_end }})
     {% endif %}
 {% endfor %}
 

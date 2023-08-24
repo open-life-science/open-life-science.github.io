@@ -54,7 +54,7 @@ At the end of the program, our participants will be able to:
 
 # Timeline
 
-OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from January 2020 until May 2020 with [{{ p-participants | size }} project leaders](/ols-1/projects-participants#participants) working on [{{ projects | size }} projects](/ols-1/projects-participants#projects).
+OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from January 2020 until May 2020 with [{{ p-participants | size }} project leaders](projects-participants#participants) working on [{{ projects | size }} projects](projects-participants#projects).
 
 {% include _includes/timeline.md %}
 
@@ -68,7 +68,7 @@ OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from Januar
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a mentee can be found [here](/about#mentees)
 
-For the first round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](/ols-1/projects-participants#participants) with [{{ projects | size }} projects](/ols-1/projects-participants#projects).
+For the first round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants](projects-participants#participants) with [{{ projects | size }} projects](projects-participants#projects).
 
 ## Mentors
 
