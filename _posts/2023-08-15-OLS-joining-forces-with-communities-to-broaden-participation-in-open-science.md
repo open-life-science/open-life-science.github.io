@@ -36,7 +36,9 @@ Leads and members from the partnering organisations and communities have worked 
 Open Seeds Programme Coordinator, Paz Bernaldo, the OLS Directors and team members will contribute to ensure that OLS-8 is delivered as planned. Likewise, OLS's existing collaborations, with TU Delft, [The Turing Way](https://the-turing-way.netlify.app/index.html), [ELIXIR](https://elixir-europe.org/) and [EOSC-Life](https://www.eosc-life.eu/), have been instrumental and will continue to be so in OLS-8. As an example, the [Faculty of Applied Sciences at TU Delft](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty), thanks to its Data Steward, Esther Plomp, has collaborated with Open Seeds since OLS-4 (2021), ensuring that participating PhD candidates [are eligible for 5 Discipline-related credits for their Doctoral Education Programme](https://estherplomp.github.io/TNW-OS-support/posts/open-science-OLS/).
 
 **Below we share the goals and visions behind these new partnerships and explain what they mean for the OLS-8 cohort.**
+
 ## Africa-OLS
+
 ### BHKi
 
 _Introducing open science to learners early in their education, deepening their understanding and retaining them in science through international mentorship - Mike Landi and Laurah Nyasita, Co-leads of BHKi team_
