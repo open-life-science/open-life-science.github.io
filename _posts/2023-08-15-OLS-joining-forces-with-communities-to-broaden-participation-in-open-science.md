@@ -93,6 +93,6 @@ Although not mandatory for graduating, we will encourage our cohort participants
 
 We are excited to welcome our new cohort members together with our partnering organisations and kick off the Open Seeds OLS-8 in September. 
 
-Do you have feedback for us? Please email team@we-are-ols.org, or connect with Paz on Slack if you are an OLS member.
+Do you have feedback for us? Please email [{{ site.email }}](mailto:{{ site.email }}), or connect with Paz on Slack if you are an OLS member.
 
 **Funding acknowledgement:** This cohort is funded by the Wellcome Trust Open Research Fund and the CZI grant awarded to OLS in 2022.
