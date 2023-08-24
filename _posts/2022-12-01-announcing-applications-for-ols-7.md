@@ -16,7 +16,7 @@ OLS-6 is approaching the penultimate week of their OLS journeys! Read on to find
 
 # OLS-6 graduations: you're invited!
 
-Over 25 individuals and teams from all around the world took part in OLS-6 ([see our projects and participants]({% link openseeds/ols-6/projects-participants.md %})). In the 16 weeks, they have learnt from mentors, experts, facilitators, and peers about open research practices, reflected deeply on practising open in their own communities and contexts, and grew their ideas and projects. We have really enjoyed witnessing the growth of their projects and networks and are immensely proud of their own personal growth as leaders and ambassadors of open research.
+Over 25 individuals and teams from all around the world took part in OLS-6 ([see our projects and participants](../openseeds/ols-6/projects-participants.md)). In the 16 weeks, they have learnt from mentors, experts, facilitators, and peers about open research practices, reflected deeply on practising open in their own communities and contexts, and grew their ideas and projects. We have really enjoyed witnessing the growth of their projects and networks and are immensely proud of their own personal growth as leaders and ambassadors of open research.
 
 In their graduation sessions, they will present and share their work with the wider community. We sincerely invite everyone to join, to learn more about project leads' journeys, celebrate their work, ask questions, and explore new ideas and collaborations!
 

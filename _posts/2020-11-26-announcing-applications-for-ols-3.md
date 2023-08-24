@@ -15,7 +15,7 @@ It's hard to believe, but OLS-2 is in its final stage right now, which means tha
 
 ## Graduations - you're all invited!
 
-Our amazing project leads for OLS-2 came from six different continents around the world and have been working on projects covering open reproducible data science, open hardware, open synthetic biology, usability, ethics, local open science communities, conference, and [many more incredible things]({% link openseeds/ols-2/projects-participants.md %}). We've been lucky enough to work with them as mentors, expert speakers, and call hosts for nearly four months - and now it's time to shed a tear of pride as graduations approach.
+Our amazing project leads for OLS-2 came from six different continents around the world and have been working on projects covering open reproducible data science, open hardware, open synthetic biology, usability, ethics, local open science communities, conference, and [many more incredible things](../openseeds/ols-2/projects-participants.md). We've been lucky enough to work with them as mentors, expert speakers, and call hosts for nearly four months - and now it's time to shed a tear of pride as graduations approach.
 
 We invite you to come and watch the [live-streamed calls on YouTube]({{site.youtube}}) - they'll be spread across three different hour-long sessions, and available on YouTube after the event if you can't attend in real time. All calls will have real-time captions using Otter.ai.
 
