@@ -19,7 +19,7 @@ This is a double announcement of two exciting (and linked) items:
 ![A black and white logo of FORRT. The image comprises of a black fort/castle, with the word "FORRT" written in black letters next to it.](/images/2023-08-23-FORRT-logo.svg)
 
 ## Why FORRT?
-The two parts of this story are directly linked. FORRT is a key player in **Open Scholarship**, with over 900 community members, an open science glossary, publications that explore open science and meta-science topics such as replications, curricular reform, and different ways to be inclusive to neurodiverse populations, but also an enormous people-powered array of educational resources democratizing access to learning opportunities and engagement in open scholarship. Explore their [website](www.forrt.org) to see many of the amazing things they've been working on.
+The two parts of this story are directly linked. FORRT is a key player in **Open Scholarship**, with over 900 community members, an open science glossary, publications that explore open science and meta-science topics such as replications, curricular reform, and different ways to be inclusive to neurodiverse populations, but also an enormous people-powered array of educational resources democratizing access to learning opportunities and engagement in open scholarship. Explore their [website](https://forrt.org/) to see many of the amazing things they've been working on.
 
 Like OLS was a few years ago, however, FORRT - despite being a critical open infrastructure - is essentially unfunded. Their glossaries have been referred to in open science training from NASA, surveys from the UK reproducibility network, and so many other locations - and yet like many other volunteer led organisations, it depended on the time and goodwill of a few people who were already overburdened. 
 
@@ -31,7 +31,7 @@ Shortly after this, we were lucky enough to spot an opportunity that fit us well
 
 ## Flavio
 
-[Flavio](https://github.com/flavioazevedo) is a Brazilian assistant professor of Social Psychology at the University of Groningen. He is a recognized international leader in the field and has received prestigious awards such as the UKRN OS Dorothy Bishop Prize, Hidden-REF, and JISC. Flavio co-founded and directs **FORRT—A Framework for Open and Reproducible Research Training** (forrt.org)—an award-winning, interdisciplinary, and international community aiming to integrate open scholarship principles into higher education and to advance research transparency, reproducibility, rigor, and ethics through pedagogical reform and metascience.
+[Flavio](https://github.com/flavioazevedo) is a Brazilian assistant professor of Social Psychology at the University of Groningen. He is a recognized international leader in the field and has received prestigious awards such as the UKRN OS Dorothy Bishop Prize, Hidden-REF, and JISC. Flavio co-founded and directs **FORRT—A Framework for Open and Reproducible Research Training**—an award-winning, interdisciplinary, and international community aiming to integrate open scholarship principles into higher education and to advance research transparency, reproducibility, rigor, and ethics through pedagogical reform and metascience.
 
 ## Bethan 
 
