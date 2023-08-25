@@ -11,6 +11,7 @@ authors:
 - estherplomp
 - pazbc
 - anelda
+- aliaslaurel
 image: /images/2023-16-08-SouthAfrica-pic-OLS-8-blog-post.jpg
 photos:
   name: Photo by Anelda Van der Walt
@@ -19,7 +20,6 @@ photos:
 
 _OLS is happy to announce our collaboration with multiple international organisations and communities to deliver the Open Seeds OLS-8 programme_ 
 
-**Authors:** Laurah Nyasita Ondari, Laura Acion, Nicolás Palopoli, Malvika Sharan, Andela Van de Valt, Lena Karvovskaya, Laura Ascenzi, Esther Plomp, Mike Landi Kofia and Paz Bernaldo.
 
 [OLS](https://openlifesci.org/) is **joining forces** with the [Bioinformatics Hub of Kenya initiative (BHKi)](https://bhki.org/), the South African Center for Digital Language Resources [(SADiLaR)](https://sadilar.org/index.php/en/) via the [ESCALATOR programme](https://escalator.sadilar.org/), [VU Amsterdam](https://vu.nl/en) and [MetaDocencia](https://www.metadocencia.org/), **to bring together the newest [Open Seeds cohort](https://openlifesci.org/posts/2023/04/18/Introducing-the-new-OLS/), OLS-8**. Our goal is to connect community members from our respective regions in the international open science network, as well as strengthen their role as ambassadors for open science through local activities. 
 
