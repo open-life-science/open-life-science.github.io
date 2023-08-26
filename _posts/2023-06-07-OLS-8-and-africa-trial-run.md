@@ -26,7 +26,7 @@ up to four in-person mentorship sessions for a maximum of three selected partici
 A maximum of **3 projects from Kenya** and **3 from South Africa** will be admitted into the trial run. If more projects from these 
 countries apply and get selected for Open Seeds, a second selection process for the trial run will take place. 
 
-The goal, learning objectives, timelines, and schedules can be found on OLS's [website](../openseeds/ols-8.md). 
+The goal, learning objectives, timelines, and schedules can be found on OLS's [website]({% link openseeds/ols-8/index.md %}). 
 
 For applicants in **Kenya**, it is essential to note that to be considered for the in-person mentorship support, projects must be related to 
 **bioinformatics as well as open science**. Open Seeds will collaborate with the 

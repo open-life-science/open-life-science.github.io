@@ -41,7 +41,7 @@
 <!-- parse project participants, mentors and their countries -->
 {% for project in projects %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
+        {% capture all-participants %}{{ all-participants }}, [{{ people[p].first-name }} {{ people[p].last-name }}](/openseeds/{{ cohort }}/projects-participants#{{ p }}){% endcapture %}
         {% assign p_country = people[p].country | strip %}
         {% if p_country != '' %}
         {% capture all-p-countries %}{{ all-p-countries }}, {{ p_country }}{% endcapture %}
@@ -49,7 +49,7 @@
     {% endfor %}
 
     {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/{{ cohort }}#{{ m }}){% endcapture %}
+        {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/openseeds/{{ cohort }}#{{ m }}){% endcapture %}
         {% assign m_country = people[m].country | strip %}
         {% if m_country != '' %}
         {% capture all-m-countries %}{{ all-m-countries }}, {{ m_country }}{% endcapture %}

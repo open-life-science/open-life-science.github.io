@@ -35,7 +35,7 @@ _My formal academic background is in humanities and social sciences, so no surpr
 
 Paz has been working with us over the past month first, by
 1. **leading** OLS's **collaboration with The Alan Turing Institute** to repackage and make **OLS's training materials available for on-demand training** ([proposal](https://zenodo.org/record/6974060)), and
-2. playing a crucial role in driving the **organisation and coordination of [OLS-6](../openseeds/ols-6.md)**.
+2. playing a crucial role in driving the **organisation and coordination of [OLS-6]({% link openseeds/ols-6/index.md %})**.
 
 In the **next 2 years**, Paz will continue to be a **key coordinator of OLS cohorts**. In addition, she will also be **leading research** to
 - **assess** the **long-term impact** of hands-on training and **contextual mentoring** (using OLS as a case study) and
