@@ -177,17 +177,6 @@ weeks:
     start: November 06, 2023
     calls:
     - date: November 08, 2023
-      duration: 90 min
-      notes: https://bit.ly/ols-8-week-08
-      title: Community Management
-      hosts:
-      - malvikasharan
-      type: Cohort
-      talks:
-      - tag: Community Design for Inclusivity
-      - tag: Personas & Pathways
-      time: "17:00"
-    - date: November 08, 2023
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-8-week-08
@@ -286,15 +275,6 @@ weeks:
   '14':
     start: December 18, 2023
     calls:
-    - date: December 19, 2023
-      duration: 90 min
-      notes: https://bit.ly/ols-8-week-14
-      title: Community Management
-      hosts:
-      - malvikasharan
-      type: Cohort
-      talks: []
-      time: "10:00"
     - date: December 19, 2023
       time: "10:00"
       duration: 90 min
