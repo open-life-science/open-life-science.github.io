@@ -105,7 +105,7 @@ weeks:
       type: Cohort
       talks:
       - tag: OLS Introduction
-      - tag: OLS Introduction
+      - tag: Open Canvas
       - tag: Project Roadmapping
       time: "16:00"
   '04':
@@ -122,6 +122,8 @@ weeks:
       - tag: Open Licensing
       - tag: Code of Conduct
       time: "16:00"
+      hosts:
+      - yochannah
   '05':
     start: October 16, 2023
     calls:
@@ -154,6 +156,7 @@ weeks:
       - tag: Open Science Infrastructures
       - tag: Open Engagement of Social Actors
       time: "09:00"
+      hosts: []
   '07':
     start: October 30, 2023
     calls:
@@ -168,20 +171,22 @@ weeks:
       title: Q&A call
       type: Q&A
       talks: []
+      hosts:
+      - yochannah
   '08':
     start: November 06, 2023
     calls:
     - date: November 08, 2023
+      time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-8-week-08
-      title: Community Management
+      title: Community Management Café I
       hosts:
       - malvikasharan
       type: Cohort
       talks:
       - tag: Community Design for Inclusivity
       - tag: Personas & Pathways
-      time: "17:00"
   '09':
     start: November 13, 2023
     calls:
@@ -199,6 +204,7 @@ weeks:
       - tag: Open Leadership in Practice
       - tag: Open Leadership in Practice
       time: "10:00"
+      hosts: []
   '10':
     start: November 20, 2023
     calls:
@@ -212,6 +218,7 @@ weeks:
       - tag: Open Source Software
       - tag: Openness to Diversity of Knowledge
       time: "10:00"
+      hosts: []
   '11':
     start: November 27, 2023
     calls:
@@ -229,6 +236,8 @@ weeks:
       - tag: Package Management
       - tag: Good Coding Practices
       time: "17:00"
+      hosts:
+      - yochannah
   '12':
     start: December 04, 2023
     calls:
@@ -243,6 +252,7 @@ weeks:
       - malvikasharan
       talks:
       - tag: Open Data
+      - tag: Open Educational Resources
       - tag: Open Access Publication
   '13':
     start: December 11, 2023
@@ -260,18 +270,20 @@ weeks:
       - title: Personal Ecology and Self Care
         tag: Personal Ecology
       time: "10:00"
+      hosts:
+      - yochannah
   '14':
     start: December 18, 2023
     calls:
     - date: December 19, 2023
+      time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-8-week-14
-      title: Community Management
+      title: Community Management Café II
       hosts:
       - malvikasharan
       type: Cohort
       talks: []
-      time: "10:00"
   '15':
     start: January 08, 2024
     calls:
@@ -286,6 +298,8 @@ weeks:
       type: Skill-up
       talks: []
       time: "09:00"
+      hosts:
+      - yochannah
     - date: January 10, 2024
       duration: 60 min
       notes: https://bit.ly/ols-8-week-15
@@ -293,6 +307,8 @@ weeks:
       type: Skill-up
       talks: []
       time: "14:00"
+      hosts:
+      - yochannah
     - date: January 11, 2024
       duration: 60 min
       notes: https://bit.ly/ols-8-week-15
@@ -300,6 +316,8 @@ weeks:
       type: Skill-up
       talks: []
       time: "17:00"
+      hosts:
+      - yochannah
   '16':
     start: January 15, 2024
     calls:
@@ -310,6 +328,8 @@ weeks:
       type: Cohort
       talks: []
       time: "09:00"
+      hosts:
+      - yochannah
     - date: January 17, 2024
       duration: 60 min
       notes: https://bit.ly/ols-8-week-16
@@ -317,6 +337,8 @@ weeks:
       type: Cohort
       talks: []
       time: "14:00"
+      hosts:
+      - yochannah
     - date: January 18, 2024
       duration: 60 min
       notes: https://bit.ly/ols-8-week-16
