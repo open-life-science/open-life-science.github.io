@@ -103,4 +103,4 @@ We are excited to welcome our new cohort members together with our partnering or
 
 Do you have feedback for us? Please email [{{ site.email }}](mailto:{{ site.email }}), or connect with Paz on Slack if you are an OLS member.
 
-**Funding acknowledgement:** This cohort is funded by the Wellcome Trust Open Research Fund and the CZI grant awarded to OLS in 2022.
+**Funding acknowledgement:** This cohort is funded by the Wellcome Trust Open Research Fund and the CZI grant awarded to OLS in 2022. NASA Grants 80NSSC23K0854 and 80NSSC23K0857 fund MetaDocencia's work in this project.
