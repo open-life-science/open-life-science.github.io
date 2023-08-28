@@ -45,7 +45,7 @@ We invite new contributions to the program as a [new issue on the GitHub repo]({
 
 Once again, let's welcome our mentors, mentees and experts to this program!
 
-## Project details ([click here for full description](/openseeds/{{ cohort }}/projects-participants.md/))
+## Project details ([click here for full description](/openseeds/{{ cohort }}/projects-participants))
 
 | Project | Project leaders | Mentors |
 |----------|-----------------------|------------|

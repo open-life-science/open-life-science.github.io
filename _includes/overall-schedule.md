@@ -1,9 +1,9 @@
 During the program,
 
-- Mentors and mentees meet every 2 weeks [for a 30 minutes call](/{{ cohort }}#mentor-mentee-calls)
-- Mentees participate every ~2 weeks to [90-minutes cohort calls](/{{ cohort }}#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite expert from the field to give talks
+- Mentors and mentees meet every 2 weeks [for a 30 minutes call](/openseeds/{{ cohort }}#mentor-mentee-calls)
+- Mentees participate every ~2 weeks to [90-minutes cohort calls](/openseeds/{{ cohort }}#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite expert from the field to give talks
 - Mentees can participate to skill-up, Q&A or coworking session in the weeks without cohort calls
-- Mentors take part to [mentoring workshop and calls](/{{ cohort }}#mentor-calls)
+- Mentors take part to [mentoring workshop and calls](/openseeds/{{ cohort }}#mentor-calls)
 
 ![OLS schedule overview. In the middle, the timeline represents the 16 weeks. On the top, boxes in green represent the 8 different cohort calls pointing to the corresponding weeks (even week numbers). Below the week timeline, blue boxes represent the mentor-mentee meetings pointing to the uneven number weeks. Below the blue boxes, are red boxes corresponding to 3 skill-up calls: "GitHub tutorial for beginners" (week 5), "Open Leadership: Academia, industry, and beyond" (week 9), "Self-care & social call" (week 1s)](/images/schedule.png){: .schedule-overview}
 

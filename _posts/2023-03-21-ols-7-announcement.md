@@ -38,7 +38,7 @@ We are extremely grateful to them for their support and contributions to OLS and
 
 ### The Program
 
-We begin our program this week with a mentoring training call and mentor-mentee introductions. Check out the complete schedule and plans for OLS-7 here: [{{ site.url }}/openseeds/{{ cohort }}](/{{ cohort }}).
+We begin our program this week with a mentoring training call and mentor-mentee introductions. Check out the complete schedule and plans for OLS-7 here: [{{ site.url }}/{{ cohort }}](/openseeds/{{ cohort }}).
 
 You can keep track of our program, the progress of our second cohort and future announcements by following our twitter profile [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}) or subscribe to [our announcements list]({{ site.announcement_list }}).
 
@@ -46,7 +46,7 @@ We invite new contributions to the program as a [new issue on the GitHub repo]({
 
 Once again, let's welcome our mentors, mentees and experts to this program!
 
-## Project details ([click here for full description](/{{ cohort }}/projects-participants/))
+## Project details ([click here for full description](/{{ cohort }}/projects-participants))
 
 | Project | Project leaders | Mentors |
 |----------|-----------------------|------------|

@@ -66,7 +66,7 @@ At the end of the program, our participants will be able to:
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-For the seventh round of the OLS program, we welcome [{{ p-participants | size }} participants](/ols-7/projects-participants#participants) with [{{ projects | size }} projects](/ols-7/projects-participants#projects).
+For the seventh round of the OLS program, we welcome [{{ p-participants | size }} participants](projects-participants#participants) with [{{ projects | size }} projects](projects-participants#projects).
 
 ## Mentors
 

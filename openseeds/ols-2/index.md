@@ -68,7 +68,7 @@ OLS's second cohort (OLS-2) will be conducted from September 2020 until December
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
 
-For the second round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](/ols-2/projects-participants#participants) with [{{ projects | size }} projects](/ols-2/projects-participants#projects).
+For the second round of the Open Life Science program, we welcome [{{ p-participants | size }} participants](projects-participants#participants) with [{{ projects | size }} projects](projects-participants#projects).
 
 ## Mentors
 

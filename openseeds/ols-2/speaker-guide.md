@@ -23,10 +23,10 @@ Malvika Sharan and Yo Yehudi. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
 We are currently running our [second cohort with 33
-projects](../ols-2/projects-participants.md)
+projects](projects-participants.md)
 (September-December 2020) that consist of around 50 participants ([see this
 post]({% link _posts/2020-09-01-ols2-announcement.md %})).
-A complete syllabus of this cohort can be found [here](../ols-2/schedule.md).
+A complete syllabus of this cohort can be found [here](schedule.md).
 
 # About our Code of Conduct
 
@@ -38,7 +38,7 @@ To report an issue involving one of the organisers, please email one of the memb
 
 # About the cohort calls
 
-Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to OLS](../ols-2/schedule.md) is shared and discussed with all participants of the program.
+Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to OLS](schedule.md) is shared and discussed with all participants of the program.
 
 These cohort calls introduce new Open Science related topics that are relevant for our participants to develop their project and bring them to the next stage.
 
