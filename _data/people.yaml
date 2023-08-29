@@ -1164,6 +1164,7 @@ bethaniley:
   last-name: Iley
   pronouns: she/her
   twitter: bethaniley
+  title: Resident Fellow
 bgruening:
   bio: Björn is working in the European Galaxy team and tries to help make science
     open wherever he can. He is an expert in the topics related to Container, Conda,
@@ -1415,6 +1416,10 @@ camila-gómez:
   first-name: Camila
   last-name: Gómez
   orcid: 0000-0001-7642-6049
+camille-gonz-va:
+  first-name: Camille
+  last-name: Gonzalez
+  title: Executive assistant (contract)
 carmel-carne:
   first-name: Carmel
   last-name: Carne
@@ -2520,6 +2525,11 @@ federico-cestares:
   orcid: 0000-0002-7443-3314
   pronouns: He- él
   twitter: fecestares
+flavioazevedo:
+  country: United Kingdom
+  first-name: Flavio
+  last-name: Azevedo
+  title: Resident Fellow (contract)
 fnyasimi:
   affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
   bio: Festus is a researcher in bioinformatics and data science. His main interestes
@@ -3034,6 +3044,7 @@ iramosp:
   last-name: Ramos
   orcid: 0000-0003-3315-2281
   pronouns: she / her
+  title: NASA Cohort Coordinator (contract)
 iratxepuebla:
   affiliation: Asapbio
   bio: |-
