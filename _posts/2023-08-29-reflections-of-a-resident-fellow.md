@@ -1,26 +1,28 @@
 ---
 layout: post
-title: "Reflections of a resident fellow"
+title: Reflections of a resident fellow
 authors:
 - pherterich
-image: images/DSC_9454.jpg
+image: /images/DSC_9454.jpg
+photos:
+  name: Photo by Software Sustainability Institute
 ---
 
 In October 2022, I was one of the lucky people invited to explore a Resident Fellowship with OLS. In the announcement blog, I claimed that I wanted to achieve the following with my Fellowship:
 
 *“Patricia will work on a new module on open source software and growing the OLS fellows community. She also plans to explore consultancy services and is always up for well-facilitated and interesting virtual events.”*
 
-So 10 months later, how did it go? What have I achieved and learned? This blog summarises my Resident Fellow journey.
+So 10 months later, how did it go? What have I achieved and learned? This blog summarises my **Resident Fellow journey**.
 
 ### Achievements
 
 * We piloted the first Open Source Software skill-up session in OLS-6. I created the session draft based on the feedback the OLS community had provided and sourced speakers. As this session is now a fixture in the Open Seeds cohort schedule, I think this was a success.
 * I did the final reporting for OLS’s very first grant!
 * I ran part of the mentor onboarding for OLS-7 and a mentor training session for the Alan Turing Institute’s [“Data science and AI educators' programme”](https://www.turing.ac.uk/data-science-and-ai-educators-programme).
-* I supported the recruitment for the Programme Manager position for a [new funded project](https://deploy-preview-611--ols-bebatut.netlify.app/posts/2022/12/20/ecb-grant-announcement/).
-* I also worked on some submissions to introduce OLS at conferences and events, with the submission to [Collaborations Workshop](https://openlifesci.org/posts/2023/06/28/OLS-at-CollabW23/) being successful.
+* I supported the recruitment for the Programme Manager position for a [new funded project]({% link _posts/2022-12-20-ECB-grant-announcement.md %}).
+* I also worked on some submissions to introduce OLS at conferences and events, with the submission to [Collaborations Workshop]({% link _posts/2023-06-28-OLS-at-CollabW23.md %}) being successful.
 * Together with Mayya, we worked on some ideas around wellbeing. We co-hosted a [The Turing Way fireside chat on community care and burnout](https://www.youtube.com/watch?v=IfNn4WgBUCQ) and I’m really proud of the conversation!
-* We do have [OLS/SSI Fellows](https://openlifesci.org/posts/2022/12/15/OLS-SSI-Fellows/)! I loved selecting them (what a great bunch and awesome ideas) and hope we have put processes in place so they feel supported by the OLS team.
+* We do have [OLS/SSI Fellows]({% link _posts/2022-12-15-OLS-SSI-Fellows.md %})! I loved selecting them (what a great bunch and awesome ideas) and hope we have put processes in place so they feel supported by the OLS team.
 
 
 ### Personal development
