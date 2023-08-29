@@ -50,17 +50,16 @@
       </div>
     </div>
 
-    {% if ols-roles and ols-roles != '' or user.title %}
+    {% if user.title or ols-roles and ols-roles != '' %}
     <p class="people-description">
       Role in OLS:
       {% if user.title %}
         {{ user.title }}
-      {% endif %}
       <br>
+      {% endif %}
       {% if ols-roles and ols-roles != '' %}
         {{ ols-roles }}
       {% endif %}
-      </p>
     </p>
     {% endif %}
 
