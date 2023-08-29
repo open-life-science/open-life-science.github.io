@@ -16,7 +16,7 @@ photos:
 
 {% include _includes/announcement-blog-metadata.html cohort='ols-3' %}
 
-We are thrilled to announce that [{{ p-participants | size }} members](/openseeds/{{ cohort }}/projects-participants/#participants), who are the project leads of [{{ projects | size }} diverse projects](/openseeds/{{ cohort }}/projects-participants/#projects), have joined the third cohort of the Open Life Science mentoring program - OLS-3!
+We are thrilled to announce that [{{ p-participants | size }} members]({% link openseeds/ols-3/projects-participants.md %}#participants), who are the project leads of [{{ projects | size }} diverse projects]({% link openseeds/ols-3/projects-participants.md %}#projects), have joined the third cohort of the Open Life Science mentoring program - OLS-3!
 
 ### Meet our mentees!
 
@@ -44,7 +44,7 @@ We invite new contributions to the program as a [new issue on the GitHub repo]({
 
 Once again, let's welcome our mentors, mentees and experts to this program!
 
-## Project details ([click here for full description](/openseeds/{{ cohort }}/projects-participants))
+## Project details ([click here for full description]({% link openseeds/ols-3/projects-participants.md %}#projects))
 
 | Project | Project leaders | Mentors |
 |----------|-----------------------|------------|
