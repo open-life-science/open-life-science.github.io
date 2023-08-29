@@ -1,12 +1,15 @@
 ---
 team:
-  directors:
-    - bebatut
-    - emmyft
-    - malvikasharan
-    - yochannah
-  staff:
-    - pazbc
+  - bebatut
+  - emmyft
+  - malvikasharan
+  - yochannah
+  - pazbc
+  - tajuddeen1
+  - pherterich
+  - msundukova
+  - npdebs
+  - jilaga
 advisors: []
 trainers:
   ols: []
