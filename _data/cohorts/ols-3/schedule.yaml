@@ -27,7 +27,7 @@ timeline:
     Open office hour (<i class="fas fa-question"></i> Q&A)
   notes: https://tinyurl.com/ols-3-webinar
 - date: January 18, 2021
-  description: For the **[EOSC-Life](/ols-3#ols-3-for-eosc-life) collaborating organisation**,
+  description: For the **[EOSC-Life](/openseeds/ols-3#ols-3-for-eosc-life) collaborating organisation**,
     Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
 - date: January 26, 2021
   description: Successful applicants announced
@@ -72,7 +72,7 @@ weeks:
             - How meeting your cultural goals for your community, organization, or project will help solve the problem.
 
         - Add your vision statement to your GitHub issue
-        - Check the [Syllabus](/ols-3) for notes and connection info for all the cohort calls
+        - Check the [Syllabus](/openseeds/ols-3) for notes and connection info for all the cohort calls
     - type: Mentor
       duration: 60 min
       title: Mentor training

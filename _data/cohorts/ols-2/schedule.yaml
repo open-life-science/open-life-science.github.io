@@ -24,7 +24,7 @@ timeline:
     for main cohort applications
 - date: July 15, 2020
   description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
-    for the collaborating organisations - [_The Turing Way_](/ols-2#collaborators)
+    for the collaborating organisations - [_The Turing Way_](/openseeds/ols-2#collaborators)
 - date: July 24, 2020
   description: Call for applications closed
 - date: July 24, 2020
@@ -70,7 +70,7 @@ weeks:
             - How meeting your cultural goals for your community, organization, or project will help solve the problem.
 
         - Add your vision statement to your GitHub issue
-        - Check the [Syllabus](/ols-2) for notes and connection info for all the cohort calls
+        - Check the [Syllabus](/openseeds/ols-2) for notes and connection info for all the cohort calls
     - type: Mentor
       duration: 60 min
       title: Mentor training
