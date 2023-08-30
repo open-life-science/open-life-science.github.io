@@ -30,7 +30,7 @@ Our project leads (aka mentees) have been paired with 1 or 2 mentors based on th
 
 Additionally, we have an incredible experts' community who will be delivering specialised talks during the cohort calls and will be available for our project leads for expert consultations upon request.
 
-We welcome our {{ p-mentors | size }} mentors, {{ p-mentors | join: ', ' }}, based in {{ m-countries | size }} countries ({{ m-countries | join: ', ' }}). {{ prev-part-count }} of them were participants and {{ prev-mentor-count }} mentors in the [previous cohort (OLS-1)]({% link openseeds/ols-1/index.md %}). They will be supported by [{{ experts | size }} experts](/{{ cohort }}#experts).
+We welcome our {{ p-mentors | size }} mentors, {{ p-mentors | join: ', ' }}, based in {{ m-countries | size }} countries ({{ m-countries | join: ', ' }}). {{ prev-part-count }} of them were participants and {{ prev-mentor-count }} mentors in the [previous cohort (OLS-1)]({% link openseeds/ols-1/index.md %}). They will be supported by [{{ experts | size }} experts](/openseeds/{{ cohort }}#experts).
 
 We are extremely grateful to them for their support and contributions to OLS and their impactful work in other open communities. They are committed to supporting their mentees in this program to help create a more open and fair-research, knowledge-sharing and inclusive culture within life science and beyond.
 
