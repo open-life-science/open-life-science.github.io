@@ -60,7 +60,7 @@ You can check if Zoom works on your system by using this link: [http://zoom.us/t
 
 ## Call notes
 
-The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule](../ols-2/schedule.md)
+The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule](schedule.md)
 
 These notes will be available for all our participants for future reference. You are welcome to contribute to the notes from your session.
 
