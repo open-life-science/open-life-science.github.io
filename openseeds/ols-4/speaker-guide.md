@@ -6,7 +6,6 @@ photos:
   name: Visuals on Unsplash
   license: CC-0
   url: https://unsplash.com/photos/Y4qzW3AsvqI
-redirect_from: /ols-speaker-guide
 ---
 
 

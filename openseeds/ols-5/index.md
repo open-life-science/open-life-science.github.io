@@ -2,11 +2,11 @@
 layout: page
 title: Welcome to the 5th cohort of OLS program!
 image: /images/syllabus.jpg
-redirect_from: /OLS-5
 photos:
   name: Niklas Morberg
   license: CC BY-NC 2.0
   url: https://flic.kr/p/5BXB6s
+redirect_from: /OLS-5
 ---
 
 {% include _includes/cohort-metadata.html cohort='ols-5' %}

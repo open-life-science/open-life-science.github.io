@@ -6,6 +6,7 @@ photos:
   name: Eric Rothermel
   license: CC BY
   url: https://unsplash.com/photos/FoKO4DpXamQ
+redirect_from: /ols-3/schedule
 ---
 
 {% assign cohort = 'ols-3' %}

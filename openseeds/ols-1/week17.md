@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Week 17
+redirect_from: /OLS-1/schedule/#week-17
 ---
 <!-- Any modification of the content should be done in the _data/ols-1-schedule.yaml file -->
 {% assign week-nb='17' %}
