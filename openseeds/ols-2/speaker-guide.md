@@ -22,8 +22,7 @@ This program is led by the OLS team members, i.e. us - Bérénice Batut,
 Malvika Sharan and Yo Yehudi. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
-We are currently running our [second cohort with 33
-projects](projects-participants.md)
+We are currently running our [second cohort with 33 projects](projects-participants.md)
 (September-December 2020) that consist of around 50 participants ([see this
 post]({% link _posts/2020-09-01-ols2-announcement.md %})).
 A complete syllabus of this cohort can be found [here](schedule.md).

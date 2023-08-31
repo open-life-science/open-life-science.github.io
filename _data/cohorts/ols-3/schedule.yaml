@@ -23,7 +23,7 @@ timeline:
 - date: January 11, 2021
   description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
 - date: January 13, 2021
-  description: For the **[EOSC-Life](/ols-3#ols-3-for-eosc-life) collaborating organisation**,
+  description: For the **[EOSC-Life](/openseeds/ols-3#ols-3-for-eosc-life) collaborating organisation**,
     Open office hour (<i class="fas fa-question"></i> Q&A)
   notes: https://tinyurl.com/ols-3-webinar
 - date: January 18, 2021
@@ -376,7 +376,7 @@ weeks:
       after: |
         - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
 
-          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/openseeds/ols-1/schedule#week-05)
+          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/openseeds/ols-1/schedule#week-05).
 
         - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
 
