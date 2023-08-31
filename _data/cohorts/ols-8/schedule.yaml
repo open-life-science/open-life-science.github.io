@@ -10,15 +10,16 @@ timeline:
   type:
   - Talk
   - Q&A
-  notes: null
-  recording: null
-  details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+  notes:
+  recording:
+  details: Watch recordings from previous webinars on 
+    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
 - date: June 28, 2023
   time: '17:00'
   description: Application Clinic Call
   type:
   - Q&A
-  notes: null
+  notes:
   details: At this call, OLS team will be available to provide help if you have any
     question related to your application
 - date: July 11, midnight, UTC, 2023
@@ -26,6 +27,30 @@ timeline:
 - date: August 1, 2023
   description: Successful applicants announced
 weeks:
+  '00':
+    start: ''
+    calls:
+    - date: September 13, 2023
+      duration: 60 min
+      title: Mentor onboarding group 1
+      hosts:
+      - pazbc
+      type: Mentor
+      talks: []
+    - date: September 14, 2023
+      duration: 60 min
+      title: Mentor onboarding group 2
+      hosts:
+      - pazbc
+      type: Mentor
+      talks: []
+    - date: September 15, 2023
+      duration: 60 min
+      title: Mentor onboarding group 3
+      hosts:
+      - malvikasharan
+      type: Mentor
+      talks: []
   '01':
     start: September 18, 2023
     calls:
@@ -36,153 +61,91 @@ weeks:
         - Discuss their personal motivation, expectations, workin practices and project goals
       title: 1st mentor-mentee meeting
       type: Mentor-Mentee
-    - time: '14:00'
-      duration: 60 min
-      content: |-
-        In this call, participants will:
-        - Understand common successes and challenges in mentoring OLS participants
-        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-      title: Mentor onboarding group 1
-      type: Mentor
-    - time: '08:00'
-      duration: 60 min
-      content: |-
-        In this call, participants will:
-        - Understand common successes and challenges in mentoring OLS participants
-        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
-      title: Mentor onboarding group 2
-      type: Mentor
+      talks: []
   '02':
     start: September 25, 2023
     calls:
-    - date: September 27, 2023
-      time: '11:30'
-      duration: 90 min
-      notes: https://bit.ly/ols-8-week-02
-      content: |-
-        In this call, participants will:
-        - Say hello and introduce ourselves
-        - Review our Community Participation Guidelines
-        - Review our definition of open leadership
-        - Unpack the differences between “open by default” and “open by design”
-        - Learn about common community interactions in open projects.
-        - Learn about common value exchanges between community members in open science
-      title: Welcome to OLS!
-      type: Cohort
-      before: '- Add your vision statement to your GitHub issue'
-      after: |-
-        - Look up two other projects and comment on their issues with feedback on their vision statement
-        - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
-        - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
-        - Share a link to your Open Canvas in your GitHub issue
-        - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
-        - Comment on your issue with your draft Roadmap
-        - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
-      resources:
-    - time: '16:00'
+    - time: "08:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
-    - time: '08:00'
+      date: September 26, 2023
+      talks: []
+    - time: "14:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
+      date: September 28, 2023
+      talks: []
+    - date: September 26, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-02
+      title: Welcome to Open Seeds & Tooling for Project Design
+      hosts:
+      - bebatut
+      type: Cohort
+      talks:
+      - tag: OLS Introduction
+      - tag: Open Canvas
+      - tag: Project Roadmapping
+      time: "09:00"
   '03':
     start: October 02, 2023
     calls:
     - duration: 30 min
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
+      talks: []
     - date: October 04, 2023
-      time: '16:00'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-03
-      content: |-
-        In this call, participants will:
-        - Say hello and introduce ourselves
-        - Review our Community Participation Guidelines
-        - Review our definition of open leadership
-        - Unpack the differences between “open by default” and “open by design”
-        - Learn about common community interactions in open projects.
-        - Learn about common value exchanges between community members in open science
-      title: Welcome to OLS!
+      title: Welcome to Open Seeds & Tooling for Project Design
+      hosts:
+      - malvikasharan
       type: Cohort
-      before: '- Add your vision statement to your GitHub issue'
-      after: |-
-        - Look up two other projects and comment on their issues with feedback on their vision statement
-        - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
-        - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
-        - Share a link to your Open Canvas in your GitHub issue
-        - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
-        - Comment on your issue with your draft Roadmap
-        - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
-      resources:
+      talks:
+      - tag: OLS Introduction
+      - tag: OLS Introduction
+      - tag: Project Roadmapping
+      time: "16:00"
   '04':
     start: October 09, 2023
     calls:
     - date: October 11, 2023
-      time: '16:00'
       duration: 90 min
-      notes: https://bit.ly/ols-5-week-04
-      content: "In this call, participants will:\n- Look at project structure as we\
-        \ build open projects\n- Go over the standard files in open projects\n   -\
-        \ README\n   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n\
-        \   The exact project structure and files used may look different on your\
-        \ project.\n  "
-      title: Tooling and roadmapping for Open projects
+      notes: https://bit.ly/ols-8-week-04
+      title: Tooling for Open Collaboration
       type: Cohort
-      before: |
-        - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
-        - Rework on your vision statement
-           - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/) or [Hemingway Editor](http://www.hemingwayapp.com/)
-           - Refine it with the editor’s help
-           - Paste it in your GitHub issue
-           - Read it to the Breakout room friends during the next call and hear their feedback :)
-      after: |-
-        - Create a GitHub repository for your project
-        - Add the link to your repository in your issue
-        - Use your canvas to [start writing a `README.md` file](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/), or landing page, for your projectLink your README in a comment on this issue
-        - Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
-        - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
-        - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
-      resources:
+      talks:
+      - tag: Setting up a project
+      - tag: README
+      - tag: Open Licensing
+      - tag: Code of Conduct
+      time: "16:00"
   '05':
     start: October 16, 2023
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
-    - date: October 18, 2023
-      time: '11:30'
+      talks: []
+    - date: October 17, 2023
       duration: 90 min
       notes: https://bit.ly/ols-8-week-05
-      content: |-
-        In this call, participants will:
-        - Create a GitHub repository
-        - Write in Markdown
-        - Create a README file
-        - Enable a small website via GitHub
-        - Managing issues and labels
-        - Submit changes via Pull Request
       title: GitHub tutorial for beginners
+      hosts:
+      - malvikasharan
       type: Skill-up
-      before: |
-        - Please create a GitHub account: https://github.com
-        - Have a look at the [OLS-4 repository](https://github.com/open-life-science/ols-4/issues) for 'project issues'
-        - Comment of 1-2 project's recent post (vision, open canvas etc.)
-        - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
-      resources:
+      talks:
+      - title: Introduction to GitHub
+        tag: GitHub Introduction
+      time: "09:00"
   '06':
     start: October 23, 2023
     calls:
-    - date: October 25, 2023
-      time: '11:30'
+    - date: October 24, 2023
       duration: 90 min
       notes: https://bit.ly/ols-8-week-06
-      content: |-
-        In this call, participants will:
-        - Hear about Iterative Project management
-        - Get familiar with Open Software, Open Hardware, Research Data Management
       title: Open Science Garden I
       type: Cohort
       before: '- Look up two other projects and comment on their issues with feedback
@@ -195,238 +158,181 @@ weeks:
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
         - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
       resources:
+      talks:
+      - tag: Open Science Introduction
+      - tag: Open Evaluation
+      - tag: Open Science Infrastructures
+      - tag: Open Engagement of Social Actors
+      time: "09:00"
   '07':
     start: October 30, 2023
     calls:
     - duration: 30 min
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
+      talks: []
     - date: November 01, 2023
-      time: '17:00'
+      time: "17:00"
       duration: 30 min
       notes: https://bit.ly/ols-8-week-07
       title: Q&A call
       type: Q&A
+      talks: []
   '08':
     start: November 06, 2023
     calls:
     - date: November 08, 2023
-      time: '17:00'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-08
-      content: |-
-        In this call, participants will:
-        - Learn how to develop Open collaboration by design
-        - Hear Mountain of engagement and community interactions
-        - Learn about Personas and pathways and welcoming new contributors
-      title: Community design for inclusivity
+      title: Community Management
+      hosts:
+      - malvikasharan
       type: Cohort
-      after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
-        \ assignment\n- Think through community interactions\n- Complete the midterm\
-        \ survey\n      \n        "
-      resources:
+      talks:
+      - tag: Community Design for Inclusivity
+      - tag: Personas & Pathways
+      time: "17:00"
   '09':
     start: November 13, 2023
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: November 15, 2023
-      time: '12:30'
+      talks: []
+    - date: November 14, 2023
       duration: 90 min
       notes: https://bit.ly/ols-8-week-09
-      content: "In this call, participants will:\n- Hear from the professionals from\
-        \ different career paths\n- Ask them questions about their careers\n- Share\
-        \ worries/insecurities related to your career path, profession or area of\
-        \ work \n- Tips and advice to overcome challenges as an open researcher"
-      title: 'Open Leadership: Academia, industry and beyond!'
+      title: Open Leadership in Practice
       type: Skill-up
-      before: "A few days before the event, think about how you might briefly answer\
-        \ the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
-        - how did you choose your career ?\n- what did you study to prepare ?\n- what\
-        \ do you actually do at work on a typical day ?\n- have you ever felt discriminated\
-        \ against (e.g. due to gender, race, ethnicity...) and how did you respond\
-        \ ?\n- do you have a life outside your work ? a family ? hobbies ?\n- what\
-        \ advice would you give someone wanting to enter your field ?\n- on a scale\
-        \ of 1-10 (10 being the most), how much do you enjoy your current work?\n\
-        - do you want to switch your career or field? Why or why not?      \n    \
-        \  \n        "
-      resources:
+      talks:
+      - tag: Open Leadership in Practice
+      - tag: Open Leadership in Practice
+      - tag: Open Leadership in Practice
+      time: "10:00"
   '10':
     start: November 20, 2023
     calls:
-    - date: November 22, 2023
-      time: '12:30'
+    - date: November 21, 2023
       duration: 90 min
       notes: https://bit.ly/ols-8-week-10
-      content: |-
-        In this call, participants will:
-        - Practicing open science
-        - DOI and citations: Paper, data, preprints, blogs
-        - Non-tradtional publication: pre-registrations, code, protocols, training materials
-        - Public engagement: Citizen Science/Participatory research, Scientific communication
       title: Open Science Garden II
       type: Cohort
-      before: |-
-        - Create a project development plan for your project
-          - [Assignment to help you use Agile methods](https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing) to breakdown your milestones into smaller tasks and define a timeline for your milestones
-        - You can transfer your tasks to a project management or kanban tools such as GitHub projects ([short intro](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
-        - Make sure that by now you have added a license, contribution guideline and a Code of Conduct in your GitHub repository. If you feel stuck and don’t know where you start, take a look at [this repo](https://github.com/malvikasharan/developing_collaborative_document)
-        - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-4/issues) with feedback on their project
-      resources:
+      talks:
+      - tag: Open Hardware
+      - tag: Open Source Software
+      - tag: Openness to Diversity of Knowledge
+      time: "10:00"
   '11':
     start: November 27, 2023
     calls:
     - duration: 30 min
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
+      talks: []
     - date: November 29, 2023
-      time: '17:00'
-      duration: 30 min
+      duration: 90 min
       notes: https://bit.ly/ols-8-week-11
-      title: Open-source software
+      title: 'Tooling for Collaboration: Open-source software in practice'
       type: Skill-up
+      talks:
+      - tag: Code Review
+      - tag: Package Management
+      - tag: Good Coding Practices
+      time: "17:00"
   '12':
     start: December 04, 2023
     calls:
     - date: December 06, 2023
-      time: '17:00'
+      time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-8-week-12
       title: Open Science Garden III
       type: Cohort
       resources:
+      hosts:
+      - malvikasharan
+      talks:
+      - tag: Open Data
+      - tag: Open Access Publication
   '13':
     start: December 11, 2023
     calls:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: December 13, 2023
-      time: '12:30'
+      talks: []
+    - date: December 12, 2023
       duration: 90 min
       notes: https://bit.ly/ols-8-week-13
-      content: |-
-        In this call, participants will:
-        - Discuss the importance of taking care of mental health and avoiding burn out for both project leaders and community members
-      title: Self-care & Social call
+      title: Personal Management & Social call
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
-      resources:
+      talks:
+      - title: Personal Ecology and Self Care
+        tag: Personal Ecology
+      time: "10:00"
   '14':
     start: December 18, 2023
     calls:
-    - date: December 20, 2023
-      time: '12:30'
+    - date: December 19, 2023
       duration: 90 min
       notes: https://bit.ly/ols-8-week-14
-      content: 
-      title: Diversity and Inclusion & Ally skills
+      title: Community Management
+      hosts:
+      - malvikasharan
       type: Cohort
-      after: 
-      resources:
+      talks: []
+      time: "10:00"
   '15':
     start: January 08, 2024
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
-    - date: January 10, 2024
+      talks: []
+    - date: January 09, 2024
+      duration: 60 min
       notes: https://bit.ly/ols-8-week-15
-      content: |-
-        In this call, participants will:
-        - Learn about giving and receiving feedback
-        - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 1
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      talks: []
+      time: "09:00"
     - date: January 10, 2024
+      duration: 60 min
       notes: https://bit.ly/ols-8-week-15
-      content: |-
-        In this call, participants will:
-        - Learn about giving and receiving feedback
-        - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 2
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
-    - date: January 10, 2024
+      talks: []
+      time: "14:00"
+    - date: January 11, 2024
+      duration: 60 min
       notes: https://bit.ly/ols-8-week-15
-      content: |-
-        In this call, participants will:
-        - Learn about giving and receiving feedback
-        - Conduct rehearsal for the final presentation from the project leads registered
       title: Final presentation rehearsal - Group 3
       type: Skill-up
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      talks: []
+      time: "17:00"
   '16':
     start: January 15, 2024
     calls:
-    - date: January 17, 2024
+    - date: January 16, 2024
+      duration: 60 min
       notes: https://bit.ly/ols-8-week-16
-      content: |-
-        In this call, participants will:
-        - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 1
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      talks: []
+      time: "09:00"
     - date: January 17, 2024
+      duration: 60 min
       notes: https://bit.ly/ols-8-week-16
-      content: |-
-        In this call, participants will:
-        - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 2
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
-    - date: January 17, 2024
+      talks: []
+      time: "14:00"
+    - date: January 18, 2024
+      duration: 60 min
       notes: https://bit.ly/ols-8-week-16
-      content: |-
-        In this call, participants will:
-        - Share a 5 mins presentation of their project
-        - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 3
+      hosts:
+      - malvikasharan
       type: Cohort
-      before: "Think about how you might briefly answer the following questions\n\
-        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe\
-        \ it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs\
-        \ to describe it.\nThe big idea: identify the most fulfilling conditions under\
-        \ which you thrive - sustain them; identify the least fulfilling conditions\
-        \ that frustrate you - avoid them.\n      \n      \n        \n      \n   \
-        \     "
+      talks: []
+      time: "17:00"

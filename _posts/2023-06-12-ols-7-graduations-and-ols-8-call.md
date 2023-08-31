@@ -67,7 +67,7 @@ providing opportunities to meet in person every month during the Open Seeds OLS-
 
 - **Get inspirations from the previous projects**: We encourage you to watch the OLS graduations from the last four cohorts [on YouTube](https://www.youtube.com/openlifesci) to get a sense of what the project will be like (direct link to [OLS-5 graduation calls](https://youtu.be/9XMGsmekddM))).
 
-Meanwhile, if you have any further questions or any advice that might be helpful, please email the OLS team ([team@openlifesci.org](mailto:team@openlifesci.org)).
+Meanwhile, if you have any further questions or any advice that might be helpful, please email the OLS team ([{{ site.email }}](mailto:{{ site.email }})).
 
 All the best. 
 We can't wait to read your project proposals!

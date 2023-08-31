@@ -32,7 +32,7 @@ Looking for some lighter or more productive uses of your time? We have a shortli
 - Check out the Kaggle space for R users: [Novel Corona Virus dataset](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset/tasks?taskId=508&utm_medium=email&utm_source=intercom&utm_campaign=tasks-award-march-2020)
 - Visualise Coronavirus Disease (COVID-19) – [Statistics and Research by our world in data](https://ourworldindata.org/coronavirus)
 
-In case of any concern - please contact us on [team@openlifesci.org](mailto:team@openlifesci.org) with any queries or worries - no question too small! 
+In case of any concern - please contact us on [{{ site.email }}](mailto:{{ site.email }}) with any queries or worries - no question too small! 
 
 **Stay safe and wash your hands, folks! (and stop touching your face!!)**
 
