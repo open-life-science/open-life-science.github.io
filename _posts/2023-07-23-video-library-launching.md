@@ -11,7 +11,7 @@ photos:
 ---
 
 {% assign cohort-calls = 0 %}
-{% assign cohorts = site.data.cohorts | sort %}
+{% assign cohorts = site.data.openseeds | sort %}
 
 {% for cohort in cohorts %}
     {% assign schedule = cohort[1].schedule %}

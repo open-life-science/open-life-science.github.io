@@ -1,10 +1,10 @@
 {% assign cohort = include.cohort | strip %}
 {% assign people = site.data.people %}
-{% assign cohort_data = site.data.cohorts[cohort] %}
+{% assign cohort_data = site.data.openseeds[cohort] %}
 {% assign projects = cohort_data.projects %}
 {% assign experts = cohort_data.metadata.experts %}
 
-{% assign cohorts = site.data.cohorts | sort %}
+{% assign cohorts = site.data.openseeds | sort %}
 {% for c in cohorts %}
     {% if c[0] == cohort %} 
         {% assign current_cohort_index = forloop.index0 %}

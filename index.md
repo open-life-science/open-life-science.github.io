@@ -32,7 +32,7 @@ OLS-8 runs from September 2023 to January 2024. We are not sure if we will run O
 
 ## Timeline
 
-{% assign schedule = site.data.cohorts.ols-8.schedule %}
+{% assign schedule = site.data.openseeds.ols-8.schedule %}
 {% include _includes/timeline.md %}
 
 Have a question or need any support to join this cohort?
@@ -44,17 +44,17 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {%- assign all_experts = '' -%}
 {%- assign all_facilitators = '' -%}
 {%- assign all_projects = '' -%}
-{%- assign cohorts = site.data.cohorts | sort %}
+{%- assign cohorts = site.data.openseeds | sort %}
 
 | Cohort | Schedule | Projects | Mentors | Experts | Facilitators |
 | --- | --- | --- | --- | --- | --- |
 {%- for cohort in cohorts -%}
   {%- assign cohort_name = cohort[0] -%}
-  {%- assign experts = site.data.cohorts[cohort_name].metadata.experts | uniq | size -%}
-  {%- capture all_experts %}{{ all_experts }}, {{ site.data.cohorts[cohort_name].metadata.experts | join: ', ' }}{% endcapture -%}
-  {%- assign facilitators = site.data.cohorts[cohort_name].metadata.facilitators | uniq | size -%}
-  {%- capture all_facilitators %}{{ all_facilitators }}, {{ site.data.cohorts[cohort_name].metadata.facilitators | join: ', ' }}{% endcapture -%}
-  {%- assign projects = site.data.cohorts[cohort_name].projects -%}
+  {%- assign experts = site.data.openseeds[cohort_name].metadata.experts | uniq | size -%}
+  {%- capture all_experts %}{{ all_experts }}, {{ site.data.openseeds[cohort_name].metadata.experts | join: ', ' }}{% endcapture -%}
+  {%- assign facilitators = site.data.openseeds[cohort_name].metadata.facilitators | uniq | size -%}
+  {%- capture all_facilitators %}{{ all_facilitators }}, {{ site.data.openseeds[cohort_name].metadata.facilitators | join: ', ' }}{% endcapture -%}
+  {%- assign projects = site.data.openseeds[cohort_name].projects -%}
   {%- assign mentors = '' -%}
   {%- assign participants = '' -%}
   {%- assign project_name = '' -%}
@@ -75,7 +75,7 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
   {%- capture all_participants %}{{ all_participants }}, {{ participants }}{% endcapture -%}
   {%- assign cohort_projects = project_name | remove_first: ', ' | split: ", " | uniq | sort | size -%}
   {%- capture all_projects %}{{ all_projects }}, {{ project_name }}{% endcapture -%}
-  {%- assign cohort_schedule = site.data.cohorts[cohort_name].schedule -%}
+  {%- assign cohort_schedule = site.data.openseeds[cohort_name].schedule -%}
   {%- assign cohort_start = cohort_schedule.weeks['01'].start -%}
   {%- assign cohort_end = '' -%}
   {%- for week in cohort_schedule.weeks -%}

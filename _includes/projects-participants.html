@@ -1,6 +1,6 @@
 {% assign cohort = include.cohort %}
 {% assign people = site.data.people %}
-{% assign projects = site.data.cohorts.[cohort].projects %}
+{% assign projects = site.data.openseeds[cohort].projects %}
 
 {% assign all-participants = '' %}
 {% for project in projects %}
