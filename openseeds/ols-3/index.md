@@ -68,7 +68,7 @@ OLS's third cohort (OLS-3) will be conducted from February to May 2021.
 
 ## Project leads (aka Mentees)
 
-Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here](/about#mentees).
+Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here]({% link about.md %}#mentees).
 
 For the third round of the Open Life Science program, we welcome [{{ p-participants | size }} participants]({% link openseeds/ols-3/projects-participants.md %}#participants) with [{{ projects | size }} projects]({% link openseeds/ols-3/projects-participants.md %}#projects).
 
@@ -293,7 +293,7 @@ During these calls:
 The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
-Look up the shared notes for each call linked to the [schedule](#schedule) in this website.
+Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-3/speaker-guide.md %}). in this website.
 You will also be updated via email each week by the organisers with additional details to aid your participation.
 
 **If you can't make it to a call**:
@@ -337,7 +337,7 @@ In some weeks during which there is not cohort call, we will offer some optional
 The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
-Look up the shared notes for each call linked to the [schedule](#schedule) in this website.
+Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-3/schedule.md %}). in this website.
 You will also be updated via email each week by the organisers with additional details to aid your participation.
 
 ### Coworking calls
@@ -359,7 +359,7 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## Speaker Guide
 
-We have [a short guide for invited speakers](speaker-guide.md).
+We have [a short guide for invited speakers]({% link openseeds/ols-3/speaker-guide.md %}).
 
 ## Communication channels
 

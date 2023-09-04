@@ -13,7 +13,7 @@ Thank you for considering speaking at our upcoming Cohort call! We look forward 
 
 # About Open Life Science
 
-The [Open Life Science (OLS) program](../index.md) is
+The [Open Life Science (OLS) program]({% link openseeds/index.md %}) is
 designed for the early-stage researchers and potential academic leaders
 in becoming Open Science ambassadors in their communities.
 
@@ -21,9 +21,9 @@ This program is led by the OLS team members, i.e. us - Bérénice Batut,
 Malvika Sharan and Yo Yehudi. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
-We are currently running our [third cohort](projects-participants.md)
+We are currently running our [third cohort]({% link openseeds/ols-3/projects-participants.md %})
 (Feb-May 2021).
-A complete syllabus of this cohort can be found [here](schedule.md).
+A complete syllabus of this cohort can be found [here]({% link openseeds/ols-3/schedule.md %}).
 
 # About our Code of Conduct
 
@@ -35,7 +35,7 @@ To report an issue involving one of the organisers, please email one of the memb
 
 # About the cohort calls
 
-Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to Open Life Science](schedule.md) is shared and discussed with all participants of the program.
+Every second week, we host online cohort calls (1.5 hours each) where [relevant content related to Open Life Science]({% link openseeds/ols-3/schedule.md %}) is shared and discussed with all participants of the program.
 
 These cohort calls introduce new Open Science related topics that are relevant for our participants to develop their project and bring them to the next stage.
 
@@ -57,13 +57,13 @@ You can check if Zoom works on your system by using this link: [http://zoom.us/t
 
 ## Call notes
 
-The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule](schedule.md)
+The OLS team will share a collaborative document with the cohort call agenda in your invitation email, which is also linked to the [online schedule]({% link openseeds/ols-3/schedule.md %})
 
 These notes will be available for all our participants for future reference. You are welcome to contribute to the notes from your session.
 
 # Cohort call speakers
 
-We invite [experts like you](/about#experts) to these calls to talk
+We invite [experts like you]({% link about.md %}#experts) to these calls to talk
 about their work, provide personal perspectives, share personal stories
 or anecdotes, and engage our participants in understanding the practical
 applications of the Open Science tools/approaches.
