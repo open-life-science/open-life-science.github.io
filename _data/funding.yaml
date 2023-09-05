@@ -44,3 +44,18 @@
   currency: EUR
   purpose: FAIRify OLS and support EOSC-Life community members to build open science teams. 
   proposal: https://zenodo.org/record/4060367
+- funder: turing
+  amount: 64599
+  currency: GBP
+  date_award: Feb 2023
+  purpose: Evidence-based policy to widen participation in open data science. 
+  proposal: https://doi.org/10.5281/zenodo.7602716
+- funder: nasa
+  amount: 1.2 million across two grants
+  currency: USD
+  duration: 3 years
+  date_award: July 2023
+  purpose: TOPS Open Science training cohorts
+  proposal: https://doi.org/10.5281/zenodo.8250978
+  
+  
