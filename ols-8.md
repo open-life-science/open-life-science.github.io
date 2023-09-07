@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the 8th cohort of OLS program!
+title: Welcome to Open Seeds Cohort 8 
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg
@@ -10,7 +10,7 @@ photos:
 
 {% include _includes/cohort-metadata.html cohort='ols-8' %}
 
-# The OLS-8 program
+# The Open Seeds 8 program
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
