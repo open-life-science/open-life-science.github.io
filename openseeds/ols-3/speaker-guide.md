@@ -31,7 +31,7 @@ All our members, participants and speakers are expected to abide by our [Code of
 
 If you experience or witness any unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Bérénice, Malvika and Yo. ([{{ site.email }}](mailto:{{ site.email }})).
 
-To report an issue involving one of the organisers, please email one of the members individually ([berenice@openlifesci.org](mailto:berenice@openlifesci.org), [malvika@openlifesci.org](mailto:malvika@openlifesci.org), [yo@openlifesci.org](mailto:yo@openlifesci.org)).
+To report an issue involving one of the organisers, please email one of the members individually ([berenice@owe-are-ols.org](mailto:berenice@owe-are-ols.org), [malvika@owe-are-ols.org](mailto:malvika@owe-are-ols.org), [yo@owe-are-ols.org](mailto:yo@owe-are-ols.org)).
 
 # About the cohort calls
 

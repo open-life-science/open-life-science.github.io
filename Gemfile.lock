@@ -72,6 +72,14 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+<<<<<<< HEAD
+=======
+    minima (2.5.1)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
+    minitest (5.17.0)
+>>>>>>> 0baa89f84e53f6eef225c2d1df3fe97a23e9289e
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
@@ -117,7 +125,7 @@ DEPENDENCIES
   html-proofer
   jekyll
   jekyll-redirect-from
-  nokogiri
+  nokogiri (= 1.15.4)
   webrick
 
 BUNDLED WITH

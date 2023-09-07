@@ -1146,7 +1146,7 @@ bebatut:
   last-name: Batut
   orcid: 0000-0001-9852-1987
   pronouns: she/her
-  title: Director of learning and technology
+  title: Director of Learning and Technology
   twitter: bebatut
   website: https://research.bebatut.fr
 benkrikler:
@@ -1164,6 +1164,7 @@ bethaniley:
   last-name: Iley
   pronouns: she/her
   twitter: bethaniley
+  title: Resident Fellow
 bgruening:
   bio: Björn is working in the European Galaxy team and tries to help make science
     open wherever he can. He is an expert in the topics related to Container, Conda,
@@ -1415,6 +1416,10 @@ camila-gómez:
   first-name: Camila
   last-name: Gómez
   orcid: 0000-0001-7642-6049
+camille-gonz-va:
+  first-name: Camille
+  last-name: Gonzalez
+  title: Executive Assistant (contract)
 carmel-carne:
   first-name: Carmel
   last-name: Carne
@@ -2322,7 +2327,7 @@ emmyft:
   last-name: Tsang
   orcid: 0000-0002-9248-1280
   pronouns: she/her
-  title: Director of finance and operations
+  title: Director of Finance and Operations
   twitter: emmy_ft
   website: https://emmyft.github.io
 esbusis:
@@ -2520,6 +2525,11 @@ federico-cestares:
   orcid: 0000-0002-7443-3314
   pronouns: He- él
   twitter: fecestares
+flavioazevedo:
+  country: United Kingdom
+  first-name: Flavio
+  last-name: Azevedo
+  title: Resident Fellow (contract)
 fnyasimi:
   affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
   bio: Festus is a researcher in bioinformatics and data science. His main interestes
@@ -3034,6 +3044,7 @@ iramosp:
   last-name: Ramos
   orcid: 0000-0003-3315-2281
   pronouns: she / her
+  title: NASA Cohort Coordinator (contract)
 iratxepuebla:
   affiliation: Asapbio
   bio: |-
@@ -3380,6 +3391,7 @@ jilaga:
   pronouns: She/her
   title: Brand design intern
   twitter: nohmaah
+  title: Designer (contract)
 jmmaok:
   bio: Independent scholar advancing open knowledge through a portfolio of projects
     in open education, open science, and open data.  PhD in Public Policy with research
@@ -4350,7 +4362,7 @@ malvikasharan:
   last-name: Sharan
   orcid: 0000-0001-6619-7369
   pronouns: she/her
-  title: Director of partnerships and strategy
+  title: Director of Partnerships and Strategy
   twitter: malvikasharan
   website: https://malvikasharan.github.io
 mannyco:
@@ -5082,6 +5094,7 @@ msundukova:
   orcid: 0000-0003-1328-0008
   pronouns: she/her
   twitter: mayya_sundukova
+  title: Resident Fellow
 muhammetcelik:
   country: Turkey
   first-name: Muhammet
@@ -5404,6 +5417,7 @@ npdebs:
   bio: I am a spirited human who specialises in breaking stereotypes and exceeding
     expectation. A student nurse by day, and techie by night. I enjoy podcasts, horror
     flicks and Jack Reacher novels.
+  title: Developer (contract)
 npscience:
   affiliation: Science Practice, Uk
   bio: I've wandered through science (neuroscience), access to science communication
@@ -5589,6 +5603,7 @@ pazbc:
   pronouns: she/her
   twitter: PazByC
   website: https://openlifesci.org/posts/2022/08/10/welcome-paz/
+  title: Community Researcher & Programme Coordinator (contract)
 peranti:
   first-name: Pradeep
   last-name: Eranti
@@ -5673,6 +5688,7 @@ pherterich:
   orcid: 0000-0002-4542-9906
   pronouns: she/her
   twitter: pherterich
+  title: Fellowship and Finance Manager
 piero-beraun:
   affiliation: Scihack
   bio: 22 years old and Bachelor in Bioengineering. I like strawberries, plants, arthropods,
@@ -6701,6 +6717,11 @@ tai-rocha:
   last-name: Rocha
   orcid: 0000-0001-6874-2447
   twitter: Tai_Rocha_
+tajuddeen1:
+  country: Nigeria
+  first-name: Tajuddeen
+  last-name: Gwadabe
+  title: Programme Manager & Catalyst (contract)
 tallmar:
   bio: Marta is a scientific project manager within the training team at EMBL-EBI.
     She organises and facilitates training activities in several European projects
@@ -7150,7 +7171,7 @@ yochannah:
   last-name: Yehudi
   orcid: 0000-0003-2705-1724
   pronouns: they/them
-  title: Executive director, Business and development lead
+  title: Executive Director, Business and Development Lead
   twitter: yoyehudi
   website: https://yo-yehudi.com
 yvanlebras:

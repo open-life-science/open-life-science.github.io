@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OLS program
+title: Open Seeds program
 image: /images/about.jpg
 photos:
   name: Bérénice Batut
@@ -10,7 +10,14 @@ photos:
 
 {% include _includes/cohort-loop.html %}
 
-*To illustrate the OLS journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their open science training.*
+*To illustrate the Open Seeds journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor](about#mentors), as they progress through their Open Seeds training.*
+
+<div class="columns">
+  <div class="column is-5" markdown="1">
+
+  ![Structure of Open Seeds program as described on the right](/images/openseeds_structure.png)
+  </div>
+  <div class="column" markdown="1">
 
 Joy will provide an outline of a project in their application that they will develop in the program. Additionally, they will indicate their interests in learning particular aspects of Open Science and research.
 
@@ -38,6 +45,9 @@ Sam will also participate in **mentor training** calls and attend topic-based di
 A self-evaluation survey, mid-cohort survey and post-cohort survey will help Joy and Sam in positioning their knowledge in open science leadership before, during and after the program.
 
 For the next round, Joy may share what they learned by [mentoring](about#mentors) a new project in the future cohort and Sam will continue their mentoring effort or take an [expert](about#experts) role.
+
+  </div>
+</div>
 
 # Projects
 
