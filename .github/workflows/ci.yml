@@ -21,4 +21,5 @@ jobs:
             --allow-hash-href \
             --ignore_empty_alt \
             --disable-external \
+            --ignore_status_codes 405,429,503,999 \
             ./_site
