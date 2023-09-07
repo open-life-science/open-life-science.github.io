@@ -19,6 +19,6 @@ jobs:
           bundle exec htmlproofer \
             --assume-extension \
             --allow-hash-href \
-            --empty_alt_ignore \
+            --ignore_empty_alt \
             --disable-external \
             ./_site
