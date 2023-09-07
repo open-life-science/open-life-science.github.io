@@ -19,7 +19,6 @@ jobs:
           bundle exec htmlproofer \
             --assume-extension \
             --http-status-ignore 405,429,503,999 \
-            --url-ignore "/.*localhost.*/","/.*gitter\.im.*/" \
             --allow-hash-href \
             --empty_alt_ignore \
             --disable-external \
