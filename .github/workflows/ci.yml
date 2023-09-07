@@ -18,7 +18,6 @@ jobs:
         run: |
           bundle exec htmlproofer \
             --assume-extension \
-            --ignore-urls "/.*localhost.*/" \
             --allow-hash-href \
             --empty_alt_ignore \
             --disable-external \
