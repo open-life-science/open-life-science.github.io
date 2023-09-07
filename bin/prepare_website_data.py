@@ -801,7 +801,7 @@ def add_event_information(schedule, schedule_df, people):
             'Duration': 'duration'})
         .assign(
             date=lambda x: pd.to_datetime(x['date'], dayfirst=True, errors='coerce'),
-            time=lambda x: pd.to_datetime(x['time'], format='%H:%M', errors='coerce'),
+            time=lambda x: pd.to_datetime(x['time'], format='%H:%M:%S', errors='coerce'),
             duration=lambda x: pd.to_timedelta(x['duration'])))
 
     call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A', 'Cafeteria']

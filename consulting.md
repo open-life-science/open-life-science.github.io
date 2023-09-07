@@ -55,7 +55,7 @@ The scope of the workshop does not include teaching members of marginalised grou
 
 ### Workshop Format, Content & Logistics
 
-OLS Ally Skills workshops are offered to external organisations and collaborators for a fee. Please email the OLS team (team@openlifesci.org) to express your interest to host and request a quote. Since the OLS team members manage two 16-week long training and mentoring cohorts each year, it is important to get in touch with them several weeks in advance to share your plan and identify potential dates for the workshops.
+OLS Ally Skills workshops are offered to external organisations and collaborators for a fee. Please email the OLS team ([{{ site.email }}](mailto:{{ site.email }})) to express your interest to host and request a quote. Since the OLS team members manage two 16-week long training and mentoring cohorts each year, it is important to get in touch with them several weeks in advance to share your plan and identify potential dates for the workshops.
 
 Customisation of our workshops: Our training is designed for researchers and scientific communities. We are happy to discuss if specific customisation in our workshop materials might be required for external organisations to represent their workspace culture. 
 

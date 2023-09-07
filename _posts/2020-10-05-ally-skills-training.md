@@ -34,7 +34,7 @@ Open Life Science is a non-profit organisation. Proceeds will be used to pay tra
 
 Our goals with this workshop are to make ally skills more accessible to others as well as raising money for OLS, but we do not wish to exclude anyone who would find it genuinely difficult to pay for this workshop. If you would like to participate and your organisation is unable to sponsor a full-price ticket, please fill out [this short form to request a reduced-price](https://forms.gle/fewzxJZBnBVTvwu28).
 
-Tickets are free to OLS mentors, experts, mentees/project leads, and call hosts - approach us by emailing team@openlifesci.org for a ticket discount code.
+Tickets are free to OLS mentors, experts, mentees/project leads, and call hosts - approach us by emailing team@we-are-ols.org for a ticket discount code.
 
 ## Who will be delivering this workshop:
 

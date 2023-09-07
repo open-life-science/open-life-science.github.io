@@ -40,7 +40,7 @@ items:
     icon: fas fa-mail-bulk
   -
     text: Write us via email
-    link: mailto:team@openlifesci.org
+    link: mailto:team@we-are-ols.org
     icon: fas fa-at
   -
     text: Explore our GitHub repositories

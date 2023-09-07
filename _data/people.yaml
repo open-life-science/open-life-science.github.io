@@ -1366,7 +1366,7 @@ bebatut:
   last-name: Batut
   orcid: 0000-0001-9852-1987
   pronouns: she/her
-  title: Director of learning and technology
+  title: Director of Learning and Technology
   twitter: bebatut
   website: https://research.bebatut.fr
   country_3: FRA
@@ -1394,6 +1394,7 @@ bethaniley:
   continent: Europe
   longitude: -5.9301829
   latitude: 54.596391
+  title: Resident Fellow
 bgruening:
   bio: Björn is working in the European Galaxy team and tries to help make science
     open wherever he can. He is an expert in the topics related to Container, Conda,
@@ -1697,6 +1698,10 @@ camila-gómez:
   orcid: 0000-0001-7642-6049
   longitude: -66.1568983
   latitude: -17.3936114
+camille-gonz-va:
+  first-name: Camille
+  last-name: Gonzalez
+  title: Executive Assistant (contract)
 carmel-carne:
   first-name: Carmel
   last-name: Carne
@@ -2812,7 +2817,7 @@ emmyft:
   last-name: Tsang
   orcid: 0000-0002-9248-1280
   pronouns: she/her
-  title: Director of finance and operations
+  title: Director of Finance and Operations
   twitter: emmy_ft
   website: https://emmyft.github.io
   country_3: NLD
@@ -3052,6 +3057,11 @@ federico-cestares:
   continent: South America
   longitude: -58.4370894
   latitude: -34.6075682
+flavioazevedo:
+  country: United Kingdom
+  first-name: Flavio
+  last-name: Azevedo
+  title: Resident Fellow (contract)
 fnyasimi:
   affiliation: International Centre of Insect Physiology and Ecology (ICIPE)
   bio: Festus is a researcher in bioinformatics and data science. His main interestes
@@ -3682,6 +3692,7 @@ iramosp:
   continent: North America
   longitude: -99.1331785
   latitude: 19.4326296
+  title: NASA Cohort Coordinator (contract)
 iratxepuebla:
   affiliation: Asapbio
   bio: |-
@@ -4104,6 +4115,7 @@ jilaga:
   continent: Africa
   longitude: 103.378253
   latitude: 20.0171109
+  title: Designer (contract)
 jmmaok:
   bio: Independent scholar advancing open knowledge through a portfolio of projects
     in open education, open science, and open data.  PhD in Public Policy with research
@@ -5288,7 +5300,7 @@ malvikasharan:
   last-name: Sharan
   orcid: 0000-0001-6619-7369
   pronouns: she/her
-  title: Director of partnerships and strategy
+  title: Director of Partnerships and Strategy
   twitter: malvikasharan
   website: https://malvikasharan.github.io
   country_3: GBR
@@ -6182,6 +6194,7 @@ msundukova:
   continent: Europe
   longitude: -2.9350039
   latitude: 43.2630018
+  title: Resident Fellow
 muhammetcelik:
   country: Turkey
   first-name: Muhammet
@@ -6582,6 +6595,7 @@ npdebs:
   continent: Africa
   longitude: 7.0188527
   latitude: 4.7676576
+  title: Developer (contract)
 npscience:
   affiliation: Science Practice, Uk
   bio: I've wandered through science (neuroscience), access to science communication
@@ -6807,6 +6821,7 @@ pazbc:
   website: https://openlifesci.org/posts/2022/08/10/welcome-paz/
   country_3: ARG
   continent: South America
+  title: Community Researcher & Programme Coordinator (contract)
 peranti:
   first-name: Pradeep
   last-name: Eranti
@@ -6911,6 +6926,7 @@ pherterich:
   continent: Europe
   longitude: -3.1883749
   latitude: 55.9533456
+  title: Fellowship and Finance Manager
 piero-beraun:
   affiliation: Scihack
   bio: 22 years old and Bachelor in Bioengineering. I like strawberries, plants, arthropods,
@@ -8169,6 +8185,11 @@ tai-rocha:
   continent: South America
   longitude: -43.2093727
   latitude: -22.9110137
+tajuddeen1:
+  country: Nigeria
+  first-name: Tajuddeen
+  last-name: Gwadabe
+  title: Programme Manager & Catalyst (contract)
 tallmar:
   bio: Marta is a scientific project manager within the training team at EMBL-EBI.
     She organises and facilitates training activities in several European projects
@@ -8712,7 +8733,7 @@ yochannah:
   last-name: Yehudi
   orcid: 0000-0003-2705-1724
   pronouns: they/them
-  title: Executive director, Business and development lead
+  title: Executive Director, Business and Development Lead
   twitter: yoyehudi
   website: https://yo-yehudi.com
   country_3: GBR
