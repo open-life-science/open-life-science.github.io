@@ -1,17 +1,271 @@
 #!/usr/bin/env python
 
 import argparse
+import copy
 import pandas as pd
+import pycountry
 
+from geopy.geocoders import Nominatim
 from pathlib import Path
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
+ROLES = ['role', 'participant', 'mentor', 'expert', 'speaker', 'facilitator', 'organizer']
+
+# copied from https://github.com/jefftune/pycountry-convert/blob/master/pycountry_convert/country_alpha2_to_continent.py
+COUNTRY_ALPHA2_TO_CONTINENT = {
+    'AB': 'Asia',
+    'AD': 'Europe',
+    'AE': 'Asia',
+    'AF': 'Asia',
+    'AG': 'North America',
+    'AI': 'North America',
+    'AL': 'Europe',
+    'AM': 'Asia',
+    'AO': 'Africa',
+    'AR': 'South America',
+    'AS': 'Oceania',
+    'AT': 'Europe',
+    'AU': 'Oceania',
+    'AW': 'North America',
+    'AX': 'Europe',
+    'AZ': 'Asia',
+    'BA': 'Europe',
+    'BB': 'North America',
+    'BD': 'Asia',
+    'BE': 'Europe',
+    'BF': 'Africa',
+    'BG': 'Europe',
+    'BH': 'Asia',
+    'BI': 'Africa',
+    'BJ': 'Africa',
+    'BL': 'North America',
+    'BM': 'North America',
+    'BN': 'Asia',
+    'BO': 'South America',
+    'BQ': 'North America',
+    'BR': 'South America',
+    'BS': 'North America',
+    'BT': 'Asia',
+    'BV': 'Antarctica',
+    'BW': 'Africa',
+    'BY': 'Europe',
+    'BZ': 'North America',
+    'CA': 'North America',
+    'CC': 'Asia',
+    'CD': 'Africa',
+    'CF': 'Africa',
+    'CG': 'Africa',
+    'CH': 'Europe',
+    'CI': 'Africa',
+    'CK': 'Oceania',
+    'CL': 'South America',
+    'CM': 'Africa',
+    'CN': 'Asia',
+    'CO': 'South America',
+    'CR': 'North America',
+    'CU': 'North America',
+    'CV': 'Africa',
+    'CW': 'North America',
+    'CX': 'Asia',
+    'CY': 'Asia',
+    'CZ': 'Europe',
+    'DE': 'Europe',
+    'DJ': 'Africa',
+    'DK': 'Europe',
+    'DM': 'North America',
+    'DO': 'North America',
+    'DZ': 'Africa',
+    'EC': 'South America',
+    'EE': 'Europe',
+    'EG': 'Africa',
+    'ER': 'Africa',
+    'ES': 'Europe',
+    'ET': 'Africa',
+    'FI': 'Europe',
+    'FJ': 'Oceania',
+    'FK': 'South America',
+    'FM': 'Oceania',
+    'FO': 'Europe',
+    'FR': 'Europe',
+    'GA': 'Africa',
+    'GB': 'Europe',
+    'GD': 'North America',
+    'GE': 'Asia',
+    'GF': 'South America',
+    'GG': 'Europe',
+    'GH': 'Africa',
+    'GI': 'Europe',
+    'GL': 'North America',
+    'GM': 'Africa',
+    'GN': 'Africa',
+    'GP': 'North America',
+    'GQ': 'Africa',
+    'GR': 'Europe',
+    'GS': 'South America',
+    'GT': 'North America',
+    'GU': 'Oceania',
+    'GW': 'Africa',
+    'GY': 'South America',
+    'HK': 'Asia',
+    'HM': 'Antarctica',
+    'HN': 'North America',
+    'HR': 'Europe',
+    'HT': 'North America',
+    'HU': 'Europe',
+    'ID': 'Asia',
+    'IE': 'Europe',
+    'IL': 'Asia',
+    'IM': 'Europe',
+    'IN': 'Asia',
+    'IO': 'Asia',
+    'IQ': 'Asia',
+    'IR': 'Asia',
+    'IS': 'Europe',
+    'IT': 'Europe',
+    'JE': 'Europe',
+    'JM': 'North America',
+    'JO': 'Asia',
+    'JP': 'Asia',
+    'KE': 'Africa',
+    'KG': 'Asia',
+    'KH': 'Asia',
+    'KI': 'Oceania',
+    'KM': 'Africa',
+    'KN': 'North America',
+    'KP': 'Asia',
+    'KR': 'Asia',
+    'KW': 'Asia',
+    'KY': 'North America',
+    'KZ': 'Asia',
+    'LA': 'Asia',
+    'LB': 'Asia',
+    'LC': 'North America',
+    'LI': 'Europe',
+    'LK': 'Asia',
+    'LR': 'Africa',
+    'LS': 'Africa',
+    'LT': 'Europe',
+    'LU': 'Europe',
+    'LV': 'Europe',
+    'LY': 'Africa',
+    'MA': 'Africa',
+    'MC': 'Europe',
+    'MD': 'Europe',
+    'ME': 'Europe',
+    'MF': 'North America',
+    'MG': 'Africa',
+    'MH': 'Oceania',
+    'MK': 'Europe',
+    'ML': 'Africa',
+    'MM': 'Asia',
+    'MN': 'Asia',
+    'MO': 'Asia',
+    'MP': 'Oceania',
+    'MQ': 'North America',
+    'MR': 'Africa',
+    'MS': 'North America',
+    'MT': 'Europe',
+    'MU': 'Africa',
+    'MV': 'Asia',
+    'MW': 'Africa',
+    'MX': 'North America',
+    'MY': 'Asia',
+    'MZ': 'Africa',
+    'NA': 'Africa',
+    'NC': 'Oceania',
+    'NE': 'Africa',
+    'NF': 'Oceania',
+    'NG': 'Africa',
+    'NI': 'North America',
+    'NL': 'Europe',
+    'NO': 'Europe',
+    'NP': 'Asia',
+    'NR': 'Oceania',
+    'NU': 'Oceania',
+    'NZ': 'Oceania',
+    'OM': 'Asia',
+    'OS': 'Asia',
+    'PA': 'North America',
+    'PE': 'South America',
+    'PF': 'Oceania',
+    'PG': 'Oceania',
+    'PH': 'Asia',
+    'PK': 'Asia',
+    'PL': 'Europe',
+    'PM': 'North America',
+    'PR': 'North America',
+    'PS': 'Asia',
+    'PT': 'Europe',
+    'PW': 'Oceania',
+    'PY': 'South America',
+    'QA': 'Asia',
+    'RE': 'Africa',
+    'RO': 'Europe',
+    'RS': 'Europe',
+    'RU': 'Europe',
+    'RW': 'Africa',
+    'SA': 'Asia',
+    'SB': 'Oceania',
+    'SC': 'Africa',
+    'SD': 'Africa',
+    'SE': 'Europe',
+    'SG': 'Asia',
+    'SH': 'Africa',
+    'SI': 'Europe',
+    'SJ': 'Europe',
+    'SK': 'Europe',
+    'SL': 'Africa',
+    'SM': 'Europe',
+    'SN': 'Africa',
+    'SO': 'Africa',
+    'SR': 'South America',
+    'SS': 'Africa',
+    'ST': 'Africa',
+    'SV': 'North America',
+    'SY': 'Asia',
+    'SZ': 'Africa',
+    'TC': 'North America',
+    'TD': 'Africa',
+    'TG': 'Africa',
+    'TH': 'Asia',
+    'TJ': 'Asia',
+    'TK': 'Oceania',
+    'TM': 'Asia',
+    'TN': 'Africa',
+    'TO': 'Oceania',
+    'TP': 'Asia',
+    'TR': 'Asia',
+    'TT': 'North America',
+    'TV': 'Oceania',
+    'TW': 'Asia',
+    'TZ': 'Africa',
+    'UA': 'Europe',
+    'UG': 'Africa',
+    'US': 'North America',
+    'UY': 'South America',
+    'UZ': 'Asia',
+    'VC': 'North America',
+    'VE': 'South America',
+    'VG': 'North America',
+    'VI': 'North America',
+    'VN': 'Asia',
+    'VU': 'Oceania',
+    'WF': 'Oceania',
+    'WS': 'Oceania',
+    'XK': 'Europe',
+    'YE': 'Asia',
+    'YT': 'Africa',
+    'ZA': 'Africa',
+    'ZM': 'Africa',
+    'ZW': 'Africa',
+}
 
 optional_info = ['twitter', 'website', 'orcid', 'affiliation', 'city', 'country', 'pronouns', 'expertise', 'bio']
 to_capitalize_info = ['affiliation', 'city', 'country']
 people_fp = Path('_data/people.yaml')
-
+geolocator = Nominatim(user_agent="MyApp")
+artifact_dp = Path('_data/artifacts/')
 
 ### GENERAL METHODS
 
@@ -106,6 +360,24 @@ def get_people_ids(names, people):
     return ids
 
 
+def get_people_names(p_list, people):
+    '''Get names of peoke
+
+    :param p_list: list of people id
+    :param people: dictionary with people information
+    '''
+    names = []
+    for p in p_list:
+        if p is None:
+            names.append(None)
+        elif p not in people:
+            print(f"{p} not found in people")
+            names.append(None)
+        else:
+            names.append(f"{people[p]['first-name']} {people[p]['last-name']}")
+    return names
+
+
 def extract_expertise(people_list, people):
     '''Extract expertise for interesting people
     and return them as a key and a dictionary
@@ -128,6 +400,45 @@ def extract_expertise(people_list, people):
     if len(p_expertise[no_expertise]) == 0:
         p_expertise.pop(no_expertise)
     return p_expertise
+
+
+def get_country_extra_information(country):
+    '''
+    Get country code and continent
+
+    :param country: name of the country
+    '''
+    country_code = None
+    continent = None
+    py_country = pycountry.countries.get(name=country)
+    if py_country is None:
+        py_country = pycountry.countries.get(common_name=country)
+        if py_country is None:
+            print(f"{country} not found")
+    else:
+        country_code = py_country.alpha_3
+        if py_country.alpha_2 not in COUNTRY_ALPHA2_TO_CONTINENT:
+            print(f"No continent found for {country} / {py_country.alpha_2}")
+        else:
+            continent = COUNTRY_ALPHA2_TO_CONTINENT[py_country.alpha_2]
+    return country_code, continent
+
+
+def get_city_location(city):
+    '''
+    Get city longitude and latitude
+
+    :param city: city name
+    '''
+    longitude = None
+    latitude = None
+    location = geolocator.geocode(city)
+    if location is None:
+        print(f"{city} not found")
+    else:
+        longitude = location.longitude
+        latitude = location.latitude
+    return longitude, latitude
 
 
 def extract_people_info(row, people):
@@ -165,9 +476,21 @@ def extract_people_info(row, people):
     id = id.lower().replace(' ', '-').replace('@', '')
     # format country
     if info['country'] is not None:
-        info['country'] = info['country'].replace('UK', 'United Kingdom')
-        info['country'] = info['country'].replace('US', 'United States')
-        info['country'] = info['country'].replace('USA', 'United States')
+        country = info['country']
+        country = country.replace('UK', 'United Kingdom')
+        country = country.replace('US', 'United States')
+        country = country.replace('USA', 'United States')
+        country_3, continent = get_country_extra_information(info['country'])
+        if country_3 is not None:
+            info['country_3'] = country_3
+        if continent is not None:
+            info['continent'] = continent
+    # format city
+    if info['city'] is not None:
+        longitude, latitude = get_city_location(info['city'])
+        if longitude is not None:
+            info['longitude'] = longitude
+            info['latitude'] = latitude
     # format ORCID
     if info['orcid'] is not None:
         info['orcid'] = info['orcid'].replace('https://orcid.org/', '')
@@ -659,6 +982,101 @@ def combine_tags(talks_by_tag):
     return ordered_library
 
 
+### METHODS TO EXTRACT DATA TO CSV
+
+def update_people_info(p_list, p_dict, cohort, role, value):
+    '''
+    Update people attribute for a cohort
+
+    :param p_list: list of people id to update
+    :param p_dict: dictionary with people information
+    :param role: status to add
+    :param cohort: concerned cohort
+    '''
+    for p in p_list:
+        if p is None:
+            continue
+        if p not in p_dict:
+            print(f"{p} not found in people")
+            continue
+        p_dict[p][f'{cohort}-role'].append(role)
+        if role == 'participant' or role == 'mentor':
+            p_dict[p][f'{cohort}-{role}'].append(value)
+        else:
+            p_dict[p][f'{cohort}-{role}'] = value
+
+
+def format_people_per_cohort(people, projects):
+    '''
+    Format to get people with their location and cohort and role
+    (1 entry per person, per cohort, per role)
+
+    :param people: dictionary with people information
+    :param projects: 
+    '''
+    people_per_cohort = []
+    for key, value in people.items():
+        info = {'id': key}
+        # get localisation information
+        for e in ['country', 'country_3', 'city', 'longitude', 'latitude']:
+            info[e] = value[e] if e in value else None
+        # get cohort participation
+        for c in Path('_data/cohorts').iterdir():
+            cohort = get_cohort_name(c)
+            el = f'{cohort}-role'
+            if el in value and len( value[el]) > 0:
+                for r in value[el]:
+                    t_info = copy.copy(info)
+                    t_info['cohort'] = cohort.split('-')[-1]
+                    t_info['role'] = r
+                    people_per_cohort.append(t_info)
+    return people_per_cohort
+
+
+def export_people_per_roles(people_df, out_dp):
+    '''
+    Export people per role
+
+    :param people_df: dataframe with people information
+    :param out_dp: Path object to output directory
+    '''
+    people_info_df = people_df[[
+        'city',
+        'country',
+        'first-name',
+        'last-name',
+        'pronouns',
+        'country_3',
+        'continent',
+        'longitude',
+        'latitude']]
+    out_dp = out_dp / Path("roles")
+    out_dp.mkdir(parents=True, exist_ok=True)
+    for r in ROLES:
+        role_df = people_df.filter(regex = r)
+        role_df = role_df[role_df.filter(regex = r).notna().any(axis=1)]
+        for c in Path('_data/cohorts').iterdir():
+            i = c.name.split("-")[1]
+            role_df.rename(columns={f"ols-{i}-{r}": f"ols-{i}"}, inplace=True)
+        df = pd.merge(
+            people_info_df,
+            role_df,
+            left_index=True,
+            right_index=True,
+            how="inner")
+        fp = Path(out_dp) / Path(f"{r}.csv")
+        df.to_csv(fp)
+
+
+def get_cohort_name(c):
+    '''Get cohort name from cohort data path
+    
+    :param c: Path object to cohort data
+    '''
+    i = c.name.split("-")[1]
+    return f'ols-{i}'
+
+
 ### COMMANDS
 
 def add_projects(cohort, project_df, people_df):
@@ -864,6 +1282,147 @@ def build_library():
         yaml.dump(library, cat_f)
 
 
+def reformate_people():
+    '''
+    Reformate people information
+    '''
+    # get people information
+    people = load_people()
+    # update people information
+    for key, value in people.items():
+        # get location information
+        if 'country' in value:
+            country_3, continent = get_country_extra_information(value['country'])
+            if country_3 is not None:
+                value['country_3'] = country_3
+            if continent is not None:
+                value['continent'] = continent
+        if 'city' in value:
+            longitude, latitude = get_city_location(value['city'])
+            if longitude is not None:
+                value['longitude'] = longitude
+                value['latitude'] = latitude
+    # save people information
+    dump_people(people)
+
+
+def extract_library(out_fp):
+    '''
+    Extract library data to a CSV file
+
+    :param out_fp: Path to CSV file
+    '''
+    library = read_yaml('_data/library.yaml')
+    # flatten the library
+    flat_library = []
+    for tag, t_v in library.items():
+        for subtag, st_v in t_v.items():
+            for v in st_v['talks']:
+                v['tag'] = tag
+                v['subtag'] = subtag
+                flat_library.append(v)
+    # transform to data frame to export it to csv
+    library_df = pd.DataFrame(flat_library)
+    library_df.to_csv(out_fp)
+
+
+def extract_full_people_data(out_dp):
+    '''
+    Extract full people data from website into CSV files
+
+    :param out_dp: Path object to output folder
+    '''
+    # prepare output folder
+    out_dp = Path('_data/artifacts/')
+    out_dp.mkdir(parents=True, exist_ok=True)
+
+    # get people information
+    people = load_people()
+    # format information
+    for key, value in people.items():
+        # remove some keys
+        value.pop('affiliation', None)
+        value.pop('bio', None)
+        value.pop('orcid', None)
+        value.pop('twitter', None)
+        value.pop('website', None)
+        value.pop('github', None)
+        value.pop('title', None)
+        value.pop('expertise', None)
+        # add space for cohorts
+        for c in Path('_data/cohorts').iterdir():
+            cohort = get_cohort_name(c)
+            value[f'{cohort}-role'] = []
+            value[f'{cohort}-participant'] = []
+            value[f'{cohort}-mentor'] = []
+            value[f'{cohort}-expert'] = None
+            value[f'{cohort}-speaker'] = None
+            value[f'{cohort}-facilitator'] =  None
+            value[f'{cohort}-organizer'] =  None
+
+    # get cohort and project informations
+    projects = []
+    for c in Path('_data/cohorts').iterdir():
+        cohort = get_cohort_name(c)
+        # extract experts, facilitators, organizers from metadata
+        metadata = read_yaml(f"{c}/metadata.yaml")
+        update_people_info(metadata['experts'], people, cohort, 'expert', 'expert')
+        if 'facilitators' in metadata:
+            update_people_info(metadata['facilitators'], people, cohort, 'facilitator', 'facilitator')
+        update_people_info(metadata['organizers'], people, cohort, 'organizer',  'organizer')
+        # extract participants, mentors from projects
+        # extract project details
+        cohort_projects = read_yaml(f"{c}/projects.yaml")
+        for p in cohort_projects:
+            # update participant and mentor information
+            update_people_info(p['participants'], people, cohort, 'participant', p['name'])
+            update_people_info(p['mentors'], people, cohort, 'mentor', p['name'])
+            # get project details
+            pr = copy.copy(p)
+            pr['participants'] = get_people_names(p['participants'], people)
+            pr['mentors'] = get_people_names(p['mentors'], people)
+            pr['cohort'] = cohort.split("-")[-1]
+            pr['keywords'] = p['keywords'] if 'keywords' in p else []
+            projects.append(pr)
+        # extract speakers from schedule
+        schedule = read_yaml(f"{c}/schedule.yaml")
+        for w, week in schedule['weeks'].items():
+            for c in week['calls']:
+                if c['type'] == 'Cohort' and 'resources' in c and c['resources'] is not None:
+                    for r in c['resources']:
+                        if r['type'] == 'slides' and 'speaker' in r and r['speaker'] is not None:
+                            update_people_info([r['speaker']], people, cohort,'speaker', 'speaker')
+    
+    # format people / project information per cohort
+    people_per_cohort = format_people_per_cohort(people, projects)
+    
+    # export people information to CSV file
+    people_df = pd.DataFrame.from_dict(people, orient='index')
+    for c in Path('_data/cohorts').iterdir():
+        cohort = get_cohort_name(c)
+        people_df[f'{cohort}-role'] = people_df[f'{cohort}-role'].apply(lambda x: ', '.join([str(i) for i in x]) if len(x)>0 else None)
+        people_df[f'{cohort}-participant'] = people_df[f'{cohort}-participant'].apply(lambda x: ', '.join([str(i) for i in x]) if len(x)>0 else None)
+        people_df[f'{cohort}-mentor'] = people_df[f'{cohort}-mentor'].apply(lambda x: ', '.join([str(i) for i in x]) if len(x)>0 else None)
+    people_fp = out_dp / Path('people.csv')
+    people_df.to_csv(people_fp)
+
+    # export project information to CSV file
+    project_df = pd.DataFrame(projects)
+    project_df['participants'] = project_df['participants'].apply(lambda x: ', '.join([str(i) for i in x]))
+    project_df['mentors'] = project_df['mentors'].apply(lambda x: ', '.join([str(i) for i in x]))
+    project_df['keywords'] = project_df['keywords'].apply(lambda x: ', '.join([str(i) for i in x]))
+    project_fp = out_dp / Path('projects.csv')
+    project_df.to_csv(project_fp)
+
+    # export people per cohort
+    people_per_cohort_df = pd.DataFrame(people_per_cohort)
+    people_per_cohort_fp = out_dp / Path('people_per_cohort.csv')
+    people_per_cohort_df.to_csv(people_per_cohort_fp)
+
+    # export people per role
+    export_people_per_roles(people_df, out_dp)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Interact and prepare OLS website data')
     subparser = parser.add_subparsers(dest='command')
@@ -900,8 +1459,8 @@ if __name__ == '__main__':
     group = updateschedule.add_mutually_exclusive_group()
     group.add_argument('-sf', '--schedule_fp', help="Path to schedule CSV file")
     group.add_argument('-su', '--schedule_url', help="URL to schedule sheet file")
-    # Extract people information of a specific cohort from website to spreadsheets
-    getpeople = subparser.add_parser('getpeople', help='Extract people information of a specific cohort from website to spreadsheets')
+    # Extract people information of a specific cohort to spreadsheets
+    getpeople = subparser.add_parser('getpeople', help='Extract people information of a specific cohort to spreadsheets')
     getpeople.add_argument('-c', '--cohort', help="Cohort id (3, 4, etc)", required=True)
     getpeople.add_argument('-pf', '--participants', help="Path to output sheet with participants details", required=True)
     getpeople.add_argument('-mf', '--mentors', help="Path to output sheet with mentor details", required=True)
@@ -910,8 +1469,17 @@ if __name__ == '__main__':
     getpeople.add_argument('-hf', '--hosts', help="Path to output sheet with call host details", required=True)
     # Extract talks to build library
     buildlibrary = subparser.add_parser('buildlibrary', help='Extract talks to build library')
-
+    # Reformate people data
+    reformatepeople = subparser.add_parser('reformatepeople', help='Reformate people information')
+    # Extract library data to CSV
+    extractlibrary = subparser.add_parser('extractlibrary', help='Extract library data to CSV file stored in _data folder')
+    # Extract full people data to CSV
+    extractfullpeopledata = subparser.add_parser('extractfullpeopledata', help='Extract full people data (location, participation, etc) into CSV files stored in _data folder')
+    
     args = parser.parse_args()
+
+    # prepare artifact folder
+    artifact_dp.mkdir(parents=True, exist_ok=True)
 
     if args.command == 'addprojects':
         if args.project_fp:
@@ -954,3 +1522,9 @@ if __name__ == '__main__':
             Path(args.hosts))
     elif args.command == 'buildlibrary':
         build_library()
+    elif args.command == 'reformatepeople':
+        reformate_people()
+    elif args.command == 'extractlibrary':
+        extract_library(artifact_dp / Path('library.csv'))
+    elif args.command == 'extractfullpeopledata':
+        extract_full_people_data(artifact_dp)

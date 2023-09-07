@@ -21,3 +21,5 @@ dependencies:
   - zlib
   - libxml2
   - pkg-config
+  - pycountry
+  - geopy
