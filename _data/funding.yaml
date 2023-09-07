@@ -57,5 +57,12 @@
   date_award: July 2023
   purpose: TOPS Open Science training cohorts
   proposal: https://doi.org/10.5281/zenodo.8250978
+- funder: czi
+  amount: 228131
+  currency: USD
+  duration: 2 years
+  date_award: Aug 2022
+  purpose: Community leadership and management for Catalyst
+  proposal: https://zenodo.org/record/7025288
   
   
