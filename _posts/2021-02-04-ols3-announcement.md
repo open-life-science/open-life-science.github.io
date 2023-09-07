@@ -30,13 +30,13 @@ Our project leads (aka mentees) have been paired with 1 or 2 mentors based on th
 
 Additionally, we have an incredible experts' community who will be delivering specialised talks during the cohort calls and will be available for our project leads for expert consultations upon request.
 
-We welcome our {{ p-mentors | size }} mentors, {{ p-mentors | join: ', ' }}, based in {{ m-countries | size }} countries ({{ m-countries | join: ', ' }}). {{ prev-part-count }} of them were participants and {{ prev-mentor-count }} mentors in the [previous cohort (OLS-2)]({% link openseeds/ols-2/index.md %}). They will be supported by [{{ experts | size }} experts](/openseeds/{{ cohort }}#experts).
+We welcome our {{ p-mentors | size }} mentors, {{ p-mentors | join: ', ' }}, based in {{ m-countries | size }} countries ({{ m-countries | join: ', ' }}). {{ prev-part-count }} of them were participants and {{ prev-mentor-count }} mentors in the [previous cohort (OLS-2)]({% link openseeds/ols-2/index.md %}). They will be supported by [{{ experts | size }} experts]({% link openseeds/{{ cohort }}/index.md %}#experts).
 
 We are extremely grateful to them for their support and contributions to OLS and their impactful work in other open communities. They are committed to supporting their mentees in this program to help create a more open and fair-research, knowledge-sharing and inclusive culture within life science and beyond.
 
 ### The Program
 
-We begin our program this week with a mentoring training call and mentor-mentee introductions. Check out the complete schedule and plans for OLS-3 here: [{{ site.url }}/{{ cohort }}](/openseeds/{{ cohort }}).
+We begin our program this week with a mentoring training call and mentor-mentee introductions. Check out the complete schedule and plans for OLS-3 here: [{{ site.url }}/{{ cohort }}]({% link openseeds/{{ cohort }}/index.md %}).
 
 You can keep track of our program, the progress of our second cohort and future announcements by following our twitter profile [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}) or subscribe to [our announcements list]({{ site.announcement_list }}).
 
@@ -44,12 +44,12 @@ We invite new contributions to the program as a [new issue on the GitHub repo]({
 
 Once again, let's welcome our mentors, mentees and experts to this program!
 
-## Project details ([click here for full description]({% link openseeds/ols-3/projects-participants.md %}#projects))
+## Project details ([click here for full description]({% link openseeds/{{ cohort }}/projects-participants.md %}#projects))
 
 | Project | Project leaders | Mentors |
 |----------|-----------------------|------------|
 {%- for project in projects %}
-| [{{ project.name }}](/openseeds/{{ cohort }}/projects-participants#{{ project.name | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | remove: "/" | remove: '"' | remove: "'" | remove: "&"  | remove: ";" | replace: " ", "-"  }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/openseeds/{{ cohort }}/projects-participants#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}with [{{ people[p].first-name }} {{ people[p].last-name }}](/openseeds/{{ cohort }}#{{ p }}) {% endfor %} {% endcapture %} {{ p-mentors | remove_first: 'with ' }} |
+| [{{ project.name }}]({% link openseeds/{{ cohort }}/projects-participants.md %}#{{ project.name | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | remove: "/" | remove: '"' | remove: "'" | remove: "&"  | remove: ";" | replace: " ", "-"  }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}]({% link openseeds/{{ cohort }}/projects-participants.md %}#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}with [{{ people[p].first-name }} {{ people[p].last-name }}]({% link openseeds/{{ cohort }}/index.md %}#{{ p }}) {% endfor %} {% endcapture %} {{ p-mentors | remove_first: 'with ' }} |
 {%- endfor %}
 
 We wish our cohort members all the best as they begin this journey with us.

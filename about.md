@@ -23,7 +23,7 @@ After the selection process, they will be involved in the following steps of thi
     They will meet every 2nd week on **mentee-mentor calls** (around 30 minutes). Sam will help Joy evaluate their understanding of the new topics introduced in the program, and guide their progress by providing constructive feedback.
     Joy will be given assignments before these calls to help them apply new skills to their project. When needed, Joy and Sam will connect with other [experts](about#experts) to invite consultation on their project.
 
-2. Joy will participate in online [training calls](/openseeds/ols-4#calls) and share insights with other participants in the program.
+2. Joy will participate in online [training calls]({% link openseeds/ols-4/index.md %}#calls) and share insights with other participants in the program.
 
     In these **cohorts calls**, they will be introduced to new topics and resources, participate in break-out discussions, and listen to [expert talks](about#experts).
 
@@ -63,7 +63,7 @@ Project ideas can range from solving technical questions to creating an open d
     {% endfor %}
     {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if participants > 0 %}
-- [{{ projects | size }} projects](/openseeds/{{ cohort_name }}/projects-participants#projects) ([{{ participants }} participants](/openseeds/{{ cohort_name }}/projects-participants#participants)) for [**{{ cohort_name | upcase }}**](/openseeds/{{ cohort_name }}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ projects | size }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects) ([{{ participants }} participants]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants)) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
     {% endif %}
 {% endfor %}
 
@@ -148,7 +148,7 @@ Recruitment of the mentees for the next cohort will start in few months. Stay tu
     {% endfor %}
     {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if participants > 0 %}
-- [{{ participants }} mentees](/openseeds/{{ cohort_name }}/projects-participants#participants) working on ([{{ projects | size }} projects](/openseeds/{{ cohort_name }}/projects-participants#projects)) for [**{{ cohort_name | upcase }}**](/openseeds/{{ cohort_name }}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ participants }} mentees]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants) working on ([{{ projects | size }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects)) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
     {% endif %}
 {% endfor %}
 
@@ -209,7 +209,7 @@ Our program is only possible thanks to our awesome mentors:
     {% endfor %}
     {% assign mentors = mentors | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if mentors > 0 %}
-- [{{ mentors }} mentors](/openseeds/{{ cohort_name }}#mentors) for [**{{ cohort_name | upcase }}**](/openseeds/{{ cohort_name }}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ mentors }} mentors]({% link openseeds/{{ cohort_name }}/index.md %}#mentors) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
     {% endif %}
 {% endfor %}
 
@@ -247,7 +247,7 @@ We are currently recruiting the experts - this route is a good way to join the p
         {%- assign cohort_end = week[1].start %}
     {% endfor %}
     {% if experts > 0 %}
-- [{{ experts }} experts ](/openseeds/{{ cohort_name }}#experts) for [**{{ cohort_name | upcase }}**](/openseeds/{{ cohort_name }}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ experts }} experts ]({% link openseeds/{{ cohort_name }}/index.md %}#experts) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
     {% endif %}
 {% endfor %}
 
@@ -283,6 +283,6 @@ Our facilitators are essential for the program:
         {% assign cohort_end = week[1].start %}
     {% endfor %}
     {% if facilitators > 0 %}
-- [{{ facilitators }} facilitators](/openseeds/{{ cohort_name }}#facilitators) [**{{ cohort_name | upcase }}**](/openseeds/{{ cohort_name }}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ facilitators }} facilitators]({% link openseeds/{{ cohort_name }}/index.md %}#facilitators) [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
     {% endif %}
 {% endfor %}
