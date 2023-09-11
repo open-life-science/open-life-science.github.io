@@ -25,7 +25,9 @@ layout: index
 
   {% if page.photos %}
   <div class="hero-foot">
-    <p class="credit"><a href="{{ page.photos.url }}">{{ page.photos.name }}</a> ({{ page.photos.license }})</p>
+    {% if page.photos.name or page.photos.url or page.photos.license %}
+    <p class="credit">{% if page.photos.url %}<a href="{{ page.photos.url }}">{% if page.photos.name %}{{ page.photos.name }}{% else %}{{ page.photos.url }}{% endif %}</a>{% elsif page.photos.name %}}{{ page.photos.name }}{% endif %} {% if page.photos.license %}({{ page.photos.license }}){% endif %}</p>
+    {% endif %}
   </div>
   {% endif %}
 </section>
