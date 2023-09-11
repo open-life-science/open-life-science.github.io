@@ -44,7 +44,7 @@ But how do we go about compiling this history’s content? And how do we make th
 Let’s answer each question in turn.
 
 ## Building _An Incomplete History of Research Ethics_
-The method adopted for the creation of _The Timeline_ is inspired by the [Mozilla Open Leadership programme](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/) generally and [OLS](https://openlifesci.org) in particular.
+The method adopted for the creation of _The Timeline_ is inspired by the [Mozilla Open Leadership programme](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/) generally and [OLS]({% link index.md %}) in particular.
 The method rests on three pillars: _community-led dialogue_, _diversity_ and _consistency as change_.
 
 _Community-led dialogue_ means creating stories collaboratively.

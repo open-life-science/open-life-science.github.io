@@ -123,7 +123,7 @@
   mentors:
     - unode
   description: >
-    [Biodiversidade em Foco](http://www.abc.org.br/atuacao/nacional/projeto-de-ciencia-para-o-brasil/biodiversidade-em-foco/)
+    [Biodiversidade em Foco](https://www.abc.org.br/atuacao/nacional/projeto-de-ciencia-para-o-brasil/biodiversidade-em-foco/)
     (@Biodiversity in Focus, in English) will merge a twitter account
     and a blog to promote science communication about Brazilian biodiversity. The project will
     coordinate daily posts communicating recent research findings about Brazilian biodiversity in
@@ -169,7 +169,7 @@
   mentors:
     - yochannah
   description: >
-    <a href="http://intermine.org/">InterMine</a> is a powerful open source data warehouse system.
+    <a href="https://intermine.org/">InterMine</a> is a powerful open source data warehouse system.
     It allows users to integrate
     diverse data sources with a minimum of effort, providing powerful web-services and an
     elegant web-application with minimal configuration. But InterMine warehouses are
@@ -307,7 +307,7 @@
   mentors:
     - bgruening
   description: >
-    <a href="http://edamontology.org/page">EDAM ontology</a> is a long-established project, defining a common, controlled vocabulary in
+    <a href="https://edamontology.org/page">EDAM ontology</a> is a long-established project, defining a common, controlled vocabulary in
     the form of a network of concepts and terms. <a href="https://ifb-elixirfr.github.io/edam-browser/#topic_0091">EDAM</a> covers topics, operations, types of data,
     and data formats used in computational life science, i.e. in analysis of biological data, with
     some bias towards molecular life science and cellular bioimaging.

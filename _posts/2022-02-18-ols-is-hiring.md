@@ -14,7 +14,7 @@ photos:
 
 OLS is hiring a **Community Researcher and Programme Coordinator**.
 
-_Note: If you like the scope of this job but unsure if your profile fits this role - please apply anyway. We are very happy to be contacted for general queries, please email [jobs@openlifesci.org](mailto:jobs@openlifesci.org). Due to a high demand for 1:1 meetings to discuss this role, the OLS team has decided to host a webinar to address [frequently asked questions](#frequently-asked-questions) and specific queries about this vacancy. A recording from this webinar will be posted on our [YouTube channel](https://www.youtube.com/openlifesci)._
+_Note: If you like the scope of this job but unsure if your profile fits this role - please apply anyway. We are very happy to be contacted for general queries, please email [jobs@openlifesci.org](mailto:jobs@openlifesci.org). Due to a high demand for 1:1 meetings to discuss this role, the OLS team has decided to host a webinar to address [frequently asked questions](#frequently-asked-questions) and specific queries about this vacancy. A recording from this webinar will be posted on our [YouTube channel]({{ site.youtube }})._
 
 
 ---
@@ -126,7 +126,7 @@ It's 22. Sorry 🙈
 ### How would you act in the case of things not working well for the candidate in this job? And what would be the sign of "not working well"?
 
 People not learning from a mistake! Mistakes happen and we will give feedback and support, but the biggest worry will be lack of communication or repeating the mistakes.
-We expect all our colleagues to work in alignment with our [values](/community#our-values).
+We expect all our colleagues to work in alignment with our [values]({% link community.md %}#our-values).
 
 ### What are the next steps in the application process after the interviews?
 

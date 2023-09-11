@@ -28,7 +28,7 @@ photos:
         "@type": "LearningResource",
         "@id": "{{ topic[0] }}-{{ tag[0] }}-{{ forloop.index }}",
         "dct:conformsTo": {
-            "http://purl.org/dc/terms/conformsTo": {
+            "https://purl.org/dc/terms/conformsTo": {
                 "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
                 "@type": "CreativeWork"
             }
@@ -69,7 +69,7 @@ photos:
             "@type": "Course",
             "@id": "{{ site.url }}/{{ v.cohort }}",
             "dct:conformsTo": {
-                "http://purl.org/dc/terms/conformsTo": {
+                "https://purl.org/dc/terms/conformsTo": {
                     "@id": "https://bioschemas.org/profiles/Course/1.0-RELEASE",
                     "@type": "CreativeWork"
                 }

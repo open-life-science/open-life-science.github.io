@@ -27,7 +27,7 @@ After learning about this, we unanimously voted to partner with FORRT. We didn't
 
 ## Skills Policy Awards
 
-Shortly after this, we were lucky enough to spot an opportunity that fit us well. OLS already had two [resident fellows](https://openlifesci.org/posts/2022/12/14/OLS-Fellowships/), and after some quick thought, we wrote a grant application for the Alan Turing Institute, focused on government-level policy towards digital skills - and included a resident fellowship for Flavio, FORRT's Director and Bethan Iley, FORRT's community development coordinator. This allowed OLS to benefit from FORRT's institutional knowledge around inclusion in open science, whilst also supporting FORRT by creating a paid staff role. Meet our two members: 
+Shortly after this, we were lucky enough to spot an opportunity that fit us well. OLS already had two [resident fellows]({% link _posts/2022-12-14-OLS-Fellowships.md %}), and after some quick thought, we wrote a grant application for the Alan Turing Institute, focused on government-level policy towards digital skills - and included a resident fellowship for Flavio, FORRT's Director and Bethan Iley, FORRT's community development coordinator. This allowed OLS to benefit from FORRT's institutional knowledge around inclusion in open science, whilst also supporting FORRT by creating a paid staff role. Meet our two members: 
 
 ## Flavio
 

@@ -46,10 +46,10 @@ We especially welcome you if you are:
 
 Interested in applying for the next round? We can't wait to see your project proposal! 
 Please submit your application via [OpenReview](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2022/Cohort_5) before the end of the day on **15 January 2022** (hard deadline). **Important note:** The deadline for registering for OpenReview is 12 January, as all OpenReview accounts are approved manually. 
-To learn about the timeline, process and details for the OLS-5, visit our homepage: [openlifesci.org/](https://openlifesci.org/) and 
-[GitHub repo with application guidelines](https://github.com/open-life-science/application-forms).
+To learn about the timeline, process and details for the OLS-5, visit our homepage: [{{ site.url }}]({% link index.md %}) and
+[GitHub repo with application guidelines]({{ site.github.owner_url }}/application-forms).
 
 
-We encourage you to watch the OLS graduations from the last three cohorts [on YouTube](https://www.youtube.com/openlifesci) to get a sense of what the project will be like (direct link to [OLS-3 graduation calls](https://www.youtube.com/playlist?list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA)).
+We encourage you to watch the OLS graduations from the last three cohorts [on YouTube]({{ site.youtube }}) to get a sense of what the project will be like (direct link to [OLS-3 graduation calls](https://www.youtube.com/playlist?list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA)).
 
 For OLS-5 we'll be offering micro-grants, as we did in [OLS-3 and OLS-4]({% link _posts/2020-11-23-micro-grants-in-2021-ols-3-ols-4.md %}) to help grow participation and inclusion, and to support budding new projects. More details regarding the budget will be shared in a separate blog post.

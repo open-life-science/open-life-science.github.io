@@ -51,7 +51,7 @@ The project has been supported by [many organisations]({% link partners.md %}) t
 - **June 2020**: 'OLS-2 for Turing' collaboration with [*The Turing Way*](https://the-turing-way.netlify.app/welcome) to support Open Source projects from The Alan Turing Institute and The Turing Way community
 - **August 2020**: OLS was awarded the [EOSC-Life](https://www.eosc-portal.eu/eosc-life) Training grant to build a cohort with the EOSC Research Infrastructure community in **2021**
 - **August 2020**: OLS registers as a Limited company with **£1 (GBP 1) in assets**
-- **May-September 2020**: Software Sustainability Institute Fellowship pays for OLS-2 communication platform cost and mentorship training by [360 Training UK](http://360training.co.uk/)
+- **May-September 2020**: Software Sustainability Institute Fellowship pays for OLS-2 communication platform cost and mentorship training by [360 Training UK](https://360training.co.uk/)
 
 Bonus trivia: In July 2020, OLS was also shortlisted as one of the two projects as ["best innovation in Open Source Technology"](https://cogx.co/cogx-awards/cogx-awards-2020-shortlisted/) by CogX - a global festival for AI and technology. Though we did not win the award, we attracted the attention of early-stage researchers interested in building their projects on AI and data science.
 

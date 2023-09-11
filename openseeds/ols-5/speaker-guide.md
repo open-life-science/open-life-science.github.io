@@ -21,7 +21,7 @@ This program is led by the OLS team members, i.e. us - Bérénice Batut,
 Malvika Sharan, Yo Yehudi and Emmy Tsang. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
-We will be running our [5th cohort](projects-participants.md)
+We will be running our [5th cohort]({% link openseeds/ols-5/projects-participants.md %})
 A complete syllabus of this cohort can be found [here]({% link openseeds/ols-5/schedule.md %}).
 
 # About our Code of Conduct
@@ -52,7 +52,7 @@ if further details on your talk might be necessary.
 
 These calls take place online via Zoom, a link for which will be shared with you, usually via the cohort call notes.
 
-You can check if Zoom works on your system by using this link: [http://zoom.us/test](http://zoom.us/test).
+You can check if Zoom works on your system by using this link: [https://zoom.us/test](https://zoom.us/test).
 
 ## Call notes
 

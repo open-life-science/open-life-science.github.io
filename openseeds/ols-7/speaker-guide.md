@@ -53,7 +53,7 @@ if further details on your talk might be necessary.
 
 These calls take place online via Zoom, a link for which will be shared with you, usually via the cohort call notes.
 
-You can check if Zoom works on your system by using this link: [http://zoom.us/test](http://zoom.us/test).
+You can check if Zoom works on your system by using this link: [https://zoom.us/test](https://zoom.us/test).
 
 ## Call notes
 

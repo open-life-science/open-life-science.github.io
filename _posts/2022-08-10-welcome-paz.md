@@ -43,7 +43,7 @@ In the **next 2 years**, Paz will continue to be a **key coordinator of OLS coho
 
 She will be working closely with the OLS leadership, as well as past and present OLS project leads, mentors, facilitators, experts, and partners on this important work (see our [Wellcome Open Research Fund proposal](https://zenodo.org/record/5267934) for details).
 
-You can connect with her on Twitter ([PazByC](https://twitter.com/PazByC)), and [follow OLS](https://twitter.com/openlifesci) for future updates.
+You can connect with her on Twitter ([PazByC](https://twitter.com/PazByC)), and [follow OLS](https://twitter.com/{{ site.twitter }}) for future updates.
 
 ![Paz is connecting dots in her mind, mimicking a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named 'Pepe Silvia' does not exist.](/images/2022-08-paz-meme.png)
 

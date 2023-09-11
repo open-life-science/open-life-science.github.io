@@ -43,6 +43,6 @@ En los **próximos 2 años**, Paz actuará como **coordinadora clave de las coho
 
 Trabajará en estrecha colaboración con las directoras de OLS, así como con las y los pasados ​​y presentes líderes, mentores, facilitadores, expertes y socies del proyecto OLS (consulta nuestra [propuesta del Wellcome Open Research Fund](https://zenodo.org/record/5267934) para más detalles).
 
-Puedes conectarte con Paz en Twitter ([PazByC](https://twitter.com/PazByC)) y [siga OLS](https://twitter.com/openlifesci) para recibir futuras noticias.
+Puedes conectarte con Paz en Twitter ([PazByC](https://twitter.com/PazByC)) y [siga OLS](https://twitter.com/{{ site.twitter }}) para recibir futuras noticias.
 
 ![Paz está conectando puntos en su mente, imitando una referencia de meme a una de las escenas más famosas de It's Always Sunny In Philadelphia en la que el personaje de Charlie hace una diatriba conspiradora sobre cómo cree que una persona llamada 'Pepe Silvia' no existe.](/images/2022-08-paz-meme.png)

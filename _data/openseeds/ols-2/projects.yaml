@@ -244,7 +244,7 @@
     such data under past and future climatic conditions. This hinders
     projecting the predictions from niche and distribution models over
     global change scenarios at different time periods. The Land Use
-    Harmonization Project ([LUH2](http://luh.umd.edu/data.shtml)) is a global
+    Harmonization Project ([LUH2](https://luh.umd.edu/data.shtml)) is a global
     dataset in raster format covering continental areas, and provides massive
     LULC data from 850 to 2300. However, these data are compressed in a file
     format (NetCDF) that are intractable by most ecologists. We aim to selected

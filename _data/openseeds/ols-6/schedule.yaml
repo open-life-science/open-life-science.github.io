@@ -203,7 +203,7 @@ weeks:
       before: |
         - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
         - Rework on your vision statement
-           - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/) or [Hemingway Editor](http://www.hemingwayapp.com/)
+           - Write your vision in the [Up-Goer 5 editor](https://splasho.com/upgoer5/) or [Hemingway Editor](https://www.hemingwayapp.com/)
            - Refine it with the editor’s help
            - Paste it in your GitHub issue
            - Read it to the Breakout room friends during the next call and hear their feedback :)
@@ -292,7 +292,7 @@ weeks:
         on their README'
       after: |-
         - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
-          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05]({% link openseeds/ols-6/schedule.md %}#week-05).
+          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/openseeds/ols-6/schedule.html#week-05).
         - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
           Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
           In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)

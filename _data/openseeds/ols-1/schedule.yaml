@@ -52,7 +52,7 @@ weeks:
             - How meeting your cultural goals for your community, organization, or project will help solve the problem.
 
         - Add your vision statement to your GitHub issue
-        - Check the [Syllabus](https://openlifesci.org/ols-1) for notes and connection info for all the cohort calls
+        - Check the [Syllabus](/openseeds/ols-1) for notes and connection info for all the cohort calls
     - type: Mentor
       duration: 60 min
       title: Mentor training
@@ -160,11 +160,11 @@ weeks:
         - Complete any week 2 assignments that you have left to do
         - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
         - Rework on your vision statement
-            - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/)
+            - Write your vision in the [Up-Goer 5 editor](https://splasho.com/upgoer5/)
             - Refine it with the editor's help
             - Paste it in your GitHub issue
             - Read it to the Breakout room friends during the next call and hear their feedback :)
-            - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
+            - Other possibility: [Hemingway Editor](https://www.hemingwayapp.com/)
   '04':
     start: February 10, 2020
     calls:
@@ -193,11 +193,11 @@ weeks:
       before: |
         - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
         - Rework on your vision statement
-            - Write your vision in the [Up-Goer 5 editor](http://splasho.com/upgoer5/)
+            - Write your vision in the [Up-Goer 5 editor](https://splasho.com/upgoer5/)
             - Refine it with the editor's help
             - Paste it in your GitHub issue
             - Read it to the Breakout room friends during the next call and hear their feedback :)
-            - Other possibility: [Hemingway Editor](http://www.hemingwayapp.com/)
+            - Other possibility: [Hemingway Editor](https://www.hemingwayapp.com/)
       after: |
         - Create a GitHub repository for your project
         - Add the link to your repository in your issue
@@ -275,7 +275,7 @@ weeks:
         link: https://help.github.com
       - type: external-link
         title: Oh Shit, Git!?!
-        link: http://ohshitgit.com
+        link: https://ohshitgit.com
       - type: external-link
         title: Try Git
         link: https://try.github.io
@@ -328,7 +328,7 @@ weeks:
       after: |
         - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
 
-          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05]({% link openseeds/ols-1/schedule.md %}#week-05).
+          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/openseeds/ols-1/schedule.html#week-05).
 
         - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
 
@@ -425,7 +425,7 @@ weeks:
         link: https://zenodo.org/
       - type: external-link
         title: JOSS - Journal of Open Source Software
-        link: http://joss.theoj.org/
+        link: https://joss.theoj.org/
       - type: external-link
         title: JORS - Journal of Open Research Software
         link: https://openresearchsoftware.metajnl.com/

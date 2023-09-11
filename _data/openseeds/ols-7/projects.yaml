@@ -714,7 +714,7 @@
     first component is to build a resource listing system, likely based on Quarto
     (https://quarto.org/docs/websites/website-listings-custom.html), that will take
     data from YAML files, and convert to a listing on a static web page that allows
-    for filter and sorting. The openlifesci.org website actually does an incredible
+    for filter and sorting. The we-are-ols.org website actually does an incredible
     job of displaying structured lists that come from YAML, but uses Jekyll to do
     this.   I also intend to build out a system in GitHub actions that will accept
     and validate new entries that come through a form or GitHub Issues. The second

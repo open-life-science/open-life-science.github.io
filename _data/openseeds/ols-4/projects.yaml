@@ -11,7 +11,7 @@
     * Make to install software \n* SAM Tools: useful pipelines and software for Bioinformatics\n\
     * AWK: A programming language for text file processing \n* Bash: Shell and programming\
     \ language\n* Git and GitHub for version control \n\nAs part of a boot camp organized\
-    \ by [RSG Ecuador](http://https://rsg-ecuador.iscbsc.org) and [iGEM Ecuador](https://www.facebook.com/iGEMECUADOR),\
+    \ by [RSG Ecuador](https://https://rsg-ecuador.iscbsc.org) and [iGEM Ecuador](https://www.facebook.com/iGEMECUADOR),\
     \ we generated the first version of this resource, available as an [e-book](https://rsg-ecuador.github.io/unix.bioinfo.rsgecuador/)\
     \ powered by [Jupyter Book](https://jupyterbook.org) and GitHub. However, this\
     \ resource has not been launched yet because we have doubts about open licenses,\
@@ -607,7 +607,7 @@
     not be shared for some reason, or is not yet ready to publish openly. During the
     OLS program, we aim to build an open community around Hub23 to help to guide future
     technical developments, and encourage use and contributions from the wider Turing
-    community. We will host a series of [Zero-to-Binder workshops](http://bit.ly/zero-to-binder-python)
+    community. We will host a series of [Zero-to-Binder workshops](https://bit.ly/zero-to-binder-python)
     aimed at introducing Turing researchers to regular binder, followed by structured
     discussion of what the ideal features of a collaborative reproducible environment
     for research would be. Any conclusions and subsequent technical development will
