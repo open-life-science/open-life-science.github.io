@@ -4,7 +4,7 @@
 
 {% if c.type != "Mentor-Mentee" and c.date %}
 <i class="fas fa-calendar-alt"></i> **Date**: {{ c.date }}{% if c.time %}, at [{{ c.time }} Universal Time](https://arewemeetingyet.com/UTC/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/
-{{ cohort | upcase }}%20Cohort%20Call%20(Week%20{{ week-nb }})) ([<i class="fas fa-calendar-plus"></i> *Add to your calendar*]({{ c.calendar-event }})){% endif %}
+{{ cohort | upcase }}%20Cohort%20Call%20(Week%20{{ week-nb }})) {% if c.calendar-event %}([<i class="fas fa-calendar-plus"></i> *Add to your calendar*]({{ c.calendar-event }})){% endif %}{% endif %}
 {% else %}
 <i class="fas fa-calendar-alt"></i> **Date**: During the week starting on {{ week.start }} (to define with mentors)
 {% endif %}
