@@ -45,3 +45,4 @@ includes_dir: .
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-github-metadata
