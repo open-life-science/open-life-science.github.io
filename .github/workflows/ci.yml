@@ -25,5 +25,5 @@ jobs:
             --ignore-urls "/.*localhost.*/","/.*gitter\.im.*/" \
             --allow_missing_href  \
             --no-enforce-https  \
-            --no-check-internal-hash \
+            --check-internal-hash=false \
             ./_site
