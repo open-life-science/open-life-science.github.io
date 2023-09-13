@@ -23,7 +23,7 @@ jobs:
             --ignore-empty-alt \
             --ignore-status-codes 405,429,503,999 \
             --ignore-urls "/.*localhost.*/","/.*gitter\.im.*/" \
-            --no-enforce-https  \
+            --enforce-https=false  \
             --disable-external \
             --check-internal-hash \
             ./_site
