@@ -19,11 +19,11 @@ jobs:
           bundle exec htmlproofer \
             --assume-extension \
             --allow-hash-href \
+            --allow_missing_href  \
             --ignore-empty-alt \
-            --disable-external \
             --ignore-status-codes 405,429,503,999 \
             --ignore-urls "/.*localhost.*/","/.*gitter\.im.*/" \
-            --allow_missing_href  \
             --no-enforce-https  \
-            --check-internal-hash=false \
+            --disable-external \
+            --check-internal-hash \
             ./_site
