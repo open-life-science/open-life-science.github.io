@@ -7,16 +7,16 @@ description: >
 
 items:
   -
-    text: Apply for our next cohort
-    link: /openseeds/index#applications
+    text: Read about and apply for our next Open Seeds cohort
+    link: /openseeds
     icon: fa fa-graduation-cap
   -
     text: Check out our upcoming events
-    link: /events
+    link: /events.html
     icon:  fa fa-calendar
   -
     text: Read our stories
-    link: /posts
+    link: /posts.html
     icon: fa fa-book-open
   -
     text: Watch our videos on YouTube
@@ -24,7 +24,7 @@ items:
     icon: fab fa-youtube
   -
     text: Check out our Open Science video library 
-    link: /library
+    link: /library.html
     icon: fas fa-video
   -
     text: Follow us on Twitter
