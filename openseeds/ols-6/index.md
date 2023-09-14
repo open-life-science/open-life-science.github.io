@@ -6,7 +6,9 @@ photos:
   name: Niklas Morberg
   license: CC BY-NC 2.0
   url: https://flic.kr/p/5BXB6s
-redirect_from: /OLS-6
+redirect_from:
+  - /OLS-6
+  - /ols-6
 ---
 
 {% include _includes/cohort-metadata.html cohort='ols-6' %}
