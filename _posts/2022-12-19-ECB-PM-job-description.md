@@ -10,7 +10,7 @@ photos:
   url: https://www.pexels.com/photo/join-us-scrabbles-letters-3127880
 ---
 
-Open Life Science (OLS, https://openlifesci.org) is hiring a Programme Manager to coordinate and manage a global, multilateral grant-funded project with the aims to (1) deploy and manage open cloud infrastructure for under-resourced communities in Latin America and Africa, (2) create training and build capacity within these communities, and (3) identify a participatory service model for this infrastructure. 
+Open Life Science (OLS, [{{ site.url }}]({% link index.md %})) is hiring a Programme Manager to coordinate and manage a global, multilateral grant-funded project with the aims to (1) deploy and manage open cloud infrastructure for under-resourced communities in Latin America and Africa, (2) create training and build capacity within these communities, and (3) identify a participatory service model for this infrastructure. 
 
 # About OLS and this role
 
@@ -93,4 +93,4 @@ OLS is an employer that recognises that experience can be more about opportunity
 
 *Note: If you like the scope of this job but are unsure if your profile fits this role - please apply anyway.*
 
-We celebrate diversity and are committed to creating a safe and inclusive environment for all employees. If you feel that the description of this role has not matched up to the commitment of these ideals, please let us know via jobs@openlifesci.org, or contact one of the OLS directors directly - one of (Yo, Bérénice, Emmy, Malvika) at openlifesci.org. The OLS Code of Conduct can be found here: <https://openlifesci.org/code-of-conduct>.
+We celebrate diversity and are committed to creating a safe and inclusive environment for all employees. If you feel that the description of this role has not matched up to the commitment of these ideals, please let us know via jobs@openlifesci.org, or contact one of the OLS directors directly - one of (Yo, Bérénice, Emmy, Malvika) at {{ site.url }}. The OLS Code of Conduct can be found here: [{{ site.url }}/code-of-conduct]({% link code-of-conduct.md %}).

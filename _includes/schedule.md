@@ -9,7 +9,7 @@
         "@type": "Course",
         "@id": "{{ site.url }}/{{ cohort }}/schedule#week-{{ w[0] }}",
         "dct:conformsTo": {
-            "http://purl.org/dc/terms/conformsTo": {
+            "https://purl.org/dc/terms/conformsTo": {
                 "@id": "https://bioschemas.org/profiles/Course/1.0-RELEASE",
                 "@type": "CreativeWork"
             }
@@ -19,8 +19,8 @@
         "name": "{{ name }}",
         "about": {
             "@type": "DefinedTerm",
-            "@id": "http://edamontology.org/topic_4010",
-            "inDefinedTermSet": "http://edamontology.org",
+            "@id": "https://edamontology.org/topic_4010",
+            "inDefinedTermSet": "https://edamontology.org",
             "termCode": "topic_4010",
             "name": "Open Science",
             "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic_4010"
@@ -31,7 +31,7 @@
             "@context": "https://schema.org",
             "@type": "CourseInstance",
             "dct:conformsTo": {
-                "http://purl.org/dc/terms/conformsTo": {
+                "https://purl.org/dc/terms/conformsTo": {
                     "@id": "https://bioschemas.org/profiles/CourseInstance/1.0-RELEASE",
                     "@type": "CreativeWork"
                 }
@@ -48,7 +48,7 @@
                 "@context": "https://schema.org",
                 "@type": "LearningResource",
                 "dct:conformsTo": {
-                    "http://purl.org/dc/terms/conformsTo": {
+                    "https://purl.org/dc/terms/conformsTo": {
                         "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
                         "@type": "CreativeWork"
                     }
@@ -58,8 +58,8 @@
                 "name": "Notes and recording for {{ name }}",
                 "about": {
                     "@type": "DefinedTerm",
-                    "@id": "http://edamontology.org/topic_4010",
-                    "inDefinedTermSet": "http://edamontology.org",
+                    "@id": "https://edamontology.org/topic_4010",
+                    "inDefinedTermSet": "https://edamontology.org",
                     "termCode": "topic_4010",
                     "name": "Open Science",
                     "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic_4010"

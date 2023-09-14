@@ -19,7 +19,7 @@ and how you can join as a participant in the next cohort, Open Seeds OLS-8.
 # Open Seeds OLS-7 graduations: you're invited!
 
 Around [50 individuals]({% link _posts/2022-12-01-announcing-applications-for-ols-7.md %}) with 30 projects
-from all around the world participated in OLS-7 ([see our projects and participants]({% link _ols-7/projects-participants.md %})). 
+from all around the world participated in OLS-7 ([see our projects and participants]({% link openseeds/ols-7/projects-participants.md %})). 
 We have reached the 16th week of the Open Seeds Mentoring and Training Programme.
 Our participants have learnt from the OLS team, their mentors, experts, facilitators, and peers about open research practices, 
 reflected deeply and practised open skills in their own communities and contexts, and grew their ideas and projects. 
@@ -30,7 +30,7 @@ In their graduation sessions, they will present and share their work with the wi
 We sincerely invite everyone to join, to learn more about project leads' journeys, celebrate their work, 
 ask questions, and explore new ideas and collaborations!
 
-You are invited to the watch party of two Open Seeds graduation calls, which will be [live-streamed on YouTube](https://youtube.com/c/openlifesci)!
+You are invited to the watch party of two Open Seeds graduation calls, which will be [live-streamed on YouTube]({{ site.youtube }})!
 
 - **Session 1**: 14 June 2023, 14:00 - 15:30 BST ([in your time zone](https://arewemeetingyet.com/London/2023-06-14/14:00))
 - **Session 2**: 15 June 2023, 17:00 - 18:30 BST ([in your time zone](https://arewemeetingyet.com/London/2023-06-15/17:00))
@@ -65,7 +65,7 @@ This will be a 1-hour call to help you finish your applications if you might nee
 - **Africa in-person trial run**: A maximum of 3 projects from Kenya and 3 from South Africa will be admitted into the trial run and paired with local mentors, 
 providing opportunities to meet in person every month during the Open Seeds OLS-8. Please read details in [this blog post]({% link _posts/2023-06-07-OLS-8-and-africa-trial-run.md %})
 
-- **Get inspirations from the previous projects**: We encourage you to watch the OLS graduations from the last four cohorts [on YouTube](https://www.youtube.com/openlifesci) to get a sense of what the project will be like (direct link to [OLS-5 graduation calls](https://youtu.be/9XMGsmekddM))).
+- **Get inspirations from the previous projects**: We encourage you to watch the OLS graduations from the last four cohorts [on YouTube]({{ site.youtube }}) to get a sense of what the project will be like (direct link to [OLS-5 graduation calls](https://youtu.be/9XMGsmekddM))).
 
 Meanwhile, if you have any further questions or any advice that might be helpful, please email the OLS team ([{{ site.email }}](mailto:{{ site.email }})).
 

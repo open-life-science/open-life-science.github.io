@@ -1,7 +1,7 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item" href="{% link index.md %}">
             <img src="/images/logo.png" alt="OLS">
         </a>
         <a
@@ -19,26 +19,26 @@
       <div id="top-menu" class="navbar-menu">
         <div class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">OLS program</a>
+            <a class="navbar-link" href="{% link openseeds/index.md %}">OLS program</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="/index#applications"> Applications </a>
-              <a class="navbar-item" href="/about"> The program itself </a>
-              <a class="navbar-item" href="/about#projects"> Projects </a>
-              <a class="navbar-item navbar-previous-title" href="/about#the-roles"> Role description </a>
-              <a class="navbar-item" href="/about#mentees"> Mentees </a>
-              <a class="navbar-item" href="/about#mentors"> Mentors </a>
-              <a class="navbar-item" href="/about#experts"> Experts </a>
-              <a class="navbar-item" href="/about#facilitators"> Facilitators </a>
-              <a class="navbar-item navbar-previous-title" href="/index#cohorts"> Cohorts </a>
-              <a class="navbar-item navbar-previous-title" href="/library"> Video Library </a>
+              <a class="navbar-item" href="{% link openseeds/index.md %}#applications"> Applications </a>
+              <a class="navbar-item" href="{% link about.md %}"> The program itself </a>
+              <a class="navbar-item" href="{% link about.md %}#projects"> Projects </a>
+              <a class="navbar-item navbar-previous-title" href="{% link about.md %}#the-roles"> Role description </a>
+              <a class="navbar-item" href="{% link about.md %}#mentees"> Mentees </a>
+              <a class="navbar-item" href="{% link about.md %}#mentors"> Mentors </a>
+              <a class="navbar-item" href="{% link about.md %}#experts"> Experts </a>
+              <a class="navbar-item" href="{% link about.md %}#facilitators"> Facilitators </a>
+              <a class="navbar-item navbar-previous-title" href="{% link openseeds/index.md %}#cohorts"> Cohorts </a>
+              <a class="navbar-item navbar-previous-title" href="{% link library.md %}"> Video Library </a>
             </div>
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/ols-8">OLS-8</a>
+            <a class="navbar-link" href="{% link openseeds/ols-8/index.md %}">OLS-8</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="/ols-8"> Syllabus </a>
-              <a class="navbar-item" href="/ols-8/schedule"> Schedule</a>
+              <a class="navbar-item" href="{% link openseeds/ols-8/index.md %}"> Syllabus </a>
+              <a class="navbar-item" href="{% link openseeds/ols-8/schedule.md %}"> Schedule</a>
               <!--<a class="navbar-item" href="/ols-7/projects-participants/"> Projects & Participants</a>
               <a class="navbar-item" href="/ols-7#mentors"> Mentors & Experts </a>
               <a class="navbar-item" href="/ols-7#collaborators"> Collaborators </a>
@@ -47,47 +47,33 @@
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/ols-7">OLS-7</a>
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="/ols-7"> Syllabus </a>
-              <a class="navbar-item" href="/ols-7/schedule"> Schedule</a>
-              <a class="navbar-item" href="/ols-7/projects-participants/"> Projects & Participants</a>
-              <a class="navbar-item" href="/ols-7#mentors"> Mentors & Experts </a>
-              <a class="navbar-item" href="/ols-7#collaborators"> Collaborators </a>
-              <a class="navbar-item" href="/ols-7#resources"> Resources </a>
-            </div>
-          </div>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/about">Policies</a>
+            <a class="navbar-link" href="{% link about.md %}">Policies</a>
             <div class="navbar-dropdown">
               <a class="navbar-item" href="{{ site.github.owner_url }}/policies-procedures-and-docs/blob/main/CODE_OF_CONDUCT.md"> Code of Conduct </a>
             </div>
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/about">About</a>
+            <a class="navbar-link" href="{% link about.md %}">About</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="/people"> People </a>
-              <a class="navbar-item" href="/community"> Team </a>
-              <a class="navbar-item" href="/funders"> Funding & Supporters </a>
-              <a class="navbar-item" href="/partners"> Partners </a>
+              <a class="navbar-item" href="{% link people.md %}"> People </a>
+              <a class="navbar-item" href="{% link community.md %}"> Team </a>
+              <a class="navbar-item" href="{% link funders.md %}"> Funding & Supporters </a>
+              <a class="navbar-item" href="{% link partners.md %}"> Partners </a>
               <!--<a class="navbar-item" href="/events"> Events </a>-->
             </div>
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/about">Services</a>
+            <a class="navbar-link" href="{% link about.md %}">Services</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="/consulting"> Consulting </a>
+              <a class="navbar-item" href="{% link consulting.md %}"> Consulting </a>
               <!--<a class="navbar-item" href="/training"> On demand training </a>
               <a class="navbar-item" href="/"> Fiscal hosting </a>-->
             </div>
           </div>
-
-
-
-          <a class="navbar-item" href="/posts"> Stories </a>
+          
+          <a class="navbar-item" href="{% link posts.md %}"> Stories </a>
         </div>
       </div>
     </div>

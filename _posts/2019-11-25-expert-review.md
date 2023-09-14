@@ -11,7 +11,7 @@ photos:
   url: https://unsplash.com/photos/Ij7h-m4nJ18
 ---
 
-The [Open Life Science](https://openlifesci.org/) program is offered to the researchers and potential academic leaders who want to become ambassadors for Life Science in their communities. Developed as a part of the [Mozilla Open Leaders X](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/), this 15-week long personal mentorship and cohort-based training enable sharing knowledge, connecting communities and empowering individuals involved in this program.
+The [OLS]({% link index.md %}) program is offered to the researchers and potential academic leaders who want to become ambassadors for Life Science in their communities. Developed as a part of the [Mozilla Open Leaders X](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/), this 15-week long personal mentorship and cohort-based training enable sharing knowledge, connecting communities and empowering individuals involved in this program.
 
 Ever since the launch of this program on October 25, we have been asked by several people on different occasions why we care about mentoring people in Open Science and what motivated us to design this program. The three of us might have started working on this project with different ideas in mind, but when we actually started to finalize our potential target audience and topics for their training, we knew that with this program we want to promote a culture of Open Science that is intentional and inclusive.
 

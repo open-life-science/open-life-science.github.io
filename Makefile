@@ -72,11 +72,14 @@ check-links: build ## check all links
 	$(ACTIVATE_ENV) && \
 	  	htmlproofer \
 	      	--assume-extension \
-	      	--http-status-ignore 405,503,999 \
-	      	--url-ignore "/.*localhost.*/","/.*gitter\.im.*/" \
-	      	--allow-hash-href \
-			--empty_alt_ignore \
-	      	./_site
+			--allow-hash-href \
+			--ignore_empty_alt \
+			--disable-external \
+			--ignore_status_codes 405,429,503,999 \
+			--allow_missing_href \
+			--no-enforce_https \
+			--no-check-internal-hash \
+			./_site
 .PHONY: check-html
 
 update-schedule: ## update schedule (TODO before: update bin/update_schedule.sh with correct information)

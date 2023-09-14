@@ -13,7 +13,7 @@ Open Life Science:
       date: February 17, 2021
       cohort: ols-3
     - slides: 
-        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit
       speakers:
       - emmyft
       title: Welcome to OLS!
@@ -21,7 +21,7 @@ Open Life Science:
       date: March 07, 2022
       cohort: ols-5
     - slides: 
-        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit
       speakers:
       - yochannah
       title: Welcome to OLS!
@@ -29,28 +29,28 @@ Open Life Science:
       date: March 16, 2022
       cohort: ols-5
     - slides: 
-        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit
       speakers:
       - yochannah
       title: Welcome to OLS!
       date: September 22, 2021
       cohort: ols-4
     - slides: 
-        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit
       speakers:
       - malvikasharan
       title: Welcome to OLS!
       date: September 29, 2021
       cohort: ols-4
     - slides: 
-        https://docs.google.com/presentation/d/1w_WWb7Mj7NgX4pLBejB4Vc_ofK7ZHOUYOT1MCeKVi20/present?token=AC4w5VjvHWSZBrOwwb1EcSm8v45lUi3nqQ%3A1599724146314&includes_info_params=1&eisi=CLPd6-uM3usCFdIWswUdsiINRA#slide=id.g6e457e6ac5_0_69
+        https://docs.google.com/presentation/d/1w_WWb7Mj7NgX4pLBejB4Vc_ofK7ZHOUYOT1MCeKVi20/present?token=AC4w5VjvHWSZBrOwwb1EcSm8v45lUi3nqQ%3A1599724146314&includes_info_params=1&eisi=CLPd6-uM3usCFdIWswUdsiINRA
       speakers:
       - bebatut
       title: Welcome to OLS!
       date: September 10, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit#slide=id.p2
+        https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit
       speakers:
       - yochannah
       title: Welcome to OLS!
@@ -58,7 +58,7 @@ Open Life Science:
       date: September 27, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit#slide=id.p2
+        https://docs.google.com/presentation/d/1huJSmgaQMqB3go3XUcw_H61p6my0gkZE/edit
       speakers:
       - yochannah
       title: Welcome to OLS!
@@ -74,7 +74,7 @@ Open Life Science:
       date: March 07, 2023
       cohort: ols-7
     - slides: 
-        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit
       speakers:
       - yochannah
       title: Welcome to OLS!
@@ -146,7 +146,7 @@ Tooling for Project Design:
       date: September 10, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
+        https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit
       speakers:
       - malvikasharan
       title: Introducing Open Canvas
@@ -154,7 +154,7 @@ Tooling for Project Design:
       date: September 27, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit#slide=id.p19
+        https://docs.google.com/presentation/d/18YFRfG6zmoOcpGFH_H2tl6HziY7dWQ0u/edit
       speakers:
       - yochannah
       title: Introducing Open Canvas
@@ -238,7 +238,7 @@ Tooling for Project Design:
       date: September 10, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
+        https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit
       speakers:
       - emmyft
       title: Introducing Road Mapping
@@ -246,7 +246,7 @@ Tooling for Project Design:
       date: September 27, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit#slide=id.p1
+        https://docs.google.com/presentation/d/1ZwsxOkiik6QnJtwt5BU42_Uu9u1TbnJC/edit
       speakers:
       - yochannah
       title: Introducing Road Mapping
@@ -318,7 +318,7 @@ Tooling for Collaboration:
       date: September 24, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/1YGZVJhEuvuv1YKEVH_DW8aCVnwqCoBRC/edit#slide=id.p1
+        https://docs.google.com/presentation/d/1YGZVJhEuvuv1YKEVH_DW8aCVnwqCoBRC/edit
       speakers:
       - contraexemplo
       title: Open Licensing
@@ -389,7 +389,7 @@ Tooling for Collaboration:
       date: October 12, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/1V2-6PbJiPOYGBGsHJbKj9Y49iPHsHnAIKnhCuV40U3I/edit#slide=id.g2224fafcba8_0_37
+        https://docs.google.com/presentation/d/1V2-6PbJiPOYGBGsHJbKj9Y49iPHsHnAIKnhCuV40U3I/edit
       speakers:
       - ekariuki-sleepy
       title: README & Contributing for Open Projects
@@ -442,7 +442,7 @@ Tooling for Collaboration:
       date: September 24, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/1hN_aYQT_uL3CczvB-62MSlhPa8Opnukh/edit#slide=id.p2
+        https://docs.google.com/presentation/d/1hN_aYQT_uL3CczvB-62MSlhPa8Opnukh/edit
       speakers:
       - sayalaruano
       title: Contributing Guidelines and Code of Conduct
@@ -463,7 +463,7 @@ Tooling for Collaboration:
     description: Set up your project to work collaboratively with others
     talks:
     - slides: 
-        https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
+        https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit
       speakers:
       - bebatut
       title: Welcoming new contributions to your project
@@ -509,7 +509,7 @@ Tooling for Collaboration:
       date: October 13, 2021
       cohort: ols-4
     - slides: 
-        https://docs.google.com/presentation/d/1a14DBUdW2LOAtlNv181gZ_KTc_W_xAqy/edit#slide=id.p1
+        https://docs.google.com/presentation/d/1a14DBUdW2LOAtlNv181gZ_KTc_W_xAqy/edit
       speakers:
       - pherterich
       title: Introduction to GitHub
@@ -517,7 +517,7 @@ Tooling for Collaboration:
       date: October 18, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit#slide=id.g6e56d02ad9_0_0
+        https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit
       title: Introduction to GitHub
       recording: https://youtu.be/hXRw33CbDJk
       date: March 28, 2023
@@ -617,7 +617,7 @@ Open Science:
       date: October 08, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/1SJJjYujbAjRUgrjbT7ZSofqp4tgZ5eNf5wPMqHRfmn4/edit#slide=id.g175a0ec481e_1_88
+        https://docs.google.com/presentation/d/1SJJjYujbAjRUgrjbT7ZSofqp4tgZ5eNf5wPMqHRfmn4/edit
       speakers:
       - pazbc
       title: Open science hardware
@@ -728,7 +728,7 @@ Open Science:
       date: November 30, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/1HRxtMemWWYrBniYkW60twA3Fd0AuEDdNryGREagDypk/edit#slide=id.g21f04b7f88a_0_77
+        https://docs.google.com/presentation/d/1HRxtMemWWYrBniYkW60twA3Fd0AuEDdNryGREagDypk/edit
       speakers:
       - mdbarker
       title: Open Source Software
@@ -764,7 +764,7 @@ Open Science:
       date: March 17, 2021
       cohort: ols-3
     - slides: 
-        https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
+        https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit
       speakers:
       - emma-anne-harris
       title: FAIR data
@@ -772,7 +772,7 @@ Open Science:
       date: April 14, 2021
       cohort: ols-3
     - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vQ__5JVOhFNoKufqIPflvEfUE1Vuxi9Euj975yCI14nJfeeyansg1RpuIteyTtmlQCyfacWTwB_QZ3N/pub?start=false&loop=false&delayms=3000#slide=id.p
+        https://docs.google.com/presentation/d/e/2PACX-1vQ__5JVOhFNoKufqIPflvEfUE1Vuxi9Euj975yCI14nJfeeyansg1RpuIteyTtmlQCyfacWTwB_QZ3N/pub?start=false&loop=false&delayms=3000
       speakers:
       - unode
       title: Open Data
@@ -826,7 +826,7 @@ Open Science:
       date: October 25, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/1lwPYHKFaH221S-Y8T8tk1phJpk7fsPA64kn3TfaGWHQ/edit#slide=id.g7e28a7e96f_0_0
+        https://docs.google.com/presentation/d/1lwPYHKFaH221S-Y8T8tk1phJpk7fsPA64kn3TfaGWHQ/edit
       speakers:
       - dasaptaerwin
       title: Earthquakes, preprints and everything in between
@@ -906,7 +906,7 @@ Open Science:
       date: March 11, 2020
       cohort: ols-1
     - slides: 
-        https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
+        https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit
       speakers:
       - alexholinski
       title: FAIR training
@@ -914,7 +914,7 @@ Open Science:
       date: April 14, 2021
       cohort: ols-3
     - slides: 
-        https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
+        https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit
       speakers:
       - pivg
       title: Open access, Preprints
@@ -957,7 +957,7 @@ Open Science:
       date: March 11, 2020
       cohort: ols-1
     - slides: 
-        https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit#slide=id.g7e28a7e96f_0_0
+        https://docs.google.com/presentation/d/18g_OfcwiUmX-vZnshM0mfs8xutOkeF3iA-RSaTpJs0Y/edit
       speakers:
       - iratxepuebla
       title: "Let's talk #preprint"
@@ -971,7 +971,7 @@ Open Science:
       date: May 02, 2022
       cohort: ols-5
     - slides: 
-        https://docs.google.com/presentation/d/1ThmPqDzvdNvThXK0Q0hlCiRX6rG3Ha5IDbvfyy4YuPw/edit#slide=id.g7e28a7e96f_0_146
+        https://docs.google.com/presentation/d/1ThmPqDzvdNvThXK0Q0hlCiRX6rG3Ha5IDbvfyy4YuPw/edit
       speakers:
       - marcel-laflamme
       title: Getting started with preprints
@@ -1070,7 +1070,7 @@ Open Science:
       date: October 22, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/1i9ZS2bw_zefmjYBVTZSieyp4xI_T9PrH-pIiPeP3wY0/edit#slide=id.g21280744133_2_33 
+        https://docs.google.com/presentation/d/1i9ZS2bw_zefmjYBVTZSieyp4xI_T9PrH-pIiPeP3wY0/edit
       speakers:
       - batoolmm
       title: Openness to diversity of knowledge
@@ -1084,7 +1084,7 @@ Project, Community & Personal Management:
     description: Developing projects through iterative feedback processes
     talks:
     - slides: 
-        https://docs.google.com/presentation/d/1C_RurOY1W__HLRbPTTzmdYT-qdTpuF2qi7leL4Hzdok/edit#slide=id.g7e28a7e96f_0_0
+        https://docs.google.com/presentation/d/1C_RurOY1W__HLRbPTTzmdYT-qdTpuF2qi7leL4Hzdok/edit
       speakers:
       - yochannah
       title: Agile and iterative project management methods
@@ -1092,7 +1092,7 @@ Project, Community & Personal Management:
       date: February 26, 2020
       cohort: ols-1
     - slides: 
-        https://docs.google.com/presentation/d/1MQZS-Nh_mlUJ2JMxzAHAbqP8q1ny_Ktxx0GX0vaj2a4/edit#slide=id.g7e28a7e96f_0_0
+        https://docs.google.com/presentation/d/1MQZS-Nh_mlUJ2JMxzAHAbqP8q1ny_Ktxx0GX0vaj2a4/edit
       speakers:
       - unode
       title: Agile and iterative project management methods
@@ -1122,7 +1122,7 @@ Project, Community & Personal Management:
       date: October 08, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/12pcWhXgmYwuAXo_h--lIFEqGgJoGmXcprguTKg8obLA/edit#slide=id.g6e56d0296c_0_0
+        https://docs.google.com/presentation/d/12pcWhXgmYwuAXo_h--lIFEqGgJoGmXcprguTKg8obLA/edit
       speakers:
       - alexwlchan
       title: Agile & Iterative Project Management
@@ -1191,7 +1191,7 @@ Project, Community & Personal Management:
       date: March 25, 2020
       cohort: ols-1
     - slides: 
-        https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
+        https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit
       speakers:
       - emmyft
       title: Mountain of Engagement
@@ -1207,7 +1207,7 @@ Project, Community & Personal Management:
       date: April 20, 2022
       cohort: ols-5
     - slides: 
-        https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
+        https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit
       speakers:
       - chadsansing
       title: Mountain of Engagement
@@ -1223,7 +1223,7 @@ Project, Community & Personal Management:
       date: December 03, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/1ZmgEnKaED_4Nc9H_UhXC1G3J61qOcjAcuN7Un_RxxWo/edit#slide=id.gf6411d1bc9_1_1
+        https://docs.google.com/presentation/d/1ZmgEnKaED_4Nc9H_UhXC1G3J61qOcjAcuN7Un_RxxWo/edit
       speakers:
       - chadsansing
       title: Mountain of Engagement
@@ -1231,7 +1231,7 @@ Project, Community & Personal Management:
       date: November 09, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit#slide=id.p
+        https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit
       speakers:
       - zee-moz
       title: The Mountain of Engagement
@@ -1304,19 +1304,19 @@ Project, Community & Personal Management:
       date: April 01, 2020
       cohort: ols-1
     - slides: 
-        https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+        https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit
       speakers:
       - emmyft
       title: Personal Ecology and Self Care
       date: April 07, 2021
       cohort: ols-3
     - slides: 
-        https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+        https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit
       title: Personal Ecology and Self Care
       date: May 23, 2022
       cohort: ols-5
     - slides: 
-        https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+        https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit
       speakers:
       - malvikasharan
       title: Personal Ecology and Self Care
@@ -1324,7 +1324,7 @@ Project, Community & Personal Management:
       date: December 08, 2021
       cohort: ols-4
     - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
+        https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000
       title: Personal Ecology and Self Care
       date: October 29, 2020
       cohort: ols-2
@@ -1336,7 +1336,7 @@ Project, Community & Personal Management:
       date: December 13, 2022
       cohort: ols-6
     - slides: 
-        https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit#slide=id.p
+        https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit
       speakers:
       - malvikasharan
       - msundukova
@@ -1381,7 +1381,7 @@ Project, Community & Personal Management:
     description: Considering different kinds of interactions for your community
     talks:
     - slides: 
-        https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
+        https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit
       speakers:
       - yochannah
       title: Community interactions
@@ -1396,7 +1396,7 @@ Project, Community & Personal Management:
       date: April 20, 2022
       cohort: ols-5
     - slides: 
-        https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
+        https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit
       speakers:
       - contraexemplo
       title: Welcoming new contributors + Thinking about community interactions
@@ -1545,7 +1545,7 @@ Open Leadership:
       date: November 19, 2020
       cohort: ols-2
     - slides: 
-        https://docs.google.com/presentation/d/1a9OlvL9AY8EMbZm3JPg6dESfbqIdVudpA1IbnznzG2M/edit#slide=id.g7e28a7e96f_0_0
+        https://docs.google.com/presentation/d/1a9OlvL9AY8EMbZm3JPg6dESfbqIdVudpA1IbnznzG2M/edit
       speakers:
       - jafsia
       title: Academic leadership, group or project leaders

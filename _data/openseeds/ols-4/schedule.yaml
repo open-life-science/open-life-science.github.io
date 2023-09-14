@@ -1,0 +1,763 @@
+# Schedule for the OLS-4
+---
+timeline:
+- date: June 21, 2021
+  description: Call for Application opens on [Open 
+    Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4)
+  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
+- date: June 30, 2021
+  description: Application webinar
+  type:
+  - Talk
+  - Q&A
+  notes: 
+    https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
+  recording:
+  details: Watch recordings from previous webinars on 
+    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+- date: July 09, 2021
+  description: Application Clinic Call
+  type:
+  - Q&A
+  notes: 
+    https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
+  details: At this call, OLS team will be available to provide help if you have any
+    question related to your application
+- date: July 19, 2021
+  description: Open Review registration deadline
+- date: July 21, 2021
+  description: Call for applications closed
+- date: August 16, 2021
+  description: Successful applicants announced
+weeks:
+  '01':
+    start: September 13, 2021
+    calls:
+    - duration: 30 min
+      content: |-
+        In this call, participants will:
+        - Meet each other
+        - Discuss their personal motivation, expectations, workin practices and project goals
+      title: 1st mentor-mentee meeting
+      type: Mentor-Mentee
+      resources: []
+      talks: []
+    - date: September 16, 2021
+      time: "16:00"
+      duration: 60 min
+      content: |-
+        In this call, participants will:
+        - Understand common successes and challenges in mentoring OLS participants
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+      title: Mentor onboarding group 1
+      type: Mentor
+      resources: []
+      talks: []
+    - date: September 17, 2021
+      time: "10:00"
+      duration: 60 min
+      content: |-
+        In this call, participants will:
+        - Understand common successes and challenges in mentoring OLS participants
+        - Know how to celebrate successes and approach challenges in mentoring OLS participants.
+      title: Mentor onboarding group 2
+      type: Mentor
+      resources: []
+      talks: []
+  '02':
+    start: September 20, 2021
+    calls:
+    - date: September 22, 2021
+      time: "13:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-02
+      content: |-
+        In this call, participants will:
+        - Say hello and introduce ourselves
+        - Review our Community Participation Guidelines
+        - Review our definition of open leadership
+        - Unpack the differences between “open by default” and “open by design”
+        - Learn about common community interactions in open projects.
+        - Learn about common value exchanges between community members in open science
+      title: Welcome to Open Life Science!
+      type: Cohort
+      resources: []
+      before: '- Add your vision statement to your GitHub issue'
+      after: |-
+        - Look up two other projects and comment on their issues with feedback on their vision statement
+        - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
+        - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
+        - Share a link to your Open Canvas in your GitHub issue
+        - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
+        - Comment on your issue with your draft Roadmap
+        - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
+      recording: https://youtu.be/NsVX4a3ZOF8
+      hosts:
+      - yochannah
+      - emmyft
+      - bebatut
+      facilitators:
+      - batoolmm
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        speakers:
+        - yochannah
+        title: Welcome to OLS!
+        tag: OLS Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        speakers:
+        - bebatut
+        title: Introducing Open Canvas
+        recording: https://youtu.be/NsVX4a3ZOF8?t=1866
+        tag: Open Canvas
+      - slides: 
+          https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speakers:
+        - emmyft
+        title: Introducing Road Mapping
+        recording: https://youtu.be/NsVX4a3ZOF8?t=2642
+        tag: Project Roadmapping
+    - date: September 22, 2021
+      time: "18:00"
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 1
+      type: Mentor
+      resources: []
+      talks: []
+    - date: September 23, 2021
+      time: "10:00"
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 2
+      type: Mentor
+      resources: []
+      talks: []
+  '03':
+    start: September 27, 2021
+    calls:
+    - duration: 30 min
+      title: 2nd mentor-mentee meeting
+      type: Mentor-Mentee
+      resources: []
+      talks: []
+    - date: September 29, 2021
+      time: "18:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-03
+      content: |-
+        In this call, participants will:
+        - Say hello and introduce ourselves
+        - Review our Community Participation Guidelines
+        - Review our definition of open leadership
+        - Unpack the differences between “open by default” and “open by design”
+        - Learn about common community interactions in open projects.
+        - Learn about common value exchanges between community members in open science
+      title: Welcome to Open Life Science!
+      type: Cohort
+      resources: []
+      before: '- Add your vision statement to your GitHub issue'
+      after: |-
+        - Look up two other projects and comment on their issues with feedback on their vision statement
+        - Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
+        - Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
+        - Share a link to your Open Canvas in your GitHub issue
+        - Start your [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
+        - Comment on your issue with your draft Roadmap
+        - Suggest a cohort name at the bottom of the shared notes and vote on your favorite with a +1
+      hosts:
+      - yochannah
+      - emmyft
+      - malvikasharan
+      recording: https://www.youtube.com/watch?v=NsVX4a3ZOF8&t=1969s
+      facilitators:
+      - batoolmm
+      - ekaroune
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1B-TiVAHx6OVririv88-H59_BlPwniS5xDnhZtoDU280/edit#slide=id.g6e457e6ac5_0_69
+        speakers:
+        - malvikasharan
+        title: Welcome to OLS!
+        tag: OLS Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/10CkS3j8LZBULwpy6zzwO2GBHbNBBStD6v4jceuP1TDg/edit?usp=sharing
+        speakers:
+        - emmyft
+        title: Introducing Open Canvas
+        recording: https://youtu.be/gcDNb_-JbDI?t=1968
+        tag: Open Canvas
+      - slides: 
+          https://docs.google.com/presentation/d/1ncWeisU45m5INf-xNBMHtM-GGPvZ6v0mPlrwOh6FY_I/edit?usp=sharing
+        speakers:
+        - yochannah
+        title: Introducing Road Mapping
+        recording: https://youtu.be/gcDNb_-JbDI?t=3069
+        tag: Project Roadmapping
+  '04':
+    start: October 04, 2021
+    calls:
+    - date: October 06, 2021
+      time: "18:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-04
+      content: "In this call, participants will:\n- Look at project structure as we
+        build open projects\n- Go over the standard files in open projects\n   - README\n\
+        \   - LICENSE\n   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact
+        project structure and files used may look different on your project.\n  "
+      title: Tooling and roadmapping for Open projects
+      type: Cohort
+      before: |
+        - Look up two other projects and comment on their GitHub issues with feedback on their open canvas
+        - Rework on your vision statement
+           - Write your vision in the [Up-Goer 5 editor](https://splasho.com/upgoer5/) or [Hemingway Editor](https://www.hemingwayapp.com/)
+           - Refine it with the editor’s help
+           - Paste it in your GitHub issue
+           - Read it to the Breakout room friends during the next call and hear their feedback :)
+      after: |-
+        - Create a GitHub repository for your project
+        - Add the link to your repository in your issue
+        - Use your canvas to [start writing a `README.md` file](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/), or landing page, for your projectLink your README in a comment on this issue
+        - Add an [open license](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/) to your repository as a file called `LICENSE.md`
+        - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
+        - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
+      resources: []
+      hosts:
+      - yochannah
+      - emmyft
+      - ekaroune
+      recording: https://youtu.be/kAxVZDI18RU
+      facilitators:
+      - landimi2
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1JX7IBxHBlMBd5xf3Qxu-ZbInqgIXA-Y0eulHJiv5dA0/edit?usp=sharing
+        speakers:
+        - kaythaney
+        title: Open Licensing
+        recording: https://youtu.be/kAxVZDI18RU?t=973
+        tag: Open Licensing
+      - slides: 
+          https://docs.google.com/presentation/d/1CYTTEzAzSLUOR6-dwBfhZc5a753OJ2wfu2EXJvXBPkY/edit?usp=sharing
+        speakers:
+        - alexwlchan
+        title: README
+        recording: https://youtu.be/kAxVZDI18RU?t=2270
+        tag: README
+      - slides: 
+          https://docs.google.com/presentation/d/1ko91U3CXbuFd3hiXRtrLxVtNcoMQgzvhAVeKId0dFZc/edit?usp=sharing
+        speakers:
+        - ekaroune
+        title: Contributing Guidelines and Code of Conduct
+        recording: https://youtu.be/kAxVZDI18RU?t=3329
+        tag: Code of Conduct
+  '05':
+    start: October 11, 2021
+    calls:
+    - duration: 30 min
+      title: 3rd mentor-mentee meeting
+      type: Mentor-Mentee
+      resources: []
+      talks: []
+    - date: October 13, 2021
+      time: "13:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-05
+      content: |-
+        In this call, participants will:
+        - Create a GitHub repository
+        - Write in Markdown
+        - Create a README file
+        - Enable a small website via GitHub
+        - Managing issues and labels
+        - Submit changes via Pull Request
+      title: GitHub tutorial for beginners
+      type: Skill-up
+      resources: []
+      recording: https://youtu.be/lRW8mlpTw5M
+      hosts:
+      - yochannah
+      - malvikasharan
+      before: |
+        - Please create a GitHub account: https://github.com
+        - Have a look at the [OLS-4 repository](https://github.com/open-life-science/ols-4/issues) for 'project issues'
+        - Comment of 1-2 project's recent post (vision, open canvas etc.)
+        - Create your 'project issue' as described [here](https://www.youtube.com/watch?v=UG5TAIU6IVM)
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1qymN0F-kToQfFIPjXOrXe7lHPy_UB0Buew2kAI1WfWg/edit?usp=sharing
+        speakers:
+        - malvikasharan
+        title: Introduction to GitHub
+        recording: https://youtu.be/lRW8mlpTw5M
+        tag: GitHub Introduction
+  '06':
+    start: October 18, 2021
+    calls:
+    - date: October 20, 2021
+      time: "13:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-06
+      content: |-
+        In this call, participants will:
+        - Hear about Iterative Project management
+        - Get familiar with Open Software, Open Hardware, Research Data Management
+      title: 'Open Science I: Project Development and Introduction to Working Open'
+      type: Cohort
+      resources: []
+      before: '- Look up two other projects and comment on their issues with feedback
+        on their README'
+      after: |-
+        - [Get your project online](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/)
+          For help with GitHub and GitPages, check the [slides](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing) and [video](https://youtu.be/QRUvQgKbVZQ) from [week 05](/openseeds/ols-4/schedule.html#week-05).
+        - [Create a project development plan for your project](https://docs.google.com/document/d/1DlU8_3AfYWpy8MZ2Hb0Ls-2c1HvHdp1luzxWGaqLXHE/edit?usp=sharing)
+          Assignment to help you use Agile methods to breakdown your milestones into smaller tasks and define a timeline for your milestones
+          In your own time: After this assignment, you can transfer your tasks to a project management or kanban tools such as [GitHub projects](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
+        - Start creating a [contribution guideline](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/) for your communit
+      recording: https://www.youtube.com/watch?v=kjhrrfF2fvM
+      hosts:
+      - yochannah
+      - malvikasharan
+      - emmyft
+      - landimi2
+      facilitators:
+      - fnyasimi
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1I_mQbmVHC1HHzqwyb8UvE3OYt4dALs4V/edit?usp=sharing&ouid=113525991197089671289&rtpof=true&sd=true
+        speakers:
+        - nick-barlow
+        title: Agile & Iterative Project Management Methods
+        recording: https://youtu.be/kjhrrfF2fvM?t=2548
+        tag: Agile & Iteractive Project Management
+      - slides: 
+          https://docs.google.com/presentation/d/1cfeNl3URWS-IOrG-gwfEzIsg1VN9JQepQhcP54xvAkY/edit?usp=sharing
+        speakers:
+        - samvanstroud
+        title: Open Source in Research
+        recording: https://youtu.be/kjhrrfF2fvM?t=4383
+        tag: Open Source Software
+      - slides: https://doi.org/10.5281/zenodo.5582718
+        speakers:
+        - selgebali
+        title: Research data management
+        recording: https://youtu.be/kjhrrfF2fvM?t=261
+        tag: Open Data
+  '07':
+    start: October 25, 2021
+    calls:
+    - duration: 30 min
+      title: 4th mentor-mentee meeting
+      type: Mentor-Mentee
+      resources: []
+      talks: []
+    - date: October 27, 2021
+      time: "18:00"
+      duration: 30 min
+      notes: https://bit.ly/ols-4-week-07
+      title: Q&A call
+      type: Q&A
+      resources: []
+      talks: []
+  '08':
+    start: November 01, 2021
+    calls:
+    - date: November 03, 2021
+      time: "18:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-08
+      content: |-
+        In this call, participants will:
+        - Learn how to develop Open collaboration by design
+        - Hear Mountain of engagement and community interactions
+        - Learn about Personas and pathways and welcoming new contributors
+      title: Community design for inclusivity
+      type: Cohort
+      after: "- [Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n
+        assignment\n- Think through community interactions\n- Complete the midterm
+        survey\n      \n        "
+      resources: []
+      recording: https://youtu.be/Mu5Dq6KAMqA
+      hosts:
+      - da5nsy
+      - yochannah
+      - emmyft
+      facilitators:
+      - da5nsy
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQBX5k9RiqQdh9Vjt4O07dUVKku4qI8UyE7Bhy9i0iJpEJETq4KbHeFhHmbv1IM5I0Z1qK-NQLlqNfX/pub?start=false&loop=false&delayms=3000
+        speakers:
+        - batoolmm
+        title: Using Personas and Pathways to Build Community
+        recording: https://youtu.be/Mu5Dq6KAMqA?t=199
+        tag: Personas & Pathways
+      - slides: 
+          https://docs.google.com/presentation/d/1-yxiApKB96HIeyLGl7m7uyNjcHW74VP-XV457B-Euw4/edit#slide=id.g459038e743_0_73
+        speakers:
+        - chadsansing
+        title: Mountain of Engagement
+        recording: https://youtu.be/Mu5Dq6KAMqA?t=1715
+        tag: Mountain of Engagement
+      - slides: 
+          https://docs.google.com/presentation/d/1s0uV2klFu8RyTCfpWIqL0lUjYlk6u_vx92v48nk-TU8/edit#slide=id.g6e991a6896_0_209
+        speakers:
+        - contraexemplo
+        title: Welcoming new contributors + Thinking about community interactions
+        recording: https://youtu.be/Mu5Dq6KAMqA?t=2752
+        tag: Community Interactions
+  '09':
+    start: November 08, 2021
+    calls:
+    - duration: 30 min
+      title: 5th mentor-mentee meeting
+      type: Mentor-Mentee
+      resources: []
+      talks: []
+    - date: November 10, 2021
+      time: "13:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-09
+      content: "In this call, participants will:\n- Hear from the professionals from
+        different career paths\n- Ask them questions about their careers\n- Share
+        worries/insecurities related to your career path, profession or area of work
+        \n- Tips and advice to overcome challenges as an open researcher"
+      title: 'Open Leadership: Academia, industry and beyond!'
+      type: Skill-up
+      before: "A few days before the event, think about how you might briefly answer
+        the following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n
+        - how did you choose your career ?\n- what did you study to prepare ?\n- what
+        do you actually do at work on a typical day ?\n- have you ever felt discriminated
+        against (e.g. due to gender, race, ethnicity...) and how did you respond ?\n
+        - do you have a life outside your work ? a family ? hobbies ?\n- what advice
+        would you give someone wanting to enter your field ?\n- on a scale of 1-10
+        (10 being the most), how much do you enjoy your current work?\n- do you want
+        to switch your career or field? Why or why not?      \n      \n        "
+      resources: []
+      recording: https://youtu.be/qGF0ubW2RWE
+      talks:
+      - speakers:
+        - mannyco
+        title: Post-academia career path, Social entrepreneurship
+        tag: Open Leadership in Practice
+      - title: Academic leadership, group or project leaders
+        tag: Open Leadership in Practice
+      - title: Community building, Science Communication
+        tag: Open Leadership in Practice
+      - speakers:
+        - aki-macfarlane
+        title: Policymakers, funders, meta-researchers
+        tag: Open Leadership in Practice
+  '10':
+    start: November 15, 2021
+    calls:
+    - date: November 17, 2021
+      time: "13:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-10
+      content: |-
+        In this call, participants will:
+        - Practicing open science
+        - DOI and citations: Paper, data, preprints, blogs
+        - Non-tradtional publication: pre-registrations, code, protocols, training materials
+        - Public engagement: Citizen Science/Participatory research, Scientific communication
+      title: 'Open Science II: Knowledge Dissemination'
+      type: Cohort
+      before: |-
+        - Create a project development plan for your project
+          - [Assignment to help you use Agile methods](https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing) to breakdown your milestones into smaller tasks and define a timeline for your milestones
+        - You can transfer your tasks to a project management or kanban tools such as GitHub projects ([short intro](https://unito.io/blog/github-projects-agile/)), [Trello](https://trello.com/templates/project-management), [Asana](https://asana.com/uses/kanban-boards?msclkid=c0e51366148511fc77394d30727faada&utm_source=bing&utm_medium=cpc&utm_campaign=NB%7CUK%7CEN%7CBoards%7CEX&utm_term=kanban%20board&utm_content=Kanban%20Board), [Zenhub in GitHub](https://www.zenhub.com/)
+        - Make sure that by now you have added a license, contribution guideline and a Code of Conduct in your GitHub repository. If you feel stuck and don’t know where you start, take a look at [this repo](https://github.com/malvikasharan/developing_collaborative_document)
+        - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-4/issues) with feedback on their project
+      resources: []
+      recording: https://youtu.be/SfGHnCedkwY
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1ThmPqDzvdNvThXK0Q0hlCiRX6rG3Ha5IDbvfyy4YuPw/edit#slide=id.g7e28a7e96f_0_146
+        speakers:
+        - marcel-laflamme
+        title: Getting started with preprints
+        recording: https://youtu.be/SfGHnCedkwY?t=1862
+        tag: Open Access Publication
+      - slides: 
+          https://github.com/Nikoleta-v3/talks/blob/master/talks/2021-11-17-Open-Life-Science/main.pdf
+        speakers:
+        - nikoleta-v3
+        title: Publishing & Citing Open Research Code
+        recording: https://youtu.be/SfGHnCedkwY?t=3485
+        tag: Open Source Software
+      - slides: 
+          https://docs.google.com/presentation/d/1AaZETO7piGCfhJP9_UoQGFOWKD5LA5Pg7X0r7rlfkts/edit?usp=sharing
+        speakers:
+        - bebatut
+        title: Usable, comprehensive, accessible, FAIR and empowering training - The
+          case of the Galaxy Training Network
+        recording: https://youtu.be/SfGHnCedkwY?t=205
+        tag: Open Educational Resources
+  '11':
+    start: November 22, 2021
+    end: November 26, 2021
+    calls:
+    - duration: 30 min
+      title: 6th mentor-mentee meeting
+      type: Mentor-Mentee
+      resources: []
+      talks: []
+    - date: November 24, 2021
+      time: "18:00"
+      duration: 30 min
+      notes: https://bit.ly/ols-4-week-11
+      title: Q&A call
+      type: Q&A
+      resources: []
+      talks: []
+  '12':
+    start: November 29, 2021
+    calls:
+    - date: December 01, 2021
+      time: "18:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-12
+      title: Diversity and Inclusion & Ally skills
+      type: Cohort
+      before: "- Go to [https://implicit.harvard.edu](https://implicit.harvard.edu)
+        complete the 'Gender - Career' or 'Gender - Science' quiz (10 minutes)   \
+        \   \n   - You can 'continue as a guest' by choosing your country\n   - Answer
+        these questions when you've finished the implicit association test: What does
+        inclusion mean to you? Did your results of the implicit association test surprise
+        you?\n- Think how people step up for you in social scenarios and how you step
+        up for them to support each other:\n   - What do your colleagues do to make
+        your workplace inclusive for you?\n   - What do you do to make your workplace
+        inclusive for them?\n   The big idea: Based on your experience, what would
+        you consider doing to make your project inclusive for your contributors or
+        team members?"
+      resources: []
+      recording: https://youtu.be/tT-hmAWUFKI
+      talks:
+      - slides: 
+          https://drive.google.com/file/d/1Xofpeq6TUGKVhJRounufGnW62q_lewP6/view?usp=sharing
+        title: 'Inclusion is not an afterthought or (Unconscious bias: Does it really
+          matter?)'
+        recording: https://youtu.be/tT-hmAWUFKI?t=965
+        tag: Equity, Diversity and Inclusion (EDI)
+      - slides: 
+          https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
+        title: Ally skills - Optional
+        recording: https://youtu.be/tT-hmAWUFKI?t=2126
+        tag: Ally Skills for Open Leaders
+  '13':
+    start: December 06, 2021
+    calls:
+    - duration: 30 min
+      title: 7th mentor-mentee meeting
+      type: Mentor-Mentee
+      resources: []
+      talks: []
+    - date: December 08, 2021
+      time: "13:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-13
+      content: |-
+        In this call, participants will:
+        - Discuss the importance of taking care of mental health and avoiding burn out for both project leaders and community members
+      title: Self-care & Social call
+      type: Skill-up
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      resources: []
+      recording: https://youtu.be/94FySX0WwPM
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
+        speakers:
+        - malvikasharan
+        title: Personal Ecology and Self Care
+        recording: https://youtu.be/94FySX0WwPM?t=154
+        tag: Personal Ecology
+  '14':
+    start: December 13, 2021
+    calls:
+    - date: December 15, 2021
+      time: '12:30'
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-14
+      content: "In this call, participants will:\n- Learn how to apply FAIR research
+        principles on data, software, training to make research \"as open as possible,
+        as restricted as necessary.\"\n      \n        "
+      title: 'Open Science III: Next steps - applying FAIR research principles'
+      type: Cohort
+      resources:
+      - link: 
+          https://docs.google.com/presentation/d/1p-hNZTifBNHo_gbFPQlUW6YmLKIGH1jWJnWXIGoWQYs/edit#slide=id.p
+        type: slides
+        title: FAIR Data
+      - link: 
+          https://docs.google.com/presentation/d/1MPxp0Y3qN6H35QNMrtcXOXkRhtx6Tbo89-GiBsrBkaA/edit#slide=id.g7e28a7e96f_0_60
+        type: slides
+        title: FAIR Training
+      - type: slides
+        title: FAIR software
+      after: '- Think about and plan to apply FAIR principles to your project in your
+        own time'
+    - date: December 15, 2021
+      time: "13:30"
+      duration: 90 min
+      notes: https://bit.ly/ols-4-week-14
+      content: "In this call, participants will:\n- Learn how to apply FAIR research
+        principles on data, software, training to make research \"as open as possible,
+        as restricted as necessary.\"\n      \n        "
+      title: 'Open Science III: Next steps in open'
+      recording: https://youtu.be/DbqsS1-ueqI
+      type: Cohort
+      after: '- Think about and plan to apply FAIR principles to your project in your
+        own time'
+      resources: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/19jspjhFN2kb9H3S-4UEBb5q9aZt22eUdDdxfWWbb6CI/edit?usp=sharing
+        speakers:
+        - pherterich
+        title: The future of Open Science? DMPs and FAIR data
+        recording: https://youtu.be/DbqsS1-ueqI?t=204
+        tag: Open Data
+      - speakers:
+        - yvanlebras
+        title: 'Open / citizen sience, the only way to '
+        recording: https://youtu.be/DbqsS1-ueqI?t=1705
+        tag: Open Engagement of Social Actors
+      - slides: https://doi.org/10.5281/zenodo.5783459
+        speakers:
+        - sdruskat
+        title: Software citation with the Citation File Format
+        recording: https://youtu.be/DbqsS1-ueqI?t=2997
+        tag: Open Source Software
+  '15':
+    start: January 10, 2022
+    calls:
+    - duration: 30 min
+      title: 8th mentor-mentee meeting
+      type: Mentor-Mentee
+      resources: []
+      talks: []
+    - notes: https://bit.ly/ols-4-week-15
+      content: |-
+        In this call, participants will:
+        - Learn about giving and receiving feedback
+        - Conduct rehearsal for the final presentation from the project leads registered
+      title: Final presentation rehearsal - Group 1
+      type: Skill-up
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      date: January 11, 2022
+      time: "10:00"
+      duration: 60 min
+      resources: []
+      talks: []
+    - notes: https://bit.ly/ols-4-week-15
+      content: |-
+        In this call, participants will:
+        - Learn about giving and receiving feedback
+        - Conduct rehearsal for the final presentation from the project leads registered
+      title: Final presentation rehearsal - Group 2
+      type: Skill-up
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      date: January 12, 2022
+      time: "15:00"
+      duration: 60 min
+      resources: []
+      talks: []
+    - notes: https://bit.ly/ols-4-week-15
+      content: |-
+        In this call, participants will:
+        - Learn about giving and receiving feedback
+        - Conduct rehearsal for the final presentation from the project leads registered
+      title: Final presentation rehearsal - Group 3
+      type: Skill-up
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      date: January 13, 2022
+      time: "18:00"
+      duration: 60 min
+      resources: []
+      talks: []
+  '16':
+    start: January 17, 2022
+    calls:
+    - notes: https://bit.ly/ols-4-week-16
+      content: |-
+        In this call, participants will:
+        - Share a 5 mins presentation of their project
+        - Celebrate OLS-4 success
+      title: Final presentations & Graduation! - Group 1
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      date: January 18, 2022
+      time: "10:00"
+      duration: 60 min
+      resources: []
+      talks: []
+    - notes: https://bit.ly/ols-4-week-16
+      content: |-
+        In this call, participants will:
+        - Share a 5 mins presentation of their project
+        - Celebrate OLS-4 success
+      title: Final presentations & Graduation! - Group 2
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      date: January 19, 2022
+      time: "15:00"
+      duration: 60 min
+      resources: []
+      talks: []
+    - notes: https://bit.ly/ols-4-week-16
+      content: |-
+        In this call, participants will:
+        - Share a 5 mins presentation of their project
+        - Celebrate OLS-4 success
+      title: Final presentations & Graduation! - Group 3
+      type: Cohort
+      before: "Think about how you might briefly answer the following questions\n
+        - Imagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.\n- Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\n      \n      \n        \n      \n     \
+        \   "
+      date: January 20, 2022
+      time: "18:00"
+      duration: 60 min
+      resources: []
+      talks: []

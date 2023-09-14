@@ -236,7 +236,7 @@ agossoubido2021:
   first-name: Agossou
   last-name: Bidossessi Emmanuel
   pronouns: He/Him/His
-  website: http://bidossessi.atwebpages.com/
+  website: https://bidossessi.atwebpages.com/
   country_3: BEN
   continent: Africa
   longitude: 2.3303076367454025
@@ -281,7 +281,7 @@ aidanbudd:
   orcid: 0000-0003-0196-9051
   pronouns: he/him
   twitter: aidanbudd
-  website: http://about.me/aidan.budd
+  website: https://about.me/aidan.budd
   country_3: DEU
   continent: Europe
   longitude: 8.694724
@@ -3344,7 +3344,7 @@ gill-francis:
   first-name: Gill
   github: false
   last-name: Francis
-  orcid: http://orcid.org/0000-0002-0795-2544
+  orcid: https://orcid.org/0000-0002-0795-2544
   pronouns: She/her
   twitter: gillalthia
   country_3: GBR
@@ -3401,7 +3401,7 @@ graciellehigino:
   - Biodiversity
   first-name: Gracielle
   last-name: Higino
-  orcid: http://orcid.org/0000-0003-2791-8383
+  orcid: https://orcid.org/0000-0003-2791-8383
   pronouns: She/her
   twitter: graciellehigino
   website: https://www.graciellehigino.com/
@@ -3924,7 +3924,7 @@ jcolomb:
   orcid: 0000-0002-3127-5520
   pronouns: he/his
   twitter: j_colomb
-  website: http://lab.brembs.net/author/julien/
+  website: https://lab.brembs.net/author/julien/
   country_3: DEU
   continent: Europe
   longitude: 13.3888599
@@ -4415,7 +4415,7 @@ k-c-martin:
   - Knowledge graphs
   first-name: Kim
   last-name: Martin
-  orcid: http://orcid.org/0000-0002-3052-461X
+  orcid: https://orcid.org/0000-0002-3052-461X
   website: https://www.software.ac.uk/about/fellows/kim-martin
   country_3: ZAF
   continent: Africa
@@ -4765,7 +4765,7 @@ kon0925:
   last-name: Kondylakis
   orcid: 0000-0002-9917-4486
   twitter: kondylak
-  website: http://users.ics.forth.gr/~kondylak/
+  website: https://users.ics.forth.gr/~kondylak/
   country_3: GRC
   continent: Europe
   longitude: 25.1332843
@@ -4898,7 +4898,7 @@ lauracion:
   orcid: 0000-0001-5213-6012
   pronouns: she/ella
   twitter: _lacion_
-  website: http://lacion.rbind.io/
+  website: https://lacion.rbind.io/
   country_3: ARG
   continent: South America
   longitude: -58.43562340522388
@@ -5072,7 +5072,7 @@ lpantano:
   last-name: Pantano
   pronouns: she/her
   twitter: lopantano
-  website: http://lpantano.github.io
+  website: https://lpantano.github.io
   country_3: ESP
   continent: Europe
 luispedro:
@@ -5111,7 +5111,7 @@ lwasser:
   first-name: Leah
   last-name: Wasser
   twitter: leahawasser
-  website: https://http://www.leahwasser.com/
+  website: https://www.leahwasser.com/
   orcid: 0000-0002-8177-6550
   affiliation: Pyopensci
   country: United States
@@ -6818,7 +6818,6 @@ pazbc:
   last-name: Bernaldo
   pronouns: she/her
   twitter: PazByC
-  website: https://openlifesci.org/posts/2022/08/10/welcome-paz/
   country_3: ARG
   continent: South America
   title: Community Researcher & Programme Coordinator (contract)
@@ -6971,7 +6970,7 @@ pivg:
   affiliation: Embl-Ebi (European Bioinformatics Institute)
   bio: I am a scientific training officer at the European Bioinformatics Institute
     (EMBL-EBI) where I mainly coordinate and support training in Latin America via
-    the CABANA project (http://cabana.online/). My background lies in structural biology
+    the CABANA project (https://cabana.online/). My background lies in structural biology
     and biomedical sciences, and I am passionate about science communication, equity
     and inclusion.
   city: Cambridge
@@ -7226,7 +7225,7 @@ raphaels1:
   orcid: 0000-0001-9225-4654
   pronouns: They/He
   twitter: RaphaelS101
-  website: https://http://www.raphaelsonabend.co.uk (don't open in Safari!)
+  website: https://www.raphaelsonabend.co.uk
   country_3: GBR
   continent: Europe
   longitude: -0.14405508452768728
@@ -7378,7 +7377,7 @@ rossmounce:
   first-name: Ross
   last-name: Mounce
   pronouns: he/him
-  website: http://rossmounce.co.uk/
+  website: https://rossmounce.co.uk/
   country_3: GBR
   continent: Europe
 rowland-mosbergen:
@@ -7671,7 +7670,7 @@ saryace:
   first-name: Sara
   last-name: Acevedo
   twitter: saryace
-  website: https://http://saryace.github.io
+  website: https://saryace.github.io
   orcid: 0000-0003-3203-2106
   city: Santiago
   country: Chile
@@ -7728,7 +7727,7 @@ sayalaruano:
   orcid: 0000-0001-9756-6745
   pronouns: He/him
   twitter: sayalaruano
-  website: https://http://sayalaruano.github.io/
+  website: https://sayalaruano.github.io/
   country_3: NLD
   continent: Europe
   longitude: 5.6969881818221095
@@ -8570,7 +8569,7 @@ veroxgithub:
   orcid: 0000-0002-0184-0277
   pronouns: She/Her
   twitter: xhardez
-  website: http://www.ciecti.org.ar/arphai/
+  website: https://www.ciecti.org.ar/arphai/
   country_3: ARG
   continent: South America
   longitude: -58.3628061
@@ -8699,7 +8698,7 @@ yanick-diapa-nana:
   first-name: Yanick
   last-name: Diapa Nana
   twitter: YanickDiapa
-  website: https://http://mboalab.africa/
+  website: https://mboalab.africa/
   city: Yaoundé
   country: Cameroon
   expertise:

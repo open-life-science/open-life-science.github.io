@@ -1,6 +1,6 @@
 {% assign cohort = include.cohort %}
 {% assign people = site.data.people %}
-{% assign projects = site.data.cohorts.[cohort].projects %}
+{% assign projects = site.data.openseeds[cohort].projects %}
 
 {% assign all-participants = '' %}
 {% for project in projects %}
@@ -26,7 +26,7 @@ For this round of the OLS program, we are happy to have [{{ p-participants | siz
         {% endfor %}
         {% assign mentor = project.mentor %}
         {% capture p-mentors %}
-        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}](/people#{{ p }})
+        {% for p in project.mentors %}with ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}]({% link people.md %}#{{ p }})
         {% endfor %}
         {% endcapture %}
 
