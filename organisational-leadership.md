@@ -41,3 +41,6 @@ We offer a range of workshop options to help you think through setting up govern
 Country-specific nuances, e.g. setting up a [stichting](https://en.wikipedia.org/wiki/Stichting), a [verein](https://en.wikipedia.org/wiki/Swiss_association), or a [501(c)(3)](https://en.wikipedia.org/wiki/501(c)(3)_organization). We may be able to offer some advice for orgs that intend to start up in the UK. 
 
 **Costs: £3000**
+
+LMIC discounts are available for all offers. If you are interested in any of the services, please contact us at team@we-are-ols.org 
+
