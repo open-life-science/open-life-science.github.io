@@ -31,7 +31,7 @@ We offer a range of workshop options to help you think through setting up **gove
   * Identify organisational values and strengths. 
   * Identify leadership and core team roles and responsibilities.
   * Teamwork: practices, communication tools, accountability, feedback, decision making.
-* **Outputs**
+* **Outputs:**
   * Organisational vision and 1- and 3- year roadmap.
   * Organisation roles, responsibilities definitions and relationship chart.
   * Collaboration handbook outlining team practices and communication tools.
