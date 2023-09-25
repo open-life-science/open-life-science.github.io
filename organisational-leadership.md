@@ -45,7 +45,7 @@ We offer a range of workshop options to help you think through setting up **gove
   * Preparing to receive money.
   * Creating job ads and hiring equitably. 
   * Pensions, benefits, vacation days and leave policies.
-  * Identifying necessary support, such as hiring accounting and legal.
+  * Identifying necessary support, such as hiring accounting and legal professionals.
 
 ### What is not covered: 
 Country-specific nuances, e.g. setting up a [stichting](https://en.wikipedia.org/wiki/Stichting), a [verein](https://en.wikipedia.org/wiki/Swiss_association), or a [501(c)(3)](https://en.wikipedia.org/wiki/501(c)(3)_organization). We may be able to offer some advice for orgs that intend to start up in the UK. 
