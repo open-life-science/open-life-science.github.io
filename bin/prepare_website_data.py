@@ -11,6 +11,7 @@ from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
 ROLES = ['role', 'participant', 'mentor', 'expert', 'speaker', 'facilitator', 'organizer']
+CALL_TYPES = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A', 'Cafeteria']
 
 # copied from https://github.com/jefftune/pycountry-convert/blob/master/pycountry_convert/country_alpha2_to_continent.py
 COUNTRY_ALPHA2_TO_CONTINENT = {
@@ -740,6 +741,8 @@ def update_call(call, row, people):
         call['facilitators'] = get_people_ids(row['Facilitators'], people)
     if not pd.isnull(row['Type']):
         call['type'] = row['Type']
+    if 'Learning objectives' in row and not pd.isnull(row['Learning objectives']):
+        call['learning_objectives'] = row['Learning objectives']
     if 'Before' in row and not pd.isnull(row['Before']):
         call['before'] = row['Before']
     if 'After' in row and not pd.isnull(row['After']):
@@ -787,13 +790,11 @@ def update_talks(talks, row, people):
     return talks
 
 
-def add_event_information(schedule, schedule_df, people):
+def prepare_schedule_df(schedule_df):
     '''
-    Load event file as data frame and add information into schedule
+    Prepare data frame with schedule
 
-    :param schedule: dictionary with schedule details
     :param schedule_df: data frame with schedule
-    :param people: dictionary with people information (key: name, value: id in people.yaml)
     '''
     df = (schedule_df
         .rename(columns = {'Start Date': 'date',
@@ -803,8 +804,18 @@ def add_event_information(schedule, schedule_df, people):
             date=lambda x: pd.to_datetime(x['date'], dayfirst=True, errors='coerce'),
             time=lambda x: pd.to_datetime(x['time'], format='%H:%M:%S', errors='coerce'),
             duration=lambda x: pd.to_timedelta(x['duration'])))
+    return df
 
-    call_types = ['Mentor-Mentee', 'Mentor', 'Cohort', 'Skill-up', 'Q&A', 'Cafeteria']
+
+def add_event_information(schedule, schedule_df, people):
+    '''
+    Load event file as data frame and add information into schedule
+
+    :param schedule: dictionary with schedule details
+    :param schedule_df: data frame with schedule
+    :param people: dictionary with people information (key: name, value: id in people.yaml)
+    '''
+    df = prepare_schedule_df(schedule_df)
 
     # format date and time columns, add event information
     last_call = {}
@@ -826,7 +837,7 @@ def add_event_information(schedule, schedule_df, people):
                         print(f"In event file: {row['date'].strftime('%B %d, %Y')}")
             else:
                 schedule['weeks'][w]['start'] = row['date'].strftime('%B %d, %Y')
-        elif row['Type'] in call_types:
+        elif row['Type'] in CALL_TYPES:
             found = False
             for call in schedule['weeks'][w]['calls']:
                 if check_same_event(call, row):
@@ -1075,6 +1086,295 @@ def get_cohort_name(c):
     '''
     i = c.name.split("-")[1]
     return f'ols-{i}'
+
+
+### METHODS TO PREPARE CALL TEMPLATES
+
+def extract_calls(schedule_df):
+    '''
+    Extract calls
+
+    :param schedule_df: data frame with schedule
+    '''
+    calls = {}
+    for index, row in schedule_df.iterrows():
+        w = "{:02d}".format(int(row['Week']))
+        
+        if row['Type'] == 'Cohort' or row['Type'] == 'Skill-up':
+            calls[w] = {
+                'date': '',
+                'time': '',
+                'duration': '',
+                'title': '',
+                'lead': '',
+                'facilitator': '',
+                'learning_objectives': '',
+                'before': '',
+                'after': '',
+                'icebreaker': '',
+            }
+            if not pd.isnull(row['date']):
+                calls[w]['date'] = row['date'].strftime('%B %d, %Y')
+            if not pd.isnull(row['time']):
+                calls[w]['time'] = DQS(row['time'].strftime('%H:%M'))
+            if not pd.isnull(row['duration']):
+                calls[w]['duration'] = "%s min" % int(int(row['duration'].seconds)/60)
+            if not pd.isnull(row['Title']):
+                calls[w]['title'] = row['Title']
+            if 'Hosts' in row and not pd.isnull(row['Hosts']):
+                calls[w]['lead'] = row['Hosts']
+            elif 'Call lead' in row and not pd.isnull(row['Call lead']):
+                calls[w]['lead'] = row['Call lead']
+            if 'Facilitators' in row and not pd.isnull(row['Facilitators']):
+                calls[w]['facilitator'] = row['Facilitators']
+            if 'Learning objectives' in row and not pd.isnull(row['Learning objectives']):
+                calls[w]['learning_objectives'] = row['Learning objectives'].replace('* ', '   * ').replace('- ', '   - ')
+            if 'Before' in row and not pd.isnull(row['Before']):
+                calls[w]['before'] = row['Before'].replace('* ', '   * ').replace('- ', '   - ')
+            if 'After' in row and not pd.isnull(row['After']):
+                calls[w]['after'] = row['After'].replace('* ', '   * ').replace('- ', '   - ')
+            elif 'Assignments' in row and not pd.isnull(row['Assignments']):
+                calls[w]['after'] = row['Assignments'].replace('* ', '   * ').replace('- ', '   - ')
+            if 'Icebreaker' in row and not pd.isnull(row['Icebreaker']):
+                calls[w]['icebreaker'] = row['Icebreaker']
+            calls[w]['content'] = []
+            
+        elif row['Type'] == 'Presentation':
+            talk = {
+                'type': 'presentation',
+                'duration': 0,
+                'title': '',
+                'speakers': 'PRESENTER',
+                'slides': 'SLIDES'
+            }
+            if not pd.isnull(row['duration']):
+                talk['duration'] = int(int(row['duration'].seconds)/60)
+            if not pd.isnull(row['Slides']):
+                talk['slides'] = row['Slides']
+            if not pd.isnull(row['Confirmed speaker']):
+                talk['speakers'] = row['Confirmed speaker']
+            if not pd.isnull(row['Title']):
+                talk['title'] = row['Title']
+            elif 'Tag' in row and not pd.isnull(row['Tag']):
+                talk['title'] = row['Tag']
+            if 'Before' in row and not pd.isnull(row['Before']):
+                talk['before'] = row['Before'].replace('* ', '   * ').replace('- ', '   - ')
+            if 'After' in row and not pd.isnull(row['After']):
+                talk['after'] = row['After'].replace('* ', '   * ').replace('- ', '   - ')
+            calls[w]['content'].append(talk)
+
+        elif row['Type'] == 'Welcome':
+            content = {
+                'type': 'welcome',
+                'duration': 0,
+            }
+            if not pd.isnull(row['duration']):
+                content['duration'] = int(int(row['duration'].seconds)/60)
+            if 'Before' in row and not pd.isnull(row['Before']):
+                content['before'] = row['Before'].replace('* ', '   * ').replace('- ', '   - ')
+            if 'After' in row and not pd.isnull(row['After']):
+                content['after'] = row['After'].replace('* ', '   * ').replace('- ', '   - ')
+            calls[w]['content'].append(content)
+
+        elif row['Type'] == 'Breakout' or row['Type'] == 'Silent reflections':
+            content = {
+                'type': 'breakout' if row['Type'] == 'Breakout' else 'silent',
+                'duration': 0,
+                'title': 'Breakout' if row['Type'] == 'Breakout' else 'Silent reflections',
+                'instructions': '' if row['Type'] == 'Breakout' else [],
+            }
+            if not pd.isnull(row['Title']):
+                content['title'] = row['Title']
+            if not pd.isnull(row['duration']):
+                content['duration'] = int(int(row['duration'].seconds)/60)
+            if not pd.isnull(row['People per room']):
+                content['people'] = row['People per room']
+            else:
+                content['people'] = 3
+            if 'Instructions' in row and not pd.isnull(row['Instructions']):
+                if row['Type'] == 'Breakout':
+                    content['instructions'] = row['Instructions'].replace('* ', '   * ').replace('- ', '   - ')
+                else:
+                    content['instructions'] = row['Instructions'].replace('* ', '').replace('- ', '').split('\n')
+            if 'Before' in row and not pd.isnull(row['Before']):
+                content['before'] = row['Before'].replace('* ', '   * ').replace('- ', '   - ')
+            if 'After' in row and not pd.isnull(row['After']):
+                content['after'] = row['After'].replace('* ', '   * ').replace('- ', '   - ')
+            calls[w]['content'].append(content)
+        
+
+    print("Add time after each content")
+    return calls
+
+
+def add_empty_line(out_f):
+    '''
+    Add emptry list elements
+
+    :param out_f: file object
+    '''
+    out_f.write(f"\n")
+
+
+def add_empty_list_elements(out_f, level = 1):
+    '''
+    Add emptry list elements
+
+    :param out_f: file object 
+    :param level: list level
+    '''
+    sep = "   "
+    out_f.write(f"{ sep * level}*  \n")
+    out_f.write(f"{ sep * level}*  \n\n")
+
+
+def create_templates(calls, output_dp):
+    '''
+    Create templates for calls in a cohort
+
+    :param schedule_df: dictionary with cohort calls
+    :param output_dp: Path object to output directory
+    '''
+    for w, call in calls.items():
+        week_dp = output_dp / Path(f'week-{w}')
+        week_dp.mkdir(parents=True, exist_ok=True)
+        with open(week_dp / Path(f'week-{w}-template.md'), 'w') as out_f:
+            out_f.write(f"# Week {w} - { call['title'] }\n\n")
+            
+            out_f.write(f"**Date**: { call['date'] }\n\n")
+            out_f.write(f"**Time**: { call['time'] } UTC\n\n")
+            out_f.write(f"**Duration**: { call['duration'] }\n\n")
+            out_f.write(f"**Call lead**: { call['lead'] }\n\n")
+            out_f.write(f"**Facilitator**: { call['facilitator'] }\n\n")
+            add_empty_line(out_f)
+            
+            out_f.write(f"## Join the Cohort Room\n\n")
+            out_f.write(f"**Join the Zoom call**:\n\n")
+            add_empty_line(out_f)
+            out_f.write(f"**Are you an Open Seeds participant but can't attend this call? The recording from this call will be updated on YouTube**: [https://www.youtube.com/c/OpenLifeSci/playlists](**https://www.youtube.com/c/OpenLifeSci/playlists**)\n\n")
+            add_empty_line(out_f)
+            out_f.write(f"**This call is being recorded and transcribed!**\n\n")
+            out_f.write(f"   * The video will be available on the YouTube channel ([https://www.youtube.com/c/OpenLifeSci))](https://www.youtube.com/c/OpenLifeSci))) in the next days\n")
+            out_f.write(f"   * Turn on your webcam if you don't mind sharing your face (or off if you do!)\n\n")
+            add_empty_line(out_f)
+            out_f.write(f"**Breakout room**: Speaking and Writing:\n\n")
+            out_f.write(f"   * Please edit your Zoom name (click on the three dots on the top right of your video) and add one of the following letters in front of your name:\n")
+            out_f.write(f"      * W for written reflection-based exercise in the main room\n")
+            out_f.write(f"      * S for Spoken Discussion Breakout Room This will help us assign you to the breakout room with the format of your choice\n")
+            out_f.write(f"   * If you are ok with both, please choose one for this week so that the hosts can assign you to a breakout room during the cohort call\n\n")
+            add_empty_line(out_f)
+            out_f.write(f"## During this week's cohort call, we will:\n\n")
+            add_empty_line(out_f)
+            out_f.write(f"{ call['learning_objectives'] }\n\n")
+            add_empty_line(out_f)
+            
+            out_f.write(f"## 🌍 Roll call\n\n")
+            add_empty_line(out_f)
+            out_f.write(f"### Introducing yourself\n\n")
+            out_f.write(f"Name / Project / social handles (twitter, GitHub, etc.) / \_emoji mood \_\n\n")
+            add_empty_list_elements(out_f)
+            add_empty_line(out_f)
+            out_f.write(f"### Icebreaker question\n\n")
+            out_f.write(f"*{ call['icebreaker'] }*\n\n")
+            add_empty_list_elements(out_f)
+            add_empty_line(out_f)
+
+            timing = 0
+            for content in call['content']:
+                if content['type'] == 'welcome':
+                    out_f.write(f"## 🗣️ Welcome!\n\n")
+                    timing += content['duration']
+                    out_f.write(f"[HOST] ({ content['duration'] } min)[⏰ {timing}]\n\n")
+                    add_empty_line(out_f)
+                    out_f.write(f"**Code of conduct and community participation guidelines** [https://openlifesci.org/code-of-conduct](https://openlifesci.org/code-of-conduct)\n\n")
+                    out_f.write(f"   * If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Bérénice, Malvika, Yo, Paz and Emmy. (team@openlifesci.org).\n")
+                    out_f.write(f"   * To report an issue involving one of the organisers, please email one of the members individually (berenice@we-are-ols.org, malvika@we-are-ols.org, yo@we-are-ols.org, emmy@we-are-ols.org, paz@we-are-ols.org).\n\n")
+                    add_empty_line(out_f)
+                    out_f.write(f"**This call is being recorded and transcribed!**\n\n")
+                    out_f.write(f"   * Please turn your video off if you would prefer to be off video\n")
+                    out_f.write(f"   * You can follow the transcriptions following the link on the top of the Zoom screen\n\n")
+                    add_empty_line(out_f)
+                    out_f.write(f"**Breakout room**: Speaking and Writing:\n\n")
+                    out_f.write(f"   * Indicate by editing your name on Zoom and add \n")
+                    out_f.write(f"       * W for written reflection-based exercise in based breakout room\n")
+                    out_f.write(f"       * S for Spoken Discussion Breakout Room \n")
+                    out_f.write(f"   * This will help us assign you to the breakout room with the format of your choice\n")
+                    out_f.write(f"   * Even if you are ok with both, please choose one option for this call to help us assign you easily to one group.\n\n")
+                    add_empty_line(out_f)
+                elif content['type'] == 'presentation':
+                    out_f.write(f"## 🖥 { content['title'] }!\n\n")
+                    timing += content['duration']
+                    out_f.write(f"[HOST] ({ content['duration'] } min)[⏰ {timing}]\n\n")
+                    out_f.write(f"**Presenter**: { content['speakers'] }\n\n")
+                    out_f.write(f"   * Contact / social: \n")
+                    out_f.write(f"   * Slides: { content['slides'] }\n\n")
+                    out_f.write(f"**Notes**:\n\n")
+                    add_empty_list_elements(out_f)
+                    out_f.write(f"**Questions**\n\n")
+                    add_empty_list_elements(out_f)
+                    add_empty_line(out_f)
+                elif content['type'] == 'breakout':
+                    out_f.write(f"## 👥 { content['title'] }!\n\n")
+                    timing += content['duration']
+                    out_f.write(f"[HOST] introduces, [HOST] makes breakouts ({ content['duration']} min) [⏰ {timing}]\n\n")
+                    out_f.write(f"{ content['duration']} minutes, ~{ content['people']} ppl per room\n\n")
+                    out_f.write(f"### Instructions for the room\n\n")
+                    add_empty_line(out_f)
+                    out_f.write(f"{ content ['instructions']}\n\n")
+                    add_empty_line(out_f)
+                    out_f.write(f"### Notes from breakout discussions\n\n")
+                    add_empty_line(out_f)
+                    out_f.write(f"Breakout Room 1 - Written/Spoken\n\n")
+                    out_f.write(f"   * Names\n\n")
+                    add_empty_list_elements(out_f, level=2)
+                    out_f.write(f"   * Notes\n\n")
+                    add_empty_list_elements(out_f, level=2)
+                    out_f.write(f"Breakout Room 2 - Written/Spoken\n\n")
+                    out_f.write(f"   * Names\n\n")
+                    add_empty_list_elements(out_f, level=2)
+                    out_f.write(f"   * Notes\n\n")
+                    add_empty_list_elements(out_f, level=2)
+                    add_empty_line(out_f)
+                    out_f.write(f"### **Any insights/thoughts/comments to share from your breakout room?**\n\n")
+                    add_empty_list_elements(out_f)
+                    add_empty_line(out_f)
+                elif content['type'] == 'silent': 
+                    out_f.write(f"## 👥 { content['title'] }!\n\n")
+                    timing += content['duration']
+                    out_f.write(f"### Questions\n\n")
+                    add_empty_line(out_f)
+                    for q in content ['instructions']:
+                        out_f.write(f"{ q }\n\n")
+                        add_empty_list_elements(out_f)
+                        add_empty_line(out_f)
+
+                if 'after' in content:
+                    out_f.write(f"{content['after']}\n\n")
+                    add_empty_line(out_f)
+
+            out_f.write(f"## 🗣️ Closing\n\n")
+            out_f.write(f"[HOST] (5 min) [⏰ 90]\n\n")
+            out_f.write(f"### Assignments\n\n")
+            out_f.write(f"{ call['after']}\n\n")
+            out_f.write(f"### Have any questions? \n\n")
+            out_f.write(f"Add them below. We will respond to these on Slack and also share them via an email\n\n")
+            add_empty_list_elements(out_f)
+            out_f.write(f"### Feedback about this call:\n\n")
+            out_f.write(f"What worked?\n\n")
+            add_empty_list_elements(out_f)
+            add_empty_line(out_f)
+            out_f.write(f"What didn't work?\n\n")
+            add_empty_list_elements(out_f)
+            add_empty_line(out_f)
+            out_f.write(f"What would you change?\n\n")
+            add_empty_list_elements(out_f)
+            add_empty_line(out_f)
+            out_f.write(f"What surprised you?\n\n")
+            add_empty_list_elements(out_f)
+            add_empty_line(out_f)
+            out_f.write(f"**Reference**: Mozilla Open leadership Framework, Open Life Science\n\n")
+            out_f.write(f"**Licence**: CC BY 4.0, Open Life Science (OLS), 2023\n\n")
+
 
 
 ### COMMANDS
@@ -1423,6 +1723,21 @@ def extract_full_people_data(out_dp):
     export_people_per_roles(people_df, out_dp)
 
 
+def create_call_template(schedule_df, output_dp):
+    '''
+    Create call templates for a cohort
+
+    :param schedule_df: data frame with schedule
+    :param output_dp: Path object to output directory
+    '''
+    # load schedule
+    schedule_df = prepare_schedule_df(schedule_df)
+    # extract calls
+    calls = extract_calls(schedule_df)
+    # create templates
+    create_templates(calls, output_dp)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Interact and prepare OLS website data')
     subparser = parser.add_subparsers(dest='command')
@@ -1475,6 +1790,12 @@ if __name__ == '__main__':
     extractlibrary = subparser.add_parser('extractlibrary', help='Extract library data to CSV file stored in _data folder')
     # Extract full people data to CSV
     extractfullpeopledata = subparser.add_parser('extractfullpeopledata', help='Extract full people data (location, participation, etc) into CSV files stored in _data folder')
+    # Create cohort call template
+    createcalltemplate = subparser.add_parser('createcalltemplate', help='Create cohort call template')
+    group = createcalltemplate.add_mutually_exclusive_group()
+    group.add_argument('-sf', '--schedule_fp', help="Path to schedule CSV file")
+    group.add_argument('-su', '--schedule_url', help="URL to schedule sheet file")
+    createcalltemplate.add_argument('-o', '--output', help="Output directory", required=True)
     
     args = parser.parse_args()
 
@@ -1528,3 +1849,9 @@ if __name__ == '__main__':
         extract_library(artifact_dp / Path('library.csv'))
     elif args.command == 'extractfullpeopledata':
         extract_full_people_data(artifact_dp)
+    elif args.command == 'createcalltemplate':
+        if args.schedule_url:
+            schedule_df = pd.read_csv(args.schedule_url)
+        else:
+            schedule_df = pd.read_csv(Path(args.schedule_fp))
+        create_call_template(schedule_df, Path(args.output))
