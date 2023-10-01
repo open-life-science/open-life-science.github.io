@@ -45,6 +45,7 @@ includes_dir: .
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-github-metadata
   - jekyll-toc
 
 # TOC Settings
@@ -63,4 +64,3 @@ defaults:
       path: ""
     values:
       toc: true
-  - jekyll-github-metadata
