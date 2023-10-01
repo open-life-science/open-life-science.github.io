@@ -37,7 +37,7 @@ While we’ve been a registered company for some time now, we’re having to do 
 - **Governance planning and establishment**: As mentioned in our previous blog post, we aspire to be radically transparent in our governance. With you, we want to build and strengthen diverse pathways to community leadership, to ensure accountability and capacity to continue to serve our and other open communities.
 - **Collaborations**: Are you working in research or a related domain, and interested in collaborating, forming institutional partnerships, or hiring our services?
 
-For all of these - please do contact team@openlifesci.org to set up a chat!
+For all of these - please do contact {{ site.email }} to set up a chat!
 
 ## In conclusion:
 

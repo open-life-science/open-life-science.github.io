@@ -3,46 +3,47 @@ title: "OLS"
 description: >
   A mentoring & training program for Open Science ambassadors
 logo: ''
-email: team@openlifesci.org
+email: team@we-are-ols.org
 repository: open-life-science/open-life-science.github.io
 twitter: openlifesci
 gitter: open-life-sci/community
 url: https://openlifesci.org/
-announcement_list: https://groups.google.com/forum/#!forum/ols-news
+announcement_list: https://groups.google.com/g/ols-news
 youtube: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
+
+markdown: kramdown
 
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
   ols-1:
-    permalink: /ols-1/:path/
+    permalink: /openseeds/ols-1/:path/
     output: true
   ols-2:
-    permalink: /ols-2/:path/
+    permalink: /openseeds/ols-2/:path/
     output: true
   ols-3:
-    permalink: /ols-3/:path/
+    permalink: /openseeds/ols-3/:path/
     output: true
   ols-4:
-    permalink: /ols-4/:path/
+    permalink: /openseeds/ols-4/:path/
     output: true
   ols-5:
-    permalink: /ols-5/:path/
+    permalink: /openseeds/ols-5/:path/
     output: true
   ols-6:
-    permalink: /ols-6/:path/
+    permalink: /openseeds/ols-6/:path/
     output: true
   ols-7:
-    permalink: /ols-7/:path/
+    permalink: /openseeds/ols-7/:path/
     output: true
   ols-8:
-    permalink: /ols-8/:path/
+    permalink: /openseeds/ols-8/:path/
     output: true
 
 includes_dir: .
 
 plugins:
-  - jekyll-last-modified-at
   - jekyll-redirect-from
   - jekyll-toc
 
@@ -62,3 +63,4 @@ defaults:
       path: ""
     values:
       toc: true
+  - jekyll-github-metadata

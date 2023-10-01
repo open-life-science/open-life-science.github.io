@@ -18,6 +18,7 @@ $link-focus: $link-hover;
 $link-active: $link-hover;
 
 @import 'bulma/bulma.sass';
+@import 'bulma-collapsible.sass';
 
 @mixin reset-links() {
   a {
@@ -32,6 +33,12 @@ $link-active: $link-hover;
       color: $link-hover;
     }
   }
+}
+
+img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar {
@@ -253,7 +260,7 @@ $link-active: $link-hover;
     height: 300px;
     width: auto;
     overflow: hidden;
-
+    
     img {
        max-height: 100%;
        object-fit: cover;
@@ -491,3 +498,64 @@ code {
   }
 }
 
+.links {
+  .hero {
+    background-color: $dark-green;
+    max-height: 500px;
+    min-height: 250px;
+    height: 10vh;
+
+    .hero-body {
+      padding-top: 20px;
+
+      img {
+        max-width: 120px;
+        margin: 20px auto;
+        padding: 12px;
+        border-radius: 12px;
+        background-color: $white;
+      }
+    }
+  }
+
+  .section {
+    padding-top: 20px;
+
+    .button {
+      background-color: $dark-green;
+      color: $white;
+      text-shadow: 2px 2px 5px $black;
+      margin: 20px auto;
+      padding: 20px auto;
+      min-height: 50px;
+    }
+  }
+  
+}
+
+
+// menu
+.menu {
+  font-size: small;
+
+  ul {
+    margin-left: 0px;
+    margin-right: 2em;
+
+    list-style-type: none;
+
+    ul {
+      list-style-type: none;
+
+      ul {
+        list-style-type: none;
+
+      }
+    }
+  }
+  
+}
+
+.columns-toc {
+  margin-top: 2em;
+}

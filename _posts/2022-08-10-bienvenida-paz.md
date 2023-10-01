@@ -35,7 +35,7 @@ _Mi formación académica formal es humanidades y ciencias sociales, por lo que 
 
 Paz ha estado trabajando con nosotros durante el último mes,
 1. **liderando** la **colaboración de OLS con el Instituto Alan Turing** para re-empaquetar y poner a **disposición para quien los necesite, los  materiales de capacitación de OLS** ([ver propuesta](https://zenodo.org/record/6974060)), y
-2. jugando un papel crucial en el impulso de la **organización y coordinación de [OLS-6]({% link ols-6.md %})**.
+2. jugando un papel crucial en el impulso de la **organización y coordinación de [OLS-6]({% link openseeds/ols-6/index.md %})**.
 
 En los **próximos 2 años**, Paz actuará como **coordinadora clave de las cohortes de OLS**. Además, liderará la **investigación** para
 - **evaluar** el impacto a largo plazo de capacitaciones y tutorías contextuales (utilizando OLS como un estudio de caso),
@@ -43,6 +43,6 @@ En los **próximos 2 años**, Paz actuará como **coordinadora clave de las coho
 
 Trabajará en estrecha colaboración con las directoras de OLS, así como con las y los pasados ​​y presentes líderes, mentores, facilitadores, expertes y socies del proyecto OLS (consulta nuestra [propuesta del Wellcome Open Research Fund](https://zenodo.org/record/5267934) para más detalles).
 
-Puedes conectarte con Paz en Twitter ([PazByC](https://twitter.com/PazByC)) y [siga OLS](https://twitter.com/openlifesci) para recibir futuras noticias.
+Puedes conectarte con Paz en Twitter ([PazByC](https://twitter.com/PazByC)) y [siga OLS](https://twitter.com/{{ site.twitter }}) para recibir futuras noticias.
 
 ![Paz está conectando puntos en su mente, imitando una referencia de meme a una de las escenas más famosas de It's Always Sunny In Philadelphia en la que el personaje de Charlie hace una diatriba conspiradora sobre cómo cree que una persona llamada 'Pepe Silvia' no existe.](/images/2022-08-paz-meme.png)

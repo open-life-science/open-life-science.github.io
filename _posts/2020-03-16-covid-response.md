@@ -11,7 +11,7 @@ image: https://images.unsplash.com/photo-1583947581279-4eec08383c38?ixlib=rb-1.2
 
 Since OLS is an online program, it won’t be directly affected by the COVID-19 outbreak. That said, our participants are from all around the world, including countries that are either already severely affected or are in a state of emergency to act as COVID-19 spreads around the world. Even if your country is not yet locked down, we presume that you are practicing social distancing and may be even working remotely from home already.
 
-Our cohort calls and mentor calls - at this point in time - will go ahead [as scheduled](https://openlifesci.org/ols-1#schedule) with the following recommendations and contingency plans: 
+Our cohort calls and mentor calls - at this point in time - will go ahead [as scheduled]({% link openseeds/ols-1/index.md %}#schedule) with the following recommendations and contingency plans: 
 
 **Q 1:** What happens to the participants who need to take a break due to their illness or carer responsibilities?
 - A 1: If you are able to, please inform us as soon as possible - but we appreciate that things may not be that simple if you have your hands full dealing with the situation. Being absent from calls due to pandemic-related concerns will not result in you being removed from the program. 
@@ -32,7 +32,7 @@ Looking for some lighter or more productive uses of your time? We have a shortli
 - Check out the Kaggle space for R users: [Novel Corona Virus dataset](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset/tasks?taskId=508&utm_medium=email&utm_source=intercom&utm_campaign=tasks-award-march-2020)
 - Visualise Coronavirus Disease (COVID-19) – [Statistics and Research by our world in data](https://ourworldindata.org/coronavirus)
 
-In case of any concern - please contact us on [team@openlifesci.org](mailto:team@openlifesci.org) with any queries or worries - no question too small! 
+In case of any concern - please contact us on [{{ site.email }}](mailto:{{ site.email }}) with any queries or worries - no question too small! 
 
 **Stay safe and wash your hands, folks! (and stop touching your face!!)**
 

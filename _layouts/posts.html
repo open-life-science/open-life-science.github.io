@@ -15,7 +15,7 @@ layout: default
 <div class="post">
 {% for post in site.posts %}
     {% capture authors %}
-    {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="/people#{{ id }}">{{ name }}</a>{% endfor %}
+    {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="{% link people.md %}#{{ id }}">{{ name }}</a>{% endfor %}
     {% endcapture %}
     <div class="card">
         {% if post.image %}
@@ -32,7 +32,9 @@ layout: default
                 {% if post.external %}
                     <a href="{{ post.external }}"><p>{{ post.title | escape }}</p></a>
                 {% else %}
-                    <a href="{{ post.url }}"><p>{{ post.title | escape }}</p></a>
+                    <a href="{{ post.url }}">
+                    <p>{{ post.title | escape }}</p>
+                    </a>
                 {% endif %}
                 </div>
 

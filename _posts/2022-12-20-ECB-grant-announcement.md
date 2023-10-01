@@ -20,7 +20,7 @@ Our goal is to create a collaborative learning and cloud infrastructure service 
 
 For this work, OLS will be hiring and hosting a programme manager, who will oversee the delivery of the programme (see below). In 2024, we will also be running a Spanish and/or French cohort-based training programme for the community leaders involved in this work. 
 
-This is a collaborative effort between [2i2c](http://2i2c.org), [The Carpentries](http://carpentries.org), [CSCCE](http://cscce.org), [Invest in Open Infrastructure](http://investinopen.org), [MetaDocencia](http://metadocencia.org), [Open Life Science](http://openlifesci.org). For more detailed information, see [the blog post with the full grant narrative](https://2i2c.org/blog/2022/czi-global-communities-proposal/).
+This is a collaborative effort between [2i2c](https://2i2c.org), [The Carpentries](https://carpentries.org), [CSCCE](https://cscce.org), [Invest in Open Infrastructure](https://investinopen.org), [MetaDocencia](https://metadocencia.org), [Open Life Science]({{ site.url }}). For more detailed information, see [the blog post with the full grant narrative](https://2i2c.org/blog/2022/czi-global-communities-proposal/).
 
 # We are hiring
 
@@ -28,7 +28,7 @@ As a part of this effort, we will also hire several new team members! There are 
 
 -   [Cloud infrastructure engineer](https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/) to join 2i2c's Site Reliability Engineering team that will operate and support the cloud infrastructure in this project.
 
--   [Programme Manager role](https://openlifesci.org/posts/2022/12/19/ECB-PM-job-description/) to join Open Life Science and support this project via project management and operational support.
+-   [Programme Manager role]({% link _posts/2022-12-19-ECB-PM-job-description.md %}) to join Open Life Science and support this project via project management and operational support.
 
 We may be hiring other positions related to this effort (and other efforts from the collaborating organizations), so [please stay tuned for more information](https://forms.gle/5boZswKNUn2NcTUv9) if you are interested.
 

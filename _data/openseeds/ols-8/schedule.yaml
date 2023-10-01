@@ -1,0 +1,350 @@
+# Schedule for the OLS-8
+---
+timeline:
+- date: June 1, 2023
+  description: Call for Application opens
+  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
+- date: June 9, 2023
+  time: '10:00'
+  description: Application webinar
+  type:
+  - Talk
+  - Q&A
+  notes:
+  recording:
+  details: Watch recordings from previous webinars on 
+    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+- date: June 28, 2023
+  time: '17:00'
+  description: Application Clinic Call
+  type:
+  - Q&A
+  notes:
+  details: At this call, OLS team will be available to provide help if you have any
+    question related to your application
+- date: July 11, midnight, UTC, 2023
+  description: Call for applications closed
+- date: August 1, 2023
+  description: Successful applicants announced
+weeks:
+  '00':
+    start: ''
+    calls:
+    - date: September 13, 2023
+      duration: 60 min
+      title: Mentor onboarding group 1
+      hosts:
+      - pazbc
+      type: Mentor
+      talks: []
+    - date: September 14, 2023
+      duration: 60 min
+      title: Mentor onboarding group 2
+      hosts:
+      - pazbc
+      type: Mentor
+      talks: []
+    - date: September 15, 2023
+      duration: 60 min
+      title: Mentor onboarding group 3
+      hosts:
+      - malvikasharan
+      type: Mentor
+      talks: []
+  '01':
+    start: September 18, 2023
+    calls:
+    - duration: 30 min
+      content: |-
+        In this call, participants will:
+        - Meet each other
+        - Discuss their personal motivation, expectations, workin practices and project goals
+      title: 1st mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+  '02':
+    start: September 25, 2023
+    calls:
+    - time: "08:00"
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 1
+      type: Mentor
+      date: September 26, 2023
+      talks: []
+    - time: "14:00"
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 2
+      type: Mentor
+      date: September 28, 2023
+      talks: []
+    - date: September 26, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-02
+      title: Welcome to Open Seeds & Tooling for Project Design
+      hosts:
+      - bebatut
+      type: Cohort
+      talks:
+      - tag: OLS Introduction
+      - tag: Open Canvas
+      - tag: Project Roadmapping
+      time: "09:00"
+  '03':
+    start: October 02, 2023
+    calls:
+    - duration: 30 min
+      title: 2nd mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: October 04, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-03
+      title: Welcome to Open Seeds & Tooling for Project Design
+      hosts:
+      - malvikasharan
+      type: Cohort
+      talks:
+      - tag: OLS Introduction
+      - tag: Open Canvas
+      - tag: Project Roadmapping
+      time: "16:00"
+  '04':
+    start: October 09, 2023
+    calls:
+    - date: October 11, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-04
+      title: Tooling for Open Collaboration
+      type: Cohort
+      talks:
+      - tag: Setting up a project
+      - tag: README
+      - tag: Open Licensing
+      - tag: Code of Conduct
+      time: "16:00"
+      hosts:
+      - yochannah
+  '05':
+    start: October 16, 2023
+    calls:
+    - duration: 30 min
+      title: 3rd mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: October 17, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-05
+      title: GitHub tutorial for beginners
+      hosts:
+      - malvikasharan
+      type: Skill-up
+      talks:
+      - title: Introduction to GitHub
+        tag: GitHub Introduction
+      time: "09:00"
+  '06':
+    start: October 23, 2023
+    calls:
+    - date: October 24, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-06
+      title: Open Science Garden I
+      type: Cohort
+      talks:
+      - tag: Open Science Introduction
+      - tag: Open Evaluation
+      - tag: Open Science Infrastructures
+      - tag: Open Engagement of Social Actors
+      time: "09:00"
+      hosts: []
+  '07':
+    start: October 30, 2023
+    calls:
+    - duration: 30 min
+      title: 4th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: November 01, 2023
+      time: "17:00"
+      duration: 30 min
+      notes: https://bit.ly/ols-8-week-07
+      title: Q&A call
+      type: Q&A
+      talks: []
+      hosts:
+      - yochannah
+  '08':
+    start: November 06, 2023
+    calls:
+    - date: November 08, 2023
+      time: "17:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-08
+      title: Community Management Café I
+      hosts:
+      - malvikasharan
+      type: Cohort
+      talks:
+      - tag: Community Design for Inclusivity
+      - tag: Personas & Pathways
+  '09':
+    start: November 13, 2023
+    calls:
+    - duration: 30 min
+      title: 5th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: November 14, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-09
+      title: Open Leadership in Practice
+      type: Skill-up
+      talks:
+      - tag: Open Leadership in Practice
+      - tag: Open Leadership in Practice
+      - tag: Open Leadership in Practice
+      time: "10:00"
+      hosts: []
+  '10':
+    start: November 20, 2023
+    calls:
+    - date: November 21, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-10
+      title: Open Science Garden II
+      type: Cohort
+      talks:
+      - tag: Open Hardware
+      - tag: Open Source Software
+      - tag: Openness to Diversity of Knowledge
+      time: "10:00"
+      hosts: []
+  '11':
+    start: November 27, 2023
+    calls:
+    - duration: 30 min
+      title: 6th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: November 29, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-11
+      title: 'Tooling for Collaboration: Open-source software in practice'
+      type: Skill-up
+      talks:
+      - tag: Code Review
+      - tag: Package Management
+      - tag: Good Coding Practices
+      time: "17:00"
+      hosts:
+      - yochannah
+  '12':
+    start: December 04, 2023
+    calls:
+    - date: December 06, 2023
+      time: "17:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-12
+      title: Open Science Garden III
+      type: Cohort
+      resources:
+      hosts:
+      - malvikasharan
+      talks:
+      - tag: Open Data
+      - tag: Open Educational Resources
+      - tag: Open Access Publication
+  '13':
+    start: December 11, 2023
+    calls:
+    - duration: 30 min
+      title: 7th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: December 12, 2023
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-13
+      title: Personal Management & Social call
+      type: Skill-up
+      talks:
+      - title: Personal Ecology and Self Care
+        tag: Personal Ecology
+      time: "10:00"
+      hosts:
+      - yochannah
+  '14':
+    start: December 18, 2023
+    calls:
+    - date: December 19, 2023
+      time: "10:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-14
+      title: Community Management Café II
+      hosts:
+      - malvikasharan
+      type: Cohort
+      talks: []
+  '15':
+    start: January 08, 2024
+    calls:
+    - duration: 30 min
+      title: 8th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: January 09, 2024
+      duration: 60 min
+      notes: https://bit.ly/ols-8-week-15
+      title: Final presentation rehearsal - Group 1
+      type: Skill-up
+      talks: []
+      time: "09:00"
+      hosts:
+      - yochannah
+    - date: January 10, 2024
+      duration: 60 min
+      notes: https://bit.ly/ols-8-week-15
+      title: Final presentation rehearsal - Group 2
+      type: Skill-up
+      talks: []
+      time: "14:00"
+      hosts:
+      - yochannah
+    - date: January 11, 2024
+      duration: 60 min
+      notes: https://bit.ly/ols-8-week-15
+      title: Final presentation rehearsal - Group 3
+      type: Skill-up
+      talks: []
+      time: "17:00"
+      hosts:
+      - yochannah
+  '16':
+    start: January 15, 2024
+    calls:
+    - date: January 16, 2024
+      duration: 60 min
+      notes: https://bit.ly/ols-8-week-16
+      title: Final presentations & Graduation! - Group 1
+      type: Cohort
+      talks: []
+      time: "09:00"
+      hosts:
+      - yochannah
+    - date: January 17, 2024
+      duration: 60 min
+      notes: https://bit.ly/ols-8-week-16
+      title: Final presentations & Graduation! - Group 2
+      type: Cohort
+      talks: []
+      time: "14:00"
+      hosts:
+      - yochannah
+    - date: January 18, 2024
+      duration: 60 min
+      notes: https://bit.ly/ols-8-week-16
+      title: Final presentations & Graduation! - Group 3
+      hosts:
+      - malvikasharan
+      type: Cohort
+      talks: []
+      time: "17:00"
