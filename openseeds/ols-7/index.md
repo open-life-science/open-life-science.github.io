@@ -11,6 +11,21 @@ redirect_from:
   - /ols-7
 ---
 
+<div class="columns columns-toc">
+<div class="column is-one-fifth" markdown="1">
+
+### Table of content
+{:.no_toc}
+
+<aside class="menu" markdown="1">
+
+- TOC
+{:toc .menu-list}
+
+</aside>
+</div>
+
+<div class="column" markdown="1">
 {% include _includes/cohort-metadata.html cohort='ols-7' %}
 
 # The OLS-7 program
@@ -27,8 +42,6 @@ and international bioinformatics communities.
 1. **Sharing** essential knowledge required to create, lead, and sustain an Open Science project.
 2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
 3. **Empowering** them to become effective Open Science ambassadors in their communities.
-
-{% include _includes/toc.html %}
 
 # Goals and Learning Objectives
 
@@ -384,3 +397,4 @@ Updates regarding new calls for applications, announcements, and final project p
 # Community Participation Guidelines
 
 {% include CODE_OF_CONDUCT.md %}
+</div>
