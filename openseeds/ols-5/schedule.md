@@ -9,7 +9,23 @@ photos:
 redirect_from: /ols-5/schedule
 ---
 
+<div class="columns columns-toc">
+<div class="column is-one-fifth" markdown="1">
+
+### Table of content
+{:.no_toc}
+
+<aside class="menu" markdown="1">
+
+- TOC
+{:toc .menu-list}
+
+</aside>
+</div>
+
+<div class="column" markdown="1">
 {% assign cohort = 'ols-5' %}
 {% assign schedule = site.data.openseeds[cohort].schedule %}
 {% include _includes/overall-schedule.md %}
 {% include _includes/detailed-schedule.md %}
+</div>
