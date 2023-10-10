@@ -9,7 +9,7 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-The **OLS** program is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
+The **Open Seeds** program by OLS is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
 
 # About
 
@@ -24,9 +24,9 @@ Participants join this program with a **project** that they either are already w
 
 # Applications
 
-[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_8){:.button .is-link .is-fullwidth}
+<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_8){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before July 3, 2023 to allow activation of your Open Review profile as described in the [OLS-8 application guidelines and templates](https://github.com/open-life-science/application-forms).*
+*Please register on Open Review before July 3, 2023 to allow activation of your Open Review profile as described in the [OLS-8 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
 
 OLS-8 runs from September 2023 to January 2024. We are not sure if we will run OLS-9 in the same format - see our [blog post]({% link _posts/2023-05-05-NASA-grant-announcement.md %}). [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates. 
 
