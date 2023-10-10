@@ -36,6 +36,10 @@ For this round of the OLS program, we are happy to have [{{ p-participants | siz
 
 **Mentored by**: {{ p-mentors | remove_first: 'with ' }}
 
+{% if project.collaboration %}
+**Collaboration**: {{ project.collaboration | join: ', ' }}
+{% endif %}
+
 {% if project.status %}
 **Status**: {{ project.status }}
 {% endif %}
