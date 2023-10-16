@@ -5,7 +5,22 @@
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
 experts: []
-facilitators: []
+facilitators:
+- phaarouknucleus
+- npdebs
+- seunolufemi123
+- emmanuel19-ada
+- gigikenneth
+- peranti
+- arielle-bennett
+- lauracion
+- kiragu-mwaura
+- laurah-nyasita-ondari
+- macziatko
+- lessa-tchohou-fabrice
+- glado718
+- landimi2
+- jformoso
 organizers:
 - bebatut
 - emmyft
