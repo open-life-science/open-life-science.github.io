@@ -4,7 +4,26 @@
 # People should be also in people.yaml file and linked using their GitHub username
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
-experts: []
+experts:
+- alexwlchan
+- angelicamaineri
+- carolina-giraldo-olmos
+- elisa-on-github
+- estherplomp
+- gemmaturon
+- georgianaelena
+- iramosp
+- jafsia
+- jcolomb
+- landimi2
+- macziatko
+- milagro-urricariet
+- nadinespy
+- pazmiguez
+- phaarouknucleus
+- profgiuseppe
+- richarddushime
+- seunolufemi123
 facilitators:
 - phaarouknucleus
 - npdebs
@@ -28,3 +47,155 @@ organizers:
 - pazbc
 - yochannah
 possible-mentors: []
+possible-mentors-with-expertise: {}
+experts-with-expertise:
+  No listed expertise:
+  - alexwlchan
+  - seunolufemi123
+  Data management:
+  - angelicamaineri
+  - iramosp
+  Sociology:
+  - angelicamaineri
+  Datafication:
+  - angelicamaineri
+  Survey methodology:
+  - angelicamaineri
+  FAIR:
+  - angelicamaineri
+  - estherplomp
+  Soil biophysics:
+  - carolina-giraldo-olmos
+  Wildfires:
+  - carolina-giraldo-olmos
+  Soil erosion modeling:
+  - carolina-giraldo-olmos
+  Fair:
+  - elisa-on-github
+  - iramosp
+  Research data management:
+  - elisa-on-github
+  - estherplomp
+  Open research:
+  - elisa-on-github
+  Research support:
+  - elisa-on-github
+  Qualitative research:
+  - elisa-on-github
+  - pazmiguez
+  Open protocols:
+  - estherplomp
+  Open data:
+  - estherplomp
+  - iramosp
+  Archaeology:
+  - estherplomp
+  Bioanthropology:
+  - estherplomp
+  Isotopes:
+  - estherplomp
+  Osteology:
+  - estherplomp
+  Biomedicine (infectious diseases):
+  - gemmaturon
+  Research software in drug discovery:
+  - gemmaturon
+  Python:
+  - gemmaturon
+  Open source code development in Python:
+  - gemmaturon
+  Machine learning:
+  - gemmaturon
+  - nadinespy
+  Open source; software development:
+  - georgianaelena
+  Agrobiodiversity:
+  - iramosp
+  Sustainability:
+  - iramosp
+  Transdisciplinary research:
+  - iramosp
+  Data science:
+  - jafsia
+  Neurobiology:
+  - jcolomb
+  Bioinformatics:
+  - landimi2
+  - profgiuseppe
+  Genome assembly:
+  - landimi2
+  Epigenetics:
+  - landimi2
+  Plants:
+  - macziatko
+  Hemp:
+  - macziatko
+  Genetics:
+  - macziatko
+  Variability:
+  - macziatko
+  Ocean dynamics:
+  - milagro-urricariet
+  Climate variability:
+  - milagro-urricariet
+  Shelf seas:
+  - milagro-urricariet
+  Open science:
+  - nadinespy
+  Reproducible science:
+  - nadinespy
+  - profgiuseppe
+  Best practices in open & reproducible science:
+  - nadinespy
+  Computational studies:
+  - nadinespy
+  Fair research software:
+  - nadinespy
+  Neuroscience:
+  - nadinespy
+  Complexity science:
+  - nadinespy
+  Information theory:
+  - nadinespy
+  Datascience:
+  - nadinespy
+  Metascience:
+  - nadinespy
+  Psychology:
+  - nadinespy
+  Statistics:
+  - nadinespy
+  Vol:
+  - nadinespy
+  Political science:
+  - pazmiguez
+  Education:
+  - pazmiguez
+  Training:
+  - pazmiguez
+  Ai:
+  - phaarouknucleus
+  Clean energy:
+  - phaarouknucleus
+  Environment:
+  - phaarouknucleus
+  Teaching:
+  - profgiuseppe
+  Devops:
+  - profgiuseppe
+  Software development:
+  - profgiuseppe
+  Wiki*:
+  - profgiuseppe
+  Carpentries:
+  - profgiuseppe
+  Communities:
+  - profgiuseppe
+  Databases:
+  - profgiuseppe
+  Community building:
+  - richarddushime
+  Open source:
+  - richarddushime
+  Open software developement:
+  - richarddushime

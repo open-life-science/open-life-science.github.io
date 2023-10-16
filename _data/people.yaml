@@ -736,7 +736,11 @@ angelicamaineri:
   country: Netherlands
   pronouns: She/her
   expertise:
-  - Data management; sociology; datafication; survey methodology; fair;
+  - Data management
+  - Sociology
+  - Datafication
+  - Survey methodology
+  - FAIR
   bio: Data manager in a national research infrastructure for the social sciences,
     PhDone in Sociology, mostly knitting in my free time
   country_3: NLD
@@ -1856,7 +1860,9 @@ carolina-giraldo-olmos:
   city: Bogota
   country: Colombia
   expertise:
-  - Soil biophysics; wildfires; soil erosion modeling
+  - Soil biophysics
+  - Wildfires
+  - Soil erosion modeling
   bio: I am a Ph.D candidate in Engineering Sciences, focusing on Soil Sciences. I
     work at the Soil Biophysics Laboratory at the University, were we investigate
     soil processes with an applied point of view.
@@ -2948,7 +2954,11 @@ elisa-on-github:
   city: Amsterdam
   country: Netherlands
   expertise:
-  - Fair; research data management; open research; research support; qualitative research;
+  - Fair
+  - Research data management
+  - Open research
+  - Research support
+  - Qualitative research
   first-name: Elisa
   last-name: Rodenburg
   orcid: 0000-0001-6068-9792
@@ -3505,8 +3515,11 @@ gemmaturon:
   city: Barcelona
   country: Spain
   expertise:
-  - Biomedicine (infectious diseases) ; research software in drug discovery; python
-    ; open source code development in python; machine learning
+  - Biomedicine (infectious diseases)
+  - Research software in drug discovery
+  - Python
+  - Open source code development in Python
+  - Machine learning
   first-name: Gemma
   last-name: Turon
   pronouns: she/her
@@ -4001,7 +4014,10 @@ iramosp:
   country: Mexico
   expertise:
   - Fair
-  - Open data; data management; agrobiodiversity; sustainability; inter
+  - Open data
+  - Data management
+  - Agrobiodiversity
+  - Sustainability
   - Transdisciplinary research
   first-name: Irene
   last-name: Ramos
@@ -5276,8 +5292,9 @@ landimi2:
   city: Nairobi
   country: Kenya
   expertise:
-  - Bioinformatics (genome assembly
-  - Epigenetics)
+  - Bioinformatics
+  - Genome assembly
+  - Epigenetics
   first-name: Michael
   last-name: Landi
   orcid: 0000-0001-5597-7802
@@ -5706,7 +5723,10 @@ macziatko:
   city: Dublin
   country: Ireland
   expertise:
-  - Plants; hemp; genetics; variability
+  - Plants
+  - Hemp
+  - Genetics
+  - Variability
   first-name: Nina
   last-name: Trubanová
   orcid: 0000-0001-8156-3304
@@ -6572,7 +6592,9 @@ milagro-urricariet:
   country: Argentina
   pronouns: she/her
   expertise:
-  - Ocean dynamics; climate variability; shelf seas
+  - Ocean dynamics
+  - Climate variability
+  - Shelf seas
   bio: I am a physical oceanographer with a keen interest in the changing dynamics
     and hydrography of the South Atlantic Ocean. Currently, I am pursuing my PhD in
     Oceanography and Atmospheric Science at the University of Buenos Aires, where
@@ -7644,6 +7666,23 @@ pazbc:
   country_3: ARG
   continent: South America
   title: Community Researcher & Programme Coordinator (contract)
+pazmiguez:
+  bio: 'Political scientist (University of Buenos Aires) with a MS in Educational Policy (UTDT). Project and Course Development Manager at MetaDocencia. Postgraduate teaching assistant and researcher.'
+  country: Argentina
+  city: Buenos Aires
+  expertise:
+  - Political science
+  - Education
+  - Training
+  - Qualitative research
+  first-name: Paz
+  last-name: Míguez
+  pronouns: she/her
+  twitter: Paz_M
+  country_3: ARG
+  continent: South America
+  longitude: -58.4370894
+  latitude: -34.6075682
 peranti:
   first-name: Pradeep
   last-name: Eranti
@@ -8110,7 +8149,9 @@ richarddushime:
   country: Uganda
   pronouns: He/Him
   expertise:
-  - Community building;open source;open software developement
+  - Community building
+  - Open source
+  - Open software developement
   country_3: UGA
   continent: Africa
   longitude: 32.5813539
