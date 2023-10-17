@@ -7,6 +7,7 @@ photos:
   license: CC BY
   url: https://unsplash.com/photos/FoKO4DpXamQ
 redirect_from: /ols-3/schedule
+toc: true
 ---
 
 {% assign cohort = 'ols-3' %}
