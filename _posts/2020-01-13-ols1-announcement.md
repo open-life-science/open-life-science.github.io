@@ -27,7 +27,7 @@ We welcome our mentors, {{ p-mentors | join: ', ' }}. We are extremely grateful 
 
 ### The Program
 
-We will begin our program this week with a mentoring training call, and mentor-mentee introductions. Check out the complete schedule and plans for OLS-1 here: [{{ site.url }}/ols-1]({% link openseeds/ols-1/index.md %}).
+We will begin our program this week with a mentoring training call, and mentor-mentee introductions. Check out the complete schedule and plans for OLS-1 here: [{% link openseeds/ols-1/index.md %}]({% link openseeds/ols-1/index.md %}).
 
 You can keep track of our program, the progress of our first cohort and future announcements by following our twitter profile [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}) or joining our [community Gitter channel](https://gitter.im/{{ site.gitter }}).
 

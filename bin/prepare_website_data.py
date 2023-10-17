@@ -283,11 +283,14 @@ def read_yaml(fp):
     return content
 
 
-def get_list_from_string(s):
+def get_list_from_string(s, title=True):
     '''
     Transform a string into a list
     '''
-    return s.rstrip().replace(' and ', ', ').replace('|', ', ').title().split(', ')
+    if title:
+        return s.rstrip().replace(' and ', ', ').replace('|', ', ').title().split(', ')
+    else:
+        return s.rstrip().replace(' and ', ', ').replace('|', ', ').split(', ')
 
 
 ### METHODS TO INTERACT WITH people.yaml FILE AND DATA
@@ -351,7 +354,7 @@ def get_people_ids(names, people):
     '''
     ids = []
     if not pd.isnull(names):
-        names = get_list_from_string(names)
+        names = get_list_from_string(names, title=False)
         for n in names:
             id = get_people_id(n.rstrip(), people)
             if id is not None:
@@ -513,7 +516,7 @@ def extract_people_info(row, people):
             elif i in optional_info:
                 del info[i]
         else:
-            if i != 'expertise' and i != 'github':
+            if i not in ['expertise', 'github', 'longitude', 'latitude']:
                 info[i] = info[i].rstrip()
             if i in to_capitalize_info:
                 info[i] = info[i].title()
@@ -531,7 +534,12 @@ def extract_people(df):
     # load people information from sheet file
     # parse it
     # add information to people dictionary
-    df = df.where(pd.notnull(df), None)
+    df = (df.where(pd.notnull(df), None)
+        .rename(columns={
+            'First Name': 'First name',
+            'Last Name': 'Last name',
+    }))
+
     people_l = []
     for index, row in df.iterrows():
         id, info = extract_people_info(row, people)
@@ -603,7 +611,7 @@ def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp
     participants = []
     mentors = []
     # load projects
-    fp = Path(f'_data/cohorts/ols-{cohort}/projects.yaml' )
+    fp = Path(f'_data/openseeds/ols-{cohort}/projects.yaml' )
     projects = read_yaml(fp)
     for p in projects:
         participants += p['participants']
@@ -613,7 +621,7 @@ def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp
 
     # extract experts and organizers
     # load metadata
-    fp = Path(f'_data/cohorts/ols-{cohort}/metadata.yaml' )
+    fp = Path(f'_data/openseeds/ols-{cohort}/metadata.yaml' )
     metadata = read_yaml(fp)
     experts = metadata['experts']
     extract_people_df(experts, people, expert_fp)
@@ -683,7 +691,7 @@ def load_schedule(cohort):
 
     :param cohort: cohort number
     '''
-    fp = Path(f'_data/cohorts/ols-{cohort}/schedule.yaml' )
+    fp = Path(f'_data/openseeds/ols-{cohort}/schedule.yaml' )
     schedule = read_yaml(fp)
     for w in schedule['weeks']:
         for c in schedule['weeks'][w]['calls']:
@@ -703,7 +711,7 @@ def dump_schedule(schedule, cohort):
     :param schedule: dictionary with schedule details
     :param cohort: cohort number
     '''
-    fp = Path(f'_data/cohorts/ols-{cohort}/schedule.yaml')
+    fp = Path(f'_data/openseeds/ols-{cohort}/schedule.yaml')
     with fp.open("w") as schedule_f:
         schedule_f.write(f"# Schedule for the OLS-{cohort}\n")
         schedule_f.write("---\n")
@@ -853,7 +861,7 @@ def dump_projects(projects, cohort):
     :param projects: dictionary with project details
     :param cohort: cohort number
     '''
-    project_fp = Path(f'_data/cohorts/ols-{cohort}/projects.yaml')
+    project_fp = Path(f'_data/openseeds/ols-{cohort}/projects.yaml')
     with project_fp.open("w") as project_f:
         project_f.write(f'# List of projects for OLS-{cohort}\n')
         project_f.write('#\n')
@@ -882,7 +890,7 @@ def load_metadata(cohort):
 
     :param cohort: cohort number
     '''
-    metadata_fp = Path(f'_data/cohorts/ols-{cohort}/metadata.yaml' )
+    metadata_fp = Path(f'_data/openseeds/ols-{cohort}/metadata.yaml' )
     # load metadata cohort file into a dictionary
     with open(metadata_fp, 'r') as metadata_f:
         metadata = yaml.load(metadata_f)
@@ -896,7 +904,7 @@ def dump_metadata(metadata, cohort):
     :param metadata: dictionary with metadata details
     :param cohort: cohort number
     '''
-    metadata_fp = Path(f'_data/cohorts/ols-{cohort}/metadata.yaml' )
+    metadata_fp = Path(f'_data/openseeds/ols-{cohort}/metadata.yaml' )
     with metadata_fp.open("w") as metadata_f:
         metadata_f.write(f'# List of experts, possible mentors and organizers for OLS-{cohort}\n')
         metadata_f.write('#\n')
@@ -914,7 +922,7 @@ def extract_talks():
     Extract talks from all cohort
     '''
     talks = []
-    for c in Path('_data/cohorts').iterdir():
+    for c in Path('_data/openseeds').iterdir():
         # get cohort schedule
         cohort = c.name.split("-")[1]
         schedule = load_schedule(cohort)
@@ -1021,7 +1029,7 @@ def format_people_per_cohort(people, projects):
         for e in ['country', 'country_3', 'city', 'longitude', 'latitude']:
             info[e] = value[e] if e in value else None
         # get cohort participation
-        for c in Path('_data/cohorts').iterdir():
+        for c in Path('_data/openseeds').iterdir():
             cohort = get_cohort_name(c)
             el = f'{cohort}-role'
             if el in value and len( value[el]) > 0:
@@ -1055,7 +1063,7 @@ def export_people_per_roles(people_df, out_dp):
     for r in ROLES:
         role_df = people_df.filter(regex = r)
         role_df = role_df[role_df.filter(regex = r).notna().any(axis=1)]
-        for c in Path('_data/cohorts').iterdir():
+        for c in Path('_data/openseeds').iterdir():
             i = c.name.split("-")[1]
             role_df.rename(columns={f"ols-{i}-{r}": f"ols-{i}"}, inplace=True)
         df = pd.merge(
@@ -1101,13 +1109,13 @@ def add_projects(cohort, project_df, people_df):
     projects = {}
     print('Add new projects')
     for index, row in project_df.iterrows():
-        if row['Comment regarding review'] == 'rejected':
+        if 'Comment regarding review' in row and row['Comment regarding review'] == 'rejected':
             continue
         print(row['Title'])
         # get title
         p = {
             'name': row['Title'].rstrip().lstrip(),
-            'description': row['Project-description'].rstrip().lstrip(),
+            'description': '',
             'participants': [],
             'mentors': [],
             'keywords': []
@@ -1116,14 +1124,20 @@ def add_projects(cohort, project_df, people_df):
         p['participants'] = get_people_ids(row['Authors'], reorder_people)
         # extract mentors
         p['mentors'] = get_people_ids(row['Mentor 1'], reorder_people)
-        #if row['Mentor 2'] != '':
-        #    p['mentors'] += get_people_ids(row['Mentor 2'], reorder_people)
         if len(p['mentors']) == 0:
             print('No mentor')
-        #
+        # extract description
+        if row['Project-description'] is not None:
+            p['description'] = row['Project-description'].rstrip().lstrip()
+        # extract keywords
         if row['Keywords'] is not None:
             p['keywords'] = get_list_from_string(row['Keywords'])
         projects[p['name']] = p
+        # 
+        if 'Collaboration' in row and row['Collaboration'] is not None:
+            p['collaboration'] = get_list_from_string(row['Collaboration'], title=False)
+        # 
+
         print('')
 
     # transform project dictionary to list
@@ -1349,8 +1363,8 @@ def extract_full_people_data(out_dp):
         value.pop('github', None)
         value.pop('title', None)
         value.pop('expertise', None)
-        # add space for cohorts
-        for c in Path('_data/cohorts').iterdir():
+        # add space for openseeds cohorts
+        for c in Path('_data/openseeds').iterdir():
             cohort = get_cohort_name(c)
             value[f'{cohort}-role'] = []
             value[f'{cohort}-participant'] = []
@@ -1362,7 +1376,7 @@ def extract_full_people_data(out_dp):
 
     # get cohort and project informations
     projects = []
-    for c in Path('_data/cohorts').iterdir():
+    for c in Path('_data/openseeds').iterdir():
         cohort = get_cohort_name(c)
         # extract experts, facilitators, organizers from metadata
         metadata = read_yaml(f"{c}/metadata.yaml")
@@ -1398,7 +1412,7 @@ def extract_full_people_data(out_dp):
     
     # export people information to CSV file
     people_df = pd.DataFrame.from_dict(people, orient='index')
-    for c in Path('_data/cohorts').iterdir():
+    for c in Path('_data/openseeds').iterdir():
         cohort = get_cohort_name(c)
         people_df[f'{cohort}-role'] = people_df[f'{cohort}-role'].apply(lambda x: ', '.join([str(i) for i in x]) if len(x)>0 else None)
         people_df[f'{cohort}-participant'] = people_df[f'{cohort}-participant'].apply(lambda x: ', '.join([str(i) for i in x]) if len(x)>0 else None)
