@@ -183,5 +183,3 @@ Below are all of the individual videos, but the videos are part of cohort calls 
     </div>
     {% endfor %}
 {% endfor %}
-</div>
-</div>
