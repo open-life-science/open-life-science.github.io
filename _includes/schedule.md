@@ -111,6 +111,14 @@
             "email": "{{ site.email }}",
             "url": "{{ site.url }}"
         }]
+        {%- if c.learning_objectives -%}{%- assign lo-sep="" -%}
+        ,"teaches": [
+            {%- for lo in c.learning_objectives -%}
+                {{ sep }}"The learners will be able to {{ lo }}",
+                {%- assign sep=", " -%}
+            {%- endfor -%}
+        ]
+        {%- endif -%}
     }      
         {%- assign sep="," -%}
         {%- endif -%}

@@ -13,9 +13,22 @@
 
 {% if c.hosts %}
 {% assign hosts = '' %}
-{% for p in c.hosts %}{% capture hosts %}{{ hosts }}, {{ site.data.people[p].first-name }} {{ site.data.people[p].last-name }}{% endcapture %}{% endfor %}
+{% for p in c.hosts %}{% capture hosts %}{{ hosts }}, [{{ site.data.people[p].first-name }} {{ site.data.people[p].last-name }}]({% link people.md %}#{{ p }}){% endcapture %}{% endfor %}
 <i class="fas fa-user-friends"></i> **Hosts**: {{ hosts | remove_first: ', ' }}
 {% endif %}
+
+{% if c.learning_objectives %}
+### Learning objectives
+
+At the end of this call, learners will be able to:
+
+{% for lo in c.learning_objectives %}
+- {{ lo | markdownify }}
+{% endfor %}
+
+
+{% endif %}
+
 
 {% if c.content %}
 ### In this call
@@ -24,14 +37,25 @@
 
 {% endif %}
 
-{% if c.type == "Cohort" %}
+{% if c.before %}
+### Before the call
 
-**Talks**
-{% for r in c.talks %}
-- <i class="fas fa-file-powerpoint"></i>{% if r.link %} [{{ r.title }}]({{ r.link }}){% else %} {{ r.title }}{% endif %}{% if r.speaker %}{% if site.data.people[r.speaker].first-name %}, by [{{ site.data.people[r.speaker].first-name }} {{ site.data.people[r.speaker].last-name }}](/{{ cohort }}#{{ r.speaker }}){% endif %}{% endif %}
+{% for lo in c.before %}
+- {{ lo | markdownify }}
 {% endfor %}
 
-**Resources**:
+{% endif %}
+
+{% if c.type == "Cohort" %}
+
+### Talks
+
+{% for r in c.talks %}
+- <i class="fas fa-file-powerpoint"></i>{% if r.slides %} [{{ r.title }}]({{ r.slides }}){% else %} {{ r.title }}{% endif %}{% if r.speakers %}{% for p in r.speakers %}{% capture speakers %}{{ speakers }}, [{{ site.data.people[p].first-name }} {{ site.data.people[p].last-name }}]({% link people.md %}#{{ p }}){% endcapture %}{% endfor %}, by {{ speakers | remove_first: ', ' }}{% endif %}
+{% endfor %}
+
+### Resources
+
 - <i class="fas fa-clipboard"></i> [Notes]({{ c.notes }})
 - <i class="fab fa-youtube"></i> {% if c.recording %} [Recording]({{ c.recording }}) {% else %} Recording available on the [OLS YouTube channel]({{ site.youtube }}) after the call {% endif %}
 {% for r in c.resources %}
@@ -40,16 +64,13 @@
 
 {% endif %}
 
-{% if c.before %}
-### Before the call
-
-{{ c.before | markdownify }}
-{% endif %}
-
 {% if c.after %}
 ### After the call
 
-{{ c.after | markdownify }}
+{% for lo in c.after %}
+- {{ lo | markdownify }}
+{% endfor %}
+
 {% endif %}
 
 {% endfor %}
