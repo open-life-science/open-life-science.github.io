@@ -9,23 +9,9 @@ photos:
 redirect_from:
   - /OLS-1
   - /ols-1
+toc: true
 ---
 
-<div class="columns columns-toc">
-<div class="column is-one-fifth" id="cohort-toc" markdown="1">
-
-### Table of content
-{:.no_toc}
-
-<aside class="menu" markdown="1">
-
-- TOC
-{:toc .menu-list}
-
-</aside>
-</div>
-
-<div class="column" markdown="1">
 {% include _includes/cohort-metadata.html cohort='ols-1' %}
 
 # The OLS-1 program

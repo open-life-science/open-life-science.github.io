@@ -7,24 +7,9 @@ photos:
   license: CC BY
   url: https://unsplash.com/photos/FoKO4DpXamQ
 redirect_from: /ols-3/schedule
+toc: true
 ---
 
-<div class="columns columns-toc">
-<div class="column is-one-fifth" markdown="1">
-
-### Table of content
-{:.no_toc}
-
-<aside class="menu" markdown="1">
-
-- TOC
-{:toc .menu-list}
-
-</aside>
-</div>
-
-<div class="column" markdown="1">
 {% assign cohort = 'ols-3' %}
 {% assign schedule = site.data.openseeds[cohort].schedule %}
 {% include _includes/schedule.md %}
-</div>

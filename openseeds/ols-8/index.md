@@ -1,5 +1,6 @@
 ---
 layout: page
+toc: true
 title: Welcome to Open Seeds Cohort 8 
 image: /images/syllabus.jpg
 photos:
@@ -11,21 +12,6 @@ redirect_from:
   - /ols-8
 ---
 
-<div class="columns columns-toc">
-<div class="column is-one-fifth" markdown="1">
-
-### Table of content
-{:.no_toc}
-
-<aside class="menu" markdown="1">
-
-- TOC
-{:toc .menu-list}
-
-</aside>
-</div>
-
-<div class="column" markdown="1">
 {% include _includes/cohort-metadata.html cohort='ols-8' %}
 
 # The Open Seeds 8 program
@@ -393,4 +379,3 @@ Updates regarding new calls for applications, announcements, and final project p
 # Community Participation Guidelines
 
 {% include CODE_OF_CONDUCT.md %}
-</div>

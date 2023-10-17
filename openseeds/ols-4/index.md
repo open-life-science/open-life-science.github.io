@@ -1,5 +1,6 @@
 ---
 layout: page
+toc: true
 title: Welcome to the 4th cohort of OLS program!
 image: /images/syllabus.jpg
 photos:
@@ -11,21 +12,6 @@ redirect_from:
   - /ols-4
 ---
 
-<div class="columns columns-toc">
-<div class="column is-one-fifth" markdown="1">
-
-### Table of content
-{:.no_toc}
-
-<aside class="menu" markdown="1">
-
-- TOC
-{:toc .menu-list}
-
-</aside>
-</div>
-
-<div class="column" markdown="1">
 {% include _includes/cohort-metadata.html cohort='ols-4' %}
 
 # The OLS-4 program
@@ -393,4 +379,3 @@ Updates regarding new calls for applications, announcements, and final project p
 # Community Participation Guidelines
 
 {% include CODE_OF_CONDUCT.md %}
-</div>
