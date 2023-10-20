@@ -489,4 +489,16 @@ code {
 
 .columns-toc {
   margin-top: 2em;
+  
+  .column.is-one-fifth {
+    height: 90vh;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 780px) {
+  .column.is-one-fifth {
+    position: sticky;
+    top: 50px;
+  }
 }

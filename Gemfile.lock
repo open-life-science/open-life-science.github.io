@@ -68,6 +68,9 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-toc (0.18.0)
+      jekyll (>= 3.9)
+      nokogiri (~> 1.12)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.2)
@@ -132,6 +135,7 @@ DEPENDENCIES
   jekyll
   jekyll-github-metadata
   jekyll-redirect-from
+  jekyll-toc
   nokogiri
   webrick
 

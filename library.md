@@ -1,5 +1,6 @@
 ---
 layout: page
+toc: true
 title: Open Seeds Video Library
 image: https://images.unsplash.com/photo-1481137344492-d5a150a97f8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 photos:
@@ -98,25 +99,9 @@ photos:
 
 {% assign speaker_nb = all-speakers | remove_first: ',' | split: "," | uniq | sort | size %}
 
-<p>This page shows you the full library of available videos from talks in Open Seeds cohort calls: <strong>{{ video_nb }} videos</strong> by <strong>{{ speaker_nb }} speakers</strong>.</p>
+This page shows you the full library of available videos from talks in Open Seeds cohort calls: **{{ video_nb }} videos** by **{{ speaker_nb }} speakers**.
 
-<p>Below are all of the individual videos, but the videos are part of cohort calls that you can watch directly from the same links. You can use these for self-study, courses, and more! </p>
-
-<div class="columns columns-toc">
-<div class="column is-one-fifth" markdown="1">
-
-### Table of content
-{:.no_toc}
-
-<aside class="menu" markdown="1">
-
-- TOC
-{:toc .menu-list}
-
-</aside>
-</div>
-
-<div class="column" markdown="1">
+Below are all of the individual videos, but the videos are part of cohort calls that you can watch directly from the same links. You can use these for self-study, courses, and more!
 
 {% for topic in library %}
     {% assign topic-name = topic[0] | slugify %}
@@ -198,5 +183,3 @@ photos:
     </div>
     {% endfor %}
 {% endfor %}
-</div>
-</div>
