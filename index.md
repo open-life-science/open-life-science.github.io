@@ -7,6 +7,10 @@ photos:
   name: Bérénice Batut
   license: CC BY-SA 4.0
   url: https://flic.kr/p/2gHMJah
+images:
+  - images/three-pillars-icons/open-science-training-icon.png
+  - images/three-pillars-icons/open-research-icon.png
+  - images/three-pillars-icons/open-incubator-icon.png
 ---
 
 OLS is a not-for profit organisation dedicated to capacity building and diversifying leadership in research worldwide.
@@ -18,6 +22,7 @@ We imagine a future where research is accessible, inclusive, and equitable for e
     <div class="column is-one-third">
         <div class="card custom-card">
             <div class="card-content">
+              <img src="{{ page.images[0] }}" class="image is-128x128">
               <h1>Open Science Training</h1>
             </div>
         </div>
@@ -25,13 +30,15 @@ We imagine a future where research is accessible, inclusive, and equitable for e
     <div class="column is-one-third">
         <div class="card custom-card">
             <div class="card-content">
-              <h1>Research on Open</h1>
+              <img src="{{ page.images[1] }}" class="image is-128x128">
+            <h1>Research on Open</h1>
             </div>
         </div>
     </div>
     <div class="column is-one-third">
         <div class="card custom-card">
             <div class="card-content">
+              <img src="{{ page.images[2] }}" class="image is-128x128">
               <h1>Open Incubator</h1>
             </div>
         </div>
@@ -39,7 +46,7 @@ We imagine a future where research is accessible, inclusive, and equitable for e
   </div>
 </div>
 
-# Open Science Training 
+# <img src="{{ page.images[0] }}" class="image is-32x32"> Open Science Training 
 Online mentoring and training programs for individuals and teams worldwide to learn about and adopt open research practices.
 
 Current work streams:
@@ -51,7 +58,7 @@ Current work streams:
 - Our programs are built with a global community of experienced community builders and open practitioners.
 
 
-# Research on open
+#  <img src="{{ page.images[1] }}" class="image is-32x32"> Research on open
 Evidence base and interventions for widening participation in research.
 Current work streams:
 - WT impact research
@@ -62,7 +69,7 @@ Current work streams:
 - Inclusivity and equity-focused approach to research: train and incubate independent research leaders, compensate contributors, foster collaborations.
 
 
-# Open incubator
+#  <img src="{{ page.images[2] }}" class="image is-32x32"> Open incubator
 “The greenhouse”: Hands-on support to empower the next generation of open leaders in research.
 Current work streams:
 - Resident fellows program
