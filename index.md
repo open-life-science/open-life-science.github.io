@@ -46,7 +46,7 @@ We imagine a future where research is accessible, inclusive, and equitable for e
   </div>
 </div>
 
-# <img src="{{ page.images[0] }}" class="image is-32x32"> Open Science Training 
+<h1><figure class="image is-32x32"><img src="{{ page.images[0] }}"></figure>Open Science Training</h1>
 Online mentoring and training programs for individuals and teams worldwide to learn about and adopt open research practices.
 
 Current work streams:
@@ -58,7 +58,7 @@ Current work streams:
 - Our programs are built with a global community of experienced community builders and open practitioners.
 
 
-#  <img src="{{ page.images[1] }}" class="image is-32x32"> Research on open
+<h1><figure class="image is-32x32"><img src="{{ page.images[1] }}"></figure>Research on open</h1>
 Evidence base and interventions for widening participation in research.
 Current work streams:
 - WT impact research
@@ -69,7 +69,7 @@ Current work streams:
 - Inclusivity and equity-focused approach to research: train and incubate independent research leaders, compensate contributors, foster collaborations.
 
 
-#  <img src="{{ page.images[2] }}" class="image is-32x32"> Open incubator
+<h1><figure class="image is-32x32"><img src="{{ page.images[2] }}"></figure>Open incubator</h1>
 “The greenhouse”: Hands-on support to empower the next generation of open leaders in research.
 Current work streams:
 - Resident fellows program
