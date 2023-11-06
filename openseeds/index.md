@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OLS
+title: Open Seeds
 description: A mentoring & training program for Open Science ambassadors
 image: /images/index.jpg
 photos:
@@ -9,7 +9,7 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-The **OLS** program is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
+The **Open Seeds** program by OLS is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
 
 # About
 
@@ -24,9 +24,9 @@ Participants join this program with a **project** that they either are already w
 
 # Applications
 
-[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_8){:.button .is-link .is-fullwidth}
+<!--[Apply via Open Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2023/Cohort_8){:.button .is-link .is-fullwidth}
 
-*Please register on Open Review before July 3, 2023 to allow activation of your Open Review profile as described in the [OLS-8 application guidelines and templates](https://github.com/open-life-science/application-forms).*
+*Please register on Open Review before July 3, 2023 to allow activation of your Open Review profile as described in the [OLS-8 application guidelines and templates](https://github.com/open-life-science/application-forms).*-->
 
 OLS-8 runs from September 2023 to January 2024. We are not sure if we will run OLS-9 in the same format - see our [blog post]({% link _posts/2023-05-05-NASA-grant-announcement.md %}). [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates. 
 
@@ -81,7 +81,7 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
   {%- for week in cohort_schedule.weeks -%}
       {%- assign cohort_end = week[1].start -%}
   {%- endfor %}
-| [{{ cohort_name | upcase }}]({% link openseeds/{{ cohort_name }}/index.md %}) | [{{ cohort_start }} - {{ cohort_end }}]({% link openseeds/{{ cohort_name }}/schedule.md %}) | {%- if cohort_participants > 0 -%}[{{ cohort_participants }} mentees]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants) on {%- endif -%} {%- if cohort_projects > 0 -%}[{{ cohort_projects }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects) {%- endif -%}| {%- if cohort_mentors > 0 -%}[{{ cohort_mentors }} mentors]({% link openseeds/{{ cohort_name }}/index.md %}#mentors) {%- endif -%}| {%- if experts > 0 -%}[{{ experts }} experts]({% link openseeds/{{ cohort_name }}/index.md %}#experts) {%- endif -%}| {%- if facilitators > 0 -%}[{{ facilitators }} facilitator(s)]({% link openseeds/{{ cohort_name }}/index.md %}#facilitators) {%- endif -%} |
+| [{{ cohort_name | upcase }}]({% link openseeds/{{ cohort_name }}/index.md %}) | [{{ cohort_start }} - {{ cohort_end }}]({% link openseeds/{{ cohort_name }}/schedule.md %}) | {%- if cohort_participants > 0 -%}[{{ cohort_participants }} mentees]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants) on {%- endif -%} {%- if cohort_projects > 0 -%} [{{ cohort_projects }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects) {%- endif -%}| {%- if cohort_mentors > 0 -%}[{{ cohort_mentors }} mentors]({% link openseeds/{{ cohort_name }}/index.md %}#mentors) {%- endif -%}| {%- if experts > 0 -%}[{{ experts }} experts]({% link openseeds/{{ cohort_name }}/index.md %}#experts) {%- endif -%}| {%- if facilitators > 0 -%}[{{ facilitators }} facilitator(s)]({% link openseeds/{{ cohort_name }}/index.md %}#facilitators) {%- endif -%} |
 {%- endfor -%}
 {%- assign all_participants = all_participants | remove_first: ', ' | split: ", " | uniq | size -%}
 {%- assign all_mentors = all_mentors | remove_first: ', ' | split: ", " | uniq | size -%}
