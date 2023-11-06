@@ -34,7 +34,7 @@
           <a href="https://orcid.org/{{ user.orcid }}"><i class="ai ai-orcid"></i></a>
           {% endif %}
 
-          {% if user.affiliation or user.country %}
+          {% if user.affiliation or user.location.country %}
             <br>
             <i class="fas fa-map-marker-alt"></i>
             {% assign delim = '' %}
@@ -42,26 +42,24 @@
             {{ user.affiliation }}
             {% assign delim = ', ' %}
             {% endif %}
-            {% if user.country %}
-            {{ delim }}{{ user.country }}
+            {% if user.location.country %}
+            {{ delim }}{{ user.location.country }}
             {% endif %}
           {% endif %}
         </p>
       </div>
     </div>
 
-    {% if ols-roles and ols-roles != '' or user.title %}
+    {% if user.title or ols-roles and ols-roles != '' %}
     <p class="people-description">
       Role in OLS:
       {% if user.title %}
         {{ user.title }}
-      {% endif %}
       <br>
+      {% endif %}
       {% if ols-roles and ols-roles != '' %}
-        there
         {{ ols-roles }}
       {% endif %}
-      </p>
     </p>
     {% endif %}
 

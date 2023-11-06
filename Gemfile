@@ -1,3 +1,5 @@
+# ruby '>= 3.0.0'
+
 source "https://rubygems.org"
 
 gem 'github-pages', group: :jekyll_plugins
@@ -7,4 +9,4 @@ gem 'nokogiri', group: :jekyll_plugins
 gem 'html-proofer', group: :jekyll_plugins
 gem 'jekyll-redirect-from', group: :jekyll_plugins
 gem 'webrick', group: :jekyll_plugins
-gem 'jekyll-sitemap'
+gem 'jekyll-sitemap', group: :jekyll_plugins

@@ -35,7 +35,7 @@ _My formal academic background is in humanities and social sciences, so no surpr
 
 Paz has been working with us over the past month first, by
 1. **leading** OLS's **collaboration with The Alan Turing Institute** to repackage and make **OLS's training materials available for on-demand training** ([proposal](https://zenodo.org/record/6974060)), and
-2. playing a crucial role in driving the **organisation and coordination of [OLS-6]({% link ols-6.md %})**.
+2. playing a crucial role in driving the **organisation and coordination of [OLS-6]({% link openseeds/ols-6/index.md %})**.
 
 In the **next 2 years**, Paz will continue to be a **key coordinator of OLS cohorts**. In addition, she will also be **leading research** to
 - **assess** the **long-term impact** of hands-on training and **contextual mentoring** (using OLS as a case study) and
@@ -43,7 +43,7 @@ In the **next 2 years**, Paz will continue to be a **key coordinator of OLS coho
 
 She will be working closely with the OLS leadership, as well as past and present OLS project leads, mentors, facilitators, experts, and partners on this important work (see our [Wellcome Open Research Fund proposal](https://zenodo.org/record/5267934) for details).
 
-You can connect with her on Twitter ([PazByC](https://twitter.com/PazByC)), and [follow OLS](https://twitter.com/openlifesci) for future updates.
+You can connect with her on Twitter ([PazByC](https://twitter.com/PazByC)), and [follow OLS](https://twitter.com/{{ site.twitter }}) for future updates.
 
 ![Paz is connecting dots in her mind, mimicking a meme reference to one of the most famous scenes of It's Always Sunny In Philadelphia in which the character Charlie goes on a conspiratorial rant about how he believes a person named 'Pepe Silvia' does not exist.](/images/2022-08-paz-meme.png)
 

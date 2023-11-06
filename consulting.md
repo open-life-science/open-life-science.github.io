@@ -16,7 +16,7 @@ OLS has a long history of captioning videos as part of running online inclusive 
 - Upload and segmentation. 
 - Live stream advice for multilingual and hearing-accessible calls
 
-Sample work: [youtube.com/openlifesci](https://www.youtube.com/c/OpenLifeSci/videos)
+Sample work: [youtube.com/openlifesci]({{ site.youtube }})
 
 Rates start at $75USD / hour for video captioning. 
 
@@ -28,7 +28,7 @@ Multiple OLS community members are trained Ally skill facilitators. We offer ad-
 
 ### OLS Ally Skills Workshops: Organisation Guide
 
-The Open Life Science (OLS) Ally Skills workshop trainers are trained from the [Frame Shift Consulting](http://frameshiftconsulting.com) and training materials provided by them are built on the CC BY-SA 4.0 Licensed resources provided by [Frame Shift Consulting](http://frameshiftconsulting.com) (© 2016 - 2020), [Dr Sheila Addison](http://www.drsheilaaddison.com) (© 2016) and [The Ada Initiative](http://adainitiative.org) (© 2011 - 2015). To learn more about Open Life Science, our open science training and mentoring programme and how to collaborate with us, please visit https://openlifesci.org. For any enquiry and details please email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}). 
+The Open Life Science (OLS) Ally Skills workshop trainers are trained from the [Frame Shift Consulting](https://frameshiftconsulting.com) and training materials provided by them are built on the CC BY-SA 4.0 Licensed resources provided by [Frame Shift Consulting](https://frameshiftconsulting.com) (© 2016 - 2020), [Dr Sheila Addison](https://www.drsheilaaddison.com) (© 2016) and [The Ada Initiative](https://adainitiative.org) (© 2011 - 2015). To learn more about Open Seeds, our open science training and mentoring programme and how to collaborate with us, please visit [{% link openseeds/index.md %}]({% link openseeds/index.md %}). For any enquiry and details please email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}). 
 
 ### About Ally Skills
 
@@ -55,7 +55,7 @@ The scope of the workshop does not include teaching members of marginalised grou
 
 ### Workshop Format, Content & Logistics
 
-OLS Ally Skills workshops are offered to external organisations and collaborators for a fee. Please email the OLS team (team@openlifesci.org) to express your interest to host and request a quote. Since the OLS team members manage two 16-week long training and mentoring cohorts each year, it is important to get in touch with them several weeks in advance to share your plan and identify potential dates for the workshops.
+OLS Ally Skills workshops are offered to external organisations and collaborators for a fee. Please email the OLS team ([{{ site.email }}](mailto:{{ site.email }})) to express your interest to host and request a quote. Since the OLS team members manage two 16-week long training and mentoring cohorts each year, it is important to get in touch with them several weeks in advance to share your plan and identify potential dates for the workshops.
 
 Customisation of our workshops: Our training is designed for researchers and scientific communities. We are happy to discuss if specific customisation in our workshop materials might be required for external organisations to represent their workspace culture. 
 

@@ -18,6 +18,7 @@ $link-focus: $link-hover;
 $link-active: $link-hover;
 
 @import 'bulma/bulma.sass';
+@import 'bulma-collapsible.sass';
 
 @mixin reset-links() {
   a {
@@ -206,6 +207,7 @@ img {
   margin-left: 0.25em;
   margin-right: 0.25em;
   vertical-align: middle;
+  display: inline;
 }
 
 .entities {
@@ -460,4 +462,43 @@ code {
     }
   }
   
+}
+
+
+// menu
+.menu {
+  font-size: small;
+
+  ul {
+    margin-left: 0px;
+    margin-right: 2em;
+
+    list-style-type: none;
+
+    ul {
+      list-style-type: none;
+
+      ul {
+        list-style-type: none;
+
+      }
+    }
+  }
+  
+}
+
+.columns-toc {
+  margin-top: 2em;
+  
+  .column.is-one-fifth {
+    height: 90vh;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 780px) {
+  .column.is-one-fifth {
+    position: sticky;
+    top: 50px;
+  }
 }

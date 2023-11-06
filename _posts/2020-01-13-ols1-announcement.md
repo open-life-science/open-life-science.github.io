@@ -9,26 +9,9 @@ image: https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-1.2
 ---
 *We are excited to welcome this fantastic set of mentees who are not only located in different parts of the world, but also represent different identities and backgrounds, aim to address a wide range of questions in their field, and are motivated to bring a culture change in their areas. Many of them are long-standing Open Scientists who aim to use this opportunity to apply “Open by Design” principle in their projects through this program.*
 
-{% assign people = site.data.people %}
-{% assign projects = site.data.ols-1-projects %}
-{% assign experts-speakers = site.data.ols-1-experts-speakers %}
+{% include _includes/announcement-blog-metadata.html cohort='ols-1' %}
 
-{% assign all-participants = '' %}
-{% assign all-mentors = '' %}
-{% for project in projects %}
-    {% assign p-pparticipants = '' %}
-    {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1/projects-participants#{{ p }}){% endcapture %}
-    {% endfor %}
-    {% for m in project.mentors %}
-        {% capture all-mentors %}{{ all-mentors }}, [{{ people[m].first-name }} {{ people[m].last-name }}](/ols-1#{{ m }}){% endcapture %}
-    {% endfor %}
-{% endfor %}
-
-{% assign p-participants = all-participants | remove_first: ', ' | split: ", " | uniq | sort %}
-{% assign p-mentors = all-mentors | remove_first: ', ' | split: ", " | uniq | sort %}
-
-We are thrilled to announce that [{{ p-participants | size }} members](/ols-1/projects-participants/#participants), who are the project leads of [{{ projects | size }} diverse projects](/ols-1/projects-participants/#projects), have joined the first cohort of the Open Life Science mentoring program - OLS-1!
+We are thrilled to announce that [{{ p-participants | size }} members]({% link openseeds/ols-1/projects-participants.md %}#participants), who are the project leads of [{{ projects | size }} diverse projects]({% link openseeds/ols-1/projects-participants.md %}#projects), have joined the first cohort of the Open Life Science mentoring program - OLS-1!
 
 ### Meet our mentees!
 
@@ -44,7 +27,7 @@ We welcome our mentors, {{ p-mentors | join: ', ' }}. We are extremely grateful 
 
 ### The Program
 
-We will begin our program this week with a mentoring training call, and mentor-mentee introductions. Check out the complete schedule and plans for OLS-1 here: [{{ site.url }}/ols-1](/ols-1).
+We will begin our program this week with a mentoring training call, and mentor-mentee introductions. Check out the complete schedule and plans for OLS-1 here: [{% link openseeds/ols-1/index.md %}]({% link openseeds/ols-1/index.md %}).
 
 You can keep track of our program, the progress of our first cohort and future announcements by following our twitter profile [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}) or joining our [community Gitter channel](https://gitter.im/{{ site.gitter }}).
 
@@ -52,12 +35,12 @@ We invite new contributions to the program as a [new issue on the GitHub repo]({
 
 Once again, let's welcome our mentors and mentees to this program!
 
-## Project details ([click here for full description](/ols-1/projects-participants/))
+## Project details ([click here for full description]({% link openseeds/ols-1/projects-participants.md %}#projects))
 
 | Project | Project leaders | Mentor (with secondary mentors if any) |
 |----------|-----------------------|------------|
 {%- for project in projects %}
-| [{{ project.name }}](/ols-1/projects-participants/#{{ project.name | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | remove: "/" | remove: '"' | remove: "'" | remove: "&" | remove: ";" | replace: " - ", "-" | replace: " ", "-"  }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1/projects-participants#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}with [{{ people[p].first-name }} {{ people[p].last-name }}](/ols-1#{{ p }}) {% endfor %} {% endcapture %} {{ p-mentors | remove_first: 'with ' }} |
+| [{{ project.name }}]({% link openseeds/ols-1/projects-participants.md %}#{{ project.name | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | remove: "/" | remove: '"' | remove: "'" | remove: "&" | remove: ";" | replace: " - ", "-" | replace: " ", "-"  }}) | {% capture p-participants %} {% for p in project.participants -%}, [{{ people[p].first-name }} {{ people[p].last-name }}]({% link openseeds/ols-1/projects-participants.md %}#{{ p }}){% endfor %} {% endcapture %} {{ p-participants | remove_first: ', ' }} | {% capture p-mentors %} {% for p in project.mentors -%}with [{{ people[p].first-name }} {{ people[p].last-name }}]({% link openseeds/ols-1/index.md %}#{{ p }}) {% endfor %} {% endcapture %} {{ p-mentors | remove_first: 'with ' }} |
 {%- endfor %}
 
 We wish our cohort members all the best as they begin this journey with us.

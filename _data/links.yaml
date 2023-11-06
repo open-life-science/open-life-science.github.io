@@ -7,25 +7,25 @@ description: >
 
 items:
   -
-    text: Apply for our next cohort
-    link: /index#applications
+    text: Read about and apply for our next Open Seeds cohort
+    link: /openseeds
     icon: fa fa-graduation-cap
   -
     text: Check out our upcoming events
-    link: /events
+    link: /events.html
     icon:  fa fa-calendar
   -
     text: Read our stories
-    link: /posts
+    link: /posts.html
     icon: fa fa-book-open
   -
     text: Watch our videos on YouTube
     link: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
     icon: fab fa-youtube
-  #-
-  #  text: Check out our Open Science video library 
-  #  link: /library
-  #  icon: fas fa-video
+  -
+    text: Check out our Open Science video library 
+    link: /library.html
+    icon: fas fa-video
   -
     text: Follow us on Twitter
     link: https://twitter.com/openlifesci
@@ -40,7 +40,7 @@ items:
     icon: fas fa-mail-bulk
   -
     text: Write us via email
-    link: mailto:team@openlifesci.org
+    link: mailto:team@we-are-ols.org
     icon: fas fa-at
   -
     text: Explore our GitHub repositories

@@ -4,6 +4,20 @@ layout: default
 
 <section>
     <div class="article-post">
-        {{content}}
-    </div>    
+        {% if page.toc %}
+        <div class="columns columns-toc">
+            <div class="column is-one-fifth" id="cohort-toc">
+                <h3 id="no_toc">Table of content<h3>
+                <aside class="menu">
+                    {{ content | toc_only }} 
+                </aside>
+            </div>
+            <div class="column">
+                {{ content | inject_anchors }}
+            </div>
+        </div>
+        {% else %}
+        {{ content }}
+        {% endif %}
+    </div>
 </section>
