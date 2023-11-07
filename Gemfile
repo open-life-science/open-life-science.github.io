@@ -2,11 +2,11 @@
 
 source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-paginate', group: :jekyll_plugins
-gem 'jekyll-archives', group: :jekyll_plugins
-gem 'nokogiri', group: :jekyll_plugins
-gem 'html-proofer', group: :jekyll_plugins
-gem 'jekyll-redirect-from', group: :jekyll_plugins
-gem 'webrick', group: :jekyll_plugins
-gem 'jekyll-sitemap', group: :jekyll_plugins
+gem 'html-proofer'
+gem 'jekyll'
+gem 'jekyll-redirect-from'
+gem 'jekyll-github-metadata'
+gem 'jekyll-toc'
+gem 'nokogiri'
+gem 'webrick'
+gem 'jekyll-sitemap'
