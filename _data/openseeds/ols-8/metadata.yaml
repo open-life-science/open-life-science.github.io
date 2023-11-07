@@ -8,6 +8,7 @@ experts:
 - alexwlchan
 - angelicamaineri
 - carolina-giraldo-olmos
+- diana-pilvar
 - elisa-on-github
 - estherplomp
 - gemmaturon
@@ -18,11 +19,13 @@ experts:
 - landimi2
 - macziatko
 - milagro-urricariet
+- nessa111987
 - nadinespy
 - pazmiguez
 - phaarouknucleus
 - profgiuseppe
 - richarddushime
+- saravilla
 - seunolufemi123
 facilitators:
 - phaarouknucleus
@@ -54,6 +57,7 @@ experts-with-expertise:
   - seunolufemi123
   Data management:
   - angelicamaineri
+  - diana-pilvar
   - iramosp
   Sociology:
   - angelicamaineri
@@ -70,6 +74,8 @@ experts-with-expertise:
   - carolina-giraldo-olmos
   Soil erosion modeling:
   - carolina-giraldo-olmos
+  Data stewardship:
+  - diana-pilvar
   Fair:
   - elisa-on-github
   - iramosp
@@ -140,6 +146,8 @@ experts-with-expertise:
   - milagro-urricariet
   Shelf seas:
   - milagro-urricariet
+  Community management:
+  - nessa111987
   Open science:
   - nadinespy
   Reproducible science:
@@ -199,3 +207,11 @@ experts-with-expertise:
   - richarddushime
   Open software developement:
   - richarddushime
+  Molecular biology:
+  - saravilla
+  Genomics:
+  - saravilla
+  Sequencing:
+  - saravilla
+  Project management:
+  - saravilla
