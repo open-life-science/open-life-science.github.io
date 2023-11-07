@@ -52,3 +52,4 @@ plugins:
   - jekyll-redirect-from
   - jekyll-github-metadata
   - jekyll-toc
+  - jekyll-sitemap
