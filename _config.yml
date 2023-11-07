@@ -41,8 +41,15 @@ collections:
     permalink: /openseeds/ols-8/:path/
     output: true
 
+toc:
+  min_level: 1 # default: 1
+  max_level: 3 # default: 6
+  list_class: menu-list
+
 includes_dir: .
 
 plugins:
   - jekyll-redirect-from
   - jekyll-github-metadata
+  - jekyll-toc
+  - jekyll-sitemap

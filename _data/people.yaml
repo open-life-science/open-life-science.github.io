@@ -52,18 +52,19 @@
   last-name: Vazano
   twitter: ni_airo
   orcid: 0000-0002-0912-2501
-  city: Rancagua, Provincia De Buenos Aires
+  city: Buenos Aires
   country: Argentina
   pronouns: She/her/hers
   expertise:
   - Library science
   - Computer science
-  bio: Advanced student of Library Science with work experience in academic libraries
-    and technology. Certified instructor by The Carpentries.
+  bio: Graduated on Library Science with work experience in academic libraries and
+    technology. MetaDocencia´s Infrastructure team coordinator. OLS-7 Mentee. Certified
+    instructor by The Carpentries.
   country_3: ARG
   continent: South America
-  longitude: -60.5045833
-  latitude: -34.0299629
+  longitude: -58.4370894
+  latitude: -34.6075682
 aath0:
   bio: Athina is a neuroscientist, with a background in electrical and computer engineering.
     Her research combines computational and electrophysiological techniques to study
@@ -425,6 +426,34 @@ aleesteele:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+alettes:
+  first-name: Alette
+  last-name: Schoon
+  twitter: hadeda
+  orcid: 0000-0003-2369-3607
+  city: Makhanda Grahamstown
+  country: South Africa
+  pronouns: she/her
+  expertise:
+  - Educational video production
+  - Digital divide
+  - Digital cultures
+  - Social media
+  - Mobile communications
+  - Documentary filmmaking
+  - Media studies
+  bio: Alette Schoon teaches documentary filmmaking at the School of Journalism and
+    Media Studies at Rhodes University in Makhanda, South Africa. Before entering
+    academia she worked in educational television. Alette has a PhD in digital media
+    studies and is the organiser of the African DigiMethods conference that aims to
+    share digital and computational research methods and tools with African Media
+    Studies researchers. Alette has published various book chapters and journal articles
+    on digital media in South Africa. Alette enjoys mountain biking and is known among
+    her cycling group as the "downhill queen".
+  country_3: ZAF
+  continent: Africa
+  longitude: 26.496243
+  latitude: -33.2885486
 alex-mendonça:
   first-name: Alex
   last-name: Mendonça
@@ -530,6 +559,24 @@ amangoel185:
   continent: Europe
   longitude: -2.2451148
   latitude: 53.4794892
+amber-koert:
+  first-name: Amber
+  last-name: Koert
+  website: https://www.linkedin.com/in/amber-koert/
+  orcid: 0000-0001-9015-2734
+  city: Amsterdam
+  country: Netherlands
+  expertise:
+  - Endocrine disrupting chemicals ; child development ; puberty ; reproductive hormones
+    ; neurobiology ; laboratory animal ethics
+  bio: Hi I'm Amber, I am passionate about both human as animal health. Science should
+    be open and accessible for everyone, contributing to a planet full of knowledge,
+    innovations and solutions!
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 amchagas:
   affiliation: University of Sussex
   country: United Kingdom
@@ -689,7 +736,11 @@ angelicamaineri:
   country: Netherlands
   pronouns: She/her
   expertise:
-  - Data management; sociology; datafication; survey methodology; fair;
+  - Data management
+  - Sociology
+  - Datafication
+  - Survey methodology
+  - FAIR
   bio: Data manager in a national research infrastructure for the social sciences,
     PhDone in Sociology, mostly knitting in my free time
   country_3: NLD
@@ -951,6 +1002,17 @@ antonioggsousa:
   continent: Europe
   longitude: -9.271300382407272
   latitude: 38.7124971
+antonis-koutsoumpis:
+  first-name: Antonis
+  last-name: Koutsoumpis
+  orcid: 0000-0001-9242-4959
+  city: Amsterdam
+  country: Netherlands
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 arentkievits:
   affiliation: Delft University Of Technology
   bio: I am a nanobiologist doing a PhD in volume electron microscopy. I like microscopy,
@@ -987,6 +1049,30 @@ arianna-cortesi:
   continent: South America
   longitude: -43.2093727
   latitude: -22.9110137
+ariannazuanazzi:
+  first-name: Arianna
+  last-name: Zuanazzi
+  twitter: AriannaZuanazzi
+  website: https://sites.google.com/site/ariannazuanazzi
+  orcid: 0000-0002-8330-4450
+  city: New York City
+  country: United States
+  pronouns: she/her
+  expertise:
+  - Cognitive neuroscience; language; music semantics; audition; vision; attention/expectation;
+    accessibilty
+  bio: I am a neuroscience researcher. I investigate how the human brain creates meaning
+    through language and music, and through audition and vision. For my research,
+    I use neuroimaging techniques such as Magnetoencephalography or functional Magnetic
+    Resonance Imaging. I am passionate about science outreach and SciArt, and I am
+    interested in facilitating connections between scientists and artists. I am the
+    current director of the Imagine Science Symbiosis Initiative and a Resident Scholar
+    at the SAi Resident Collective. I love growing plants, (citi-)biking around NYC,
+    and discovering new cafes.
+  country_3: USA
+  continent: North America
+  longitude: -74.0060152
+  latitude: 40.7127281
 arielle-bennett:
   affiliation: The Alan Turing Institute
   bio: Arielle has spent her career to date working in research-adjacent fields, starting
@@ -1283,6 +1369,20 @@ batoolmm:
   continent: Asia
   longitude: -2.99168
   latitude: 53.4071991
+bbartholdy:
+  first-name: Bjørn Peare
+  last-name: Bartholdy
+  website: https://bjorns.website
+  orcid: 0000-0003-3985-1016
+  country: Netherlands
+  pronouns: he/him
+  expertise:
+  - Bioarchaeology; reproducibility; open data; open methods; research data management
+  bio: I am a PhD student in bioarchaeology focusing on the applicability of dental
+    calculus in paleodiet research . I am also a data steward and an advocate for
+    Open Science.
+  country_3: NLD
+  continent: Europe
 bduckles:
   affiliation: Insightful, Llc
   bio: I'm a research consultant and social scientist and I support researchers in
@@ -1384,7 +1484,7 @@ benkrikler:
   continent: Europe
 bethaniley:
   affiliation: Queen's University Belfast
-  city: Belfast
+  city: Belfast, Northern Ireland
   country: United Kingdom
   first-name: Bethan
   last-name: Iley
@@ -1395,6 +1495,15 @@ bethaniley:
   longitude: -5.9301829
   latitude: 54.596391
   title: Resident Fellow
+  orcid: 0000-0002-5813-3303
+  expertise:
+  - Gender identity; conspiracy theories; misinformation; neurodiversity; diversity
+  - Equity
+  - Inclusion; open scholarship
+  bio: I'm a Psychology PhD student in the Centre for Identity and Intergroup Relations
+    at Queen's University Belfast, where I research conspiracy theory beliefs about
+    gender equality. I'm also a Community Development Manager for the Framework for
+    Open and Reproducible Research Training (FORRT).
 bgruening:
   bio: Björn is working in the European Galaxy team and tries to help make science
     open wherever he can. He is an expert in the topics related to Container, Conda,
@@ -1487,6 +1596,20 @@ bisola15:
   continent: Africa
   longitude: -2.8848131505798653
   latitude: 12.811960299999999
+bobbwang:
+  first-name: Bo
+  last-name: Wang
+  twitter: BoWangPsy
+  orcid: 0000-0002-3193-1997
+  city: Amsterdam
+  country: Netherlands
+  expertise:
+  - Hexaco personality model; organizational culture; impostor phenomenon; person-organization
+    fit
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 boi-kone:
   country: Mali
   first-name: Boï
@@ -1737,7 +1860,9 @@ carolina-giraldo-olmos:
   city: Bogota
   country: Colombia
   expertise:
-  - Soil biophysics; wildfires; soil erosion modeling
+  - Soil biophysics
+  - Wildfires
+  - Soil erosion modeling
   bio: I am a Ph.D candidate in Engineering Sciences, focusing on Soil Sciences. I
     work at the Soil Biophysics Laboratory at the University, were we investigate
     soil processes with an applied point of view.
@@ -1992,6 +2117,20 @@ chukaogbo:
   continent: Africa
   longitude: 3.3467344
   latitude: 7.1547129
+cibele-zolnier-sousa-do-nascimento:
+  first-name: Cibele
+  last-name: Zolnier Sousa do Nascimento
+  twitter: cizolnier
+  city: Curitiba
+  country: Brazil
+  pronouns: She/her
+  expertise:
+  - Synthetic biology
+  github: false
+  country_3: BRA
+  continent: South America
+  longitude: -49.2712724
+  latitude: -25.4295963
 cl379:
   affiliation: Universitat Pompeu Fabra And Icrea
   bio: Archaeobotanist and ethnoarchaeologist interested in dryland agriculture
@@ -2305,6 +2444,19 @@ davidviryachen:
   twitter: davidchenn
   country_3: JPN
   continent: Asia
+dbrisaro:
+  first-name: Daniela
+  last-name: Risaro
+  twitter: dbrisaro
+  city: Carapachay
+  country: Argentina
+  pronouns: she/her
+  expertise:
+  - Oceanography; public policy; climate change
+  country_3: ARG
+  continent: South America
+  longitude: -58.5358156
+  latitude: -34.5265799
 deepakunni3:
   affiliation: Sib Swiss Institute Of Bioinformatics
   bio: Deepak works as a Scientific Coordinator for the Swiss Personalized Health
@@ -2370,6 +2522,25 @@ demellina:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+dexwel:
+  first-name: Daniel
+  last-name: Adediran
+  twitter: danieladedira13
+  orcid: 0000-0003-2907-3783
+  city: Ogbomoso
+  country: Nigeria
+  pronouns: He
+  expertise:
+  - Bioinformatics
+  - Molecular biology
+  - Cancer genomics
+  bio: Am Daniel, a graduate of Biochemistry with major interest in using bioinformatics
+    softwares to gain insight into intricacy of biological data, by leveraging on
+    open source ecosystem
+  country_3: NGA
+  continent: Africa
+  longitude: 4.25
+  latitude: 8.133
 diana-pilvar:
   first-name: Diana
   last-name: Pilvar
@@ -2378,7 +2549,7 @@ diana-pilvar:
   country: Estonia
   expertise:
   - Data management
-  - Genetics
+  - Data stewardship
   bio: I have a genetic engineer background and i work now as a data steward. Helping
     to write data management guidelines for researchers.
   github: false
@@ -2386,6 +2557,23 @@ diana-pilvar:
   continent: Europe
   longitude: 26.72245
   latitude: 58.3801207
+  twitter: DianaPilvar
+  website: https://www.linkedin.com/in/diana-pilvar-28545187/
+dianakaran:
+  first-name: Diana
+  last-name: Karan
+  twitter: deedeekj
+  orcid: 0000-0001-7758-4890
+  city: Kilifi
+  country: Kenya
+  pronouns: She/Her
+  expertise:
+  - '"marine biology""conservation biology" "environment biodiversity"'
+  bio: Enthusiastic about science  discovery.
+  country_3: KEN
+  continent: Africa
+  longitude: 39.67507159193717
+  latitude: -3.15073925
 didik-utomo:
   affiliation: Akademisi
   bio: Natural product researcher who focus on drugs discovery
@@ -2406,7 +2594,7 @@ diegoonna:
   bio: I am a researcher and graduate teaching assistant at the University of Buenos
     Aires. I design nanomaterials to solve problems, recently using machine learning
     to guide and optimize the process.
-  city: Ciudad Autónoma De Buenos Aires
+  city: Ciudad Autonoma De Buenos Aires , Argentina
   country: Argentina
   expertise:
   - Chemistry of materials
@@ -2418,13 +2606,13 @@ diegoonna:
   - Chemical education
   first-name: Diego
   last-name: Onna
-  orcid: ' 0000-0002-3158-1915'
+  orcid: '0000-0002-3158-1915'
   pronouns: He/Him
   twitter: DiegoOnna
   country_3: ARG
   continent: South America
-  longitude: -58.43562340522388
-  latitude: -34.61612315
+  longitude: -58.4370894
+  latitude: -34.6075682
 dimmestp:
   affiliation: University Of Edinburgh
   bio: Physicist turned bioinformatician turned data scientist. Recently finished
@@ -2488,6 +2676,23 @@ doaamkader:
   continent: Africa
   longitude: 31.465685617766244
   latitude: 30.2288224
+dozie-onunkwo:
+  first-name: Dozie
+  last-name: Onunkwo
+  twitter: ' DozieOnunkwo'
+  orcid: 0000-0003-1906-0495
+  city: Umuahia
+  country: Nigeria
+  pronouns: He
+  expertise:
+  - Animal nutritionist
+  bio: My name is Prof Dozie Onunkwo. I am an Animal Scientist. I am married with
+    four children
+  github: false
+  country_3: NGA
+  continent: Africa
+  longitude: 7.4924165
+  latitude: 5.5324032
 dsarahstamps:
   affiliation: Virginia Tech
   country: United States
@@ -2535,6 +2740,13 @@ duerrsimon:
   continent: Europe
   longitude: 6.6327025
   latitude: 46.5218269
+dustin-schetters:
+  first-name: Dustin
+  last-name: Schetters
+  country: Netherlands
+  github: false
+  country_3: NLD
+  continent: Europe
 dylan-bastiaans:
   affiliation: Palaeontological Institute and Museum, University of Zurich
   country: Switzerland
@@ -2592,6 +2804,25 @@ ecsalomon:
   continent: North America
   longitude: -87.6244212
   latitude: 41.8755616
+eduardacenteno:
+  first-name: Eduarda
+  last-name: Centeno
+  twitter: eduardagzc
+  website: https://eduardacenteno.com
+  orcid: 0000-0002-1490-4903
+  city: Amsterdam
+  country: Netherlands
+  pronouns: she/her
+  expertise:
+  - Computational neuroscience; open science
+  bio: I’m a Brazilian living abroad for several years; I’m pursuing my Ph.D. in (Open
+    Computational) Neuroscience in France while working part-time in the Netherlands;
+    I’m a huge Open Science enthusiast and have been advocating for this framework
+    in Europe for the past 5 years.
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 eirini-zormpa:
   affiliation: The Alan Turing Institute
   bio: I'm a Community Manager working to facilitate collaboration within a project
@@ -2677,6 +2908,27 @@ ekin-bolukbasi:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+elena-beretta:
+  first-name: Elena
+  last-name: Beretta
+  twitter: ElenaBeretta4
+  orcid: 0000-0002-6090-2765
+  city: Amsterdam
+  country: Netherlands
+  pronouns: She/her
+  expertise:
+  - Ai ethics; fairness
+  - Bias in machine learning
+  bio: I am a passionate, determined and curios hands-on statistician and research
+    scientist. I love to analyze code and translating complex dataset into key strategic
+    insights identifying new analytic trends and opportunities. I enjoy generating
+    new ideas and developing feasible solutions to major problems. Passion in promoting
+    a fairness-aware-technologies development.
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 elena-giglia:
   affiliation: University Of Turin
   city: Turin
@@ -2694,19 +2946,19 @@ elena-giglia:
   latitude: 45.0677551
 elisa-on-github:
   affiliation: Vrije Universiteit Amsterdam
-  bio: I'm a research data steward at VU Amsterdam supporting researchers with their
-    Research Data Management and (RDM aspects of) Open Science. I'm interested in
-    the role of the research supporter, and how supporters can break the (real and
-    imagined) boundaries between themselves and researchers. I also love to (and do!)
-    talk to everyone about everything FAIR, Open Science/Research and Research Data
-    Management.
+  bio: Elisa is a Data Steward at the Vrije Universiteit Amsterdam. In this role,
+    she supports researchers with many aspects of Research Data Management and Open
+    Research. Elisa has a background in and a passion for history, but also loves
+    the diversity of topics she sees in her daily life supporting researchers from
+    all areas of research.
   city: Amsterdam
   country: Netherlands
   expertise:
+  - Fair
+  - Research data management
+  - Open research
   - Research support
-  - Rdm
-  - Rdm support
-  - Open science support
+  - Qualitative research
   first-name: Elisa
   last-name: Rodenburg
   orcid: 0000-0001-6068-9792
@@ -3034,6 +3286,25 @@ farukustunel:
   continent: Asia
   longitude: 29.052495
   latitude: 41.0766019
+fatma366:
+  first-name: Fatma
+  last-name: Omar
+  twitter: Phathmer Omar
+  website: https://www.linkedin.com/in/fatma-mohamed-omar-49a005186
+  orcid: 0009-0009-7871-8534
+  city: Mombasa
+  country: Kenya
+  pronouns: Miss
+  expertise:
+  - Molecular biology; genome analysis; metagenomics; microbiome analysis
+  bio: I'm an enthusiastic coder who finds joy in crafting elegant solutions to complex
+    challenges. Beyond lines of code, I'm passionate about forging meaningful connections,
+    fostering new friendships, and embarking on collaborative journeys to bring innovative
+    ideas to life.
+  country_3: KEN
+  continent: Africa
+  longitude: 39.667169
+  latitude: -4.05052
 federico-cestares:
   affiliation: Ciecti - Arphai
   bio: I'm a university technician in International Relations from the National University
@@ -3084,21 +3355,20 @@ fnyasimi:
 fpsom:
   affiliation: Institute Of Applied Biosciences, Centre For Research And Technology
     Hellas
-  bio: A researcher, doing a little bit of bioinformatics, a dash of machine learning,
-    and a lot of Open Science.
+  bio: Doing Bioinformatics and ML @ CERTH, Thessaloníki, GR, fan of training, Open
+    Science and e-infras.
   city: Thessaloniki
   country: Greece
   expertise:
   - Bioinformatics
   - Machine learning
   - Training
-  - Open Science
   first-name: Fotis
   last-name: Psomopoulos
   orcid: 0000-0002-0222-4273
-  pronouns: He/him
+  pronouns: he/him
   twitter: fopsom
-  website: https://fpsom.github.io/
+  website: https://biodataanalysisgroup.github.io/
   country_3: GRC
   continent: Europe
   longitude: 22.9352716
@@ -3245,9 +3515,11 @@ gemmaturon:
   city: Barcelona
   country: Spain
   expertise:
-  - Biomedicine (oncology
-  - Infectious diseases) ; research software in drug discovery; python ; open source
-    code development; machine learning
+  - Biomedicine (infectious diseases)
+  - Research software in drug discovery
+  - Python
+  - Open source code development in Python
+  - Machine learning
   first-name: Gemma
   last-name: Turon
   pronouns: she/her
@@ -3353,7 +3625,8 @@ gill-francis:
   latitude: 53.96565785
 glado718:
   affiliation: International Center For Insect Physiology And Ecology
-  bio: Bioinformatician
+  bio: open life science ambassador and bioinformatician interested with infectious
+    disease research
   city: Nairobi
   country: Kenya
   expertise:
@@ -3363,8 +3636,9 @@ glado718:
   twitter: jerono7_gladys
   country_3: KEN
   continent: Africa
-  longitude: 36.8288420082562
+  longitude: 36.82884201813725
   latitude: -1.3026148499999999
+  pronouns: She/her
 gladys-jerono-rotich:
   first-name: Gladys
   last-name: Rotich
@@ -3474,6 +3748,24 @@ ha0ye:
   continent: North America
   longitude: -82.3249846
   latitude: 29.6519684
+hans-ket:
+  first-name: Hans
+  last-name: Ket
+  website: https://www.ub.vu.nl
+  orcid: 0000-0002-1909-3150
+  city: Amsterdam
+  country: Netherlands
+  pronouns: he/him
+  expertise:
+  - Library
+  - Systematic reviews
+  bio: Medical Information Specialist/Literature Researcher in (bio)medical sciences,
+    dentistry, nursing, health sciences, psychology and movement sciences.
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 harinilakshminarayanan:
   affiliation: University Of Zurich
   bio: I am a PhD student with several interests that keeps me busy outside the lab.
@@ -3537,6 +3829,45 @@ hdinkel:
   pronouns: he/him
   country_3: DEU
   continent: Europe
+helendagenb:
+  first-name: Youzi
+  last-name: Bi
+  twitter: helenbi7
+  city: London
+  country: United Kingdom
+  pronouns: She/they
+  expertise:
+  - Synthetic biology
+  country_3: GBR
+  continent: Europe
+  longitude: -0.12765
+  latitude: 51.5073359
+henk-wierenga:
+  first-name: Henk
+  last-name: Wierenga
+  country: South Africa
+  github: false
+  country_3: ZAF
+  continent: Africa
+henricountevans:
+  first-name: Henri-Count
+  last-name: Evans
+  twitter: DrHenri_Count
+  website: https://http://www.uneswa.ac.sz/
+  orcid: 0000-0001-5411-9064
+  city: Kwaluseni
+  country: Eswatini
+  pronouns: He/Him
+  expertise:
+  - Journalism
+  - Media studies
+  bio: I am a journalism and media studies scholar with particular focus on climate
+    change communication, digital transformation of journalism practices and business
+    models and computational research methods.
+  country_3: SWZ
+  continent: Africa
+  longitude: 31.6390919
+  latitude: -27.2216427
 hexylena:
   affiliation: Eramus Medical Centre
   city: Rotterdam
@@ -3674,15 +4005,19 @@ inquisitivevi:
   continent: Europe
 iramosp:
   affiliation: National Commission For The Knowledge And Use Of Biodiversity (Conabio)
-  bio: I am a data manager at CONABIO where I collaborate in developing an Agrobiodiversity
-    Information System. I am also a graduate researcher at UNAM, studying the challenges
-    of integrating diverse data for sustainability. I love working in interdisciplinary
-    projects that combine my interests in socio-ecological systems, data analysis
-    and open research.
+  bio: I work as data manager at CONABIO where I develop FAIR workflows for biodiversity
+    and agricultural data. I also study a PhD at UNAM, and my research is focused
+    on the challenges for integrating social and ecological data. I love working in
+    interdisciplinary projects that combine my interests in sustainability, data and
+    open research
   city: Mexico City
   country: Mexico
   expertise:
-  - Open data; data management; agrobiodiversity; sustainability science; inter
+  - Fair
+  - Open data
+  - Data management
+  - Agrobiodiversity
+  - Sustainability
   - Transdisciplinary research
   first-name: Irene
   last-name: Ramos
@@ -3832,6 +4167,17 @@ ivotron:
   continent: North America
   longitude: -110.9692202
   latitude: 29.0948207
+iván-gabriel-poggio:
+  first-name: Iván Gabriel
+  last-name: Poggio
+  orcid: 0009-0007-9366-4533
+  city: Toay
+  country: Argentina
+  github: false
+  country_3: ARG
+  continent: South America
+  longitude: -64.3796809
+  latitude: -36.6738649
 jafari-amir:
   first-name: Amir
   last-name: Jafari
@@ -3849,14 +4195,14 @@ jafari-amir:
   latitude: -22.9110137
 jafsia:
   affiliation: Mboalab
-  bio: Jafsia is a data scientist working on health and particulary neglected diseases
+  bio: Jafsia is a Researcher in the Department of AI at MboaLab.
   city: Yaounde
   country: Cameroon
   expertise:
   - Data science
   first-name: Elisee
   last-name: Jafsia
-  orcid: my-orcid?orcid=0000-0001-9262-4053
+  orcid: 0000-0001-9262-4053
   pronouns: He/Him
   twitter: euclude
   website: https://www.mboalab.africa
@@ -3907,6 +4253,23 @@ javier-ruiz-pérez:
   continent: Europe
   longitude: 2.1774322
   latitude: 41.3828939
+jbuczny:
+  first-name: Jacek
+  last-name: Buczny
+  twitter: JacekBuczny
+  website: https://research.vu.nl/en/persons/jacek-buczny
+  orcid: 0000-0002-4932-196X
+  city: Amsterdam
+  country: Netherlands
+  expertise:
+  - Self-regulation; meta-analysis; behavioral addiction
+  bio: Assistant professor at VU Amsterdam. Studying self-regulation in the workplace.
+    An enthusiast of meta-analysis, meta-science and supporter of big-team scientific
+    projects.
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 jcolomb:
   affiliation: Hu Berlin
   bio: Former neuro-geneticist (10 year of research on fruit fly memory and behavior),
@@ -4055,7 +4418,7 @@ jezcope:
 jformoso:
   first-name: Jesica
   last-name: Formoso
-  twitter: JesiFormoso
+  twitter: jesiformoso
   orcid: 0000-0003-3062-4036
   city: Ciudad Autónoma De Buenos Aires
   country: Argentina
@@ -4068,8 +4431,8 @@ jformoso:
     Among other things, I study how children acquire and develop mathematical skills.
   country_3: ARG
   continent: South America
-  longitude: -58.43562340522388
-  latitude: -34.61612315
+  longitude: -58.4370894
+  latitude: -34.6075682
 jhon-anderson-pérez-silva:
   affiliation: Scihack Community Bio Lab
   bio: Senior student of Genetics & Biotechnology at UNMSM, Peru. Member of MikuyTec
@@ -4093,6 +4456,21 @@ jhon-anderson-pérez-silva:
   continent: South America
   longitude: -77.0365256
   latitude: -12.0621065
+jhrudey:
+  first-name: Jessica
+  last-name: Hrudey
+  orcid: 0000-0002-8882-1991
+  city: Amsterdam
+  country: Netherlands
+  pronouns: she/her/hers
+  expertise:
+  - Data management; data stewardship; open science; health sciences
+  bio: Worked originally in health care, then briefly as a junior researcher. Discovered
+    data management and have been part of the movement towards better RDM since then.
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 jilaga:
   affiliation: Outreachy
   bio: Jilaga is a design enthusiast whose strongest attribute is seeing every layer
@@ -4109,7 +4487,6 @@ jilaga:
   first-name: Nneoma
   last-name: Jilaga
   pronouns: She/her
-  title: Brand design intern
   twitter: nohmaah
   country_3: NGA
   continent: Africa
@@ -4231,6 +4608,15 @@ johav:
   continent: Europe
   longitude: 13.3888599
   latitude: 52.5170365
+jolien-s:
+  first-name: Jolien
+  last-name: Scholten
+  orcid: 0000-0002-0839-3916
+  country: Netherlands
+  expertise:
+  - Research data management; linguistics
+  country_3: NLD
+  continent: Europe
 jonny-heath:
   bio: I am a poet and performance artist. One of my main practices is 'empathic literature',
     in which a conversation with an individual leads to my creating a unique piece
@@ -4264,29 +4650,22 @@ joy-owango:
   github: false
 joyceykao:
   affiliation: University Hospital Rwth Aachen
-  bio: I am a Senior Project Manager at the University Hospital RWTH Aachen coordinating
-    the development of digital health apps. I am an enthusiast for using tech to make
-    processes more efficient and reproducible. In a previous position, I co-founded
-    the Open Innovation in Life Sciences association that promotes open science among
-    early career researchers in Switzerland. Things that make me happy at the moment
-    include playing piano and introducing chapter books from my childhood to my school-aged
-    kid.
+  bio: I am an enthusiast for using tech to make processes more efficient and reproducible.
+    In a previous position, I co-founded the Open Innovation in Life Sciences association
+    that promotes open science among early career researchers in Switzerland. Things
+    that make me happy at the moment include playing piano and introducing chapter
+    books from my childhood to my school-aged kid.
   city: Aachen
   country: Germany
   expertise:
-  - Digital health
-  - Digital medicine
-  - Community building
-  - Operations management
-  - Project management
-  - Strategy development
-  - App development
+  - Open innovation
+  - Digitalization
   first-name: Joyce
   last-name: Kao
   orcid: 0000-0003-2082-6937
-  pronouns: she/her
+  pronouns: She/Her
   twitter: joyceykao
-  website: https://jykao.com/
+  website: https://www.jykao.com/
   country_3: DEU
   continent: Europe
   longitude: 6.083862
@@ -4353,23 +4732,42 @@ juanjo-garcía-granero:
   continent: Europe
   longitude: 2.1774322
   latitude: 41.3828939
+julianbuede:
+  first-name: Julián
+  last-name: Buede
+  twitter: ninio_buede
+  website: https://www.metadocencia.org/authors/jbuede/
+  orcid: 0000-0003-2338-648X
+  city: Córdoba
+  country: Argentina
+  pronouns: Él
+  expertise:
+  - Audiovisual production
+  bio: Julián is an institutional communicator and audiovisual producer.
+  country_3: ARG
+  continent: South America
+  longitude: -4.7760138
+  latitude: 37.8845813
 jvillcavillegas:
   affiliation: Universidad Mayor De San Simon
-  bio: Proactive, Courageous, Positive
-  city: Bolivia
-  country: Bolivia
+  bio: Jose Luis is a scientist working on health and particularly in infectious diseases,
+    with Causal Inference and others advanced statistical techniques
+  city: Buenos Aires
+  country: Argentina
   expertise:
-  - Management of open journal systems (ojs)
-  - Scientific production edition
-  - Statistical data management
+  - Open science
+  - Community; health sciences; open journal systems; clinical research; public health
+  - Infectious diseases
   first-name: Jose Luis
   last-name: Villca Villegas
-  orcid: my-orcid?orcid=0000-0002-0357-5489
+  orcid: 0000-0002-0357-5489
   pronouns: Bolivia
-  twitter: https://twitter.com/villca_villegas
+  twitter: villca_villegas
   website: https://jose-luis-villca-villegas.netlify.app/
-  longitude: -64.9912286
-  latitude: -17.0568696
+  longitude: -58.4370894
+  latitude: -34.6075682
+  country_3: ARG
+  continent: South America
 jyoti-bhogal:
   bio: I am trained formally in Statistics. I have worked as a Software Quality Engineer
     - Statistician.
@@ -4495,16 +4893,19 @@ karinlag:
   continent: Europe
 karvovskaya:
   affiliation: Vu Amsterdam
-  bio: I am a community manager at VU Amsterdam, helping researchers ger support and
-    learn from each other. My background is in theoretical linguistics
+  bio: I am Community Manager RDM and Open Science at VU Amsterdam. My background
+    is in theoretical linguistics. My goal is to help colleagues connect and learn
+    from each other and with each other
   city: Amsterdam
   country: Netherlands
   expertise:
-  - Linguistics; research data management; community management
+  - Community management
+  - Rdm
+  - Open science
   first-name: Lena
   last-name: Karvovskaya
   orcid: 0000-0001-7777-5603
-  pronouns: She, her
+  pronouns: She/her
   twitter: Langdata
   country_3: NLD
   continent: Europe
@@ -4711,6 +5112,25 @@ klauer2207:
   continent: Europe
   longitude: 0.1186637
   latitude: 52.2055314
+kllewers:
+  first-name: Kit
+  last-name: Lewers
+  twitter: KitLewers
+  orcid: 0000-0003-0526-4075
+  city: Boulder, Co
+  country: United States
+  pronouns: she/her
+  expertise:
+  - Human computer interaction
+  - Information theory
+  - Information overload
+  bio: PhD student who studies how information overload impact institutions grounded
+    in big data focused on natural history and complex system science focused on fireflies
+    and information theory.
+  country_3: USA
+  continent: North America
+  longitude: -105.270545
+  latitude: 40.0149856
 kmexter:
   affiliation: Flanders Marine Institute (Vliz)
   bio: Ex-astronomer, now data manager at a marine science data centre. Tackling the
@@ -4730,25 +5150,37 @@ kmexter:
   continent: Europe
   longitude: 2.9226366807233966
   latitude: 51.184683899999996
+koen-leuveld:
+  first-name: Koen
+  last-name: Leuveld
+  orcid: 0000-0002-2520-8639
+  city: Amsterdam
+  country: Netherlands
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 koerding:
   affiliation: Upenn.Edu
-  bio: Konrad Kording runs his lab at the University of Pennsylvania. Konrad is interested
-    in the question of how the brain solves the credit assignment problem and similarly
-    how we should assign credit in the real world (through causality). In extension
-    of this main thrust he is interested in applications of causality in biomedical
-    research. Konrad has trained as student at ETH Zurich with Peter Konig, as postdoc
-    at UCL London with Daniel Wolpert and at MIT with Josh Tenenbaum. After a decade
-    at Northwestern University he is now PIK professor at UPenn.
+  bio: Konrad is interested in the question of how the brain solves the credit assignment
+    problem and similarly how we should assign credit in the real world (through causality).
+    In extension of this main thrust he is interested in applications of causality
+    in biomedical research.
   city: Philadelphia
   country: United States
   expertise:
-  - Rigor in neuroscience and beyond
+  - Data
+  - Brains
+  - Learning
+  - Deep learning
+  - Causality
   first-name: Konrad
   last-name: Kording
   orcid: 0000-0001-8408-4499
-  pronouns: He/ him
-  twitter: Kordinglab
-  website: https://Kordinglab.com
+  pronouns: he/ him
+  twitter: kordinglab
+  website: https://http://kordinglab.com
   country_3: USA
   continent: North America
   longitude: -75.1635262
@@ -4816,6 +5248,21 @@ kswhitney:
 laitanawe:
   first-name: Olaitan
   last-name: Awe
+lakillo:
+  first-name: Lucy
+  last-name: Killoran
+  twitter: lucykilloran_
+  website: https://lucykilloran.com/
+  orcid: 0000-0002-1907-6078
+  country: United Kingdom
+  pronouns: she/her
+  expertise:
+  - Archaeological survey; human-computer interaction for machine learning
+  bio: Lucy Killoran is a PhD researcher at the University of Glasgow and Historic
+    Environment Scotland. Her research examines the potential impacts of integrating
+    machine learning methods into archaeological survey practices.
+  country_3: GBR
+  continent: Europe
 lalmehlisy:
   affiliation: King Abdullah International Medical Research Center (KAIMRC)
   bio: I am a Research Lab Technician in KAIMRC working on Metagenomics-based drug
@@ -4845,8 +5292,9 @@ landimi2:
   city: Nairobi
   country: Kenya
   expertise:
-  - Bioinformatics (genome assembly
-  - Epigenetics)
+  - Bioinformatics
+  - Genome assembly
+  - Epigenetics
   first-name: Michael
   last-name: Landi
   orcid: 0000-0001-5597-7802
@@ -4859,15 +5307,14 @@ landimi2:
   latitude: -1.3026148499999999
 lauracarter:
   affiliation: University Of Essex
-  bio: Laura is currently writing up her PhD thesis on the human rights impact of
-    gender stereotyping in data use in social services in England.
+  bio: Laura recently submitted her PhD thesis on gender stereotyping in public sector
+    data sharing in England. She is currently working at the Ada Lovelace Institute,
+    an independent research institute helping to make data and AI work for people
+    and society.
   city: London
   country: United Kingdom
   expertise:
-  - Gender
-  - Discrimination
-  - Human rights
-  - Feminism
+  - Human rights; gender; sexuality; critical data studies
   first-name: Laura
   last-name: Carter
   orcid: 0000-0002-4285-1140
@@ -4876,8 +5323,8 @@ lauracarter:
   website: https://lauracarter.github.io/
   country_3: GBR
   continent: Europe
-  longitude: -0.14405508452768728
-  latitude: 51.4893335
+  longitude: -0.12765
+  latitude: 51.5073359
 lauracion:
   affiliation: Conicet - Universidad De Buenos Aires
   bio: I am a tenured researcher leading a collaborative health data science research
@@ -4903,6 +5350,27 @@ lauracion:
   continent: South America
   longitude: -58.43562340522388
   latitude: -34.61612315
+lauradascenzi:
+  first-name: Laura
+  last-name: Ascenzi
+  twitter: lauradaiana
+  website: https://www.metadocencia.org/en/authors/laurel/
+  orcid: 0000-0002-9292-7561
+  city: Córdoba
+  country: Argentina
+  pronouns: she/her/ella
+  expertise:
+  - Communication
+  - Governance
+  bio: Laura (aka Laurel) has experience working as an institutional communicator.
+    Since 2008, she has been in charge of the analysis and planning of comprehensive
+    institutional communication strategies combining digital communication, information
+    systems, and organizations’ voices.  She is also a professor at the National University
+    of Córdoba, Argentina.
+  country_3: ARG
+  continent: South America
+  longitude: -4.7760138
+  latitude: 37.8845813
 laurah-nyasita-ondari:
   first-name: Laurah
   last-name: Ondari
@@ -4951,6 +5419,20 @@ lazycipher:
   twitter: lazycipher
   country_3: IND
   continent: Asia
+lcbreedt:
+  first-name: Lucas
+  last-name: Breedt
+  twitter: LucasBreedt
+  orcid: 0000-0001-8620-3017
+  city: Amsterdam
+  country: Netherlands
+  pronouns: he/him/his
+  expertise:
+  - Neuroscience; networks; cognition
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 lenny-teytelman:
   affiliation: protocols.io
   first-name: Lenny
@@ -5028,6 +5510,26 @@ lomaxboydphd:
   continent: North America
   longitude: -74.0060152
   latitude: 40.7127281
+loreleyls:
+  first-name: Loreley
+  last-name: Lago
+  twitter: LoreleyOce
+  orcid: 0000-0003-2980-8110
+  city: Falmouth
+  country: United States
+  pronouns: she/her
+  expertise:
+  - Physical oceanography
+  - Continental shelf dynamics
+  - Circulation variability
+  - In-situ measurements
+  bio: I'm an Argentinian physical oceanographer,  driven by understanding how the
+    ocean moves and why. I have a strong interest in how ocean climate affects society.I
+    love learning about diverse cultures through their languages, literature and music.
+  country_3: USA
+  continent: North America
+  longitude: -5.0688262
+  latitude: 50.1552197
 loubez:
   affiliation: University Of Oxford And University Of Cape Town
   bio: Louise is a social scientist specialising in Critical Data Studies. Her work
@@ -5221,7 +5723,10 @@ macziatko:
   city: Dublin
   country: Ireland
   expertise:
-  - Plants; hemp; genetics; variability
+  - Plants
+  - Hemp
+  - Genetics
+  - Variability
   first-name: Nina
   last-name: Trubanová
   orcid: 0000-0001-8156-3304
@@ -5260,10 +5765,9 @@ malloryfreeberg:
   city: Cambridge
   country: United Kingdom
   expertise:
-  - Metadata; fair principles; rna biology; post-transcriptional gene regulation;
-    ontologies; project management; data management; bioinformatics; galaxy; r; sql;
-    github; human genomics
-  - Phenomics; sensitive data sharing
+  - Metadata; fair principles; post-transcriptional gene regulation; ontologies; project
+    management; data management; bioinformatics; galaxy; github; human genomics; sensitive
+    data sharing
   first-name: Mallory
   last-name: Freeberg
   orcid: 0000-0003-2949-3921
@@ -5335,6 +5839,16 @@ manulera:
   continent: Europe
   longitude: 2.3200410217200766
   latitude: 48.8588897
+marbarrantescepas:
+  first-name: Mar
+  last-name: Barrantes Cepas
+  twitter: marbarrace
+  country: Spain
+  pronouns: she/her
+  expertise:
+  - Physics; neuroscience; networks
+  country_3: ESP
+  continent: Europe
 marcel-laflamme:
   first-name: Marcel
   last-name: LaFlamme
@@ -5462,13 +5976,26 @@ marielaraj:
   twitter: mariela_rajng
   orcid: 0000-0001-8268-3260
   country: Argentina
-  pronouns: she/her
+  pronouns: She/her
   expertise:
-  - Machine learning; bias detection; electronic health records
-  bio: Hi, I'm Mariela, my background is in Applied Mathematics. I have a Ph.D. in
-    Applied Science. Now I am a postdoc working in Fairness metrics in IA.
+  - Machine learning
+  - Ia
+  - Bias
+  - Fairness
+  bio: ' Since August 2022, I am a postdoctoral researcher at FAMAF (Universidad Nacional
+    de Córdoba). I am interested in the analysis of bias in machine learning models.
+    Specifically, in fairness metrics to evaluate bias in anonymization models of
+    Electronic Health Records.  I have a degree in Mathematics from the Universidad
+    de Buenos Aires. During my Ph.D. at the Universidad de San Martin, I worked in
+    the development of wetlands land cover maps using data from Synthetic Aperture
+    Radar images and machine learning models.  I am interested in education. I have
+    experience as a teaching assistant. Since 2020 I am part of MetaDocencia.'
   country_3: ARG
   continent: South America
+  website: https://marielaraj.github.io/
+  city: Ciudad De Buenos Aires
+  longitude: -58.4370894
+  latitude: -34.6075682
 marimeireles:
   affiliation: Numfocus
   bio: |-
@@ -5515,6 +6042,27 @@ markuskonk:
   continent: Europe
   longitude: 6.870595664097989
   latitude: 52.22336325
+marlou-ramaekers:
+  first-name: Marlou
+  last-name: Ramaekers
+  twitter: marlouramaekers
+  orcid: 0000-0002-6951-1461
+  city: Amsterdam
+  country: Netherlands
+  pronouns: she/her
+  expertise:
+  - Philanthropy; sociology; volunteering; survey research
+  bio: Marlou Ramaekers is a postdoctoral researcher at the Centre for Philanthropic
+    Studies at the VU Amsterdam. One of her core tasks is the data management of the
+    Giving in the Netherlands Project, which combines various data sources (surveys,
+    annual reports, interviews) to biennally report on the philanthropic sector in
+    the Netherlands. She has written her PhD thesis on the impact of the social environment
+    on informal helping behavior and will defend this thesis in January 2024.
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 marta-lloret-llinares:
   affiliation: Embl-Ebi
   bio: Marta is a scientific project manager within the training team at EMBL-EBI.
@@ -5717,6 +6265,25 @@ mblue9:
   pronouns: she/her
   country_3: AUS
   continent: Oceania
+mcnanton:
+  first-name: María Cristina
+  last-name: Nanton
+  twitter: bynans1
+  orcid: 0000-0003-0426-2879
+  city: Buenos Aires
+  country: Argentina
+  pronouns: she/her
+  expertise:
+  - R
+  - Community building
+  - Open source
+  - Project management
+  bio: R community organizer interested in open reproducible science and data science
+    in the public sector
+  country_3: ARG
+  continent: South America
+  longitude: -58.4370894
+  latitude: -34.6075682
 mdbarker:
   first-name: Michelle
   last-name: Barker
@@ -6017,6 +6584,28 @@ miketrizna:
   continent: North America
   longitude: -77.0365427
   latitude: 38.8950368
+milagro-urricariet:
+  first-name: Milagro
+  last-name: Urricariet
+  orcid: 0000-0003-2920-7593
+  city: Ciudad Autónoma De Buenos Aires
+  country: Argentina
+  pronouns: she/her
+  expertise:
+  - Ocean dynamics
+  - Climate variability
+  - Shelf seas
+  bio: I am a physical oceanographer with a keen interest in the changing dynamics
+    and hydrography of the South Atlantic Ocean. Currently, I am pursuing my PhD in
+    Oceanography and Atmospheric Science at the University of Buenos Aires, where
+    my research focuses on studying the impact of meridional wind variations on circulation
+    and water masses properties along the southeastern continental shelf of South
+    America.
+  github: false
+  country_3: ARG
+  continent: South America
+  longitude: -58.4370894
+  latitude: -34.6075682
 milagros-miceli:
   first-name: Milagros
   last-name: Miceli
@@ -6057,6 +6646,37 @@ mishrose123:
   continent: Europe
   longitude: 0.1186637
   latitude: 52.2055314
+mitch-kitoi:
+  first-name: Michael
+  last-name: Kitoi
+  twitter: Mitch Kitoi
+  city: Nairobi
+  country: Kenya
+  pronouns: He/Him
+  expertise:
+  - Zinc finger protein in breast cancer
+  bio: I am a Bioinformatics Analyst at MKU. I am currently doing bioinformatics analysis
+    of Zinc Finger proteins in Kenyan women with breast cancer. I love football, Manchester
+    United fan.
+  country_3: KEN
+  continent: Africa
+  longitude: 36.82884201813725
+  latitude: -1.3026148499999999
+miytek:
+  first-name: Miyase
+  last-name: Tekpinar
+  orcid: 0000-0003-0937-225X
+  city: Delft
+  country: Netherlands
+  expertise:
+  - Microscopy
+  - Data analysis
+  bio: I am a PhD candidate in Grussmayer Lab at TU Delft. I am working on multimodal
+    super-resolution microscopy techniques and the image analysis.
+  country_3: NLD
+  continent: Europe
+  longitude: 4.362724538543995
+  latitude: 51.999457199999995
 mkuzak:
   bio: |
     Mateusz is Research Software Community Manager at the Netherlands eScience Center. He has background in life sciences and have been working with bioinformatics data analysis and research software engineering. Past few years he has been involved in the Carpentries as an instructor, trainer and mentor (both in the mentoring subcommittee and mentoring teams).
@@ -6108,6 +6728,31 @@ mloning:
   website: https://www.linkedin.com/in/mloning/
   country_3: GBR
   continent: Europe
+mmasibidi:
+  first-name: Mmasibidi
+  last-name: Setaka
+  twitter: mmasibidi4
+  website: https://www.sadilar.org/index.php/en/9-about/65-researcher-sesotho
+  orcid: 0000-0002-2790-3344
+  city: Potchefstroom
+  country: South Africa
+  pronouns: She/her
+  expertise:
+  - Digital humanities
+  - Linguistics
+  - Lexicography
+  bio: Mmasibidi Setaka is a Digital Humanities Researcher focusing on the Sesotho
+    language at the South African Centre for digital Langauge Resources (SADiLaR),
+    which is hosted at the North-West University. She holds a Masters degree in African
+    Languages from the University of Pretoria, with a focus on lexicography. Her interstests
+    lie in lexicography for the Sesotho language (one of the 12 official languages
+    in South Africa). She is involved in various Digital Humanities activities in
+    South Africa including being part of the excecutive committee of the Digital Humanities
+    Association of Southern Africa.
+  country_3: ZAF
+  continent: Africa
+  longitude: 27.095833
+  latitude: -26.707778
 moengels:
   affiliation: Tu Delft
   bio: Medical engineering with a passion for neuroscience and biophysics.
@@ -6139,6 +6784,47 @@ mohan-gupta:
   continent: Asia
   longitude: 85.3205817
   latitude: 27.708317
+mona-zimmermann:
+  first-name: Mona
+  last-name: Zimmermann
+  twitter: mlm_zimmermann
+  city: Amsterdam
+  country: Netherlands
+  pronouns: She/Her
+  expertise:
+  - Neuroscience; magnetoencephalography; glioma; cognition; network neuroscience;
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
+monica-alonso:
+  first-name: Monica
+  last-name: Alonso
+  country: Argentina
+  pronouns: she/her
+  expertise:
+  - Computer science
+  - Data science
+  github: false
+  country_3: ARG
+  continent: South America
+monsurat-onabajo:
+  first-name: Onabajo
+  last-name: Monsurat
+  twitter: onabajo3
+  website: https://monsurat-onabajo.github.io.
+  orcid: 0009-0000-1212-6549
+  country: Nigeria
+  pronouns: she/her
+  expertise:
+  - Healthcare; data science; research
+  bio: I'm Onabajo Monsurat, a dynamic and versatile professional skilled in data
+    science, machine learning engineering, and Python development. I am passionate
+    about utilizing data to conquer challenges in Healthcare, Research, and Open-source
+    fields. I am known for my adaptability, diligence, and dedication. I am recognized
+    for delivering impactful solutions that bring positive results.
+  country_3: NGA
+  continent: Africa
 morphofun:
   affiliation: The George Washington University
   country: United States
@@ -6195,6 +6881,16 @@ msundukova:
   longitude: -2.9350039
   latitude: 43.2630018
   title: Resident Fellow
+mtthsdzwn:
+  first-name: Matthijs
+  last-name: de Zwaan
+  orcid: 0000-0002-6983-2118
+  city: Amsterdam
+  country: Netherlands
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 muhammetcelik:
   country: Turkey
   first-name: Muhammet
@@ -6267,12 +6963,12 @@ nadia-odaliz-chamana-chura:
   latitude: -12.0621065
 nadinespy:
   affiliation: University Of Sussex
-  bio: I am a doctoral researcher in computational neuroscience at the University
-    of Sussex where I validate information-theoretic measures of complexity and emergence
-    in both simulated and empirical data. I value open & reproducible research that
-    is aligned with ethical research culture & incentives, and do my best to comply
-    to best practices. I am a [Brainhack](https://brainhack.org/) enthusiast, and
-    like teaching & supervision (in machine learning).
+  bio: Nadine is a doctoral researcher in computational neuroscience and complex systems
+    where she validates information-theoretic measures of complexity and emergence
+    in both simulated and empirical data. Her work can be described as a solid mixture
+    of mathematics, machine learning, neuroscience, as well as philosophy. She cares
+    about open & reproducible research (and, in this context, good research software)
+    that is aligned with ethical research culture & incentives.
   city: Brighton
   country: United Kingdom
   expertise:
@@ -6289,7 +6985,7 @@ nadinespy:
   - Metascience
   - Psychology
   - Statistics
-  - Volunteer-based group
+  - Vol
   first-name: Nadine
   last-name: Spychala
   orcid: 0000-0003-2582-9758
@@ -6300,6 +6996,10 @@ nadinespy:
   continent: Europe
   longitude: -0.1400561
   latitude: 50.8214626
+nadza-dzinalija:
+  first-name: Nadza
+  last-name: Dzinalija
+  github: false
 nahuele:
   first-name: Nahuel
   last-name: Escobedo
@@ -6316,6 +7016,22 @@ nahuele:
   continent: South America
   longitude: -58.5036282
   latitude: -34.5244484
+nanje-patrick-itarngoh:
+  first-name: Nanje Patrick
+  last-name: Itarngoh
+  twitter: nanjepat
+  city: Buea
+  country: Cameroon
+  pronouns: He
+  expertise:
+  - Physics/renewable energy
+  bio: A Phd Student with the university of Buea and a Fulbright Teaching Excellence
+    and Achievement Alumni
+  github: false
+  country_3: CMR
+  continent: Africa
+  longitude: 9.2315519
+  latitude: 4.1567995
 naralb:
   affiliation: Museu Pará Emílio Goeldi
   country: Brazil
@@ -6442,6 +7158,30 @@ nerantzis:
   website: https://4myfiles.wordpress.com
   country_3: GRC
   continent: Europe
+nessa111987:
+  first-name: Vanessa
+  last-name: Fairhurst
+  twitter: nessafairhurst
+  website: https://prereview.org/
+  orcid: 0000-0001-8511-8689
+  city: Oxford
+  country: United Kingdom
+  pronouns: she/her
+  expertise:
+  - Community management
+  bio: Vanessa joined the PREreview team in November 2022 as Community Manager. She
+    works to engage researchers, particularly those early on in their career and from
+    historically marginalised backgrounds, to participate in the open peer review
+    of preprints. Vanessa began her career in academia working at international development
+    organization INASP with a focus on improving access to scholarly information and
+    research in developing countries. She then went on to support publishers around
+    the world as Community Engagement Manager at Crossref building a global ambassador
+    team and collaborating with others to ensure that scholarly research metadata
+    is registered, linked, and distributed.
+  country_3: GBR
+  continent: Europe
+  longitude: -1.2578499
+  latitude: 51.7520131
 nick-barlow:
   affiliation: Alan Turing Institute
   country: United Kingdom
@@ -6470,6 +7210,26 @@ nickynicolson:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+niels-reijner:
+  first-name: Niels
+  last-name: Reijner
+  twitter: NeuroNiels
+  website: https://www.linkedin.com/in/niels-reijner/
+  orcid: 0009-0004-0633-2644
+  city: Amsterdam
+  country: Netherlands
+  expertise:
+  - Neurobiology;alzheimer's disease;mri;pathology;neuroanatomy
+  bio: Currently I am a PhD candidate at the department of anatomy and neurosciences.
+    I am researching MRI and pathology outcome measurements of Alzheimer's disease
+    in human post-mortem tissue, and I enjoy my work immensely. I am also passionate
+    about open science and strongly believe the principles of open science are fundamental
+    for research and the scientific community.
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 nihansultan:
   affiliation: Bezmialem Vakif University, Beykoz Institute Of Life Science And Biotechnology
   bio: I am trying to be a good molecular biologist. I think that learning new things
@@ -6499,6 +7259,19 @@ nina-roux:
   affiliation: Stellenbosch University
   first-name: Nina
   last-name: Roux
+nlois:
+  first-name: Nicolás
+  last-name: Lois
+  twitter: NicolasLois
+  city: Buenos Aires
+  country: Argentina
+  pronouns: He/him
+  expertise:
+  - Conservation; marine; climate change
+  country_3: ARG
+  continent: South America
+  longitude: -58.4370894
+  latitude: -34.6075682
 nodiraibrogimova:
   bio: A Machine Learning enthusiast willing to learn, share and giving back to the
     community with soft & tech skills.
@@ -6549,26 +7322,29 @@ nomalu:
   latitude: -25.7459277
 npalopoli:
   affiliation: Universidad Nacional De Quilmes & Conicet
-  bio: Computational biologist interested in understanding the functional nature of
-    macromolecules, with a special focus on their evolutionary relationships and their
-    interactions within biological systems.
-  city: Bernal
+  bio: Nicolás se unió a MetaDocencia desde sus inicios en marzo de 2020 y actualmente
+    comparte la coordinación general y es chair del comité asesor. Además es Investigador
+    Adjunto del CONICET y miembro del Grupo de Bioinformática Estructural de la Universidad
+    Nacional de Quilmes en Argentina. Vive con su esposa y su hijo en Buenos Aires.
+  city: Buenos Aires
   country: Argentina
   expertise:
-  - Computational biology
-  - Structural bioinformatics
-  - Proteins
-  - Molecular interactions
+  - Bioinformática
+  - Ciencia abierta
+  - Educación
+  - Bioinformatics
+  - Open science
   - Education
-  first-name: Nicolas
+  first-name: Nicolás
   last-name: Palopoli
   orcid: 0000-0001-7925-6436
-  pronouns: He/him
+  pronouns: Él/He/Him
   twitter: npalopoli
   country_3: ARG
   continent: South America
-  longitude: -58.2977925
-  latitude: -34.716571
+  longitude: -58.4370894
+  latitude: -34.6075682
+  website: https://www.metadocencia.org/authors/npalopoli/
 npch:
   affiliation: Software Sustainability Institute
   first-name: Neil
@@ -6639,6 +7415,27 @@ nsoranzo:
   website: https://www.earlham.ac.uk/nicola-soranzo
   country_3: GBR
   continent: Europe
+nwakaego-gloria-ashiegbu:
+  first-name: Nwakaego Gloria
+  last-name: Ashiegbu
+  twitter: gashiegbu
+  orcid: http://orcid.org/0000-0003-0809-4489
+  city: Umudike / Abia State
+  country: Nigeria
+  pronouns: She
+  expertise:
+  - '"agricultural extension"'
+  - '"rural development"'
+  - '"climate change"'
+  - '"ict"'
+  bio: I am a lecturer and a PhD research student in Agricultural Extension. I am
+    married and mother of three. My areas of interest are Agriculture Extension, Rural
+    Development and Climate change.
+  github: false
+  country_3: NGA
+  continent: Africa
+  longitude: 7.533333
+  latitude: 5.5
 nyasita:
   city: Nairobi
   country: Kenya
@@ -6688,6 +7485,25 @@ olsjuju:
   website: https://www.linkedin.com/in/juyeon-kim-b7534793/
   longitude: 126.9782914
   latitude: 37.5666791
+olufemi-adesope:
+  first-name: Olufemi
+  last-name: Adesope
+  twitter: OlufemiAdesope
+  website: https://www.uniport.edu.ng
+  orcid: 0000-0003-2594-7965
+  city: Port Harcourt
+  country: Nigeria
+  pronouns: Him/His
+  expertise:
+  - Ict in agriculture
+  bio: Prof. Olufemi Adesope has 28 years experience in teaching, research, community
+    engagement and administration. He has competencies in quantitative and qualitative
+    research.
+  github: false
+  country_3: NGA
+  continent: Africa
+  longitude: 7.0188527
+  latitude: 4.7676576
 olya-vvedenskaya:
   city: Dresden
   country: Germany
@@ -6698,6 +7514,27 @@ olya-vvedenskaya:
   continent: Europe
   longitude: 13.7381437
   latitude: 51.0493286
+onwumere.joseph:
+  first-name: Joseph
+  last-name: Chimere Onwumere
+  twitter: JoeChimere
+  orcid: 0009-0008-1826-0384
+  city: Umudike, Abia State
+  country: Nigeria
+  pronouns: He
+  expertise:
+  - 'Agricultural economics (specialization: agribusiness investment'
+  - Management)
+  bio: JOSEPH CHIMERE ONWUMERE is currently a Professor of Agricultural Economics
+    (with specialization Agribusiness Investment and Management) and a researcher.
+    Onwumere holds a Ph.D. degree in Agribusiness Investment and Management, M.Sc.
+    in Agribusiness Management and B. Agriculture with specialization in Agricultural
+    Economics. Onwumere is an academic staff in a University of Agriculture based
+    in Nigeria and has taught graduates and post graduate students and still teaches.
+  country_3: NGA
+  continent: Africa
+  longitude: 7.533333
+  latitude: 5.5
 orchid00:
   bio: Paula is an Open Science advocate her passions are data management, data analytics,
     research, and diversity. She is a computer scientist who has worked on data intensive
@@ -6760,13 +7597,29 @@ patriloto:
   country: Argentina
   pronouns: Ella/She
   expertise:
-  - Data analysis; r; software engineering;data visualization
+  - Project management; agile methodologies; data analysis; r; software engineering;data
+    visualization
   bio: Software Developer with skills in C# and .NET | Data Analyst with R and SQL
     |Co-founder of RLadies Rcia-Ctes | Part of Metadocencia + LatinR
   country_3: ARG
   continent: South America
   longitude: -59.19320025100798
   latitude: -27.6048829
+paulinegachanja:
+  first-name: Pauline
+  last-name: Wambui Gachanja
+  twitter: gachanjapaula
+  city: Kilifi
+  country: Kenya
+  pronouns: Her/She
+  expertise:
+  - '"population genomics"'
+  bio: I am passionate about genomics, open science and bioinformatics capacity building.
+    Apart from science, I spend most of my free time playing board games.
+  country_3: KEN
+  continent: Africa
+  longitude: 39.67507159193717
+  latitude: -3.15073925
 paulineligonie:
   affiliation: Université de Montréal
   country: Canada
@@ -6775,6 +7628,22 @@ paulineligonie:
   twitter: PaulineLigonie
   country_3: CAN
   continent: North America
+paulmaxus:
+  first-name: Maximillian
+  last-name: Paulus
+  orcid: 0000-0001-9651-3086
+  city: Amsterdam
+  country: Netherlands
+  pronouns: he/him/his
+  expertise:
+  - Data engineering; data science; scientometrics
+  bio: I'm a data engineer for research intelligence with a background in computational
+    linguistics and a PhD in cognitive hearing science. I also teach the Software
+    Carpentries.
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 paulowoicho:
   country: Nigeria
   first-name: Paul
@@ -6821,6 +7690,25 @@ pazbc:
   country_3: ARG
   continent: South America
   title: Community Researcher & Programme Coordinator (contract)
+pazmiguez:
+  bio: 'Political scientist (University of Buenos Aires) with a MS in Educational
+    Policy (UTDT). Project and Course Development Manager at MetaDocencia. Postgraduate
+    teaching assistant and researcher.'
+  country: Argentina
+  city: Buenos Aires
+  expertise:
+  - Political science
+  - Education
+  - Training
+  - Qualitative research
+  first-name: Paz
+  last-name: Míguez
+  pronouns: she/her
+  twitter: Paz_M
+  country_3: ARG
+  continent: South America
+  longitude: -58.4370894
+  latitude: -34.6075682
 peranti:
   first-name: Pradeep
   last-name: Eranti
@@ -6845,8 +7733,8 @@ peranti:
     building.
   country_3: FRA
   continent: Europe
-  longitude: 2.3200410217200766
-  latitude: 48.8588897
+  longitude: 2.3483915
+  latitude: 48.8534951
 pescini:
   affiliation: University Of Milano-Bicocca
   city: Milan
@@ -6888,14 +7776,11 @@ phaarouknucleus:
   city: Kano
   country: Nigeria
   expertise:
-  - Open science
-  - Machine learning
-  - Climate change
-  - Nuclear
+  - Ai
+  - Clean energy
   - Environment
-  bio: I am a nuclear physicist in ‘an environmentalist body’ and an advocate of open
-    science. I adore topics regarding machine learning, data science, clean energy,
-    climate change, and anything nuclear.
+  bio: A nuclear physicist in ‘an environmentalist body’ and also advocate of open
+    science. I am interested in topics of climate change, clean energy
   country_3: NGA
   continent: Africa
   longitude: 8.5364136
@@ -6970,9 +7855,9 @@ pivg:
   affiliation: Embl-Ebi (European Bioinformatics Institute)
   bio: I am a scientific training officer at the European Bioinformatics Institute
     (EMBL-EBI) where I mainly coordinate and support training in Latin America via
-    the CABANA project (https://cabana.online/). My background lies in structural biology
-    and biomedical sciences, and I am passionate about science communication, equity
-    and inclusion.
+    the CABANA project (https://cabana.online/). My background lies in structural
+    biology and biomedical sciences, and I am passionate about science communication,
+    equity and inclusion.
   city: Cambridge
   country: United Kingdom
   expertise:
@@ -7230,6 +8115,16 @@ raphaels1:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+reinout-de-vries:
+  first-name: Reinout
+  last-name: de Vries
+  city: Amsterdam
+  country: Netherlands
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 rgaiacs:
   bio: Raniere is a PhD student at Department of Infectious Diseases and Public Health,
     City University of Hong Kong. He worked with the Software Sustainability Institute
@@ -7249,6 +8144,24 @@ rgaiacs:
   website: https://rgaiacs.com
   country_3: BRA
   continent: South America
+rgiessmann:
+  first-name: Robert
+  last-name: Giessmann
+  website: https://robert-giessmann.de
+  orcid: 0000-0002-0254-1500
+  city: Berlin
+  country: Germany
+  pronouns: he/him
+  expertise:
+  - Chemistry;biotechnology;enzymes;fair data;databases;research data management
+  bio: I studied chemistry and biotechnology, and worked in research data mangement
+    and FAIR data. I am a father of two, and as a hobby project I co-create a database
+    on apparent equilibrium constants of enzyme-catalyzed reactions, called openTECR.
+    Happy to meet you!
+  country_3: DEU
+  continent: Europe
+  longitude: 13.3888599
+  latitude: 52.5170365
 rhoné-roux:
   affiliation: Stellenbosch University
   first-name: Rhoné
@@ -7262,7 +8175,9 @@ richarddushime:
   country: Uganda
   pronouns: He/Him
   expertise:
-  - Community building;open source;open software developement
+  - Community building
+  - Open source
+  - Open software developement
   country_3: UGA
   continent: Africa
   longitude: 32.5813539
@@ -7275,13 +8190,16 @@ rivaquiroga:
   country: Chile
   pronouns: she/her/ella
   expertise:
-  - Community building; open publishing; digital humanities; reproducibility; programming
-    pedagogy
+  - Community building; linguistics; digital humanities; reproducibility; programming
+    pedagogy; open science
   bio: Riva is a Linguist that uses computational techniques to explore how language
     use changes. She is an editor at Programming Historian, a Software Sustainability
-    Institute Fellow, and a member of the RLadies Leadership Team.
+    Institute Fellow, and a member of the RLadies Global Leadership Team.
   country_3: CHL
   continent: South America
+  city: Valparaíso
+  longitude: -71.6196749
+  latitude: -33.0458456
 robandeep-kaur:
   bio: Light of hope
   city: Jalandhar
@@ -7346,6 +8264,38 @@ rodrigocam:
   twitter: sayadiguin
   country_3: BRA
   continent: South America
+romina-pendino:
+  first-name: Romina
+  last-name: Pendino
+  twitter: romipendinok
+  orcid: 0000-0002-3566-7222
+  city: Rosario, Santa Fe
+  country: Argentina
+  expertise:
+  - Communication
+  - Code of conduct
+  - Governance
+  bio: Communication; Human Resources Management; Education
+  github: false
+  country_3: ARG
+  continent: South America
+  longitude: -60.6617024
+  latitude: -32.9593609
+romina-trinchin:
+  first-name: Romina
+  last-name: Trinchin
+  orcid: 0000-0003-0511-0586
+  city: Montevideo
+  country: Uruguay
+  expertise:
+  - Oceanography
+  - Marine biology
+  - Climate
+  github: false
+  country_3: URY
+  continent: South America
+  longitude: -56.1913095
+  latitude: -34.9058916
 romullo-lima:
   bio: I’m a PhD student in Federal University of Rio de Janeiro and currently I’m
     evaluating the impact of deforestation in multiple facets of stream fish diversity.
@@ -7364,6 +8314,20 @@ romullo-lima:
   continent: South America
   longitude: -43.2093727
   latitude: -22.9110137
+roné-wierenga:
+  first-name: Roné
+  last-name: Wierenga
+  orcid: 0000-0002-7172-7165
+  city: Pretoria
+  country: South Africa
+  pronouns: Mrs/she/her
+  expertise:
+  - Linguistics; linguistic resources
+  github: false
+  country_3: ZAF
+  continent: Africa
+  longitude: 28.1879101
+  latitude: -25.7459277
 rossmounce:
   bio: A biodiversity scientist who wants to liberate research from the constraints
     imposed by paywalls & PDFs. Also a Lubuntu user and Software Sustainability Fellow
@@ -7407,6 +8371,17 @@ rs_khetani:
   twitter: rs_khetani
   country_3: USA
   continent: North America
+ruben-lacroix:
+  first-name: Ruben
+  last-name: Lacroix
+  orcid: 0000-0003-3763-6734
+  city: Amsterdam
+  country: Netherlands
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 rukynas:
   city: Porto
   country: Portugal
@@ -7602,23 +8577,30 @@ sarah-nietopski:
   latitude: 51.4893335
 saranjeetkaur:
   affiliation: Rse Asia Association
-  bio: I am a Statistician by training. I have completed the Google Summer of Code
-    2020 with the Turing team of the Julia language organisation. Recently I have
-    written the “R Developer’s Guide” with a funding support from the R Foundation.
-  city: Pune
+  bio: Saranjeet is a Fellow of the Software Sustainability Institute's 2023 Inauguration.  She
+    has a Masters degree in Statistics from University of Pune and is a Technical
+    Writer of the R Development Guide. Throughout her career, she’s been involved
+    with a number of software engineering communities and has been selected in open
+    source programs like Google Summer of Code 2020, Digital Infrastructure Incubator
+    2021 by Code for Science and Society, Google Season of Docs 2022, and a Subject
+    Matter Expert for the Open Science Tools and Resources Module of NASA TOPS. In
+    2021, she participated in the Open Life Science program (cohort-4), during which
+    she co-founded the Research Software Engineering (RSE
+  city: Gurgaon
   country: India
   expertise:
-  - Community building
+  - Statistics
+  - Community management
   first-name: Saranjeet Kaur
   last-name: Bhogal
   orcid: 0000-0002-7038-1457
-  pronouns: She/ Her
+  pronouns: She/her
   twitter: qwertyquesting
   website: https://saranjeetkaur.github.io/About-Me/
   country_3: IND
   continent: Asia
-  longitude: 73.8544541
-  latitude: 18.521428
+  longitude: 77.00270014657752
+  latitude: 28.42826235
 saravilla:
   affiliation: King'S College London
   bio: I'm a molecular neuroscientist with a big interest in all about chromatin,
@@ -7628,21 +8610,19 @@ saravilla:
   city: London
   country: United Kingdom
   expertise:
-  - Genomics
   - Molecular biology
-  - Ngs
-  - Sequencing analysis
-  - Reproducibility
-  - Chromatin & dna
+  - Genomics
+  - Sequencing
+  - Project management
   first-name: Sara
   last-name: Villa
   orcid: 0000-0001-9502-0888
-  pronouns: She/her
+  pronouns: she/her
   twitter: VillaScience
   country_3: GBR
   continent: Europe
-  longitude: -0.14405508452768728
-  latitude: 51.4893335
+  longitude: -0.12765
+  latitude: 51.5073359
 sarenaz:
   affiliation: Nazarbayev University
   bio: Currently, I am a Research Assistant for the “Co-Creating Culturally Appropriate
@@ -7706,28 +8686,25 @@ satagopam7:
   continent: Europe
 sayalaruano:
   affiliation: Maastricht University
-  bio: Data scientist in training and young researcher pursuing a master's degree
-    in Systems Biology at Maastricht University. My current research interests are
-    devoted to Network Science, Complex Systems, and Machine Learning for drug discovery.
-    Moreover, I am involved in various initiatives to empower Bioinformatics in Ecuador
-    and Latin America.
+  bio: I am a young researcher and freelance data scientist, currently pursuing a
+    master’s degree in Systems Biology at Maastricht University, the Netherlands.
+    I have worked in Bioinformatics and Cheminformatics for five years at different
+    laboratories. My current research interests are devoted to Network Science and
+    Machine Learning for drug discovery. I am part of several research, open-science,
+    and software development communities ( ISCBSC, The Carpentries, Streamlit Creators,
+    and Open Life Science. Moreover, I am involved in various initiatives to empower
+    Bioinformatics in Ecuador and Latin America.
   city: Maastricht
   country: Netherlands
   expertise:
-  - Bioinformatics
-  - Computational biology
-  - Cheminformatics
-  - Data science
-  - Machine learning
-  - Network science
-  - Drug discovery
-  - Open science
-  first-name: Sebastián
+  - Bioinformatics; cheminformatics; drug discovery; network science; machine learning;
+    data science; open science
+  first-name: Andres Sebastian
   last-name: Ayala Ruano
   orcid: 0000-0001-9756-6745
-  pronouns: He/him
+  pronouns: he/him
   twitter: sayalaruano
-  website: https://sayalaruano.github.io/
+  website: https://http://sayalaruano.github.io/
   country_3: NLD
   continent: Europe
   longitude: 5.6969881818221095
@@ -8010,16 +8987,13 @@ slldec:
   latitude: -34.6075682
 smhall97:
   affiliation: University Of Oxford, Oxford Neural Interfacing
-  bio: I am a doctoral student at the Oxford Neural Interfacing group, with a keen
-    interest in neuroscience, machine learning and the ethics around technology
+  bio: I am a DPhil Student studying computational neuroscience, and with a keen interest
+    in investigating bias and fairness in AI models
   city: Oxford
   country: United Kingdom
   expertise:
-  - Neuroscience
-  - Machine learning
-  - Ethics
-  - Fairness
-  first-name: Siobhan
+  - Machine learning / computational neuroscience
+  first-name: Siobhan Mackenzie
   last-name: Hall
   orcid: 0000-0002-1520-4220
   twitter: smhall97
@@ -8028,6 +9002,7 @@ smhall97:
   continent: Europe
   longitude: -1.2578499
   latitude: 51.7520131
+  pronouns: she/her
 smklusza:
   affiliation: Clayton State University
   bio: Lifelong developmental geneticist with interest in synthetic biology and creating
@@ -8189,6 +9164,11 @@ tajuddeen1:
   first-name: Tajuddeen
   last-name: Gwadabe
   title: Programme Manager & Catalyst (contract)
+  pronouns: he/his/him
+  expertise:
+  - Machine learning
+  country_3: NGA
+  continent: Africa
 tallmar:
   bio: Marta is a scientific project manager within the training team at EMBL-EBI.
     She organises and facilitates training activities in several European projects
@@ -8208,6 +9188,21 @@ tallmar:
   - Chromatin
   first-name: Marta
   last-name: Lloret Llinares
+teddygroves:
+  first-name: Teddy
+  last-name: Groves
+  orcid: 0000-0002-7109-3270
+  city: Copenhagen
+  country: Denmark
+  pronouns: He/him
+  expertise:
+  - Computational statistics; quantitative modelling of cell metabolism
+  bio: I’m a former philosopher and data scientist, now a co-PI at DTU Biosustain.
+    I like statistical programming, odes and biochemical thermodynamics
+  country_3: DNK
+  continent: Europe
+  longitude: 12.5700724
+  latitude: 55.6867243
 teresa-cisneros:
   bio: I practice where I am from which is the MX/TX border the centres a politics
     of collective action and care.
@@ -8379,6 +9374,41 @@ tobyhodges:
   continent: Europe
   longitude: 8.694724
   latitude: 49.4093582
+tokioblues:
+  first-name: Paola Andrea
+  last-name: Lefer
+  city: Salta
+  country: Argentina
+  pronouns: sher/her
+  expertise:
+  - Education; history; latinamerica
+  country_3: ARG
+  continent: South America
+  longitude: -64.3494964
+  latitude: -25.1076701
+torigijzen:
+  first-name: Tori
+  last-name: Gijzen
+  twitter: ToriGijzen
+  website: https://www.theochem.nl/tgijzen
+  city: Amsterdam
+  country: Netherlands
+  expertise:
+  - Software; chemistry; open-source; density functional calculations; reaction mechanism;
+    activation strain model; bonding mechanism
+  bio: Tori was born and raised in a small village near Amsterdam called Halfweg.
+    She finished both her B.Sc. and M.Sc. Chemistry at the Vrije Universiteit Amsterdam
+    and the University of Amsterdam. In 2022, she obtained her M.Sc. in Molecular
+    Sciences with a thesis focusing on how Lewis acids catalyze Friedel-Crafts reactions,
+    supervised by dr. Pascal Vermeeren. Currently, she is further developing herself
+    in the world of Computational Chemistry as Computational Chemistry Lab and System
+    Manager. Toward her goal of mastering the many aspects of this world, she tries
+    to create a clear line with clear communication and the renewal of her knowledge.
+    In this way, she tries to inspire and learn things n
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 trallard:
   affiliation: Microsoft
   city: Manchester
@@ -8392,6 +9422,12 @@ trallard:
   continent: Europe
   longitude: -2.2451148
   latitude: 53.4794892
+trevor-hamlin:
+  first-name: Trevor
+  last-name: Hamlin
+  twitter: trevorahamlin
+  orcid: 0000-0002-5128-1004
+  github: false
 tsonika:
   affiliation: Monash University Melbourne
   bio: Sonika has a Ph.D. in Bioinformatics and over 15 y of work experience in academia
@@ -8438,16 +9474,17 @@ ujwal-shrestha:
 umutpajaro:
   first-name: Umut
   last-name: Pajaro Velasquez
-  twitter: elojodepajaro
-  orcid: 0000-0002-5564-3615
+  twitter: umutpajaro
+  orcid: my-orcid?orcid=0000-0002-5564-3615
   city: Cartagena
   country: Colombia
   pronouns: They/Them
   expertise:
-  - Ai
+  - ' ai'
   - Internet governance
   - Cultural studies
-  - Communications,
+  - Communications
+  - Gender studies
   country_3: COL
   continent: South America
   longitude: -75.5443419
@@ -8507,6 +9544,21 @@ varlottaang:
   continent: Europe
   longitude: 15.6694407
   latitude: 40.9261881
+vasiliki-kentrou:
+  first-name: Vasiliki
+  last-name: Kentrou
+  website: https://research.vu.nl/en/persons/vasiliki-kentrou
+  orcid: 0000-0003-0657-7313
+  city: Amsterdam
+  country: Netherlands
+  pronouns: she/her
+  expertise:
+  - Team processes; interpersonal perception; social relations model
+  github: false
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 vborghe:
   affiliation: University Of Montreal
   bio: Valentina Borghesani, Ph.D., is an Italian cognitive neuroscientist currently
@@ -8555,21 +9607,18 @@ vcheplygina:
 veroxgithub:
   affiliation: Arphai/Ciecti
   bio: |-
-    I am a Doctor in Social Sciences, University of Buenos Aires (UBA), Master in Political Science and Sociology, Latin American Faculty of Social Sciences (FLACSO), and Anthropologist (UBA). I have extensive experience in interdisciplinary research and intervention projects on free technologies, co-production of knowledge, and data. I'm currently working as a researcher at the Interdisciplinary Center for Studies in Science, Technology, and Innovation (CIECTI) in the area of Digital Economy and the ARPHAI project. Also, I am an activist for Free Software and Knowledge, and I enjoy working in heterogeneous and interdisciplinary teams where we all learn from each other.
-    To have into account: I reach top productivity in Spanish. I find it more difficult to work in English as it is not my native tongue.
-  city: Avellaneda
+    Soy antropóloga, Mag. en Ciencias Políticas y Dra. en Ciencias Sociales. Trabajo con equipos interdisciplinarios de investigación y de intervención (investigación/acción), últimamente en temáticas de datos y salud (con el proyecto ARPHAI), pero también en ciencia abierta, software libre y gobierno abierto con mirada crítica. Difruto de trabajar en equipos donde todo/as aprendemos de todo/as. :)
+  city: Avellaneda, Pba.
   country: Argentina
   expertise:
-  - Co-production of knowledge
-  - Interdisciplinarity
-  - Open data
-  - Free software
+  - Software libre; comunidades de práctica; coproducción de conocimiento; proyectos
+    interdisciplinarios
   first-name: Verónica
   last-name: Xhardez
   orcid: 0000-0002-0184-0277
-  pronouns: She/Her
-  twitter: xhardez
-  website: https://www.ciecti.org.ar/arphai/
+  pronouns: She/ella
+  twitter: ' xhardez'
+  website: https://http://www.ciecti.org.ar/arphai/
   country_3: ARG
   continent: South America
   longitude: -58.3628061
@@ -8642,12 +9691,51 @@ vickynembaware:
   twitter: VickyNembaware
   country_3: ZAF
   continent: Africa
+virginiagarciaalonso:
+  first-name: Virginia Andrea
+  last-name: García Alonso
+  twitter: VA_GarciaAlonso
+  orcid: 0000-0003-2224-8376
+  country: Argentina
+  pronouns: she/her
+  expertise:
+  - Marine biology
+  - Fish early life stages
+  - Ontogenetic patterns
+  bio: I am a PhD from the University of Buenos Aires interested in everything related
+    to marine sciences and data visualization and open science.
+  country_3: ARG
+  continent: South America
 wasifarahman:
   country: Bangladesh
   first-name: Wasifa
   last-name: Rahman
   country_3: BGD
   continent: Asia
+web-learning:
+  first-name: Derek
+  last-name: Moore
+  twitter: Weblearning
+  website: https://weblearning.co.za
+  orcid: 0000-0003-1895-2918
+  city: Johannesburg
+  country: South Africa
+  pronouns: He/Him
+  expertise:
+  - History
+  - Education technology
+  - Instructional design
+  bio: I’m an independent ed-techie & critical learning designer. Enjoy exploring
+    OER, OEP, mobile learning, Johannesburg & learning networks.
+  country_3: ZAF
+  continent: Africa
+  longitude: 28.049722
+  latitude: -26.205
+wendy-andrews:
+  first-name: Wendy
+  last-name: Andrews
+  orcid: '0000000195317390'
+  github: false
 wingram:
   country: United States
   first-name: Wendy
@@ -8712,6 +9800,37 @@ yanick-diapa-nana:
   continent: Africa
   longitude: 11.5213344
   latitude: 3.8689867
+yhordijk:
+  first-name: Yuman
+  last-name: Hordijk
+  twitter: YumanHordijk
+  orcid: 0000-0002-0777-4274
+  city: Amsterdam
+  country: Netherlands
+  expertise:
+  - Theoretical chemistry
+  - Ml
+  bio: I love working on building programs that directly help my colleagues in chemistry.
+    I am very excited to work with OLS to bring our tools to a wider userbase.
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
+ykho001:
+  first-name: Yan-Kay
+  last-name: Ho
+  twitter: Just_YanKay
+  country: United Kingdom
+  pronouns: she/her
+  expertise:
+  - Synthetic biology; biotechnology; community building; scientific community development;
+    scientific community management;
+  bio: Project Manager at the Open Bioeconomy Lab, Community Manager/Coordinator for
+    Reclone.org (the Reagent Collaboration Network), Co-Founder of the London SynBio
+    Network, iGEM Human Practices Committee Member, CSCCE Community Member, budding
+    learner of open science/research practices
+  country_3: GBR
+  continent: Europe
 yochannah:
   bio: Yo is the executive director and a co-founder of [OLS](https://openlifesci.org/).
     As an [EngD student at the University of 
