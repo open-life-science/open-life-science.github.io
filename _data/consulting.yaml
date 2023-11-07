@@ -1,0 +1,19 @@
+---
+- name: Ally Skills
+  url: /consulting/ally-skills.html
+  description:  |
+        Multiple OLS community members are trained Ally skill facilitators. 
+        We offer ad-hoc in-house workshops (starting at £2,000 GBP for universities) 
+        as well as anyone-may-register workshops...
+
+- name: Video call accessibility
+  url: /consulting/accessibility-consulting.html
+  description:  |
+        OLS has a long history of captioning videos as part of running online inclusive calls. 
+        Currently, we offer scientific video preparation and captioning, including... 
+        
+- name: Organisational Leadership
+  # url: /consulting/organisational-leadership.html
+  description:  |
+        We offer a range of workshop options to help you think through 
+        setting up governance for your organisation...
