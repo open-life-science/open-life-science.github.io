@@ -40,6 +40,9 @@ collections:
   ols-8:
     permalink: /openseeds/ols-8/:path/
     output: true
+  consulting:
+    output: true
+    permalink: /consulting/:path/
 
 toc:
   min_level: 1 # default: 1
