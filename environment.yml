@@ -24,3 +24,4 @@ dependencies:
   - pkg-config
   - pycountry
   - geopy
+  - tox
