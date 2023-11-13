@@ -14,7 +14,8 @@ photos:
 # Open Research
 As researchers, we value evidenced-based behaviours. This means one of our core focuses is creating the community-based, landscape and longitudinal analyses that inform open, equitable research practices. We aim to spread effective techniques and reduce ineffective techniques. Studies are run by experienced hands-on hands-on practitioners of open research and open community.
 
-## Current work streams:
+# Current work streams
+
 ### Open Seeds Impact Research
 
 Funded by the Wellcome Trust, this study investigates transformative impact of Open Seeds interventions from a qualitative angle. 
