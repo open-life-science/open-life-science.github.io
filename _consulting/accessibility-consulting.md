@@ -1,11 +1,14 @@
 ---
 layout: page
 title: Accessibility Consulting
-image: https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80
+image: https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?
 photos:
   name: Anthony DELANOIX
   license: Unsplash License
   url: https://unsplash.com/photos/hzgs56Ze49s
+excerpt:  |
+      OLS has a long history of captioning videos as part of running online inclusive calls. 
+      Currently, we offer scientific video preparation and captioning, including... 
 ---
 
 ## Scientific video captioning and live streaming / accessibility consulting.

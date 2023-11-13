@@ -738,6 +738,16 @@ def dump_schedule(schedule, cohort):
         yaml.dump(schedule, schedule_f)
 
 
+def format_into_list(s):
+    """
+    
+    Format a Markdown based list into a Python list
+
+    :param s: string representing a list in Markdown
+    """
+    return s.replace("* ", "- ", 1).replace("- ", "", 1).split("\n- ")
+
+
 def update_call(call, row, people):
     """
     Update call details
@@ -754,8 +764,6 @@ def update_call(call, row, people):
         call["duration"] = f"{format_duration(row['duration'])} min"
     if not pd.isnull(row["Note link"]):
         call["notes"] = row["Note link"]
-    if "Learning objectives" in row and not pd.isnull(row["Learning objectives"]):
-        call["content"] = "In this call, participants will:\n%s" % row["Learning objectives"]
     if not pd.isnull(row["Title"]):
         call["title"] = row["Title"]
     if not pd.isnull(row["Recording"]):
@@ -769,13 +777,13 @@ def update_call(call, row, people):
     if not pd.isnull(row["Type"]):
         call["type"] = row["Type"]
     if "Learning objectives" in row and not pd.isnull(row["Learning objectives"]):
-        call["learning_objectives"] = row["Learning objectives"]
+        call["learning_objectives"] = format_into_list(row["Learning objectives"])
     if "Before" in row and not pd.isnull(row["Before"]):
-        call["before"] = row["Before"]
+        call["before"] = format_into_list(row["Before"])
     if "After" in row and not pd.isnull(row["After"]):
-        call["after"] = row["After"]
+        call["after"] = format_into_list(row["After"])
     elif "Assignments" in row and not pd.isnull(row["Assignments"]):
-        call["after"] = row["Assignments"]
+        call["after"] = format_into_list(row["Assignments"])
     call["talks"] = []
     return call
 
