@@ -11,7 +11,6 @@ photos:
 
 <!--<h1><figure class="image is-32x32"><img src="{% link images/three-pillars-icons/open-research-icon.png %}"></figure>Open Research</h1>-->
 
-# Open Research
 As researchers, we value evidenced-based behaviours. This means one of our core focuses is creating the community-based, landscape and longitudinal analyses that inform open, equitable research practices. We aim to spread effective techniques and reduce ineffective techniques. Studies are run by experienced hands-on hands-on practitioners of open research and open community.
 
 # Current work streams
