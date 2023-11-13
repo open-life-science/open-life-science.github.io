@@ -22,7 +22,7 @@ Funded by the Wellcome Trust, this study investigates transformative impact of O
 
 Read more about it in the [launch announcement post]({% link _posts/2021-12-21-wt-open-research-fund.md %})
 
-#### Key personnel, impact research: 
+## Key personnel
 Paz Bernaldo leads the qualitative interview study, and Malvika Sharan is PI. 
 
 ### Turing Skills Policy Award (SPA)
