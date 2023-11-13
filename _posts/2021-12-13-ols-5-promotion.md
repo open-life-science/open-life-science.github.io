@@ -28,7 +28,7 @@ We are hosting a webinar on 14 December 2021 at 16:00 UTC ([see in your timezone
 
 OLS upskills individuals in open and reproducible research and empowers them to become open science ambassadors in their communities. Participants of this 16-week program will learn essential knowledge required to create, lead, and sustain an Open Science project, connect with members across different communities, backgrounds, and identities by sharing their experiences and expertise. The complete schedule and participation guidelines of the program are available at [{% link openseeds/ols-5/index.md %}]({% link openseeds/ols-5/index.md %}). 
 
-This program will provide a unique opportunity for individuals and teams to integrate best practices for open and reproducible research in new or ongoing projects. We will also offer microgrants to our participants to ensure that they can equitably participate in the program (see [this post for details]({% link _posts/2020-11-23-micro-grants-in-2021-ols-3-ols-4.md %})). More information regarding the [roles and benefits for the mentees]({% link about.md %}#mentees) and [eligibility of a proposed project]({% link about.md %}#projects) can be found on the website.
+This program will provide a unique opportunity for individuals and teams to integrate best practices for open and reproducible research in new or ongoing projects. We will also offer microgrants to our participants to ensure that they can equitably participate in the program (see [this post for details]({% link _posts/2020-11-23-micro-grants-in-2021-ols-3-ols-4.md %})). More information regarding the [roles and benefits for the mentees]({% link openseeds/about.md %}#mentees) and [eligibility of a proposed project]({% link openseeds/about.md %}#projects) can be found on the website.
     
 In addition to hosting the launch webinar to share about the OLS-5 plans and application process, we will also host an **Application Clinic** On 7 January 2022, 10:00 am UTC ([see in your timezone](https://arewemeetingyet.com/London/2022-01-07/10:00/OLS-5-clinic)).
 With this additional call, we want to offer extra support for folks interested in joining OLS-5 but need some feedback on their proposal, or have any further questions (see [Notes](https://pad.sfconservancy.org/p/ols-5-launch)).
@@ -75,14 +75,14 @@ Find details about the graduation dates and registration in our previous post: [
 1.  An OLS mentor has either already received training as a project lead in OLS (or similar programs) or has significant experience leading, maintaining or contributing to open and inclusive projects in their field. 
 2.  **Mentor’s roles and time commitments**: 
   - Mentors work closely with participants to help further their Open Science skills and become ambassadors for Open Science practice, training and education in their communities. 
-  -   Time commitment: ~2 hours in January to review applicants and ~1 hour per week during the cohort. You can read more about it on [our website]({% link about.md %}#mentors).
+  -   Time commitment: ~2 hours in January to review applicants and ~1 hour per week during the cohort. You can read more about it on [our website]({% link openseeds/about.md %}#mentors).
   -   The mentors will be assigned to one project proposed by mentees applying to the program.
   -   During the program, mentors will receive initial training in mentoring skills (active listening, effective questioning, giving feedback), connect with a community of mentors by opting to attend the coworking calls and expand their knowledge on Open Science by opting to attend the cohort calls.
 
 ### Experts’ roles and time commitments
 
 Experts have existing experience in a relevant subject area and may be invited to:
-  -   give a ~15-minute talk at one of our cohort calls during the program, you can read more about it on [our website]({% link about.md %}#experts).
+  -   give a ~15-minute talk at one of our cohort calls during the program, you can read more about it on [our website]({% link openseeds/about.md %}#experts).
   -   attend a mentor-mentee call upon request for expert consultation on certain projects in the program (~30 minutes once or twice in the entire program).
 
 ### Connect with us for more questions!
