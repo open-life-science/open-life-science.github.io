@@ -11,7 +11,6 @@ photos:
 
 <!-- <h1><figure class="image is-32x32"><img src="{% link images/three-pillars-icons/open-science-training-icon.png %}"></figure>Open Science Training</h1> -->
 
-# Open Science Training
 Online mentoring and training programs for individuals and teams worldwide to learn about and adopt open research practices.
 
 Current work streams:
