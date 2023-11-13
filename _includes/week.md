@@ -54,7 +54,7 @@ At the end of this call, learners will be able to:
 ### Talks
 
 {% for r in c.talks %}
-- <i class="fas fa-file-powerpoint"></i>{% if r.slides %} [{% if r.title %}{{ r.title }}{% else %}{{ r.tag }}{% endif %}]({{ r.slides }}){% else %} {{ r.title }}{% endif %}{% if r.speakers %}{% assign speakers = '' %} {% for p in r.speakers %}{% capture speakers %}{{ speakers }}, [{{ site.data.people[p].first-name }} {{ site.data.people[p].last-name }}]({% link people.md %}#{{ p }}){% endcapture %}{% endfor %}, by {{ speakers | remove_first: ', ' }}{% endif %}
+- <i class="fas fa-file-powerpoint"></i>{% if r.slides %} [{% if r.title %}{{ r.title }}{% else %}{{ r.tag }}{% endif %}]({{ r.slides }}){% else %} {{ r.title }}{% endif %}{% if r.speakers %}{% assign speakers = '' %} {% for p in r.speakers %}{% capture speakers %}{{ speakers }}, [{{ site.data.people[p].first-name }} {{ site.data.people[p].last-name }}]({% link people.md %}#{{ p }}){% endcapture %}{% endfor %} by {{ speakers | remove_first: ', ' }}{% endif %}
 {% endfor %}
 
 ### Resources
