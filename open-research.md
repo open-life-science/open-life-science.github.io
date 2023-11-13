@@ -15,7 +15,7 @@ As researchers, we value evidenced-based behaviours. This means one of our core 
 
 # Current work streams
 
-### Open Seeds Impact Research
+## Open Seeds Impact Research
 
 Funded by the Wellcome Trust, this study investigates transformative impact of Open Seeds interventions from a qualitative angle. 
 
