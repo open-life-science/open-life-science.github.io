@@ -11,7 +11,6 @@ photos:
 
 <!-- <h1><figure class="image is-32x32"><img src="{% link images/three-pillars-icons/open-incubator-icon.png %}"></figure>Open incubator</h1> -->
 
-# Open Incubator
 “The greenhouse”: We offer hands-on support to empower the next generation of open leaders in research. 
 This might be for people who have completed Open Seeds and now want to say "what next for my project?", or it might be indiv
 
