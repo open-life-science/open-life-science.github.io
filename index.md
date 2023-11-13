@@ -47,7 +47,7 @@ We imagine a future where research is accessible, inclusive, and equitable for e
           <div class="card-content">
             <img src="{{ page.images[2] }}" class="image is-128x128" alt="open-incubator logo: a transparent glass containing a small green seedling.">
             <h1>Open Incubator</h1>
-            <p>“The greenhouse”: Hands-on support to empower the next generation of open leaders in research.</p>
+            <p>"The greenhouse": Hands-on support to empower the next generation of open leaders in research.</p>
           </div>
         </div>
       </a>
