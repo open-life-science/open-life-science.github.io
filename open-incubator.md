@@ -15,7 +15,7 @@ photos:
 “The greenhouse”: We offer hands-on support to empower the next generation of open leaders in research. 
 This might be for people who have completed Open Seeds and now want to say "what next for my project?", or it might be indiv
 
-Current work streams:
+# Current work streams:
 - Catalyst
 - Fellowship (resident fellows) programmes 
 - Facilitators training and transcription services
