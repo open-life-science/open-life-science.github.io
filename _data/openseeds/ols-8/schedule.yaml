@@ -378,10 +378,13 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vRLTEtATIrUcuxbjrPv3nBNNWqxPE4bX8U3n-bkIaNd2DxXsWWFXsdwzQyGsBurNXp9QAcT0yPA-ocv/pub
         title: Community Design for Inclusivity
-      - speakers:
+      - slides: "https://www.canva.com/design/DAFzgYpRlK0/mZMFILlfyqntsOZMw81zcg/edit?utm_content=DAFzgYpRlK0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n"
+        speakers:
         - 
         tag: Community Interactions
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1h0XAN45QdYZox2aWPi3VoYR-rpBKp09OA4-LQrFu00o/edit
+        speakers:
         - stefaniebutland
         tag: Mountain of Engagement
       - speakers:
