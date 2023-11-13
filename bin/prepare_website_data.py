@@ -740,7 +740,6 @@ def dump_schedule(schedule, cohort):
 
 def format_into_list(s):
     """
-    
     Format a Markdown based list into a Python list
 
     :param s: string representing a list in Markdown
