@@ -7158,6 +7158,30 @@ nerantzis:
   website: https://4myfiles.wordpress.com
   country_3: GRC
   continent: Europe
+nessa111987:
+  first-name: Vanessa
+  last-name: Fairhurst
+  twitter: nessafairhurst
+  website: https://prereview.org/
+  orcid: 0000-0001-8511-8689
+  city: Oxford
+  country: United Kingdom
+  pronouns: she/her
+  expertise:
+  - Community management
+  bio: Vanessa joined the PREreview team in November 2022 as Community Manager. She
+    works to engage researchers, particularly those early on in their career and from
+    historically marginalised backgrounds, to participate in the open peer review
+    of preprints. Vanessa began her career in academia working at international development
+    organization INASP with a focus on improving access to scholarly information and
+    research in developing countries. She then went on to support publishers around
+    the world as Community Engagement Manager at Crossref building a global ambassador
+    team and collaborating with others to ensure that scholarly research metadata
+    is registered, linked, and distributed.
+  country_3: GBR
+  continent: Europe
+  longitude: -1.2578499
+  latitude: 51.7520131
 nick-barlow:
   affiliation: Alan Turing Institute
   country: United Kingdom
@@ -7667,7 +7691,9 @@ pazbc:
   continent: South America
   title: Community Researcher & Programme Coordinator (contract)
 pazmiguez:
-  bio: 'Political scientist (University of Buenos Aires) with a MS in Educational Policy (UTDT). Project and Course Development Manager at MetaDocencia. Postgraduate teaching assistant and researcher.'
+  bio: 'Political scientist (University of Buenos Aires) with a MS in Educational
+    Policy (UTDT). Project and Course Development Manager at MetaDocencia. Postgraduate
+    teaching assistant and researcher.'
   country: Argentina
   city: Buenos Aires
   expertise:
