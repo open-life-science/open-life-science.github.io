@@ -24,7 +24,7 @@ Funded by the Wellcome Trust, this study investigates transformative impact of O
 Read more about it in the [launch announcement post]({% link _posts/2021-12-21-wt-open-research-fund.md %}).
 
 ### Key personnel:
-Paz Bernaldo leads the qualitative interview study, and Malvika Sharan is PI. 
+[Paz Bernaldo]({% link people.md %}#pazbc) leads the qualitative interview study, and [Malvika Sharan]({% link people.md %}#malvikasharan) is PI. 
 
 ## Turing Skills Policy Award (SPA)
 
@@ -33,4 +33,4 @@ Funded by the Alan Turing institude, this research looks at ways to influence po
 Read about it in the [launch announcement post]({% link _posts/2023-08-23-critical-infrastructure-for-open-scholarship.md %}).
 
 ### Key personnel, SPA: 
-OLS Resident Fellows Bethan Iley, Mayya Sundukova, and Flavio Azevedo. PI: Yo Yehudi. 
+OLS Resident Fellows [Bethan Iley]({% link people.md %}#bethaniley), [Mayya Sundukova]({% link people.md %}#msundukova), and [Flavio Azevedo]({% link people.md %}#flavioazevedo). PI: [Yo Yehudi]({% link people.md %}#yochannah). 
