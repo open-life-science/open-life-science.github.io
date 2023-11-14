@@ -2,9 +2,10 @@
 layout: default
 title: Open Research
 description: Evidence base and interventions for widening participation in research.
-image: /images/DSC_9454.jpg
+image: https://live.staticflickr.com/65535/48387079157_ff48f7c8b8_6k.jpg
 photos:
-  name: Photo by Software Sustainability Institute
+  name: Photo by Bérénice Batut
+  url: https://flic.kr/p/2gHNqRt
 ---
 
 <!--<h1><figure class="image is-32x32"><img src="{% link images/three-pillars-icons/open-research-icon.png %}"></figure>Open Research</h1>-->

@@ -2,11 +2,9 @@
 layout: default
 title: Open Science Training
 description: Online mentoring and training programs on open research practices.
-image: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09
+image: /images/open-science-training.jpg
 photos:
-  name: Noah Buscher
-  license: CC BY-SA 4.0
-  url: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09
+  name: Photo by Software Sustainability Institute
 ---
 
 <!-- <h1><figure class="image is-32x32"><img src="{% link images/three-pillars-icons/open-science-training-icon.png %}"></figure>Open Science Training</h1> -->
