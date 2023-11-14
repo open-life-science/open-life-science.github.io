@@ -15,22 +15,22 @@ As researchers, we value evidenced-based behaviours. This means one of our core 
 - Researchers with demonstrated track record in researching and influencing open.
 - Inclusivity and equity-focused approach to research: train and incubate independent research leaders, compensate contributors, foster collaborations.
 
-# Current work streams
+# Current work streams:
 
 ## Open Seeds Impact Research
 
 Funded by the Wellcome Trust, this study investigates transformative impact of Open Seeds interventions from a qualitative angle. 
 
-Read more about it in the [launch announcement post]({% link _posts/2021-12-21-wt-open-research-fund.md %})
+Read more about it in the [launch announcement post]({% link _posts/2021-12-21-wt-open-research-fund.md %}).
 
-### Key personnel
+### Key personnel:
 Paz Bernaldo leads the qualitative interview study, and Malvika Sharan is PI. 
 
 ## Turing Skills Policy Award (SPA)
 
 Funded by the Alan Turing institude, this research looks at ways to influence policy in order to widen participation in open data science. 
 
-Launch announcement: https://openlifesci.org/posts/2023/08/23/critical-infrastructure-for-open-scholarship/ 
+Read about it in the [launch announcement post]({% link _posts/2023-08-23-critical-infrastructure-for-open-scholarship.md %}).
 
 ### Key personnel, SPA: 
 OLS Resident Fellows Bethan Iley, Mayya Sundukova, and Flavio Azevedo. PI: Yo Yehudi. 
