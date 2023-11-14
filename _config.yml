@@ -11,6 +11,7 @@ url: https://openlifesci.org/
 announcement_list: https://groups.google.com/g/ols-news
 youtube: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
 
+includes_dir: .
 markdown: kramdown
 
 collections:
@@ -49,10 +50,9 @@ toc:
   max_level: 3 # default: 6
   list_class: menu-list
 
-includes_dir: .
-
 plugins:
-  - jekyll-redirect-from
   - jekyll-github-metadata
-  - jekyll-toc
+  - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-spaceship
+  - jekyll-toc
