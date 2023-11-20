@@ -1132,7 +1132,7 @@ def extract_calls(schedule_df):
     :param schedule_df: data frame with schedule
     """
     calls = {}
-    for row in schedule_df.itertuples():
+    for _, row in schedule_df.iterrows():
         w = "{:02d}".format(int(row["Week"]))
         if row["Type"] == "Cohort" or row["Type"] == "Skill-up":
             calls[w] = {
@@ -1192,7 +1192,6 @@ def extract_calls(schedule_df):
             if "After" in row and not pd.isnull(row["After"]):
                 talk["after"] = row["After"].replace("* ", "   * ").replace("- ", "   - ")
             calls[w]["content"].append(talk)
-
         elif row["Type"] == "Welcome":
             content = {
                 "type": "welcome",
@@ -1205,7 +1204,6 @@ def extract_calls(schedule_df):
             if "After" in row and not pd.isnull(row["After"]):
                 content["after"] = row["After"].replace("* ", "   * ").replace("- ", "   - ")
             calls[w]["content"].append(content)
-
         elif row["Type"] == "Breakout" or row["Type"] == "Silent reflections":
             content = {
                 "type": "breakout" if row["Type"] == "Breakout" else "silent",
@@ -1231,29 +1229,44 @@ def extract_calls(schedule_df):
             if "After" in row and not pd.isnull(row["After"]):
                 content["after"] = row["After"].replace("* ", "   * ").replace("- ", "   - ")
             calls[w]["content"].append(content)
+        elif row["Type"] == "Panel":
+            print(row)
+            content = {
+                "type": "panel",
+                "duration": 0,
+            }
+            if not pd.isnull(row["duration"]):
+                content["duration"] = format_duration(row["duration"])
+            calls[w]["content"].append(content)
     print("Add time after each content")
     return calls
 
 
-def add_empty_line(out_f):
+def read_template(fp):
     """
-    Add emptry list elements
+    Read a template file and return content
 
-    :param out_f: file object
+    :param fp: Path to template file
     """
-    out_f.write("\n")
+    with open(fp) as f:
+        return f.read()
 
 
-def add_empty_list_elements(out_f, level=1):
+def replace_template(template, to_replace):
     """
-    Add emptry list elements
+    Replace string in a template
 
-    :param out_f: file object
-    :param level: list level
+    :param template: template text
+    :param to_replace: dictionary with key string to replace and value the new string
     """
-    sep = "   "
-    out_f.write(f"{ sep * level}*  \n")
-    out_f.write(f"{ sep * level}*  \n\n")
+    for k, v in to_replace.items():
+        if k in ["<duration>", "<timing>", "<people>"]:
+            v = str(v)
+        if v:
+            template = template.replace(k, v)
+        else:
+            template = template.replace(k, "")
+    return template
 
 
 def create_templates(calls, output_dp):
@@ -1263,168 +1276,84 @@ def create_templates(calls, output_dp):
     :param schedule_df: dictionary with cohort calls
     :param output_dp: Path object to output directory
     """
+    template_dp = Path("bin/templates")
     for w, call in calls.items():
         week_dp = output_dp / Path(f"week-{w}")
         week_dp.mkdir(parents=True, exist_ok=True)
         with open(week_dp / Path(f"week-{w}-template.md"), "w") as out_f:
-            out_f.write(f"# Week {w} - { call['title'] }\n\n")
-            out_f.write(f"**Date**: { call['date'] }\n\n")
-            out_f.write(f"**Time**: { call['time'] } UTC\n\n")
-            out_f.write(f"**Duration**: { call['duration'] }\n\n")
-            out_f.write(f"**Call lead**: { call['lead'] }\n\n")
-            out_f.write(f"**Facilitator**: { call['facilitator'] }\n\n")
-            add_empty_line(out_f)
-
-            out_f.write("## Join the Cohort Room\n\n")
-            out_f.write("**Join the Zoom call**:\n\n")
-            add_empty_line(out_f)
-            out_f.write(
-                "**Are you an Open Seeds participant but can't attend this call? The recording from this call will be updated on YouTube**: [https://www.youtube.com/c/OpenLifeSci/playlists](**https://www.youtube.com/c/OpenLifeSci/playlists**)\n\n"
-            )
-            add_empty_line(out_f)
-            out_f.write("**This call is being recorded and transcribed!**\n\n")
-            out_f.write(
-                "   * The video will be available on the YouTube channel ([https://www.youtube.com/c/OpenLifeSci))](https://www.youtube.com/c/OpenLifeSci))) in the next days\n"
-            )
-            out_f.write("   * Turn on your webcam if you don't mind sharing your face (or off if you do!)\n\n")
-            add_empty_line(out_f)
-            out_f.write("**Breakout room**: Speaking and Writing:\n\n")
-            out_f.write(
-                "   * Please edit your Zoom name (click on the three dots on the top right of your video) and add one of the following letters in front of your name:\n"
-            )
-            out_f.write("      * W for written reflection-based exercise in the main room\n")
-            out_f.write(
-                "      * S for Spoken Discussion Breakout Room This will help us assign you to the breakout room with the format of your choice\n"
-            )
-            out_f.write(
-                "   * If you are ok with both, please choose one for this week so that the hosts can assign you to a breakout room during the cohort call\n\n"
-            )
-            add_empty_line(out_f)
-            out_f.write("## During this week's cohort call, we will:\n\n")
-            add_empty_line(out_f)
-            out_f.write(f"{ call['learning_objectives'] }\n\n")
-            add_empty_line(out_f)
-
-            out_f.write("## 🌍 Roll call\n\n")
-            add_empty_line(out_f)
-            out_f.write("### Introducing yourself\n\n")
-            out_f.write("Name / Project / social handles (twitter, GitHub, etc.) / \_emoji mood \_\n\n")
-            add_empty_list_elements(out_f)
-            add_empty_line(out_f)
-            out_f.write("### Icebreaker question\n\n")
-            out_f.write(f"*{ call['icebreaker'] }*\n\n")
-            add_empty_list_elements(out_f)
-            add_empty_line(out_f)
-
+            to_replace = {
+                "<week-nb>": w,
+                "<title>": call["title"],
+                "<date>": call["date"],
+                "<time>": call["time"],
+                "<duration>": call["duration"],
+                "<lead>": call["lead"],
+                "<facilitator>": call["facilitator"],
+                "<learning_objectives>": call["learning_objectives"],
+                "<icebreaker>": call["icebreaker"],
+            }
+            out_f.write(replace_template(read_template(template_dp / Path("header.md")), to_replace))
             timing = 0
             for content in call["content"]:
                 if content["type"] == "welcome":
-                    out_f.write("## 🗣️ Welcome!\n\n")
                     timing += content["duration"]
-                    out_f.write(f"[HOST] ({ content['duration'] } min)[⏰ {timing}]\n\n")
-                    add_empty_line(out_f)
-                    out_f.write(
-                        "**Code of conduct and community participation guidelines** [https://openlifesci.org/code-of-conduct](https://openlifesci.org/code-of-conduct)\n\n"
-                    )
-                    out_f.write(
-                        "   * If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Bérénice, Malvika, Yo, Paz and Emmy. (team@openlifesci.org).\n"
-                    )
-                    out_f.write(
-                        "   * To report an issue involving one of the organisers, please email one of the members individually (berenice@we-are-ols.org, malvika@we-are-ols.org, yo@we-are-ols.org, emmy@we-are-ols.org, paz@we-are-ols.org).\n\n"
-                    )
-                    add_empty_line(out_f)
-                    out_f.write("**This call is being recorded and transcribed!**\n\n")
-                    out_f.write("   * Please turn your video off if you would prefer to be off video\n")
-                    out_f.write(
-                        "   * You can follow the transcriptions following the link on the top of the Zoom screen\n\n"
-                    )
-                    add_empty_line(out_f)
-                    out_f.write("**Breakout room**: Speaking and Writing:\n\n")
-                    out_f.write("   * Indicate by editing your name on Zoom and add \n")
-                    out_f.write("       * W for written reflection-based exercise in based breakout room\n")
-                    out_f.write("       * S for Spoken Discussion Breakout Room \n")
-                    out_f.write(
-                        "   * This will help us assign you to the breakout room with the format of your choice\n"
-                    )
-                    out_f.write(
-                        "   * Even if you are ok with both, please choose one option for this call to help us assign you easily to one group.\n\n"
-                    )
-                    add_empty_line(out_f)
+                    to_replace = {
+                        "<duration>": content["duration"],
+                        "<timing>": timing,
+                    }
+                    out_f.write(replace_template(read_template(template_dp / Path("welcome.md")), to_replace))
                 elif content["type"] == "presentation":
-                    out_f.write(f"## 🖥 { content['title'] }!\n\n")
                     timing += content["duration"]
-                    out_f.write(f"[HOST] ({ content['duration'] } min)[⏰ {timing}]\n\n")
-                    out_f.write(f"**Presenter**: { content['speakers'] }\n\n")
-                    out_f.write("   * Contact / social: \n")
-                    out_f.write("   * Slides: { content['slides'] }\n\n")
-                    out_f.write("**Notes**:\n\n")
-                    add_empty_list_elements(out_f)
-                    out_f.write("**Questions**\n\n")
-                    add_empty_list_elements(out_f)
-                    add_empty_line(out_f)
+                    to_replace = {
+                        "<duration>": content["duration"],
+                        "<timing>": timing,
+                        "<title>": content["title"],
+                        "<speaker>": content["speakers"],
+                        "<slides>": content["slides"],
+                    }
+                    out_f.write(replace_template(read_template(template_dp / Path("presentation.md")), to_replace))
                 elif content["type"] == "breakout":
-                    out_f.write(f"## 👥 { content['title'] }!\n\n")
                     timing += content["duration"]
-                    out_f.write(
-                        f"[HOST] introduces, [HOST] makes breakouts ({ content['duration']} min) [⏰ {timing}]\n\n"
-                    )
-                    out_f.write(f"{ content['duration']} minutes, ~{ content['people']} ppl per room\n\n")
-                    out_f.write("### Instructions for the room\n\n")
-                    add_empty_line(out_f)
-                    out_f.write(f"{ content['instructions']}\n\n")
-                    add_empty_line(out_f)
-                    out_f.write("### Notes from breakout discussions\n\n")
-                    add_empty_line(out_f)
-                    out_f.write("Breakout Room 1 - Written/Spoken\n\n")
-                    out_f.write("   * Names\n\n")
-                    add_empty_list_elements(out_f, level=2)
-                    out_f.write("   * Notes\n\n")
-                    add_empty_list_elements(out_f, level=2)
-                    out_f.write("Breakout Room 2 - Written/Spoken\n\n")
-                    out_f.write("   * Names\n\n")
-                    add_empty_list_elements(out_f, level=2)
-                    out_f.write("   * Notes\n\n")
-                    add_empty_list_elements(out_f, level=2)
-                    add_empty_line(out_f)
-                    out_f.write("### **Any insights/thoughts/comments to share from your breakout room?**\n\n")
-                    add_empty_list_elements(out_f)
-                    add_empty_line(out_f)
+                    to_replace = {
+                        "<duration>": content["duration"],
+                        "<timing>": timing,
+                        "<title>": content["title"],
+                        "<people>": content["people"],
+                        "<instructions>": content["instructions"],
+                    }
+                    out_f.write(replace_template(read_template(template_dp / Path("breakout.md")), to_replace))
                 elif content["type"] == "silent":
-                    out_f.write(f"## 👥 { content['title'] }!\n\n")
                     timing += content["duration"]
-                    out_f.write("### Questions\n\n")
-                    add_empty_line(out_f)
+                    questions = ""
                     for q in content["instructions"]:
-                        out_f.write(f"{ q }\n\n")
-                        add_empty_list_elements(out_f)
-                        add_empty_line(out_f)
+                        questions += f"* { q }\n\n"
+                        questions += "   *\n"
+                        questions += "   *\n\n"
+                    to_replace = {
+                        "<duration>": content["duration"],
+                        "<timing>": timing,
+                        "<title>": content["title"],
+                        "<questions>": questions,
+                    }
+                    out_f.write(replace_template(read_template(template_dp / Path("silent.md")), to_replace))
+                elif content["type"] == "panel":
+                    print(content)
+                    timing += content["duration"]
+                    to_replace = {
+                        "<duration>": content["duration"],
+                        "<timing>": timing,
+                    }
+                    out_f.write(replace_template(read_template(template_dp / Path("panel.md")), to_replace))
 
                 if "after" in content:
                     out_f.write(f"{content['after']}\n\n")
-                    add_empty_line(out_f)
+                    out_f.write("\n")
 
-            out_f.write("## 🗣️ Closing\n\n")
-            out_f.write("[HOST] (5 min) [⏰ 90]\n\n")
-            out_f.write("### Assignments\n\n")
-            out_f.write(f"{ call['after']}\n\n")
-            out_f.write("### Have any questions? \n\n")
-            out_f.write("Add them below. We will respond to these on Slack and also share them via an email\n\n")
-            add_empty_list_elements(out_f)
-            out_f.write("### Feedback about this call:\n\n")
-            out_f.write("What worked?\n\n")
-            add_empty_list_elements(out_f)
-            add_empty_line(out_f)
-            out_f.write("What didn't work?\n\n")
-            add_empty_list_elements(out_f)
-            add_empty_line(out_f)
-            out_f.write("What would you change?\n\n")
-            add_empty_list_elements(out_f)
-            add_empty_line(out_f)
-            out_f.write("What surprised you?\n\n")
-            add_empty_list_elements(out_f)
-            add_empty_line(out_f)
-            out_f.write("**Reference**: Mozilla Open leadership Framework, Open Life Science\n\n")
-            out_f.write("**Licence**: CC BY 4.0, Open Life Science (OLS), 2023\n\n")
+            to_replace = {
+                "<assignments>": content["after"] if "after" in content else None,
+                "<year>": "2023",
+            }
+            out_f.write(replace_template(read_template(template_dp / Path("closing.md")), to_replace))
 
 
 ### COMMANDS
