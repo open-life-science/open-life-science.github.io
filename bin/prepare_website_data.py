@@ -1230,7 +1230,6 @@ def extract_calls(schedule_df):
                 content["after"] = row["After"].replace("* ", "   * ").replace("- ", "   - ")
             calls[w]["content"].append(content)
         elif row["Type"] == "Panel":
-            print(row)
             content = {
                 "type": "panel",
                 "duration": 0,
@@ -1238,7 +1237,6 @@ def extract_calls(schedule_df):
             if not pd.isnull(row["duration"]):
                 content["duration"] = format_duration(row["duration"])
             calls[w]["content"].append(content)
-    print("Add time after each content")
     return calls
 
 
@@ -1337,7 +1335,6 @@ def create_templates(calls, output_dp):
                     }
                     out_f.write(replace_template(read_template(template_dp / Path("silent.md")), to_replace))
                 elif content["type"] == "panel":
-                    print(content)
                     timing += content["duration"]
                     to_replace = {
                         "<duration>": content["duration"],
@@ -1349,9 +1346,11 @@ def create_templates(calls, output_dp):
                     out_f.write(f"{content['after']}\n\n")
                     out_f.write("\n")
 
+            timing += 5
             to_replace = {
                 "<assignments>": content["after"] if "after" in content else None,
                 "<year>": "2023",
+                "<duration>": 5,
             }
             out_f.write(replace_template(read_template(template_dp / Path("closing.md")), to_replace))
 
