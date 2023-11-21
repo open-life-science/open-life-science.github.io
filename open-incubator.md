@@ -29,11 +29,11 @@ streams:
   -
     title: Fiscal Hosting 
     description: |
-      We are helping early stage organization with fiscal hosting. If you are interested, please please contact directors at we-are-ols.org to discuss. 
+      We are helping early stage organizations with fiscal hosting. If you are interested, please contact directors at we-are-ols.org to discuss. 
   -
     title: Grant Writing Training
     description: |
-      This will come soon, please let us know if you'd like to [fund the development of the curriculum](https://numfocus.github.io/disc-unconference-2023-projects/en/hidden-curriculum.html)!
+      This will come soon. Please let us know if you'd like to [fund the development of the curriculum](https://numfocus.github.io/disc-unconference-2023-projects/en/hidden-curriculum.html)!
   -
     title: Consultancy and Open Research Advice
     description: |
