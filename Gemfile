@@ -4,9 +4,10 @@ source "https://rubygems.org"
 
 gem 'html-proofer'
 gem 'jekyll'
-gem 'jekyll-redirect-from'
 gem 'jekyll-github-metadata'
+gem 'jekyll-redirect-from'
+gem 'jekyll-scholar'
+gem 'jekyll-sitemap'
 gem 'jekyll-toc'
 gem 'nokogiri'
 gem 'webrick'
-gem 'jekyll-sitemap'

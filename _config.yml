@@ -40,6 +40,9 @@ collections:
   ols-8:
     permalink: /openseeds/ols-8/:path/
     output: true
+  consulting:
+    output: true
+    permalink: /consulting/:path/
 
 toc:
   min_level: 1 # default: 1
@@ -49,7 +52,8 @@ toc:
 includes_dir: .
 
 plugins:
-  - jekyll-redirect-from
   - jekyll-github-metadata
-  - jekyll-toc
+  - jekyll-scholar
   - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-toc
