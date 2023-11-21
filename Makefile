@@ -82,9 +82,14 @@ check-links: build ## check all links
 			./_site
 .PHONY: check-html
 
-update-schedule: ## update schedule (TODO before: update bin/update_schedule.sh with correct information)
+update-schedule: ## update schedule
 	$(ACTIVATE_ENV) && \
 		bash bin/update_schedule.sh
+.PHONY: build
+
+lint: clean ## lint python script
+	$(ACTIVATE_ENV) && \
+		tox -e lint
 .PHONY: build
 
 help:

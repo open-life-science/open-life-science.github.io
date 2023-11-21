@@ -48,7 +48,7 @@ weeks:
       duration: 60 min
       title: Mentor onboarding group 3
       hosts:
-      - malvikasharan
+      - yochannah
       type: Mentor
       talks: []
   '01':
@@ -85,10 +85,60 @@ weeks:
       - bebatut
       type: Cohort
       talks:
-      - tag: OLS Introduction
-      - tag: Open Canvas
-      - tag: Project Roadmapping
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
+        speakers:
+        - yochannah
+        title: Welcome to Open Seeds
+        tag: OLS Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
+        speakers:
+        - bebatut
+        title: Tooling for Project Design Introduction
+        tag: Tooling for Project Design Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
+        speakers:
+        - yochannah
+        title: Open Canvas
+        tag: Open Canvas
+      - speakers:
+        - bebatut
+        title: Project Roadmapping
+        tag: Project Roadmapping
       time: "09:00"
+      recording: https://youtu.be/LnqkAtJLHZ4
+      learning_objectives:
+      - "Know about the Community Participation Guidelines or Code of Conduct: [https://openlifesci.org/code-of-conduct](https://openlifesci.org/code-of-conduct)
+        \n* Explain about your role as a mentee and start your Open Seeds journey
+        as a project lead with assignments \n* Identify tools to help you design your
+        project in a clear way for newcomers to quickly understand what the project
+        is about, who can be involved, and where the work is headed\n* Fill the open
+        canvas for your project to think through an open project strategy to develop
+        a MVP\n* Make and post a Roadmap for your project with milestones, tasks,
+        and description"
+      before:
+      - "Create your project vision statement\n* Bring that statement to the call
+        to share with others - It’s OK to create this in your shared document with
+        your mentor, google doc or a GitHub repository (if you feel comfortable) -
+        whichever is most convenient at this point.\n* Optional: Read this post on
+        mentorability: [https://ideas.ted.com/are-you-mentorable/](https://ideas.ted.com/are-you-mentorable/)"
+      after:
+      - Create a GitHub account if you don't have one
+      - '📑 Open an issue on OLS-8 repo where you will be able to track you progress
+        in this cohort: [https://github.com/open-life-science/ols-8](https://github.com/open-life-science/ols-8)
+        using the template and with a title by editing the main text with information
+        that it asks about your project and team'
+      - 🤔 Reflecting on our role as a mentee using the Reflection exercise 
+        [https://docs.google.com/document/d/13icLglfw4IN4uoCQLSzhWD6lQW00Vn2vhIIssXP-sTs/edit?usp=sharing](https://docs.google.com/document/d/13icLglfw4IN4uoCQLSzhWD6lQW00Vn2vhIIssXP-sTs/edit?usp=sharing)
+      - '⚖ Complete this compare and contrast assignment about current and desired
+        community interactions and value exchanges: [https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing](https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing)'
+      - '📝 Start working on your Open Canva (Template, instruction and example: [https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link](https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link))'
+      - Share the image/link to your Open Canva on your GitHub issue
+      - Look up at least two other projects in the issues and comment on their issues
+        with feedback on their vision statement.
+      - '🛣 Start your Roadmap and comment on your issue with your draft Roadmap: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A)'
   '03':
     start: October 02, 2023
     calls:
@@ -104,10 +154,54 @@ weeks:
       - malvikasharan
       type: Cohort
       talks:
-      - tag: OLS Introduction
-      - tag: Open Canvas
-      - tag: Project Roadmapping
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
+        speakers:
+        - malvikasharan
+        title: Welcome to Open Seeds
+        tag: OLS Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
+        title: Tooling for Project Design Introduction
+        tag: Tooling for Project Design Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
+        title: Open Canvas
+        tag: Open Canvas
+      - title: Project Roadmapping
+        tag: Project Roadmapping
       time: "16:00"
+      recording: https://youtu.be/otxpdHSaqyw
+      learning_objectives:
+      - "Know about the Community Participation Guidelines or Code of Conduct: [https://openlifesci.org/code-of-conduct](https://openlifesci.org/code-of-conduct)
+        \n* Explain about your role as a mentee and start your Open Seeds journey
+        as a project lead with assignments \n* Identify tools to help you design your
+        project in a clear way for newcomers to quickly understand what the project
+        is about, who can be involved, and where the work is headed\n* Fill the open
+        canvas for your project to think through an open project strategy to develop
+        a MVP\n* Make and post a Roadmap for your project with milestones, tasks,
+        and description"
+      before:
+      - "Create your project vision statement\n* Bring that statement to the call
+        to share with others - It’s OK to create this in your shared document with
+        your mentor, google doc or a GitHub repository (if you feel comfortable) -
+        whichever is most convenient at this point.\n* Optional: Read this post on
+        mentorability: [https://ideas.ted.com/are-you-mentorable/](https://ideas.ted.com/are-you-mentorable/)"
+      after:
+      - Create a GitHub account if you don't have one
+      - '📑 Open an issue on OLS-8 repo where you will be able to track you progress
+        in this cohort: [https://github.com/open-life-science/ols-8](https://github.com/open-life-science/ols-8)
+        using the template and with a title by editing the main text with information
+        that it asks about your project and team'
+      - 🤔 Reflecting on our role as a mentee using the Reflection exercise 
+        [https://docs.google.com/document/d/13icLglfw4IN4uoCQLSzhWD6lQW00Vn2vhIIssXP-sTs/edit?usp=sharing](https://docs.google.com/document/d/13icLglfw4IN4uoCQLSzhWD6lQW00Vn2vhIIssXP-sTs/edit?usp=sharing)
+      - '⚖ Complete this compare and contrast assignment about current and desired
+        community interactions and value exchanges: [https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing](https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing)'
+      - '📝 Start working on your Open Canva (Template, instruction and example: [https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link](https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link))'
+      - Share the image/link to your Open Canva on your GitHub issue
+      - Look up at least two other projects in the issues and comment on their issues
+        with feedback on their vision statement.
+      - '🛣 Start your Roadmap and comment on your issue with your draft Roadmap: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A)'
   '04':
     start: October 09, 2023
     calls:
@@ -117,13 +211,48 @@ weeks:
       title: Tooling for Open Collaboration
       type: Cohort
       talks:
-      - tag: Setting up a project
-      - tag: README
-      - tag: Open Licensing
-      - tag: Code of Conduct
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vT6Xn-rv8tA_YttEhJoO_aqOx36REJVZ9l44Orz69sm8y1bxuiC-HLj41-e7QAAw-drhPmucehO-Clv/pub
+        speakers:
+        - malvikasharan
+        title: Setting up a project
+        tag: Setting up a project
+      - slides: 
+          https://docs.google.com/presentation/d/16xlUE0NW7W4hW2PBMs89bNcXM9pqcmM9WnuAEgqo3DM/edit?usp=sharing
+        speakers:
+        - marimeireles
+        title: 'ReadMe files: how to make your project welcoming to others'
+        tag: README
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQsH4kNQ838uk6mHw8w6YuR8hgg4JXZ10lkNdaVC05zfMEZpU1xDRyT_B6A3s9rqirP2RhAndi-G6dd/pub
+        speakers:
+        - yochannah
+        title: A Primer on Open Licenses
+        tag: Open Licensing
+      - slides: 
+          https://docs.google.com/presentation/d/1E0HBEzzuO3VjNLwM3ThWLJ27R6h359j0DO4jwfcFkCw/edit#slide=id.g21280744133_2_56
+        speakers:
+        - 
+        title: Designing and enforcing a Code of Conduct
+        tag: Code of Conduct
       time: "16:00"
       hosts:
-      - yochannah
+      - malvikasharan
+      recording: https://youtu.be/EZzvB58cmuk
+      learning_objectives:
+      - "Identify essential files to add in a collaborative project\n* Explain why
+        you need to select a license for an open project\n* Select the best license
+        for your project\n* Write a clean and welcoming README file\n* Discuss about
+        Code of Conduct"
+      after:
+      - "Create a GitHub repository for your project\n* Add the link to your repository
+        in your issue on [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
+        * Use your canvas to start writing a `README.md` file, or landing page, for
+        your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\n
+        * Link your README in a comment on the OLS-8 issue\n* Add an open license
+        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
+        * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
+        [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
   '05':
     start: October 16, 2023
     calls:
@@ -136,12 +265,39 @@ weeks:
       notes: https://bit.ly/ols-8-week-05
       title: GitHub tutorial for beginners
       hosts:
-      - malvikasharan
+      - bebatut
+      - yochannah
       type: Skill-up
       talks:
-      - title: Introduction to GitHub
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQ5k5Bw3DOSu4asYY2qnHZQSyQqaeqxFcqzUV6oxeBdHlopJ7OZQ-YEG4h3Z_kn-kUyccY8qNdXd69k/pub
+        speakers:
+        - yochannah
+        title: GitHub for Collaboration
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTBcMEhNCbU2KVuFaMonMCXFGH5xd8zs6FKkEC27lwbG2elPc22XrxjMesjkNZ_YH1-yKsHGuwIKedW/pub
+        speakers:
+        - bebatut
+        title: Introduction to GitHub
+        tag: GitHub Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRYkiKWXU3CKdmpKl3LRD4BS2nSk3QDYWCAl5FPhYDimkUhN0rrZmTUjzMbMzVQ6t-kW141xYFfmyZG/pub
+        speakers:
+        - yochannah
+        title: Creating a small website with GitHub
         tag: GitHub Introduction
       time: "09:00"
+      learning_objectives:
+      - "Create a new repository\n* Create a (README) file\n* Write in Markdown\n
+        * Manage issues and labels\n* Enable a small website via GitHub\n* Submit
+        changes to a GitHub repository via Pull Request (PR)\n* Set the scene for
+        self-paced learning after this session"
+      before:
+      - "Please create a GitHub account: [https://github.com](https://github.com)\n
+        * Have a look at the OLS-8 repository for 'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
+        * Comment of 1-2 project's recent post (vision, open canvas etc.)\n* Create
+        your 'project issue'"
+      recording: https://youtu.be/Af-VLs_9DXo
   '06':
     start: October 23, 2023
     calls:
@@ -151,12 +307,46 @@ weeks:
       title: Open Science Garden I
       type: Cohort
       talks:
-      - tag: Open Science Introduction
-      - tag: Open Evaluation
-      - tag: Open Science Infrastructures
-      - tag: Open Engagement of Social Actors
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTCjL3-TcltgCN9RcRvooI-wUViuSFgtfm0pnXNGer5K7APtZKdtN4ITy8HdZkJBEcRzQFhOmmnH-23/pub
+        title: Open Science Garden(s)
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTfp4FBmrsu0Hb5H-w2Howm2QNVbEaTQGVo9h-dQcgFNT-TN30Pm_S3kv6JARcdhPp1JkN0go_ulIGP/pub
+        speakers:
+        - yochannah
+        title: Open Science Introduction
+        tag: Open Science Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/1wiZuFoBXaoCIB92t9EcXtMRYXuFe5a2sg4R2E0Key5s/edit#slide=id.g2922b4986f7_0_744
+        speakers:
+        - 
+        title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
+        tag: Open Data
+      - slides: 
+          https://drive.google.com/file/d/1wBojj4JRtJ8JY55PRwpAKcMrqSuLZXNd/view?usp=sharing
+        speakers:
+        - miguel-silan
+        title: How do we learn from each other in global large-scale collaborative
+          research networks?
+        tag: Openness to Diversity of Knowledge
+      - slides: 
+          https://docs.google.com/presentation/d/1rwio6fCGD-Z1a3mAulE5r5bhQwPCpkNtQLm7jBM5u84/edit#slide=id.g2148fd0666b_0_292
+        speakers:
+        - 
+        title: Why open reviews?
+        tag: Open Evaluation
       time: "09:00"
-      hosts: []
+      hosts:
+      - tajuddeen1
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
+      after:
+      - Check the GitHub Intro notes, learning resource and video from last week
+      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
+        or other option. ← long term assignment, do it in your own pace.
+      recording: https://youtu.be/Fbw0pkQGXZU
   '07':
     start: October 30, 2023
     calls:
@@ -182,11 +372,27 @@ weeks:
       notes: https://bit.ly/ols-8-week-08
       title: Community Management Café I
       hosts:
-      - malvikasharan
+      - yochannah
       type: Cohort
       talks:
-      - tag: Community Design for Inclusivity
-      - tag: Personas & Pathways
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRLTEtATIrUcuxbjrPv3nBNNWqxPE4bX8U3n-bkIaNd2DxXsWWFXsdwzQyGsBurNXp9QAcT0yPA-ocv/pub
+        title: Community Design for Inclusivity
+      - speakers:
+        - 
+        tag: Community Interactions
+      - speakers:
+        - stefaniebutland
+        tag: Mountain of Engagement
+      - speakers:
+        - fadanka
+        tag: Personas & Pathways
+      learning_objectives:
+      - Considering different kinds of interactions for your community
+      - Use the Mountain of Engagement method to support participants through various
+        levels of engagements
+      - Develop persona and pathways for your community for taking people's experiences
+        and expectations in planning your projects
   '09':
     start: November 13, 2023
     calls:
@@ -200,11 +406,14 @@ weeks:
       title: Open Leadership in Practice
       type: Skill-up
       talks:
+      - title: Introduction to Open Leadership in Practice
+        tag: Open Leadership in Practice
       - tag: Open Leadership in Practice
       - tag: Open Leadership in Practice
       - tag: Open Leadership in Practice
       time: "10:00"
-      hosts: []
+      hosts:
+      - tajuddeen1
   '10':
     start: November 20, 2023
     calls:
@@ -214,11 +423,23 @@ weeks:
       title: Open Science Garden II
       type: Cohort
       talks:
-      - tag: Open Hardware
-      - tag: Open Source Software
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQv96-8vH1QoMyZ6oKj_BL0Bma3j195KI2rUkGBJvXmPjNZ-_unXkZWAkPlzixw8M5ykgiAkD0hNEMW/pub
+        title: Open Science Garden(s)
+      - speakers:
+        - tobyhodges
+        tag: Open Educational Resources
+      - speakers:
+        - 
+        tag: Open Access Publication
       - tag: Openness to Diversity of Knowledge
       time: "10:00"
-      hosts: []
+      hosts:
+      - tajuddeen1
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
   '11':
     start: November 27, 2023
     calls:
@@ -232,6 +453,8 @@ weeks:
       title: 'Tooling for Collaboration: Open-source software in practice'
       type: Skill-up
       talks:
+      - title: Open-source software in practice
+        tag: Open Source Software
       - tag: Code Review
       - tag: Package Management
       - tag: Good Coding Practices
@@ -251,9 +474,22 @@ weeks:
       hosts:
       - malvikasharan
       talks:
-      - tag: Open Data
-      - tag: Open Educational Resources
-      - tag: Open Access Publication
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRoO3gcS1koiKYhncvBBnvI9qdMqYjEQ-BH3OKcMGHuCVdsB1nVOXpjg0_9DNXg9D4XfL8BhRpXpH_K/pub
+        title: Open Science Garden(s)
+      - speakers:
+        - 
+        tag: Open Source Software
+      - speakers:
+        - 
+        tag: Open Science Infrastructures
+      - speakers:
+        - 
+        tag: Open Hardware
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
   '13':
     start: December 11, 2023
     calls:
