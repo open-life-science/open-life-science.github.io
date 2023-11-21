@@ -68,7 +68,7 @@ OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from Januar
 
 ## Mentees
 
-Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a mentee can be found [here]({% link about.md %}#mentees)
+Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a mentee can be found [here]({% link openseeds/about.md %}#mentees)
 
 For the first round of the Open Life Science program, we are happy to have [{{ p-participants | size }} participants]({% link openseeds/ols-1/projects-participants.md %}#participants) with [{{ projects | size }} projects]({% link openseeds/ols-1/projects-participants.md %}#projects).
 

@@ -24,7 +24,7 @@ items:
     icon: fab fa-youtube
   -
     text: Check out our Open Science video library 
-    link: /library.html
+    link: /openseeds/library.html
     icon: fas fa-video
   -
     text: Follow us on Twitter

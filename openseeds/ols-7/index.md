@@ -66,7 +66,7 @@ At the end of the program, our participants will be able to:
 
 ## Project leads (aka Mentees)
 
-Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here]({% link about.md %}#mentees).
+Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here]({% link openseeds/about.md %}#mentees).
 
 For the seventh round of the OLS program, we welcome [{{ p-participants | size }} participants]({% link openseeds/ols-7/projects-participants.md %}#participants) with [{{ projects | size }} projects]({% link openseeds/ols-7/projects-participants.md %}#projects).
 
