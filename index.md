@@ -9,10 +9,11 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-OLS is a not-for profit organisation dedicated to capacity building and diversifying leadership in research worldwide.
+OLS is a **not-for profit** organisation dedicated to **capacity building** and **diversifying leadership** in research worldwide.
 We imagine a future where research is accessible, inclusive, and equitable for everyone.
 
-# Our three pillars:
+# Our three pillars
+
 <div class="container">
   <div class="columns">
     <div class="column is-one-third">
