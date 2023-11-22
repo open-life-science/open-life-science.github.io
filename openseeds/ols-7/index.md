@@ -382,4 +382,4 @@ Updates regarding new calls for applications, announcements, and final project p
 
 # Community Participation Guidelines
 
-{% include CODE_OF_CONDUCT.md %}
+{% include code_of_conduct.md %}
