@@ -12,7 +12,7 @@ redirect_from:
 toc: true
 ---
 
-{% include _includes/cohort-metadata.html cohort='ols-1' %}
+{% include cohort-metadata.html cohort='ols-1' %}
 
 # The OLS-1 program
 {:.no_toc}
@@ -58,11 +58,11 @@ At the end of the program, our participants will be able to:
 
 OLS's first cohort (OLS-1), known as “Open Seeds”, was conducted from January 2020 until May 2020 with [{{ p-participants | size }} project leaders]({% link openseeds/ols-1/projects-participants.md %}#participants) working on [{{ projects | size }} projects]({% link openseeds/ols-1/projects-participants.md %}#projects).
 
-{% include _includes/timeline.md %}
+{% include timeline.md %}
 
 # Schedule
 
-{% include _includes/overall-schedule.md %}
+{% include overall-schedule.md %}
 
 # Role Descriptions
 
@@ -87,7 +87,7 @@ Mentors advice and inspire
 {% for entry in p-mentors %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -113,7 +113,7 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 {% for entry in metadata.experts %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -123,7 +123,7 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 {% for entry in p-speakers %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -133,7 +133,7 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 {% for entry in metadata.organizers %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html user=user username=username %}
+    {% include people.html user=user username=username %}
 {% endfor %}
 </div>
 

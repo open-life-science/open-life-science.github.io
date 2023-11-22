@@ -31,7 +31,7 @@ We have high ethical standards, including:
 {% for entry in community.team %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -43,7 +43,7 @@ Community leaders from different projects who take on advisory roles in OLS
 {% for entry in community.advisors %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -55,7 +55,7 @@ Community leaders from different projects who take on advisory roles in OLS
 {% for entry in community.trainers.ols %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -65,7 +65,7 @@ Community leaders from different projects who take on advisory roles in OLS
 {% for entry in community.trainers.ally %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -75,7 +75,7 @@ Community leaders from different projects who take on advisory roles in OLS
 {% for entry in community.trainers.technical %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -87,7 +87,7 @@ Community leaders from different projects who take on advisory roles in OLS
 {% for entry in community.task_forces.hiring %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -97,7 +97,7 @@ Community leaders from different projects who take on advisory roles in OLS
 {% for entry in community.task_forces.localization %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 

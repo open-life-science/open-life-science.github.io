@@ -52,4 +52,4 @@ With the Open Incubator, a.k.a the greenhouse, we offer **hands-on support** to 
 
 # Current work streams
 
-{% include _includes/streams.md %}
+{% include streams.md %}

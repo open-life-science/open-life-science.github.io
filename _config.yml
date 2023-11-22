@@ -49,8 +49,6 @@ toc:
   max_level: 3 # default: 6
   list_class: menu-list
 
-includes_dir: .
-
 plugins:
   - jekyll-github-metadata
   - jekyll-scholar

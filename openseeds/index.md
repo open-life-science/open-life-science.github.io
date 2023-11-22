@@ -33,7 +33,7 @@ OLS-8 runs from September 2023 to January 2024. We are not sure if we will run O
 ## Timeline
 
 {% assign schedule = site.data.openseeds.ols-8.schedule %}
-{% include _includes/timeline.md %}
+{% include timeline.md %}
 
 Have a question or need any support to join this cohort?
 We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}), or connect on Twitter [@{{ site.twitter }}](https://twitter.com/{{ site.twitter }}).

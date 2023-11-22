@@ -12,7 +12,7 @@ redirect_from:
   - /ols-2
 ---
 
-{% include _includes/cohort-metadata.html cohort='ols-2' %}
+{% include cohort-metadata.html cohort='ols-2' %}
 
 # The OLS-2 program
 {:.no_toc}
@@ -58,11 +58,11 @@ At the end of the program, our participants will be able to:
 
 OLS's second cohort (OLS-2) will be conducted from September 2020 until December 2020.
 
-{% include _includes/timeline.md %}
+{% include timeline.md %}
 
 # Schedule
 
-{% include _includes/overall-schedule.md %}
+{% include overall-schedule.md %}
 
 # Role Descriptions
 
@@ -90,7 +90,7 @@ Mentors advise and inspire
 {% for entry in metadata.possible-mentors %}
     {% assign username = entry %}
     {% assign user = site.data.people[username] %}
-    {% include _includes/people.html user=user username=username %}
+    {% include people.html user=user username=username %}
 {% endfor %}
 </div>-->
 
@@ -98,7 +98,7 @@ Mentors advise and inspire
 {% for entry in p-mentors %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -126,7 +126,7 @@ Experts are invited to join cohort calls or individual mentorship calls to share
 {% for entry in metadata.experts %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -139,7 +139,7 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 {% for entry in p-speakers %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 {% endif %}
@@ -150,7 +150,7 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 {% for entry in metadata.organizers %}
     {% assign username = entry %}
     {% assign user = site.data.people[username] %}
-    {% include _includes/people.html user=user username=username %}
+    {% include people.html user=user username=username %}
 {% endfor %}
 </div>
 
@@ -161,7 +161,7 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 {% for entry in p-hosts %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 {% endif %}

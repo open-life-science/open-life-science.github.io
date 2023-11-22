@@ -12,7 +12,7 @@ redirect_from:
   - /ols-5
 ---
 
-{% include _includes/cohort-metadata.html cohort='ols-5' %}
+{% include cohort-metadata.html cohort='ols-5' %}
 
 # The OLS-5 program
 {:.no_toc}
@@ -56,11 +56,11 @@ At the end of the program, our participants will be able to:
 
 # Timeline
 
-{% include _includes/timeline.md %}
+{% include timeline.md %}
 
 # Schedule
 
-{% include _includes/overall-schedule.md %}
+{% include overall-schedule.md %}
 
 # Role Descriptions
 
@@ -91,7 +91,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
     {% for mentor in metadata.possible-mentors %}
         {% assign username = mentor %}
         {% assign user = site.data.people[username] %}
-        {% include _includes/people.html user=user username=username %}
+        {% include people.html user=user username=username %}
     {% endfor %}
 </div>
 
@@ -116,7 +116,7 @@ We thank the **{{ metadata.possible-mentors | size }} persons who registered to 
                 {% for mentor in expertise[1] %}
                     {% assign username = mentor %}
                     {% assign user = site.data.people[username] %}
-                    {% include _includes/people.html user=user username=username %}
+                    {% include people.html user=user username=username %}
                 {% endfor %}
                 </div>
             </div>
@@ -135,7 +135,7 @@ We thank the {{ p-mentors | size }} mentors this round.
 {% for entry in p-mentors %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 
@@ -165,7 +165,7 @@ We thank the **{{ metadata.experts | size }} persons who registered to be expert
     {% for mentor in metadata.experts %}
         {% assign username = mentor %}
         {% assign user = site.data.people[username] %}
-        {% include _includes/people.html user=user username=username %}
+        {% include people.html user=user username=username %}
     {% endfor %}
 </div>
 
@@ -190,7 +190,7 @@ We thank the **{{ metadata.experts | size }} persons who registered to be expert
                 {% for mentor in expertise[1] %}
                     {% assign username = mentor %}
                     {% assign user = site.data.people[username] %}
-                    {% include _includes/people.html user=user username=username %}
+                    {% include people.html user=user username=username %}
                 {% endfor %}
                 </div>
             </div>
@@ -209,7 +209,7 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 {% for entry in p-speakers %}
     {% assign username = entry %}
     {% assign user = people[username] %}
-    {% include _includes/people.html username=username user=user %}
+    {% include people.html username=username user=user %}
 {% endfor %}
 </div>
 {% endif %}
@@ -226,7 +226,7 @@ We thank the **{{ metadata.facilitators | size }} persons who facilitated** in t
     {% for p in metadata.facilitators %}
         {% assign username = p %}
         {% assign user = site.data.people[username] %}
-        {% include _includes/people.html user=user username=username %}
+        {% include people.html user=user username=username %}
     {% endfor %}
 </div>
 
@@ -236,7 +236,7 @@ We thank the **{{ metadata.facilitators | size }} persons who facilitated** in t
 {% for entry in metadata.organizers %}
     {% assign username = entry %}
     {% assign user = site.data.people[username] %}
-    {% include _includes/people.html user=user username=username %}
+    {% include people.html user=user username=username %}
 {% endfor %}
 </div>
 

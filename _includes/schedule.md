@@ -127,5 +127,5 @@
 ]
 </script>
 
-{% include _includes/overall-schedule.md %}
-{% include _includes/detailed-schedule.md %}
+{% include overall-schedule.md %}
+{% include detailed-schedule.md %}

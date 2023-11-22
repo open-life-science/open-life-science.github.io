@@ -14,6 +14,6 @@ photos:
 {% for p in site.data.community.partners %}
     {% assign entity = organizations[p.organization] %}
     {% assign details = p.details %}
-    {% include _includes/external-entities.html entity=entity type='partner' details=details %}
+    {% include external-entities.html entity=entity type='partner' details=details %}
 {% endfor %}
 </div>

@@ -31,7 +31,7 @@ This program has been funded by the following funding organisations!
 <div class="entities">
 {% for f in site.data.funding %}
     {% assign entity = organizations[f.funder] %}
-    {% include _includes/external-entities.html entity=entity type='funder' %}
+    {% include external-entities.html entity=entity type='funder' %}
 {% endfor %}
 </div>
 
@@ -43,7 +43,7 @@ This program is made possible thanks to our supporters!
 {% for p in site.data.community.sponsors %}
     {% assign entity = organizations[p.organization] %}
     {% assign details = p.details %}
-    {% include _includes/external-entities.html entity=entity type='partner' details=details %}
+    {% include external-entities.html entity=entity type='partner' details=details %}
 {% endfor %}
 </div>
 

@@ -8,7 +8,7 @@ photos:
   url: https://flic.kr/p/2gHNtNq
 ---
 
-{% include _includes/cohort-loop.html %}
+{% include cohort-loop.html %}
 
 *To illustrate the Open Seeds journey, we use a persona/story of Joy, a mentee participating in the program, and Sam, their [mentor]({% link openseeds/about.md %}#mentors), as they progress through their Open Seeds training.*
 
