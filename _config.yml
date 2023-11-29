@@ -52,7 +52,8 @@ toc:
 
 plugins:
   - jekyll-github-metadata
-  - jekyll-redirect-from
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-spaceship
+  - jekyll-redirect-from
   - jekyll-toc
