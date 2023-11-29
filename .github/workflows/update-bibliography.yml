@@ -36,9 +36,9 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
-          commit-message: Update schedule
-          title: Automatic schedule update
-          body: Automatic schedule update done via GitHub Action once a week
+          commit-message: Update bibliography
+          title: Automatic bibliography update
+          body: Automatic bibliography update done via GitHub Action once a week
           base: main
-          branch: schedule-update
+          branch: bibliography-update
           delete-branch: true
