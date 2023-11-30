@@ -9,13 +9,42 @@ photos:
   url: https://unsplash.com/photos/closeup-photo-of-grey-gear-part-n55IHMpkSoc
 ---
 
-Our knowledge about our different programs, our community, etc is managed via repositories in a [GitHub organization]({{ site.owner_url }}), [CiviCRM](https://civicrm.org/), and documents stored in Google Drive.
+Information and data about our different programs, our community, etc are managed via repositories in a [GitHub organization]({{ site.owner_url }}), [CiviCRM](https://civicrm.org/), and documents stored in Google Drive.
 
-# Management of the OLS community
+# OLS community
 
 ## Individuals
 
-Individuals who participated in an OLS activity are listed in [People page]({% link people.md %}). This page is generated from the data stored in the `_data/people.yml` file but also on CiviCRM.
+Individuals who participated in an OLS activity are listed in [People page]({% link people.md %}). This page is generated from the data stored in the `_data/people.yml` file that are extracted from CiviCRM.
+
+```mermaid!
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+flowchart LR
+    classDef cohort fill:#c3c4a5,stroke:#333
+    classDef nonCohort fill:#fff,stroke:#333
+
+    civiPeople["`CiviCRM 
+    *(CSV)*`"]:::nonCohort
+
+    subgraph github["Website GitHub repository"]
+        peopleYAML["`people 
+        *(YAML)*`"]:::nonCohort
+    end
+    style github fill:#abc7fb,stroke:#abc7fb
+
+    subgraph website["Online Website"]
+        peopleHTML["`People
+        *(HTML)*`"]:::nonCohort
+        anyHTML["`Any page with people information
+        *(HTML)*`"]:::nonCohort
+    end
+    style website fill:#eaa9a9,stroke:#eaa9a9
+
+    civiPeople -- Script --> peopleYAML
+    peopleYAML --> peopleHTML
+    peopleYAML --> anyHTML
+```
 
 ### Add people
 
@@ -90,9 +119,65 @@ OLS is supported by several organizations as [funders]({% link funders.md %}#fun
     - `details` with description of the support or partnership
 5. Submit changes by creating a Pull Request
 
-### Add a partner
+# Website content, outside community and Open Science Training cohorts
 
-# Management for Open Science Training cohorts
+## Publications
+
+All publications by OLS team are aggregated in a [Zotero group](https://www.zotero.org/groups/5292095/publications_by_ols), imported weekly into the GitHub repository and then displayed in a [dedicated page]({% link publications.md %})
+
+```mermaid!
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+flowchart LR
+    classDef cohort fill:#c3c4a5,stroke:#333
+    classDef nonCohort fill:#fff,stroke:#333
+
+    zotero["`Zotero 
+    *(CSV)*`"]:::nonCohort
+
+    subgraph github["Website GitHub repository"]
+        bibtex["`publications
+        *(bibtex)*`"]:::nonCohort
+    end
+    style github fill:#abc7fb,stroke:#abc7fb
+
+    subgraph website["Online Website"]
+        publicationHTML["`Publications
+        *(HTML)*`"]:::nonCohort
+    end
+    style website fill:#eaa9a9,stroke:#eaa9a9
+
+    zotero -- Script --> bibtex
+    bibtex --> publicationHTML
+```
+
+### Add a publication
+
+1. Request membership to the [Zotero group](https://www.zotero.org/groups/5292095/publications_by_ols) 
+2. Add publication to the group
+3. Wait for weekly update or run the "Update bibliography" [GitHub Action](https://github.com/open-life-science/open-life-science.github.io/actions/workflows/update-bibliography.yml)
+
+## Posts
+
+### Create a new blog post
+
+1. Create a file in the folder `_posts` with a file named following the pattern `yyyy-mm-dd-name.md`
+2. Add some metadata on the top of the file
+
+    ```
+    ---
+    layout: post
+    title: <title of the post>
+    author: <ID of the authors in people.yml file>
+    image: images/yyyy-mm-dd-name.jpg
+    ---
+    ```
+
+3. Add content of the post to the file in [Markdown](https://www.markdownguide.org/getting-started/)
+4. Add images in `images/posts/` directory
+5. Submit changes by creating a Pull Request
+
+# Open Science Training cohorts
 
 To organize calls in the different cohorts, we use a shared Spreadsheet containing information about calls: general information like date, time, learning objectives, but also the different activities like talks, group discussions with instructions. This spreadsheet also contains links to full recordings, slides, information about speakers.
 
@@ -104,7 +189,6 @@ We developped scripts for limiting manual work to propagate the information from
 flowchart LR
     classDef cohort fill:#c3c4a5,stroke:#333
     classDef nonCohort fill:#fff,stroke:#333
-    class driveClass fill:lightblue
 
     civiPeople["`CiviCRM 
     *(CSV)*`"]:::nonCohort

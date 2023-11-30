@@ -141,25 +141,6 @@ To avoid dead or wrong links, run the link checkers:
 $ make check-html
 ```
 
-## Create a new blog post
-
-To create a new blog post:
-
-1. Create a file in the folder `_posts` with a file named following the pattern `yyyy-mm-dd-name.md`
-2. Add some metadata on the top of the file
-
-    ```
-    ---
-    layout: post
-    title: <title of the post>
-    author: <github id of the author>
-    image: images/yyyy-mm-dd-name.jpg
-    ---
-    ```
-
-4. Add content of the post to the file in [Markdown](https://www.markdownguide.org/getting-started/)
-3. Add images in `images/posts/` directory
-
 ## Add people or organization, update schedule, etc
 
 Our knowledge about our different programs, our community, etc is managed via this repository, [CiviCRM](https://civicrm.org/), and documents stored in Google Drive. It is then added to the website as explained in our [Knowledge Management System documentation](https://we-are-ols.org/knowledge_management.html)
