@@ -25,3 +25,4 @@ dependencies:
   - pycountry
   - geopy
   - tox
+  - pyzotero

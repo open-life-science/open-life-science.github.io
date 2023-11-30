@@ -4,9 +4,11 @@ import argparse
 import copy
 from pathlib import Path
 
+import bibtexparser
 import pandas as pd
 import pycountry
 from geopy.geocoders import Nominatim
+from pyzotero import zotero
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
@@ -1709,6 +1711,20 @@ def create_call_template(schedule_df, output_dp):
     create_templates(calls, output_dp)
 
 
+def update_bibliography(api):
+    """
+    Update bibliography file from Zotero group
+
+    :param api: Zotero API key
+    """
+    zot = zotero.Zotero("5292095", "group", api)
+    zot.add_parameters(format="bibtex")
+    library = zot.everything(zot.top())
+    bibtex_fp = Path("_bibliography/team.bib")
+    with bibtex_fp.open("w") as bib_f:
+        bibtexparser.dump(library, bib_f)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Interact and prepare OLS website data")
     subparser = parser.add_subparsers(dest="command")
@@ -1786,6 +1802,9 @@ if __name__ == "__main__":
     group.add_argument("-sf", "--schedule_fp", help="Path to schedule CSV file")
     group.add_argument("-su", "--schedule_url", help="URL to schedule sheet file")
     createcalltemplate.add_argument("-o", "--output", help="Output directory", required=True)
+    # Update bibliography
+    updatebibliography = subparser.add_parser("updatebibliography", help="Get the bibliography file from Zotero")
+    updatebibliography.add_argument("-a", "--api", help="Zotero API key", required=True)
 
     args = parser.parse_args()
 
@@ -1846,3 +1865,5 @@ if __name__ == "__main__":
         else:
             schedule_df = pd.read_csv(Path(args.schedule_fp))
         create_call_template(schedule_df, Path(args.output))
+    elif args.command == "updatebibliography":
+        update_bibliography(args.api)
