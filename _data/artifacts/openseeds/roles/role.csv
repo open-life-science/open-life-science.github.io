@@ -10,7 +10,7 @@ adam-gristwood,Heidelberg,Germany,Adam,Gristwood,he/him,DEU,Europe,8.694724,49.4
 agossoubido2021,Abomey Calavi,Benin,Agossou,Bidossessi Emmanuel,He/Him/His,BEN,Africa,2.3303076367454025,6.51096225,,,,,participant,,,
 aida-turing,London,United Kingdom,Aida,Mehonic,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,participant,,,,,
 aidanbudd,Heidelberg,Germany,Aidan,Budd,he/him,DEU,Europe,8.694724,49.4093582,"expert, mentor","expert, mentor",expert,,,,,
-ajstewartlang,Manchester,United Kingdom,Andrew,Stewart,he/him,GBR,Europe,-2.2451148,53.4794892,"expert, mentor","expert, mentor",,expert,,,,
+ajstewartlang,Manchester,United Kingdom,Andrew,Stewart,he/him,GBR,Europe,-2.2451148,53.4794892,"expert, mentor, speaker","expert, mentor, speaker",,expert,speaker,,,
 akalikadien,Delft,Netherlands,Adarsh,Kalikadien,,NLD,Europe,4.362724538543995,51.999457199999995,,,,,participant,,,
 aldenc,London,United Kingdom,Alden,Conner,,GBR,Europe,-0.14405508452768728,51.4893335,,,,,,participant,,
 aleesteele,London,United Kingdom,Anne Lee,Steele,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,,participant,"expert, mentor",,
@@ -22,10 +22,10 @@ amber-koert,Amsterdam,Netherlands,Amber,Koert,,NLD,Europe,4.8924534,52.3730796,,
 anafinovas,Budapest,Hungary,Saule,Anafinova,,HUN,Europe,19.14609412691246,47.48138955,,,,,,,participant,
 anayan321,Bangkok,Thailand,Anunya,Opasawatchai,"She, her",THA,Asia,100.6224463,13.8245796,participant,,,expert,,,,
 andre-vargas-de,Cochabamba,Bolivia,Alvaro Andre,Vargas Aguilar,,,,-66.1568983,-17.3936114,,,,,participant,,,
-andreasancheztapia,"Merced, CA",Colombia,Andrea,Sánchez Tapia,She/her,COL,South America,-120.7678602,37.1641544,,,,,,"expert, mentor, mentor",,
+andreasancheztapia,"Merced, CA",Colombia,Andrea,Sánchez Tapia,She/her,COL,South America,-120.7678602,37.1641544,,,,,,"expert, mentor, mentor",speaker,
 andreea-avramescu,Manchester,United Kingdom,Andreea,Avramescu,,GBR,Europe,-2.2451148,53.4794892,,,,participant,,,,
-anelda,Overberg,South Africa,Anelda,van der Walt,she/her,ZAF,Africa,5.4964645,52.0390484,,mentor,mentor,,,participant,,
-anenadic,Manchester,United Kingdom,Aleksandra,Nenadic,she/her/hers,GBR,Europe,-2.2451148,53.4794892,expert,expert,expert,,,,,
+anelda,Overberg,South Africa,Anelda,van der Walt,she/her,ZAF,Africa,5.4964645,52.0390484,,mentor,"mentor, speaker",,speaker,participant,,
+anenadic,Manchester,United Kingdom,Aleksandra,Nenadic,she/her/hers,GBR,Europe,-2.2451148,53.4794892,expert,"expert, speaker",expert,,,,,
 annakrystalli,Sheffield,United Kingdom,Anna,Krystalli,she/her,GBR,Europe,-1.4702278,53.3806626,expert,,"expert, mentor",,,,,
 annalee-sekulic,Columbus,United States,Annalee,Sekulic,She/Her/Hers,USA,North America,-83.0007065,39.9622601,,,participant,,,,,
 annambiller,Munich,Germany,Anna Magdalena,Biller,she/her/hers,DEU,Europe,11.5753822,48.1371079,,,,,,,participant,
@@ -44,20 +44,20 @@ ayeshadunk,London,United Kingdom,Ayesha,Dunk,She/her,GBR,Europe,-0.1440550845276
 aymd23,Ibadan,Nigeria,Ayomide,Akinlotan,He/his,NGA,Africa,3.8972497,7.3777462,,,,,,,participant,
 b14-rsa,Johannesburg,South Africa,Biandri,Joubert,She/Her,ZAF,Africa,28.049722,-26.205,,,,,participant,,,
 babari-a-babari-michelle-freddia,Yaoundé,Cameroon,Babari A Babari,Michelle Freddia,,CMR,Africa,11.5213344,3.8689867,,,,,,,participant,
-babasaraki,Bauchi,Nigeria,Umar,Ahmad,Data Science,NGA,Africa,10.0287754,10.6228284,,,,,participant,participant,,
-batoolmm,Liverpool,Saudi Arabia,Batool,Almarzouq,She/Her,SAU,Asia,-2.99168,53.4071991,,,participant,"facilitator, participant","facilitator, mentor","expert, facilitator, mentor",,
-bduckles,"Portland, Oregon",United States,Beth,Duckles,"she, her",USA,North America,-122.674194,45.5202471,,expert,"expert, mentor","expert, mentor",,,,
+babasaraki,Bauchi,Nigeria,Umar,Ahmad,Data Science,NGA,Africa,10.0287754,10.6228284,,speaker,,,participant,participant,,
+batoolmm,Liverpool,Saudi Arabia,Batool,Almarzouq,She/Her,SAU,Asia,-2.99168,53.4071991,,,participant,"facilitator, participant, speaker","facilitator, mentor","expert, facilitator, mentor",speaker,
+bduckles,"Portland, Oregon",United States,Beth,Duckles,"she, her",USA,North America,-122.674194,45.5202471,speaker,expert,"expert, mentor","expert, mentor",,,,
 beatrizserrano,Freiburg,Germany,Beatriz,Serrano-Solano,she/her,DEU,Europe,7.8494005,47.9960901,,participant,expert,,mentor,,participant,
-bebatut,Clermont-Ferrand,France,Bérénice,Batut,she/her,FRA,Europe,3.0819427,45.7774551,organizer,"expert, organizer","expert, organizer, mentor, mentor, mentor, mentor","expert, organizer, mentor",organizer,organizer,organizer,organizer
-bethaniley,"Belfast, Northern Ireland",United Kingdom,Bethan,Iley,she/her,GBR,Europe,-5.9301829,54.596391,,,,,,,,mentor
+bebatut,Clermont-Ferrand,France,Bérénice,Batut,she/her,FRA,Europe,3.0819427,45.7774551,"organizer, speaker","expert, organizer, speaker","expert, organizer, mentor, mentor, mentor, mentor, speaker","expert, organizer, mentor, speaker, speaker",organizer,organizer,"organizer, speaker, speaker","organizer, speaker, speaker"
+bethaniley,"Belfast, Northern Ireland",United Kingdom,Bethan,Iley,she/her,GBR,Europe,-5.9301829,54.596391,,,,,,speaker,,mentor
 birgül-çolak-al,Istanbul,Turkey,Birgül,Çolak-Al,,TUR,Asia,29.052495,41.0766019,,,,,participant,,,
 bisola15,Yaba,Nigeria,Bisola,Ahmed,She/her,NGA,Africa,-2.8848131505798653,12.811960299999999,,,,,,,participant,
 bobbwang,Amsterdam,Netherlands,Bo,Wang,,NLD,Europe,4.8924534,52.3730796,,,,,,,,"participant, participant"
 booktrackergirl,Exeter,United Kingdom,Aditi,Dutta,She/Her,GBR,Europe,-3.5269497,50.7255794,,,,,,,participant,
 bruno-soares,Rio De Janeiro,Brazil,Bruno,Soares,He/Him,BRA,South America,-43.2093727,-22.9110137,participant,mentor,mentor,"expert, mentor",,,,
 bsolodzi,"Ashaiman, Zenu",Ghana,Bernard Kwame,Solodzi,,GHA,Africa,-0.0499836,5.7121199,,,,,,,participant,
-burkemlou,Brisbane,Australia,Melissa,Burke,She/Her,AUS,Oceania,-122.402794,37.687165,,expert,"expert, mentor",,,,,
-c-martinez,Amsterdam,Netherlands,Carlos,Martinez-Ortiz,he/him,NLD,Europe,4.8924534,52.3730796,,,expert,,,,,
+burkemlou,Brisbane,Australia,Melissa,Burke,She/Her,AUS,Oceania,-122.402794,37.687165,,"expert, speaker","expert, mentor",,,,,
+c-martinez,Amsterdam,Netherlands,Carlos,Martinez-Ortiz,he/him,NLD,Europe,4.8924534,52.3730796,,,"expert, speaker",,,,,
 callummole,London,United Kingdom,Callum,Mole,He/Him,GBR,Europe,-0.14405508452768728,51.4893335,,,,participant,participant,,,
 camachoreina,Paris,France,Reina,Camacho Toro,She/her,FRA,Europe,2.3200410217200766,48.8588897,,,participant,expert,,,,
 camila-gómez,Cochabamba,Bolivia,Camila,Gómez,,,,-66.1568983,-17.3936114,,,,,participant,,,
@@ -68,7 +68,7 @@ cbolibaugh,York,United Kingdom,Cylcia,Bolibaugh,she/her,GBR,Europe,-1.0743052444
 cel31,Barcelona,Spain,Celine,Kerfant,,ESP,Europe,2.1774322,41.3828939,,,,,participant,,,
 cemonks,Perth,Australia,Carly,Monks,She/Her,AUS,Oceania,-3.4286805,56.3958186,,,participant,mentor,,,,
 cgentemann,Santa Rosa,United States,Chelle,Gentemann,she/her,USA,North America,-122.7141049,38.4404925,,,,,,expert,,
-christinerogers,Montreal,Canada,Christine,Rogers,she/her,CAN,North America,-73.5698065,45.5031824,participant,expert,expert,,,,,
+christinerogers,Montreal,Canada,Christine,Rogers,she/her,CAN,North America,-73.5698065,45.5031824,participant,"expert, speaker",expert,,,,,
 chucklesongithub,Buenos Aires,Argentina,Cecilia,Herbert,She/Her,ARG,South America,-58.4370894,-34.6075682,,,,participant,,,,
 chukaogbo,"Abeokuta, Ogun State.",Nigeria,Chukwuka,Ogbonna,"He, him, his",NGA,Africa,3.3467344,7.1547129,,,,,,,participant,
 cibele-zolnier-sousa-do-nascimento,Curitiba,Brazil,Cibele,Zolnier Sousa do Nascimento,She/her,BRA,South America,-49.2712724,-25.4295963,,,,,,,,participant
@@ -86,7 +86,7 @@ david-selassie-opoku,Berlin,Germany,David Selassie,Opoku,,DEU,Europe,13.3888599,
 dbrisaro,Carapachay,Argentina,Daniela,Risaro,she/her,ARG,South America,-58.5358156,-34.5265799,,,,,,,,participant
 deepakunni3,Basel,Switzerland,Deepak,Unni,He/Him,CHE,Europe,7.5878261,47.5581077,,,,,"expert, mentor",expert,,
 delphine-l,Raleigh,United States,Delphine,Lariviere,She/her,USA,North America,-78.6390989,35.7803977,,mentor,,"expert, mentor",,,,
-demellina,London,United Kingdom,Demitra,Ellina,She/her,GBR,Europe,-0.14405508452768728,51.4893335,expert,expert,expert,,,,,
+demellina,London,United Kingdom,Demitra,Ellina,She/her,GBR,Europe,-0.14405508452768728,51.4893335,"expert, speaker",expert,expert,,,,,
 dexwel,Ogbomoso,Nigeria,Daniel,Adediran,He,NGA,Africa,4.25,8.133,,,,,,,,participant
 diana-pilvar,Tartu,Estonia,Diana,Pilvar,,EST,Europe,26.72245,58.3801207,,,,,,,participant,"expert, mentor"
 dianakaran,Kilifi,Kenya,Diana,Karan,She/Her,KEN,Africa,39.67507159193717,-3.15073925,,,,,,,,participant
@@ -102,51 +102,53 @@ ealescak,Anchorage,United States,Emily,Lescak,"she, her",USA,North America,-149.
 ecsalomon,"Chicago, Il",United States,Erika,Salomon,they/them,USA,North America,-87.6244212,41.8755616,,,,participant,,,,
 eduardacenteno,Amsterdam,Netherlands,Eduarda,Centeno,she/her,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
 eirinibotsari,Dem Haag,Netherlands,Eirini,Botsari,she/her,NLD,Europe,4.2696802205364515,52.07494555,,,,,participant,,,
-ekaroune,Portsmouth,United Kingdom,Emma,Karoune,she/her,GBR,Europe,-1.0906023,50.800031,,participant,"expert, mentor","expert, facilitator, mentor","mentor, participant","expert, mentor",,
+ekaroune,Portsmouth,United Kingdom,Emma,Karoune,she/her,GBR,Europe,-1.0906023,50.800031,,participant,"expert, mentor","expert, facilitator, mentor, speaker","mentor, participant","expert, mentor",,
+ekin-bolukbasi,London,United Kingdom,Ekin,Bolukbasi,,GBR,Europe,-0.14405508452768728,51.4893335,,speaker,,,,,,
 elena-beretta,Amsterdam,Netherlands,Elena,Beretta,She/her,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
 elena-giglia,Turin,Italy,Elena,Giglia,,ITA,Europe,7.6824892,45.0677551,,,,,,participant,,
 elisa-on-github,Amsterdam,Netherlands,Elisa,Rodenburg,she/her,NLD,Europe,4.8924534,52.3730796,,,,participant,,expert,,"expert, participant"
-emma-anne-harris,Berlin,Germany,Emma Anne,Harris,,DEU,Europe,13.3888599,52.5170365,,,expert,,,,,
+emma-anne-harris,Berlin,Germany,Emma Anne,Harris,,DEU,Europe,13.3888599,52.5170365,,,"expert, speaker",,,,,
 emma-lawrence,London,United Kingdom,Emma,Lawrence,She/hers,GBR,Europe,-0.14405508452768728,51.4893335,,,participant,expert,,,,
 emmanuel19-ada,Ogbomosho,Nigeria,Emmanuel,Adamolekun,He/His,NGA,Africa,4.25,8.133,,,,participant,participant,participant,participant,facilitator
 esbusis,Istanbul,Turkey,Esra Büşra,Işık,,TUR,Asia,29.052495,41.0766019,,,,,participant,,,
-estherplomp,The Hague,Netherlands,Esther,Plomp,she/her/hers,NLD,Europe,4.2696802205364515,52.07494555,,,"expert, mentor","expert, mentor, mentor",mentor,"expert, mentor",,expert
+estherplomp,The Hague,Netherlands,Esther,Plomp,she/her/hers,NLD,Europe,4.2696802205364515,52.07494555,,,"expert, mentor, speaker","expert, mentor, mentor",mentor,"expert, mentor",speaker,expert
 ewallace,Edinburgh,United Kingdom,Edward,Wallace,"he, him",GBR,Europe,-3.1883749,55.9533456,,,expert,expert,expert,,,
 fabienne-lucas,Boston,United States,Fabienne,Lucas,she/hers,USA,North America,-71.060511,42.3554334,,,participant,,,,,
 fabioperdigao,Rio De Janeiro,Brazil,Fabio,Ivo Perdigão,,BRA,South America,-43.2093727,-22.9110137,,,,,,participant,,
-fadanka,Yaounde,Cameroon,Stephane,Fadanka,He/Him,CMR,Africa,11.5213344,3.8689867,,,,,participant,mentor,"participant, mentor",mentor
+fadanka,Yaounde,Cameroon,Stephane,Fadanka,He/Him,CMR,Africa,11.5213344,3.8689867,,,,,participant,mentor,"participant, mentor","mentor, speaker"
 farukustunel,Istanbul,Turkey,Faruk,Üstünel,,TUR,Asia,29.052495,41.0766019,,,,,participant,,,
 fatma366,Mombasa,Kenya,Fatma,Omar,Miss,KEN,Africa,39.667169,-4.05052,,,,,,,,participant
 federico-cestares,Buenos Aires,Argentina,Federico,Cestares,He- él,ARG,South America,-58.4370894,-34.6075682,,,,,participant,,,
-fpsom,Thessaloniki,Greece,Fotis,Psomopoulos,he/him,GRC,Europe,22.9352716,40.6403167,"expert, mentor",expert,"expert, mentor","expert, mentor","mentor, mentor",mentor,,mentor
+fpsom,Thessaloniki,Greece,Fotis,Psomopoulos,he/him,GRC,Europe,22.9352716,40.6403167,"expert, mentor, speaker","expert, speaker","expert, mentor","expert, mentor","mentor, mentor",mentor,,mentor
 fredbelliard,Delft,Netherlands,Frédérique,Belliard,she/her,NLD,Europe,4.362724538543995,51.999457199999995,,,,,participant,,,
 gabriela-rufino,Rio De Janeiro,Brazil,Gabriela,Rufino,She/her,BRA,South America,-43.2093727,-22.9110137,,,,,,,participant,
 gareth-j,Bristol,United Kingdom,Gareth,Jones,He/ Him,GBR,Europe,-2.5972985,51.4538022,,,,,participant,,,
 gedaloop,Barcelona,Spain,Adel,Sarvary,she/her,ESP,Europe,2.1774322,41.3828939,,,,participant,,,,
-gedankenstuecke,Paris,France,Bastian,Greshake Tzovaras,he/him,FRA,Europe,2.3200410217200766,48.8588897,expert,expert,expert,,,,,
+gedankenstuecke,Paris,France,Bastian,Greshake Tzovaras,he/him,FRA,Europe,2.3200410217200766,48.8588897,"expert, speaker","expert, speaker",expert,,,,,
 gemmaturon,Barcelona,Spain,Gemma,Turon,she/her,ESP,Europe,2.1774322,41.3828939,,,,,participant,,,"expert, mentor"
-georgiahca,London,United Kingdom,Georgia,Aitkenhead,She/her,GBR,Europe,-0.14405508452768728,51.4893335,,participant,,,"expert, mentor",,,
+georgiahca,London,United Kingdom,Georgia,Aitkenhead,She/her,GBR,Europe,-0.14405508452768728,51.4893335,,participant,speaker,,"expert, mentor",,,
 ghammad,Liège,Belgium,Grégory,Hammad,,BEL,Europe,5.773545903524977,50.47081585,,,participant,,,,,
 gill-francis,York,United Kingdom,Gill,Francis,She/her,GBR,Europe,-1.0743052444639218,53.96565785,,,,participant,,,,
 glado718,Nairobi,Kenya,Gladys,Rotich,She/her,KEN,Africa,36.82884201813725,-1.3026148499999999,,,,,,participant,facilitator,facilitator
 gladys-jerono-rotich,Nairobi,Kenya,Gladys,Rotich,She/her,KEN,Africa,36.8288420082562,-1.3026148499999999,,,,,,,mentor,mentor
 graciellehigino,Vancouver,Canada,Gracielle,Higino,She/her,CAN,North America,-123.113952,49.2608724,,expert,,"expert, mentor","mentor, mentor","expert, mentor",mentor,
 guille1107,Buenos Aires,Argentina,Guillermo Luciano,Fiorini,He; Him,ARG,South America,-58.4370894,-34.6075682,,,,participant,,,,
-ha0ye,Gainesville,United States,Hao,Ye,he/him,USA,North America,-82.3249846,29.6519684,"expert, mentor",expert,expert,expert,expert,expert,,
+ha0ye,Gainesville,United States,Hao,Ye,he/him,USA,North America,-82.3249846,29.6519684,"expert, mentor",expert,"expert, speaker",expert,"expert, speaker",expert,speaker,
 hans-ket,Amsterdam,Netherlands,Hans,Ket,he/him,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
 harinilakshminarayanan,Zurich,Switzerland,Harini,Lakshminarayanan,,CHE,Europe,8.5410422,47.3744489,,,,,,participant,mentor,mentor
 harpreetsingh05,Jalandhar,India,Harpreet,Singh,,IND,Asia,75.576889,31.3323762,,,"expert, participant, mentor, mentor",mentor,,,,
 henricountevans,Kwaluseni,Eswatini,Henri-Count,Evans,He/Him,SWZ,Africa,31.6390919,-27.2216427,,,,,,,,participant
+hexylena,Rotterdam,Netherlands,Helena,Rasche,,NLD,Europe,4.47775,51.9244424,,,speaker,,,,,
 heylf,Freiburg,Germany,Florian,Heyl,,DEU,Europe,7.8494005,47.9960901,,,participant,,,,,
 hrhotz,Basel,Switzerland,Hans-Rudolf,Hotz,,CHE,Europe,7.5878261,47.5581077,,mentor,mentor,mentor,,"expert, mentor",,
 hylary-emmanuela-ndegala-nhana,Yaounde,Cameroon,Hylary Emmanuela,Ndegala Nhana,,CMR,Africa,11.5213344,3.8689867,,,,,,,participant,
 hzahroh,Jakarta,Indonesia,Hilyatuz,Zahroh,She/her,IDN,Asia,106.8270488,-6.175247,,,participant,,,,,
 iramosp,Mexico City,Mexico,Irene,Ramos,she / her,MEX,North America,-99.1331785,19.4326296,,,participant,expert,expert,expert,expert,"expert, mentor"
-iratxepuebla,Cambridge,United Kingdom,Iratxe,Puebla,she/her,GBR,Europe,0.1186637,52.2055314,,,"expert, mentor","expert, mentor",expert,,,
+iratxepuebla,Cambridge,United Kingdom,Iratxe,Puebla,she/her,GBR,Europe,0.1186637,52.2055314,,,"expert, mentor, speaker","expert, mentor",expert,,,
 irena-maus,Bielefeld,Germany,Irena,Maus,,DEU,Europe,8.531007,52.0191005,,,,participant,,,,
 irisbotas,Majadahonda,Spain,Iris,San Pedro,She/her,ESP,Europe,-3.8724138,40.473055,,,participant,,,,,
 isahmadbbr,Kano,Nigeria,Ibrahim Said,Ahmad,,NGA,Africa,8.5364136,11.8948389,,,participant,,,,,
-ismael-kg,London,United Kingdom,Ismael,Kherroubi Garcia,He/him,GBR,Europe,-0.14405508452768728,51.4893335,,participant,,,participant,facilitator,,
+ismael-kg,London,United Kingdom,Ismael,Kherroubi Garcia,He/him,GBR,Europe,-0.14405508452768728,51.4893335,,participant,,,participant,"facilitator, speaker",,
 ivotron,Hermosillo,Mexico,Ivo,Jimenez,he/him,MEX,North America,-110.9692202,29.0948207,,mentor,expert,,,,,
 iván-gabriel-poggio,Toay,Argentina,Iván Gabriel,Poggio,,ARG,South America,-64.3796809,-36.6738649,,,,,,,,participant
 jafari-amir,Rio De Janeiro,Brazil,Amir,Jafari,,BRA,South America,-43.2093727,-22.9110137,,,,,,,participant,
@@ -174,6 +176,7 @@ juanjo-garcía-granero,Barcelona,Spain,Juan José,García-Granero,He/him/his,ESP
 julianbuede,Córdoba,Argentina,Julián,Buede,Él,ARG,South America,-4.7760138,37.8845813,,,,,,,,participant
 jvillcavillegas,Buenos Aires,Argentina,Jose Luis,Villca Villegas,Bolivia,ARG,South America,-58.4370894,-34.6075682,,,,,participant,,,mentor
 jyoti-bhogal,"Ahmednagar, Maharashtra",India,Jyoti,Bhogal,she/her,IND,Asia,74.74267631763158,19.043620599999997,,,,,participant,,,
+jywarren,"Providence, RI",United States,Jeffrey,Warren,,USA,North America,-71.4128343,41.8239891,,,,,,speaker,,
 k-c-martin,Stellenbosch,South Africa,Kim,Martin,,ZAF,Africa,18.869167,-33.934444,,,,,participant,mentor,,
 k8hertweck,"Seattle, Wa",United States,Kate,Hertweck,perceived pronouns (anything works),USA,North America,-122.330062,47.6038321,,,,expert,,,,
 karegapauline,Nairobi,Kenya,Pauline,Karega,she/her,KEN,Africa,36.8288420082562,-1.3026148499999999,,participant,,,,"facilitator, participant",mentor,mentor
@@ -192,7 +195,7 @@ kswhitney,Rochester,United States,Kaitlin,Stack Whitney,she/her,USA,North Americ
 lalmehlisy,Riyadh,Saudi Arabia,Leena,AlMehlisy,she/her,SAU,Asia,46.7160104,24.638916,,,,participant,,,,
 landimi2,Nairobi,Kenya,Michael,Landi,He/Him,KEN,Africa,36.8288420082562,-1.3026148499999999,participant,,mentor,facilitator,facilitator,mentor,"mentor, mentor","expert, facilitator"
 lauracarter,London,United Kingdom,Laura,Carter,she/her,GBR,Europe,-0.12765,51.5073359,,participant,"expert, mentor",expert,expert,expert,expert,mentor
-lauracion,Ciudad Autónoma De Buenos Aires,Argentina,Laura,Ación,she/ella,ARG,South America,-58.43562340522388,-34.61612315,,expert,"expert, mentor",,participant,,,facilitator
+lauracion,Ciudad Autónoma De Buenos Aires,Argentina,Laura,Ación,she/ella,ARG,South America,-58.43562340522388,-34.61612315,,"expert, speaker","expert, mentor",,participant,,,facilitator
 lauradascenzi,Córdoba,Argentina,Laura,Ascenzi,she/her/ella,ARG,South America,-4.7760138,37.8845813,,,,,,,,participant
 laurah-nyasita-ondari,Nairobi,Kenya,Laurah,Ondari,She/Her,KEN,Africa,36.8288420082562,-1.3026148499999999,,,,,,,facilitator,facilitator
 lcbreedt,Amsterdam,Netherlands,Lucas,Breedt,he/him/his,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
@@ -201,23 +204,24 @@ lisanna,Heidelberg,Germany,Lisanna,Paladin,She/they,DEU,Europe,8.694724,49.40935
 lomaxboydphd,New York,United States,Lomax,Boyd,He/him,USA,North America,-74.0060152,40.7127281,,,participant,,,,,
 loreleyls,Falmouth,United States,Loreley,Lago,she/her,USA,North America,-5.0688262,50.1552197,,,,,,,,participant
 loubez,Cape Town,South Africa,Louise,Bezuidenhout,she/her,ZAF,Africa,18.417396,-33.928992,,,"expert, mentor",,,,,
-luispedro,Shanghai,China,Luis Pedro,Coelho,he/them,CHN,Asia,121.4700152,31.2312707,"expert, mentor","expert, mentor",,,"expert, mentor",,,
+luispedro,Shanghai,China,Luis Pedro,Coelho,he/them,CHN,Asia,121.4700152,31.2312707,"expert, mentor","expert, mentor",,,"expert, mentor",speaker,,
 lukehare,London,United Kingdom,Luke,Hare,he/him,GBR,Europe,-0.14405508452768728,51.4893335,,,,participant,participant,,,
 lwbwalma,Delft,Netherlands,Lisanne,Walma,she/her,NLD,Europe,4.362724538543995,51.999457199999995,,,,,participant,,,
-lwinfree,Austin,United States,Lilly,Winfree,she/her,USA,North America,-97.7436995,30.2711286,,expert,,"expert, mentor",,expert,,
+lwinfree,Austin,United States,Lilly,Winfree,she/her,USA,North America,-97.7436995,30.2711286,speaker,"expert, speaker",,"expert, mentor",speaker,expert,,
 lydiafrance,London,United Kingdom,Lydia,France,,GBR,Europe,-0.14405508452768728,51.4893335,,,,participant,participant,,,
 macziatko,Dublin,Ireland,Nina,Trubanová,she/her/hers,IRL,Europe,-6.2605593,53.3493795,,,,,,participant,"facilitator, mentor","expert, facilitator, mentor"
 mai-alajaji,Riyadh,Saudi Arabia,Mai,Alajaji,,SAU,Asia,46.7160104,24.638916,,,,participant,,,,
-malloryfreeberg,Cambridge,United Kingdom,Mallory,Freeberg,she/her,GBR,Europe,0.1186637,52.2055314,,mentor,mentor,,,"expert, mentor",,mentor
-malvikasharan,London,United Kingdom,Malvika,Sharan,she/her,GBR,Europe,-0.14405508452768728,51.4893335,"organizer, mentor, mentor, mentor","expert, organizer, mentor, mentor","expert, organizer, mentor, mentor, mentor, speaker",organizer,"organizer, participant, mentor, mentor, mentor","organizer, mentor","organizer, mentor",organizer
+malloryfreeberg,Cambridge,United Kingdom,Mallory,Freeberg,she/her,GBR,Europe,0.1186637,52.2055314,,mentor,mentor,,,"expert, mentor, speaker",,mentor
+malvikasharan,London,United Kingdom,Malvika,Sharan,she/her,GBR,Europe,-0.14405508452768728,51.4893335,"organizer, mentor, mentor, mentor, speaker, speaker, speaker","expert, organizer, mentor, mentor","expert, organizer, mentor, mentor, mentor, speaker, speaker","organizer, speaker","organizer, participant, mentor, mentor, mentor, speaker","organizer, mentor, speaker","organizer, mentor, speaker","organizer, speaker, speaker"
 manulera,Paris,France,Manuel,Lera Ramirez,He/him,FRA,Europe,2.3200410217200766,48.8588897,,,,"facilitator, participant",facilitator,,,
 marco-madella,Barcelona,Spain,Marco,Madella,he/his,ESP,Europe,2.1774322,41.3828939,,,participant,,,,,
+marcoanteghini,Berlin,Germany,Marco,Anteghini,,DEU,Europe,13.3888599,52.5170365,,,,,,speaker,,
 marcotxma,Munich,Germany,Marco,Ma,he/him,DEU,Europe,11.5753822,48.1371079,,,,,,,participant,
 maria-andrea-gonzales-castillo,Lima,Peru,Maria Andrea,Gonzales Castillo,She/Her,PER,South America,-77.0365256,-12.0621065,,,,,participant,,,
 mariangelap,Genova,Italy,Mariangela,Panniello,she/her,ITA,Europe,8.9338624,44.40726,,,,,participant,,,
 marie-nugent,London,United Kingdom,Marie,Nugent,,GBR,Europe,-0.14405508452768728,51.4893335,,,,,,participant,,
 marielaraj,Ciudad De Buenos Aires,Argentina,Mariela,Rajngewerc,She/her,ARG,South America,-58.4370894,-34.6075682,,,,,,,participant,mentor
-marimeireles,Berlin,Germany,Mariana,Meireles,she/her,DEU,Europe,13.3888599,52.5170365,,,,,,"expert, mentor",,
+marimeireles,Berlin,Germany,Mariana,Meireles,she/her,DEU,Europe,13.3888599,52.5170365,,,,,,"expert, mentor",,speaker
 markuskonk,Enschede,Netherlands,Markus,Konkol,,NLD,Europe,6.870595664097989,52.22336325,,,,expert,,,,
 marlou-ramaekers,Amsterdam,Netherlands,Marlou,Ramaekers,she/her,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
 marta-lloret-llinares,Cambridge,United Kingdom,Marta,Lloret Llinares,She/her,GBR,Europe,0.1186637,52.2055314,,,expert,,,,,
@@ -227,16 +231,16 @@ martlj,London,United Kingdom,Martin,Jones,he/him,GBR,Europe,-0.14405508452768728
 marzia-di-filippo,Milano,Italy,Marzia,Di Filippo,,ITA,Europe,9.1896346,45.4641943,,,participant,,,,,
 masako-kaufmann,Freiburg,Germany,Masako,Kaufmann,"She, her",DEU,Europe,7.8494005,47.9960901,,,participant,,,,,
 matouse,London,United Kingdom,Matous,Elphick,He/Him,GBR,Europe,-0.14405508452768728,51.4893335,,,,,,expert,,
-meagdoh,Washington,United States,Meag,Doherty,she/her,USA,North America,-77.0365427,38.8950368,,"expert, mentor","expert, mentor","expert, mentor",mentor,,,
+meagdoh,Washington,United States,Meag,Doherty,she/her,USA,North America,-77.0365427,38.8950368,,"expert, mentor","expert, mentor","expert, mentor",mentor,,speaker,
 megmugure,Nairobi,Kenya,Margaret,Wanjiku,she/her,KEN,Africa,36.8288420082562,-1.3026148499999999,participant,,expert,,,,,
 mehak-chopra,Puducherry,India,Mehak,Chopra,she/her,IND,Asia,79.8306447,11.9340568,,,participant,,,,,
-melibleq,São Paulo,Brazil,Melissa,Black,she/her,BRA,South America,-47.1583944,-1.2043218,,,,,,expert,"facilitator, mentor",participant
+melibleq,São Paulo,Brazil,Melissa,Black,she/her,BRA,South America,-47.1583944,-1.2043218,,,,,,"expert, speaker","facilitator, mentor",participant
 merrcury,Kurukshetra,India,Himanshu,Garg,He / Him,IND,Asia,76.8482787,29.9693747,,,,expert,,,,
 mgawe-cavin,"Nairobi, Kenya",Kenya,Cavin,Mgawe,He,KEN,Africa,36.8288420082562,-1.3026148499999999,,,,,participant,facilitator,,
 michael-addy,Kumasi,Ghana,Michael,Addy,He,GHA,Africa,-1.6233086,6.6985605,,,,participant,mentor,,,
 michal-javornik,Brno,Czechia,Michal,Javornik,,CZE,Europe,16.6113382,49.1922443,,,participant,,,,,
 michal-ruzicka,Brno,Czechia,Michal,Růžička,,CZE,Europe,16.6113382,49.1922443,,,participant,,,,,
-miguel-silan,Metro Manila / Grenoble,France,Miguel,Silan,,FRA,Europe,,,,,,,,,expert,
+miguel-silan,Metro Manila / Grenoble,France,Miguel,Silan,,FRA,Europe,,,,,,,,,expert,speaker
 mihaelanemes,London,United Kingdom,Mishka,Nemes,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,participant,,,,,
 miketrizna,"Washington, Dc",United States,Mike,Trizna,he/him/his,USA,North America,-77.0365427,38.8950368,,,,,,,participant,
 milagro-urricariet,Ciudad Autónoma De Buenos Aires,Argentina,Milagro,Urricariet,she/her,ARG,South America,-58.4370894,-34.6075682,,,,,,,,"expert, participant"
@@ -250,12 +254,13 @@ mohan-gupta,Kathmandu,Nepal,Mohan,Gupta,He/Him,NPL,Asia,85.3205817,27.708317,,,p
 mona-zimmermann,Amsterdam,Netherlands,Mona,Zimmermann,She/Her,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
 msundukova,Bilbao,Spain,Mayya,Sundukova,she/her,ESP,Europe,-2.9350039,43.2630018,,,facilitator,facilitator,"expert, facilitator, mentor","expert, facilitator, mentor, participant",,
 mtthsdzwn,Amsterdam,Netherlands,Matthijs,de Zwaan,,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
-mxrtinez,Bucaramanga,Colombia,Alexander,Martinez Mendez,,COL,South America,-73.1047294009737,7.16698415,,,participant,"expert, mentor",mentor,expert,"mentor, participant",mentor
+mxrtinez,Bucaramanga,Colombia,Alexander,Martinez Mendez,,COL,South America,-73.1047294009737,7.16698415,,,participant,"expert, mentor",mentor,"expert, speaker","mentor, participant",mentor
 nadia-odaliz-chamana-chura,Lima,Peru,Nadia Odaliz,Chamana Chura,She/her/hers,PER,South America,-77.0365256,-12.0621065,,,,,participant,,,
 nadinespy,Brighton,United Kingdom,Nadine,Spychala,she/her,GBR,Europe,-0.1400561,50.8214626,,,,participant,,"expert, mentor",,"expert, mentor"
 nahuele,Vicente Lopez,Argentina,Nahuel,Escobedo,he,ARG,South America,-58.5036282,-34.5244484,,,,,,,participant,
 nanje-patrick-itarngoh,Buea,Cameroon,Nanje Patrick,Itarngoh,He,CMR,Africa,9.2315519,4.1567995,,,,,,,,participant
-natalie-banner,London,United Kingdom,Natalie,Banner,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,,,mentor,,
+natalie-banner,London,United Kingdom,Natalie,Banner,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,speaker,,,mentor,,
+natasha_wood,Cape Town,South Africa,Natasha,Wood,,ZAF,Africa,18.417396,-33.928992,,speaker,,,,,,
 nathanael-kedmayla,Yaounde,Cameroon,Nathanael,Kedmayla,He/Him,CMR,Africa,11.5213344,3.8689867,,,,,,,participant,
 nea-bridget,London,United Kingdom,Bridget,Nea,she/her/hers,GBR,Europe,-0.14405508452768728,51.4893335,,,,,participant,,,
 nelson-franco,Cochabamba,Bolivia,Nelson Franco,Condori Salluco,Nelson,,,-66.1568983,-17.3936114,,,,,participant,,,
@@ -284,18 +289,18 @@ pazmiguez,Buenos Aires,Argentina,Paz,Míguez,she/her,ARG,South America,-58.43708
 peranti,Paris,France,Pradeep,Eranti,,FRA,Europe,2.3483915,48.8534951,,,,,,,facilitator,facilitator
 pescini,Milan,Italy,Dario,Pescini,he/him,ITA,Europe,9.1896346,45.4641943,,,participant,mentor,,,,
 petraag,Bamenda,Cameroon,Agien,Petra Ukeh,She,CMR,Africa,10.1516505,5.9614117,,,,,,,participant,
-phaarouknucleus,Kano,Nigeria,Umar Farouk,Ahmad,,NGA,Africa,8.5364136,11.8948389,,,,,,participant,facilitator,"expert, facilitator, mentor, mentor"
-pherterich,Edinburgh,United Kingdom,Patricia,Herterich,she/her,GBR,Europe,-3.1883749,55.9533456,"expert, mentor, mentor","expert, mentor",,,"expert, mentor",expert,mentor,
+phaarouknucleus,Kano,Nigeria,Umar Farouk,Ahmad,,NGA,Africa,8.5364136,11.8948389,,,,,,participant,"facilitator, speaker","expert, facilitator, mentor, mentor"
+pherterich,Edinburgh,United Kingdom,Patricia,Herterich,she/her,GBR,Europe,-3.1883749,55.9533456,"expert, mentor, mentor","expert, mentor",,speaker,"expert, mentor",expert,mentor,
 piero-beraun,Lima,Peru,Piero,Beraun,He/Him,PER,South America,-77.0365256,-12.0621065,,,,,participant,,,
 pinheirochagas,San Francisco,United States,Pedro,Pinheiro-Chagas,He / him / his,USA,North America,-122.419906,37.7790262,,,,,participant,,,
-pivg,Cambridge,United Kingdom,Piraveen,Gopalasingam,he/him,GBR,Europe,0.1186637,52.2055314,,mentor,"expert, mentor",,,,,
+pivg,Cambridge,United Kingdom,Piraveen,Gopalasingam,he/him,GBR,Europe,0.1186637,52.2055314,,mentor,"expert, mentor",,speaker,speaker,,
 prakriti-karki,Kathmandu,Nepal,Prakriti,Karki,She/her,NPL,Asia,85.3205817,27.708317,,,participant,,,,,
 prashbio,Jaipur,India,Prash,Suravajhala,He/Him,IND,Asia,75.8189817,26.9154576,,,"expert, participant, mentor",,,,,
 princehoodie,Buenos Aires,Argentina,Tobías,Aprea,He/His,ARG,South America,-58.4370894,-34.6075682,,,,participant,,,,
-proccaserra,Oxford,United Kingdom,Philippe,Rocca-Serra,he/him,GBR,Europe,-1.2578499,51.7520131,,,expert,,,,,
+proccaserra,Oxford,United Kingdom,Philippe,Rocca-Serra,he/him,GBR,Europe,-1.2578499,51.7520131,,speaker,expert,,,,,
 profgiuseppe,Bologna,Italy,Giuseppe,Profiti,he/him/his,ITA,Europe,11.3426327,44.4938203,expert,expert,expert,expert,,expert,,expert
 r-huo,Delft,Netherlands,Ran,Huo,,NLD,Europe,4.362724538543995,51.999457199999995,,,,,,participant,,
-rainsworth,Manchester,United Kingdom,Rachael,Ainsworth,she/her,GBR,Europe,-2.2451148,53.4794892,expert,expert,expert,,,,,
+rainsworth,Manchester,United Kingdom,Rachael,Ainsworth,she/her,GBR,Europe,-2.2451148,53.4794892,expert,"expert, speaker",expert,,,,,
 raoofphysics,Bristol,United Kingdom,Achintya,Rao,he/him,GBR,Europe,-2.5972985,51.4538022,,,,,participant,,,
 raphaels1,London,United Kingdom,Raphael,Sonabend,They/He,GBR,Europe,-0.14405508452768728,51.4893335,,,,,expert,,,
 reinout-de-vries,Amsterdam,Netherlands,Reinout,de Vries,,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
@@ -312,19 +317,19 @@ roné-wierenga,Pretoria,South Africa,Roné,Wierenga,Mrs/she/her,ZAF,Africa,28.18
 ruben-lacroix,Amsterdam,Netherlands,Ruben,Lacroix,,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
 rukynas,Porto,Portugal,Ruqayya Nasir,Iro,She,PRT,Europe,-8.6107884,41.1494512,,,participant,,,,,
 sairajdillikar,Mysore,India,Sairaj R,Dillikar,,IND,Asia,76.6553609,12.3051828,,,,,participant,,,
-samvanstroud,London,United Kingdom,Sam,Van Stroud,,GBR,Europe,-0.14405508452768728,51.4893335,,participant,expert,,,,,
+samvanstroud,London,United Kingdom,Sam,Van Stroud,,GBR,Europe,-0.14405508452768728,51.4893335,,participant,expert,speaker,,,,
 sandra-larriega,Ñima,Peru,Sandra Mirella,Larriega Cruz,"She, her",PER,South America,23.8675381,47.0759396,,,,,participant,,,
 sandrine-kengne,Yaounde,Cameroon,Sandrine,Kengne,,CMR,Africa,11.5213344,3.8689867,,,,,,,participant,
 santi-rello-varona,Madrid,Spain,Santi,Rello Varona,he/him,ESP,Europe,-3.7035825,40.4167047,,,participant,,,,,
 santosrac,Piracicaba,Brazil,Renato Augusto,Correa Dos Santos,He,BRA,South America,-47.6493269,-22.725165,,expert,,,expert,,,
-sapetti9,Bologna,Italy,Sara,Petti,she/her,ITA,Europe,11.3426327,44.4938203,,,,,,expert,,
+sapetti9,Bologna,Italy,Sara,Petti,she/her,ITA,Europe,11.3426327,44.4938203,,,,,,"expert, speaker",,
 sarah-nietopski,London,United Kingdom,Sarah,Nietopski,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,,participant,,,
 saranjeetkaur,Gurgaon,India,Saranjeet Kaur,Bhogal,She/her,IND,Asia,77.00270014657752,28.42826235,,,,participant,,participant,mentor,mentor
 saravilla,London,United Kingdom,Sara,Villa,she/her,GBR,Europe,-0.12765,51.5073359,,,,participant,mentor,"expert, mentor",mentor,"expert, mentor"
 sarenaz,Astana (Nursultan),Kazakhstan,Zarena,Syrgak,she/they,KAZ,Asia,71.4306682,51.1282205,,,,,participant,,,
 saryace,Santiago,Chile,Sara,Acevedo,she/her,CHL,South America,-83.7980749,9.8694792,,,,,,,participant,
-sayalaruano,Maastricht,Netherlands,Andres Sebastian,Ayala Ruano,he/him,NLD,Europe,5.6969881818221095,50.85798545,,,,participant,mentor,expert,mentor,mentor
-selgebali,Gothenburg,Sweden,Sara,El-Gebali,"She, her",SWE,Europe,-100.1619896,40.9277324,,,,expert,"expert, mentor","expert, mentor",,mentor
+sayalaruano,Maastricht,Netherlands,Andres Sebastian,Ayala Ruano,he/him,NLD,Europe,5.6969881818221095,50.85798545,,,,participant,mentor,"expert, speaker",mentor,mentor
+selgebali,Gothenburg,Sweden,Sara,El-Gebali,"She, her",SWE,Europe,-100.1619896,40.9277324,,,,"expert, speaker","expert, mentor","expert, mentor",,mentor
 serahrono,Tallinn,Estonia,Serah,Rono,"she, her, hers",EST,Europe,24.7453688,59.4372155,,,expert,,,,,
 seunolufemi123,Ogbomoso,Nigeria,Seun Elijah,Olufemi,,NGA,Africa,4.25,8.133,,,,,,,participant,"expert, facilitator"
 sgibson91,London,United Kingdom,Sarah,Gibson,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,"expert, mentor","expert, participant, mentor",,,,,
@@ -337,21 +342,22 @@ smhall97,Oxford,United Kingdom,Siobhan Mackenzie,Hall,she/her,GBR,Europe,-1.2578
 smklusza,Morrow,United States,Stephen,Klusza,he/him/his,USA,North America,-82.7771661,40.4574358,,participant,"expert, mentor",expert,mentor,,,
 sofia-kirke-forslund,Berlin,Germany,Sofia,Kirke Forslund,she/her,DEU,Europe,13.3888599,52.5170365,,expert,,,,,,
 spitschan,Munich,Germany,Manuel,Spitschan,he/him/his,DEU,Europe,11.5753822,48.1371079,,,participant,,,,participant,
-stefaniebutland,Kamloops,Canada,Stefanie,Butland,she/her,CAN,North America,-120.339415,50.6758269,,,expert,,expert,,,
+stefaniebutland,Kamloops,Canada,Stefanie,Butland,she/her,CAN,North America,-120.339415,50.6758269,,,expert,,expert,,,speaker
 tai-rocha,Rio De Janeiro,Brazil,Tainá,Rocha,,BRA,South America,-43.2093727,-22.9110137,,participant,expert,,,,,
 teddygroves,Copenhagen,Denmark,Teddy,Groves,He/him,DNK,Europe,12.5700724,55.6867243,,,,,,,,participant
 teresa-cisneros,London,United Kingdom,Teresa,Cisneros,,GBR,Europe,-0.14405508452768728,51.4893335,,,,,expert,,,
 teresa-m,Freiburg,Germany,Teresa,Müller,She/Her,DEU,Europe,7.8494005,47.9960901,,,participant,,,,,
 thatspacegirl,Bengaluru,India,Sagarika,Valluri,She/Her,IND,Asia,77.590082,12.9767936,,,,participant,participant,,,
-thessaly,Bristol,United Kingdom,Julieta,Arancio,She/her,GBR,Europe,-2.5972985,51.4538022,,expert,expert,expert,,,,
+thessaly,Bristol,United Kingdom,Julieta,Arancio,She/her,GBR,Europe,-2.5972985,51.4538022,speaker,"expert, speaker",expert,expert,,,,
 tlaguna,Madrid,Spain,Teresa,Laguna,,ESP,Europe,-3.7035825,40.4167047,,participant,mentor,,,,,
-tobyhodges,Heidelberg,Germany,Toby,Hodges,he/him,DEU,Europe,8.694724,49.4093582,mentor,expert,"expert, mentor, mentor",,,expert,,
+tobyhodges,Heidelberg,Germany,Toby,Hodges,he/him,DEU,Europe,8.694724,49.4093582,mentor,expert,"expert, mentor, mentor",,,expert,,speaker
 tokioblues,Salta,Argentina,Paola Andrea,Lefer,sher/her,ARG,South America,-64.3494964,-25.1076701,,,,,,,,participant
 torigijzen,Amsterdam,Netherlands,Tori,Gijzen,,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
+trallard,Manchester,United Kingdom,Tania,Allard,she/her,GBR,Europe,-2.2451148,53.4794892,,speaker,,,,,,
 tsonika,Melbourne,Australia,Sonika,Tyagi,she/her,AUS,Oceania,144.9631732,-37.8142454,,"expert, mentor","expert, mentor",,,,,
 ujwal-shrestha,Kathmandu,Nepal,Ujwal,Shrestha,He/Him,NPL,Asia,85.3205817,27.708317,,,participant,,,,,
 umutpajaro,Cartagena,Colombia,Umut,Pajaro Velasquez,They/Them,COL,South America,-75.5443419,10.4266746,,,,,,,participant,mentor
-unode,Heidelberg,Germany,Renato,Alves,he/him,DEU,Europe,8.694724,49.4093582,"expert, mentor, participant","expert, mentor","expert, mentor, mentor","expert, mentor",mentor,,,
+unode,Heidelberg,Germany,Renato,Alves,he/him,DEU,Europe,8.694724,49.4093582,"expert, mentor, participant","expert, mentor, speaker","expert, mentor, mentor, speaker","expert, mentor","mentor, speaker",,,
 varlottaang,Rionero In Vulture,Italy,Angelo,Varlotta,He/him,ITA,Europe,15.6694407,40.9261881,,,,,,,participant,
 vasiliki-kentrou,Amsterdam,Netherlands,Vasiliki,Kentrou,she/her,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
 vborghe,Montréal,Canada,Valentina,Borghesani,she/her/hers,CAN,North America,-73.5698065,45.5031824,,,,,participant,,,
@@ -362,18 +368,21 @@ web-learning,Johannesburg,South Africa,Derek,Moore,He/Him,ZAF,Africa,28.049722,-
 wykhuh,Los Angeles,United States,Wai-Yin,Kwan,,USA,North America,-118.242766,34.0536909,,,,participant,,,,
 yanick-diapa-nana,Yaoundé,Cameroon,Yanick,Diapa Nana,,CMR,Africa,11.5213344,3.8689867,,,,,,,participant,
 yhordijk,Amsterdam,Netherlands,Yuman,Hordijk,,NLD,Europe,4.8924534,52.3730796,,,,,,,,participant
-yvanlebras,Concarneau,France,Yvan,Le Bras,He,FRA,Europe,-3.9223889,47.8757017,,"expert, mentor, mentor","expert, mentor",mentor,,,,
+yvanlebras,Concarneau,France,Yvan,Le Bras,He,FRA,Europe,-3.9223889,47.8757017,,"expert, mentor, mentor","expert, mentor","mentor, speaker",,,,
 zdunseth,Providence,United States,Zachary,Dunseth,he/his,USA,North America,-71.4128343,41.8239891,,,,,participant,,,
 zenita-milla-luthfiya,Solo,Indonesia,Zenita Milla,Luthfiya,She,IDN,Asia,110.828448,-7.5692489,,,participant,,,,,
 aath0,,Switzerland,Athina,Tzovara,she/her,CHE,Europe,,,expert,expert,,,,,,
 afzal442,,India,Afzal,Ansari,he/him,IND,Asia,,,,,participant,,,,,
 agbeltran,,United Kingdom,Alejandra,Gonzalez-Beltran,,GBR,Europe,,,,expert,,,,,,
+ahoyi,,Nigeria,Owen,Iyoha,,NGA,Africa,,,,,,,,,speaker,
 ailís-o'carroll,,Ireland,Ailís,O'Carroll,she/her,IRL,Europe,,,,,,,,,mentor,
 alecandian,,Netherlands,Alessandra,Candian,she/her/hers,NLD,Europe,,,,,,,participant,"expert, mentor",,
-alexholinski,,United Kingdom,Alexandra,Holinski,She/her,GBR,Europe,,,,,expert,"expert, mentor",expert,,,
-alexwlchan,,United Kingdom,Alex,Chan,they/she,GBR,Europe,,,,expert,expert,expert,expert,,,expert
+alex-mendonça,,Brazil,Alex,Mendonça,,BRA,South America,,,,,,,speaker,,,
+alexholinski,,United Kingdom,Alexandra,Holinski,She/her,GBR,Europe,,,,,"expert, speaker","expert, mentor",expert,,,
+alexwlchan,,United Kingdom,Alex,Chan,they/she,GBR,Europe,,,speaker,"expert, speaker",expert,"expert, speaker",expert,speaker,,expert
+amchagas,,United Kingdom,Andre,Maia Chagas,,GBR,Europe,,,,,speaker,,,,speaker,
 angelicamaineri,,Netherlands,Angelica,Maineri,She/her,NLD,Europe,,,,,,,,,participant,expert
-anita-broellochs,,United States,Anita,Bröllochs,she/her,USA,North America,,,,"expert, mentor",,,,,,
+anita-broellochs,,United States,Anita,Bröllochs,she/her,USA,North America,,,speaker,"expert, mentor",,,,,,
 anjali-mazumder,,United Kingdom,Anjali,Mazumder,she/her,GBR,Europe,,,,mentor,,,,,,
 anneclinio,,Brazil,Anne,Clinio,she/her,BRA,South America,,,expert,,,,,,,
 anproulx,,Canada,Andréanne,Proulx,,CAN,North America,,,,participant,,,,,,
@@ -384,6 +393,7 @@ bakary-n'tji diallo,,Mali,Bakary,N'tji Diallo,,MLI,Africa,,,,participant,,,,,,
 banshee1221,,South Africa,Eugene,de Beste,,ZAF,Africa,,,,participant,,,,,,
 bbartholdy,,Netherlands,Bjørn Peare,Bartholdy,he/him,NLD,Europe,,,,,,,,,,mentor
 beapdk,,Canada,Béatrice,P.De Koninck,,CAN,North America,,,,participant,,,,,,
+benkrikler,,United Kingdom,Benjamin,Krikler,,GBR,Europe,,,,speaker,,,,,,
 bgruening,,Germany,Björn,Grüning,he/him,DEU,Europe,,,"expert, mentor",expert,,,,,,
 bhuvanameenakshik,,India,Bhuvana,Meenakshi Koteeswaran,she/her,IND,Asia,,,expert,,,,,,,
 billbrod,,United States,Billy,Broderick,he/him,USA,North America,,,participant,,,,,,mentor,
@@ -393,27 +403,32 @@ brainonsilicon,,United Kingdom,Sophia,Batchelor,she/her,GBR,Europe,,,,participan
 burceelbasan,,Germany,Burce,Elbasan,,DEU,Europe,,,,,,participant,mentor,,,
 carol-o'brien,,Denmark,Carol,O'Brien,,DNK,Europe,,,,,,,,,participant,
 cassmurph,,Ireland,Cassandra,Murphy,She/Her,IRL,Europe,,,,,,,,participant,facilitator,
+chadsansing,,United States,Chad,Sansing,he/him,USA,North America,,,,,,speaker,speaker,speaker,,
 chiarabertipaglia,,United States,Chiara,Bertipaglia,she/her,USA,North America,,,participant,expert,,,,,,
 christina-ambrosi,,Switzerland,Christina,Ambrosi,,CHE,Europe,,,,participant,,,,,,
+contraexemplo,,Brazil,Anna,e só,,BRA,South America,,,,,,speaker,,speaker,,
 crangelsmith,,United Kingdom,Camila,Rangel Smith,she/her,GBR,Europe,,,,participant,,,,,,
 danae-carelis-davila-espinoza,,Bolivia,Danae Carelis,Davila Espinoza,,,,,,,,,,participant,,,
 dannycolin,,Canada,Danny,Colin,he/him,CAN,North America,,,participant,,,,,,,
 dasaderi,,United States,Daniela,Saderi,she/her,USA,North America,,,"expert, mentor",expert,,,,,,
+dasaptaerwin,,India,Dasapta Erwin,Irawan,,IND,Asia,,,,,,,,speaker,,
 davidbeavan,,United Kingdom,David,Beavan,,GBR,Europe,,,,participant,,,,,,
 davidviryachen,,Japan,David,Chentanaman,he/him,JPN,Asia,,,participant,,,,,,,
 dlebauer,,United States,David,LeBauer,he/him,USA,North America,,,participant,,,,,,,
+dsarahstamps,,United States,Sarah,Stamps,,USA,North America,,,,,,,speaker,,,
 dustin-schetters,,Netherlands,Dustin,Schetters,,NLD,Europe,,,,,,,,,,participant
 dylan-bastiaans,,Switzerland,Dylan,Bastiaans,,CHE,Europe,,,,participant,,,,,,
 eirini-zormpa,,United Kingdom,Eirini,Zormpa,,GBR,Europe,,,,,,,,participant,,
 ekeluv,,South Africa,Ekeoma,Festus,they/them,ZAF,Africa,,,,participant,,,,,,
 elsasci,,United Kingdom,Elsa,Loissel,she/her,GBR,Europe,,,participant,,,,,,,
-emmyft,,Netherlands,Emmy,Tsang,she/her,NLD,Europe,,,expert,expert,organizer,"organizer, mentor","organizer, mentor",organizer,organizer,organizer
+emmyft,,Netherlands,Emmy,Tsang,she/her,NLD,Europe,,,expert,expert,"organizer, speaker, speaker","organizer, mentor, speaker, speaker","organizer, mentor, speaker, speaker, speaker","organizer, speaker","organizer, speaker",organizer
 evaherbst,,Switzerland,Eva,Herbst,she/her,CHE,Europe,,,,participant,,,,,,
 evelyngreeves,,United Kingdom,Evelyn,Greeves,she/her,GBR,Europe,,,,,,,participant,,,
 ewa-leś,,Poland,Ewa,Leś,,POL,Europe,,,,,,participant,,,,
 ewuramaminka,,United Kingdom,Deborah,Akuoko,she/her,GBR,Europe,,,participant,,,,,,,
 fnyasimi,,Kenya,Festus,Nyasimi,He/Him,KEN,Africa,,,participant,,,facilitator,facilitator,facilitator,,
 gabimusaubach,,Argentina,Maria Gabriela,Musaubach,,ARG,South America,,,,,,,participant,,,
+ganleyemma,,United Kingdom,Emma,Ganley,,GBR,Europe,,,,speaker,,,,,,
 georgianaelena,,Romania,Georgiana,Dolocan,she/her,ROU,Europe,,,,,,,,,expert,expert
 gigikenneth,,Nigeria,Gift,Kenneth,She/Her,NGA,Africa,,,,,,,,,participant,facilitator
 hdinkel,,Germany,Holger,Dinkel,he/him,DEU,Europe,,,"expert, mentor","expert, mentor",,,,,,
@@ -422,17 +437,20 @@ hilyatuz-zahroh,,Indonesia,Hilyatuz,Zahroh,she/her,IDN,Asia,,,,participant,,,,,,
 homo-sapiens34,,Russian Federation,Zoe,Chervontseva,she/her,RUS,Europe,,,participant,,,,,,,
 ibrahssali1,,Uganda,Ibrahim,Ssali,he/him,UGA,Africa,,,,participant,,,,,,
 inquisitivevi,,Germany,Vinodh,Ilangovan,he/him,DEU,Europe,,,expert,,,,,,,
-jasonjwilliamsny,,United States,Jason,Williams,he/him,USA,North America,,,expert,expert,,,,,,
+jasonjwilliamsny,,United States,Jason,Williams,he/him,USA,North America,,,"expert, speaker",expert,,,,,,
 jelioth-muthoni,,Kenya,Jelioth,Muthoni,,KEN,Africa,,,,participant,,,,,,
 joel-hancock,,Austria,Joel,Hancock,he/his,AUT,Europe,,,,participant,,,,,,
 jolien-s,,Netherlands,Jolien,Scholten,,NLD,Europe,,,,,,,,,,participant
+joshsimmons,,United States,Josh,Simmons,,USA,North America,,,speaker,,,,,,,
 kariljordan,,United States,Kari,L. Jordan,she/her,USA,North America,,,expert,expert,,,,,,
+karinlag,,Norway,Karin,Lagesen,she/her,NOR,Europe,,,speaker,,,,,,,
 katrinleinweber,,Germany,Katrin,Leinweber,she/her,DEU,Europe,,,"expert, mentor",,,,,,,
+kaythaney,,United States,Kaitlin,Thaney,,USA,North America,,,,,,speaker,,,,
 kevinxufs,,United Kingdom,Kevin,Xu,,GBR,Europe,,,,participant,,,,,,
-kipkurui,,Kenya,Caleb,Kibet,he/him,KEN,Africa,,,"expert, mentor","expert, mentor, mentor",,,mentor,"expert, mentor",mentor,
+kipkurui,,Kenya,Caleb,Kibet,he/him,KEN,Africa,,,"expert, mentor, speaker","expert, mentor, mentor",,,mentor,"expert, mentor",mentor,
 kiragu-mwaura,,Kenya,David,Kiragu Mwaura,he/him,KEN,Africa,,,participant,,,,,,,facilitator
 kiri93,,Switzerland,Markus,Kirolos Youssef,he/his,CHE,Europe,,,,participant,,,,,,
-kirstiejane,,United Kingdom,Kirstie,Whitaker,she/her,GBR,Europe,,,expert,expert,,,,,,
+kirstiejane,,United Kingdom,Kirstie,Whitaker,she/her,GBR,Europe,,,"expert, speaker",expert,,,,,,
 koudyk,,Canada,Kendra,Oudyk,she/her,CAN,North America,,,,participant,,,,,,
 kristinariemer,,United States,Kristina,Riemer,she/her,USA,North America,,,participant,,,,,,,
 lakillo,,United Kingdom,Lucy,Killoran,she/her,GBR,Europe,,,,,,,,,,participant
@@ -442,11 +460,13 @@ lilian9,,Kenya,Lilian,Juma,she/her,KEN,Africa,,,participant,mentor,,,,,,
 lpantano,,Spain,Lorena,Pantano,she/her,ESP,Europe,,,,mentor,,,,,,
 magicmilly,,United States,Emily,Cain,she/her,USA,North America,,,participant,,,,,,,
 marbarrantescepas,,Spain,Mar,Barrantes Cepas,she/her,ESP,Europe,,,,,,,,,,participant
+marcel-laflamme,,United States,Marcel,LaFlamme,,USA,North America,,,,,,speaker,,,,
 martenson,,Czechia,Martin,Čech,he/him,CZE,Europe,,,,expert,,,,,,
 matuskalas,,Norway,Matúš,Kalaš,he/him,NOR,Europe,,,participant,,,,,,,
 mblue9,,Australia,Maria,Doyle,she/her,AUS,Oceania,,,,expert,,,,,,
+mdbarker,,Australia,Michelle,Barker,,AUS,Oceania,,,,,,,,,speaker,
 mesfind,,Ethiopia,Mesfin,Diro,he/him,ETH,Africa,,,,mentor,,,,,,
-mkuzak,,Netherlands,Mateusz,Kuzak,he/him,NLD,Europe,,,"expert, mentor",expert,,,,,,
+mkuzak,,Netherlands,Mateusz,Kuzak,he/him,NLD,Europe,,,"expert, mentor, speaker","expert, speaker",,,,,,
 mloning,,United Kingdom,Markus,Löning,he/him,GBR,Europe,,,,"mentor, participant",,,,,,
 monica-alonso,,Argentina,Monica,Alonso,she/her,ARG,South America,,,,,,,,,,participant
 monsurat-onabajo,,Nigeria,Onabajo,Monsurat,she/her,NGA,Africa,,,,,,,,,,participant
@@ -459,24 +479,27 @@ naralb,,Brazil,Naraiana,Loureiro Benone,she/her,BRA,South America,,,participant,
 natty2012,,Kenya,Harriet,Natabona Mukhongo,she/her,KEN,Africa,,,,participant,,,,,,
 nehamoopen,,Netherlands,Neha,Moopen,she/her,NLD,Europe,,,,participant,,,,,,
 nerantzis,,Greece,Nikolaos,Nerantzis,he/him,GRC,Europe,,,expert,expert,,,,,,
+nick-barlow,,United Kingdom,Nick,Barlow,,GBR,Europe,,,,,,speaker,,,,
 npscience,,United Kingdom,Naomi,Penfold,she/her/they/them,GBR,Europe,,,"expert, mentor","expert, mentor",,expert,,,,
 nsoranzo,,United Kingdom,Nicola,Soranzo,he/him,GBR,Europe,,,expert,,,,,,,
-orchid00,,Australia,Paula,Andrea Martinez,she/her,AUS,Oceania,,,expert,expert,,,,,,
+olexandr-konovalov,,United Kingdom / Ukraine,Olexandr,Konovalov,,,,,,,,,,,,speaker,
+orchid00,,Australia,Paula,Andrea Martinez,she/her,AUS,Oceania,,,expert,"expert, speaker",,,,,,
 paulineligonie,,Canada,Pauline,Ligonie,,CAN,North America,,,,participant,,,,,,
 paulowoicho,,Nigeria,Paul,Owoicho,he/him,NGA,Africa,,,,participant,,,,,,
 paulvill,,France,Paul,Villoutreix,he/him,FRA,Europe,,,,expert,,,,,,
-pazbc,,Argentina,Paz,Bernaldo,she/her,ARG,South America,,,,,,,organizer,organizer,organizer,organizer
+pazbc,,Argentina,Paz,Bernaldo,she/her,ARG,South America,,,,,,,organizer,"organizer, speaker, speaker","organizer, speaker",organizer
 pradeep-eranti,,France,Pradeep,Eranti,he/his,FRA,Europe,,,,participant,,,,,,mentor
 pvanheus,,South Africa,Peter,van Heusden,he/him,ZAF,Africa,,,,participant,,,,participant,,
-rgaiacs,,Brazil,Raniere,Silva,he/him,BRA,South America,,,,"expert, mentor",,,,,,
+rgaiacs,,Brazil,Raniere,Silva,he/him,BRA,South America,,,,"expert, mentor",,,speaker,,,
 rodrigocam,,Brazil,Rodrigo,Oliveira Campos,,BRA,South America,,,mentor,,,,,,,
 rossmounce,,United Kingdom,Ross,Mounce,he/him,GBR,Europe,,,,expert,,,,,,
-rowland-mosbergen,,Australia,Rowland,Mosbergen,,AUS,Oceania,,,,,,,,,mentor,
+rowland-mosbergen,,Australia,Rowland,Mosbergen,,AUS,Oceania,,,,,speaker,,speaker,,mentor,
 rushda-patel,,India,Rushda,Patel,,IND,Asia,,,,,,,,participant,,
 samguay,,Canada,Samuel,Guay,he/him,CAN,North America,,,participant,mentor,,,,,,
 samuelorion,,Canada,Samuel,Burke,he/his,CAN,North America,,,,participant,,,,,,
 satagopam7,,Luxembourg,Venkata,Satagopam,he/him,LUX,Europe,,,expert,,,,,,,
-sdopoku,,Ghana,David,Selassie Opoku,he/him,GHA,Africa,,,,"expert, mentor",,,,,,
+sdopoku,,Ghana,David,Selassie Opoku,he/him,GHA,Africa,,,,"expert, mentor, speaker",speaker,,,,,
+sdruskat,,Germany,Stephan,Druskat,,DEU,Europe,,,,,,speaker,speaker,,,
 sebastianeggert,,Germany,Sebastian,Eggert,he/his,DEU,Europe,,,,participant,,,,,,
 sithyphus,,United States,Jorge,Barrios,he/him,USA,North America,,,participant,,,,,,,
 sk-sahu,,India,Sangram,Sahu,he/him,IND,Asia,,,,participant,,,,,,
@@ -485,6 +508,7 @@ stefan-gaillard,,Netherlands,Stefan,Gaillard,he/him,NLD,Europe,,,,participant,,,
 sudarshangc,,Nepal,Sudarshan,GC,he/him,NPL,Asia,,,participant,,,,,,,
 susana465,,United Kingdom,Susana,Roman Garcia,,GBR,Europe,,,,,,,,participant,,
 tajuddeen1,,Nigeria,Tajuddeen,Gwadabe,he/his/him,NGA,Africa,,,,,,,,,,mentor
+thomas-mboa,,Cameroon,Thomas,Mboa,,CMR,Africa,,,,,speaker,,,,,
 tklingstrom,,Sweden,Tomas,Klingström,he/him,SWE,Europe,,,,expert,,,,,,
 tnabtaf,,United States,Dave,Clements,he/him,USA,North America,,,,"expert, mentor",,"expert, mentor",,,,
 valerie-parent,,Canada,Valerie,Parent,,CAN,North America,,,,participant,,,,,,
@@ -493,21 +517,29 @@ vickynembaware,,South Africa,Vicky,Nembaware,she/her,ZAF,Africa,,,"expert, mento
 virginiagarciaalonso,,Argentina,Virginia Andrea,García Alonso,she/her,ARG,South America,,,,,,,,,,participant
 wasifarahman,,Bangladesh,Wasifa,Rahman,,BGD,Asia,,,,participant,,,,,,
 ykho001,,United Kingdom,Yan-Kay,Ho,she/her,GBR,Europe,,,,,,,,,,participant
-yochannah,,United Kingdom,Yo,Yehudi,they/them,GBR,Europe,,,"organizer, mentor","expert, organizer, mentor, mentor","expert, organizer, mentor, mentor, mentor","organizer, mentor","organizer, mentor, mentor","organizer, mentor","organizer, mentor, mentor",organizer
+yochannah,,United Kingdom,Yo,Yehudi,they/them,GBR,Europe,,,"organizer, mentor, speaker, speaker, speaker","expert, organizer, mentor, mentor, speaker","expert, organizer, mentor, mentor, mentor, speaker, speaker","organizer, mentor, speaker, speaker","organizer, mentor, mentor, speaker, speaker, speaker","organizer, mentor, speaker, speaker, speaker, speaker, speaker","organizer, mentor, mentor, speaker, speaker","organizer, speaker, speaker, speaker, speaker"
 zebetus,,United Kingdom,Harry,Smith,,GBR,Europe,,,mentor,expert,,,,,,
+zulidyana-rusnalasari,,Indonesia,Zulidyana,Rusnalasari,,IDN,Asia,,,,,speaker,,,,,
 ariana-bethany-subroyen,,,Ariana Bethany,Subroyen,,,,,,,,,,,participant,,
 aurigandrea,,,Andrea,Kocsis,she/her,,,,,,,,,participant,,,
 biscuitnapper,,,Florence,Okoye,She/her,,,,,,,,participant,,,,
 bresearcher101,,,Aswathi,Surendran,,,,,,,,,,,participant,mentor,
 chiara-damiani,,,Chiara,Damiani,,,,,,,,participant,,,,,
+ekariuki-sleepy,,,Eric,Kariuki,,,,,,,,,,,,speaker,
+gilbert-beyamba,,,Gilbert,Beyamba,,,,,,,,,,speaker,,,
+godwyns-onwuchekwa,,,Godwyns,Onwuchekwa,,,,,,,,,,,,speaker,
 gugy89,,,Gudrun,Gygli,,,,,,,,,,expert,,,
 harisood,,,Hari,Sood,,,,,,,,,,,participant,,
+joy-owango,,,Joy,Owango,,,,,,,,,,speaker,,,
+lenny-teytelman,,,Lenny,Teytelman,,,,,,,,speaker,,,,,
 maria-clara-heringer-lourenço,,,Maria Clara,Heringer Lourenço,,,,,,,,,,,,participant,
 megan-lisa-stock,,,Megan Lisa,Stock,,,,,,,,,,,participant,,
 moengels,,,Moritz,Engelhardt,,,,,,,,,,,participant,,
 nadza-dzinalija,,,Nadza,Dzinalija,,,,,,,,,,,,,participant
+nikoleta-v3,,,Nikoleta,Glynatsi,,,,,,,,,speaker,,,,
 nilabha1512,,,Nilabha,Mukherjea,,,,,,,,,,,participant,,
 nina-roux,,,Nina,Roux,,,,,,,,,,,participant,,
+npch,,,Neil,Chue Hong,,,,,,,,speaker,,,,,
 pol-arranz-gibert,,,Pol,Arranz-Gibert,,,,,,,,,,,participant,,
 rhoné-roux,,,Rhoné,Roux,,,,,,,,,,,participant,,
 sgsfak,,,Stelios,Sfakianakis,,,,,,,,participant,,,,,
@@ -515,3 +547,4 @@ tallmar,,,Marta,Lloret Llinares,,,,,,,,,,,expert,,
 trevor-hamlin,,,Trevor,Hamlin,,,,,,,,,,,,,participant
 usmood,,,Mahmood,Usman,Kano,,,,,,,,,,participant,,
 wendy-andrews,,,Wendy,Andrews,,,,,,,,,,,,,participant
+zee-moz,,,Zannah,Marsh,,,,,,,,,,,,speaker,
