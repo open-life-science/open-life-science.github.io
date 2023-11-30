@@ -1660,10 +1660,10 @@ def extract_full_people_data(artifact_dp, openseeds_artifact_dp):
         schedule = read_yaml(f"{c}/schedule.yaml")
         for week in schedule["weeks"].values():
             for c in week["calls"]:
-                if c["type"] == "Cohort" and "resources" in c and c["resources"] is not None:
-                    for r in c["resources"]:
-                        if r["type"] == "slides" and "speaker" in r and r["speaker"] is not None:
-                            update_people_info([r["speaker"]], people, cohort, "speaker", "speaker")
+                if c["type"] == "Cohort" and "talks" in c:
+                    for t in c["talks"]:
+                        if "speakers" in t:
+                            update_people_info(t["speakers"], people, cohort, "speaker", "speaker")
 
     # format people / project information per cohort
     people_per_cohort = format_people_per_cohort(people)
