@@ -9,4 +9,4 @@ photos:
 redirect_from: /ols-5/projects-participants
 ---
 
-{% include _includes/projects-participants.html cohort='ols-5' %}
+{% include projects-participants.html cohort='ols-5' %}

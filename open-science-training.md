@@ -37,4 +37,4 @@ We have a recognized **expertise** in **pedagogy** & **curriculum development**,
 
 # Current work streams
 
-{% include _includes/streams.md %}
+{% include streams.md %}

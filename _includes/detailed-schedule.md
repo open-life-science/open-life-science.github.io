@@ -6,6 +6,6 @@
 
 {% assign week-nb=w[0] %}
 {% assign week = w[1] %}
-{% include _includes/week.md %}
+{% include week.md %}
 
 {% endfor %}

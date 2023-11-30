@@ -16,7 +16,7 @@ photos:
 
 We are excited to kick-off the new round of [Open Seeds]({% link openseeds/index.md %}) with another incredible cohort of mentors, mentees, and experts. We are honored to bring together members of diverse identities and backgrounds who represent expertise from different domains of research, who are working to address a wide range of relevant questions in their field and are motivated to bring a culture change in their areas. Many of them are long-standing Open Scientists who aim to use this opportunity to apply open science and community-based principles in their projects through this program.
 
-{% include _includes/announcement-blog-metadata.html cohort='ols-8' %}
+{% include announcement-blog-metadata.html cohort='ols-8' %}
 
 We are thrilled to announce that [{{ p-participants | size }} members]({% link openseeds/{{ cohort }}/projects-participants.md %}#participants), who are the project leads of [{{ projects | size }} diverse projects]({% link openseeds/{{ cohort }}/projects-participants.md %}#projects), have joined the {{ current_cohort_index | plus: 1 }}th cohort of the Open Life Science mentoring program - OLS-{{ current_cohort_index | plus: 1 }}!
 

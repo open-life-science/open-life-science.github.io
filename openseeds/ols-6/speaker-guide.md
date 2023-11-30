@@ -27,7 +27,7 @@ A complete syllabus of this cohort can be found [here]({% link openseeds/ols-6/s
 
 # About our Code of Conduct
 
-All our members, participants and speakers are expected to abide by our [Code of conduct & community participation guidelines]({% link code-of-conduct.md %}) that apply to all our community spaces including online calls.
+All our members, participants and speakers are expected to abide by our [Code of conduct & community participation guidelines]({{ site.github.owner_url }}/policies-procedures-and-docs/blob/main/CODE_OF_CONDUCT.md) that apply to all our community spaces including online calls.
 
 If you experience or witness any unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Bérénice, Malvika and Yo. ([{{ site.email }}](mailto:{{ site.email }})).
 

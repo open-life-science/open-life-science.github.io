@@ -79,6 +79,11 @@ GEM
       octokit (>= 4, < 7, != 4.4.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
+    jekyll-remote-theme (0.4.3)
+      addressable (~> 2.0)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-sass-converter (>= 1.0, <= 3.0.0, != 2.0.0)
+      rubyzip (>= 1.3.0, < 3.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-scholar (7.1.3)
@@ -129,6 +134,7 @@ GEM
     rouge (4.2.0)
     ruby-rc4 (0.1.5)
     ruby2_keywords (0.0.5)
+    rubyzip (2.3.2)
     safe_yaml (1.0.5)
     sass-embedded (1.69.5-x86_64-darwin)
       google-protobuf (~> 3.23)
@@ -155,6 +161,7 @@ DEPENDENCIES
   jekyll
   jekyll-github-metadata
   jekyll-redirect-from
+  jekyll-remote-theme
   jekyll-scholar
   jekyll-sitemap
   jekyll-toc

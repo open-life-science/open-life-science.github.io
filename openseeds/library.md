@@ -171,7 +171,7 @@ Below are all of the individual videos, but the videos are part of cohort calls 
                     <div class="column">
                         {% for username in video.speakers %}
                             {% assign user = speaker %}
-                            {% include _includes/people.html user=speaker username=video.speaker %}
+                            {% include people.html user=speaker username=video.speaker %}
                         {% endfor %}
                     </div>
                 </div>

@@ -44,4 +44,4 @@ We are researchers with **demonstrated track record** in researching and influen
 
 # Our Current Work Streams
 
-{% include _includes/streams.md %}
+{% include streams.md %}
