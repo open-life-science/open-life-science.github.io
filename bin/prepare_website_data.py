@@ -269,6 +269,7 @@ to_capitalize_info = ["affiliation", "city", "country"]
 people_fp = Path("_data/people.yaml")
 geolocator = Nominatim(user_agent="MyApp")
 artifact_dp = Path("_data/artifacts/")
+openseeds_artifact_dp = Path("_data/artifacts/openseeds")
 
 ### GENERAL METHODS
 
@@ -1594,20 +1595,16 @@ def extract_library(out_fp):
     library_df.to_csv(out_fp)
 
 
-def extract_full_people_data(out_dp):
+def extract_full_people_data(artifact_dp, openseeds_artifact_dp):
     """
     Extract full people data from website into CSV files
 
-    :param out_dp: Path object to output folder
+    :param artifact_dp: Path object to artifact folder
+    :param openseeds_artifact_dp: Path object to Open Seeds artifact folder
     """
-    # prepare output folder
-    out_dp = Path("_data/artifacts/")
-    out_dp.mkdir(parents=True, exist_ok=True)
-
     # get people information
     people = load_people()
-    # format information
-    for value in people.value():
+    for value in people.values():
         # remove some keys
         value.pop("affiliation", None)
         value.pop("bio", None)
@@ -1617,6 +1614,13 @@ def extract_full_people_data(out_dp):
         value.pop("github", None)
         value.pop("title", None)
         value.pop("expertise", None)
+
+    # export people information to CSV file
+    people_df = pd.DataFrame.from_dict(people, orient="index")
+    people_fp = artifact_dp / Path("people.csv")
+    people_df.to_csv(people_fp)
+
+    for value in people.values():
         # add space for openseeds cohorts
         for c in Path("_data/openseeds").iterdir():
             cohort = get_cohort_name(c)
@@ -1677,7 +1681,7 @@ def extract_full_people_data(out_dp):
         people_df[f"{cohort}-mentor"] = people_df[f"{cohort}-mentor"].apply(
             lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
         )
-    people_fp = out_dp / Path("people.csv")
+    people_fp = openseeds_artifact_dp / Path("people.csv")
     people_df.to_csv(people_fp)
 
     # export project information to CSV file
@@ -1685,16 +1689,16 @@ def extract_full_people_data(out_dp):
     project_df["participants"] = project_df["participants"].apply(lambda x: ", ".join([str(i) for i in x]))
     project_df["mentors"] = project_df["mentors"].apply(lambda x: ", ".join([str(i) for i in x]))
     project_df["keywords"] = project_df["keywords"].apply(lambda x: ", ".join([str(i) for i in x]))
-    project_fp = out_dp / Path("projects.csv")
+    project_fp = openseeds_artifact_dp / Path("projects.csv")
     project_df.to_csv(project_fp)
 
     # export people per cohort
     people_per_cohort_df = pd.DataFrame(people_per_cohort)
-    people_per_cohort_fp = out_dp / Path("people_per_cohort.csv")
+    people_per_cohort_fp = openseeds_artifact_dp / Path("people_per_cohort.csv")
     people_per_cohort_df.to_csv(people_per_cohort_fp)
 
     # export people per role
-    export_people_per_roles(people_df, out_dp)
+    export_people_per_roles(people_df, openseeds_artifact_dp)
 
 
 def create_call_template(schedule_df, output_dp):
@@ -1811,6 +1815,7 @@ if __name__ == "__main__":
 
     # prepare artifact folder
     artifact_dp.mkdir(parents=True, exist_ok=True)
+    openseeds_artifact_dp.mkdir(parents=True, exist_ok=True)
 
     if args.command == "addprojects":
         if args.project_fp:
@@ -1857,9 +1862,9 @@ if __name__ == "__main__":
     elif args.command == "reformatepeople":
         reformate_people()
     elif args.command == "extractlibrary":
-        extract_library(artifact_dp / Path("library.csv"))
+        extract_library(openseeds_artifact_dp / Path("library.csv"))
     elif args.command == "extractfullpeopledata":
-        extract_full_people_data(artifact_dp)
+        extract_full_people_data(artifact_dp, openseeds_artifact_dp)
     elif args.command == "createcalltemplate":
         if args.schedule_url:
             schedule_df = pd.read_csv(args.schedule_url)
