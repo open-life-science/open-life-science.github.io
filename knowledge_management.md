@@ -445,3 +445,88 @@ This is run automatically every week and subitted as a Pull Request. The explana
     ```  
 
 6. Submit changes to call templates in the cohort Github repository
+
+# Stats
+
+Data about the community (e.g. location), about the cohort (e.g. feedback or roles), about the video library are explored and visualized via Jupyter Notebooks stored in a [GitHub repository]({{ site.github.owner_url }}/ols-stats/) and rendered in a dedicated [OLS stat website]({{ site.url }}/ols-stats/).
+
+
+```mermaid!
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+flowchart LR
+    classDef cohort fill:#c3c4a5,stroke:#333
+    classDef nonCohort fill:#fff,stroke:#333
+    class driveClass fill:lightblue
+
+    youtube["YouTube"]:::nonCohort
+
+    subgraph drive["Google Drive"]
+        feedbackCSV["Participants & Mentor feedback"]:::cohort
+    end
+    style drive fill:#abe8ab,stroke:#abe8ab
+
+    subgraph github["Website GitHub repository"]
+        peopleYAML["`people 
+        *(YAML)*`"]:::nonCohort
+        projectYAML["`projects 
+        *(YAML)*`"]:::cohort
+        scheduleYAML["`schedule 
+        *(YAML)*`"]:::cohort
+        metadataYAML["`metadata 
+        *(YAML)*`"]:::nonCohort
+        libraryYAML["`library 
+        *(YAML)*`"]:::nonCohort
+        subgraph artifact["Artifacts"]
+            peopleCSV["`people 
+            *(CSV)*`"]:::nonCohort
+            libraryCSV["`library 
+            *(CSV)*`"]:::nonCohort
+            projectCSV["`projects 
+            *(YAML)*`"]:::cohort
+            rolesCSV["`roles 
+            *(CSV)*`"]:::cohort
+        end
+    end
+    style github fill:#abc7fb,stroke:#abc7fb
+    style artifact fill:#abc7fb,stroke:#fff
+
+    subgraph statsGitHub["Stat GitHub repository"]
+        locationNotebook["`People location
+        *(notebook)*`"]:::nonCohort
+        rolesNotebook["`Roles
+        *(notebook)*`"]:::cohort
+        feedbackNotebook["`Feedback
+        *(notebook)*`"]:::cohort
+        libraryNotebook["`Video library
+        *(notebook)*`"]:::nonCohort
+    end
+    style statsGitHub fill:#ffffde,stroke:#ffffde
+
+    subgraph website["Stat Website"]
+        locationHTML["`People location
+        *(HTML)*`"]:::nonCohort
+        rolesHTML["`Roles
+        *(HTML)*`"]:::cohort
+        feedbackHTML["`Feedback
+        *(HTML)*`"]:::cohort
+        libraryHTML["`Video library
+        *(HTML)*`"]:::nonCohort
+    end
+    style website fill:#eaa9a9,stroke:#eaa9a9
+
+    peopleYAML --> peopleCSV
+    projectYAML --> projectCSV
+    libraryYAML --> libraryCSV
+    scheduleYAML --> rolesCSV
+    metadataYAML --> rolesCSV
+    peopleCSV --> locationNotebook
+    rolesCSV --> rolesNotebook
+    youtube --> libraryNotebook
+    libraryCSV --> libraryNotebook
+    feedbackCSV --> feedbackNotebook
+    locationNotebook --> locationHTML
+    rolesNotebook --> rolesHTML
+    feedbackNotebook --> feedbackHTML
+    libraryNotebook --> libraryHTML
+```
