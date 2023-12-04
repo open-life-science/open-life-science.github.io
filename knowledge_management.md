@@ -21,6 +21,9 @@ Individuals who participated in an OLS activity are listed in [People page]({% l
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 
 flowchart LR
+    accTitle: OLS people information infrastructure
+    accDescr: Some description
+
     classDef cohort fill:#c3c4a5,stroke:#333
     classDef nonCohort fill:#fff,stroke:#333
 
