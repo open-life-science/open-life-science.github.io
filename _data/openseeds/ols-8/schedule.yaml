@@ -108,7 +108,7 @@ weeks:
         title: Project Roadmapping
         tag: Project Roadmapping
       time: "09:00"
-      recording: https://youtu.be/LnqkAtJLHZ4
+      recording: https://youtu.be/LnqkAtJLHZ4?si=1xPHJV8LaB6xVNtm&t=294
       learning_objectives:
       - "Know about the Community Participation Guidelines or Code of Conduct: [https://openlifesci.org/code-of-conduct](https://openlifesci.org/code-of-conduct)
         \n* Explain about your role as a mentee and start your Open Seeds journey
@@ -378,14 +378,20 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vRLTEtATIrUcuxbjrPv3nBNNWqxPE4bX8U3n-bkIaNd2DxXsWWFXsdwzQyGsBurNXp9QAcT0yPA-ocv/pub
         title: Community Design for Inclusivity
-      - speakers:
+      - slides: "https://www.canva.com/design/DAFzgYpRlK0/mZMFILlfyqntsOZMw81zcg/edit?utm_content=DAFzgYpRlK0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n"
+        speakers:
         - 
+        title: 'Community Interaction '
         tag: Community Interactions
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1h0XAN45QdYZox2aWPi3VoYR-rpBKp09OA4-LQrFu00o/edit
+        speakers:
         - stefaniebutland
+        title: "Mountain of Engagement\r\n"
         tag: Mountain of Engagement
       - speakers:
         - fadanka
+        title: Personas and Pathways
         tag: Personas & Pathways
       learning_objectives:
       - Considering different kinds of interactions for your community
@@ -406,14 +412,26 @@ weeks:
       title: Open Leadership in Practice
       type: Skill-up
       talks:
-      - title: Introduction to Open Leadership in Practice
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTGvkY_nR0q7jpeq03zeusawgIEZP5BIA0NZM-I85OoCGuJkxef8CJuOuoyO7NMfifXcX3MN4a7PCCX/pub
+        title: Introduction to Open Leadership in Practice
         tag: Open Leadership in Practice
-      - tag: Open Leadership in Practice
-      - tag: Open Leadership in Practice
-      - tag: Open Leadership in Practice
+      - speakers:
+        - gemmaturon
+        tag: Open Leadership in Practice
+      - speakers:
+        - 
+        tag: Open Leadership in Practice
+      - speakers:
+        - yochannah
+        tag: Open Leadership in Practice
       time: "10:00"
       hosts:
       - tajuddeen1
+      recording: https://youtu.be/mOgAViNSoVo?si=YH9-G40kVt8e75gd&t=85
+      learning_objectives:
+      - Recall non traditional (academic) career path
+      - Appreciate different leaderships
   '10':
     start: November 20, 2023
     calls:
@@ -424,15 +442,27 @@ weeks:
       type: Cohort
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vQv96-8vH1QoMyZ6oKj_BL0Bma3j195KI2rUkGBJvXmPjNZ-_unXkZWAkPlzixw8M5ykgiAkD0hNEMW/pub
+          https://docs.google.com/presentation/d/e/2PACX-1vQv96-8vH1QoMyZ6oKj_BL0Bma3j195KI2rUkGBJvXmPjNZ-_unXkZWAkPlzixw8M5ykgiAkD0hNEMW/pub?start=false&loop=false&delayms=3000
         title: Open Science Garden(s)
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1owHgPuJSTo4Y-flOlDI7FH4pPzSM2KHsiU9sGHk4JPs/edit?usp=sharing
+        speakers:
         - tobyhodges
+        title: Open Educational Resources
+        recording: https://youtu.be/NxWpBicnqC0?si=kQOh0FUTS64sRJRi&t=1978
         tag: Open Educational Resources
-      - speakers:
+      - slides: 'https://docs.google.com/presentation/d/1_1Kn835pvhujGH6vQCyjUNrK-5R7BoTy/edit?usp=drive_link&ouid=102593070323036946386&rtpof=true&sd=true '
+        speakers:
         - 
+        title: Open Access Publication
+        recording: https://youtu.be/NxWpBicnqC0?si=sPc3fbZXk5l4zFu8&t=3733
         tag: Open Access Publication
-      - tag: Openness to Diversity of Knowledge
+      - slides: 'https://www.dropbox.com/scl/fi/gp2fy0bxspwmnbs8o0b1k/AOL_OLS.pdf?rlkey=s997hicfjfl54x1g05fipn5h7&dl=0 '
+        speakers:
+        - 
+        title: Open Engagement of Social Actors
+        recording: https://youtu.be/NxWpBicnqC0?si=PqoCZ1lNQLwo5n7s&t=205
+        tag: Open Engagement of Social Actors
       time: "10:00"
       hosts:
       - tajuddeen1
@@ -440,6 +470,7 @@ weeks:
       - Define Open Science and Responsible Research
       - List the different principles of Open Science
       - Give examples of 3 use cases of the different Open Science principles
+      recording: https://youtu.be/NxWpBicnqC0?si=PymL4gOSTjYRVvRY
   '11':
     start: November 27, 2023
     calls:
@@ -453,14 +484,27 @@ weeks:
       title: 'Tooling for Collaboration: Open-source software in practice'
       type: Skill-up
       talks:
-      - title: Open-source software in practice
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRQmPldM2vu5hoUX2FpdUKuSY8-krnsaqoLP_mg-H3OdGOiTLZO99Ey-1a_PAkhlsi09TzLiPgp__dc/pub
+        title: Open-source software in practice
         tag: Open Source Software
-      - tag: Code Review
-      - tag: Package Management
-      - tag: Good Coding Practices
+      - speakers:
+        - 
+        tag: Good Coding Practices
+      - speakers:
+        - rivaquiroga
+        tag: Code Review
+      - speakers:
+        - 
+        tag: Package Management
       time: "17:00"
       hosts:
       - yochannah
+      learning_objectives:
+      - Apply good coding practices to your software
+      - Review code
+      - Identify package management for your software
+      - 'Make your software ready for open-source- '
   '12':
     start: December 04, 2023
     calls:
