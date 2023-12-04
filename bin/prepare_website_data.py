@@ -1426,10 +1426,10 @@ def replace_cohort_names(s, cohort):
     :param s: string
     :param cohort: cohort id
     """
-    new_s = s.replace("ols-4", "ols-%s" % cohort)
-    new_s = new_s.replace("OLS-4", "OLS-%s" % cohort)
-    new_s = new_s.replace("4th", "%sth" % cohort)
-    new_s = new_s.replace("fourth", "%sth" % cohort)
+    new_s = s.replace("ols-8", "ols-%s" % cohort)
+    new_s = new_s.replace("OLS-8", "OLS-%s" % cohort)
+    new_s = new_s.replace("8th", "%sth" % cohort)
+    new_s = new_s.replace("eighth", "%sth" % cohort)
     return new_s
 
 
@@ -1461,12 +1461,11 @@ def create_cohort(cohort):
     # create metadata skeleton
     metadata = create_empty_metadata()
     dump_metadata(metadata, cohort)
-    # create cohort page
-    write_new_cohort_file(Path("ols-%s.md" % cohort), Path("ols-4.md"), cohort)
     # create cohort folder
-    cohort_dp = Path("_ols-%s" % cohort)
+    cohort_dp = Path("openseeds/ols-%s" % cohort)
     cohort_dp.mkdir(parents=True, exist_ok=True)
-    ex_cohort_dp = Path("_ols-4")
+    ex_cohort_dp = Path("openseeds/ols-8")
+    write_new_cohort_file(cohort_dp / Path("index.md" % cohort), ex_cohort_dp / Path("index.md"), cohort)
     write_new_cohort_file(
         cohort_dp / Path("projects-participants.md"), ex_cohort_dp / Path("projects-participants.md"), cohort
     )
