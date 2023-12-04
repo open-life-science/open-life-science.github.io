@@ -1107,7 +1107,7 @@ def export_people_per_roles(people_df, out_dp):
     for r in ROLES:
         role_df = people_df.filter(regex=r)
         role_df = role_df[role_df.filter(regex=r).notna().any(axis=1)]
-        for c in Path("_data/openseeds").iterdir():
+        for c in sorted(Path("_data/openseeds").iterdir()):
             i = c.name.split("-")[1]
             role_df.rename(columns={f"ols-{i}-{r}": f"ols-{i}"}, inplace=True)
         df = pd.merge(people_info_df, role_df, left_index=True, right_index=True, how="inner")
@@ -1622,7 +1622,7 @@ def extract_full_people_data(artifact_dp, openseeds_artifact_dp):
 
     for value in people.values():
         # add space for openseeds cohorts
-        for c in Path("_data/openseeds").iterdir():
+        for c in sorted(Path("_data/openseeds").iterdir()):
             cohort = get_cohort_name(c)
             value[f"{cohort}-role"] = []
             value[f"{cohort}-participant"] = []
@@ -1634,7 +1634,7 @@ def extract_full_people_data(artifact_dp, openseeds_artifact_dp):
 
     # get cohort and project informations
     projects = []
-    for c in Path("_data/openseeds").iterdir():
+    for c in sorted(Path("_data/openseeds").iterdir()):
         cohort = get_cohort_name(c)
         # extract experts, facilitators, organizers from metadata
         metadata = read_yaml(f"{c}/metadata.yaml")
@@ -1660,17 +1660,17 @@ def extract_full_people_data(artifact_dp, openseeds_artifact_dp):
         schedule = read_yaml(f"{c}/schedule.yaml")
         for week in schedule["weeks"].values():
             for c in week["calls"]:
-                if c["type"] == "Cohort" and "resources" in c and c["resources"] is not None:
-                    for r in c["resources"]:
-                        if r["type"] == "slides" and "speaker" in r and r["speaker"] is not None:
-                            update_people_info([r["speaker"]], people, cohort, "speaker", "speaker")
+                if c["type"] == "Cohort" and "talks" in c:
+                    for t in c["talks"]:
+                        if "speakers" in t:
+                            update_people_info(t["speakers"], people, cohort, "speaker", "speaker")
 
     # format people / project information per cohort
     people_per_cohort = format_people_per_cohort(people)
 
     # export people information to CSV file
     people_df = pd.DataFrame.from_dict(people, orient="index")
-    for c in Path("_data/openseeds").iterdir():
+    for c in sorted(Path("_data/openseeds").iterdir()):
         cohort = get_cohort_name(c)
         people_df[f"{cohort}-role"] = people_df[f"{cohort}-role"].apply(
             lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
