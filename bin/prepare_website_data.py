@@ -548,7 +548,7 @@ def extract_people(df):
     )
 
     people_l = []
-    for row in df.itertuples():
+    for _, row in df.iterrows():
         id, info = extract_people_info(row, people)
         if id not in people:
             print(f"Add info for {id}")
@@ -855,7 +855,7 @@ def add_event_information(schedule, schedule_df, people):
 
     # format date and time columns, add event information
     last_call = {}
-    for row in df.itertuples():
+    for _, row in df.iterrows():
         w = "{:02d}".format(int(row["Week"]))
 
         if w not in schedule["weeks"]:
@@ -988,6 +988,10 @@ def extract_talks():
                         talk = dict(talk)
                         talk["date"] = call["date"]
                         talk["cohort"] = f"ols-{cohort}"
+                        if "title" not in talk:
+                            talk["title"] = talk["tag"]
+                        if "speakers" not in talk:
+                            talk["speakers"] = []
                         talks.append(talk)
     return talks
 
@@ -1382,7 +1386,7 @@ def add_projects(cohort, project_df, people_df):
     project_df = project_df.where(pd.notnull(project_df), None)
     projects = {}
     print("Add new projects")
-    for row in project_df.itertuples():
+    for _, row in project_df.iterrows():
         if "Comment regarding review" in row and row["Comment regarding review"] == "rejected":
             continue
         print(row["Title"])
@@ -1580,6 +1584,8 @@ def extract_library(out_fp):
 
     :param out_fp: Path to CSV file
     """
+    # get people information
+    people = load_people()
     library = read_yaml("_data/library.yaml")
     # flatten the library
     flat_library = []
@@ -1588,9 +1594,14 @@ def extract_library(out_fp):
             for v in st_v["talks"]:
                 v["tag"] = tag
                 v["subtag"] = subtag
+                if "speakers" in v:
+                    v["speakers"] = get_people_names(v["speakers"], people)
                 flat_library.append(v)
     # transform to data frame to export it to csv
     library_df = pd.DataFrame(flat_library)
+    library_df["speakers"] = library_df["speakers"].apply(
+        lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
+    )
     library_df.to_csv(out_fp)
 
 
@@ -1603,6 +1614,7 @@ def extract_full_people_data(artifact_dp, openseeds_artifact_dp):
     """
     # get people information
     people = load_people()
+
     for value in people.values():
         # remove some keys
         value.pop("affiliation", None)

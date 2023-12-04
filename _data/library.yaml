@@ -183,6 +183,7 @@ Tooling for Project Design:
       title: Open Canvas
       date: October 04, 2023
       cohort: ols-8
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1gmVQqDxxbGMqBqVbRRoeBx2nDSMkfUU2g3wGw82-mqs/edit?usp=sharing
       speakers:
@@ -223,6 +224,7 @@ Tooling for Project Design:
       title: Road Mapping
       date: September 10, 2020
       cohort: ols-2
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vRwCxOy-Xl240eB2j0xwuyA-1wPhQMiJV1nfQsbtsiGSUxPiuJZotZb91o23dtRS_RbYeyFHlq_z8XN/pub?start=false&loop=false&delayms=3000
       speakers:
@@ -279,6 +281,7 @@ Tooling for Project Design:
     - title: Project Roadmapping
       date: October 04, 2023
       cohort: ols-8
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1xpVo-66m0mWs8_ZFGuHQwPBTT-vkfBRXwr6WJEb5QRw/edit?usp=sharing
       speakers:
@@ -311,6 +314,7 @@ Tooling for Project Design:
       title: Tooling for Project Design Introduction
       date: October 04, 2023
       cohort: ols-8
+      speakers: []
 Tooling for Collaboration:
   Setting up a project:
     description: Set up a repository for open science project
@@ -318,6 +322,7 @@ Tooling for Collaboration:
     - title: Project Structure
       date: March 23, 2022
       cohort: ols-5
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vT6Xn-rv8tA_YttEhJoO_aqOx36REJVZ9l44Orz69sm8y1bxuiC-HLj41-e7QAAw-drhPmucehO-Clv/pub
       speakers:
@@ -328,6 +333,7 @@ Tooling for Collaboration:
     - title: Project Structure
       date: March 22, 2023
       cohort: ols-7
+      speakers: []
   README:
     description: Making your project welcoming for others
     talks:
@@ -575,6 +581,7 @@ Tooling for Collaboration:
       recording: https://youtu.be/hXRw33CbDJk
       date: March 28, 2023
       cohort: ols-7
+      speakers: []
   Good Coding Practices:
     description: Tips and practices for ensuring good quality code
     talks:
@@ -586,8 +593,11 @@ Tooling for Collaboration:
       recording: https://youtu.be/n3JkOyt6bRM?t=271
       date: November 30, 2022
       cohort: ols-6
-    - date: November 29, 2023
+    - speakers:
+      - 
+      date: November 29, 2023
       cohort: ols-8
+      title: Good Coding Practices
     - slides: https://olscoding.netlify.app/
       speakers:
       - yabellini
@@ -604,8 +614,11 @@ Tooling for Collaboration:
       recording: https://youtu.be/n3JkOyt6bRM?t=1911
       date: November 30, 2022
       cohort: ols-6
-    - date: November 29, 2023
+    - speakers:
+      - rivaquiroga
+      date: November 29, 2023
       cohort: ols-8
+      title: Code Review
     - slides: 
         https://docs.google.com/presentation/d/1snmV5BMFIuTAs60-PcejRj0NUhpvswvb/edit?usp=sharing&ouid=113583685317579296794&rtpof=true&sd=true
       speakers:
@@ -617,8 +630,11 @@ Tooling for Collaboration:
   Package Management:
     description: Software environment for research reproducibility
     talks:
-    - date: November 29, 2023
+    - speakers:
+      - 
+      date: November 29, 2023
       cohort: ols-8
+      title: Package Management
 Open Science:
   Open Data:
     description: Making data findable, accessible, interoperable, reusable
@@ -822,13 +838,17 @@ Open Science:
       recording: https://youtu.be/n3JkOyt6bRM?t=2996
       date: November 30, 2022
       cohort: ols-6
-    - title: Open-source software in practice
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vRQmPldM2vu5hoUX2FpdUKuSY8-krnsaqoLP_mg-H3OdGOiTLZO99Ey-1a_PAkhlsi09TzLiPgp__dc/pub
+      title: Open-source software in practice
       date: November 29, 2023
       cohort: ols-8
+      speakers: []
     - speakers:
       - 
       date: December 06, 2023
       cohort: ols-8
+      title: Open Source Software
     - slides: 
         https://docs.google.com/presentation/d/1HRxtMemWWYrBniYkW60twA3Fd0AuEDdNryGREagDypk/edit#slide=id.g21f04b7f88a_0_77
       speakers:
@@ -893,8 +913,11 @@ Open Science:
       recording: https://youtu.be/HKsK9CCcQYU?t=198
       date: November 22, 2022
       cohort: ols-6
-    - speakers:
+    - slides: 'https://docs.google.com/presentation/d/1_1Kn835pvhujGH6vQCyjUNrK-5R7BoTy/edit?usp=drive_link&ouid=102593070323036946386&rtpof=true&sd=true '
+      speakers:
       - 
+      title: Open Access Publication
+      recording: https://youtu.be/NxWpBicnqC0?si=sPc3fbZXk5l4zFu8&t=3733
       date: November 21, 2023
       cohort: ols-8
     - slides: https://doi.org/10.5281/zenodo.7946506
@@ -919,6 +942,7 @@ Open Science:
       - 
       date: December 06, 2023
       cohort: ols-8
+      title: Open Science Infrastructures
     - slides: 
         https://docs.google.com/presentation/d/1c5r83gUCdg_2_sS5LAB-7NLQccYfeN6OmkUSj_WFwGs/edit?usp=sharing
       speakers:
@@ -976,8 +1000,12 @@ Open Science:
       recording: https://youtu.be/HaQyv48sMPY?t=1879
       date: March 11, 2020
       cohort: ols-1
-    - speakers:
+    - slides: 
+        https://docs.google.com/presentation/d/1owHgPuJSTo4Y-flOlDI7FH4pPzSM2KHsiU9sGHk4JPs/edit?usp=sharing
+      speakers:
       - tobyhodges
+      title: Open Educational Resources
+      recording: https://youtu.be/NxWpBicnqC0?si=kQOh0FUTS64sRJRi&t=1978
       date: November 21, 2023
       cohort: ols-8
   Open Engagement of Social Actors:
@@ -1017,6 +1045,13 @@ Open Science:
       recording: https://youtu.be/I1Jks2PE0ME?t=2115
       date: December 20, 2022
       cohort: ols-6
+    - slides: 'https://www.dropbox.com/scl/fi/gp2fy0bxspwmnbs8o0b1k/AOL_OLS.pdf?rlkey=s997hicfjfl54x1g05fipn5h7&dl=0 '
+      speakers:
+      - 
+      title: Open Engagement of Social Actors
+      recording: https://youtu.be/NxWpBicnqC0?si=PqoCZ1lNQLwo5n7s&t=205
+      date: November 21, 2023
+      cohort: ols-8
     - speakers:
       - phaarouknucleus
       title: Open engagement of social actors
@@ -1060,6 +1095,7 @@ Open Science:
       - 
       date: December 06, 2023
       cohort: ols-8
+      title: Open Hardware
     - slides: 
         https://docs.google.com/presentation/d/1ecLEm7aNPeswOCnpiQQE8rnSyl6Equce_6YAJrR2_oc/edit?usp=sharing
       speakers:
@@ -1127,8 +1163,6 @@ Open Science:
         networks?
       date: October 24, 2023
       cohort: ols-8
-    - date: November 21, 2023
-      cohort: ols-8
     - slides: 
         https://docs.google.com/presentation/d/1i9ZS2bw_zefmjYBVTZSieyp4xI_T9PrH-pIiPeP3wY0/edit#slide=id.g21280744133_2_33 
       speakers:
@@ -1173,6 +1207,7 @@ Project, Community & Personal Management:
       recording: https://youtu.be/yCCNZH9JS-0?t=2381
       date: April 04, 2022
       cohort: ols-5
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1CWnHXZHFDYFTqE2KKgZ8R5i_46XqAqnjy12gYSDESxk/edit?usp=sharing
       speakers:
@@ -1263,8 +1298,11 @@ Project, Community & Personal Management:
       recording: https://youtu.be/6ZlrGVxjd5Q?t=217
       date: November 09, 2022
       cohort: ols-6
-    - speakers:
+    - slides: 
+        https://docs.google.com/presentation/d/1h0XAN45QdYZox2aWPi3VoYR-rpBKp09OA4-LQrFu00o/edit
+      speakers:
       - stefaniebutland
+      title: "Mountain of Engagement\r\n"
       date: November 08, 2023
       cohort: ols-8
     - slides: 
@@ -1320,6 +1358,7 @@ Project, Community & Personal Management:
       cohort: ols-1
     - speakers:
       - fadanka
+      title: Personas and Pathways
       date: November 08, 2023
       cohort: ols-8
     - slides: 
@@ -1372,8 +1411,10 @@ Project, Community & Personal Management:
       recording: https://youtu.be/6ZlrGVxjd5Q?t=3117
       date: November 09, 2022
       cohort: ols-6
-    - speakers:
+    - slides: "https://www.canva.com/design/DAFzgYpRlK0/mZMFILlfyqntsOZMw81zcg/edit?utm_content=DAFzgYpRlK0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n"
+      speakers:
       - 
+      title: 'Community Interaction '
       date: November 08, 2023
       cohort: ols-8
   Equity, Diversity and Inclusion (EDI):
@@ -1411,6 +1452,7 @@ Project, Community & Personal Management:
       recording: https://youtu.be/tT-hmAWUFKI?t=965
       date: December 01, 2021
       cohort: ols-4
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1yaLMBcU1awyFZpeOQC2_QYDwlN-Z_dJ2GXNYDAm2jA8/edit?usp=sharing
       speakers:
@@ -1436,12 +1478,14 @@ Project, Community & Personal Management:
       recording: https://youtu.be/WH9Z3lyw9ik?t=2263
       date: May 18, 2022
       cohort: ols-5
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1aIdwn5Jc1OM5gW9h6GW69ZIDNA7W3s9806-i1gzhNp8/edit?usp=sharing
       title: Ally skills - Optional
       recording: https://youtu.be/tT-hmAWUFKI?t=2126
       date: December 01, 2021
       cohort: ols-4
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1-eaxorHL76DGMjcpmTzVDqcO-4Wz-W4VBoOtJa2py3U/edit?usp=sharing
       speakers:
@@ -1465,11 +1509,13 @@ Project, Community & Personal Management:
       title: Personal Ecology and Self Care
       date: May 23, 2022
       cohort: ols-5
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vSyGYllxLypVdHxfc7wTPQTFshsGpwDxXTgxlQWm19Zd959-GiD098DMOdcW0K0KGYyLefyPrdhFeHF/pub?start=false&loop=false&delayms=3000#slide=id.p
       title: Personal Ecology and Self Care
       date: October 29, 2020
       cohort: ols-2
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1lL8XQlP_lpqEbjGOhnivXq9oiAgVNCq164qntp-2Wp4/edit#slide=id.g70ef43ea53_0_132
       speakers:
@@ -1502,6 +1548,7 @@ Project, Community & Personal Management:
     - title: Personal Ecology and Self Care
       date: December 12, 2023
       cohort: ols-8
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1LBD99tpqT2GURtx6D4J8fl-Evjl9zxG43sj8GQlWGWc/edit#slide=id.p
       speakers:
@@ -1548,6 +1595,7 @@ Open Leadership:
       - honoluluskye
       date: April 25, 2022
       cohort: ols-5
+      title: Open Leadership in Practice
     - slides: 
         https://docs.google.com/presentation/d/1jeTk_PzsWpaR4DRmBrbrDGol2_drPEizp26o4d8jnnA/edit?usp=sharing
       speakers:
@@ -1618,9 +1666,11 @@ Open Leadership:
     - title: Academic leadership, group or project leaders
       date: November 10, 2021
       cohort: ols-4
+      speakers: []
     - title: Community building, Science Communication
       date: November 10, 2021
       cohort: ols-4
+      speakers: []
     - speakers:
       - aki-macfarlane
       title: Policymakers, funders, meta-researchers
@@ -1670,15 +1720,27 @@ Open Leadership:
       recording: https://youtu.be/5fTXmHIKaL4?t=3370
       date: November 15, 2022
       cohort: ols-6
-    - title: Introduction to Open Leadership in Practice
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vTGvkY_nR0q7jpeq03zeusawgIEZP5BIA0NZM-I85OoCGuJkxef8CJuOuoyO7NMfifXcX3MN4a7PCCX/pub
+      title: Introduction to Open Leadership in Practice
       date: November 14, 2023
       cohort: ols-8
-    - date: November 14, 2023
+      speakers: []
+    - speakers:
+      - gemmaturon
+      date: November 14, 2023
       cohort: ols-8
-    - date: November 14, 2023
+      title: Open Leadership in Practice
+    - speakers:
+      - 
+      date: November 14, 2023
       cohort: ols-8
-    - date: November 14, 2023
+      title: Open Leadership in Practice
+    - speakers:
+      - yochannah
+      date: November 14, 2023
       cohort: ols-8
+      title: Open Leadership in Practice
     - speakers:
       - chartgerink
       title: Social enterprise
@@ -1715,18 +1777,22 @@ Not sorted:
       title: Open Science Garden(s)
       date: October 24, 2023
       cohort: ols-8
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vRLTEtATIrUcuxbjrPv3nBNNWqxPE4bX8U3n-bkIaNd2DxXsWWFXsdwzQyGsBurNXp9QAcT0yPA-ocv/pub
       title: Community Design for Inclusivity
       date: November 08, 2023
       cohort: ols-8
+      speakers: []
     - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vQv96-8vH1QoMyZ6oKj_BL0Bma3j195KI2rUkGBJvXmPjNZ-_unXkZWAkPlzixw8M5ykgiAkD0hNEMW/pub
+        https://docs.google.com/presentation/d/e/2PACX-1vQv96-8vH1QoMyZ6oKj_BL0Bma3j195KI2rUkGBJvXmPjNZ-_unXkZWAkPlzixw8M5ykgiAkD0hNEMW/pub?start=false&loop=false&delayms=3000
       title: Open Science Garden(s)
       date: November 21, 2023
       cohort: ols-8
+      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vRoO3gcS1koiKYhncvBBnvI9qdMqYjEQ-BH3OKcMGHuCVdsB1nVOXpjg0_9DNXg9D4XfL8BhRpXpH_K/pub
       title: Open Science Garden(s)
       date: December 06, 2023
       cohort: ols-8
+      speakers: []
