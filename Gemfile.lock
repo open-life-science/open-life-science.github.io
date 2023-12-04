@@ -43,6 +43,7 @@ GEM
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
+    gemoji (3.0.1)
     google-protobuf (3.24.3-x86_64-darwin)
     hashery (2.1.2)
     html-proofer (5.0.8)
@@ -88,6 +89,11 @@ GEM
       jekyll (~> 4.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-spaceship (0.10.2)
+      gemoji (~> 3.0)
+      jekyll (>= 3.6, < 5.0)
+      nokogiri (~> 1.6)
+      rainbow (~> 3.0)
     jekyll-toc (0.18.0)
       jekyll (>= 3.9)
       nokogiri (~> 1.12)
@@ -157,6 +163,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-scholar
   jekyll-sitemap
+  jekyll-spaceship
   jekyll-toc
   nokogiri
   webrick
