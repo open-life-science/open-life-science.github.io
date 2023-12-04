@@ -1729,6 +1729,22 @@ def update_bibliography(api):
         bibtexparser.dump(library, bib_f)
 
 
+def create_project_table():
+    """
+    Create interactive table for openseeds projects
+    """
+    columns = ["", "Name", "Participants", "Keywords", "Mentors", "Description", "Cohort", "Status", "Collaboration"]
+    df = (
+        pd.read_csv(openseeds_artifact_dp / Path("projects.csv"), index_col=False)
+        .rename(columns=str.title)
+        .reindex(columns=columns)
+        .fillna("")
+    )
+    df_str = df.to_html(border=0, table_id="dataframe", classes=["display", "nowrap"], index=False)
+    with Path("_includes/openseeds-project.html").open("w") as project_f:
+        project_f.write(df_str)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Interact and prepare OLS website data")
     subparser = parser.add_subparsers(dest="command")
@@ -1809,6 +1825,8 @@ if __name__ == "__main__":
     # Update bibliography
     updatebibliography = subparser.add_parser("updatebibliography", help="Get the bibliography file from Zotero")
     updatebibliography.add_argument("-a", "--api", help="Zotero API key", required=True)
+    # Create project interactive table
+    createprojecttable = subparser.add_parser("createprojecttable", help="Create project interactive table")
 
     args = parser.parse_args()
 
@@ -1872,3 +1890,5 @@ if __name__ == "__main__":
         create_call_template(schedule_df, Path(args.output))
     elif args.command == "updatebibliography":
         update_bibliography(args.api)
+    elif args.command == "createprojecttable":
+        create_project_table()
