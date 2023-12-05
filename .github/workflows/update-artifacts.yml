@@ -31,15 +31,15 @@ jobs:
         run: |
           python bin/prepare_website_data.py extractfullpeopledata
 
-      - name: Update library artifacts
+      - name: Update Open Seeds library artifacts
         shell: bash -el {0}
         run: |
-          python bin/prepare_website_data.py extractlibrary
+          python bin/prepare_website_data.py extractlibrary -p "openseeds"
 
-      - name: Update openseeds projects
+      - name: Update Open Seeds projects
         shell: bash -el {0}
         run: |
-          python bin/prepare_website_data.py createprojecttable
+          python bin/prepare_website_data.py createprojecttable -p "openseeds"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
