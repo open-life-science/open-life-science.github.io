@@ -24,7 +24,7 @@ photos:
     {% endfor %}
 {% endfor %}
 
-{% assign library = site.data.library %}
+{% assign library = site.data.openseeds.library %}
 {% assign video_nb = 0 %}
 {% assign all-speakers = '' %}
 {% for topic in library %}

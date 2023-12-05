@@ -9,7 +9,7 @@ photos:
   url: https://unsplash.com/photos/Hys5qHaDbZQ
 ---
 
-{% assign library = site.data.library %}
+{% assign library = site.data.openseeds.library %}
 {% assign video_nb = 0 %}
 {% assign all-speakers = '' %}
 
@@ -78,7 +78,7 @@ photos:
             "description": "{{ site.title }} is a mentoring mentoring & training program for Open Science ambassadors. It runs cohorts with calls every 1-2 weeks.",
             "keywords": "Open Science",
             "name": "Open Seeds {{ v.cohort }} cohort",
-            "url": "{{ site.url }}/{{ v.cohort }}",
+            "url": "{{ site.url }}/openseeds/{{ v.cohort }}",
             "educationalLevel": "Beginner",
             "inLanguage": "en-US",
             "provider":  [{

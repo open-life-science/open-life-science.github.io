@@ -26,15 +26,15 @@ jobs:
           conda config --show-sources
           conda config --show
 
-      - name: Update schedule
+      - name: Update Open Seeds schedule
         shell: bash -el {0}
         run: |
-          bash bin/update_schedule.sh
+          bash bin/openseeds/update_schedule.sh
 
-      - name: Update library
+      - name: Update Open Seeds library
         shell: bash -el {0}
         run: |
-          python bin/prepare_website_data.py buildlibrary
+          python bin/prepare_website_data.py buildlibrary -p "openseeds"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
