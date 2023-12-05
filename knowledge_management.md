@@ -190,77 +190,99 @@ We developped scripts for limiting manual work to propagate the information from
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 
 flowchart LR
-    classDef cohort fill:#c3c4a5,stroke:#333
-    classDef nonCohort fill:#fff,stroke:#333
+    classDef cohort fill:#fff,stroke:#333
+    classDef nonCohort fill:#d3d3d3,stroke:#333
 
     civiPeople["`CiviCRM 
     *(CSV)*`"]:::nonCohort
-    callTemplates["`Call templates 
-    *(Markdown)*`"]:::cohort
+    etherpad["`Etherpad`"]:::nonCohort
     teSS["`ELIXIR TeSS 
     Training Registry`"]:::nonCohort
-    youtube["YouTube"]:::nonCohort
+    youtube["`OLS YouTube 
+    channel`"]:::nonCohort
     calendar["Public Google calendar"]:::nonCohort
 
     subgraph drive["Google Drive"]
         participantSheet["`Project, participants, 
         & mentors`"]:::cohort
         planningSheet["Planning"]:::cohort
+        feedbackCSV["`Participants & 
+        Mentor feedback`"]:::cohort
     end
-    style drive fill:#abe8ab,stroke:#abe8ab
+    style drive fill:#fbec5d,stroke:#fbec5d
 
     subgraph github["Website GitHub repository"]
         peopleYAML["`people 
-        *(YAML)*`"]:::nonCohort
+        *(YAML)*`"]:::cohort
         subgraph githubProgram["Program"]
             libraryYAML["`library 
-            *(YAML)*`"]:::nonCohort
+            *(YAML)*`"]:::cohort
             subgraph githubCohort["Cohort"]
                 projectYAML["`projects 
                 *(YAML)*`"]:::cohort
                 scheduleYAML["`schedule 
                 *(YAML)*`"]:::cohort
                 metadataYAML["`metadata 
-                *(YAML)*`"]:::Cohort
+                *(YAML)*`"]:::cohort
             end
             style githubCohort fill:#abc7fb,stroke:#fff
         end
         style githubProgram fill:#abc7fb,stroke:#fff
+        subgraph artifact["`Artifacts
+        *(CSV)*`"]
+        end
+        style artifact fill:#abc7fb,stroke:#fff
     end
     style github fill:#abc7fb,stroke:#abc7fb
 
+    subgraph cohortGithub["Cohort GitHub repository"]
+        callTemplates["`Call templates 
+        *(Markdown)*`"]:::cohort
+    end
+    style cohortGithub fill:#87ceeb,stroke:#87ceeb
+
+    subgraph statGithub["Stat GitHub repository"]
+        notebooks["`Data processing & visualization
+        *(Notebooks)*`"]:::cohort
+    end
+    style statGithub fill:#9fe2bf,stroke:#9fe2bf
+
     subgraph website["Online Website"]
-        postHTML["`Announcement post
-        *(HTML)*`"]:::cohort
+        postHTML["`Announcement post`"]:::cohort
         subgraph websiteProgram["Program"]
             libraryHTML["`Video Library
-            _Talks of all cohorts with embeded recording sorted by topic_
-            *(HTML)*`"]:::nonCohort
+            _Talks of all cohorts with embeded recording sorted by topic_`"]:::cohort
             subgraph websiteCohort["Cohort"]
                 syllabusHTML["`Syllabus
-                _Mentors and experts with their expertise, facilitators_ 
-                *(HTML)*`"]:::cohort
-                projectHTML["`Project & Participants
-                *(HTML)*`"]:::cohort
+                _Mentors and experts with their expertise, facilitators_`"]:::cohort
+                projectHTML["`Project & Participants`"]:::cohort
+                assignmentHTML["`Assignments`"]:::cohort
                 scheduleHTML["`Schedule
-                _Calls with metadata, embeded recording, slides, etc_
-                *(HTML)*`"]:::cohort
-                assignmentHTML["`Assignments
-                *(HTML)*`"]:::cohort
+                _Calls with metadata, embeded recording, slides, etc_`"]:::cohort
             end
             style websiteCohort fill:#eaa9a9,stroke:#fff
         end
         style websiteProgram fill:#eaa9a9,stroke:#fff
+        subgraph websiteStat["Stats"]
+            projectStatHTML["`Projects`"]:::cohort
+            rolesHTML["`Roles`"]:::cohort
+            locationHTML["`Location`"]:::cohort
+            feedbackHTML["`Feedback`"]:::cohort
+            videoHTML["`Video & YouTube`"]:::cohort
+            supportHTML["`Financial support`"]:::cohort
+        end
+        style websiteStat fill:#eaa9a9,stroke:#fff
     end
     style website fill:#eaa9a9,stroke:#eaa9a9
 
     civiPeople --> peopleYAML
     civiPeople --> metadataYAML
     participantSheet --> projectYAML
-    planningSheet -- Weekly automatic update --> scheduleYAML
+    planningSheet --> scheduleYAML
     planningSheet --> calendar
-    scheduleYAML -- Weekly automatic update --> libraryYAML
+    scheduleYAML --> libraryYAML
     planningSheet --> callTemplates
+    callTemplates --> etherpad
     projectYAML --> postHTML
     projectYAML --> projectHTML
     scheduleYAML --> scheduleHTML
@@ -274,6 +296,17 @@ flowchart LR
     scheduleHTML -- BioSchema --> teSS
     youtube --> scheduleHTML
     youtube --> libraryHTML
+    peopleYAML --> artifact
+    githubProgram --> artifact
+    artifact --> notebooks
+    feedbackCSV --> notebooks
+    youtube --> notebooks
+    notebooks --> projectStatHTML
+    notebooks --> rolesHTML
+    notebooks --> locationHTML
+    notebooks --> feedbackHTML
+    notebooks --> videoHTML
+    notebooks --> supportHTML
 ```
 
 ## Prepare a cohort
@@ -477,40 +510,39 @@ Data about the community (e.g. location), about the cohort (e.g. feedback or rol
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 
 flowchart LR
-    classDef cohort fill:#c3c4a5,stroke:#333
-    classDef nonCohort fill:#fff,stroke:#333
-    class driveClass fill:lightblue
+    classDef cohort fill:#fff,stroke:#333
+    classDef nonCohort fill:#d3d3d3,stroke:#333
 
-    youtube["YouTube"]:::nonCohort
+    youtube["OLS YouTube channel"]:::nonCohort
 
     subgraph drive["Google Drive"]
         feedbackCSV["Participants & Mentor feedback"]:::cohort
     end
-    style drive fill:#abe8ab,stroke:#abe8ab
+    style drive fill:#fbec5d,stroke:#fbec5d
 
     subgraph github["Website GitHub repository"]
         peopleYAML["`people 
-        *(YAML)*`"]:::nonCohort
+        *(YAML)*`"]:::cohort
         projectYAML["`projects 
         *(YAML)*`"]:::cohort
         scheduleYAML["`schedule 
         *(YAML)*`"]:::cohort
         metadataYAML["`metadata 
-        *(YAML)*`"]:::nonCohort
+        *(YAML)*`"]:::cohort
         libraryYAML["`library 
-        *(YAML)*`"]:::nonCohort
+        *(YAML)*`"]:::cohort
         subgraph artifact["Artifacts"]
             peopleCSV["`people 
-            *(CSV)*`"]:::nonCohort
+            *(CSV)*`"]:::cohort
             subgraph githubProgram["Program"]
                 libraryCSV["`library 
-                *(CSV)*`"]:::nonCohort
+                *(CSV)*`"]:::cohort
                 projectCSV["`projects 
                 *(YAML)*`"]:::cohort
                 rolesCSV["`roles 
                 *(CSVs)*`"]:::cohort
                 peopleRolesCSV["`people + roles
-                *(CSV)*`"]:::nonCohort
+                *(CSV)*`"]:::cohort
             end
             style githubProgram fill:#abc7fb,stroke:#fff
         end
@@ -520,34 +552,34 @@ flowchart LR
 
     subgraph statsGitHub["Stat GitHub repository"]
         locationNotebook["`People location
-        *(notebook)*`"]:::nonCohort
+        *(notebook)*`"]:::cohort
         subgraph statsGitHubProgram["Program"]
             programLocationNotebook["`Program people location
-            *(notebook)*`"]:::nonCohort
+            *(notebook)*`"]:::cohort
+            projectNotebook["`Projects
+            *(notebook)*`"]:::cohort
             rolesNotebook["`Roles
             *(notebook)*`"]:::cohort
             feedbackNotebook["`Feedback
             *(notebook)*`"]:::cohort
-            libraryNotebook["`Video library
-            *(notebook)*`"]:::nonCohort
+            libraryNotebook["`Video and YouTube
+            *(notebook)*`"]:::cohort
         end
-        style statsGitHubProgram fill:#ffffde,stroke:#fff
+        style statsGitHubProgram fill:#9fe2bf,stroke:#fff
     end
-    style statsGitHub fill:#ffffde,stroke:#ffffde
+    style statsGitHub fill:#9fe2bf,stroke:#9fe2bf
 
     subgraph website["Stat Website"]
         locationHTML["`People location
-        *(HTML)*`"]:::nonCohort
-        subgraph statsGitHubProgram["Program"]
-            programLocationHTML["`Program people location
-            *(HTML)*`"]:::cohort
-            rolesHTML["`Roles
-            *(HTML)*`"]:::cohort
-            feedbackHTML["`Feedback
-            *(HTML)*`"]:::cohort
-            libraryHTML["`Video library
-            *(HTML)*`"]:::nonCohort
+        *(HTML)*`"]:::cohort
+        subgraph websiteProgram["Program"]
+            programLocationHTML["`Program people location`"]:::cohort
+            projectHTML["`Projects`"]:::cohort
+            rolesHTML["`Roles`"]:::cohort
+            feedbackHTML["`Feedback`"]:::cohort
+            libraryHTML["`Video and YouTube`"]:::cohort
         end
+        style websiteProgram fill:#eaa9a9,stroke:#fff
     end
     style website fill:#eaa9a9,stroke:#eaa9a9
 
@@ -561,10 +593,12 @@ flowchart LR
     metadataYAML --> peopleRolesCSV
     peopleCSV --> locationNotebook
     rolesCSV --> rolesNotebook
+    projectCSV --> projectNotebook
     youtube --> libraryNotebook
     libraryCSV --> libraryNotebook
     feedbackCSV --> feedbackNotebook
     peopleRolesCSV --> programLocationNotebook
+    projectNotebook --> projectHTML
     locationNotebook --> locationHTML
     rolesNotebook --> rolesHTML
     feedbackNotebook --> feedbackHTML
