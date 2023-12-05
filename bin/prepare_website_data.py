@@ -1737,6 +1737,7 @@ def extract_full_people_data(artifact_dp):
         project_df["participants"] = project_df["participants"].apply(lambda x: ", ".join([str(i) for i in x]))
         project_df["mentors"] = project_df["mentors"].apply(lambda x: ", ".join([str(i) for i in x]))
         project_df["keywords"] = project_df["keywords"].apply(lambda x: ", ".join([str(i) for i in x]))
+        project_df["collaboration"] = project_df["collaboration"].apply(lambda x: ", ".join([str(i) for i in x]))
         project_fp = artifact_dp[program] / Path("projects.csv")
         project_df.to_csv(project_fp)
 
