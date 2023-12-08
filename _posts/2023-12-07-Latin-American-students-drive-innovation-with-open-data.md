@@ -10,7 +10,7 @@ photos:
   url: https://github.com/camachoreina
 ---
 
-_This blog post was original shared by Software Sustainability Institute, and found [here](https://www.software.ac.uk/blog/hackathon-co-afina-2023-latin-american-students-drive-innovation-open-data), as authored by R. Camacho Toro, Y. Briceño and A. Martínez._
+_This blog post was originally shared by Software Sustainability Institute, and can be found [here](https://www.software.ac.uk/blog/hackathon-co-afina-2023-latin-american-students-drive-innovation-open-data), as authored by R. Camacho Toro, Y. Briceño and A. Martínez._
 
 Fueled by adrenaline and a shared passion for innovation, seventy-eight university students from across Latin America converged virtually for the second edition of the [Co-Afina hackathon](https://laconga.redclara.net/hackathon/#/). Armed with open data and computational tools, these bright minds tackled real-world challenges related to the environment, citizenship, and education, showcasing their skills, motivation and collaborative spirit.
 
