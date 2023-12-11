@@ -3,6 +3,7 @@ layout: post
 title: Hackathon Co-Afina 2023 - Latin American Students Drive Innovation with Open Data
 authors:
 - camachoreina
+- mxrtinez
 image: https://www.software.ac.uk/sites/default/files/2023-12/unnamed.jpg
 photos:
   name: Image by Reina Camacho Toro
