@@ -1834,7 +1834,7 @@ if __name__ == "__main__":
         "addmentorsexperts",
         help="Add mentor/experts details to people.yaml, add them to the metadata file for the cohort and extract expertises",
     )
-    addprojects.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
+    addmentorexperts.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     addmentorexperts.add_argument("-c", "--cohort", help="Cohort id (3, 4, etc)", required=True)
     addmentorexperts.add_argument(
         "-t", "--type", choices=["mentor", "expert"], help="Mentors or experts to add", required=True
@@ -1864,7 +1864,7 @@ if __name__ == "__main__":
     getpeople.add_argument("-hf", "--hosts", help="Path to output sheet with call host details", required=True)
     # Extract talks to build library
     buildlibrary = subparser.add_parser("buildlibrary", help="Extract talks to build library")
-    addprojects.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
+    buildlibrary.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     # Reformate people data
     reformatepeople = subparser.add_parser("reformatepeople", help="Reformate people information")
     # Extract library data to CSV
