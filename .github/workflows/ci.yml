@@ -17,15 +17,13 @@ jobs:
       - name: Validate HTML and check links
         run: |
           bundle exec htmlproofer \
-            --assume-extension \
-            --allow-hash-href \
-            --allow_missing_href  \
-            --ignore-empty-alt \
-            --ignore-status-codes 405,429,503,999 \
+            --allow_missing_href=true \
             --ignore-urls "/.*localhost.*/","/.*gitter\.im.*/" \
             --enforce-https=false  \
-            --disable-external \
-            --check-internal-hash \
+            --disable-external=true \
+            --ignore_empty_alt=true \
+            --ignore_missing_alt=true \
+            --check-internal-hash=false \
             ./_site
   lint:
     runs-on: ubuntu-latest

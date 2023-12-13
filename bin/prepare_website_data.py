@@ -4,9 +4,11 @@ import argparse
 import copy
 from pathlib import Path
 
+import bibtexparser
 import pandas as pd
 import pycountry
 from geopy.geocoders import Nominatim
+from pyzotero import zotero
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
 
@@ -266,7 +268,13 @@ optional_info = ["twitter", "website", "orcid", "affiliation", "city", "country"
 to_capitalize_info = ["affiliation", "city", "country"]
 people_fp = Path("_data/people.yaml")
 geolocator = Nominatim(user_agent="MyApp")
-artifact_dp = Path("_data/artifacts/")
+artifact_dp = {
+    "all": Path("_data/artifacts/"),
+    "openseeds": Path("_data/artifacts/openseeds"),
+}
+cohort_names = {
+    "openseeds": "ols-",
+}
 
 ### GENERAL METHODS
 
@@ -545,7 +553,7 @@ def extract_people(df):
     )
 
     people_l = []
-    for row in df.itertuples():
+    for _, row in df.iterrows():
         id, info = extract_people_info(row, people)
         if id not in people:
             print(f"Add info for {id}")
@@ -610,56 +618,6 @@ def extract_people_df(ids, people, fp):
     df.to_csv(fp, sep="\t")
 
 
-def get_people(cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp):
-    """
-    Extract people information of a specific cohort from website to spreadsheets
-
-    :param cohort: cohort id
-    :param participant_fp: path to output sheet with participants details
-    :param mentor_fp: path to output sheet with mentor details
-    :param expert_fp: path to output sheet with expert details
-    :param speaker_fp: path to output sheet with speaker details
-    :param host_fp: path to output sheet with call host details
-    """
-    # load people information
-    people = load_people()
-
-    # extract participants and mentors
-    participants = []
-    mentors = []
-    # load projects
-    fp = Path(f"_data/openseeds/ols-{cohort}/projects.yaml")
-    projects = read_yaml(fp)
-    for p in projects:
-        participants += p["participants"]
-        mentors += p["mentors"]
-    extract_people_df(participants, people, participant_fp)
-    extract_people_df(mentors, people, mentor_fp)
-
-    # extract experts and organizers
-    # load metadata
-    fp = Path(f"_data/openseeds/ols-{cohort}/metadata.yaml")
-    metadata = read_yaml(fp)
-    experts = metadata["experts"]
-    extract_people_df(experts, people, expert_fp)
-
-    # extract speakers and call hosts
-    speakers = []
-    hosts = []
-    # load schedule
-    schedule = load_schedule(cohort)
-    for week in schedule["weeks"].values():
-        for call in week["calls"]:
-            if call["type"] == "cohort":
-                for r in call["talks"]:
-                    if "speakers" in r:
-                        speakers += r["speakers"]
-            if "hosts" in call:
-                hosts += call["hosts"]
-    extract_people_df(speakers, people, speaker_fp)
-    extract_people_df(hosts, people, host_fp)
-
-
 ### METHODS TO INTERACT WITH COHORT SCHEDULE FILES
 
 
@@ -705,13 +663,14 @@ def create_empty_schedule():
     return schedule
 
 
-def load_schedule(cohort):
+def load_schedule(program, cohort):
     """
     Load cohort schedule
 
+    :param program: Training program
     :param cohort: cohort number
     """
-    fp = Path(f"_data/openseeds/ols-{cohort}/schedule.yaml")
+    fp = Path(f"_data/{program}/{cohort}/schedule.yaml")
     schedule = read_yaml(fp)
     for w in schedule["weeks"]:
         for c in schedule["weeks"][w]["calls"]:
@@ -724,16 +683,17 @@ def load_schedule(cohort):
     return schedule
 
 
-def dump_schedule(schedule, cohort):
+def dump_schedule(schedule, program, cohort):
     """
     Dump schedule to YAML file
 
+    :param program: Training program
     :param schedule: dictionary with schedule details
     :param cohort: cohort number
     """
-    fp = Path(f"_data/openseeds/ols-{cohort}/schedule.yaml")
+    fp = Path(f"_data/{program}/{cohort}/schedule.yaml")
     with fp.open("w") as schedule_f:
-        schedule_f.write(f"# Schedule for the OLS-{cohort}\n")
+        schedule_f.write(f"# Schedule for the {program} {cohort}\n")
         schedule_f.write("---\n")
         yaml.dump(schedule, schedule_f)
 
@@ -852,7 +812,7 @@ def add_event_information(schedule, schedule_df, people):
 
     # format date and time columns, add event information
     last_call = {}
-    for row in df.itertuples():
+    for _, row in df.iterrows():
         w = "{:02d}".format(int(row["Week"]))
 
         if w not in schedule["weeks"]:
@@ -892,18 +852,17 @@ def add_event_information(schedule, schedule_df, people):
 ### METHODS TO INTERACT WITH COHORT PROJECT FILES
 
 
-def dump_projects(projects, cohort):
+def dump_projects(projects, program, cohort):
     """
     Dump projects to YAML file
 
     :param projects: dictionary with project details
+    :param program: Training program
     :param cohort: cohort number
     """
-    project_fp = Path(f"_data/openseeds/ols-{cohort}/projects.yaml")
+    project_fp = Path(f"_data/{program}/{cohort}/projects.yaml")
     with project_fp.open("w") as project_f:
-        project_f.write(f"# List of projects for OLS-{cohort}\n")
-        project_f.write("#\n")
-        project_f.write("# Check previous OLS for examples\n")
+        project_f.write(f"# List of projects for {program} {cohort}\n")
         project_f.write("---\n")
         yaml.dump(projects, project_f)
 
@@ -923,29 +882,31 @@ def create_empty_metadata():
     return metadata
 
 
-def load_metadata(cohort):
+def load_metadata(program, cohort):
     """
     Laod metadata from YAML file
 
-    :param cohort: cohort number
+    :param program: Training program
+    :param cohort: cohort name
     """
-    metadata_fp = Path(f"_data/openseeds/ols-{cohort}/metadata.yaml")
+    metadata_fp = Path(f"_data/{program}/{cohort}/metadata.yaml")
     # load metadata cohort file into a dictionary
     with open(metadata_fp) as metadata_f:
         metadata = yaml.load(metadata_f)
     return metadata
 
 
-def dump_metadata(metadata, cohort):
+def dump_metadata(metadata, program, cohort):
     """
     Dump metadata to YAML file
 
     :param metadata: dictionary with metadata details
-    :param cohort: cohort number
+    :param program: Training program
+    :param cohort: cohort name
     """
-    metadata_fp = Path(f"_data/openseeds/ols-{cohort}/metadata.yaml")
+    metadata_fp = Path(f"_data/{program}/{cohort}/metadata.yaml")
     with metadata_fp.open("w") as metadata_f:
-        metadata_f.write(f"# List of experts, possible mentors and organizers for OLS-{cohort}\n")
+        metadata_f.write(f"# List of experts, possible mentors and organizers for {program} {cohort}\n")
         metadata_f.write("#\n")
         metadata_f.write("#\n")
         metadata_f.write("# People should be also in people.yaml file and linked using their GitHub username\n")
@@ -963,15 +924,58 @@ def format_duration(duration):
     return int(int(duration.seconds) / 60)
 
 
-### METHODS TO BUILD THE LIBRARY
+def build_cohort_name(cohort, program):
+    """
+    Build cohort name
+
+    :param program: Training program
+    :param cohort: cohort number
+    """
+    return f"{cohort_names[program]}{cohort}"
 
 
-def extract_talks():
+### METHODS TO INTERACT WITH COHORT PAGES
+
+
+def replace_cohort_names(s, cohort):
+    """
+    Replace cohort name in string
+
+    :param s: string
+    :param cohort: cohort id
+    """
+    new_s = s.replace("ols-8", cohort)
+    new_s = new_s.replace("OLS-8", cohort.upper())
+    new_s = new_s.replace("8th", "xth")
+    new_s = new_s.replace("eighth", "xth")
+    return new_s
+
+
+def write_new_cohort_file(new_cohort_fp, ex_cohort_fp, cohort):
+    """
+    Write new cohort files
+
+    :param new_cohort_fp: Path to new cohort file
+    :param ex_cohort_fp: Path to example cohort file
+    :param cohort: cohort name
+    """
+    with ex_cohort_fp.open("r") as ex_cohort_page_f:
+        with new_cohort_fp.open("w") as cohort_page_f:
+            s = replace_cohort_names(ex_cohort_page_f.read(), cohort)
+            cohort_page_f.write(s)
+
+
+### METHODS TO INTERACT WITH COHORT LIBRARY
+
+
+def extract_talks(program):
     """
     Extract talks from all cohort
+
+    :param program: Training program
     """
     talks = []
-    for c in Path("_data/openseeds").iterdir():
+    for c in Path(f"_data/{program}").iterdir():
         # get cohort schedule
         cohort = c.name.split("-")[1]
         schedule = load_schedule(cohort)
@@ -984,7 +988,11 @@ def extract_talks():
                     for talk in call["talks"]:
                         talk = dict(talk)
                         talk["date"] = call["date"]
-                        talk["cohort"] = f"ols-{cohort}"
+                        talk["cohort"] = f"{cohort}"
+                        if "title" not in talk:
+                            talk["title"] = talk["tag"]
+                        if "speakers" not in talk:
+                            talk["speakers"] = []
                         talks.append(talk)
     return talks
 
@@ -1104,7 +1112,7 @@ def export_people_per_roles(people_df, out_dp):
     for r in ROLES:
         role_df = people_df.filter(regex=r)
         role_df = role_df[role_df.filter(regex=r).notna().any(axis=1)]
-        for c in Path("_data/openseeds").iterdir():
+        for c in sorted(Path("_data/openseeds").iterdir()):
             i = c.name.split("-")[1]
             role_df.rename(columns={f"ols-{i}-{r}": f"ols-{i}"}, inplace=True)
         df = pd.merge(people_info_df, role_df, left_index=True, right_index=True, how="inner")
@@ -1112,14 +1120,15 @@ def export_people_per_roles(people_df, out_dp):
         df.to_csv(fp)
 
 
-def get_cohort_name(c):
+def get_cohort_name(c, program):
     """
     Get cohort name from cohort data path
 
     :param c: Path object to cohort data
+    :param program: Training program
     """
     i = c.name.split("-")[1]
-    return f"ols-{i}"
+    return build_cohort_name(i, program)
 
 
 ### METHODS TO PREPARE CALL TEMPLATES
@@ -1358,10 +1367,11 @@ def create_templates(calls, output_dp):
 ### COMMANDS
 
 
-def add_projects(cohort, project_df, people_df):
+def add_projects(program, cohort, project_df, people_df):
     """
-    Add projects
+    Add projects for a cohort
 
+    :param program: Training program
     :param cohort: cohort id
     :param project_df: dataframe with project details
     :param people_df: dataframe with people details
@@ -1379,7 +1389,7 @@ def add_projects(cohort, project_df, people_df):
     project_df = project_df.where(pd.notnull(project_df), None)
     projects = {}
     print("Add new projects")
-    for row in project_df.itertuples():
+    for _, row in project_df.iterrows():
         if "Comment regarding review" in row and row["Comment regarding review"] == "rejected":
             continue
         print(row["Title"])
@@ -1413,57 +1423,31 @@ def add_projects(cohort, project_df, people_df):
     project_list = [projects[p] for p in projects]
 
     # dump project dictionary into project file
-    dump_projects(project_list, cohort)
+    dump_projects(project_list, program, cohort)
 
 
-def replace_cohort_names(s, cohort):
-    """
-    Replace cohort name in string
-
-    :param s: string
-    :param cohort: cohort id
-    """
-    new_s = s.replace("ols-4", "ols-%s" % cohort)
-    new_s = new_s.replace("OLS-4", "OLS-%s" % cohort)
-    new_s = new_s.replace("4th", "%sth" % cohort)
-    new_s = new_s.replace("fourth", "%sth" % cohort)
-    return new_s
-
-
-def write_new_cohort_file(new_cohort_fp, ex_cohort_fp, cohort):
-    """
-    Write new cohort files
-
-    :param new_cohort_fp: Path to new cohort file
-    :param ex_cohort_fp: Path to example cohort file
-    :param cohort: cohort id
-    """
-    with ex_cohort_fp.open("r") as ex_cohort_page_f:
-        with new_cohort_fp.open("w") as cohort_page_f:
-            s = replace_cohort_names(ex_cohort_page_f.read(), cohort)
-            cohort_page_f.write(s)
-
-
-def create_cohort(cohort):
+def create_cohort(program, cohort):
     """
     Create files for a new cohort
 
-    :param cohort: cohort id
+    :param program: Training program
+    :param cohort: Cohort name
     """
+    program_dp = Path(f"_data/{program}")
+    program_dp.mkdir(parents=True, exist_ok=True)
     # create schedule skeleton
     schedule = create_empty_schedule()
-    dump_schedule(schedule, cohort)
+    dump_schedule(schedule, program, cohort)
     # create project skeleton
-    dump_projects([], cohort)
+    dump_projects([], program, cohort)
     # create metadata skeleton
     metadata = create_empty_metadata()
-    dump_metadata(metadata, cohort)
-    # create cohort page
-    write_new_cohort_file(Path("ols-%s.md" % cohort), Path("ols-4.md"), cohort)
+    dump_metadata(metadata, program, cohort)
     # create cohort folder
-    cohort_dp = Path("_ols-%s" % cohort)
+    cohort_dp = program_dp / Path(cohort)
     cohort_dp.mkdir(parents=True, exist_ok=True)
-    ex_cohort_dp = Path("_ols-4")
+    ex_cohort_dp = Path("_data/openseeds/ols-8")
+    write_new_cohort_file(cohort_dp / Path("index.md"), ex_cohort_dp / Path("index.md"), cohort)
     write_new_cohort_file(
         cohort_dp / Path("projects-participants.md"), ex_cohort_dp / Path("projects-participants.md"), cohort
     )
@@ -1471,68 +1455,124 @@ def create_cohort(cohort):
     write_new_cohort_file(cohort_dp / Path("speaker-guide.md"), ex_cohort_dp / Path("speaker-guide.md"), cohort)
 
 
-def get_expertises(cohort):
+def get_expertises(program, cohort):
     """
     Extract expert/mentor expertise from metadata file and order expert/mentor given that information
 
-    :param cohort: cohort id
+    :param program: Training program
+    :param cohort: cohort name
     """
     people = load_people()
 
-    metadata = load_metadata(cohort)
+    metadata = load_metadata(program, cohort)
     # add expertise:people for possible mentors in a dictionary to metadata
     metadata["possible-mentors-with-expertise"] = extract_expertise(metadata["possible-mentors"], people)
     # add expertise:people for possible mentors in a dictionary to metadata
     metadata["experts-with-expertise"] = extract_expertise(metadata["experts"], people)
     # dump expertise dictionary into metadata file
-    dump_metadata(metadata, cohort)
+    dump_metadata(metadata, program, cohort)
 
 
-def add_mentors_experts(type, people_df, cohort):
+def add_mentors_experts(type, people_df, program, cohort):
     """
     Add mentor/experts details to people.yaml, add them to the metadata file for the cohort and extract expertises
 
     :param type: mentor or expert
     :param people_df: dataframe with people details
-    :param cohort: cohort id
+    :param program: Training program
+    :param cohort: cohort name
     """
     # add people to people.yaml
     added_people = extract_people(people_df)
 
     # add mentors/experts to the metadata file
-    metadata = load_metadata(cohort)
+    metadata = load_metadata(program, cohort)
     print(metadata)
     if type == "mentor":
         metadata["possible-mentors"] = added_people
     else:
         metadata["experts"] = added_people
     print(metadata)
-    dump_metadata(metadata, cohort)
+    dump_metadata(metadata, program, cohort)
 
     # extract expertises
-    get_expertises(cohort)
+    get_expertises(program, cohort)
 
 
-def update_schedule(cohort, schedule_df):
+def update_schedule(program, cohort, schedule_df):
     """
     Update schedule from a sheet
 
-    :param cohort: cohort id
+    :param program: Training program
+    :param cohort: cohort name
     :param schedule_df: data frame with schedule
     """
     # load people information
     reorder_people = load_reordered_people()
     # load schedule
-    schedule = load_schedule(args.cohort)
+    schedule = load_schedule(program, cohort)
     # add event information to schedule
     schedule = add_event_information(schedule, schedule_df, reorder_people)
     # dump schedule dictionary into schedule file
-    dump_schedule(schedule, args.cohort)
+    dump_schedule(schedule, program, cohort)
 
 
-def build_library():
+def get_people(program, cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp):
+    """
+    Extract people information of a specific cohort from website to spreadsheets
+
+    :param program: Training program
+    :param cohort: cohort id
+    :param participant_fp: path to output sheet with participants details
+    :param mentor_fp: path to output sheet with mentor details
+    :param expert_fp: path to output sheet with expert details
+    :param speaker_fp: path to output sheet with speaker details
+    :param host_fp: path to output sheet with call host details
+    """
+    # load people information
+    people = load_people()
+
+    # extract participants and mentors
+    participants = []
+    mentors = []
+    # load projects
+    fp = Path(f"_data/{program}/{cohort}/projects.yaml")
+    projects = read_yaml(fp)
+    for p in projects:
+        participants += p["participants"]
+        mentors += p["mentors"]
+    extract_people_df(participants, people, participant_fp)
+    extract_people_df(mentors, people, mentor_fp)
+
+    # extract experts and organizers
+    # load metadata
+    fp = Path(f"_data/{program}/{cohort}/metadata.yaml")
+    metadata = read_yaml(fp)
+    experts = metadata["experts"]
+    extract_people_df(experts, people, expert_fp)
+
+    # extract speakers and call hosts
+    speakers = []
+    hosts = []
+    # load schedule
+    schedule = load_schedule(cohort)
+    for week in schedule["weeks"].values():
+        for call in week["calls"]:
+            if call["type"] == "cohort":
+                for r in call["talks"]:
+                    if "speakers" in r:
+                        speakers += r["speakers"]
+            if "hosts" in call:
+                hosts += call["hosts"]
+    extract_people_df(speakers, people, speaker_fp)
+    extract_people_df(hosts, people, host_fp)
+
+
+def build_library(program):
     """
     Extract talks from all cohort schedule to build library
+
+    :param program: Training program
     """
     # extract talks
     talks = extract_talks()
@@ -1541,7 +1581,7 @@ def build_library():
     # combine tags by topic to build library
     library = combine_tags(talks_by_tag)
     # write library to file
-    fp = Path("_data/library.yaml")
+    fp = Path(f"_data/{program}/library.yaml")
     with fp.open("w") as cat_f:
         cat_f.write("# Library of expert talks in cohort calls\n")
         cat_f.write("---\n")
@@ -1572,13 +1612,16 @@ def reformate_people():
     dump_people(people)
 
 
-def extract_library(out_fp):
+def extract_library(program, out_fp):
     """
     Extract library data to a CSV file
 
+    :param program: Training program
     :param out_fp: Path to CSV file
     """
-    library = read_yaml("_data/library.yaml")
+    # get people information
+    people = load_people()
+    library = read_yaml(f"_data/{program}/library.yaml")
     # flatten the library
     flat_library = []
     for tag, t_v in library.items():
@@ -1586,26 +1629,27 @@ def extract_library(out_fp):
             for v in st_v["talks"]:
                 v["tag"] = tag
                 v["subtag"] = subtag
+                if "speakers" in v:
+                    v["speakers"] = get_people_names(v["speakers"], people)
                 flat_library.append(v)
     # transform to data frame to export it to csv
     library_df = pd.DataFrame(flat_library)
+    library_df["speakers"] = library_df["speakers"].apply(
+        lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
+    )
     library_df.to_csv(out_fp)
 
 
-def extract_full_people_data(out_dp):
+def extract_full_people_data(artifact_dp):
     """
     Extract full people data from website into CSV files
 
-    :param out_dp: Path object to output folder
+    :param artifact_dp: dictionary with Path object to artifact folders
     """
-    # prepare output folder
-    out_dp = Path("_data/artifacts/")
-    out_dp.mkdir(parents=True, exist_ok=True)
-
     # get people information
     people = load_people()
-    # format information
-    for value in people.value():
+
+    for value in people.values():
         # remove some keys
         value.pop("affiliation", None)
         value.pop("bio", None)
@@ -1615,90 +1659,102 @@ def extract_full_people_data(out_dp):
         value.pop("github", None)
         value.pop("title", None)
         value.pop("expertise", None)
-        # add space for openseeds cohorts
-        for c in Path("_data/openseeds").iterdir():
-            cohort = get_cohort_name(c)
-            value[f"{cohort}-role"] = []
-            value[f"{cohort}-participant"] = []
-            value[f"{cohort}-mentor"] = []
-            value[f"{cohort}-expert"] = None
-            value[f"{cohort}-speaker"] = None
-            value[f"{cohort}-facilitator"] = None
-            value[f"{cohort}-organizer"] = None
-
-    # get cohort and project informations
-    projects = []
-    for c in Path("_data/openseeds").iterdir():
-        cohort = get_cohort_name(c)
-        # extract experts, facilitators, organizers from metadata
-        metadata = read_yaml(f"{c}/metadata.yaml")
-        update_people_info(metadata["experts"], people, cohort, "expert", "expert")
-        if "facilitators" in metadata:
-            update_people_info(metadata["facilitators"], people, cohort, "facilitator", "facilitator")
-        update_people_info(metadata["organizers"], people, cohort, "organizer", "organizer")
-        # extract participants, mentors from projects
-        # extract project details
-        cohort_projects = read_yaml(f"{c}/projects.yaml")
-        for p in cohort_projects:
-            # update participant and mentor information
-            update_people_info(p["participants"], people, cohort, "participant", p["name"])
-            update_people_info(p["mentors"], people, cohort, "mentor", p["name"])
-            # get project details
-            pr = copy.copy(p)
-            pr["participants"] = get_people_names(p["participants"], people)
-            pr["mentors"] = get_people_names(p["mentors"], people)
-            pr["cohort"] = cohort.split("-")[-1]
-            pr["keywords"] = p["keywords"] if "keywords" in p else []
-            projects.append(pr)
-        # extract speakers from schedule
-        schedule = read_yaml(f"{c}/schedule.yaml")
-        for week in schedule["weeks"].values():
-            for c in week["calls"]:
-                if c["type"] == "Cohort" and "resources" in c and c["resources"] is not None:
-                    for r in c["resources"]:
-                        if r["type"] == "slides" and "speaker" in r and r["speaker"] is not None:
-                            update_people_info([r["speaker"]], people, cohort, "speaker", "speaker")
-
-    # format people / project information per cohort
-    people_per_cohort = format_people_per_cohort(people)
 
     # export people information to CSV file
     people_df = pd.DataFrame.from_dict(people, orient="index")
-    for c in Path("_data/openseeds").iterdir():
-        cohort = get_cohort_name(c)
-        people_df[f"{cohort}-role"] = people_df[f"{cohort}-role"].apply(
-            lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
-        )
-        people_df[f"{cohort}-participant"] = people_df[f"{cohort}-participant"].apply(
-            lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
-        )
-        people_df[f"{cohort}-mentor"] = people_df[f"{cohort}-mentor"].apply(
-            lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
-        )
-    people_fp = out_dp / Path("people.csv")
+    people_fp = artifact_dp["all"] / Path("people.csv")
     people_df.to_csv(people_fp)
 
-    # export project information to CSV file
-    project_df = pd.DataFrame(projects)
-    project_df["participants"] = project_df["participants"].apply(lambda x: ", ".join([str(i) for i in x]))
-    project_df["mentors"] = project_df["mentors"].apply(lambda x: ", ".join([str(i) for i in x]))
-    project_df["keywords"] = project_df["keywords"].apply(lambda x: ", ".join([str(i) for i in x]))
-    project_fp = out_dp / Path("projects.csv")
-    project_df.to_csv(project_fp)
+    for program in ["openseeds"]:
+        progr_people = copy.copy(people_df)
 
-    # export people per cohort
-    people_per_cohort_df = pd.DataFrame(people_per_cohort)
-    people_per_cohort_fp = out_dp / Path("people_per_cohort.csv")
-    people_per_cohort_df.to_csv(people_per_cohort_fp)
+        for value in people.values():
+            # add space for openseeds cohorts
+            for c in sorted(Path(f"_data/{program}").iterdir()):
+                cohort = get_cohort_name(c)
+                value[f"{cohort}-role"] = []
+                value[f"{cohort}-participant"] = []
+                value[f"{cohort}-mentor"] = []
+                value[f"{cohort}-expert"] = None
+                value[f"{cohort}-speaker"] = None
+                value[f"{cohort}-facilitator"] = None
+                value[f"{cohort}-organizer"] = None
 
-    # export people per role
-    export_people_per_roles(people_df, out_dp)
+        # get cohort and project informations
+        projects = []
+        for c in sorted(Path(f"_data/{program}").iterdir()):
+            cohort = get_cohort_name(c, program)
+            # extract experts, facilitators, organizers from metadata
+            metadata = read_yaml(f"{c}/metadata.yaml")
+            update_people_info(metadata["experts"], progr_people, cohort, "expert", "expert")
+            if "facilitators" in metadata:
+                update_people_info(metadata["facilitators"], progr_people, cohort, "facilitator", "facilitator")
+            update_people_info(metadata["organizers"], progr_people, cohort, "organizer", "organizer")
+            # extract participants, mentors from projects
+            # extract project details
+            cohort_projects = read_yaml(f"{c}/projects.yaml")
+            for p in cohort_projects:
+                # update participant and mentor information
+                update_people_info(p["participants"], progr_people, cohort, "participant", p["name"])
+                update_people_info(p["mentors"], progr_people, cohort, "mentor", p["name"])
+                # get project details
+                pr = copy.copy(p)
+                pr["participants"] = get_people_names(p["participants"], progr_people)
+                pr["mentors"] = get_people_names(p["mentors"], progr_people)
+                pr["cohort"] = cohort.split("-")[-1]
+                pr["keywords"] = p["keywords"] if "keywords" in p else []
+                projects.append(pr)
+            # extract speakers from schedule
+            schedule = read_yaml(f"{c}/schedule.yaml")
+            for week in schedule["weeks"].values():
+                for c in week["calls"]:
+                    if c["type"] == "Cohort" and "talks" in c:
+                        for t in c["talks"]:
+                            if "speakers" in t:
+                                update_people_info(t["speakers"], progr_people, cohort, "speaker", "speaker")
+
+        # format people / project information per cohort
+        people_per_cohort = format_people_per_cohort(progr_people)
+
+        # export people information to CSV file
+        people_df = pd.DataFrame.from_dict(progr_people, orient="index")
+        for c in sorted(Path(f"_data/{program}").iterdir()):
+            cohort = get_cohort_name(c, program)
+            people_df[f"{cohort}-role"] = people_df[f"{cohort}-role"].apply(
+                lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
+            )
+            people_df[f"{cohort}-participant"] = people_df[f"{cohort}-participant"].apply(
+                lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
+            )
+            people_df[f"{cohort}-mentor"] = people_df[f"{cohort}-mentor"].apply(
+                lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
+            )
+        people_fp = artifact_dp[program] / Path("people.csv")
+        people_df.to_csv(people_fp)
+
+        # export project information to CSV file
+        project_df = pd.DataFrame(projects)
+        project_df["participants"] = project_df["participants"].apply(lambda x: ", ".join([str(i) for i in x]))
+        project_df["mentors"] = project_df["mentors"].apply(lambda x: ", ".join([str(i) for i in x]))
+        project_df["keywords"] = project_df["keywords"].apply(lambda x: ", ".join([str(i) for i in x]))
+        project_df["collaboration"] = project_df["collaboration"].apply(lambda x: ", ".join([str(i) for i in x]))
+        project_fp = artifact_dp[program] / Path("projects.csv")
+        project_df.to_csv(project_fp)
+
+        # export people per cohort
+        people_per_cohort_df = pd.DataFrame(people_per_cohort)
+        people_per_cohort_fp = artifact_dp[program] / Path("people_per_cohort.csv")
+        people_per_cohort_df.to_csv(people_per_cohort_fp)
+
+        # export people per role
+        export_people_per_roles(people_df, artifact_dp[program])
 
 
 def create_call_template(schedule_df, output_dp):
     """
     Create call templates for a cohort
 
+    :param program: Training program
     :param schedule_df: data frame with schedule
     :param output_dp: Path object to output directory
     """
@@ -1710,11 +1766,44 @@ def create_call_template(schedule_df, output_dp):
     create_templates(calls, output_dp)
 
 
+def update_bibliography(api):
+    """
+    Update bibliography file from Zotero group
+
+    :param api: Zotero API key
+    """
+    zot = zotero.Zotero("5292095", "group", api)
+    zot.add_parameters(format="bibtex")
+    library = zot.everything(zot.top())
+    bibtex_fp = Path("_bibliography/team.bib")
+    with bibtex_fp.open("w") as bib_f:
+        bibtexparser.dump(library, bib_f)
+
+
+def create_project_table(program):
+    """
+    Create interactive table for openseeds projects
+
+    :param program: Training program
+    """
+    columns = ["", "Name", "Participants", "Keywords", "Mentors", "Description", "Cohort", "Status", "Collaboration"]
+    df = (
+        pd.read_csv(artifact_dp[program] / Path("projects.csv"), index_col=False)
+        .rename(columns=str.title)
+        .reindex(columns=columns)
+        .fillna("")
+    )
+    df_str = df.to_html(border=0, table_id="dataframe", classes=["display", "nowrap"], index=False)
+    with Path(f"_includes/{program}-project.html").open("w") as project_f:
+        project_f.write(df_str)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Interact and prepare OLS website data")
     subparser = parser.add_subparsers(dest="command")
     # Add projects
     addprojects = subparser.add_parser("addprojects", help="Add projects")
+    addprojects.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     addprojects.add_argument("-c", "--cohort", help="Cohort id (3, 4, etc)", required=True)
     projectgroup = addprojects.add_mutually_exclusive_group()
     projectgroup.add_argument("-pf", "--project_fp", help="Path to project sheet file")
@@ -1724,6 +1813,7 @@ if __name__ == "__main__":
     peoplegroup.add_argument("-du", "--people_url", help="URL to people details sheet file")
     # Create cohort
     createcohort = subparser.add_parser("createcohort", help="Create files for a new cohort")
+    createcohort.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     createcohort.add_argument("-c", "--cohort", help="Cohort id (3, 4, etc)", required=True)
     # Extract people
     extractpeople = subparser.add_parser(
@@ -1737,12 +1827,14 @@ if __name__ == "__main__":
         "getexpertises",
         help="Extract expert/mentor expertise from metadata file and order expert/mentor given that information",
     )
+    getexpertises.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     getexpertises.add_argument("-c", "--cohort", help="Cohort id (3, 4, etc)", required=True)
     # Add mentors / experts
     addmentorexperts = subparser.add_parser(
         "addmentorsexperts",
         help="Add mentor/experts details to people.yaml, add them to the metadata file for the cohort and extract expertises",
     )
+    addprojects.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     addmentorexperts.add_argument("-c", "--cohort", help="Cohort id (3, 4, etc)", required=True)
     addmentorexperts.add_argument(
         "-t", "--type", choices=["mentor", "expert"], help="Mentors or experts to add", required=True
@@ -1752,6 +1844,7 @@ if __name__ == "__main__":
     group.add_argument("-du", "--people_url", help="URL to people details sheet file")
     # Update schedule
     updateschedule = subparser.add_parser("updateschedule", help="Update schedule from a sheet")
+    updateschedule.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     updateschedule.add_argument("-c", "--cohort", help="Cohort id (3, 4, etc)", required=True)
     group = updateschedule.add_mutually_exclusive_group()
     group.add_argument("-sf", "--schedule_fp", help="Path to schedule CSV file")
@@ -1760,6 +1853,7 @@ if __name__ == "__main__":
     getpeople = subparser.add_parser(
         "getpeople", help="Extract people information of a specific cohort to spreadsheets"
     )
+    getpeople.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     getpeople.add_argument("-c", "--cohort", help="Cohort id (3, 4, etc)", required=True)
     getpeople.add_argument(
         "-pf", "--participants", help="Path to output sheet with participants details", required=True
@@ -1770,12 +1864,14 @@ if __name__ == "__main__":
     getpeople.add_argument("-hf", "--hosts", help="Path to output sheet with call host details", required=True)
     # Extract talks to build library
     buildlibrary = subparser.add_parser("buildlibrary", help="Extract talks to build library")
+    addprojects.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     # Reformate people data
     reformatepeople = subparser.add_parser("reformatepeople", help="Reformate people information")
     # Extract library data to CSV
     extractlibrary = subparser.add_parser(
         "extractlibrary", help="Extract library data to CSV file stored in _data folder"
     )
+    extractlibrary.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     # Extract full people data to CSV
     extractfullpeopledata = subparser.add_parser(
         "extractfullpeopledata",
@@ -1783,15 +1879,23 @@ if __name__ == "__main__":
     )
     # Create cohort call template
     createcalltemplate = subparser.add_parser("createcalltemplate", help="Create cohort call template")
+    # createcalltemplate.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
     group = createcalltemplate.add_mutually_exclusive_group()
     group.add_argument("-sf", "--schedule_fp", help="Path to schedule CSV file")
     group.add_argument("-su", "--schedule_url", help="URL to schedule sheet file")
     createcalltemplate.add_argument("-o", "--output", help="Output directory", required=True)
+    # Update bibliography
+    updatebibliography = subparser.add_parser("updatebibliography", help="Get the bibliography file from Zotero")
+    updatebibliography.add_argument("-a", "--api", help="Zotero API key", required=True)
+    # Create project interactive table
+    createprojecttable = subparser.add_parser("createprojecttable", help="Create project interactive table")
+    createprojecttable.add_argument("-p", "--program", help="Program (e.g. openseeds)", required=True)
 
     args = parser.parse_args()
 
     # prepare artifact folder
-    artifact_dp.mkdir(parents=True, exist_ok=True)
+    for dp in artifact_dp.values():
+        dp.mkdir(parents=True, exist_ok=True)
 
     if args.command == "addprojects":
         if args.project_fp:
@@ -1802,31 +1906,32 @@ if __name__ == "__main__":
             people_df = pd.read_csv(Path(args.people_fp))
         else:
             people_df = pd.read_csv(args.people_url)
-        add_projects(args.cohort, project_df, people_df)
+        add_projects(args.program, build_cohort_name(args.cohort, args.program), project_df, people_df)
     elif args.command == "createcohort":
-        create_cohort(args.cohort)
+        create_cohort(args.program, build_cohort_name(args.cohort, args.program))
     elif args.command == "extractpeople":
         if args.people_url:
             extract_people(pd.read_csv(args.people_url))
         else:
             extract_people(pd.read_csv(Path(args.people_fp)))
     elif args.command == "getexpertises":
-        get_expertises(args.cohort)
+        get_expertises(args.program, build_cohort_name(args.cohort, args.program))
     elif args.command == "addmentorsexperts":
         if args.people_url:
             people_df = pd.read_csv(args.people_url)
         else:
             people_df = pd.read_csv(Path(args.people_fp))
-        add_mentors_experts(args.type, people_df, args.cohort)
+        add_mentors_experts(args.type, people_df, args.program, build_cohort_name(args.cohort, args.program))
     elif args.command == "updateschedule":
         if args.schedule_url:
             schedule_df = pd.read_csv(args.schedule_url)
         else:
             schedule_df = pd.read_csv(Path(args.schedule_fp))
-        update_schedule(args.cohort, schedule_df)
+        update_schedule(args.program, build_cohort_name(args.cohort, args.program), schedule_df)
     elif args.command == "getpeople":
         get_people(
-            args.cohort,
+            args.program,
+            build_cohort_name(args.cohort, args.program),
             Path(args.participants),
             Path(args.mentors),
             Path(args.experts),
@@ -1834,11 +1939,11 @@ if __name__ == "__main__":
             Path(args.hosts),
         )
     elif args.command == "buildlibrary":
-        build_library()
+        build_library(args.program)
     elif args.command == "reformatepeople":
         reformate_people()
     elif args.command == "extractlibrary":
-        extract_library(artifact_dp / Path("library.csv"))
+        extract_library(args.program, artifact_dp[args.program] / Path("library.csv"))
     elif args.command == "extractfullpeopledata":
         extract_full_people_data(artifact_dp)
     elif args.command == "createcalltemplate":
@@ -1847,3 +1952,7 @@ if __name__ == "__main__":
         else:
             schedule_df = pd.read_csv(Path(args.schedule_fp))
         create_call_template(schedule_df, Path(args.output))
+    elif args.command == "updatebibliography":
+        update_bibliography(args.api)
+    elif args.command == "createprojecttable":
+        create_project_table(args.program)

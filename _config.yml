@@ -11,35 +11,12 @@ url: https://openlifesci.org/
 announcement_list: https://groups.google.com/g/ols-news
 youtube: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
 
+includes_dir: .
 markdown: kramdown
 
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
-  ols-1:
-    permalink: /openseeds/ols-1/:path/
-    output: true
-  ols-2:
-    permalink: /openseeds/ols-2/:path/
-    output: true
-  ols-3:
-    permalink: /openseeds/ols-3/:path/
-    output: true
-  ols-4:
-    permalink: /openseeds/ols-4/:path/
-    output: true
-  ols-5:
-    permalink: /openseeds/ols-5/:path/
-    output: true
-  ols-6:
-    permalink: /openseeds/ols-6/:path/
-    output: true
-  ols-7:
-    permalink: /openseeds/ols-7/:path/
-    output: true
-  ols-8:
-    permalink: /openseeds/ols-8/:path/
-    output: true
   consulting:
     output: true
     permalink: /consulting/:path/
@@ -49,11 +26,10 @@ toc:
   max_level: 3 # default: 6
   list_class: menu-list
 
-includes_dir: .
-
 plugins:
   - jekyll-github-metadata
   - jekyll-scholar
   - jekyll-sitemap
+  - jekyll-spaceship
   - jekyll-redirect-from
   - jekyll-toc
