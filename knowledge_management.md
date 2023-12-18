@@ -9,7 +9,7 @@ photos:
   url: https://unsplash.com/photos/closeup-photo-of-grey-gear-part-n55IHMpkSoc
 ---
 
-Information and data about our different programs, our community, etc are managed via repositories in a [GitHub organization]({{ site.owner_url }}), [CiviCRM](https://civicrm.org/), and documents stored in Google Drive.
+Information and data about our different programs, our community, etc are managed via repositories in a [GitHub organization]({{ site.github.owner_url }}), [CiviCRM](https://civicrm.org/), and documents stored in Google Drive.
 
 # OLS community
 
