@@ -9,20 +9,36 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-Funded by [NASA](https://www.nasa.gov/), this work aims to deliver fully virtual training cohorts for the [NASA TOPS OpenCore training curriculum](https://nasa.github.io/Transform-to-Open-Science/) with a 
+Funded by [NASA](https://www.nasa.gov/), this program will deliver fully virtual training cohorts for the [NASA TOPS OpenCore training curriculum](https://nasa.github.io/Transform-to-Open-Science/) with a 
 highly qualitative component throughout the training. 
 
 # About
       
-Starting in 2024 and for 3 years, the team will deliver five 6-week Virtual Cohorts per year. The cohorts will include guided reflection and hands-on implementation of open science concepts, processes, and 
-techniques. This program will teach one OpenCore Module per week, by bringing in expert speakers from across different scientific domains, allowing learners to actively embed their training in their work and 
-reflect on their learning with a mentor.
+Over three years starting in 2024, we will deliver five 6-week Virtual Cohorts per year. The cohorts will engage participants in hands-on implementation of open science concepts and tools. This program will teach one OpenCore Module per week, by bringing in expert speakers from across different scientific domains, allowing learners to actively embed their training in their work and reflect on their learning with a mentor.
 
-# Expected timeline
+# Timeline
 
-# Interested?
+The training will cover [the five modules in OpenCore](https://opensciency.github.io/sprint-content), and participants will work with a mentor to discuss real-world application of the skills they use. The schedule for individual cohorts is shown below:
 
-You can register your interest here: 
+| **Cohort timeline**      |                        |  Week |   |   |   |   |   |
+|--------------------------|------------------------|:-----:|:-:|:-:|:-:|:-:|:-:|
+|                          |                        | 1 | 2 | 3 | 4 | 5 | 6 |   |   
+| **TOPS OpenCore module** | **Ethos**              | X |   |   |   |   |   |   |   
+|                          | **Tools & Resources**  |   | X |   |   |   |   |   |  
+|                          | **Data**               |   |   | X |   |   |   |   |  
+|                          | **Code**               |   |   |   | X |   |   |   |  
+|                          | **Results**            |   |   |   |   | X |   |   | 
+| **Final Graduation**     | Group presentations    |   |   |   |   |   | X |   |
+| **Mentor**               | 1 mentor:group project | X | X | X | X | X |   |   |
+| **Reflection & implementation** | Self-led by participants <br>- optional assignments <br>- prep for final presentations | X | X | X | X | X |  |
+
+The expected time committment for this training is 4 h per week. We plan to run **five cohorts per year**. 
+We will 
+
+# Join us
+
+Are you interested in participating as a trainee or 
+Please fill out this form to register your interest to participate as a trainee or an expert:  
 
 # Want more information?
 
