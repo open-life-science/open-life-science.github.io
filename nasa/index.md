@@ -20,19 +20,21 @@ Over three years starting in 2024, we will deliver five 6-week Virtual Cohorts p
 
 The training will cover [the five modules in OpenCore](https://opensciency.github.io/sprint-content), and participants will work with an expert to discuss real-world application of the skills they learn. The schedule for individual cohorts is shown below:
 
-| **Cohort timeline**      |                        |  Week |   |   |   |   |   |
-|--------------------------|------------------------|:-----:|:-:|:-:|:-:|:-:|:-:|
-|                          |                        | 1 | 2 | 3 | 4 | 5 | 6 |   |   
-| **TOPS OpenCore module** | **Ethos**              | X |   |   |   |   |   |   |   
-|                          | **Tools & Resources**  |   | X |   |   |   |   |   |  
-|                          | **Data**               |   |   | X |   |   |   |   |  
-|                          | **Code**               |   |   |   | X |   |   |   |  
-|                          | **Results**            |   |   |   |   | X |   |   | 
-| **Final Graduation**     | Group presentations    |   |   |   |   |   | X |   |
-| **Expert consultation**  | 1 expert:group project | X | X | X | X | X |   |   |
-| **Reflection & implementation** | Self-led by participants <br>- optional assignments <br>- prep for final presentations | X | X | X | X | X |  |
+| Cohort timeline                 |                                | TOPS OpenCore modules |  Weeks           ||||||
+|---------------------------------|--------------------------------|-----------------------|:-:|:-:|:-:|:-:|:-:|:-:|
+|                                 |                                |                       | 1 | 2 | 3 | 4 | 5 | 6 |   
+| **Cohort Calls**                |                                | **Ethos**             | X |   |   |   |   |   |   
+| ^^                              | ^^                             | **Tools & Resources** |   | X |   |   |   |   |  
+| ^^                              | ^^                             | **Data**              |   |   | X |   |   |   |  
+| ^^                              | ^^                             | **Code**              |   |   |   | X |   |   |  
+| ^^                              | ^^                             | **Results**           |   |   |   |   | X |   | 
+| **Final Graduation**            | Group presentations            |                       |   |   |   |   |   | X |
+| **Expert consultation**         | 1 expert:group project         |                       | X | X | X | X | X |   |
+| **Reflection & implementation** | Self-led by participants       |                       | X | X | X | X | X |   \
+|                                 | - optional assignments         |                       |   |   |   |   |   |   \
+|                                 | - prep for final presentations |                       |   |   |   |   |   |   |
 
-The expected time commitment for this training is 4 h per week. We plan to run **five cohorts per year**. 
+The expected time commitment for this training is 4 hours per week. We plan to run **five cohorts per year**. 
 We will run a pilot cohort in early 2024. 
 
 # Join us
