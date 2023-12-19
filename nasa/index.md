@@ -9,7 +9,7 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-Funded by [NASA](https://www.nasa.gov/), this program will deliver fully virtual training cohorts for the [NASA TOPS OpenCore training curriculum](https://nasa.github.io/Transform-to-Open-Science/) with a 
+Get ready for an exciting project starting in 2024 in collaboration with [NASA-TOPS](https://nasa.github.io/Transform-to-Open-Science/).
 Funded by [NASA](https://www.nasa.gov/), OLS will bring its globally successful cohort-based approach, incorporating a personal qualitative component throughout the training.
 
 # About
