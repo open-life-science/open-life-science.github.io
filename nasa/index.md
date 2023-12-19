@@ -14,11 +14,11 @@ highly qualitative component throughout the training.
 
 # About
       
-Over three years starting in 2024, we will deliver five 6-week Virtual Cohorts per year. The cohorts will engage participants in hands-on implementation of open science concepts and tools. This program will teach one OpenCore Module per week, by bringing in expert speakers from across different scientific domains, allowing learners to actively embed their training in their work and reflect on their learning with a mentor.
+Over three years starting in 2024, we will deliver five 6-week Virtual Cohorts per year. The cohorts will engage participants in hands-on implementation of open science concepts and tools. This program will teach one OpenCore Module per week, by bringing in speakers from across different scientific domains, allowing learners to actively embed their training in their work and reflect on their learning with guidance from expert practioners.
 
 # Timeline
 
-The training will cover [the five modules in OpenCore](https://opensciency.github.io/sprint-content), and participants will work with a mentor to discuss real-world application of the skills they use. The schedule for individual cohorts is shown below:
+The training will cover [the five modules in OpenCore](https://opensciency.github.io/sprint-content), and participants will work with an expert to discuss real-world application of the skills they learn. The schedule for individual cohorts is shown below:
 
 | **Cohort timeline**      |                        |  Week |   |   |   |   |   |
 |--------------------------|------------------------|:-----:|:-:|:-:|:-:|:-:|:-:|
@@ -29,17 +29,18 @@ The training will cover [the five modules in OpenCore](https://opensciency.githu
 |                          | **Code**               |   |   |   | X |   |   |   |  
 |                          | **Results**            |   |   |   |   | X |   |   | 
 | **Final Graduation**     | Group presentations    |   |   |   |   |   | X |   |
-| **Mentor**               | 1 mentor:group project | X | X | X | X | X |   |   |
+| **Expert consultation**  | 1 expert:group project | X | X | X | X | X |   |   |
 | **Reflection & implementation** | Self-led by participants <br>- optional assignments <br>- prep for final presentations | X | X | X | X | X |  |
 
 The expected time committment for this training is 4 h per week. We plan to run **five cohorts per year**. 
-We will 
+We will run a pilot cohort in early 2024. 
 
 # Join us
 
-Are you interested in participating as a trainee or 
-Please fill out this form to register your interest to participate as a trainee or an expert:  
+Interested in participating as a trainee or as an expert? Please fill out [this form](https://forms.gle/bUEXdcSkt9BgY4tXA) to register your interest.
 
 # Want more information?
 
-You can read more about it in the [proposal](https://zenodo.org/records/8250979).
+We will be updating this post as we define further details.
+For more information, you can read our [full proposal](https://zenodo.org/records/8250979).
+
