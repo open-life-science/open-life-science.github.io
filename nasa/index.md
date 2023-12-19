@@ -9,16 +9,16 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-Get ready for an exciting project starting in 2024 in collaboration with [NASA-TOPS](https://nasa.github.io/Transform-to-Open-Science/).
-**[Register your interest](https://docs.google.com/forms/d/e/1FAIpQLSdalQ0drobXZWulNLyXYUUE6u5RUtX9HAetl8oPXvZYcnc0fw/viewform)**!
+Get ready for an exciting new series of cohorts on open science starting in 2024 in collaboration with [NASA-TOPS](https://nasa.github.io/Transform-to-Open-Science/).
 
-Funded by [NASA](https://www.nasa.gov/), OLS will bring its globally successful cohort-based approach, incorporating a personal qualitative component throughout the training.
+[Register your interest](https://forms.gle/bUEXdcSkt9BgY4tXA){:.button .is-link .is-fullwidth}
 
 # About
       
-OLS cohorts under the NASA-TOPS programme will offer 6-week-long Virtual Cohorts — not just one, but five of them each year over the next three years.
+Funded by [NASA](https://www.nasa.gov/), OLS will offer 6-week-long virtual cohorts — not just once, but five times each year over the next three years.
+We will bring our globally successful cohort-based approach, incorporating a personal qualitative component throughout the training.
 
-These cohorts will provide structured training covering the [Open Science 101 Curriculum](https://nasa.github.io/Transform-to-Open-Science/).
+Our cohorts will provide structured training covering the [Open Science 101 Curriculum](https://nasa.github.io/Transform-to-Open-Science/).
 Each week, we will explore one open science module, with expert speakers from diverse scientific domains guiding hands-on learning.
 OLS cohorts will uniquely feature practical assignments, empowering learners to actively implement open science concepts and tools in their work. 
 
