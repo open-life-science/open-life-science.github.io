@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Science Accessible
+title: OLS & NASA Transform to Open Science
 description: Teaching NASA-TOPS OpenCore in English
 image: /images/index.jpg
 photos:
