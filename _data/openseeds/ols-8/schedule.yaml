@@ -1,4 +1,4 @@
-# Schedule for the OLS-8
+# Schedule for the openseeds ols-8
 ---
 timeline:
 - date: June 1, 2023
@@ -487,15 +487,17 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vRQmPldM2vu5hoUX2FpdUKuSY8-krnsaqoLP_mg-H3OdGOiTLZO99Ey-1a_PAkhlsi09TzLiPgp__dc/pub
         title: Open-source software in practice
-        tag: Open Source Software
       - speakers:
         - 
+        recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=416
         tag: Good Coding Practices
       - speakers:
         - rivaquiroga
+        recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=1437
         tag: Code Review
       - speakers:
         - 
+        recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=2890
         tag: Package Management
       time: "17:00"
       hosts:
@@ -521,19 +523,45 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vRoO3gcS1koiKYhncvBBnvI9qdMqYjEQ-BH3OKcMGHuCVdsB1nVOXpjg0_9DNXg9D4XfL8BhRpXpH_K/pub
         title: Open Science Garden(s)
-      - speakers:
+        recording: https://youtu.be/Xu9TgBXRVZw?si=FOd5dm8Q78Pn_t7K&t=131
+      - slides: 
+          https://docs.google.com/presentation/d/1mainogyd9OzOGA3BfKVQXIPbzCB08oaeyCUhz8gxTjc/edit#slide=id.g2a2d191dc2e_5_303
+        speakers:
         - 
+        recording: https://youtu.be/Xu9TgBXRVZw?si=We1w4nwOMWsXqvzu&t=377
         tag: Open Source Software
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1LemOmMyiAbL9_gjwPdxWE83C92WTfBRTL71tyPA-gcM/edit?usp=sharing
+        speakers:
         - 
+        recording: https://youtu.be/Xu9TgBXRVZw?si=pHiUfXcq_uI7I5JB&t=1411
         tag: Open Science Infrastructures
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1aluBnA6hziHb0gHulR6PkkJTPsZMaXDN/edit?usp=sharing&ouid=118073970427420961369&rtpof=true&sd=true
+        speakers:
         - 
+        recording: https://youtu.be/Xu9TgBXRVZw?si=Gldnku-8UJ6212Fb&t=2694
         tag: Open Hardware
       learning_objectives:
       - Define Open Science and Responsible Research
       - List the different principles of Open Science
       - Give examples of 3 use cases of the different Open Science principles
+      recording: https://youtu.be/Xu9TgBXRVZw
+    - date: December 08, 2023
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-8-thematic-documentation
+      title: 'In-depth thematic session: documentation/metadata'
+      hosts:
+      - iramosp
+      - pazbc
+      type: Skill-up
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/15fHd7EiNt4G1tRDb-Eaycz9U3Ko5L1RI6_sWBVw8Yq4/edit?usp=sharing
+        speakers:
+        - diana-pilvar
+        title: Documentation and metadata
   '13':
     start: December 11, 2023
     calls:
@@ -552,6 +580,19 @@ weeks:
       time: "10:00"
       hosts:
       - yochannah
+    - date: December 14, 2023
+      time: "16:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-8-week-13
+      title: Self-care & Social call
+      hosts:
+      - malvikasharan
+      type: Skill-up
+      talks:
+      - speakers:
+        - saravilla
+        title: Personal Ecology and Self Care
+        tag: Personal Ecology
   '14':
     start: December 18, 2023
     calls:
@@ -564,6 +605,19 @@ weeks:
       - malvikasharan
       type: Cohort
       talks: []
+    - date: December 20, 2023
+      time: "17:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-8-thematic-inclusive-meetings
+      title: 'In-depth thematic session: inclusive meetings'
+      hosts:
+      - iramosp
+      - pazbc
+      type: Skill-up
+      talks:
+      - speakers:
+        - rainsworth
+        title: How to run inclusive meetings and get community input
   '15':
     start: January 08, 2024
     calls:
