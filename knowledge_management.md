@@ -191,116 +191,141 @@ We developped scripts for limiting manual work to propagate the information from
 
 flowchart LR
     classDef cohort fill:#fff,stroke:#333
-    classDef nonCohort fill:#d3d3d3,stroke:#333
+    classDef nonCohort fill:#d3d3d3,stroke:#d3d3d3
 
-    civiPeople["`CiviCRM 
-    *(CSV)*`"]:::nonCohort
-    etherpad["`Etherpad`"]:::nonCohort
     teSS["`ELIXIR TeSS 
     Training Registry`"]:::nonCohort
-    youtube["`OLS YouTube 
-    channel`"]:::nonCohort
     calendar["Public Google calendar"]:::nonCohort
 
-    subgraph drive["Google Drive"]
-        participantSheet["`Project, participants, 
-        & mentors`"]:::cohort
-        planningSheet["Planning"]:::cohort
-        feedbackCSV["`Participants & 
-        Mentor feedback`"]:::cohort
+    subgraph openReview["`OpenReview`"]
+        applications["`Accepted
+        Applications`"]:::cohort
     end
-    style drive fill:#fbec5d,stroke:#fbec5d
+    style openReview fill:#c9c065,stroke:#c9c065
+
+    subgraph civi["CiviCRM"]
+        micrograntHonorariaCivi["`Microgrants & 
+        Honoraria`"]:::cohort
+        peopleCivi["Contacts"]:::cohort
+    end
+    style civi fill:#59b5e2,stroke:#59b5e2
+
+    subgraph drive["Google Drive"]
+        participantSheet["`Projects, 
+        Participants, 
+        & Mentors`"]:::cohort
+        planningSheet["Planning"]:::cohort
+        feedbackCSV["`Participant &
+        Mentor Feedback
+        Surveys`"]:::cohort
+    end
+    style drive fill:#6dd076,stroke:#6dd076
 
     subgraph github["Website GitHub repository"]
-        peopleYAML["`people 
-        *(YAML)*`"]:::cohort
+        peopleYAML["people"]:::cohort
         subgraph githubProgram["Program"]
-            libraryYAML["`library 
-            *(YAML)*`"]:::cohort
+            libraryYAML["library"]:::cohort
             subgraph githubCohort["Cohort"]
-                projectYAML["`projects 
-                *(YAML)*`"]:::cohort
-                scheduleYAML["`schedule 
-                *(YAML)*`"]:::cohort
-                metadataYAML["`metadata 
-                *(YAML)*`"]:::cohort
+                projectYAML["projects"]:::cohort
+                scheduleYAML["schedule"]:::cohort
+                metadataYAML["metadata"]:::cohort
             end
-            style githubCohort fill:#abc7fb,stroke:#fff
+            style githubCohort fill:#ed7a84,stroke:#fff
         end
-        style githubProgram fill:#abc7fb,stroke:#fff
-        subgraph artifact["`Artifacts
-        *(CSV)*`"]
+        style githubProgram fill:#ed7a84,stroke:#fff
+        subgraph artifact["Artifacts"]
+            artifactCSV["`Data
+            Artifacts`"]:::cohort
         end
-        style artifact fill:#abc7fb,stroke:#fff
+        style artifact fill:#ed7a84,stroke:#fff
     end
-    style github fill:#abc7fb,stroke:#abc7fb
+    style github fill:#ed7a84,stroke:#ed7a84
 
     subgraph cohortGithub["Cohort GitHub repository"]
-        callTemplates["`Call templates 
-        *(Markdown)*`"]:::cohort
+        callTemplates["Call Templates"]:::cohort
     end
-    style cohortGithub fill:#87ceeb,stroke:#87ceeb
+    style cohortGithub fill:#df82d0,stroke:#df82d0
+
+    subgraph etherpad["`Framapad`"]
+        callNotes["Call Notes"]:::cohort
+    end
+    style etherpad fill:#69d2b4,stroke:#69d2b4
 
     subgraph statGithub["Stat GitHub repository"]
-        notebooks["`Data processing & visualization
-        *(Notebooks)*`"]:::cohort
+        notebooks["`Data processing & 
+        Visualization
+        Notebooks`"]:::cohort
     end
-    style statGithub fill:#9fe2bf,stroke:#9fe2bf
+    style statGithub fill:#e2944e,stroke:#e2944e
+
+    subgraph youtube["`OLS YouTube channel`"]
+        recording["Call recordings"]:::cohort
+    end
+    style youtube fill:#a7cf4d,stroke:#a7cf4d
 
     subgraph website["Online Website"]
+        communityHTML["Community"]:::cohort
+        style websiteProgram fill:#9d96ea,stroke:#fff
         postHTML["`Announcement post`"]:::cohort
         subgraph websiteProgram["Program"]
             libraryHTML["`Video Library
-            _Talks of all cohorts with embeded recording sorted by topic_`"]:::cohort
+            _Embeded recordings of talks from all cohorts sorted by topic_`"]:::cohort
+            allProjectHTML["`Projects
+            _Interactive table with all projects_`"]:::cohort
             subgraph websiteCohort["Cohort"]
                 syllabusHTML["`Syllabus
-                _Mentors and experts with their expertise, facilitators_`"]:::cohort
-                projectHTML["`Project & Participants`"]:::cohort
-                assignmentHTML["`Assignments`"]:::cohort
+                _Mentors, Facilitors, Experts with their expertise, etc_`"]:::cohort
+                projectHTML["`Projects, Participants & Mentors`"]:::cohort
                 scheduleHTML["`Schedule
-                _Calls with metadata, embeded recording, slides, etc_`"]:::cohort
+                _Weekly schedule with metadata, embeded call recordings, slides, etc_`"]:::cohort
             end
-            style websiteCohort fill:#eaa9a9,stroke:#fff
+            style websiteCohort fill:#9d96ea,stroke:#fff
         end
-        style websiteProgram fill:#eaa9a9,stroke:#fff
         subgraph websiteStat["Stats"]
-            projectStatHTML["`Projects`"]:::cohort
-            rolesHTML["`Roles`"]:::cohort
-            locationHTML["`Location`"]:::cohort
-            feedbackHTML["`Feedback`"]:::cohort
-            videoHTML["`Video & YouTube`"]:::cohort
-            supportHTML["`Financial support`"]:::cohort
+            communityStatHTML["`Community location`"]:::cohort
+            subgraph statProgram["Program"]
+                rolesHTML["`Roles`"]:::cohort
+                locationHTML["`People Location`"]:::cohort
+                projectStatHTML["`Projects`"]:::cohort
+                supportHTML["`Microgrants & Honoraria`"]:::cohort
+                videoHTML["`Video Library & YouTube`"]:::cohort
+                feedbackHTML["`Feedback`"]:::cohort
+            end
+            style statProgram fill:#9d96ea,stroke:#fff
         end
-        style websiteStat fill:#eaa9a9,stroke:#fff
+        style websiteStat fill:#9d96ea,stroke:#fff
     end
-    style website fill:#eaa9a9,stroke:#eaa9a9
+    style website fill:#9d96ea,stroke:#6690ce
 
-    civiPeople --> peopleYAML
-    civiPeople --> metadataYAML
+    applications --> participantSheet
+    peopleCivi --> peopleYAML
+    peopleCivi --> metadataYAML
     participantSheet --> projectYAML
     planningSheet --> scheduleYAML
     planningSheet --> calendar
     scheduleYAML --> libraryYAML
     planningSheet --> callTemplates
-    callTemplates --> etherpad
+    callTemplates --> callNotes
     projectYAML --> postHTML
+    projectYAML --> allProjectHTML
     projectYAML --> projectHTML
     scheduleYAML --> scheduleHTML
     libraryYAML --> libraryHTML
-    scheduleYAML --> assignmentHTML
+    peopleYAML --> communityHTML
     peopleYAML --> postHTML
-    peopleYAML --> projectHTML
-    peopleYAML --> scheduleHTML
+    peopleYAML --> websiteProgram
+    peopleYAML --> artifactCSV
     metadataYAML --> syllabusHTML
-    libraryHTML -- BioSchema --> teSS
-    scheduleHTML -- BioSchema --> teSS
-    youtube --> scheduleHTML
-    youtube --> libraryHTML
-    peopleYAML --> artifact
-    githubProgram --> artifact
-    artifact --> notebooks
+    libraryHTML --> teSS
+    scheduleHTML --> teSS
+    recording --> scheduleHTML
+    recording --> libraryHTML
+    githubProgram --> artifactCSV
+    artifactCSV --> notebooks
     feedbackCSV --> notebooks
     youtube --> notebooks
+    micrograntHonorariaCivi  --> notebooks
+    notebooks --> communityStatHTML
     notebooks --> projectStatHTML
     notebooks --> rolesHTML
     notebooks --> locationHTML
@@ -309,9 +334,7 @@ flowchart LR
     notebooks --> supportHTML
 ```
 
-## Prepare a cohort
-
-### Prepare infrastructure for a new cohort
+## Prepare infrastructure for a new cohort
 
 1. Prepare computational environment (locally or GitPod) as explained in the `README.md` file of the GitHub repository
 2. Run the script which create cohort files:
@@ -334,7 +357,7 @@ flowchart LR
 6. Add possible mentors and experts as explained below
 
 
-### Add possible mentors and experts with their expertise
+## Add possible mentors and experts with their expertise
 
 1. Get a CSV file from CiviCRM  using the predefined fields for website
 2. Prepare computational environment (locally or GitPod) as explained in the `README.md` file of the GitHub repository
@@ -358,7 +381,7 @@ flowchart LR
 
 5. Submit changes by creating a Pull Request
 
-### Prepare planning spreadsheet and connect it to the website
+## Prepare planning spreadsheet and connect it to the website
 
 1. Make a copy of the planning spreadsheet of a previous cohort on Google drive
 
@@ -409,7 +432,7 @@ flowchart LR
 
 3. Submit changes by creating a Pull Request
 
-### Update the schedule on GitHub
+## Update the schedule on GitHub
 
 This is run automatically every week and subitted as a Pull Request. The explanations below are only to run it manually
 
@@ -422,9 +445,9 @@ This is run automatically every week and subitted as a Pull Request. The explana
 
 3. Submit changes by creating a Pull Request
 
-### Add information to the public Google calendar
+## Add information to the public Google calendar
 
-#### Add calls
+### Add calls
 
 1. Create in the planning spreadsheet a sheet:
 
@@ -447,7 +470,7 @@ This is run automatically every week and subitted as a Pull Request. The explana
 2. Download the sheet as CSV
 3. Add events to [Google calendar](https://support.google.com/calendar/answer/37118#advanced&zippy=%2Ccreate-or-edit-a-csv-file).
 
-#### Add weeks
+### Add weeks
 
 1. Create in the planning spreadsheet a sheet
     1. Filtering rows in the main sheet to get only the ones where the type is `Week` (using `=FILTER('Main sheet'!A6:A142, REGEXMATCH('Main sheet'!G6:G142, "Weeks"))`)
@@ -461,7 +484,7 @@ This is run automatically every week and subitted as a Pull Request. The explana
         `All Day Event` | `TRUE`
         `Description` | Concatenation to get something like "OLS-N - Week `Week`"
 
-### Add project, participants, and mentors
+## Add project, participants, and mentors
 
 1. Get a CSV file with the following information
    - `Title`
@@ -487,7 +510,7 @@ This is run automatically every week and subitted as a Pull Request. The explana
 
 5. Submit changes by creating a Pull Request
 
-### Generate call templates
+## Generate call templates
 
 1. Make sure the planning spreadsheet is up-to-date with talks, speakers, activities (breakouts, silent reflection), learning objectives, icebreaker, etc
 2. Open `bin/<program>/create_call_templates.sh` script
@@ -501,7 +524,7 @@ This is run automatically every week and subitted as a Pull Request. The explana
 
 6. Submit changes to call templates in the cohort Github repository
 
-# Stats
+# Data and stats
 
 Data about the community (e.g. location), about the cohort (e.g. feedback or roles), about the video library are explored and visualized via Jupyter Notebooks stored in a [GitHub repository]({{ site.github.owner_url }}/ols-stats/) and rendered in a dedicated [OLS stat website]({{ site.url }}/ols-stats/).
 
@@ -516,9 +539,21 @@ flowchart LR
     youtube["OLS YouTube channel"]:::nonCohort
 
     subgraph drive["Google Drive"]
-        feedbackCSV["Participants & Mentor feedback"]:::cohort
+        micrograntSheet["`Microgrants
+        *(before OLS-6)*`"]:::cohort
+        honorariaSheet["`Honoraria
+        *(before OLS-6)*`"]:::cohort
+        feedbackCSV["Anonymized Participants & Mentor feedback"]:::cohort
     end
     style drive fill:#fbec5d,stroke:#fbec5d
+
+    subgraph civi["CiviCRM"]
+        micrograntCSV["`Microgrants
+        *(after OLS-6)*`"]:::cohort
+        honorariaCSV["`Honoraria
+        *(after OLS-6)*`"]:::cohort
+    end
+    style civi fill:#d3d3d3,stroke:#d3d3d3
 
     subgraph github["Website GitHub repository"]
         peopleYAML["`people 
@@ -551,10 +586,10 @@ flowchart LR
     style github fill:#abc7fb,stroke:#abc7fb
 
     subgraph statsGitHub["Stat GitHub repository"]
-        locationNotebook["`People location
+        locationNotebook["`Community location
         *(notebook)*`"]:::cohort
         subgraph statsGitHubProgram["Program"]
-            programLocationNotebook["`Program people location
+            programLocationNotebook["`People location
             *(notebook)*`"]:::cohort
             projectNotebook["`Projects
             *(notebook)*`"]:::cohort
@@ -562,7 +597,9 @@ flowchart LR
             *(notebook)*`"]:::cohort
             feedbackNotebook["`Feedback
             *(notebook)*`"]:::cohort
-            libraryNotebook["`Video and YouTube
+            libraryNotebook["`Video Library & YouTube
+            *(notebook)*`"]:::cohort
+            micrograntHonorariaNotebook["`Microgrants & Honoraria
             *(notebook)*`"]:::cohort
         end
         style statsGitHubProgram fill:#9fe2bf,stroke:#fff
@@ -570,14 +607,15 @@ flowchart LR
     style statsGitHub fill:#9fe2bf,stroke:#9fe2bf
 
     subgraph website["Stat Website"]
-        locationHTML["`People location
+        locationHTML["`Community location
         *(HTML)*`"]:::cohort
         subgraph websiteProgram["Program"]
-            programLocationHTML["`Program people location`"]:::cohort
+            programLocationHTML["`People location`"]:::cohort
             projectHTML["`Projects`"]:::cohort
             rolesHTML["`Roles`"]:::cohort
             feedbackHTML["`Feedback`"]:::cohort
-            libraryHTML["`Video and YouTube`"]:::cohort
+            libraryHTML["`Video Library & YouTube`"]:::cohort
+            micrograntHonorariaHTML["`Microgrants & Honoraria`"]:::cohort
         end
         style websiteProgram fill:#eaa9a9,stroke:#fff
     end
@@ -597,11 +635,16 @@ flowchart LR
     youtube --> libraryNotebook
     libraryCSV --> libraryNotebook
     feedbackCSV --> feedbackNotebook
+    micrograntSheet --> micrograntHonorariaNotebook
+    honorariaSheet --> micrograntHonorariaNotebook
+    micrograntCSV --> micrograntHonorariaNotebook
+    honorariaCSV --> micrograntHonorariaNotebook
     peopleRolesCSV --> programLocationNotebook
     projectNotebook --> projectHTML
     locationNotebook --> locationHTML
     rolesNotebook --> rolesHTML
     feedbackNotebook --> feedbackHTML
     libraryNotebook --> libraryHTML
+    micrograntHonorariaNotebook --> micrograntHonorariaHTML
     programLocationNotebook --> programLocationHTML
 ```
