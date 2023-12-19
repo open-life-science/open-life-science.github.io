@@ -14,7 +14,7 @@ highly qualitative component throughout the training.
 
 # About
       
-Over three years starting in 2024, we will deliver five 6-week Virtual Cohorts per year. The cohorts will engage participants in hands-on implementation of open science concepts and tools. This program will teach one OpenCore Module per week, by bringing in speakers from across different scientific domains, allowing learners to actively embed their training in their work and reflect on their learning with guidance from expert practioners.
+Over three years starting in 2024, we will deliver five 6-week Virtual Cohorts per year. The cohorts will engage participants in hands-on implementation of open science concepts and tools. This program will teach one OpenCore Module per week, by bringing in speakers from across different scientific domains, allowing learners to actively embed their training in their work and reflect on their learning with guidance from expert practitioners.
 
 # Timeline
 
@@ -32,7 +32,7 @@ The training will cover [the five modules in OpenCore](https://opensciency.githu
 | **Expert consultation**  | 1 expert:group project | X | X | X | X | X |   |   |
 | **Reflection & implementation** | Self-led by participants <br>- optional assignments <br>- prep for final presentations | X | X | X | X | X |  |
 
-The expected time committment for this training is 4 h per week. We plan to run **five cohorts per year**. 
+The expected time commitment for this training is 4 h per week. We plan to run **five cohorts per year**. 
 We will run a pilot cohort in early 2024. 
 
 # Join us
