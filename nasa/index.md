@@ -31,7 +31,7 @@ The training will cover [the five modules in OpenCore](https://opensciency.githu
 | **Final Graduation**            | Group presentations            |                       |   |   |   |   |   | X |
 | **Expert consultation**         | 1 expert:group project         |                       | X | X | X | X | X |   |
 | **Reflection & implementation** | Self-led by participants       |                       | X | X | X | X | X |   \
-|                                 | - optional assignments         |                       |   |   |   |   |   |   \
+|                                 | - Assignments to apply learned skills in research projects  |                       |   |   |   |   |   |   \
 |                                 | - prep for final presentations |                       |   |   |   |   |   |   |
 
 The expected time commitment for this training is 4 hours per week. We plan to run **five cohorts per year**. 
