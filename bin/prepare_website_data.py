@@ -427,8 +427,8 @@ def get_country_extra_information(country):
     py_country = pycountry.countries.get(name=country)
     if py_country is None:
         py_country = pycountry.countries.get(common_name=country)
-        if py_country is None:
-            print(f"{country} not found")
+    if py_country is None:
+        print(f"{country} not found")
     else:
         country_code = py_country.alpha_3
         if py_country.alpha_2 not in COUNTRY_ALPHA2_TO_CONTINENT:
