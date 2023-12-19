@@ -10,8 +10,7 @@ photos:
 ---
 
 Get ready for an exciting project starting in 2024 in collaboration with [NASA-TOPS](https://nasa.github.io/Transform-to-Open-Science/).
-
-[Register your interest!](https://docs.google.com/forms/d/e/1FAIpQLSdalQ0drobXZWulNLyXYUUE6u5RUtX9HAetl8oPXvZYcnc0fw/viewform)
+**[Register your interest](https://docs.google.com/forms/d/e/1FAIpQLSdalQ0drobXZWulNLyXYUUE6u5RUtX9HAetl8oPXvZYcnc0fw/viewform)**!
 
 Funded by [NASA](https://www.nasa.gov/), OLS will bring its globally successful cohort-based approach, incorporating a personal qualitative component throughout the training.
 
