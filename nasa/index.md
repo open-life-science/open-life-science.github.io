@@ -30,7 +30,7 @@ While assignments facilitate reflection on learned concepts, expert coaching/con
 
 The training will cover the five modules of the [Open Science 101 Curriculum](https://nasa.github.io/Transform-to-Open-Science/), and participants will work with an expert to discuss the real-world application of the skills they learn. The schedule for individual cohorts is shown below:
 
-| Cohort timeline                 |                                | TOPS OpenCore modules |  Weeks           ||||||
+| Cohort timeline                 |                                | Open Science 101 Curriculum modules |  Weeks           ||||||
 |---------------------------------|--------------------------------|-----------------------|:-:|:-:|:-:|:-:|:-:|:-:|
 |                                 |                                |                       | 1 | 2 | 3 | 4 | 5 | 6 |   
 | **Cohort Calls**                |                                | **Ethos**             | X |   |   |   |   |   |   
