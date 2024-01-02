@@ -514,7 +514,7 @@ Tooling for Collaboration:
     - slides: 
         https://docs.google.com/presentation/d/1E0HBEzzuO3VjNLwM3ThWLJ27R6h359j0DO4jwfcFkCw/edit#slide=id.g21280744133_2_56
       speakers:
-      - 
+      - saskiafreytag
       title: Designing and enforcing a Code of Conduct
       date: October 11, 2023
       cohort: ols-8
@@ -638,7 +638,7 @@ Tooling for Collaboration:
     description: Software environment for research reproducibility
     talks:
     - speakers:
-      - 
+      - nanjalaruth
       title: Package Managements
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=2890
       date: November 29, 2023
@@ -941,7 +941,7 @@ Open Science:
     - slides: 
         https://docs.google.com/presentation/d/1wiZuFoBXaoCIB92t9EcXtMRYXuFe5a2sg4R2E0Key5s/edit#slide=id.g2922b4986f7_0_744
       speakers:
-      - 
+      - sarah-lippincott
       title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
       date: October 24, 2023
       cohort: ols-8
@@ -1109,7 +1109,7 @@ Open Science:
       cohort: ols-7
     - slides: 'https://docs.google.com/presentation/d/1_1Kn835pvhujGH6vQCyjUNrK-5R7BoTy/edit?usp=drive_link&ouid=102593070323036946386&rtpof=true&sd=true '
       speakers:
-      - 
+      - scottbgi
       title: Open Access Publication
       recording: https://youtu.be/NxWpBicnqC0?si=sPc3fbZXk5l4zFu8&t=3733
       date: November 21, 2023
@@ -1152,7 +1152,7 @@ Open Science:
     - slides: 
         https://docs.google.com/presentation/d/1rwio6fCGD-Z1a3mAulE5r5bhQwPCpkNtQLm7jBM5u84/edit#slide=id.g2148fd0666b_0_292
       speakers:
-      - 
+      - monica-granados
       title: Why open reviews?
       date: October 24, 2023
       cohort: ols-8
@@ -1768,7 +1768,7 @@ Open Leadership:
       cohort: ols-8
       title: Open Leadership in Practice
     - speakers:
-      - 
+      - neemaiyer
       date: November 14, 2023
       cohort: ols-8
       title: Open Leadership in Practice
