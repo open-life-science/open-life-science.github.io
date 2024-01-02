@@ -234,7 +234,7 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1E0HBEzzuO3VjNLwM3ThWLJ27R6h359j0DO4jwfcFkCw/edit#slide=id.g21280744133_2_56
         speakers:
-        - 
+        - saskiafreytag
         title: Designing and enforcing a Code of Conduct
         tag: Code of Conduct
       time: "16:00"
@@ -321,7 +321,7 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1wiZuFoBXaoCIB92t9EcXtMRYXuFe5a2sg4R2E0Key5s/edit#slide=id.g2922b4986f7_0_744
         speakers:
-        - 
+        - sarah-lippincott
         title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
         tag: Open Data
       - slides: 
@@ -334,7 +334,7 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/1rwio6fCGD-Z1a3mAulE5r5bhQwPCpkNtQLm7jBM5u84/edit#slide=id.g2148fd0666b_0_292
         speakers:
-        - 
+        - monica-granados
         title: Why open reviews?
         tag: Open Evaluation
       time: "09:00"
@@ -422,7 +422,7 @@ weeks:
         - gemmaturon
         tag: Open Leadership in Practice
       - speakers:
-        - 
+        - neemaiyer
         tag: Open Leadership in Practice
       - speakers:
         - yochannah
@@ -455,7 +455,7 @@ weeks:
         tag: Open Educational Resources
       - slides: 'https://docs.google.com/presentation/d/1_1Kn835pvhujGH6vQCyjUNrK-5R7BoTy/edit?usp=drive_link&ouid=102593070323036946386&rtpof=true&sd=true '
         speakers:
-        - 
+        - scottbgi
         title: Open Access Publication
         recording: https://youtu.be/NxWpBicnqC0?si=sPc3fbZXk5l4zFu8&t=3733
         tag: Open Access Publication
@@ -503,7 +503,7 @@ weeks:
         recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=1437
         tag: Code Review
       - speakers:
-        - 
+        - nanjalaruth
         title: Package Managements
         recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=2890
         tag: Package Management
