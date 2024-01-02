@@ -93,6 +93,8 @@ Open Life Science:
       speakers:
       - malvikasharan
       title: Welcome to Open Seeds
+      recording: 
+        https://www.youtube.com/watch?v=otxpdHSaqyw&list=UULFs12-ZgnDJOWIWN3Vo1XHXA&index=10
       date: October 04, 2023
       cohort: ols-8
 Tooling for Project Design:
@@ -600,12 +602,13 @@ Tooling for Collaboration:
       recording: https://youtu.be/hOiDzn4Iqp4?t=2920
       date: May 10, 2023
       cohort: ols-7
-    - speakers:
+    - slides: https://mgomezn.github.io/talk_openlifesci/
+      speakers:
       - 
+      title: 'Good Coding Practices '
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=416
       date: November 29, 2023
       cohort: ols-8
-      title: Good Coding Practices
   Code Review:
     description: Reviewing code to help improve your code quality
     talks:
@@ -623,21 +626,23 @@ Tooling for Collaboration:
       recording: https://youtu.be/hOiDzn4Iqp4?t=332
       date: May 10, 2023
       cohort: ols-7
-    - speakers:
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vTP-ZX_nWdX-xHEy8PNnm7yNmlxPVrsxFvfHuiGriyQoUBuX6l1qJNYe1K7UDAQbzuvRPfeMMKM-ISK/pub?start=false&loop=false&delayms=60000&slide=id.g2a014cc8695_0_580
+      speakers:
       - rivaquiroga
+      title: Code Review
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=1437
       date: November 29, 2023
       cohort: ols-8
-      title: Code Review
   Package Management:
     description: Software environment for research reproducibility
     talks:
     - speakers:
       - 
+      title: Package Managements
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=2890
       date: November 29, 2023
       cohort: ols-8
-      title: Package Management
 Open Science:
   Open Science Introduction:
     description: Sharing knowledge for the global access
