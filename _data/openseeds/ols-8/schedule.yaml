@@ -159,6 +159,8 @@ weeks:
         speakers:
         - malvikasharan
         title: Welcome to Open Seeds
+        recording: 
+          https://www.youtube.com/watch?v=otxpdHSaqyw&list=UULFs12-ZgnDJOWIWN3Vo1XHXA&index=10
         tag: OLS Introduction
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
@@ -487,16 +489,22 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vRQmPldM2vu5hoUX2FpdUKuSY8-krnsaqoLP_mg-H3OdGOiTLZO99Ey-1a_PAkhlsi09TzLiPgp__dc/pub
         title: Open-source software in practice
-      - speakers:
+      - slides: https://mgomezn.github.io/talk_openlifesci/
+        speakers:
         - 
+        title: 'Good Coding Practices '
         recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=416
         tag: Good Coding Practices
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTP-ZX_nWdX-xHEy8PNnm7yNmlxPVrsxFvfHuiGriyQoUBuX6l1qJNYe1K7UDAQbzuvRPfeMMKM-ISK/pub?start=false&loop=false&delayms=60000&slide=id.g2a014cc8695_0_580
+        speakers:
         - rivaquiroga
+        title: Code Review
         recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=1437
         tag: Code Review
       - speakers:
         - 
+        title: Package Managements
         recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=2890
         tag: Package Management
       time: "17:00"
