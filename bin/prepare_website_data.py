@@ -375,7 +375,7 @@ def get_people_ids(names, people):
 
 
 def get_people_names(p_list, people):
-    """Get names of peoke
+    """Get names of people
 
     :param p_list: list of people id
     :param people: dictionary with people information
