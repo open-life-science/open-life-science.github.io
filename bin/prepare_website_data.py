@@ -463,8 +463,8 @@ def extract_people_info(row, people):
     :param people: dictionary with people information
     """
     info = {
-        "first-name": row["First name"].rstrip(),
-        "last-name": row["Last name"].rstrip(),
+        "first-name": row["First name"].rstrip().title(),
+        "last-name": row["Last name"].rstrip().title(),
         "twitter": row["Twitter"] if "Twitter" in row else None,
         "website": row["Website"] if "Website" in row else None,
         "orcid": row["ORCID"] if "ORCID" in row else None,
