@@ -62,6 +62,10 @@ learning-circle:
     name: H3ABioNet Learning Circle
     website: https://h3abionet.github.io/LearningCircles/
     country: Africa
+nasa:
+    name: nasa
+    website: https://www.nasa.gov/
+    country: United States
 mozilla:
     name: Mozilla Open Leaders
     website: https://foundation.mozilla.org

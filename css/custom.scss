@@ -500,3 +500,19 @@ code {
     top: 50px;
   }
 }
+
+.stream-card {
+  img {
+    max-height: 100px;
+  }
+}
+
+.tooltip {
+  font-family: Georgia;
+  font-size: 18px;
+}
+.tooltip .tooltip-inner {
+  background-color: #00FFFF;
+  color: #000000;
+  min-width: 400px;
+}

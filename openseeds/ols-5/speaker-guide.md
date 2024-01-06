@@ -62,7 +62,7 @@ These notes will be available for all our participants for future reference. You
 
 # Cohort call speakers
 
-We invite [experts like you]({% link about.md %}#experts) to these calls to talk
+We invite [experts like you]({% link openseeds/about.md %}#experts) to these calls to talk
 about their work, provide personal perspectives, share personal stories
 or anecdotes, and engage our participants in understanding the practical
 applications of the Open Science tools/approaches.

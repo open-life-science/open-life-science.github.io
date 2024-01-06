@@ -1,4 +1,4 @@
-# Schedule for the OLS-3
+# Schedule for the openseeds ols-3
 ---
 timeline:
 - date: December 1, 2021
@@ -23,12 +23,12 @@ timeline:
 - date: January 11, 2021
   description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
 - date: January 13, 2021
-  description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) collaborating organisation**,
-    Open office hour (<i class="fas fa-question"></i> Q&A)
+  description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) collaborating
+    organisation**, Open office hour (<i class="fas fa-question"></i> Q&A)
   notes: https://tinyurl.com/ols-3-webinar
 - date: January 18, 2021
-  description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) collaborating organisation**,
-    Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
+  description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) collaborating
+    organisation**, Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
 - date: January 26, 2021
   description: Successful applicants announced
 weeks:
@@ -815,7 +815,7 @@ weeks:
         - bebatut
         title: Welcoming new contributions to your project
         recording: https://youtu.be/GdZ3kfKP43A?t=3927
-        tag: Project Design for Collaboration
+        tag: Community Interactions
       - slides: 
           https://docs.google.com/presentation/d/1z8rPZbaxJCQaRvNMhy72sfq6xJcf9RSturrPQtugLGU/edit#slide=id.g6e991a6896_0_209
         speakers:

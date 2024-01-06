@@ -1013,6 +1013,12 @@ antonis-koutsoumpis:
   continent: Europe
   longitude: 4.8924534
   latitude: 52.3730796
+aoduor:
+  first-name: Angela
+  last-name: Oduor
+  country: Kenya
+  country_3: KEN
+  continent: Africa
 arentkievits:
   affiliation: Delft University Of Technology
   bio: I am a nanobiologist doing a PhD in volume electron microscopy. I like microscopy,
@@ -6453,6 +6459,12 @@ mgawe-cavin:
   continent: Africa
   longitude: 36.8288420082562
   latitude: -1.3026148499999999
+mgomezn:
+  first-name: Mariana Patricia
+  last-name: Gomez Nicolas
+  country: Mexico
+  country_3: MEX
+  continent: North America
 michael-addy:
   affiliation: Kwame Nkrumah University Of Science And Technology
   bio: I am lecturer in Kwame Nkrumah University of Science and Technology (KNUST)
@@ -6808,6 +6820,10 @@ monica-alonso:
   github: false
   country_3: ARG
   continent: South America
+monica-granados:
+  first-name: Monica
+  last-name: Granados
+  github: false
 monsurat-onabajo:
   first-name: Onabajo
   last-name: Monsurat
@@ -7016,6 +7032,10 @@ nahuele:
   continent: South America
   longitude: -58.5036282
   latitude: -34.5244484
+nanjalaruth:
+  first-name: Ruth
+  last-name: Nanjala
+  twitter: Ruthnanje
 nanje-patrick-itarngoh:
   first-name: Nanje Patrick
   last-name: Itarngoh
@@ -7120,6 +7140,12 @@ nea-bridget:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+neemaiyer:
+  first-name: Neema
+  last-name: Iyer
+  country: Australia
+  country_3: AUS
+  continent: Oceania
 nehamoopen:
   country: Netherlands
   first-name: Neha
@@ -8558,6 +8584,12 @@ sapetti9:
   continent: Europe
   longitude: 11.3426327
   latitude: 44.4938203
+sarah-lippincott:
+  first-name: Sarah
+  last-name: Lippincott
+  country: United States
+  country_3: USA
+  continent: North America
 sarah-nietopski:
   affiliation: The Alan Turing Institute
   bio: I have a background in educational resource design and development, and a keen
@@ -8662,6 +8694,16 @@ saryace:
   continent: South America
   longitude: -83.7980749
   latitude: 9.8694792
+saskiafreytag:
+  first-name: Saskia
+  last-name: Freytag
+  twitter: SaskiaFreytag
+  city: Melbourne
+  country: Australia
+  country_3: AUS
+  continent: Oceania
+  longitude: 144.9631732
+  latitude: -37.8142454
 satagopam7:
   bio: Venkata is a Bioinformatician, a Senior Researcher at Bioinformatics core facility,
     and Deputy Head of the BioMedical Informatics Department, LCSB, University of
@@ -8709,6 +8751,13 @@ sayalaruano:
   continent: Europe
   longitude: 5.6969881818221095
   latitude: 50.85798545
+scottbgi:
+  first-name: Scott
+  last-name: Edmunds
+  orcid: 0000-0001-6444-1436
+  country: Hong Kong
+  country_3: HKG
+  continent: Asia
 sdopoku:
   bio: David is a "self-designated" Data Plumber from Ghana working to build technical
     and data capacity for low-income individuals, organisations and communities. His

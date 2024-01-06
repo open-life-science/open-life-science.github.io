@@ -24,7 +24,7 @@ photos:
     {% endfor %}
 {% endfor %}
 
-{% assign library = site.data.library %}
+{% assign library = site.data.openseeds.library %}
 {% assign video_nb = 0 %}
 {% assign all-speakers = '' %}
 {% for topic in library %}
@@ -39,7 +39,7 @@ photos:
 
 Since its launch in 2020, OLS ran **7 cohorts**, **{{ cohort-calls }} cohort calls** with **{{ video_nb }} talks** by **{{ speaker_nb }} speakers**. The cohort calls are all available on [OLS YouTube channel]({{ site.youtube }}) and linked in the dedicated cohort schedule. But **all these talks were also interesting individually and are currently hard to find**.
 
-To improve talk findability and give more visibility to these experts, we created the [**Open Seeds Video Library**]({% link library.md %}). This page shows the full library of available videos from talks in Open Seeds cohort calls: **{{ video_nb }} videos** by **{{ speaker_nb }} speakers**, **organized by topic** (Open Science, Tooling for Collaboration, Project, Community & Personal Management, etc), **annotated** with the recording date, **information about the speakers**, and slidedeck link when available.
+To improve talk findability and give more visibility to these experts, we created the [**Open Seeds Video Library**]({% link openseeds/library.md %}). This page shows the full library of available videos from talks in Open Seeds cohort calls: **{{ video_nb }} videos** by **{{ speaker_nb }} speakers**, **organized by topic** (Open Science, Tooling for Collaboration, Project, Community & Personal Management, etc), **annotated** with the recording date, **information about the speakers**, and slidedeck link when available.
 
 ![Screenshot of the Open Seeds Video Library, showing the table of content on the left, the Open Science section on the middle with a talk on Open Hardware expanded](/images/2023-07-17-video-library-launching.png){: width="80%"}
 
