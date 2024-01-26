@@ -27,7 +27,7 @@ Learn more about the Governance Committee and its members on our [governance pag
 - **Batool Almarzouq**, representing Open Science Saudi Arabia, UK
 - **Esther Plomp**, TU Delft, The Netherlands
 - **Hao Ye**, University of Pennsylvania / Community for Rigor, USA
-- Laura Ación, MetaDocencia, Argentina 
+- **Laura Ación**, MetaDocencia, Argentina 
 - Laurah Ondari, Bioinformatics Hub of Kenya initiative (BHKi), Kenya
 - Rowland Mosbergen, Practical Diversity and Inclusion Project, Australia 
 - Sara El Gebali, FAIRPoints Project, Sweden
