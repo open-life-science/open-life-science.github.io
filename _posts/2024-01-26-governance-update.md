@@ -60,4 +60,4 @@ As we enter the second phase, we are excited to leverage the Committee's advisor
 
 The journey continues, and we are very grateful to our Committee members for their generosity and time in OLS.
 
-You can follow updates on our [GitHub repository for governance](https://github.com/open-life-science/ols-governance). We look forward to sharing ongoing  discussions and developments with the broader OLS community!
+You can follow updates on our [GitHub repository for governance]({{ site.github.owner_url }}/ols-governance). We look forward to sharing ongoing  discussions and developments with the broader OLS community!
