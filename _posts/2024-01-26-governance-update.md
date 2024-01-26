@@ -19,7 +19,7 @@ In June 2023, the OLS Board invited 10 community leaders from OLS and the open s
 
 ## Meet the Committee Members
 
-Learn more about the Governance Committee and its members on our [governance page](https://openlifesci.org/governance.html). Individual committee members are listed below:
+Learn more about the Governance Committee and its members on our [governance page]({{ site.github.owner_url }}/governance). Individual committee members are listed below:
 
 ![Smiling faces of the Committee Members](https://hackmd.io/_uploads/BytbFX-qp.png)
 
@@ -40,7 +40,7 @@ Learn more about the Governance Committee and its members on our [governance pag
 
 ## Phase 1 of Governance Work: Inviting Leaders and Co-Developing Ways of Working - 2023
 
-The initial phase of governance work focused on inviting leaders actively engaged within OLS. The selection process, endorsed by the OLS Board, prioritized diverse representation and expertise within our community. Over the past six months, the Committee collaborated closely with the OLS team to clarify and document governance processes. 
+The initial phase of governance work focused on inviting leaders actively engaged within OLS. The selection process, endorsed by the OLS Board, prioritised diverse representation and expertise within our community. Over the past six months, the Committee collaborated closely with the OLS team to clarify and document governance processes. 
 
 All documents are available on our public GitHub repository: [ols-governance/docs](https://github.com/open-life-science/ols-governance/tree/main/docs).
 
@@ -60,4 +60,4 @@ As we enter the second phase, we are excited to leverage the Committee's advisor
 
 The journey continues, and we are very grateful to our Committee members for their generosity and time in OLS.
 
-You can follow updates on our [GitHub repository for governance](https://github.com/open-life-science/ols-governance). We look forward to keep sharing ongoing  discussions and developments with the broader OLS community!
+You can follow updates on our [GitHub repository for governance](https://github.com/open-life-science/ols-governance). We look forward to sharing ongoing  discussions and developments with the broader OLS community!
