@@ -4,7 +4,7 @@ title: Announcing the OLS Governance and Their Work Since June 2023
 authors: 
 - malvikasharan
 - yochannah
-image: /images/2023-01-gov-post-almani-qhizq_V876M-unsplash.png
+image: /images/2024-01-gov-post-almani-qhizq_V876M-unsplash.png
 ---
 
 At OLS, we are thrilled to share a significant milestone: the establishment of the OLS Governance Committee. In this post, we highlight their work with us over the past six months.
@@ -36,9 +36,7 @@ Learn more about the Governance Committee and its members on our [governance pag
 
 ## Involvement of OLS Board and Team Members in Governance Work
 
-![image](https://hackmd.io/_uploads/S1gL5m-q6.png)
-
-**Patricia Herterich** from the OLS team serves as the Organization Secretary. Two OLS Board representatives, **Malvika Sharan and Yo Yehudi**, join the Governance Committee as Organization Liaisons. They facilitate communication, manage operational responsibilities, and ensure a seamless flow of information between the OLS team, the Committee, and the broader OLS community. Importantly, they do not participate in the voting and consensus-building process of the Committee.
+**Patricia Herterich** from the OLS team serves as the Organisation Secretary. Two OLS Board representatives, **Malvika Sharan and Yo Yehudi**, join the Governance Committee as Organisation Liaisons. They facilitate communication, manage operational responsibilities, and ensure a seamless flow of information between the OLS team, the Committee, and the broader OLS community. Importantly, they do not participate in the voting and consensus-building process of the Committee.
 
 ## Phase 1 of Governance Work: Inviting Leaders for Developing Ways of Working - 2023
 
@@ -48,7 +46,7 @@ All documents are available on our public GitHub repository: [ols-governance/doc
 
 ## Phase 2: Governance Committee's Advisory Role in 2024
 
-As we enter the second phase, we are excited to leverage the Committee's advisory support in enhancing transparency, fostering inclusivity through feedback, and championing sustainability within our organization. This phase includes:
+As we enter the second phase, we are excited to leverage the Committee's advisory support in enhancing transparency, fostering inclusivity through feedback, and championing sustainability within our organisation. This phase includes:
 
 1. **Recommendations and Feedback**
    - Establishing a regular feedback loop between the Governance Committee and the OLS Board.
