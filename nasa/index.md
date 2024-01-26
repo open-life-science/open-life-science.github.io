@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Open Science Accessible
-description: Teaching NASA-TOPS OpenCore in English
+title: OLS & NASA Transform to Open Science
+description: Teaching NASA-TOPS Open Science 101 in English
 image: /images/index.jpg
 photos:
   name: Bérénice Batut
@@ -9,21 +9,80 @@ photos:
   url: https://flic.kr/p/2gHMJah
 ---
 
-Funded by [NASA](https://www.nasa.gov/), this work aims to deliver fully virtual training cohorts for the [NASA TOPS OpenCore training curriculum](https://nasa.github.io/Transform-to-Open-Science/) with a 
-highly qualitative component throughout the training. 
-
 # About
-      
-Starting in 2024 and for 3 years, the team will deliver five 6-week Virtual Cohorts per year. The cohorts will include guided reflection and hands-on implementation of open science concepts, processes, and 
-techniques. This program will teach one OpenCore Module per week, by bringing in expert speakers from across different scientific domains, allowing learners to actively embed their training in their work and 
-reflect on their learning with a mentor.
 
-# Expected timeline
+**Get ready for an exciting new series of cohorts on open science in collaboration with [NASA-TOPS](https://nasa.github.io/Transform-to-Open-Science/).**
 
-# Interested?
+Funded by [NASA](https://www.nasa.gov/), OLS will offer 6-week-long virtual cohorts — not just once, but five times each year over the next three years.
 
-You can register your interest here: 
+We will bring our cohort-based approach, incorporating hands-on learning and individual coaching throughout the training.
+
+Register your interest as a [participant](https://forms.gle/bUEXdcSkt9BgY4tXA), [expert or facilitator](https://forms.gle/DcostkBpszXT9MAr8).
+
+# Program overview
+
+The OLS-NASA Open Science 101 program is a comprehensive 6-week training program designed for participants at any career stage. The program integrates practical training with individual coaching, supporting participants to apply open science principles, skills, and tools in their work.
+
+# Who is this training for?
+
+This training is aimed at researchers and research-supporting staff, from undergraduates to senior scientists. Our program is accessible to participants at any career level, fostering an inclusive environment for those taking their first steps in open science. It will be of particular interest to **individuals or teams** seeking to develop or improve an Open Science strategy or Data Management plan for their research work, whether it is in the proposal stage or already prepared to disseminate results.
+
+Ideas for short projects to work during the program include:
+* Sketching an **open science strategy** for a research proposal.
+* Developing a **data management plan** that balances open access with privacy requirements.
+* Conducting a **reproducibility check** on a section of your research data or code.
+* Outlining a plan for **making your research findings more inclusive** for diverse audiences. 
+
+# Training format and content
+
+Our cohorts provide structured training covering the [Open Science 101 Curriculum](https://nasa.github.io/Transform-to-Open-Science/). Each week, we explore one open science module, with expert speakers from diverse scientific domains guiding hands-on learning. Sessions feature practical assignments, empowering learners to actively **implement open science concepts and tools in their work**. 
+
+Synchronous training sessions take place on Zoom, twice a week. The sessions are delivered in English with automatic live captions. Recordings are openly accessible after the calls. The program also provides opportunities to connect with fellow participants. 
+
+Individual participants or teams meet with an expert for **weekly coaching sessions to receive personalized feedback** on their project.
+
+Upon graduation, participants receive a digital badge certifying their completion of NASA’s Open Science 101 curriculum and an OLS certificate. The expected time commitment for this training is 4-4.5 hrs per week. 
+
+
+The schedule for individual cohorts is shown below:
+
+| Cohort timeline                 |                                | Open Science 101 Curriculum modules |  Weeks           ||||||
+|---------------------------------|--------------------------------|-----------------------|:-:|:-:|:-:|:-:|:-:|:-:|
+|                                 |                                |                       | 1 | 2 | 3 | 4 | 5 | 6 |   
+| **Cohort Calls**                |   90 min, twice a week         | **Ethos**             | X |   |   |   |   |   |   
+| ^^                              | ^^                             | **Tools & Resources** |   | X |   |   |   |   |  
+| ^^                              | ^^                             | **Data**              |   |   | X |   |   |   |  
+| ^^                              | ^^                             | **Code**              |   |   |   | X |   |   |  
+| ^^                              | ^^                             | **Results**           |   |   |   |   | X |   | 
+| **Final Graduation**            | Group presentations            |                       |   |   |   |   |   | X |
+| **Expert coaching**         | 30 minutes coaching with an expert from the program  |                       | X | X | X | X | X |   |
+| **Work on assignments** | Self-led by participants  |                       | X | X | X | X | X |   \
+|                                 | - Assignments to apply learned skills in research projects  |                       |   |   |   |   |   |   \
+|                                 | - prep for final presentations |                       |   |   |   |   |   |   |
+
+
+# Pricing
+
+Our pilot cohort is offered free of charge. 
+
+Subsequent cohorts may involve a modest fee, with a number of spots available for fee waivers. Our commitment is to make this program **accessible to all who are eager to participate**.
+
+
+# Join us
+
+Our pilot cohort will run from **March 11 until April 19**. 
+
+Registration is now open for both participants and experts. We look forward to having you on board for this exploration into open science!
+
+**Participants:** Please register your interest [as a participant through this form.](https://forms.gle/bUEXdcSkt9BgY4tXA)
+
+**Experts and facilitators:** Please register your interest [as an expert or facilitator through this form.](https://forms.gle/DcostkBpszXT9MAr8) 
+
+*Si te interesa participar de las cohortes de formación en ciencia abierta de NASA-TOPS en idioma español, por favor contacta a nuestra comunidad amiga [MetaDocencia](https://www.metadocencia.org/).*
+
 
 # Want more information?
 
-You can read more about it in the [proposal](https://zenodo.org/records/8250979).
+We will be updating this post as we finalize further details. Watch this space!
+For more information, you can read our [full proposal](https://zenodo.org/records/8250979) jointly awarded with our partner organization [MetaDocencia](https://www.metadocencia.org/).
+
