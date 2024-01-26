@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Governance Committee
-image: /images/about.jpg
+image: /images/2024-02-governance-page-benjamin-combs-wuU_SSxDeS0-unsplash.jpg
 photos:
-  name: Bérénice Batut
-  license: CC BY-SA 4.0
-  url: https://flic.kr/p/2gHNtNq
+  name: Benjamin Combs
+  license: Unsplash
+  url: https://unsplash.com/photos/person-showing-green-plant-wuU_SSxDeS0
 ---
 
 {% assign community = site.data.community %}
@@ -13,6 +13,8 @@ photos:
 
 # Governance Committee
 The OLS Governance Committee is a dedicated group of individuals appointed to provide strategic oversight and guidance in shaping the governance framework of OLS. This committee provides advisory support in decision-making, transparency, and sustainability within OLS.
+
+For governance-related documentation and updates, please visit our [public GitHub repository]({{ site.github.owner_url }}/ols-governance).
 
 
 <div class="people">
