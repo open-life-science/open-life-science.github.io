@@ -24,7 +24,7 @@ Learn more about the Governance Committee and its members on our [governance pag
 ![Smiling faces of the Committee Members](https://hackmd.io/_uploads/BytbFX-qp.png)
 
 - **Anelda van der Walt**, Talarify and RSSE Africa, South Africa
-- Batool Almarzouq, representing Open Science Saudi Arabia, UK
+- **Batool Almarzouq**, representing Open Science Saudi Arabia, UK
 - Esther Plomp, TU Delft, The Netherlands
 - Hao Ye, University of Pennsylvania / Community for Rigor, USA
 - Laura Ación, MetaDocencia, Argentina 
