@@ -7,7 +7,7 @@ authors:
 image: /images/2024-01-gov-post-almani-qhizq_V876M-unsplash.png
 ---
 
-At OLS, we are thrilled to share a significant milestone: the establishment of the OLS Governance Committee. In this post, we highlight their work with us over the past six months.
+At OLS, we are thrilled to share a significant milestone: the establishment of the **OLS Governance Committee**. In this post, we highlight their work with us over the past six months.
 
 # Governance Focus of OLS in 2023
 
