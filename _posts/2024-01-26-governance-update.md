@@ -31,7 +31,7 @@ Learn more about the Governance Committee and its members on our [governance pag
 - **Laurah Ondari**, Bioinformatics Hub of Kenya initiative (BHKi), Kenya
 - **Rowland Mosbergen**, Practical Diversity and Inclusion Project, Australia 
 - **Sara El Gebali**, FAIRPoints Project, Sweden
-- Saranjeet Kaur Bhogal, RSE Asia Association and Research Software Alliance, India
+- **Saranjeet Kaur Bhogal**, RSE Asia Association and Research Software Alliance, India
 - Stephen Klusza, Atlanta Metropolitan State College, Adjunct Faculty and Laboratory Professional for Biology, USA
 
 ## Involvement of OLS Board and Team Members in Governance Work
