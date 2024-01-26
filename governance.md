@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Governance Committee
-image: /images/about.jpg
+image: /images/2024-02-governance-page-benjamin-combs-wuU_SSxDeS0-unsplash.jpg
 photos:
   name: Benjamin Combs
   license: Unsplash
