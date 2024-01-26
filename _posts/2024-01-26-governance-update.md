@@ -9,7 +9,7 @@ image: /images/2023-01-gov-post-almani-qhizq_V876M-unsplash.png
 
 At OLS, we are thrilled to share a significant milestone: the establishment of the OLS Governance Committee. In this post, we highlight their work with us over the past six months.
 
-## Evolution of OLS
+# Governance Focus of OLS in 2023
 
 After operating as a volunteer organisation from 2019 to 2021, 2022 marked our first full year with paid positions, including a paid role (60%) for Yo Yehudi as the Executive Director who dedicated their time to enhancing our organisational structure and sustainability plans. 
 
