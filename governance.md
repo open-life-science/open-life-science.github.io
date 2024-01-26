@@ -3,9 +3,9 @@ layout: page
 title: Governance Committee
 image: /images/about.jpg
 photos:
-  name: Bérénice Batut
-  license: CC BY-SA 4.0
-  url: https://flic.kr/p/2gHNtNq
+  name: Benjamin Combs
+  license: Unsplash
+  url: images/2024-02-governance-page-benjamin-combs-wuU_SSxDeS0-unsplash.jpg
 ---
 
 {% assign community = site.data.community %}
