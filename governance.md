@@ -5,7 +5,7 @@ image: /images/about.jpg
 photos:
   name: Benjamin Combs
   license: Unsplash
-  url: images/2024-02-governance-page-benjamin-combs-wuU_SSxDeS0-unsplash.jpg
+  url: https://unsplash.com/photos/person-showing-green-plant-wuU_SSxDeS0
 ---
 
 {% assign community = site.data.community %}
