@@ -19,7 +19,7 @@ In June 2023, the OLS Board invited 10 community leaders from OLS and the open s
 
 ## Meet the Committee Members
 
-Learn more about the Governance Committee and its members on our [governance page]({{ site.github.owner_url }}/governance). Individual committee members are listed below:
+Learn more about the Governance Committee and its members on our [governance page]({% link governance.md %}). Individual committee members are listed below:
 
 ![Smiling faces of the Committee Members](https://hackmd.io/_uploads/BytbFX-qp.png)
 
