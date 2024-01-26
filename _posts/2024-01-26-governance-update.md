@@ -38,7 +38,7 @@ Learn more about the Governance Committee and its members on our [governance pag
 
 **Patricia Herterich** from the OLS team serves as the Organisation Secretary. Two OLS Board representatives, **Malvika Sharan and Yo Yehudi**, join the Governance Committee as Organisation Liaisons. They facilitate communication, manage operational responsibilities, and ensure a seamless flow of information between the OLS team, the Committee, and the broader OLS community. Importantly, they do not participate in the voting and consensus-building process of the Committee.
 
-## Phase 1 of Governance Work: Inviting Leaders for Developing Ways of Working - 2023
+## Phase 1 of Governance Work: Inviting Leaders and Co-Developing Ways of Working - 2023
 
 The initial phase of governance work focused on inviting leaders actively engaged within OLS. The selection process, endorsed by the OLS Board, prioritized diverse representation and expertise within our community. Over the past six months, the Committee collaborated closely with the OLS team to clarify and document governance processes. 
 
