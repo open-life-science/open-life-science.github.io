@@ -32,7 +32,7 @@ Learn more about the Governance Committee and its members on our [governance pag
 - **Rowland Mosbergen**, Practical Diversity and Inclusion Project, Australia 
 - **Sara El Gebali**, FAIRPoints Project, Sweden
 - **Saranjeet Kaur Bhogal**, RSE Asia Association and Research Software Alliance, India
-- **Stephen Klusza**, Atlanta Metropolitan State College, Adjunct Faculty and Laboratory Professional for Biology, USA
+- **Stephen Klusza**, Clayton State University as an assistant professor of Biology, USA
 
 ## Involvement of OLS Board and Team Members in Governance Work
 
