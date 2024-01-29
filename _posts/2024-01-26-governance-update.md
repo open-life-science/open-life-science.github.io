@@ -21,7 +21,7 @@ In June 2023, the OLS Board invited 10 community leaders from OLS and the open s
 
 Learn more about the Governance Committee and its members on our [governance page]({% link governance.md %}). Individual committee members are listed below:
 
-![Smiling faces of the Committee Members](https://hackmd.io/_uploads/BytbFX-qp.png)
+![Smiling faces of the Committee Members](../images/2024-01-26-governance.jpg)
 
 - **Anelda van der Walt**, Talarify and RSSE Africa, South Africa
 - **Batool Almarzouq**, representing Open Science Saudi Arabia, UK
