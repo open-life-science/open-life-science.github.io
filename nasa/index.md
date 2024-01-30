@@ -78,6 +78,19 @@ Registration is now open for both participants and experts. We look forward to h
 
 **Experts and facilitators:** Please register your interest [as an expert or facilitator through this form.](https://forms.gle/DcostkBpszXT9MAr8) 
 
+### Upcoming sessions
+
+The expected timeline for upcoming sessions in 2024 is below:
+
+| Cohort timeline  | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+|------------------|-----|-----|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Applications** |     |  X  |     |  X  |     |  X  |     |     |  X  |     |     |  X  |   
+| **Pilot Cohort** |     |     |  X  |  X  |     |     |     |     |     |     |     |     |                               
+| **Cohort 2**     |     |     |     |     |  X  |  X  |     |     |     |     |     |     |       
+| **Cohort 3**     |     |     |     |     |     |     |  X  |  X  |     |     |     |     |    
+| **Cohort 4**     |     |     |     |     |     |     |     |     |     |  X  |  X  |     |    
+   
+
 *Si te interesa participar de las cohortes de formación en ciencia abierta de NASA-TOPS en idioma español, por favor contacta a nuestra comunidad amiga [MetaDocencia](https://www.metadocencia.org/).*
 
 
