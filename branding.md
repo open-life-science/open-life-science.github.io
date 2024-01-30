@@ -22,4 +22,4 @@ Whether you're creating a presentation or working on graduation slides, we've go
 As much as our branding resources are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), giving you permission to remix, re-use and redistribute them, there are stipulated [guidelines]({{ site.github.owner_url }}/branding#usage-guidelines) for this purpose. 
 In order to ensure proper usage, please explore the terms and conditions outlined in our [license documentation]({{ site.github.owner_url }}/branding#licensing).
 
-Feel free to reach out to us via [{{ site.email|replace:'@','[at]' }}]({{ site.email }}), if you have need for clarification, or simply want to make suggestions. Thank you!
+Feel free to reach out to us via [{{ site.email|replace:'@','[at]' }}]({{ mailto:{{ site.email }} }}), if you have need for clarification, or simply want to make suggestions. Thank you!
