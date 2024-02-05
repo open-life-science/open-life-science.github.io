@@ -25,13 +25,13 @@ The OLS-NASA Open Science 101 program is a comprehensive 6-week training program
 
 # Who is this training for?
 
-This training is aimed at researchers and research-supporting staff, from undergraduates to senior scientists. Our program is accessible to participants at any career level, fostering an inclusive environment for those taking their first steps in open science. It will be of particular interest to **individuals or teams** seeking to develop or improve an Open Science strategy or Data Management plan for their research work, whether it is in the proposal stage or already prepared to disseminate results.
+This training is aimed at researchers, research-supporting staff, and people who want to integrate best practices for open and reproducible research in new or ongoing projects. Our program is accessible to participants at any career level, from undergraduates to senior scientists, fostering an inclusive environment for those taking their first steps in open science. It will be of particular interest to **individuals or teams** seeking to develop or improve an Open Science strategy or Data Management plan for their research work, whether it is in the proposal stage or already prepared to disseminate results.
 
 Ideas for short projects to work during the program include:
-* Sketching an **open science strategy** for a research proposal.
-* Developing a **data management plan** that balances open access with privacy requirements.
-* Conducting a **reproducibility check** on a section of your research data or code.
-* Outlining a plan for **making your research findings more inclusive** for diverse audiences. 
+* Sketch an **open science strategy** for a research proposal.
+* Develop a **data management plan** that balances open access with privacy requirements.
+* Conduct a **reproducibility check** on a section of your research data or code.
+* Outline a plan for **making your research findings more inclusive** for diverse audiences. 
 
 # Training format and content
 
