@@ -502,6 +502,11 @@ code {
     position: sticky;
     top: 50px;
   }
+
+  // Equal heights for cards
+  .container .columns.three-pillars .column .card {
+  height: 100%;
+  }
 }
 
 .stream-card {
