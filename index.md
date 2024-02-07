@@ -15,7 +15,7 @@ We imagine a future where research is accessible, inclusive, and equitable for e
 # Our three pillars
 
 <div class="container">
-  <div class="columns">
+  <div class="columns three-pillars">
     <div class="column is-one-third">
       <a href="{% link open-science-training.md %}">
         <div class="card custom-card">

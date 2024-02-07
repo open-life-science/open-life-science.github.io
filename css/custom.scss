@@ -233,6 +233,7 @@ img {
     width: auto !important;
     height: auto !important;
     position: absolute !important;
+    padding: 10px;
   }
 
   .entity-description-question {
@@ -500,6 +501,11 @@ code {
   .column.is-one-fifth {
     position: sticky;
     top: 50px;
+  }
+
+  // Equal heights for cards
+  .container .columns.three-pillars .column .card {
+  height: 100%;
   }
 }
 
