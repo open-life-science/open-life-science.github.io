@@ -11,7 +11,7 @@ photos:
 In a bid to expand our reach and uphold our commitment to diversity, OLS embarked on a journey to expand its brand identity. From this, emerged a **new logo and name** for the mentoring program - _Open Seeds_. If you're interested in the story behind these changes, read all about **our rebranding adventure** in this insightful [blog post]({% link _posts/2023-04-18-Introducing-the-new-OLS.md %}). It takes you through the decision-making process, creative inspiration, and the vision that led to our new identity.
 
 ## Brand Assets
-Various versions of our logos, all carefully crafted to reflect the values and spirit of our community, can be found in the [branding GitHub repository]({{ site.github.owner_url }}/branding). While there, you will also find visual elements such as stickers, icons, social media assets, letterheads, flyers, etc.
+Previously, we used a [logo]({{ site.github.owner_url }}/branding/tree/master/logo/previous-ols-logo) originally designed by [Lucas Emanoell Medeiros e Silva](https://github.com/lukethebaka), and adapted by the team. Now, various versions of the new logos, all carefully crafted to reflect the values and spirit of our community, can be found in the [branding GitHub repository]({{ site.github.owner_url }}/branding). While there, you will also find visual elements such as stickers, icons, social media assets, letterheads, flyers, etc.
 
 
 ## Slide Templates
