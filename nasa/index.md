@@ -25,13 +25,13 @@ The OLS-NASA Open Science 101 program is a comprehensive 6-week training program
 
 # Who is this training for?
 
-This training is aimed at researchers and research-supporting staff, from undergraduates to senior scientists. Our program is accessible to participants at any career level, fostering an inclusive environment for those taking their first steps in open science. It will be of particular interest to **individuals or teams** seeking to develop or improve an Open Science strategy or Data Management plan for their research work, whether it is in the proposal stage or already prepared to disseminate results.
+This training is aimed at researchers, research-supporting staff, and people who want to integrate best practices for open and reproducible research in new or ongoing projects. Our program is accessible to participants at any career level, from undergraduates to senior scientists, fostering an inclusive environment for those taking their first steps in open science. It will be of particular interest to **individuals or teams** seeking to develop or improve an Open Science strategy or Data Management plan for their research work, whether it is in the proposal stage or already prepared to disseminate results.
 
 Ideas for short projects to work during the program include:
-* Sketching an **open science strategy** for a research proposal.
-* Developing a **data management plan** that balances open access with privacy requirements.
-* Conducting a **reproducibility check** on a section of your research data or code.
-* Outlining a plan for **making your research findings more inclusive** for diverse audiences. 
+* Sketch an **open science strategy** for a research proposal.
+* Develop a **data management plan** that balances open access with privacy requirements.
+* Conduct a **reproducibility check** on a section of your research data or code.
+* Outline a plan for **making your research findings more inclusive** for diverse audiences. 
 
 # Training format and content
 
@@ -77,6 +77,19 @@ Registration is now open for both participants and experts. We look forward to h
 **Participants:** Please register your interest [as a participant through this form.](https://forms.gle/bUEXdcSkt9BgY4tXA)
 
 **Experts and facilitators:** Please register your interest [as an expert or facilitator through this form.](https://forms.gle/DcostkBpszXT9MAr8) 
+
+### Upcoming sessions
+
+The expected timeline for upcoming sessions in 2024 is below:
+
+| Cohort timeline  | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+|------------------|-----|-----|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Applications** |     |  X  |     |  X  |     |  X  |     |     |  X  |     |     |  X  |   
+| **Pilot Cohort** |     |     |  X  |  X  |     |     |     |     |     |     |     |     |                               
+| **Cohort 2**     |     |     |     |     |  X  |  X  |     |     |     |     |     |     |       
+| **Cohort 3**     |     |     |     |     |     |     |  X  |  X  |     |     |     |     |    
+| **Cohort 4**     |     |     |     |     |     |     |     |     |     |  X  |  X  |     |    
+   
 
 *Si te interesa participar de las cohortes de formación en ciencia abierta de NASA-TOPS en idioma español, por favor contacta a nuestra comunidad amiga [MetaDocencia](https://www.metadocencia.org/).*
 
