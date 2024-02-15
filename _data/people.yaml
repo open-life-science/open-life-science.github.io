@@ -680,7 +680,7 @@ andrés-felipe-ortiz-ferreira:
   last-name: Ortiz Ferreira
   github: false
 anelda:
-  affiliation: Talarify
+  affiliation: Talarify and RSSE Africa
   bio: 'Anelda is the founder of Talarify, a South Africa-based consultancy working
     with researchers and postgraduates to help grow digital, computational, and open
     science literacy. She has a formal background in bioinformatics, but spend most
@@ -1353,7 +1353,7 @@ banshee1221:
   country_3: ZAF
   continent: Africa
 batoolmm:
-  affiliation: Kaimrc
+  affiliation: Open Science Saudi Arabia
   bio: Batool is a computational biologist affiliated with both KAIMRC in Saudi Arabia
     and the University of Liverpool in the UK. As an advocate for Open Science and
     its role in improving scientific and economic outputs in the Middle east, Batool
@@ -3727,7 +3727,7 @@ guille1107:
   longitude: -58.4370894
   latitude: -34.6075682
 ha0ye:
-  affiliation: University Of Florida
+  affiliation:  University of Pennsylvania / Community for Rigor
   bio: Hao is the Reproducibility Librarian at the University of Florida Health Science
     Center Libraries. He is passionate about empowering others, whether through training
     in open science and reproducible research practices or promoting equity and inclusion
@@ -5332,7 +5332,7 @@ lauracarter:
   longitude: -0.12765
   latitude: 51.5073359
 lauracion:
-  affiliation: Conicet - Universidad De Buenos Aires
+  affiliation: MetaDocencia
   bio: I am a tenured researcher leading a collaborative health data science research
     group. I also work to improve data analysis teaching and practice. I co-founded
     MetaDocencia, an open, collaborative, and Spanish-speaking education community.
@@ -5378,6 +5378,7 @@ lauradascenzi:
   longitude: -4.7760138
   latitude: 37.8845813
 laurah-nyasita-ondari:
+  affiliation: Bioinformatics Hub of Kenya initiative (BHKi)
   first-name: Laurah
   last-name: Ondari
   twitter: _nyasita
@@ -8371,6 +8372,7 @@ rossmounce:
   country_3: GBR
   continent: Europe
 rowland-mosbergen:
+  affiliation: Practical Diversity and Inclusion Project
   country: Australia
   first-name: Rowland
   github: false
@@ -8608,7 +8610,7 @@ sarah-nietopski:
   longitude: -0.14405508452768728
   latitude: 51.4893335
 saranjeetkaur:
-  affiliation: Rse Asia Association
+  affiliation: RSE Asia Association and Research Software Alliance
   bio: Saranjeet is a Fellow of the Software Sustainability Institute's 2023 Inauguration.  She
     has a Masters degree in Statistics from University of Pune and is a Technical
     Writer of the R Development Guide. Throughout her career, she’s been involved
@@ -8793,7 +8795,7 @@ sebastianeggert:
   country_3: DEU
   continent: Europe
 selgebali:
-  affiliation: Scilifelab/Fairpoints
+  affiliation: Scilifelab / FAIRPoints Project
   bio: I’m a strong advocate for equity and inclusion of individuals from marginalized
     groups in STEM fields. I’m also a passionate community builder and research data
     manager specialized in metadata and curation with a passion for OpenScience and
@@ -9053,7 +9055,7 @@ smhall97:
   latitude: 51.7520131
   pronouns: she/her
 smklusza:
-  affiliation: Clayton State University
+  affiliation: Atlanta Metropolitan State College, Adjunct Faculty and Laboratory Professional for Biology
   bio: Lifelong developmental geneticist with interest in synthetic biology and creating
     open domain tools for research
   city: Morrow
