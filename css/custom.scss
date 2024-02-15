@@ -497,6 +497,15 @@ code {
   }
 }
 
+.container .columns.three-pillars .column {
+  a {
+    border-bottom: none;
+  }
+  a:hover {
+    background-color: #fff;
+  }
+}
+
 @media (min-width: 780px) {
   .column.is-one-fifth {
     position: sticky;
