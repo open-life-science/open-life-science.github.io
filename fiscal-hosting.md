@@ -3,11 +3,11 @@ layout: page
 title: Fiscal Hosting
 description: Hands-on support to empower the next generation of open leaders in research.
 permalink: /open-incubator/fiscal-hosting/
-image: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09
+image: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 photos:
-  name: Noah Buscher
+  name: Kelli McClintock
   license: CC BY-SA 4.0
-  url: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09
+  url: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 ---
 
 # OLS Fiscally Sponsored Community (FSC) Onboarding process
