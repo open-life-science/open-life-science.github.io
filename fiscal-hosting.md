@@ -14,7 +14,7 @@ photos:
 
 As part of OLS's commitment to growing open researchers, OLS is experimenting with offering Fiscal Sponsorship. This model is well-known in the United States, with sponsors such as [Numfocus](https://numfocus.org/) and [Code for Science and Society](https://www.codeforsociety.org/) existing as nonprofit organisations that offer fiscal sponsorship for their constituent communities. 
 
-Communities that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become a fiscally sponsored community (FSC). 
+Communities that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become a fiscally sponsored community ([FSC](#fsc)). 
 
 ## FAQ
 
@@ -33,7 +33,7 @@ Nothing up-front. If you're awarded any grants, we usually ask for a fee of arou
 
 ### What does the FSC onboarding process look like? 
 
-```mermaid
+```mermaid!
 graph TD;
     Idea[💡 Project or funding opportunity identified]-->Contact["📧 Make contact with OLS"];
 
@@ -66,11 +66,9 @@ graph TD;
     
     ResidentFellow-- 💡 New project 
     opportunity identified --->MIN
-  
    
-    
 ```
 
 ## Definitions
 ### FSC
-Fiscally sponsored community. An group of individuals with interest in open research or other OLS-adjacent domains that would like assistance handling money, contracts, and possibly employment.
+**Fiscally sponsored community:** A group of individuals with interest in open research or other OLS-adjacent domains that would like assistance handling money, contracts, and possibly employment.
