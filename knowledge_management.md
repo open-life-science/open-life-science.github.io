@@ -184,7 +184,7 @@ flowchart LR
 
 To organize calls in the different cohorts, we use a shared Spreadsheet containing information about calls: general information like date, time, learning objectives, but also the different activities like talks, group discussions with instructions. This spreadsheet also contains links to full recordings, slides, information about speakers.
 
-We developped scripts for limiting manual work to propagate the information from the spreadsheet but also information about speakers to the OLS website in order to centralize the information there, build the video library. The script also generates templates for the call notes, and add information about participants, projects, and mentors in a cohort. 
+We developed scripts for limiting manual work to propagate the information from the spreadsheet but also information about speakers to the OLS website in order to centralize the information there, build the video library. The script also generates templates for the call notes, and add information about participants, projects, and mentors in a cohort. 
 
 ```mermaid!
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
@@ -391,7 +391,7 @@ flowchart LR
     --- | ---
     `Week` | Week number, e.g. `00`, `01` - *mandatory for every row*
     `Start Date` | *mandatory for weeks, calls*
-    `Start Time` | *mandatory for for calls*
+    `Start Time` | *mandatory for calls*
     `End Date` | 
     `Duration` | *mandatory for calls, activities*
     `Title` | *mandatory for calls, activities*
@@ -434,7 +434,7 @@ flowchart LR
 
 ## Update the schedule on GitHub
 
-This is run automatically every week and subitted as a Pull Request. The explanations below are only to run it manually
+This is run automatically every week and submitted as a Pull Request. The explanations below are only to run it manually
 
 1. Prepare computational environment (locally or GitPod) as explained in the `README.md` file of the GitHub repository
 2. Run the script `bin/<program>/update_schedule.sh`
