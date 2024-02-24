@@ -351,7 +351,7 @@ def get_people_id(name, people):
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     """
     if name not in people:
-        print(f"{name} not found in people ")
+        print(f"{name} not found in people (get_people_id)")
         return None
     else:
         return people[name]
@@ -375,7 +375,7 @@ def get_people_ids(names, people):
 
 
 def get_people_names(p_list, people):
-    """Get names of peoke
+    """Get names of people
 
     :param p_list: list of people id
     :param people: dictionary with people information
@@ -385,7 +385,7 @@ def get_people_names(p_list, people):
         if p is None:
             names.append(None)
         elif p not in people:
-            print(f"{p} not found in people")
+            print(f"{p} not found in people (get_people_names)")
             names.append(None)
         else:
             names.append(f"{people[p]['first-name']} {people[p]['last-name']}")
@@ -463,8 +463,8 @@ def extract_people_info(row, people):
     :param people: dictionary with people information
     """
     info = {
-        "first-name": row["First name"].rstrip(),
-        "last-name": row["Last name"].rstrip(),
+        "first-name": row["First name"].rstrip().title(),
+        "last-name": row["Last name"].rstrip().title(),
         "twitter": row["Twitter"] if "Twitter" in row else None,
         "website": row["Website"] if "Website" in row else None,
         "orcid": row["ORCID"] if "ORCID" in row else None,
@@ -975,10 +975,12 @@ def extract_talks(program):
     :param program: Training program
     """
     talks = []
-    for c in Path(f"_data/{program}").iterdir():
+    for c in sorted(Path(f"_data/{program}").iterdir()):
+        if c.is_file():
+            continue
         # get cohort schedule
-        cohort = c.name.split("-")[1]
-        schedule = load_schedule(cohort)
+        cohort = get_cohort_name(c, program)
+        schedule = load_schedule(program, cohort)
         # extract talks
         for week in schedule["weeks"].values():
             if "calls" not in week:
@@ -1062,7 +1064,7 @@ def update_people_info(p_list, p_dict, cohort, role, value):
         if p is None:
             continue
         if p not in p_dict:
-            print(f"{p} not found in people")
+            print(f"{p} not found in people (update_people_info)")
             continue
         p_dict[p][f"{cohort}-role"].append(role)
         if role == "participant" or role == "mentor":
@@ -1071,12 +1073,13 @@ def update_people_info(p_list, p_dict, cohort, role, value):
             p_dict[p][f"{cohort}-{role}"] = value
 
 
-def format_people_per_cohort(people):
+def format_people_per_cohort(people, program):
     """
     Format to get people with their location and cohort and role
     (1 entry per person, per cohort, per role)
 
     :param people: dictionary with people information
+    :param program: Training program
     """
     people_per_cohort = []
     for key, value in people.items():
@@ -1085,8 +1088,10 @@ def format_people_per_cohort(people):
         for e in ["country", "country_3", "city", "longitude", "latitude"]:
             info[e] = value[e] if e in value else None
         # get cohort participation
-        for c in Path("_data/openseeds").iterdir():
-            cohort = get_cohort_name(c)
+        for c in sorted(Path(f"_data/{program}").iterdir()):
+            if c.is_file():
+                continue
+            cohort = get_cohort_name(c, program)
             el = f"{cohort}-role"
             if el in value and len(value[el]) > 0:
                 for r in value[el]:
@@ -1097,11 +1102,12 @@ def format_people_per_cohort(people):
     return people_per_cohort
 
 
-def export_people_per_roles(people_df, out_dp):
+def export_people_per_roles(people_df, program, out_dp):
     """
     Export people per role
 
     :param people_df: dataframe with people information
+    :param program: Training program
     :param out_dp: Path object to output directory
     """
     people_info_df = people_df[
@@ -1112,9 +1118,11 @@ def export_people_per_roles(people_df, out_dp):
     for r in ROLES:
         role_df = people_df.filter(regex=r)
         role_df = role_df[role_df.filter(regex=r).notna().any(axis=1)]
-        for c in sorted(Path("_data/openseeds").iterdir()):
-            i = c.name.split("-")[1]
-            role_df.rename(columns={f"ols-{i}-{r}": f"ols-{i}"}, inplace=True)
+        for c in sorted(Path(f"_data/{program}").iterdir()):
+            if c.is_file():
+                continue
+            i = get_cohort_name(c, program)
+            role_df.rename(columns={f"{i}-{r}": f"{i}"}, inplace=True)
         df = pd.merge(people_info_df, role_df, left_index=True, right_index=True, how="inner")
         fp = Path(out_dp) / Path(f"{r}.csv")
         df.to_csv(fp)
@@ -1575,7 +1583,7 @@ def build_library(program):
     :param program: Training program
     """
     # extract talks
-    talks = extract_talks()
+    talks = extract_talks(program)
     # aggregate talks by tags
     talks_by_tag = aggregate_talks(talks)
     # combine tags by topic to build library
@@ -1666,12 +1674,14 @@ def extract_full_people_data(artifact_dp):
     people_df.to_csv(people_fp)
 
     for program in ["openseeds"]:
-        progr_people = copy.copy(people_df)
+        progr_people = copy.copy(people)
 
         for value in people.values():
             # add space for openseeds cohorts
             for c in sorted(Path(f"_data/{program}").iterdir()):
-                cohort = get_cohort_name(c)
+                if c.is_file():
+                    continue
+                cohort = get_cohort_name(c, program)
                 value[f"{cohort}-role"] = []
                 value[f"{cohort}-participant"] = []
                 value[f"{cohort}-mentor"] = []
@@ -1683,6 +1693,8 @@ def extract_full_people_data(artifact_dp):
         # get cohort and project informations
         projects = []
         for c in sorted(Path(f"_data/{program}").iterdir()):
+            if c.is_file():
+                continue
             cohort = get_cohort_name(c, program)
             # extract experts, facilitators, organizers from metadata
             metadata = read_yaml(f"{c}/metadata.yaml")
@@ -1714,11 +1726,13 @@ def extract_full_people_data(artifact_dp):
                                 update_people_info(t["speakers"], progr_people, cohort, "speaker", "speaker")
 
         # format people / project information per cohort
-        people_per_cohort = format_people_per_cohort(progr_people)
+        people_per_cohort = format_people_per_cohort(progr_people, program)
 
         # export people information to CSV file
         people_df = pd.DataFrame.from_dict(progr_people, orient="index")
         for c in sorted(Path(f"_data/{program}").iterdir()):
+            if c.is_file():
+                continue
             cohort = get_cohort_name(c, program)
             people_df[f"{cohort}-role"] = people_df[f"{cohort}-role"].apply(
                 lambda x: ", ".join([str(i) for i in x]) if len(x) > 0 else None
@@ -1733,7 +1747,7 @@ def extract_full_people_data(artifact_dp):
         people_df.to_csv(people_fp)
 
         # export project information to CSV file
-        project_df = pd.DataFrame(projects)
+        project_df = pd.DataFrame(projects).fillna("")
         project_df["participants"] = project_df["participants"].apply(lambda x: ", ".join([str(i) for i in x]))
         project_df["mentors"] = project_df["mentors"].apply(lambda x: ", ".join([str(i) for i in x]))
         project_df["keywords"] = project_df["keywords"].apply(lambda x: ", ".join([str(i) for i in x]))
@@ -1747,7 +1761,7 @@ def extract_full_people_data(artifact_dp):
         people_per_cohort_df.to_csv(people_per_cohort_fp)
 
         # export people per role
-        export_people_per_roles(people_df, artifact_dp[program])
+        export_people_per_roles(people_df, program, artifact_dp[program])
 
 
 def create_call_template(schedule_df, output_dp):
