@@ -526,7 +526,7 @@ This is run automatically every week and submitted as a Pull Request. The explan
 
 # Data and stats
 
-Data about the community (e.g. location), about the cohort (e.g. feedback or roles), about the video library are explored and visualized via Jupyter Notebooks stored in a [GitHub repository]({{ site.github.owner_url }}/ols-stats/) and rendered in a dedicated [OLS stat website]({{ site.url }}/ols-stats/).
+Data about the community (e.g. members' location), the cohort (e.g. feedback or roles), and the video library are explored and visualized via Jupyter Notebooks, stored in a [GitHub repository]({{ site.github.owner_url }}/ols-stats/) and rendered in a dedicated [OLS stat website]({{ site.url }}/ols-stats/).
 
 
 ```mermaid!
