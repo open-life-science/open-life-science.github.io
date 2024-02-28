@@ -43,11 +43,13 @@
             "inLanguage": "en-US",
             "duration": "{{ c.duration }}",
             "name" : "{{ c.title }}",
-            "offers": {
+            "offers": [
+            {
                 "@type": "Offer",
                 "price": "0",
                 "priceCurrency": "GBP"
             }
+            ]
         },
         "hasPart": [
             {
