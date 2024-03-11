@@ -13,7 +13,7 @@ photos:
 
 **Get ready for an exciting new series of cohorts on open science in collaboration with [NASA-TOPS](https://nasa.github.io/Transform-to-Open-Science/).**
 
-Funded by [NASA](https://www.nasa.gov/), OLS will offer 6-week-long virtual cohorts — not just once, but five times each year over the next three years.
+Funded by [NASA](https://www.nasa.gov/), OLS will offer 6-week-long virtual cohorts — Nebula — not just once, but five times each year over the next three years.
 
 We will bring our cohort-based approach, incorporating hands-on learning and individual coaching throughout the training.
 
@@ -21,7 +21,7 @@ Register your interest as a [participant](https://forms.gle/bUEXdcSkt9BgY4tXA), 
 
 # Program overview
 
-The OLS-NASA Open Science 101 program is a comprehensive 6-week training program designed for participants at any career stage. The program integrates practical training with individual coaching, supporting participants to apply open science principles, skills, and tools in their work.
+The Nebula program (Open Science 101) is a comprehensive 6-week training program designed for participants at any career stage. The program integrates practical training with individual coaching, supporting participants to apply open science principles, skills, and tools in their work.
 
 # Who is this training for?
 
