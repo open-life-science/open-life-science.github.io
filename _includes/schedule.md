@@ -37,11 +37,19 @@
                 }
             },
             "courseMode": ["online", "synchronous"],
+            "courseWorkload": "90-minutes long cohort call",
             "startDate" : "{{ c.date | date: "%Y-%m-%d" }}",
             "endDate" :"{{ c.date | date: "%Y-%m-%d" }}",
             "inLanguage": "en-US",
             "duration": "{{ c.duration }}",
-            "name" : "{{ c.title }}"
+            "name" : "{{ c.title }}",
+            "offers": [
+            {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "GBP"
+            }
+            ]
         },
         "hasPart": [
             {
