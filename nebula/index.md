@@ -9,6 +9,7 @@ photos:
   url: https://flic.kr/p/2gHMJah
 redirect_from:
   - /nasa
+  - /nasa/
 ---
 
 # About
