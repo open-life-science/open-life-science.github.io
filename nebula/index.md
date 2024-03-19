@@ -8,7 +8,8 @@ photos:
   license: CC BY-SA 4.0
   url: https://flic.kr/p/2gHMJah
 redirect_from:
-  - nasa/index.md
+  - /nasa
+  - /nasa/
 ---
 
 # About
