@@ -14,10 +14,10 @@ photos:
 <div class="container">
   <div class="columns">
     <div class="column is-one-third">
-      <a href="">
+      <a href="#">
         <div class="card custom-card">
             <div class="card-content">
-              <img src="" class="image is-128x128" alt="">
+              <img src="#" class="image is-128x128" alt="#">
               <h1>{{ event.title }}</h1>
               <p>{{ event.date }} at {{ event.time }}</p>
             </div>
@@ -32,10 +32,10 @@ photos:
 <div class="container">
   <div class="columns">
     <div class="column is-one-third">
-      <a href="">
+      <a href="#">
         <div class="card custom-card">
             <div class="card-content">
-              <img src="" class="image is-128x128" alt="">
+              <img src="#" class="image is-128x128" alt="#">
               <h1>{{ event.title }}</h1>
               <p>- by {{ event.people }}</p>
               <p>{{ event.date }} at {{ event.time }}</p>
