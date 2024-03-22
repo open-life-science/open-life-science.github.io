@@ -9,10 +9,8 @@ photos:
 ---
 
 ## Upcoming Events
-{% for event in site.data.events %}
-
 | Date/Time | Topic/Event | Venue/Location | Speakers/Contact | Organisers |
 |------|---------------------|----------------|------------------|----|
+{% for event in site.data.events %}
 | {{ event.date }} at {{ event.time }} | {{ event.title }} | {{ event.location }} | {{ event.people }} |  logo  |
-
 {% endfor %}
