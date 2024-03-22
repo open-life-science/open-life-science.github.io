@@ -15,3 +15,4 @@ photos:
 |------|---------------------|----------------|------------------|----|
 | {{ event.date }} at {{ event.time }} | {{ event.title }} | {{ event.location }} | {{ event.people }} |  logo  |
 
+{% endfor %}
