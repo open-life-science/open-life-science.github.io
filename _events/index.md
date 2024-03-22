@@ -8,42 +8,10 @@ photos:
   url: https://unsplash.com/photos/MAYsdoYpGuk
 ---
 
+## Upcoming Events
 {% for event in site.data.events %}
-    {% if event.category == internal %}
-## OLS-organised events
-<div class="container">
-  <div class="columns">
-    <div class="column is-one-third">
-      <a href="#">
-        <div class="card custom-card">
-            <div class="card-content">
-              <img src="#" class="image is-128x128" alt="#">
-              <h1>{{ event.title }}</h1>
-              <p>{{ event.date }} at {{ event.time }}</p>
-            </div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
-    {% else %}
 
-## We will be speaking at:
-<div class="container">
-  <div class="columns">
-    <div class="column is-one-third">
-      <a href="#">
-        <div class="card custom-card">
-            <div class="card-content">
-              <img src="#" class="image is-128x128" alt="#">
-              <h1>{{ event.title }}</h1>
-              <p>- by {{ event.people }}</p>
-              <p>{{ event.date }} at {{ event.time }}</p>
-            </div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
-    {% endif %}
-{% endfor %}
+| Date/Time | Topic/Event | Venue/Location | Speakers/Contact | Organisers |
+|------|---------------------|----------------|------------------|----|
+| {{ event.date }} at {{ event.time }} | {{ event.title }} | {{ event.location }} | {{ event.people }} |  logo  |
+
