@@ -20,6 +20,9 @@ collections:
   consulting:
     output: true
     permalink: /consulting/:path/
+  events:
+    output: true
+    permalink: /events/:year/:month/:day/:title.html
 
 toc:
   min_level: 1 # default: 1
