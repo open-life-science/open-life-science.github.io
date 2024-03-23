@@ -9,7 +9,7 @@ location: "Online"
 speakers:
   - name: "Y.Y"
   - affiliation: "Open Life Science"
-registration: "register_here.com"
+registration: ""
 type: external
 ---
 
