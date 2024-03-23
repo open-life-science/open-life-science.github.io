@@ -1,0 +1,32 @@
+---
+layout: base
+---
+
+<main>
+<section class="event-details">
+    <h2>See event details below:</h2>
+    <ul>
+    <li>**Date & Time:** {{ page.date }}, {{ page.time }}</li>
+    <li>**Location:** {{ page.location }}</li>
+    {% if page.speakers %}
+    <li>**Speakers:**
+        <ul>
+        {% for speaker in page.speakers %}
+        <li>{{ speaker.name }}{% if speaker.affiliation %} of ({{ speaker.affiliation }}){% endif %}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    {% if page.duration %}
+    <li>**Duration:** {{ page.duration }}</li>
+    {% endif %}
+    {% if page.registration %}
+    <li>**Registration:** <a href="{{ page.registration }}">Register for this event.</a></li>
+    {% endif %}
+    </ul>
+</section>
+
+<section class="event-content">
+    <h2>Event Description</h2>
+    {{ page.content }}
+</section>
+</main>
