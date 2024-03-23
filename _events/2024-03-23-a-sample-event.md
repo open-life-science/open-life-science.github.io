@@ -1,4 +1,5 @@
 ---
+layout: event
 title: "OLS: a training and mentoring program for the open-research-curious"
 description: "Detailed event description" 
 date: 2024-03-23
