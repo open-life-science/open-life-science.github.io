@@ -7,12 +7,12 @@ layout: page
     <h2>See event details below:</h2>
     <ul>
       <li>
-        **Date & Time:** {{ page.date | date: '%Y-%m-%d' }}, {{ page.time }}
+        <b>Date & Time:</b> {{ page.date | date: '%Y-%m-%d' }}, {{ page.time }}
       </li>
-      <li>**Location:** {{ page.location }}</li>
+      <li><b>Location:</b> {{ page.location }}</li>
       {% if page.speakers %}
       <li>
-        **Speakers:**
+        <b>Speakers:</b>
         {% for speaker in page.speakers %}
         <ul>
           <li>
@@ -23,11 +23,11 @@ layout: page
       </li>
       {% endif %}
       {% if page.duration %}
-      <li>**Duration:** {{ page.duration }}</li>
+      <li><b>Duration:</b> {{ page.duration }}</li>
       {% endif %}
       {% if page.registration %}
       <li>
-        **Registration:**
+        <b>Registration:</b>
         <a href="{{ page.registration }}">Register for this event.</a>
       </li>
       {% endif %}
