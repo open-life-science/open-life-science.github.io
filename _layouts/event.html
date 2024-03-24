@@ -13,13 +13,13 @@ layout: page
       {% if page.speakers %}
       <li>
         **Speakers:**
+        {% for speaker in page.speakers %}
         <ul>
-          {% for speaker in page.speakers %}
           <li>
             {{ speaker.name }}{% if speaker.affiliation %} (of {{ speaker.affiliation }}){% endif %}
           </li>
-          {% endfor %}
         </ul>
+        {% endfor %}
       </li>
       {% endif %}
       {% if page.duration %}
