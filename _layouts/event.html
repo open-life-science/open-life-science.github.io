@@ -34,10 +34,5 @@ layout: page
     </ul>
   </section>
 
-  {%- if page.content -%}
-  <section class="event-content">
-    <h2>Event Description</h2>
-    {{ page.content }}
-  </section>
-  {%- endif -%}
+  {{ content }}
 </main>
