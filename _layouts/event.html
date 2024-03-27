@@ -1,38 +1,36 @@
 ---
-layout: page
+layout: default
 ---
 
-<main>
-  <section class="event-details">
-    <h2>See event details below:</h2>
-    <ul>
-      <li>
-        <b>Date & Time:</b> {{ page.date | date: '%Y-%m-%d' }}, {{ page.time }}
-      </li>
-      <li><b>Location:</b> {{ page.location }}</li>
-      {%- if page.speakers -%}
-      <li>
-        <b>Speakers:</b>
-        <ul>
-        {%- for speaker in page.speakers -%}
-          <li>
-            {{ speaker.name }}{%- if speaker.affiliation -%} (of {{ speaker.affiliation }}){%- endif -%}
-          </li>
-          {%- endfor -%}
-        </ul>
-      </li>
-      {%- endif -%}
-      {%- if page.duration -%}
-      <li><b>Duration:</b> {{ page.duration }}</li>
-      {%- endif -%}
-      {%- if page.registration -%}
-      <li>
-        <b>Registration:</b>
-        <a href="{{ page.registration }}">Register for this event.</a>
-      </li>
-      {%- endif -%}
-    </ul>
-  </section>
+<section class="event-details">
+  <h2>See event details below:</h2>
+  <ul>
+    <li>
+      <b>Date & Time:</b> {{ page.date | date: '%Y-%m-%d' }}, {{ page.time }}
+    </li>
+    <li><b>Location:</b> {{ page.location }}</li>
+    {%- if page.speakers -%}
+    <li>
+      <b>Speakers:</b>
+      <ul>
+      {%- for speaker in page.speakers -%}
+        <li>
+          {{ speaker.name }}{%- if speaker.affiliation -%} (of {{ speaker.affiliation }}){%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    </li>
+    {%- endif -%}
+    {%- if page.duration -%}
+    <li><b>Duration:</b> {{ page.duration }}</li>
+    {%- endif -%}
+    {%- if page.registration -%}
+    <li>
+      <b>Registration:</b>
+      <a href="{{ page.registration }}">Register for this event.</a>
+    </li>
+    {%- endif -%}
+  </ul>
+</section>
 
-  {{ content }}
-</main>
+{{ content }}
