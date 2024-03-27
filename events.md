@@ -13,6 +13,6 @@ photos:
 
 | Date/Time | Topic/Event | Venue/Location | Speakers/Contact | Organisers |
 |-----------|-------------|----------------|------------------|------------|
-{%- for event in site.data.events -%}
-| {{ event.date }} at {{ event.time }} | {{ event.title }} | - | {{ event.people }} | - |
+{% for event in site.events %}
+| {{ event.date }} at {{ event.time }} | {{ event.title }} | {{ event.location }} | {{ event.people }} | {{ event.organiser }} |
 {%- endfor -%}
