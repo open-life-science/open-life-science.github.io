@@ -14,5 +14,5 @@ photos:
 | Date/Time | Topic/Event | Venue/Location | Speakers/Contact | Organisers |
 |-----------|-------------|----------------|------------------|------------|
 {% for event in site.events %}
-| {{ event.date }} at {{ event.time }} | {{ event.title }} | {{ event.location }} | {{ event.people }} | {{ event.organiser }} |
+| {{ event.date }} at {{ event.time }} | {{ event.title }} | {{ event.location }} | {{ event.speakers }} | {{ event.organiser }} |
 {%- endfor -%}

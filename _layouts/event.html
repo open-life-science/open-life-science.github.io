@@ -14,9 +14,7 @@ layout: default
       <b>Speakers:</b>
       <ul>
       {%- for speaker in page.speakers -%}
-        <li>
-          {{ speaker.name }}{%- if speaker.affiliation -%} (of {{ speaker.affiliation }}){%- endif -%}
-        </li>
+        <li>{{ speaker.name }}</li>
         {%- endfor -%}
       </ul>
     </li>
