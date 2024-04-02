@@ -9,10 +9,15 @@ photos:
   url: https://images.unsplash.com/photo-1503428593586-e225b39bddfe
 ---
 
+{%- assign today = site.time | date: '%Y-%m-%d' -%}
 ## Upcoming Events
 
 | Date/Time | Topic/Event | Venue/Location | Speakers/Contact | Organisers |
 |-----------|-------------|----------------|------------------|------------|
-{% for event in site.events %}
-| {{ event.date }} at {{ event.time }} | {{ event.title }} | {{ event.location }} | {{ event.speakers }} | {{ event.organiser }} |
+{%- for event in site.events -%}
+{%- assign event_date = event.date | date: '%Y-%m-%d' -%}
+{%- assign diff_in_months = (today | date: '%Y%m') | minus: (event_date | date: '%Y%m') -%}
+{% if diff_in_months <= 4 %}
+| {{ event.date }} at {{ event.time }} | {%- if page.type == "external" -%} [{{ event.title }}]({{ event.event_link }}) {%- else -%} [{{ event.title }}]({{ event.url }}) {% endif %} | {{ event.location }} | {{ event.speakers }} | {{ event.organiser }} |
+{%- endif -%}
 {%- endfor -%}
