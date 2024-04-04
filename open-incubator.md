@@ -11,7 +11,7 @@ streams:
   -
     title: Catalyst
     description: |
-      Funded by [Chan Zuckerberg Initiative](https://chanzuckerberg.com/), this project aims to develop a **collaborative service** to **facilitate access** to **cloud infrastructure** for biomedical research communities in **Latin America** and **Africa**. You can read more about it in the [submitted proposal](https://zenodo.org/records/7025288) 
+      Funded by [Chan Zuckerberg Initiative](https://chanzuckerberg.com/), the [Catalyst Project](https://catalystproject.cloud/) aims to develop a **collaborative service** to **facilitate access** to **cloud infrastructure** for biomedical research communities in **Latin America** and **Africa**. You can read more about it in the [submitted proposal](https://zenodo.org/records/7025288).
     key_personal: 
       ids: 
       - emmyft
