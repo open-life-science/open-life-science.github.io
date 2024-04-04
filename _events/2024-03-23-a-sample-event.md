@@ -11,7 +11,7 @@ speakers:
   - yochannah
   - selgebali
 type: external
-event_link: ""
+event_link: "www.google.com"
 image: https://images.unsplash.com/photo-1475721027785-f74eccf877e2
 photos:
   name: Kane Reinholdtsen
