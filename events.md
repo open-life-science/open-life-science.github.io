@@ -16,7 +16,7 @@ photos:
 |-----------|-------------|----------------|------------------|------------|
 {%- for event in site.events -%}
 {%- assign event_date = event.date | date: '%Y-%m-%d' -%}
-{%- assign diff_in_months = (today | date: '%Y%m') | minus: (event_date | date: '%Y%m') -%}
+{%- assign diff_in_months = {{ today | minus: event_date }}%}
 {% if diff_in_months <= 4 %}
 | {{ event.date }} at {{ event.time }} | {%- if page.type == "external" -%} [{{ event.title }}]({{ event.event_link }}) {%- else -%} [{{ event.title }}]({{ event.url }}) {% endif %} | {{ event.location }} | {{ event.speakers }} | {{ event.organiser }} |
 {%- endif -%}
