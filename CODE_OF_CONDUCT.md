@@ -74,7 +74,7 @@ please report it by contacting the organisers - Bérénice, Malvika and Yo.
 (team@we-are-ols.org).
 
 To report an issue involving one of the members, please email one of the members individually
-(berenice@openlifesci.org, malvika@openlifesci.org, yo@openlifesci.org).
+(berenice@we-are-ols.org, malvika@we-are-ols.org, yo@we-are-ols.org).
 
 All reports will be handled with discretion. In your report please include:
 
