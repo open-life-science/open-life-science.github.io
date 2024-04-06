@@ -57,7 +57,7 @@ You will be invited to join these channels when you participate in a cohort:
 
 There are many more channels that you can explore by clicking three dots next to the top header 'Channels' --> then choosing the third option 'Browse channels'.
 
-For any questions please contact the OLS team by emailing: [team@openlifesci.org](mailto:team@openlifesci.org).
+For any questions please contact the OLS team by emailing: [team@we-are-ols.org](mailto:team@we-are-ols.org).
 
 ## Part 2: Quick Start Guide for Slack
 
