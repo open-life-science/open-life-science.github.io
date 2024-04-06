@@ -25,7 +25,7 @@ There are typically two ways to be onboarded in the OLS workspace:
 - You are part of the OLS team
 - You have previously participated or will participate in an OLS cohort
 
-We ask each member to identify the role they take in the OLS cohort and community and understand their responsibilities as listed on the [OLS webpage](https://openlifesci.org/about).
+We ask each member to identify the role they take in the OLS cohort and community and understand their responsibilities as listed on the [OLS webpage]({{ site.github.owner_url }}/about).
 
 If you would like to invite someone who has not previously participated in any of the previous capacities, there are two ways to involve them:
 - If they are already open science practitioners, please let the OLS team know so that they can invite them as an expert for the current (ongoing) cohort
