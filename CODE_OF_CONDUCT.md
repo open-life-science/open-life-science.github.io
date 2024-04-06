@@ -71,7 +71,7 @@ disabilities.
 
 If you experience or witness unacceptable behavior, or have any other concerns,
 please report it by contacting the organisers - Bérénice, Malvika and Yo.
-(team@openlifesci.org).
+(team@we-are-ols.org).
 
 To report an issue involving one of the members, please email one of the members individually
 (berenice@openlifesci.org, malvika@openlifesci.org, yo@openlifesci.org).
