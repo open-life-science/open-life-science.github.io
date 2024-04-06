@@ -2,7 +2,7 @@
 layout: event
 title: "ELIXIR All-hands Meeting"
 description: "One-line description"
-date: 2024-03-23
+date: 2023-09-23
 time: "16:00 AM WAT"
 duration: 4 hours
 location: "Brussels, Belgium"
