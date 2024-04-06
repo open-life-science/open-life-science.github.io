@@ -1,4 +1,4 @@
-<div class="columns is-multiline">
+<div class="columns is-multiline three-pillars">
     {% for stream in page.streams %}
     <div class="column is-one-third">
         <a href="#{{ stream.title | slugify }}">

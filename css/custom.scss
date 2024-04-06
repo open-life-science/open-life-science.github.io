@@ -51,6 +51,7 @@ img {
       max-height: 3.5rem;
       margin-top: -5px;
       margin-bottom: -5px;
+      padding: 10px;
     }
   }
 
@@ -185,7 +186,7 @@ img {
   .people-card-meta-twitter {
     font-weight: 600;
   }
-
+logo
   .people-description {
     padding-left: 0px;
     padding-right: 0px;
@@ -494,10 +495,24 @@ code {
   }
 }
 
+.container .columns.three-pillars .column {
+  a {
+    border-bottom: none;
+  }
+  a:hover {
+    background-color: #fff;
+  }
+}
+
 @media (min-width: 780px) {
   .column.is-one-fifth {
     position: sticky;
     top: 50px;
+  }
+
+  // Equal heights for cards
+  .container .columns.three-pillars .column .card {
+  height: 100%;
   }
 }
 

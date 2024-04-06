@@ -21,7 +21,7 @@ We have high ethical standards, including:
 - **Modesty**: Know you don't know everything
 - **Community**: Carefully listen to any concerns and questions and respond honestly
 - **Respect**: Respect humans and all living systems
-- **Responsibility**: Recognize the complexity and dynamics os science and research and our responsibility towards them
+- **Responsibility**: Recognize the complexity and dynamics of science and research and our responsibility towards them
 
 # Core team
 

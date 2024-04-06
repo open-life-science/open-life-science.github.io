@@ -17,7 +17,7 @@ streams:
       alt: |
         Open Seeds logo: the words 'Open Seeds' written in green, with a seedling above the letter p. Underneath, the words 'Mentoring and Training Program' written in black.
   -
-    title: "Open Science Accessible: Teaching NASA-TOPS OpenCore in English"
+    title: Nebula
     description: |
       Funded by [NASA](https://www.nasa.gov/), this work aims to deliver fully virtual training cohorts for the [NASA TOPS OpenCore training curriculum](https://nasa.github.io/Transform-to-Open-Science/) with a highly qualitative component throughout the training. 
       
