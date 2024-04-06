@@ -21,6 +21,7 @@ collections:
     output: true
     permalink: /consulting/:path/
   events:
+    output: true
     permalink: /events/:year/:month/:day/:title/
 
 toc:
