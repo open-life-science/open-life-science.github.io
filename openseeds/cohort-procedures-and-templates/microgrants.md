@@ -1,3 +1,13 @@
+---
+layout: page
+title: Microgrants
+image: https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6
+photos:
+  name: Micheile Henderson
+  license: CC-BY
+  url: https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6
+---
+
 # OLS Microgrant Policy and processes
 
 ## Applicant workflow

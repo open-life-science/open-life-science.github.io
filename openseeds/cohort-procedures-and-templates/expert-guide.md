@@ -1,6 +1,16 @@
+---
+layout: page
+title: Expert guide
+image: 
+photos:
+  name: Niklas Morberg
+  license: CC BY-NC 2.0
+  url: https://flic.kr/p/5BXB6s
+---
+
 # OLS Guide to inviting experts to meet project leads
 
-More on what being an OLS expert means: [OLS Expert page](https://openlifesci.org/about#experts)
+More on what being an OLS expert means: [OLS Expert page]({{ site.url }}/about#experts)
 
 All OLS participants invite at least one expert to discuss their projects. These templates below can help to facilitate the process. 
 

@@ -1,3 +1,12 @@
+---
+layout: page
+title: Graduation guide
+image: https://images.unsplash.com/photo-1541339907198-e08756dedf3f
+photos:
+  name: Pang Yuhao
+  license: CC-BY
+  url: https://images.unsplash.com/photo-1541339907198-e08756dedf3f
+---
 
 # Requirements to graduate from an Open Seeds - OLS cohort
 Before reading this guide please note: there is no need for mentees to finalise or execute their projects as planned in order to graduate from the program. Open Seeds has been designed to support individuals or teams in advancing their research projects in order to make them open, and we are aware that doing so is a task that most times takes longer than 16 weeks. The main criteria used here is “process”, not “product”. It’s fine to change directions throughout your participation in the program, or even decide the project isn’t needed to continue - so long as genuine thought went into it. 

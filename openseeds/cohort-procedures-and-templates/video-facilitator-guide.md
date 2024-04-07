@@ -1,3 +1,13 @@
+---
+layout: page
+title: Video facilitator guide
+image: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
+photos:
+  name: Chris Montgomery
+  license: CC-BY
+  url: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
+---
+
 # 🎥 Video Facilitator (also called transcription checker)
 
 OLS members who have participated as a project lead in a previous cohort or have joined as an expert can volunteer to take the video facilitator role in the ongoing cohort. These individuals would like to learn more about the OLS processes or take a vital role in leading/facilitating the cohort calls. They commit their time and leadership skills toward building a collaborative experience for the attendees of OLS cohort calls.
