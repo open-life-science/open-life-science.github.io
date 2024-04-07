@@ -1,6 +1,6 @@
 # Invoicing OLS
 
-When invoicing OLS for a pre-agreed fee, please make sure to send the invoice to `financemanagement at openlifesci dot org`. These invoices are usually paid once a week. 
+When invoicing OLS for a pre-agreed fee, please make sure to send the invoice to [{{ site.finance_email }}](mailto:{{ site.finance_email }}). These invoices are usually paid once a week. 
 
 ## Tax and social benefits
 
