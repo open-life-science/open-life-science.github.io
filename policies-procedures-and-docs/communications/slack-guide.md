@@ -7,7 +7,7 @@ First and foremost, Welcome! 🎉 Willkommen! 🎊 Bienvenue! 🙏 सुस्�
 This document (the Slack Guide) will give you some information about how to use the Slack workspaces maintained by the OLS team.
 
 The community participation guideline and Code of Conduct of OLS apply to all our community interactions, including the Slack workspace, which is our most important communications channel along with the mailing list and cohort-related calls. 
-Please make sure you have read this document along with the [Code of Conduct](https://github.com/open-life-science/policies-procedures-and-docs/blob/main/CODE_OF_CONDUCT.md) procedures and understand how they apply to your participation in OLS.
+Please make sure you have read this document along with the [Code of Conduct]({% link CODE_OF_CONDUCT.md %}) procedures and understand how they apply to your participation in OLS.
 
 Find all the information about our community and projects at [https://open-life-science.github.io]({{ site.github.owner_url }}).
 
@@ -25,7 +25,7 @@ There are typically two ways to be onboarded in the OLS workspace:
 - You are part of the OLS team
 - You have previously participated or will participate in an OLS cohort
 
-We ask each member to identify the role they take in the OLS cohort and community and understand their responsibilities as listed on the [OLS webpage]({{ site.github.owner_url }}/about).
+We ask each member to identify the role they take in the OLS cohort and community and understand their responsibilities as listed on the [OLS webpage]({{ site.url }}/about).
 
 If you would like to invite someone who has not previously participated in any of the previous capacities, there are two ways to involve them:
 - If they are already open science practitioners, please let the OLS team know so that they can invite them as an expert for the current (ongoing) cohort
@@ -57,7 +57,7 @@ You will be invited to join these channels when you participate in a cohort:
 
 There are many more channels that you can explore by clicking three dots next to the top header 'Channels' --> then choosing the third option 'Browse channels'.
 
-For any questions please contact the OLS team by emailing: [team@we-are-ols.org](mailto:team@we-are-ols.org).
+For any questions please contact the OLS team by emailing: [{{ site.email }}](mailto:{{ site.email }}).
 
 ## Part 2: Quick Start Guide for Slack
 
