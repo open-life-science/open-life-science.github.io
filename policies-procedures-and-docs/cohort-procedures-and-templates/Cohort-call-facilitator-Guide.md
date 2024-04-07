@@ -10,7 +10,7 @@ Our cohort call facilitators share some of the cohort call-related management ro
 
 Please identify which week you have signed up for and who is the cohort call lead.
 
-Our cohort calls vary in time from week to week: Please see schedules from our website here: [[https://openlifesci.org/](https://openlifesci.org/)]([https://openlifesci.org/](https://openlifesci.org/)).
+Our cohort calls vary in time from week to week: Please see schedules from our website here: [{{ site.url }}]({{ site.url }}).
 
 For any questions or concerns, please contact Community Coordinator, Paz Bernaldo via Slack.
 
