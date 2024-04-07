@@ -17,7 +17,7 @@ All members of OLS -- OLS team: directors, paid staff, resident fellows; and OLS
 All members are invited to join the Slack workspace and are sent a private joining link via email when being onboarded to the OLS community.
 
 We want to ensure a safe and welcoming environment for all our cohort members.
-We want to provide community spaces, including the Slack workspace, where everyone understands and respects the [OLS values](https://openlifesci.org/community).
+We want to provide community spaces, including the Slack workspace, where everyone understands and respects the [OLS values]({{ site.url }}/community).
 
 To ensure that each of us holds respect and a shared sense of responsibility towards each other in our community, we have created pathways for purposeful participation in OLS, including the Slack workspace.
 
