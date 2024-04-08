@@ -122,7 +122,7 @@ Here are a few values we think you will receive from participating in this proje
 
 ## Mentees
 
-Our mentees are science researchers and bioinformaticians who are interested in contributing to Open Science projects and communities. In this program they will be supported by the organisers, mentors, experts, and other mentees in getting started with their journey as Open Scientists.
+Our mentees are scientists and researchers (whether in academia or outside) who are interested in contributing to Open Science projects and communities. In this program they will be supported by the organisers, mentors, experts, and other mentees in getting started with their journey as Open Scientists.
 
 **Our mentees will:**
 
