@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Expert guide
-image: 
+image: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 photos:
-  name: Niklas Morberg
-  license: CC BY-NC 2.0
-  url: https://flic.kr/p/5BXB6s
+  name: Chris Montgomery
+  license: CC-BY
+  url: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 ---
 
 # OLS Guide to inviting experts to meet project leads
