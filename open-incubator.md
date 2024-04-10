@@ -38,6 +38,10 @@ streams:
     title: Fiscal Hosting 
     description: |
       We are helping early stage organizations with fiscal hosting. If you are interested, please contact directors at we-are-ols.org to discuss. 
+    image:
+      link: images/icons/noun-benefit-6097908.svg
+      alt: |
+        Icon created by Dhavid Tah Hillah Saputra. In the image, is a coin with a dollar sign in the middle. From it, a seedling is sprouting. Two hands cup the coin on either side.
   -
     title: Grant Writing Training
     description: |
