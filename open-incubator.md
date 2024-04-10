@@ -12,6 +12,10 @@ streams:
     title: Catalyst
     description: |
       Funded by [Chan Zuckerberg Initiative](https://chanzuckerberg.com/), the [Catalyst Project](https://catalystproject.cloud/) aims to develop a **collaborative service** to **facilitate access** to **cloud infrastructure** for biomedical research communities in **Latin America** and **Africa**. You can read more about it in the [submitted proposal](https://zenodo.org/records/7025288).
+    image: 
+      link: images/logo/catalyst-logo-dark-bg-white.png
+      alt: |
+        Catalyst logo: A green logo consisting of a gear icon, meshing into a globe on a neutral gray background. Below the logo is the word 'CATALYST' in bold, and under immediately under it, the word 'PROJECT' appears in bold, written in a smaller font.
     key_personal: 
       ids: 
       - emmyft
