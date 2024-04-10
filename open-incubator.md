@@ -62,7 +62,7 @@ streams:
       - [Ally skills](/consulting/ally-skills),
       - [Organisational Leadership](/consulting/organisational-leadership).
     image:
-      link: images/icons/noun-friendship-money-1258376.svg
+      link: images/icons/noun-strategic-consultancy-2000587.svg
       alt: |
         Image by Webtechops LLP. It is a square-shaped conversation bubble, which contains a idea (bulb) icon bounded by a dark circular ring.
 ---
