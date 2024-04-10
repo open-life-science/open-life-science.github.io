@@ -30,6 +30,10 @@ streams:
     title: Facilitators Training and Transcription Services
     description: |
       During our online training cohorts, we teach facilitators to manage and run cohort calls. They lead efforts in preparing cohort call notes, co-hosting cohort calls and ensuring the sharing of call recordings and resources through OLS channels.
+    image:
+      link: images/icons/noun-conference-4740469.svg
+      alt: |
+        Icon created by Maan Icons. A desktop screen depicting a video conference call. On the left half of the screen is a presenter, while the right half is further divided into two equal parts, each occupied by one listener.
   -
     title: Fiscal Hosting 
     description: |
@@ -41,7 +45,7 @@ streams:
     image:
       link: images/icons/noun-writing-6279702.svg
       alt: |
-        An icon showing two pieces of plain, white papers, with a hand holding a pen, hovering the stack. 
+        Icon created by Kamal Abdullah. It shows two pieces of plain, white papers, with a hand holding a pen, hovering the stack. 
   -
     title: Consultancy and Open Research Advice
     description: |
