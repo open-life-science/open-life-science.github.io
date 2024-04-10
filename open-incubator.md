@@ -61,7 +61,10 @@ streams:
       - [Accessibility Consulting](/consulting/accessibility-consulting) (specially related to running online inclusive calls),
       - [Ally skills](/consulting/ally-skills),
       - [Organisational Leadership](/consulting/organisational-leadership).
-
+    image:
+      link: images/icons/noun-friendship-money-1258376.svg
+      alt: |
+        Image by Webtechops LLP. It is a square-shaped conversation bubble, which contains a idea (bulb) icon bounded by a dark circular ring.
 ---
 
 With the Open Incubator, a.k.a the greenhouse, we offer **hands-on support** to **empower** the next generation of **open leaders in research**. This might be for people who have completed Open Seeds and now want to say "what next for my project?", or it might be individuals.
