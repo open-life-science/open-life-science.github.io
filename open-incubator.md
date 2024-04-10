@@ -26,6 +26,10 @@ streams:
     title: Fellowship Programmes
     description: |
       Our flagship Fellowship is the Resident Fellow programmes.
+    image:
+      link: images/icons/noun-fellowship-6599169.svg
+      alt: | 
+        Image created by Sptya™. A graduation cap is encircled by three icons representing people. Two arrows move in a clockwise direction, each arrow linking from one person to the next.
   -
     title: Facilitators Training and Transcription Services
     description: |
