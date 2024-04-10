@@ -38,6 +38,10 @@ streams:
     title: Grant Writing Training
     description: |
       This will come soon. Please let us know if you'd like to [fund the development of the curriculum](https://numfocus.github.io/disc-unconference-2023-projects/en/hidden-curriculum.html)!
+    image:
+      link: https://thenounproject.com/icon/writing-6279702/
+      alt: |
+        An icon showing two pieces of plain, white papers, with a hand holding a pen, hovering the stack. 
   -
     title: Consultancy and Open Research Advice
     description: |
