@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Etherpad Archiving Guide
-image: https://unsplash.com/photos/a-long-row-of-books-in-a-library-xYyJAC0IdyI
+image: https://images.unsplash.com/photo-1683178861337-ca70ef8c0db3
 photos:
   name: Zetong Li
   license: CC-BY
-  url: https://unsplash.com/photos/a-long-row-of-books-in-a-library-xYyJAC0IdyI
+  url: https://images.unsplash.com/photo-1683178861337-ca70ef8c0db3
 ---
 
 # Etherpad Archiving Guide for OLS cohort calls
