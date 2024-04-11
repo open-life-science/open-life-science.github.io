@@ -1,3 +1,13 @@
+---
+layout: page
+title: Honoraria Policy
+image: https://images.unsplash.com/photo-1624811531417-f29437fed1ce
+photos:
+  name: Towfiqu barbhuiya
+  license: CC-BY
+  url: https://images.unsplash.com/photo-1624811531417-f29437fed1ce
+---
+
 # OLS Honoraria Policy
 
 This policy covers how OLS gives honoraria. How OLS employees, independent contractors, or consultants receive honoria from other parties and engagement will be detailed in a separate policy.
