@@ -1,3 +1,13 @@
+---
+layout: page
+title: Etherpad Archiving Guide
+image: https://unsplash.com/photos/a-long-row-of-books-in-a-library-xYyJAC0IdyI
+photos:
+  name: Zetong Li
+  license: CC-BY
+  url: https://unsplash.com/photos/a-long-row-of-books-in-a-library-xYyJAC0IdyI
+---
+
 # Etherpad Archiving Guide for OLS cohort calls
 
 ## Purpose:

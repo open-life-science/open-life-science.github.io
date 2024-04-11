@@ -1,3 +1,13 @@
+---
+layout: page
+title: OLS Slack Guidelines
+image: https://images.unsplash.com/photo-1557200134-3103da7b6bff
+photos:
+  name: Stephen Phillips - Hostreviews.co.uk
+  license: CC-BY
+  url: https://images.unsplash.com/photo-1557200134-3103da7b6bff
+---
+
 # OLS Slack Guidelines
 
 *Scroll down for the 'Part 2: Quick Start Guide' if you have not used Slack before.*
