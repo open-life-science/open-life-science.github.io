@@ -145,6 +145,17 @@ $ make check-html
 
 Our knowledge about our different programs, our community, etc is managed via this repository, [CiviCRM](https://civicrm.org/), and documents stored in Google Drive. It is then added to the website as explained in our [Knowledge Management System documentation](https://we-are-ols.org/knowledge_management.html)
 
+## Adding Events to the Website
+This page is where we detail events, either organised by OLS or where we are invited to speak at.
+To help you contribute events to this website, we would like to offer a step-by-step guide.
+The process involves creating a new file and filling in some details. 
+
+**What you'll need:**
+
+- A text editor (like Notepad or VSCode).
+
+**Steps to add an event:**
+
 ## License
 
 The content of this website are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
