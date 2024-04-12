@@ -200,6 +200,13 @@ photos:
 * **image (optional):** A URL linking to an image that visually represents the event.
 * **photos (optional):** This is mainly for image attribution. It holds information about the image source if you're using one. This includes the photographer's name, license information, and the original image URL.
 
+**Please note:**
+
+* If you're unsure about any property, leave it blank.
+* Double-check the date, time, and location information for accuracy.
+
+4. **Save the file and submit a Pull Request:** Once you've filled in the details, save the `.md` file and submit a pull request to the website's repository. Once approved and merged, your event has been added!
+
 
 ## License
 
