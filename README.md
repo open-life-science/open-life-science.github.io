@@ -156,6 +156,33 @@ The process involves creating a new file and filling in some details.
 
 **Steps to add an event:**
 
+1. **Create a new file:** Create a new text file in the `_events` folder of the website's repository.
+2. **Copy and paste the template:** You are at liberty to add only the properties applicable in your unique use case, 
+but for ease, we recommend that you paste the following content into the new file:
+
+```yaml
+---
+layout: event
+title: "Title of event"
+description: "One-line description"
+date: 2024-MM-DD
+time: "HH:MM AM/PM Timezone"
+duration: X hours (Optional)
+location: "Online" or "Physical Location"
+organiser: ""
+speakers:
+  - Person 1
+  - Person 2
+type: internal (for our website events) or external (for external event links)
+event_link: "www.example.com" (Required for external events)
+image: https://image_url.com (Optional)
+photos:
+  name: Photographer
+  license: License Info (e.g., CC BY-SA 4.0)
+  url: https://image_url.com
+---
+```
+
 ## License
 
 The content of this website are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
