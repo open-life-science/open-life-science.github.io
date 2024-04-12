@@ -192,6 +192,13 @@ photos:
 * **date:** The date of the event in YYYY-MM-DD format (e.g., 2024-10-26).
 * **time:** The time of the event, including AM/PM and timezone (e.g., 12:00 PM WAT).
 * **duration (optional):** The approximate duration of the event in minutes, hours or days.
+* **location:** Where the event would take place, whether it is online or has a physical location.
+* **organiser:** The organisation or person hosting the event.
+* **speakers:** A list of speakers participating in the event (one name per line).
+* **type:** Indicate if the event is hosted on our website (internal) or has an external link (external).
+* **event_link (required for external events):** The website URL of the external event.
+* **image (optional):** A URL linking to an image that visually represents the event.
+* **photos (optional):** This is mainly for image attribution. It holds information about the image source if you're using one. This includes the photographer's name, license information, and the original image URL.
 
 
 ## License
