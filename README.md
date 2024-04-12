@@ -183,6 +183,17 @@ photos:
 ---
 ```
 
+3. **Fill in the details:** Now, replace the placeholders with the actual information about your event.
+
+**What do the properties mean?**
+
+* **title:** The main title of your event.
+* **description:** A brief one-line description of the event.
+* **date:** The date of the event in YYYY-MM-DD format (e.g., 2024-10-26).
+* **time:** The time of the event, including AM/PM and timezone (e.g., 12:00 PM WAT).
+* **duration (optional):** The approximate duration of the event in minutes, hours or days.
+
+
 ## License
 
 The content of this website are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
