@@ -25,7 +25,7 @@ streams:
   -
     title: Fellowship Programmes
     description: |
-      Our flagship Fellowship is the Resident Fellow programmes.
+      Our flagship incubator service is the Resident Fellow programme, where individuals work with OLS to further OLS's goals whilst exploring opportunities for personal growth.
     image:
       link: images/icons/noun-fellowship-6599169.svg
       alt: | 
