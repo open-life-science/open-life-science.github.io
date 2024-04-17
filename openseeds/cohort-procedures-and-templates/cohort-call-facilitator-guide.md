@@ -41,7 +41,7 @@ We invite you to take the lead on the following responsibilities for one or two 
 
 ## Responsibilities of OLS facilitators
 
-### 1. Call Facilitator
+### Call Facilitator
 
 **These facilitators hold responsibilities before and during the cohort calls**
 
