@@ -1,6 +1,6 @@
 ---
 team:
-  - current:
+  current:
     - bebatut
     - malvikasharan
     - yochannah
@@ -14,7 +14,7 @@ team:
     - bethaniley
     - camille-gonz-va
     - iramosp
-  - past:
+  past:
     - emmyft
 governance:
   - anelda
