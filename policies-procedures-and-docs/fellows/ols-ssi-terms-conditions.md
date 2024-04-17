@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OLS/SSI Fellowship Programme
+title: OLS/SSI Fellowship Programme 2023
 image: https://images.unsplash.com/photo-1511632765486-a01980e01a18
 photos:
   name: Helena Lopes
