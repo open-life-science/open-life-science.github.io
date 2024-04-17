@@ -8,7 +8,6 @@ photos:
   url: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 ---
 
-# OLS Cohort Facilitators
 
 We are very excited to create this role in OLS for the returning members from the previous cohorts of OLS.
 
