@@ -8,7 +8,6 @@ photos:
   url: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 ---
 
-# OLS Cohort Facilitators
 
 We are very excited to create this role in OLS for the returning members from the previous cohorts of OLS.
 
@@ -42,7 +41,7 @@ We invite you to take the lead on the following responsibilities for one or two 
 
 ## Responsibilities of OLS facilitators
 
-### 1. Call Facilitator
+### Call Facilitator
 
 **These facilitators hold responsibilities before and during the cohort calls**
 

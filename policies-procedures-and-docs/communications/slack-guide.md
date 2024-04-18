@@ -8,7 +8,6 @@ photos:
   url: https://images.unsplash.com/photo-1557200134-3103da7b6bff
 ---
 
-# OLS Slack Guidelines
 
 *Scroll down for the 'Part 2: Quick Start Guide' if you have not used Slack before.*
 
