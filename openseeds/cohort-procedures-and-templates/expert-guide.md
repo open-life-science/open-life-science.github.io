@@ -8,7 +8,6 @@ photos:
   url: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 ---
 
-# OLS Guide to inviting experts to meet project leads
 
 More on what being an OLS expert means: [OLS Expert page]({{ site.url }}/about#experts)
 
