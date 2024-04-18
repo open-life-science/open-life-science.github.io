@@ -8,7 +8,6 @@ photos:
   url: https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6
 ---
 
-# OLS Microgrant Policy and processes
 
 ## Applicant workflow
 
