@@ -8,7 +8,6 @@ photos:
   url: https://images.unsplash.com/photo-1432821596592-e2c18b78144f
 ---
 
-# Speed Blog: Project name, team members
 
 -----
 
