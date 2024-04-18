@@ -22,7 +22,7 @@ Our aim is to share our practices for training and planning so you can take them
 What you need to do: 
 
 - [ ] Please ask the organising team for credentials to access [otter.ai](http://otter.ai/), YouTube and Zoom. We also share this information via Keybase (if you want, you could create a Keybase account, if you don't have one already).
-- [ ] You can publish the OLS video using your own account. Please create a YouTube account if you don’t have one and ask the Community Coordinator to give you editor access to the OLS YouTube account so you can publish the video. 
+- [ ] You can publish the OLS video using your own account. Please create a YouTube account if you don't have one and ask the Community Coordinator to give you editor access to the OLS YouTube account so you can publish the video. 
 - [ ] Access OLS’ [Shared Drive](https://docs.google.com/presentation/d/1lDLg0xztRfyEgdlJWFDHJMRW6c6k1Yyh02vux8HKDQA/edit#slide=id.g2127687abdb_2_2) to get the slide template for the video thumbnail that you can edit with the cohort call details. 
 - [ ] When the video is published, please share it with the cohort directly via Slack.
 
