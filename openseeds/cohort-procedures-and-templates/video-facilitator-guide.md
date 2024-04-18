@@ -47,7 +47,7 @@ Below we provide a summary checklist. For a detailed tutorial, please refer to [
 - [ ] Add link of YouTube video (column N)
 - [ ] Also in column N, add the corresponding YouTube link at the exact time each individual talk starts. If you haven’t done this before, it is fairly easy. When you are on YouTube, click “share”, click the little box that says "start at" and the exact time you had chosen will show up, then click "copy" and paste such link in column N. 
 
-After you’ve completed these tasks please fill out the honorarium form: https://openlifescience.civicrm.org/civicrm/honorarium
+After you've completed these tasks please fill out the honorarium form: https://openlifescience.civicrm.org/civicrm/honorarium
 
 ## ❓ How to get help
 
