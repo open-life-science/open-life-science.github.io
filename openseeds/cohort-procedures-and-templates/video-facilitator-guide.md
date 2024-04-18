@@ -8,7 +8,6 @@ photos:
   url: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 ---
 
-# 🎥 Video Facilitator (also called transcription checker)
 
 OLS members who have participated as a project lead in a previous cohort or have joined as an expert can volunteer to take the video facilitator role in the ongoing cohort. These individuals would like to learn more about the OLS processes or take a vital role in leading/facilitating the cohort calls. They commit their time and leadership skills toward building a collaborative experience for the attendees of OLS cohort calls.
 
@@ -22,9 +21,9 @@ Our aim is to share our practices for training and planning so you can take them
 
 What you need to do: 
 
-- [ ] Please ask the organising team for credentials to access [otter.ai](http://otter.ai/), YouTube and Zoom. We also share this information via Keybase (if you want, you could create a Keybase account, if you don’t have one already).
-- [ ] You can publish the OLS video using your own account. Please create a YouTube account if you don’t have one and ask the Community Coordinator to give you editor access to the OLS YouTube account so you can publish the video. 
-- [ ] Access OLS’ [Shared Drive](https://docs.google.com/presentation/d/1lDLg0xztRfyEgdlJWFDHJMRW6c6k1Yyh02vux8HKDQA/edit#slide=id.g2127687abdb_2_2) to get the slide template for the video thumbnail that you can edit with the cohort call details. 
+- [ ] Please ask the organising team for credentials to access [otter.ai](http://otter.ai/), YouTube and Zoom. We also share this information via Keybase (if you want, you could create a Keybase account, if you don't have one already).
+- [ ] You can publish the OLS video using your own account. Please create a YouTube account if you don't have one and ask the Community Coordinator to give you editor access to the OLS YouTube account so you can publish the video. 
+- [ ] Access OLS' [Shared Drive](https://docs.google.com/presentation/d/1lDLg0xztRfyEgdlJWFDHJMRW6c6k1Yyh02vux8HKDQA/edit#slide=id.g2127687abdb_2_2) to get the slide template for the video thumbnail that you can edit with the cohort call details. 
 - [ ] When the video is published, please share it with the cohort directly via Slack.
 
 #### Please try doing the video processing on the same week of the cohort call, so we can add the link to the recording to the weekly cohort mailing we send every Monday to all cohort members.
@@ -46,9 +45,9 @@ Below we provide a summary checklist. For a detailed tutorial, please refer to [
 #### After publishing the video, fill in the following information in our [planning sheet](https://docs.google.com/spreadsheets/d/15cR5YsttvmbtX8q_Zt4YBangzqns3NqkisJFf3_ApZI/edit#gid=1514825681) (the tab is “Nebula 2024-1”)
 
 - [ ] Add link of YouTube video (column N)
-- [ ] Also in column N, add the corresponding YouTube link at the exact time each individual talk starts. If you haven’t done this before, it is fairly easy. When you are on YouTube, click “share”, click the little box that says "start at" and the exact time you had chosen will show up, then click "copy" and paste such link in column N. 
+- [ ] Also in column N, add the corresponding YouTube link at the exact time each individual talk starts. If you haven't done this before, it is fairly easy. When you are on YouTube, click "share", click the little box that says "start at" and the exact time you had chosen will show up, then click "copy" and paste such link in column N. 
 
-After you’ve completed these tasks please fill out the honorarium form: https://openlifescience.civicrm.org/civicrm/honorarium
+After you've completed these tasks please fill out the honorarium form: https://openlifescience.civicrm.org/civicrm/honorarium
 
 ## ❓ How to get help
 
