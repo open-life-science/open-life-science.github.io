@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Expert guide
+title: OLS Guide to inviting experts to meet project leads
 image: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 photos:
   name: Chris Montgomery
