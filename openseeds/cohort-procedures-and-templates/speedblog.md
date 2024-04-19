@@ -17,7 +17,7 @@ _This document provides guidance for you to summarize your OLS journey so far an
 
 - Ideally your speed blog will be a written piece with a picture (max 2) and contain some links and references. In terms of word count you are aiming for between 500 and 1200 words.
 - We will post your speedblog on OLS website: openlifesci.org/posts
-- See this post for guidance on speed blogging: https://software.ac.uk/speed-blogging-and-tips-writing-speed-blog-post
+- See this [post by Software Sustainabiility Institute](https://software.ac.uk/speed-blogging-and-tips-writing-speed-blog-post) for guidance on speed blogging.
 - Example you can draw from: [Culture Track]({% link _posts/2019-10-21-culture-track.md %}). 
 
 **Here are a few questions to help you generate ideas and content for your speedblog:**
