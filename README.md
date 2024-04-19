@@ -141,72 +141,9 @@ To avoid dead or wrong links, run the link checkers:
 $ make check-html
 ```
 
-## Add people or organization, update schedule, etc
+## Add people or organization, update schedule, add post or event etc
 
 Our knowledge about our different programs, our community, etc is managed via this repository, [CiviCRM](https://civicrm.org/), and documents stored in Google Drive. It is then added to the website as explained in our [Knowledge Management System documentation](https://we-are-ols.org/knowledge_management.html)
-
-## Adding Events to the Website
-This page is where we detail events, either organised by OLS or where we are invited to speak at.
-To help you contribute events to this website, we would like to offer a step-by-step guide.
-The process involves creating a new file and filling in some details. 
-
-**What you'll need:**
-
-- A text editor (like Notepad or VSCode).
-
-**Steps to add an event:**
-
-1. **Create a new file:** Create a new text file in the `_events` folder of the website's repository.
-2. **Copy and paste the template:** You are at liberty to add only the properties applicable in your unique use case, 
-but for ease, we recommend that you paste the following content into the new file:
-
-```yaml
----
-layout: event
-title: "Title of event"
-description: "One-line description"
-date: 2024-MM-DD
-time: "HH:MM AM/PM Timezone"
-duration: X hours (Optional)
-location: "Online" or "Physical Location"
-organiser: ""
-speakers:
-  - Person 1
-  - Person 2
-type: internal (for our website events) or external (for external event links)
-event_link: "www.example.com" (Required for external events)
-image: https://image_url.com (Optional)
-photos:
-  name: Photographer
-  license: License Info (e.g., CC BY-SA 4.0)
-  url: https://image_url.com
----
-```
-
-3. **Fill in the details:** Now, replace the placeholders with the actual information about your event.
-
-**What do the properties mean?**
-
-* **title:** The main title of your event.
-* **description:** A brief one-line description of the event.
-* **date:** The date of the event in YYYY-MM-DD format (e.g., 2024-10-26).
-* **time:** The time of the event, including AM/PM and timezone (e.g., 12:00 PM WAT).
-* **duration (optional):** The approximate duration of the event in minutes, hours or days.
-* **location:** Where the event would take place, whether it is online or has a physical location.
-* **organiser:** The organisation or person hosting the event.
-* **speakers:** A list of speakers participating in the event (one name per line).
-* **type:** Indicate if the event is hosted on our website (internal) or has an external link (external).
-* **event_link (required for external events):** The website URL of the external event.
-* **image (optional):** A URL linking to an image that visually represents the event.
-* **photos (optional):** This is mainly for image attribution. It holds information about the image source if you're using one. This includes the photographer's name, license information, and the original image URL.
-
-**Please note:**
-
-* If you're unsure about any property, leave it blank.
-* Double-check the date, time, and location information for accuracy.
-
-4. **Save the file and submit a Pull Request:** Once you've filled in the details, save the `.md` file and submit a pull request to the website's repository. Once approved and merged, your event has been added!
-
 
 ## License
 
