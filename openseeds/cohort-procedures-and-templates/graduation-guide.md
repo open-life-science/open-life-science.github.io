@@ -129,6 +129,6 @@ Please mention ideas, lessons and people who helped you achieve whatever you cou
 You can write a speedblog and share with the OLS team. We will post your speedblog on OLS website: openlifesci.org/posts 
 See this post for [guidance on speed blogging](https://software.ac.uk/speed-blogging-and-tips-writing-speed-blog-post).
 See some examples of speedblogs from previous cohorts:
-- [Emma Karoune's speedblog]({% link _posts/2020/12/18/ols-2-participant-emma-karoune-speedblog.md %}).
-- [Fez's speedblog]({% link _posts/2021/04/30/ols-2-participant-fez-speedblog.md %}).
-- [Culture Track]({% link _posts/2019/10/21/culture-track.md %}).
+- [Emma Karoune's speedblog]({% link _posts/2020-12-18-ols-2-participant-emma-karoune-speedblog.md %}).
+- [Fez's speedblog]({% link _posts/2021-04-30-ols-2-participant-fez-speedblog.md %}).
+- [Culture Track]({% link _posts/2019-10-21-culture-track.md %}).
