@@ -533,3 +533,16 @@ code {
   color: #000000;
   min-width: 400px;
 }
+
+.eventtable {
+  .eventtable-title {
+    font-weight: bold;
+  }
+  .eventtable-description{
+    margin-top: 0.25 rem;
+    font-size: 80%;
+  }
+  .eventtable-contribution {
+    font-weight: bold;
+  }
+}
