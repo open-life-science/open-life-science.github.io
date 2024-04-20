@@ -1,5 +1,6 @@
 ---
 layout: page
+toc: true
 title: Cohort call facilitator guide
 image: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 photos:
