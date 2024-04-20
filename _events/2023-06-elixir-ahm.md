@@ -21,13 +21,13 @@ cost: free
 contributions:
   posters:
   - 
-    speakers: 
+    presenters: 
     - malloryfreeberg
     - fpsom
     - diana-pilvar
     - bebatut
     title: "Open Seeds by OLS: A mentoring & training program for Open Science ambassadors"
-    link: https://f1000research.com/posters/12-710
+    poster: https://f1000research.com/posters/12-710
 
 
 image: https://images.unsplash.com/photo-1475721027785-f74eccf877e2

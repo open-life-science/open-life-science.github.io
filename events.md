@@ -31,7 +31,7 @@ This page lists all past and upcoming events either organised by OLS or where OL
   {% for event in events  %}
     {% unless event.draft %}
     <tr>
-      <td> {{ event.date_start  | date: date_format }} {% if event.date_end %} - {{ event.date_end  | date: date_format }}{% endif %} </td>
+      <td> {{ event.date_start | date: date_format }} {% if event.date_end %} - {{ event.date_end | date: date_format }}{% endif %} </td>
       <td>{{ event.type | capitalize }}</td>
       <td>
         <a class="eventtable-title" href="{% if event.external %}{{ event.external }}{% else %}{{ event.url }}{% endif %}">{{ event.title }}</a>
