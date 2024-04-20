@@ -18,7 +18,7 @@ This document (the Slack Guide) will give you some information about how to use 
 The community participation guideline and Code of Conduct of OLS apply to all our community interactions, including the Slack workspace, which is our most important communications channel along with the mailing list and cohort-related calls. 
 Please make sure you have read this document along with the [Code of Conduct]({% link CODE_OF_CONDUCT.md %}) procedures and understand how they apply to your participation in OLS.
 
-Find all the information about our community and projects at [https://open-life-science.github.io]({{ site.github.owner_url }}).
+Find all the information about our community and projects at [{{ site.url }}]({{ site.url }}).
 
 ## Part 1: OLS Slack Participation Guideline
 
