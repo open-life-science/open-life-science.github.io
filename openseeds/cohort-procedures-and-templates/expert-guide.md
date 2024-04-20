@@ -9,7 +9,7 @@ photos:
 ---
 
 
-More on what being an OLS expert means: [OLS Expert page]({{ site.url }}/about#experts)
+More on what being an OLS expert means: [OLS Expert page]({{ site.url }}/openseeds/about.html#experts).
 
 All OLS participants invite at least one expert to discuss their projects. These templates below can help to facilitate the process. 
 
