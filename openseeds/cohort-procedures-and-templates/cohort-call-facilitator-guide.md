@@ -111,7 +111,7 @@ Below we provide a checklist. For a detailed tutorial, please refer to [the deta
 
 A few references that can help us expand on these roles are:
 
-* The Turing Way chapter on remote collaboration: [https://the-turing-way.netlify.app/collaboration/remote-collab.html](https://the-turing-way.netlify.app/collaboration/remote-collab.html). 
-* Zoom manual for cohorts: [https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting](https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting). 
-* Enhancing the inclusivity and accessibility of your online calls: [https://osf.io/k3bfn/](https://osf.io/k3bfn/).
-* Example for the full checklist associated with a cohort call on a GitHub issue from OLS-3: [https://github.com/open-life-science/open-life-science.github.io/issues/283](https://github.com/open-life-science/open-life-science.github.io/issues/283). 
+* The Turing Way chapter on [remote collaboration](https://the-turing-way.netlify.app/collaboration/remote-collab.html).
+* Zoom manual for cohorts: [Roles in a meeting](https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting).
+* [Enhancing the inclusivity and accessibility of your online calls](https://osf.io/k3bfn/). 
+* Example of the full checklist associated with a cohort call on a [GitHub issue]({{ site.github.owner_url }}/issues/283) from OLS-3.
