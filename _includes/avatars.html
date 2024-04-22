@@ -1,0 +1,4 @@
+{% assign avatars = '' %}
+{% for p in group %}
+  {% capture avatars %}{{ avatars }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}]({% link people.md %}#{{ p }}){% endcapture %}
+{% endfor %}
