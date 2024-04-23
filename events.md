@@ -15,8 +15,6 @@ photos:
 
 This page lists all past and upcoming events either organised by OLS or where OLS presented.
 
-# Events
-
 <table class="eventtable table is-striped">
   <thead>
     <tr>
@@ -76,7 +74,9 @@ This page lists all past and upcoming events either organised by OLS or where OL
           {% for talk in event.contributions.talks %}
             {% assign group = talk.speakers %}
             {% include _includes/avatars.html %}
-            {% if talk.slides %}[{{ talk.title }}]({{ poster.slides }}){% else %}{{ talk.title }}{% endif %} {% if talk.speakers %}by {{ avatars | remove_first: ', ' }}{% endif %}
+            <i>"{{ talk.title }}"</i>&nbsp;
+            {% include _includes/event-support.html contribution=talk %}
+            {% if talk.speakers %}by {{ avatars | remove_first: ', ' }}{% endif %}
             <br/>
           {% endfor %}
         <br/>
@@ -87,7 +87,22 @@ This page lists all past and upcoming events either organised by OLS or where OL
           {% for poster in event.contributions.posters %}
             {% assign group = poster.presenters %}
             {% include _includes/avatars.html %}
-            {% if poster.poster %}[{{ poster.title }}]({{ poster.poster }}){% else %}{{ poster.title }}{% endif %} {% if poster.presenters %}by {{ avatars | remove_first: ', ' }}{% endif %}
+            <i>"{{ poster.title }}"</i> 
+            {% if poster.poster %}([<i class="fas fa-image"></i> Poster]({{ poster.poster }})){% endif %} 
+            {% if poster.presenters %}by {{ avatars | remove_first: ', ' }}{% endif %}
+            <br/>
+          {% endfor %}
+        <br/>
+        {% endif %}
+        {% if event.contributions.workshops %}
+        <span class="eventtable-contribution">Workshops</span>
+        <br/>
+          {% for workshop in event.contributions.workshops %}
+            {% assign group = workshop.facilitators %}
+            {% include _includes/avatars.html %}
+            <i>"{{ workshop.title }}"</i>&nbsp;
+            {% include _includes/event-support.html contribution=workshop %}
+            {% if workshop.facilitators %}by {{ avatars | remove_first: ', ' }}{% endif %}
             <br/>
           {% endfor %}
         <br/>

@@ -28,11 +28,4 @@ contributions:
     - bebatut
     title: "Open Seeds by OLS: A mentoring & training program for Open Science ambassadors"
     poster: https://f1000research.com/posters/12-710
-
-
-image: https://images.unsplash.com/photo-1475721027785-f74eccf877e2
-photos:
-  name: Kane Reinholdtsen
-  license: CC BY-SA 4.0
-  url: https://images.unsplash.com/photo-1475721027785-f74eccf877e2
 ---
