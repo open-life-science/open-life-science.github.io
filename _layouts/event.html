@@ -54,10 +54,12 @@ keep_description: false
       <td>[Before {{ page.registration.deadline | date: date_format }}]({{ page.registration.link }})</td>
     </tr>
     {% endif %}
+    {% if page.contact_email %}
     <tr>
       <td><i class="far fa-envelope"></i> Contact</td>
-      <td><a href="mailto:{{ page.contact_email }}?subject={{ page.title | uri_escape }}">{{ page.contact_email }}</a></td>
+      <td><a href="mailto:{{ page.contact_email }}">{{ page.contact_email }}</a></td>
     </tr>
+    {% endif %}
   </table>
 </div>
 
