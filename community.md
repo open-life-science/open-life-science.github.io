@@ -35,7 +35,7 @@ We have high ethical standards, including:
 {% endfor %}
 </div>
 
-# Former team members
+# Alumni
 
 <div class="people">
 {% for entry in community.team.past %}
