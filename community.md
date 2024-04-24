@@ -38,7 +38,7 @@ We have high ethical standards, including:
 # Alumni
 
 <div class="people">
-{% for entry in community.team.past %}
+{% for entry in community.team.alumni %}
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
