@@ -42,7 +42,7 @@ Below we provide a summary checklist. For a detailed tutorial, please refer to [
 - [ ] 8. Upload it to the YouTube video
 - [ ] 9. Post a link to the recording in the OLS Slack! 
 
-#### After publishing the video, fill in the following information in our [planning sheet](https://docs.google.com/spreadsheets/d/15cR5YsttvmbtX8q_Zt4YBangzqns3NqkisJFf3_ApZI/edit#gid=1514825681) (the tab is “Nebula 2024-1”)
+#### After publishing the video, fill in the following information in the cohort planning sheet:
 
 - [ ] Add link of YouTube video (column N)
 - [ ] Also in column N, add the corresponding YouTube link at the exact time each individual talk starts. If you haven't done this before, it is fairly easy. When you are on YouTube, click "share", click the little box that says "start at" and the exact time you had chosen will show up, then click "copy" and paste such link in column N. 
