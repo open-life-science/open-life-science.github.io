@@ -28,7 +28,17 @@ We have high ethical standards, including:
 <!--As the graduates, mentors, and hosts of various Mozilla Open Leaders cohorts, we have gained expertise in the technical and culture track. Furthermore, we participate in a wide range of activities in different international communities of practice in the sciences: ELIXIR (European bioinformatics network), Galaxy, The Carpentries, Software Sustainability Institute (SSI), Open Bioinformatics Foundation (OBF), and Mozilla.-->
 
 <div class="people">
-{% for entry in community.team %}
+{% for entry in community.team.current %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
+
+## Alumni
+
+<div class="people">
+{% for entry in community.team.alumni %}
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
