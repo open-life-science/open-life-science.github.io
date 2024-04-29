@@ -10,7 +10,7 @@ photos:
 OLS HackMD guide: How to work with this doc?
 ===
 
-**Please share this HackMD to demo how to work with HackMD: https://hackmd.io/@openlifesci/hackmd-guide**
+**Please share [this HackMD](https://hackmd.io/@openlifesci/hackmd-guide) to demo how to work with HackMD.**
 
 HackMD documents are collaborative documents (like a Google docs) where multiple people can write simultaneously. Open Life Science will use these documents for taking shared notes.
 
@@ -23,7 +23,7 @@ HackMD documents are collaborative documents (like a Google docs) where multiple
 ![](https://i.imgur.com/d9ZtImc.png)
 
 ![](https://i.imgur.com/W2fAysk.png)
-*(opens in new tab)](https://files.slack.com/files-pri/T17H34RB2-F013NRJM8LU/image.png)*
+*[(opens in new tab)](https://files.slack.com/files-pri/T17H34RB2-F013NRJM8LU/image.png)*
 
 * To edit this document click the pencil symbol (FIRST box in the top left hand corner - see the image below)
 * To view this document rendered into nicely formatted version, click the eye symbol (SECOND box in the top left hand corner - see the image below)
