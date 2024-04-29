@@ -7,8 +7,6 @@ photos:
   license: CC-BY
   url: https://images.unsplash.com/photo-1683178861337-ca70ef8c0db3
 ---
-OLS HackMD guide: How to work with this doc?
-===
 
 **Please share [this HackMD](https://hackmd.io/@openlifesci/hackmd-guide) to demo how to work with HackMD.**
 
