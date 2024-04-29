@@ -1,3 +1,12 @@
+---
+layout: page
+title: HackMD Guidelines
+image: https://images.unsplash.com/photo-1683178861337-ca70ef8c0db3
+photos:
+  name: Zetong Li
+  license: CC-BY
+  url: https://images.unsplash.com/photo-1683178861337-ca70ef8c0db3
+---
 OLS HackMD guide: How to work with this doc?
 ===
 
