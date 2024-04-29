@@ -6,6 +6,7 @@ photos:
   name: Helena Lopes
   license: CC-BY
   url: https://images.unsplash.com/photo-1511632765486-a01980e01a18
+category: doc
 ---
 
 
