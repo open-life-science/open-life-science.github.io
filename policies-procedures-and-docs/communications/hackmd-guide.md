@@ -6,7 +6,6 @@ photos:
   name: Zetong Li
   license: CC-BY
   url: https://images.unsplash.com/photo-1683178861337-ca70ef8c0db3
-category: doc
 ---
 OLS HackMD guide: How to work with this doc?
 ===

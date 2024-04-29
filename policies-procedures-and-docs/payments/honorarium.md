@@ -6,7 +6,6 @@ photos:
   name: Towfiqu barbhuiya
   license: CC-BY
   url: https://images.unsplash.com/photo-1624811531417-f29437fed1ce
-category: doc
 ---
 
 

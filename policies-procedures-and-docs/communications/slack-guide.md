@@ -6,7 +6,6 @@ photos:
   name: Stephen Phillips - Hostreviews.co.uk
   license: CC-BY
   url: https://images.unsplash.com/photo-1557200134-3103da7b6bff
-category: doc
 ---
 
 

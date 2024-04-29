@@ -6,7 +6,6 @@ photos:
   name: Carli Jeen
   license: CC-BY
   url: https://images.unsplash.com/44/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg
-category: doc
 ---
 
 # Invoicing OLS
