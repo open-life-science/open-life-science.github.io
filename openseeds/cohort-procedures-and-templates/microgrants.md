@@ -11,7 +11,7 @@ photos:
 
 ## Applicant workflow
 
-1. **Requesting a microgrant:** Accepted OLS-participants are asked if they need a microgrant as part of OLS registration. To request a microgrant at other times, email microgrants@we-are-ols.org with details of your request. 
+1. **Requesting a microgrant:** Accepted OLS-participants are asked if they need a microgrant as part of OLS registration. To request a microgrant at other times, email [microgrants@{{ site.email_extension }}](mailto:microgrants@{{ site.email_extension }}) with details of your request. 
 2. **Agree what items OLS can support and how they'll be purchased:** The OLS organisers will discuss with you via email what items are required. See the recommendations section below. Once your request is agreed with the OLS team via email, they'll send over a short Civi form to fill out your details, including telling us _what_ you want and _how_ to purchase it (we can reimburse you or purchase it directly and ship it to you). We can also offer money up-front so you can purchse your items in person, if it is easier.
 4. **Record your purchase:** Once you have filled out the form, OLS organisers will purchase the items on your behalf, or you should go ahead and purchase them yourself if that is the agreed route. OLS organisers will contact you if there are any problems or additional questions (e.g. if the online store doesn't accept foreign credit cards, if there's a missing address field or the purchase is out of stock). 
 5. If you purchase items yourself and didn't get the money up-front, there's a 4th step: **Request reimbursement**. This is another short form, where you upload your receipt and share your bank account/reimbursement details. 

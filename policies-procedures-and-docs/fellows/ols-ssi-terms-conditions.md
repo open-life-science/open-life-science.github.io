@@ -12,7 +12,8 @@ photos:
 On this page, we've provided more information about the OLS/SSI Fellowship and how it works.
 
 ## Help
-All questions and suggestions should be sent to the OLS/SSI Fellows Management email address: ssi-ols-fellows@openlifesci.org
+All questions and suggestions should be sent to the OLS/SSI Fellows Management email address: 
+[ssi-ols-fellows@{{ site.email_extension }}](mailto:ssi-ols-fellows@{{ site.email_extension }}).
 
 ## Terminology
 We will use the word "event" to refer to all conferences, meetings, workshops and other events.  
