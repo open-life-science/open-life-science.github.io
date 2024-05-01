@@ -176,5 +176,3 @@ Yes, you can send files (< 1 GB) in public channels and direct messages. See thi
 ### References for the Part-2
 
 The Slack section was adapted from a resource by BrainHackMTL and the Center for Scientific Collaboration and Community Engagement ([CSCCE](https://www.cscce.org/)) under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/): [10.5281/zenodo.3763730](http://dx.doi.org/10.5281/zenodo.3763730).
-
-Licensed under a [CC BY 4.0 license.](https://creativecommons.org/licenses/by/4.0/)
