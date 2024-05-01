@@ -19,4 +19,4 @@ contributions:
     - pazbc
     - yochannah
     title: "What does it take to build an equitable global team"
----													
+---

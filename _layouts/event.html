@@ -5,8 +5,7 @@ keep_description: false
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 
 
-
-<div class="eventpage-description">
+<div class="eventpage-description" markdown="1">
 {{ page.description }}
 </div>
 
@@ -18,7 +17,7 @@ keep_description: false
     </tr>
     {% if page.time_start %}
     <tr>
-      <td><i class="fas fa-clock"></i> Time</td>
+      <td><i class="fas fa-clock"></i> Time (UTC)</td>
       <td>{{ page.time_start }}</td>
     </tr>
     {% endif %}
