@@ -9,11 +9,10 @@ photos:
 ---
 
 <h1>{{ page.title }}</h1>
-
 <ul>
-  {% for doc in site.policies-procedures-and-docs %}
+{% for doc in site.pages %}
     <li>
-      <a href="{{ doc.url }}">{{ doc.name }}</a>
+        <a href="{{ doc.url }}">{{ doc.name }}</a>
     </li>
-  {% endfor %}
+{% endfor %}
 </ul>
