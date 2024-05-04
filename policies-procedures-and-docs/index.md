@@ -11,8 +11,10 @@ photos:
 <h1>{{ page.title }}</h1>
 <ul>
 {% for doc in site.pages %}
-    <li>
+{% if doc.url contains "/policies-procedures-and-docs/" %}
+  <li>
         <a href="{{ doc.url }}">{{ doc.name }}</a>
     </li>
+{% endif %}
 {% endfor %}
 </ul>
