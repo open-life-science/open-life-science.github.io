@@ -61,7 +61,7 @@ Italics words and sentences can be written by using asterisk in the beginning an
 
 **To add a web link:**
 1. write a text in square brackets which you want to link out
-2. add the link (URL) in the round brackets, like this: [Your text](your link)
+2. add the link (URL) in the round brackets, like this: `[Your text](your link)`
 * Example: [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 **To link to another part/section of the document**
