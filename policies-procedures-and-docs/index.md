@@ -11,7 +11,7 @@ photos:
 <h1>{{ page.title }}</h1>
 <ul>
 {% for doc in site.pages %}
-{% if doc.url contains "/policies-procedures-and-docs/" or openseeds/cohort-procedures-and-templates %}
+{% if doc.url contains "/policies-procedures-and-docs/" or "openseeds/cohort-procedures-and-templates" %}
   <li>
         <a href="{{ doc.url }}">{{ doc.name }}</a>
     </li>
