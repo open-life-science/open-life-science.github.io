@@ -40,7 +40,7 @@ Do remember to sign up for and attend one of the graduation rehearsals, so you c
 - Please upload your presentation on Zenodo, and include 'openlifesci' in the 'community' section. This will allow us to feature your presentation on our Zenodo community page. 
 
 ## What happens if an emergency occurs? 
-If something unexpected happens and you cannot prepare your presentation in the expected timeframe, please get in touch with us (team@we-are-ols.org) and we will get back to you to discuss your case. 
+If something unexpected happens and you cannot prepare your presentation in the expected timeframe, please get in touch with us - [{{ site.email }}](mailto:{{ site.email }}) - and we will get back to you to discuss your case.
 
 ## Graduates and their projects 
 Upon your graduation, as an Open Seeds OLS cohort graduate you can call yourself an OLS Fellow and Alumna/Alumnus.
