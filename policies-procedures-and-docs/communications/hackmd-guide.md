@@ -56,7 +56,7 @@ Italics words and sentences can be written by using asterisk in the beginning an
 *Italics*
 *This is an italicised sentence*
 
-* Use double asterisks (**) for **Bold** to **emphasise word and sentences*
+* Use double asterisks `(**)` for **Bold** to **emphasise word and sentences**
 * Use three asterisks for ***bold and italics in the same sentence***
 
 **To add a web link:**
@@ -66,11 +66,11 @@ Italics words and sentences can be written by using asterisk in the beginning an
 
 **To link to another part/section of the document**
 1. write a text in square brackets which you want to link
-2. in the round brackets, start with a hash symbol followed by the name of the header in the file you want to link to by Putting-a-line-between-all-words, like this: [your text](#your-header)
+2. in the round brackets, start with a hash symbol followed by the name of the header in the file you want to link to by Putting-a-line-between-all-words, like this: `[your text](#your-header)`
 * Example: [What is this document for?](#What-is-this-document-for)
 
 **To add images**
 1. start with an exclamation mark
 2. write an image title inside the square brackets 
-3. provide a web link for the image in the circular brackets, like this: ![Image title](web link to the image)
+3. provide a web link for the image in the circular brackets, like this: `![Image title](web link to the image)`
 example: ![MarkDown Cheatsheet](https://i.pinimg.com/originals/da/1e/3f/da1e3fe735a1b115a8a6773e67d6d825.png)
