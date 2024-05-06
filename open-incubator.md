@@ -14,10 +14,10 @@ streams:
       Funded by [Chan Zuckerberg Initiative](https://chanzuckerberg.com/), this project aims to develop a **collaborative service** to **facilitate access** to **cloud infrastructure** for biomedical research communities in **Latin America** and **Africa**. You can read more about it in the [submitted proposal](https://zenodo.org/records/7025288) 
     key_personal: 
       ids: 
-      - emmyft
+      - yochannah
       - tajuddeen1
       roles: |
-        **Taj** is the project manager under the supervison of **Emmy**, PI for this project
+        **Taj** is the project manager under the supervison of **Yo**, PI for this project
   -
     title: Fellowship Programmes
     description: |
