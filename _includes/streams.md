@@ -29,8 +29,9 @@
 
 <div class="people">
     {% for entry in stream.key_personal.ids %}
+        {% assign username = entry %}
         {% assign user = site.data.people[entry] %}
-        {% include _includes/people.html username=entry user=user %}
+        {% include _includes/people.html username=username user=user %}
     {% endfor %}
 </div>
 
