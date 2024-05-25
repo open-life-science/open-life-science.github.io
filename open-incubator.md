@@ -21,7 +21,7 @@ streams:
       - yochannah
       - tajuddeen1
       roles: |
-        **Taj** is the project manager under the supervison of **Yo**, PI for this project
+        **Taj** is the project manager under the supervison of **Yo**, PI for this project (after Emmy left)
   -
     title: Fellowship Programmes
     description: |
