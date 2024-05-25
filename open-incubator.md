@@ -18,10 +18,10 @@ streams:
         Catalyst logo: A green logo consisting of a gear icon, meshing into a globe on a transparent background. Below the logo is the word 'CATALYST' in bold, and under immediately under it, the word 'PROJECT' appears in bold, written in a smaller font.
     key_personal: 
       ids: 
-      - emmyft
+      - yochannah
       - tajuddeen1
       roles: |
-        **Taj** is the project manager under the supervison of **Emmy**, PI for this project
+        **Taj** is the project manager under the supervison of **Yo**, PI for this project (after Emmy left)
   -
     title: Fellowship Programmes
     description: |
