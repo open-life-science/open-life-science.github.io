@@ -141,7 +141,7 @@ To avoid dead or wrong links, run the link checkers:
 $ make check-html
 ```
 
-## Add people or organization, update schedule, etc
+## Add people or organization, update schedule, add post or event etc
 
 Our knowledge about our different programs, our community, etc is managed via this repository, [CiviCRM](https://civicrm.org/), and documents stored in Google Drive. It is then added to the website as explained in our [Knowledge Management System documentation](https://we-are-ols.org/knowledge_management.html)
 

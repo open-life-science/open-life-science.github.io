@@ -180,6 +180,115 @@ flowchart LR
 4. Add images in `images/posts/` directory
 5. Submit changes by creating a Pull Request
 
+## Events
+
+We list on the website events either organised by OLS or where we are invited to speak at.
+
+### Add a new event
+
+1. Create a file in the folder `_events` with a file named following the pattern `yyyy-mm-dd-name.md`
+2. Add some basic metadata on the top of the file
+
+    ```
+    ---
+    layout: event
+    title: <title of the event>
+    type: <conference, workshop or training>
+    description: |
+        <short description of the event (one or two sentences)>
+    
+    external: <link to event if external>
+
+    date_start: <starting date of event in YYYY-MM-DD format (e.g., 2024-10-26)>
+    date_end: <starting date of event in YYYY-MM-DD format (e.g., 2024-10-26). Optional, if event is more than one day>
+    time_start: <time start in HH:MM:SS format and UTC timezone. Optional if daylong event>
+    duration: <duration in HH:MM:SS format. Optional if daylong event>
+
+    location:
+        name: 
+
+    contributions:
+
+    images:
+    ---
+    ```
+
+3. Fill in more metadata
+
+    - location:
+        
+        If online
+
+            ```
+            location: 
+                name: Online
+            ```
+
+        If not online
+
+            ```
+            location: 
+                geo:
+                    lat: 45.78528236218017
+                    lon: 4.856445300000001
+                name: Online
+                city: Lyon
+                country: France 
+            ```
+
+    - contributions 
+
+        If the event is a **conference** where OLS team and/or the community presented posters and/or talks highlighting OLS:
+
+        ```
+        contributions:
+            posters:
+            - 
+                presenters: 
+                - <id from people.yaml, one per line>
+                title: "<title of the poster>"
+                poster: <link to poster>
+            talks:
+            - 
+                speakers:
+                - <id from people.yaml, one per line>
+                title: "<title of the talk>"
+                slides: <link to slides>
+        ```
+
+        If the event is a **workshop** or **training** organised by the OLS team and/or the community
+
+        ```
+        contributions:
+            facilitators:
+            - <id from people.yaml, one per line>
+            helpers:
+            - <id from people.yaml, one per line>
+            instructors:
+            - <id from people.yaml, one per line>
+            organisers:
+            - <id from people.yaml, one per line>
+            funding:
+            - <id from funding.yaml, one per line>
+
+        ```
+
+    - workshop information
+
+        ```
+        cost: <free or, e.g. 150 EUR, must be space separated, must include a currency in ISO 4217 format>
+        audience: <sentence about the audience>
+        contact_email: <contact email>
+
+        registration:
+            link: <link for registration> 
+            deadline: <date in YYYY-MM-DD format (e.g., 2024-10-26)>
+        ```
+
+4. Add content of the event to the file in [Markdown](https://www.markdownguide.org/getting-started/) (below `---`)
+4. Add images in `images/events/` directory
+5. Submit changes by creating a Pull Request
+
 # Open Science Training cohorts
 
 To organize calls in the different cohorts, we use a shared Spreadsheet containing information about calls: general information like date, time, learning objectives, but also the different activities like talks, group discussions with instructions. This spreadsheet also contains links to full recordings, slides, information about speakers.
