@@ -13,7 +13,7 @@ photos:
 {% for doc in site.pages %}
 {% if doc.url contains "/policies-procedures-and-docs/" or doc.url contains "/openseeds/cohort-procedures-and-templates" %}
   <li>
-    <a href="{{ doc.url }}">{{ doc.name }}</a>
+    <a href="{{ doc.url }}">{{ doc.title }}</a>
   </li>
 {% endif %}
 {% endfor %}
