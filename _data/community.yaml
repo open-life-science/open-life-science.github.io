@@ -1,19 +1,22 @@
 ---
 team:
-  - bebatut
-  - emmyft
-  - malvikasharan
-  - yochannah
-  - pazbc
-  - tajuddeen1
-  - pherterich
-  - msundukova
-  - npdebs
-  - jilaga
-  - flavioazevedo
-  - bethaniley
-  - camille-gonz-va
-  - iramosp
+  current:
+    - bebatut
+    - malvikasharan
+    - yochannah
+    - pazbc
+    - tajuddeen1
+    - pherterich
+    - msundukova
+    - npdebs
+    - jilaga
+    - flavioazevedo
+    - bethaniley
+    - camille-gonz-va
+    - iramosp
+    - rowland-mosbergen
+  alumni:
+    - emmyft
 governance:
   - anelda
   - batoolmm
