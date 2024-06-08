@@ -1,9 +1,9 @@
 During the program,
 
-- Mentors and mentees meet every 2 weeks [for a 30 minutes call]({% link openseeds/{{ cohort }}/index.md %}#mentor-mentee-calls)
-- Mentees participate every ~2 weeks to [90-minutes cohort calls]({% link openseeds/{{ cohort }}/index.md %}#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite expert from the field to give talks
-- Mentees can participate to skill-up, Q&A or coworking session in the weeks without cohort calls
-- Mentors take part to [mentoring workshop and calls]({% link openseeds/{{ cohort }}/index.md %}#mentor-calls)
+- Mentors and mentees meet every 2 weeks [for a 30 minutes call]({% link {{ program }}/{{ cohort }}/index.md %}#mentor-mentee-calls)
+- Mentees participate every ~2 weeks to [90-minutes cohort calls]({% link {{ program }}/{{ cohort }}/index.md %}#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite experts from the field to give talks
+- Mentees can participate to skill-up, Q&A or coworking sessions in the weeks without cohort calls
+- Mentors take part in [mentoring workshop and calls]({% link {{ program }}/{{ cohort }}/index.md %}#mentor-calls)
 
 {% assign schedule_png = false %}
 {% capture schedule_fp %}/images/{{ cohort }}/schedule.png{% endcapture %}
@@ -33,7 +33,7 @@ Organizers will inform participants of the week schedule by email.
 {%- capture w-desc %}**Week {{ w[0] }}** (start. {{ w[1].start }}){% endcapture %}
 {%- for c in w[1].calls %}
 {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time | date: "%H:%M" }} Universal Time](https://arewemeetingyet.com/UTC/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time | date: "%H:%M" }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
-| {{ w-desc }} | [{{ c.type }}]({% link openseeds/{{ cohort }}/index.md %}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" | remove: "&"  }}-calls) | {{ date }} | [**{{ c.title }}**]({% link openseeds/{{ cohort }}/schedule.md %}#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
+| {{ w-desc }} | [{{ c.type }}]({% link {{ program }}/{{ cohort }}/index.md %}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" | remove: "&"  }}-calls) | {{ date }} | [**{{ c.title }}**]({% link {{ program }}/{{ cohort }}/schedule.md %}#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
 {%- assign w-desc = "" %}
 {%- endfor %}
 {%- endfor %}
