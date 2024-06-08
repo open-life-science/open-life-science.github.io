@@ -1,12 +1,12 @@
 {% assign cohort = include.cohort %}
+{% assign program = include.program %}
 {% assign people = site.data.people %}
-{% assign projects = site.data.openseeds[cohort].projects %}
+{% assign projects = site.data[program][cohort].projects %}
 
 {% assign all-participants = '' %}
 {% for project in projects %}
-    {% assign p-pparticipants = '' %}
     {% for p in project.participants %}
-        {% capture all-participants %}{{ all-participants}}, {{ p }}{% endcapture %}
+        {% capture all-participants %}{{ all-participants }}, {{ p }}{% endcapture %}
     {% endfor %}
 {% endfor %}
 
@@ -14,7 +14,7 @@
 
 Participants join this program with a project that they either are already working on or want to develop during this program.
 
-For this round of the OLS program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects).
+For this round of the {{ program | capitalize }} program, we are happy to have [{{ p-participants | size }} participants](#participants) with [{{ projects | size }} projects](#projects).
 
 # Projects
 
@@ -28,7 +28,7 @@ For this round of the OLS program, we are happy to have [{{ p-participants | siz
         {% for p in project.mentors %}
             {% capture p-mentors %}{{ p-mentors }}, ![](https://avatars.githubusercontent.com/{{ p }}){: .people-badge} [{{ people[p].first-name }} {{ people[p].last-name }}]({% link people.md %}#{{ p }}){% endcapture %}
         {% endfor %}
-        
+
 
 ## {{ project.name }} {#{{ project.name | slugify }}}
 
