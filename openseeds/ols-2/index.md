@@ -12,6 +12,7 @@ redirect_from:
   - /ols-2
 ---
 
+{% assign program = 'openseeds' %}
 {% include _includes/cohort-metadata.html cohort='ols-2' %}
 
 # The OLS-2 program
