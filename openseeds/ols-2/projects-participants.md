@@ -9,4 +9,5 @@ photos:
 redirect_from: /ols-2/projects-participants
 ---
 
+{% assign program = 'openseeds' %}
 {% include _includes/projects-participants.html cohort='ols-2' %}
