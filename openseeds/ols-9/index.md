@@ -14,7 +14,7 @@ redirect_from:
 
 {% include _includes/cohort-metadata.html cohort='ols-9' %}
 
-# The Open Seeds 8 program
+# The Open Seeds 9 program
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
