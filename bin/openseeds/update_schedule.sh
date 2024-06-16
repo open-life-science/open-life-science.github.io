@@ -68,4 +68,4 @@ python bin/prepare_website_data.py \
     updateschedule \
     -p "openseeds"  \
     --cohort '9' \
-    --schedule_url "https://docs.google.com/spreadsheets/d/1Tnk-kkHUmPOEfUOEAl627l6JS9SoY5D4gSAPCYoBRSY/export?format=csv&gid=2109933309"
+    --schedule_url "https://docs.google.com/spreadsheets/d/1TIpN-NZPMGvZ1hUOJ5PgXoS24TCYEeF_5ecPPWQdUSM/export?format=csv&gid=2109933309"
