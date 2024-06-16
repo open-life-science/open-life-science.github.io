@@ -25,6 +25,24 @@ timeline:
 - date:
   description: Successful applicants announced
 weeks:
+  '00':
+    start: ''
+    calls:
+    - date: September 13, 2023
+      duration: 60 min
+      title: Mentor onboarding group 1
+      type: Mentor
+      talks: []
+    - date: September 14, 2023
+      duration: 60 min
+      title: Mentor onboarding group 2
+      type: Mentor
+      talks: []
+    - date: September 15, 2023
+      duration: 60 min
+      title: Mentor onboarding group 3
+      type: Mentor
+      talks: []
   '01':
     start: July 11, 2024
     calls:
@@ -534,22 +552,4 @@ weeks:
       notes: https://bit.ly/ols-9-week-16
       title: Final presentations & Graduation! - Group 3
       type: Cohort
-      talks: []
-  '00':
-    start: ''
-    calls:
-    - date: September 13, 2023
-      duration: 60 min
-      title: Mentor onboarding group 1
-      type: Mentor
-      talks: []
-    - date: September 14, 2023
-      duration: 60 min
-      title: Mentor onboarding group 2
-      type: Mentor
-      talks: []
-    - date: September 15, 2023
-      duration: 60 min
-      title: Mentor onboarding group 3
-      type: Mentor
       talks: []
