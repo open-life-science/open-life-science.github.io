@@ -13,7 +13,8 @@ toc: true
 ---
 
 {% assign program = 'openseeds' %}
-{% include _includes/cohort-metadata.html cohort='ols-3' %}
+{% assign cohort = 'ols-3' %}
+{% include _includes/cohort-metadata.html cohort=cohort program=program  %}
 
 # The OLS-3 program
 {:.no_toc}

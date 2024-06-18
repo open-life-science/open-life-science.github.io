@@ -11,9 +11,9 @@ redirect_from:
   - /OLS-8
   - /ols-8
 ---
-
 {% assign program = 'openseeds' %}
-{% include _includes/cohort-metadata.html cohort='ols-8' %}
+{% assign cohort = 'ols-8' %}
+{% include _includes/cohort-metadata.html cohort=cohort program=program  %}
 
 # The Open Seeds 8 program
 {:.no_toc}
