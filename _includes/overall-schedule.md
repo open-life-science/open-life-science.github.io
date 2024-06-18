@@ -1,3 +1,5 @@
+{% assign schedule = site.data[program][cohort].schedule %}
+
 During the program,
 
 - Mentors and mentees meet every 2 weeks [for a 30 minutes call]({% link {{ program }}/{{ cohort }}/index.md %}#mentor-mentee-calls)
