@@ -65,9 +65,11 @@ Country-specific nuances, e.g. setting up a [stichting](https://en.wikipedia.org
   * **17th October** - Using a Diversity and Inclusion framework to unearth talent.
   * **24th October** - Using Continuous Improvement skills to identify talent.
   * **7th November** - Setup and maintain pipelines to attract talent.
-  * **14th November** - Project and People managing high-performance teams.
-  * **21st November** - How to deal with difficult people and build relationships.
-  
+  * **14th November** - Project Management.
+  * **21st November** - People managing high-performance teams.
+  * **28th November** - How to deal with difficult change management
+   situations and build relationships.
+
 * **Pricing:** 
   * **£499 GBP** for initial skills consult and personal development plan.
   * **£1999 GBP** for 5-7 modules based on the initial consultation.
