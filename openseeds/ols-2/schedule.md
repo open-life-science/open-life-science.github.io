@@ -10,7 +10,5 @@ photos:
 redirect_from: /ols-2/schedule
 ---
 
-{% assign cohort = 'ols-2' %}
-{% assign program = 'openseeds' %}
 {% assign schedule = site.data.openseeds[cohort].schedule %}
-{% include _includes/schedule.md %}
+{% include _includes/schedule.md cohort ='ols-2' program ='openseeds' %}
