@@ -61,17 +61,14 @@ Country-specific nuances, e.g. setting up a [stichting](https://en.wikipedia.org
   * It focuses on centering the individual and prioritising based on the "degree of difficulty" across recruitment, retention, and relationship management.
   * This course lays bare the core, practical concepts that you need to know to be an outstanding leader. 
 
-* **Course content:**
-  * **17th October** - Using a Diversity and Inclusion framework to unearth talent.
-  * **24th October** - Using Continuous Improvement skills to identify talent.
-  * **7th November** - Setup and maintain pipelines to attract talent.
-  * **14th November** - Project Management.
-  * **21st November** - People managing high-performance teams.
-  * **28th November** - How to deal with difficult change management
-   situations and build relationships.
+* **Topics covered include:**
+  * Using a Diversity and Inclusion framework to unearth talent.
+  * Using Continuous Improvement skills to identify talent.
+  * Setup and maintain pipelines to attract talent.
+  * Project Management.
+  * People managing high-performance teams.
+  * How to deal with difficult change management situations and build relationships.
 
-* **Pricing:** 
-  * **£499 GBP** for initial skills consult and personal development plan.
-  * **£1999 GBP** for 5-7 modules based on the initial consultation.
+* **For the full workshop schedule, including dates and pricing, please see the [events page]({% link _events/2024-10-research-software-engineer-training-course.md%}).**
 
 LMIC discounts are available for all offers. If you are interested in any of the services, please contact us at **[team@we-are-ols.org](mailto:team@we-are-ols.org)**. 
