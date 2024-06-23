@@ -10,5 +10,7 @@ redirect_from: /ols-3/schedule
 toc: true
 ---
 
+{% assign cohort = 'ols-3' %}
+{% assign program = 'openseeds' %}
 {% assign schedule = site.data.openseeds[cohort].schedule %}
-{% include _includes/schedule.md cohort ='ols-3' program ='openseeds' %}
+{% include _includes/schedule.md %}

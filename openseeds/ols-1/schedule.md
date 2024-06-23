@@ -29,5 +29,7 @@ redirect_from:
 - /OLS-1/week18
 ---
 
+{% assign cohort = 'ols-1' %}
+{% assign program = 'openseeds' %}
 {% assign schedule = site.data.openseeds[cohort].schedule %}
-{% include _includes/schedule.md cohort ='ols-1' program ='openseeds' %}
+{% include _includes/schedule.md %}
