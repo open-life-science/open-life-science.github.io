@@ -1,10 +1,8 @@
 {% assign cohort = include.cohort %}
+{% assign program = include.program %}
 {% assign people = site.data.people %}
-{% if cohort contains 'openseeds' %}
-  {% assign program_data = site.data.openseeds[cohort] %}
-{% elsif cohort contains 'catalyst' %}
-  {% assign program_data = site.data.catalyst[cohort] %}
-{% endif %}
+{% assign program_data = site.data.[program][cohort] %}
+
 {% assign projects = program_data.projects %}
 {% assign schedule = program_data.schedule %}
 {% assign metadata = program_data.metadata %}
