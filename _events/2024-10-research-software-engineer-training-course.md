@@ -39,3 +39,5 @@ registration:
 * **Pricing:** 
   * **£499 GBP** for initial skills consult and personal development plan.
   * **£1999 GBP** ffor the practical training course designed just for you and a small group of other leaders.
+
+LMIC discounts are available for all offers. If you are interested in any of the services, please contact us at **[team@we-are-ols.org](mailto:team@we-are-ols.org)**.
