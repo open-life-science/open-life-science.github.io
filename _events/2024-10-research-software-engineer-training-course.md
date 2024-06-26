@@ -29,11 +29,11 @@ registration:
   * Course will run weekly from **17th of October** to **28th of November.**
 
 * **Topics covered include:**
-  * Using a Diversity and Inclusion framework to unearth talent.
+  * Using a Diversity and Inclusion framework to improve your team.
   * Using Continuous Improvement skills to identify talent.
   * Setup and maintain pipelines to attract talent.
-  * Project Management.
-  * People managing high-performance teams.
+  * Project Management in complex scenarios.
+  * Managing high-performance teams.
   * How to deal with difficult change management situations and build relationships.
 
 * **Pricing:** 
