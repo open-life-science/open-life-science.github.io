@@ -15,7 +15,7 @@ date_end: 2024-11-28
 location:
   name: Online
 
-contact_email: person@we-are-ols.org
+contact_email: rowland@we-are-ols.org
 
 registration:
   link: 
