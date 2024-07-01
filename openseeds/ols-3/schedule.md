@@ -11,5 +11,6 @@ toc: true
 ---
 
 {% assign cohort = 'ols-3' %}
+{% assign program = 'openseeds' %}
 {% assign schedule = site.data.openseeds[cohort].schedule %}
 {% include _includes/schedule.md %}

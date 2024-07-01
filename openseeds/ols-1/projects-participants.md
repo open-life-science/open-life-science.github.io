@@ -9,4 +9,5 @@ photos:
 redirect_from: /ols-1/projects-participants
 ---
 
-{% include _includes/projects-participants.html cohort='ols-1' %}
+{% assign schedule = site.data.openseeds[cohort].metadata %}
+{% include _includes/projects-participants.html cohort='ols-1' program='openseeds' %}
