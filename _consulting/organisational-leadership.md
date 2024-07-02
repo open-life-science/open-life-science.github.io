@@ -58,7 +58,7 @@ Country-specific nuances, e.g. setting up a [stichting](https://en.wikipedia.org
 ##  Research Software Engineer (RSE) Leadership Training Course 
 * **Course description:**
   * This leadership course is possibly the first in the world to provide an **intersectional framework** that underpins a leadership course for those in the tech industry.
-  * It focuses on centering the individual and prioritising based on the "degree of difficulty" across recruitment, retention, and relationship management.
+  * It focuses on centering the individual and prioritising based on the “degree of difficulty” across recruitment, retention, as well as project, people, and relationship management.
   * This course lays bare the core, practical concepts that you need to know to be an outstanding leader. 
 
 * **Topics covered include:**

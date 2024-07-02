@@ -28,7 +28,7 @@ registration:
   * We will then craft a practical training course just for you and a small group of other leaders to ensure all your needs are being met as an individual and as a group.
   * Course will run weekly from **17th of October** to **28th of November.**
 
-* **Topics covered include:**
+* **Workshop topics:**
   * Using a Diversity and Inclusion framework to improve your team.
   * Using Continuous Improvement skills to identify talent.
   * Setup and maintain pipelines to attract talent.
@@ -38,6 +38,6 @@ registration:
 
 * **Pricing:** 
   * **£499 GBP** for initial skills consult and personal development plan.
-  * **£1999 GBP** ffor the practical training course designed just for you and a small group of other leaders.
+  * **£1999 GBP** for a series of workshops with a small number of other leaders, that is crafted to your needs based on the initial consultation.
 
 LMIC discounts are available for all offers. If you are interested in any of the services, please contact us at **[team@we-are-ols.org](mailto:team@we-are-ols.org)**.
