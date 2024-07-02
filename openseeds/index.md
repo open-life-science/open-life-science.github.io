@@ -31,8 +31,8 @@ Participants join this program with a **project** that they either are already w
 OLS-8 runs from September 2023 to January 2024. We are not sure if we will run OLS-9 in the same format - see our [blog post]({% link _posts/2023-05-05-NASA-grant-announcement.md %}). [Sign up to our low-traffic news list]({{ site.announcement_list }}) to get updates. 
 
 ## Timeline
-
-{% assign schedule = site.data.openseeds.ols-8.schedule %}
+{% assign cohort = 'ols-8' %}
+{% assign program = 'openseeds' %}
 {% include _includes/timeline.md %}
 
 Have a question or need any support to join this cohort?
