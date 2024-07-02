@@ -59,7 +59,7 @@ Country-specific nuances, e.g. setting up a [stichting](https://en.wikipedia.org
 * **Course description:**
   * This leadership course is possibly the first in the world to provide an **intersectional framework** that underpins a leadership course for those in the tech industry.
   * It focuses on centering the individual and prioritising based on the “degree of difficulty” across recruitment, retention, as well as project, people, and relationship management.
-  * This course lays bare the core, practical concepts that you need to know to be an outstanding leader. 
+  * This course lays bare the core, practical concepts that you need to know to be an outstanding leader for a team of 1+ staff in an organisation. 
 
 * **Topics covered include:**
   * Using a Diversity and Inclusion framework to unearth talent.
