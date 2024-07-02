@@ -4,4 +4,4 @@ _site
 .sass-cache
 __pycache__
 .jekyll-metadata
-venv/
+*env/
