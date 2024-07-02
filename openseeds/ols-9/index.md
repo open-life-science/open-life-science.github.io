@@ -12,7 +12,7 @@ redirect_from:
   - /ols-9
 ---
 
-{% include _includes/cohort-metadata.html cohort='ols-9' %}
+{% include _includes/cohort-metadata.html cohort='ols-9' program='openseeds' %}
 
 # The Open Seeds 9 program
 {:.no_toc}
