@@ -32,7 +32,7 @@ All our members, participants and speakers are expected to abide by our [Code of
 
 If you experience or witness any unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Bérénice, Malvika and Yo. ([{{ site.email }}](mailto:{{ site.email }})).
 
-To report an issue involving one of the organisers, please email one of the members individually (([berenice@we-are-ols.org](mailto:berenice@we-are-ols.org), [malvika@we-are-ols.org](mailto:malvika@we-are-ols.org), [yo@we-are-ols.org](mailto:yo@we-are-ols.org)), [emmy@we-are-ols.org](mailto:emmy@we-are-ols.org)).
+To report an issue involving one of the organisers, please email one of the members individually (([berenice@we-are-ols.org](mailto:berenice@we-are-ols.org), [malvika@we-are-ols.org](mailto:malvika@we-are-ols.org), [yo@we-are-ols.org](mailto:yo@we-are-ols.org))).
 
 # About the cohort calls
 
