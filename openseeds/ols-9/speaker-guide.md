@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OLS Speaker Guide
+title: Open Seeds Speaker Guide
 image: https://images.unsplash.com/photo-1586985564259-6211deb4c122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1215&q=80
 photos:
   name: Visuals on Unsplash
