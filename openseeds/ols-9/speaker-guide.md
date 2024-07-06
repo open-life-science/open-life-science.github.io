@@ -12,7 +12,7 @@ redirect_from: /ols-speaker-guide
 
 Thank you for considering speaking at our upcoming Cohort call! We look forward to welcoming you. **🎉🥳️👏**
 
-# About OLS
+# About Open Seeds
 
 The [Open Seeds program]({% link openseeds/index.md %}) is
 designed for the early-stage researchers and potential academic leaders
