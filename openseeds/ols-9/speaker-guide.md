@@ -19,7 +19,7 @@ designed for the early-stage researchers and potential academic leaders
 in becoming Open Science ambassadors in their communities.
 
 This program is led by the OLS team members, i.e. us - Bérénice Batut,
-Malvika Sharan, Yo Yehudi and Emmy Tsang. You can reach out to us by emailing
+Malvika Sharan, Yo Yehudi. You can reach out to us by emailing
 [{{ site.email }}](mailto:{{ site.email }}).
 
 We will be running our [9th cohort]({% link openseeds/ols-9/projects-participants.md %})
