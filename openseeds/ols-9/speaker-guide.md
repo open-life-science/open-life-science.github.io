@@ -14,7 +14,7 @@ Thank you for considering speaking at our upcoming Cohort call! We look forward 
 
 # About OLS
 
-The [OLS program]({% link openseeds/index.md %}) is
+The [Open Seeds program]({% link openseeds/index.md %}) is
 designed for the early-stage researchers and potential academic leaders
 in becoming Open Science ambassadors in their communities.
 
