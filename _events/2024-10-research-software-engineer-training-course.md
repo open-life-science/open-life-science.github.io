@@ -11,6 +11,7 @@ contributions:
 
 date_start: 2024-10-17
 date_end: 2024-11-28
+duration: "02:45:00"
 
 location:
   name: Online
