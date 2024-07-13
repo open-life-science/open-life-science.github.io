@@ -39,4 +39,4 @@ OLS support was crucial to run this event, since neither RSE associations have t
 
 Fiscal sponsorship is a relatively new program for OLS, mainly in response to the fact that people participating in the OLS mentorship programs ([Open Seeds](https://we-are-ols.org/openseeds/) and [Nebula](https://we-are-ols.org/nebula/)) often desire to take "next steps" for their communities or projects, but may not have the legal infrastructure to do so (e.g. ways to handle money, accounting, a registered organisation, etc.), or may have an institution they can work with that may not have the desired flexibility to meet their needs. 
 
-If you want to learn more about the program, visit: [https://we-are-ols.org/open-incubator/fiscal-hosting/](https://we-are-ols.org/open-incubator/fiscal-hosting/).
+If you want to learn more about the program, our [fiscal sponsorship page]({% link fiscal-hosting.md %}).
