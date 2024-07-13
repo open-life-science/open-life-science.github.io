@@ -4,12 +4,11 @@ title: RSE-AUNZ joins OLS as their first fiscally sponsored community
 authors:
 - yochannah
 - rowland
-- 
-image: 
+image: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 photos:
-  name: 
-  license: CC-BY
-  url: 
+  name: Kelli McClintock
+  license: CC BY-SA 4.0
+  url: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 ---
 
 We're excited to share that [RSE-AUNZ](https://rse-aunz.github.io/) are joining OLS as our first [Fiscally Sponsored Community (FSC)]()! We'll be exploring this over the next year with RSE-AUNZ as they run their flagship [2024 RSE Asia Australia unconference](https://rseaa.github.io/). 
