@@ -43,7 +43,7 @@ The course will cover
 
 # Organization
 
-Course will run weekly from **17th of October** to **28th of November.**
+Course will run weekly from **17th of October** to **28th of November, on Tuesdays or Fridays, based on participant availability.**
 
 # Pricing
 
