@@ -29,14 +29,11 @@ The [RSE-AUNZ website](https://rse-aunz.org) contains the goals for the communit
 
 If you want to join the community, sign-up to the [Google Groups mailing list](https://groups.google.com/forum/#!forum/rse-nz-au/join).
 
-## RSE Asia Australia 
+## RSE Asia Australia Unconference
 
-One of the major reasons that RSE-AUNZ wanted to get fiscal sponsorship from OLS was because of the flagship event with RSE Asia, [Research Software Engineer Asia Australia](https://rseaa
-org).
+A major driver for RSE-AUNZ seeking fiscal sponsorship from OLS was the flagship event - [Research Software Engineer Asia Australia Unconference](https://rseaa.org), organised jointly with RSE Asia. This online event occurs every September and is attended by RSEs from many different research domains, all of whom work in some capacity with research software.
 
-This online event occurs every September and is attended by RSEs from many different research domains, all who work in some capacity with research software.
-
-Without support of OLS they would not have been able to run this event, due to both associations being at the start of their organisational journey.
+OLS support was crucial to run this event, since neither RSE associations have the necessary infrastructure to make financial transactions *necessary* for organising the Unconference.
 
 ## Fiscal Sponsorship with OLS
 
