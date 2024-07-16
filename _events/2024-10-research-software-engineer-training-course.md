@@ -19,8 +19,8 @@ location:
 contact_email: rowland@we-are-ols.org
 
 registration:
-  link: 
-  deadline: 
+  link: https://events.humanitix.com/rse-leadership-course
+  deadline: 2024-09-24
 ---
 
 # Course description
