@@ -41,7 +41,7 @@ The course will cover
 * Managing high-performance teams.
 * How to deal with difficult change management situations and build relationships.
 
-# Organization
+# Sessions
 
 - **Dates**: from **17th of October** to **28th of November
 - **Frequency**: weekly, on Tuesdays or Fridays, based on participant availability
