@@ -3,7 +3,7 @@ layout: post
 title: RSE-AUNZ joins OLS as their first fiscally sponsored community
 authors:
 - yochannah
-- rowland-mosbergen
+- rowlandm
 - Manodeep 
 image: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 photos:
