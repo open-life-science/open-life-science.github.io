@@ -293,6 +293,7 @@ We will also start to develop training packages specific to phytolith research s
   name: Building an open community around the Turing-Roche Strategic Partnership
   participants:
   - vhellon
+  status: graduated
 - description: On of my goals from my current position, as a community manager at the open science community Rotterdam,  is to engage and include as many as possible; I want to sustain and grow the community. One of my ambitions is curating events and engage public to open discussions around open science. One of the events that I really want to arrange is through art (as a means) to raise awareness around open science practices, and create the floor for an open discussion around open science.  It is still a general idea, so I am aware that I still need to go over all the details and I am still not sure what blockages will rise through this journey. But I am really positive and I truly believe that art is open and can act as a mediator towards connection, expression, openness, and understanding.
   keywords: []
   mentors:
@@ -362,6 +363,7 @@ Open source software such as R/Bioconductor (DESeq2), Unix/Linux, Python and Jup
   name: Transcriptomics profiling of bladder cancer using publicly available datasets
   participants:
   - babasaraki
+  status: graduated
 - description: Bioinformatics Secondary School Outreach (BSSO) is an initiative to develop bioinformatics capacity among High school students in Nigeria and this will create early interest in genomics data analysis among the students and equip them with the relevant skills and knowledge in Bioinformatics. Bioinformatics Hub Nigeria will be training these students on how to use Bioinformatics tools and pipelines and this can be achieved by establishing Bioinformatics research clubs in the visited schools to facilitate the trainings. We would be working alongside with other sister organizations to achieve this goal
   keywords:
   - Bioinformatics

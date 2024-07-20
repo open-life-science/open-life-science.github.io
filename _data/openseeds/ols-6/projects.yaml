@@ -32,6 +32,8 @@
   name: Evaluating criteria of "best paper" awards from research journals across disciplines
   participants:
   - mlagisz
+  status: graduated
+  graduation: https://youtu.be/lplbwoq6ZTg
 - description: The project consists of finding the right ways (media, news and tools)
     to spread open science concept and find adepts
   keywords: []
@@ -40,6 +42,8 @@
   name: Open science spread
   participants:
   - joelfan
+  status: graduated
+  graduation: https://youtu.be/VlWA7vygULc
 - description: 'I want to create a platform to publish scientific articles from all
     science disciplines that would allow: - Open peer review -- by sharing reviews
     with names of reviewers, we ensure a more fair reviewing process - Open post-publication
@@ -71,6 +75,8 @@
   name: Development of a Multi-Adaptor Quality Control Kit for Integration with Radiographic Equipment
   participants:
   - phaarouknucleus
+  status: graduated
+  graduation: https://youtu.be/Rvs4d5JzCPo
 - description: 'Objective: to provide a FAIR by design training course on Open Science
     The project aims at creating FAIRer teaching material on my subject of expertise,
     Open Science, improving my teaching skills by attending your course on opening
@@ -85,6 +91,8 @@
   name: A FAIRer training module on Open Science
   participants:
   - elena-giglia
+  status: graduated
+  graduation: https://youtu.be/VlWA7vygULc
 - description: "Working with the Alan Turing Institute I want to create a framework\
     \ that allows questioning of ethical standards and reproducibility of Computer\
     \ Models in Computational Neurobiology, both specifically within my PhD work,\
@@ -114,6 +122,8 @@
   name: Ethical standards and reproducibility of computer models in Neurobiology
   participants:
   - susana465
+  status: graduated
+  graduation: https://youtu.be/Rvs4d5JzCPo
 - description: ODC (Open Data Custodians) is an open tool for connecting public domain Github repo data to a DB/API. Inspired by the BigScience Data Governance Framework, this project seeks to empower repo maintainers to do more with their data and create new pathways for responsible data sharing in the open AI ecosystem.
   keywords:
   - civic tech
@@ -125,6 +135,8 @@
   name: Open Data Custodianship tool
   participants:
   - dingaaling
+  status: graduated
+  graduation: https://youtu.be/VlWA7vygULc
 - description: Generation Z stands to become the new entrants into the world of research
     from 2024. I believe new systems and easier ways of accessing information with
     more vocal communities are needed to usher in the new generation. But to do so,
@@ -153,6 +165,8 @@
   name: Life Science in 2022, India.
   participants:
   - nilabha1512
+  status: graduated
+  graduation: https://youtu.be/Rvs4d5JzCPo
 - description: Mental health among researchers is a huge neglected burden that has
     significant impact on their lives and the people around them. Majority of the
     focus on mental health is in capacity building for mental health research or offering
@@ -178,6 +192,8 @@
   name: An open support resource for primary mental health for researchers.
   participants:
   - osatashamim
+  status: graduated
+  graduation: https://youtu.be/Rvs4d5JzCPo
 - description: This project is about creating an interactive map that locates all
     the past and present mentors, mentees, experts, and speakers who participated
     in the Open Life Science (OLS) programme. The map will be created using the Shiny
@@ -196,6 +212,8 @@
   name: Mapping the Open Life Science Cohorts
   participants:
   - saranjeetkaur
+  status: graduated
+  graduation: https://youtu.be/VlWA7vygULc
 - description: 'The Diverse Data initiative at Genomics England intends to build community
     spaces to: Facilitate effective engagement; enable creates crowdsourcing of tools
     and collaborative opportunities, and; build relationships and understanding across
@@ -243,6 +261,8 @@
   - macziatko
   - cassmurph
   - bresearcher101
+  status: graduated
+  graduation: https://youtu.be/Rvs4d5JzCPo
 - description: 'Over 2020/21 I was working on launching a social justice learning
     platform called Pyxium: https://app.pyxium.co/. It became apparent after working
     on it for a while that this should exist as an open, free and community driven
@@ -293,6 +313,8 @@
   participants:
   - babasaraki
   - usmood
+  status: graduated
+  graduation: https://youtu.be/Rvs4d5JzCPo
 - description: Our project aims to map the relationship between people, skills and
     technologies, structured under the AI and data-science landscape, in order to
     develop an ontology that can assist Research Software Engineers (RSE's) to better
@@ -325,6 +347,8 @@
   - nina-roux
   - rhoné-roux
   - ariana-bethany-subroyen
+  status: graduated
+  graduation: https://youtu.be/Rvs4d5JzCPo
 - description: This project aims to identify African research groups that are heavily
     involved in in-house research software development and could potentially benefit
     from being part of RSSE-Africa and the larger global RSE movement. This may, for
@@ -353,6 +377,8 @@
   - nomalu
   - anelda
   - pvanheus
+  status: graduated
+  graduation: https://youtu.be/lplbwoq6ZTg
 - description: 'The AI for Multiple Long-term Conditions (AIM) research programme
     consists of seven consortia, all working with artificial intelligence methods
     to understand multiple long-term medical conditions. The Research Support Facility
@@ -386,6 +412,8 @@
   participants:
   - eirini-zormpa
   - brainonsilicon
+  status: graduated
+  graduation: https://youtu.be/lplbwoq6ZTg
 - description: '*Super-resolution microscopy (SRM)* bypasses the diffraction limit
     and makes the nanoscale visualization of subcellular structures and dynamics possible.
     Yet the complexity and high expense of SRM setups often obstruct access to the
@@ -444,6 +472,8 @@
   name: "OpSciHack: Open Life Science Hackathon"
   participants:
   - harinilakshminarayanan
+  status: graduated
+  graduation: https://youtu.be/lplbwoq6ZTg
 - description: The Hub portal and academy seeks to create a curriculum and a data
     portal targeting young researchers and incoming biology students to be equipped
     with data management skills, project planning skills and basic bioinformatics
@@ -467,6 +497,8 @@
   - karegapauline
   - glado718
   - kenmurithi
+  status: graduated
+  graduation: https://youtu.be/lplbwoq6ZTg
 - description: The idea is to create an online platform that hosts any sort of didactic
     material. It can be a site that gather in an organized way different educational
     materials to be used by university professor or schoolteachers with their students.
@@ -519,6 +551,8 @@
     development
   participants:
   - aldenc
+  status: graduated
+  graduation: https://youtu.be/VlWA7vygULc
 - description: 'This project is developing a prototype “extensible notebook for open
     specimens”. This is a link-aware editor for semi-structured data based on personal
     knowledge management software (Obsidian). This environment plus standard open
@@ -574,6 +608,8 @@
   name: Multiomics profiling and analysis of cardiovascular diseases
   participants:
   - rushda-patel
+  status: graduated
+  graduation: https://youtu.be/lplbwoq6ZTg
 - description: "**The Undergraduate's Guide To Research Software Engineering** aims to provide an *open-source*, *dynamic*, and *accessible* collection of resources on Research Software Engineering to undergraduates and newcomers interested in knowing more about the field.  The project aims to develop resources majorly around the following four areas:  1. **Information and Background of Research Software
     Engineering**  * This area would cover all the necessary context, history, background
     information, and the current situation of the Research Software Engineering movement
@@ -603,6 +639,8 @@
   name: Developing policy briefs on mental well-being of researchers in academia across different countries
   participants:
   - msundukova
+  status: graduated
+  graduation: https://youtu.be/Rvs4d5JzCPo
 - description: Bioinformatics Secondary School Outreach (BSSO) is an initiative to develop bioinformatics capacity among High school students in Nigeria and this will create early interest in genomics data analysis among the students and equip them with the relevant skills and knowledge in Bioinformatics. Bioinformatics Hub Nigeria will be training these students on how to use Bioinformatics tools and pipelines and this can be achieved by establishing Bioinformatics research clubs in the visited schools to facilitate the trainings. We would be working alongside with other sister organizations to achieve this goal
   keywords:
   - Bioinformatics
