@@ -12,7 +12,7 @@ PR Type:
 * [ ] This PR does something else (explain above)
 
 <!-- Leave this here so reviewers have a nice checklist to help them review the PR  --> 
-## FOR REVIEWERS:
+## FOR REVIEWERS
 
 Thanks for taking the time to review! :heart:
 
