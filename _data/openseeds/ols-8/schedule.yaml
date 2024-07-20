@@ -401,6 +401,7 @@ weeks:
         levels of engagements
       - Develop persona and pathways for your community for taking people's experiences
         and expectations in planning your projects
+      recording: https://youtu.be/UAjkqNGIkDk
   '09':
     start: November 13, 2023
     calls:
@@ -570,6 +571,7 @@ weeks:
         speakers:
         - diana-pilvar
         title: Documentation and metadata
+      recording: https://youtu.be/3niK08eEpOA
   '13':
     start: December 11, 2023
     calls:
@@ -601,6 +603,7 @@ weeks:
         - saravilla
         title: Personal Ecology and Self Care
         tag: Personal Ecology
+      recording: https://youtu.be/iVDJ9OII6S0
   '14':
     start: December 18, 2023
     calls:
@@ -613,6 +616,7 @@ weeks:
       - malvikasharan
       type: Cohort
       talks: []
+      recording: https://youtu.be/KjKgcY1qopQ
     - date: December 20, 2023
       time: "17:00"
       duration: 60 min
@@ -626,6 +630,7 @@ weeks:
       - speakers:
         - rainsworth
         title: How to run inclusive meetings and get community input
+      recording: https://youtu.be/aQDSqwLwCLk
   '15':
     start: January 08, 2024
     calls:
@@ -665,28 +670,31 @@ weeks:
     calls:
     - date: January 16, 2024
       duration: 60 min
-      notes: https://bit.ly/ols-8-week-16
+      notes: https://annuel2.framapad.org/p/ols-8-week-16
       title: Final presentations & Graduation! - Group 1
       type: Cohort
       talks: []
       time: "09:00"
       hosts:
       - yochannah
+      recording: https://youtu.be/zJzkGvfDspI
     - date: January 17, 2024
       duration: 60 min
-      notes: https://bit.ly/ols-8-week-16
+      notes: https://annuel2.framapad.org/p/ols-8-week-16
       title: Final presentations & Graduation! - Group 2
       type: Cohort
       talks: []
       time: "14:00"
       hosts:
       - yochannah
+      recording: https://www.youtube.com/live/6xJzaQACIzc
     - date: January 18, 2024
       duration: 60 min
-      notes: https://bit.ly/ols-8-week-16
+      notes: https://annuel2.framapad.org/p/ols-8-week-16
       title: Final presentations & Graduation! - Group 3
       hosts:
       - malvikasharan
       type: Cohort
       talks: []
       time: "17:00"
+      recording: https://www.youtube.com/live/X9LBc5cYViI
