@@ -1500,7 +1500,7 @@ bethaniley:
   continent: Europe
   longitude: -5.9301829
   latitude: 54.596391
-  title: Resident Fellow
+  title: Finance manager
   orcid: 0000-0002-5813-3303
   expertise:
   - Gender identity; conspiracy theories; misinformation; neurodiversity; diversity
@@ -7813,7 +7813,7 @@ pherterich:
   bio: Patricia is currently a Research Data Specialist working at the Digital Curation
     Centre at the University of Edinburgh. Before joining the DCC, she was the Research
     Repository Advisor at the University of Birmingham and have previously worked
-    as a data librarian at CERN’’s Scientific Information Service working closely
+    as a data librarian at CERN’s Scientific Information Service working closely
     with software developers to deliver data and code sharing solutions. She loves
     collaborating openly and making projects welcoming to new comers.
   city: Edinburgh
@@ -7833,7 +7833,7 @@ pherterich:
   continent: Europe
   longitude: -3.1883749
   latitude: 55.9533456
-  title: Fellowship and Finance Manager
+  title: Chief of Staff
 piero-beraun:
   affiliation: Scihack
   bio: 22 years old and Bachelor in Bioengineering. I like strawberries, plants, arthropods,
@@ -8863,6 +8863,7 @@ seunolufemi123:
   continent: Africa
   longitude: 4.25
   latitude: 8.133
+  title: Resident Fellow
 sgibson91:
   affiliation: The Alan Turing Institute
   bio: Sarah Gibson is a Research Software Engineer at the Alan Turing Institute where
