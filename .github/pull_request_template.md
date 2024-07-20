@@ -2,7 +2,7 @@
 
 :+1::tada: First of all, thanks for taking the time to contribute! :tada::+1:
 
-## FOR CONTRIBUTOR:
+## FOR CONTRIBUTOR
 
 * [ ] I have read the [CONTRIBUTING.md](https://github.com/open-life-science/open-life-science.github.io/blob/main/CONTRIBUTING.md) document
 
