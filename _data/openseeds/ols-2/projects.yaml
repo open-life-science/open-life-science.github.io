@@ -104,6 +104,7 @@
     values for each tool. Later we can set that pipeline on web-based system that
     would make the researchers easier for the scientists.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=IGyoiFnCvis&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH
 
 - name: Chronic Learning
   participants:
@@ -120,6 +121,7 @@
     a mixture of graphical abstracts, tutorials, and reference pdfs; I hope to
     incorporate more formats, such as videos, as well.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=IGyoiFnCvis&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH
 
 - name: Open Innovation in Life Sciences
   participants:
@@ -143,6 +145,7 @@
     expertise (e.g. project management, budgeting, advertising, etc.) to
     enhance traditional Ph.D. and Postdoctoral training.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=28OiRoBz3ww&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH&index=2
 
 - name: Using collective action to change cultural norms and drive progress in the life sciences
   participants:
@@ -169,6 +172,7 @@
     and directed to carry out the new behaviour in unison, with the protection
     of their peers.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=28OiRoBz3ww&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH&index=3
 
 - name: Developing the Research Software and Systems Engineering Community to support Life Sciences in Africa
   participants:
@@ -368,6 +372,7 @@
     to easily identify how the disease is affecting different geographical
     locations.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=28OiRoBz3ww&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH&index=3
 
 - name: Sharing 3D Modeling Workflows for Biomechanists and Palaeontologists
   participants:
@@ -391,6 +396,7 @@
     tricks for setting up models for finite element analysis, as well as other
     3D workflows (such as fossil reconstruction in freeware programs).
   status: graduated
+  graduation: https://www.youtube.com/live/28OiRoBz3ww?feature=shared&t=1535
 
 - name: Open Science Office Hours to support trainees in Montreal to help make their research more open and reproducible
   participants:
@@ -417,6 +423,7 @@
     involved as TA's. Finally, we would need to recruit the TA's. Thus, this
     project will involve community contributions at all stages, in various capacities.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=28OiRoBz3ww&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH&index=2
 
 - name: Registered Reports in Primate Neurophysiology
   participants:
@@ -441,6 +448,7 @@
     which to find compromise in the conflict between existing registered
     report formats and current methodologies in primate neurophysiology.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=28OiRoBz3ww&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH&index=2
 
 - name: OSUM - Open Science UMontreal
   participants:
@@ -588,6 +596,7 @@
     research at all stages of the research process.
     3. Compiling diverse research ethics resources in one area.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=28OiRoBz3ww&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH&index=2
 
 - name: sktime - a unified toolbox for machine learning with time series
   participants:
@@ -607,6 +616,7 @@
     data science community into a joint framework and embedding best practices
     into the time series analysis field.
   status: graduated
+  graduation: https://www.youtube.com/watch?v=28OiRoBz3ww&list=PL1CvC6Ez54KDcaZbH8YXvXGU_XLFW3eRH&index=3
 
 - name: Turing Data Stories
   participants:

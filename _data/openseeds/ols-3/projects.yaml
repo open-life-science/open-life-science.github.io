@@ -19,15 +19,16 @@
     first steps, I am working on a best practices guide, summarizing the experiences
     of existing similar projects.
   keywords:
-    - citizen science
-    - peer-production
-    - participatory design
+    - Citizen Science
+    - Peer-production
+    - Participatory design
   mentors:
     - fpsom
   name: Best practices for online collaboration/peer-production in citizen science
   participants:
     - katoss
   status: graduated
+  graduation: https://www.youtube.com/live/pU-HosUM5-8?feature=shared&t=527
 - description:
     VCMS (vcms.simonduerr.eu) is convenient tool to setup a website for
     a virtual conference including an abstract submission portal, timezone adapted
@@ -36,15 +37,16 @@
     currently in beta and will be released as FOSS under MPL once the software is
     battle tested (in mid february).
   keywords:
-    - conferences
-    - virtual
-    - poster session
+    - Conferences
+    - Virtual
+    - Poster session
   mentors:
     - ealescak
   name: A virtual conference management system with seamless open science integration
   participants:
     - duerrsimon
   status: graduated
+  graduation: https://www.youtube.com/live/kNQz0ap71yg?feature=shared&t=602
 - description:
     "The “Memory Collecting: Croatian Homeland War” project aims to create
     a platform where survivors can submit video recordings of their own memories and
@@ -54,12 +56,12 @@
     This initiative seeks to preserve the memory of the role of Croatian-Americans
     in the creation of free, modern Croatia during the Homeland War in the 1990s."
   keywords:
-    - database
-    - video
-    - generational memory
-    - record
-    - document
-    - historical
+    - Database
+    - Video
+    - Generational memory
+    - Record
+    - Document
+    - Historical
     - Croatia
     - Diaspora
   mentors:
@@ -68,6 +70,7 @@
   participants:
     - annalee-sekulic
   status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     "I want to help build a culture of open science and good practice (as\
     \ well as fun) within the plant synthetic biology community, with an initial emphasis\
@@ -77,9 +80,9 @@
     \ aid experimentation, both in academia and for citizen scientists (4) building\
     \ a community of interested individuals to expand and contribute to the project."
   keywords:
-    - synthetic biology
-    - community building
-    - citizen science
+    - Synthetic biology
+    - Community building
+    - Citizen science
   mentors:
     - smklusza
   name: Open Phototroph
@@ -120,18 +123,18 @@
     and environment and thus to give an understanding how the future development may
     progress.
   keywords:
-    - palaeoecology
-    - palaeoenvironment
-    - palynology
-    - interdependence
-    - interconnectedness
-    - landscape
-    - public
-    - geomorphology
-    - geology
-    - geography
-    - microscopy
-    - microfossils
+    - Palaeoecology
+    - Palaeoenvironment
+    - Palynology
+    - Interdependence
+    - Onterconnectedness
+    - Landscape
+    - Public
+    - Geomorphology
+    - Geology
+    - Geography
+    - Microscopy
+    - Microfossils
   mentors:
     - bruno-soares
   name:
@@ -161,16 +164,16 @@
     technical expertise amongst the team members, and provides a framework to structure
     the work of the newly funded Chronobiology Data Standards Interest Group (CDSIG)."
   keywords:
-    - open data
-    - open science
-    - data schemas
-    - metadata
-    - actigraphy
-    - actimetry
-    - rest-activity cycles
-    - circadian rhythms
-    - chronobiology
-    - sleep research
+    - Open data
+    - Open science
+    - Data schemas
+    - Metadata
+    - Actigraphy
+    - Actimetry
+    - Rest-activity cycles
+    - Circadian rhythms
+    - Chronobiology
+    - Sleep research
   mentors:
     - malloryfreeberg
   name: Open data schema for actigraphy data in chronobiology and sleep research
@@ -178,6 +181,7 @@
     - spitschan
     - ghammad
   status: graduated
+  graduation: https://www.youtube.com/watch?v=pU-HosUM5-8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA
 - description:
     BioFerm is a web application platform which can be used for kinetic
     study, simulation and optimization of bioprocesses. The user is able to calculate
@@ -205,6 +209,7 @@
   participants:
     - olayile
   status: graduated
+  graduation: https://www.youtube.com/live/pU-HosUM5-8?feature=shared&t=2315
 - description:
     "This project will investigate existing literature on the benefits,\
     \ risks, and limitations of open data practices in Australian environmental archaeology,\
@@ -239,14 +244,14 @@
     into grant submission and publication requirements across scientific fields (Lucas
     et al., Cytometry A 2019).
   keywords:
-    - rigor
-    - reproducibility
-    - peer-review
-    - publishing
-    - research quality defects
-    - experimental methods
-    - flow cytometry
-    - tool
+    - Rigor
+    - Reproducibility
+    - Peer-review
+    - Publishing
+    - Research quality defects
+    - Experimental methods
+    - Flow cytometry
+    - Tool
     - AI-assisted peer-review
   mentors:
     - tsonika
@@ -256,6 +261,7 @@
   participants:
     - fabienne-lucas
   status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     Genetic variants of APOL1 commonly found in people of recent African
     ancestry can predispose to chronic kidney disease. It is however unknown if and
@@ -264,9 +270,9 @@
     these genetic variants, by mining genomic information from publicly available
     datasets.
   keywords:
-    - bioinformatics
-    - data visualization
-    - open educational resource
+    - Bioinformatics
+    - Data visualization
+    - Open educational resource
   mentors:
     - dimmestp
     - yochannah
@@ -322,9 +328,9 @@
     or universities where opportunities to participate in life science research are
     limited or nonexistent.
   keywords:
-    - online research
-    - mentorship
-    - virtual environments
+    - Online research
+    - Mentorship
+    - Virtual environments
     - Jupyter notebooks
   mentors:
     - burkemlou
@@ -351,15 +357,16 @@
     could be publicly available on github (open source) with further documentation
     published with github pages."
   keywords:
-    - metabarcoding
-    - python pipeline
-    - reproducible
+    - Metabarcoding
+    - Python
+    - Reproducible
   mentors:
     - hrhotz
   name: "metaNanoPype: a reproducible Nanopore python pipeline for metabarcoding"
   participants:
     - antonioggsousa
   status: graduated
+  graduation: https://www.youtube.com/watch?v=kNQz0ap71yg&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=2
 - description:
     The field of molecular biology is a concept to discover, identify and
     explain mechanisms of everything about DNA, RNA and protein level in a cell. Despite
@@ -377,9 +384,9 @@
     researchers in this field of science to improve knowledge, share and even find
     new ideas.
   keywords:
-    - open educational resource
-    - open-collaborative
-    - molecular biology
+    - Open educational resource
+    - Open-collaborative
+    - Molecular biology
   mentors:
     - landimi2
     - unode
@@ -388,6 +395,7 @@
   participants:
     - nihansultan
   status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     OLS is a great platform to open life science with the objective of
     train young researchers towards the practices in open science skills. I am a graduand
@@ -402,10 +410,10 @@
     and having this it self as a project with the goal of coming up as a tangible
     document in the form of a publication to be shared with the community at large.
   keywords:
-    - value of OLS
-    - participant perspective
-    - internalize openess
-    - pendown
+    - Value of OLS
+    - Participant perspective
+    - Internalize openess
+    - Pendown
   mentors:
     - bebatut
     - yochannah
@@ -436,9 +444,9 @@
     other components such as CODEOWNERS file and __author__ strings in Python files.
   keywords:
     - sktime
-    - documentation
-    - algorithm maintainer
-    - codeowner
+    - Documentation
+    - Algorithm maintainer
+    - Codeowner
   mentors:
     - tobyhodges
   name: Documentation enhancement with open science practices in sktime
@@ -446,6 +454,7 @@
     - afzal442
     - abdulelahsm
   status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     "This project is to develop a Turing Service Area in Open Source that
     will provide formal support in open working and embedding best practices of open
@@ -460,9 +469,9 @@
     the Turing Way project to draw on existing material and contribute new processes
     there."
   keywords:
-    - open-source
-    - research
-    - strategy
+    - Open-source
+    - Research
+    - Strategy
   mentors:
     - meagdoh
   name: An Open Source Service Area for Turing research projects
@@ -489,11 +498,11 @@
     with information as the project proceeds."
   keywords:
     - FAIR
-    - data sharing
-    - palaeobotany
-    - phytolith research
-    - archaeology
-    - palaeoecology
+    - Data sharing
+    - Palaeobotany
+    - Phytolith research
+    - Archaeology
+    - Palaeoecology
   mentors:
     - ekaroune
   name: Towards FAIRer phytolith data
@@ -541,16 +550,17 @@
     - harpreetsingh05
     - prashbio
   status: graduated
+  graduation: https://www.youtube.com/live/kNQz0ap71yg?feature=shared&t=2547
 - description:
     AKADEMISI PREPRINTS is a free distribution service of preprints from
     multidisciplinary fields. The server plans to include connection hub to journals
     and open peer review community. By doing so, we hope to promote the transparency
     and quick visibility of research results to the public.
   keywords:
-    - preprints
-    - open resource
-    - open access
-    - publishing
+    - Preprints
+    - Open resource
+    - Open access
+    - Publishing
   mentors:
     - iratxepuebla
   name: Boosting research visibility using Preprints
@@ -559,6 +569,7 @@
     - hzahroh
     - zenita-milla-luthfiya
   status: graduated
+  graduation: https://www.youtube.com/live/kNQz0ap71yg?feature=shared&t=2547
 - description:
     Although there is an increasing number of initiatives in Saudi Arabia
     to raise awareness in Data Science (DS) and connect researchers in artificial
@@ -615,6 +626,7 @@
   participants:
     - anshika-sah
   status: graduated
+  graduation: https://www.youtube.com/live/kNQz0ap71yg?feature=shared&t=1102
 - description:
     I aim to develop training materials to support the use of open data
     by researchers working on agrobiodiversity conservation. At CONABIO (Mexico),
@@ -634,9 +646,9 @@
     expect this serves as a prototype for advanced training modules that could be
     used by future contributors or other researchers working on agrobiodiversity topics.
   keywords:
-    - agrobiodiversity
-    - open data
-    - oer
+    - Agrobiodiversity
+    - Open data
+    - Open Education Ressource
   mentors:
     - pivg
   name: Skills for Open Agrobiodiversity Data
@@ -660,17 +672,18 @@
     \ in a services market. \n\nMore information about the project is available on\
     \ GitHub https://github.com/JMMaok/postdoc/projects and Zotero https://www.zotero.org/groups/"
   keywords:
-    - postdoc
-    - empirical legal research
-    - systematic review
-    - public policy
-    - open notebook science
+    - Postdoc
+    - Empirical legal research
+    - Systematic review
+    - Public policy
+    - Open notebook science
   mentors:
     - bduckles
   name: Postdoc Empirical Legal Research Open Notebook
   participants:
     - jmmaok
   status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     "The mission of the UKCRC Tissue Directory and Coordination Centre
     (UKCRC TDCC) is to maximise the use, value and impact of the UK's human sample
@@ -687,10 +700,10 @@
     collaboration."
   keywords:
     - Biobanking
-    - research
-    - samples
-    - biospecimens
-    - COVID19
+    - Research
+    - Samples
+    - Biospecimens
+    - COVID 19
   mentors:
     - sgibson91
   name: The UKCRC Tissue Directory and Coordination Centre
@@ -698,6 +711,7 @@
     - emma-lawrence
     - jessica-sims
   status: graduated
+  graduation: https://www.youtube.com/live/pU-HosUM5-8?feature=shared&t=2315
 # - description: This is a prototype for target approaches in the stages of disease
 #     prognosis. By creating a constructive study of liver disease and bioinformatics
 #     pipeline. Construction of bioinformatics study to find out the key enzymes responsible
@@ -740,10 +754,10 @@
     \ language resources that can be used to train models in machine learning."
   keywords:
     - Natural Language Processing
-    - " Low-resources"
-    - " Machine Learning"
-    - " Corpus"
-    - " Language resources"
+    - Low-resources
+    - Machine Learning
+    - Corpus
+    - Language resources
   mentors:
     - lauracarter
   name: Development of language resources for Hausa Natural Language Processing
@@ -752,6 +766,7 @@
     - isahmadbbr
     - rukynas
   status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     In Europe, prostate cancer (PCa) is the second most frequent type of
     cancer in men and the third most lethal. Current clinical practices, often leading
@@ -772,8 +787,8 @@
     decision making.
   keywords:
     - Prostate Cancer
-    - " Open Data"
-    - " Pca"
+    - Open Data
+    - PCA
   mentors:
     - harpreetsingh05
   name: ProCancer-I - An AI Platform integrating imaging data and models, supporting precision care through prostate cancer's continuum
@@ -781,6 +796,7 @@
     - kon0925
     - sgsfak
   status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     "The long term project objective is to establish in my university a\
     \ core-team/lab able to aid the community to design and implement open science\
@@ -798,11 +814,11 @@
     \ and to discover how to do it."
   keywords:
     - community building
-    - " Systems Biology"
-    - " Metabolism"
-    - " quantitative Life Science"
-    - " technology"
-    - " infrastructure"
+    - Systems Biology
+    - Metabolism
+    - Quantitative Life Science
+    - Technology
+    - Infrastructure
   mentors:
     - bebatut
   name: Seeding
@@ -844,6 +860,7 @@
     - santi-rello-varona
     - irisbotas
   status: graduated
+  graduation: https://www.youtube.com/live/kNQz0ap71yg?feature=shared&t=173
 - description:
     "Multimodal and Functional Imaging Laboratory (MAFIL, https://mafil.ceitec.cz/en/)\
     \ is one of core facilities at CEITEC MUNI and part of national large research\
@@ -873,6 +890,7 @@
     - michal-javornik
     - dudova
   status: graduated
+  graduation: https://www.youtube.com/live/kNQz0ap71yg?feature=shared&t=1887
 - description:
     "In The Turing Way, we want to systematically understand community\
     \ practices including the community engagement pathways, contributors’ roles and\
@@ -910,11 +928,11 @@
     \ we create a good basis for open science practices within ASG and hopefully in\
     \ other parts of Turing that RAMs interface with."
   keywords:
-    - open science workflow
-    - " open source code"
-    - " stakeholder engagement"
-    - " research application"
-    - " ASG"
+    - Open Science workflow
+    - Open source code
+    - Stakeholder engagement
+    - Research application
+    - ASG
   mentors:
     - malvikasharan
   name:
@@ -944,6 +962,7 @@
     - mohan-gupta
     - ujwal-shrestha
   status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     "In The Turing Way, we define reproducible research as work that can\
     \ be independently recreated using the same data and code from the original study.\
@@ -965,11 +984,11 @@
     \ will be collaboratively reported as chapters in The Turing Way."
   keywords:
     - Reproducibility
-    - " AI trends"
-    - " Data Science"
-    - " Reproducible research practices"
-    - " Computational research methods"
-    - " Research software"
+    - AI trends
+    - Data Science
+    - Reproducible research practices
+    - Computational research methods
+    - Research software
   mentors:
     - annakrystalli
   name: Open Source Project for Evaluating Reproducibility Trends in AI Research Projects
@@ -986,12 +1005,12 @@
     be well placed to support such an engagement stream with the wider community of
     trainers and researchers.
   keywords:
-    - education
-    - " training"
-    - " data science"
-    - " AI"
-    - " open infrastructure"
-    - " community"
+    - Education
+    - Training
+    - Data science
+    - AI
+    - Open infrastructure
+    - Community
   mentors:
     - jezcope
   name:
@@ -999,6 +1018,8 @@
     and AI
   participants:
     - mihaelanemes
+  status: graduated
+  graduation: https://www.youtube.com/watch?v=2tezbbfJGu8&list=PL1CvC6Ez54KD01eg-XVq0AUHNEpG9dnrA&index=3
 - description:
     "As part of the Street Science Community, we successfully developed\
     \ the BeerDeCoded project: a hands-on workshop for pupils and citizens with the\
@@ -1018,10 +1039,10 @@
     \ with the Galaxy community on the technical part and with teachers on the pedagogical\
     \ and gamification side."
   keywords:
-    - citizens science
-    - " DNA sequencing"
-    - " metagenomics"
-    - " Galaxy"
+    - Citizens Science
+    - DNA sequencing
+    - Metagenomics
+    - Galaxy
   mentors:
     - yvanlebras
   name:
@@ -1033,3 +1054,4 @@
     - masako-kaufmann
     - heylf
   status: graduated
+  graduation: https://www.youtube.com/live/kNQz0ap71yg?feature=shared&t=602
