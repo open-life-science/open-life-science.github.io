@@ -6,7 +6,7 @@
 
 * [ ] I have read the [CONTRIBUTING.md](https://github.com/open-life-science/open-life-science.github.io/blob/main/CONTRIBUTING.md) document
 
-<!-- Select which of these two are true by putting an x beterrn the square brackets [x] -->
+<!-- Select which of these two are true by putting an x between the square brackets [x] -->
 PR Type: 
 * [ ] This PR adds a new blog post
 * [ ] This PR does something else (explain above)
