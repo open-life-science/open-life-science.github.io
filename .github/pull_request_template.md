@@ -1,11 +1,18 @@
+<!-- Explain what the PR is about here, if appropriate :)  --> 
+
 :+1::tada: First of all, thanks for taking the time to contribute! :tada::+1:
 
-FOR CONTRIBUTOR:
-* [ ] I have read the [CONTRIBUTING.md](https://github.com/open-life-science/open-life-science.github.io/blob/main/CONTRIBUTING.md) document
-* [ ] This PR adds a new blog post
-* [ ] This PR does something else (explain below)
+## FOR CONTRIBUTOR
 
-FOR REVIEWERS:
+* [ ] I have read the [CONTRIBUTING.md](https://github.com/open-life-science/open-life-science.github.io/blob/main/CONTRIBUTING.md) document
+
+<!-- Select which of these two are true by putting an x between the square brackets [x] -->
+PR Type: 
+* [ ] This PR adds a new blog post
+* [ ] This PR does something else (explain above)
+
+<!-- Leave this here so reviewers have a nice checklist to help them review the PR  --> 
+## FOR REVIEWERS
 
 Thanks for taking the time to review! :heart:
 
