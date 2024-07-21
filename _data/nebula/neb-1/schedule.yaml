@@ -1,0 +1,75 @@
+# Schedule for the nebula neb-1
+---
+timeline:
+- date:
+  description: Call for Application opens
+  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
+- date:
+  description: Application webinar
+  type:
+  - Talk
+  - Q&A
+  notes:
+  recording:
+  details: Watch recordings from previous webinars on 
+    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+- date:
+  description: Application Clinic Call
+  type:
+  - Q&A
+  notes:
+  details: At this call, OLS team will be available to provide help if you have any
+    question related to your application
+- date:
+  description: Call for applications closed
+- date:
+  description: Successful applicants announced
+weeks:
+  '01':
+    start:
+    calls: []
+  '02':
+    start:
+    calls: []
+  '03':
+    start:
+    calls: []
+  '04':
+    start:
+    calls: []
+  '05':
+    start:
+    calls: []
+  '06':
+    start:
+    calls: []
+  '07':
+    start:
+    calls: []
+  '08':
+    start:
+    calls: []
+  '09':
+    start:
+    calls: []
+  '10':
+    start:
+    calls: []
+  '11':
+    start:
+    calls: []
+  '12':
+    start:
+    calls: []
+  '13':
+    start:
+    calls: []
+  '14':
+    start:
+    calls: []
+  '15':
+    start:
+    calls: []
+  '16':
+    start:
+    calls: []
