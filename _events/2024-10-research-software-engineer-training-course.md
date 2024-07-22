@@ -7,7 +7,7 @@ description: |
 
 contributions:
   organisers:
-  - rowland-mosbergen
+  - rowlandm
 
 date_start: 2024-10-17
 date_end: 2024-11-28
