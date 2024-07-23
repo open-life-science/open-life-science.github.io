@@ -444,6 +444,7 @@
   participants:
   - r-huo
   - moengels
+  status: graduated
 - description: 'OpSciHack is an open science-focused hackathon that we, Open innovation
     in life sciences - OILS would like to organize as an annual event. The hackathon
     aims to solve problems in open science and open science problems. In each iteration
@@ -583,6 +584,7 @@
   name: An extensible notebook for open specimens
   participants:
   - nickynicolson
+  status: graduated
 - description: Cardiovascular diseases are the leading cause of death around the world
     and account for nearly 32% (2019) of all global deaths. The advancement in omics
     technologies over the recent years has provided a deeper understanding of the
@@ -632,6 +634,7 @@
   name: The Undergraduates Guide To Research Software Engineering
   participants:
   - amangoel185
+  status: graduated
 - description: ''
   keywords: []
   mentors:
