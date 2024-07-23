@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects & Participants
+title: Projects & Participants for OLS-9 DRI-EDIA
 image: /images/ols-1/project-participants.jpg
 photos:
   name: Andrew West
@@ -10,4 +10,4 @@ redirect_from: /ols-9/projects-participants
 ---
 
 {% assign schedule = site.data.openseeds[cohort].metadata %}
-{% include _includes/projects-participants.html cohort='ols-9' program='openseeds'  %}
+{% include _includes/projects-participants.html cohort='ols-9-dra' program='openseeds'  %}

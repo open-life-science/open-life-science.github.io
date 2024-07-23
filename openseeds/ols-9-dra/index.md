@@ -1,7 +1,7 @@
 ---
 layout: page
 toc: true
-title: Welcome to Open Seeds Cohort 9
+title: Welcome to Open Seeds Cohort 9 - DRI-EDIA track
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg
@@ -9,9 +9,9 @@ photos:
   url: https://flic.kr/p/5BXB6s
 ---
 
-{% include _includes/cohort-metadata.html cohort='ols-9' program='openseeds' %}
+{% include _includes/cohort-metadata.html cohort='ols-9-dra' program='openseeds' %}
 
-# The Open Seeds 9 program
+# The Open Seeds program
 {:.no_toc}
 
 **Purpose**: Training for early stage researchers and young leaders interested in furthering their
@@ -264,7 +264,7 @@ During these calls:
 The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
-Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-9/schedule.md %}) in this website.
+Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-9-dra/schedule.md %}) in this website.
 You will also be updated via email each week by the organisers with additional details to aid your participation.
 
 **If you can't make it to a call**:
@@ -308,7 +308,7 @@ In some weeks during which there is not cohort call, we will offer some optional
 The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
-Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-9/schedule.md %}) in this website.
+Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-9-dra/schedule.md %}) in this website.
 You will also be updated via email each week by the organisers with additional details to aid your participation.
 
 ## Q&A calls
@@ -326,7 +326,7 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## Speaker Guide
 
-We have [a short guide for invited speakers]({% link openseeds/ols-9/speaker-guide.md %}).
+We have [a short guide for invited speakers]({% link openseeds/ols-9-dra/speaker-guide.md %}).
 
 ## Communication channels
 

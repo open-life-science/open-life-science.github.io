@@ -1,7 +1,7 @@
 ---
 layout: page
 toc: true
-title: OLS-9-CATALYST schedule
+title: Schedule for OLS-9 Catalyst
 image: https://images.unsplash.com/photo-1435527173128-983b87201f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80
 photos:
   name: Eric Rothermel
