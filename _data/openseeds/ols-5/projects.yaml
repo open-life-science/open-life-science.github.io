@@ -133,6 +133,7 @@ The plan needs to integrate as much as possible open science principles such as 
   - farukustunel
   - esbusis
   - birgül-çolak-al
+  status: graduated
 - description: "This project aims to establish and nurture an active (virtual) community of learners with the Turing. The Institute is in the process of creating an open online learning platform to host training and learning materials, covering a range of subjects related to Data Science and AI. In order to ensure that the offering is useful to our audience, that it is responsive to their needs, and that it continues to grow, it is key to involve them in the creation and direction of the resources. Having real user voices and input will help to create an open learning space that is truly useful and valuable. Not only that, but the platform can serve as a central meeting point where learners can come together over shared interests and issues, and collaborate on projects that may have a wider impact.
 
 In order to do this, learners will need a way to connect and communicate effectively."
@@ -147,6 +148,7 @@ In order to do this, learners will need a way to connect and communicate effecti
   name: 'Community engagement: Building an open online learning community'
   participants:
   - sarah-nietopski
+  status: graduated
 - description: 'This project aims to assist researchers in the field of wood formation and ecophysiology to explore datasets and computational models in a flexible and integrative way. The goal is to provide a platform - in the form of an open knowledge graph and associated interface - that will allow researchers (even those with minimal familiarity with the underlying technology) to explore linked representations of metadata for the included datasets and models. Researchers should be able to survey a variety of models that target phenomena at different scales; ranging from process-based models of the cellular determinants of wood formation, to empirical models of gross tree growth in different environmental contexts. The linked information should allow complex questions to be asked, including: how similar models differ; which datasets can be repurposed to test different model outputs; and identifying   whether and how different models can be composed together. This will promote open scientific practices in this research area (through the use of common metadata standards and terms), and may serve as a valuable framework for collaborative knowledge capture and exploration.'
   keywords:
   - forestry
@@ -164,6 +166,7 @@ In order to do this, learners will need a way to connect and communicate effecti
   name: Finding paths through the FAIR forest; linking metadata from forestry models and datasets to assist analysis and hypothesis generation
   participants:
   - k-c-martin
+  status: graduated
 - description: We propose SciHack, as the first Open Community Lab in Peru. Our principal aim is to make available the tools and resources necessary for anyone, including non-professionals, to conduct biological engineering research and learning. As part of our activities, we will focus on democratizing science and biotechnology knowledge in low-income populations of Peru where there's little to no presence of science and technology education. To address these issues, we will conduct workshops about DIY lab equipment, Bioinformatics open source projects and educational resources, and molecular biology tools to train teachers and teach students how to make and analyze scientific experiments. Furthermore, by the end of our activities, we would like to implement a space for bio-makers of all ages and backgrounds to conduct research projects and build prototypes. In this way, we would be fighting against misinformation of science methodology and results that are primordial not only for the current COVID19 situation but also for the progress of science.
   keywords:
   - DIY Bio
@@ -484,6 +487,7 @@ For open research to become an established reality, those who are moving their f
   name: Open Science, Open Future
   participants:
   - mariangelap
+  status: graduated
 - description: 'Open Science for Improve diagnostics of Cancer through Artificial Intelligence and Digital Pathology.
 
 
@@ -579,3 +583,4 @@ There are two additional lines of work ARPHAI undertakes that are transversal to
   name: Open collaborative network and incentive system for brain health
   participants:
   - olsjuju
+  status: graduated
