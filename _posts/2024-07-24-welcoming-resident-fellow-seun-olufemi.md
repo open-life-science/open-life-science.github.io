@@ -21,7 +21,6 @@ Seun will work with Malvika Sharan and Tajuddeen (Taj) Gwadabe as part of the OL
 <div class="columns">
   <div class="column is-4" markdown="1">
   ![A photo of Seun, a man from Nigeria. He is wearing a smile and a colourful, bright African round-neck shirt.](https://hackmd.io/_uploads/B1EogG_uA.jpg)
-  [add links to different orgs above]
   </div>
   <div class="column" markdown="1">
 
@@ -31,7 +30,7 @@ Seun, a biochemistry graduate from [Ladoke Akintola University of Technology](ht
 He is also a strong champion of digital skills and open science.
 He is a Graduate Research Intern at the [Institute of Human Virology](https://ihvnigeria.org/), Nigeria, studying the molecular mechanism of disease progression.
 He is also a Research and Teaching Assistant at [Helix Biogen Institute](https://www.helixbiogeninstitute.org/), where he supports translational research and training in bioinformatics and vaccine design.
-Although an Early Career Researcher himself, Seun has published eight  peer-reviewed articles.
+Although an Early Career Researcher himself, Seun has published eight peer-reviewed articles.
 
 ## Wearing Many Hats in Open Science
 
