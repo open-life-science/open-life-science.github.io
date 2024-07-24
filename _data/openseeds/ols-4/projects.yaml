@@ -29,6 +29,7 @@
     terminal usage, Bash/AWK scripting, and Git/GitHub for Bioinformatics
   participants:
     - sayalaruano
+  status: graduated
 - description:
     "I want to develop [Genestorian](https://www.genestorian.org/), a web\
     \ application to manage collections of model organism strains and recombinant\
@@ -580,6 +581,7 @@
   name: A guide towards reproducible research for Decision Sciences researchers
   participants:
     - andreea-avramescu
+  status: graduated
 - description:
     Although my research areas are mostly related to wet-lab, with the
     developed technologies, I am aware that computational and data analysis approaches

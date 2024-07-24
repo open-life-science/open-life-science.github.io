@@ -142,6 +142,7 @@
     the palaeoecology and palaeogeography of West Cork
   participants:
     - robin-lewando
+  status: graduated
 - description:
     "Actigraphy provides a measure of the 24h rest-activity cycles based
     on movement counts, typically of the wrist. It is obtained using wearable devices
@@ -279,6 +280,7 @@
   name: Global Distribution of APOL1 Genetic variants
   participants:
     - dadditolu
+  status: graduated
 - description:
     "LA-CoNGA physics is an Erasmus+ project, an European-Latinamerican\
     \ network of 11 universities, 9 research institutions and 3 industrial partners\
@@ -423,6 +425,7 @@
     stage researchers and young leaders: mentee perspective"
   participants:
     - muhammetcelik
+  status: graduated
 - description:
     sktime is a new Python toolbox for machine learning with time series
     (https://github.com/alan-turing-institute/sktime). It provides state-of-the-art
@@ -647,8 +650,8 @@
     used by future contributors or other researchers working on agrobiodiversity topics.
   keywords:
     - Agrobiodiversity
-    - Open data
-    - Open Education Ressource
+    - Open Data
+    - Open Education Resource
   mentors:
     - pivg
   name: Skills for Open Agrobiodiversity Data
@@ -827,6 +830,7 @@
     - marzia-di-filippo
     - chiara-damiani
     - paolo-pedaletti
+  status: graduated
 - description:
     "This project will create a network of Open Science (OS) ambassadors\
     \ in Spanish Health Research Institutes (HRI). Thus, aiming to implement OS in\
@@ -940,6 +944,7 @@
     Management team at Turing
   participants:
     - aida-turing
+  status: graduated
 - description:
     Project aims to connect rural school students to the cities of Nepal
     and other countries. Pandemic has helped few Nepalese rural schools get internet
