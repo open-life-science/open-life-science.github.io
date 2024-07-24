@@ -19,7 +19,7 @@ With this post (although 3 months delayed), we **recognise and celebrate Emmy's 
 
 ## Emmy's Involvement in OLS from the Beginning
 
-The OLS team had been **collaborating with Emmy since 2019** through the Mozilla Open Leadership program and the ELIXIR network. The OLS' first cohort, co-founded by Yo, Malvika, and Bérénice, was developed in close collaboration with the scientific journal eLife's cohort of Innovation Leaders, which Emmy was leading. These efforts were jointly announced at the [ELIXIR-hosted Biohackathon Europe 2019](https://2019.biohackathon-europe.org/) (we even designed a joint flyer and [wrote a blogpost](https://www.open-bio.org/2019/11/12/supercharge-your-open-project-with-leadership-training/)!).
+The OLS team had been **collaborating with Emmy since 2019** through the Mozilla Open Leadership program and the ELIXIR network. The OLS's first cohort, co-founded by Yo, Malvika, and Bérénice, was developed in close collaboration with the scientific journal eLife's cohort of Innovation Leaders, which Emmy was leading. These efforts were jointly announced at the [ELIXIR-hosted Biohackathon Europe 2019](https://2019.biohackathon-europe.org/) (we even designed a joint flyer and [wrote a blogpost](https://www.open-bio.org/2019/11/12/supercharge-your-open-project-with-leadership-training/)!).
 
 <iframe
     style="width:100%;height:100%;min-height:300px;"
@@ -34,15 +34,15 @@ The OLS team had been **collaborating with Emmy since 2019** through the Mozilla
 
 As the eLife cohort concluded and Emmy moved to her next role, it was a **natural progression for her to join the OLS team** to continue working with grassroots communities in open science through the cohort-based program, Open Seeds.
 
-## Scaling OLS' Finance and Operations
+## Scaling OLS's Finance and Operations
 
 With other OLS directors, Emmy was involved in scoping the [CZI grant]({% link _posts/2022-01-27-runway-to-sustainability-czi-funding.md %}) and responsible to manage the finances as we learned how to scale sustainably.
 
-As the **Director of Finance and Operations**, Emmy focused on finance management, implementing HR processes, managing microgrants, accounting, and honoraria. She also **led OLS' participation in the [Catalyst project](https://catalystproject.cloud/)**, supervising Tajuddeen Gwadabe (Taj), who is the Program Manager for the consortium.
+As the **Director of Finance and Operations**, Emmy focused on finance management, implementing HR processes, managing microgrants, accounting, and honoraria. She also **led OLS's participation in the [Catalyst project](https://catalystproject.cloud/)**, supervising Tajuddeen Gwadabe (Taj), who is the Program Manager for the consortium.
 
 Emmy stepped down from the Board of Directors in March this year to **focus on her role as the Engagement Lead at [Invest in Open Infrastructure](https://investinopen.org/)**, which she joined in 2022.
 
-**The OLS' current Board of Directors thank Emmy on behalf of the OLS team and Governance Advisory Committee for her leadership and exemplary work during a significant period of OLS' growth.**
+**The OLS's current Board of Directors thank Emmy on behalf of the OLS team and Governance Advisory Committee for her leadership and exemplary work during a significant period of OLS's growth.**
 
 ## Continuation of OLS's Operations and Catalyst engagement
 
