@@ -46,7 +46,7 @@ He also serves as a hub champion for the Catalyst program in his region and will
 
 ## Resident Fellowship to Build Community Leadership Capacity
 
-Seun's work in OLS will focus on developing community management and leadership skills as he continues to lead and grow the Bioinformatics Outreach Nigeria Project with members of his community.
+Seun's work in OLS will focus on developing **community management and leadership skills** as he continues to lead and grow the Bioinformatics Outreach Nigeria Project with members of his community.
 He will be mentored by Malvika and connect with the broader OLS team, receiving an opportunity to get acquainted with the broad range of work that the organization undertakes.
 
 **His Resident Fellowship will cover two aspects of OLS:**
