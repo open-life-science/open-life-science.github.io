@@ -792,13 +792,31 @@ def prepare_schedule_df(schedule_df):
 
     :param schedule_df: data frame with schedule
     """
-    df = schedule_df.rename(columns={"Start Date": "date", "Start Time": "time", "Duration": "duration"}).assign(
-        date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
-        time=lambda x: pd.to_datetime(x["time"], format="%H:%M:%S", errors="coerce"),
-        duration=lambda x: pd.to_timedelta(
-            x["duration"],
-        ),
-    )
+    if 'date' in schedule_df.columns and 'time' in schedule_df.columns:
+        # If standard column names are found
+        df = schedule_df.rename(columns={"date": "date", "time": "time", "duration": "duration"}).assign(
+            date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
+            time=lambda x: pd.to_datetime(x["time"], format="%H:%M:%S", errors="coerce"),
+            duration=lambda x: pd.to_timedelta(
+                x["duration"],
+            ),
+        )
+    elif 'Start Date' in schedule_df.columns and 'Start Time' in schedule_df.columns:
+        # Handling for programs like openseeds
+        df = schedule_df.rename(columns={"Start Date": "date", "Start Time": "time", "Duration": "duration"}).assign(
+            date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
+            time=lambda x: x["time"].apply(lambda t: pd.to_datetime(t).time()),
+            duration=lambda x: pd.to_timedelta(x["duration"],
+            ),
+        )
+    elif 'Date' in schedule_df.columns or 'Start Time (UTC)' in schedule_df.columns:
+        # For Nebula-specific column names
+        df = schedule_df.rename(columns={"Date": "date", "Start Time (UTC)": "time"}).assign(
+            date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
+            time=lambda x: x["time"].apply(lambda t: pd.to_datetime(t).time()),
+        )
+    else:
+        raise KeyError("The expected columns 'date' and 'time' are not found in the dataframe for Nebula.")
     return df
 
 
@@ -1526,6 +1544,11 @@ def update_schedule(program, cohort, schedule_df):
     # dump schedule dictionary into schedule file
     dump_schedule(schedule, program, cohort)
 
+    if program == "nebula":
+        schedule = load_schedule(cohort, program)
+    else:
+        schedule = load_schedule(cohort)    
+    save_schedule(schedule, cohort)
 
 def get_people(program, cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp):
     """
@@ -1943,7 +1966,13 @@ if __name__ == "__main__":
             schedule_df = pd.read_csv(args.schedule_url)
         else:
             schedule_df = pd.read_csv(Path(args.schedule_fp))
-        update_schedule(args.program, build_cohort_name(args.cohort, args.program), schedule_df)
+        try:
+            update_schedule(args.program, build_cohort_name(args.cohort, args.program), schedule_df)
+        except KeyError as e:
+            if args.program == "nebula":
+                print(f"Error in Nebula schedule processing: {e}")
+            else:
+                raise e
     elif args.command == "getpeople":
         get_people(
             args.program,
