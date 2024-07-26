@@ -433,9 +433,7 @@ code {
 .links {
   .hero {
     background-color: $dark-green;
-    max-height: 500px;
-    min-height: 250px;
-    height: 10vh;
+    height: auto;
 
     .hero-body {
       padding-top: 20px;
@@ -449,7 +447,7 @@ code {
       }
     }
   }
-
+  
   .section {
     padding-top: 20px;
 
@@ -459,10 +457,10 @@ code {
       text-shadow: 2px 2px 5px $black;
       margin: 20px auto;
       padding: 20px auto;
-      min-height: 50px;
+      text-wrap: wrap;
+      height: auto;
     }
   }
-  
 }
 
 
