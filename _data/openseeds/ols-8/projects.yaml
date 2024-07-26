@@ -39,6 +39,8 @@
   - Bonding Mechanism
   collaboration:
   - VU Amsterdam
+  status: graduated
+  graduation: https://www.youtube.com/live/6xJzaQACIzc
 - name: Understanding Natural History Organizational Structures, Data Sharing, and
     Coordination through Biodiversity Informatics and Biocollections
   description: An ethnographic study that will using participant observation, open
@@ -98,6 +100,8 @@
   - Opensource
   - Disease Misdiagnosis
   - Technology
+  status: graduated
+  graduation: https://www.youtube.com/live/6xJzaQACIzc
 - name: Bioinformatics and Health Data Science Internship
   description: My project focuses on creating a dynamic platform that serves as a
     bridge between bioinformatics, data science students and the pharmaceutical, healthcare
@@ -160,6 +164,8 @@
   - Machine Learning
   collaboration:
   - Africa-OLS
+  status: graduated
+  graduation: https://youtu.be/zJzkGvfDspI
 - name: dr
   description: Inspired by Neuromatch and the many other open educational projects,
     we will produce high quality notebooks to intuitively teach scientific rigor.
@@ -200,6 +206,8 @@
   - Agricultural Methods
   - Sustainability
   - Mitigation
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: 'Wind Power System Stability Analysis for Grid Integration: A Statistical
     Mechanics Approach to the Swing Equation.'
   description: Stabilizing wind power output for grid integration is a challenge due
@@ -256,6 +264,8 @@
   - Scientometrics
   collaboration:
   - VU Amsterdam
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: Assessing the Zinc Finger Protein Mutation and Expression Profile in Kenyan
     Women with Breast Cancer
   description: The most recent evidence (2021) shows that breast cancer is the second
@@ -300,6 +310,8 @@
   - Thermodynamics
   - Open Source
   - Community
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: The Open Umbrella & Hybrid Learning Field Guide
   description: The umbrella offers a teacher or lecturers who used educational technology,
     8 entry points for improving their remote, on campus or in a hybrid courses. The
@@ -315,6 +327,8 @@
   - Professional Learning
   collaboration:
   - Africa-OLS
+  status: graduated
+  graduation: https://youtu.be/zJzkGvfDspI
 - name: Bioinformatics codeathon
   description: This project involves a Bioinformatics codeathon. The purpose is to
     empower upcoming researchers interested in bioinformatics either as a career or
@@ -342,6 +356,8 @@
   - Collaboration
   collaboration:
   - Africa-OLS
+  status: graduated
+  graduation: https://youtu.be/zJzkGvfDspI
 - name: Making corporate social responsibility data available and accessible for other
     researchers
   description: Since 1995, the Center for Philanthropic Studies at VU Amsterdam has
@@ -359,7 +375,7 @@
     is to make the data publicly available in line with the FAIR principles in a repository
     that can be used for future editions of the survey.
   participants:
-  - marlou-ramaekers
+  - marlouramaekers
   mentors:
   - diana-pilvar
   - gladys-jerono-rotich
@@ -374,6 +390,8 @@
   - Organization Science
   collaboration:
   - VU Amsterdam
+  status: graduated
+  graduation: https://www.youtube.com/live/6xJzaQACIzc
 - name: 'Gender Differences in the Impostor Phenomenon: A Preregistered and Open-Science
     Meta-Analysis'
   description: The impostor phenomenon (IP) refers to self-doubts about one’s abilities
@@ -411,7 +429,9 @@
   - Meta-Analysis
   collaboration:
   - VU Amsterdam
-- name: Creating an online repository for open collaboration in psychology.
+  status: graduated
+  graduation: https://www.youtube.com/live/6xJzaQACIzc
+- name: Creating an online repository for open collaboration in psychology
   description: This project aims to develop an online repository to facilitate open
     collaboration in the field of psychology. The objective is to enable researchers
     from various locations to share their anonymized data on a centralized platform.
@@ -421,7 +441,7 @@
     and merging of individual researchers' datasets, resulting in the creation of
     a comprehensive Giga database in psychology research.
   participants:
-  - vasiliki-kentrou
+  - vskentrou
   - antonis-koutsoumpis
   - bobbwang
   mentors:
@@ -435,6 +455,8 @@
   - Surveys
   collaboration:
   - VU Amsterdam
+  status: graduated
+  graduation: https://www.youtube.com/live/6xJzaQACIzc
 - name: 'JICMar Network: towards better opportunities and greater collaboration among
     young marine science researchers in Latin America'
   description: The JICMar network (acronym for Young Investigators in Marine Sciences-Latin
@@ -465,6 +487,8 @@
   - Community
   - Accessibility
   - Equality
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: UbuntuEdu (Concept title)
   description: I aspire to develop an e-learning platform inspired by Udemy that specifically
     caters to African individuals, enabling them to upload courses in their native
@@ -493,6 +517,8 @@
   - Mother Tongue Education; E-Learning; Education; Short Courses; Multilingualism
   collaboration:
   - Africa-OLS
+  status: graduated
+  graduation: https://youtu.be/qoi0yMS1Idk
 - name: Building a Searchable Open Data Repository of DNA Collections that are Freely-Shared
     under OpenMTA, with an Associated Landscape Map Visualisation of the Collection
     Users
@@ -536,6 +562,8 @@
   - Synthetic Biology Toolkits
   - Capacity Building
   - Biotechnology
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: Developing an Open Community Repository for SciArt
   description: In recent years, the traditional dichotomy between art and science
     has been increasingly challenged by initiatives and programs (e.g., online resources,
@@ -563,6 +591,8 @@
   - Open Access
   - Education
   - Outreach
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: Assessing word stability in Corpora and its influence on learner dictionaries
   description: The task of assessing word stability in corpora through addition and
     removal of words is an important process which can influence which words should
@@ -586,6 +616,8 @@
   - Word Removal
   collaboration:
   - Africa-OLS
+  status: graduated
+  graduation: https://www.youtube.com/live/6xJzaQACIzc
 - name: A Fiji plugin for SOFI analysis
   description: Fluorescence microscopy has significantly contributed to our understanding
     of cellular processes in recent decades. The development of advanced super-resolution
@@ -636,6 +668,8 @@
   - Ethics Of Ai
   collaboration:
   - VU Amsterdam
+  status: graduated
+  graduation: https://www.youtube.com/live/6xJzaQACIzc
 - name: 'Identification and Prediction of Bacterial Pathogens Colonizing Yellowing
     Disease in Coastal Kenyan Coconuts: A Machine Learning Approach'
   description: This project aims to investigate the diversity of bacterial pathogens
@@ -659,6 +693,8 @@
   - Bacterial Diversity
   collaboration:
   - OLS-Africa
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: Open-source handbooks infrastructure at VU Amsterdam
   description: Inspired by the Privacy Handbook (https://utrechtuniversity.github.io/dataprivacyhandbook/about.html
     ) developed by Utrecht University, colleagues from VU Amsterdam want to create
@@ -688,6 +724,8 @@
   - Collaboration
   collaboration:
   - VU Amsterdam
+  status: graduated
+  graduation: https://youtu.be/zJzkGvfDspI
 - name: An online repository of tools and methods for automated archaeological survey
   description: The aim of this project is to build an online repository which will
     improve accessibility to automated methods for detecting archaeological features
@@ -717,6 +755,8 @@
   - Heritage Management
   - Geospatial
   - Landscape
+  status: graduated
+  graduation: https://youtu.be/zJzkGvfDspI
 - name: 'Open Science in Neuroscience: A Practical Guide for Researchers'
   description: 'Our project aims to develop an innovative and comprehensive Open Science
     guidebook specifically designed for the neuroscience field, addressing the knowledge
@@ -756,6 +796,8 @@
   - Collaboration
   collaboration:
   - VU Amsterdam
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: Estructura e infraestructura para la formación por cohortes virtuales
   description: Como parte de nuestro trabajo en la construcción de capacidades científicas
     y técnicas en forma responsable y con una mirada local, en MetaDocencia ofrecemos
@@ -783,6 +825,8 @@
   - Cohortes Virtuales
   collaboration:
   - MetaDocencia
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI
 - name: Gobernanza 2.0 de MetaDocencia
   description: 'En 2022 comenzamos un proceso de aprendizaje colectivo y colaborativo
     para diseñar la gobernanza de MetaDocencia. El objetivo fue elaborar un modelo
@@ -816,3 +860,5 @@
   - Mirada Local
   collaboration:
   - MetaDocencia
+  status: graduated
+  graduation: https://www.youtube.com/live/X9LBc5cYViI

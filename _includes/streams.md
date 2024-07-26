@@ -5,7 +5,7 @@
             <div class="card stream-card">
                 <div class="card-content">
                     {% if stream.image %}
-                    <img src="{{ stream.image.link }}" alt="{{ stream.image.all }}">
+                    <img src="{{ stream.image.link }}" alt="{{ stream.image.alt }}">
                     {% endif %}
                     <h2 class="title is-4">{{ stream.title }}</h2>
                     <p class="content" markdown=1>{{ stream.description | markdownify | strip_html | truncatewords: 20 }}</p>
@@ -29,8 +29,9 @@
 
 <div class="people">
     {% for entry in stream.key_personal.ids %}
+        {% assign username = entry %}
         {% assign user = site.data.people[entry] %}
-        {% include _includes/people.html username=entry user=user %}
+        {% include _includes/people.html username=username user=user %}
     {% endfor %}
 </div>
 

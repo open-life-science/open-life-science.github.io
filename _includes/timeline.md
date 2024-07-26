@@ -1,3 +1,5 @@
+{% assign schedule = site.data[program][cohort].schedule %}
+
 {% for e in schedule.timeline %}
 {% assign type = '' %}
 {% if e.type %}

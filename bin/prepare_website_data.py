@@ -274,6 +274,7 @@ artifact_dp = {
 }
 cohort_names = {
     "openseeds": "ols-",
+    "catalyst": "cat-",
 }
 
 ### GENERAL METHODS
@@ -517,7 +518,7 @@ def extract_people_info(row, people):
         info["expertise"] = [x.capitalize() for x in info["expertise"]]
     # format website
     if info["website"] is not None and not info["website"].startswith("https"):
-        info["website"] = "https://%s" % info["website"]
+        info["website"] = f"https://{info['website']}"
     # check info and remove optional empty info
     info_k = list(info.keys())
     for i in info_k:
@@ -659,7 +660,7 @@ def create_empty_schedule():
         "weeks": {},
     }
     for i in range(16):
-        schedule["weeks"]["%02d" % (i + 1)] = {"start": None, "calls": []}
+        schedule["weeks"][f"{(i + 1):02d}"] = {"start": None, "calls": []}
     return schedule
 
 
@@ -675,11 +676,11 @@ def load_schedule(program, cohort):
     for w in schedule["weeks"]:
         for c in schedule["weeks"][w]["calls"]:
             if "content" in c:
-                c["content"] = "%s" % c["content"]
+                c["content"] = f"{c['content']}"
             if "before" in c:
-                c["before"] = "%s" % c["before"]
+                c["before"] = f"{c['before']}"
             if "after" in c:
-                c["after"] = "%s" % c["after"]
+                c["after"] = f"{c['after']}"
     return schedule
 
 

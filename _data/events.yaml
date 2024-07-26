@@ -12,5 +12,20 @@
   people:
   - yochannah
   - selgebali
-
+  category: internal
+-
+  type: talk
+  title: "KMS: a Knowledge Management exposé. "
+  duration: 2 hours
+  date: 2022-09-30
+  time: 16:00
+  event:
+    name: "FAIRPoints-FAIR & Open Research 4Beginners"
+    url: "https://www.scilifelab.se/event/fairpoints-fair-open-research-4beginners/"
+    location: 
+      online: true
+  people:
+  - yochannah
+  - selgebali
+  category: external
  

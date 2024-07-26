@@ -687,7 +687,7 @@ weeks:
           https://docs.google.com/presentation/d/1V0ns7MiBRlKWgJHq15Xy-q0HZOeJYdkKs0PMAMoKXn8/edit?usp=sharing
         speakers:
         - lwasser
-        title: "Open Source Drives Open Science - \npyOpenSci"
+        title: Open Source Drives Open Science - pyOpenSci
         recording: https://youtu.be/hOiDzn4Iqp4?t=1594
         tag: Open Source Software
       - slides: https://olscoding.netlify.app/
@@ -812,12 +812,13 @@ weeks:
       title: Ally skills
       hosts:
       - estherplomp
-      - rowland-mosbergen
+      - rowlandm
       type: Cohort
       after:
       - Think about how to apply ally principles and skills in your own work
       resources: []
       talks: []
+      recording: https://youtu.be/u2GqMYfwiDs
   '15':
     start: June 05, 2023
     calls:
@@ -907,13 +908,13 @@ weeks:
         - Celebrate OLS-4 success
       title: Final presentations & Graduation! - Group 2
       type: Cohort
-      before:
-      - "Think about how you might briefly answer the following questions\nImagine
-        your most fulfilling day at work. Think of 3 word-pairs to describe it."
-      - "Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe
-        it.\nThe big idea: identify the most fulfilling conditions under which you
-        thrive - sustain them; identify the least fulfilling conditions that frustrate
-        you - avoid them.\n      \n      \n        \n      \n        "
+      before: "['Think about how you might briefly answer the following questions\\
+        nImagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.', 'Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\\n      \\n      \\n        \\n      \\n\
+        \        ']"
       time: "13:00"
       duration: 60 min
       hosts:
@@ -935,13 +936,13 @@ weeks:
       hosts:
       - yochannah
       type: Cohort
-      before:
-      - "Think about how you might briefly answer the following questions\nImagine
-        your most fulfilling day at work. Think of 3 word-pairs to describe it."
-      - "Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe
-        it.\nThe big idea: identify the most fulfilling conditions under which you
-        thrive - sustain them; identify the least fulfilling conditions that frustrate
-        you - avoid them.\n      \n      \n        \n      \n        "
+      before: "['Think about how you might briefly answer the following questions\\
+        nImagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.', 'Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\\n      \\n      \\n        \\n      \\n\
+        \        ']"
       resources: []
       talks: []
       learning_objectives:
@@ -959,6 +960,30 @@ weeks:
       hosts:
       - emmyft
       type: Cohort
+      before: "['Think about how you might briefly answer the following questions\\
+        nImagine your most fulfilling day at work. Think of 3 word-pairs to describe
+        it.', 'Imagine your most unfulfilling day at work. Think of 3 word-pairs to
+        describe it.\\nThe big idea: identify the most fulfilling conditions under
+        which you thrive - sustain them; identify the least fulfilling conditions
+        that frustrate you - avoid them.\\n      \\n      \\n        \\n      \\n\
+        \        ']"
+      resources: []
+      talks: []
+      learning_objectives:
+      - Share a 5 mins presentation of their project
+      - Celebrate OLS-4 success
+    - date: June 14, 2023
+      time: "13:00"
+      duration: 90 min
+      notes: https://pad.sfconservancy.org/p/ols-7-graduations-2
+      title: Final presentations & Graduation! - Group 1
+      recording: https://youtu.be/ImrKuhs6mEI
+      hosts:
+      - malvikasharan
+      type: Cohort
+      learning_objectives:
+      - Share a 5 mins presentation of their project
+      - Celebrate OLS-4 success
       before:
       - "Think about how you might briefly answer the following questions\nImagine
         your most fulfilling day at work. Think of 3 word-pairs to describe it."
@@ -966,8 +991,44 @@ weeks:
         it.\nThe big idea: identify the most fulfilling conditions under which you
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
-      resources: []
       talks: []
+    - date: June 15, 2023
+      time: "16:00"
+      duration: 90 min
+      notes: https://pad.sfconservancy.org/p/ols-7-graduations-3
+      title: Final presentations & Graduation! - Group 2
+      recording: https://www.youtube.com/live/S4FEmZh5BqE
+      hosts:
+      - emmyft
+      type: Cohort
       learning_objectives:
       - Share a 5 mins presentation of their project
       - Celebrate OLS-4 success
+      before:
+      - "Think about how you might briefly answer the following questions\nImagine
+        your most fulfilling day at work. Think of 3 word-pairs to describe it."
+      - "Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe
+        it.\nThe big idea: identify the most fulfilling conditions under which you
+        thrive - sustain them; identify the least fulfilling conditions that frustrate
+        you - avoid them.\n      \n      \n        \n      \n        "
+      talks: []
+    - date: July 19, 2023
+      time: "14:00"
+      duration: 90 min
+      notes: https://pad.sfconservancy.org/p/ols-7-graduations-1
+      title: Final presentations & Graduation! - Group 3
+      recording: https://www.youtube.com/live/qcgrHXo1hGY
+      hosts:
+      - yochannah
+      type: Cohort
+      learning_objectives:
+      - Share a 5 mins presentation of their project
+      - Celebrate OLS-4 success
+      before:
+      - "Think about how you might briefly answer the following questions\nImagine
+        your most fulfilling day at work. Think of 3 word-pairs to describe it."
+      - "Imagine your most unfulfilling day at work. Think of 3 word-pairs to describe
+        it.\nThe big idea: identify the most fulfilling conditions under which you
+        thrive - sustain them; identify the least fulfilling conditions that frustrate
+        you - avoid them.\n      \n      \n        \n      \n        "
+      talks: []
