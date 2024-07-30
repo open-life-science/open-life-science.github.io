@@ -11,6 +11,8 @@ photos:
   url: https://unsplash.com/photos/white-arc-LxENUKJXh_k
 ---
 
+_This blog is written in [English](https://en.wikipedia.org/wiki/English_language), and is also available in [Nigerian Pidgin]({% link _posts/2024-07-29-welcome-resident-fellow-seun-olufemi.md %})._
+
 We recently announced the [ninth cohort of Open Seeds - OLS-9]({% link _posts/2024-07-15-openseeds-in-2024.md %}), our open science training and mentoring program. As part of this cohort, we have created a **Resident Fellow role**, which was announced with an invitation for applications from our facilitator community.
 
 We are grateful to all our applicants who presented strong project plans and shared their vision for this role. Since we could only offer one position, the decision was based on the applicant's project goals and the feasibility of the OLS team to support them over the next eight months as part of the Open Seeds OLS-9 delivery plans.
