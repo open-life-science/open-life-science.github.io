@@ -55,4 +55,26 @@ Country-specific nuances, e.g. setting up a [stichting](https://en.wikipedia.org
 
 **Costs: £3000**
 
-LMIC discounts are available for all offers. If you are interested in any of the services, please contact us at team@we-are-ols.org. 
+##  Research Software Engineer (RSE) Leadership Training Course 
+
+### Course description
+
+This leadership course is possibly the first in the world to provide an **intersectional framework** that underpins a leadership course for those working as RSEs and those in the tech industry. It is also unique in that we meet with you first to understand what challenges you are facing and to to create an individual development plan just for you.
+
+It focuses on centering the individual and prioritising based on the “degree of difficulty” across recruitment, retention, as well as project, people, and relationship management.
+
+This course lays bare the core, practical concepts that you need to know to be an outstanding leader for a team of 1+ staff in an organisation. 
+
+### Topics
+
+The course covers:
+* Using a Diversity and Inclusion framework to unearth talent.
+* Using Continuous Improvement skills to identify talent.
+* Setup and maintain pipelines to attract talent.
+* Project Management.
+* People managing high-performance teams.
+* How to deal with difficult change management situations and build relationships.
+
+### Iterations of the course
+
+- [October - November, 2024]({% link _events/2024-10-research-software-engineer-training-course.md%}).

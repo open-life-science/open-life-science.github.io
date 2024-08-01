@@ -29,6 +29,7 @@
     terminal usage, Bash/AWK scripting, and Git/GitHub for Bioinformatics
   participants:
     - sayalaruano
+  status: graduated
 - description:
     "I want to develop [Genestorian](https://www.genestorian.org/), a web\
     \ application to manage collections of model organism strains and recombinant\
@@ -81,6 +82,7 @@
   participants:
     - arentkievits
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     We propose to build a database that compiles literature data for the
     Stöber synthesis of sílica nanoparticles. This data is aimed to generate a database
@@ -168,6 +170,7 @@
   participants:
     - gedaloop
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     "In my project, I want to interview several colleagues/peers who were\
     \ hired or recently started working as generic data stewards at Dutch universities,\
@@ -245,6 +248,7 @@
   participants:
     - saranjeetkaur
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     "Operating from a place of data for co-liberation, we have three complementary\
     \ goals: conduct a landscape analysis of open source synthetic data projects,\
@@ -325,6 +329,7 @@
   participants:
     - michael-addy
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     "Portable land is an urban DIY Agriculture project which aims to create\
     \ a distributed farm. Currently we have four dedicated sites based in the West\
@@ -384,6 +389,7 @@
     - batoolmm
     - lalmehlisy
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     "I aim to develop a Python library which allows to call and apply several
     measures of emergence and complexity to either empirical or simulated data, and
@@ -453,6 +459,7 @@
   participants:
     - acocac
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     Bioinformatics Secondary School Outreach (BSSO) is an initiative to  develop
     bioinformatics capacity among  High school students in Nigeria and this will  create
@@ -488,6 +495,7 @@
   participants:
     - wykhuh
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     "Established in 2018, EROS (education researchers for open science)
     is an open research working group at the University of York. We monitor and communicate
@@ -573,6 +581,7 @@
   name: A guide towards reproducible research for Decision Sciences researchers
   participants:
     - andreea-avramescu
+  status: graduated
 - description:
     Although my research areas are mostly related to wet-lab, with the
     developed technologies, I am aware that computational and data analysis approaches
@@ -598,6 +607,7 @@
   participants:
     - burceelbasan
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     Binderhub is a service that allows users to share reproducible interactive
     computing environments through public code repositories. The subject of our project,
@@ -645,6 +655,7 @@
   participants:
     - irena-maus
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     "The international and open RIVER UNIVERSITY started in Poland with\
     \ its pilot in 2018 and the 1st edition in 2020.\nIts professional river education\
@@ -694,6 +705,7 @@
   participants:
     - ewa-leś
   status: graduated
+  graduation: https://www.youtube.com/watch?v=EdQU32ap500&list=PL1CvC6Ez54KCQDLgMKuFlcj2H6zsBi35D
 - description:
     'In _The Turing Way,_ we want to systematically understand community
     practices including the community engagement pathways, contributors'' roles and

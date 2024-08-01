@@ -10,13 +10,13 @@
         <title>{{ page.title }} | {{ site.title }}</title>
         {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
         <link href="{{ site.baseurl }}/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="{% link images/logo/ols-transparent-bg.ico %}">
         <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.8/css/dataTables.bulma.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/searchbuilder/1.6.0/css/searchBuilder.dataTables.min.css">
-
-
         <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        
         <!--Below is the schema annotation for blogposts-->
         {% if page.layout == 'post' %}
         <script type="application/ld+json">

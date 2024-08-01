@@ -55,6 +55,8 @@
   - Cloud Computing
   - Data Visualization
   - Project Management
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: 'From invisible to Citizens: Apparent Age for Primary School children without birth certificates'
   description: Ages fraud scandals have tarnished African sport at the international
     level. In 2009, FIFA adopted MRI as an age determination tool for its youth level
@@ -93,6 +95,8 @@
   - Determinants
   - Machine Learning
   - Birth Certificate
+  status: graduated
+  graduation: https://www.youtube.com/live/qcgrHXo1hGY
 - name: Development of an online open science platform, easy and accessible for agricultural students in Cameroon.
   description: 'The main aim of the project is to contribute to the quality and adaptable
     research work through the practice of open science in Cameroon. Specifically,
@@ -101,13 +105,15 @@
     research methodology, proposal writing (in the context of Cameroon), and grant
     writing and management; - Provide job placement opportunities for fresher'
   participants:
-  - lessa-tchohou-fabrice
+  - lessa-maker
   mentors:
   - gladys-jerono-rotich
   keywords:
   - Open Science
   - Agriculture
   - Cameroon
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: 'Data analysis in soil physics: an opportunity of teaching data management and reproducibility'
   description: The core idea of this project is to create an online repository that
     hosts as well as examples, datasets and demos for soil science data management.
@@ -117,13 +123,15 @@
     soil science can be merge and create a skillset that is essential in research.
   participants:
   - saryace
-  - carolina-giraldo-olmos
+  - carogiraldo
   mentors:
   - diegoonna
   keywords:
   - Soil Dataset
   - Soil Data Reproducibility
   - Soil Physics
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: An interactive map of socio-ecological projects
   description: We seek to bring knowledge to the general public and provide tools
     for change in order to generate a natural-human environment that is beneficial
@@ -144,6 +152,8 @@
   - Sovereignty
   - Ecology
   - Enviromental
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: Knowledge and perspectives of open science among researchers in Ghana, West Africa
   description: 'Open Science in Africa: The Ghanaian narrative. UNESCO and its stakeholders
     perceive the Open Science concept as an essential component to advancement of  human
@@ -170,6 +180,8 @@
   - Unesco
   - Open Science Knowledge
   - Open Science Challenges
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: Open Science Awareness Project for Central Asian Universities
   description: I would like to conduct a series of open science awareness training
     on Zoom in frames of which I would like to analyze the developing context of Central
@@ -183,6 +195,8 @@
   - Open Science
   - Central Asia
   - Developing Countries
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: Open Science platform for humanities and computational social scientists
   description: Open Data (OD) plays a crucial role in openly sharing scientific knowledge
     with a worldwide audience (among both academic and non-academic audiences) and
@@ -213,6 +227,8 @@
   - Humanities
   - Social Science
   - Computational Social Science
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: Open NeuroScience
   description: Neuroscience is a vast field of research, ranging from single – cell
     recordings in animals and primates to electrophysiological and behavioural research
@@ -264,6 +280,8 @@
   - Governance
   - Global
   - Multilingual
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: 'Ethical Implications of Open Source AI: Transparency and Accountability'
   description: Exploring the ethical implications of open-source AI is a topic that
     deals with understanding the potential consequences of making AI systems and their
@@ -298,6 +316,8 @@
   - Open Data
   - Responsible Ai
   - Explainability
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: Open-source object recognition software specifically designed for mice in Alzheimers disease
   description: "Here are the general steps to developing an open-source object recognition\
     \ software for mice in Alzheimer's disease studies: 1-Gather a diverse dataset\
@@ -344,6 +364,8 @@
   - Fairness
   - Bias Analysis
   - Classification
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: Comparison of three growth curves for the diagnosis of extrauterine growth retardation at 40 weeks postconceptional age and associated factors in preterm infants in the city of Yaoundé, Cameroon
   description: Extra-uterin growth retardation (EUGR) is defined as weight or height
     below the 10th percentile relative to the mean for the child's age and sex at
@@ -370,6 +392,8 @@
   - Evaluation
   - Extra-Uterin Growth Failure
   - Associated Factors
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: Euro-BioImaging Scientific Ambassadors Program
   description: Euro-BioImaging (https://www.eurobioimaging.eu/) is a research infrastructure
     that offers open access to imaging technologies, training, and data services in
@@ -392,6 +416,8 @@
   - Ambassadors
   - Champions
   - Community Building
+  status: graduated
+  graduation: https://www.youtube.com/live/qcgrHXo1hGY
 - name: 'momenTUM Research Platform: An open-source, reproducible research infrastructure for digital health'
   description: Over the past year, we built the new research platform **[momenTUM](https://www.momentumresearch.eu/)**,
     which consists of an iOS/Android app for delivering interventions and questionnaires
@@ -412,7 +438,7 @@
   - annambiller
   - marcotxma
   mentors:
-  - rowland-mosbergen
+  - rowlandm
   keywords:
   - Digital Health
   - Open Source
@@ -455,6 +481,8 @@
   - Access
   - Intersectionality
   - Equal Opportunity
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: 'Queering the law: How to make AI with a Queer Perspective from the Majority of the World'
   description: 'For an AI framework with a queer perspective from the Majority World
     that is going to be used by technologists, final users, policymakers, sociologists,
@@ -482,7 +510,9 @@
   - Theory
   - Majority World
   - Frameword
-  - Ai
+  - AI
+  status: graduated
+  graduation: https://www.youtube.com/live/qcgrHXo1hGY
 - name: Data management materials for ELIXIR Estonia
   description: 'Online data management materials for researchers should include the
     following: * Introduction on FAIR principles * Walkthrough of data life cycle      *
@@ -502,6 +532,7 @@
   - Dmp
   - Fair
   - Open Science
+  status: graduated
 - name: Build community
   description: Open science community in Egypt  I intend to build up Open science
     community in Egypt to raise awareness among researchers of the importance of Open
@@ -522,6 +553,8 @@
   - Open Science
   - Research Data Amangement
   - Research Service
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: The Impact of Sleep Deprivation on Mental Health
   description: Millennials and Gen Zs recently have become obsessed with being online
     and informed 24/7 so much that it has encroached on sleep time. We tend to attach
@@ -543,6 +576,8 @@
   - Sleep Deprivation
   - Mental Health
   - Illness
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: liforient
   description: This project is to help every user, be it parents, children or other
     adults wishing to follow a particular career path find the right pattern towards
@@ -583,7 +618,9 @@
   - Programmes
   - Schools
   - Qualifications
-  - Requirements.
+  - Requirements
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: Building a searchable project database
   description: Funders, consortia and RIs dealing with a large array of different
     smaller projects often find it difficult to clearly communicate to the outside
@@ -599,6 +636,8 @@
   - karvovskaya
   keywords:
   - Project Database
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: 'Closer to the sky: co-creating astronomical knowledge in a favela of Rio de Janeiro'
   description: '“Closer to the sky” is an astronomy public engagement project in Rio
     de Janeiro, Brazil that builds upon workshops for children based on the practice
@@ -618,7 +657,7 @@
     learnt and documentation on how to run similar initiatives will be released as
     open source projects.'
   participants:
-  - claudia-mignone
+  - claudiamig
   - arianna-cortesi
   - gabriela-rufino
   - maria-clara-heringer-lourenço
@@ -630,6 +669,8 @@
   - Public Engagement Of Science
   - Community Building
   - Science-Art
+  status: graduated
+  graduation: https://youtu.be/ImrKuhs6mEI
 - name: Mapping open-science communities, organizations, and events in Latin America
   description: This project aims to identify communities that actively participate
     in the **implementation, training, and dissemination of open practices** such
@@ -655,6 +696,8 @@
   - Spanish-Speaking Communities
   - Mapping
   - Visualization
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: Developing an online snake venomics catalog for easy access to venom proteomics data
   description: Snake venoms are incredibly complex mixtures of many different proteins
     called toxins. Understanding which particular toxins are in the venoms of each
@@ -679,6 +722,8 @@
   - Venom
   - Proteomics
   - Neglected Tropical Disease
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: Biodegradability of Drilling Fluids in different soil types
   description: Drilling fluid is a lubricant used in drilling oil and gas wells and
     in exploration rigs. It may vary with additives aimed at optimizing and improving
@@ -709,6 +754,7 @@
   - Drilling Fluid
   - Soil
   - Petroleum Hydrocarbons
+  status: graduated
 - name: Building an open, structured, knowledge listing system
   description: The project I have in mind for this program has 2 major components.   The
     first component is to build a resource listing system, likely based on Quarto
@@ -744,6 +790,9 @@
     \ be able to take action to  address the effects of climate change in their communities."
   participants:
   - mxrtinez
+  - andrés-felipe-ortiz-ferreira
+  - lauramb8909
+  - xaxasm
   mentors:
   - melibleq
   keywords:
@@ -751,6 +800,8 @@
   - Climate Change
   - Research Seedbed
   - Programming
+  status: graduated
+  graduation: https://www.youtube.com/live/S4FEmZh5BqE
 - name: Facilitating easier academic selection of research students using ML
   description: Our project is to build a machine learning-based tool to match the
     research students with the most suitable supervisor for them and vice versa by
@@ -765,7 +816,9 @@
   - Students
   - Supervisor
   - Machine Learning
-- name: Bioinformatics University Outreach
+  status: graduated
+  graduation: https://www.youtube.com/live/qcgrHXo1hGY
+- name: Bioinformatics Secondary school Outreach in Nigeria
   description: Bioinformatics, an interdisciplinary field that combines computer science, statistics, and biology to analyze and interpret biological data. As the amount of biological data generated continues to grow rapidly, there is an increasing demand for professionals with expertise in bioinformatics. To help meet this demand, we propose a university outreach program focused on developing bioinformatics capacity among University students in Nigeria and this will create early interest in genomics data analysis among the students and equip them with the relevant skills set  and knowledge in Bioinformatics. Also, we will be creating awareness of Open science among the university students. We would be working alongside other sister organizations to achieve this goal.
   participants:
   - emmanuel19-ada
@@ -777,3 +830,37 @@
   - Bioinformatics
   - Open Science
   - Outreach
+  status: graduated
+  graduation: https://www.youtube.com/live/qcgrHXo1hGY
+- description: 'This project is developing a prototype “extensible notebook for open
+    specimens”. This is a link-aware editor for semi-structured data based on personal
+    knowledge management software (Obsidian). This environment plus standard open
+    science tools (reference management tooling and pandoc document production) could
+    help the adoption of open science principles amongst biodiversity researchers.   The
+    project is split into three main areas of investigation (effort so far has been
+    focussed on the first): 1. Working environment: can we extend personal knowlege
+    management software to reference biodiversity-relevant data classes (in a similar
+    way to how bibliographic citations are managed)         - We have developed a
+    set of Obsidian plugins which facilitate easy access to the data resources needed
+    to (a) work with existing species descriptions from literature and (b) recognise
+    and formally describe new species. (Entry for the forthcoming [Ebbe Neilsen challenge](https://www.gbif.org/article/1G82GL7jw08kS0g6k6MuSa/ebbe-nielsen-challenge))
+    1. Review environment: can we generate snapshots for peer-review /publication
+    2. Publication environment: can we package data for harvesting into data aggregators  We
+    aim to enable researchers to develop the "digital extended specimen", but without
+    being prescriptive about their workflow: open to access and publish the necessary
+    data - but also open to choose how to organise their work.'
+  keywords:
+  - biodiversity informatics
+  - species description
+  - specimen citation
+  - research management
+  - record linkage
+  - document production
+  mentors:
+  - andreasancheztapia
+  - batoolmm
+  name: An extensible notebook for open specimens
+  participants:
+  - nickynicolson
+  status: graduated
+  graduation: https://www.youtube.com/live/qcgrHXo1hGY

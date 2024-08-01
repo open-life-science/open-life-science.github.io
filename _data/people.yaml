@@ -1500,7 +1500,7 @@ bethaniley:
   continent: Europe
   longitude: -5.9301829
   latitude: 54.596391
-  title: Resident Fellow
+  title: Finance manager
   orcid: 0000-0002-5813-3303
   expertise:
   - Gender identity; conspiracy theories; misinformation; neurodiversity; diversity
@@ -1857,7 +1857,7 @@ carol-o'brien:
   github: false
   country_3: DNK
   continent: Europe
-carolina-giraldo-olmos:
+carogiraldo:
   first-name: Carolina
   last-name: Giraldo Olmos
   twitter: cvgiraldo
@@ -1872,7 +1872,6 @@ carolina-giraldo-olmos:
   bio: I am a Ph.D candidate in Engineering Sciences, focusing on Soil Sciences. I
     work at the Soil Biophysics Laboratory at the University, were we investigate
     soil processes with an applied point of view.
-  github: false
   country_3: COL
   continent: South America
   longitude: -74.0835643
@@ -2154,7 +2153,7 @@ cl379:
   continent: Europe
   longitude: 2.1774322
   latitude: 41.3828939
-claudia-mignone:
+claudiamig:
   first-name: Claudia
   last-name: Mignone
   twitter: claudiascosmos
@@ -2169,7 +2168,6 @@ claudia-mignone:
   bio: I'm an astronomer, science writer and communicator. I care for humans, the
     arts, planet Earth, social justice, scientific literacy and random stuff in the
     Universe. Ah, and I'm from the south of Italy!
-  github: false
   country_3: ITA
   continent: Europe
   longitude: 12.4829321
@@ -5446,7 +5444,7 @@ lenny-teytelman:
   github: false
   last-name: Teytelman
   twitter: lteytelman
-lessa-tchohou-fabrice:
+lessa-maker:
   first-name: Lessa Tchohou
   last-name: Fabrice
   twitter: FabriceLessa
@@ -5459,7 +5457,6 @@ lessa-tchohou-fabrice:
     "sustainable urban farming"; "ngs data analysis".'
   bio: LESSA is a highly motivated person. He applies his strong organizational skills
     to prioritize and handle multiple work assignments, and a detailed oriented person.
-  github: false
   country_3: CMR
   continent: Africa
   longitude: 1.7324062
@@ -6049,7 +6046,7 @@ markuskonk:
   continent: Europe
   longitude: 6.870595664097989
   latitude: 52.22336325
-marlou-ramaekers:
+marlouramaekers:
   first-name: Marlou
   last-name: Ramaekers
   twitter: marlouramaekers
@@ -6065,7 +6062,6 @@ marlou-ramaekers:
     annual reports, interviews) to biennally report on the philanthropic sector in
     the Netherlands. She has written her PhD thesis on the impact of the social environment
     on informal helping behavior and will defend this thesis in January 2024.
-  github: false
   country_3: NLD
   continent: Europe
   longitude: 4.8924534
@@ -7817,7 +7813,7 @@ pherterich:
   bio: Patricia is currently a Research Data Specialist working at the Digital Curation
     Centre at the University of Edinburgh. Before joining the DCC, she was the Research
     Repository Advisor at the University of Birmingham and have previously worked
-    as a data librarian at CERN’’s Scientific Information Service working closely
+    as a data librarian at CERN’s Scientific Information Service working closely
     with software developers to deliver data and code sharing solutions. She loves
     collaborating openly and making projects welcoming to new comers.
   city: Edinburgh
@@ -7837,7 +7833,7 @@ pherterich:
   continent: Europe
   longitude: -3.1883749
   latitude: 55.9533456
-  title: Fellowship and Finance Manager
+  title: Chief of Staff
 piero-beraun:
   affiliation: Scihack
   bio: 22 years old and Bachelor in Bioengineering. I like strawberries, plants, arthropods,
@@ -8371,11 +8367,10 @@ rossmounce:
   website: https://rossmounce.co.uk/
   country_3: GBR
   continent: Europe
-rowland-mosbergen:
+rowlandm:
   affiliation: Practical Diversity and Inclusion Project
   country: Australia
   first-name: Rowland
-  github: false
   last-name: Mosbergen
   country_3: AUS
   continent: Oceania
@@ -8868,6 +8863,7 @@ seunolufemi123:
   continent: Africa
   longitude: 4.25
   latitude: 8.133
+  title: Resident Fellow
 sgibson91:
   affiliation: The Alan Turing Institute
   bio: Sarah Gibson is a Research Software Engineer at the Alan Turing Institute where
@@ -9595,21 +9591,6 @@ varlottaang:
   continent: Europe
   longitude: 15.6694407
   latitude: 40.9261881
-vasiliki-kentrou:
-  first-name: Vasiliki
-  last-name: Kentrou
-  website: https://research.vu.nl/en/persons/vasiliki-kentrou
-  orcid: 0000-0003-0657-7313
-  city: Amsterdam
-  country: Netherlands
-  pronouns: she/her
-  expertise:
-  - Team processes; interpersonal perception; social relations model
-  github: false
-  country_3: NLD
-  continent: Europe
-  longitude: 4.8924534
-  latitude: 52.3730796
 vborghe:
   affiliation: University Of Montreal
   bio: Valentina Borghesani, Ph.D., is an Italian cognitive neuroscientist currently
@@ -9757,6 +9738,22 @@ virginiagarciaalonso:
     to marine sciences and data visualization and open science.
   country_3: ARG
   continent: South America
+vskentrou:
+  first-name: Vasiliki
+  last-name: Kentrou
+  website: https://research.vu.nl/en/persons/vasiliki-kentrou
+  orcid: 0000-0003-0657-7313
+  city: Amsterdam
+  country: Netherlands
+  pronouns: she/her
+  expertise:
+  - Team processes
+  - Interpersonal perception
+  - Social relations model
+  country_3: NLD
+  continent: Europe
+  longitude: 4.8924534
+  latitude: 52.3730796
 wasifarahman:
   country: Bangladesh
   first-name: Wasifa

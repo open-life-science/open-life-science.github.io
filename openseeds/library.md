@@ -27,7 +27,7 @@ photos:
     {{ sep }}{
         "@context": "https://schema.org",
         "@type": "LearningResource",
-        "@id": "{{ topic[0] }}-{{ tag[0] }}-{{ forloop.index }}",
+        "@id": "#{{ topic[0] | handle | slugify }}-{{ tag[0] | handle  | slugify }}-{{ forloop.index }}",
         "dct:conformsTo": {
             "https://purl.org/dc/terms/conformsTo": {
                 "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",

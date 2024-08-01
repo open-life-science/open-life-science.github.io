@@ -5,7 +5,7 @@
 
 $black: #000;
 $white: #fff;
-$dark-green: #48b87d;
+$dark-green: #265F3F;
 
 $bg-image: #333;
 $hero-text-color: $white;
@@ -433,9 +433,7 @@ code {
 .links {
   .hero {
     background-color: $dark-green;
-    max-height: 500px;
-    min-height: 250px;
-    height: 10vh;
+    height: auto;
 
     .hero-body {
       padding-top: 20px;
@@ -449,7 +447,7 @@ code {
       }
     }
   }
-
+  
   .section {
     padding-top: 20px;
 
@@ -458,11 +456,11 @@ code {
       color: $white;
       text-shadow: 2px 2px 5px $black;
       margin: 20px auto;
-      padding: 20px auto;
-      min-height: 50px;
+      padding: 20px 40px 20px 40px;
+      text-wrap: wrap;
+      height: auto;
     }
   }
-  
 }
 
 
