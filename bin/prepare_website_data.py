@@ -877,7 +877,7 @@ def create_empty_metadata():
     """
     metadata = {
         "experts": [],
-        "organizers": ["bebatut", "emmyft", "malvikasharan", "yochannah"],
+        "organizers": ["bebatut", "malvikasharan", "yochannah"],
         "possible-mentors": [],
     }
     return metadata

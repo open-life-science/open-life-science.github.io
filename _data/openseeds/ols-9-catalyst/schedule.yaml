@@ -1,4 +1,4 @@
-# Schedule for the catalyst cat-1
+# Schedule for the openseeds ols-9-catalyst
 ---
 timeline:
 - date:
@@ -25,6 +25,27 @@ timeline:
 - date:
   description: Successful applicants announced
 weeks:
+  '00':
+    start: ''
+    calls:
+    - duration: 60 min
+      title: Mentor onboarding group 1
+      hosts:
+      - tajuddeen1
+      type: Mentor
+      talks: []
+    - duration: 60 min
+      title: Mentor onboarding group 2
+      hosts:
+      - tajuddeen1
+      type: Mentor
+      talks: []
+    - duration: 60 min
+      title: Mentor onboarding group 3
+      hosts:
+      - tajuddeen1
+      type: Mentor
+      talks: []
   '01':
     start: August 26, 2024
     calls:
@@ -345,25 +366,4 @@ weeks:
       hosts:
       - tajuddeen1
       type: Cohort
-      talks: []
-  '00':
-    start: ''
-    calls:
-    - duration: 60 min
-      title: Mentor onboarding group 1
-      hosts:
-      - tajuddeen1
-      type: Mentor
-      talks: []
-    - duration: 60 min
-      title: Mentor onboarding group 2
-      hosts:
-      - tajuddeen1
-      type: Mentor
-      talks: []
-    - duration: 60 min
-      title: Mentor onboarding group 3
-      hosts:
-      - tajuddeen1
-      type: Mentor
       talks: []

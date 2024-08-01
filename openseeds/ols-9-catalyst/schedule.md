@@ -1,7 +1,7 @@
 ---
 layout: page
 toc: true
-title: CAT-1 schedule
+title: Schedule for OLS-9 Catalyst
 image: https://images.unsplash.com/photo-1435527173128-983b87201f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80
 photos:
   name: Eric Rothermel
@@ -9,9 +9,7 @@ photos:
   url: https://unsplash.com/photos/FoKO4DpXamQ
 ---
 
-{% assign cohort = 'cat-1' %}
-{% assign program = 'catalyst' %}
-{% assign schedule = site.data.catalyst[cohort].schedule %}
+{% include _includes/cohort-metadata.html cohort='ols-9-catalyst' program='openseeds'  %}
 
 The **Catalyst** program by OLS is for people interested in **applying open principles** in their work and **becoming Open Science ambassadors** in their communities.
 
