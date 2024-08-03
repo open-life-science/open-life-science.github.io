@@ -22,7 +22,8 @@
           <a class="people-card-meta-twitter" href="https://twitter.com/{{ user.twitter }}"><i class="fab fa-twitter"></i> @{{ user.twitter }}</a><br>
           {% endif %}
           {% if user.mastodon %}
-          <a class="people-card-meta-mastodon" href="https://{{ user.mastodon.server }}/@{{ user.mastodon.profile }}"><i class="fab fa-mastodon"></i> @{{ user.mastodon.profile }}@{{ user.mastodon.server }}</a><br>
+          <a class="people-card-meta-mastodon" href="https://{{ user.mastodon.server }}/@{{ user.mastodon.profile }}"><i class="fab fa-mastodon"></i> 
+            @{{ user.mastodon.profile }}</a><br>
           {% endif %}
           {% if user.website %}
           <a href="{{ user.website }}"><i class="fas fa-globe"></i></a>
