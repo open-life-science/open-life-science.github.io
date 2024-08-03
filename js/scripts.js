@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  bulmaCollapsible.attach();
 });
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -49,4 +50,28 @@ document.addEventListener('DOMContentLoaded', function() {
 			e.currentTarget.parentElement.parentElement.querySelector(".expertise-detail").classList.toggle('is-hidden');
 		});
 	}
+});
+
+
+$(document).ready(function() {
+    $('#dataframe').DataTable( {
+        "sScrollX": "100%",
+        "dom": "Qlfrtip",
+
+        responsive: {
+            details: {
+                type: 'column'
+            }
+        },
+        "bAutoWidth": false,
+        columnDefs: [ {
+            className: 'control',
+            orderable: false,
+            targets:   [ 0 ],
+            width: 100,
+        },
+        { type: 'natural', targets: 1 } // allow normal sorting
+        ],
+
+    });
 });

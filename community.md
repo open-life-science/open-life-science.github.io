@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team & Community
+title: Team # & Community
 image: /images/about.jpg
 photos:
   name: Bérénice Batut
@@ -21,26 +21,24 @@ We have high ethical standards, including:
 - **Modesty**: Know you don't know everything
 - **Community**: Carefully listen to any concerns and questions and respond honestly
 - **Respect**: Respect humans and all living systems
-- **Responsibility**: Recognize the complexity and dynamics os science and research and our responsibility towards them
+- **Responsibility**: Recognize the complexity and dynamics of science and research and our responsibility towards them
 
 # Core team
 
 <!--As the graduates, mentors, and hosts of various Mozilla Open Leaders cohorts, we have gained expertise in the technical and culture track. Furthermore, we participate in a wide range of activities in different international communities of practice in the sciences: ELIXIR (European bioinformatics network), Galaxy, The Carpentries, Software Sustainability Institute (SSI), Open Bioinformatics Foundation (OBF), and Mozilla.-->
 
-## Directors
-
 <div class="people">
-{% for entry in community.team.directors %}
+{% for entry in community.team.current %}
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}
 {% endfor %}
 </div>
 
-## Staff
+## Alumni
 
 <div class="people">
-{% for entry in community.team.staff %}
+{% for entry in community.team.alumni %}
     {% assign username = entry %}
     {% assign user = people[username] %}
     {% include _includes/people.html username=username user=user %}

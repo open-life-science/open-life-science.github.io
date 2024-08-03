@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<div class="container is-fullhd links">
+    <section class="hero link-hero">
+        <div class="hero-body">
+            <a href="/" class="logo">
+                <img src="/images/logo/ols-transparent-bg.ico" alt="logo of OLS">
+            </a>
+            {{ site.data.links.description | markdownify }}
+        </div>
+    </section>
+
+    <section class="section">
+        {% for item in site.data.links.items %}
+        <a href="{{ item.link }}" class="button is-link is-medium is-fullwidth">
+            {% if item.icon %}<i class="icon {{ item.icon }}"></i>{% endif %}
+            &nbsp;&nbsp;&nbsp;&nbsp;{{ item.text }}
+        </a>
+        {% endfor %}
+    </section>
+</div>

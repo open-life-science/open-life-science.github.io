@@ -1,0 +1,65 @@
+---
+layout: default
+keep_description: false
+---
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+
+<div class="eventpage-description" markdown="1">
+{{ page.description }}
+</div>
+
+<div class="eventpage-details">
+  <table>
+    <tr>
+      <td style="min-width: 2rem"><i class="far fa-calendar"></i> Dates</td>
+      <td>{{ page.date_start | date: date_format }} {% if page.date_end %} - {{ page.date_end | date: date_format }}{% endif %}</td>
+    </tr>
+    {% if page.time_start %}
+    <tr>
+      <td><i class="fas fa-clock"></i> Time (UTC)</td>
+      <td>{{ page.time_start }}</td>
+    </tr>
+    {% endif %}
+    {% if page.duration %}
+    <tr>
+      <td><i class="fas fa-hourglass-end"></i> Duration</td>
+      <td>{{ page.duration }}</td>
+    </tr>
+    {% endif %}
+    <tr>
+      <td><i class="fas fa-map-marker-alt"></i> Location</td>
+      <td>
+        {% if page.location.name == "Online" %}
+        Online
+        {% else %}
+          {% if page.location.geo %}
+        [{{ page.location.name }}, {{ page.location.city }}, {{ page.location.country }}](http://www.openstreetmap.org/?mlat={{ page.location.geo.lat }}&mlon={{ page.location.geo.lon }}&zoom=12)
+          {% else %}
+        {{ page.location.name }}, {{ page.location.city }}, {{ page.location.country }}
+          {% endif %}
+        {% endif %}
+      </td>
+    </tr>
+    {% if page.cost %}
+    <tr>
+      <td><i class="fas fa-tag"></i> Cost</td>
+      <td>{{ page.cost | capitalize }}</td>
+    </tr>
+    {% endif %}
+    {% if page.registration %}
+    <tr>
+      <td><i class="fas fa-user-plus"></i> Registration</td>
+      <td>[Before {{ page.registration.deadline | date: date_format }}]({{ page.registration.link }})</td>
+    </tr>
+    {% endif %}
+    {% if page.contact_email %}
+    <tr>
+      <td><i class="far fa-envelope"></i> Contact</td>
+      <td><a href="mailto:{{ page.contact_email }}">{{ page.contact_email }}</a></td>
+    </tr>
+    {% endif %}
+  </table>
+</div>
+
+{{ content }}

@@ -1,12 +1,34 @@
 ---
 team:
-  directors:
+  current:
     - bebatut
-    - emmyft
     - malvikasharan
     - yochannah
-  staff:
     - pazbc
+    - tajuddeen1
+    - pherterich
+    - msundukova
+    - npdebs
+    - jilaga
+    - flavioazevedo
+    - bethaniley
+    - camille-gonz-va
+    - iramosp
+    - rowlandm
+    - seunolufemi123
+  alumni:
+    - emmyft
+governance:
+  - anelda
+  - batoolmm
+  - estherplomp
+  - ha0ye
+  - laurah-nyasita-ondari
+  - npalopoli
+  - rowlandm
+  - selgebali
+  - saranjeetkaur
+  - smklusza
 advisors: []
 trainers:
   ols: []

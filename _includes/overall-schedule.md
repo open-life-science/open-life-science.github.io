@@ -1,11 +1,25 @@
+{% assign schedule = site.data[program][cohort].schedule %}
+
 During the program,
 
-- Mentors and mentees meet every 2 weeks [for a 30 minutes call](/{{ cohort }}#mentor-mentee-calls)
-- Mentees participate every ~2 weeks to [90-minutes cohort calls](/{{ cohort }}#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite expert from the field to give talks
-- Mentees can participate to skill-up, Q&A or coworking session in the weeks without cohort calls
-- Mentors take part to [mentoring workshop and calls](/{{ cohort }}#mentor-calls)
+- Mentors and mentees meet every 2 weeks [for a 30 minutes call]({% link {{ program }}/{{ cohort }}/index.md %}#mentor-mentee-calls)
+- Mentees participate every ~2 weeks to [90-minutes cohort calls]({% link {{ program }}/{{ cohort }}/index.md %}#cohort-calls) during which the program leaders introduce new topics and resources, facilitate break-out discussions, and invite experts from the field to give talks
+- Mentees can participate to skill-up, Q&A or coworking sessions in the weeks without cohort calls
+- Mentors take part in [mentoring workshop and calls]({% link {{ program }}/{{ cohort }}/index.md %}#mentor-calls)
 
-![OLS schedule overview. In the middle, the timeline represents the 16 weeks. On the top, boxes in green represent the 8 different cohort calls pointing to the corresponding weeks (even week numbers). Below the week timeline, blue boxes represent the mentor-mentee meetings pointing to the uneven number weeks. Below the blue boxes, are red boxes corresponding to 3 skill-up calls: "GitHub tutorial for beginners" (week 5), "Open Leadership: Academia, industry, and beyond" (week 9), "Self-care & social call" (week 1s)](/images/schedule.png){: .schedule-overview}
+{% assign schedule_png = false %}
+{% capture schedule_fp %}/images/{{ cohort }}/schedule.png{% endcapture %}
+{% for static_file in site.static_files %}
+    {% if static_file.path == schedule_fp %}
+        {% assign schedule_png = true %}
+    {% endif %}
+{% endfor %}
+
+{% if schedule_png %}
+
+![OLS schedule overview. In the middle, the timeline represents the 16 weeks. On the top, boxes in green represent the 8 different cohort calls pointing to the corresponding weeks (even week numbers). Below the week timeline, blue boxes represent the mentor-mentee meetings pointing to the uneven number weeks. Below the blue boxes, are red boxes corresponding to 3 skill-up calls: "GitHub tutorial for beginners" (week 5), "Open Leadership: Academia, industry, and beyond" (week 9), "Self-care & social call" (week 1s)](/images/{{ cohort }}/schedule.png){: .schedule-overview}
+
+{% endif %}
 
 Organizers will inform participants of the week schedule by email.
 
@@ -20,8 +34,8 @@ Organizers will inform participants of the week schedule by email.
 {%- for w in schedule.weeks %}
 {%- capture w-desc %}**Week {{ w[0] }}** (start. {{ w[1].start }}){% endcapture %}
 {%- for c in w[1].calls %}
-{%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time }} Universal Time](https://arewemeetingyet.com/UTC/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
-| {{ w-desc }} | [{{ c.type }}](/{{ cohort }}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" | remove: "&"  }}-calls) | {{ date }} | [**{{ c.title }}**](/{{ cohort }}/schedule#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
+{%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time | date: "%H:%M" }} Universal Time](https://arewemeetingyet.com/UTC/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time | date: "%H:%M" }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
+| {{ w-desc }} | [{{ c.type }}]({% link {{ program }}/{{ cohort }}/index.md %}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" | remove: "&"  }}-calls) | {{ date }} | [**{{ c.title }}**]({% link {{ program }}/{{ cohort }}/schedule.md %}#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |
 {%- assign w-desc = "" %}
 {%- endfor %}
 {%- endfor %}

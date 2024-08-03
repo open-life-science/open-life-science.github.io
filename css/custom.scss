@@ -5,7 +5,7 @@
 
 $black: #000;
 $white: #fff;
-$dark-green: #48b87d;
+$dark-green: #265F3F;
 
 $bg-image: #333;
 $hero-text-color: $white;
@@ -18,13 +18,14 @@ $link-focus: $link-hover;
 $link-active: $link-hover;
 
 @import 'bulma/bulma.sass';
+@import 'bulma-collapsible.sass';
 
 @mixin reset-links() {
   a {
     border-bottom: 0;
     color: $link;
     font-weight: 500;
-
+  
     &:active,
     &:focus,
     &:hover {
@@ -32,6 +33,12 @@ $link-active: $link-hover;
       color: $link-hover;
     }
   }
+}
+
+img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar {
@@ -44,6 +51,7 @@ $link-active: $link-hover;
       max-height: 3.5rem;
       margin-top: -5px;
       margin-bottom: -5px;
+      padding: 10px;
     }
   }
 
@@ -132,6 +140,17 @@ $link-active: $link-hover;
 .people {
   margin-bottom: 1em;
 
+  .media {
+    height: 230px;
+  }
+  .people-description {
+    height: 150px;
+  }
+
+  #people-bio {
+    height: auto;
+  }
+
   @include mobile() {
     .people-card {
       margin-bottom: 1em;
@@ -143,6 +162,10 @@ $link-active: $link-hover;
 
     .people-card-avatar {
       display: none;
+    }
+
+    .media, .people-description {
+      height: auto;
     }
   }
 
@@ -163,11 +186,11 @@ $link-active: $link-hover;
   .people-card-meta-twitter {
     font-weight: 600;
   }
-
+  
   .people-card-meta-mastodon {
     font-weight: 600;
   }
-
+  
   .people-description {
     padding-left: 0px;
     padding-right: 0px;
@@ -189,6 +212,7 @@ $link-active: $link-hover;
   margin-left: 0.25em;
   margin-right: 0.25em;
   vertical-align: middle;
+  display: inline;
 }
 
 .entities {
@@ -226,6 +250,38 @@ $link-active: $link-hover;
 }
 
 .post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+    height: 100%;
+    width: fit-content;
+  }
+
+  .image {
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    
+    img {
+       max-height: 100%;
+       object-fit: cover;
+    }
+  }
+  
+
+  .card-content {
+    padding: 2rem;
+    
+    .content .title {
+       height: 250px;
+    }
+  }
+
   @include mobile() {
     .card {
       margin-bottom: 1em;
@@ -237,6 +293,13 @@ $link-active: $link-hover;
       .media-left {
         display: none;
       }
+    }
+
+    .image {
+      height: auto;
+    }
+    .card-content .content .title {
+      height: auto;
     }
   }
 
@@ -336,6 +399,12 @@ $link-active: $link-hover;
   margin-top: 1em;
 }
 
+code {
+  background-color: #DBDBDB;
+  color:  #85001B;
+  font-weight: bold;
+}
+
 .schedule-overview{
   width: 80%;
   display: block;
@@ -354,4 +423,139 @@ $link-active: $link-hover;
     overflow-x: auto;
     padding-bottom: 20px;
   }
+}
+
+.field {
+  padding: 30px;
+}
+
+.is-hidden {
+  display: none;
+}
+
+
+.links {
+  .hero {
+    background-color: $dark-green;
+    height: auto;
+
+    .hero-body {
+      padding-top: 20px;
+
+      img {
+        max-width: 120px;
+        margin: 20px auto;
+        padding: 12px;
+        border-radius: 12px;
+        background-color: $white;
+      }
+    }
+  }
+  
+  .section {
+    padding-top: 20px;
+
+    .button {
+      background-color: $dark-green;
+      color: $white;
+      text-shadow: 2px 2px 5px $black;
+      margin: 20px auto;
+      padding: 20px 40px 20px 40px;
+      text-wrap: wrap;
+      height: auto;
+    }
+  }
+}
+
+
+// menu
+.menu {
+  font-size: small;
+
+  ul {
+    margin-left: 0px;
+    margin-right: 2em;
+
+    list-style-type: none;
+
+    ul {
+      list-style-type: none;
+
+      ul {
+        list-style-type: none;
+
+      }
+    }
+  }
+  
+}
+
+.columns-toc {
+  margin-top: 2em;
+  
+  .column.is-one-fifth {
+    height: 90vh;
+    overflow: auto;
+  }
+}
+
+.container .columns.three-pillars .column {
+  a {
+    border-bottom: none;
+  }
+  a:hover {
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 780px) {
+  .column.is-one-fifth {
+    position: sticky;
+    top: 50px;
+  }
+
+  // Equal heights for cards
+  .container .columns.three-pillars .column .card {
+  height: 100%;
+  }
+}
+
+.stream-card {
+  img {
+    max-height: 100px;
+  }
+}
+
+.tooltip {
+  font-family: Georgia;
+  font-size: 18px;
+}
+.tooltip .tooltip-inner {
+  background-color: #00FFFF;
+  color: #000000;
+  min-width: 400px;
+}
+
+.eventtable {
+  .eventtable-title {
+    font-weight: bold;
+  }
+  .eventtable-description{
+    margin-top: 0.25 rem;
+    font-size: 80%;
+  }
+  .eventtable-contribution {
+    font-weight: bold;
+  }
+}
+
+
+.eventpage-description {
+  font-style: italic;
+  font-size: 120%;
+  margin-bottom: 2rem;
+}
+
+.eventpage-details{
+  padding-bottom: 3rem;
 }

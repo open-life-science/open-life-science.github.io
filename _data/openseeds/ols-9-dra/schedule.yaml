@@ -1,0 +1,479 @@
+# Schedule for the openseeds ols-9
+---
+timeline:
+- date:
+  description: Call for Application opens
+  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
+- date:
+  description: Application webinar
+  type:
+  - Talk
+  - Q&A
+  notes:
+  recording:
+  details: Watch recordings from previous webinars on 
+    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+- date:
+  description: Application Clinic Call
+  type:
+  - Q&A
+  notes:
+  details: At this call, OLS team will be available to provide help if you have any
+    question related to your application
+- date:
+  description: Call for applications closed
+- date:
+  description: Successful applicants announced
+weeks:
+  '00':
+    start: ''
+    calls:
+    - date: September 13, 2023
+      duration: 60 min
+      title: Mentor onboarding group 1
+      type: Mentor
+      talks: []
+    - date: September 14, 2023
+      duration: 60 min
+      title: Mentor onboarding group 2
+      type: Mentor
+      talks: []
+    - date: September 15, 2023
+      duration: 60 min
+      title: Mentor onboarding group 3
+      type: Mentor
+      talks: []
+  '01':
+    start: July 11, 2024
+    calls:
+    - duration: 30 min
+      title: 1st mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+  '02':
+    start: July 18, 2024
+    calls:
+    - date: July 19, 2024
+      time: "09:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-02
+      title: Welcome to Open Seeds & Tooling for Project Design
+      recording: https://youtu.be/LnqkAtJLHZ4?si=1xPHJV8LaB6xVNtm&t=294
+      type: Cohort
+      learning_objectives:
+      - "Know about the Community Participation Guidelines or Code of Conduct: [https://openlifesci.org/code-of-conduct](https://openlifesci.org/code-of-conduct)
+        \n* Explain about your role as a mentee and start your Open Seeds journey
+        as a project lead with assignments \n* Identify tools to help you design your
+        project in a clear way for newcomers to quickly understand what the project
+        is about, who can be involved, and where the work is headed\n* Fill the open
+        canvas for your project to think through an open project strategy to develop
+        a MVP\n* Make and post a Roadmap for your project with milestones, tasks,
+        and description"
+      before:
+      - "Create your project vision statement\n* Bring that statement to the call
+        to share with others - It’s OK to create this in your shared document with
+        your mentor, google doc or a GitHub repository (if you feel comfortable) -
+        whichever is most convenient at this point.\n* Optional: Read this post on
+        mentorability: [https://ideas.ted.com/are-you-mentorable/](https://ideas.ted.com/are-you-mentorable/)"
+      after:
+      - Create a GitHub account if you don't have one
+      - '📑 Open an issue on OLS-8 repo where you will be able to track you progress
+        in this cohort: [https://github.com/open-life-science/ols-8](https://github.com/open-life-science/ols-8)
+        using the template and with a title by editing the main text with information
+        that it asks about your project and team'
+      - 🤔 Reflecting on our role as a mentee using the Reflection exercise 
+        [https://docs.google.com/document/d/13icLglfw4IN4uoCQLSzhWD6lQW00Vn2vhIIssXP-sTs/edit?usp=sharing](https://docs.google.com/document/d/13icLglfw4IN4uoCQLSzhWD6lQW00Vn2vhIIssXP-sTs/edit?usp=sharing)
+      - '⚖ Complete this compare and contrast assignment about current and desired
+        community interactions and value exchanges: [https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing](https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing)'
+      - '📝 Start working on your Open Canva (Template, instruction and example: [https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link](https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link))'
+      - Share the image/link to your Open Canva on your GitHub issue
+      - Look up at least two other projects in the issues and comment on their issues
+        with feedback on their vision statement.
+      - '🛣 Start your Roadmap and comment on your issue with your draft Roadmap: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A)'
+      talks:
+      - title: Welcome to Open Seeds
+        tag: OLS Introduction
+      - title: Tooling for Project Design Introduction
+        tag: Tooling for Project Design Introduction
+      - title: Open Canvas
+        tag: Open Canvas
+      - title: Project Roadmapping
+        tag: Project Roadmapping
+    - date: September 26, 2023
+      time: "08:00"
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 1
+      type: Mentor
+      talks: []
+    - date: September 28, 2023
+      time: "14:00"
+      duration: 180 min
+      title: Mentor Skill Workshop by 360 Training - Group 2
+      type: Mentor
+      talks: []
+  '03':
+    start: July 25, 2024
+    calls:
+    - duration: 30 min
+      title: 2nd mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: July 27, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-03
+      title: Welcome to Open Seeds & Tooling for Project Design
+      recording: https://youtu.be/otxpdHSaqyw
+      type: Cohort
+      learning_objectives:
+      - "Know about the Community Participation Guidelines or Code of Conduct: [https://openlifesci.org/code-of-conduct](https://openlifesci.org/code-of-conduct)
+        \n* Explain about your role as a mentee and start your Open Seeds journey
+        as a project lead with assignments \n* Identify tools to help you design your
+        project in a clear way for newcomers to quickly understand what the project
+        is about, who can be involved, and where the work is headed\n* Fill the open
+        canvas for your project to think through an open project strategy to develop
+        a MVP\n* Make and post a Roadmap for your project with milestones, tasks,
+        and description"
+      before:
+      - "Create your project vision statement\n* Bring that statement to the call
+        to share with others - It’s OK to create this in your shared document with
+        your mentor, google doc or a GitHub repository (if you feel comfortable) -
+        whichever is most convenient at this point.\n* Optional: Read this post on
+        mentorability: [https://ideas.ted.com/are-you-mentorable/](https://ideas.ted.com/are-you-mentorable/)"
+      after:
+      - Create a GitHub account if you don't have one
+      - '📑 Open an issue on OLS-8 repo where you will be able to track you progress
+        in this cohort: [https://github.com/open-life-science/ols-8](https://github.com/open-life-science/ols-8)
+        using the template and with a title by editing the main text with information
+        that it asks about your project and team'
+      - 🤔 Reflecting on our role as a mentee using the Reflection exercise 
+        [https://docs.google.com/document/d/13icLglfw4IN4uoCQLSzhWD6lQW00Vn2vhIIssXP-sTs/edit?usp=sharing](https://docs.google.com/document/d/13icLglfw4IN4uoCQLSzhWD6lQW00Vn2vhIIssXP-sTs/edit?usp=sharing)
+      - '⚖ Complete this compare and contrast assignment about current and desired
+        community interactions and value exchanges: [https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing](https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing)'
+      - '📝 Start working on your Open Canva (Template, instruction and example: [https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link](https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link))'
+      - Share the image/link to your Open Canva on your GitHub issue
+      - Look up at least two other projects in the issues and comment on their issues
+        with feedback on their vision statement.
+      - '🛣 Start your Roadmap and comment on your issue with your draft Roadmap: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A)'
+      talks:
+      - title: Welcome to Open Seeds
+        tag: OLS Introduction
+      - title: Tooling for Project Design Introduction
+        tag: Tooling for Project Design Introduction
+      - title: Open Canvas
+        tag: Open Canvas
+      - title: Project Roadmapping
+        tag: Project Roadmapping
+  '04':
+    start: August 01, 2024
+    calls:
+    - date: August 03, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-04
+      title: Tooling for Open Collaboration
+      recording: https://youtu.be/EZzvB58cmuk
+      type: Cohort
+      learning_objectives:
+      - "Identify essential files to add in a collaborative project\n* Explain why
+        you need to select a license for an open project\n* Select the best license
+        for your project\n* Write a clean and welcoming README file\n* Discuss about
+        Code of Conduct"
+      after:
+      - "Create a GitHub repository for your project\n* Add the link to your repository
+        in your issue on [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
+        * Use your canvas to start writing a `README.md` file, or landing page, for
+        your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\n
+        * Link your README in a comment on the OLS-8 issue\n* Add an open license
+        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
+        * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
+        [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
+      talks:
+      - title: Setting up a project
+        tag: Setting up a project
+      - title: 'ReadMe files: how to make your project welcoming to others'
+        tag: README
+      - title: A Primer on Open Licenses
+        tag: Open Licensing
+      - title: Designing and enforcing a Code of Conduct
+        tag: Code of Conduct
+  '05':
+    start: August 08, 2024
+    calls:
+    - duration: 30 min
+      title: 3rd mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: August 09, 2024
+      time: "09:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-05
+      title: GitHub tutorial for beginners
+      recording: https://youtu.be/Af-VLs_9DXo
+      type: Skill-up
+      learning_objectives:
+      - "Create a new repository\n* Create a (README) file\n* Write in Markdown\n
+        * Manage issues and labels\n* Enable a small website via GitHub\n* Submit
+        changes to a GitHub repository via Pull Request (PR)\n* Set the scene for
+        self-paced learning after this session"
+      before:
+      - "Please create a GitHub account: [https://github.com](https://github.com)\n
+        * Have a look at the OLS-8 repository for 'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
+        * Comment of 1-2 project's recent post (vision, open canvas etc.)\n* Create
+        your 'project issue'"
+      talks:
+      - title: GitHub for Collaboration
+      - title: Introduction to GitHub
+        tag: GitHub Introduction
+      - title: Creating a small website with GitHub
+        tag: GitHub Introduction
+  '06':
+    start: August 15, 2024
+    calls:
+    - date: August 16, 2024
+      time: "09:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-06
+      title: Open Science Garden I
+      recording: https://youtu.be/Fbw0pkQGXZU
+      type: Cohort
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
+      after:
+      - Check the GitHub Intro notes, learning resource and video from last week
+      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
+        or other option. ← long term assignment, do it in your own pace.
+      talks:
+      - title: Open Science Garden(s)
+      - title: Open Science Introduction
+        tag: Open Science Introduction
+      - title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
+        tag: Open Data
+      - title: How do we learn from each other in global large-scale collaborative
+          research networks?
+        tag: Openness to Diversity of Knowledge
+      - title: Why open reviews?
+        tag: Open Evaluation
+  '07':
+    start: August 22, 2024
+    calls:
+    - duration: 30 min
+      title: 4th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: August 24, 2024
+      time: "16:00"
+      duration: 30 min
+      notes: https://bit.ly/ols-9-week-07
+      title: Q&A call
+      type: Q&A
+      talks: []
+  '08':
+    start: August 29, 2024
+    calls:
+    - date: August 31, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-08
+      title: Community Management Café I
+      type: Cohort
+      learning_objectives:
+      - Considering different kinds of interactions for your community
+      - Use the Mountain of Engagement method to support participants through various
+        levels of engagements
+      - Develop persona and pathways for your community for taking people's experiences
+        and expectations in planning your projects
+      talks:
+      - title: Community Design for Inclusivity
+      - title: 'Community Interaction '
+        tag: Community Interactions
+      - title: "Mountain of Engagement\r\n"
+        tag: Mountain of Engagement
+      - title: Personas and Pathways
+        tag: Personas & Pathways
+  '09':
+    start: September 05, 2024
+    calls:
+    - duration: 30 min
+      title: 5th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: September 06, 2024
+      time: "09:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-09
+      title: Open Leadership in Practice
+      recording: https://youtu.be/mOgAViNSoVo?si=YH9-G40kVt8e75gd&t=85
+      type: Skill-up
+      learning_objectives:
+      - Recall non traditional (academic) career path
+      - Appreciate different leaderships
+      talks:
+      - title: Introduction to Open Leadership in Practice
+        tag: Open Leadership in Practice
+      - tag: Open Leadership in Practice
+      - tag: Open Leadership in Practice
+      - tag: Open Leadership in Practice
+  '10':
+    start: September 12, 2024
+    calls:
+    - date: September 13, 2024
+      time: "09:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-10
+      title: Open Science Garden II
+      recording: https://youtu.be/NxWpBicnqC0?si=PymL4gOSTjYRVvRY
+      type: Cohort
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
+      talks:
+      - title: Open Science Garden(s)
+      - title: Open Educational Resources
+        tag: Open Educational Resources
+      - title: Open Access Publication
+        tag: Open Access Publication
+      - title: Open Engagement of Social Actors
+        tag: Open Engagement of Social Actors
+  '11':
+    start: September 19, 2024
+    calls:
+    - duration: 30 min
+      title: 6th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: September 21, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-11
+      title: 'Tooling for Collaboration: Open-source software in practice'
+      type: Skill-up
+      learning_objectives:
+      - Apply good coding practices to your software
+      - Review code
+      - Identify package management for your software
+      - 'Make your software ready for open-source- '
+      talks:
+      - title: Open-source software in practice
+      - title: 'Good Coding Practices '
+        tag: Good Coding Practices
+      - title: Code Review
+        tag: Code Review
+      - title: Package Managements
+        tag: Package Management
+  '12':
+    start: September 26, 2024
+    calls:
+    - date: September 28, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-12
+      title: Open Science Garden III
+      recording: https://youtu.be/Xu9TgBXRVZw
+      type: Cohort
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
+      talks:
+      - title: Open Science Garden(s)
+      - tag: Open Source Software
+      - tag: Open Science Infrastructures
+      - tag: Open Hardware
+    - date: December 08, 2023
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-8-thematic-documentation
+      title: 'In-depth thematic session: documentation/metadata'
+      type: Skill-up
+      talks:
+      - title: Documentation and metadata
+  '13':
+    start: October 03, 2024
+    calls:
+    - duration: 30 min
+      title: 7th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: December 14, 2023
+      time: "16:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-13
+      title: Self-care & Social call
+      type: Skill-up
+      talks:
+      - title: Personal Ecology and Self Care
+        tag: Personal Ecology
+  '14':
+    start: October 10, 2024
+    calls:
+    - date: October 11, 2024
+      time: "09:00"
+      duration: 90 min
+      notes: https://bit.ly/ols-9-week-14
+      title: Community Management Café II
+      type: Cohort
+      talks: []
+    - date: December 20, 2023
+      time: "17:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-8-thematic-inclusive-meetings
+      title: 'In-depth thematic session: inclusive meetings'
+      type: Skill-up
+      talks:
+      - title: How to run inclusive meetings and get community input
+  '15':
+    start: January 08, 2024
+    calls:
+    - duration: 30 min
+      title: 8th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: January 09, 2024
+      time: "09:00"
+      duration: 60 min
+      notes: https://bit.ly/ols-9-week-15
+      title: Final presentation rehearsal - Group 1
+      type: Skill-up
+      talks: []
+    - date: January 10, 2024
+      time: "14:00"
+      duration: 60 min
+      notes: https://bit.ly/ols-9-week-15
+      title: Final presentation rehearsal - Group 2
+      type: Skill-up
+      talks: []
+    - date: January 11, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://bit.ly/ols-9-week-15
+      title: Final presentation rehearsal - Group 3
+      type: Skill-up
+      talks: []
+  '16':
+    start: January 15, 2024
+    calls:
+    - date: January 16, 2024
+      time: "09:00"
+      duration: 60 min
+      notes: https://bit.ly/ols-9-week-16
+      title: Final presentations & Graduation! - Group 1
+      type: Cohort
+      talks: []
+    - date: January 17, 2024
+      time: "14:00"
+      duration: 60 min
+      notes: https://bit.ly/ols-9-week-16
+      title: Final presentations & Graduation! - Group 2
+      type: Cohort
+      talks: []
+    - date: January 18, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://bit.ly/ols-9-week-16
+      title: Final presentations & Graduation! - Group 3
+      type: Cohort
+      talks: []

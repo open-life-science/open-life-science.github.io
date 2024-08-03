@@ -1,8 +1,8 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-            <img src="/images/logo.png" alt="OLS">
+        <a class="navbar-item" href="{% link index.md %}">
+            <img src="/images/logo/ols-transparent-bg.png" alt="OLS">
         </a>
         <a
           role="button"
@@ -19,62 +19,62 @@
       <div id="top-menu" class="navbar-menu">
         <div class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">OLS program</a>
+            <a class="navbar-link" href="{% link open-science-training.md %}">Open Science Training</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="/index#applications"> Applications </a>
-              <a class="navbar-item" href="/about"> The program itself </a>
-              <a class="navbar-item" href="/about#projects"> Projects </a>
-              <a class="navbar-item navbar-previous-title" href="/about#the-roles"> Role description </a>
-              <a class="navbar-item" href="/about#mentees"> Mentees </a>
-              <a class="navbar-item" href="/about#mentors"> Mentors </a>
-              <a class="navbar-item" href="/about#experts"> Experts </a>
-              <a class="navbar-item" href="/about#facilitators"> Facilitators </a>
-              <a class="navbar-item navbar-previous-title" href="/index#cohorts"> Cohorts </a>
+              <a class="navbar-item" href="{% link openseeds/index.md %}">Open Seeds</a>
+              <a class="navbar-item" href="{% link nebula/index.md %}">Nebula</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="{% link open-research.md %}">Research on Open</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="{% link open-research.md %}#open-seeds-impact-research">Open Seeds Impact Research</a>
+              <a class="navbar-item" href="{% link open-research.md %}#influencing-policy-to-widen-participation-in-open-data-science">Influencing policy to widen participation in open data science</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="{% link open-incubator.md %}">Open Incubator</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://catalystproject.cloud/">Catalyst</a>
+              <a class="navbar-item" href="{% link open-incubator.md %}#fellowship-programmes">Fellowship Programmes</a>
+              <a class="navbar-item" href="{% link open-incubator.md %}#facilitators-training-and-transcription-services">Facilitators Training and Transcription Services</a>
+              <a class="navbar-item" href="{% link open-incubator.md %}#grant-writing-training">Grant writing training</a>
+              <a class="navbar-item" href="{% link fiscal-hosting.md %}">Fiscal hosting</a>
+              <a class="navbar-item" href="{% link _consulting/index.md %}">Consultancy & open research advice</a>
             </div>
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/ols-6">OLS-6</a>
+            <a class="navbar-link" href="{% link openseeds/about.md %}">About</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="/ols-6"> Syllabus </a>
-              <a class="navbar-item" href="/ols-6/schedule"> Schedule</a>
-              <a class="navbar-item" href="/ols-6/projects-participants/"> Projects & Participants</a>
-              <a class="navbar-item" href="/ols-6#mentors"> Mentors & Experts </a>
-              <a class="navbar-item" href="/ols-6#collaborators"> Collaborators </a>
-              <a class="navbar-item" href="/ols-6#resources"> Resources </a>
+              <a class="navbar-item" href="{% link people.md %}"> People </a>
+              <a class="navbar-item" href="{% link community.md %}"> Team </a>
+              <a class="navbar-item" href="{% link governance.md %}"> Governance </a>
+              <a class="navbar-item" href="{% link funders.md %}"> Funding & Supporters </a>
+              <a class="navbar-item" href="{% link partners.md %}"> Partners </a>
+              <a class="navbar-item" href="{% link knowledge_management.md %}"> Knowledge Management System </a>
+              <a class="navbar-item" href="{% link publications.md %}"> Citing OLS & Publications </a>
+              <a class="navbar-item" href="{% link branding.md %}"> Branding </a>
+              <a class="navbar-item" href="{% link events.md %}"> Events </a>
             </div>
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/about">Policies</a>
+            <a class="navbar-link" href="{% link policies-procedures-and-docs/index.md %}">Policies & Procedures</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="{{ site.github.owner_url }}/policies-procedures-and-docs/blob/main/CODE_OF_CONDUCT.md"> Code of Conduct </a>
+              <a class="navbar-item" href="{% link code-of-conduct.md %}"> Code of Conduct </a>
+              <a class="navbar-item" href="{% link openseeds/cohort-procedures-and-templates/graduation-guide.md %}"> Graduation Guide </a>
+              <a class="navbar-item" href="{% link openseeds/cohort-procedures-and-templates/microgrants.md %}"> Microgrants </a>
+              <a class="navbar-item" href="{% link openseeds/cohort-procedures-and-templates/speedblog.md %}"> Speedblog </a>
+              <a class="navbar-item" href="{% link policies-procedures-and-docs/communications/hackmd-guide.md %}"> HackMD Guide </a>
+              <a class="navbar-item" href="{% link policies-procedures-and-docs/communications/slack-guide.md %}"> Slack Guide </a>
+              <a class="navbar-item" href="{% link policies-procedures-and-docs/fellows/ols-ssi-terms-conditions.md %}"> OLS/SSI Fellowship </a>
+              <a class="navbar-item" href="{% link policies-procedures-and-docs/payments/honorarium.md %}"> Honoraria Policy </a>
+              <a class="navbar-item" href="{% link policies-procedures-and-docs/payments/invoicing.md %}"> Invoicing OLS </a>
             </div>
           </div>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/about">About</a>
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="/people"> People </a>
-              <a class="navbar-item" href="/community"> Team & Community </a>
-              <a class="navbar-item" href="/funders"> Funding & Supporters </a>
-              <a class="navbar-item" href="/partners"> Partners </a>
-              <!--<a class="navbar-item" href="/events"> Events </a>-->
-            </div>
-          </div>
-
-          <!--<div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/about">Services</a>
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="/consulting"> Consulting </a>
-              <a class="navbar-item" href="/training"> On demand training </a>
-              <a class="navbar-item" href="/"> Fiscal hosting </a>
-            </div>
-          </div>-->
-
-
-
-          <a class="navbar-item" href="/posts"> Stories </a>
+          
+          <a class="navbar-item" href="{% link posts.md %}"> Stories </a>
         </div>
       </div>
     </div>

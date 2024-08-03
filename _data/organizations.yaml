@@ -12,7 +12,7 @@ bio-it:
 css:
     name: Code for Science and Society
     website: https://eventfund.codeforscience.org/
-    logo: https://codeforscience.org/img/Blue-logo-black-text-stacked.png
+    logo: https://www.codeforsociety.org/assets/img/logos/css.svg
     description: |
       Code for Science & Society works to advance the power of data to
       improve the social and economic lives of all people through education,
@@ -56,12 +56,16 @@ freiburg-galaxy-team:
 hub-kenya:
     name: Bioinformatics Hub of Kenya Initiative (BHKI)
     website: https://bhki.org/
-    logo: https://bhki.org/wp-content/uploads/2020/11/cropped-cropped-bhki-logo-1.jpg
+    logo: https://bhki.org/images/Bioinformatica_Hub_Logo.png
     country: Kenya
 learning-circle:
     name: H3ABioNet Learning Circle
     website: https://h3abionet.github.io/LearningCircles/
     country: Africa
+nasa:
+    name: nasa
+    website: https://www.nasa.gov/
+    country: United States
 mozilla:
     name: Mozilla Open Leaders
     website: https://foundation.mozilla.org
@@ -90,11 +94,11 @@ turing:
 turing-way:
     name: The Turing Way
     website: https://the-turing-way.netlify.com
-    logo: https://the-turing-way.netlify.app/_static/logo.jpg
+    logo: https://the-turing-way.netlify.app/_static/logo-detail-with-text.svg
     country: United Kingdom
 university-freiburg:
     name: Albert-Ludwigs-Universität Freiburg
-    website: http://www.uni-freiburg.de/
+    website: https://www.uni-freiburg.de/
     logo: https://upload.wikimedia.org/wikipedia/de/thumb/f/f4/Albert-Ludwigs-Universit%C3%A4t_Freiburg_2009_logo.svg/1200px-Albert-Ludwigs-Universit%C3%A4t_Freiburg_2009_logo.svg.png
     country: Freiburg
 university-manchester:
@@ -107,5 +111,5 @@ wellcome:
     website: https://wellcome.org/
     logo: https://wellcome.org/icons/android-chrome-192x192.png
     description: |
-      The Wellcome Trust is a charitable foundation focused on health research based in London, in the United Kingdom.
+      The Wellcome Trust is a charitable foundation focused on mental health, climate change, and infectious disease based in London, in the United Kingdom.
     country: United Kingdom

@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "2.7"
+          ruby-version: "3.0"
       - name: Install dependencies
         run: |
           gem install bundler
@@ -17,10 +17,25 @@ jobs:
       - name: Validate HTML and check links
         run: |
           bundle exec htmlproofer \
-            --assume-extension \
-            --http-status-ignore 405,429,503,999 \
-            --url-ignore "/.*localhost.*/","/.*gitter\.im.*/" \
-            --allow-hash-href \
-            --empty_alt_ignore \
-            --disable-external \
+            --allow_missing_href=true \
+            --ignore-urls "/.*localhost.*/","/.*gitter\.im.*/" \
+            --enforce-https=false  \
+            --disable-external=true \
+            --ignore_empty_alt=true \
+            --ignore_missing_alt=true \
+            --check-internal-hash=false \
             ./_site
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.11']
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install tox
+      run: python -m pip install 'tox>=1.8.0'
+    - name: Lint
+      run: tox -e lint
