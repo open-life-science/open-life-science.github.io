@@ -7219,9 +7219,7 @@ nickynicolson:
   last-name: Nicolson
   orcid: 0000-0003-3700-4884
   twitter: nickynicolson
-  mastodon:
-    profile: nickynicolson
-    server: mastodon.social
+  mastodon: nickynicolson
   website: https://www.kew.org/science/our-science/people/nicky-nicolson
   city: London
   country: United Kingdom
