@@ -7231,7 +7231,8 @@ nickynicolson:
   bio: Software developer turned researcher, learning how to apply software development
     practices to research management
   country_3: GBR
-  continent: Europe2768728
+  continent: Europe
+  longitude: -0.14405508452768728
   latitude: 51.4893335
 niels-reijner:
   first-name: Niels
