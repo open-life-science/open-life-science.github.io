@@ -57,7 +57,9 @@ flowchart LR
    - `Email`
    - `Github username`
    - `Twitter username`
-   - `Mastodon username`
+   - `Mastodon`
+    - `profile`
+    - `server`
    - `Website`
    - `ORCID`
    - `Affiliation`
