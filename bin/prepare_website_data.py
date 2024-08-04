@@ -274,7 +274,6 @@ artifact_dp = {
 }
 cohort_names = {
     "openseeds": "ols-",
-    "catalyst": "cat-",
     "nebula":"neb-",
 }
 
