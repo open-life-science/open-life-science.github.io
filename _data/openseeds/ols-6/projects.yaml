@@ -21,7 +21,7 @@
     critical skills for other career paths.
   keywords:
   - Open Science
-  - Education
+  - Training and Education
   - Outreach
   - Meta-research
   - Big Data
@@ -36,7 +36,10 @@
   graduation: https://youtu.be/lplbwoq6ZTg
 - description: The project consists of finding the right ways (media, news and tools)
     to spread open science concept and find adepts
-  keywords: []
+  keywords:
+  - Open Science
+  - Community
+  - Outreach
   mentors:
   - alecandian
   name: Open science spread
@@ -51,7 +54,8 @@
     reproducing results, etc. - Free publication - Random assignation of reviewers
     to articles -- ensures fairness in the publication process, allows junior scientists
     to participate in the process'
-  keywords: []
+  keywords:
+  - Scientific publication
   mentors:
   - arielle-bennett
   - diegoonna
@@ -69,7 +73,9 @@
     x-ray equipment. This will help to develop local capacity, improve healthcare
     and promote wellbeing for all ages of Nigerians in-line with Sustainable Development
     Goal 3.
-  keywords: []
+  keywords:
+  - Radiography
+  - Health
   mentors:
   - jafsia
   name: Development of a Multi-Adaptor Quality Control Kit for Integration with Radiographic Equipment
@@ -84,8 +90,9 @@
   keywords:
   - Scholarly communication
   - Open Science
+  - FAIR
   - FAIR data management
-  - training
+  - training and education
   mentors:
   - ekaroune
   name: A FAIRer training module on Open Science
@@ -114,9 +121,9 @@
   keywords:
   - ethics
   - neuroscience
-  - open-research
+  - open research
   - computer models reproducibility
-  - open source software
+  - open source
   mentors:
   - smhall97
   name: Ethical standards and reproducibility of computer models in Neurobiology
@@ -159,7 +166,6 @@
   - Research Trends
   - Open Community
   - Life Science
-  - '2022'
   mentors:
   - annemtreasure
   name: Life Science in 2022, India.
@@ -206,6 +212,7 @@
   keywords:
   - Mapping
   - Visualisation
+  - OLS
   mentors:
   - estherplomp
   - fpsom
@@ -222,6 +229,7 @@
     patients, publics and cultural partners.'
   keywords:
   - community building
+  - community
   - crowdsourcing
   - collective intelligence
   - engagement
@@ -276,7 +284,7 @@
     contribution process and requirements * *Community*: Engaging developers (and
     educators, SJ advocates, designers...) with the project  And probably much more!'
   keywords:
-  - education
+  - training and education
   - pedagogy
   - social justice
   - online learning
@@ -334,10 +342,10 @@
     reproducible.
   keywords:
   - Ontology
-  - RSE (Research software engineer)
+  - Research software engineer
   - Semantic technology
   - Data science
-  - Artificial Intelligence (AI)
+  - AI
   - Knowledge engineering
   mentors:
   - k-c-martin
@@ -367,8 +375,9 @@
   keywords:
   - Research landscape
   - RSSE
-  - RSE
+  - Research software engineer
   - community
+  - Africa
   mentors:
   - joyceykao
   - aleesteele
@@ -399,7 +408,8 @@
     develop their technical skillset.'
   keywords:
   - community building
-  - training
+  - community
+  - training and education
   - health reseach
   - artificial intelligence
   - collaboration
@@ -489,7 +499,10 @@
     data and guide them through designing and planning a research project. Eventually
     we hope to evaluate the uptake of knowledge through hackathons and collaborate
     with high ranking institutions for our mentees.
-  keywords: []
+  keywords: 
+  - Training and education
+  - Programming
+  - Data management
   mentors:
   - fadanka
   name: The hub portal and academy
@@ -602,9 +615,10 @@
   keywords:
   - ethics
   - neuroscience
-  - open-research
+  - open research
   - computer models reproducibility
-  - open source software
+  - open source
+  - omics
   mentors:
   - hrhotz
   name: Multiomics profiling and analysis of cardiovascular diseases
@@ -628,6 +642,7 @@
   - research software engineering
   - open science
   - open education
+  - training and education
   - community
   mentors:
   - marimeireles
@@ -636,7 +651,10 @@
   - amangoel185
   status: graduated
 - description: ''
-  keywords: []
+  keywords:
+  - mental health
+  - policy
+  - research community
   mentors:
   - natalie-banner
   name: Developing policy briefs on mental well-being of researchers in academia across different countries
@@ -649,6 +667,7 @@
   - Bioinformatics
   - Students
   - data analysis
+  - Training and education
   mentors:
   - landimi2
   name: Bioinformatics Secondary school Outreach in Nigeria

@@ -32,7 +32,7 @@
   keywords:
   - Software
   - Chemistry
-  - Open-Source
+  - Open Source
   - Density Functional Calculations
   - Reaction Mechanism
   - Activation Strain Model
@@ -55,7 +55,7 @@
   - nickynicolson
   - lauracarter
   keywords:
-  - ' Science Of Science'
+  - Science Of Science
   - Hci
   - Human Computer Interaction
   - Information Overload
@@ -97,7 +97,7 @@
   - Healthcare
   - Africa
   - Research
-  - Opensource
+  - Open source
   - Disease Misdiagnosis
   - Technology
   status: graduated
@@ -130,7 +130,7 @@
   keywords:
   - Bioinformatics
   - Data Science
-  - Open Source Projects
+  - Open Source
   - Capacity Building
   - Industries
 - name: An Open Handbook and MOOC on Computational Methods for African Media Researchers
@@ -151,7 +151,9 @@
   mentors:
   - selgebali
   keywords:
-  - Educational Resource Production,Media Studies
+  - Educational Resource Production
+  - Training and education
+  - Media Studies
   - Social Media Studies
   - Research Methods
   - Big Data
@@ -184,6 +186,8 @@
   - Scientific Rigor
   - Reproducibility
   - Neuroscience
+  status: not graduated
+  reason: Finished program but don't know if attended a graduation call
 - name: Digitalization for sustainable Agricultural practices and climate change mitigation
   description: In order to mitigate climate change and ensure global food security,
     agriculture is essential. Traditional farming methods however causes environmental
@@ -323,6 +327,7 @@
   keywords:
   - Open Education Resources
   - Open Education Practices
+  - Training and education
   - Quality Improvement
   - Professional Learning
   collaboration:
@@ -380,7 +385,7 @@
   - diana-pilvar
   - gladys-jerono-rotich
   keywords:
-  - Fair
+  - FAIR
   - Data Sharing
   - Survey Data
   - Philanthropy
@@ -514,7 +519,11 @@
   - tajuddeen1
   - joyceykao
   keywords:
-  - Mother Tongue Education; E-Learning; Education; Short Courses; Multilingualism
+  - Mother Tongue Education
+  - E-Learning
+  - Training and Education
+  - Short Courses
+  - Multilingualism
   collaboration:
   - Africa-OLS
   status: graduated
@@ -548,7 +557,7 @@
   keywords:
   - Dna Collections
   - Openmta
-  - Fair
+  - FAIR
   - Database
   - Repository
   - Github
@@ -588,8 +597,9 @@
   - Sciart
   - Raw Images
   - Community Building
+  - Community
   - Open Access
-  - Education
+  - Training and Education
   - Outreach
   status: graduated
   graduation: https://www.youtube.com/live/X9LBc5cYViI
@@ -665,7 +675,8 @@
   - Gender
   - Non-Binary
   - Identity
-  - Ethics Of Ai
+  - Ethics
+  - AI
   collaboration:
   - VU Amsterdam
   status: graduated
@@ -823,6 +834,8 @@
   - Comunidad
   - Enseñanza
   - Cohortes Virtuales
+  - Community
+  - Training and education
   collaboration:
   - MetaDocencia
   status: graduated

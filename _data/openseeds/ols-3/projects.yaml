@@ -88,6 +88,8 @@
   name: Open Phototroph
   participants:
     - sjb287
+  status: not graduated
+  reason: Personal circumstances beyond their control
 - description:
     An open-source software tool and associated protocol repository that
     translates wet-lab protocols into instruction sets for commonly available robotic
@@ -103,6 +105,8 @@
   name: Opensource Transpiler of Synthetic Biology Lab Protocols for Wetlab Robotics
   participants:
     - "0x174"
+  status: graduated
+  reason: Finished program but did not attend graduation call
 - description:
     This project is a field and laboratory based research project researching,
     surveying, and discovering the palaeoecology and palaeogeography of West Cork.
@@ -412,7 +416,8 @@
     and having this it self as a project with the goal of coming up as a tangible
     document in the form of a publication to be shared with the community at large.
   keywords:
-    - Value of OLS
+    - Value
+    - OLS
     - Participant perspective
     - Internalize openess
     - Pendown
@@ -816,7 +821,7 @@
     \ can be great opportunity to learn the open science approach in an organic way\
     \ and to discover how to do it."
   keywords:
-    - community building
+    - Community building
     - Systems Biology
     - Metabolism
     - Quantitative Life Science
@@ -882,7 +887,11 @@
     \ other labs/nodes within Czech-BioImaging/Euro-BioImaging infrastructures.\n\
     \ Thus, we would very appreciate and welcome any training, help, advice, or good\
     \ practise on FAIRification and anonymisation of neuroimaging datasets."
-  keywords: []
+  keywords:
+    - FAIR
+    - Imaging
+    - Neurophysiological
+    - Open data
   mentors:
     - loubez
     - bebatut
@@ -919,6 +928,8 @@
   name: The Turing Way - Developing a community health report and assessing its impact on the wider data science community
   participants:
     - alihumayun
+  status: not graduated
+  reason: Personal circumstances beyond their control
 - description:
     "I have just started a new role as a Research Application Manager at\
     \ the Turing Institute. My responsibility is to define my own workplan as well\
