@@ -1,4 +1,4 @@
-# List of experts, possible mentors and organizers for catalyst cat-1
+# List of experts, possible mentors and organizers for openseeds ols-9-catalyst
 #
 #
 # People should be also in people.yaml file and linked using their GitHub username
@@ -7,7 +7,7 @@
 experts: []
 organizers:
 - bebatut
-- emmyft
 - malvikasharan
 - yochannah
+- tajuddeen1
 possible-mentors: []

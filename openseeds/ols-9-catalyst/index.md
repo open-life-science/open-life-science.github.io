@@ -1,58 +1,17 @@
 ---
 layout: page
-toc: true
-title: Welcome to Open Seeds Cohort 8 
+title: Welcome to Open Seeds Cohort 9 - Catalyst track
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg
   license: CC BY-NC 2.0
   url: https://flic.kr/p/5BXB6s
-redirect_from:
-  - /OLS-8
-  - /ols-8
+toc: true
 ---
 
-{% include _includes/cohort-metadata.html cohort='ols-8' program='openseeds'  %}
 
-# The Open Seeds program
-{:.no_toc}
 
-**Purpose**: Training for early stage researchers and young leaders interested in furthering their
-Open Science skills
-
-**Outcome**: Ambassadors for Open Science practice, training and education across multiple countries
-and scientific communities.
-
-**Process**: A 16-week mentoring & training program, based on the [Mozilla Open Leader program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/), helping participants in becoming Open Science ambassadors by using three principles:
-
-1. **Sharing** essential knowledge required to create, lead, and sustain an Open Science project.
-2. **Connecting** members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.
-3. **Empowering** them to become effective Open Science ambassadors in their communities.
-
-# Goals and Learning Objectives
-
-The vision of OLS program is to strengthen Open Science skills for early stage researchers and young leaders in science.
-
-At the end of the program, our participants will be able to:
-- Describe and define the terms *openness*, *open science*, *open leadership*, *community interactions*, *value exchanges*, *inclusivity*, *accessibility*, *open Science practices in developing resources and training*
-- Learn how to apply those principles to open leadership and working open in their projects and communities
-. Learn how to collect, invite, and tell stories that demonstrate how and why openness benefits the communities they serve
-- Give original examples for the types of openness in science
-- Design
-  - Illustrate the need for a project, its vision, and its goals
-  - Embrace and communicate the benefits of Open Science and how to strategically apply different open practices to their work
-  - Identify the public resources to share their data
-  - Identify the different type of Open Access and associated journals
-- Build
-  - Start any project with openness in mind from day one
-  - Setup a project repository on GitHub using best practices for enabling collaboration
-  - Choose and apply open licenses appropriately
-- Empower
-  - Create and enforce a safe working environment
-  - Promote the values of Open Science to empower others to lead and collaborate
-  - Include a broad range of contributors in their work
-  - Communicate their work and vision in a 2min demo of elevator pitch
-- Lead an open project in science
+{% include _includes/cohort-metadata.html cohort='ols-9-catalyst' program='openseeds' %}
 
 # Timeline
 
@@ -66,9 +25,8 @@ At the end of the program, our participants will be able to:
 
 ## Project leads (aka Mentees)
 
-Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here]({% link openseeds/about.md %}#mentees).
 
-<!-- For the third round of the OLS program, we welcome [{{ p-participants | size }} participants](/ols-8/projects-participants#participants) with [{{ projects | size }} projects](/ols-8/projects-participants#projects).-->
+<!-- For the ninth round of the Open Seeds program, we welcome [{{ p-participants | size }} participants](/ols-9/projects-participants#participants) with [{{ projects | size }} projects](/ols-9/projects-participants#projects).-->
 
 ## Mentors
 
@@ -80,56 +38,6 @@ Mentors advise and inspire
 - Recommend: resources, readings, classes, experiences
 - Feedback: for the project leads to consider
 
-### Pool of mentors
-
-<!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-8-metadata.yaml file -->
-
-<!--We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
-
-<div class="people">
-    {% for mentor in metadata.possible-mentors %}
-        {% assign username = mentor %}
-        {% assign user = site.data.people[username] %}
-        {% include _includes/people.html user=user username=username %}
-    {% endfor %}
-</div>
-
-{% if metadata.possible-mentors-with-expertise %}
-
-<div class="expertise">
-    <h4 class="expertise-detail-question">
-        <a class="expertise-detail-toggle">
-            Mentors sorted by their expertise areas
-            <i class="fa fa-angle-down"></i>
-        </a>
-    </h4>
-    <ul class="expertise-detail is-hidden">
-        {% for expertise in metadata.possible-mentors-with-expertise %}
-        <li class="expertise-question">
-            <a class="expertise-toggle">
-                {{ expertise[0] }}
-                <i class="fa fa-angle-down"></i>
-            </a>
-            <div class="peoples is-hidden">
-                <div class="people">
-                {% for mentor in expertise[1] %}
-                    {% assign username = mentor %}
-                    {% assign user = site.data.people[username] %}
-                    {% include _includes/people.html user=user username=username %}
-                {% endfor %}
-                </div>
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-{% endif %} -->
-
-
-<!-- Pool of mentors (hidden before cohort starts) 
-Any modification of the content should be done in the _data/ols-8-projects.yaml file -->
-
 We thank the {{ p-mentors | size }} mentors this round.
 <div class="people">
 {% for entry in p-mentors %}
@@ -139,25 +47,11 @@ We thank the {{ p-mentors | size }} mentors this round.
 {% endfor %}
 </div> 
 
-### Mentoring training
-
-Mentorship roles can sound like a big personal responsibility and can be overwhelming for new mentors.
-To support our mentors in this program, we will offer training, topic-based guided discussions and opportunity for social interaction over 4 calls during the mentorship round:
-
-- 2 training calls in the beginning of the cohort to get participants trained and prepared for their role as mentors
-- 1 catch-up call in the middle of the cohort to discuss new topics and challenges that might have occurred and address them
-- 1 call at the end to capture experiences of mentors and assess their interest in future cohorts
-- Social and co-working calls schedule will be agreed among the mentors as per their needs and interests
-
-In the mentor training, our mentors will then gain mentoring skills (active listening, effective questioning, giving feedback), learn to celebrate successes and gain confidence on navigating challenges in mentoring.
-
-A dedicated slack channel will facilitate open discussions among mentors to help them discuss their experiences, challenges and tips and tricks (contact the team if you are not yet on this channel).
-
 ## Experts
 
 Experts are invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
 
-<!-- Any modification of the content should be done in the _data/ols-8-metadata.yaml file -->
+<!-- Any modification of the content should be done in the _data/ols-9-metadata.yaml file -->
 
 We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round.
 
@@ -200,7 +94,7 @@ We thank the **{{ metadata.experts | size }} persons who registered to be expert
 </div>
 {% endif %}
 
-A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-8 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
+A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-9 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
 
 {% if all-speakers != '' %}
 ### Speakers during cohort calls
@@ -218,7 +112,7 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 
 Facilitators work closely with the OLS organisers to manage and run cohort calls. They lead efforts in preparing cohort call notes, co-hosting cohort calls and ensuring the sharing of call recordings and resources through OLS channelss
 
-<!-- Any modification of the content should be done in the _data/ols-8-metadata.yaml file -->
+<!-- Any modification of the content should be done in the _data/ols-9-metadata.yaml file -->
 
 We thank the **{{ metadata.facilitators | size }} persons who facilitated** in this round.
 
@@ -249,7 +143,7 @@ This cohort is a [joined effort]({% link _posts/2023-08-15-OLS-joining-forces-wi
 
 # Resources
 
-The resources available to the OLS-8 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
+The resources available to the OLS-9 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
 
 ## Calls
 
@@ -267,7 +161,7 @@ During these calls:
 The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
-Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-8/schedule.md %}) in this website.
+Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-9-catalyst/schedule.md %}) in this website.
 You will also be updated via email each week by the organisers with additional details to aid your participation.
 
 **If you can't make it to a call**:
@@ -311,7 +205,7 @@ In some weeks during which there is not cohort call, we will offer some optional
 The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
-Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-8/schedule.md %}) in this website.
+Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-9-catalyst/schedule.md %}) in this website.
 You will also be updated via email each week by the organisers with additional details to aid your participation.
 
 ## Q&A calls
@@ -329,36 +223,8 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## Speaker Guide
 
-We have [a short guide for invited speakers]({% link openseeds/ols-8/speaker-guide.md %}).
+We have [a short guide for invited speakers]({% link openseeds/ols-9-dra/speaker-guide.md %}).
 
-## Communication channels
-
-### Communication within the cohort members
-
-#### OLS-8 Slack Channel
-
-A dedicated Slack channel has been setup to facilitate real-time as well as asynchronous communication among the all members of the OLS-8 cohort.
-A personal invitation link will be shared with the participants via an email.
-
-#### OLS-8 private Google group
-
-Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-8 Google group.
-
-An invitation is sent to all participants (mentees, mentors, etc) at the beginning of the program. If it is not the case, please [contact the team](mailto:{{ site.email }})
-
-### Communication with members not in the cohort
-
-#### Twitter
-
-General updates from the program such as new posts, collaborations and relevant retweets will be shared via our [official Twitter channel](https://twitter.com/{{ site.twitter }}).
-
-#### Gitter
-
-We have a public [Gitter](https://gitter.im/{{ site.gitter }}) channel that can be used by members of the public contact the OLS team and community.
-
-#### OLS Google group
-
-Updates regarding new calls for applications, announcements, and final project presentations are posted on the [OLS public Google group]({{ site.announcement_list }})
 
 # Community Participation Guidelines
 

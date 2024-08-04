@@ -1,18 +1,15 @@
 ---
 layout: page
 toc: true
-title: Welcome to Open Seeds Cohort 8 
+title: Welcome to Open Seeds Cohort 9 - DRI-EDIA track
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg
   license: CC BY-NC 2.0
   url: https://flic.kr/p/5BXB6s
-redirect_from:
-  - /OLS-8
-  - /ols-8
 ---
 
-{% include _includes/cohort-metadata.html cohort='ols-8' program='openseeds'  %}
+{% include _includes/cohort-metadata.html cohort='ols-9-dra' program='openseeds' %}
 
 # The Open Seeds program
 {:.no_toc}
@@ -68,7 +65,7 @@ At the end of the program, our participants will be able to:
 
 Participants join this program with a project that they either are already working on or want to develop during this program. More details about the role of a project lead (mentee) can be found [here]({% link openseeds/about.md %}#mentees).
 
-<!-- For the third round of the OLS program, we welcome [{{ p-participants | size }} participants](/ols-8/projects-participants#participants) with [{{ projects | size }} projects](/ols-8/projects-participants#projects).-->
+<!-- For the ninth round of the Open Seeds program, we welcome [{{ p-participants | size }} participants](/ols-9/projects-participants#participants) with [{{ projects | size }} projects](/ols-9/projects-participants#projects).-->
 
 ## Mentors
 
@@ -83,7 +80,7 @@ Mentors advise and inspire
 ### Pool of mentors
 
 <!-- Pool of possible mentors (hidden when cohort has started)
-Any modification of the content should be done in the _data/ols-8-metadata.yaml file -->
+Any modification of the content should be done in the _data/ols-9-metadata.yaml file -->
 
 <!--We thank the **{{ metadata.possible-mentors | size }} persons who registered to be mentors** in this round
 
@@ -128,7 +125,7 @@ Any modification of the content should be done in the _data/ols-8-metadata.yaml 
 
 
 <!-- Pool of mentors (hidden before cohort starts) 
-Any modification of the content should be done in the _data/ols-8-projects.yaml file -->
+Any modification of the content should be done in the _data/ols-9-projects.yaml file -->
 
 We thank the {{ p-mentors | size }} mentors this round.
 <div class="people">
@@ -157,7 +154,7 @@ A dedicated slack channel will facilitate open discussions among mentors to help
 
 Experts are invited to join cohort calls or individual mentorship calls to share their experience and expertise during the program.
 
-<!-- Any modification of the content should be done in the _data/ols-8-metadata.yaml file -->
+<!-- Any modification of the content should be done in the _data/ols-9-metadata.yaml file -->
 
 We thank the **{{ metadata.experts | size }} persons who registered to be experts** in this round.
 
@@ -200,7 +197,7 @@ We thank the **{{ metadata.experts | size }} persons who registered to be expert
 </div>
 {% endif %}
 
-A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-8 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
+A dedicated slack channel will facilitate open discussions among experts and other participants in OLS-9 to help them expand their network while discussing relevant topics (contact the team if you are not yet on this channel).
 
 {% if all-speakers != '' %}
 ### Speakers during cohort calls
@@ -218,7 +215,7 @@ A dedicated slack channel will facilitate open discussions among experts and oth
 
 Facilitators work closely with the OLS organisers to manage and run cohort calls. They lead efforts in preparing cohort call notes, co-hosting cohort calls and ensuring the sharing of call recordings and resources through OLS channelss
 
-<!-- Any modification of the content should be done in the _data/ols-8-metadata.yaml file -->
+<!-- Any modification of the content should be done in the _data/ols-9-metadata.yaml file -->
 
 We thank the **{{ metadata.facilitators | size }} persons who facilitated** in this round.
 
@@ -249,7 +246,7 @@ This cohort is a [joined effort]({% link _posts/2023-08-15-OLS-joining-forces-wi
 
 # Resources
 
-The resources available to the OLS-8 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
+The resources available to the OLS-9 cohort members will facilitate their communication, training, mentoring and learning process during their participation in the program.
 
 ## Calls
 
@@ -267,7 +264,7 @@ During these calls:
 The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
-Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-8/schedule.md %}) in this website.
+Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-9-dra/schedule.md %}) in this website.
 You will also be updated via email each week by the organisers with additional details to aid your participation.
 
 **If you can't make it to a call**:
@@ -311,7 +308,7 @@ In some weeks during which there is not cohort call, we will offer some optional
 The calls will be hosted online using the Zoom web-conferencing option.
 A link for the calls will be shared for each meeting separately.
 
-Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-8/schedule.md %}) in this website.
+Look up the shared notes for each call linked to the [schedule]({% link openseeds/ols-9-dra/schedule.md %}) in this website.
 You will also be updated via email each week by the organisers with additional details to aid your participation.
 
 ## Q&A calls
@@ -329,20 +326,20 @@ The calls will be hosted online using the Zoom web-conferencing option. A link f
 
 ## Speaker Guide
 
-We have [a short guide for invited speakers]({% link openseeds/ols-8/speaker-guide.md %}).
+We have [a short guide for invited speakers]({% link openseeds/ols-9-dra/speaker-guide.md %}).
 
 ## Communication channels
 
 ### Communication within the cohort members
 
-#### OLS-8 Slack Channel
+#### OLS-9 Slack Channel
 
-A dedicated Slack channel has been setup to facilitate real-time as well as asynchronous communication among the all members of the OLS-8 cohort.
+A dedicated Slack channel has been setup to facilitate real-time as well as asynchronous communication among the all members of the OLS-9 cohort.
 A personal invitation link will be shared with the participants via an email.
 
-#### OLS-8 private Google group
+#### OLS-9 private Google group
 
-Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-8 Google group.
+Organizers inform participants of the week schedule by email. An archive of all emails can be found on the private OLS-9 Google group.
 
 An invitation is sent to all participants (mentees, mentors, etc) at the beginning of the program. If it is not the case, please [contact the team](mailto:{{ site.email }})
 

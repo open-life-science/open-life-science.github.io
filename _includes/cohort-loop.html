@@ -3,18 +3,20 @@
 {%- assign all_experts = '' -%}
 {%- assign all_facilitators = '' -%}
 {%- assign all_projects = '' -%}
-{%- assign openseeds_cohorts = site.data.openseeds | sort -%}
-{%- assign catalyst_cohorts = site.data.catalyst | sort -%}
 
-{%- assign cohorts = openseeds_cohorts | concat: catalyst_cohorts -%}
+<!-- Maintain this logic with nebula in view. In future, concat other programs into 'cohorts' variable -->
+{%- assign openseeds_cohorts = site.data.openseeds | sort -%}
+{%- assign cohorts = openseeds_cohorts -%}
 
 {%- for cohort in cohorts -%}
   {%- assign cohort_name = cohort[0] -%}
-  {%- if cohort_name contains 'openseeds' -%}
+
+  <!-- Where multiple programs exist, adapt the logic below to filter _data folder as needed -->
+  <!-- {%- if cohort_name contains 'openseeds' -%}
     {%- assign program_data = site.data.openseeds[cohort_name] -%}
-  {%- elsif cohort_name contains 'catalyst' -%}
-    {%- assign program_data = site.data.catalyst[cohort_name] -%}
-  {%- endif -%}
+  {%- elsif cohort_name contains 'x-program' -%}
+    {%- assign program_data = site.data.x-program[cohort_name] -%}
+  {%- endif -%} -->
   
   {%- assign experts = program_data.metadata.experts | uniq | size -%}
   {%- capture all_experts %}{{ all_experts }}, {{ program_data.metadata.experts | join: ', ' }}{% endcapture -%}
