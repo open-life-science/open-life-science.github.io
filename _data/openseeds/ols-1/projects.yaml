@@ -25,6 +25,8 @@
 
     We will also use this plantform to motivate colleages from other parts of the country to create
     their own local community and then connect for some events.
+  status: not graduated
+  reason: Personal circumstances beyond their control
 
 - name:
     Investigate feasible solutions to help create a system that creates, collects and processes
@@ -46,6 +48,8 @@
     driving health policies, creating room to make health surveillance possible and easy for policy makers to take
     data driven decisions, and helping establish framework to run health data registries in more regions within
     sub-Saharan Africa.
+  status: not graduated
+  reason: Not engaged
 
 - name: Infusing a culture of open science within the community of researchers at the Zuckerman Institute
   participants:
@@ -190,6 +194,8 @@
     The idea is that visualizing things helps us to spot patterns. So, we’ll have this tool, which
     will visualize the interactions and similarities between different entities and there will be
     options to tweak the appearance/structure to make things more explorable.
+  status: not graduated
+  reason: Personal circumstances beyond their control
 
 - name: Open Connect Platform in Africa
   participants:

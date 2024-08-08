@@ -18,9 +18,9 @@
     \ permissions to use external images, and other topics that it would be nice to\
     \ learn at the *OLS-4*."
   keywords:
-    - version control
-    - training and education
-    - programming
+    - Version Control
+    - Training and Education
+    - Programming
   mentors:
     - mxrtinez
     - jcolomb
@@ -51,14 +51,15 @@
     : 3,\n        \"method\": {...},\n        \"proofs\": [{...},{...}]\n        },\n\
     \        {...}\n    ]\n}\n```"
   keywords:
-    - web application
-    - genetic engineering
-    - reproducible research
+    - Web application
+    - Genetic engineering
+    - Reproducible research
   mentors:
     - dimmestp
   name: "Genestorian: An Open Source web application for model organism collections"
   participants:
     - manulera
+  status: graduated
 - description:
     Recent developments in electron microscopy have led to a significant
     scale-up in the imaging of biological tissues, making throughput a major bottleneck
@@ -96,9 +97,10 @@
     that the nanosynthesis research community opens and shares its data as this will
     advance the nanosynthesis field in a more sustainable way globally.
   keywords:
-    - database
-    - FAIR principles
-    - research community
+    - Database
+    - FAIR
+    - Research Community
+    - Open data
   mentors:
     - graciellehigino
   name: Open data for nanosystem synthesis experimental conditions
@@ -130,15 +132,16 @@
     \ and give them visibility,\n- renewing the **community interest** in Bio-IT and\
     \ computational best practices."
   keywords:
-    - training and education
-    - research community
-    - peer consulting
+    - Training and Education
+    - Research Community
+    - Peer Consulting
   mentors:
     - emmyft
     - tnabtaf
   name: "Grassroots: Nurturing the EMBL Bio-IT Community"
   participants:
     - lisanna
+  status: graduated
 - description:
     "Balconnect is a social and environmental intervention with the long-term\
     \ goal of using open-source, emerging data-driven technologies and open science\
@@ -158,10 +161,10 @@
     \ urban green inequalities.\n- Influence local government decisions on city planning,\
     \ green infrastructure and nature-based solutions."
   keywords:
-    - biodiversity
-    - research community
-    - green infrastructure
-    - policymaking
+    - Biodiversity
+    - Research community
+    - Green infrastructure
+    - Policymaking
   mentors:
     - ekaroune
   name:
@@ -188,9 +191,9 @@
     \ VU, which is meant to showcase the RDM Community. This is a possible location\
     \ for my blogs and other progress made in the project."
   keywords:
-    - data stewards
-    - research community
-    - interview
+    - Data stewards
+    - Research community
+    - Interview
   mentors:
     - cemonks
     - alexholinski
@@ -199,6 +202,7 @@
     who they could become"
   participants:
     - elisa-on-github
+  status: graduated
 - description:
     "My project aims to tackle the big gap between the new trend of RNA\
     \ sequencing analysis and massive expansion of datasets, and the difficulties\
@@ -212,9 +216,9 @@
     \ reproducibility basics such as version control and workflows, so researchers\
     \ can see how the tutorial would work from an existent example."
   keywords:
-    - training and education
-    - reproducible research
-    - sequencing
+    - Training and education
+    - Reproducible research
+    - Sequencing
   mentors:
     - hrhotz
   name: Open and reproducible data analysis for wet lab neuroscientists
@@ -240,8 +244,9 @@
     in the UK.  Saranjeet Kaur Bhogal is the primary applicant of this project, and
     the one who initiated the project, and came up with the idea.
   keywords:
-    - research community
-    - research software engineering
+    - Research community
+    - Research Software Engineering
+    - Community
   mentors:
     - annefou
   name: Building the Research Software Engineering (RSE) Association in Asia region
@@ -269,7 +274,7 @@
     \ the political nature of data production and openly consider questions of bias,\
     \ fairness, and ethical AI."
   keywords:
-    - synthetic data
+    - Synthetic data
     - Ethical AI
   mentors:
     - fpsom
@@ -279,6 +284,7 @@
   participants:
     - ecsalomon
     - augustincaitlin
+  status: not graduated
 - description:
     "Our initiative is called “Talleres Open Source” (Open Source Workshops
     in Spanish), a community of scientists teaching and learning about open source
@@ -297,9 +303,9 @@
     We hope attendees finish each workshop with a concrete first impression about
     the method and hands-on experience with the tool to reduce the barrier to adoption."
   keywords:
-    - training and education
-    - data visualisation
-    - research community
+    - Training and education
+    - Data visualisation
+    - Research community
   mentors:
     - yochannah
   name: Talleres Open Source community platform
@@ -319,9 +325,9 @@
     for carbon foot printing of buildings in Ghana, following best practice in open
     science principles.
   keywords:
-    - energy
-    - database
-    - carbon footprinting
+    - Energy
+    - Database
+    - Carbon footprinting
   mentors:
     - yvanlebras
     - katesimpson
@@ -343,14 +349,15 @@
     \ quality and biodiversity across our sites as well as shared repositories of\
     \ data and reports."
   keywords:
-    - agriculture
-    - DIY and makerspace
-    - biodiversity
+    - Agriculture
+    - DIY
+    - Biodiversity
   mentors:
     - lwinfree
   name: Environmental mapping for urban farming project
   participants:
     - biscuitnapper
+  status: not graduated
 - description:
     "We are working on establishing a Research Hub in the National Guard.
     \ This hub is a virtual platform linked to TDM to support academics\
@@ -478,6 +485,7 @@
   name: Bioinformatics Secondary school Outreach in Nigeria
   participants:
     - emmanuel19-ada
+  status: not graduated
 - description:
     I want to develop a project that gives iNaturalist citizen scientists
     the chance to move from data collectors to data explorers. I want to use my programming
@@ -522,9 +530,9 @@
     stories, tools and ways of addressing common challenges in doing open, inclusive
     research."
   keywords:
-    - research community
+    - Research community
     - case study
-    - training
+    - Training and education
   mentors:
     - karvovskaya
     - estherplomp
@@ -534,6 +542,8 @@
   participants:
     - cbolibaugh
     - gill-francis
+  status: not graduated
+  reason: Personal circumstances beyond their control
 - description:
     The project focuses on building tools to understand the evolution of
     life. We develop bioinformatic tools to determine evolutionary processes to detect
@@ -548,9 +558,9 @@
     tools to help detect biosignature, assess habitability, promote involvement within
     astrobiology.
   keywords:
-    - astrobiology
-    - environmental data
-    - citizen science
+    - Astrobiology
+    - Environmental data
+    - Citizen science
   mentors:
     - harpreetsingh05
   name:
@@ -558,6 +568,8 @@
     in astrobiology
   participants:
     - thatspacegirl
+  status: not graduated
+  reason: Not engaged
 - description:
     In academia today there is a certain pressure for young research to
     publish, and given the time constraints and continuous deadlines, the aspects
@@ -574,8 +586,8 @@
     a way of thinking in a way and contain resources that help you consider reproducibility
     towards the entire research.
   keywords:
-    - reproducible research
-    - data science
+    - Reproducible research
+    - Data science
   mentors:
     - jessicas11
   name: A guide towards reproducible research for Decision Sciences researchers
@@ -598,9 +610,9 @@
     perspectives in open research, which are different from but beneficial for my
     current research.
   keywords:
-    - survey data
-    - data visualisation
-    - programming
+    - Survey data
+    - Data visualisation
+    - Programming
   mentors:
     - bduckles
   name: Building Open Science and Data Analysis Skills by Leading the OLS Survey Data Project
@@ -625,8 +637,8 @@
     used to create an internal binderhub deployment, allowing other organisations
     to do so.
   keywords:
-    - research community
-    - technical development
+    - Research community
+    - Technical development
   mentors:
     - unode
   name: "Hub23: An open source community and infrastructure for Turing's BinderHub"
@@ -634,6 +646,7 @@
     - lydiafrance
     - lukehare
     - callummole
+  status: graduated
 - description:
     The project is about the conception, organization, and coordination
     of an online event with a focus on identifying the key driving factors for a scientific
@@ -646,9 +659,9 @@
     and demand were so great that we decided to held the meeting again in autumn 2021
     with a slightly different thematic focus.
   keywords:
-    - scientific events
-    - data science
-    - gender equality
+    - Scientific events
+    - Data science
+    - Gender equality
   mentors:
     - iratxepuebla
   name: Online event "Women in Data Science - Perspectives in Industry and Academia" Part II
@@ -695,10 +708,11 @@
     \ and practitioners, e.g.: the University of Lausanne, Warsaw University of Life\n\
     Sciences, Leibniz Institute of Freshwater Ecology and Inland Fisheries."
   keywords:
-    - biodiversity
-    - training and education
-    - river and freshwater ecology
-    - environmental data
+    - Biodiversity
+    - Training and education
+    - River and freshwater ecology
+    - Ecology
+    - Environmental data
   mentors:
     - ealescak
   name: open and international River University
@@ -727,9 +741,9 @@
     designed with other community members by actively inviting their contributions
     and thoughts.'
   keywords:
-    - research community
-    - community health metric
-    - reproducible research
+    - Research community
+    - Community health metric
+    - Reproducible research
   mentors:
     - arielle-bennett
   name:
@@ -737,3 +751,5 @@
     report for The Turing Way
   participants:
     - alihumayun
+  status: not graduated
+  reason: Personal circumstances beyond their control
