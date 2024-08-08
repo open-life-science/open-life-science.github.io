@@ -16,15 +16,13 @@ redirect_from:
 
 **Get ready for an exciting new series of cohorts on open science in collaboration with [NASA-TOPS](https://nasa.github.io/Transform-to-Open-Science/).**
 
-Funded by [NASA](https://www.nasa.gov/), OLS will offer 6-week-long virtual cohorts — Nebula — not just once, but five times each year over the next three years.
+Funded by [NASA](https://www.nasa.gov/), OLS offers 6-week-long virtual cohorts, bringing our cohort-based approach, with hands-on learning and individual coaching throughout the training.
 
-We will bring our cohort-based approach, incorporating hands-on learning and individual coaching throughout the training.
-
-Register your interest as a [participant](https://forms.gle/bUEXdcSkt9BgY4tXA), [expert or facilitator](https://forms.gle/DcostkBpszXT9MAr8).
+[Register for our upcoming cohort](https://events.humanitix.com/ols-nebula).
 
 # Program overview
 
-The Nebula program (Open Science 101) is a comprehensive 6-week training program designed for participants at any career stage. The program integrates practical training with individual coaching, supporting participants to apply open science principles, skills, and tools in their work.
+The OLS-NASA Nebula program is a comprehensive 6-week training program designed for participants at any career stage. The program integrates practical training with individual coaching, supporting participants to apply open science principles, skills, and tools in their work.
 
 # Who is this training for?
 
@@ -42,9 +40,9 @@ Our cohorts provide structured training covering the [Open Science 101 Curriculu
 
 Synchronous training sessions take place on Zoom, twice a week. The sessions are delivered in English with automatic live captions. Recordings are openly accessible after the calls. The program also provides opportunities to connect with fellow participants. 
 
-Individual participants or teams meet with an expert for **weekly coaching sessions to receive personalized feedback** on their project.
+Individual participants or teams meet with an expert for **personalized feedback** on their work.
 
-Upon graduation, participants receive a digital badge certifying their completion of NASA’s Open Science 101 curriculum and an OLS certificate. The expected time commitment for this training is 4-4.5 hrs per week. 
+Participants will share a short presentation on their work as a graduation requirement. Upon graduation, participants receive a digital badge certifying their completion of NASA’s Open Science 101 curriculum and an OLS certificate. The expected time commitment for this training is 4 hours per week. 
 
 
 The schedule for individual cohorts is shown below:
@@ -58,7 +56,7 @@ The schedule for individual cohorts is shown below:
 | ^^                              | ^^                             | **Code**              |   |   |   | X |   |   |  
 | ^^                              | ^^                             | **Results**           |   |   |   |   | X |   | 
 | **Final Graduation**            | Group presentations            |                       |   |   |   |   |   | X |
-| **Expert coaching**         | 30 minutes coaching with an expert from the program  |                       | X | X | X | X | X |   |
+| **Expert coaching**         | Optional coaching sessions with an expert from the program  |                       | X | X | X | X | X |   |
 | **Work on assignments** | Self-led by participants  |                       | X | X | X | X | X |   \
 |                                 | - Assignments to apply learned skills in research projects  |                       |   |   |   |   |   |   \
 |                                 | - prep for final presentations |                       |   |   |   |   |   |   |
@@ -66,32 +64,32 @@ The schedule for individual cohorts is shown below:
 
 # Pricing
 
-Our pilot cohort is offered free of charge. 
+* **Individual rate:** $900 USD
+* **Team bundle:** $600 USD (3-9 tickets, for small teams or organizations)
+* **Organization bundle:** $400 USD (10 tickets or more, for larger organizations aiming to provide training to multiple community members)
 
-Subsequent cohorts may involve a modest fee, with a number of spots available for fee waivers. Our commitment is to make this program **accessible to all who are eager to participate**.
+**Fee waivers are available** for a limited number of participants. Please complete this short [fee waiver request form](https://forms.gle/evYzYJxzLeGifEib9). 
 
 
 # Join us
 
-Our pilot cohort will run from **March 11 until April 19**. 
+Our next offering will run on Tuesdays and Thursdays beginning **October 22, 2024, until November 28, 2024**. Sessions are scheduled at 16:00 - 17:30 (UTC). 
 
-Registration is now open for both participants and experts. We look forward to having you on board for this exploration into open science!
+[Registration is now open!](https://events.humanitix.com/ols-nebula)
 
-**Participants:** Please register your interest [as a participant through this form.](https://forms.gle/bUEXdcSkt9BgY4tXA)
+We look forward to having you on board for this exploration into open science!
 
-**Experts and facilitators:** Please register your interest [as an expert or facilitator through this form.](https://forms.gle/DcostkBpszXT9MAr8) 
 
 ### Upcoming sessions
 
-The expected timeline for upcoming sessions in 2024 is below:
+The expected timeline for upcoming sessions in 2024 and 2025 is below:
 
-| Cohort timeline  | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+| Cohort timeline  | Aug | Sep | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul |
 |------------------|-----|-----|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Applications** |     |  X  |     |  X  |     |  X  |     |     |  X  |     |     |  X  |   
-| **Pilot Cohort** |     |     |  X  |  X  |     |     |     |     |     |     |     |     |                               
-| **Cohort 2**     |     |     |     |     |  X  |  X  |     |     |     |     |     |     |       
-| **Cohort 3**     |     |     |     |     |     |     |  X  |  X  |     |     |     |     |    
-| **Cohort 4**     |     |     |     |     |     |     |     |     |     |  X  |  X  |     |    
+| **Cohort 2**     |     |     |  X  |  X  |     |     |     |     |     |     |     |     |       
+| **Cohort 3**     |     |     |     |     |     |  X  |  X  |     |     |     |     |     |    
+| **Cohort 4**     |     |     |     |     |     |     |     |     |  X  |  X  |     |     |
+| **Cohort 5**     |     |     |     |     |     |     |     |     |     |     |  X  |  X  | 
    
 
 *Si te interesa participar de las cohortes de formación en ciencia abierta de NASA-TOPS en idioma español, por favor contacta a nuestra comunidad amiga [MetaDocencia](https://www.metadocencia.org/).*
