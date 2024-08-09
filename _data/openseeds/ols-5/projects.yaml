@@ -17,6 +17,8 @@
   name: 'Multilingual Open Science: Creating Open Educational Resources in Central Asian Languages'
   participants:
   - sarenaz
+  status: not graduated
+  reason: Personal circumstances beyond their control
 - description: 'Our initiative is called "Training Latin American scientists community to create high-quality open journals with good editorial standards". We intend to build a community of native spanish speaking scientists who teach and learn about creating editorial boards and open access scientific journals that meet international high editorial quality standards. We intend to organise hands-on workshops about different steps in the editorial process of creating scientific open access journals, with experienced trainers and with open source tools. Some of the topics we would like to cover are:
 
 - Acquiring ISSN code for online journals,
@@ -33,7 +35,7 @@ These workshops would merge synchronic and asynchronic activities throughout  a 
   - training and education
   - research community
   - editorial community
-  - open journals systems.
+  - open journals
   mentors:
   - mxrtinez
   #- María Belén Ticona
@@ -47,8 +49,7 @@ These workshops would merge synchronic and asynchronic activities throughout  a 
   status: graduated
 - description: 'Cloud-SPAN trains researchers, and the research software engineers that support them, to run specialised analyses for environmental omics datasets on cloud-based high-performance computing infrastructure. It is a collaboration between the University of York and The Software Sustainability Institute funded by the UKRI Innovation Scholars award (Project Reference: MR/V038680/1). The primary objective of the project is to generate training materials and opportunities which are open, accessible and reusable (FAIR) for all researchers. We aim to build an engaged community of practice around the participation in, and the development and maintenance of, the materials. The community-building element would be the main focus of the OLS scheme project.'
   keywords:
-  - Education
-  - Training
+  - Training and education
   - Environmental biotechnology
   - Omics
   - Community
@@ -124,6 +125,7 @@ The plan needs to integrate as much as possible open science principles such as 
   - genomics
   - open education
   - open resource
+  - Training and education
   mentors:
   - beatrizserrano
   - fpsom
@@ -142,7 +144,7 @@ In order to do this, learners will need a way to connect and communicate effecti
   - community engagement
   - open learning
   - Data Science and AI education
-  - training
+  - training and education
   mentors:
   - kipkurui
   name: 'Community engagement: Building an open online learning community'
@@ -169,12 +171,13 @@ In order to do this, learners will need a way to connect and communicate effecti
   status: graduated
 - description: We propose SciHack, as the first Open Community Lab in Peru. Our principal aim is to make available the tools and resources necessary for anyone, including non-professionals, to conduct biological engineering research and learning. As part of our activities, we will focus on democratizing science and biotechnology knowledge in low-income populations of Peru where there's little to no presence of science and technology education. To address these issues, we will conduct workshops about DIY lab equipment, Bioinformatics open source projects and educational resources, and molecular biology tools to train teachers and teach students how to make and analyze scientific experiments. Furthermore, by the end of our activities, we would like to implement a space for bio-makers of all ages and backgrounds to conduct research projects and build prototypes. In this way, we would be fighting against misinformation of science methodology and results that are primordial not only for the current COVID19 situation but also for the progress of science.
   keywords:
-  - DIY Bio
+  - DIY
   - Open Source
   - Biohacking
   - Computational Biology
-  - Python programming
-  - R programming
+  - Python
+  - R
+  - Programming
   mentors:
   - diegoonna
   name: 'SciHack: Promoting the Open Source and DIY movements in Peru'
@@ -186,6 +189,7 @@ In order to do this, learners will need a way to connect and communicate effecti
   - sandra-larriega
   - jhon-anderson-pérez-silva
   - codito22
+  status: not graduated
 - description: I would like to work with the Skills Team at the Alan Turing institute in order to create a peer-mentoring training programme from the main topics of The Turing Way. Our aim is to turn the five main areas in The Turing Way, namely research reproducibility, project design, collaboration, communication, and ethics into modules which the participants of the peer-mentoring programme can work on together. They would apply it on their own research/ projects, therefore they could put the learnt knowledge in use immediately. The aim of The Turing Way has been to be an open source, collaborative, applicable, and practical tool, and with this programme we would like to facilitate the use of it. We would like to see how people in their different stages of their career (PhD, Post-Doc, Researcher, Admin) can collaborate to deepen their knowledge about the contents of The Turing Way, while understand each other's perspective on the subject. If the prototype is successful, we would like open it up for any applicants interested in applying the practices of The Turing Way to their own projects as part of the other trainings offered by the Institute.
   keywords:
   - peer-mentoring
@@ -202,6 +206,8 @@ In order to do this, learners will need a way to connect and communicate effecti
   - ayeshadunk
   - nea-bridget
   - aurigandrea
+  status: not graduated
+  reason: Finished program but did not attend graduation call
 - description: "Together with co-workers, I have developed a Python-based tool ([Source code](https://github.com/epics-group/chemspax), [publication 1](https://doi.org/10.1002/zaac.202100078), [publication 2](https://doi.org/10.26434/chemrxiv-2021-46d50-v3)) which can be used to explore the local chemical space of an existing molecular scaffold. Homogeneous catalysts are important in many of our daily processes, but also in our fight against climate change. Our goal was to create a tool that can automatically generate large datasets that can be used in research for data-driven catalyst discovery.
 
 
@@ -213,7 +219,7 @@ The issue was that a simple SMILES representation of a molecular scaffold does n
   - chemical space
   - transition
   - metal complexes
-  - open-source
+  - open source
   mentors:
   - estherplomp
   name: Increasing the usability of ChemSpaX, a Python tool for chemical space exploration
@@ -227,6 +233,7 @@ The issue was that a simple SMILES representation of a molecular scaffold does n
   - accessibility
   - artificial intelligence
   - community engagement
+  - community
   mentors:
   - fpsom
   name: 'The Ersilia Model Hub: encouraging deployment of computer-based research tools for non-expert usage'
@@ -244,6 +251,7 @@ The issue was that a simple SMILES representation of a molecular scaffold does n
   name: Easy Access Autism Resources for Rural Parents
   participants:
   - robert-schreiber
+  status: not graduated
 - description: As open science projects mature, they attract, engage and retain members who actively participate and contribute to the project. They build *Communities of Practice* around the project through knowledge exchange, maintenance or development practices and ultimately guide the future directions for both the projects and their communities. To build a more equitable, resilient and sustainable open infrastructure for a diverse community, it is important to select governance models that give voices to people (users, contributors and wider society) from different socio-technical and socio-cultural backgrounds, identities, career stages, contextual needs and   research communities.  The Turing Way is a guide for reproducible, ethical and collaborative research and data science. Open Life Science is a training and mentoring program to help researchers learn and apply open principles in their work. They are mission-aligned open science projects that involve participants from around the world to create something deeply meaningful for them. The Turing Way has grown exponentially in the last three years that offers more than 200 pages co-created by more than 300 contributors. Open Life Science has offered 4 cohorts in the last 2 years and currently supports a community of over 300 members (present and past mentees, mentors and experts).  To support the governance work in these projects in 2022, I would like to carry out a systematic study of governance models suitable for decentralised and distributed communities such as these. By creating a portfolio of governance models suitable for projects at different maturity levels, members from these projects will be able to identify the right model for their respective  projects. The aim is to establish norms, workflows and processes that ensure a  democratic structure for decision-making and leadership in a way that contributes to projects' own visions while collaborating on the shared mission for global open science.
   keywords:
   - Open Source
@@ -268,7 +276,7 @@ We will also start to develop training packages specific to phytolith research s
   - Open Access
   - Phytolith
   - Archaeology
-  - Palaeoecology.
+  - Palaeoecology
   mentors:
   - graciellehigino
   - malvikasharan
@@ -289,8 +297,7 @@ We will also start to develop training packages specific to phytolith research s
   - treatment heterogeneity
   - missing health data
   - academia-industry partnership
-  - open
-    science
+  - open science
   mentors:
   - klauer2207
   name: Building an open community around the Turing-Roche Strategic Partnership
@@ -298,12 +305,16 @@ We will also start to develop training packages specific to phytolith research s
   - vhellon
   status: graduated
 - description: On of my goals from my current position, as a community manager at the open science community Rotterdam,  is to engage and include as many as possible; I want to sustain and grow the community. One of my ambitions is curating events and engage public to open discussions around open science. One of the events that I really want to arrange is through art (as a means) to raise awareness around open science practices, and create the floor for an open discussion around open science.  It is still a general idea, so I am aware that I still need to go over all the details and I am still not sure what blockages will rise through this journey. But I am really positive and I truly believe that art is open and can act as a mediator towards connection, expression, openness, and understanding.
-  keywords: []
+  keywords:
+  - art
+  - open science
   mentors:
   - karvovskaya
   name: Art as a means to open science
   participants:
   - eirinibotsari
+  status: not graduated
+  reason: Personal circumstances beyond their control
 - description: "[_A History of Research Ethics_](https://www.tiki-toki.com/timeline/entry/1753034/A-History-of-Research-Ethics/) is a free, online resource for researchers, governance professionals, and even college students to learn about science and ethics, and be inspired to develop practical tools for the assurance of adequately conducted research.  A key purpose of _A History of Research Ethics_ is to demonstrate the variety of disciplines and backgrounds that research ethics can draw on. In other words, interdisciplinarity is critical for its success. This means both interdisciplinary contributions _and_ adapting to audiences from diverse fields and sectors.  By embracing the collaborative nature of GitHub and OLS' open science community, I expect to take _A History of Research Ethics_ to its next stage of development."
   keywords:
   - History of Science
@@ -334,9 +345,10 @@ The sensitivity of this kit will be evaluated on extracted DNA from three sample
 - description: In October 2021, the RSE Asia Association was launched. This was done to create awareness in the Asia region about the field of Research Software Engineering. The digital infrastructure for the association has been built during the Open Life Science Cohort 4 (OLS-4) program. The webpage is in place, the contact addresses have also been created for communication with people. A small community has also started emerging. It is time that the community can expand. With the expanding community, it is now required that we create well-defined pathways for people to get onboard to the association. This project aims at building such pathways. Also, a basic Code of Conduct is already present on the RSE Asia webpage. It is to be modified to make it more appropriate for the Asian region.
   keywords:
   - Community Building
+  - Community
   - Creating Pathway
   - Onboarding
-  - modifying Code of Conduct
+  - Code of Conduct
   mentors:
   - malvikasharan
   name: Building Pathways for Onboarding to Research Software Engineering (RSE) Asia Association and Adoption of Code of Conduct
@@ -371,7 +383,8 @@ Open source software such as R/Bioconductor (DESeq2), Unix/Linux, Python and Jup
   keywords:
   - Bioinformatics
   - Students
-  - data analysis
+  - Data analysis
+  - Training and education
   mentors:
   - meagdoh
   name: Bioinformatics Secondary school Outreach in Nigeria
@@ -408,6 +421,8 @@ I would like to make something like [this](https://drive.google.com/file/d/1Ikd8
   name: Visualisation of participants by their countries
   participants:
   - astroakanksha24
+  status: not graduated
+  reason: Not engaged
 - description: "In this project we want to develop and implement new ways of building, engaging and maintaining the community around the TU Delft Open Science MOOC. We are part of the teaching team of the TU Delft Open Science MOOC called: 'Open Science: sharing your research with the world'. The MOOC''s next run starts in [May 2022](https://www.edx.org/course/open-science-sharing-your-research-with-the-world).
 
 
@@ -419,6 +434,7 @@ The first Open Science MOOC started in 2018 and on average the course attracts a
   - Open Science
   - Community Building
   - Open Education
+  - Training and education
   - Engagement
   mentors:
   - pherterich
@@ -460,8 +476,7 @@ A basic automated preprocessing and data-quality check pipeline will be implemen
   - data sharing
   - cognitive neuroscience
   - clinical neuroscience
-  - data
-    visualization
+  - data visualization
   - meta-analysis
   mentors:
   - selgebali
@@ -482,6 +497,7 @@ For open research to become an established reality, those who are moving their f
   - community building
   - educational resources
   - neuroscience
+  - Training and education
   mentors:
   - saravilla
   name: Open Science, Open Future
@@ -521,9 +537,12 @@ Diagnosis of cancer relies on histology in nearly 80% of cases, cytology in 10%,
 - description: The "AI for Science and Government" (ASG) programme at The Alan Turing Institute seeks to produce three community-led white papers that will capture the outcomes of research into deploying AI and data science in priority areas to support the UK's economy. The papers will also highlight advances in practices towards open and reproducible research in the fields of AI and data science. The process of authoring the white papers will itself be collaborative, open and transparent, soliciting contributions from the wider ASG community at every step of the way.
   keywords:
   - community management
-  - open and reprodicible data science
-  - Artificial Intelligence
-  - community white papers
+  - Community
+  - Reproducible science
+  - Open data
+  - Data science
+  - AI
+  - White paper
   mentors:
   - yochannah
   name: Cultivating a Community of Practice of AI researchers
@@ -543,7 +562,11 @@ ARPHAI includes persons from 20  institutions. ARPHAI started in October 2020 an
 
 
 There are two additional lines of work ARPHAI undertakes that are transversal to these three research developments, which include a) diversity, equity, and inclusion (DEI) with a focus on gender and b) responsible use of health data."
-  keywords: []
+  keywords:
+  - Public health
+  - Data science
+  - AI
+  - Epidemiology
   mentors:
   - msundukova
   name: Argentinean Public Health Research on Data Science and Artificial Intelligence for Epidemic Prevention (ARPHAI)
@@ -567,6 +590,8 @@ There are two additional lines of work ARPHAI undertakes that are transversal to
   participants:
   - thatspacegirl
   - sairajdillikar
+  status: not graduated
+  reason: Not engaged
 - description: "
 1. Scientific perspectives Depression is becoming more common mental illness caused by the complicate network of various extrinsic and intrinsic stimulators.For the healthier and happier brain status, three key diets such as Emotional,Physical, and Nutritional diets should be considered. Scientific researchers are mostly focusing on research in unraveling the key molecule associated the mechanism of depression. However, we need to pull and process more extensive dataset from individuals, public health, and professionals in psychology, nutrition science, physical science, and neuroscience to improve or treat the brain kept or recovered to the healthy status.
 
