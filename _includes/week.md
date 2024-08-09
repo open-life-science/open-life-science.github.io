@@ -1,6 +1,10 @@
 {% for c in week.calls %}
 
+{% if program !='nebula' %}
 ## {{ c.type }} call: {{ c.title }}
+{% else %}
+## Module: {{ c.title }}
+{% endif %}
 
 
 
@@ -17,6 +21,19 @@
     {% assign hosts = '' %}
     {% for p in c.hosts %}{% capture hosts %}{{ hosts }}, [{{ site.data.people[p].first-name }} {{ site.data.people[p].last-name }}]({% link people.md %}#{{ p }}){% endcapture %}{% endfor %}
 <i class="fas fa-user-friends"></i> **Hosts**: {{ hosts | remove_first: ', ' }}
+{% endif %}
+
+{% if c.expert and c.expert != empty %}
+    {% assign experts = '' %}
+    {% for e in c.expert %}{% capture experts %}{{ experts }}, [{{ site.data.people[e].first-name }} {{ site.data.people[e].last-name }}]({% link people.md %}#{{ e }}){% endcapture %}{% endfor %}
+<i class="fas fa-user-tie"></i> **Expert**: {{ experts | remove_first: ', ' }}
+{% endif %}
+
+{% if c.syllabus and c.syllabus != empty %}
+### Syllabus
+{% for s in c.syllabus %}
+- {{ s | markdownify }}
+{% endfor %}
 {% endif %}
 
 {% if c.learning_objectives %}

@@ -32,7 +32,7 @@ Organizers will inform participants of the week schedule by email.
 | Week | Call | Date | Topic | Agenda |
 |------|------|------|-------|--------|
 {%- for w in schedule.weeks %}
-{%- capture w-desc %}**Week {{ w[0] }}** (start. {{ w[1].start }}){% endcapture %}
+{%- capture w-desc %}**Week {{ w[0] }}** {%- if program !='nebula'-%} (start. {{ w[1].start }}){%- endif -%}{% endcapture %}
 {%- for c in w[1].calls %}
 {%- capture date %}{% if c.type != "Mentor-Mentee" %}{{ c.date }} {% if c.time %}([{{ c.time | date: "%H:%M" }} Universal Time](https://arewemeetingyet.com/UTC/{{ c.date | date: "%Y-%m-%d" }}/{{ c.time | date: "%H:%M" }}/{{ cohort }}%20{{ c.type }}%20Call%20(Week%20{{ w[0] }}))){% endif %}{% endif %}{% endcapture %}
 | {{ w-desc }} | [{{ c.type }}]({% link {{ program }}/{{ cohort }}/index.md %}#{{ c.type | downcase | remove: "(" | remove: ")" | remove: "@" | remove: ":" | remove: "," | replace: " ", "-" | remove: "&"  }}-calls) | {{ date }} | [**{{ c.title }}**]({% link {{ program }}/{{ cohort }}/schedule.md %}#week-{{ w[0] }}) | {% if c.agenda %}{{ c.agenda }}{% endif %} |

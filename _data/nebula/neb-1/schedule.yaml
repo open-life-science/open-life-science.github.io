@@ -1,0 +1,232 @@
+# Schedule for the nebula neb-1
+---
+timeline:
+- date:
+  description: Call for Application opens
+  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
+- date:
+  description: Application webinar
+  type:
+  - Talk
+  - Q&A
+  notes:
+  recording:
+  details: Watch recordings from previous webinars on 
+    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+- date:
+  description: Application Clinic Call
+  type:
+  - Q&A
+  notes:
+  details: At this call, OLS team will be available to provide help if you have any
+    question related to your application
+- date:
+  description: Call for applications closed
+- date:
+  description: Successful applicants announced
+weeks:
+  '01':
+    start:
+    calls:
+    - date: March 12, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_ethos1
+      title: Ethos
+      recording: https://youtu.be/0-z7S1TM-Pk (part 1), https://youtu.be/7zupshFnOTM
+        (part 2)
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - virginiagarciaalonso
+      syllabus:
+      - What is Open Science?
+      - Why is Open Science important?
+      talks: []
+    - date: March 14, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_ethos2
+      title: Ethos
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - chadsansing
+      syllabus:
+      - Barriers for Open Science and Considerations when not to be open
+      - Open licences
+      talks: []
+  '02':
+    start:
+    calls:
+    - date: March 19, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_tools1
+      title: Tools
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - jafsia
+      syllabus:
+      - Open Science Strategies and Data Management Plans
+      talks: []
+    - date: March 21, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_tools2
+      title: Tools
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - saranjeetkaur
+      syllabus:
+      - 'General tools for Open Science: metadata, documentation, repositories and
+        persistent identifiers'
+      talks: []
+  '03':
+    start:
+    calls:
+    - date: March 26, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_data1
+      title: Data
+      recording: https://www.youtube.com/watch?v=3XMnL4AE8bE&t=32s
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - saravilla
+      syllabus:
+      - Introduction to Open Data
+      - FAIR principles
+      talks: []
+    - date: March 28, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_data2
+      title: Data
+      recording: 'https://youtu.be/Wss650ueQkk?si=-EXdQ8uwCpt-cm1f '
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - karegapauline
+      syllabus:
+      - 'Using Open Data: Repositories and data citation'
+      - 'Making Open Data: Open data formats, metadata and licences '
+      - 'Sharing Open Data: Steps and considerations to share open data'
+      talks: []
+  '04':
+    start:
+    calls:
+    - date: April 02, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_code1
+      title: Code
+      hosts:
+      - yochannah
+      - iramosp
+      expert: []
+      syllabus:
+      - Introduction to Open Code
+      - 'Using Open Code: repositories, software citation, considerations when using
+        open code'
+      talks: []
+    - date: April 04, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_code2
+      title: Code
+      recording: https://youtu.be/G6om6dvmNCM
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - amangoel185
+      syllabus:
+      - 'Programming Best Practices: version control, code review, README'
+      talks: []
+  '05':
+    start:
+    calls:
+    - date: April 09, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_results1
+      title: Results
+      recording: 
+        https://www.youtube.com/watch?v=34Ip-c8ROpk&list=PL1CvC6Ez54KBVZ38GiHIzQxW_LFuaOTYe&index=8
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - monica-granados
+      syllabus:
+      - Research outputs throughout the research cycle
+      - Reproducibility
+      - Contribution guidelines and giving recognition
+      talks: []
+    - date: April 11, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_results2
+      title: Results
+      hosts:
+      - yochannah
+      - iramosp
+      expert:
+      - dasaderi
+      syllabus:
+      - Open Access publications and preprints
+      talks: []
+  '06':
+    start:
+    calls:
+    - date: April 18, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_projects
+      title: Project presentations
+      recording: https://youtu.be/TwUm5bjh5JA
+      hosts:
+      - malvikasharan
+      - iramosp
+      syllabus:
+      - Final presentations by participants
+      talks: []
+  '07':
+    start:
+    calls:
+    - date: April 23, 2024
+      time: "12:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/nebula-1_projects
+      title: Project presentations
+      recording: https://youtu.be/HHFHKYsCQGM
+      hosts:
+      - yochannah
+      - iramosp
+      syllabus:
+      - Final presentations by participants
+      talks: []
+  '08':
+    start:
+    calls:
+    - date: April 30, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/nebula-1_wrap-up
+      title: Wrap up and goodbye
+      hosts:
+      - yochannah
+      - iramosp
+      syllabus:
+      - Wrap up and goodbye
+      talks: []

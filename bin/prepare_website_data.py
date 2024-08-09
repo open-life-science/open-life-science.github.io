@@ -274,7 +274,7 @@ artifact_dp = {
 }
 cohort_names = {
     "openseeds": "ols-",
-    "catalyst": "cat-",
+    "nebula":"neb-",
 }
 
 ### GENERAL METHODS
@@ -724,20 +724,26 @@ def update_call(call, row, people):
         call["duration"] = f"{format_duration(row['duration'])} min"
     if not pd.isnull(row["Note link"]):
         call["notes"] = row["Note link"]
-    if not pd.isnull(row["Title"]):
+    if "Title" in row and not pd.isnull(row["Title"]):
         call["title"] = row["Title"]
+    if "Module" in row and not pd.isnull(row["Module"]):
+        call["title"] = row["Module"]
     if not pd.isnull(row["Recording"]):
         call["recording"] = row["Recording"]
     if "Hosts" in row and not pd.isnull(row["Hosts"]):
         call["hosts"] = get_people_ids(row["Hosts"], people)
+    if "Expert" in row and not pd.isnull(row["Expert"]):
+        call["expert"] = get_people_ids(row["Expert"], people)
     elif "Call lead" in row and not pd.isnull(row["Call lead"]):
         call["hosts"] = get_people_ids(row["Call lead"], people)
     if "Facilitators" in row and not pd.isnull(row["Facilitators"]):
         call["facilitators"] = get_people_ids(row["Facilitators"], people)
-    if not pd.isnull(row["Type"]):
+    if "Type" in row and not pd.isnull(row["Type"]):
         call["type"] = row["Type"]
     if "Learning objectives" in row and not pd.isnull(row["Learning objectives"]):
         call["learning_objectives"] = format_into_list(row["Learning objectives"])
+    if "Syllabus" in row and not pd.isnull(row["Syllabus"]):
+        call["syllabus"] = format_into_list(row["Syllabus"])
     if "Before" in row and not pd.isnull(row["Before"]):
         call["before"] = format_into_list(row["Before"])
     if "After" in row and not pd.isnull(row["After"]):
@@ -755,11 +761,17 @@ def check_same_event(call, row):
     :param call: call information from YAML
     :param row: call information from CSV
     """
-    same = call["type"] == row["Type"]
+    if "type" in call and "type" in row:
+        same = call["type"] == row["Type"]
+    else:
+        same = True
     if "date" in call and pd.notna(row["date"]):
         same = same and (call["date"] == row["date"].strftime("%B %d, %Y"))
     if "title" in call:
-        same = same and (call["title"] == row["Title"])
+        if "Title" in row:
+            same = same and (call["title"] == row["Title"])
+        elif "Module" in row:
+            same = same and (call["title"] == row["Module"])
     return same
 
 
@@ -791,23 +803,65 @@ def prepare_schedule_df(schedule_df):
 
     :param schedule_df: data frame with schedule
     """
-    df = schedule_df.rename(columns={"Start Date": "date", "Start Time": "time", "Duration": "duration"}).assign(
-        date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
-        time=lambda x: pd.to_datetime(x["time"], format="%H:%M:%S", errors="coerce"),
-        duration=lambda x: pd.to_timedelta(
-            x["duration"],
-        ),
-    )
+    if 'date' in schedule_df.columns and 'time' in schedule_df.columns:
+        # If standard column names are found
+        df = schedule_df.rename(columns={"date": "date", "time": "time", "duration": "duration"}).assign(
+            date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
+            time=lambda x: pd.to_datetime(x["time"], format="%H:%M:%S", errors="coerce"),
+            duration=lambda x: pd.to_timedelta(x["duration"]),
+        )
+    elif 'Start Date' in schedule_df.columns and 'Start Time' in schedule_df.columns:
+        # Handling for programs like openseeds
+        df = schedule_df.rename(columns={"Start Date": "date", "Start Time": "time", "Duration": "duration"}).assign(
+            date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
+            time=lambda x: x["time"].apply(lambda t: pd.to_datetime(t).time()),
+            duration=lambda x: pd.to_timedelta(x["duration"]),
+        )
+    elif 'Date' in schedule_df.columns and 'Start Time (UTC)' in schedule_df.columns:
+        # For Nebula-specific column names
+        df = schedule_df.rename(columns={"Date": "date", "Start Time (UTC)": "time", "End Time (UTC)": "duration"}).assign(
+            date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
+            time=lambda x: x["time"].apply(lambda t: pd.to_datetime(t)),
+            duration=lambda x: x["duration"].apply(lambda t: pd.to_datetime(t)),
+        )
+        df["duration"] = df["duration"] - df["time"]
+        df.assign(time=lambda x: x["time"].apply(lambda t: t.time()),)
+    else:
+        raise KeyError("The expected columns for date and time are not found in the spreadsheet")
     return df
 
 
-def add_event_information(schedule, schedule_df, people):
+def add_call(row, week_calls, people):
+    """
+    Add call
+
+    :param row:
+    :param schedule:
+    :param people:
+    """
+    found = False
+    for call in week_calls:
+        if check_same_event(call, row):
+            call = update_call(call, row, people)
+            found = True
+            last_call = call
+
+    if not found:
+        call = update_call({}, row, people)
+        week_calls.append(call)
+        last_call = call
+
+    return last_call
+
+
+def add_event_information(schedule, schedule_df, people, program):
     """
     Load event file as data frame and add information into schedule
 
     :param schedule: dictionary with schedule details
     :param schedule_df: data frame with schedule
     :param people: dictionary with people information (key: name, value: id in people.yaml)
+    :param program: Training program
     """
     df = prepare_schedule_df(schedule_df)
 
@@ -820,32 +874,26 @@ def add_event_information(schedule, schedule_df, people):
             print(f"Adding week {w} to the schedule")
             schedule["weeks"][w] = {"start": "", "calls": []}
 
-        if row["Type"] == "Week":
-            if schedule["weeks"][w]["start"] != "":
-                if schedule["weeks"][w]["start"] != row["date"].strftime("%B %d, %Y"):
-                    if schedule["weeks"][w]["start"] is None:
-                        schedule["weeks"][w]["start"] = row["date"].strftime("%B %d, %Y")
-                    else:
-                        print(f"Different start date for week {w}")
-                        print(f"In schedule file: {schedule['weeks'][w]['start']}")
-                        print(f"In event file: {row['date'].strftime('%B %d, %Y')}")
-            else:
-                schedule["weeks"][w]["start"] = row["date"].strftime("%B %d, %Y")
-        elif row["Type"] in CALL_TYPES:
-            found = False
-            for call in schedule["weeks"][w]["calls"]:
-                if check_same_event(call, row):
-                    call = update_call(call, row, people)
-                    found = True
-                    last_call = call
-
-            if not found:
-                call = update_call({}, row, people)
-                schedule["weeks"][w]["calls"].append(call)
-                last_call = call
-
-        elif row["Type"] == "Presentation":
-            last_call["talks"].append(update_talks({}, row, people))
+        if program == "openseeds":
+            if row["Type"] == "Week":
+                if schedule["weeks"][w]["start"] != "":
+                    if schedule["weeks"][w]["start"] != row["date"].strftime("%B %d, %Y"):
+                        if schedule["weeks"][w]["start"] is None:
+                            schedule["weeks"][w]["start"] = row["date"].strftime("%B %d, %Y")
+                        else:
+                            print(f"Different start date for week {w}")
+                            print(f"In schedule file: {schedule['weeks'][w]['start']}")
+                            print(f"In event file: {row['date'].strftime('%B %d, %Y')}")
+                else:
+                    schedule["weeks"][w]["start"] = row["date"].strftime("%B %d, %Y")
+            elif row["Type"] in CALL_TYPES:
+                add_call(row, schedule["weeks"][w]["calls"], people)
+                
+            elif row["Type"] == "Presentation":
+                last_call["talks"].append(update_talks({}, row, people))
+        
+        elif program == "nebula":
+            add_call(row, schedule["weeks"][w]["calls"], people)
 
     return schedule
 
@@ -1521,10 +1569,9 @@ def update_schedule(program, cohort, schedule_df):
     # load schedule
     schedule = load_schedule(program, cohort)
     # add event information to schedule
-    schedule = add_event_information(schedule, schedule_df, reorder_people)
+    schedule = add_event_information(schedule, schedule_df, reorder_people, program)
     # dump schedule dictionary into schedule file
     dump_schedule(schedule, program, cohort)
-
 
 def get_people(program, cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp):
     """
@@ -1942,7 +1989,11 @@ if __name__ == "__main__":
             schedule_df = pd.read_csv(args.schedule_url)
         else:
             schedule_df = pd.read_csv(Path(args.schedule_fp))
-        update_schedule(args.program, build_cohort_name(args.cohort, args.program), schedule_df)
+        try:
+            update_schedule(args.program, build_cohort_name(args.cohort, args.program), schedule_df)
+        except KeyError as e:
+            print(f"Error in {args.program} schedule processing: {e}")
+            raise e
     elif args.command == "getpeople":
         get_people(
             args.program,

@@ -1,0 +1,12 @@
+# List of experts, possible mentors and organizers for nebula neb-1
+#
+#
+# People should be also in people.yaml file and linked using their GitHub username
+# Ordering by expertise should be done by running the bin/sort-expertises.py script
+---
+experts: []
+organizers:
+- bebatut
+- malvikasharan
+- yochannah
+possible-mentors: []

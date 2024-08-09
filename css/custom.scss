@@ -559,3 +559,74 @@ code {
 .eventpage-details{
   padding-bottom: 3rem;
 }
+
+// Styling for Nebula landing page
+.nebula-about {
+  font-family: 'Raleway', sans-serif;
+
+  .section-title {
+    color: #000;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .section-title::before {
+  content: ' ';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #139D3D;
+  border-radius: 50%;
+  margin-right: 10px;
+  }
+
+  .card {
+    border: none;
+    box-shadow: none;
+
+    .card-content {
+      display: flex;
+      align-items: center;
+
+      .icon-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #F3F4F6;
+        margin-right: 15px;
+
+        .fas {
+          font-size: 24px;
+          color: #139D3D;
+        }
+      }
+
+      .content {
+      flex: 1;
+      }
+    }
+  }
+
+  .fa-user-friends, .fa-clipboard, .fa-youtube, 
+  .fa-file-powerpoint, .fa-file, 
+  .fa-external-link-square-alt {
+    color: #65C5D0;
+  }
+
+  .fa-user-tie {
+  color: #E7971B;
+  }
+
+  .buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+
+  .button.is-primary {
+    margin-right: 10px;
+    }
+  }
+}
