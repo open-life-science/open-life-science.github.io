@@ -96,6 +96,47 @@ registration_bg_color: "#143132"
     </div>
 </section>
 
+<section class="section" style="background-color: {{ page.about_bg_color }}">
+  <div class="container">
+    <h2 class="section-title is-3">Pricing</h2>
+    <div class="columns">
+      <div class="column">
+        <div class="box">
+          <h3 class="title is-4">Individual Rate</h3>
+          <ul>
+            <li>For individuals</li>
+          </ul>
+          <br>
+          <br>
+          <p class="title is-2">$900 USD</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <h3 class="title is-4">Team Bundle</h3>
+          <ul>
+            <li>3-9 tickets</li>
+            <li>For small teams or organizations</li>
+          </ul>
+          <br>
+          <p class="title is-2">$600 USD</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <h3 class="title is-4">Organization Bundle</h3>
+          <ul>
+            <li>10 tickets or more</li>
+            <li>For larger organizations aiming to provide training to multiple community members</li>
+          </ul>
+          <p class="title is-2">$400 USD</p>
+        </div>
+      </div>
+    </div>
+    <p>Fee waivers are available for a limited number Of Participants. Please complete this short <a href="#">Fee Waiver Request Form</a>.</p>
+  </div>
+</section>
+
 <section class="section" style="background-color: {{ page.registration_bg_color }};">
     <div class="container">
         <h2 class="section-title is-size-3 has-text-white">Registration is now open for both participants and experts.</h2>
