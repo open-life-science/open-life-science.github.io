@@ -1,11 +1,11 @@
 ---
 layout: page
 title: 'Transform to open science in collaboration with NASA.'
-image: /images/index.jpg
+image: /images/nebula/neb-hero-image.png
 photos:
-  name: Bérénice Batut
+  name: Jilaga Nneoma
   license: CC BY-SA 4.0
-  url: https://flic.kr/p/2gHMJah
+  url: https://we-are-ols.org/people#jilaga
 about_bg_color: "#FFF9EC"
 program_overview_bg_color: "#FFFFFF"
 training_format_bg_color: "#E0F9FC"
