@@ -98,9 +98,9 @@ Participants will share a short presentation on their work as a graduation requi
 
 <section class="section" style="background-color: {{ page.program_overview_bg_color }};">
 <div class="container">
-<h2 class="section-title is-size-3">Cohort schedule</h2>
-<p>The schedule for individual cohorts is shown below:</p>
-<div class="box has-text-centered" markdown="1">
+    <h2 class="section-title is-size-3">Cohort schedule</h2>
+        <p>The schedule for individual cohorts is shown below:</p>
+            <div class="box has-text-centered" markdown="1">
 | Cohort timeline                 |                                | Open Science 101 Curriculum modules |  Weeks           ||||||
 |---------------------------------|--------------------------------|-----------------------|:-:|:-:|:-:|:-:|:-:|:-:|
 |                                 |                                |                       | 1 | 2 | 3 | 4 | 5 | 6 |   
@@ -174,11 +174,20 @@ Participants will share a short presentation on their work as a graduation requi
 <section class="section" style="background-color: {{ page.program_overview_bg_color }};">
     <div class="container">
         <h2 class="section-title is-size-3">Upcoming sessions</h2>
-        <p>The expected timeline is shown below:</p>
-        <div class="box has-text-centered">
-            <p>Insert timeline here</p>
-        </div>
-    </div>
+        <p>The expected timeline for upcoming sessions in 2024 and 2025 is below:</p>
+        <div class="box has-text-centered" markdown="1">
+
+| Cohort timeline  | Aug | Sep | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul |
+|------------------|-----|-----|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Cohort 2**     |     |     |  X  |  X  |     |     |     |     |     |     |     |     |       
+| **Cohort 3**     |     |     |     |     |     |  X  |  X  |     |     |     |     |     |    
+| **Cohort 4**     |     |     |     |     |     |     |     |     |  X  |  X  |     |     |
+| **Cohort 5**     |     |     |     |     |     |     |     |     |     |     |  X  |  X  | 
+
+
+</div>
+<em>Si te interesa participar de las cohortes de formación en ciencia abierta de NASA-TOPS en idioma español, por favor contacta a nuestra comunidad amiga <a href="https://www.metadocencia.org/">MetaDocencia</a>.</em>
+</div>
 </section>
 
 <section class="section" style="background-color: {{ page.about_bg_color }};">
