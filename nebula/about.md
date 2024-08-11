@@ -157,4 +157,11 @@ registration_bg_color: "#143132"
         </div>
     </div>
 </section>
+
+<section class="section" style="background-color: {{ page.about_bg_color }};">
+    <div class="container">
+        <h2 class="section-title is-size-3">want more information?</h2>
+        <p markdown="1">We will be updating this post as we finalize further details. Watch this space! For more information, you can read our [full proposal](https://zenodo.org/records/8250979) jointly awarded with our partner organization [MetaDocencia](https://www.metadocencia.org/).</p>
+    </div> <a></a>
+</section>
 </div>
