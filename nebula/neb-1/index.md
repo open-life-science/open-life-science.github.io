@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Welcome to the 1st cohort of Nebula!
-image: /images/syllabus.jpg
+image: /images/nebula/neb-hero-image.png
 photos:
-  name: Niklas Morberg
-  license: CC BY-NC 2.0
-  url: https://flic.kr/p/5BXB6s
+  name: Jilaga Nneoma
+  license: CC BY-SA 4.0
+  url: https://we-are-ols.org/people#jilaga
 toc: true
 ---
 

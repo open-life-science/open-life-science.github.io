@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Projects & Participants
-image: /images/ols-1/project-participants.jpg
+image: /images/nebula/neb-hero-image.png
 photos:
-  name: Andrew West
-  license: CC BY-NC-SA 2.0
-  url: https://flic.kr/p/2aBxKw
+  name: Jilaga Nneoma
+  license: CC BY-SA 4.0
+  url: https://we-are-ols.org/people#jilaga
 ---
 
 {% assign schedule = site.data.nebula[cohort].metadata %}
