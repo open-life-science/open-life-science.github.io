@@ -166,7 +166,7 @@ Participants will share a short presentation on their work as a graduation requi
         <p class="has-text-white">We look forward to having you on board for this exploration into open science!</p>
         <div class="buttons is-right">
             <a href="#" class="button is-primary">Register as a participant</a>
-            <a href="#" class="button is-light">Register as an expert</a>
+            <a href="#" class="button is-primary">Register as an expert</a>
         </div>
     </div>
 </section>
