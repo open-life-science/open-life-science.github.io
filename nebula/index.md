@@ -2,11 +2,11 @@
 layout: default
 title: OLS & NASA Transform to Open Science
 description: Teaching NASA-TOPS Open Science 101 in English
-image: /images/index.jpg
+image: /images/nebula/neb-hero-image.png
 photos:
-  name: Bérénice Batut
+  name: Jilaga Nneoma
   license: CC BY-SA 4.0
-  url: https://flic.kr/p/2gHMJah
+  url: https://we-are-ols.org/people#jilaga
 redirect_from:
   - /nasa
   - /nasa/
