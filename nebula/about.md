@@ -157,7 +157,7 @@ Participants will share a short presentation on their work as a graduation requi
         </div>
       </div>
     </div>
-    <p>Fee waivers are available for a limited number of Participants. Please complete this short <a href="https://forms.gle/evYzYJxzLeGifEib9">Fee Waiver Request Form</a>.</p>
+    <p>Fee waivers are available for a limited number of participants. Please complete this short <a href="https://forms.gle/evYzYJxzLeGifEib9">Fee Waiver Request Form</a>.</p>
     <p>We review requests on a rolling basis. The last day to request a waiver for our upcoming cohort is September 30, 2024.</p>
   </div>
 </section>
@@ -166,7 +166,7 @@ Participants will share a short presentation on their work as a graduation requi
     <div class="container">
         <h2 class="section-title is-size-3 has-text-white">Registration is now open!</h2>
         <p class="has-text-white">
-        Our next offering will run on Tuesdays and Thursdays beginning <strong>October 22, 2024, until November 28, 2024</strong>. Sessions are scheduled at 16:00 - 17:30 (UTC).</p>
+        Our next offering will run on Tuesdays and Thursdays beginning October 22, 2024, until November 28, 2024. Sessions are scheduled at 16:00 - 17:30 (UTC).</p>
         <p class="has-text-white">We look forward to having you on board for this exploration into open science!</p>
         <div class="buttons is-right">
             <a href="https://events.humanitix.com/ols-nebula" class="button is-primary">Register as a participant</a>
