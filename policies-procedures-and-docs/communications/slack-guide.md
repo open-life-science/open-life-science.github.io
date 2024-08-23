@@ -55,7 +55,7 @@ Here is a list of default Slack Channels that you will join automatically:
 You will be invited to join these channels when you participate in an Open Seed or Nebula cohort:
 - **:seedling: Open Seeds:** all channels start with `ols-X-something` (replace X with the number of your cohort: 4, 5, 6).
   - `#ols-x-cohort`: all cohort members are added to a channel created for their cohort 
-  - `#OLS-X-expert`: all experts listed for a cohort are added to a channel created for their cohort to maintain communication with the OLS team and other experts.
+  - `#ols-x-expert`: all experts listed for a cohort are added to a channel created for their cohort to maintain communication with the OLS team and other experts.
   - `#OLS-X-mentors`: For mentors, there is a private channel to share and exchange information among the mentors of their respective cohorts.
 - **:rocket: Nebula:** `nebula-cohort-x`, or `nebula-topic-here`.
 
