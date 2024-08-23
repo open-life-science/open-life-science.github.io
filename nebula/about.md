@@ -17,10 +17,10 @@ registration_bg_color: "#143132"
     <div class="container">
         <div class="columns">
             <div class="column is-two-thirds">
-                <h2 class="section-title is-size-3">About</h2>
-                <p>Funded by NASA, OLS will offer 6-week-long virtual cohorts — Nebula — not just once, but five times each year over the next three years.</p>
-                <p>We will bring our cohort-based approach, incorporating hands-on learning and individual coaching throughout the training.</p>
-                <p>Register your interest as a <a href="#">participant</a>, <a href="#">expert</a> or <a href="#">facilitator</a>.</p>
+              <h2 class="section-title is-size-3">About</h2>
+              <p><strong>Get ready for an exciting new series of cohorts on open science in collaboration with <a href="https://nasa.github.io/Transform-to-Open-Science/">NASA-TOPS</a>.</strong></p>
+              <p>Funded by <a href="https://www.nasa.gov/">NASA</a>, OLS offers 6-week-long virtual cohorts, bringing our cohort-based approach,  with hands-on learning and individual coaching throughout the training.</p>
+              <p> <a href="https://events.humanitix.com/ols-nebula">Register now for our upcoming cohort!</a>.</p>
             </div>
             <div class="column">
                 <div class="card">
@@ -41,7 +41,7 @@ registration_bg_color: "#143132"
                         </div>
                         <div class="content">
                             <strong>Training calls on open science</strong>
-                            <p>Regular training calls and talks led by experts in open science</p>
+                            <p>Weekly training calls and talks led by experts in open science</p>
                         </div>
                     </div>
                 </div>
@@ -122,6 +122,7 @@ Participants will share a short presentation on their work as a graduation requi
 <section class="section" style="background-color: {{ page.about_bg_color }}">
   <div class="container">
     <h2 class="section-title is-3">Pricing</h2>
+    <p>The prices listed are per ticket. We offer discounted rates for teams and organizations purchasing multiple tickets together. To qualify for a bundle discount, you must purchase at least the minimum number of tickets required for each bundle.</p>
     <div class="columns">
       <div class="column">
         <div class="box">
@@ -156,17 +157,19 @@ Participants will share a short presentation on their work as a graduation requi
         </div>
       </div>
     </div>
-    <p>Fee waivers are available for a limited number Of Participants. Please complete this short <a href="#">Fee Waiver Request Form</a>.</p>
+    <p>Fee waivers are available for a limited number of participants. Please complete this short <a href="https://forms.gle/evYzYJxzLeGifEib9">Fee Waiver Request Form</a>.</p>
+    <p>We review requests on a rolling basis. The last day to request a waiver for our upcoming cohort is September 30, 2024.</p>
   </div>
 </section>
 
 <section class="section" style="background-color: {{ page.registration_bg_color }};">
     <div class="container">
-        <h2 class="section-title is-size-3 has-text-white">Registration is now open for both participants and experts.</h2>
+        <h2 class="section-title is-size-3 has-text-white">Registration is now open!</h2>
+        <p class="has-text-white">
+        Our next offering will run on Tuesdays and Thursdays beginning October 22, 2024, until November 28, 2024. Sessions are scheduled at 16:00 - 17:30 (UTC).</p>
         <p class="has-text-white">We look forward to having you on board for this exploration into open science!</p>
         <div class="buttons is-right">
-            <a href="#" class="button is-primary">Register as a participant</a>
-            <a href="#" class="button is-primary">Register as an expert</a>
+            <a href="https://events.humanitix.com/ols-nebula" class="button is-primary">Register as a participant</a>
         </div>
     </div>
 </section>
