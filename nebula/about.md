@@ -17,11 +17,10 @@ registration_bg_color: "#143132"
     <div class="container">
         <div class="columns">
             <div class="column is-two-thirds">
-                <p><strong>Get ready for an exciting new series of cohorts on open science in collaboration with <a href="https://nasa.github.io/Transform-to-Open-Science/">NASA-TOPS</a>.</strong></p>
-
-                <p>Funded by <a href="https://www.nasa.gov/">NASA</a>, OLS offers 6-week-long virtual cohorts, bringing our cohort-based approach,  with hands-on learning and individual coaching throughout the training.</p>
-                
-                <p> <a href="https://events.humanitix.com/ols-nebula">Register now for our upcoming cohort!</a>.</p>
+              <h2 class="section-title is-size-3">About</h2>
+              <p><strong>Get ready for an exciting new series of cohorts on open science in collaboration with <a href="https://nasa.github.io/Transform-to-Open-Science/">NASA-TOPS</a>.</strong></p>
+              <p>Funded by <a href="https://www.nasa.gov/">NASA</a>, OLS offers 6-week-long virtual cohorts, bringing our cohort-based approach,  with hands-on learning and individual coaching throughout the training.</p>
+              <p> <a href="https://events.humanitix.com/ols-nebula">Register now for our upcoming cohort!</a>.</p>
             </div>
             <div class="column">
                 <div class="card">
