@@ -52,17 +52,22 @@ Here is a list of default Slack Channels that you will join automatically:
 
 #### Cohort-specific channels
 
-You will be invited to join these channels when you participate in a cohort:
-- `#OLS-X-cohort`: all cohort members are added to a channel created for their cohort (replace X with the number of your cohort: 4, 5, 6).
-- `#OLS-X-expert`: all experts listed for a cohort are added to a channel created for their cohort to maintain communication with the OLS team and other experts.
-- `#OLS-X-mentors`: For mentors, there is a private channel to share and exchange information among the mentors of their respective cohorts.
+You will be invited to join these channels when you participate in an Open Seed or Nebula cohort:
+- **:seedling: Open Seeds:** all channels start with `ols-X-something` (replace X with the number of your cohort: 4, 5, 6).
+  - `#OLS-X-cohort`: all cohort members are added to a channel created for their cohort 
+  - `#OLS-X-expert`: all experts listed for a cohort are added to a channel created for their cohort to maintain communication with the OLS team and other experts.
+  - `#OLS-X-mentors`: For mentors, there is a private channel to share and exchange information among the mentors of their respective cohorts.
+- **:rocket: Nebula:** `nebula-cohort-x`, or `nebula-topic-here`.
 
 #### Other channels
 
 - `#opportunities-and-jobs`: All OLS members are invited to share announcements that could be new opportunities for the OLS members, including jobs.
 - `#events`: This is a place to share events that could be relevant for the OLS members. We encourage you to share events that you organise and would like others from the community to attend.
 - `#interesting-reading`: Any articles, books, posts, presentations or other resources that could be useful for the OLS members.
-- `#ols-español`: This channel uses Spanish as the primary language for all interactions. Here you can also share opportunities relevant to Spanish-speaking communities.
+- **language-specific channels**
+  - `#ols-lang-español`: This channel uses Spanish as the primary language for all interactions. Here you can also share opportunities relevant to Spanish-speaking communities.
+  - `#ols-lang-netherlands` and `#ols-lang-italiano` are quieter but you are welcome to join!
+- **Topic-specific public groups** try to use `interest-group-name-here`, to sort the groups together.
 
 There are many more channels that you can explore by clicking three dots next to the top header 'Channels' --> then choosing the third option 'Browse channels'.
 
