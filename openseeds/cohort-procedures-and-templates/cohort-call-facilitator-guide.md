@@ -80,34 +80,47 @@ _Time commitment: 90 minutes per call, please arrive 5-10 minutes early so we ca
 
 ### Video Facilitator
 
-**These facilitators hold the post-call responsibility mainly.**
+**Video facilitators are responsible for the post-call tasks.**
 
-What you will need: 
+What you need before starting: 
 
-* Please ask the organising team for credentials to [otter.ai](http://otter.ai/), YouTube and Zoom. We share this information via Keybase - please create a Keybase account if you don’t have one already.
-* You can publish the video for OLS also using your own account. Please create a YouTube account if you don’t have one and ask the Community Coordinator to give you appropriate access to the OLS YouTube account
-* Access to OLS’ shared drive with the slide template for the video thumbnail that you can edit with the cohort call details.
-* When the video is published, please share it with the cohort directly via Slack. 
-
-#### Main post-cohort responsibilities: Please try doing this during the week when the cohort call has occurred.
-
-_Time commitment: 120-150 minutes per call. Please complete this task latest by 9 pm UK Time on the Monday after the call,so that we can send the weekly cohort emails with the link to the recording!_
-
-Below we provide a checklist. For a detailed tutorial, please refer to [the detailed tutorial](https://docs.google.com/document/d/1c92qDtKLvEM3stKWh0z0uIsqyyLWG37nnsgekbsiiKE/edit#heading=h.hfhzrjvnj7qh).
+- [ ] Please ask the organising team access to:
+  - [ ] [Otter.ai](http://otter.ai/).
+  - [ ] OLS YouTube channel. Create a YouTube account with your personal email, and ask the cohort coordinator to give you editor access to the OLS YouTube account.
+- [ ] Link to Zoom recordings.
+- [ ] [Slide template](https://docs.google.com/presentation/d/1lDLg0xztRfyEgdlJWFDHJMRW6c6k1Yyh02vux8HKDQA/edit#slide=id.g2127687abdb_2_2) for the video thumbnail. 
+- [ ] Link to the cohort planning sheet.
 
 
-1. Download from Zoom cloud recordings
-2. Upload to Otter.ai (_will need a few minutes to process_)
-3. Upload to the OLS YouTube account
-4. Create a front page slide for the video - templates are available in Google Drive
-5. Make sure the YouTube video is added to the current cohort playlist
-6. Correct Otter.ai transcripts (_make sure to use the uploaded video, not the original transcript, as the timings won't match the video_)
-7. Download the corrected transcript as a .srt file from Otter
-8. Upload it to the YouTube video
-9. Post a link to the recording in the OLS Slack! 🙌
+#### Please try doing the video processing on the same week of the cohort call, so we can add the link to the recording to the weekly cohort mailing we send every Monday to all cohort members.
 
+_Time commitment: 120-150 minutes per call_
 
-### Other helpful references
+Below we provide a summary checklist. For a detailed tutorial, please refer to [the detailed tutorial](https://docs.google.com/document/d/1c92qDtKLvEM3stKWh0z0uIsqyyLWG37nnsgekbsiiKE/edit#heading=h.hfhzrjvnj7qh).
+
+- [ ] 1. Download the video from Zoom cloud recordings.
+- [ ] 2. Upload the video to Otter.ai (_will need a few minutes to process_).
+- [ ] 3. Upload video to the OLS YouTube account.
+- [ ] 4. Create a thumbnail for the video with the cohort call details using the template.
+- [ ] 5. Make sure the YouTube video is added to the current cohort playlist.
+- [ ] 6. Correct Otter.ai transcripts (_make sure to use the uploaded video, not the original transcript, as the timings won't match the video_)
+- [ ] 7. Download the corrected transcript as a .srt file from Otter.
+- [ ] 8. Upload it to the YouTube video.
+- [ ] 9. Post a link to the recording in the OLS Slack! 
+
+#### After publishing the video, fill in the following information in the cohort planning sheet:
+
+- [ ] Add the link of YouTube video (column "Recording")
+- [ ] In the same column, add the corresponding YouTube link at the exact time each individual talk starts: on YouTube, click "Share", tick "Start at" so that the starting time of each talk shows up, then click "Copy" and paste the link in the spreadsheet.
+
+After you've completed these tasks, please fill out the [honorarium form](https://openlifescience.civicrm.org/civicrm/honorarium).
+
+#### ❓ How to get help
+
+* Do you have any technical questions about the tasks? Post them in the Slack channel `ols-cohort-call-facilitators`. 
+* You are also welcome to contact any of the cohort coordinators via Slack or email. 
+
+### Resources
 
 A few references that can help us expand on these roles are:
 
