@@ -10,13 +10,13 @@ photos:
 ---
 
 
-We are very excited to create this role in OLS for the returning members from the previous cohorts of OLS.
+We are very excited to create these roles in OLS for returning members from the previous cohorts of OLS.
 
 We want to invite support from our community members to help make the cohorts successful.
 
 At the same time, our hope is to share our practices for training and planning so you can take them into your projects and community.
 
-Our cohort call facilitators share some of the cohort call-related management roles with the OLS team. 
+Facilitators share some of the cohort call-related management roles with the OLS team. 
 
 Please identify which week you have signed up for and who the cohort call lead is.
 
@@ -115,7 +115,7 @@ Below we provide a summary checklist. For a detailed tutorial, please refer to [
 
 After you've completed these tasks, please fill out the [honorarium form](https://openlifescience.civicrm.org/civicrm/honorarium).
 
-#### ❓ How to get help
+### ❓ How to get help
 
 * Do you have any technical questions about the tasks? Post them in the Slack channel `ols-cohort-call-facilitators`. 
 * You are also welcome to contact any of the cohort coordinators via Slack or email. 
