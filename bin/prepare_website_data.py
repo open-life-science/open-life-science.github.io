@@ -1039,8 +1039,11 @@ def extract_talks(program):
             for call in week["calls"]:
                 if "talks" in call:
                     for talk in call["talks"]:
+                        if talk == {}:
+                            continue
                         talk = dict(talk)
-                        talk["date"] = call["date"]
+                        if "date" in call:
+                            talk["date"] = call["date"]
                         talk["cohort"] = f"{cohort}"
                         if "title" not in talk:
                             talk["title"] = talk["tag"]
