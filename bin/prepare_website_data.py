@@ -1186,7 +1186,11 @@ def get_cohort_name(c, program):
     :param c: Path object to cohort data
     :param program: Training program
     """
-    i = c.name.split("-")[1]
+    split_name = c.name.split("-")
+    i = split_name[1]
+    ext = split_name[-1]
+    if i != ext:
+        i = f"{i}-{ext}"
     return build_cohort_name(i, program)
 
 
