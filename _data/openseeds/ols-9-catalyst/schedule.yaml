@@ -266,3 +266,7 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
+    - duration: 30 min
+      title: 8th mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []

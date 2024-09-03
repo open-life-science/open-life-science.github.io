@@ -29,15 +29,7 @@ weeks:
     start: ''
     calls:
     - duration: 60 min
-      title: Mentor onboarding group 1
-      type: Mentor
-      talks: []
-    - duration: 60 min
-      title: Mentor onboarding group 2
-      type: Mentor
-      talks: []
-    - duration: 60 min
-      title: Mentor onboarding group 3
+      title: Mentor invitations
       type: Mentor
       talks: []
   '01':
@@ -47,12 +39,6 @@ weeks:
       duration: 30 min
       title: Facilitators onboarding and training
       type: Mentor-Mentee
-      talks: []
-    - date: September 18, 2024
-      time: "08:00"
-      duration: 180 min
-      title: Mentor onboarding
-      type: Mentor
       talks: []
     - date: September 13, 2024
       time: "16:00"
@@ -76,8 +62,14 @@ weeks:
   '03':
     start: September 30, 2024
     calls:
+    - duration: 30 min
+      title: 1st Mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
     - date: October 02, 2024
+      time: "16:00"
       duration: 90 min
+      notes: https://bit.ly/ols-9-week-03
       title: Welcome to Open Seeds
       type: Cohort
       talks:
@@ -95,8 +87,6 @@ weeks:
         tag: Open Canvas
       - title: Project Roadmapping
         tag: Project Roadmapping
-      time: "16:00"
-      notes: https://bit.ly/ols-9-week-03
   '04':
     start: October 07, 2024
     calls:
@@ -142,12 +132,12 @@ weeks:
   '05':
     start: October 14, 2024
     calls:
-    - date: October 16, 2024
-      duration: 30 min
-      title: Mentor-mentee meeting
+    - duration: 30 min
+      title: 2nd Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - time: "16:00"
+    - date: October 16, 2024
+      time: "16:00"
       duration: 90 min
       notes: https://bit.ly/ols-9-week-05
       title: GitHub tutorial for beginners
@@ -168,7 +158,6 @@ weeks:
         tag: GitHub Introduction
       - title: Creating a small website with GitHub
         tag: GitHub Introduction
-      date: October 16, 2024
   '06':
     start: October 21, 2024
     calls:
@@ -200,19 +189,8 @@ weeks:
   '07':
     start: October 28, 2024
     calls:
-    - date: October 30, 2024
-      duration: 30 min
-      title: 4th mentor-mentee meeting
-      type: Mentor-Mentee
-      talks: []
-    - time: "16:00"
-      duration: 30 min
-      notes: https://bit.ly/ols-9-week-07
-      title: Q&A call
-      type: Q&A
-      talks: []
     - duration: 30 min
-      title: Mentor-mentee meeting
+      title: 3rd Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
     - date: October 30, 2024
@@ -224,7 +202,8 @@ weeks:
       talks:
       - title: Introduction to Open Leadership in Practice
         tag: Open Leadership in Practice
-      - tag: Open Leadership in Practice
+      - title: Speakers' talks
+        tag: Open Leadership in Practice
   '08':
     start: November 04, 2024
     calls:
@@ -252,26 +231,7 @@ weeks:
     start: November 11, 2024
     calls:
     - duration: 30 min
-      title: 5th mentor-mentee meeting
-      type: Mentor-Mentee
-      talks: []
-    - date: November 13, 2024
-      time: "09:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-9-week-09
-      title: Open Leadership in Practice
-      type: Skill-up
-      learning_objectives:
-      - Recall non traditional (academic) career path
-      - Appreciate different leaderships
-      talks:
-      - title: Introduction to Open Leadership in Practice
-        tag: Open Leadership in Practice
-      - tag: Open Leadership in Practice
-      - tag: Open Leadership in Practice
-      - tag: Open Leadership in Practice
-    - duration: 30 min
-      title: Mentor-mentee meeting
+      title: 4th Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
     - date: November 13, 2024
@@ -284,9 +244,9 @@ weeks:
       - Recall non traditional (academic) career path
       - Appreciate different leaderships
       talks:
-      - title: Introduction to Open Leadership in Practice
-        tag: Open Leadership in Practice
-      - tag: Open Leadership in Practice
+      - title: Good Coding Practices
+      - title: Code Review
+      - title: Package Managements
   '10':
     start: November 18, 2024
     calls:
@@ -311,31 +271,8 @@ weeks:
   '11':
     start: November 25, 2024
     calls:
-    - date: November 27, 2024
-      duration: 30 min
-      title: 6th mentor-mentee meeting
-      type: Mentor-Mentee
-      talks: []
-    - time: "16:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-9-week-11
-      title: 'Tooling for Collaboration: Open-source software in practice'
-      type: Skill-up
-      learning_objectives:
-      - Apply good coding practices to your software
-      - Review code
-      - Identify package management for your software
-      - 'Make your software ready for open-source- '
-      talks:
-      - title: Open-source software in practice
-      - title: 'Good Coding Practices '
-        tag: Good Coding Practices
-      - title: Code Review
-        tag: Code Review
-      - title: Package Managements
-        tag: Package Management
     - duration: 30 min
-      title: Mentor-mentee meeting
+      title: 5th Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
     - date: November 27, 2024
@@ -362,23 +299,6 @@ weeks:
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-9-week-12
-      title: Personal Management
-      type: Cohort
-      learning_objectives:
-      - Define Open Science and Responsible Research
-      - List the different principles of Open Science
-      - Give examples of 3 use cases of the different Open Science principles
-      talks:
-      - title: Personal Ecology and Self Care
-        tag: Personal Ecology
-    - duration: 30 min
-      title: Open discussion and share out
-      type: Q&A
-      talks: []
-    - date: December 04, 2024
-      time: "17:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-9-week-12
       title: Open Science Garden III
       type: Cohort
       learning_objectives:
@@ -394,22 +314,7 @@ weeks:
     start: December 09, 2024
     calls:
     - duration: 30 min
-      title: 7th mentor-mentee meeting
-      type: Mentor-Mentee
-      talks: []
-    - date: December 11, 2024
-      time: "16:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-9-week-13
-      title: Open Science Garden III
-      type: Skill-up
-      talks:
-      - title: Open Science Garden(s)
-      - {}
-      - {}
-      - {}
-    - duration: 30 min
-      title: Mentor-mentee meeting
+      title: 6th Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
     - date: December 11, 2024
@@ -426,24 +331,13 @@ weeks:
   '14':
     start: December 16, 2024
     calls:
-    - date: December 18, 2024
-      time: "10:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-9-week-14
-      title: Community Management Café II
-      type: Cohort
-      talks: []
     - duration: 30 min
-      title: Mentor-mentee meeting
+      title: 7th Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
   '15':
     start: January 13, 2025
     calls:
-    - duration: 30 min
-      title: 8th mentor-mentee meeting
-      type: Mentor-Mentee
-      talks: []
     - date: January 15, 2025
       time: "09:00"
       duration: 60 min
@@ -464,10 +358,6 @@ weeks:
       notes: https://bit.ly/ols-9-week-15
       title: Final presentation rehearsal - Group 3
       type: Skill-up
-      talks: []
-    - duration: 30 min
-      title: Mentor-mentee meeting
-      type: Mentor-Mentee
       talks: []
   '16':
     start: January 20, 2025
@@ -494,6 +384,6 @@ weeks:
       type: Cohort
       talks: []
     - duration: 30 min
-      title: Mentor-mentee meeting
+      title: 8th Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
