@@ -719,7 +719,7 @@ weeks:
       duration: 90 min
       notes: 
         https://docs.google.com/document/d/1tS7UG2PvZhcNhUQU1xyURTEuIh7QwQnlDyQU4libZ10/edit#
-      type: Cohort
+      type: Skill-up
       title: Sketchnoting and visual storytelling
       content: |
         During this week's coworking call, you will:
@@ -730,6 +730,7 @@ weeks:
       after: |
         - Continue on with your project, and connect with others on Slack or other social media platforms.
       recording: https://www.youtube.com/watch?v=mHCYpX6WLZw
+      talks: []
     - date: May 05, 2021
       time: "11:30"
       duration: 90 min

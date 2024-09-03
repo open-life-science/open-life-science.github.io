@@ -274,7 +274,7 @@ artifact_dp = {
 }
 cohort_names = {
     "openseeds": "ols-",
-    "nebula":"neb-",
+    "nebula": "neb-",
 }
 
 ### GENERAL METHODS
@@ -803,29 +803,33 @@ def prepare_schedule_df(schedule_df):
 
     :param schedule_df: data frame with schedule
     """
-    if 'date' in schedule_df.columns and 'time' in schedule_df.columns:
+    if "date" in schedule_df.columns and "time" in schedule_df.columns:
         # If standard column names are found
         df = schedule_df.rename(columns={"date": "date", "time": "time", "duration": "duration"}).assign(
             date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
             time=lambda x: pd.to_datetime(x["time"], format="%H:%M:%S", errors="coerce"),
             duration=lambda x: pd.to_timedelta(x["duration"]),
         )
-    elif 'Start Date' in schedule_df.columns and 'Start Time' in schedule_df.columns:
+    elif "Start Date" in schedule_df.columns and "Start Time" in schedule_df.columns:
         # Handling for programs like openseeds
         df = schedule_df.rename(columns={"Start Date": "date", "Start Time": "time", "Duration": "duration"}).assign(
             date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
-            time=lambda x: x["time"].apply(lambda t: pd.to_datetime(t).time()),
+            time=lambda x: pd.to_datetime(x["time"], format="%H:%M:%S", errors="coerce"),
             duration=lambda x: pd.to_timedelta(x["duration"]),
         )
-    elif 'Date' in schedule_df.columns and 'Start Time (UTC)' in schedule_df.columns:
+    elif "Date" in schedule_df.columns and "Start Time (UTC)" in schedule_df.columns:
         # For Nebula-specific column names
-        df = schedule_df.rename(columns={"Date": "date", "Start Time (UTC)": "time", "End Time (UTC)": "duration"}).assign(
+        df = schedule_df.rename(
+            columns={"Date": "date", "Start Time (UTC)": "time", "End Time (UTC)": "duration"}
+        ).assign(
             date=lambda x: pd.to_datetime(x["date"], dayfirst=True, errors="coerce"),
             time=lambda x: x["time"].apply(lambda t: pd.to_datetime(t)),
             duration=lambda x: x["duration"].apply(lambda t: pd.to_datetime(t)),
         )
         df["duration"] = df["duration"] - df["time"]
-        df.assign(time=lambda x: x["time"].apply(lambda t: t.time()),)
+        df.assign(
+            time=lambda x: x["time"].apply(lambda t: t.time()),
+        )
     else:
         raise KeyError("The expected columns for date and time are not found in the spreadsheet")
     return df
@@ -887,11 +891,9 @@ def add_event_information(schedule, schedule_df, people, program):
                 else:
                     schedule["weeks"][w]["start"] = row["date"].strftime("%B %d, %Y")
             elif row["Type"] in CALL_TYPES:
-                add_call(row, schedule["weeks"][w]["calls"], people)
-                
+                last_call = add_call(row, schedule["weeks"][w]["calls"], people)
             elif row["Type"] == "Presentation":
                 last_call["talks"].append(update_talks({}, row, people))
-        
         elif program == "nebula":
             add_call(row, schedule["weeks"][w]["calls"], people)
 
@@ -1037,8 +1039,11 @@ def extract_talks(program):
             for call in week["calls"]:
                 if "talks" in call:
                     for talk in call["talks"]:
+                        if talk == {}:
+                            continue
                         talk = dict(talk)
-                        talk["date"] = call["date"]
+                        if "date" in call:
+                            talk["date"] = call["date"]
                         talk["cohort"] = f"{cohort}"
                         if "title" not in talk:
                             talk["title"] = talk["tag"]
@@ -1184,7 +1189,11 @@ def get_cohort_name(c, program):
     :param c: Path object to cohort data
     :param program: Training program
     """
-    i = c.name.split("-")[1]
+    split_name = c.name.split("-")
+    i = split_name[1]
+    ext = split_name[-1]
+    if i != ext:
+        i = f"{i}-{ext}"
     return build_cohort_name(i, program)
 
 
@@ -1572,6 +1581,7 @@ def update_schedule(program, cohort, schedule_df):
     schedule = add_event_information(schedule, schedule_df, reorder_people, program)
     # dump schedule dictionary into schedule file
     dump_schedule(schedule, program, cohort)
+
 
 def get_people(program, cohort, participant_fp, mentor_fp, expert_fp, speaker_fp, host_fp):
     """

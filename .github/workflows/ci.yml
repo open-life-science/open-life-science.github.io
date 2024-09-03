@@ -1,4 +1,4 @@
-name: Linting for push and PR
+name: CI for push and PR
 on: [push, pull_request]
 jobs:
   check-internal-links:
@@ -39,3 +39,42 @@ jobs:
       run: python -m pip install 'tox>=1.8.0'
     - name: Lint
       run: tox -e lint
+  test-other-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v2.2.0
+        with:
+          activate-environment: ols-website
+          environment-file: environment.yml
+      - name: Update Open Seeds schedule
+        shell: bash -el {0}
+        run: |
+          bash bin/openseeds/update_schedule.sh
+      - name: Update Open Seeds library
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py buildlibrary -p "openseeds"
+      - name: Update Nebula schedule
+        shell: bash -el {0}
+        run: |
+          bash bin/nebula/update_schedule.sh
+      - name: Update people data artifacts
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py extractfullpeopledata
+      - name: Update Open Seeds library artifacts
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py extractlibrary -p "openseeds"
+      - name: Update Open Seeds projects
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py createprojecttable -p "openseeds"
+      - name: Update bibliography
+        shell: bash -el {0}
+        env:
+          ZOTERO_API: ${{ secrets.ZoteroAPI }}
+        run: |
+          python bin/prepare_website_data.py updatebibliography -a "$ZOTERO_API"

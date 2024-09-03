@@ -26,7 +26,7 @@ jobs:
           conda config --show-sources
           conda config --show
 
-      - name: Update library
+      - name: Update bibliography
         shell: bash -el {0}
         env:
           ZOTERO_API: ${{ secrets.ZoteroAPI }}

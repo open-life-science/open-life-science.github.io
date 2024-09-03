@@ -63,11 +63,11 @@ python bin/prepare_website_data.py \
     --cohort '8' \
     --schedule_url "https://docs.google.com/spreadsheets/d/1Tnk-kkHUmPOEfUOEAl627l6JS9SoY5D4gSAPCYoBRSY/export?format=csv&gid=2109933309"
 
-echo "OLS-9"
+echo "OLS-9-DRA"
 python bin/prepare_website_data.py \
     updateschedule \
     -p "openseeds"  \
-    --cohort '9' \
+    --cohort '9-dra' \
     --schedule_url "https://docs.google.com/spreadsheets/d/1TIpN-NZPMGvZ1hUOJ5PgXoS24TCYEeF_5ecPPWQdUSM/export?format=csv&gid=2109933309"
 
 echo "OLS-9-CATALYST"
