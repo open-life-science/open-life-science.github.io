@@ -181,3 +181,23 @@ Yes, you can send files (< 1 GB) in public channels and direct messages. See thi
 ### References for the Part-2
 
 The Slack section was adapted from a resource by BrainHackMTL and the Center for Scientific Collaboration and Community Engagement ([CSCCE](https://www.cscce.org/)) under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/): [10.5281/zenodo.3763730](http://dx.doi.org/10.5281/zenodo.3763730).
+
+# OLS Internal Slack Usage
+
+## Naming conventions
+
+- **:lock: Private staff channels:** `internal-topic-name` sorts OLS staff/contractor team names. 
+- **:lock: Private channels with non-OLS team members:** generally have a purpose and are named `collab-purpose-name` or `collab-organisation-name`. 
+- **:lock: Temporary private channels:** Often easier to manage than group DMs, e.g. for a contract renewal where the renewee, their manager, and the finance contacts need to be looped in. Name `temp-subject-here`, and archive promptly once the purpose is complete.  
+- **:lock: Governance:** for the governance board and/or admin around governance tasks: `gov-something-descriptive`
+
+---
+
+## Specific channels and rituals: 
+
+- `#internal-work`: synchronous and asynchronous communication. Some topics may go in a specific sub-channel, e.g. a nebula-specific internal channel, the web/design team channel, etc. 
+    - :calendar: Start-of-week ritual: Go through your emails, slacks, and to-do lists. What's the plan this week? Post a few notes in Slack so others know what's on your mind. 
+- `#internal-casual`: Post your cat and your baby here, and a picture of your cappuccino. 
+- `#internal-project-updates`:
+    -  :calendar: Twice a month ritual: Post a short update on the successes, challenges and plans or opportunities you've had in your project over the last few weeks. These are generally compiled once a month into a report and shared with the entire team and with Governance. 
+
