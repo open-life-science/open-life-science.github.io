@@ -196,7 +196,7 @@ The Slack section was adapted from a resource by BrainHackMTL and the Center for
 ## Specific channels and rituals: 
 
 - `#internal-work`: synchronous and asynchronous communication. Some topics may go in a specific sub-channel, e.g. a nebula-specific internal channel, the web/design team channel, etc. 
-    - :calendar: Start-of-week ritual: Go through your emails, slacks, and to-do lists. What's the plan this week? Post a few notes in Slack so others know what's one your mind. 
+    - :calendar: Start-of-week ritual: Go through your emails, slacks, and to-do lists. What's the plan this week? Post a few notes in Slack so others know what's on your mind. 
 - `#internal-casual`: Post your cat and your baby here, and a picture of your cappuccino. 
 - `#internal-project-updates`:
     -  :calendar: Twice a month ritual: Post a short update on the successes, challenges and plans or opportunities you've had in your project over the last few weeks. These are generally compiled once a month into a report and shared with the entire team and with Governance. [Report template](https://github.com/open-life-science/internal-policies-and-procedures/tree/main/ols-reports). 
