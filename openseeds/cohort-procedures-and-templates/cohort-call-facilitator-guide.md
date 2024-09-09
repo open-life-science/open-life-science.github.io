@@ -22,7 +22,9 @@ Please identify which week you have signed up for and who the cohort call lead i
 
 Our cohort calls vary in time from week to week. Please, see the schedules from [our website]({{ site.url }}/openseeds/).
 
-For any questions or concerns, please contact the cohort coordinators via Slack or email.
+For any questions or concerns, please contact the cohort coordinators via Slack or email:
+* OLS-9: [Malvika, Taj and Seun](mailto:9-cohort-management@we-are-ols.org) 
+* Nebula: [Irene](mailto:nebula-cohort-management@we-are-ols.org)
 
 You can also reach out to other OLS team members via Slack or email at any time.
 
