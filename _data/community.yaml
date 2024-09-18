@@ -108,7 +108,8 @@ sponsors:
 fiscal_communities:
   -
     organization: RSE-AUNZ
+    name: RSE-AUNZ
     details: |
       The RSE Association of Australia and New Zealand ([RSE-AUNZ](https://rse-aunz.org/)) is a community that aims to build awareness of the diverse Research Software Engineer (RSE) roles, to connect volunteers 
       in the RSE domain, and to help build practical solutions for the RSE community.
-    logo: https://github.com/rse-aunz/rse-aunz.github.io/blob/master/assets/RSE_AUNZ_logo.png
+    logo: https://github.com/rse-aunz/rse-aunz.github.io/blob/master/assets/RSE_AUNZ_logo.png?raw=true
