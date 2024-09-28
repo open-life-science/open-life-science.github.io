@@ -95,6 +95,33 @@ weeks:
         tag: Open Canvas
       - title: Project Roadmapping
         tag: Project Roadmapping
+    - date: September 25, 2024
+      time: "16:00"
+      duration: 180 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-02
+      title: Welcome to Open Seeds
+      type: Cohort
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1idSrWd4PUb1y-iS1d7f7uyj2uS88kuYe/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - yochannah
+        title: Welcome to Open Seeds
+        tag: OLS Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - malvikasharan
+        title: Tooling for Project Design Introduction
+        tag: Tooling for Project Design Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/17cBXIIABgBlF1yORhwKF3ABOWB_L6q12/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - yochannah
+        title: Open Canvas
+        tag: Open Canvas
+      - title: Project Roadmapping
+        tag: Project Roadmapping
   '03':
     start: September 30, 2024
     calls:

@@ -105,6 +105,13 @@ Open Life Science:
       date: September 25, 2024
       cohort: ols-9-catalyst
     - slides: 
+        https://docs.google.com/presentation/d/1idSrWd4PUb1y-iS1d7f7uyj2uS88kuYe/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - yochannah
+      title: Welcome to Open Seeds
+      date: September 25, 2024
+      cohort: ols-9-catalyst
+    - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
       title: Introduction to Open Seeds
       date: October 02, 2024
@@ -232,6 +239,13 @@ Tooling for Project Design:
       date: September 25, 2024
       cohort: ols-9-catalyst
     - slides: 
+        https://docs.google.com/presentation/d/17cBXIIABgBlF1yORhwKF3ABOWB_L6q12/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - yochannah
+      title: Open Canvas
+      date: September 25, 2024
+      cohort: ols-9-catalyst
+    - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
       title: Open Canvas
       date: October 02, 2024
@@ -346,6 +360,10 @@ Tooling for Project Design:
       cohort: ols-9-catalyst
       speakers: []
     - title: Project Roadmapping
+      date: September 25, 2024
+      cohort: ols-9-catalyst
+      speakers: []
+    - title: Project Roadmapping
       date: October 02, 2024
       cohort: ols-9-dra
       speakers: []
@@ -370,6 +388,13 @@ Tooling for Project Design:
       date: October 04, 2023
       cohort: ols-8
       speakers: []
+    - slides: 
+        https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - malvikasharan
+      title: Tooling for Project Design Introduction
+      date: September 25, 2024
+      cohort: ols-9-catalyst
     - slides: 
         https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
       speakers:
