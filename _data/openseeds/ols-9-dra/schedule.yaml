@@ -18,8 +18,8 @@ timeline:
   type:
   - Q&A
   notes:
-  details: At this call, OLS team will be available to provide help if you have any
-    question related to your application
+  details: At this call, the OLS team will be available to provide help if you have any
+    question-related to your application
 - date:
   description: Call for applications closed
 - date:
@@ -101,13 +101,13 @@ weeks:
       before:
       - "Please create a GitHub account: [https://github.com](https://github.com)\n
         * Have a look at the OLS-8 repository for 'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
-        * Comment of 1-2 project's recent post (vision, open canvas etc.)\n* Create
+        * Comment on 1-2 project's recent posts (vision, open canvas etc.)\n* Create
         your 'project issue'"
       talks:
       - title: GitHub for Collaboration
       - title: Introduction to GitHub
         tag: GitHub Introduction
-      - title: Creating a small website with GitHub
+      - title: Creating a Small Website with GitHub
         tag: GitHub Introduction
     - date: October 17, 2024
       time: "16:00"
@@ -121,7 +121,7 @@ weeks:
         tag: README
       - title: A Primer on Open Licenses
         tag: Open Licensing
-      - title: Designing and enforcing a Code of Conduct
+      - title: Designing and Enforcing a Code of Conduct
         tag: Code of Conduct
       learning_objectives:
       - "Identify essential files to add in a collaborative project\n* Explain why
@@ -159,9 +159,6 @@ weeks:
       - Define Open Science and Responsible Research
       - List the different principles of Open Science
       - Give examples of 3 use cases of the different Open Science principles
-      after: "['Check the GitHub Intro notes, learning resource and video from last
-        week', 'Prepare to share your project online through Git Pages,  Google Site,
-        Wordpress or other option. ← long term assignment, do it in your own pace.']"
       talks:
       - title: Open Science Garden(s)
       - title: Open Science Introduction
@@ -206,8 +203,9 @@ weeks:
       - Give examples of 3 use cases of the different Open Science principles
       after:
       - Check the GitHub Intro notes, learning resource and video from last week
-      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
-        or other option. ← long term assignment, do it in your own pace.
+      - Prepare to share your project online through Git Pages,  Google Site, WordPress
+        or other options. 
+      - This is a long-term assignment, do it at your own pace.
       talks:
       - title: Community Design for Inclusivity
       - title: 'Community Interaction '
@@ -230,12 +228,12 @@ weeks:
       title: Open-source software practices
       type: Skill-up
       learning_objectives:
-      - Recall non traditional (academic) career path
-      - Appreciate different leaderships
+      - Recall non-traditional (academic) career path
+      - Appreciate different leadership
       talks:
       - title: Good Coding Practices
       - title: Code Review
-      - title: Package Managements
+      - title: Package Management
   '10':
     start: November 18, 2024
     calls:
@@ -276,9 +274,9 @@ weeks:
       - Apply good coding practices to your software
       - Review code
       - Identify package management for your software
-      - 'Make your software ready for open-source- '
+      - 'Make your software ready for open-source'
       talks:
-      - title: Personal Ecology and Self Care
+      - title: Personal Ecology and Self-Care
     - duration: 15 min
       title: Open discussion and share out
       type: Q&A
@@ -302,15 +300,13 @@ weeks:
   '13':
     start: December 09, 2024
     calls:
-      - {}
     - date: December 11, 2024
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-13
       title: Community Management II
       type: Cohort
-      talks:
-      - {}
+      talks: []
   '14':
     start: December 16, 2024
     calls:
@@ -329,21 +325,21 @@ weeks:
       time: "14:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
-      title: Final presentation rehearsal - Group 1
+      title: Final presentation rehearsal 1
       type: Skill-up
       talks: []
     - date: January 15, 2025
       time: "16:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
-      title: Final presentation rehearsal - Group 2
+      title: Final presentation rehearsal 2
       type: Skill-up
       talks: []
     - date: January 16, 2025
       time: "18:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
-      title: Final presentation rehearsal - Group 3
+      title: Final presentation rehearsal 3
       type: Skill-up
       talks: []
   '16':
@@ -357,20 +353,20 @@ weeks:
       time: "14:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
-      title: Final presentations & Graduation! - Group 1
+      title: Final presentations & Graduation 1
       type: Cohort
       talks: []
     - date: January 22, 2025
       time: "16:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
-      title: Final presentations & Graduation! - Group 2
+      title: Final presentations & Graduation 2
       type: Cohort
       talks: []
     - date: January 23, 2025
       time: "18:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
-      title: Final presentations & Graduation! - Group 3
+      title: Final presentations & Graduation 3
       type: Cohort
       talks: []
