@@ -276,10 +276,6 @@ weeks:
       - 'Make your software ready for open-source'
       talks:
       - title: Personal Ecology and Self-Care
-    - duration: 15 min
-      title: Open discussion and share out
-      type: Q&A
-      talks: []
   '12':
     start: December 02, 2024
     calls:
