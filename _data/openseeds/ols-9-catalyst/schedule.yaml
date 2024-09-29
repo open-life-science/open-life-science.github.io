@@ -35,7 +35,7 @@ weeks:
       type: Mentor
       talks: []
       date: September 13, 2024
-      time: "17:00"
+      time: "16:00"
     - duration: 60 min
       title: Mentor onboarding group 2
       hosts:
@@ -96,7 +96,7 @@ weeks:
       - title: Project Roadmapping
         tag: Project Roadmapping
     - date: September 25, 2024
-      time: "17:00"
+      time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-02
       title: Welcome to Open Seeds
@@ -135,7 +135,7 @@ weeks:
       - tajuddeen1
       type: Q&A
       talks: []
-      time: "17:00"
+      time: "16:00"
       notes: https://annuel2.framapad.org/p/ols-9-week-03
   '04':
     start: October 07, 2024
@@ -148,7 +148,7 @@ weeks:
       - malvikasharan
       type: Cohort
       talks: []
-      time: "17:00"
+      time: "16:00"
   '05':
     start: October 14, 2024
     calls:
@@ -186,7 +186,7 @@ weeks:
       - malvikasharan
       type: Cohort
       talks: []
-      time: "17:00"
+      time: "16:00"
   '07':
     start: October 28, 2024
     calls:
@@ -222,6 +222,15 @@ weeks:
       type: Cohort
       talks: []
       time: "16:00"
+    - date: November 06, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-08
+      title: Community Management I
+      hosts:
+      - malvikasharan
+      type: Cohort
+      talks: []
   '09':
     start: November 11, 2024
     calls:
@@ -243,7 +252,7 @@ weeks:
     calls:
     - date: November 20, 2024
       duration: 90 min
-      notes: https://bit.ly/ols-OLS-9 Catalyst Track Cohort-week-10
+      notes: https://annuel2.framapad.org/p/ols-9-week-10
       title: Open Science Garden II
       hosts:
       - tajuddeen1
@@ -278,12 +287,13 @@ weeks:
     calls:
     - date: December 04, 2024
       duration: 90 min
-      notes: https://bit.ly/ols-OLS-9 Catalyst Track Cohort-week-12
+      notes: https://annuel2.framapad.org/p/ols-9-week-12
       title: Open Science Garden III
       hosts:
       - tajuddeen1
       type: Cohort
       talks: []
+      time: "16:00"
     - date: March 19, 1900
       time: "16:00"
       duration: 90 min
@@ -313,6 +323,15 @@ weeks:
       - malvikasharan
       type: Cohort
       talks: []
+    - date: December 11, 2024
+      time: "16:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-13
+      title: Community Management II
+      hosts:
+      - malvikasharan
+      type: Cohort
+      talks: []
   '14':
     start: December 16, 2024
     calls:
@@ -336,6 +355,8 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
+      date: January 14, 2025
+      time: "14:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
       title: Final presentation rehearsal - Group 2
@@ -343,6 +364,8 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
+      date: January 15, 2025
+      time: "16:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
       title: Final presentation rehearsal - Group 3
@@ -350,6 +373,8 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
+      date: January 16, 2025
+      time: "18:00"
   '16':
     start: January 20, 2025
     calls:
@@ -360,6 +385,8 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
+      date: January 21, 2025
+      time: "14:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
       title: Final presentations & Graduation! - Group 2
@@ -367,6 +394,8 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
+      date: January 22, 2025
+      time: "16:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
       title: Final presentations & Graduation! - Group 3
@@ -374,6 +403,8 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
+      date: January 23, 2025
+      time: "18:00"
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
