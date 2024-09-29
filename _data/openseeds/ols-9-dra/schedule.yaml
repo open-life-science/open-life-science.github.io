@@ -37,13 +37,13 @@ weeks:
     - date: September 26, 2024
       time: "16:00"
       duration: 60 min
-      title: Mentor onboarding - 1
+      title: Mentor onboarding 1
       type: Mentor
       talks: []
     - date: September 27, 2024
       time: "12:00"
       duration: 60 min
-      title: Mentor onboarding - 2
+      title: Mentor onboarding 2
       type: Mentor
   '03':
     start: September 30, 2024
@@ -56,19 +56,13 @@ weeks:
     - date: October 10, 2024
       time: "16:00"
       duration: 60 min
-      title: DRI-EDIA Champions - Q&A Webinar - 1
+      title: DRI-EDIA Champions Q&A Webinar 1
       type: Cohort
-      - slides: 
-        speakers:
-        - malvikasharan
     - date: October 11, 2024
       time: "16:00"
       duration: 60 min
-      title: DRI-EDIA Champions - Q&A Webinar - 2
+      title: DRI-EDIA Champions Q&A Webinar 2
       type: Cohort
-      - slides: 
-        speakers:
-        - malvikasharan
   '05':
     start: October 14, 2024
     calls:
@@ -147,7 +141,7 @@ weeks:
     - date: October 16, 2024
       time: "16:00"
       duration: 180 min
-      title: Mentor - 360 Training
+      title: Mentor 360 Training
       type: Mentor
   '06':
     start: October 21, 2024
