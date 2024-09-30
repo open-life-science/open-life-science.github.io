@@ -35,7 +35,7 @@ weeks:
       type: Mentor
       talks: []
       date: September 13, 2024
-      time: "16:00"
+      time: "17:00"
     - duration: 60 min
       title: Mentor onboarding group 2
       hosts:
@@ -96,7 +96,7 @@ weeks:
       - title: Project Roadmapping
         tag: Project Roadmapping
     - date: September 25, 2024
-      time: "16:00"
+      time: "17:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-02
       title: Welcome to Open Seeds
@@ -120,8 +120,13 @@ weeks:
         - yochannah
         title: Open Canvas
         tag: Open Canvas
-      - title: Project Roadmapping
+      - slides: 
+          https://docs.google.com/presentation/d/19oGNS6nM7wWY-UH9XA-gyNv9wWYNsfWT/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - malvikasharan
+        title: Project Roadmapping
         tag: Project Roadmapping
+      recording: 'Open Seeds OLS-9 Week 2: Catalyst track- Introduction'
   '03':
     start: September 30, 2024
     calls:
@@ -135,7 +140,7 @@ weeks:
       - tajuddeen1
       type: Q&A
       talks: []
-      time: "16:00"
+      time: "17:00"
       notes: https://annuel2.framapad.org/p/ols-9-week-03
   '04':
     start: October 07, 2024
@@ -147,8 +152,40 @@ weeks:
       hosts:
       - malvikasharan
       type: Cohort
-      talks: []
-      time: "16:00"
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/1nLnTciwCIauAn87Kw26DtatNJc7s2Wph/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - malvikasharan
+        title: Setting up a project
+        tag: Setting up a project
+      - speakers:
+        - 
+        title: 'ReadMe files: how to make your project welcoming to others'
+        tag: README
+      - speakers:
+        - joyceykao
+        title: A Primer on Open Licenses
+        tag: Open Licensing
+      - speakers:
+        - karinlag
+        title: Designing and enforcing a Code of Conduct
+        tag: Code of Conduct
+      time: "17:00"
+      learning_objectives:
+      - "Identify essential files to add in a collaborative project\n* Explain why
+        you need to select a license for an open project\n* Select the best license
+        for your project\n* Write a clean and welcoming README file\n* Discuss about
+        Code of Conduct"
+      after:
+      - "Create a GitHub repository for your project\n* Add the link to your repository
+        in your issue on [https://github.com/open-life-science/ols-9/issues](https://github.com/open-life-science/ols-9/issues)\n
+        * Use your canvas to start writing a `README.md` file, or landing page, for
+        your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\n
+        * Link your README in a comment on the OLS-9 issue\n* Add an open license
+        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
+        * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
+        [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
   '05':
     start: October 14, 2024
     calls:
@@ -164,7 +201,7 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
-      time: "16:00"
+      time: "17:00"
       learning_objectives:
       - "Create a new repository\n* Create a (README) file\n* Write in Markdown\n
         * Manage issues and labels\n* Enable a small website via GitHub\n* Submit
@@ -186,7 +223,7 @@ weeks:
       - malvikasharan
       type: Cohort
       talks: []
-      time: "16:00"
+      time: "17:00"
   '07':
     start: October 28, 2024
     calls:
@@ -203,7 +240,7 @@ weeks:
       type: Skill-up
       talks: []
     - date: October 30, 2024
-      time: "16:00"
+      time: "17:00"
       duration: 30 min
       title: Open Leadership in Practice (Clock changes for the UK/Nigeria)
       hosts:
@@ -223,7 +260,7 @@ weeks:
       talks: []
       time: "16:00"
     - date: November 06, 2024
-      time: "16:00"
+      time: "17:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-08
       title: Community Management I
@@ -246,7 +283,7 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
-      time: "16:00"
+      time: "17:00"
   '10':
     start: November 18, 2024
     calls:
@@ -281,7 +318,7 @@ weeks:
       - malvikasharan
       type: Skill-up
       talks: []
-      time: "16:00"
+      time: "17:00"
   '12':
     start: December 02, 2024
     calls:
@@ -293,7 +330,7 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
-      time: "16:00"
+      time: "17:00"
     - date: March 19, 1900
       time: "16:00"
       duration: 90 min
@@ -324,7 +361,7 @@ weeks:
       type: Cohort
       talks: []
     - date: December 11, 2024
-      time: "16:00"
+      time: "17:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-13
       title: Community Management II
@@ -356,7 +393,7 @@ weeks:
       type: Skill-up
       talks: []
       date: January 14, 2025
-      time: "14:00"
+      time: "15:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
       title: Final presentation rehearsal - Group 2
@@ -365,7 +402,7 @@ weeks:
       type: Skill-up
       talks: []
       date: January 15, 2025
-      time: "16:00"
+      time: "17:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
       title: Final presentation rehearsal - Group 3
@@ -374,7 +411,7 @@ weeks:
       type: Skill-up
       talks: []
       date: January 16, 2025
-      time: "18:00"
+      time: "19:00"
   '16':
     start: January 20, 2025
     calls:
@@ -386,7 +423,7 @@ weeks:
       type: Cohort
       talks: []
       date: January 21, 2025
-      time: "14:00"
+      time: "15:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
       title: Final presentations & Graduation! - Group 2
@@ -395,7 +432,7 @@ weeks:
       type: Cohort
       talks: []
       date: January 22, 2025
-      time: "16:00"
+      time: "17:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
       title: Final presentations & Graduation! - Group 3
