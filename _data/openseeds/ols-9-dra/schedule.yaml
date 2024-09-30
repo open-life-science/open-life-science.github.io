@@ -29,8 +29,12 @@ weeks:
     start: September 16, 2024
     calls:
     - title: DRI-EDIA champions announced!
-    - duration: 90 min
+      type: Cohort
+      talks: []
+    - duration: 60 min
       title: Facilitators onboarding and training
+      type: Skill-up
+      talks: []
   '02':
     start: September 23, 2024
     calls:
@@ -51,6 +55,7 @@ weeks:
     calls:
     - title: Welcome to DRI-EDIA champions to OLS
       type: Cohort
+      talks: []
   '04':
     start: October 07, 2024
     calls:
