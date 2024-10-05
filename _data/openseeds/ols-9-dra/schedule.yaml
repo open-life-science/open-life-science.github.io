@@ -229,17 +229,6 @@ weeks:
       title: 2nd Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: October 30, 2024
-      time: "16:00"
-      duration: 90 min
-      notes: https://annuel2.framapad.org/p/ols-9-week-07
-      title: Open Leadership in Practice
-      type: Skill-up
-      talks:
-      - title: Introduction to Open Leadership in Practice
-        tag: Open Leadership in Practice
-      - title: Speakers' talks
-        tag: Open Leadership in Practice
     - date: November 01, 2024
       time: "16:00"
       duration: 60 min
@@ -350,10 +339,7 @@ weeks:
       title: Personal Management
       type: Skill-up
       learning_objectives:
-      - Apply good coding practices to your software
-      - Review code
-      - Identify package management for your software
-      - 'Make your software ready for open-source- '
+      - understanding the importance of mental health in research and community 
       talks:
       - title: Personal Ecology and Self Care
     - date: November 29, 2024
@@ -378,7 +364,6 @@ weeks:
       - Give examples of 3 use cases of the different Open Science principles
       talks:
       - title: Open Science Garden(s)
-        tag: Personal Ecology
       - {}
       - {}
     - date: December 06, 2024
