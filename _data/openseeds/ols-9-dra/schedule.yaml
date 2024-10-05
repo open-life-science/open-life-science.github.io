@@ -216,6 +216,12 @@ weeks:
         tag: Openness to Diversity of Knowledge
       - title: Why open reviews?
         tag: Open Evaluation
+    - date: October 25, 2024
+      time: "16:00"
+      duration: 60 min
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '07':
     start: October 28, 2024
     calls:
@@ -234,6 +240,13 @@ weeks:
         tag: Open Leadership in Practice
       - title: Speakers' talks
         tag: Open Leadership in Practice
+    - date: November 01, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-07
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '08':
     start: November 04, 2024
     calls:
@@ -259,6 +272,13 @@ weeks:
         tag: Mountain of Engagement
       - title: Personas and Pathways
         tag: Personas & Pathways
+    - date: November 08, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-08
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '09':
     start: November 11, 2024
     calls:
@@ -279,6 +299,13 @@ weeks:
       - title: Good Coding Practices
       - title: Code Review
       - title: Package Managements
+    - date: November 15, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-09
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '10':
     start: November 18, 2024
     calls:
@@ -302,6 +329,13 @@ weeks:
         tag: Open Access Publication
       - title: Open Engagement of Social Actors
         tag: Open Engagement of Social Actors
+    - date: November 22, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-10
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '11':
     start: November 25, 2024
     calls:
@@ -322,6 +356,13 @@ weeks:
       - 'Make your software ready for open-source- '
       talks:
       - title: Personal Ecology and Self Care
+    - date: November 29, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-11
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '12':
     start: December 02, 2024
     calls:
@@ -340,6 +381,13 @@ weeks:
         tag: Personal Ecology
       - {}
       - {}
+    - date: December 06, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-12
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '13':
     start: December 09, 2024
     calls:
@@ -354,12 +402,26 @@ weeks:
       - {}
       - {}
       - {}
+    - date: December 13, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-13
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '14':
     start: December 16, 2024
     calls:
     - duration: 60 min
       title: 5th Mentor-mentee meeting
       type: Mentor-Mentee
+      talks: []
+    - date: December 20, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-14
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
       talks: []
   '15':
     start: January 13, 2025
