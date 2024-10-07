@@ -339,7 +339,10 @@ weeks:
       title: Personal Management
       type: Skill-up
       learning_objectives:
-      - understanding the importance of mental health in research and community 
+      - Apply good coding practices to your software
+      - Review code
+      - Identify package management for your software
+      - 'Make your software ready for open-source- '
       talks:
       - title: Personal Ecology and Self Care
     - date: November 29, 2024
@@ -364,6 +367,7 @@ weeks:
       - Give examples of 3 use cases of the different Open Science principles
       talks:
       - title: Open Science Garden(s)
+        tag: Personal Ecology
       - {}
       - {}
     - date: December 06, 2024
