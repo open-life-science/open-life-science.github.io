@@ -18,58 +18,66 @@ timeline:
   type:
   - Q&A
   notes:
-  details: At this call, OLS team will be available to provide help if you have any
-    question related to your application
+  details: At this call, the OLS team will be available to provide help if you have
+    any question-related to your application
 - date:
   description: Call for applications closed
 - date:
   description: Successful applicants announced
 weeks:
-  '00':
-    start: ''
-    calls:
-    - duration: 60 min
-      title: Mentor invitations
-      type: Mentor
-      talks: []
   '01':
     start: September 16, 2024
     calls:
-    - date: September 11, 2024
-      duration: 30 min
-      title: Facilitators onboarding and training
-      type: Mentor-Mentee
+    - title: DRI-EDIA champions announced!
+      type: Cohort
       talks: []
-    - date: September 13, 2024
-      time: "16:00"
-      duration: 60 min
-      title: Mentor onboarding
-      type: Mentor
+    - duration: 60 min
+      title: Facilitators onboarding and training
+      type: Skill-up
       talks: []
   '02':
     start: September 23, 2024
     calls:
-    - duration: 30 min
-      title: Mentor-mentee introductions
-      type: Mentor-Mentee
+    - date: September 26, 2024
+      time: "16:00"
+      duration: 60 min
+      title: Mentor onboarding 1
+      type: Mentor
       talks: []
-    - date: September 23, 2024
-      time: "09:00"
-      duration: 180 min
-      title: Mentor Skill Workshop by 360 Training - Group 2
+    - date: September 27, 2024
+      time: "12:00"
+      duration: 60 min
+      title: Mentor onboarding 2
       type: Mentor
       talks: []
   '03':
     start: September 30, 2024
     calls:
-    - duration: 30 min
-      title: 1st Mentor-mentee meeting
-      type: Mentor-Mentee
+    - title: Welcome to DRI-EDIA champions to OLS
+      type: Cohort
       talks: []
-    - date: October 02, 2024
+  '04':
+    start: October 07, 2024
+    calls:
+    - date: October 10, 2024
       time: "16:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-9-week-03
+      duration: 60 min
+      title: DRI-EDIA Champions Q&A Webinar 1
+      type: Cohort
+      talks: []
+    - date: October 11, 2024
+      time: "16:00"
+      duration: 60 min
+      title: DRI-EDIA Champions Q&A Webinar 2
+      type: Cohort
+      talks: []
+  '05':
+    start: October 14, 2024
+    calls:
+    - date: October 15, 2024
+      time: "16:00"
+      duration: 180 min
+      notes:
       title: Welcome to Open Seeds
       type: Cohort
       talks:
@@ -85,61 +93,10 @@ weeks:
           https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
         title: Open Canvas
         tag: Open Canvas
-      - title: Project Roadmapping
-        tag: Project Roadmapping
-  '04':
-    start: October 07, 2024
-    calls:
-    - date: October 09, 2024
-      time: "16:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-9-week-04
-      title: Tooling for Project Design and Open Collaboration
-      type: Cohort
-      learning_objectives:
-      - "Identify essential files to add in a collaborative project\n* Explain why
-        you need to select a license for an open project\n* Select the best license
-        for your project\n* Write a clean and welcoming README file\n* Discuss about
-        Code of Conduct"
-      after:
-      - "Create a GitHub repository for your project\n* Add the link to your repository
-        in your issue on [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
-        * Use your canvas to start writing a `README.md` file, or landing page, for
-        your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\n
-        * Link your README in a comment on the OLS-8 issue\n* Add an open license
-        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
-        * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
-        [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
-      talks:
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
-        speakers:
-        - malvikasharan
-        title: Welcome to Open Seeds
-        recording: 
-          https://www.youtube.com/watch?v=otxpdHSaqyw&list=UULFs12-ZgnDJOWIWN3Vo1XHXA&index=10
-        tag: OLS Introduction
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
-        title: Tooling for Project Design Introduction
-        tag: Tooling for Project Design Introduction
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
-        title: Open Canvas
-        tag: Open Canvas
-      - title: Project Roadmapping
-        tag: Project Roadmapping
-  '05':
-    start: October 14, 2024
-    calls:
-    - duration: 30 min
-      title: 2nd Mentor-mentee meeting
-      type: Mentor-Mentee
-      talks: []
     - date: October 16, 2024
       time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-9-week-05
+      notes: https://annuel2.framapad.org/p/ols-9-week-05
       title: GitHub tutorial for beginners
       type: Skill-up
       learning_objectives:
@@ -158,14 +115,87 @@ weeks:
         tag: GitHub Introduction
       - title: Creating a small website with GitHub
         tag: GitHub Introduction
+    - date: October 17, 2024
+      time: "16:00"
+      duration: 180 min
+      title: Tooling for Open Collaboration
+      type: Cohort
+      talks:
+      - title: Setting up a project
+        tag: Setting up a project
+      - title: 'ReadMe files: how to make your project welcoming to others'
+        tag: README
+      - title: A Primer on Open Licenses
+        tag: Open Licensing
+      - title: Designing and enforcing a Code of Conduct
+        tag: Code of Conduct
+      - title: Vision statement
+      learning_objectives:
+      - "Identify essential files to add in a collaborative project\n* Explain why
+        you need to select a license for an open project\n* Select the best license
+        for your project\n* Write a clean and welcoming README file\n* Discuss about
+        Code of Conduct"
+      after: "['Create a GitHub repository for your project\\n* Add the link to your
+        repository in your issue on [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\\
+        n * Use your canvas to start writing a `README.md` file, or landing page,
+        for your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\\
+        n * Link your README in a comment on the OLS-8 issue\\n* Add an open license
+        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\\
+        n * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
+        [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)']"
+    - date: October 16, 2024
+      time: "16:00"
+      duration: 180 min
+      title: Mentor 360 Training
+      type: Mentor
+      learning_objectives:
+      - "Identify essential files to add in a collaborative project\n* Explain why
+        you need to select a license for an open project\n* Select the best license
+        for your project\n* Write a clean and welcoming README file\n* Discuss about
+        Code of Conduct"
+      after:
+      - "Create a GitHub repository for your project\n* Add the link to your repository
+        in your issue on [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
+        * Use your canvas to start writing a `README.md` file, or landing page, for
+        your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\n
+        * Link your README in a comment on the OLS-8 issue\n* Add an open license
+        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
+        * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
+        [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
+      talks: []
   '06':
     start: October 21, 2024
     calls:
+    - duration: 30 min
+      title: 1st Mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
     - date: October 23, 2024
       time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-9-week-06
+      notes: https://annuel2.framapad.org/p/ols-9-week-06
       title: Open Science Garden I
+      type: Cohort
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
+      talks:
+      - title: Open Science Garden(s)
+      - title: Open Science Introduction
+        tag: Open Science Introduction
+      - title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
+        tag: Open Data
+      - title: How do we learn from each other in global large-scale collaborative
+          research networks?
+        tag: Openness to Diversity of Knowledge
+      - title: Why open reviews?
+        tag: Open Evaluation
+    - date: October 23, 2024
+      time: "17:00"
+      duration: 90 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-06
+      title: Open Science Garden I (Clock changes for the UK)
       type: Cohort
       learning_objectives:
       - Define Open Science and Responsible Research
@@ -186,39 +216,43 @@ weeks:
         tag: Openness to Diversity of Knowledge
       - title: Why open reviews?
         tag: Open Evaluation
+    - date: October 25, 2024
+      time: "16:00"
+      duration: 60 min
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '07':
     start: October 28, 2024
     calls:
     - duration: 30 min
-      title: 3rd Mentor-mentee meeting
+      title: 2nd Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: October 30, 2024
+    - date: November 01, 2024
       time: "16:00"
-      duration: 90 min
-      notes: https://bit.ly/ols-9-week-07
-      title: Open Leadership in Practice
-      type: Skill-up
-      talks:
-      - title: Introduction to Open Leadership in Practice
-        tag: Open Leadership in Practice
-      - title: Speakers' talks
-        tag: Open Leadership in Practice
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-07
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '08':
     start: November 04, 2024
     calls:
     - date: November 06, 2024
       time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-9-week-08
-      title: Community Management Café I
+      notes: https://annuel2.framapad.org/p/ols-9-week-08
+      title: Community Management I
       type: Cohort
       learning_objectives:
-      - Considering different kinds of interactions for your community
-      - Use the Mountain of Engagement method to support participants through various
-        levels of engagements
-      - Develop persona and pathways for your community for taking people's experiences
-        and expectations in planning your projects
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
+      after:
+      - Check the GitHub Intro notes, learning resource and video from last week
+      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
+        or other option. ← long term assignment, do it in your own pace.
       talks:
       - title: Community Design for Inclusivity
       - title: 'Community Interaction '
@@ -227,17 +261,24 @@ weeks:
         tag: Mountain of Engagement
       - title: Personas and Pathways
         tag: Personas & Pathways
+    - date: November 08, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-08
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '09':
     start: November 11, 2024
     calls:
     - duration: 30 min
-      title: 4th Mentor-mentee meeting
+      title: 3rd Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
     - date: November 13, 2024
       time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-9-week-09
+      notes: https://annuel2.framapad.org/p/ols-9-week-09
       title: Open-source software practices
       type: Skill-up
       learning_objectives:
@@ -247,19 +288,28 @@ weeks:
       - title: Good Coding Practices
       - title: Code Review
       - title: Package Managements
+    - date: November 15, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-09
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '10':
     start: November 18, 2024
     calls:
     - date: November 20, 2024
       time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-9-week-10
+      notes: https://annuel2.framapad.org/p/ols-9-week-10
       title: Open Science Garden II
       type: Cohort
       learning_objectives:
-      - Define Open Science and Responsible Research
-      - List the different principles of Open Science
-      - Give examples of 3 use cases of the different Open Science principles
+      - Considering different kinds of interactions for your community
+      - Use the Mountain of Engagement method to support participants through various
+        levels of engagements
+      - Develop persona and pathways for your community for taking people's experiences
+        and expectations in planning your projects
       talks:
       - title: Open Science Garden(s)
       - title: Open Educational Resources
@@ -268,17 +318,24 @@ weeks:
         tag: Open Access Publication
       - title: Open Engagement of Social Actors
         tag: Open Engagement of Social Actors
+    - date: November 22, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-10
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '11':
     start: November 25, 2024
     calls:
     - duration: 30 min
-      title: 5th Mentor-mentee meeting
+      title: 4th Mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
     - date: November 27, 2024
       time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-9-week-11
+      notes: https://annuel2.framapad.org/p/ols-9-week-11
       title: Personal Management
       type: Skill-up
       learning_objectives:
@@ -288,17 +345,20 @@ weeks:
       - 'Make your software ready for open-source- '
       talks:
       - title: Personal Ecology and Self Care
-    - duration: 15 min
-      title: Open discussion and share out
+    - date: November 29, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-11
+      title: DRI-EDIA Informal Q&A
       type: Q&A
       talks: []
   '12':
     start: December 02, 2024
     calls:
     - date: December 04, 2024
-      time: "17:00"
+      time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-9-week-12
+      notes: https://annuel2.framapad.org/p/ols-9-week-12
       title: Open Science Garden III
       type: Cohort
       learning_objectives:
@@ -310,80 +370,101 @@ weeks:
         tag: Personal Ecology
       - {}
       - {}
+    - date: December 06, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-12
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '13':
     start: December 09, 2024
     calls:
-    - duration: 30 min
-      title: 6th Mentor-mentee meeting
-      type: Mentor-Mentee
-      talks: []
     - date: December 11, 2024
-      time: "17:00"
+      time: "16:00"
       duration: 90 min
-      notes: https://bit.ly/ols-9-week-13
-      title: Community Management Café II
+      notes: https://annuel2.framapad.org/p/ols-9-week-13
+      title: Community Management II
       type: Cohort
       talks:
       - {}
       - {}
       - {}
       - {}
+    - date: December 13, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-13
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
+      talks: []
   '14':
     start: December 16, 2024
     calls:
-    - duration: 30 min
-      title: 7th Mentor-mentee meeting
+    - duration: 60 min
+      title: 5th Mentor-mentee meeting
       type: Mentor-Mentee
+      talks: []
+    - date: December 20, 2024
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-14
+      title: DRI-EDIA Informal Q&A
+      type: Q&A
       talks: []
   '15':
     start: January 13, 2025
     calls:
-    - date: January 15, 2025
-      time: "09:00"
+    - duration: 30 min
+      title: 6th Mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: January 14, 2025
+      time: "14:00"
       duration: 60 min
-      notes: https://bit.ly/ols-9-week-15
-      title: Final presentation rehearsal - Group 1
+      notes: https://annuel2.framapad.org/p/ols-9-week-15
+      title: Final presentation rehearsal 1
+      type: Skill-up
+      talks: []
+    - date: January 15, 2025
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-15
+      title: Final presentation rehearsal 2
       type: Skill-up
       talks: []
     - date: January 16, 2025
-      time: "14:00"
+      time: "18:00"
       duration: 60 min
-      notes: https://bit.ly/ols-9-week-15
-      title: Final presentation rehearsal - Group 2
-      type: Skill-up
-      talks: []
-    - date: January 17, 2025
-      time: "17:00"
-      duration: 60 min
-      notes: https://bit.ly/ols-9-week-15
-      title: Final presentation rehearsal - Group 3
+      notes: https://annuel2.framapad.org/p/ols-9-week-15
+      title: Final presentation rehearsal 3
       type: Skill-up
       talks: []
   '16':
     start: January 20, 2025
     calls:
-    - date: January 22, 2025
-      time: "09:00"
+    - duration: 30 min
+      title: 7th Mentor-mentee meeting
+      type: Mentor-Mentee
+      talks: []
+    - date: January 21, 2025
+      time: "14:00"
       duration: 60 min
-      notes: https://bit.ly/ols-9-week-16
-      title: Final presentations & Graduation! - Group 1
+      notes: https://annuel2.framapad.org/p/ols-9-week-16
+      title: Final presentations & Graduation 1
+      type: Cohort
+      talks: []
+    - date: January 22, 2025
+      time: "16:00"
+      duration: 60 min
+      notes: https://annuel2.framapad.org/p/ols-9-week-16
+      title: Final presentations & Graduation 2
       type: Cohort
       talks: []
     - date: January 23, 2025
-      time: "14:00"
+      time: "18:00"
       duration: 60 min
-      notes: https://bit.ly/ols-9-week-16
-      title: Final presentations & Graduation! - Group 2
+      notes: https://annuel2.framapad.org/p/ols-9-week-16
+      title: Final presentations & Graduation 3
       type: Cohort
-      talks: []
-    - date: January 24, 2025
-      time: "17:00"
-      duration: 60 min
-      notes: https://bit.ly/ols-9-week-16
-      title: Final presentations & Graduation! - Group 3
-      type: Cohort
-      talks: []
-    - duration: 30 min
-      title: 8th Mentor-mentee meeting
-      type: Mentor-Mentee
       talks: []
