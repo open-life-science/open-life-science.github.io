@@ -18,7 +18,7 @@ It is a set of principles and practices that make scientific research from all f
  
 Making sure not only that scientific knowledge is accessible but also that the production of that knowledge itself is inclusive, equitable and sustainable. - *UNESCO*
 
-# A visual vision of Open Science
+# The vision of Open Science
 
 ![](https://www.publicengagement.ac.uk/sites/default/files/styles/general_/public/2024-08/Scriberia%20crop.png?itok=BMxzsq4B)
 *This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence.*
