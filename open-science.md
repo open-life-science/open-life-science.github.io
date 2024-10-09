@@ -25,12 +25,12 @@ Making sure not only that scientific knowledge is accessible but also that the p
 
 # Open Science Pillars
 
-![]({% link images/open-science/Open_Science_Pillars.svg %})
+![A diagram showing the key elements of Open Science as defined by UNESCO. The diagram features a series of green vertical bars, each representing a core principle of Open Science: Open Data, Open Source, Open Methodology, Open Data, Open Peer Review, Open Access, and Open Educational Resources. The 7 vertical bars originate from a horizontal bar, with a central text "Open Science", and are arranged in a row (side by side).]({% link images/open-science/Open_Science_Pillars.svg %})
 
 
 # Open Science Elements
 
-![]({% link images/open-science/Open_Science_Elements_UNESCO.svg %})
+![A diagram showcasing the key elements of Open Science as defined by UNESCO. The central concept of "Open Science" is surrounded by various interconnected elements, including: Open Source Software, Open Data, Open Access Publication, Open Engagement of Social Actors, Openness to Indigenous Knowledge Systems, Openness to Diversity of Knowledge, Openness to All Scholarly Knowledge and Inquiry, Open Hardware, Open Evaluation, Open Science Infrastructures, and Open Educational Resources.]({% link images/open-science/Open_Science_Elements_UNESCO.svg %})
 
 # Thoughts on Open Science
 
