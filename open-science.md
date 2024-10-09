@@ -20,7 +20,7 @@ Making sure not only that scientific knowledge is accessible but also that the p
 
 # The vision of Open Science
 
-![](https://www.publicengagement.ac.uk/sites/default/files/styles/general_/public/2024-08/Scriberia%20crop.png?itok=BMxzsq4B)
+![Illustration of Open Science Process: A hand-drawn illustration by Scriberia shoowing two people representing different stages in the scientific research process, connected through a winding path through a forest. On the left, a person stands holding a notebook labeled "The Turing Way." Above them, a speech bubbles says "Here are my Data" and contains charts and graphs. The winding path leads up a mountain, passing by illustrations of data points and binary code. At the top, another person is standing in front of a large computer screen displaying charts. Above them, a speech bubble reads "Here are my Results," accompanied by various scientific symbols like checkmarks, percentages, and graphs. Along the path, another speech bubble labeled "Here are my Tools" shows a Swiss army knife, symbolising the research tools used. Another bubble at the top says "Here is my Code" and shows code lines on a scroll.](https://www.publicengagement.ac.uk/sites/default/files/styles/general_/public/2024-08/Scriberia%20crop.png?itok=BMxzsq4B)
 *This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence.*
 
 # Open Science Pillars
