@@ -33,10 +33,7 @@ Making sure not only that scientific knowledge is accessible but also that the p
 ![]({% link images/open-science/Open_Science_Elements_UNESCO.svg %})
 
 # Thoughts on Open Science
-<!-- Task: Add a photo of the wall of Open Science (from RSECON24) to this page -->
-
-<!-- ![](https://lh3.googleusercontent.com/pw/AP1GczPO0r2qObAFKhKkyf8M-g6TBSrcctlE5Yv5-qapHF04QQuIWtR_RXYKgd8ufs-RqDD5KQjs5adDifG3oBjcJ6Ll7xDxSxq7xm7mj8hgTzSGYbv-DktZIRcf6DjPGRQhfw_toq0k6LjETNvnasjwfKk=w1440-h2158-s-no-gm?authuser=0) -->
 
 ![]({% link images/open-science/wall_of_open_science.jpg %})
 
-*Shared by the attendees at RSECON24 and shot by Bish*
+*Shared by the attendees at RSECON24 and shot by Bish.*
