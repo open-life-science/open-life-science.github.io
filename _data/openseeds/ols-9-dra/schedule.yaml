@@ -44,12 +44,16 @@ weeks:
       title: Mentor onboarding 1
       type: Mentor
       talks: []
+      hosts:
+      - malvikasharan
     - date: September 27, 2024
       time: "12:00"
       duration: 60 min
       title: Mentor onboarding 2
       type: Mentor
       talks: []
+      hosts:
+      - malvikasharan
   '03':
     start: September 30, 2024
     calls:
@@ -64,35 +68,57 @@ weeks:
       duration: 60 min
       title: DRI-EDIA Champions Q&A Webinar 1
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTxrD0vmllLHMYB4b0WKrxUqaffwAV-Ee6ph9JYfTONLpcTAneXAJAb_4pyhO4JE8RMCXMBPS7kD-uK/pub?start=false&loop=false&delayms=3000
+        title: Introduction to Open Seeds
+        recording: 'https://youtu.be/KPaMMHLQk6c '
+        tag: OLS Introduction
+      notes: https://annuel2.framapad.org/p/ols-9-week-04
+      hosts:
+      - malvikasharan
     - date: October 11, 2024
       time: "16:00"
       duration: 60 min
       title: DRI-EDIA Champions Q&A Webinar 2
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTxrD0vmllLHMYB4b0WKrxUqaffwAV-Ee6ph9JYfTONLpcTAneXAJAb_4pyhO4JE8RMCXMBPS7kD-uK/pub?start=false&loop=false&delayms=3000
+        title: Introduction to Open Seeds
+        recording: 'https://youtu.be/KPaMMHLQk6c '
+        tag: OLS Introduction
+      notes: https://annuel2.framapad.org/p/ols-9-week-04
+      hosts:
+      - malvikasharan
   '05':
     start: October 14, 2024
     calls:
     - date: October 15, 2024
       time: "16:00"
       duration: 180 min
-      notes:
+      notes: https://annuel2.framapad.org/p/ols-9-week-05
       title: Welcome to Open Seeds
       type: Cohort
       talks:
+      - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vRMgRqYBbe7MPY3yQA5cj8m4BNlJdnLpXtvmka5tql27HLeypmyxZxvwpYxOWnBGQ/pub?start=false&loop=false&delayms=3000 '
+        speakers:
+        - malvikasharan
+        title: Open Leadership in Open Science
+        tag: Open Leadership in Practice
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
-        title: Introduction to Open Seeds
-        tag: OLS Introduction
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
+          https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/pub?start=false&loop=false&delayms=3000
         title: Tooling for Project Design Introduction
         tag: Tooling for Project Design Introduction
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
+      - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub '
         title: Open Canvas
         tag: Open Canvas
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRME4NPdc7Tx528-p3Veo8wN5galMpVK0PhY7v4IpHXbBQQFmBpyjmSMOoXwAqr5Fyo27mbzC2IaTQL/pub
+        title: Introducing Project Roadmapping
+        tag: Project Roadmapping
+      hosts:
+      - malvikasharan
     - date: October 16, 2024
       time: "16:00"
       duration: 90 min
@@ -115,6 +141,8 @@ weeks:
         tag: GitHub Introduction
       - title: Creating a small website with GitHub
         tag: GitHub Introduction
+      hosts:
+      - tajuddeen1
     - date: October 17, 2024
       time: "16:00"
       duration: 180 min
@@ -143,8 +171,31 @@ weeks:
         to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\\
         n * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
         [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)']"
+      notes: https://annuel2.framapad.org/p/ols-9-week-05
     - date: October 16, 2024
       time: "16:00"
+      duration: 180 min
+      title: Mentor 360 Training
+      type: Mentor
+      learning_objectives:
+      - "Identify essential files to add in a collaborative project\n* Explain why
+        you need to select a license for an open project\n* Select the best license
+        for your project\n* Write a clean and welcoming README file\n* Discuss about
+        Code of Conduct"
+      after:
+      - "Create a GitHub repository for your project\n* Add the link to your repository
+        in your issue on [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
+        * Use your canvas to start writing a `README.md` file, or landing page, for
+        your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\n
+        * Link your README in a comment on the OLS-8 issue\n* Add an open license
+        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
+        * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
+        [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
+      talks: []
+      hosts:
+      - malvikasharan
+    - date: October 17, 2024
+      time: "12:00"
       duration: 180 min
       title: Mentor 360 Training
       type: Mentor
@@ -216,12 +267,16 @@ weeks:
         tag: Openness to Diversity of Knowledge
       - title: Why open reviews?
         tag: Open Evaluation
+      hosts:
+      - tajuddeen1
     - date: October 25, 2024
       time: "16:00"
       duration: 60 min
       title: DRI-EDIA Informal Q&A
       type: Q&A
       talks: []
+      hosts:
+      - malvikasharan
   '07':
     start: October 28, 2024
     calls:
@@ -236,6 +291,8 @@ weeks:
       title: DRI-EDIA Informal Q&A
       type: Q&A
       talks: []
+      hosts:
+      - malvikasharan
   '08':
     start: November 04, 2024
     calls:
@@ -261,6 +318,8 @@ weeks:
         tag: Mountain of Engagement
       - title: Personas and Pathways
         tag: Personas & Pathways
+      hosts:
+      - tajuddeen1
     - date: November 08, 2024
       time: "16:00"
       duration: 60 min
@@ -288,6 +347,8 @@ weeks:
       - title: Good Coding Practices
       - title: Code Review
       - title: Package Managements
+      hosts:
+      - tajuddeen1
     - date: November 15, 2024
       time: "16:00"
       duration: 60 min
@@ -318,6 +379,8 @@ weeks:
         tag: Open Access Publication
       - title: Open Engagement of Social Actors
         tag: Open Engagement of Social Actors
+      hosts:
+      - malvikasharan
     - date: November 22, 2024
       time: "16:00"
       duration: 60 min
@@ -345,6 +408,8 @@ weeks:
       - 'Make your software ready for open-source- '
       talks:
       - title: Personal Ecology and Self Care
+      hosts:
+      - malvikasharan
     - date: November 29, 2024
       time: "16:00"
       duration: 60 min
@@ -370,6 +435,8 @@ weeks:
         tag: Personal Ecology
       - {}
       - {}
+      hosts:
+      - malvikasharan
     - date: December 06, 2024
       time: "16:00"
       duration: 60 min
@@ -391,6 +458,8 @@ weeks:
       - {}
       - {}
       - {}
+      hosts:
+      - malvikasharan
     - date: December 13, 2024
       time: "16:00"
       duration: 60 min
