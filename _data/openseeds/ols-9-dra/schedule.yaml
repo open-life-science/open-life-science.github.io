@@ -66,7 +66,7 @@ weeks:
     - date: October 10, 2024
       time: "16:00"
       duration: 60 min
-      title: DRI-EDIA Champions Q&A Webinar 1
+      title: DRI-EDIA Champions Q&A Webinar 1, Welcome to Open Seeds
       type: Cohort
       talks:
       - slides: 
@@ -80,7 +80,7 @@ weeks:
     - date: October 11, 2024
       time: "16:00"
       duration: 60 min
-      title: DRI-EDIA Champions Q&A Webinar 2
+      title: DRI-EDIA Champions Q&A Webinar 2, Welcome to Open Seeds
       type: Cohort
       talks:
       - slides: 
@@ -98,7 +98,7 @@ weeks:
       time: "16:00"
       duration: 180 min
       notes: https://annuel2.framapad.org/p/ols-9-week-05
-      title: Welcome to Open Seeds
+      title: Tooling for Project Design
       type: Cohort
       talks:
       - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vRMgRqYBbe7MPY3yQA5cj8m4BNlJdnLpXtvmka5tql27HLeypmyxZxvwpYxOWnBGQ/pub?start=false&loop=false&delayms=3000 '
