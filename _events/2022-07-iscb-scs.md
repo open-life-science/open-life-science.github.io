@@ -17,7 +17,6 @@ contributions:
   - 
     speakers:
     - yochannah
-    discussion moderator:
     - peranti
     title: "Building open communities and empowering your contributors with open principles"
     slides: https://docs.google.com/presentation/d/e/2PACX-1vSkSak14S5pNMR2qMuQcjwleGPfmH5scRjF6x4qzgs-wt2eyBtSnQzw5z90qlHnM9XArJ-ErhPN1aIp/pub
