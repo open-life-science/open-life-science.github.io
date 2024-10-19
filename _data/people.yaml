@@ -557,13 +557,14 @@ alihumayun:
   latitude: 51.4893335
 amangoel185:
   affiliation: University Of Delhi
-  bio: I'm a research software engineer at The University of Manchester and an SSI
-    Fellow. I'm passionate about open science and am always keen on learning more
-    about it!
+  bio: I’m a research software engineer and an SSI fellow. I am passionate about open
+    science and regularly deliver training workshops. My research interests include
+    software sustainability, open-source software and community building.
   city: Manchester
   country: United Kingdom
   expertise:
-  - Computer science; open source; open science; research software engineering
+  - Research software engineering; open source; community building; training; version
+    control; github; python
   first-name: Aman
   last-name: Goel
   orcid: 0000-0003-3567-2096
@@ -2084,6 +2085,19 @@ chadsansing:
   twitter: chadsansing
   country_3: USA
   continent: North America
+  orcid: 0000-0002-1472-1824
+  city: Harrisonburg, Va
+  expertise:
+  - Community managemenet
+  - Facilitation
+  - Open leadership
+  - Program management
+  - Product management
+  bio: Chad Sansing lives and works in central Virginia. When he’s not gaming, reading,
+    walking, or spending time with family, you can find him working on PREreview.org
+    alongside trusty officemate and chief canine officer, Sleepy the Dog.
+  longitude: -78.8688833
+  latitude: 38.4493315
 chartgerink:
   first-name: Chris
   last-name: Hartgerink
@@ -2451,23 +2465,27 @@ darwin-diaz:
   longitude: -77.0365256
   latitude: -12.0621065
 dasaderi:
-  bio: Daniela is a Neuroscientist with a passion for open, equitable, and transparent
-    scholarship. She is a former Mozilla Fellow, and she now leads a project called
-    PREreview to empower researchers to engage with each other and review preprints.
+  bio: Daniela is the Co-Founder and Executive Director of PREreview, an open project
+    with the mission to bring more equity and transparency to the evaluation of research
+    content, giving systematically excluded researchers better ways to find, train,
+    and contribute to peer review.
   country: United States
   expertise:
-  - Open scholarship
-  - Community organizing
-  - Research, leadership
   - Neuroscience
+  - Open science
+  - Peer review
+  - Publication
   first-name: Daniela
   last-name: Saderi
   orcid: 0000-0002-6109-0367
-  pronouns: she/her
+  pronouns: She/her
   twitter: Neurosarda
-  website: https://www.prereview.org/
+  website: https://prereview.org
   country_3: USA
   continent: North America
+  city: Portland Or
+  longitude: -122.674194
+  latitude: 45.5202471
 dasaptaerwin:
   affiliation: Institut Teknologi Bandung
   country: India
@@ -4321,9 +4339,10 @@ jafari-amir:
   latitude: -22.9110137
 jafsia:
   affiliation: Mboalab
-  bio: Jafsia is a Researcher in the Department of AI at MboaLab.
-  city: Yaounde
-  country: Cameroon
+  bio: Data scientist involved in research project related to the integration of mental
+    health in gender responsive peacebuilding.
+  city: Bangui
+  country: Central African Republic
   expertise:
   - Data science
   first-name: Elisee
@@ -4332,10 +4351,10 @@ jafsia:
   pronouns: He/Him
   twitter: euclude
   website: https://www.mboalab.africa
-  country_3: CMR
+  country_3: CAF
   continent: Africa
-  longitude: 11.5213344
-  latitude: 3.8689867
+  longitude: 18.5835913
+  latitude: 4.3635118
 jasonjwilliamsny:
   bio: Jason is a life scientist who spends most of his time working to help researchers
     adopt computational practices in research and education
@@ -4996,16 +5015,19 @@ karegapauline:
   city: Nairobi
   country: Kenya
   expertise:
-  - Bioinformatics
+  - Bioinformatics; research; open science; open data
   first-name: Pauline
   last-name: Karega
   orcid: 0000-0001-7974-048X
-  pronouns: she/her
+  pronouns: She/Her
   twitter: KaregaP
   country_3: KEN
   continent: Africa
-  longitude: 36.8288420082562
+  longitude: 36.82884201813725
   latitude: -1.3026148499999999
+  bio: Data analysis and management are becoming a daily habit. I really enjoy tech
+    innovation, as a way of solving problems realized during the analysis and management
+    part. And I'm looking forward to owning a dog to converse these daily wins with.
 kariljordan:
   bio: |
     Kari is the Senior Director of Equity and Assessment for The Carpentries, Executive Director of the Engineer Like a Girl after-school program, and a Zumba Fitness Instructor!
@@ -5616,6 +5638,18 @@ lessa-maker:
   continent: Africa
   longitude: 1.7324062
   latitude: 47.5490251
+likeajumprope:
+  first-name: Johanna
+  last-name: Bayer
+  twitter: likeajumprope
+  orcid: 0000-0003-4891-6256
+  city: Nijmegen
+  country: Netherlands
+  pronouns: she/her
+  country_3: NLD
+  continent: Europe
+  longitude: 5.8637771
+  latitude: 51.8474946
 lilian9:
   affiliation: Information Training and Outreach Centre for Africa
   country: Kenya
@@ -7027,6 +7061,26 @@ monica-granados:
   first-name: Monica
   last-name: Granados
   github: false
+monsauce:
+  first-name: Monica
+  last-name: Granados
+  twitter: monsauce
+  website: https://www.monicagranados.com/
+  orcid: 0000-0002-6750-9341
+  city: Ottawa
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Open science
+  - Open licensing
+  bio: Dr. Monica Granados has a PhD in ecology from McGill University. While working
+    on her PhD, Monica discovered incentives in academia promote practices that make
+    knowledge less accessible and has since devoted her career to working in the open
+    science space in pursuit of making knowledge more equitable and accessible.
+  country_3: CAN
+  continent: North America
+  longitude: -75.6901106
+  latitude: 45.4208777
 monsurat-onabajo:
   first-name: Onabajo
   last-name: Monsurat
@@ -8882,6 +8936,7 @@ saranjeetkaur:
   city: Gurgaon
   country: India
   expertise:
+  - Open science
   - Statistics
   - Community management
   first-name: Saranjeet Kaur
@@ -8896,10 +8951,10 @@ saranjeetkaur:
   latitude: 28.42826235
 saravilla:
   affiliation: King'S College London
-  bio: I'm a molecular neuroscientist with a big interest in all about chromatin,
-    sequencing and data analysis and more importantly...open science and reproducibility!
-    To counteract the screen time, I play with sourdough, yoga, beer and whatever
-    I can research about :)
+  bio: I’m a molecular neuroscientist with a big interest in all about DNA, biology,
+    data analysis and more importantly…open science and reproducibility! To counteract
+    the screen time, I play with books, yoga, beer and whatever I can research about
+    :)
   city: London
   country: United Kingdom
   expertise:
@@ -8914,8 +8969,8 @@ saravilla:
   twitter: VillaScience
   country_3: GBR
   continent: Europe
-  longitude: -0.12765
-  latitude: 51.5073359
+  longitude: -0.1277653
+  latitude: 51.5074456
 sarenaz:
   affiliation: Nazarbayev University
   bio: Currently, I am a Research Assistant for the “Co-Creating Culturally Appropriate
@@ -10080,13 +10135,16 @@ virginiagarciaalonso:
   country: Argentina
   pronouns: she/her
   expertise:
-  - Marine biology
-  - Fish early life stages
-  - Ontogenetic patterns
-  bio: I am a PhD from the University of Buenos Aires interested in everything related
-    to marine sciences and data visualization and open science.
+  - Marine ecology
+  - Spatio-temporal analyses
+  - Visualizations
+  - Communities of practice
+  bio: I am a Marine Biologist from Argentina, currently residing in the UK. My interests
+    lie in conducting interdisciplinary research of marine ecosystems, creating appealing
+    visualizations, and actively engaging in and promoting open science practices.
   country_3: ARG
   continent: South America
+  website: https://virginiagarciaalonso.github.io/
 vivianecddg:
   first-name: Viviane
   last-name: Ceolin Dallasta Del Grossi
