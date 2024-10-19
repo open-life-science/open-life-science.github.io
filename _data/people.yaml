@@ -47,7 +47,7 @@
   continent: North America
   longitude: -71.060511
   latitude: 42.3554334
-nihadalsayed:
+45160606+nihadalsayed:
   first-name: Nihad
   last-name: Alsayed
   website: https://http://biotechperspect.org/
@@ -200,6 +200,45 @@ adam-gristwood:
   continent: Europe
   longitude: 8.694724
   latitude: 49.4093582
+adekolagreat:
+  first-name: Adekola
+  last-name: Adeyemi
+  twitter: https://x.com/PrandtlNumber, https://www.linkedin.com/in/adekola-adeyemi-a1998384/
+  country: Canada
+  expertise:
+  - Openfoam
+  - Cad
+  - Python
+  - Linux
+  - Cfd
+  - Nax
+  - Latex
+  - Hpc
+  - Ansys,
+  bio: Adekola is interested in Turbomachinery (Air-Breathing engines) with a specialty
+    in Fans and Compressors. Currently he is pursuing his PhD in Mechanical Engineering
+    in University of Windsor working on Boundary Layer Ingestion (BLI), basically
+    trying to improve the efficiency of FANS due to BLI inlet distortion. Adekola
+    is a good team player with great interpersonal skill. Aside from working in Academia
+    as a research assistant prior to now. Adekola has industrial experience both in
+    Manufacturing and in Oil and Gas.
+  country_3: CAN
+  continent: North America
+adnan1306:
+  first-name: Mohammed
+  last-name: Adnan
+  twitter: https://x.com/adnan_ahmad1306
+  country: Canada
+  expertise:
+  - Machine learning
+  - Ai
+  - Efficient ml
+  bio: Adnan is a PhD student at the University of Calgary and Vector Institute, Canada,
+    working under the supervision of Dr. Yani Ioannou and Dr. Rahul Krishnan. His
+    current research interests include efficient ML, understanding loss landscape
+    on DNNs and sparse training.
+  country_3: CAN
+  continent: North America
 adolfmukama:
   first-name: Adolf
   last-name: Oyesigye Mukama
@@ -276,6 +315,21 @@ agossoubido2021:
   continent: Africa
   longitude: 2.3303076367454025
   latitude: 6.51096225
+ahlam-zidan:
+  first-name: Ahlam
+  last-name: Zidan
+  twitter: https://www.linkedin.com/in/ahlam-aem-zidan
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Rehabilitation
+  - Child development
+  - Researcher
+  bio: Ahlam is a Ph.D. student in Rehabilitation Sciences at McGill University (Canada).
+    Her work focuses on child development and mobility, and she is interested in the
+    application of statistical procedures and software in medical research.
+  country_3: CAN
+  continent: North America
 ahmed-abdille:
   first-name: Ahmed
   last-name: Abdille
@@ -337,6 +391,27 @@ aidanbudd:
   continent: Europe
   longitude: 8.694724
   latitude: 49.4093582
+aieoman:
+  first-name: Arra
+  last-name: Oman
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Local adaptation
+  - Biological anthropology
+  - Population genetics
+  - Selection
+  - Human-environment interactions
+  bio: I am a biological anthropologist and master's candidate. My research in McGill
+    University's Departments of Anthropology and Human Genetics explores population
+    genetics and bioanthropological questions about human health and local adaptations.  I've
+    previously presented and published research reconstructing historical kelp forest
+    ecosystem populations off the coast of Vancouver Island, Canada. This project
+    was completed in partnership with the Tseshaht First Nation, Parks Canada, the
+    University of Victoria's Historical Ecology and Coastal Archaeology laboratory,
+    and the Bamfield Marine Science Centre.
+  country_3: CAN
+  continent: North America
 ailís-o'carroll:
   first-name: Ailís
   last-name: O'Carroll
@@ -357,6 +432,26 @@ ailís-o'carroll:
   github: false
   country_3: IRL
   continent: Europe
+ajitesh-parihar:
+  first-name: Ajitesh
+  last-name: Parihar
+  twitter: https://www.linkedin.com/in/ajitesh-parihar/
+  country: Canada
+  pronouns: He/They
+  expertise:
+  - Software engineering
+  - Inclusive collaboration
+  - Web development
+  - Database
+  - Git/github
+  - Linux administration
+  bio: Ajitesh is a 4th year BCIS Student and a Research Assistant at Okanagan College.  He
+    is a tech enthusiast who enjoys learning about innovations and technologies and
+    is passionate about software engineering, cyber security, and algorithms. He is
+    also the Vice Chair of the Okanagan College IEEE Student Branch, and is involved
+    in organizing various IEEE workshops and conferences.
+  country_3: CAN
+  continent: North America
 ajstewartlang:
   affiliation: University Of Manchester
   bio: I am an Experimental Psychologist and Fellow of the SSI at the University of
@@ -527,6 +622,29 @@ alex-mendonça:
   github: false
   country_3: BRA
   continent: South America
+alex.alexis:
+  first-name: Alex
+  last-name: Alexis
+  twitter: https://www.linkedin.com/in/alex-alexis-32468414b/
+  website: https://p1ps.fr/alexalexis
+  orcid: 0009-0009-2309-9043
+  country: Canada
+  pronouns: Il/lui
+  country_3: CAN
+  continent: North America
+alexanderdefuria:
+  first-name: Alexander
+  last-name: De Furia
+  country: Canada
+  pronouns: he/him
+  expertise:
+  - Machine learning
+  - Class imbalance
+  - Artificial intelligence
+  bio: Graduate student at uOttawa working on machine learning for rare disease screening.
+    Mental health advocate and avid outdoors lover.
+  country_3: CAN
+  continent: North America
 alexholinski:
   affiliation: EMBL-EBI
   bio: I am working as a Scientific Training Officer at EMBL-EBI and dedicate my work
@@ -624,6 +742,28 @@ alihumayun:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+alix-shield:
+  first-name: Alix
+  last-name: Shield
+  twitter: https://x.com/a_shield
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Digital humanities
+  - Indigenous studies
+  - Indigenous literatures
+  - Archival research
+  bio: 'Alix Shield is a settler scholar and lecturer in the Department of Indigenous
+    Studies at Simon Fraser University (Burnaby, BC, Canada). Alix completed her PhD
+    in English at SFU in 2020; her dissertation combines elements of Indigenous Literatures,
+    Canadian Literatures, and the digital humanities to analyze the publishing contexts
+    of two key twentieth-century works of Indigenous women’s writing in Canada. Her
+    dissertation, Kwaskastahsowin (“Put things to right”): Case Studies in Twentieth-Century
+    Indigenous Women’s Writing, Editing, and Publishing in Canada, investigates the
+    ways in which Canadian publishing has marginalized Indigenous women’s writing
+    and literary agency using two case studie'
+  country_3: CAN
+  continent: North America
 alyaaawad:
   first-name: Alyaa
   last-name: Elbadawi
@@ -687,6 +827,56 @@ amchagas:
   twitter: chagas_am
   country_3: GBR
   continent: Europe
+amdanz:
+  first-name: Amelia
+  last-name: Danzinger
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Microbiology
+  - Analytical chemistry
+  bio: Hello! My name is Amelia and I am super passionate about microbiology! I am
+    doing my PhD in environmental microbiology where I am investigating the role endospores
+    play in the spread of ARGs. My favorite thing to do in my free time is hike in
+    the mountains with my friends!
+  country_3: CAN
+  continent: North America
+ameerracle:
+  first-name: Ameer
+  last-name: Nizami
+  twitter: https://www.linkedin.com/in/ameer-nizami-5b6184107
+  country: Canada
+  pronouns: He/Him
+  expertise:
+  - Batteries
+  - Nanomaterials
+  - Artificial intelligence
+  - Density functional theory
+  - Computational chemistry
+  bio: I am a doctoral candidate in Chemical and Materials Engineering at Concordia
+    University, focused on developing lithium-sulfur battery cathodes. My research
+    combines experimental and computational methods to design novel materials for
+    improving the cathode interface, utilizing computational chemistry and artificial
+    intelligence.
+  country_3: CAN
+  continent: North America
+amykim17:
+  first-name: Amy
+  last-name: Kim
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Invasive species
+  - Genetics
+  - Ecology
+  - Evolution
+  - Teaching pedagogy
+  bio: I am a PhD candidate at the University of British Columbia studying the evolution
+    of invasive species, particularly the role of hybridization in the invasion process.
+    I am also very passionate about EDIA in the realm of teaching, specifically in
+    biology, and hope to bring that expertise to my project.
+  country_3: CAN
+  continent: North America
 anafinovas:
   first-name: Saule
   last-name: Anafinova
@@ -806,6 +996,25 @@ anelda:
   continent: Africa
   longitude: 5.4964645
   latitude: 52.0390484
+anemily-machina:
+  first-name: Anemily
+  last-name: Machina
+  twitter: https://www.linkedin.com/in/anemily-machina-418a90116/
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Machine learning
+  - Natural language processing
+  - Generative ai
+  - Explainable ai,
+  bio: Anemily Machina is a PhD Candidate in Computer Science at Western University.
+    Her research focuses on explaining how AIs in the Natural Language Processing
+    domain make decisions. AIs are increasingly being integrated into everyday society,
+    but the average person has little to no say in how these AIs are trained or used.
+    Anemily believes that people deserve high quality and understandable explanations
+    for any AI decision that affects their life.
+  country_3: CAN
+  continent: North America
 anenadic:
   affiliation: University Of Manchester
   bio: Software Sustainability Institute's training lead. Over the past 5 years committed
@@ -847,6 +1056,27 @@ angelicamaineri:
     PhDone in Sociology, mostly knitting in my free time
   country_3: NLD
   continent: Europe
+angelicamiraples:
+  first-name: Angelica
+  last-name: Miraples
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Plant
+  - Molecular
+  - Cellular biology
+  - Microbiome
+  - R studio
+  - Command line
+  - High throughput sequencing data processing
+  bio: Hi! I have a traditional biology background in molecular and cellular biology,
+    obtained at the University of Toronto, where I also did my MSc in the Dept. of
+    Cell and Systems Biology. I wanted to explore more translational science, which
+    led me to the University of Guelph where I am currently pursuing my PhD. My research
+    is looking to investigate the microbiome of maize, and is heavily bioinformatics
+    focused.
+  country_3: CAN
+  continent: North America
 anita-broellochs:
   affiliation: Protocols.io
   bio: Anita Bröllochs is the Head of Outreach at protocols.io. She studied Life Science
@@ -1140,6 +1370,29 @@ aolivera-labi:
   continent: South America
   longitude: -56.1913095
   latitude: -34.9058916
+arashasg:
+  first-name: Arash
+  last-name: Asgari
+  twitter: 'linkedin: https://www.linkedin.com/in/asgari-arash/?originalSubdomain=ir'
+  country: Canada
+  pronouns: He/Him
+  expertise:
+  - Ai fairness
+  - Large language models
+  - Multi-modal models
+  - De-biasing ai models
+  - Parameter efficient fine-tuning of ai models.
+  bio: Arash Asgari is an AI researcher with extensive academic and professional experience
+    in large-scale training, prompt-tuning, and deployment of large language models
+    (LLMs). His research interests span AI fairness, multi-modality of LLMs(MLLMs),
+    and AI applications in medical imaging. Currently, Arash is pursuing an MSc in
+    AI at York University, Canada, where he is a member of the Responsible AI Lab.
+    He also holds an MSc in computer engineering from Sharif University of Technology,
+    Tehran, and graduated at the top of his cohort with a BSc in computer engineering
+    from K.N. Toosi University of Technology. His work has earned him prestigious
+    research awards from the Vector Institute and the Digi
+  country_3: CAN
+  continent: North America
 arentkievits:
   affiliation: Delft University Of Technology
   bio: I am a nanobiologist doing a PhD in volume electron microscopy. I like microscopy,
@@ -1597,6 +1850,29 @@ bebatut:
   continent: Europe
   longitude: 3.0819427
   latitude: 45.7774551
+benjac2:
+  first-name: Arne
+  last-name: Andres
+  twitter: https://www.linkedin.com/in/arne-andres-b0423444
+  country: Canada
+  pronouns: He/him
+  expertise:
+  - Ai
+  - Object detection
+  - Deep learning algorithms
+  - Signal/parallel processing,
+  - Applications in neurorehabilitation.
+  bio: As a quadriplegic with limited use of all limbs, uses a power wheelchair, and
+    a graduate student of the Faculty of Rehabilitation Medicine (FRM) from the University
+    of Alberta, I am  honored to have been selected as an EDIA (Equity, Diversity,
+    Inclusion, and Accessibility) Champion through the Digital Research Alliance of
+    Canada’s pilot program.  This recognition reflects commitment to my core values
+    and underscores the importance of disability studies and inclusive research practices
+    in almost all diverse fields of studies.  As part of U of A, I do have the opportunity
+    to collaborate with different faculty in the University.  My background is Electrical/Electronics
+    Engineering and current p
+  country_3: CAN
+  continent: North America
 benkrikler:
   affiliation: University of Bristol
   country: United Kingdom
@@ -2116,6 +2392,30 @@ cbolibaugh:
   continent: Europe
   longitude: -1.0743052444639218
   latitude: 53.96565785
+cdjuikem:
+  first-name: Clotilde
+  last-name: Djuikem
+  twitter: https://www.linkedin.com/in/clotilde-djuikem-8186901a0
+  website: https://www.clotilde-djuikem.com/
+  country: Canada
+  expertise:
+  - Mathematical modelling
+  - Epidemiology
+  - Control
+  - Data-science
+  - Education
+  - Scientific outreach
+  bio: Clotilde Djuikem is currently a Postdoctoral Research Fellow at the University
+    of Manitoba. Her work focuses on mathematical epidemiology and the impacts of
+    climate change on Arctic fish species. She holds a Master’s degree in Applied
+    Mathematics from the University of Douala, Cameroon, and a Ph.D. in Applied Mathematics
+    from Université Côte d’Azur, France.  She is the founder of the YouTube channel  Tioh
+    Academy, where she shares her passion for mathematics through educational content.
+    Through her platform, she also aims to encourage young girls to pursue careers
+    in science. You can connect with her on LinkedIn (Clotilde Djuikem) and explore
+    her YouTube channel, which inspires others to app
+  country_3: CAN
+  continent: North America
 cel31:
   affiliation: University Pompeu Fabra
   bio: "I am an early career researcher with a deep interest in past plant technology
@@ -2214,6 +2514,48 @@ chiarabertipaglia:
   pronouns: she/her
   twitter: ChiaBertipaglia
   country_3: USA
+  continent: North America
+chiedozie12:
+  first-name: Chiedozie
+  last-name: Alumona
+  twitter: https://www.linkedin.com/in/chiedozie-alumona-754016b9/
+  country: Canada
+  pronouns: he/him
+  expertise:
+  - Quantitative research
+  - Statistics
+  - Teaching
+  - Systematic review
+  - Meta-analysis
+  - Qualitative research
+  bio: Chiedozie is a physiotherapist, lecturer, and doctoral student in Population
+    Health Studies at the University of Lethbridge. His research interests include
+    physical function, musculoskeletal physiotherapy, life satisfaction, quality of
+    life, health behaviours, and aging. Chiedozie conducts quantitative and qualitative
+    research as well as systematic reviews and meta-analyses.
+  country_3: CAN
+  continent: North America
+chikaonyinye:
+  first-name: Chika
+  last-name: Maduakolam
+  twitter: https://x.com/chicademos
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Gender
+  - Violence
+  - Qualitative research
+  - Social science research
+  - Law
+  - Human rights
+  bio: 'Chika Maduakolam is a Ph.D. candidate in Socio-legal Studies at York University.
+    She holds an LLM degree from Osgoode Hall Law School. She has worked as part of
+    teams on international research projects focused on gendered violence in war;
+    and on a domestic project on civil justice in Canada. Her main area of research
+    is focused on sexual and gender-based violence in conflict. She is interested
+    in the following research areas: conflict-related sexual violence, gender issues,
+    militarized masculinities, international law and human rights.'
+  country_3: CAN
   continent: North America
 christina-ambrosi:
   affiliation: University of Zurich
@@ -2470,6 +2812,30 @@ dadditolu:
   continent: Europe
   longitude: -4.2501687
   latitude: 55.861155
+damario99:
+  first-name: Sebastian
+  last-name: D'Amario
+  twitter: https://www.linkedin.com/in/sebastian-d-amario-893a52228/
+  country: Canada
+  pronouns: He/Him
+  expertise:
+  - Kinarm
+  - Sensorimotor
+  - Behaviour
+  - Motor learning
+  - Motor adaptation
+  - Traumatic brain injury
+  bio: My name is Sebastian and I am a PhD student in Neuroscience. I am currently
+    attending Queen’s University in Kingston, ON. My research area focuses on traumatic
+    brain injury and the resulting behavioural deficits that come with it. I have
+    a particular emphasis on investigating how repeated asymptotic mild traumatic
+    brain injury can accumulate into long-term cognitive & motor impairment. We use
+    different neuroimaging and sensorimotor data collection tools in our lab to see
+    if we can associate changes in kinematics with changes in structural integrity.
+    I’m very interested in sensorimotor control, and am hoping to do work in the motor
+    recovery field later in my career.
+  country_3: CAN
+  continent: North America
 danae-carelis-davila-espinoza:
   bio: "Medical student\nAssociate editor of the Journal of the scientific society
     of medical students of the Universidad Mayor de San Simón \"Revista Científica
@@ -3112,6 +3478,25 @@ elena-giglia:
   continent: Europe
   longitude: 7.6824892
   latitude: 45.0677551
+elham-reyhanianmotehaver:
+  first-name: Elham
+  last-name: Reyhanianmotehaver
+  twitter: https://www.linkedin.com/in/elham-reyhanian-82136482/
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Signal processing
+  - Machine learning
+  - Cerebral palsy
+  bio: I am currently a PhD student at Queen's University with a background in Electrical
+    Engineering. My research experience has focused extensively on signal processing
+    techniques, and I am now applying that expertise to address challenges in neuroscience.
+    Specifically, I am exploring brain pathology in Cerebral Palsy, using my knowledge
+    in data science to understand how a brain with a lesion produces and manages movement,
+    and how rehabilitation can be optimized.
+  github: false
+  country_3: CAN
+  continent: North America
 elisa-on-github:
   affiliation: Vrije Universiteit Amsterdam
   bio: Elisa is a Data Steward at the Vrije Universiteit Amsterdam. In this role,
@@ -3146,6 +3531,18 @@ elsasci:
   twitter: elsasci
   country_3: GBR
   continent: Europe
+emiliestorer:
+  first-name: Emilie
+  last-name: Storer
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Data analysis
+  - Cosmology
+  bio: I am a postdoctoral fellow working on analyzing data collected from telescopes.
+    I focus on systematics, such as instrument beams.
+  country_3: CAN
+  continent: North America
 emma-anne-harris:
   affiliation: Humboldt University
   bio: Dr Emma Anne Harris' research background is in cultural history, specifically
@@ -3282,6 +3679,29 @@ estherplomp:
   continent: Europe
   longitude: 4.2696802205364515
   latitude: 52.07494555
+eunicetunggal:
+  first-name: Eunice
+  last-name: Tunggal
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Qualitative
+  - Digital
+  - Health equity
+  - Disability
+  - Women
+  - Girls
+  bio: Eunice Tunggal is a biracial Indonesian-Canadian student, currently pursuing
+    her Master’s degree in Occupational and Public Health at Toronto Metropolitan
+    University. She has a strong interest in health policy, and doing community-engaged
+    research to assist in developing accessible, equity-seeking healthcare practices
+    and programs. Her passion for these areas were shaped during her time collaborating
+    with McMaster students and the City of Hamilton as a part of CityLAB on an affordable
+    housing project, working in long-term care, and in family medicine and allergy-immunology
+    research settings. Her current work revolves around women and gender-diverse individuals
+    with disabilities and their lev
+  country_3: CAN
+  continent: North America
 evaherbst:
   country: Switzerland
   first-name: Eva
@@ -3378,6 +3798,29 @@ ewuramaminka:
   twitter: eminka_da
   country_3: GBR
   continent: Europe
+existentialist-robot:
+  first-name: Eden
+  last-name: Redman
+  twitter: https://www.linkedin.com/in/eden-redman/, https://x.com/eden_redman
+  website: https://www.edenredman.me
+  country: Canada
+  expertise:
+  - Neuroscience
+  - Stroke
+  - Education
+  - Community
+  - Innovation
+  bio: Eden Redman is the Executive Director of the non-profit organization NeurAlbertaTech
+    (NAT), the province’s leading neurotechnology innovator network. He holds a BSc
+    from the University of Alberta and is currently enrolled in a MSc in the Integrated
+    Program in Neuroscience at McGill University. His research interests include biosignal
+    processing, neuromodulation, and translational neuroscience. Eden has been named
+    the Edmonton Student Entrepreneur of the Year, Alberta’s Top 30 Under 30, and
+    leads provincially- and federally-awarded initiatives that have arisen from his
+    efforts in merging his two great passions; computational neuroscience and community
+    building.
+  country_3: CAN
+  continent: North America
 fabienne-lucas:
   affiliation: Brigham And Women'S Hospital
   bio: I am a German-born, German/UK/US-trained physician scientist and current Clinical
@@ -3458,6 +3901,27 @@ fadlelmola:
   continent: Africa
   longitude: 32.5349123
   latitude: 15.5635972
+fanwangm:
+  first-name: Fanwang
+  last-name: Meng
+  country: Canada
+  pronouns: He/She
+  expertise:
+  - Computational drug discovery
+  - Software development
+  - Machine learning
+  - Open science
+  bio: Fanwang Meng got his Ph.D. under the supervision of Prof. Paul W. Ayers at
+    McMaster University, Canada and he moved to Prof. Connor W. Coley’s group at MIT
+    for postdoctoral training in 2022. He joined Prof. Farnaz Heidar-Zadeh’s group
+    at Queen’s University as a Banting Postdoctoral Fellow (most prestigious postdoc
+    fellowship in Canada) in 2024. His research focuses on computational drug discovery
+    with machine learning, computational chemistry and open-source software development.
+    As a core member of the QC-Devs consortium, he is passionate about open-science
+    by buidling open-source software tools. He has led/contributed to 16 open-source
+    Python packages which cover the fields of computationa
+  country_3: CAN
+  continent: North America
 farukustunel:
   affiliation: Bezmiâlem Vakıf University
   city: Istanbul
@@ -3473,6 +3937,31 @@ farukustunel:
   continent: Asia
   longitude: 29.052495
   latitude: 41.0766019
+fatimamarianar:
+  first-name: Fatima Mariana
+  last-name: Ramirez Rodriguez
+  twitter: https://www.linkedin.com/in/fatimamarianar/
+  orcid: 0009-0000-2185-5006
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Mechatronics
+  - Mechanical design
+  - Electronics design
+  - Programming
+  - Automation
+  - Multidisciplinary problem solving
+  bio: Fatima Ramirez is a mechatronics engineer currently pursuing a Master's degree
+    in Mechanical Engineering at the University of Alberta in Edmonton, Canada. Her
+    research focuses on developing technology to improve the efficiency and sustainability
+    of concrete 3D printing applications in the construction industry. A graduate
+    of the Tecnológico de Monterrey, Guadalajara campus, she received a full scholarship
+    through the Líderes del Mañana - Heineken Mexico distinction.  Before starting
+    her master's program, Fatima worked at Intel Guadalajara in the Functional Validation
+    area for server processors. She also co-founded the start-up TRIHTON/SPO, dedicated
+    to developing specialized technological pr
+  country_3: CAN
+  continent: North America
 fatma366:
   first-name: Fatma Mohamed
   last-name: Omar
@@ -3560,6 +4049,26 @@ fpsom:
   continent: Europe
   longitude: 22.9352716
   latitude: 40.6403167
+frankonu:
+  first-name: Frank
+  last-name: Onuh
+  twitter: https://www.linkedin.com
+  country: Canada
+  expertise:
+  - Mal/mis/disinformation
+  - Black digital humanities
+  - Critical discourse analysis
+  - Digital afrocentrism
+  - Humanistic prompt engineering
+  - Computational social sciences
+  - Corpus linguistics
+  bio: Frank is a PhD Student and an instructor at the University of Lethbridge. His
+    doctoral research centers on integrating African epistemological and ontological
+    views to decolonise fact-checking practices in Africa. Frank is a strong advocate
+    and promoter of the black and African voices via scholarship and social entrepreneurial
+    engagements.
+  country_3: CAN
+  continent: North America
 fredbelliard:
   affiliation: Tu Delft Open Publishing
   bio: Frédérique is the publishing officer of TU Delft OPEN Publishing, the open
@@ -3889,6 +4398,28 @@ graciellehigino:
   continent: North America
   longitude: -123.113952
   latitude: 49.2608724
+gtfrans2re:
+  first-name: Francois Gonothi
+  last-name: Toure
+  twitter: https://www.linkedin.com/in/gtfrans2re/
+  country: Canada
+  pronouns: He/Him/His
+  expertise:
+  - Robotics
+  - Iot
+  - Computer vision
+  - Reinforcement learning
+  - Internet of things
+  - High-performance computing
+  bio: I work at the intersection of Robotics, AI, & Cybersecurity, focusing on innovation
+    & R&D, mostly through STEM education. I am dedicated to enhancing youth education
+    with advanced AI & learning technologies. Currently, I am developing AI-based
+    robotic systems under the McGill-UQAM Research-Innovation Chair in Animal Welfare
+    & AI to improve dairy industry. Passionate about EdTech, I seek opportunities
+    to tackle sector challenges. I’ve earned national & international awards in technology
+    innovation & entrepreneurship.
+  country_3: CAN
+  continent: North America
 gugy89:
   bio: Polyglot European Scientist. Thrives working in interdisciplinary environments
     combining the study of enzyme reactions and mechanisms with bioinformatics, molecular
@@ -3927,7 +4458,7 @@ guille1107:
   longitude: -58.4370894
   latitude: -34.6075682
 ha0ye:
-  affiliation:  University of Pennsylvania / Community for Rigor
+  affiliation: University of Pennsylvania / Community for Rigor
   bio: Hao is the Reproducibility Librarian at the University of Florida Health Science
     Center Libraries. He is passionate about empowering others, whether through training
     in open science and reproducible research practices or promoting equity and inclusion
@@ -3954,6 +4485,20 @@ ha0ye:
   continent: North America
   longitude: -82.3249846
   latitude: 29.6519684
+hamzahanif2210:
+  first-name: Hamza
+  last-name: Hanif
+  country: Canada
+  expertise:
+  - Particle physics
+  - Physics
+  - Python
+  - Data analysis
+  - Coding
+  bio: I am originally from Pakistan and completed my bachelor's degree there. I am
+    currently pursuing a PhD in particle physics at Simon Fraser University in Canada."
+  country_3: CAN
+  continent: North America
 hans-ket:
   first-name: Hans
   last-name: Ket
@@ -4330,6 +4875,23 @@ isahmadbbr:
   continent: Africa
   longitude: 8.5364136
   latitude: 11.8948389
+islammatar:
+  first-name: Islam
+  last-name: Matar
+  twitter: https://www.linkedin.com/in/islam-matar-5ab85175/
+  country: Canada
+  pronouns: he/him/his
+  expertise:
+  - Molecular-modelling
+  - Drug-discovery
+  - Entrepreneurship
+  bio: Islam K. Matar. B.Pharm.Sci. (Misr University for Science and Technology),
+    Postgraduate Diploma in Drug Discovery (Cairo University), is a M.Sc. Student
+    in Applied Science at Saint Mary's University. His current research is focused
+    on using molecular modelling/informatics for the discovery and development of
+    therapeutic entities, with a current focus on antimicrobial agents.
+  country_3: CAN
+  continent: North America
 ismael-kg:
   affiliation: The Alan Turing Institute
   bio: Currently studying towards a MSc in philosophy of the social sciences at the
@@ -4349,6 +4911,28 @@ ismael-kg:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+iuitanyi:
+  first-name: Ijeoma
+  last-name: Itanyi
+  twitter: https://www.linkedin.com/in/ijeomaitanyi/
+  country: Canada
+  pronouns: She/Her/Hers
+  expertise:
+  - Preventive medicine
+  - Epidemiologic
+  - Statistical methods
+  - Implementation science
+  - Applied machine learning
+  - Data science
+  - Non-communicable diseases
+  - Health systems strengthening
+  bio: Ijeoma is an epidemiologist, implementation scientist, and preventive medicine
+    physician with extensive experience in conducting large-scale research projects
+    in resource-limited settings. Her research interests include prevention of non-communicable
+    diseases (NCDs), digital health interventions to support patient management of
+    NCDs, and artificial intelligence for healthcare and public health.
+  country_3: CAN
+  continent: North America
 ivotron:
   affiliation: Uc Santa Cruz
   bio: Research Scientist at UC Santa Cruz, Incubator Fellow at the UC Santa Cruz
@@ -4416,6 +5000,53 @@ jafsia:
   continent: Africa
   longitude: 11.5213344
   latitude: 3.8689867
+jaim-gem:
+  first-name: Jaimie
+  last-name: Greasley
+  twitter: https://linkedin.com/in/jaimiegreasley
+  country: Canada
+  expertise:
+  - Quantum programming
+  - Quantum algorithms
+  - Quantum simulation
+  - Applied crystallography
+  - Machine learning
+  - Optimization
+  bio: I am a PhD student in Chemistry at the University of Victoria where my research
+    focuses on quantum algorithms, primarily for simulating materials and molecules.
+    I am part of the theoretical and computational condensed matter physics research
+    group led by Professor Thomas E. Baker, and I am also in the NSERC CREATE in Quantum
+    Computing program managed by Quantum BC. I hold a BSc in Physics from Sorbonne
+    University and an MSc in Biomedical Physics (with distinction) from the University
+    of the West Indies. My previous research related to applied crystallography and
+    x-ray diffraction materials analysis utilizing pattern fitting, simulation, and
+    machine learning. I then transitioned into quantum
+  country_3: CAN
+  continent: North America
+jane-ezirigwe:
+  first-name: Jane
+  last-name: Ezirigwe
+  twitter: https://www.linkedin.com/in/jane-ezirigwe-381543b8/
+  country: Canada
+  expertise:
+  - Food & agricultural law
+  - Racial justice
+  - Gender
+  - Socio-legal research
+  - Law
+  - Global south perspectives
+  bio: Dr. Ezirigwe is a distinguished Associate Professor of Law, at the Nigerian
+    Institute of Advanced Legal Studies (NIALS) and a Visiting Scholar at NIALS' partner
+    hub, Open AIR Network, University of Ottawa. She has over 19 years of experience
+    in law practice, legal research, advocacy, education, and knowledge mobilization
+    for broader usage, across five continents, at national, regional and international
+    levels. Her research interests primarily revolve around food and agricultural
+    law and governance of Big data and AI in the food and agricultural sector. She
+    is committed to mainstreaming gender perspectives and racial justice in her research
+    and employs socio-legal methodologies to produce evi
+  github: false
+  country_3: CAN
+  continent: North America
 jasonjwilliamsny:
   bio: Jason is a life scientist who spends most of his time working to help researchers
     adopt computational practices in research and education
@@ -4639,6 +5270,25 @@ jformoso:
   continent: South America
   longitude: -58.4370894
   latitude: -34.6075682
+jgirgis01:
+  first-name: Jackie
+  last-name: Girgis
+  twitter: https://ca.linkedin.com/in/jackiegirgis
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Machine learning
+  - Interpersonal connection
+  - Emotion
+  - Music
+  bio: Jackie is a former clinical research nurse with a strong passion for social
+    justice. Currently pursuing a PhD, her research focuses on integrating physiological
+    signals and machine learning to infuse emotion into music. By creating meaningful
+    interactions between minimally communicative individuals and their caregivers,
+    Jackie aims to enhance connection and improve the quality of interactions that
+    these individuals can have with their world.
+  country_3: CAN
+  continent: North America
 jhon-anderson-pérez-silva:
   affiliation: Scihack Community Bio Lab
   bio: Senior student of Genetics & Biotechnology at UNMSM, Peru. Member of MikuyTec
@@ -4823,6 +5473,27 @@ jolien-s:
   - Research data management; linguistics
   country_3: NLD
   continent: Europe
+jonas-stadfeld:
+  first-name: Jonas
+  last-name: Stadfeld
+  country: Canada
+  pronouns: He/him
+  expertise:
+  - Microplastics
+  - Microbial ecology
+  - Freshwater microbiology
+  - Plastisphere
+  - Metagenomics.
+  bio: I am a PhD student at the University of Calgary studying environmental microbiology.
+    I am interested in the microbial community present in our freshwater, studying
+    the factors that shape this community, and the impact dysbiosis of this community
+    could have on environment and human health. In my PhD studies, I am focused on
+    microplastics as a factor impacting the freshwater microbiome. This includes evaluating
+    the potential for microplastic to act as a vector for the spread of antimicrobial
+    resistant pathogens, as well as exploring the potential of using bacteria as a
+    tool for the remediation of plastic pollution.
+  country_3: CAN
+  continent: North America
 jonny-heath:
   bio: I am a poet and performance artist. One of my main practices is 'empathic literature',
     in which a conversation with an individual leads to my creating a unique piece
@@ -5182,6 +5853,28 @@ katrinleinweber:
   pronouns: she/her
   country_3: DEU
   continent: Europe
+kayisi86:
+  first-name: Kwaku
+  last-name: Ayisi
+  twitter: https://www.linkedin.com/in/kwakuayisi
+  country: Canada
+  pronouns: He/Him
+  expertise:
+  - Research
+  - Analysis
+  - Policy development
+  - Teaching
+  bio: Kwaku is a PhD candidate at the Johnson Shoyama Graduate School of Public Policy,
+    University of Regina. Kwaku has a Bachelor of Arts degree from the University
+    of Saskatchewan, a Master of Business Administration (MBA) degree and a Master
+    of Public Policy (MPP) degree both from the University of Regina. Kwaku’s research
+    interests include population health policy affecting Black people, child welfare
+    policy, Indigenous peoples policy and education policy. He has received several
+    scholarships and awards for his research work including the Saskatchewan Innovation
+    and Excellence Graduate Scholarship, the City of Regina Henry Baker Scholarship
+    and the Institute of Public Administration of Canada
+  country_3: CAN
+  continent: North America
 kaythaney:
   country: United States
   first-name: Kaitlin
@@ -5210,6 +5903,30 @@ kevinxufs:
   twitter: kevinzhangxu
   country_3: GBR
   continent: Europe
+khantas:
+  first-name: Tasneem
+  last-name: Khan
+  twitter: https://www.linkedin.com/in/tasneem-khan
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Social
+  - Mental health equity
+  - Semi-structured interviews
+  - Statistics canada
+  - Community based survey analysis
+  - Edia
+  - Intersectionality frameworks
+  - Culturally adapted mental health interventions
+  bio: Tasneem Khan is a PhD Candidate at the University of Waterloo, and her general
+    research focus is on social and economic predictors of the mental health of disadvantaged
+    or at-risk populations. This includes research on immigrants, immigrant women,
+    South Asians and some research on Indigenous Peoples and mostly using Statistics
+    Canada Data.  Her interest in mental health equity developed from migrating to
+    Canada at a young age and studying psychology and neuroscience during her Honours
+    Bachelor of Science at the University of Toronto.
+  country_3: CAN
+  continent: North America
 khanteymoori:
   affiliation: University Of Freiburg
   city: Freiburg
@@ -5225,6 +5942,30 @@ khanteymoori:
   continent: Europe
   longitude: 7.8494005
   latitude: 47.9960901
+kim-mm:
+  first-name: Kim
+  last-name: Mitchell
+  twitter: http://linkedin.com/in/kimberly-mitchell-sage-strong
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Indigenous health
+  - Medical learner
+  - Engineering
+  - Privacy
+  - Information protection
+  - Qualitative research
+  - Teaching
+  - Mentoring
+  bio: Kim is a medical student at Queens University, Kingston, Ontario, Canada.  She
+    holds bachelor and masters degrees in Mechanical engineering and has a passion
+    for indigenous data sovereignty in research. Kim’s current research focuses on
+    indigenous perspectives on virtually-provides health care. Kim serves on an indigenous
+    research ethics working group And hopes that her research and scholarly activities
+    work will raise up indigenous voices and encourage indigenous students’ involvement
+    in research.
+  country_3: CAN
+  continent: North America
 kipkurui:
   bio: Caleb is a 19/20 Mozilla Fellow and a Bioinformatician,  interested in teaching,
     open science, reproducibility, machine learning, FAIR Genomics, and community
@@ -5408,6 +6149,29 @@ kon0925:
   continent: Europe
   longitude: 25.1332843
   latitude: 35.33908
+kookhu:
+  first-name: Kook
+  last-name: Hu
+  twitter: https://www.linkedin.com/in/fuqin-kook-hu-58a1a2201/
+  country: Canada
+  pronouns: He
+  expertise:
+  - Ai literacy
+  - Digital divide
+  - First-in-family university students
+  - Mindfulness
+  - International development
+  bio: Fuqin (Kook) Hu is a McCall MacBain Scholar from China, currently studying
+    Development Geography at McGill University. With a strong commitment to bridging
+    digital divide, Kook focuses on empowering first-generation college students (FGS)
+    through improved access to Digital Research Infrastructure (DRI) and AI literacy.
+    His project, funded by the DRI EDIA Champions Program, seeks to make DRI resources
+    more accessible and equitable for underrepresented students at McGill.   Outside
+    of academics, Kook is a daily meditator, biography nut, question asker, and avid
+    foodie. he reads Paulo Coelho's "The Alchemist" every night, and protects his
+    curiosity to learn "how the world actually works, and wh
+  country_3: CAN
+  continent: North America
 koudyk:
   country: Canada
   first-name: Kendra
@@ -5451,6 +6215,29 @@ kswhitney:
   continent: North America
   longitude: -77.615214
   latitude: 43.157285
+kwade4:
+  first-name: Kaitlyn
+  last-name: Wade
+  twitter: https://www.linkedin.com/in/kwade4, https://x.com/UWO_DRI_EDIA
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Bioinformatics
+  - Health data science
+  - Deep learning
+  - Statistical genetics
+  - Inclusive ai
+  - Explainable ai
+  bio: I’m a PhD candidate at Western University in the Department of Computer Science,
+    with a passion for turning data into discoveries. I apply AI and statistical methods
+    to better understand the genetic basis of complex diseases such as Rheumatoid
+    Arthritis and COVID-19. My research integrates large-scale genomic and socio-demographic
+    data to develop fair and inclusive models for predicting disease risk. I’m also
+    committed to developing open-source software to make scientific tools more accessible.
+    Outside of research, I enjoy volunteering, mentoring STEM students, and supporting
+    initiatives that promote inclusion and diversity in STEM.
+  country_3: CAN
+  continent: North America
 laitanawe:
   first-name: Olaitan
   last-name: Awe
@@ -5511,6 +6298,28 @@ landimi2:
   continent: Africa
   longitude: 36.8288420082562
   latitude: -1.3026148499999999
+lannalucchetti:
+  first-name: Lanna Emilli
+  last-name: Barbosa Lucchetti
+  twitter: https://www.researchgate.net/profile/Lanna-Lucchetti
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Computational simulations
+  - Density functional theory
+  - Molecular dynamics
+  - Data science
+  - Electrochemistry
+  - Teaching
+  - Learning
+  bio: I am a PhD in Science and Technology/Chemistry at UFABC (Brazil), with a collaboration
+    period at the University of Calgary (Canada), with a 6-month long postdoctoral
+    position at UFABC - https://inct-mi.pesquisa.ufabc.edu.br/ and currently a postdoctoral
+    researcher at Simon Fraser University. I am mainly interested in applying theoretical
+    chemistry and computational methods to investigate electrochemical processes for
+    green energy generation, water treatment and other environmental applications.
+  country_3: CAN
+  continent: North America
 lauracarter:
   affiliation: University Of Essex
   bio: Laura recently submitted her PhD thesis on gender stereotyping in public sector
@@ -5626,6 +6435,25 @@ lazycipher:
   twitter: lazycipher
   country_3: IND
   continent: Asia
+lcamelo:
+  first-name: Laura Carolina
+  last-name: Camelo Valera
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Metagenomics
+  - Computational biology
+  - Science education
+  - Inclusive learning techniques
+  bio: I am a PhD candidate at McGill University, researching phage-bacteria interactions
+    and phage population genomics in the infant gut within the context of malnutrition.
+    I hold a Master's in Computational Biology from Universidad de los Andes (Colombia)
+    and have research and teaching experience at both institutions. My expertise lies
+    in metagenomics, phage-host interactions, and ecological dynamics. I deliver workshops
+    for researchers across Canada, Mexico, and Colombia in English and Spanish. I'm
+    passionate about inclusive, accessible learning techniques in science education.
+  country_3: CAN
+  continent: North America
 lcbreedt:
   first-name: Lucas
   last-name: Breedt
@@ -5663,6 +6491,30 @@ lessa-maker:
   continent: Africa
   longitude: 1.7324062
   latitude: 47.5490251
+leticiamagpali:
+  first-name: Letícia
+  last-name: Magpali Moura Estevão
+  twitter: https://x.com/leticiamagpali
+  website: https://leticiamagpali.weebly.com/
+  country: Canada
+  expertise:
+  - Evolution
+  - Genomics
+  - Genotype-phenotype
+  - Bioinformatics
+  - Cetaceans
+  - Bioacoustics
+  - Echolocation
+  bio: "Hi, I'm Letícia (Letty)! I'm an evolutionary biologist who loves whales, books,
+    and photography.   Currently, I am a graduate student at Dalhousie University
+    working in two research groups: the Bielawski Research Group (Halifax, Canada),
+    and Laboratory of Evolutionary Genomics (Campinas, Brazil). My research uses genomic
+    and acoustic data to understand how cetaceans (whales, dolphins and porpoises)
+    have evolved their complex sounds in different environments and social contexts.\
+    \   I am passionate about teaching, science communication and making science more
+    inclusive and diverse! You'll find me on social media as @leticiamagpali"
+  country_3: CAN
+  continent: North America
 lilian9:
   affiliation: Information Training and Outreach Centre for Africa
   country: Kenya
@@ -5671,6 +6523,25 @@ lilian9:
   pronouns: she/her
   country_3: KEN
   continent: Africa
+lindaokpanachi028:
+  first-name: Linda
+  last-name: Okpanachi
+  twitter: https://www.linkedin.com/in/linda-okpanachi-12327710b/
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Machine learning
+  - Natural language processing
+  - Data science
+  - Software development
+  bio: Linda Okpanachi is a dedicated researcher at the University of British Columbia,
+    Canada with a passion for all things data. Specializing in machine learning and
+    natural language processing, she is committed to leveraging innovative digital
+    tools to empower equity-seeking researchers. Linda  is dedicated to promoting
+    the adoption of technology and advancing inclusivity for women in tech, striving
+    to bridge the digital divide in low-resource settings.
+  country_3: CAN
+  continent: North America
 lisanna:
   affiliation: Embl Heidelberg
   bio: Multiplicity of skills and interests, within and beyond bioinformatics research
@@ -5696,6 +6567,45 @@ lisanna:
   continent: Europe
   longitude: 8.694724
   latitude: 49.4093582
+livabram:
+  first-name: Olivia (Liv)
+  last-name: Abram
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Indigenous literatures; indigenous comics; indigenous methodologies; literary
+    criticism; collaboration; community research;
+  bio: 'Olivia (Liv) Abram (she/her) is a settler doctoral candidate at the University
+    of Saskatchewan whose research focuses on ethical reading, viewing, and listening
+    practices in relation to engagement with Indigenous literatures. She explores
+    the potential of slow, humble, and self-reflective engagement with  written and
+    oral narratives, but also multimodal and experiential story, such as those in
+    graphic narrative, song, and place-based teachings. Her dissertation, Read, View,
+    Listen: Ethical Settler Engagements with Indigenous Literary Expression, is supported
+    in part by funding from the Social Sciences and Humanities Research Council, The
+    Literary Encyclopedia, and The Digital Research Allian'
+  country_3: CAN
+  continent: North America
+lojain-hamwi:
+  first-name: Lojain
+  last-name: Hamwi
+  twitter: https://x.com/HamwiLojain
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Infant pain assessment; machine learning; clinical neuropsychology
+  bio: Lojain Hamwi is a first year doctoral student in the Clinical Developmental
+    Psychology program at York University. She is specializing in the Clinical Neuropsychology
+    stream and completing a Health Psychology diploma to complement her studies. Her
+    research focuses on the development of an infant pain assessment tool using a
+    machine learning approach. Ultimately, her research aims to contribute to the
+    improvement of assessing neonatal pain using a combination of novel tools, such
+    as artificial intelligence and EEG. Lojain is also committed to promoting awareness
+    of digital research tools and infrastructure among equity-seeking groups so that
+    they improve outcomes in their respective fields.
+  github: false
+  country_3: CAN
+  continent: North America
 lomaxboydphd:
   affiliation: The Rockefeller University
   bio: Geneticist, educator, and filmmaker with experience spanning neuroscience,
@@ -5815,6 +6725,28 @@ lukehare:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+lulwama-mulalu:
+  first-name: Lulwama
+  last-name: Mulalu
+  twitter: https://www.linkedin.com/in/lulwama-mulalu-03bab6109/
+  orcid: 0009-0007-0926-7739
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Critical global health
+  - Climate coloniallism
+  - Climate justice
+  - Climate sacrifice zones
+  - Planetary health
+  - Postcolonial reparative action
+  - Neocolonialism
+  bio: Lulwama is a Global Health PhD candidate from Botswana examining Climate Justice
+    in the context of a racial-colonial and hyper-capitalist death-based paradigm
+    that has produced a violent politics of disposable life. She grapples with the
+    existential threat posed by ecological breakdown  in “post”-colonial Africa and
+    explores how mainstream climate discourses have manufactured African vulnerability.
+  country_3: CAN
+  continent: North America
 lwasser:
   first-name: Leah
   last-name: Wasser
@@ -6442,6 +7374,25 @@ masako-kaufmann:
   continent: Europe
   longitude: 7.8494005
   latitude: 47.9960901
+mastertaj:
+  first-name: Kelly
+  last-name: Davison
+  country: Canada
+  pronouns: he/him
+  expertise:
+  - Ehr standards
+  - Terminology standards
+  - Health equity
+  - Snomed ct
+  - Nursing
+  - Decolonizing
+  bio: A PhD candidate at the University of Victoria, Kelly graduated with his MN
+    and MSc in Health Information Science in 2019 and has been working to modernize
+    outdated EHR structures, standards, and evidence as they relate to health equity
+    and quality nursing care, working to understand the factors that create and sustain
+    inequities and supporting nurses to address them.
+  country_3: CAN
+  continent: North America
 matouse:
   affiliation: The Francis Crick Institute
   bio: Undergraduate student studying Computer Science (with an industrial placment)
@@ -6520,6 +7471,29 @@ mdbarker:
   country: Australia
   country_3: AUS
   continent: Oceania
+mdumancic-mcgill:
+  first-name: Mirta
+  last-name: Dumancic
+  twitter: https://www.linkedin.com/in/mirta-dumancic-ph-d-08212183/
+  orcid: 0009-0002-1407-488X
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Nuclear physics
+  - Radiotherapy
+  - Radiobiology
+  - Particle physics
+  - Track structure
+  bio: Mirta was born and raised in Croatia, where she also studied Physics at the
+    Faculty of Science at the University of Zagreb. Her master’s thesis was in detector
+    development for particle physics. She finished her Ph.D. at the Weizmann Institute
+    of Science in Israel where she studied the weak-boson production in heavy ion
+    collisions with the LHC detector. After that, she took interest in medical physics
+    and joined the experimental work in breakthrough technology with diffusing alpha-emitters
+    radiation therapy (DaRT) at Ben-Gurion University in Beer Sheva, Israel. She recently
+    joined the Enger lab to further pursue new venues in radiotherapy and radiobiology.
+  country_3: CAN
+  continent: North America
 meagdoh:
   bio: A designer and open source advocate with experience building on and offline
     communities in open government and health and life sciences
@@ -6557,6 +7531,24 @@ megmugure:
   continent: Africa
   longitude: 36.8288420082562
   latitude: -1.3026148499999999
+megmuni:
+  first-name: Meghana
+  last-name: Munipalle
+  twitter: https://www.linkedin.com/in/meghana-munipalle/
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Computational biology
+  - Molecular modelling
+  - Biophysics
+  - Data science
+  - Science communication
+  bio: I am a PhD candidate in biological and biomedical engineering at McGill University.
+    My background is in physics, biology, and computer science, and I work with computational
+    models to solve problems in biomedicine. I'm passionate about science communication,
+    teaching, and mentorship in STEM!
+  country_3: CAN
+  continent: North America
 mehak-chopra:
   affiliation: Centre For Bioinformatics, Pondicherry University
   bio: I am an enthusiastic student, pursuing Master's in Bioinformatics from India.
@@ -6609,6 +7601,75 @@ melissawm:
   continent: South America
   longitude: -48.5496098
   latitude: -27.5973002
+melleason:
+  first-name: Moses
+  last-name: Elleason
+  twitter: https://www.linkedin.com/in/moses-elleason-85133122a
+  country: Canada
+  expertise:
+  - Habitat management
+  - Gis
+  - Remote sensing
+  bio: I am passionate about exploring wildlife habitat management strategies that
+    optimize conservation benefits in the interest of local communities. I hold a
+    BSc in Natural Resources Management from Kwame Nkrumah University of Science and
+    Technology, Ghana, where I evaluated the effectiveness of the Subri River Forest's
+    Globally Significant Biodiversity Area (GSBA) in primate conservation. I then
+    pursued an MSc in Ecology at Guangxi University, China, focusing on the performance
+    of the global protected area network in biodiversity conservation. Currently,
+    I am a doctoral student in Forest Sciences at Lakehead University, Canada, collaborating
+    with the Biigtigong First Nations on Caribou habitat
+  country_3: CAN
+  continent: North America
+memoll:
+  first-name: Mona
+  last-name: Parizadeh
+  twitter: https://www.linkedin.com/in/monaparizadeh/; https://x.com/monaparizadeh
+  country: Canada
+  pronouns: She/Her/Hers
+  expertise:
+  - Bioinformatics
+  - R
+  - Bash
+  - Mircobial ecology
+  - Meta-omics
+  - Biostatistics
+  - Network analysis
+  bio: Mona is a senior postdoctoral fellow at the Cumming School of Medicine of the
+    University of Calgary, specializing in microbial ecology, community ecology, computational
+    biology, and bioinformatics. She applies ecological theory and high-throughput
+    sequencing methods, such as meta-barcoding and meta-omics, to study environmental
+    impacts on microbiomes, focusing on host-microbe and microbe-microbe interactions
+    across various environments. Her current research focuses on the early-life gut
+    microbiome from an ecological perspective, using advanced sequencing techniques
+    to examine microbial interactions in infants' guts and their responses to environmental
+    factors.  Mona holds a Ph.D. in Biology
+  country_3: CAN
+  continent: North America
+memoona-maah:
+  first-name: Memoona
+  last-name: Maah
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Health informatics
+  - Data governance
+  - Indigenous data sovereignty
+  - Vision care
+  - Diabetic retinopathy
+  - Research data management
+  bio: The CAN-VIEW initiative, led by the University of Waterloo’s School of Optometry
+    and Vision Science and School of Public Health Sciences, focuses on gathering
+    and managing data from routine eye exams to facilitate AI-driven innovation and
+    evidence-based policymaking in eye care. This project aims to co-develop data
+    governance policies for CAN-VIEW in collaboration with the Southern Chiefs' Organization
+    (SCO), ensuring Indigenous data sovereignty by adhering to OCAP (Ownership, Control,
+    Access, and Possession) principles. Hosted on the Digital Research Alliance of
+    Canada’s infrastructure, CAN-VIEW will enhance the accuracy and efficiency of
+    eye disease screenings, starting with diabetic retin
+  github: false
+  country_3: CAN
+  continent: North America
 merrcury:
   affiliation: Prepladder (Unacademy)
   bio: Himanshu is ML Engineer at PrepLadder, discovering User Behaviour patterns
@@ -6939,6 +8000,28 @@ mlagisz:
   continent: Oceania
   longitude: -60.194092
   latitude: 46.137977
+mldlopez:
+  first-name: Mark Louie
+  last-name: Lopez
+  twitter: https://x.com/PinoyPlankton
+  country: Canada
+  pronouns: he/him
+  expertise:
+  - Environmental monitoring
+  - Freshwater biology
+  - Environmental dna
+  - Paleolimnology
+  bio: Louie is a registered professional biologist (RPBio) in British Columbia, specializing
+    in freshwater biology. His research focuses on using metatranscriptomics, DNA
+    metabarcoding, and qPCR-based environmental DNA (eDNA) analysis to study population
+    and community dynamics in freshwater ecosystems, with the aim of understanding
+    how these populations respond to both natural and human-induced disturbances.
+    Currently, as a Liber Ero Postdoctoral Fellow at the Helbing Laboratory, University
+    of Victoria, Louie works on projects for the Alberta Oil Sands Monitoring Program
+    and iTrackDNA. In collaboration with First Nations communities, he develops and
+    implements eDNA tools to monitor key species wit
+  country_3: CAN
+  continent: North America
 mloning:
   affiliation: University College London
   bio: Markus is a PhD student at UCL and he is one of the core developers of sktime,
@@ -7000,6 +8083,26 @@ moengels:
   last-name: Engelhardt
   orcid: 0000-0002-4651-8214
   twitter: mo_engels
+moh-hub1:
+  first-name: Mohammad
+  last-name: Alnabhan
+  country: Canada
+  pronouns: He/Him
+  expertise:
+  - Programming
+  - Training
+  - Teaching
+  bio: Mohammad Alnabhan received the bachelor’s and master’s degrees in computer
+    science with a specialization in data mining. Currently, he is pursuing the Ph.D.
+    degree with the University of Ottawa, Canada. His major field of study is focused
+    on developing deep learning model for securing social media. He brings a wealth
+    of expertise to his academic pursuits through a diverse range of work experiences.
+    He has been a dedicated part-time Professor with the Computer Science Department,
+    University of Ottawa, since 2022, where he imparts his knowledge and passion for
+    the subject to students. In addition, he has proven his skills as a full-stack
+    Programmer and a Microsoft Certified Trainer Specialist,
+  country_3: CAN
+  continent: North America
 mohan-gupta:
   affiliation: Media Lab Nepal, Purbanchal University (Pu)
   bio: Social entrepreneur, research, motivational speaker, DIY biologist.
@@ -7135,6 +8238,31 @@ msundukova:
   longitude: -2.9350039
   latitude: 43.2630018
   title: Resident Fellow
+mt-bit:
+  first-name: Tiara
+  last-name: Mulder
+  twitter: https://x.com/tiara_pie , https://www.linkedin.com/in/tiara-mulder-137aa6182/
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Drosophila melanogaster 
+  - Muscle repair 
+  - Cell
+  - Molecular biology 
+  - Equity, Diversity, Inclusion, Accessibility (EDIA) 
+  - Scientific outreach
+  - Advocacy 
+  - Science communication
+  bio: My name is Tiara, and I am a PhD candidate at Dalhousie University, specializing
+    in biology. My research focuses on using Drosophila melanogaster as a model organism
+    to study exercise-induced muscle damage and repair to unravel the intricate processes
+    involved in muscle repair. Alongside my research, I am passionately committed
+    to enhancing Equity, Diversity, Inclusion, and Accessibility (EDIA) within the
+    scientific community by striving to create an inclusive environment that promotes
+    diverse perspectives and equitable opportunities through outreach, advocacy, and
+    science communication.
+  country_3: CAN
+  continent: North America
 mtthsdzwn:
   first-name: Matthijs
   last-name: de Zwaan
@@ -7152,6 +8280,25 @@ muhammetcelik:
   pronouns: he/him
   country_3: TUR
   continent: Asia
+musannagalib:
+  first-name: Musanna
+  last-name: Galib
+  twitter: https://www.linkedin.com/in/musanna-galib
+  country: Canada
+  pronouns: He/Him
+  expertise:
+  - Phase field modeling,density functional theory,machine learning,material science,solid
+    mechanics
+  bio: Musanna Galib is currently a Ph.D. candidate at the University of British Columbia
+    since 2020.  Previously, Musanna completed his M.Sc. (2019) and B.Sc. (2017) in
+    Mechanical Engineering from the Bangladesh University of Engineering and Technology
+    (BUET). Musanna’s research interests encompass exploring the core mechanisms that
+    emerge in materials under different conditions using multi-scale modeling and
+    experiments. Currently, Musanna is working on solving the dendrite problem in
+    rechargeable batteries at UBC-Vancouver. This work exists at the intersection
+    of mechanics of materials, materials science, and electrochemical phenomena.
+  country_3: CAN
+  continent: North America
 mvdbeek:
   bio: Marius is a core Galaxy developer since 2015 and working full time on Galaxy
     since 2019. He has learned programming during my PhD in developmental biology,
@@ -7196,6 +8343,31 @@ myreille-larouche:
   last-name: Larouche
   country_3: CAN
   continent: North America
+n-nsh:
+  first-name: Nooshin
+  last-name: Noshiri
+  twitter: www.linkedin.com/in/nooshin-noshiri
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Machine learning
+  - Generative models
+  - Software development
+  - Computer vision
+  - Cuda programming
+  - Data analysis
+  - Deep learning
+  bio: Nooshin Noshiri is a PhD student in Computer Science at the University of Manitoba,
+    focusing on machine learning and digital agriculture. Her research involves using
+    generative models to address data scarcity in hyperspectral imaging. Nooshin has
+    been recognized with several prestigious awards, including the Mitacs Accelerate
+    Fellowship and the President’s Student Leadership Program scholarship. She has
+    contributed to multiple international publications and has an accepted paper at
+    NeurIPS. Nooshin is also actively engaged in science communication, presenting
+    at the Soapbox Science event and discussing generative AI during Academic Integrity
+    Week. Through her research and outreach, she conti
+  country_3: CAN
+  continent: North America
 nadia-odaliz-chamana-chura:
   affiliation: Scihack
   bio: A biohacker in progress
@@ -7215,6 +8387,29 @@ nadia-odaliz-chamana-chura:
   continent: South America
   longitude: -77.0365256
   latitude: -12.0621065
+nadiamcgill:
+  first-name: Nadia
+  last-name: Khalili
+  twitter: https://www.linkedin.com/in/NadiaKhalili
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Socio-emotional & cognitive development complex statistical analysis cross-cultural/
+    longitudinal research design equity
+  - Diversity,
+  - Inclusion (edi) leadership educational program development emerging adolescents
+    development
+  bio: Nadia Khalili is a Ph.D. candidate in Educational Psychology at McGill University,
+    specializing in the complex interplay between Theory of Mind (ToM) and prosocial
+    behavior in emerging adolescents, for which she received the FRQSC Doctoral Award.
+    She has extensive experience in cross-cultural and longitudinal research, statistical
+    analysis, and open science initiatives. Nadia has been actively involved in Equity,
+    Diversity, Inclusion, and Accessibility (EDIA) efforts, including serving as a
+    student representative on multiple committees and contributing to McGill's Faculty
+    of Education EDI Committee. She also led an institute for teacher training programs
+    in philosophy for children. Nadia has
+  country_3: CAN
+  continent: North America
 nadinespy:
   affiliation: University Of Sussex
   bio: Nadine is a doctoral researcher in computational neuroscience and complex systems
@@ -7359,6 +8554,30 @@ natty2012:
   twitter: hnatabona
   country_3: KEN
   continent: Africa
+ndwoods:
+  first-name: Nathan
+  last-name: Woods
+  twitter: https://www.linkedin.com/in/ndwoods
+  website: https://www.nathandwoods.net
+  country: Canada
+  pronouns: He/Him/His
+  expertise:
+  - Organizations
+  - Sociotechnical systems
+  - Research policy
+  - Governance
+  - Actionable knowledge
+  bio: I am an organizational anthropologist and information scientist addressing
+    the human dimensions of complex social, environmental, and technical problems.
+    I study how we organize to move knowledge to action, bridging the gap between
+    research, policy and practice. Working with multiple stakeholders, my ongoing
+    projects include building adaptive capacity to climate change; developing tools
+    to support knowledge sharing and innovation; and reimagining the scientific and
+    cultural record. In my current role, as a postdoctoral fellow at the University
+    of Lethbridge, my work investigates how humanities researchers and heritage professionals
+    are shaping and navigating an emerging humanities data ecosy
+  country_3: CAN
+  continent: North America
 nea-bridget:
   affiliation: The Alan Turing Institute
   bio: Background working in NGOs across campaigns, training and skills policy, currently
@@ -7497,6 +8716,23 @@ niels-reijner:
   continent: Europe
   longitude: 4.8924534
   latitude: 52.3730796
+nihadalsayed:
+  first-name: Nihad
+  last-name: Alsayed
+  website: https://http://biotechperspect.org/
+  city: Port Sudan
+  country: Sudan
+  expertise:
+  - Genetics
+  - Bioinformatics
+  - Data curation
+  - Microbiome
+  - Cancer genomics
+  bio: ' Capacity Building Enthusiast'
+  country_3: SDN
+  continent: Africa
+  longitude: 37.211709
+  latitude: 19.619217
 nihansultan:
   affiliation: Bezmialem Vakif University, Beykoz Institute Of Life Science And Biotechnology
   bio: I am trying to be a good molecular biologist. I think that learning new things
@@ -7522,6 +8758,30 @@ nilabha1512:
   first-name: Nilabha
   last-name: Mukherjea
   twitter: rikismynickname
+niloohooman:
+  first-name: Niloofar
+  last-name: Hooman
+  twitter: https://www.linkedin.com/in/niloofarhooman/
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Digital activism
+  - Feminism
+  - Digital culture
+  - Sexuality
+  - Body
+  - Social media
+  bio: Niloofar Hooman (Ph.D.) is a Ph.D. candidate in the Department of Communication
+    Studies and Media Arts at McMaster University, Canada. She is also completing
+    a joint Graduate Diploma (Ph.D.) in Gender & Social Justice. Niloofar holds a
+    Ph.D. in Communication (2019), an MA in Cultural Studies and the Media (2010),
+    and a BA in Social Communications (2007) from the University of Tehran. Her research
+    encompasses theories of new media, digital culture, digital activism, feminism,
+    and gender, as well as critical studies of marginalized bodies.  Niloofar’s doctoral
+    dissertation concentrates on the embodiment, performances of nudity and unveiling
+    as political actions in Iran. Her work has been publi
+  country_3: CAN
+  continent: North America
 nilson-coimbra:
   first-name: Nilson
   last-name: Coimbra
@@ -7540,6 +8800,31 @@ nina-roux:
   affiliation: Stellenbosch University
   first-name: Nina
   last-name: Roux
+nishith-mishra:
+  first-name: Nishith
+  last-name: Mishra
+  country: Canada
+  expertise:
+  - Education
+  - Educational approaches
+  - International space law
+  - Policy
+  - Regulation of artificial intelligence systems – especially in outer space activities
+  - International relations
+  - Sustainable development agendas
+  - Policies
+  bio: Nishith Mishra, is a Doctoral Candidate in Space Law, and a Researcher with
+    Faculty of Law, McGill University, having earned his LL.M. (Air and Space Law
+    - Thesis) earlier from here. He also holds his Bachelor of Laws and Bachelor of
+    Arts, i.e. B.A. LL.B. (Hons.) – a combined and integrated dual degree from National
+    Law University Delhi, and ‘certificates’ from the Indian Law Institute. He is
+    a professional member of International Institute of Space Law, and is an enrolled
+    advocate since June, 2013, with the Bar Council of India. Prior to joining McGill
+    in 2018, he has also worked as a civil & commercial litigator, and as a private-equity
+    & foreign direct investment as well as a Cross-border
+  github: false
+  country_3: CAN
+  continent: North America
 nlois:
   first-name: Nicolás
   last-name: Lois
@@ -8505,6 +9790,21 @@ rhoné-roux:
   affiliation: Stellenbosch University
   first-name: Rhoné
   last-name: Roux
+ria-arora:
+  first-name: Ria
+  last-name: Arora
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Community building knowledge sharing discord server edia champions dri knowledge
+    community forums digital knowledge exchange
+  bio: Fostering a hybrid space to build community, capacity and share knowledge,
+    facilitated through a Discord server, leveraging biweekly community forums, virtual
+    "happy hour" and roundtables, engaging EDIA champions and participants in structured,
+    supportive interactions to enhance DRI knowledge and community building.
+  github: false
+  country_3: CAN
+  continent: North America
 richarddushime:
   first-name: Richard
   last-name: Dushime
@@ -8539,6 +9839,23 @@ rivaquiroga:
   city: Valparaíso
   longitude: -71.6196749
   latitude: -33.0458456
+rlwhall:
+  first-name: Renée
+  last-name: Hall
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Earth system modelling
+  - Terrestrial biosphere modelling
+  - Biogeochemical cycles
+  - Wildfire emissions
+  bio: I am a PhD student in Canada. My research seeks to implement, examine, and
+    evaluate the representation of nitrogen cycling and different formulations of
+    reactive nitrogen gas emissions from wildfires in Earth System Models, and explore
+    how these reactive nitrogen gas emissions and their feedbacks to climate change
+    will evolve over the 21st century.
+  country_3: CAN
+  continent: North America
 robandeep-kaur:
   bio: Light of hope
   city: Jalandhar
@@ -8721,6 +10038,21 @@ ruben-lacroix:
   continent: Europe
   longitude: 4.8924534
   latitude: 52.3730796
+ruben-tjhie:
+  first-name: Ruben
+  last-name: Tjhie
+  country: Canada
+  expertise:
+  - Human factors
+  - Usability
+  - Digital health
+  - Equity
+  bio: Ruben is a working on a master's thesis that examines equity in the usability
+    of health technologies. He is housed in the Department of Mechanical & Industrial
+    Engineering at the University of Toronto.
+  github: false
+  country_3: CAN
+  continent: North America
 rukynas:
   city: Porto
   country: Portugal
@@ -8802,6 +10134,18 @@ samvanstroud:
   continent: Europe
   longitude: -0.14405508452768728
   latitude: 51.4893335
+sanchezw17:
+  first-name: Wesley
+  last-name: Sanchez
+  country: Canada
+  expertise:
+  - Quantum chemistry
+  - Software development
+  bio: I am a second-year PhD student in Computational and Theoretical Chemistry at
+    McMaster University. My research focuses on developing new algorithms which model
+    many-body interactions for electronic systems.
+  country_3: CAN
+  continent: North America
 sandra-larriega:
   affiliation: Scihack
   bio: Biohacker
@@ -8834,6 +10178,30 @@ sandrine-kengne:
   continent: Africa
   longitude: 11.5213344
   latitude: 3.8689867
+sansharif:
+  first-name: Sana
+  last-name: Sharif
+  twitter: 
+    https://www.linkedin.com/in/sana-sharif-3b603748?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5SM8pA%2BsQ521UHBpygUvLA%3D%3D
+  country: Canada
+  expertise:
+  - Semantic communication
+  - 6g networks
+  - Resource optimization
+  - Wireless networks
+  - Ai awareness
+  - Equity
+  - Inclusion
+  - Digital research infrastructure
+  bio: Sana Sharif is a graduate student with a focus on digital advanced wireless
+    communication systems, particularly in the areas of semantic communication and
+    6G networks. Her research includes energy consumption minimization in semantic
+    communication systems and resource optimization in wireless networks. Sana is
+    passionate about advancing knowledge and technology, with a strong commitment
+    to increasing awareness of AI and digital research infrastructure among underrepresented
+    groups.
+  country_3: CAN
+  continent: North America
 santi-rello-varona:
   affiliation: Hospital La Paz Institute For Health Research
   bio: After a PhD and several years in Cancer Research I am devoted now to promote
@@ -9212,6 +10580,28 @@ sgsfak:
   - Health Informatics
   first-name: Stelios
   last-name: Sfakianakis
+shaychavoshian:
+  first-name: Shaghayegh
+  last-name: Chavoshian
+  twitter: https://www.linkedin.com/in/shaghayegh-chavoshian-224a02181/
+  country: Canada
+  pronouns: She/her
+  expertise:
+  - Digital health
+  - Artificial intelligence
+  - Biomedical engineering
+  - Equity in research
+  bio: I am currently a Ph.D. student in Biomedical Engineering at University of Toronto.
+    My primary research focus is on developing a mobile application that leverages
+    deep learning techniques to prevent slips and falls. My work aims to improve safety
+    by assessing footwear slip resistance and environmental factors to reduce injury
+    risks. In addition to my technical research, I am deeply committed to integrating
+    principles of equity, diversity, and inclusion (EDI) into my work. I strive to
+    ensure that my research addresses the needs of diverse populations, particularly
+    underrepresented groups, by designing accessible solutions that account for various
+    cultural, socioeconomic, and physical differenc
+  country_3: CAN
+  continent: North America
 shmuhammad2004:
   affiliation: Bayero University, Kano - Nigeria
   bio: I am PhD candidate in computer science at University of Porto, Portugal. I
@@ -9250,6 +10640,30 @@ shubhamrj7:
   continent: Asia
   longitude: 77.401989
   latitude: 23.2584857
+simplice94:
+  first-name: Simplice-Eclador
+  last-name: Nouboudem-Basso
+  twitter: https://www.linkedin.com/in/simplice-nouboudem-b4b68b226/
+  country: Canada
+  pronouns: il/lui
+  expertise:
+  - Inclusion
+  - Équité
+  - Numérique
+  - Étudiant
+  - Afrique subsaharienne
+  - Caraïbes
+  bio: Je suis un professionnel de la santé publique. Mon expertise consiste à étudier
+    et développer des stratégies innovatrices pour résoudre les problèmes de santé
+    à l'échelle de la population, avec un intérêt particulier pour la promotion de
+    la santé. Mon travail se concentre essentiellement sur l'impact positif de l'approche
+    participative des communautés dans la résolution des inégalités sociales en matière
+    de santé. Mon projet consistera à une mobilisation de la communauté des étudiants
+    et étudiantes originaires d’Afrique subsaharienne et des Caraïbes. L'objectif
+    est de maximiser leur implication à travers un programme de formation sur la gestion
+    des données de recherche en utilisant les outil
+  country_3: CAN
+  continent: North America
 sithyphus:
   affiliation: University of Arizona
   country: United States
@@ -9383,6 +10797,26 @@ smklusza:
   continent: North America
   longitude: -82.7771661
   latitude: 40.4574358
+snovin24:
+  first-name: Shayan
+  last-name: Novin
+  country: Canada
+  pronouns: he/him/his
+  expertise:
+  - Hiv prevention
+  - Narrative medicine
+  - Translational research
+  bio: Shayan is a second-year Master's student in the Translational Research Program
+    at the University of Toronto. He is a recent graduate of the Bachelor of Health
+    Science Program at McMaster University.  Shayan is the recipient of the Ontario
+    Graduate Scholarship (OGS; 2023-2024 competition year) and Canada Graduate Scholarship
+    - Master's (CGS-M; 2024-2025 competition year). Following his passion for promoting
+    BIPoC-2S/LGBTQ+ health, Shayan is a fellow at the CIHR 2S/LGBTQ+ Health Hub.  He
+    is also a sessional instructor at the Bachelor of Health Science Program and a
+    research lead in the Faculty of Health Sciences. Shayan is interested in improving
+    HIV/AIDS treatments through system-level change
+  country_3: CAN
+  continent: North America
 sofia-kirke-forslund:
   bio: Swedish-born computational biologist, since 2018 heading systems medicine (host-microbiome
     focus, 'association hunting') lab in Berlin, interested in too many things. AMR,
@@ -9420,6 +10854,23 @@ sonibk:
   twitter: brendaksoni
   country_3: KEN
   continent: Africa
+sorenaazarhazin71:
+  first-name: Soorena
+  last-name: Azarhazin
+  twitter: https://www.linkedin.com/in/soorena-azarhazin/
+  country: Canada
+  pronouns: He/Him
+  expertise:
+  - Computational fluid dynamics (cfd)
+  - Numerical simulation of thermo-fluids processes
+  - Flow control
+  bio: Soorena Azarhazin is a PhD candidate in the Biotechnology program at Lakehead
+    University starting September 2022. He received his BSc and MSc in Mechanical
+    Engineering from the Sharif University of Technology and the University of Tehran,
+    respectively. His research field is currently relevant to Computational Fluid
+    Dynamics (CFD), numerical simulation of thermo-fluids processes, and flow control.
+  country_3: CAN
+  continent: North America
 spitschan:
   affiliation: University Of Oxford
   bio: I'm a visual and circadian neuroscientist interested in how light affects our
@@ -9440,6 +10891,22 @@ spitschan:
   continent: Europe
   longitude: 11.5753822
   latitude: 48.1371079
+stacey-koornneef:
+  first-name: Stacey
+  last-name: Koornneef
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Computer science education
+  - Computational thinking
+  - Educational games
+  - Primary school educational tools
+  - Cost accessibility
+  bio: Stacey Koornneef is a PhD student in computer science at Ontario Tech University.  She
+    enjoys teaching and researching the connection between humans and technology from
+    an education perspective.
+  country_3: CAN
+  continent: North America
 stefan-gaillard:
   country: Netherlands
   first-name: Stefan
@@ -9477,6 +10944,19 @@ stefaniebutland:
   continent: North America
   longitude: -120.339415
   latitude: 50.6758269
+steve4tu.github.io:
+  first-name: Steve
+  last-name: Tu
+  country: Canada
+  pronouns: he/him
+  expertise:
+  - Philosophy of higher education
+  - Multispecies ethnography
+  - Student mental health
+  bio: Steve is a PhD student at the Ontario Institute for Studies in Education at
+    the University of Toronto.
+  country_3: CAN
+  continent: North America
 sudarshangc:
   affiliation: Media Lab Nepal
   country: Nepal
@@ -9486,6 +10966,29 @@ sudarshangc:
   twitter: Sudarsh07847591
   country_3: NPL
   continent: Asia
+sudhipv:
+  first-name: Sudhi Sharma
+  last-name: Padillath Vasudevan
+  twitter: https://www.linkedin.com/in/sudhisharmapv90
+  country: Canada
+  pronouns: He/Him
+  expertise:
+  - Machine learning
+  - High performance computing
+  - Uncertainty quantification
+  - Bayesian inference
+  - Computational modelling for partial differential equations
+  - Scalable solver development
+  bio: I am an interdisciplinary researcher developing robust, scalable, computational
+    models for mechanistic problems such as acoustic and earthquake wave propagation,
+    geospatial infectious disease spread, flow through porous media etc. or purely
+    data-driven problems such as diagnosis of Parkinson's disease from MRI, time-series
+    forecasting etc. These models are capable of providing reliable predictions with
+    quantified uncertainty (coming from noise in the data or assumptions of the model)
+    using Bayesian algorithms and industrial level scaling enabled by high performance
+    computing (both CPUs and GPUs).
+  country_3: CAN
+  continent: North America
 susan-njuki:
   first-name: Susan
   last-name: Njuki
@@ -9542,6 +11045,21 @@ tajuddeen1:
   - Machine learning
   country_3: NGA
   continent: Africa
+taladejebi:
+  first-name: Oluwatoyin
+  last-name: Aladejebi
+  country: Canada
+  expertise:
+  - Quantitative research
+  - Qualitative research
+  - Data collection
+  - Data management
+  bio: I am a Medical Demographer with teaching and research experience. I am passionate
+    about using data to solve public health challenges and also supporting women researchers
+    with data management tools and skills that will enhance equal access to participation
+    in research programs.
+  country_3: CAN
+  continent: North America
 tallmar:
   bio: Marta is a scientific project manager within the training team at EMBL-EBI.
     She organises and facilitates training activities in several European projects
@@ -9613,6 +11131,28 @@ teresa-m:
   continent: Europe
   longitude: 7.8494005
   latitude: 47.9960901
+that-souns-wonderful.-i-have-just-created-one-account.:
+  first-name: Azam
+  last-name: Dashti Khavidaki
+  country: Canada
+  pronouns: She/He/Elle
+  expertise:
+  - Qualitative researcher specializing in child's agency et ethics
+  - Refugee researcher
+  - Digital media
+  - Technology researcher
+  - Fellow at participatory cultures lab
+  bio: Azam Dashti Khavidaki is a PhD student, FRQSC scholar, and fellow at the Participatory
+    Cultures Lab in the Education Department at McGill University. As a female student
+    from Iran, she earned her first master’s degree in English literature from a top-rank
+    university in Iran and her second in Education from McGill University. Through
+    her experimentation with various methodologies, theories, and schools of thought,
+    she views her research as a space for interdisciplinary exploration. She has taught
+    professionally for over a decade at various levels, including as a lecturer in
+    higher education. She has published papers and presented at conferences on topics
+    such as representation and perception
+  country_3: CAN
+  continent: North America
 thatspacegirl:
   bio: Rika, a 4th year undergraduate student in Bengaluru India majoring in Electronics
     and Communication. She is currently pursuing her project work at RRSC ISRO and
@@ -9782,6 +11322,31 @@ torigijzen:
   continent: Europe
   longitude: 4.8924534
   latitude: 52.3730796
+toub1:
+  first-name: Fatou
+  last-name: Bah
+  twitter: https://www.linkedin.com/in/fatou-bah-a11y/
+  orcid: 0000-0002-6667-6375
+  country: Canada
+  pronouns: She/Her
+  expertise:
+  - Accessibility
+  - Neurodiversity
+  - Open science
+  - Information retrieval
+  - User experience
+  - Digital humanities
+  bio: Fatou is an accessibility professional, pursuing a Master's degree in Information
+    Studies (MIS). Her involvement in various roles has allowed her to contribute
+    significantly to the academic and practical understanding of accessibility. Serving
+    on technical committees and boards, such as the Accessible Travel Journey Technical
+    Committee for Accessibility Standards Canada and Association pour l'intégration
+    sociale d'Ottawa, she has actively contributed to setting standards and advocating
+    for the integration and support of individuals with disabilities. These involvements
+    reflect her commitment to social change and the betterment of community welfare
+    through collective effort and governance​.
+  country_3: CAN
+  continent: North America
 trallard:
   affiliation: Microsoft
   city: Manchester
@@ -9827,6 +11392,23 @@ tsonika:
   continent: Oceania
   longitude: 144.9631732
   latitude: -37.8142454
+ugognw:
+  first-name: Ugo
+  last-name: Nwosu
+  twitter: http://gitlab.com/ugognw/
+  country: Canada
+  pronouns: He/him
+  expertise:
+  - Computational chemistry
+  - Materials science
+  - Electrochemistry
+  bio: Ugo is Nigerian-Canadian PhD student at Simon Fraser University studying solvent
+    effects in electrochemical nitrate reduction. He holds degrees from the University
+    of California, Berkeley and University of Calgary. In addition to research, Ugo
+    is passionate about free and open-source software and increasing its prevalence
+    in the computational chemistry community.
+  country_3: CAN
+  continent: North America
 ujwal-shrestha:
   affiliation: Purbanchal University, Media Lab Nepal
   bio: A researcher, motivational speaker
@@ -10049,6 +11631,23 @@ vickynembaware:
   twitter: VickyNembaware
   country_3: ZAF
   continent: Africa
+vincent-comeau:
+  first-name: Vincent
+  last-name: Comeau
+  twitter: https://linkedin.com/in/vincent-comeau-7084b5323
+  country: Canada
+  expertise:
+  - Physics
+  - Mathematics
+  - General relativity
+  - Cosmology
+  - Indigenous education
+  bio: I am currently finishing a PhD in cosmology at McGill University. I have also
+    been teaching mathematics and physics college courses, as part of various new
+    initiatives to further higher education in Indigenous communities in northern
+    Canada.
+  country_3: CAN
+  continent: North America
 virginiagarciaalonso:
   first-name: Virginia Andrea
   last-name: García Alonso
@@ -10064,6 +11663,21 @@ virginiagarciaalonso:
     to marine sciences and data visualization and open science.
   country_3: ARG
   continent: South America
+vrindagupta0:
+  first-name: Vrinda
+  last-name: Gupta
+  twitter: www.linkedin.com/in/vrinda-gupta-233860325
+  country: Canada
+  pronouns: she/her
+  expertise:
+  - Biochemistry
+  - Molecular biology
+  - Multiplex imaging,
+  bio: I am a master’s student at McGill with a research focus on breast cancer and
+    the tumour microenvironment. I am passionate about improving accessibility in
+    science, especially for historically marginalized and underrepresented populations.
+  country_3: CAN
+  continent: North America
 vskentrou:
   first-name: Vasiliki
   last-name: Kentrou
@@ -10230,6 +11844,27 @@ yochannah:
   website: https://yo-yehudi.com
   country_3: GBR
   continent: Europe
+yuwei-cao-git:
+  first-name: Yuwei
+  last-name: Cao
+  country: Canada
+  expertise:
+  - Remote sensing
+  - Forestry
+  - Deep learning
+  - 3d modeling
+  - Gis
+  bio: Yuwei Cao is a Geo-information engineer with a specialized focus on remote
+    sensing data and point cloud data understanding. She earned her PhD from Politecnico
+    di Milano, Italy. Her research interests are deeply rooted in 3D vision, with
+    a particular emphasis on Levels of Detail (LoDs) models, 3D point cloud semantic
+    segmentation, 3D feature learning, and 3D reconstruction. Her work aims to advance
+    the field by developing sophisticated methods for interpreting and utilizing 3D
+    spatial data.  Yuwei utilizes LIDAR and other remote sensing data to assess stand
+    species composition in the IRSS lab at the University of British Columbia (UBC).
+    This innovative approach will enhance the precision and
+  country_3: CAN
+  continent: North America
 yvanlebras:
   affiliation: French Museum Of Natural History
   bio: Yvan is data management and analysis lover, for life science, health and environment
