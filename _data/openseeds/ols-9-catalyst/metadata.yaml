@@ -4,10 +4,235 @@
 # People should be also in people.yaml file and linked using their GitHub username
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
-experts: []
+experts:
+- 45160606+nihadalsayed
+- adolfmukama
+- ahmed-abdille
+- aleserain
+- alfredoq
+- alyaaawad
+- aolivera-labi
+- aymd23
+- bilikis-fadeyi
+- brevin-ochieng-olunga
+- cashleyj
+- emmanuel19-ada
+- estherplomp
+- fadlelmola
+- fatma366
+- gemmaturon
+- george-odongo
+- hrhotz
+- jvillcavillegas
+- kipkurui
+- malvikasharan
+- manulera
+- mariafrdias
+- mariehidjo
+- monsurat-onabajo
+- mqnifestkelvin
+- mxrtinez
+- mxrtinez
+- mxrtinez
+- nilson-coimbra
+- nyashalorrainemapira
+- nyasita
+- pageneck
+- petkov120
+- rebcamsan
+- sebastian-ayala-ruano
+- seunolufemi123
+- susan-njuki
+- zchikwambi
 organizers:
 - bebatut
 - malvikasharan
 - yochannah
 - tajuddeen1
 possible-mentors: []
+possible-mentors-with-expertise: {}
+experts-with-expertise:
+  No listed expertise:
+  - bilikis-fadeyi
+  - mariehidjo
+  Genetics:
+  - 45160606+nihadalsayed
+  - alyaaawad
+  - fadlelmola
+  Bioinformatics:
+  - 45160606+nihadalsayed
+  - adolfmukama
+  - alyaaawad
+  - aymd23
+  - fadlelmola
+  - hrhotz
+  - malvikasharan
+  - pageneck
+  - rebcamsan
+  Data curation:
+  - 45160606+nihadalsayed
+  - alyaaawad
+  Microbiome:
+  - 45160606+nihadalsayed
+  - alyaaawad
+  Cancer genomics:
+  - 45160606+nihadalsayed
+  - alyaaawad
+  Cancer:
+  - ahmed-abdille
+  Amps:
+  - ahmed-abdille
+  Drug discovery:
+  - ahmed-abdille
+  Precision medicine:
+  - aleserain
+  Genomics:
+  - aleserain
+  - fadlelmola
+  - pageneck
+  - rebcamsan
+  Oncology:
+  - aleserain
+  Medicinal chemistry:
+  - alfredoq
+  Computational chemistry:
+  - alfredoq
+  '"science management" "public policy" "chronobiology"':
+  - aolivera-labi
+  Virology; research methodology:
+  - brevin-ochieng-olunga
+  Pharmacogenomics;bioinfomatics:
+  - cashleyj
+  Bioinformatics; genomics;community building:
+  - emmanuel19-ada
+  Open protocols:
+  - estherplomp
+  Open data:
+  - estherplomp
+  Research data management:
+  - estherplomp
+  FAIR:
+  - estherplomp
+  Archaeology:
+  - estherplomp
+  Bioanthropology:
+  - estherplomp
+  Isotopes:
+  - estherplomp
+  Osteology:
+  - estherplomp
+  Biomedical data science:
+  - fadlelmola
+  Molecular biology; genome analysis; metagenomics; microbiome analysis:
+  - fatma366
+  Ai; molecular biology; drug discovery; infectious disease:
+  - gemmaturon
+  Microbiology:
+  - george-odongo
+  Galaxy:
+  - hrhotz
+  Bioconductor:
+  - hrhotz
+  PostgreSQL:
+  - hrhotz
+  Next Generation Sequencing:
+  - hrhotz
+  Health sciences:
+  - jvillcavillegas
+  Public health:
+  - jvillcavillegas
+  Open science:
+  - jvillcavillegas
+  - mxrtinez
+  - mxrtinez
+  - mxrtinez
+  Community building:
+  - kipkurui
+  - malvikasharan
+  Reproducibility:
+  - kipkurui
+  - malvikasharan
+  Computational Biology:
+  - kipkurui
+  Regulatory Genomics:
+  - kipkurui
+  Mentoring:
+  - malvikasharan
+  Data Science best practices:
+  - malvikasharan
+  Inclusive and collaborative practices:
+  - malvikasharan
+  Python:
+  - malvikasharan
+  Version Control:
+  - malvikasharan
+  Funding Proposals:
+  - malvikasharan
+  Algorithm design:
+  - malvikasharan
+  Web development; open source; genetic engineering:
+  - manulera
+  Bioinformatics; machine learning; structural biology:
+  - mariafrdias
+  Healthcare; data science; research:
+  - monsurat-onabajo
+  Ai:
+  - mqnifestkelvin
+  Llm:
+  - mqnifestkelvin
+  Software development:
+  - mqnifestkelvin
+  Data managment:
+  - mxrtinez
+  - mxrtinez
+  - mxrtinez
+  Linux:
+  - mxrtinez
+  - mxrtinez
+  - mxrtinez
+  - nyashalorrainemapira
+  Hpc:
+  - mxrtinez
+  - mxrtinez
+  - mxrtinez
+  Workflows:
+  - mxrtinez
+  - mxrtinez
+  - mxrtinez
+  Systems management:
+  - mxrtinez
+  - mxrtinez
+  - mxrtinez
+  Git:
+  - mxrtinez
+  - mxrtinez
+  - mxrtinez
+  Comparative genomics:
+  - nilson-coimbra
+  Antibiotics resistente:
+  - nilson-coimbra
+  Computational biology:
+  - nilson-coimbra
+  - zchikwambi
+  Rare genetic disorders:
+  - nyashalorrainemapira
+  'Pharmacogenetics ':
+  - nyashalorrainemapira
+  R programming:
+  - nyashalorrainemapira
+  Ngs data analysis:
+  - nyashalorrainemapira
+  Bioinformatics / computational biology:
+  - nyasita
+  Product designer:
+  - petkov120
+  Bioinformatcs; machine learning; network science; software development; open science:
+  - sebastian-ayala-ruano
+  Bioinformatics/ open science/ community building:
+  - seunolufemi123
+  'Metabolomics ':
+  - susan-njuki
+  Cancer research:
+  - susan-njuki
+  Biotechnology:
+  - zchikwambi
