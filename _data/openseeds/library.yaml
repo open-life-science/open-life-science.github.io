@@ -112,6 +112,20 @@ Open Life Science:
       date: September 25, 2024
       cohort: ols-9-catalyst
     - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vTxrD0vmllLHMYB4b0WKrxUqaffwAV-Ee6ph9JYfTONLpcTAneXAJAb_4pyhO4JE8RMCXMBPS7kD-uK/pub?start=false&loop=false&delayms=3000
+      title: Introduction to Open Seeds
+      recording: 'https://youtu.be/KPaMMHLQk6c '
+      date: October 10, 2024
+      cohort: ols-9-dra
+      speakers: []
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vTxrD0vmllLHMYB4b0WKrxUqaffwAV-Ee6ph9JYfTONLpcTAneXAJAb_4pyhO4JE8RMCXMBPS7kD-uK/pub?start=false&loop=false&delayms=3000
+      title: Introduction to Open Seeds
+      recording: 'https://youtu.be/KPaMMHLQk6c '
+      date: October 11, 2024
+      cohort: ols-9-dra
+      speakers: []
+    - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
       title: Introduction to Open Seeds
       date: October 15, 2024
@@ -242,6 +256,12 @@ Tooling for Project Design:
       date: October 15, 2024
       cohort: ols-9-dra
       speakers: []
+    - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub '
+      speakers:
+      - graciellehigino
+      title: Open Canvas
+      date: October 15, 2024
+      cohort: ols-9-dra
   Project Roadmapping:
     description: Creating project goals and milestones
     talks:
@@ -351,6 +371,13 @@ Tooling for Project Design:
       title: Project Roadmapping
       date: September 25, 2024
       cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vRME4NPdc7Tx528-p3Veo8wN5galMpVK0PhY7v4IpHXbBQQFmBpyjmSMOoXwAqr5Fyo27mbzC2IaTQL/pub
+      speakers:
+      - graciellehigino
+      title: Introducing Project Roadmapping
+      date: October 15, 2024
+      cohort: ols-9-dra
   Tooling for Project Design Introduction:
     description: Help you clarify and communicate your project idea, purpose and goals
       in a way that will invite and encourage participation from your community.
@@ -388,6 +415,13 @@ Tooling for Project Design:
       date: October 15, 2024
       cohort: ols-9-dra
       speakers: []
+    - slides: 
+        https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - malvikasharan
+      title: Tooling for Project Design Introduction
+      date: October 15, 2024
+      cohort: ols-9-dra
 Tooling for Collaboration:
   Open Licensing:
     description: Giving permission for others to use your research
@@ -455,7 +489,9 @@ Tooling for Collaboration:
       title: A Primer on Open Licenses
       date: October 11, 2023
       cohort: ols-8
-    - speakers:
+    - slides: 
+        https://docs.google.com/presentation/d/1pFlaw-7Kg04GdpCU6CQPAEIcNs-clc3Lm-9G1pFpM0Y/edit#slide=id.g3098b2a345d_0_237
+      speakers:
       - joyceykao
       title: A Primer on Open Licenses
       date: October 09, 2024
@@ -532,7 +568,9 @@ Tooling for Collaboration:
       title: 'ReadMe files: how to make your project welcoming to others'
       date: October 11, 2023
       cohort: ols-8
-    - speakers:
+    - slides: 
+        https://docs.google.com/presentation/d/1N1m0WjFbftBJk26nC1Mf-Qr5ZDooKLsDHTiR_RyKK2w/edit#slide=id.g7e28a7e96f_0_0
+      speakers:
       - 
       title: 'ReadMe files: how to make your project welcoming to others'
       date: October 09, 2024
@@ -1963,6 +2001,12 @@ Open Leadership:
       date: November 14, 2023
       cohort: ols-8
       title: Open Leadership in Practice
+    - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vRMgRqYBbe7MPY3yQA5cj8m4BNlJdnLpXtvmka5tql27HLeypmyxZxvwpYxOWnBGQ/pub?start=false&loop=false&delayms=3000 '
+      speakers:
+      - malvikasharan
+      title: Open Leadership in Open Science
+      date: October 15, 2024
+      cohort: ols-9-dra
 Not sorted:
   Not tagged:
     description: .nan

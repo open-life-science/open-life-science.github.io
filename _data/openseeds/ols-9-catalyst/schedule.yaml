@@ -161,11 +161,15 @@ weeks:
         - malvikasharan
         title: Setting up a project
         tag: Setting up a project
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1N1m0WjFbftBJk26nC1Mf-Qr5ZDooKLsDHTiR_RyKK2w/edit#slide=id.g7e28a7e96f_0_0
+        speakers:
         - 
         title: 'ReadMe files: how to make your project welcoming to others'
         tag: README
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1pFlaw-7Kg04GdpCU6CQPAEIcNs-clc3Lm-9G1pFpM0Y/edit#slide=id.g3098b2a345d_0_237
+        speakers:
         - joyceykao
         title: A Primer on Open Licenses
         tag: Open Licensing
@@ -267,7 +271,7 @@ weeks:
       notes: https://annuel2.framapad.org/p/ols-9-week-08
       title: Community Management I
       hosts:
-      - malvikasharan
+      - tajuddeen1
       type: Cohort
       talks: []
   '09':
@@ -329,7 +333,7 @@ weeks:
       notes: https://annuel2.framapad.org/p/ols-9-week-12
       title: Open Science Garden III
       hosts:
-      - tajuddeen1
+      - malvikasharan
       type: Cohort
       talks: []
       time: "17:00"
