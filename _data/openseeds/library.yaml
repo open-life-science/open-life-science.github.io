@@ -98,20 +98,25 @@ Open Life Science:
       date: October 04, 2023
       cohort: ols-8
     - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
-      title: Introduction to Open Seeds
-      date: October 02, 2024
-      cohort: ols-9-dra
-      speakers: []
+        https://docs.google.com/presentation/d/1idSrWd4PUb1y-iS1d7f7uyj2uS88kuYe/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - yochannah
+      title: Welcome to Open Seeds
+      date: September 25, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/1idSrWd4PUb1y-iS1d7f7uyj2uS88kuYe/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - yochannah
+      title: Welcome to Open Seeds
+      date: September 25, 2024
+      cohort: ols-9-catalyst
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
-      speakers:
-      - malvikasharan
-      title: Welcome to Open Seeds
-      recording: 
-        https://www.youtube.com/watch?v=otxpdHSaqyw&list=UULFs12-ZgnDJOWIWN3Vo1XHXA&index=10
-      date: October 09, 2024
+      title: Introduction to Open Seeds
+      date: October 15, 2024
       cohort: ols-9-dra
+      speakers: []
 Tooling for Project Design:
   Open Canvas:
     description: Planning and resourcing for your project
@@ -218,15 +223,23 @@ Tooling for Project Design:
       cohort: ols-8
       speakers: []
     - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
+        https://docs.google.com/presentation/d/17cBXIIABgBlF1yORhwKF3ABOWB_L6q12/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - yochannah
       title: Open Canvas
-      date: October 02, 2024
-      cohort: ols-9-dra
-      speakers: []
+      date: September 25, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/17cBXIIABgBlF1yORhwKF3ABOWB_L6q12/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - yochannah
+      title: Open Canvas
+      date: September 25, 2024
+      cohort: ols-9-catalyst
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
       title: Open Canvas
-      date: October 09, 2024
+      date: October 15, 2024
       cohort: ols-9-dra
       speakers: []
   Project Roadmapping:
@@ -328,13 +341,16 @@ Tooling for Project Design:
       cohort: ols-8
       speakers: []
     - title: Project Roadmapping
-      date: October 02, 2024
-      cohort: ols-9-dra
+      date: September 25, 2024
+      cohort: ols-9-catalyst
       speakers: []
-    - title: Project Roadmapping
-      date: October 09, 2024
-      cohort: ols-9-dra
-      speakers: []
+    - slides: 
+        https://docs.google.com/presentation/d/19oGNS6nM7wWY-UH9XA-gyNv9wWYNsfWT/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - malvikasharan
+      title: Project Roadmapping
+      date: September 25, 2024
+      cohort: ols-9-catalyst
   Tooling for Project Design Introduction:
     description: Help you clarify and communicate your project idea, purpose and goals
       in a way that will invite and encourage participation from your community.
@@ -353,15 +369,23 @@ Tooling for Project Design:
       cohort: ols-8
       speakers: []
     - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
+        https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - malvikasharan
       title: Tooling for Project Design Introduction
-      date: October 02, 2024
-      cohort: ols-9-dra
-      speakers: []
+      date: September 25, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - malvikasharan
+      title: Tooling for Project Design Introduction
+      date: September 25, 2024
+      cohort: ols-9-catalyst
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
       title: Tooling for Project Design Introduction
-      date: October 09, 2024
+      date: October 15, 2024
       cohort: ols-9-dra
       speakers: []
 Tooling for Collaboration:
@@ -431,6 +455,15 @@ Tooling for Collaboration:
       title: A Primer on Open Licenses
       date: October 11, 2023
       cohort: ols-8
+    - speakers:
+      - joyceykao
+      title: A Primer on Open Licenses
+      date: October 09, 2024
+      cohort: ols-9-catalyst
+    - title: A Primer on Open Licenses
+      date: October 17, 2024
+      cohort: ols-9-dra
+      speakers: []
   README:
     description: Making your project welcoming for others
     talks:
@@ -499,6 +532,15 @@ Tooling for Collaboration:
       title: 'ReadMe files: how to make your project welcoming to others'
       date: October 11, 2023
       cohort: ols-8
+    - speakers:
+      - 
+      title: 'ReadMe files: how to make your project welcoming to others'
+      date: October 09, 2024
+      cohort: ols-9-catalyst
+    - title: 'ReadMe files: how to make your project welcoming to others'
+      date: October 17, 2024
+      cohort: ols-9-dra
+      speakers: []
   Code of Conduct:
     description: Setting norms and expectations for a team/community
     talks:
@@ -565,6 +607,15 @@ Tooling for Collaboration:
       title: Designing and enforcing a Code of Conduct
       date: October 11, 2023
       cohort: ols-8
+    - speakers:
+      - karinlag
+      title: Designing and enforcing a Code of Conduct
+      date: October 09, 2024
+      cohort: ols-9-catalyst
+    - title: Designing and enforcing a Code of Conduct
+      date: October 17, 2024
+      cohort: ols-9-dra
+      speakers: []
   GitHub Introduction:
     description: Sharing your project through online repositories
     talks:
@@ -646,6 +697,17 @@ Tooling for Collaboration:
       title: Setting up a project
       date: October 11, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/1nLnTciwCIauAn87Kw26DtatNJc7s2Wph/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - malvikasharan
+      title: Setting up a project
+      date: October 09, 2024
+      cohort: ols-9-catalyst
+    - title: Setting up a project
+      date: October 17, 2024
+      cohort: ols-9-dra
+      speakers: []
   Good Coding Practices:
     description: Tips and practices for ensuring good quality code
     talks:
@@ -671,9 +733,6 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=416
       date: November 29, 2023
       cohort: ols-8
-    - title: 'Good Coding Practices '
-      cohort: ols-9-dra
-      speakers: []
   Code Review:
     description: Reviewing code to help improve your code quality
     talks:
@@ -699,9 +758,6 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=1437
       date: November 29, 2023
       cohort: ols-8
-    - title: Code Review
-      cohort: ols-9-dra
-      speakers: []
   Package Management:
     description: Software environment for research reproducibility
     talks:
@@ -711,9 +767,6 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=2890
       date: November 29, 2023
       cohort: ols-8
-    - title: Package Managements
-      cohort: ols-9-dra
-      speakers: []
 Open Science:
   Open Science Introduction:
     description: Sharing knowledge for the global access
@@ -741,6 +794,10 @@ Open Science:
       title: Open Science Introduction
       date: October 24, 2023
       cohort: ols-8
+    - title: Open Science Introduction
+      date: October 23, 2024
+      cohort: ols-9-dra
+      speakers: []
     - title: Open Science Introduction
       date: October 23, 2024
       cohort: ols-9-dra
@@ -1024,6 +1081,10 @@ Open Science:
       date: October 23, 2024
       cohort: ols-9-dra
       speakers: []
+    - title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
+      date: October 23, 2024
+      cohort: ols-9-dra
+      speakers: []
   Open Engagement of Social Actors:
     description: Engaging local actors and promoting knowledge exchange
     talks:
@@ -1251,6 +1312,10 @@ Open Science:
       date: October 23, 2024
       cohort: ols-9-dra
       speakers: []
+    - title: Why open reviews?
+      date: October 23, 2024
+      cohort: ols-9-dra
+      speakers: []
   Openness to Diversity of Knowledge:
     description: Many ways to produce and apply knowledge
     talks:
@@ -1276,6 +1341,11 @@ Open Science:
         networks?
       date: October 24, 2023
       cohort: ols-8
+    - title: How do we learn from each other in global large-scale collaborative research
+        networks?
+      date: October 23, 2024
+      cohort: ols-9-dra
+      speakers: []
     - title: How do we learn from each other in global large-scale collaborative research
         networks?
       date: October 23, 2024
@@ -1602,10 +1672,6 @@ Project, Community & Personal Management:
       title: Personal Ecology and Self Care
       date: December 14, 2023
       cohort: ols-8
-    - title: Personal Ecology and Self Care
-      date: December 04, 2024
-      cohort: ols-9-dra
-      speakers: []
     - title: Open Science Garden(s)
       date: December 04, 2024
       cohort: ols-9-dra
@@ -1897,38 +1963,6 @@ Open Leadership:
       date: November 14, 2023
       cohort: ols-8
       title: Open Leadership in Practice
-    - title: Introduction to Open Leadership in Practice
-      date: October 30, 2024
-      cohort: ols-9-dra
-      speakers: []
-    - date: October 30, 2024
-      cohort: ols-9-dra
-      title: Open Leadership in Practice
-      speakers: []
-    - title: Introduction to Open Leadership in Practice
-      date: November 13, 2024
-      cohort: ols-9-dra
-      speakers: []
-    - date: November 13, 2024
-      cohort: ols-9-dra
-      title: Open Leadership in Practice
-      speakers: []
-    - date: November 13, 2024
-      cohort: ols-9-dra
-      title: Open Leadership in Practice
-      speakers: []
-    - date: November 13, 2024
-      cohort: ols-9-dra
-      title: Open Leadership in Practice
-      speakers: []
-    - title: Introduction to Open Leadership in Practice
-      date: November 13, 2024
-      cohort: ols-9-dra
-      speakers: []
-    - date: November 13, 2024
-      cohort: ols-9-dra
-      title: Open Leadership in Practice
-      speakers: []
 Not sorted:
   Not tagged:
     description: .nan
@@ -1980,6 +2014,14 @@ Not sorted:
       date: October 16, 2024
       cohort: ols-9-dra
       speakers: []
+    - title: Vision statement
+      date: October 17, 2024
+      cohort: ols-9-dra
+      speakers: []
+    - title: Open Science Garden(s)
+      date: October 23, 2024
+      cohort: ols-9-dra
+      speakers: []
     - title: Open Science Garden(s)
       date: October 23, 2024
       cohort: ols-9-dra
@@ -1988,18 +2030,23 @@ Not sorted:
       date: November 06, 2024
       cohort: ols-9-dra
       speakers: []
+    - title: Good Coding Practices
+      date: November 13, 2024
+      cohort: ols-9-dra
+      speakers: []
+    - title: Code Review
+      date: November 13, 2024
+      cohort: ols-9-dra
+      speakers: []
+    - title: Package Managements
+      date: November 13, 2024
+      cohort: ols-9-dra
+      speakers: []
     - title: Open Science Garden(s)
       date: November 20, 2024
       cohort: ols-9-dra
       speakers: []
-    - title: Open-source software in practice
-      cohort: ols-9-dra
-      speakers: []
     - title: Personal Ecology and Self Care
       date: November 27, 2024
-      cohort: ols-9-dra
-      speakers: []
-    - title: Open Science Garden(s)
-      date: December 11, 2024
       cohort: ols-9-dra
       speakers: []

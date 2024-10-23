@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
  
 echo "OLS-1"
 python bin/prepare_website_data.py \
@@ -62,6 +63,7 @@ python bin/prepare_website_data.py \
     -p "openseeds"  \
     --cohort '8' \
     --schedule_url "https://docs.google.com/spreadsheets/d/1Tnk-kkHUmPOEfUOEAl627l6JS9SoY5D4gSAPCYoBRSY/export?format=csv&gid=2109933309"
+echo
 
 echo "OLS-9-DRA"
 python bin/prepare_website_data.py \
@@ -69,6 +71,7 @@ python bin/prepare_website_data.py \
     -p "openseeds"  \
     --cohort '9-dra' \
     --schedule_url "https://docs.google.com/spreadsheets/d/1TIpN-NZPMGvZ1hUOJ5PgXoS24TCYEeF_5ecPPWQdUSM/export?format=csv&gid=2109933309"
+echo
 
 echo "OLS-9-CATALYST"
 python bin/prepare_website_data.py \
@@ -76,3 +79,4 @@ python bin/prepare_website_data.py \
     -p "openseeds"  \
     --cohort '9-catalyst' \
     --schedule_url "https://docs.google.com/spreadsheets/d/1oJxz-SXcqC4AnvLAGRPjiw5JyCEZNTskteLf6n-yZ7o/export?format=csv&gid=2109933309"
+echo
