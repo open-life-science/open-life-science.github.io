@@ -72,3 +72,15 @@ graph TD;
 ## Definitions
 ### FSC
 **Fiscally sponsored community:** A group of individuals with interest in open research or other OLS-adjacent domains that would like assistance handling money, contracts, and possibly employment.
+
+
+# Current Fiscally Sponsored Communities (FSC)
+{% assign f_community = site.data.community.fiscal_communities %}
+
+<div class="entities">
+{% for c in f_community %}
+    {% assign entity = c %}
+    {% assign details = c.details %}
+    {% include _includes/external-entities.html entity=entity type='fiscal_communities' details=details %}
+{% endfor %}
+</div>

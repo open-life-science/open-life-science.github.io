@@ -41,7 +41,7 @@ streams:
   -
     title: Fiscal Hosting 
     description: |
-      We are helping early stage organizations with fiscal hosting. If you are interested, please contact directors at we-are-ols.org to discuss. 
+      We are helping early stage organizations with fiscal hosting. If you are interested, please contact directors at [team[at]we-are-ols.org](mailto:team@we-are-ols.org) to discuss. Read more about this on our [fiscal hosting page](/open-incubator/fiscal-hosting/).
     image:
       link: images/icons/noun-benefit-6097908.svg
       alt: |
