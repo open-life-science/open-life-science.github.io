@@ -138,13 +138,13 @@ weeks:
       before:
       - "Please create a GitHub account: [https://github.com](https://github.com)\n
         * Have a look at the OLS-8 repository for 'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
-        * Comment of 1-2 project's recent post (vision, open canvas etc.)\n* Create
+        * Comment on 1-2 project's recent posts (vision, open canvas etc.)\n* Create
         your 'project issue'"
       talks:
       - title: GitHub for Collaboration
       - title: Introduction to GitHub
         tag: GitHub Introduction
-      - title: Creating a small website with GitHub
+      - title: Creating a Small Website with GitHub
         tag: GitHub Introduction
       hosts:
       - tajuddeen1
@@ -160,7 +160,7 @@ weeks:
         tag: README
       - title: A Primer on Open Licenses
         tag: Open Licensing
-      - title: Designing and enforcing a Code of Conduct
+      - title: Designing and Enforcing a Code of Conduct
         tag: Code of Conduct
       - title: Vision statement
       learning_objectives:
@@ -211,13 +211,12 @@ weeks:
       - "Identify tools to help you design your project in a clear way for newcomers
         to quickly understand what the project is about, who can be involved, and
         where the work is headed\n* Fill the open canvas for your project to think
-        through an open project strategy to develop a MVP\n* Reflect on the roadmap
-        for your project with milestones - start drafting them with description and
+        through an open project strategy to develop an MVP\n* Reflect on the roadmap
+        for your project with milestones - start drafting them with descriptions and
         tasks\n* After this call, develop documentation and resources for your project
         and share them with others"
       before:
-      - "Create a GitHub account - if you don't have one already!\n* Carry out self
-        assessment: https://docs.google.com/document/u/1/d/1hnwOWjpssgRc-YYk5b-j3f3Y92bxcO_D/copy\n
+      - "Create a GitHub account - if you don't have one already!\n* Carry out self-assessment: https://docs.google.com/document/u/1/d/1hnwOWjpssgRc-YYk5b-j3f3Y92bxcO_D/copy\n
         * Ideally - create a vision statement for your project: https://docs.google.com/document/d/1RrraS0C4vZ6cpnbRsu65uoMKJbru5Vun/copy"
       talks:
       - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vRMgRqYBbe7MPY3yQA5cj8m4BNlJdnLpXtvmka5tql27HLeypmyxZxvwpYxOWnBGQ/pub?start=false&loop=false&delayms=3000 '
