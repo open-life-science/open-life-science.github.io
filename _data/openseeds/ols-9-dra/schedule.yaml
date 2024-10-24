@@ -317,12 +317,6 @@ weeks:
         tag: Open Evaluation
       hosts:
       - tajuddeen1
-    - date: October 25, 2024
-      time: "16:00"
-      duration: 60 min
-      title: DRI-EDIA Informal Q&A
-      type: Q&A
-      talks: []
     - date: October 24, 2024
       time: "16:00"
       duration: 60 min
