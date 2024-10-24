@@ -28,7 +28,7 @@ Over the two days, participants engaged in sessions that covered:
 
 ![Alt Text](/images/2022-04-01-header-image-speed-blod-nadine.jpg)
 
-The program included interactive activities that allowed participants to apply the concepts discussed during the sessions. Each day concluded with a lively Q&A, where attendees engaged facilitators on topics ranging from licensing issues to choosing appropriate open-access repositories. The sessions were moderated by Seun Olufemi and Emmanuel Adamolekun, and featured expert practitioners as speakers and facilitators from the global open science community, including Dr. Malvika Sharan, Laura Ondari, Pauline Karega, Michael Landi, Dr. Sara El-Gebali, Dr. Yo Yehudi, and Deborah Udoh, who provided valuable insights and hands-on guidance.
+The program included interactive activities that allowed participants to apply the concepts discussed during the sessions. Each day concluded with a lively Q&A, where attendees engaged facilitators on topics ranging from licensing issues to choosing appropriate open-access repositories. The sessions were moderated by Seun Olufemi and Emmanuel Adamolekun, and featured expert practitioners as speakers and facilitators from the global open science community, including [Dr. Malvika Sharan]({% link people.md %}#malvikasharan), [Laura Ondari]({% link people.md %}#laurah-nyasita-ondari), [Pauline Karega]({% link people.md %}#karegapauline), [Michael Landi]({% link people.md %}#landimi2), [Dr. Sara El-Gebali]({% link people.md %}#selgebali), [Dr. Yo Yehudi]({% link people.md %}#yochannah), and [Deborah Udoh]({% link people.md %}#npdebs), who provided valuable insights and hands-on guidance.
 
 ### Impact and Next Steps
 
