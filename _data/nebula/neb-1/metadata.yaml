@@ -4,10 +4,324 @@
 # People should be also in people.yaml file and linked using their GitHub username
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
-experts: []
+experts:
+- alecelvar
+- ali-hasan-ali
+- amangoel185
+- ana-luisa-zago-de-moraes
+- austine-phiri
+- batoolmm
+- chadsansing
+- dasaderi
+- denise-margaret-matias
+- farah-sevilla
+- gh8l
+- hassan-al-nori
+- heba-fawzy-mohamed-mahmoud
+- iamdlite
+- jafsia
+- joana-mansa
+- karegapauline
+- kingt5m
+- likeajumprope
+- madison-feehan
+- marwa-yass
+- mohammed-salman
+- monsauce
+- naska-mirzan
+- saadatu-baba
+- salwanm82
+- samira-saeed
+- saranjeetkaur
+- saravilla
+- sciencecastinc
+- shanmugapriya-periyannan
+- stephanie-murr
+- swathi-naidu-vakamulla-raghu
+- thafer-mahmood
+- unshur
+- virginiagarciaalonso
+- vivianecddg
+- vivianecddg
 organizers:
 - iramosp
 - bebatut
 - malvikasharan
 - yochannah
-possible-mentors: []
+possible-mentors:
+- alecelvar
+- ali-hasan-ali
+- amangoel185
+- ana-luisa-zago-de-moraes
+- austine-phiri
+- batoolmm
+- chadsansing
+- dasaderi
+- denise-margaret-matias
+- farah-sevilla
+- gh8l
+- hassan-al-nori
+- heba-fawzy-mohamed-mahmoud
+- iamdlite
+- jafsia
+- joana-mansa
+- karegapauline
+- kingt5m
+- likeajumprope
+- madison-feehan
+- marwa-yass
+- mohammed-salman
+- monsauce
+- naska-mirzan
+- saadatu-baba
+- salwanm82
+- samira-saeed
+- saranjeetkaur
+- saravilla
+- sciencecastinc
+- shanmugapriya-periyannan
+- stephanie-murr
+- swathi-naidu-vakamulla-raghu
+- thafer-mahmood
+- unshur
+- virginiagarciaalonso
+- vivianecddg
+- vivianecddg
+possible-mentors-with-expertise:
+  No listed expertise:
+  - alecelvar
+  - ali-hasan-ali
+  - farah-sevilla
+  - hassan-al-nori
+  - heba-fawzy-mohamed-mahmoud
+  - likeajumprope
+  - marwa-yass
+  - naska-mirzan
+  - stephanie-murr
+  - thafer-mahmood
+  Research software engineering; open source; community building; training; version control; github; python:
+  - amangoel185
+  Human rights:
+  - ana-luisa-zago-de-moraes
+  - vivianecddg
+  - vivianecddg
+  Criminal law:
+  - ana-luisa-zago-de-moraes
+  Transitional justice:
+  - ana-luisa-zago-de-moraes
+  Woman´s rigths:
+  - ana-luisa-zago-de-moraes
+  Migration:
+  - ana-luisa-zago-de-moraes
+  Knowledge translation:
+  - austine-phiri
+  Research data management:
+  - austine-phiri
+  Data management plan:
+  - austine-phiri
+  Records management:
+  - austine-phiri
+  Reproducibility:
+  - batoolmm
+  Computational biology:
+  - batoolmm
+  Community managemenet:
+  - chadsansing
+  Facilitation:
+  - chadsansing
+  Open leadership:
+  - chadsansing
+  Program management:
+  - chadsansing
+  Product management:
+  - chadsansing
+  Neuroscience:
+  - dasaderi
+  Open science:
+  - dasaderi
+  - monsauce
+  - salwanm82
+  Peer review:
+  - dasaderi
+  Publication:
+  - dasaderi
+  Biodiversity; climate change; indigenous community forestry:
+  - denise-margaret-matias
+  Computer science:
+  - gh8l
+  - mohammed-salman
+  ? Data collection system; opensource data; data analysis; african brain drain; scholar
+    mobility patterns; statistical modelling; data-driven insights
+  : - iamdlite
+  Data science:
+  - jafsia
+  Medical imaging:
+  - joana-mansa
+  Applications:
+  - joana-mansa
+  Bioinformatics; research; open science; open data:
+  - karegapauline
+  Python programming:
+  - kingt5m
+  Isru; planetary science; 3d printing; commerce:
+  - madison-feehan
+  Open licensing:
+  - monsauce
+  Environment:
+  - saadatu-baba
+  Higher education; quality assurance; linguistics:
+  - samira-saeed
+  Open science; statistics; community management:
+  - saranjeetkaur
+  Molecular biology:
+  - saravilla
+  Genomics:
+  - saravilla
+  Sequencing:
+  - saravilla
+  Project management:
+  - saravilla
+  Operations:
+  - sciencecastinc
+  Materials science; nanotechnology:
+  - shanmugapriya-periyannan
+  Material science:
+  - swathi-naidu-vakamulla-raghu
+  Nanotechnology:
+  - swathi-naidu-vakamulla-raghu
+  ? Cognition; psychology of technology; mental health; training; data management;
+    data science; machine learning; open science
+  : - unshur
+  Marine ecology:
+  - virginiagarciaalonso
+  Spatio-temporal analyses:
+  - virginiagarciaalonso
+  Visualizations:
+  - virginiagarciaalonso
+  Communities of practice:
+  - virginiagarciaalonso
+  International human rights law; human rights education; ethics:
+  - vivianecddg
+  - vivianecddg
+  Artificial intelligence.:
+  - vivianecddg
+  - vivianecddg
+experts-with-expertise:
+  No listed expertise:
+  - alecelvar
+  - ali-hasan-ali
+  - farah-sevilla
+  - hassan-al-nori
+  - heba-fawzy-mohamed-mahmoud
+  - likeajumprope
+  - marwa-yass
+  - naska-mirzan
+  - stephanie-murr
+  - thafer-mahmood
+  Research software engineering; open source; community building; training; version control; github; python:
+  - amangoel185
+  Human rights:
+  - ana-luisa-zago-de-moraes
+  - vivianecddg
+  - vivianecddg
+  Criminal law:
+  - ana-luisa-zago-de-moraes
+  Transitional justice:
+  - ana-luisa-zago-de-moraes
+  Woman´s rigths:
+  - ana-luisa-zago-de-moraes
+  Migration:
+  - ana-luisa-zago-de-moraes
+  Knowledge translation:
+  - austine-phiri
+  Research data management:
+  - austine-phiri
+  Data management plan:
+  - austine-phiri
+  Records management:
+  - austine-phiri
+  Reproducibility:
+  - batoolmm
+  Computational biology:
+  - batoolmm
+  Community managemenet:
+  - chadsansing
+  Facilitation:
+  - chadsansing
+  Open leadership:
+  - chadsansing
+  Program management:
+  - chadsansing
+  Product management:
+  - chadsansing
+  Neuroscience:
+  - dasaderi
+  Open science:
+  - dasaderi
+  - monsauce
+  - salwanm82
+  Peer review:
+  - dasaderi
+  Publication:
+  - dasaderi
+  Biodiversity; climate change; indigenous community forestry:
+  - denise-margaret-matias
+  Computer science:
+  - gh8l
+  - mohammed-salman
+  ? Data collection system; opensource data; data analysis; african brain drain; scholar
+    mobility patterns; statistical modelling; data-driven insights
+  : - iamdlite
+  Data science:
+  - jafsia
+  Medical imaging:
+  - joana-mansa
+  Applications:
+  - joana-mansa
+  Bioinformatics; research; open science; open data:
+  - karegapauline
+  Python programming:
+  - kingt5m
+  Isru; planetary science; 3d printing; commerce:
+  - madison-feehan
+  Open licensing:
+  - monsauce
+  Environment:
+  - saadatu-baba
+  Higher education; quality assurance; linguistics:
+  - samira-saeed
+  Open science; statistics; community management:
+  - saranjeetkaur
+  Molecular biology:
+  - saravilla
+  Genomics:
+  - saravilla
+  Sequencing:
+  - saravilla
+  Project management:
+  - saravilla
+  Operations:
+  - sciencecastinc
+  Materials science; nanotechnology:
+  - shanmugapriya-periyannan
+  Material science:
+  - swathi-naidu-vakamulla-raghu
+  Nanotechnology:
+  - swathi-naidu-vakamulla-raghu
+  ? Cognition; psychology of technology; mental health; training; data management;
+    data science; machine learning; open science
+  : - unshur
+  Marine ecology:
+  - virginiagarciaalonso
+  Spatio-temporal analyses:
+  - virginiagarciaalonso
+  Visualizations:
+  - virginiagarciaalonso
+  Communities of practice:
+  - virginiagarciaalonso
+  International human rights law; human rights education; ethics:
+  - vivianecddg
+  - vivianecddg
+  Artificial intelligence.:
+  - vivianecddg
+  - vivianecddg
