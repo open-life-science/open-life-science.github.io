@@ -41,4 +41,4 @@ Feedback from participants indicated a substantial increase in confidence in app
 
 ### Acknowledgements
 
-We appreciate the OLS (Open Life Science), Bioinformatics Hub of Kenya (BHKi), and all our speakers, facilitators, and participants' contributions to the workshop's success. This initiative marks a step forward in cultivating a generation of bioinformaticians who champion open science principles in Nigeria.
+We appreciate OLS (formerly Open Life Science), Bioinformatics Hub of Kenya (BHKi), and all our speakers, facilitators, and participants who contributed to making the workshop a success. This initiative marks a step forward in cultivating a generation of bioinformaticians who champion open science principles in Nigeria.
