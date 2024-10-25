@@ -671,6 +671,14 @@ alex.alexis:
   pronouns: Il/lui
   country_3: CAN
   continent: North America
+  expertise:
+  - Justice épistémique
+  - Science ouverte
+  - Savoirs noirs
+  - Savoirs autochtones
+  - Données noires
+  - Données autochtones
+  - Conflit ontologique
 alexanderdefuria:
   first-name: Alexander
   last-name: De Furia
@@ -845,9 +853,9 @@ alyaaawad:
   latitude: 19.619217
 amangoel185:
   affiliation: University Of Delhi
-  bio: I’m a research software engineer at The University of Manchester and an SSI fellow. I am passionate about open
-    science and regularly deliver training workshops. My research interests include
-    software sustainability, open-source software and community building.
+  bio: I’m a research software engineer at The University of Manchester and an SSI fellow. 
+    I am passionate about open science and regularly deliver training workshops. 
+    My research interests include software sustainability, open-source software and community building.
   city: Manchester
   country: United Kingdom
   expertise:
@@ -8445,7 +8453,8 @@ msundukova:
 mt-bit:
   first-name: Tiara
   last-name: Mulder
-  twitter: https://x.com/tiara_pie , https://www.linkedin.com/in/tiara-mulder-137aa6182/
+  twitter: https://x.com/tiara_pie
+  linkedin: https://www.linkedin.com/in/tiara-mulder-137aa6182/
   country: Canada
   pronouns: she/her
   expertise:
@@ -8605,11 +8614,12 @@ nadiamcgill:
   country: Canada
   pronouns: She/her
   expertise:
-  - Socio-emotional & cognitive development complex statistical analysis cross-cultural/
-    longitudinal research design equity
-  - Diversity,
-  - Inclusion (edi) leadership educational program development emerging adolescents
-    development
+  - Socio-emotional & cognitive development
+  - Complex statistical analysis
+  - Cross-cultural/longitudinal research design
+  - Eequity, Diversity, Inclusion (edi) leadership
+  - Educational program development
+  - Emerging adolescents development
   bio: Nadia Khalili is a Ph.D. candidate in Educational Psychology at McGill University,
     specializing in the complex interplay between Theory of Mind (ToM) and prosocial
     behavior in emerging adolescents, for which she received the FRQSC Doctoral Award.
@@ -10011,8 +10021,13 @@ ria-arora:
   country: Canada
   pronouns: She/her
   expertise:
-  - Community building knowledge sharing discord server edia champions dri knowledge
-    community forums digital knowledge exchange
+  - Community building
+  - Knowledge sharing
+  - Discord server
+  - EDIA champions
+  - DRI knowledge
+  - community forums
+  - Digital knowledge exchange
   bio: Fostering a hybrid space to build community, capacity and share knowledge,
     facilitated through a Discord server, leveraging biweekly community forums, virtual
     "happy hour" and roundtables, engaging EDIA champions and participants in structured,
