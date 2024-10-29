@@ -39,3 +39,6 @@ We aim to process microgrants within four weeks of receiving your request.
 
 ## Can I request a reimbursement for small equipment?
 In the current cohort, we are **only** able to offer reimbursements for mobile data top-ups and broadband servies.
+
+## Will OLS cover transaction and conversion fees?
+We try to reimburse you in the currency of your preference to avoid conversion fees. Please note, we might not be able to make transfers of certain currencies to accounts in certain countries; we will let you know if that's the case
