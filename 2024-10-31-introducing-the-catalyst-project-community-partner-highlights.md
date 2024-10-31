@@ -23,7 +23,7 @@ The Catalyst Project currently involves **19 Community Partners**, **9 in Africa
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-  ![Logo of African Institute of Biomedical Science and Technology: The picture is ](https://catalystproject.cloud/_images/aibst-logo.jpg)
+  ![Logo of African Institute of Biomedical Science and Technology: The picture shows a primarily red and navy blue logo. On the left, a circle wraps around a double helix. Around the circle, the words "African Institute" and "of Biomedical Science and Technology" are written in navy blue and red respectively. On the right, the rest of the logo is formed by a capitalised acronym of the institute's name - AiBST. Only the letter "i" is written in lowercase red text, while the others are in navy blue.](https://catalystproject.cloud/_images/aibst-logo.jpg)
   </div>
   <div class="column" markdown="1">
 
@@ -39,7 +39,7 @@ Read more about AiBST’s work with the Catalyst Project: [ENG](https://catalyst
 ## Malawi University of Science and Technology (MUST) 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Malawi University of Science and Technology](https://www.must.ac.mw/imgs/logo/must%20log%20black.png)
+![Logo of Malawi University of Science and Technology: The image shows a gray and black logo which mainly comprises of a large shield. Within the shield, a white triangle contains three elements - a green wheel above, a purple atom below, and an open gray and red book next to the right of the atom. Above the shield, the words "MALAWI UNIVERSITY OF SCIENCE AND TECHNOLOGY" is written in capitalised black text. Just above the text, the acronym of the university's name is written in bold and capitalised black text - MUST. Under the shield is written "WHERE EXCELLENCE REIGNS" in black.](https://www.must.ac.mw/imgs/logo/must%20log%20black.png)
   </div>
   <div class="column" markdown="1">
 
@@ -72,7 +72,7 @@ Read more about MolerHealth’s work with the Catalyst Project: [ENG](https://ca
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Nelson Mandela African Institute of Science and Technology](https://catalystproject.cloud/_images/nm-aist-logo.png)
+![Logo of Nelson Mandela African Institute of Science and Technology: Image displays a circle containing the words "Nelson Mandela" and "Institute of Science and Technology" that are written in a way that they form an arch around three elements. These elements are a microscope, a wheel and an open book. On the lower end, within the circle, the word "Arusha" is wrriten in black, just underneath the open book. Under the circle is written "Academia for Society and Industry."](https://catalystproject.cloud/_images/nm-aist-logo.png)
   </div>
   <div class="column" markdown="1">
 
@@ -88,7 +88,7 @@ Read more about NM-AIST’s work with the Catalyst Project: [ENG](https://cataly
 ## Nodo Nacional de Bioinformática (NNB-CCG) 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Nodo Nacional de Bioinformática](https://catalystproject.cloud/_images/unam-logo.jpg)
+![Logo of Nodo Nacional de Bioinformática: The logo is divided into two halves by a black line running down the middle. To the left of the dividing line, a circle with teal background contains the acronym "NNB". To the right, the words "Nodo Nacional de Bioinformática" are written in the same teal colour, and immediately under the text is "CCG UNAM" in a light shade of green.](https://catalystproject.cloud/_images/unam-logo.jpg)
   </div>
   <div class="column" markdown="1">
 
@@ -104,13 +104,13 @@ Read more about NNB-CCG’s work with the Catalyst Project: [ENG](https://cataly
 ## Instituto Nacional de Enfermedades Respiratorias (INER)
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Instituto Nacional de Enfermedades Respiratorias](https://catalystproject.cloud/_images/iner-logo.jpeg)
+![Logo of Instituto Nacional de Enfermedades Respiratorias: The logo consists of the acronym "UCDS" in bold, teal and capitalised, above the words "UNIDAD DE CIENCIA DE DATOS EN SALUD." Another logo is found under the first in this image and contains the word "labbic" above the words "Laboratorio de Biología Computacional." Both texts are in navy blue.](https://catalystproject.cloud/_images/iner-logo.jpeg)
   </div>
   <div class="column" markdown="1">
 
 Collaborators at INER are using the Catalyst Cloud Infrastructure to implement machine learning algorithms that will classify radiology images of pulmonary thromboembolism (PTE), with a view to improving patient outcomes.
 
-*"The Catalyst Project is helping us to collaborate more efficiently and work remotely."* - Yalbi I. Balderas-Martinez
+*"**The Catalyst Project is helping us to collaborate more efficiently and work remotely.**"* - Yalbi I. Balderas-Martinez
 
 Read more about INER’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-iner-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-iner-es.html)
   </div>
@@ -120,13 +120,13 @@ Read more about INER’s work with the Catalyst Project: [ENG](https://catalystp
 ## Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático (CICADA)  
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático](https://catalystproject.cloud/_images/cicada-logo.png)
+![Logo of Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático: This image shows a blue logo, comprising of a circle on the left, and the acronym "CICADA" on the right.](https://catalystproject.cloud/_images/cicada-logo.png)
   </div>
   <div class="column" markdown="1">
 
 CICADA, an interdisciplinary center researching data science and machine learning, is using the Catalyst CLoud Infrastructure to analyze Uruguayan population data to understand patterns of migration, how much of the native footprint remains, and what can be said about the people who lived in the Uruguayan territory before the arrival of Europeans.
 
-"The Catalyst Project…trainings are attractive, as they are respectful of the people, no previous knowledge is assumed, and the instructors are welcoming.” - María Inés Fariello Rico 
+"**The Catalyst Project…trainings are attractive, as they are respectful of the people, no previous knowledge is assumed, and the instructors are welcoming.**” - María Inés Fariello Rico 
 
 Read more about CICADA’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-cicada-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-cicada-es.html)
   </div>
