@@ -3,9 +3,9 @@ layout: post
 title: Introducing the Catalyst Project Community Partner Highlights
 authors: 
 - tajuddeen1
-image: 
+image: https://plus.unsplash.com/premium_photo-1681965550198-c1c039421905
 photos:
-  name: Picture by * on Unsplash
+  name: Picture by Getty Images for Unsplash
 ---
 
 The **[Catalyst Project](https://catalystproject.cloud/)** is a community-engaged initiative designed to support the adoption of open science principles in **under-served bioscientific research communities** through the provision of reliable and sustainable cloud computing infrastructure. It’s a project we’ve been working on now for almost two years, which involves staff from seven different organizations: [2i2c](https://2i2c.org/), [The Carpentries]((https://carpentries.org/about/), [CCAD](https://ccad.unc.edu.ar/), [CSCCE](https://www.cscce.org/), [IOI](http://investinopen.org/), [MetaDocencia](http://metadocencia.org/), and [OLS](http://openlifesci.org/), and is funded by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/).
