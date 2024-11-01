@@ -51,6 +51,7 @@ We are here to help - feel free to email [{{ site.email|replace:'@','[at]' }}](m
 {%- for cohort in cohorts -%}
     {%- assign cohort_name = cohort[0] -%}
     {%- if cohort_name == "library" %}{% continue -%}
+    {%- elsif cohort_name == "nebula" %}{% continue -%}
     {%- else -%}
         {%- assign experts = site.data.openseeds[cohort_name].metadata.experts | uniq | size -%}
         {%- capture all_experts %}{{ all_experts }}, {{ site.data.openseeds[cohort_name].metadata.experts | join: ', ' }}{% endcapture -%}
