@@ -8,7 +8,7 @@ image: https://media.licdn.com/dms/image/v2/D5610AQGPZaXMJKu5Wg/image-shrink_800
 photos:
   name: Picture by The Catalyst Project
   license: CC BY-SA 4.0
-  url: https://unsplash.com/@thisisengineering
+  url: https://www.linkedin.com/posts/2i2c-org_as-part-of-our-work-on-the-catalyst-project-activity-7257760964647755777-4fNn
 ---
 
 The **[Catalyst Project](https://catalystproject.cloud/)** is a community-engaged initiative designed to support the adoption of open science principles in **under-served bioscientific research communities** through the provision of reliable and sustainable cloud computing infrastructure. It’s a project we’ve been working on now for almost two years, which involves staff from seven different organizations: [2i2c](https://2i2c.org/), [The Carpentries](https://carpentries.org/about/), [CCAD](https://ccad.unc.edu.ar/), [CSCCE](https://www.cscce.org/), [IOI](http://investinopen.org/), [MetaDocencia](https://www.metadocencia.org/), and [OLS]({{ site.url }}), and is funded by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/).
