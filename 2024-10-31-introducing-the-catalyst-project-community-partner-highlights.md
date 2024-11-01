@@ -2,6 +2,7 @@
 layout: post
 title: Introducing the Catalyst Project Community Partner Highlights
 authors: 
+- katiepratt
 - slldec
 image: https://images.unsplash.com/photo-1581093577421-f561a654a353
 photos:
