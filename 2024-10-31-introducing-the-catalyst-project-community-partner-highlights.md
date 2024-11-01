@@ -6,7 +6,7 @@ authors:
 - slldec
 image: https://media.licdn.com/dms/image/v2/D5610AQGPZaXMJKu5Wg/image-shrink_800/image-shrink_800/0/1730385031498?e=1731063600&v=beta&t=-F0ZI4Zj-oKi2cRQyrZcypICq2RuwQAaNyJQubPH3mg
 photos:
-  name: Picture by thisisengineering
+  name: Picture by The Catalyst Project
   license: CC BY-SA 4.0
   url: https://unsplash.com/@thisisengineering
 ---
