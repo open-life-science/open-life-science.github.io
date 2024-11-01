@@ -2,7 +2,7 @@
 layout: post
 title: Introducing the Catalyst Project Community Partner Highlights
 authors: 
-- tajuddeen1
+- slldec
 image: https://images.unsplash.com/photo-1581093577421-f561a654a353
 photos:
   name: Picture by thisisengineering
