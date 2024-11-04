@@ -192,6 +192,7 @@ weeks:
         to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
         * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
         [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
+      recording: https://www.youtube.com/watch?v=z28mSZ_1rlw
   '05':
     start: October 14, 2024
     calls:
@@ -206,7 +207,17 @@ weeks:
       hosts:
       - tajuddeen1
       type: Skill-up
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRGJ1zPXlvoGHyjnGTAHCgMDrvi7_ZQGO0nZkV9VN7WOxY8i1eENnQ2pv9Xk6LZOQ/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: GitHub for Collaboration
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vT5ErsPBpTC-KPMIBVSqYYCbPaMk7Cd6cMI3CpJPZbElR6VXepB3EIPTd7LRmjWOg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - npdebs
+        title: Introduction to GitHub
       time: "17:00"
       learning_objectives:
       - "Create a new repository\n* Create a (README) file\n* Write in Markdown\n
@@ -218,6 +229,7 @@ weeks:
         * Have a look at the OLS-8 repository for 'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
         * Comment of 1-2 project's recent post (vision, open canvas etc.)\n* Create
         your 'project issue'"
+      recording: https://www.youtube.com/watch?v=r3skZL5-NVs
   '06':
     start: October 21, 2024
     calls:
@@ -228,8 +240,39 @@ weeks:
       hosts:
       - malvikasharan
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRGqWI6y7LyyZr-3GUhvouyg6N_Gnju5S0MFcDdbMn2V19Ddk8Z-62FSBr1tNVSCA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: Open Science Garden(s)
+        tag: Open Science Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vS0ZySNlYJ0UDxqhrdJ9Zt-TO3fp2AZcewUPrFfrmHgBkq1xK7-KIGZ6w3t-zMTCA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - malvikasharan
+        title: Open Science Introduction
+        tag: Open Science Introduction
+      - slides: https://doi.org/10.5281/zenodo.13981241
+        speakers:
+        - diana-pilvar
+        title: Open Data
+        tag: Open Data
+      - slides: 
+          https://docs.google.com/presentation/d/1ixhngkO-wknExWIrA_Fqq8ddWYgqO0FzPM2TWz5cCss/edit#slide=id.p
+        speakers:
+        - 
+        title: Open Educational Resources
+        tag: Open Educational Resources
       time: "17:00"
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 2 use cases of the different Open Science principles
+      after:
+      - Check the GitHub Intro notes, learning resource and video from last week
+      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
+        or other option. ← long term assignment, do it in your own pace.
   '07':
     start: October 28, 2024
     calls:
@@ -253,6 +296,7 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
+      notes: https://annuel2.framapad.org/p/ols-9-week-07
   '08':
     start: November 04, 2024
     calls:
@@ -274,6 +318,12 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
+      learning_objectives:
+      - Considering different kinds of interactions for your community
+      - Use the Mountain of Engagement method to support participants through various
+        levels of engagements
+      - Develop persona and pathways for your community for taking people's experiences
+        and expectations in planning your projects
   '09':
     start: November 11, 2024
     calls:

@@ -832,14 +832,31 @@ Open Science:
       title: Open Science Introduction
       date: October 24, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vRGqWI6y7LyyZr-3GUhvouyg6N_Gnju5S0MFcDdbMn2V19Ddk8Z-62FSBr1tNVSCA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - tajuddeen1
+      title: Open Science Garden(s)
+      date: October 23, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vS0ZySNlYJ0UDxqhrdJ9Zt-TO3fp2AZcewUPrFfrmHgBkq1xK7-KIGZ6w3t-zMTCA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - malvikasharan
+      title: Open Science Introduction
+      date: October 23, 2024
+      cohort: ols-9-catalyst
     - title: Open Science Introduction
       date: October 23, 2024
       cohort: ols-9-dra
       speakers: []
-    - title: Open Science Introduction
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vS0ZySNlYJ0UDxqhrdJ9Zt-TO3fp2AZcewUPrFfrmHgBkq1xK7-KIGZ6w3t-zMTCA/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - 
+      title: Open Science Introduction
       date: October 23, 2024
       cohort: ols-9-dra
-      speakers: []
   Open Hardware:
     description: Physical and digital tools for enabling research
     talks:
@@ -1115,14 +1132,22 @@ Open Science:
       title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
       date: October 24, 2023
       cohort: ols-8
+    - slides: https://doi.org/10.5281/zenodo.13981241
+      speakers:
+      - diana-pilvar
+      title: Open Data
+      date: October 23, 2024
+      cohort: ols-9-catalyst
     - title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
       date: October 23, 2024
       cohort: ols-9-dra
       speakers: []
-    - title: 'Prepare, curate, connect: amplifying your data’s impact through reuse'
+    - slides: https://zenodo.org/records/13981241
+      speakers:
+      - diana-pilvar
+      title: Open Data
       date: October 23, 2024
       cohort: ols-9-dra
-      speakers: []
   Open Engagement of Social Actors:
     description: Engaging local actors and promoting knowledge exchange
     talks:
@@ -1234,6 +1259,13 @@ Open Science:
       recording: https://youtu.be/NxWpBicnqC0?si=kQOh0FUTS64sRJRi&t=1978
       date: November 21, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/1ixhngkO-wknExWIrA_Fqq8ddWYgqO0FzPM2TWz5cCss/edit#slide=id.p
+      speakers:
+      - 
+      title: Open Educational Resources
+      date: October 23, 2024
+      cohort: ols-9-catalyst
     - title: Open Educational Resources
       date: November 20, 2024
       cohort: ols-9-dra
@@ -1384,11 +1416,13 @@ Open Science:
       date: October 23, 2024
       cohort: ols-9-dra
       speakers: []
-    - title: How do we learn from each other in global large-scale collaborative research
-        networks?
+    - slides: 
+        https://docs.google.com/presentation/d/1ixhngkO-wknExWIrA_Fqq8ddWYgqO0FzPM2TWz5cCss/edit#slide=id.p
+      speakers:
+      - 
+      title: Open Educational Resource
       date: October 23, 2024
       cohort: ols-9-dra
-      speakers: []
   Open Science Infrastructures:
     description: Creating infrastructure for the collective benefit
     talks:
@@ -2054,6 +2088,20 @@ Not sorted:
       title: How to run inclusive meetings and get community input
       date: December 20, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vRGJ1zPXlvoGHyjnGTAHCgMDrvi7_ZQGO0nZkV9VN7WOxY8i1eENnQ2pv9Xk6LZOQ/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - tajuddeen1
+      title: GitHub for Collaboration
+      date: October 16, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vT5ErsPBpTC-KPMIBVSqYYCbPaMk7Cd6cMI3CpJPZbElR6VXepB3EIPTd7LRmjWOg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - npdebs
+      title: Introduction to GitHub
+      date: October 16, 2024
+      cohort: ols-9-catalyst
     - title: GitHub for Collaboration
       date: October 16, 2024
       cohort: ols-9-dra
@@ -2066,10 +2114,13 @@ Not sorted:
       date: October 23, 2024
       cohort: ols-9-dra
       speakers: []
-    - title: Open Science Garden(s)
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vRGqWI6y7LyyZr-3GUhvouyg6N_Gnju5S0MFcDdbMn2V19Ddk8Z-62FSBr1tNVSCA/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - 
+      title: Open Science Garden(s)
       date: October 23, 2024
       cohort: ols-9-dra
-      speakers: []
     - title: Community Design for Inclusivity
       date: November 06, 2024
       cohort: ols-9-dra
