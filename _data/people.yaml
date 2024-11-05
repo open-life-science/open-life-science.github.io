@@ -230,7 +230,7 @@ adekolagreat:
 adnan1306:
   first-name: Mohammed
   last-name: Adnan
-  twitter: https://x.com/adnan_ahmad1306
+  twitter: adnan_ahmad1306
   country: Canada
   expertise:
   - Machine learning
@@ -796,7 +796,7 @@ alihumayun:
 alix-shield:
   first-name: Alix
   last-name: Shield
-  twitter: https://x.com/a_shield
+  twitter: a_shield
   country: Canada
   pronouns: she/her
   expertise:
@@ -2638,7 +2638,7 @@ chiedozie12:
 chikaonyinye:
   first-name: Chika
   last-name: Maduakolam
-  twitter: https://x.com/chicademos
+  twitter: chicademos
   country: Canada
   pronouns: she/her
   expertise:
@@ -5150,7 +5150,7 @@ jafsia:
 jaim-gem:
   first-name: Jaimie
   last-name: Greasley
-  twitter: https://linkedin.com/in/jaimiegreasley
+  twitter: jaimiegreasley
   country: Canada
   expertise:
   - Quantum programming
@@ -5453,7 +5453,7 @@ jhon-anderson-pérez-silva:
   last-name: Pérez Silva
   orcid: 0000-0003-4163-7844
   pronouns: He/him
-  twitter: https://twitter.com/JhonPrz6
+  twitter: JhonPrz6
   website: https://www.instagram.com/scihack/
   country_3: PER
   continent: South America
@@ -6053,7 +6053,7 @@ kenmurithi:
   - Bioinformatics
   first-name: Ken
   last-name: Mugambi
-  twitter: https://twitter.com/Ken_M_Mugambi
+  twitter: Ken_M_Mugambi
   country_3: KEN
   continent: Africa
   longitude: 37.631994
@@ -6456,7 +6456,7 @@ landimi2:
   orcid: 0000-0001-5597-7802
   pronouns: He/Him
   twitter: CofiaLandy
-  website: https://twitter.com/CofiaLandy
+  website: CofiaLandy
   country_3: KEN
   continent: Africa
   longitude: 36.8288420082562
@@ -6668,7 +6668,7 @@ lessa-maker:
 leticiamagpali:
   first-name: Letícia
   last-name: Magpali Moura Estevão
-  twitter: https://x.com/leticiamagpali
+  twitter: leticiamagpali
   website: https://leticiamagpali.weebly.com/
   country: Canada
   expertise:
@@ -6778,7 +6778,7 @@ livabram:
 lojain-hamwi:
   first-name: Lojain
   last-name: Hamwi
-  twitter: https://x.com/HamwiLojain
+  twitter: HamwiLojain
   country: Canada
   pronouns: She/her
   expertise:
@@ -8199,7 +8199,7 @@ mlagisz:
 mldlopez:
   first-name: Mark Louie
   last-name: Lopez
-  twitter: https://x.com/PinoyPlankton
+  twitter: PinoyPlankton
   country: Canada
   pronouns: he/him
   expertise:
@@ -8437,7 +8437,7 @@ msundukova:
 mt-bit:
   first-name: Tiara
   last-name: Mulder
-  twitter: https://x.com/tiara_pie
+  twitter: tiara_pie
   linkedin: tiara-mulder-137aa6182/
   country: Canada
   pronouns: she/her
@@ -10898,7 +10898,7 @@ shubhamrj7:
 shurui-zhou:
   first-name: Shurui
   last-name: Zhou
-  twitter: https://x.com/shuishuiblue
+  twitter: shuishuiblue
   website: https://www.eecg.toronto.edu/~shuruiz/
   orcid: 0000-0002-6346-6073
   city: Toronto
@@ -11815,7 +11815,7 @@ vborghe:
   last-name: Borghesani
   orcid: 0000-0002-7909-8631
   pronouns: she/her/hers
-  twitter: https://twitter.com/vborghesani
+  twitter: vborghesani
   website: https://valentina.borghesani.org/
   country_3: CAN
   continent: North America
@@ -11929,7 +11929,7 @@ vickynembaware:
 vincent-comeau:
   first-name: Vincent
   last-name: Comeau
-  twitter: https://linkedin.com/in/vincent-comeau-7084b5323
+  twitter: vincent-comeau-7084b5323
   country: Canada
   expertise:
   - Physics
