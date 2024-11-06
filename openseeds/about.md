@@ -54,10 +54,11 @@ For the next round, Joy may share what they learned by [mentoring]({% link opens
 Participants join this program with a project that they either are already working on or want to develop during this program individually or in teams.
 Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
-**[Check out the projects developed in the previous cohorts]({% link openseeds/projects.md %}**
+**[Check out the projects developed in the previous cohorts]({% link openseeds/projects.md %})**
 
 {% for cohort in cohorts %}
     {% assign cohort_name = cohort[0] %}
+    {%- if cohort_name == "nebula" %}{% continue -%}
     {% assign projects = cohort[1].projects %}
     {% assign schedule = cohort[1].schedule %}
     {% assign cohort_start = schedule.weeks['01'].start %}
@@ -74,6 +75,7 @@ Project ideas can range from solving technical questions to creating an open d
     {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if participants > 0 %}
 - [{{ projects | size }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects) ([{{ participants }} participants]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants)) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+    {% endif %}
     {% endif %}
 {% endfor %}
 
@@ -143,6 +145,7 @@ Recruitment of the mentees for the next cohort will start in few months. Stay tu
 
 {% for cohort in cohorts %}
     {% assign cohort_name = cohort[0] %}
+    {%- if cohort_name == "nebula" %}{% continue -%}
     {% assign projects = cohort[1].projects %}
     {% assign schedule = cohort[1].schedule %}
     {% assign cohort_start = schedule.weeks['01'].start %}
@@ -159,6 +162,7 @@ Recruitment of the mentees for the next cohort will start in few months. Stay tu
     {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if participants > 0 %}
 - [{{ participants }} mentees]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants) working on ([{{ projects | size }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects)) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+    {% endif %}
     {% endif %}
 {% endfor %}
 
@@ -204,6 +208,7 @@ Our program is only possible thanks to our awesome mentors:
 
 {% for cohort in cohorts %}
     {% assign cohort_name = cohort[0] %}
+    {%- if cohort_name == "nebula" %}{% continue -%}
     {% assign projects = cohort[1].projects %}
     {% assign schedule = cohort[1].schedule %}
     {% assign cohort_start = schedule.weeks['01'].start %}
@@ -220,6 +225,7 @@ Our program is only possible thanks to our awesome mentors:
     {% assign mentors = mentors | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if mentors > 0 %}
 - [{{ mentors }} mentors]({% link openseeds/{{ cohort_name }}/index.md %}#mentors) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+    {% endif %}
     {% endif %}
 {% endfor %}
 
@@ -248,6 +254,7 @@ We are currently recruiting the experts - this route is a good way to join the p
 ### Our experts
 {% for cohort in cohorts %}
     {% assign cohort_name = cohort[0] %}
+    {%- if cohort_name == "nebula" %}{% continue -%}
     {% assign experts = cohort[1].metadata.experts | uniq | size %}
     {% assign projects = cohort[1].projects %}
     {% assign schedule = cohort[1].schedule %}
@@ -258,6 +265,7 @@ We are currently recruiting the experts - this route is a good way to join the p
     {% endfor %}
     {% if experts > 0 %}
 - [{{ experts }} experts ]({% link openseeds/{{ cohort_name }}/index.md %}#experts) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+    {% endif %}
     {% endif %}
 {% endfor %}
 
@@ -284,6 +292,7 @@ This is an invitation-based role. Facilitators are offered an honourarium in rec
 Our facilitators are essential for the program:
 {% for cohort in cohorts %}
     {% assign cohort_name = cohort[0] %}
+    {%- if cohort_name == "nebula" %}{% continue -%}
     {% assign facilitators = cohort[1].metadata.facilitators | uniq | size %}
     {% assign projects = cohort[1].projects %}
     {% assign schedule = cohort[1].schedule %}
@@ -294,5 +303,6 @@ Our facilitators are essential for the program:
     {% endfor %}
     {% if facilitators > 0 %}
 - [{{ facilitators }} facilitators]({% link openseeds/{{ cohort_name }}/index.md %}#facilitators) [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+    {% endif %}
     {% endif %}
 {% endfor %}
