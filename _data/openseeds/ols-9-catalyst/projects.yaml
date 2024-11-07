@@ -119,7 +119,8 @@
     set a mínimo of rules to make reproducible the bioinformatic pipelines, that all
     papers should contain. How we must set up the project in GitHub, in English and
     Spanish version
-  participants: []
+  participants:
+  - yalbi-i-balderas-martinez
   mentors:
   - hrhotz
   keywords:
