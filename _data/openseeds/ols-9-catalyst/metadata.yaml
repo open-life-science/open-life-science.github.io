@@ -5,7 +5,15 @@
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
 experts:
+- yochannah
+- malvikasharan
+- mxrtinez
+- joyceykao
+- karinlag
 - npdebs
+- diana-pilvar
+- chartgerink
+- kirstiejane
 facilitators:
 - arielle-bennett
 - babasaraki
