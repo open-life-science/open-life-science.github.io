@@ -20,7 +20,7 @@ registration_bg_color: "#143132"
               <h2 class="section-title is-size-3">About</h2>
               <p><strong>Get ready for an exciting new series of cohorts on open science in collaboration with <a href="https://nasa.github.io/Transform-to-Open-Science/">NASA-TOPS</a>.</strong></p>
               <p>Funded by <a href="https://www.nasa.gov/">NASA</a>, OLS offers 6-week-long virtual cohorts, bringing our cohort-based approach,  with hands-on learning and individual coaching throughout the training.</p>
-              <p> <a href="https://events.humanitix.com/ols-nebula">Register now for our upcoming cohort!</a>.</p>
+              <p> <a href="https://forms.gle/evYzYJxzLeGifEib9">Register now for our upcoming cohort!</a>.</p>
             </div>
             <div class="column">
                 <div class="card">
@@ -158,7 +158,7 @@ Participants will share a short presentation on their work as a graduation requi
       </div>
     </div>
     <p>Fee waivers are available for a limited number of participants. Please complete this short <a href="https://forms.gle/evYzYJxzLeGifEib9">Fee Waiver Request Form</a>.</p>
-    <p>We review requests on a rolling basis. The last day to request a waiver for our upcoming cohort is September 30, 2024.</p>
+    <p>We review requests on a rolling basis.</p>
   </div>
 </section>
 
@@ -166,10 +166,10 @@ Participants will share a short presentation on their work as a graduation requi
     <div class="container">
         <h2 class="section-title is-size-3 has-text-white">Registration is now open!</h2>
         <p class="has-text-white">
-        Our next offering will run on Tuesdays and Thursdays beginning October 22, 2024, until November 28, 2024. Sessions are scheduled at 16:00 - 17:30 (UTC).</p>
+        Our next offering is planned for February 2025. Exact dates to be confirmed. Training sessions are scheduled on Tuesdays and Thursdays at 16:00 - 17:30 (UTC).</p>
         <p class="has-text-white">We look forward to having you on board for this exploration into open science!</p>
         <div class="buttons is-right">
-            <a href="https://events.humanitix.com/ols-nebula" class="button is-primary">Register as a participant</a>
+            <a href="https://forms.gle/evYzYJxzLeGifEib9" class="button is-primary">Register as a participant</a>
         </div>
     </div>
 </section>
