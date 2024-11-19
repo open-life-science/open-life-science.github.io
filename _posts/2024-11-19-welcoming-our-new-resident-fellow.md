@@ -16,7 +16,7 @@ We are thrilled to announce that **Doaa Mohamed Abdelkader** has joined the OLS 
 ## Doaa, Resident Fellow (Nebula)
 <div class="columns">
   <div class="column is-3" markdown="1">
-  ![]()
+  ![image]({% link images/doaa-portrait.jpg %})
   </div>
   <div class="column" markdown="1">
 
