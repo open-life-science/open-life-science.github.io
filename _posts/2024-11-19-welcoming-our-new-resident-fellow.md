@@ -13,6 +13,8 @@ photos:
 
 We are thrilled to announce that **[Doaa Mohamed Abdelkader]({% link people.md %}#doaamkader)** has joined the OLS team as our newest Resident Fellow!  
 
+*(Massive thanks to  **[Batool Almarzouq]({% link people.md %}#batoolmm)** for graciously translating this blog post to Arabic!)*
+  
 ## Doaa, Resident Fellow (Nebula)
 <div class="columns">
   <div class="column is-3" markdown="1">
