@@ -20,27 +20,25 @@ We are thrilled to announce that **[Doaa Mohamed Abdelkader]({% link people.md %
   <div class="column is-3" markdown="1">
   ![Image shows Doaa, an Egyptian woman, wearing a white long-sleeved blouse, a sleeveless mustard dress and a floral hijab. She has her hands cross in front of her, with a broad smile on her face.]({% link images/doaa-portrait.jpg %})
   </div>
-  <div class="column" markdown="1">
+  <div class="column" markdown="1" style="direction: rtl; text-align: right; white-space: pre-line;">>
 
 #### Arabic
 
-  <p style="direction: rtl; text-align: right;">
 
 العنوان: نرحب بزميلتنا المقيمة الجديدة في OLS —  الباحثة دعاء محمد عبد القادر
-<br>
+
 يسرنا أن نعلن انضمام دعاء محمد عبد القادر إلى فريق OLS برتبة زمالة مقيم!
-<br>
+
 دعاء هي أخصائية مكتبات ويتركز عملها ونشاطها في خدمات البحث في الجامعة البريطانية في مصر، حيث قدمت الدعم لأكثر من 200 باحث في عملهم من خلال الدعم المخصص والمكثف وخبرتها في مجال العلوم المفتوحة، وإدارة البيانات البحثية، ومحو الأمية المعلوماتية. كما أنها تعمل كمؤسسة وقائدة مشروع مجتمع العلوم المفتوحة في مصر، حيث تعمل بنشاط على تعزيز ممارساته والتعاون داخل المجتمع الأكاديمي المصري.
-<br>
+
 مع حصولها على ماجستير في علوم المكتبات والمعلومات من جامعة القاهرة وتدريبها من برنامج McKinsey Forward، تجلب دعاء ثروة من الخبرة المعرفية والابتكار والقيادة إلى دورها وعملها الجديد في OLS.
-<br>
+
 سيكون تركيزها كزميلة مقيمة على تحسين التواصل في OLS، وتوسيع نطاق وصولنا لجذب المزيد من المنظمات والأفراد إلى برامجنا — بما في ذلك توسيع المشاركة في مبادرتنا الرائدة Nebula.
-<br>
+
 نحن متحمسون لوجود خبرة دعاء وشغفها بالعلوم المفتوحة في الفريق مع نمونا وتواصلنا مع مجتمع أوسع واشمل.
-<br>
+
 نرجو منكم الانضمام إلينا في الترحيب بحرارة بدعاء في OLS Slack!
 
-  </p>
   </div>
 </div>
 
