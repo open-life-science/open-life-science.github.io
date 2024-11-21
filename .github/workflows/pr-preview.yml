@@ -35,3 +35,5 @@ jobs:
           publish_branch: gh-pages
           allow_empty_commit: true
           cname: '' # Omit custom domain for PR previews
+          environment: github-pages
+
