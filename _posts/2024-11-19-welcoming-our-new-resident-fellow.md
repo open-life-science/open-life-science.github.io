@@ -20,7 +20,7 @@ We are thrilled to announce that **[Doaa Mohamed Abdelkader]({% link people.md %
   <div class="column is-3" markdown="1">
   ![Image shows Doaa, an Egyptian woman, wearing a white long-sleeved blouse, a sleeveless mustard dress and a floral hijab. She has her hands cross in front of her, with a broad smile on her face.]({% link images/doaa-portrait.jpg %})
   </div>
-  <div class="column" markdown="1" style="direction: rtl; text-align: right; white-space: pre-line;">>
+  <div class="column" markdown="1" style="direction: rtl; text-align: right;">>
 
 #### Arabic
 
