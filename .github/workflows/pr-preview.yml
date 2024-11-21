@@ -30,10 +30,8 @@ jobs:
       - name: Deploy PR Preview
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PAT_TOKEN }}
+          personal_token: ${{ secrets.PAT_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
           allow_empty_commit: true
-          cname: '' # Omit custom domain for PR previews
-          environment: github-pages
-
+          cname: '' # Omit custom domain for PR preview
