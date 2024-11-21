@@ -30,7 +30,7 @@ jobs:
       - name: Deploy PR Preview
         uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          github_token: ${{ secrets.PAT_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
           allow_empty_commit: true
