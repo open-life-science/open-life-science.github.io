@@ -20,10 +20,9 @@ We are thrilled to announce that **[Doaa Mohamed Abdelkader]({% link people.md %
   <div class="column is-3" markdown="1">
   ![Image shows Doaa, an Egyptian woman, wearing a white long-sleeved blouse, a sleeveless mustard dress and a floral hijab. She has her hands cross in front of her, with a broad smile on her face.]({% link images/doaa-portrait.jpg %})
   </div>
-  <div class="column" markdown="1">
+  <div class="column" markdown="1" style="direction: rtl; text-align: right;">
 
 #### Arabic
-
 
 العنوان: نرحب بزميلتنا المقيمة الجديدة في OLS —  الباحثة دعاء محمد عبد القادر
 
@@ -38,6 +37,7 @@ We are thrilled to announce that **[Doaa Mohamed Abdelkader]({% link people.md %
 نحن متحمسون لوجود خبرة دعاء وشغفها بالعلوم المفتوحة في الفريق مع نمونا وتواصلنا مع مجتمع أوسع واشمل.
 
 نرجو منكم الانضمام إلينا في الترحيب بحرارة بدعاء في OLS Slack!
+
   </div>
 </div>
 
@@ -50,5 +50,4 @@ Her focus as a Resident Fellow will be to **improve OLS’s online communication
 
 We’re excited to have Doaa’s expertise and passion for open science on the team as we grow and connect with an even wider community.  
 
-Please join us in welcoming Doaa to the OLS Slack!
-
+Please join us in welcoming Doaa in the OLS Slack!
