@@ -35,3 +35,9 @@ jobs:
           publish_branch: gh-pages
           allow_empty_commit: true
           cname: '' # Omit custom domain for PR preview
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+
