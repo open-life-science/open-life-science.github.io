@@ -14,7 +14,8 @@ photos:
 
 1. **Create an [ORCID](https://orcid.org/) account** if you don't have one already. 
 
-2. **Create and log into an account on https://openscience101.org/.*** 
+2. **Create and log into an account on [openscience101.org](https://openscience101.org/).** 
+
 - You must use the same email as your ORCID. This step links your badge to your ORCID. 
 - There is **no need** to complete the MOOC or assessments. 
 
