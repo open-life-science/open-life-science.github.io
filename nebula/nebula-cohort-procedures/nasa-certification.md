@@ -28,4 +28,5 @@ photos:
 - Once accepted, the badge will appear in your ORCID account.
 
 ### Contact
-For any questions about this process, please contact us at nebula-cohort-management@we-are-ols.org.
+For any questions about this process, please contact us at [{{ site.nebula_email }}@{{ site.email_extension }}](mailto:{{ site.nebula_email }}@{{ site.email_extension }}).
+
