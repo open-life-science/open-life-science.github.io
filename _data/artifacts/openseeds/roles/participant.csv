@@ -5,13 +5,18 @@
 abdulelahsm,Dammam,Saudi Arabia,Abdulelah,Al Mesfer,he/him,SAU,Asia,50.1039991,26.4367824,,,Documentation enhancement with open science practices in sktime,,,,,,,
 abraham-dabengwa,Johannesburg,South Africa,Abraham,Dabengwa,he/ him,ZAF,Africa,28.049722,-26.205,,,,,International Committee on Open Phytolith Science: community building initiative and open science training for the Phytolith Community,,,,,
 acocac,London,United Kingdom,Alejandro,Coca Castro,His/Him,GBR,Europe,-0.14405508452768728,51.4893335,,,,The Environmental AI Book,,,,,,
+adolfmukama,"Kilifi, Mombasa",Kenya,Adolf,Oyesigye Mukama,He/Him,KEN,Africa,39.676239921006136,-4.049189950000001,,,,,,,,,Enhancing Openness in the Prediction of Bacterial Pathogens in Yellowing Disease of Coastal Kenyan Coconuts through Machine Learning,
 agossoubido2021,Abomey Calavi,Benin,Agossou,Bidossessi Emmanuel,He/Him/His,BEN,Africa,2.3303076367454025,6.51096225,,,,,Open Science for Improve diagnostics of Cancer through Artificial Intelligence and Digital Pathology,,,,,
+ahmed-abdille,Galkacyo,Somalia,Ahmed,Abdille,GSU,SOM,Africa,47.4209646,6.7788121,,,,,,,,,"Deciphering the Role of Phosphatidylethanolamine Transferase (PEMT) in Glioblastoma MULTIFORME CELL INVASION, PROLIFERATION AND AGGRESSION",
 aida-turing,London,United Kingdom,Aida,Mehonic,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,Developing and embedding open science practices within the Research Application Management team at Turing,,,,,,,
 akalikadien,Delft,Netherlands,Adarsh,Kalikadien,,NLD,Europe,4.362724538543995,51.999457199999995,,,,,"Increasing the usability of ChemSpaX, a Python tool for chemical space exploration",,,,,
 aldenc,London,United Kingdom,Alden,Conner,,GBR,Europe,-0.14405508452768728,51.4893335,,,,,,Preparing IceNet stakeholder engagement framework for open and collaborative development,,,,
 aleesteele,London,United Kingdom,Anne Lee,Steele,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,,"Exploring ""Governance Models"" for Open Science community projects as per their maturity stage",,,,,
+aleserain,Rio De Janeiro,Brazil,Alessandra,Serain,,BRA,South America,-43.2093727,-22.9110137,,,,,,,,,CABANAnet (Capacity Building for Bioinformatics in Latin America),
 alettes,Makhanda Grahamstown,South Africa,Alette,Schoon,she/her,ZAF,Africa,26.496243,-33.2885486,,,,,,,,An Open Handbook and MOOC on Computational Methods for African Media Researchers,,
+alfredoq,Córdoba,Argentina,Alfredo,Quevedo,,ARG,South America,-4.7760138,37.8845813,,,,,,,,,TidyScreen: managing large drug screening campaigns,
 alihumayun,London,United Kingdom,Ali,Humayun,He/Him,GBR,Europe,-0.14405508452768728,51.4893335,,,The Turing Way - Developing a community health report and assessing its impact on the wider data science community,"Learning about open science communities and help build ""community health"" report for The Turing Way",,,,,,
+alyaaawad,Port Sudan,Sudan,Alyaa,Elbadawi,,SDN,Africa,37.211709,19.619217,,,,,,,,,Community Building in Biomedical Data Science in Sudan,
 amangoel185,Manchester,United Kingdom,Aman,Goel,he/him/his,GBR,Europe,-2.2451148,53.4794892,,,,,,The Undergraduates Guide To Research Software Engineering,,,,
 amber-koert,Amsterdam,Netherlands,Amber,Koert,,NLD,Europe,4.8924534,52.3730796,,,,,,,,Open Science in Neuroscience: A Practical Guide for Researchers,,
 anafinovas,Budapest,Hungary,Saule,Anafinova,,HUN,Europe,19.14609412691246,47.48138955,,,,,,,Open Science Awareness Project for Central Asian Universities,,,
@@ -24,22 +29,25 @@ annambiller,Munich,Germany,Anna Magdalena,Biller,she/her/hers,DEU,Europe,11.5753
 anshika-sah,New Delhi,India,Anshika,Sah,SHE,IND,Asia,77.2090057,28.6138954,,,COMPUTATIONAL DRUG DISCOVERY (CORONAVIRUS),,,,,,,
 antonioggsousa,Oeiras,Portugal,António,Sousa,he/him,PRT,Europe,-9.271300382407272,38.7124971,,,metaNanoPype: a reproducible Nanopore python pipeline for metabarcoding,,,,,,,
 antonis-koutsoumpis,Amsterdam,Netherlands,Antonis,Koutsoumpis,,NLD,Europe,4.8924534,52.3730796,,,,,,,,Creating an online repository for open collaboration in psychology,,
+aolivera-labi,Montevideo,Uruguay,Andrés,Olivera,"He, Him",URY,South America,-56.1913095,-34.9058916,,,,,,,,,Building a Collaborative Network to Advance Bioimaging in Latin America,
 arentkievits,Delft,Netherlands,Arent,Kievits,,NLD,Europe,4.362724538543995,51.999457199999995,,,,Multibeam electron microscopy for imaging large tissue volumes,,,,,,
 arianna-cortesi,Rio De Janeiro,Brazil,Arianna,Cortesi,,BRA,South America,-43.2093727,-22.9110137,,,,,,,Closer to the sky: co-creating astronomical knowledge in a favela of Rio de Janeiro,,,
 ariannazuanazzi,New York City,United States,Arianna,Zuanazzi,she/her,USA,North America,-74.0060152,40.7127281,,,,,,,,Developing an Open Community Repository for SciArt,,
 ashutosh-tiwari,"Bilaspur, Chhattisgarh",India,Ashutosh,Tiwari,He/him/his,IND,Asia,82.1476475,22.0785627,,,Systems Genomic Integration of Diabetes Related Genes: A Quest for Development of Biomarkers,,,,,,,
 augustincaitlin,Orlando,United States,Caitlin,Augustin,she/her,USA,North America,-81.3790304,28.5421109,,,,Encouraging Responsible AI Through An Open Framework for Synthetic Data Generation and Assessment,,,,,,
 ayeshadunk,London,United Kingdom,Ayesha,Dunk,She/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,,"Data Science and AI Educators' Programme AND Tools, Practices & Systems Peer Mentorship Programme",,,,,
-aymd23,Ibadan,Nigeria,Ayomide,Akinlotan,He/his,NGA,Africa,3.8972497,7.3777462,,,,,,,Bioinformatics Secondary school Outreach in Nigeria,,,
+aymd23,Ibadan,Nigeria,Ayomide,Akinlotan,He/his,NGA,Africa,3.8969928,7.3786064,,,,,,,Bioinformatics Secondary school Outreach in Nigeria,,Building a Community of a Critical mass of Bioinformaticians in Nigeria: Leveraging Open Science Principles,
 b14-rsa,Johannesburg,South Africa,Biandri,Joubert,She/Her,ZAF,Africa,28.049722,-26.205,,,,,"Why R, for those with legal backgrounds using examples from South Africa",,,,,
 babari-a-babari-michelle-freddia,Yaoundé,Cameroon,Babari A Babari,Michelle Freddia,,CMR,Africa,11.5213344,3.8689867,,,,,,,From invisible to Citizens: Apparent Age for Primary School children without birth certificates,,,
 babasaraki,Bauchi,Nigeria,Umar,Ahmad,Data Science,NGA,Africa,10.0287754,10.6228284,,,,,Transcriptomics profiling of bladder cancer using publicly available datasets,Open Science Community Nigeria (OSCN),,,,
 batoolmm,Liverpool,Saudi Arabia,Batool,Almarzouq,She/Her,SAU,Asia,-2.99168,53.4071991,,,Open Science Community in Saudi Arabia,Culture-independent discovery of natural products from soil metagenomes,,,,,,
 beatrizserrano,Freiburg,Germany,Beatriz,Serrano-Solano,she/her,DEU,Europe,7.8494005,47.9960901,,Growing the Galaxy Community,,,,,Euro-BioImaging Scientific Ambassadors Program,,,
+bilikis-fadeyi,Alimosho,Nigeria,Bilikis,Fadeyi,,NGA,Africa,3.257587568904711,6.58438825,,,,,,,,,MolerHealth,
 birgül-çolak-al,Istanbul,Turkey,Birgül,Çolak-Al,,TUR,Asia,29.052495,41.0766019,,,,,NGS-HuB: An open educational resource for NGS data analysis,,,,,
 bisola15,Yaba,Nigeria,Bisola,Ahmed,She/her,NGA,Africa,-2.8848131505798653,12.811960299999999,,,,,,,The Impact of Sleep Deprivation on Mental Health,,,
 bobbwang,Amsterdam,Netherlands,Bo,Wang,,NLD,Europe,4.8924534,52.3730796,,,,,,,,"Gender Differences in the Impostor Phenomenon: A Preregistered and Open-Science Meta-Analysis, Creating an online repository for open collaboration in psychology",,
 booktrackergirl,Exeter,United Kingdom,Aditi,Dutta,She/Her,GBR,Europe,-3.5269497,50.7255794,,,,,,,Open Science platform for humanities and computational social scientists,,,
+brevin-ochieng-olunga,Nairobi,Kenya,Brevin,Ochieng Olunga,,KEN,Africa,36.82884201813725,-1.3026148499999999,,,,,,,,,"Deciphering the Role of Phosphatidylethanolamine Transferase (PEMT) in Glioblastoma MULTIFORME CELL INVASION, PROLIFERATION AND AGGRESSION",
 bruno-soares,Rio De Janeiro,Brazil,Bruno,Soares,He/Him,BRA,South America,-43.2093727,-22.9110137,@Diversidade em Foco,,,,,,,,,
 bsolodzi,"Ashaiman, Zenu",Ghana,Bernard Kwame,Solodzi,,GHA,Africa,-0.0499836,5.7121199,,,,,,,"Knowledge and perspectives of open science among researchers in Ghana, West Africa",,,
 callummole,London,United Kingdom,Callum,Mole,He/Him,GBR,Europe,-0.14405508452768728,51.4893335,,,,Hub23: An open source community and infrastructure for Turing's BinderHub,Hub23: An open source community and infrastructure for Turing's BinderHub,,,,,
@@ -47,6 +55,7 @@ camachoreina,Paris,France,Reina,Camacho Toro,She/her,FRA,Europe,2.32004102172007
 camila-gómez,Cochabamba,Bolivia,Camila,Gómez,,,,-66.1568983,-17.3936114,,,,,Training Latin American scientists' community to create high-quality open journals with good editorial standards,,,,,
 carmel-carne,Cape Town,South Africa,Carmel,Carne,She/her,ZAF,Africa,18.417396,-33.928992,,,,,,,Investigating effective strategies for radical inclusion at academic events,,,
 carogiraldo,Bogota,Colombia,Carolina,Giraldo Olmos,,COL,South America,-74.0835643,4.6529539,,,,,,,Data analysis in soil physics: an opportunity of teaching data management and reproducibility,,,
+cashleyj,Harare,Zimbabwe,Catherine,Jonhera,She/her,ZWE,Africa,31.0601584,-17.8567035,,,,,,,,,Developing a genetic information management system towards precision medicine,
 cassgvp,Oxford,United Kingdom,Cassandra,Gould Van Praag,she/her,GBR,Europe,-1.2578499,51.7520131,Oxford Neuroscience Open Science Co-ordinator: Changing Culture,,,,,,,,,
 cbolibaugh,York,United Kingdom,Cylcia,Bolibaugh,she/her,GBR,Europe,-1.0743052444639218,53.96565785,,,,EROS Stories: Conversation and case studies in open research across educational disciplines,,,,,,
 cel31,Barcelona,Spain,Celine,Kerfant,,ESP,Europe,2.1774322,41.3828939,,,,,International Committee on Open Phytolith Science: community building initiative and open science training for the Phytolith Community,,,,,
@@ -84,23 +93,25 @@ elena-beretta,Amsterdam,Netherlands,Elena,Beretta,She/her,NLD,Europe,4.8924534,5
 elena-giglia,Turin,Italy,Elena,Giglia,,ITA,Europe,7.6824892,45.0677551,,,,,,A FAIRer training module on Open Science,,,,
 elisa-on-github,Amsterdam,Netherlands,Elisa,Rodenburg,she/her,NLD,Europe,4.8924534,52.3730796,,,,"Generic data stewards in the Netherlands: who they are, what they do, and who they could become",,,,Open-source handbooks infrastructure at VU Amsterdam,,
 emma-lawrence,London,United Kingdom,Emma,Lawrence,She/hers,GBR,Europe,-0.14405508452768728,51.4893335,,,The UKCRC Tissue Directory and Coordination Centre,,,,,,,
-emmanuel19-ada,Ogbomosho,Nigeria,Emmanuel,Adamolekun,He/His,NGA,Africa,4.25,8.133,,,,Bioinformatics Secondary school Outreach in Nigeria,Bioinformatics Secondary school Outreach in Nigeria,Bioinformatics Secondary school Outreach in Nigeria,Bioinformatics Secondary school Outreach in Nigeria,,,
+emmanuel19-ada,Akure,Nigeria,Emmanuel,Adamolekun,He/Him,NGA,Africa,5.1932647,7.2525595,,,,Bioinformatics Secondary school Outreach in Nigeria,Bioinformatics Secondary school Outreach in Nigeria,Bioinformatics Secondary school Outreach in Nigeria,Bioinformatics Secondary school Outreach in Nigeria,,Building a Community of a Critical mass of Bioinformaticians in Nigeria: Leveraging Open Science Principles,
 esbusis,Istanbul,Turkey,Esra Büşra,Işık,,TUR,Asia,29.052495,41.0766019,,,,,NGS-HuB: An open educational resource for NGS data analysis,,,,,
 fabienne-lucas,Boston,United States,Fabienne,Lucas,she/hers,USA,North America,-71.060511,42.3554334,,,MiSET Publication Standards: A tool for AI-assisted peer-review of experimental information,,,,,,,
 fabioperdigao,Rio De Janeiro,Brazil,Fabio,Ivo Perdigão,,BRA,South America,-43.2093727,-22.9110137,,,,,,Making Science simple and accessible,,,,
-fadanka,Yaounde,Cameroon,Stephane,Fadanka,He/Him,CMR,Africa,11.5213344,3.8689867,,,,,Open Science for Improve diagnostics of Cancer through Artificial Intelligence and Digital Pathology,,From invisible to Citizens: Apparent Age for Primary School children without birth certificates,,,
+fadanka,Yaounde,Cameroon,Wapouo Fadanka,Stephane,"He, Him",CMR,Africa,11.5213344,3.8689867,,,,,Open Science for Improve diagnostics of Cancer through Artificial Intelligence and Digital Pathology,,From invisible to Citizens: Apparent Age for Primary School children without birth certificates,,,
+fadlelmola,Khartoum,Sudan,Faisal,Fadlelmola,He/Him,SDN,Africa,32.5349123,15.5635972,,,,,,,,,Community Building in Biomedical Data Science in Sudan,
 farukustunel,Istanbul,Turkey,Faruk,Üstünel,,TUR,Asia,29.052495,41.0766019,,,,,NGS-HuB: An open educational resource for NGS data analysis,,,,,
-fatma366,Mombasa,Kenya,Fatma,Omar,Miss,KEN,Africa,39.667169,-4.05052,,,,,,,,Identification and Prediction of Bacterial Pathogens Colonizing Yellowing Disease in Coastal Kenyan Coconuts: A Machine Learning Approach,,
+fatma366,Nairobi,Kenya,Fatma Mohamed,Omar,Miss,KEN,Africa,36.82884201813725,-1.3026148499999999,,,,,,,,Identification and Prediction of Bacterial Pathogens Colonizing Yellowing Disease in Coastal Kenyan Coconuts: A Machine Learning Approach,Enhancing Openness in the Prediction of Bacterial Pathogens in Yellowing Disease of Coastal Kenyan Coconuts through Machine Learning,
 federico-cestares,Buenos Aires,Argentina,Federico,Cestares,He- él,ARG,South America,-58.4370894,-34.6075682,,,,,Argentinean Public Health Research on Data Science and Artificial Intelligence for Epidemic Prevention (ARPHAI),,,,,
 fredbelliard,Delft,Netherlands,Frédérique,Belliard,she/her,NLD,Europe,4.362724538543995,51.999457199999995,,,,,Publishing development plan for the Open access journals of TU Delft OPEN Publishing,,,,,
 gabriela-rufino,Rio De Janeiro,Brazil,Gabriela,Rufino,She/her,BRA,South America,-43.2093727,-22.9110137,,,,,,,Closer to the sky: co-creating astronomical knowledge in a favela of Rio de Janeiro,,,
 gareth-j,Bristol,United Kingdom,Gareth,Jones,He/ Him,GBR,Europe,-2.5972985,51.4538022,,,,,OpenGHG - a cloud platform for greenhouse gas data analysis and collaboration,,,,,
 gedaloop,Barcelona,Spain,Adel,Sarvary,she/her,ESP,Europe,2.1774322,41.3828939,,,,Balconnect - A network of private outdoor areas improving urban ecoliteracy and biodiversity,,,,,,
-gemmaturon,Barcelona,Spain,Gemma,Turon,she/her,ESP,Europe,2.1774322,41.3828939,,,,,The Ersilia Model Hub: encouraging deployment of computer-based research tools for non-expert usage,,,,,
+gemmaturon,Barcelona,Spain,Gemma,Turon Rodrigo,she/her,ESP,Europe,2.1774322,41.3828939,,,,,The Ersilia Model Hub: encouraging deployment of computer-based research tools for non-expert usage,,,,,
+george-odongo,Nairobi,Kenya,George,Odongo,Mr,KEN,Africa,36.82884201813725,-1.3026148499999999,,,,,,,,,"Deciphering the Role of Phosphatidylethanolamine Transferase (PEMT) in Glioblastoma MULTIFORME CELL INVASION, PROLIFERATION AND AGGRESSION",
 georgiahca,London,United Kingdom,Georgia,Aitkenhead,She/her,GBR,Europe,-0.14405508452768728,51.4893335,,Autistica - Turing Citizen Science Project,,,,,,,,
 ghammad,Liège,Belgium,Grégory,Hammad,,BEL,Europe,5.773545903524977,50.47081585,,,Open data schema for actigraphy data in chronobiology and sleep research,,,,,,,
 gill-francis,York,United Kingdom,Gill,Francis,She/her,GBR,Europe,-1.0743052444639218,53.96565785,,,,EROS Stories: Conversation and case studies in open research across educational disciplines,,,,,,
-glado718,Nairobi,Kenya,Gladys,Rotich,She/her,KEN,Africa,36.82884201813725,-1.3026148499999999,,,,,,The hub portal and academy,,,,
+glado718,Nairobi,Kenya,Gladys,Rotich,She/her,KEN,Africa,36.8172449,-1.2832533,,,,,,The hub portal and academy,,,,
 guille1107,Buenos Aires,Argentina,Guillermo Luciano,Fiorini,He; Him,ARG,South America,-58.4370894,-34.6075682,,,,Open data for nanosystem synthesis experimental conditions,,,,,,
 hans-ket,Amsterdam,Netherlands,Hans,Ket,he/him,NLD,Europe,4.8924534,52.3730796,,,,,,,,Gender Differences in the Impostor Phenomenon: A Preregistered and Open-Science Meta-Analysis,,
 harinilakshminarayanan,Zurich,Switzerland,Harini,Lakshminarayanan,,CHE,Europe,8.5410422,47.3744489,,,,,,OpSciHack: Open Life Science Hackathon,,,,
@@ -116,7 +127,7 @@ isahmadbbr,Kano,Nigeria,Ibrahim Said,Ahmad,,NGA,Africa,8.5364136,11.8948389,,,De
 ismael-kg,London,United Kingdom,Ismael,Kherroubi Garcia,He/him,GBR,Europe,-0.14405508452768728,51.4893335,,The Turing Way - Guide for Ethical Research,,,An Incomplete History of Research Ethics,,,,,
 iván-gabriel-poggio,Toay,Argentina,Iván Gabriel,Poggio,,ARG,South America,-64.3796809,-36.6738649,,,,,,,,Gobernanza 2.0 de MetaDocencia,,
 jafari-amir,Rio De Janeiro,Brazil,Amir,Jafari,,BRA,South America,-43.2093727,-22.9110137,,,,,,,Open-source object recognition software specifically designed for mice in Alzheimers disease,,,
-jafsia,Yaounde,Cameroon,Elisee,Jafsia,He/Him,CMR,Africa,11.5213344,3.8689867,,,,,Open Science for Improve diagnostics of Cancer through Artificial Intelligence and Digital Pathology,,From invisible to Citizens: Apparent Age for Primary School children without birth certificates,,,
+jafsia,Bangui,Central African Republic,Elisee,Jafsia,He/Him,CAF,Africa,18.5835913,4.3635118,,,,,Open Science for Improve diagnostics of Cancer through Artificial Intelligence and Digital Pathology,,From invisible to Citizens: Apparent Age for Primary School children without birth certificates,,,
 javier-ruiz-pérez,Barcelona,Spain,Javier,Ruiz Pérez,,ESP,Europe,2.1774322,41.3828939,,,Towards FAIRer phytolith data,,,,,,,
 jbuczny,Amsterdam,Netherlands,Jacek,Buczny,,NLD,Europe,4.8924534,52.3730796,,,,,,,,Gender Differences in the Impostor Phenomenon: A Preregistered and Open-Science Meta-Analysis,,
 jessica-sims,London,United Kingdom,Jessica,Sims,She/her,GBR,Europe,-0.14405508452768728,51.4893335,,,The UKCRC Tissue Directory and Coordination Centre,,,,,,,
@@ -125,11 +136,11 @@ jhon-anderson-pérez-silva,Lima,Peru,Jhon Anderson,Pérez Silva,He/him,PER,South
 jhrudey,Amsterdam,Netherlands,Jessica,Hrudey,she/her/hers,NLD,Europe,4.8924534,52.3730796,,,,,,,,Open-source handbooks infrastructure at VU Amsterdam,,
 jmmaok,"Cary, Nc",United States,Jennifer,Miller,,USA,North America,-78.7812081,35.7882893,,,Postdoc Empirical Legal Research Open Notebook,,,,Translate Science,,,
 joelfan,Milan,Italy,Dario,Basset,,ITA,Europe,9.1896346,45.4641943,,,,,,Open science spread,,,,
-joyceykao,Aachen,Germany,Joyce,Kao,She/Her,DEU,Europe,6.083862,50.776351,,Open Innovation in Life Sciences,,,,,,,,
+joyceykao,Aachen,Germany,Joyce,Kao,she/her,DEU,Europe,6.083862,50.776351,,Open Innovation in Life Sciences,,,,,,,,
 jruizperez,College Station,United States,Javier,Ruiz-Pérez,,USA,North America,-96.3071042,30.5955289,,,,,International Committee on Open Phytolith Science: community building initiative and open science training for the Phytolith Community,,,,,
 juanjo-garcía-granero,Barcelona,Spain,Juan José,García-Granero,He/him/his,ESP,Europe,2.1774322,41.3828939,,,Towards FAIRer phytolith data,,International Committee on Open Phytolith Science: community building initiative and open science training for the Phytolith Community,,,,,
 julianbuede,Córdoba,Argentina,Julián,Buede,Él,ARG,South America,-4.7760138,37.8845813,,,,,,,,Estructura e infraestructura para la formación por cohortes virtuales,,
-jvillcavillegas,Buenos Aires,Argentina,Jose Luis,Villca Villegas,Bolivia,ARG,South America,-58.4370894,-34.6075682,,,,,Training Latin American scientists' community to create high-quality open journals with good editorial standards,,,,,
+jvillcavillegas,Cochabamba,Bolivia,Jose Luis,Villca Villegas,He/Him,BOL,South America,-66.16756808852,-17.401245799999998,,,,,Training Latin American scientists' community to create high-quality open journals with good editorial standards,,,,,
 jyoti-bhogal,"Ahmednagar, Maharashtra",India,Jyoti,Bhogal,she/her,IND,Asia,74.74267631763158,19.043620599999997,,,,,Building Pathways for Onboarding to Research Software Engineering (RSE) Asia Association and Adoption of Code of Conduct,,,,,
 k-c-martin,Stellenbosch,South Africa,Kim,Martin,,ZAF,Africa,18.869167,-33.934444,,,,,Finding paths through the FAIR forest; linking metadata from forestry models and datasets to assist analysis and hypothesis generation,,,,,
 karegapauline,Nairobi,Kenya,Pauline,Karega,she/her,KEN,Africa,36.8288420082562,-1.3026148499999999,,Database for coordinating training needs in Kenya to faciliatate preparation and collaboration,,,,The hub portal and academy,,,,
@@ -144,12 +155,12 @@ koerding,Philadelphia,United States,Konrad,Kording,he/ him,USA,North America,-75
 kon0925,Heraklion,Greece,Haridimos,Kondylakis,,GRC,Europe,25.1332843,35.33908,,,"ProCancer-I - An AI Platform integrating imaging data and models, supporting precision care through prostate cancer's continuum",,,,,,,
 lalmehlisy,Riyadh,Saudi Arabia,Leena,AlMehlisy,she/her,SAU,Asia,46.7160104,24.638916,,,,Culture-independent discovery of natural products from soil metagenomes,,,,,,
 landimi2,Nairobi,Kenya,Michael,Landi,He/Him,KEN,Africa,36.8288420082562,-1.3026148499999999,Bioinformatics Hub of Kenya (BHK),,,,,,,,,
-lauracarter,London,United Kingdom,Laura,Carter,she/her,GBR,Europe,-0.12765,51.5073359,,The Turing Way - Guide for Ethical Research,,,,,,,,
+lauracarter,"Seattle, Usa",United States,Laura,Carter,she/her,USA,North America,-122.330062,47.6038321,,The Turing Way - Guide for Ethical Research,,,,,,,,
 lauracion,Ciudad Autónoma De Buenos Aires,Argentina,Laura,Ación,she/ella,ARG,South America,-58.43562340522388,-34.61612315,,,,,Argentinean Public Health Research on Data Science and Artificial Intelligence for Epidemic Prevention (ARPHAI),,,,,
 lauradascenzi,Córdoba,Argentina,Laura,Ascenzi,she/her/ella,ARG,South America,-4.7760138,37.8845813,,,,,,,,Gobernanza 2.0 de MetaDocencia,,
 lauramb8909,Bucaramanga,Colombia,Laura Marcela,Becerra Bayona,,COL,South America,-73.1047294009737,7.16698415,,,,,,,LA-CoNGA Physics Citizen Science Project,,,
 lcbreedt,Amsterdam,Netherlands,Lucas,Breedt,he/him/his,NLD,Europe,4.8924534,52.3730796,,,,,,,,Open Science in Neuroscience: A Practical Guide for Researchers,,
-lessa-maker,Centre,Cameroon,Lessa Tchohou,Fabrice,,CMR,Africa,1.7324062,47.5490251,,,,,,,"Development of an online open science platform, easy and accessible for agricultural students in Cameroon.",,,
+lessa-maker,Yaoundé,Cameroon,Lessa Tchohou,Fabrice,He/Him,CMR,Africa,11.5213344,3.8689867,,,,,,,"Development of an online open science platform, easy and accessible for agricultural students in Cameroon.",,,
 lisanna,Heidelberg,Germany,Lisanna,Paladin,She/they,DEU,Europe,8.694724,49.4093582,,,,Grassroots: Nurturing the EMBL Bio-IT Community,,,,,,
 lomaxboydphd,New York,United States,Lomax,Boyd,He/him,USA,North America,-74.0060152,40.7127281,,,Junto Labs - Advancing Virtual Environments for Life Science Research and Active Learning,,,,,,,
 loreleyls,Falmouth,United States,Loreley,Lago,she/her,USA,North America,-5.0688262,50.1552197,,,,,,,,JICMar Network: towards better opportunities and greater collaboration among young marine science researchers in Latin America,,
@@ -159,12 +170,14 @@ lydiafrance,London,United Kingdom,Lydia,France,,GBR,Europe,-0.14405508452768728,
 macziatko,Dublin,Ireland,Nina,Trubanová,she/her/hers,IRL,Europe,-6.2605593,53.3493795,,,,,,AGAPE: Building an open science practicing community in Ireland,,,,
 mai-alajaji,Riyadh,Saudi Arabia,Mai,Alajaji,,SAU,Asia,46.7160104,24.638916,,,,Culture-independent discovery of natural products from soil metagenomes,,,,,,
 malvikasharan,London,United Kingdom,Malvika,Sharan,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,,"Exploring ""Governance Models"" for Open Science community projects as per their maturity stage",,,,,
-manulera,Paris,France,Manuel,Lera Ramirez,He/him,FRA,Europe,2.3200410217200766,48.8588897,,,,Genestorian: An Open Source web application for model organism collections,,,,,,
+manulera,London,United Kingdom,Manuel,Lera Ramirez,he/him,GBR,Europe,-0.1277653,51.5074456,,,,Genestorian: An Open Source web application for model organism collections,,,,,,
 marco-madella,Barcelona,Spain,Marco,Madella,he/his,ESP,Europe,2.1774322,41.3828939,,,Towards FAIRer phytolith data,,,,,,,
 marcotxma,Munich,Germany,Marco,Ma,he/him,DEU,Europe,11.5753822,48.1371079,,,,,,,"momenTUM Research Platform: An open-source, reproducible research infrastructure for digital health",,,
 maria-andrea-gonzales-castillo,Lima,Peru,Maria Andrea,Gonzales Castillo,She/Her,PER,South America,-77.0365256,-12.0621065,,,,,SciHack: Promoting the Open Source and DIY movements in Peru,,,,,
+mariafrdias,Macae,Brazil,Maria Fernanda,Ribeiro Dias,,BRA,South America,-41.7866922,-22.3712958,,,,,,,,,CABANAnet (Capacity Building for Bioinformatics in Latin America),
 mariangelap,Genova,Italy,Mariangela,Panniello,she/her,ITA,Europe,8.9338624,44.40726,,,,,"Open Science, Open Future",,,,,
 marie-nugent,London,United Kingdom,Marie,Nugent,,GBR,Europe,-0.14405508452768728,51.4893335,,,,,,Developing effective online communities to build tools for genomic equity,,,,
+mariehidjo,Harare,Zimbabwe,Mahougnon Marie Madeleine,Hidjo,,ZWE,Africa,31.0601584,-17.8567035,,,,,,,,,Developing a genetic information management system towards precision medicine,
 marielaraj,Ciudad De Buenos Aires,Argentina,Mariela,Rajngewerc,She/her,ARG,South America,-58.4370894,-34.6075682,,,,,,,Open educational hands-on tutorial for evaluating fairness in AI classification models,,,
 marlouramaekers,Amsterdam,Netherlands,Marlou,Ramaekers,she/her,NLD,Europe,4.8924534,52.3730796,,,,,,,,Making corporate social responsibility data available and accessible for other researchers,,
 marta-marin,Madrid,Spain,Marta,Marin,She/her,ESP,Europe,-3.7035825,40.4167047,,,Creating a network of Open Science ambassadors in Spanish Health Research Institutes,,,,,,,
@@ -183,10 +196,11 @@ miketrizna,"Washington, Dc",United States,Mike,Trizna,he/him/his,USA,North Ameri
 milagro-urricariet,Ciudad Autónoma De Buenos Aires,Argentina,Milagro,Urricariet,she/her,ARG,South America,-58.4370894,-34.6075682,,,,,,,,JICMar Network: towards better opportunities and greater collaboration among young marine science researchers in Latin America,,
 mitch-kitoi,Nairobi,Kenya,Michael,Kitoi,He/Him,KEN,Africa,36.82884201813725,-1.3026148499999999,,,,,,,,Assessing the Zinc Finger Protein Mutation and Expression Profile in Kenyan Women with Breast Cancer,,
 miytek,Delft,Netherlands,Miyase,Tekpinar,,NLD,Europe,4.362724538543995,51.999457199999995,,,,,,,,A Fiji plugin for SOFI analysis,,
-mlagisz,Sydney,Australia,Malgorzata,Lagisz,,AUS,Oceania,-60.194092,46.137977,,,,,,"Evaluating criteria of ""best paper"" awards from research journals across disciplines",,,,
+mlagisz,Edmonton,Canada,Malgorzata (Losia),Lagisz,she/her,CAN,North America,-113.491241,53.5462055,,,,,,"Evaluating criteria of ""best paper"" awards from research journals across disciplines",,,,
 mmasibidi,Potchefstroom,South Africa,Mmasibidi,Setaka,She/her,ZAF,Africa,27.095833,-26.707778,,,,,,,,Assessing word stability in Corpora and its influence on learner dictionaries,,
 mohan-gupta,Kathmandu,Nepal,Mohan,Gupta,He/Him,NPL,Asia,85.3205817,27.708317,,,GyaNamuna: Virtual School Connecting Rural Students To The World,,,,,,,
 mona-zimmermann,Amsterdam,Netherlands,Mona,Zimmermann,She/Her,NLD,Europe,4.8924534,52.3730796,,,,,,,,Open Science in Neuroscience: A Practical Guide for Researchers,,
+mqnifestkelvin,Lagos,Nigeria,Manifest,Chakalov,"he, him, his",NGA,Africa,3.3941795,6.4550575,,,,,,,,,MolerHealth,
 msundukova,Bilbao,Spain,Mayya,Sundukova,she/her,ESP,Europe,-2.9350039,43.2630018,,,,,,Developing policy briefs on mental well-being of researchers in academia across different countries,,,,
 mtthsdzwn,Amsterdam,Netherlands,Matthijs,de Zwaan,,NLD,Europe,4.8924534,52.3730796,,,,,,,,Is my research used in clinical trials? - Tool(s) to assess societal impact using open scholarly data,,
 mxrtinez,Bucaramanga,Colombia,Alexander,Martinez Mendez,,COL,South America,-73.1047294009737,7.16698415,,,LA-CoNGA physics (Latin American alliance for Capacity buildiNG in Advanced physics),,,,LA-CoNGA Physics Citizen Science Project,,,
@@ -199,19 +213,23 @@ nea-bridget,London,United Kingdom,Bridget,Nea,she/her/hers,GBR,Europe,-0.1440550
 nelson-franco,Cochabamba,Bolivia,Nelson Franco,Condori Salluco,Nelson,,,-66.1568983,-17.3936114,,,,,Training Latin American scientists' community to create high-quality open journals with good editorial standards,,,,,
 nickynicolson,London,United Kingdom,Nicky,Nicolson,,GBR,Europe,-0.14405508452768728,51.4893335,,,,,,An extensible notebook for open specimens,An extensible notebook for open specimens,,,
 niels-reijner,Amsterdam,Netherlands,Niels,Reijner,,NLD,Europe,4.8924534,52.3730796,,,,,,,,Open Science in Neuroscience: A Practical Guide for Researchers,,
+nihadalsayed,Port Sudan,Sudan,Nihad,Alsayed,,SDN,Africa,37.211709,19.619217,,,,,,,,,Community Building in Biomedical Data Science in Sudan,
 nihansultan,İstanbul,Turkey,Nihan Sultan,Milat,,TUR,Asia,29.052495,41.0766019,,,MBiO: Designing an open-collaborative website in the field of molecular biology,,NGS-HuB: An open educational resource for NGS data analysis,,,,,
+nilson-coimbra,Sao Paulo,Brazil,Nilson,Coimbra,,BRA,South America,-46.6333824,-23.5506507,,,,,,,,,CABANAnet (Capacity Building for Bioinformatics in Latin America),
 nlois,Buenos Aires,Argentina,Nicolás,Lois,He/him,ARG,South America,-58.4370894,-34.6075682,,,,,,,,JICMar Network: towards better opportunities and greater collaboration among young marine science researchers in Latin America,,
 nodiraibrogimova,Tashkent,Uzbekistan,Nodira,Ibrogimova,She/Hers,UZB,Asia,69.2787079,41.3123363,,,,,Open Science for Improve diagnostics of Cancer through Artificial Intelligence and Digital Pathology,,,,,
 nomalu,Pretoria,South Africa,Nomalungelo Octavia,Maphanga,,ZAF,Africa,28.1879101,-25.7459277,,,,,,Mapping the RSSE landscape in Africa,,,,
 npalopoli,Buenos Aires,Argentina,Nicolás,Palopoli,Él/He/Him,ARG,South America,-58.4370894,-34.6075682,,,,,,,,Estructura e infraestructura para la formación por cohortes virtuales,,
 npdebs,Port Harcourt.,Nigeria,Deborah,Udoh,She/her,NGA,Africa,7.0188527,4.7676576,,,,,,,The Impact of Sleep Deprivation on Mental Health,,,
 nwakaego-gloria-ashiegbu,Umudike / Abia State,Nigeria,Nwakaego Gloria,Ashiegbu,She,NGA,Africa,7.533333,5.5,,,,,,,,Digitalization for sustainable Agricultural practices and climate change mitigation,,
-nyasita,Nairobi,Kenya,Laurah,Ondari,,KEN,Africa,36.8288420082562,-1.3026148499999999,,,,,,The hub portal and academy,,,,
+nyashalorrainemapira,Harare,Zimbabwe,Nyasha Lorraine,Mapira,She/Her,ZWE,Africa,31.0601584,-17.8567035,,,,,,,,,Developing a genetic information management system towards precision medicine,
+nyasita,Nairobi,Kenya,Laurah,Nyasita Ondari,She/Her,KEN,Africa,36.82884201813725,-1.3026148499999999,,,,,,The hub portal and academy,,,,
 olayile,Pretoria,South Africa,Olayile,Ejekwu,She/Her,ZAF,Africa,28.1879101,-25.7459277,,,"BioFerm: A web application used for kinetic modeling, parameter estimation and simulation of bioprocesses",,,,,,,
 olsjuju,Seoul,South Korea,Juyeon,Kim,,,,126.9782914,37.5666791,,,,,Open collaborative network and incentive system for brain health,,,,,
 olufemi-adesope,Port Harcourt,Nigeria,Olufemi,Adesope,Him/His,NGA,Africa,7.0188527,4.7676576,,,,,,,,Digitalization for sustainable Agricultural practices and climate change mitigation,,
 onwumere.joseph,"Umudike, Abia State",Nigeria,Joseph,Chimere Onwumere,He,NGA,Africa,7.533333,5.5,,,,,,,,Digitalization for sustainable Agricultural practices and climate change mitigation,,
 osatashamim,Nairobi,Kenya,Shamim,Wanjiku Osata,,KEN,Africa,36.8288420082562,-1.3026148499999999,,,,,,An open support resource for primary mental health for researchers.,,,,
+pageneck,Harare,Zimbabwe,Pageneck,Chikondowa,,ZWE,Africa,31.0601584,-17.8567035,,,,,,,,,Developing a genetic information management system towards precision medicine,
 paolo-pedaletti,Milano,Italy,Paolo,Pedaletti,,ITA,Europe,9.1896346,45.4641943,,,Seeding,,,,,,,
 patriloto,Resistencia - Chaco,Argentina,Patricia,Loto,Ella/She,ARG,South America,-59.19320025100798,-27.6048829,,,,,,,"Mapping open-science communities, organizations, and events in Latin America",,,
 paulinegachanja,Kilifi,Kenya,Pauline,Wambui Gachanja,Her/She,KEN,Africa,39.67507159193717,-3.15073925,,,,,,,,Bioinformatics codeathon,,
@@ -227,8 +245,9 @@ prashbio,Jaipur,India,Prash,Suravajhala,He/Him,IND,Asia,75.8189817,26.9154576,,,
 princehoodie,Buenos Aires,Argentina,Tobías,Aprea,He/His,ARG,South America,-58.4370894,-34.6075682,,,,Open data for nanosystem synthesis experimental conditions,,,,,,
 r-huo,Delft,Netherlands,Ran,Huo,,NLD,Europe,4.362724538543995,51.999457199999995,,,,,,Building a Platform for Open and Reproducible Super-resolution Imaging Hardware and Analytical Tools,,,,
 raoofphysics,Bristol,United Kingdom,Achintya,Rao,he/him,GBR,Europe,-2.5972985,51.4538022,,,,,Cultivating a Community of Practice of AI researchers,,,,,
+rebcamsan,San Jose,Costa Rica,Rebeca,Campos Sanchez,she/her,CRI,North America,-121.890591,37.3361663,,,,,,,,,CABANAnet (Capacity Building for Bioinformatics in Latin America),
 reinout-de-vries,Amsterdam,Netherlands,Reinout,de Vries,,NLD,Europe,4.8924534,52.3730796,,,,,,,,Gender Differences in the Impostor Phenomenon: A Preregistered and Open-Science Meta-Analysis,,
-rgiessmann,Berlin,Germany,Robert,Giessmann,he/him,DEU,Europe,13.3888599,52.5170365,,,,,,,,openTECR - an open database on thermodynamics of enzyme-catalyzed reactions,,
+rgiessmann,Berlin,Germany,Robert,Giessmann,he/him,DEU,Europe,13.3989367,52.510885,,,,,,,,openTECR - an open database on thermodynamics of enzyme-catalyzed reactions,,
 richarddushime,Kampala,Uganda,Richard,Dushime,He/Him,UGA,Africa,32.5813539,0.3177137,,,,,,,Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings,,,
 robandeep-kaur,Jalandhar,India,Robandeep,Kaur,She/her,IND,Asia,75.576889,31.3323762,,,Systems Genomic Integration of Diabetes Related Genes: A Quest for Development of Biomarkers,,,,,,,
 robert-schreiber,Hermanus,South Africa,Robert,Schreiber,He/him,ZAF,Africa,19.2361111,-34.4175,,,,,Easy Access Autism Resources for Rural Parents,,,,,
@@ -246,17 +265,17 @@ sandrine-kengne,Yaounde,Cameroon,Sandrine,Kengne,,CMR,Africa,11.5213344,3.868986
 santi-rello-varona,Madrid,Spain,Santi,Rello Varona,he/him,ESP,Europe,-3.7035825,40.4167047,,,Creating a network of Open Science ambassadors in Spanish Health Research Institutes,,,,,,,
 sarah-nietopski,London,United Kingdom,Sarah,Nietopski,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,,Community engagement: Building an open online learning community,,,,,
 saranjeetkaur,Gurgaon,India,Saranjeet Kaur,Bhogal,She/her,IND,Asia,77.00270014657752,28.42826235,,,,Building the Research Software Engineering (RSE) Association in Asia region,,Mapping the Open Life Science Cohorts,,,,
-saravilla,London,United Kingdom,Sara,Villa,she/her,GBR,Europe,-0.12765,51.5073359,,,,Open and reproducible data analysis for wet lab neuroscientists,,,,,,
+saravilla,London,United Kingdom,Sara,Villa,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,Open and reproducible data analysis for wet lab neuroscientists,,,,,,
 sarenaz,Astana (Nursultan),Kazakhstan,Zarena,Syrgak,she/they,KAZ,Asia,71.4306682,51.1282205,,,,,Multilingual Open Science: Creating Open Educational Resources in Central Asian Languages,,,,,
 saryace,Santiago,Chile,Sara,Acevedo,she/her,CHL,South America,-83.7980749,9.8694792,,,,,,,Data analysis in soil physics: an opportunity of teaching data management and reproducibility,,,
 sayalaruano,Maastricht,Netherlands,Andres Sebastian,Ayala Ruano,he/him,NLD,Europe,5.6969881818221095,50.85798545,,,,"An open educational resource to introduce fundamental concepts of GNU/Linux, terminal usage, Bash/AWK scripting, and Git/GitHub for Bioinformatics",,,,,,
-seunolufemi123,Ogbomoso,Nigeria,Seun Elijah,Olufemi,,NGA,Africa,4.25,8.133,,,,,,,Bioinformatics Secondary school Outreach in Nigeria,,,
+seunolufemi123,Abuja,Nigeria,Seun,Olufemi,He/him,NGA,Africa,7.4892974,9.0643305,,,,,,,Bioinformatics Secondary school Outreach in Nigeria,,Building a Community of a Critical mass of Bioinformaticians in Nigeria: Leveraging Open Science Principles,
 sgibson91,London,United Kingdom,Sarah,Gibson,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,An Open Source Service Area for Turing research projects,,,,,,,
 shmuhammad2004,Kano,Nigeria,Shamsuddeen,Muhammad,He/Him,NGA,Africa,8.5364136,11.8948389,,,Development of language resources for Hausa Natural Language Processing,,,,,,,
 sivasubramanian-murugappan,Limerick,Ireland,Sivasubramanian,Murugappan,,IRL,Europe,-8.6301239,52.661252,,,,,,,Facilitating easier academic selection of research students using ML,,,
 sjb287,Urbana,United States,Steven,Burgess,He/His/Him,USA,North America,-88.207301,40.1117174,,,Open Phototroph,,,,,,,
 sladjana-lukic,New York City,United States,Sladjana,Lukic,she/her,USA,North America,-74.0060152,40.7127281,,,,,"Development of an Open Source Platform for the Storage, Sharing, Synthesis and Meta-Analysis of Clinical Data",,,,,
-slldec,Buenos Aires,Argentina,Sabrina,López,she/her/ella,ARG,South America,-58.4370894,-34.6075682,,,,,Argentinean Public Health Research on Data Science and Artificial Intelligence for Epidemic Prevention (ARPHAI),,,,,
+slldec,Buenos Aires,Argentina,Sabrina,López,seh/her/ella,ARG,South America,-58.4440583,-34.6083696,,,,,Argentinean Public Health Research on Data Science and Artificial Intelligence for Epidemic Prevention (ARPHAI),,,,,
 smhall97,Oxford,United Kingdom,Siobhan Mackenzie,Hall,she/her,GBR,Europe,-1.2578499,51.7520131,,,,,,,Investigating effective strategies for radical inclusion at academic events,,,
 smklusza,Morrow,United States,Stephen,Klusza,he/him/his,USA,North America,-82.7771661,40.4574358,,Synthetic Biology Chassis Toolkit for Public Domain Use,,,,,,,,
 spitschan,Munich,Germany,Manuel,Spitschan,he/him/his,DEU,Europe,11.5753822,48.1371079,,,Open data schema for actigraphy data in chronobiology and sleep research,,,,"momenTUM Research Platform: An open-source, reproducible research infrastructure for digital health",,,
@@ -268,7 +287,7 @@ tlaguna,Madrid,Spain,Teresa,Laguna,,ESP,Europe,-3.7035825,40.4167047,,Science Fo
 tokioblues,Salta,Argentina,Paola Andrea,Lefer,sher/her,ARG,South America,-64.3494964,-25.1076701,,,,,,,,Gobernanza 2.0 de MetaDocencia,,
 torigijzen,Amsterdam,Netherlands,Tori,Gijzen,,NLD,Europe,4.8924534,52.3730796,,,,,,,,PyOrb 1.0 – Automated Analysis Tool for Orbital Interactions,,
 ujwal-shrestha,Kathmandu,Nepal,Ujwal,Shrestha,He/Him,NPL,Asia,85.3205817,27.708317,,,GyaNamuna: Virtual School Connecting Rural Students To The World,,,,,,,
-umutpajaro,Cartagena,Colombia,Umut,Pajaro Velasquez,They/Them,COL,South America,-75.5443419,10.4266746,,,,,,,Queering the law: How to make AI with a Queer Perspective from the Majority of the World,,,
+umutpajaro,Cartagena,Colombia,Umut,Pajaro Velasquez,They/Them/Theirs,COL,South America,-75.5441671,10.4265566,,,,,,,Queering the law: How to make AI with a Queer Perspective from the Majority of the World,,,
 unode,Heidelberg,Germany,Renato,Alves,he/him,DEU,Europe,8.694724,49.4093582,EMBL Bio-IT Community Project,,,,,,,,,
 varlottaang,Rionero In Vulture,Italy,Angelo,Varlotta,He/him,ITA,Europe,15.6694407,40.9261881,,,,,,,Collective and Open Research in Climate Science,,,
 vborghe,Montréal,Canada,Valentina,Borghesani,she/her/hers,CAN,North America,-73.5698065,45.5031824,,,,,"Development of an Open Source Platform for the Storage, Sharing, Synthesis and Meta-Analysis of Clinical Data",,,,,
@@ -276,23 +295,41 @@ veroxgithub,"Avellaneda, Pba.",Argentina,Verónica,Xhardez,She/ella,ARG,South Am
 vhellon,London,United Kingdom,Vicky,Hellon,she/her,GBR,Europe,-0.14405508452768728,51.4893335,,,,,Building an open community around the Turing-Roche Strategic Partnership,,,,,
 vickygisel,Oro Verde,Argentina,Victoria,Dumas,"She, Her",ARG,South America,-64.29891743033643,-31.132197599999998,,,,,Argentinean Public Health Research on Data Science and Artificial Intelligence for Epidemic Prevention (ARPHAI),,,,,
 vskentrou,Amsterdam,Netherlands,Vasiliki,Kentrou,she/her,NLD,Europe,4.8924534,52.3730796,,,,,,,,Creating an online repository for open collaboration in psychology,,
-web-learning,Johannesburg,South Africa,Derek,Moore,He/Him,ZAF,Africa,28.049722,-26.205,,,,,,,,The Open Umbrella & Hybrid Learning Field Guide,,
+web-learning,Johannesburg,South Africa,Derek,Moore,He/him,ZAF,Africa,28.049722,-26.205,,,,,,,,The Open Umbrella & Hybrid Learning Field Guide,,
 wykhuh,Los Angeles,United States,Wai-Yin,Kwan,,USA,North America,-118.242766,34.0536909,,,,Citizen Scientists as Data Explorers,,,,,,
 xaxasm,Bucaramanga,Colombia,Alexandra,Serrano Mendoza,,COL,South America,-73.1047294009737,7.16698415,,,,,,,LA-CoNGA Physics Citizen Science Project,,,
 yanick-diapa-nana,Yaoundé,Cameroon,Yanick,Diapa Nana,,CMR,Africa,11.5213344,3.8689867,,,,,,,From invisible to Citizens: Apparent Age for Primary School children without birth certificates,,,
 yhordijk,Amsterdam,Netherlands,Yuman,Hordijk,,NLD,Europe,4.8924534,52.3730796,,,,,,,,PyOrb 1.0 – Automated Analysis Tool for Orbital Interactions,,
+zchikwambi,Harare,Zimbabwe,Zedias,Chikwambi,he/his/him,ZWE,Africa,31.0601584,-17.8567035,,,,,,,,,Developing a genetic information management system towards precision medicine,
 zdunseth,Providence,United States,Zachary,Dunseth,he/his,USA,North America,-71.4128343,41.8239891,,,,,International Committee on Open Phytolith Science: community building initiative and open science training for the Phytolith Community,,,,,
 zenita-milla-luthfiya,Solo,Indonesia,Zenita Milla,Luthfiya,She,IDN,Asia,110.828448,-7.5692489,,,Boosting research visibility using Preprints,,,,,,,
+adekolagreat,,Canada,Adekola,Adeyemi,,CAN,North America,,,,,,,,,,,,"Enhancing Diversity and Inclusion in Computational Fluid Dynamics: A Culturally Responsive
+Accessibility Initiative."
+adnan1306,,Canada,Mohammed,Adnan,,CAN,North America,,,,,,,,,,,,Enabling access to LLMs using compression methods and understanding its potential impact on the algorithmic bias
 afzal442,,India,Afzal,Ansari,he/him,IND,Asia,,,,,Documentation enhancement with open science practices in sktime,,,,,,,
+ahlam-zidan,,Canada,Ahlam,Zidan,She/Her,CAN,North America,,,,,,,,,,,,Challenges and Adaptation Required to Access to DRI Services among Researchers with Disabilities
+aieoman,,Canada,Arra,Oman,She/her,CAN,North America,,,,,,,,,,,,An investigation of local genetic adaptations to malaria in indigenous Ethiopian and Sudanese populations
+ajitesh-parihar,,Canada,Ajitesh,Parihar,He/They,CAN,North America,,,,,,,,,,,,Algorithmic Trading using Machine Learning Models
 alecandian,,Netherlands,Alessandra,Candian,she/her/hers,NLD,Europe,,,,,,,Build a community around the TU Delft Open Science MOOC,,,,,
+alex.alexis,,Canada,Alex,Alexis,Il/lui,CAN,North America,,,,,,,,,,,,"InDABA - Initiative pour le Développement, l'Accès et le Balisage des données de recherche noires / Inception of Data in Academia for Black Acknowledgement"
+alexanderdefuria,,Canada,Alexander,De Furia,he/him,CAN,North America,,,,,,,,,,,,Improving Onboarding Accessibility and Support for Alliance DRI
+alix-shield,,Canada,Alix,Shield,she/her,CAN,North America,,,,,,,,,,,,"Understanding the Principles of CARE, FAIR, and OCAP in the context of localized Indigenous communities"
+amdanz,,Canada,Amelia,Danzinger,she/her,CAN,North America,,,,,,,,,,,,Exploring intersectionality and academic barriers
+ameerracle,,Canada,Ameer,Nizami,He/Him,CAN,North America,,,,,,,,,,,,Breaking Barriers in AI for Materials and Molecules
+amykim17,,Canada,Amy,Kim,she/her,CAN,North America,,,,,,,,,,,,Enhancing Awareness and Training of the Alliance's Digital Research Infrastructure for Equity-Seeking Groups in Evolutionary Biology
+anemily-machina,,Canada,Anemily,Machina,She/Her,CAN,North America,,,,,,,,,,,,Empowering Equity-Seeking Students Through DRI and High-Performance Computing Training
 angelicamaineri,,Netherlands,Angelica,Maineri,She/her,NLD,Europe,,,,,,,,,Building a searchable project database,,,
+angelicamiraples,,Canada,Angelica,Miraples,She/Her,CAN,North America,,,,,,,,,,,,"The application of a broad to narrow scope approach to improve digital research infrastructure (DRI) service awareness and utilization by equity-seeking communities in microbiome research, and other integrative disciplines"
 anproulx,,Canada,Andréanne,Proulx,,CAN,North America,,,,OSUM - Open Science UMontreal,,,,,,,,
+arashasg,,Canada,Arash,Asgari,He/Him,CAN,North America,,,,,,,,,,,,Translating habitat change modeling for Caribou conservation with Indigenous insights
 arvinpreet-kaur,,India,Arvinpreet,Kaur,she/her/hers,IND,Asia,,,,,Systems Genomic Integration of Diabetes Related Genes: A Quest for Development of Biomarkers,,,,,,,
 astroakanksha24,,India,Akanksha,Chaudhari,She/ Her,IND,Asia,,,,,,,Visualisation of participants by their countries,,,,,
 bailey-harrington,,United States,Bailey,Harrington,she/her,USA,North America,,,,Chronic Learning,,,,,,,,
 bakary-n'tji diallo,,Mali,Bakary,N'tji Diallo,,MLI,Africa,,,,BioLab Open Source Projects,,,,,,,,
 banshee1221,,South Africa,Eugene,de Beste,,ZAF,Africa,,,,Developing the Research Software and Systems Engineering Community to support Life Sciences in Africa,,,,,,,,
 beapdk,,Canada,Béatrice,P.De Koninck,,CAN,North America,,,,OSUM - Open Science UMontreal,,,,,,,,
+benjac2,,Canada,Arne,Andres,He/him,CAN,North America,,,,,,,,,,,,"Leveraging AI in Object Detection and Functional Assessments in Navigating Physical Barriers from Campus  Buildings and Public Spaces: A Pilot Study for Students 
+with Physical Disabilities at the University of Alberta"
 billbrod,,United States,Billy,Broderick,he/him,USA,North America,,,Expanding plenoptic Python Package,,,,,,,,,
 boi-kone,,Mali,Boï,Kone,,MLI,Africa,,,,BioLab Open Source Projects,,,,,,,,
 bonetcarne,,Spain,Elisenda,Bonet-Carne,she/her,ESP,Europe,,,Open Science Community Barcelona (OSCBa),,,,,,,,,
@@ -300,9 +337,13 @@ brainonsilicon,,United Kingdom,Sophia,Batchelor,she/her,GBR,Europe,,,,The Turing
 burceelbasan,,Germany,Burce,Elbasan,,DEU,Europe,,,,,,Building Open Science and Data Analysis Skills by Leading the OLS Survey Data Project,,,,,,
 carol-o'brien,,Denmark,Carol,O'Brien,,DNK,Europe,,,,,,,,,Developing an online snake venomics catalog for easy access to venom proteomics data,,,
 cassmurph,,Ireland,Cassandra,Murphy,She/Her,IRL,Europe,,,,,,,,AGAPE: Building an open science practicing community in Ireland,,,,
+cdjuikem,,Canada,Clotilde,Djuikem,,CAN,North America,,,,,,,,,,,,"Inspiration, Orientation et Médiation des Sciences du Numérique : Focus sur les Femmes, en particulier les Femmes PANDC"
 chiarabertipaglia,,United States,Chiara,Bertipaglia,she/her,USA,North America,,,Infusing a culture of open science within the community of researchers at the Zuckerman Institute,,,,,,,,,
+chiedozie12,,Canada,Chiedozie,Alumona,he/him,CAN,North America,,,,,,,,,,,,Training 2SLGBTQIA+ researchers on Canadian digital research infrastructure via social media outreach
+chikaonyinye,,Canada,Chika,Maduakolam,she/her,CAN,North America,,,,,,,,,,,,No Boundaries -Accessible Digital Research Spaces for Black Female Scholars in Social Science Research
 christina-ambrosi,,Switzerland,Christina,Ambrosi,,CHE,Europe,,,,Open Innovation in Life Sciences,,,,,,,,
 crangelsmith,,United Kingdom,Camila,Rangel Smith,she/her,GBR,Europe,,,,Turing Data Stories,,,,,,,,
+damario99,,Canada,Sebastian,D'Amario,He/Him,CAN,North America,,,,,,,,,,,,Influence of Demographics and Injury Severity on Behavioural Impairments in Traumatic Brain Injury
 danae-carelis-davila-espinoza,,Bolivia,Danae Carelis,Davila Espinoza,,,,,,,,,,Training Latin American scientists' community to create high-quality open journals with good editorial standards,,,,,
 dannycolin,,Canada,Danny,Colin,he/him,CAN,North America,,,Open Science UMontreal (OSUM),,,,,,,,,
 davidbeavan,,United Kingdom,David,Beavan,,GBR,Europe,,,,Turing Data Stories,,,,,,,,
@@ -312,60 +353,124 @@ dustin-schetters,,Netherlands,Dustin,Schetters,,NLD,Europe,,,,,,,,,,Open Science
 dylan-bastiaans,,Switzerland,Dylan,Bastiaans,,CHE,Europe,,,,Sharing 3D Modeling Workflows for Biomechanists and Palaeontologists,,,,,,,,
 eirini-zormpa,,United Kingdom,Eirini,Zormpa,,GBR,Europe,,,,,,,,Open Communities: building a supportive community of practice across the AI for Multiple Long Term Conditions Research Support Facility.,,,,
 ekeluv,,South Africa,Ekeoma,Festus,they/them,ZAF,Africa,,,,Western Cape-H3ABioNet Open Learning Circles,,,,,,,,
+elham-reyhanianmotehaver,,Canada,Elham,Reyhanianmotehaver,she/her,CAN,North America,,,,,,,,,,,,Advancing Equity in Forestry: Digital Research Infrastructure (DRI) and Deep Learning (DL) for All
 elsasci,,United Kingdom,Elsa,Loissel,she/her,GBR,Europe,,,How to build an healthy and open lab,,,,,,,,,
+emiliestorer,,Canada,Emilie,Storer,she/her,CAN,North America,,,,,,,,,,,,From Pixels to Purpose: Leveraging In-Person and Online Platforms for Data-Driven Advocacy For EDIA in The Use of Digital Research Alliance of Canada Resources
+eunicetunggal,,Canada,Eunice,Tunggal,She/her,CAN,North America,,,,,,,,,,,,Exploring the impact of digital literacy on digital research participation for disabled women and gender diverse people in Canada from diverse socioeconomic status backgrounds
 evaherbst,,Switzerland,Eva,Herbst,she/her,CHE,Europe,,,,Sharing 3D Modeling Workflows for Biomechanists and Palaeontologists,,,,,,,,
 evelyngreeves,,United Kingdom,Evelyn,Greeves,she/her,GBR,Europe,,,,,,,Building a Cloud-SPAN community of practice,,,,,
 ewa-leś,,Poland,Ewa,Leś,,POL,Europe,,,,,,open and international River University,,,,,,
 ewuramaminka,,United Kingdom,Deborah,Akuoko,she/her,GBR,Europe,,,"Investigate feasible solutions to help create a system that creates, collects and processes data efficiently for impactful research especially for driving health research and driving health related policies",,,,,,,,,
+existentialist-robot,,Canada,Eden,Redman,,CAN,North America,,,,,,,,,,,,Catalyzing Open Science: Validating novel paths to democratizing better open tools with an interactive grassroots community-driven approach within stroke rehabilitation
+fanwangm,,Canada,Fanwang,Meng,He/She,CAN,North America,,,,,,,,,,,,Bridging Quantum Mechanics and Machine Learning: Developing an Open-Source Software for Efficient Data Processing for Advanced Research Inclusivity
+fatimamarianar,,Canada,Fatima Mariana,Ramirez Rodriguez,She/her,CAN,North America,,,,,,,,,,,,Inclusive DRI Training Program to develop skills for Sustainable Construction
 fnyasimi,,Kenya,Festus,Nyasimi,He/Him,KEN,Africa,,,Bioinformatics Hub of Kenya (BHK),,,,,,,,,
+frankonu,,Canada,Frank,Onuh,,CAN,North America,,,,,,,,,,,,Inclusive Research: Increasing DRI Access and Engagement for Black Scholars at the University of Lethbridge
 gabimusaubach,,Argentina,Maria Gabriela,Musaubach,,ARG,South America,,,,,,,International Committee on Open Phytolith Science: community building initiative and open science training for the Phytolith Community,,,,,
 gigikenneth,,Nigeria,Gift,Kenneth,She/Her,NGA,Africa,,,,,,,,,Ethical Implications of Open Source AI: Transparency and Accountability,,,
+gtfrans2re,,Canada,Francois Gonothi,Toure,He/Him/His,CAN,North America,,,,,,,,,,,,"Bridging the Gap: Catalyzing High-quality Research with Digital Tools, Services and Infrastructure from the Digital Research Alliance of Canada"
+hamzahanif2210,,Canada,Hamza,Hanif,,CAN,North America,,,,,,,,,,,,A Holistic Dataset for Evaluating Bias in Large Language Models
 henk-wierenga,,South Africa,Henk,Wierenga,,ZAF,Africa,,,,,,,,,,UbuntuEdu (Concept title),,
 hilyatuz-zahroh,,Indonesia,Hilyatuz,Zahroh,she/her,IDN,Asia,,,,APBioNetTalks,,,,,,,,
 homo-sapiens34,,Russian Federation,Zoe,Chervontseva,she/her,RUS,Europe,,,Benchmarking environment for bioinformatics tools,,,,,,,,,
 ibrahssali1,,Uganda,Ibrahim,Ssali,he/him,UGA,Africa,,,,Arua City Open Learning Circles,,,,,,,,
+islammatar,,Canada,Islam,Matar,he/him/his,CAN,North America,,,,,,,,,,,,Advanced Research Computing Within Reach for All at McGill
+iuitanyi,,Canada,Ijeoma,Itanyi,She/Her/Hers,CAN,North America,,,,,,,,,,,,Strengthening Digital Research Infrastructure at Trillium Health Partners: Advancing Equitable Access for Racialized Researchers
+jaim-gem,,Canada,Jaimie,Greasley,,CAN,North America,,,,,,,,,,,,Advancing and Promoting Quantum Computing (Research) using Alliance DRI to Current and Future Quantum Scientists
+jane-ezirigwe,,Canada,Jane,Ezirigwe,,CAN,North America,,,,,,,,,,,,Digital research infrastructure for a neglected group and discipline: Advancing equitable access for racializedresearchers in Social Sciences at Uottawa
 jelioth-muthoni,,Kenya,Jelioth,Muthoni,,KEN,Africa,,,,Building a Database for Open Access Immunology Pre-prints and Publications on COVID-19,,,,,,,,
+jgirgis01,,Canada,Jackie,Girgis,She/her,CAN,North America,,,,,,,,,,,,Community Driven Accessible Mini-Courses and Workshops to Further the Uptake of DRA DRI Resources
 joel-hancock,,Austria,Joel,Hancock,he/his,AUT,Europe,,,,Supervised Classification with UMAP and Network Propagation,,,,,,,,
 jolien-s,,Netherlands,Jolien,Scholten,,NLD,Europe,,,,,,,,,,Open-source handbooks infrastructure at VU Amsterdam,,
+jonas-stadfeld,,Canada,Jonas,Stadfeld,He/him,CAN,North America,,,,,,,,,,,,"Indigenous nation led data management, sharing knowledge on community concerns to community rightsholders, with a case study on algal blooms"
+kayisi86,,Canada,Kwaku,Ayisi,He/Him,CAN,North America,,,,,,,,,,,,Academic Research Made Simple (ARMS)
 kevinxufs,,United Kingdom,Kevin,Xu,,GBR,Europe,,,,Turing Data Stories,,,,,,,,
+khantas,,Canada,Tasneem,Khan,She/Her,CAN,North America,,,,,,,,,,,,Identifying indicators of inequity in Statistics Canada datasets and understanding the experiences of CRDCN researchers belonging to equity deserving and seeking groups
+kim-mm,,Canada,Kim,Mitchell,She/her,CAN,North America,,,,,,,,,,,,Experiences of indigenous people with virtually-provided health care in Canada
 kiragu-mwaura,,Kenya,David,Kiragu Mwaura,he/him,KEN,Africa,,,Bioinformatics Hub of Kenya (BHK),,,,,,,,,
 kiri93,,Switzerland,Markus,Kirolos Youssef,he/his,CHE,Europe,,,,Supervised Classification with UMAP and Network Propagation,,,,,,,,
+kookhu,,Canada,Kook,Hu,He,CAN,North America,,,,,,,,,,,,Digital Research Infrastructure (DRI) and AI for First-Generation Students (FGS) Development
 koudyk,,Canada,Kendra,Oudyk,she/her,CAN,North America,,,,Open Science Office Hours to support trainees in Montreal to help make their research more open and reproducible,,,,,,,,
 kristinariemer,,United States,Kristina,Riemer,she/her,USA,North America,,,Improving Documentation for Open Data and Software in the Agricultural Research Community,,,,,,,,,
+kwade4,,Canada,Kaitlyn,Wade,she/her,CAN,North America,,,,,,,,,,,,Utilizing the Digital Research Alliance of Canada Infrastructure for Artificial Intelligence-driven COVID-19 Gene Discovery
 lakillo,,United Kingdom,Lucy,Killoran,she/her,GBR,Europe,,,,,,,,,,An online repository of tools and methods for automated archaeological survey,,
+lannalucchetti,,Canada,Lanna Emilli,Barbosa Lucchetti,she/her,CAN,North America,,,,,,,,,,,,Promoting Digital Research Infrastructure in Equity-Focused Research: Forming Sustainable Connections with Early-Career Translational Researchers
 laurichi13,,Spain,Laura Judith,Marcos-Zambrano,,ESP,Europe,,,,Science For All (Sci4All) - Citizens' daily problem solving by engaging multidisciplinary scientific communities,,,,,,,,
 lazycipher,,India,Himanshu,Singh,he/him,IND,Asia,,,InterMine Similarity Explorer,,,,,,,,,
+lcamelo,,Canada,Laura Carolina,Camelo Valera,she/her,CAN,North America,,,,,,,,,,,,Improving accessibility and awareness to Advanced Research Computing (ARC) and Research Data Management (RDM) for International Women Students Engaged in Genomics Research at McGill University.
+leticiamagpali,,Canada,Letícia,Magpali Moura Estevão,,CAN,North America,,,,,,,,,,,,Bridging the Digital Divide: Empowering Equity-Seeking Researchers with Alliance DRI Tools
 lilian9,,Kenya,Lilian,Juma,she/her,KEN,Africa,,,Open Connect Platform in Africa,,,,,,,,,
+lindaokpanachi028,,Canada,Linda,Okpanachi,She/Her,CAN,North America,,,,,,,,,,,,Introducing potential opportunities in applying DRI for research and building professional skills for persons living with visible and invisible disabilities
+livabram,,Canada,Olivia (Liv),Abram,she/her,CAN,North America,,,,,,,,,,,,kaykwy chi tootamaahk? (What do we do next?): Localizing CARE and FAIR to Develop Métis-driven RDM Guidelines and Training for Métis Data in Saskatchewan
+lojain-hamwi,,Canada,Lojain,Hamwi,She/her,CAN,North America,,,,,,,,,,,,Building the Knowledge Infrastructure for Mental Health Scientists from Diverse Backgrounds to Access Alliance Digital Research Infrastructure
+lulwama-mulalu,,Canada,Lulwama,Mulalu,She/Her,CAN,North America,,,,,,,,,,,,Roadmap to Bill C-226: Understanding the advocacy journey behind Canada’s inaugural environmental justice bill
 magicmilly,,United States,Emily,Cain,she/her,USA,North America,,,Improving Documentation for Open Data and Software in the Agricultural Research Community,,,,,,,,,
 marbarrantescepas,,Spain,Mar,Barrantes Cepas,she/her,ESP,Europe,,,,,,,,,,Open Science in Neuroscience: A Practical Guide for Researchers,,
+mastertaj,,Canada,Kelly,Davison,he/him,CAN,North America,,,,,,,,,,,,Championing the use of Digital Research Infrastructure amongst nursing researchers in Canada: Sex-Gender Digital Health Equity Research Hub proof of concept and knowledge dissemination to national nursing associations.
 matuskalas,,Norway,Matúš,Kalaš,he/him,NOR,Europe,,,EDAM ontology,,,,,,,,,
+mdumancic-mcgill,,Canada,Mirta,Dumancic,She/Her,CAN,North America,,,,,,,,,,,,"Accelerated computing for women, racialized groups, and students from underprivileged
+countries"
+megmuni,,Canada,Meghana,Munipalle,she/her,CAN,North America,,,,,,,,,,,,"ARC is for Everyone: Training, Mentorship, and Resources in Advanced Research Computing for Women in STEM"
+melleason,,Canada,Moses,Elleason,,CAN,North America,,,,,,,,,,,,Chemderful: A Neurodiverse Molecular Modeling Society for Equitable Molecular Sciences Education
+memoll,,Canada,Mona,Parizadeh,She/Her/Hers,CAN,North America,,,,,,,,,,,,Bridging Gaps in Research Computing for Canadian Persian-speaking Immigrants
+memoona-maah,,Canada,Memoona,Maah,she/her,CAN,North America,,,,,,,,,,,,Equitable Sight: Co-Design Data Governance for CAN-VIEW with the Southern Chiefs’ Organization
+mldlopez,,Canada,Mark Louie,Lopez,he/him,CAN,North America,,,,,,,,,,,,Bioinformatics for Everyone
 mloning,,United Kingdom,Markus,Löning,he/him,GBR,Europe,,,,sktime - a unified toolbox for machine learning with time series,,,,,,,,
+moh-hub1,,Canada,Mohammad,Alnabhan,He/Him,CAN,North America,,,,,,,,,,,,Fake News Detection in Social Media
 monica-alonso,,Argentina,Monica,Alonso,she/her,ARG,South America,,,,,,,,,,Estructura e infraestructura para la formación por cohortes virtuales,,
-monsurat-onabajo,,Nigeria,Onabajo,Monsurat,she/her,NGA,Africa,,,,,,,,,,Molerhealth,,
+monsurat-onabajo,,Nigeria,Monsurat,Onabajo,she/her,NGA,Africa,,,,,,,,,,Molerhealth,MolerHealth,
 morphofun,,United States,Sandy,Kawano,she/her,USA,North America,,,Enabling open science practices in biology education,,,,,,,,,
+mt-bit,,Canada,Tiara,Mulder,she/her,CAN,North America,,,,,,,,,,,,A Comprehensive Dataset: Capturing Brain Signals from Individuals with Cerebral Palsy Across Diverse Populations
 muhammetcelik,,Turkey,Muhammet,Celik,he/him,TUR,Asia,,,,Creating a single pipeline for metagenome classification,"Open Life Science (OLS) Program, a driver of open science skills among early stage researchers and young leaders: mentee perspective",,,,,,,
+musannagalib,,Canada,Musanna,Galib,He/Him,CAN,North America,,,,,,,,,,,,Training Racialized Groups in the Faculty of Sciences on Digital Research Infrastructure (DRI) Utilization
 myreille-larouche,,Canada,Myreille,Larouche,,CAN,North America,,,,OSUM - Open Science UMontreal,,,,,,,,
+n-nsh,,Canada,Nooshin,Noshiri,She/her,CAN,North America,,,,,,,,,,,,Empowering women researchers in STEM: Creating an inclusive and supportive environment to leverage Advanced Research Computing services
+nadiamcgill,,Canada,Nadia,Khalili,She/her,CAN,North America,,,,,,,,,,,,Bridging the Gap: Enhancing Awareness and Access to Big Data Tools for Underrepresented Women in Educational Psychology
 naralb,,Brazil,Naraiana,Loureiro Benone,she/her,BRA,South America,,,@Diversidade em Foco,,,,,,,,,
 natty2012,,Kenya,Harriet,Natabona Mukhongo,she/her,KEN,Africa,,,,Building a Database for Open Access Immunology Pre-prints and Publications on COVID-19,,,,,,,,
+ndwoods,,Canada,Nathan,Woods,He/Him/His,CAN,North America,,,,,,,,,,,,Cultivating Community Capabilities: Navigating Justice and Respect in the Humanities Data Ecology
 nehamoopen,,Netherlands,Neha,Moopen,she/her,NLD,Europe,,,,Embedding Accessibility in The Turing Way Open Source Community Guidance,,,,,,,,
+niloohooman,,Canada,Niloofar,Hooman,she/her,CAN,North America,,,,,,,,,,,,Empowering Communities: Research Data Management for Social Justice
+nishith-mishra,,Canada,Nishith,Mishra,,CAN,North America,,,,,,,,,,,,"Leveraging AI and Neurodiversity-Informed Pedagogy to Enhance Education, including Legal Education"
 paulineligonie,,Canada,Pauline,Ligonie,,CAN,North America,,,,OSUM - Open Science UMontreal,,,,,,,,
 paulowoicho,,Nigeria,Paul,Owoicho,he/him,NGA,Africa,,,,Embedding Accessibility in The Turing Way Open Source Community Guidance,,,,,,,,
 pradeep-eranti,,France,Pradeep,Eranti,he/his,FRA,Europe,,,,Open platform for Indian Bioinformatics community,,,,,,,,
 pvanheus,,South Africa,Peter,van Heusden,he/him,ZAF,Africa,,,,Developing the Research Software and Systems Engineering Community to support Life Sciences in Africa,,,,Mapping the RSSE landscape in Africa,,,,
+ria-arora,,Canada,Ria,Arora,She/her,CAN,North America,,,,,,,,,,,,DRI EDIA Champions Collective
+rlwhall,,Canada,Renée,Hall,she/her,CAN,North America,,,,,,,,,,,,Empowering Women in Environmental Sciences: Contextual Tutorials for Digital Research Infrastructure
+ruben-tjhie,,Canada,Ruben,Tjhie,,CAN,North America,,,,,,,,,,,,Réseau des Étudiants Chercheurs de l'Alliance de Recherche Numérique à l'UQAM (RECARN-UQAM)
 rushda-patel,,India,Rushda,Patel,,IND,Asia,,,,,,,,Multiomics profiling and analysis of cardiovascular diseases,,,,
 samguay,,Canada,Samuel,Guay,he/him,CAN,North America,,,Open Science UMontreal (OSUM),,,,,,,,,
 samuelorion,,Canada,Samuel,Burke,he/his,CAN,North America,,,,OSUM - Open Science UMontreal,,,,,,,,
+sanchezw17,,Canada,Wesley,Sanchez,,CAN,North America,,,,,,,,,,,,Bridging the Digital Divide: Bringing DRI to Remote and Underserved Communities
+sansharif,,Canada,Sana,Sharif,,CAN,North America,,,,,,,,,,,,"Enhancing AI Knowledge Among Women, Racialized Groups, and First-Generation Students"
 sebastianeggert,,Germany,Sebastian,Eggert,he/his,DEU,Europe,,,,OpenWorkstation - A modular and open-source concept for customized automation equipment,,,,,,,,
+shaychavoshian,,Canada,Shaghayegh,Chavoshian,She/her,CAN,North America,,,,,,,,,,,,Footwear Science and Fall Prevention in Indigenous Population
+simplice94,,Canada,Simplice-Eclador,Nouboudem-Basso,il/lui,CAN,North America,,,,,,,,,,,,Inclusion et équité numérique en recherche pour les étudiants chercheurs et chercheuses originaires d'Afrique subsaharienne et des Caraïbes de l'Université Laval (IENR-Afro-Ulaval)
 sithyphus,,United States,Jorge,Barrios,he/him,USA,North America,,,Improving Documentation for Open Data and Software in the Agricultural Research Community,,,,,,,,,
 sk-sahu,,India,Sangram,Sahu,he/him,IND,Asia,,,,Practical Guide to Reproducibility in Bioinformatics,,,,,,,,
+snovin24,,Canada,Shayan,Novin,he/him/his,CAN,North America,,,,,,,,,,,,Developing Accessible Computational Tools and Inclusive Training: From Computational Sciences to Health Sciences
 sonibk,,Kenya,Brenda,Muthoni,,KEN,Africa,,,,Building a Database for Open Access Immunology Pre-prints and Publications on COVID-19,,,,,,,,
+sorenaazarhazin71,,Canada,Soorena,Azarhazin,He/Him,CAN,North America,,,,,,,,,,,,Promoting Open Science in Human Factors Engineering with Researchers from Equity-Seeking Groups
+stacey-koornneef,,Canada,Stacey,Koornneef,She/Her,CAN,North America,,,,,,,,,,,,Assessing EDIA & DRI Challenges and Needs and Introduction of DRI Tools to Graduate Students Across Six Disciplines
 stefan-gaillard,,Netherlands,Stefan,Gaillard,he/him,NLD,Europe,,,,Mapping Science using Open Scholarship,,,,,,,,
+steve4tu.github.io,,Canada,Steve,Tu,he/him,CAN,North America,,,,,,,,,,,,Roots/Routes: Stories of Diaspora on Philosopher's Walk
 sudarshangc,,Nepal,Sudarshan,GC,he/him,NPL,Asia,,,Media Lab Nepal for Computational Biology,,,,,,,,,
+sudhipv,,Canada,Sudhi Sharma,Padillath Vasudevan,He/Him,CAN,North America,,,,,,,,,,,,Convolutional Neural Networks for Diagnosis of Parkinson's Disease
+susan-njuki,,Kenya,Susan,Njuki,she/her,KEN,Africa,,,,,,,,,,,"Deciphering the Role of Phosphatidylethanolamine Transferase (PEMT) in Glioblastoma MULTIFORME CELL INVASION, PROLIFERATION AND AGGRESSION",
 susana465,,United Kingdom,Susana,Roman Garcia,,GBR,Europe,,,,,,,,Ethical standards and reproducibility of computer models in Neurobiology,,,,
+taladejebi,,Canada,Oluwatoyin,Aladejebi,,CAN,North America,,,,,,,,,,,,"Bridging the gap: Increasing equitable access to research data among graduate women researchers in the academic community in Lethbridge, Alberta"
+azam-dashti,,Canada,Azam,Dashti Khavidaki,She/He/Elle,CAN,North America,,,,,,,,,,,,"""Cultivating 21st Century Skills/DRI for Sustainable Development Goals in Supporting Participatory Research Involving Children with Refugee Experience"""
+toub1,,Canada,Fatou,Bah,She/Her,CAN,North America,,,,,,,,,,,,Interdisciplinary intersectionality and DRI : EDIA in data-intensive methodologies
+ugognw,,Canada,Ugo,Nwosu,He/him,CAN,North America,,,,,,,,,,,,Saturday Sessions - Scientific Computing Workshops for Equity-Seeking Students
 valerie-parent,,Canada,Valerie,Parent,,CAN,North America,,,,OSUM - Open Science UMontreal,,,,,,,,
+vincent-comeau,,Canada,Vincent,Comeau,,CAN,North America,,,,,,,,,,,,Expanding Knowledge of Digital Tools by Cree Researchers in Chisasibi
 virginiagarciaalonso,,Argentina,Virginia Andrea,García Alonso,she/her,ARG,South America,,,,,,,,,,JICMar Network: towards better opportunities and greater collaboration among young marine science researchers in Latin America,,
+vrindagupta0,,Canada,Vrinda,Gupta,she/her,CAN,North America,,,,,,,,,,,,Building a multiplexed imaging data repository to increase accessibility for equity-seeking groups
 wasifarahman,,Bangladesh,Wasifa,Rahman,,BGD,Asia,,,,Target approach in the stages of liver cirrhosis to reverse back in good condition,,,,,,,,
+yalbi-i-balderas-martinez,,Mexico,Yalbi I,Balderas-Martinez,She/her,MEX,North America,,,,,,,,,,,Standards in bioinformatic pipelines,
 ykho001,,United Kingdom,Yan-Kay,Ho,she/her,GBR,Europe,,,,,,,,,,"Building a Searchable Open Data Repository of DNA Collections that are Freely-Shared under OpenMTA, with an Associated Landscape Map Visualisation of the Collection Users",,
+yuwei-cao-git,,Canada,Yuwei,Cao,,CAN,North America,,,,,,,,,,,,Utilizing Digital Research Infrastructure (DRI) to Develop Environmental DNA Tools for Biodiversity Monitoring in Indigenous Lands
 andrés-felipe-ortiz-ferreira,,,Andrés Felipe,Ortiz Ferreira,,,,,,,,,,,,LA-CoNGA Physics Citizen Science Project,,,
 ariana-bethany-subroyen,,,Ariana Bethany,Subroyen,,,,,,,,,,,"Developing an ontology to connect open science technology, RSEs and the different skills and services that follow",,,,
 aurigandrea,,,Andrea,Kocsis,she/her,,,,,,,,,"Data Science and AI Educators' Programme AND Tools, Practices & Systems Peer Mentorship Programme",,,,,
