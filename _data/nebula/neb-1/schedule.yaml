@@ -133,7 +133,8 @@ weeks:
       hosts:
       - yochannah
       - iramosp
-      expert: []
+      expert:
+      - likeajumprope
       syllabus:
       - Introduction to Open Code
       - 'Using Open Code: repositories, software citation, considerations when using
