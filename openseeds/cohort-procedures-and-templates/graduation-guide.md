@@ -8,80 +8,116 @@ photos:
   url: https://images.unsplash.com/photo-1541339907198-e08756dedf3f
 ---
 
-Before reading this guide please note: there is no need for mentees to finalise or execute their projects as planned in order to graduate from the program. Open Seeds has been designed to support individuals or teams in advancing their research projects in order to make them open, and we are aware that doing so is a task that most times takes longer than 16 weeks. The main criteria used here is “process”, not “product”. It’s fine to change directions throughout your participation in the program, or even decide the project isn’t needed to continue - so long as genuine thought went into it. 
+## Before You Begin: Important Notes for Mentees
 
-How does the OLS team evaluate this “genuine reflection” actually happened? Mentors are asked to provide such evaluation. What should a mentor consider when assessing this? The mentor(s) should analyse if the mentee(s) have or have not made consistent efforts to advance their projects, and showed interest in the topic of open science and willingness to advance the goals of open science in their work.
+Please note that mentees are not required to finalise or execute their projects exactly as initially proposed or planned in order to graduate from the program. Open Seeds is designed to support individuals or teams in advancing their research projects with a focus on making them open. We understand that this process involves planning, collaboration, and task execution, which often extends beyond the 16-week program duration.
 
-## These are the requirements to be able to graduate from the Open Seed programme by OLS:
+The primary criterion for success in Open Science and eligibility for graduation in the Open Seeds program is progress in terms of “process,” not “product.” It is entirely acceptable to change directions during your participation, or even to conclude that the project does not need to continue, as long as genuine reflection and thoughtful consideration are evident.
 
-1. Attend at least 5 mentor-mentee meetings, unless there is a valid reason their mentors can confirm (The Open Seeds program includes 8 mentor-mentee meetings in total).
-2. A “yes” from your mentor(s) confirming your participation and engagement in OLS curriculum.
-3. Open Canvas discussed with their mentor.
-4. Vision and Mission statements discussed with their mentor.
-5. Roadmap discussed with their mentor.
-6. Attend cohort calls, or watch recorded videos.
-7. Participate in at least one skill up session, q&a, or thematic session, unless there is a valid reason their mentors can confirm.
-8. Complete the mid term survey for project leads/mentees.
-9. Present a 5 minute presentation in one of the graduation calls, or send a recording of a 15 minutes presentation created exclusively for Open Seeds OLS-8. 
+### How does the OLS team evaluate genuine reflection?
+This evaluation is conducted by mentors who work closely with mentees throughout the program. Mentors help mentees reflect on their progress and assess whether meaningful thought and effort have been invested.
 
-## Types of graduation
-Participants can graduate in two different ways: 
-- Live presentation: by registering and then joining one of the three graduation sessions and presenting their project for up to 5 minutes (we are strict with time)
-- Pre-recorded presentation: by recording a 15 minute presentation and sending it to the OLS team by the end of week 16. These recordings will later be uploaded to our YouTube channel, and will also be shared on the ols-8 Slack channel (and other channels), for other participants to see. 
+### What do mentors consider during this assessment?
 
-## Preparing for graduation 
-Do remember to sign up for and attend one of the graduation rehearsals, so you can get feedback and ideas for your presentation. For OLS-8, check the times in the schedule or public calendar. 
+Mentors evaluate whether mentees have made consistent efforts to:  
+- **Actively engage with the Open Seeds program** by attending cohort calls, coming prepared for mentor meetings, and interacting with other participants through platforms such as cohort calls, Slack, and GitHub issues.  
+- **Advance the open science aspects of their projects** by completing assignments provided in Open Seeds that help them critically evaluate and incorporate openness into their work.  
+- **Show interest in the topics introduced in Open Seeds** by exploring these topics further, identifying relevant resources from the open science community to deepen their understanding, and seeking feedback from experts to refine their project.  
+- **Demonstrate a commitment to advancing open science principles** within their network by sharing their project through presentations, participating in events, or engaging in online communication to promote open science.
 
-## What we expect from you at the graduation
-- We expect you to discuss your plan with your mentor in the meeting before graduation, prepare your presentation and be ready to answer questions from fellow participants, live during graduation, or via slack if you pre-record your graduation.
-- We want to hear about your project, the progress you have made, the hurdles you encountered, and what comes next. If you want, use the chance to invite others to join you as collaborators or advisers.
-- If possible, please use the Open Seeds slides template and OLS logos in your presentation.
+## Requirements for Graduation from the Open Seeds Program by OLS:
+
+1. **Cohort Calls:** Attend cohort calls or watch the recorded videos if attendance is not possible.  
+1. **Mentor-Mentee Meetings:** There are a total of 7-8 mentor-mentee calls throughout the programme. All participants should schedule and attend mentor-mentee meetings regularly unless a valid reason is provided and confirmed by their mentor(s).  
+1. **Mentor Confirmation:** Receive a "yes" from your mentor(s) confirming your active participation and engagement as listed above.  
+1. **Vision and Mission Statements:** Create and discuss your Vision and Mission statements with your mentor.  
+1. **Open Canvas:** Develop and discuss your Open Canvas with your mentor.  
+1. **Roadmap:** Prepare and discuss your project Roadmap with your mentor.  
+1. **Online sharing of their work**: Create a GitHub repository, or website, or use other online ways of sharing their work with open license. This could even be just their final presentation shared via Zenodo.
+1. **Updates via OLS's GitHub issue**: Sharing their progress and link to their assignments on an issue under a GitHub repository created by the OLS team for their respective cohort (see [example for OLS-9](https://github.com/open-life-science/ols-9/issues)]
+1. **Skill-Building Participation:** Participate in at least one skill-up session or thematic session, unless a valid reason is provided and confirmed by your mentor(s).
+1. **Community management resources**: Developed one or more community management-related resources, like contributing guidelines and Code of Conduct, personas and pathways, Mountain of Engagement or other resources that can help them think about participatory aspects of their work. 
+1. **Mid-Term Survey:** Complete the mid-term survey for project leads/mentees.  
+1. **Final Presentation:** Deliver a 5-minute presentation and attend one of the graduation calls for their cohort.
+
+## Preparing for graduation
+
+**Prepare Your Five-Minute Presentation**  
+- **Your Learning Process**: Share key lessons and insights gained during your time in the program, and how these have shaped your approach to open science.
+- **Progress in Your Work**: Highlight the milestones you’ve achieved, challenges you’ve addressed, and any significant developments in your project.
+- **Open Questions**: Identify areas where you’d like feedback or support, and specific questions you hope the community can help address.
+- **Invitation to Collaborate**: You can also invite others to join your project as collaborators or advisers, sharing how they can contribute.
+- **Next Steps**: If known, outline your future goals and plans to continue advancing open science in your work and network.
+
+This presentation is also a great opportunity to acknowledge and thank those who have supported you on this journey.
+
+## Before your graduation
+
+- Please discuss your plan with your mentor in the meetings before graduation.
+- Sign up for one of the graduation rehearsal and feedback sessions (Week 15). During these sessions, you can refine your presentation and receive valuable feedback from peers and mentors.  
+- Refer to your cohort's schedule or public calendar to find the times for a graduation call (Week 16) and sign up for the session that works best for you.
+- If possible, please use the [Open Seeds slides template](https://docs.google.com/presentation/d/1575V9FZXgQA5DXkGRKYiRHbdR5D_QZWWFdwpYST6NWI/edit?usp=sharing) and [OLS logo](https://github.com/open-life-science/branding) in your presentation.
 - If it is a group project, we would prefer if all project members are present during the graduation call, and more than one person speaks/delivers the presentation.
-- Please upload your presentation on Zenodo, and include 'openlifesci' in the 'community' section. This will allow us to feature your presentation on our Zenodo community page. 
+- Please upload your presentation on [Zenodo, and include 'openlifesci'](https://zenodo.org/communities/openlifesci) in the 'community' section. This will allow us to feature your presentation on our Zenodo community page. 
 
 ## What happens if an emergency occurs? 
+
 If something unexpected happens and you cannot prepare your presentation in the expected timeframe, please get in touch with us - [{{ site.email }}](mailto:{{ site.email }}) - and we will get back to you to discuss your case.
 
 ## Graduates and their projects 
-Upon your graduation, as an Open Seeds OLS cohort graduate you can call yourself an OLS Fellow and Alumna/Alumnus.
 
-We have recently named our mentoring programme as Open Seeds. You can refer to the graduating projects as Open Seeds Sprout or seedlings, or Open Seeds Plántula or Germoglio… etc (see below).
+Upon your graduation, as an Open Seeds OLS cohort graduate, you can call yourself an OLS Fellow and Alumna/Alumnus.
 
-- In Portuguese: “broto”, a young plant = muda or mudinha
-- In Spanish: “plántula”
-- In Italian: Germoglio
-- In Russian: Проросток
-- In German: Spross
-(add)
+All OLS fellows are part of our community and are invited to return to future cohorts as mentors, speakers, facilitators or other roles.
+They will continue to use our Slack workspace and can engage with the OLS community.
 
 ## What happens if you do not graduate? 
 
-- Those who don’t graduate, can they say they participated? You can say you participated, but didn't complete it.
-- Can you apply again to OLS? Yes, you can apply again with another different project.
-- Can you come back to OLS, in the next cohort with the same project? You can. Please describe in your proposal what challenges or hurdles blocked you from continuing your participation in the previous cohort. We also ask your mentor what they think and if they recommend any changes. However, we ask you to consider that as of December 2023, OLS is not sure when Open Seeds OLS-9 will take place. 
+**Can participants who don’t graduate still say they participated?**
+- Yes, you can say you participated in the program, even if you didn’t complete it.
 
-## Other Q&As 
+**Can you apply to OLS again?**
+- Absolutely! You can reapply with the next stage of the same project or with a different project altogether.
+If OLS invites applications through open calls for participation, you’ll have the opportunity to explain in your proposal any challenges or hurdles that prevented you from continuing in the previous cohort. Additionally, we will seek feedback from your mentor about their observations and recommendations for changes to improve your experience in the next cohort.
+
+## Additional Information
+
 - If you are a team of 3 or more people, does everyone have to present in one of the graduation sessions or participate in the recorded presentation? No, although we prefer all team members to be present in the graduation sessions, and that they present in the pre-recorded presentations.
 -  If you are a team of people, does everyone have to complete the requirements listed in this document in order to graduate? Yes. The requirements apply to each participant.
--  If you didn’t graduate, can you be nominated by your mentor to become a mentor? Some of our participants are open science practitioners and experts, and hence can be nominated as a mentor. We would prefer that you graduate from the programme unless there is a valid reason you or your mentor can share with the OLS team.
--  Can people nominate themselves to be invited back as experts, facilitators or mentors? Graduates can nominate themselves as experts and facilitators. They can express their interest to join as mentors, but we will confirm your readiness to mentor from your mentor.
+-  If you didn’t graduate, can you be nominated by your mentor to become a mentor? Some of our participants are open science practitioners and experts and hence can be nominated as a mentor. We would prefer that you graduate from the programme unless there is a valid reason you or your mentor can share with the OLS team.
+-  Can people nominate themselves to be invited back as experts, facilitators or mentors? Graduates can nominate themselves as experts and facilitators. They can express their interest in joining as mentors, but we will confirm your readiness to mentor from your mentor.
 -  Can people be nominated by other OLS community members despite not having graduated? Yes, but we would prioritise graduates in the next cohort to ensure fair opportunity is given to folks who have engaged in the programme.
 
-_**See below more information about weeks 15 and 16**_
+_**See below for more information about weeks 15 and 16**_
 
 ## Week-15 Information: Rehearsal calls
-During week 15 we organise 3 graduation rehearsal calls. These calls are not recorded and their purpose is to help mentees rehearse their presentations, get feedback from OLS team members and other fellow mentees and therefore make a better graduation presentation. During these calls we will: 
-- Start by introducing how to give and receive constructive feedback.
-- Have the participants present their project in a 5 minute mock presentation.
-- Share feedback on the project and presentation to help prepare for the final graduation call.
 
-Before this call
-- Prepare to share a 5 mins presentation of your project - it doesn't have to be a polished or finished presentation.
-- Your presentation can be in the form of a demo, a short 1-2 slides presentation or a walk through your website or other materials you find appropriate.
-- This 3 min presentation should only be a snapshot of your entire presentation (your graduation presentation will be either 5 or 15 min long, depending on the format you choose).
-  
-## Week 16: Graduation Calls
-### (Optional) Prompts for your presentation
+During week 15 we organise graduation rehearsal calls. These calls are not recorded and their purpose is to help mentees rehearse their presentations, get feedback from OLS team members and other fellow mentees and therefore make a better graduation presentation. 
+
+**Before this call:**
+- Prepare to share a 5-minute presentation of your project - it doesn't have to be a polished or finished presentation.
+- If you are unsure what to present, your mock presentation can also be a snapshot of your entire presentation.
+- This mock presentation can be in the form of a demo, a short 1-2 slide presentation or a walk through your website or other materials you find appropriate.
+
+**During these calls: **
+- The OLS team will start by introducing how to give and receive constructive feedback.
+- They will create small breakout rooms where participants will present their project mock presentation to each other.
+- Participants will share feedback on others' projects and presentations to help each other prepare for the final presentation required for graduation.
+
+**After these calls:**
+- Participants will integrate feedback from their peers into their presentation
+- Prepare to give a live 5 minutes presentation or pre-record their talk (confirmed by the organisers)
+- When pre-recording, please send a copy of your recording to the OLS team who will review and upload your video to the [OLS's YouTube channel](https://www.youtube.com/openlifesci)
+
+## Week 16: Mode of Graduation Calls
+
+While the criteria and requirements for graduation remain the same, the OLS team will inform you about the specific format of the graduation calls.
+
+You may be asked to deliver your presentation either live or via a pre-recorded video.
+
+**Please refer to weekly emails, particularly during Weeks 13–14 of Open Seeds, for important updates and instructions.**
+
+## (Optional) Prompts for your presentation
 Here are a few questions to help you generate ideas and content for your graduation presentation. Your notes to these prompts can be used to write a speed blog or a final report.
 
 **Project background**
@@ -96,13 +132,13 @@ Here are a few questions to help you generate ideas and content for your graduat
 - Was this the same as the goals you originally set?
 
 **OLS journey**
-- Initial steps: Starting out - what did you do to explore the problems / project?
+- Initial steps: Starting out - what did you do to explore the problems/project?
 - What elements helped you get there: Discussions, connections made, activities carried out, mentors consulted, other?
 - Did you apply anything you learned to other projects or areas in your life?
 
 **Next steps**
-- My immediate next step is to: Whether you're launching something, bringing someone new in, adding governance, or writing up a project plan or case study - what's happening next?
-- Longer term tasks: What will be the long term goals and sustainability plans - this can also be about starting your project if you did not do that already
+- My immediate next step: Whether you're launching something, bringing someone new in, adding governance, or writing up a project plan or case study - what's happening next?
+- Longer term tasks: What will be the long-term goals and sustainability plans - this can also be about starting your project if you did not do that already
 
 **Staying connected**
 - What is your call for action? how can people collaborate in your project? Where can someone help or learn about your project? Include links to your work!
@@ -113,7 +149,7 @@ Please mention ideas, lessons and people who helped you achieve whatever you cou
 
 ## Optional Reflection
 
-### More questions on helping you envision your next steps in the project
+### More questions to help you envision your next steps in the project
 
 **Visit your project vision to reflect on it**
 - What I (or we) plan to create in the next 10 months.
@@ -123,12 +159,13 @@ Please mention ideas, lessons and people who helped you achieve whatever you cou
 - What will be so in 5/10/20 years time? What is your overall BIG vision?
 - Why is this important to you? What is in it for you? For others?
 - What are 2-3 key activities or critical points we should know about your vision?
-- What is the difference your vision will make for you, your community?
+- What is the difference your vision will make for you, and your community?
 
-**What is a speed blog?**
-You can write a speedblog and share with the OLS team. We will post your speedblog on the [OLS website]({{ site.url }}/posts). 
+### Optional Speed Blog
+
+You can write a speedblog and share it with the OLS team. We will post your speedblog on the [OLS website]({{ site.url }}/posts). 
 See this post for [guidance on speed blogging](https://software.ac.uk/speed-blogging-and-tips-writing-speed-blog-post), or explore [our guide]({% link openseeds/cohort-procedures-and-templates/speedblog.md %}) for further direction.
-Below are some examples of speedblogs from previous cohorts:
+Below are some examples of speed blogs from previous cohorts:
 - [Emma Karoune's speedblog]({% link _posts/2020-12-18-ols-2-participant-emma-karoune-speedblog.md %}).
 - [Fez's speedblog]({% link _posts/2021-04-30-ols-2-participant-fez-speedblog.md %}).
 - [Culture Track]({% link _posts/2019-10-21-culture-track.md %}).
