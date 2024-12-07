@@ -30,7 +30,7 @@ Here’s a polished version of your text:
 ## Requirements for Graduation from the Open Seeds Program by OLS:
 
 1. **Cohort Calls:** Attend cohort calls or watch the recorded videos if attendance is not possible.  
-1. **Mentor-Mentee Meetings:** Attend at least five out of the eight scheduled mentor-mentee meetings, unless a valid reason is provided and confirmed by your mentor(s).  
+1. **Mentor-Mentee Meetings:** There are a total of 7-8 mentor-mentee calls throughout the programme. All participants should schedule and attend mentor-mentee meetings regularly unless a valid reason is provided and confirmed by their mentor(s).  
 1. **Mentor Confirmation:** Receive a "yes" from your mentor(s) confirming your active participation and engagement as listed above.  
 1. **Vision and Mission Statements:** Create and discuss your Vision and Mission statements with your mentor.  
 1. **Open Canvas:** Develop and discuss your Open Canvas with your mentor.  
