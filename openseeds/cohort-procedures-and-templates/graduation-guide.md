@@ -76,12 +76,14 @@ They will continue to use our Slack workspace and can engage with the OLS commun
 ## What happens if you do not graduate? 
 
 **Can participants who don’t graduate still say they participated?**
-Yes, you can say you participated in the program, even if you didn’t complete it.
+- Yes, you can say you participated in the program, even if you didn’t complete it.
+
 **Can you apply to OLS again?**
-Absolutely! You can reapply with the next stage of the same project or with a different project altogether.
+- Absolutely! You can reapply with the next stage of the same project or with a different project altogether.
 If OLS invites applications through open calls for participation, you’ll have the opportunity to explain in your proposal any challenges or hurdles that prevented you from continuing in the previous cohort. Additionally, we will seek feedback from your mentor about their observations and recommendations for changes to improve your experience in the next cohort.
 
-## Other Q&As 
+## Additional Information
+
 - If you are a team of 3 or more people, does everyone have to present in one of the graduation sessions or participate in the recorded presentation? No, although we prefer all team members to be present in the graduation sessions, and that they present in the pre-recorded presentations.
 -  If you are a team of people, does everyone have to complete the requirements listed in this document in order to graduate? Yes. The requirements apply to each participant.
 -  If you didn’t graduate, can you be nominated by your mentor to become a mentor? Some of our participants are open science practitioners and experts and hence can be nominated as a mentor. We would prefer that you graduate from the programme unless there is a valid reason you or your mentor can share with the OLS team.
@@ -94,17 +96,17 @@ _**See below for more information about weeks 15 and 16**_
 
 During week 15 we organise graduation rehearsal calls. These calls are not recorded and their purpose is to help mentees rehearse their presentations, get feedback from OLS team members and other fellow mentees and therefore make a better graduation presentation. 
 
-Before this call
+**Before this call:**
 - Prepare to share a 5-minute presentation of your project - it doesn't have to be a polished or finished presentation.
 - If you are unsure what to present, your mock presentation can also be a snapshot of your entire presentation.
 - This mock presentation can be in the form of a demo, a short 1-2 slide presentation or a walk through your website or other materials you find appropriate.
 
-During these calls: 
+**During these calls: **
 - The OLS team will start by introducing how to give and receive constructive feedback.
 - They will create small breakout rooms where participants will present their project mock presentation to each other.
 - Participants will share feedback on others' projects and presentations to help each other prepare for the final presentation required for graduation.
 
-After these calls:
+**After these calls:**
 - Participants will integrate feedback from their peers into their presentation
 - Prepare to give a live 5 minutes presentation or pre-record their talk (confirmed by the organisers)
 - When pre-recording, please send a copy of your recording to the OLS team who will review and upload your video to the [OLS's YouTube channel](https://www.youtube.com/openlifesci)
@@ -115,7 +117,7 @@ While the criteria and requirements for graduation remain the same, the OLS team
 
 You may be asked to deliver your presentation either live or via a pre-recorded video.
 
-**Please keep an eye on the weekly emails, particularly during Weeks 13–14 of Open Seeds, for important updates and instructions.**
+**Please refer to weekly emails, particularly during Weeks 13–14 of Open Seeds, for important updates and instructions.**
 
 ## (Optional) Prompts for your presentation
 Here are a few questions to help you generate ideas and content for your graduation presentation. Your notes to these prompts can be used to write a speed blog or a final report.
