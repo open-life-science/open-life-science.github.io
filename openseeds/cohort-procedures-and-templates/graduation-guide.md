@@ -23,9 +23,7 @@ Mentors evaluate whether mentees have made consistent efforts to:
 - **Actively engage with the Open Seeds program** by attending cohort calls, coming prepared for mentor meetings, and interacting with other participants through platforms such as cohort calls, Slack, and GitHub issues.  
 - **Advance the open science aspects of their projects** by completing assignments provided in Open Seeds that help them critically evaluate and incorporate openness into their work.  
 - **Show interest in the topics introduced in Open Seeds** by exploring these topics further, identifying relevant resources from the open science community to deepen their understanding, and seeking feedback from experts to refine their project.  
-- **Demonstrate a commitment to advancing open science principles** within their network by sharing their project through presentations, participating in events, or engaging in online communication to promote open science.  
-
-Here’s a polished version of your text:
+- **Demonstrate a commitment to advancing open science principles** within their network by sharing their project through presentations, participating in events, or engaging in online communication to promote open science.
 
 ## Requirements for Graduation from the Open Seeds Program by OLS:
 
