@@ -33,8 +33,8 @@ Mentors evaluate whether mentees have made consistent efforts to:
 1. **Vision and Mission Statements:** Create and discuss your Vision and Mission statements with your mentor.  
 1. **Open Canvas:** Develop and discuss your Open Canvas with your mentor.  
 1. **Roadmap:** Prepare and discuss your project Roadmap with your mentor.  
-1. **Online sharing of their work**: Create a GitHub repository, or website, or use other online ways of sharing their work with open license. This could even be their final presentation via Zenodo.
-1. **Sharing updates via OLS's GitHub issue**: Sharing their progress and link to their assignments on an issue under a GitHub repository created by the OLS team for their respective cohort (see [example for OLS-9](https://github.com/open-life-science/ols-9/issues)]
+1. **Online sharing of their work**: Create a GitHub repository, or website, or use other online ways of sharing their work with open license. This could even be just their final presentation shared via Zenodo.
+1. **Updates via OLS's GitHub issue**: Sharing their progress and link to their assignments on an issue under a GitHub repository created by the OLS team for their respective cohort (see [example for OLS-9](https://github.com/open-life-science/ols-9/issues)]
 1. **Skill-Building Participation:** Participate in at least one skill-up session or thematic session, unless a valid reason is provided and confirmed by your mentor(s).
 1. **Community management resources**: Developed one or more community management-related resources, like contributing guidelines and Code of Conduct, personas and pathways, Mountain of Engagement or other resources that can help them think about participatory aspects of their work. 
 1. **Mid-Term Survey:** Complete the mid-term survey for project leads/mentees.  
