@@ -43,3 +43,6 @@ Sign up for [our mailing list](https://groups.google.com/g/ospark-news), to keep
 
 For specific inquiries, please contact us at [ospark-project[at]digiresacademy.org](mailto:ospark-project@digiresacademy.org).
 
+## More about OSCARS 
+OSCARS is a four-year EU-funded project that strives to foster the uptake of Open Science in Europe by consolidating the achievements of world-class European research infrastructures in the ESFRI roadmap and beyond into lasting interdisciplinary FAIR data services and working practices. The project aims to strengthen the role of the Science Clusters in the ERA by developing domain-based Competence Centres and by fostering the implementation of Open Science projects funded through a cascading grant mechanism.
+
