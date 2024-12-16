@@ -99,7 +99,7 @@ During week 15 we organise graduation rehearsal calls. These calls are not recor
 - If you are unsure what to present, your mock presentation can also be a snapshot of your entire presentation.
 - This mock presentation can be in the form of a demo, a short 1-2 slide presentation or a walk through your website or other materials you find appropriate.
 
-**During these calls: **
+**During these calls:**
 - The OLS team will start by introducing how to give and receive constructive feedback.
 - They will create small breakout rooms where participants will present their project mock presentation to each other.
 - Participants will share feedback on others' projects and presentations to help each other prepare for the final presentation required for graduation.
@@ -111,13 +111,12 @@ During week 15 we organise graduation rehearsal calls. These calls are not recor
 
 ## Week 16: Mode of Graduation Calls
 
-While the criteria and requirements for graduation remain unchanged, the OLS team will organize a specific format for the graduation calls.
-Depending on the cohort size, you may be asked to deliver your presentation either live or via a pre-recorded video.
+While the criteria and requirements for graduation remain unchanged, the OLS team will plan the format of graduation calls based on the cohort size.
 
 For cohorts of up to 45 mentees or mentee groups, each will have 5 minutes during the graduation call to present their graduation presentation.
 
-For cohorts with more than 45 mentees or project groups (**such as OLS-9, which includes 110 mentees**) each mentee or project group will be required to:
-- Submit a 5-minute recorded presentation to the OLS-9 team, who will upload it to the OLS YouTube channel.
+For cohorts with more than 45 mentees or project groups (**such as OLS-9, which includes 110 mentees**), each will be required to:
+- Submit a 5-minute recorded presentation to the OLS-9 team by the end of Week 15, who will upload it to the OLS YouTube channel.
 - Attend one of the graduation calls to share highlights of their OLS-9 journey and express gratitude to those who supported them.
 
 **Please refer to weekly emails, particularly during Weeks 13–14 of Open Seeds, for important updates and instructions.**
