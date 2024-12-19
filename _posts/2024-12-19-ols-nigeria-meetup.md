@@ -37,13 +37,13 @@ Meanwhile, Seun talked about his Bioinformatics background, his activity within 
 
 To wrap up the day on a sweet note, we made our way to a cozy spot for gelato.  It was the perfect ending to an unforgettable day—because what’s better than bonding over shared love for dessert?
 
-![image alt]({% link images/ols-ng-meetup/ols-ng-gelato.jpeg %}) 
+![image alt]({% link images/ols-ng-meetup/ols-ng-gelato.jpeg %}){: style="max-width: 50%; max-height: 500px;"}
 
 This meet-up wasn’t just a chance to put faces to names; it was a celebration of camaraderie. We may have started the day as colleagues, but by the end of it, we were more like a family. 
 
 So, here’s to more in-person meetups! 🥂
 
-![image alt]({% link images/ols-ng-meetup/ols-ng-collage.jpg %}){: style="max-width: 50%; max-height: 300px; height: auto; display: block; margin: 0 auto;" }
+![image alt]({% link images/ols-ng-meetup/ols-ng-cheers.jpeg %}){: style="max-width: 50%; max-height: 500px; display: block; margin: 0 auto;" }
 
 
 **P.S.** Remember that epic Debs-Taj banter? Here’s the scoop: the city has two Chelsea Hotels, and the whole time, we thought we were staying at the same one. Debs only realised the mix-up when the cab dropped her and Taj off, and Taj headed up to his room—while Debs discovered she was at the wrong place. Luckily, Jilaga swooped in to save the day and took Debs to the right hotel. Classic misadventure, right?
