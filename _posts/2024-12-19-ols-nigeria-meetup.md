@@ -25,19 +25,14 @@ Needless to say, we clicked. Big time.
 
 We kicked off our day with an **escape room challenge**—“a team-building exercise,” we told ourselves. The mission? Solve a murder case within 30 minutes. Did we crack it? Nope. (Turns out we’re better at our jobs than catching imaginary killers.) But we uncovered bigger mysteries – Taj is great at Chemistry, Jilaga’s an undercover detective, and Seun will seize every opportunity to taunt Debs by fumbling with the light switch.
 
-![image alt]({% link images/ols-ng-meetup/ols-ng-group.jpeg %}) 
-
 Next stop: the **Discovery Museum**. It was a walk through Nigerian history, culture, and creativity. We soaked up every moment, from admiring the exhibits to singing along to iconic Nigerian throwback tunes.  A documentary on the effect of the "Boko Haram" insurgency had us reflecting deeply on the resilience of our nation, and feeling grateful for the gift of life. And, of course, we couldn’t resist snapping photos at every turn…
 
 ![image alt]({% link images/ols-ng-meetup/ols-ng-collage.jpg %}) 
 
 By lunchtime, the conversation flowed as freely as the food. Fun fact: there’s a short list of things Nigerians love more than good food. We shared bites of our meals, in the same way we dove into each other’s worlds. We shared laughs, swapped stories, and found common ground in our unique journeys within OLS.
 
-
 We got to learn about Jilaga’s background in Architecture–mind blown! She also gave us the inside scoop on the intricate process of design and branding. 
-
 Taj, on the other hand, spoke about his academic pursuit, which has taken him across continents, and his growing passion for Project Management and AI.
-
 Meanwhile, Seun talked about his Bioinformatics background, his activity within the OLS and his Community’s participation in The Catalyst project. And Debs? It was a time to reflect on growth and new possibilities.
 
 To wrap up the day on a sweet note, we made our way to a cozy spot for gelato.  It was the perfect ending to an unforgettable day—because what’s better than bonding over shared love for dessert?
@@ -51,4 +46,3 @@ So, here’s to more in-person meetups! 🥂
 ![image alt]({% link images/ols-ng-meetup/ols-ng-cheers.jpeg %}) 
 
 **P.S.** Remember that epic Debs-Taj banter? Here’s the scoop: the city has two Chelsea Hotels, and the whole time, we thought we were staying at the same one. Debs only realised the mix-up when the cab dropped her and Taj off, and Taj headed up to his room—while Debs discovered she was at the wrong place. Luckily, Jilaga swooped in to save the day and took Debs to the right hotel. Classic misadventure, right?
-
