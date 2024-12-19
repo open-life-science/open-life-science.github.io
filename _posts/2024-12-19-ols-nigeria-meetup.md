@@ -6,7 +6,7 @@ authors:
 - jilaga
 - seunolufemi123
 - tajuddeen1
-image: images/ols-ng-meetup/ols-ng-group.jpeg
+image: /images/ols-ng-meetup/ols-ng-group.jpeg
 photos:
   name: Jilaga
   license: CC BY-SA 4.0
