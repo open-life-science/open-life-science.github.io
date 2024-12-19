@@ -25,7 +25,7 @@ Needless to say, we clicked. Big time.
 
 We kicked off our day with an **escape room challenge**—“a team-building exercise,” we told ourselves. The mission? Solve a murder case within 30 minutes. Did we crack it? Nope. (Turns out we’re better at our jobs than catching imaginary killers.) But we uncovered bigger mysteries – Taj is great at Chemistry, Jilaga’s an undercover detective, and Seun will seize every opportunity to taunt Debs by fumbling with the light switch.
 
-![image alt]({% link images/ols-ng-meetup/ols-ng-group.jpg %}) 
+![image alt]({% link images/ols-ng-meetup/ols-ng-group.jpeg %}) 
 
 Next stop: the **Discovery Museum**. It was a walk through Nigerian history, culture, and creativity. We soaked up every moment, from admiring the exhibits to singing along to iconic Nigerian throwback tunes.  A documentary on the effect of the "Boko Haram" insurgency had us reflecting deeply on the resilience of our nation, and feeling grateful for the gift of life. And, of course, we couldn’t resist snapping photos at every turn…
 
