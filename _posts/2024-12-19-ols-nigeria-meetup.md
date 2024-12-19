@@ -37,7 +37,7 @@ Meanwhile, Seun talked about his Bioinformatics background, his activity within 
 
 To wrap up the day on a sweet note, we made our way to a cozy spot for gelato.  It was the perfect ending to an unforgettable day—because what’s better than bonding over shared love for dessert?
 
-![image alt]({% link images/ols-ng-meetup/ols-ng-gelato.jpeg %}){: style="max-width: 50%; max-height: 500px;"}
+![Photo shows four (4) separate cups containing two (2) scoops of gelato. Each cup is placed on a white serviette.]({% link images/ols-ng-meetup/ols-ng-gelato.jpeg %}){: style="max-width: 70%; max-height: 500px;"}
 
 This meet-up wasn’t just a chance to put faces to names; it was a celebration of camaraderie. We may have started the day as colleagues, but by the end of it, we were more like a family. 
 
