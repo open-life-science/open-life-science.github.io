@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OLS Nigeria 
+title: "Colleagues to Family: Highlights of the OLS Nigeria Meetup"
 authors:
 - npdebs
 - jilaga
@@ -12,8 +12,6 @@ photos:
   license: CC BY-SA 4.0
   url: 
 ---
-
-# [Title to be decided]
 
 There’s something magical about meeting people you’ve worked with virtually for ages and instantly feeling like family when you finally see each other in real life. That’s exactly how it felt when **the OLS Nigeria Team met up for the first time** this past Tuesday, December 17, 2024, at the vibrant Art Tech District in **Abuja**.
 
@@ -43,7 +41,6 @@ This meet-up wasn’t just a chance to put faces to names; it was a celebration 
 
 So, here’s to more in-person meetups! 🥂
 
-![Photograph shows a group of four (4) raising their glasses in a celebratory toast. The glasses are filled with water, ice cubes and a slice of lemon.]({% link images/ols-ng-meetup/ols-ng-cheers.jpeg %}){: style="max-width: 50%; max-height: 500px; display: block; margin: 0 auto;" }
-
+![Photograph shows a group of four (4) raising their glasses in a celebratory toast. The glasses are filled with water, ice cubes and a slice of lemon.]({% link images/ols-ng-meetup/ols-ng-cheers.jpeg %}){: style="max-width: 70%; max-height: 500px;" }
 
 **P.S.** Remember that epic Debs-Taj banter? Here’s the scoop: the city has two Chelsea Hotels, and the whole time, we thought we were staying at the same one. Debs only realised the mix-up when the cab dropped her and Taj off, and Taj headed up to his room—while Debs discovered she was at the wrong place. Luckily, Jilaga swooped in to save the day and took Debs to the right hotel. Classic misadventure, right?
