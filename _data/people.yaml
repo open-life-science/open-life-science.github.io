@@ -1974,16 +1974,21 @@ bethaniley:
   continent: Europe
   longitude: -5.9301829
   latitude: 54.596391
-  title: Finance manager
+  title: Finance Administrator & OSPARK Coordinator
   orcid: 0000-0002-5813-3303
   expertise:
-  - Gender identity; conspiracy theories; misinformation; neurodiversity; diversity
-  - Equity
-  - Inclusion; open scholarship
+  - Dis/misinformation and conspiracy theories
+  - Equality, diversity and inclusion
+  - Intergroup relations
+  - Mixed methods
+  - Neurodiversity
+  - Political psychology
+  - Social identity
   bio: I'm a Psychology PhD student in the Centre for Identity and Intergroup Relations
-    at Queen's University Belfast, where I research conspiracy theory beliefs about
-    gender equality. I'm also a Community Development Manager for the Framework for
-    Open and Reproducible Research Training (FORRT).
+    at Queen's University Belfast, where I research conspiracy theory beliefs and
+    dis/misinformation about gender equality. I'm generally interested in the psychology
+    of science (how people think and behave regarding science) and political beliefs.
+    I also care about inclusion in science and run a science communication project.
 bgruening:
   bio: Björn is working in the European Galaxy team and tries to help make science
     open wherever he can. He is an expert in the topics related to Container, Conda,
