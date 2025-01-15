@@ -226,21 +226,6 @@
     champion, one of my goals is to make a significant contribution to the DRI-EDIA
     and OLS efforts to encourage healthy open science practices.
   participants:
-  - arashasg
-  mentors:
-  - complexbrains
-  keywords:
-  - Ai Fairness
-  - Large Language Models
-  - Multi-Modal Models
-  - De-Biasing Ai Models
-  - Parameter Efficient Fine-Tuning Of Ai Models.
-- name: 'Chemderful: A Neurodiverse Molecular Modeling Society for Equitable Molecular
-    Sciences Education'
-  description: I want to learn how to sustain an open chemical education initiative
-    that delivers interactive molecular models to the hands of every chemistry student
-    worldwide.
-  participants:
   - melleason
   mentors:
   - acocac
@@ -248,11 +233,11 @@
   - Habitat Management
   - Gis
   - Remote Sensing
-- name: Advanced Research Computing Within Reach for All at McGill
-  description: I would like to become much more comfortable with using GitHub, and
-    possible create a webpage for sharing data. Also, I would like to learn what there
-    is to learn. I am sure upon hearing more about open science, I will discover more
-    skills I would like to develop.
+- name: 'Chemderful: A Neurodiverse Molecular Modeling Society for Equitable Molecular
+    Sciences Education'
+  description: I want to learn how to sustain an open chemical education initiative
+    that delivers interactive molecular models to the hands of every chemistry student
+    worldwide.
   participants:
   - islammatar
   mentors:
@@ -261,6 +246,18 @@
   - Molecular-Modelling
   - Drug-Discovery
   - Entrepreneurship
+- name: Advanced Research Computing Within Reach for All at McGill
+  description: I would like to become much more comfortable with using GitHub, and
+    possible create a webpage for sharing data. Also, I would like to learn what there
+    is to learn. I am sure upon hearing more about open science, I will discover more
+    skills I would like to develop.
+  participants:
+  - emiliestorer
+  mentors:
+  - amangoel185
+  keywords:
+  - Data Analysis
+  - Cosmology
 - name: 'From Pixels to Purpose: Leveraging In-Person and Online Platforms for Data-Driven
     Advocacy For EDIA in The Use of Digital Research Alliance of Canada Resources'
   description: As an EDI champion in research, my personal learning goals related
@@ -271,23 +268,6 @@
     I'm committed to learning about and implementing more inclusive practices in data
     sharing and collaboration, ensuring that open science truly benefits and is shaped
     by diverse communities.
-  participants:
-  - emiliestorer
-  mentors:
-  - amangoel185
-  keywords:
-  - Data Analysis
-  - Cosmology
-- name: 'A Comprehensive Dataset: Capturing Brain Signals from Individuals with Cerebral
-    Palsy Across Diverse Populations'
-  description: For the DRA project, I plan to collect a dataset from physiological
-    signals of individuals with Cerebral Palsy (CP). I recognize the importance of
-    managing populations from diverse backgrounds, especially given the physical and
-    mental challenges they face due to their condition. It is crucial to understand
-    how these difficulties affect their overall well-being. As they may experience
-    physical and emotional fatigue, learning effective management strategies is essential
-    to lead a team that works closely with them. This knowledge will help ensure that
-    we provide compassionate and structured care throughout the project.
   participants:
   - mt-bit
   mentors:
@@ -304,12 +284,16 @@
   - Scientific Outreach
   - 'Advocacy '
   - Science Communication
-- name: 'Advancing Equity in Forestry: Digital Research Infrastructure (DRI) and Deep
-    Learning (DL) for All'
-  description: Deepening my understanding of how to make research more accessible
-    to underrepresented groups, both in terms of participation and access to findings.
-    I aim to improve my skills in sharing data and code transparently while ensuring
-    that ethical considerations, such as privacy and consent, are upheld.
+- name: 'A Comprehensive Dataset: Capturing Brain Signals from Individuals with Cerebral
+    Palsy Across Diverse Populations'
+  description: For the DRA project, I plan to collect a dataset from physiological
+    signals of individuals with Cerebral Palsy (CP). I recognize the importance of
+    managing populations from diverse backgrounds, especially given the physical and
+    mental challenges they face due to their condition. It is crucial to understand
+    how these difficulties affect their overall well-being. As they may experience
+    physical and emotional fatigue, learning effective management strategies is essential
+    to lead a team that works closely with them. This knowledge will help ensure that
+    we provide compassionate and structured care throughout the project.
   participants:
   - elham-reyhanianmotehaver
   mentors:
@@ -318,11 +302,12 @@
   - Signal Processing
   - Machine Learning
   - Cerebral Palsy
-- name: Utilizing Digital Research Infrastructure (DRI) to Develop Environmental DNA
-    Tools for Biodiversity Monitoring in Indigenous Lands
-  description: I aim to bridge the gap between the science and application of environmental
-    DNA. I hope to provide an equitable tool to end-users by building capacity and
-    network within the communities I am working with.
+- name: 'Advancing Equity in Forestry: Digital Research Infrastructure (DRI) and Deep
+    Learning (DL) for All'
+  description: Deepening my understanding of how to make research more accessible
+    to underrepresented groups, both in terms of participation and access to findings.
+    I aim to improve my skills in sharing data and code transparently while ensuring
+    that ethical considerations, such as privacy and consent, are upheld.
   participants:
   - yuwei-cao-git
   mentors:
@@ -333,12 +318,11 @@
   - Deep Learning
   - 3D Modeling
   - Gis
-- name: Bioinformatics for Everyone
-  description: "Improve my communication skills\nLearn how to use open science tools,
-    such as data repositories and open source software\nImprove the accessibility
-    of my research and outreach materials \nPractice skills for organizing and promoting
-    outreach/teaching events \nExchange ideas and discuss open science in a diverse
-    environment"
+- name: Utilizing Digital Research Infrastructure (DRI) to Develop Environmental DNA
+    Tools for Biodiversity Monitoring in Indigenous Lands
+  description: I aim to bridge the gap between the science and application of environmental
+    DNA. I hope to provide an equitable tool to end-users by building capacity and
+    network within the communities I am working with.
   participants:
   - mldlopez
   mentors:
@@ -348,15 +332,12 @@
   - Freshwater Biology
   - Environmental Dna
   - Paleolimnology
-- name: 'Bridging the Digital Divide: Empowering Equity-Seeking Researchers with Alliance
-    DRI Tools'
-  description: As an EDI champion in research, my personal learning goals related
-    to open science revolve around deepening my comprehension of open data practices
-    and honing skills  in collaborative research approaches. My goal is to understand
-    how to effectively engage diverse communities and empower marginalized communities
-    in the research process. Additionally, I want to explore best strategies for openly
-    sharing research findings to ensure that these findings are accessible to anyone.
-    This I believe would provide an environment that is more inclusive and equitable.
+- name: Bioinformatics for Everyone
+  description: "Improve my communication skills\nLearn how to use open science tools,
+    such as data repositories and open source software\nImprove the accessibility
+    of my research and outreach materials \nPractice skills for organizing and promoting
+    outreach/teaching events \nExchange ideas and discuss open science in a diverse
+    environment"
   participants:
   - leticiamagpali
   mentors:
@@ -369,6 +350,24 @@
   - Cetaceans
   - Bioacoustics
   - Echolocation
+- name: 'Bridging the Digital Divide: Empowering Equity-Seeking Researchers with Alliance
+    DRI Tools'
+  description: As an EDI champion in research, my personal learning goals related
+    to open science revolve around deepening my comprehension of open data practices
+    and honing skills  in collaborative research approaches. My goal is to understand
+    how to effectively engage diverse communities and empower marginalized communities
+    in the research process. Additionally, I want to explore best strategies for openly
+    sharing research findings to ensure that these findings are accessible to anyone.
+    This I believe would provide an environment that is more inclusive and equitable.
+  participants:
+  - lindaokpanachi028
+  mentors:
+  - umutpajaro
+  keywords:
+  - Machine Learning
+  - Natural Language Processing
+  - Data Science
+  - Software Development
 - name: Introducing potential opportunities in applying DRI for research and building
     professional skills for persons living with visible and invisible disabilities
   description: My personal goal is to improve knowledge about and access to DRI to
@@ -379,24 +378,6 @@
     community. Besides, people who attend the virtual event will be invited to join
     the association, learn more as this project progresses, and provide better feedback
     directly to the Alliance.
-  participants:
-  - lindaokpanachi028
-  mentors:
-  - umutpajaro
-  keywords:
-  - Machine Learning
-  - Natural Language Processing
-  - Data Science
-  - Software Development
-- name: Introducing potential opportunities in applying DRI for research and building professional 
-skills for persons living with visible and invisible disabilities
-  description: My personal goal is to improve knowledge about and access to DRI to mitigate these 
-  barriers in several ways, including organizing a virtual event for the community of persons with 
-  disability, which is necessary to listen and understand all existing obstacles, and establishing 
-  an association help the Alliance to monitor the problems more effectively and can provide better 
-  support for this community. Besides, people who attend the virtual event will be invited to join 
-  the association, learn more as this project progresses, and provide better feedback directly to 
-  the Alliance.
   participants:
   - sorenaazarhazin71
   mentors:
@@ -415,23 +396,6 @@ skills for persons living with visible and invisible disabilities
     and responsible research dissemination, so that open science is both transparent
     and respectful of privacy and intellectual contributions across diverse communities.
   participants:
-  - ruben-tjhie
-  mentors:
-  - bresearcher101
-  keywords:
-  - Human Factors
-  - Usability
-  - Digital Health
-  - Equity
-- name: 'Bridging the Gap: Catalyzing High-quality Research with Digital Tools, Services
-    and Infrastructure from the Digital Research Alliance of Canada'
-  description: 'I am looking forward to have an updated perspective on the matter,
-    since it has always been a subject I am quite interested in and I actively try
-    to incorporate into my research, but mostly at an individual level so far. After
-    reading the course content, I am particularly interested in learning the following
-    topics: (Design) Illustrate the need for a project, its vision, and its goals;
-    (Build) Start any project with openness in mind from day one.'
-  participants:
   - gtfrans2re
   mentors:
   - rgiessmann
@@ -442,12 +406,14 @@ skills for persons living with visible and invisible disabilities
   - Reinforcement Learning
   - Internet Of Things
   - High-Performance Computing
-- name: 'Promoting Digital Research Infrastructure in Equity-Focused Research: Forming
-    Sustainable Connections with Early-Career Translational Researchers'
-  description: While I have experience working within equity-deserving communities
-    in a volunteering setting, this would be my first time working within an academic
-    context. I hope to understand the project-related barriers unique to this context
-    and develop a toolkit for navigating them.
+- name: 'Bridging the Gap: Catalyzing High-quality Research with Digital Tools, Services
+    and Infrastructure from the Digital Research Alliance of Canada'
+  description: 'I am looking forward to have an updated perspective on the matter,
+    since it has always been a subject I am quite interested in and I actively try
+    to incorporate into my research, but mostly at an individual level so far. After
+    reading the course content, I am particularly interested in learning the following
+    topics: (Design) Illustrate the need for a project, its vision, and its goals;
+    (Build) Start any project with openness in mind from day one.'
   participants:
   - lannalucchetti
   mentors:
@@ -460,10 +426,12 @@ skills for persons living with visible and invisible disabilities
   - Electrochemistry
   - Teaching
   - Learning
-- name: 'Developing Accessible Computational Tools and Inclusive Training: From Computational
-    Sciences to Health Sciences'
-  description: I would like to learn more about the theories, and practices on how
-    to prompt open science, which can help me to fill in the interdisciplinary gaps.
+- name: 'Promoting Digital Research Infrastructure in Equity-Focused Research: Forming
+    Sustainable Connections with Early-Career Translational Researchers'
+  description: While I have experience working within equity-deserving communities
+    in a volunteering setting, this would be my first time working within an academic
+    context. I hope to understand the project-related barriers unique to this context
+    and develop a toolkit for navigating them.
   participants:
   - snovin24
   mentors:
@@ -472,14 +440,10 @@ skills for persons living with visible and invisible disabilities
   - Hiv Prevention
   - Narrative Medicine
   - Translational Research
-- name: 'Bridging Quantum Mechanics and Machine Learning: Developing an Open-Source
-    Software for Efficient Data Processing for Advanced Research Inclusivity'
-  description: My personal learning goals include mastering how to make advanced computational
-    tools accessible and usable for equity-seeking groups. I aim to develop expertise
-    in creating platforms that bridge complex scientific tools with machine learning,
-    all while ensuring these platforms are user-friendly and open. Learning how to
-    promote open-source initiatives that are inclusive and accessible is key to my
-    work.
+- name: 'Developing Accessible Computational Tools and Inclusive Training: From Computational
+    Sciences to Health Sciences'
+  description: I would like to learn more about the theories, and practices on how
+    to prompt open science, which can help me to fill in the interdisciplinary gaps.
   participants:
   - fanwangm
   mentors:
@@ -489,23 +453,30 @@ skills for persons living with visible and invisible disabilities
   - Software Development
   - Machine Learning
   - Open Science
+- name: 'Bridging Quantum Mechanics and Machine Learning: Developing an Open-Source
+    Software for Efficient Data Processing for Advanced Research Inclusivity'
+  description: My personal learning goals include mastering how to make advanced computational
+    tools accessible and usable for equity-seeking groups. I aim to develop expertise
+    in creating platforms that bridge complex scientific tools with machine learning,
+    all while ensuring these platforms are user-friendly and open. Learning how to
+    promote open-source initiatives that are inclusive and accessible is key to my
+    work.
+  participants:
+  - musannagalib
+  mentors:
+  - jafsia
+  keywords:
+  - Phase Field Modeling
+  - Density Functional Theory
+  - Machine Learning
+  - Material Science
+  - Solid Mechanics
 - name: Training Racialized Groups in the Faculty of Sciences on Digital Research
     Infrastructure (DRI) Utilization
   description: My learning goals are mastering data management, security, sharing,
     and privacy, frameworks, including data repository software/platform. Additionally,
     I would like to learn about data manipulation, visualization, and analysis using
     analytic tools and collaborative research software.
-  participants:
-  - musannagalib
-  mentors:
-  - jafsia
-  keywords:
-  - Phase Field Modeling,Density Functional Theory,Machine Learning,Material Science,Solid
-    Mechanics
-- name: Training 2SLGBTQIA+ researchers on Canadian digital research infrastructure
-    via social media outreach
-  description: I want to look how to be fully open in science - specifically at all
-    stages of a project. For me, this means from idea conception all the way to publishing.
   participants:
   - chiedozie12
   mentors:
@@ -517,13 +488,10 @@ skills for persons living with visible and invisible disabilities
   - Systematic Review
   - Meta-Analysis
   - Qualitative Research
-- name: Community Driven Accessible Mini-Courses and Workshops to Further the Uptake
-    of DRA DRI Resources
-  description: My major goal as an EDI champion in research is to obtain more experience
-    creating accessible educational materials. This material could be for the EDIA
-    champion project, or for my personal research. Additionally, my research goals
-    after the competition of my thesis are to make AI explanations more accessible
-    (e.g. for people who use screen readers), to make AI use more equitable.
+- name: Training 2SLGBTQIA+ researchers on Canadian digital research infrastructure
+    via social media outreach
+  description: I want to look how to be fully open in science - specifically at all
+    stages of a project. For me, this means from idea conception all the way to publishing.
   participants:
   - jgirgis01
   mentors:
@@ -533,6 +501,22 @@ skills for persons living with visible and invisible disabilities
   - Interpersonal Connection
   - Emotion
   - Music
+- name: Community Driven Accessible Mini-Courses and Workshops to Further the Uptake
+    of DRA DRI Resources
+  description: My major goal as an EDI champion in research is to obtain more experience
+    creating accessible educational materials. This material could be for the EDIA
+    champion project, or for my personal research. Additionally, my research goals
+    after the competition of my thesis are to make AI explanations more accessible
+    (e.g. for people who use screen readers), to make AI use more equitable.
+  participants:
+  - anemily-machina
+  mentors:
+  - joyceykao
+  keywords:
+  - Machine Learning
+  - Natural Language Processing
+  - Generative Ai
+  - Explainable Ai
 - name: Empowering Equity-Seeking Students Through DRI and High-Performance Computing
     Training
   description: As an EDI champion in research, my personal learning goals related
@@ -545,14 +529,15 @@ skills for persons living with visible and invisible disabilities
     for fostering inclusive collaboration in open science that actively reduces barriers
     for women, first-generation students, and geographically isolated researchers.
   participants:
-  - anemily-machina
+  - hamzahanif2210
   mentors:
-  - joyceykao
+  - ac812
   keywords:
-  - Machine Learning
-  - Natural Language Processing
-  - Generative Ai
-  - Explainable Ai,
+  - Particle Physics
+  - Physics
+  - Python
+  - Data Analysis
+  - Coding
 - name: A Holistic Dataset for Evaluating Bias in Large Language Models
   description: As an EDI champion, my personal learning goals include deepening my
     understanding of the ethical implications of data sharing and mastering methods
@@ -563,15 +548,15 @@ skills for persons living with visible and invisible disabilities
     regardless of gender, sexual orientation, or race. By focusing on these areas,
     I aim to contribute to a more inclusive and ethical open science community.
   participants:
-  - hamzahanif2210
+  - arashasg
   mentors:
-  - ac812
+  - complexbrains
   keywords:
-  - Particle Physics
-  - Physics
-  - Python
-  - Data Analysis
-  - Coding
+  - Ai Fairness
+  - Large Language Models
+  - Multi-Modal Models
+  - De-Biasing Ai Models
+  - Parameter Efficient Fine-Tuning Of Ai Models.
 - name: DRI EDIA Champions Collective
   description: As an EDI champion in research, my personal learning goals related
     to open science include deepening my understanding of how to make research processes
