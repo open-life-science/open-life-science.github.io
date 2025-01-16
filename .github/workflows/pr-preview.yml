@@ -1,37 +1,30 @@
-name: PR Preview Deployment
+# .github/workflows/preview.yml
+name: Deploy PR previews
 
 on:
   pull_request:
-    branches:
-      - main  # Trigger on PRs targeting the main branch
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
 
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-
-      - name: Install dependencies
+      - name: Install and Build
+        if: github.event.action != 'closed' 
         run: |
-          gem install bundler
-          bundle install
+          npm install
+          npm run build
 
-      - name: Build site
-        run: bundle exec jekyll build --destination ./_site
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
         with:
-          publish_dir: ./site
-          publish_branch: gh-pages
-          allow_empty_commit: true
-          cname: '' # Omit custom domain for PR preview
-
+          source-dir: ./build/
