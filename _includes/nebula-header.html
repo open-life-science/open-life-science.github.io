@@ -48,8 +48,15 @@
 
           <a class="navbar-item" href="{% link posts.md %}"> Stories </a>
 
-          <a class="navbar-item" href="{% link nebula/resources.md %}">Resources</a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="{% link nebula/resources.md %}">Resources</a>
+            <div class="navbar-dropdown">          
+            <a class="navbar-item" href="{% link nebula/nebula-cohort-procedures/nasa-certification.md %}">Certification Process</a>
+            <a class="navbar-item" href="{% link nebula/nebula-cohort-procedures/nebula-microgrants.md %}">Microgrants</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </nav>
+
