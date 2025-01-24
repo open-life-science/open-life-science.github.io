@@ -13,14 +13,14 @@ photos:
 
 We are pleased to announce that **[Sara Villa]({% link people.md %}#saravilla)** has joined the OLS team as our newest Resident Fellow!  
 
-## Sara, Resident Fellow
+## Sara, Senior Resident Fellow
 <div class="columns">
   <div class="column is-3" markdown="1">
   ![Image shows Sara Villa, a woman from Palencia, Spain. She has brown bangs, and is wearing a black tank top, with the strap of a black backpack slung over one shoulder. Sara is posing infront of some mountains in Picos de Europa National Park, with wide eyes and a broad smile!]({% link images/sara-villa-portrait.jpeg %})
   </div>
   <div class="column" markdown="1">
 
-Sara is a researcher with an Open Science obsession that has led her to work as mentor and trainer in programmes like OLS's [Open Seeds]({% link openseeds/index.md %}) and [NASA-TOPS](https://science.nasa.gov/open-science/) for the past years.
+Sara is a researcher with an Open Science obsession that has led her to work as mentor and trainer in programmes like OLS's [Open Seeds]({% link openseeds/index.md %}) and [Nebula](https://we-are-ols.org/nebula/) for the past years.
 She is very interested in **Research culture and Community building** and wants to bring all these skills to anyone involved in doing research. 
 
 Following the Turing Way motto, ‘*to make Reproducibility too easy not to do*’, she has become an ambassador for Open research at all levels and is very happy to speak up and train (herself and others) whenever needed. 
@@ -32,3 +32,16 @@ Her ambition is to leak Open Science skills all around Universities so people ca
 </div>
 
 Please join us in welcoming Sara in the OLS Slack!
+
+## Sara, Senior Fellow en OLS (Español)
+
+Nos entusiasma darle la bienvenida a **[Sara Villa]({% link people.md %}#saravilla)**, quien se une al equipo de OLS como Senior Fellow. 
+
+Sara es una investigadora cuya pasión por la Ciencia Abierta la ha llevado a ser mentora e instructora en los programas [Open Seeds]({% link openseeds/index.md %}) y [Nebula](https://we-are-ols.org/nebula/) de OLS. A Sara le interesan la **cultura de investigación en entornos académicos y la construcción de comunidades**, y aspira a acercar estas habilidades a todas las personas que hacen o apoyan la investigación. 
+
+Siguiendo la consigna de The Turing Way sobre hacer la *reproducibilidad demasiado fácil como para no hacerla*, Sara aboga por la investigación abierta en todos los niveles. Le encanta presentar y dar capacitaciones (y capacitarse) sobre el tema.
+
+Como Senior Fellow en OLS, Sara diseñará y desarrollará un programa de Open Seeds para la comunidad de la Facultad de Neurociencias en King's College London. Su meta es diseminar habilidad para la Ciencia Abierta en todas las universidades para que todas las personas puedan aprender tan pronto comienzen sus carreras científicas (¡aunque nunca es demasiado tarde!)
+
+¡Démosle la bienvenida a Sara en el Slack de OLS!
+
