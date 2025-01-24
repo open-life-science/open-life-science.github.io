@@ -16,7 +16,7 @@ We are pleased to announce that **[Sara Villa]({% link people.md %}#saravilla)**
 ## Sara, Resident Fellow
 <div class="columns">
   <div class="column is-3" markdown="1">
-  ![Image shows Sara Villa, a woman from Palencia, Spain. She has brown bangs, and is wearing a black tank top, with the strap of a black backpack slung over one shoulder. Sara is posing infront of some mountains in Picos de Europa National Park, with wide eyes and a broad smile!]({% link images/sara-villa-portrait.jpg %})
+  ![Image shows Sara Villa, a woman from Palencia, Spain. She has brown bangs, and is wearing a black tank top, with the strap of a black backpack slung over one shoulder. Sara is posing infront of some mountains in Picos de Europa National Park, with wide eyes and a broad smile!]({% link images/sara-villa-portrait.jpeg %})
   </div>
   <div class="column" markdown="1" style="direction: rtl; text-align: right;">
 
