@@ -4,11 +4,11 @@ title: Welcoming our new OLS Resident Fellow — Sara Villa
 authors:
 - saravilla
 - 
-image: https://images.unsplash.com/photo-1595853035070-59a39fe84de3
+image: https://images.unsplash.com/photo-1472313420546-a46e561861d8
 photos:
-  name: Sixteen Miles Out
+  name: Gustavo Quepón
   license: CC BY-SA 4.0
-  url: https://unsplash.com/@sixteenmilesout
+  url: https://unsplash.com/@unandalusgus
 ---
 
 We are pleased to announce that **[Sara Villa]({% link people.md %}#saravilla)** has joined the OLS team as our newest Resident Fellow!  
