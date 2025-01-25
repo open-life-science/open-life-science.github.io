@@ -11,7 +11,7 @@ photos:
   url: https://unsplash.com/@unandalusgus
 ---
 
-We are pleased to announce that **[Sara Villa]({% link people.md %}#saravilla)** has joined the OLS team as our newest Resident Fellow!  
+We are pleased to announce that **[Sara Villa]({% link people.md %}#saravilla)** has joined the OLS team as our newest Senior Resident Fellow!  
 
 ## Sara, Senior Resident Fellow
 <div class="columns">
@@ -25,7 +25,7 @@ She is very interested in **Research culture and Community building** and wants 
 
 Following the Turing Way motto, ‘*to make Reproducibility too easy not to do*’, she has become an ambassador for Open research at all levels and is very happy to speak up and train (herself and others) whenever needed. 
 
-As an OLS Resident fellow, **Sara will design and develop a tailored Open Seeds programme** for the [School of Neuroscience](https://www.kcl.ac.uk/neuroscience) community at King’s College London.
+As an OLS Resident Fellow, **Sara will design and develop a tailored Open Seeds programme** for the [School of Neuroscience](https://www.kcl.ac.uk/neuroscience) community at King’s College London.
 Her ambition is to leak Open Science skills all around Universities so people can learn about it as soon as possible in their scientific journey (but never too late!)
 
   </div>
@@ -41,7 +41,7 @@ Sara es una investigadora cuya pasión por la Ciencia Abierta la ha llevado a se
 
 Siguiendo la consigna de The Turing Way sobre hacer la *reproducibilidad demasiado fácil como para no hacerla*, Sara aboga por la investigación abierta en todos los niveles. Le encanta presentar y dar capacitaciones (y capacitarse) sobre el tema.
 
-Como Senior Fellow en OLS, Sara diseñará y desarrollará un programa de Open Seeds para la comunidad de la Facultad de Neurociencias en King's College London. Su meta es diseminar habilidad para la Ciencia Abierta en todas las universidades para que todas las personas puedan aprender tan pronto comienzen sus carreras científicas (¡aunque nunca es demasiado tarde!)
+Como Senior Fellow en OLS, Sara **diseñará y adaptará el programa de Open Seeds** para la comunidad de la [Facultad de Neurociencias](https://www.kcl.ac.uk/neuroscience) en King's College London. Su meta es diseminar habilidades para la Ciencia Abierta en todas las universidades para que cualquier persona pueda adquirirlas tan pronto comience su carrera científica (¡aunque nunca es demasiado tarde!).
 
 ¡Démosle la bienvenida a Sara en el Slack de OLS!
 
