@@ -11,7 +11,7 @@ photos:
   url: https://unsplash.com/@unandalusgus
 ---
 
-Nos entusiasma darle la bienvenida a **[Sara Villa]({% link people.md %}#saravilla)**, quien se une al equipo de OLS como Senior Fellow.
+¡Nos entusiasma darle la bienvenida a **[Sara Villa]({% link people.md %}#saravilla)**, quien se une al equipo de OLS como Senior Fellow!
 
 ## Sara, Senior Fellow en OLS (Español)
 <div class="columns">
@@ -30,10 +30,9 @@ Como Senior Fellow en OLS, Sara **diseñará y adaptará el programa de Open See
   </div>
 </div>
 
-### English
 We are pleased to announce that **[Sara Villa]({% link people.md %}#saravilla)** has joined the OLS team as our newest Senior Resident Fellow!
 
-## Sara, Senior Resident Fellow
+## Sara, Senior Resident Fellow (English)
 Sara is a researcher with an Open Science obsession that has led her to work as mentor and trainer in programmes like OLS's [Open Seeds]({% link openseeds/index.md %}) and [Nebula]({% link nebula/index.md %}) for the past years.
 She is very interested in **Research culture and Community building** and wants to bring all these skills to anyone involved in doing research. 
 
