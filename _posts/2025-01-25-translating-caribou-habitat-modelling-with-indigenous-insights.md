@@ -54,5 +54,5 @@ In the long term, I aim to expand this research to other lake-moderated islands 
 I look forward to maintaining ties with the OLS community, continuing to learn and contribute to open science. I have subscribed to their social media platforms and remain available for future learning and mentoring opportunities.
 
 ## Acknowledgments
-This work has been successful thanks to the guidance of my university supervisors, DRI EDIA/OLS instructors, and mentor Alejandro Coca-Castro. I also appreciate the financial support from the Ontario Ministry of Environment, Conservation and Parks (MECP) and the Digital Research Alliance of Canada (DRAC).
+This work has been successful thanks to the guidance of my university supervisors, DRI EDIA/OLS instructors, and mentor [Alejandro Coca-Castro]({% link people.md %}#acocac). I also appreciate the financial support from the Ontario Ministry of Environment, Conservation and Parks (MECP) and the Digital Research Alliance of Canada (DRAC).
 
