@@ -3,15 +3,17 @@ layout: post
 title: "Translating caribou habitat modelling with indigenous insights"
 authors:
 - melleason
-image: https://images.unsplash.com/photo-1472313420546-a46e561861d8
+image: https://images.unsplash.com/photo-1532288191429-2093e0783809
 photos:
-  name: Gustavo Quepón
+  name: Kym Ellis
   license: CC BY-SA 4.0
-  url: https://unsplash.com/@unandalusgus
+  url: https://unsplash.com/@kymellis
 ---
 
+This speedblog is part of the OLS-9 cohort, where participants explore open science principles while developing their projects. In this post, Melleason shares insights from their work on integrating indigenous knowledge with scientific methods to improve caribou habitat conservation on the Slate Islands.
+
 ## Project Background
-The International Union for Conservation of Nature (IUCN) maintains the Red List, which categorizes species from "Least Concern" to "Extinct" to highlight conservation priorities. Caribou are listed as "Vulnerable," raising significant conservation concerns. Within Lake Superior lies the Slate Islands, part of the traditional territory of the Biigtigong First Nation. These islands were once home to a thriving caribou population, which was extirpated from the area a few decades ago. There is an ongoing effort to reintroduce caribou to the Slate Islands, with a small number already introduced. However, two critical challenges persist:
+The International Union for Conservation of Nature (IUCN) maintains the Red List, which categorizes species from "Least Concern" to "Extinct" to highlight conservation priorities. The caribou is are listed as "Vulnerable," raising significant conservation concerns. Within Lake Superior lies the Slate Islands, part of the traditional territory of the Biigtigong First Nation. These islands were once home to a thriving caribou population, which was extirpated from the area a few decades ago. There is an ongoing effort to reintroduce caribou to the Slate Islands, with a small number already introduced. However, two critical challenges persist:
 
 1. The nature of the habitat, including historical changes and projected changes critical for caribou survival, remains poorly understood.
 2. Current conservation approaches rely heavily on scientific methods, such as remote sensing, limiting inclusiveness and failing to integrate the knowledge of Indigenous communities.
@@ -30,7 +32,7 @@ My project has two phases: remote sensing and social science. While awaiting Res
 
 * Completion of field survey of the Slate Islands to validate Landsat data.
 * Development of a current habitat map for the Slate Islands and habitat change map spanning 1984–2024.
-  *Participating in Indigenous festivals to build trust and strengthen relationships.
+* Participating in Indigenous festivals to build trust and strengthen relationships.
 * Completed an REB application for interviews.
 * Updating project information on my GitHub repository.
 
@@ -45,7 +47,8 @@ In the short term, I plan to:
 
 * Conduct interviews to incorporate Indigenous perspectives on forest changes and their impacts on wildlife.
 * Refine the habitat and habitat change maps by integrating Indigenous definitions and insights.
-  In the long term, I aim to expand this research to other lake-moderated islands and their Indigenous communities in southern Ontario.
+
+In the long term, I aim to expand this research to other lake-moderated islands and their Indigenous communities in southern Ontario.
 
 ## Staying Connected
 I look forward to maintaining ties with the OLS community, continuing to learn and contribute to open science. I have subscribed to their social media platforms and remain available for future learning and mentoring opportunities.
