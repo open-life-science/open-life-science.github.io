@@ -96,7 +96,7 @@ Facilitators work closely with the OLS organisers to manage and run cohort calls
 
 # Join us
 
-Our next offering will run on Tuesdays and Thursdays beginning **October 22, 2024, until November 28, 2024**. Sessions are scheduled at 16:00 - 17:30 (UTC). 
+Our next offering will run on Tuesdays and Thursdays beginning **February 24, 2025, until April 4, 2025**. Sessions are scheduled at 16:00 - 17:30 (UTC). 
 
 [Registration is now open!](https://events.humanitix.com/ols-nebula)
 
