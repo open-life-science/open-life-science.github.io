@@ -57,7 +57,7 @@ Our cohorts cover the Open Science 101 Curriculum Below are the topics covered i
 
 
 # Roles
-This program relies on the active involvements of our volunteer community, who share a passion for Open Research and bigger communities of in Open Science:
+This program relies on the active involvements of our volunteer community, who share a passion for Open Research and bigger communities in Open Science:
 
 * [Participants](#participants)
 * [Expert speakers and trainers](#experts)
