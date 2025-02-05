@@ -19,7 +19,7 @@ streams:
   -
     title: Nebula
     description: |
-      Nebula is currently paused whole the Open Science corriculum is refreshed. 
+      Nebula is currently paused whole the Open Science curriculum is refreshed. 
       
       Funded by [NASA](https://www.nasa.gov/), this work aims to deliver fully virtual training cohorts for the NASA open science curriculum with a highly qualitative component throughout the training. 
       
