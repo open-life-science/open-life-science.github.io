@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NASA TOPS Certification Process
+title: Nebula Certification Process
 image: https://images.unsplash.com/photo-1526212076326-45d0c30a89e8
 photos:
   name: Numendil
@@ -8,7 +8,9 @@ photos:
   url: https://images.unsplash.com/photo-1526212076326-45d0c30a89e8
 ---
 
-**Congratulations!** Upon graduating from [Nebula](https://we-are-ols.org/nebula/) or [Open Seeds](https://we-are-ols.org/openseeds/), you will earn a NASA TOPS Badge via [Credly](https://www.credly.com/organizations/nasa-tops/badges) certifying your knowledge of Open Science best practices. Please follow these steps to finalize the certification process. 
+**Congratulations!** Upon graduating from [Nebula](https://we-are-ols.org/nebula/) or [Open Seeds](https://we-are-ols.org/openseeds/), you will earn a NASA Badge via [Credly](https://www.credly.com/organizations/nasa-tops/badges) certifying your knowledge of Open Science best practices. Please follow these steps to finalize the certification process. 
+
+# This process is hibernating while Nebula is on pause
 
 ## Steps to claim your NASA certificate
 
