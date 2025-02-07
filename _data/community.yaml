@@ -6,10 +6,8 @@ team:
     - yochannah
     - tajuddeen1
     - pherterich
-    - msundukova
     - npdebs
     - jilaga
-    - flavioazevedo
     - bethaniley
     - camille-gonz-va
     - iramosp
@@ -18,7 +16,9 @@ team:
     - doaamkader
   alumni:
     - emmyft
-    - pazbc    
+    - pazbc   
+    - flavioazevedo
+    - msundukova
 governance:
   - anelda
   - batoolmm
@@ -105,7 +105,7 @@ sponsors:
   -
     organization: university-manchester
     details: |
-      The University of Manchester is Yo's Ph.D. research affiliation.
+      The University of Manchester was Yo's EngD research affiliation.
 fiscal_communities:
   -
     organization: RSE-AUNZ
