@@ -260,6 +260,8 @@ Tooling for Project Design:
       speakers:
       - graciellehigino
       title: Open Canvas
+      recording: 
+        https://www.youtube.com/watch?v=gQx-au72h04&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=3
       date: October 15, 2024
       cohort: ols-9-dra
   Project Roadmapping:
@@ -496,10 +498,15 @@ Tooling for Collaboration:
       title: A Primer on Open Licenses
       date: October 09, 2024
       cohort: ols-9-catalyst
-    - title: A Primer on Open Licenses
+    - slides: 
+        https://docs.google.com/presentation/d/1R8KHApMAH5Gb4h6L74JcjwrkovrX0d8V/edit?usp=drive_link&ouid=101082273592879353430&rtpof=true&sd=true
+      speakers:
+      - malvikasharan
+      title: A Primer on Open Licenses
+      recording: 
+        https://www.youtube.com/watch?v=LAqxVNMwAWs&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=5
       date: October 17, 2024
       cohort: ols-9-dra
-      speakers: []
   README:
     description: Making your project welcoming for others
     talks:
@@ -575,10 +582,13 @@ Tooling for Collaboration:
       title: 'ReadMe files: how to make your project welcoming to others'
       date: October 09, 2024
       cohort: ols-9-catalyst
-    - title: 'ReadMe files: how to make your project welcoming to others'
+    - slides: 
+        https://docs.google.com/presentation/d/1ztDX91gBoARjCW2CdNgAIw8CLH_tnQEIIPr1HL-2Nj4/edit#slide=id.g7e28a7e96f_0_0
+      speakers:
+      - graciellehigino
+      title: 'ReadMe files: how to make your project welcoming to others'
       date: October 17, 2024
       cohort: ols-9-dra
-      speakers: []
   Code of Conduct:
     description: Setting norms and expectations for a team/community
     talks:
@@ -645,15 +655,19 @@ Tooling for Collaboration:
       title: Designing and enforcing a Code of Conduct
       date: October 11, 2023
       cohort: ols-8
-    - speakers:
+    - slides: https://drive.google.com/file/d/16WN14BpBug8Op3ekhlhIZH12Bv5Nyxha/view
+      speakers:
       - karinlag
       title: Designing and enforcing a Code of Conduct
       date: October 09, 2024
       cohort: ols-9-catalyst
-    - title: Designing and enforcing a Code of Conduct
+    - slides: 
+        https://docs.google.com/presentation/d/1odoA9cJTIizcyhQU7Uvy6Fr8d_fic2FMqyoG73BDBaE/edit?usp=drive_link
+      speakers:
+      - malvikasharan
+      title: Designing and enforcing a Code of Conduct
       date: October 17, 2024
       cohort: ols-9-dra
-      speakers: []
   GitHub Introduction:
     description: Sharing your project through online repositories
     talks:
@@ -742,17 +756,20 @@ Tooling for Collaboration:
       title: Setting up a project
       date: October 09, 2024
       cohort: ols-9-catalyst
-    - title: Setting up a project
+    - slides: 
+        https://docs.google.com/presentation/d/1nLnTciwCIauAn87Kw26DtatNJc7s2Wph/edit?usp=drive_link&ouid=101082273592879353430&rtpof=true&sd=true
+      speakers:
+      - malvikasharan
+      title: Setting up a project
       date: October 17, 2024
       cohort: ols-9-dra
-      speakers: []
   Good Coding Practices:
     description: Tips and practices for ensuring good quality code
     talks:
     - slides: 
         https://drive.google.com/file/d/1w8AUnsbwSpqfEK0YxKmSZGIeIlEbppSN/view?usp=share_link
       speakers:
-      - gemmaturon
+      - 
       title: Code style, testing
       recording: https://youtu.be/n3JkOyt6bRM?t=271
       date: November 30, 2022
@@ -771,6 +788,13 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=416
       date: November 29, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/122OcEk4tYbo5ZI4isS4KbOYxGFiTBesR/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - laitanawe
+      title: 'Good Coding Practices '
+      date: November 13, 2024
+      cohort: ols-9-catalyst
   Code Review:
     description: Reviewing code to help improve your code quality
     talks:
@@ -796,6 +820,13 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=1437
       date: November 29, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/1ybkgxS1W4_6cDakrEin3R7LYqYrUSWdLHErFsuyfsSY/edit?usp=sharing
+      speakers:
+      - gedankenstuecke
+      title: Code Review
+      date: November 13, 2024
+      cohort: ols-9-catalyst
   Package Management:
     description: Software environment for research reproducibility
     talks:
@@ -805,6 +836,13 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=2890
       date: November 29, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/1ewt5jgfs7q5xO_fMOmoT08sV4iMGBNV_/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - nanjalaruth
+      title: Package Managements
+      date: November 13, 2024
+      cohort: ols-9-catalyst
 Open Science:
   Open Science Introduction:
     description: Sharing knowledge for the global access
@@ -853,7 +891,7 @@ Open Science:
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vS0ZySNlYJ0UDxqhrdJ9Zt-TO3fp2AZcewUPrFfrmHgBkq1xK7-KIGZ6w3t-zMTCA/pub?start=false&loop=false&delayms=3000
       speakers:
-      - 
+      - malvikasharan
       title: Open Science Introduction
       date: October 23, 2024
       cohort: ols-9-dra
@@ -906,6 +944,13 @@ Open Science:
       date: December 06, 2023
       cohort: ols-8
       title: Open Hardware
+    - slides: 
+        https://docs.google.com/presentation/d/1imWncM5e89pfh5Qrk4znyX8jPCTclyME/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - 
+      title: Open Hardware
+      date: December 04, 2024
+      cohort: ols-9-catalyst
   Open Source Software:
     description: Making analysis reproducible with open source code
     talks:
@@ -1023,6 +1068,12 @@ Open Science:
       date: December 06, 2023
       cohort: ols-8
       title: Open Source Software
+    - slides: https://www.canva.com/design/DAGWRP6oCJo/WQJPvIjiN0AYwFuZF4WNUA/edit
+      speakers:
+      - 
+      title: Open Source Software
+      date: November 20, 2024
+      cohort: ols-9-catalyst
   Open Data:
     description: Making data findable, accessible, interoperable, reusable
     talks:
@@ -1198,6 +1249,13 @@ Open Science:
       recording: https://youtu.be/NxWpBicnqC0?si=PqoCZ1lNQLwo5n7s&t=205
       date: November 21, 2023
       cohort: ols-8
+    - slides: 
+        https://drive.google.com/file/d/16MekAM6V4tRaMiIMBsBEv5vblVnJsVuY/view?usp=drive_link
+      speakers:
+      - lauracarter
+      title: Open Engagement of Social Actors
+      date: December 04, 2024
+      cohort: ols-9-catalyst
     - title: Open Engagement of Social Actors
       date: November 20, 2024
       cohort: ols-9-dra
@@ -1266,10 +1324,13 @@ Open Science:
       title: Open Educational Resources
       date: October 23, 2024
       cohort: ols-9-catalyst
-    - title: Open Educational Resources
+    - slides: 
+        https://docs.google.com/presentation/d/1moP7pEBHYZjz7DXF5bs5ih-wbZXqyfCLtCA9zn-TO_o/edit#slide=id.p1
+      speakers:
+      - godwyns-onwuchekwa
+      title: Open Educational Resources
       date: November 20, 2024
       cohort: ols-9-dra
-      speakers: []
   Open Access Publication:
     description: Removing barriers to knowledge access
     talks:
@@ -1332,10 +1393,20 @@ Open Science:
       recording: https://youtu.be/NxWpBicnqC0?si=sPc3fbZXk5l4zFu8&t=3733
       date: November 21, 2023
       cohort: ols-8
-    - title: Open Access Publication
+    - slides: 
+        https://docs.google.com/presentation/d/1whXW6pH_wLXZ9YG7IgSNAlK49mvMTz-A/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - 
+      title: Open Access Publication
+      date: November 20, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vRgR1sW1vl102Z7WapmavfGnpG1Kga_j8VwR1nMUNY2Z9Ktm8nKZMwWtUFqwhwM-g/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - 
+      title: Open Access Publication
       date: November 20, 2024
       cohort: ols-9-dra
-      speakers: []
   Open Evaluation:
     description: Open peer review and research evaluation
     talks:
@@ -1378,6 +1449,13 @@ Open Science:
       title: Why open reviews?
       date: October 24, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/1moP7pEBHYZjz7DXF5bs5ih-wbZXqyfCLtCA9zn-TO_o/edit?usp=sharing
+      speakers:
+      - godwyns-onwuchekwa
+      title: Open Review and Open Evaluation
+      date: November 20, 2024
+      cohort: ols-9-catalyst
     - title: Why open reviews?
       date: October 23, 2024
       cohort: ols-9-dra
@@ -1411,6 +1489,13 @@ Open Science:
         networks?
       date: October 24, 2023
       cohort: ols-8
+    - slides: 
+        https://docs.google.com/presentation/d/1Hkn8tTVzzEet7E68_UeZK1lTLe0Pf623jOPa0aJA0xQ/edit?usp=sharing
+      speakers:
+      - 
+      title: 'Diversity of knowledge: Bibliodiversity'
+      date: December 04, 2024
+      cohort: ols-9-catalyst
     - title: How do we learn from each other in global large-scale collaborative research
         networks?
       date: October 23, 2024
@@ -1618,10 +1703,20 @@ Project, Community & Personal Management:
       title: "Mountain of Engagement\r\n"
       date: November 08, 2023
       cohort: ols-8
-    - title: "Mountain of Engagement\r\n"
+    - slides: 
+        https://docs.google.com/presentation/d/1eJXU9hQeAc7tY-jvL5LwZ-fufvEZJO6HSkAdia3liAc/edit#slide=id.g31274b3ee7b_0_42
+      speakers:
+      - kirstiejane
+      title: Mountain of Engagement
+      date: November 06, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/1eJXU9hQeAc7tY-jvL5LwZ-fufvEZJO6HSkAdia3liAc/edit?usp=sharing
+      speakers:
+      - kirstiejane
+      title: "Mountain of Engagement\r\n"
       date: November 06, 2024
       cohort: ols-9-dra
-      speakers: []
   Personas & Pathways:
     description: Taking people's experiences and expectations in planning our projects
     talks:
@@ -1674,14 +1769,24 @@ Project, Community & Personal Management:
       date: April 19, 2023
       cohort: ols-7
     - speakers:
-      - fadanka
+      - 
       title: Personas and Pathways
       date: November 08, 2023
       cohort: ols-8
-    - title: Personas and Pathways
+    - slides: 
+        https://docs.google.com/presentation/d/1Ci9N89fFxWwAOkzllTDftcHnhQ4J_h4lERT8p8yTG1I/edit#slide=id.g21280744133_2_2
+      speakers:
+      - 
+      title: Personas and Pathways
+      date: November 06, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/1Ci9N89fFxWwAOkzllTDftcHnhQ4J_h4lERT8p8yTG1I/edit#slide=id.g21280744133_2_2
+      speakers:
+      - 
+      title: Personas and Pathways
       date: November 06, 2024
       cohort: ols-9-dra
-      speakers: []
   Personal Ecology:
     description: Sustaining our energy as individuals and leaders
     talks:
@@ -1744,10 +1849,12 @@ Project, Community & Personal Management:
       title: Personal Ecology and Self Care
       date: December 14, 2023
       cohort: ols-8
-    - title: Open Science Garden(s)
-      date: December 04, 2024
-      cohort: ols-9-dra
-      speakers: []
+    - slides: https://doi.org/10.5281/zenodo.14446699
+      speakers:
+      - malvikasharan
+      title: Welcome
+      date: November 27, 2024
+      cohort: ols-9-catalyst
   Ally Skills for Open Leaders:
     description: Using your privilege to step up for others
     talks:
@@ -1828,10 +1935,16 @@ Project, Community & Personal Management:
       title: 'Community Interaction '
       date: November 08, 2023
       cohort: ols-8
-    - title: 'Community Interaction '
+    - speakers:
+      - chartgerink
+      title: 'Community Interaction '
+      date: November 06, 2024
+      cohort: ols-9-catalyst
+    - speakers:
+      - chartgerink
+      title: 'Community Interaction '
       date: November 06, 2024
       cohort: ols-9-dra
-      speakers: []
   Community Design for Inclusivity:
     description: Creating inclusive projects that are welcoming for others
     talks:
@@ -2021,7 +2134,7 @@ Open Leadership:
       cohort: ols-8
       speakers: []
     - speakers:
-      - gemmaturon
+      - 
       date: November 14, 2023
       cohort: ols-8
       title: Open Leadership in Practice
@@ -2102,10 +2215,55 @@ Not sorted:
       title: Introduction to GitHub
       date: October 16, 2024
       cohort: ols-9-catalyst
-    - title: GitHub for Collaboration
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vSEfshqEIVtV81kuKFQL00-TtjfTjBA6OBXkEs_VixJ0ptJXE5Nued6-bBKPSkjUA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - tajuddeen1
+      title: Community Design for Inclusivity
+      date: November 06, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vRvZgO4mhul2N575YsayBI1EFDmCIneKg47A9YAXRS8PMafLUgQ8s3COoL86I6XuQ/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - tajuddeen1
+      title: Open-source software in practice
+      date: November 13, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vQiOSkedwkI8IkMCL_gWJ_qevHZhcHej6PP8otv7BPFoBRqJiEU8BGpc1V6d2Y7jg/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - malvikasharan
+      title: Open Science Garden(s)
+      date: November 20, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vTx3oylG4TpcsIXJPXuvNluZSdqJZoRI_6b76Lv5VgdyvymmE91gU1x-MfKCnvwdg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - malvikasharan
+      title: Open Science Garden(s)
+      date: December 04, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vR8bJ7D5CLi-3q2OMBAr_o1cJibfro6sxTLDC5yHnmLT2dMhc-t0Kti4CvAEYfYaA/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - malvikasharan
+      title: Diversity, inclusion and ally skills
+      date: December 11, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vS5KtbjV4cfDMIvfwwkBGAnXVOo1YPVEW0ToaaMqao28Nlhw67avPaXno0ubcEc8G2wc-bZ2Q1t0y17/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - yochannah
+      title: 'Ally Skills: Stepping up as an ally'
+      date: December 11, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vT5ErsPBpTC-KPMIBVSqYYCbPaMk7Cd6cMI3CpJPZbElR6VXepB3EIPTd7LRmjWOg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - npdebs
+      title: GitHub for Collaboration
       date: October 16, 2024
       cohort: ols-9-dra
-      speakers: []
     - title: Vision statement
       date: October 17, 2024
       cohort: ols-9-dra
@@ -2125,23 +2283,69 @@ Not sorted:
       date: November 06, 2024
       cohort: ols-9-dra
       speakers: []
-    - title: Good Coding Practices
+    - slides: 
+        https://docs.google.com/presentation/d/122OcEk4tYbo5ZI4isS4KbOYxGFiTBesR/edit?rtpof=true
+      speakers:
+      - laitanawe
+      title: Good Coding Practices
       date: November 13, 2024
       cohort: ols-9-dra
-      speakers: []
-    - title: Code Review
+    - slides: 'https://docs.google.com/presentation/d/1ybkgxS1W4_6cDakrEin3R7LYqYrUSWdLHErFsuyfsSY/edit?usp=sharing '
+      speakers:
+      - gedankenstuecke
+      title: Code Review
       date: November 13, 2024
       cohort: ols-9-dra
-      speakers: []
-    - title: Package Managements
+    - slides: 
+        https://docs.google.com/presentation/d/1ewt5jgfs7q5xO_fMOmoT08sV4iMGBNV_/edit#slide=id.p1
+      speakers:
+      - nanjalaruth
+      title: Package Managements
       date: November 13, 2024
       cohort: ols-9-dra
-      speakers: []
     - title: Open Science Garden(s)
       date: November 20, 2024
       cohort: ols-9-dra
       speakers: []
-    - title: Personal Ecology and Self Care
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vQauxZDXOqjlTXVJv808KylMrn1Up7y4NSBqp_Ny-HByDJahgVfaHaAN6-xYdi6kA/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - msundukova
+      title: Personal Ecology and Self Care
       date: November 27, 2024
       cohort: ols-9-dra
-      speakers: []
+    - slides: 
+        https://docs.google.com/presentation/d/1imWncM5e89pfh5Qrk4znyX8jPCTclyME/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+      speakers:
+      - 
+      title: Open Hardware
+      date: December 04, 2024
+      cohort: ols-9-dra
+    - slides: 
+        https://drive.google.com/file/d/16MekAM6V4tRaMiIMBsBEv5vblVnJsVuY/view?usp=drive_link
+      speakers:
+      - lauracarter
+      title: Open Engagement of Social Actors
+      date: December 04, 2024
+      cohort: ols-9-dra
+    - slides: 
+        https://docs.google.com/presentation/d/1Hkn8tTVzzEet7E68_UeZK1lTLe0Pf623jOPa0aJA0xQ/edit?usp=sharing
+      speakers:
+      - 
+      title: 'Diversity of knowledge: Bibliodiversity'
+      date: December 04, 2024
+      cohort: ols-9-dra
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vR8bJ7D5CLi-3q2OMBAr_o1cJibfro6sxTLDC5yHnmLT2dMhc-t0Kti4CvAEYfYaA/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - malvikasharan
+      title: Diversity, inclusion and ally skills
+      date: December 11, 2024
+      cohort: ols-9-dra
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vS5KtbjV4cfDMIvfwwkBGAnXVOo1YPVEW0ToaaMqao28Nlhw67avPaXno0ubcEc8G2wc-bZ2Q1t0y17/pub?start=false&loop=false&delayms=3000
+      speakers:
+      - yochannah
+      title: 'Ally Skills: Stepping up as an ally'
+      date: December 11, 2024
+      cohort: ols-9-dra
