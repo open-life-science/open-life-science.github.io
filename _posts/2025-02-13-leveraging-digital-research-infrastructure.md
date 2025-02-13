@@ -50,7 +50,7 @@ By providing training and resources, this project aims to empower underrepresent
 We anticipate engaging over 100 individuals from equity-seeking groups, including Indigenous communities, racialized researchers, and first-generation post-secondary students. 
 By measuring the impact of these activities, we aim to demonstrate how DRI can drive innovation and inclusivity in environmental research.
 
-## Open Life Science (OLS) Mentoring Program
+## The OLS "Open Seeds" Mentoring Program
 The [Open Seeds program](https://we-are-ols.org/openseeds/) is a 16-week personal mentorship and cohort-based training designed to empower individuals to become Open Science ambassadors in their communities. As part of the OLS-9 cohort, I have had the opportunity to:
 1. **Share expertise and gain knowledge** essential for creating, leading, and sustaining Open Science projects.
 2. **Connect with a diverse network** of mentors, experts, and peers from various backgrounds and identities.
