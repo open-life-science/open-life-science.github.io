@@ -51,7 +51,7 @@ We anticipate engaging over 100 individuals from equity-seeking groups, includin
 By measuring the impact of these activities, we aim to demonstrate how DRI can drive innovation and inclusivity in environmental research.
 
 ## Open Life Science (OLS) Mentoring Program
-The [OLS program](https://we-are-ols.org/openseeds/) is a 16-week personal mentorship and cohort-based training designed to empower individuals to become Open Science ambassadors in their communities. As part of the OLS-9 cohort, I have had the opportunity to:
+The [Open Seeds program](https://we-are-ols.org/openseeds/) is a 16-week personal mentorship and cohort-based training designed to empower individuals to become Open Science ambassadors in their communities. As part of the OLS-9 cohort, I have had the opportunity to:
 1. **Share expertise and gain knowledge** essential for creating, leading, and sustaining Open Science projects.
 2. **Connect with a diverse network** of mentors, experts, and peers from various backgrounds and identities.
 3. **Develop leadership skills** to effectively advocate for Open Science principles and practices.
