@@ -3,11 +3,11 @@ layout: post
 title: Leveraging Digital Research Infrastructure for Environmental DNA Tools in Monitoring Indigenous Territories.
 authors:
 - mldlopez
-image: 
+image: https://images.unsplash.com/photo-1511884642898-4c92249e20b6
 photos:
-  name: 
+  name: Pine Watt
   license: CC BY-SA 4.0
-  url: 
+  url: https://unsplash.com/@pinewatt
 ---
 
 As a freshwater biologist and molecular ecologist, my work has always centered on advancing environmental monitoring and conservation science. 
