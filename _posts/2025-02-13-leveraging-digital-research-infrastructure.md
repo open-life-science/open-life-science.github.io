@@ -10,6 +10,8 @@ photos:
   url: https://unsplash.com/@pinewatt
 ---
 
+*This speedblog, written by [Mark Louie Lopez](https://marklouielopez.weebly.com/), is part of the OLS-9 cohort.*
+
 As a freshwater biologist and molecular ecologist, my work has always centered on advancing environmental monitoring and conservation science. 
 Over the years, I have had the privilege of contributing to this field through research outputs, collaborations, and community engagement. 
 One of the most exciting projects I am currently involved in is the development of environmental DNA (eDNA) tools for biodiversity monitoring in Indigenous lands, supported by the [Digital Research Alliance of Canada's DRI EDIA pilot program](https://alliancecan.ca/en/initiatives/dri-investments). 
