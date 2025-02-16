@@ -22,6 +22,7 @@ This was my first time attending FOSDEM in person. Last year, I had only given a
 ## Organiser
 Meeting long-time organisers of the Open Research Devroom was a learning experience. I was exposed to the challenges of scheduling online talks across different time zones and learned how to use Pretalx for reviewing abstracts and proposals.
 
+![ADD ALT](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Kzylq99OMN7J1pAfVu6urg.jpeg)
 
 One of my small but exciting contributions was adding the schedule to the website and enhancing it with a little CSS for better aesthetics and UX.
 
@@ -30,14 +31,16 @@ I also got to experience the subtle power of keeping speakers on schedule — ho
 ## Speaker
 I gave a lightning talk on Pre-seeds, sharing early insights from our ongoing survey on underrepresented groups in research. We have a small team working on this, with a roadmap in place and a survey aimed at understanding what people want in a course like Pre-seeds. This was a great opportunity to showcase our progress and gather feedback.
 
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vqSSuDnOMUtDBjY9fpoEQw.jpeg)
 
 ## Attendee
 ### Day 1: Open Research Devroom
 Some of the standout talks were:
 
-“Applying the ‘Do No Harm’ Principle to Open Source Practices and Technology” —
+1. “Applying the ‘Do No Harm’ Principle to Open Source Practices and Technology” —
 This talk drew inspiration from the Hippocratic Oath, where doctors swear to do no harm. It made me reflect on how, while we can’t prevent all harm in open source, we should strive to minimise intentional and avoidable harm. Dr. Malvika Sharan discussed how openness — our invitation for people to use, remix, and build on our work — can sometimes perpetuate harm. This thought-provoking session initiated deeper discussions about the ethical aspects of open science and responsible research practices.
 
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QMdTl1zvQ6_9U3bMq-p0Dw.jpeg)
 
 2. JOSSCast: Experimenting with Storytelling in Open Research —
 
@@ -49,6 +52,7 @@ The highlights of my day were:
 1. “Storytelling, Networking, and Strategy: Three Keys to Successful Fundraising” by Amy Parker.
 This was easily my favorite session of the day. She broke down fundraising success into three key components: “the right ask (Storytelling) to the right person (Networking) at the right time (Strategy).” It was a brilliant talk on how to align these elements to secure funding.
 
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pMs2GAQEaVw4HFLn_7zHuA.jpeg)
 
 2. Funders Devroom organisers AMA Session
 
@@ -73,11 +77,17 @@ Also, I can’t not mention ‘sticker heaven’ — There was an entire section
 One of the best parts of FOSDEM was reconnecting with friends and meeting new people:
 
 - My friend and SSI brother, David Luiz, gave me the most amazing hug — thank you!
+
 - Sara Petti and I snuck into the Funders Devroom, sat through talks, and chatted about life.
+
 - Malvika Sharan treated me to lunch on both days, unaware of how much that “small” gesture meant to me. Thank you for the book!
 
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KVuYrgvglu346wGSjyVVYA.jpeg)
+
 - Meeting the Open Research Devroom team in person was great too, as they were all welcoming and kind.
+
 - I finally got to chat with Ruth Ikegah, someone I’ve admired from afar for her efforts to represent Africa in tech.
+
 - The GitHub Maintainers Afterparty was another highlight — I hung out with Duncan Hall and met Ruth Cheesley, whose calm demeanor was exactly what I needed after two intense days of FOSDEM-ing.
 
 ## Finally…
@@ -88,3 +98,6 @@ I also can’t attend the German RSE Conference (25–27th) to present my poster
 Despite the challenges of getting to FOSDEM’25, it was worth every moment. From speaking and organising to attending brilliant sessions and making meaningful connections, this experience will stay with me for a long time.
 
 Until next time, Brussels! 🧇🇧🇪
+
+
+(To-do: Alt; Link to mentioned community members)
