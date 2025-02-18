@@ -31,7 +31,7 @@ weeks:
     - title: DRI-EDIA champions announced!
       type: Cohort
     - duration: 60 min
-      title: Facilitators onboarding and training
+      title: Facilitator's onboarding and training
       type: Skill-up
   '02':
     start: September 23, 2024
@@ -70,10 +70,9 @@ weeks:
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vTxrD0vmllLHMYB4b0WKrxUqaffwAV-Ee6ph9JYfTONLpcTAneXAJAb_4pyhO4JE8RMCXMBPS7kD-uK/pub?start=false&loop=false&delayms=3000
         title: Introduction to Open Seeds
-        recording: 'https://youtu.be/KPaMMHLQk6c '
         tag: OLS Introduction
       recording: 
-        https://www.youtube.com/watch?v=KPaMMHLQk6c&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=1&t=194s
+        https://www.youtube.com/watch?v=KPaMMHLQk6c&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=1
       learning_objectives:
       - Introduce you to OLS's Open Seeds
       - Introduce you to the OLS team
@@ -81,10 +80,10 @@ weeks:
       - Have a few breakout discussions for you to speak with your peers
       - Make sure your questions regarding your participation in OLS are answered
       after:
-      - 'Self-assessment - what are your strengths and areas for development in open
-        science: [https://docs.google.com/document/u/1/d/1hnwOWjpssgRc-YYk5b-j3f3Y92bxcO\_D/copy](https://docs.google.com/document/u/1/d/1hnwOWjpssgRc-YYk5b-j3f3Y92bxcO\_D/copy)'
-      - 'Create a vision statement for your project: [https://docs.google.com/document/d/1RrraS0C4vZ6cpnbRsu65uoMKJbru5Vun/copy](https://docs.google.com/document/d/1RrraS0C4vZ6cpnbRsu65uoMKJbru5Vun/copy)'
-      - 'Personal Reflection exercise: Reflecting on our role as a mentee: [https://docs.google.com/document/d/16ISQefxsD76oGtj\_gT5T4eYD6oz8adh2Dm5nDKD\_8VY/copy](https://docs.google.com/document/d/16ISQefxsD76oGtj\_gT5T4eYD6oz8adh2Dm5nDKD\_8VY/copy)'
+      - '[Self-assessment - what are your strengths and areas for development in open
+        science](https://docs.google.com/document/u/1/d/1hnwOWjpssgRc-YYk5b-j3f3Y92bxcO\_D/copy)'
+      - '[Create a vision statement for your project](https://docs.google.com/document/d/1RrraS0C4vZ6cpnbRsu65uoMKJbru5Vun/copy)'
+      - '[Personal Reflection exercise: Reflecting on our role as a mentee](https://docs.google.com/document/d/16ISQefxsD76oGtj\_gT5T4eYD6oz8adh2Dm5nDKD\_8VY/copy)'
     - date: October 11, 2024
       time: "16:00"
       duration: 60 min
@@ -111,22 +110,65 @@ weeks:
     - date: October 15, 2024
       time: "16:00"
       duration: 180 min
-      notes:
-      title: Welcome to Open Seeds
+      notes: https://annuel2.framapad.org/p/ols-9-week-05
+      title: Tooling for Project Design
+      hosts:
+      - malvikasharan
       type: Cohort
+      learning_objectives:
+      - Identify ways for newcomers to quickly understand what the project is about,
+        who can be involved, and where the work is headed
+      - Fill the open canvas for your project to think through an open project strategy
+        to develop an MVP
+      - Reflect on the roadmap for your project with milestones - start drafting them
+        with descriptions and tasks
+      - After this call, develop documentation and resources for your project and
+        share them with others
+      before:
+      - 'Carry out self-assessment: https://docs.google.com/document/u/1/d/1hnwOWjpssgRc-YYk5b-j3f3Y92bxcO_D/copy'
+      - 'Create a vision statement for your project: https://docs.google.com/document/d/1RrraS0C4vZ6cpnbRsu65uoMKJbru5Vun/copy'
       talks:
+      - slides: 'https://doi.org/10.5281/zenodo.14268572'
+        speakers:
+        - malvikasharan
+        title: Open Leadership in Open Science
+        tag: Open Leadership in Practice
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
-        title: Introduction to Open Seeds
-        tag: OLS Introduction
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
+          https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/pub?start=false&loop=false&delayms=3000
+        speakers:
+        - malvikasharan
         title: Tooling for Project Design Introduction
         tag: Tooling for Project Design Introduction
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
+      - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub '
+        speakers:
+        - graciellehigino
         title: Open Canvas
+        recording: 
+          https://www.youtube.com/watch?v=gQx-au72h04&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=3
         tag: Open Canvas
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRME4NPdc7Tx528-p3Veo8wN5galMpVK0PhY7v4IpHXbBQQFmBpyjmSMOoXwAqr5Fyo27mbzC2IaTQL/pub
+        speakers:
+        - graciellehigino
+        title: Introducing Project Roadmapping
+        tag: Project Roadmapping
+      hosts:
+      - malvikasharan
+      recording: 
+        https://www.youtube.com/watch?v=riBa5faSNIs&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=2
+      after:
+      - "Open an issue on the Open Seeds repo where you will be able to track your
+        progress in this cohort. Have a look at the OLS repository for examples of
+        'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-9/issues)"
+      - Reflect on your role as a mentee using [reflection 
+        notes](https://docs.google.com/document/d/16ISQefxsD76oGtj_gT5T4eYD6oz8adh2Dm5nDKD_8VY/copy)
+      - Complete this compare and contrast assignment about current and desired [community
+        interactions and value 
+        exchanges](https://docs.google.com/document/d/13ZqbX3dV3ENfRDBqI_uW_qpwMpRQINKGjhPOcsYCQgs/copy)
+      - Continue working on your [Open 
+        Canvas](https://docs.google.com/presentation/d/1l0XShyo_FjXIah3hr95QpOHCDlJKpXDp/copy)
+      - Start your 
+        [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)  
     - date: October 16, 2024
       time: "16:00"
       duration: 90 min
@@ -144,13 +186,13 @@ weeks:
       - 'Please create a GitHub account: [https://github.com](https://github.com)'
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vT5ErsPBpTC-KPMIBVSqYYCbPaMk7Cd6cMI3CpJPZbElR6VXepB3EIPTd7LRmjWOg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+          https://doi.org/10.5281/zenodo.14268644
         speakers:
         - npdebs
         title: GitHub for Collaboration
       - title: Introduction to GitHub
         tag: GitHub Introduction
-      - title: Creating a small website with GitHub
+      - title: Creating a Small Website with GitHub
         tag: GitHub Introduction
       hosts:
       - tajuddeen1
@@ -158,16 +200,25 @@ weeks:
         https://www.youtube.com/watch?v=r3skZL5-NVs&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=6
       after:
       - Update your project issue by sharing your vision statement and project roadmap
-      - Comment on other people's project issues - giving feedbacl on their recent
+      - Comment on other project issues - giving feedback on their recent
         posts (vision, open canvas etc.) and inviting collaboration where possible
     - date: October 17, 2024
       time: "16:00"
       duration: 180 min
       title: Tooling for Open Collaboration
       type: Cohort
+      learning_objectives:
+      - Identify essential files to add to a collaborative project
+      - Explain why you need to select a license for an open project
+      - Select the best license for your project
+      - Write a clean and welcoming README file
+      - Discuss about Code of Conduct
+      before:
+      - Bring along your vision statement to share with others
+      - Create a GitHub repository for your project, if not created one already
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/1nLnTciwCIauAn87Kw26DtatNJc7s2Wph/edit?usp=drive_link&ouid=101082273592879353430&rtpof=true&sd=true
+          https://doi.org/10.5281/zenodo.14268608
         speakers:
         - malvikasharan
         title: Setting up a project
@@ -192,16 +243,10 @@ weeks:
         - malvikasharan
         title: Designing and enforcing a Code of Conduct
         tag: Code of Conduct
-      - title: Vision statement
-      learning_objectives:
-      - Identify essential files to add in a collaborative project
-      - Explain why you need to select a license for an open project
-      - Select the best license for your project
-      - Write a clean and welcoming README file
-      - Discuss about Code of Conduct
+        recording: 
+          https://www.youtube.com/watch?v=LAqxVNMwAWs&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=5
       after:
-      - Create a GitHub repository for your project
-      - Add the link to your repository in your issue on 
+      - Add the link to your GitHub repository in your issue on 
         [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)
       - 'Use your canvas to start writing a `README.md` file, or landing page, for
         your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)'
@@ -211,7 +256,7 @@ weeks:
         [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)'
       notes: https://annuel2.framapad.org/p/ols-9-week-05
       recording: 
-        https://www.youtube.com/watch?v=HmhQZ--l5U4&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=4
+        https://www.youtube.com/watch?v=HmhQZ--l5U4&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=4   
     - date: October 16, 2024
       time: "16:00"
       duration: 180 min
@@ -219,76 +264,13 @@ weeks:
       type: Mentor
       learning_objectives:
       - "Training for mentors on mentoring and coaching skills"
-      hosts:
-      - malvikasharan
-    - date: October 15, 2024
-      time: "16:00"
-      duration: 180 min
-      notes: https://annuel2.framapad.org/p/ols-9-week-05
-      title: Tooling for Project Design
-      hosts:
-      - malvikasharan
-      type: Cohort
-      learning_objectives:
-      - Identify ways for newcomers to quickly understand what the project is about,
-        who can be involved, and where the work is headed
-      - Fill the open canvas for your project to think through an open project strategy
-        to develop a MVP
-      - Reflect on the roadmap for your project with milestones - start drafting them
-        with description and tasks
-      - After this call, develop documentation and resources for your project and
-        share them with others
-      before:
-      - Create a GitHub account - if you don't have one already!
-      - 'Carry out self assessment: https://docs.google.com/document/u/1/d/1hnwOWjpssgRc-YYk5b-j3f3Y92bxcO_D/copy'
-      - 'Ideally - create a vision statement for your project: https://docs.google.com/document/d/1RrraS0C4vZ6cpnbRsu65uoMKJbru5Vun/copy'
-      talks:
-      - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vRMgRqYBbe7MPY3yQA5cj8m4BNlJdnLpXtvmka5tql27HLeypmyxZxvwpYxOWnBGQ/pub?start=false&loop=false&delayms=3000 '
-        speakers:
-        - malvikasharan
-        title: Open Leadership in Open Science
-        tag: Open Leadership in Practice
-      - slides: 
-          https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/pub?start=false&loop=false&delayms=3000
-        speakers:
-        - malvikasharan
-        title: Tooling for Project Design Introduction
-        tag: Tooling for Project Design Introduction
-      - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub '
-        speakers:
-        - graciellehigino
-        title: Open Canvas
-        recording: 
-          https://www.youtube.com/watch?v=gQx-au72h04&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=3
-        tag: Open Canvas
-      - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vRME4NPdc7Tx528-p3Veo8wN5galMpVK0PhY7v4IpHXbBQQFmBpyjmSMOoXwAqr5Fyo27mbzC2IaTQL/pub
-        speakers:
-        - graciellehigino
-        title: Introducing Project Roadmapping
-        tag: Project Roadmapping
-      recording: 
-        https://www.youtube.com/watch?v=riBa5faSNIs&list=PL1CvC6Ez54KBD7zi7YSSS_L_WH87w5eo1&index=2
-      after:
-      - "Open an issue on the Open Seeds repo where you will be able to track your
-        progress in this cohort. Have a look at the OLS repository for examples of
-        'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-9/issues)"
-      - Reflect on your role as a mentee using [reflection 
-        notes](https://docs.google.com/document/d/16ISQefxsD76oGtj_gT5T4eYD6oz8adh2Dm5nDKD_8VY/copy)
-      - Complete this compare and contrast assignment about current and desired [community
-        interactions and value 
-        exchanges](https://docs.google.com/document/d/13ZqbX3dV3ENfRDBqI_uW_qpwMpRQINKGjhPOcsYCQgs/copy)
-      - Continue working on your [Open 
-        Canvas](https://docs.google.com/presentation/d/1l0XShyo_FjXIah3hr95QpOHCDlJKpXDp/copy)
-      - Start your 
-        [Roadmap](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/)
     - date: October 17, 2024
       time: "12:00"
       duration: 180 min
       title: Mentor 360 Training
       type: Mentor
       learning_objectives:
-      - "Training for mentors on mentoring and coaching skills"
+      - "Training for mentors on mentoring and coaching skills"   
   '06':
     start: October 21, 2024
     calls:
@@ -328,13 +310,11 @@ weeks:
       - Give examples of use cases of the different Open Science principles
       after:
       - Check the GitHub Intro notes, learning resource and video from last week
-      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
-        or other option. ← long term assignment, do it in your own pace.
+      - Prepare to share your project online through Git Pages,  Google Site, WordPress
+        or other options. ← long-term assignment, do it at your own pace.
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vRGqWI6y7LyyZr-3GUhvouyg6N_Gnju5S0MFcDdbMn2V19Ddk8Z-62FSBr1tNVSCA/pub?start=false&loop=false&delayms=3000
-        speakers:
-        - 
+          https://doi.org/10.5281/zenodo.14268665
         title: Open Science Garden(s)
       - slides: 
           https://docs.google.com/presentation/d/e/2PACX-1vS0ZySNlYJ0UDxqhrdJ9Zt-TO3fp2AZcewUPrFfrmHgBkq1xK7-KIGZ6w3t-zMTCA/pub?start=false&loop=false&delayms=3000
@@ -411,7 +391,9 @@ weeks:
         What other personas and pathways you didn't consider for your project?\n \
         \ - What are you doing now to provide mentored support to contributors?\n\
         \  - What other ways you can create to centre the voices of marginalised groups?"
-      talks:
+      talks: Introduction to Community Management
+      - slides: 
+          https://doi.org/10.5281/zenodo.14446513
       - title: Community Design for Inclusivity
       - speakers:
         - chartgerink
@@ -453,7 +435,9 @@ weeks:
       type: Skill-up
       learning_objectives:
       - Deep dive into open source practices
-      talks:
+      talks: Introduction to open source practices
+      - slides: 
+          https://doi.org/10.5281/zenodo.14446586
       - slides: 
           https://docs.google.com/presentation/d/122OcEk4tYbo5ZI4isS4KbOYxGFiTBesR/edit?rtpof=true
         speakers:
@@ -492,7 +476,9 @@ weeks:
       - Navigate the different principles of Open Science
       - Give examples of use cases of the different Open Science principles
       talks:
-      - title: Open Science Garden(s)
+      - title: Introduction to Open Science Garden(s)
+      - slides: 
+          https://doi.org/10.5281/zenodo.14446586
       - slides: 
           https://docs.google.com/presentation/d/1moP7pEBHYZjz7DXF5bs5ih-wbZXqyfCLtCA9zn-TO_o/edit#slide=id.p1
         speakers:
@@ -539,7 +525,7 @@ weeks:
         well being'
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vQauxZDXOqjlTXVJv808KylMrn1Up7y4NSBqp_Ny-HByDJahgVfaHaAN6-xYdi6kA/pub?start=false&loop=false&delayms=3000
+          https://doi.org/10.5281/zenodo.14446699
         speakers:
         - msundukova
         title: Personal Ecology and Self Care
@@ -573,7 +559,7 @@ weeks:
       - Give examples of use cases of the different Open Science principles
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/1imWncM5e89pfh5Qrk4znyX8jPCTclyME/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+          https://doi.org/10.5281/zenodo.14446751
         speakers:
         - 
         title: Open Hardware
@@ -613,7 +599,7 @@ weeks:
       type: Cohort
       talks:
       - slides: 
-          https://docs.google.com/presentation/d/e/2PACX-1vR8bJ7D5CLi-3q2OMBAr_o1cJibfro6sxTLDC5yHnmLT2dMhc-t0Kti4CvAEYfYaA/pub?start=false&loop=false&delayms=3000
+          https://doi.org/10.5281/zenodo.14446832
         speakers:
         - malvikasharan
         title: Diversity, inclusion and ally skills
