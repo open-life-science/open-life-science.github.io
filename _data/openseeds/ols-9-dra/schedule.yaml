@@ -391,10 +391,12 @@ weeks:
         What other personas and pathways you didn't consider for your project?\n \
         \ - What are you doing now to provide mentored support to contributors?\n\
         \  - What other ways you can create to centre the voices of marginalised groups?"
-      talks: Introduction to Community Management
-      - slides: 
+      talks:
+      - slides:
           https://doi.org/10.5281/zenodo.14446513
-        title: Community Design for Inclusivity
+        speakers:
+        - graciellehigino
+        title: Introduction to Community Design for Inclusivity
         tag: Community Design for Inclusivity
       - speakers:
         - chartgerink
