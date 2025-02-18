@@ -394,7 +394,8 @@ weeks:
       talks: Introduction to Community Management
       - slides: 
           https://doi.org/10.5281/zenodo.14446513
-      - title: Community Design for Inclusivity
+        title: Community Design for Inclusivity
+        tag: Community Design for Inclusivity
       - speakers:
         - chartgerink
         title: 'Community Interaction '
