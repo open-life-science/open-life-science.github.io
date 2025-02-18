@@ -438,9 +438,12 @@ weeks:
       type: Skill-up
       learning_objectives:
       - Deep dive into open source practices
-      talks: Introduction to open source practices
+      talks:
       - slides: 
           https://doi.org/10.5281/zenodo.14446586
+        speakers:
+        - tajuddeen1
+        title: Introduction to open source practices
       - slides: 
           https://docs.google.com/presentation/d/122OcEk4tYbo5ZI4isS4KbOYxGFiTBesR/edit?rtpof=true
         speakers:
