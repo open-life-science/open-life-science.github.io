@@ -40,6 +40,7 @@ We have a small team working on this, with a roadmap in place and a survey aimed
 Some of the standout talks were:
 
 - **“Applying the ‘Do No Harm’ Principle to Open Source Practices and Technology”** —
+
 This talk drew inspiration from the Hippocratic Oath, where doctors swear to do no harm. It made me reflect on how, while we can’t prevent all harm in open source, we should strive to minimise intentional and avoidable harm. Dr. Malvika Sharan discussed how openness — our invitation for people to use, remix, and build on our work — can sometimes perpetuate harm. This thought-provoking session initiated deeper discussions about the ethical aspects of open science and responsible research practices.
 
 ![A conference room photographed from the left side of the room, showing a speaker, and some members of the audience. The speaker, Malvika, is an Indian woman of small stature and silky dark hair, wearing a white long-sleeved shirt under a sleeveless maroon dress. She is presenting from a slide that reads "The Do No Harm Project."](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QMdTl1zvQ6_9U3bMq-p0Dw.jpeg){: style="max-width: 85%; max-height: 600px;"}
