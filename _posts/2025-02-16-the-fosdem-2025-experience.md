@@ -23,7 +23,7 @@ Being there in person this year was an awesome experience, and I can’t thank O
 ## Organiser
 Meeting long-time organisers of the [Open Research Devroom](https://research-fosdem.github.io/) was a learning experience. I was exposed to the challenges of scheduling online talks across different time zones and learned how to use [Pretalx](https://pretalx.com/p/about/) for reviewing abstracts and proposals.
 
-![A small classroom, with attendees sitting in rows of chairs, forming an "n" shape. In front of the room is a group of ten (10) people from varying nationalities and gender groups. They are the members of the organising committee of the conference. Behind them is a blank projector screen, and in front, a beige table.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Kzylq99OMN7J1pAfVu6urg.jpeg)
+![A small classroom, with attendees sitting in rows of chairs, forming an "n" shape. In front of the room is a group of ten (10) people from varying nationalities and gender groups. They are the members of the organising committee of the conference. Behind them is a blank projector screen, and in front, a beige table.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Kzylq99OMN7J1pAfVu6urg.jpeg){: style="max-width: 85%; max-height: 600px;"}
 
 One of my small but exciting contributions was adding the schedule to the website and enhancing it with a little CSS for better aesthetics and UX.
 
@@ -33,18 +33,18 @@ I also got to experience the subtle power of keeping speakers on schedule — ho
 I gave a [lightning talk on Pre-seeds](https://fosdem.org/2025/schedule/event/fosdem-2025-5199-research-101-promoting-diversity-through-open-science-literacy/), sharing early insights from our ongoing survey on underrepresented groups in research. 
 We have a small team working on this, with a roadmap in place and a survey aimed at understanding what people want in a course like Pre-seeds. This was a great opportunity to showcase our progress and gather feedback.
 
-![A conference room, with a speaker, Debs, delivering a talk. Debs is an African woman of average height and dark hair. She is wearing a blue "FOSDEM Organisers" t-shirt over her black long-sleeved sweater, and is pointing at the projected slide. The current slide is a blue page with a title in white text, which reads - "JOIN OUR TEAM" - with 5 members of an all-female team in display.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vqSSuDnOMUtDBjY9fpoEQw.jpeg)
+![A conference room, with a speaker, Debs, delivering a talk. Debs is an African woman of average height and dark hair. She is wearing a blue "FOSDEM Organisers" t-shirt over her black long-sleeved sweater, and is pointing at the projected slide. The current slide is a blue page with a title in white text, which reads - "JOIN OUR TEAM" - with 5 members of an all-female team in display.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vqSSuDnOMUtDBjY9fpoEQw.jpeg){: style="max-width: 85%; max-height: 600px;"}
 
 ## Attendee
 ### Day 1: Open Research Devroom
 Some of the standout talks were:
 
-1. **“Applying the ‘Do No Harm’ Principle to Open Source Practices and Technology”** —
+- **“Applying the ‘Do No Harm’ Principle to Open Source Practices and Technology”** —
 This talk drew inspiration from the Hippocratic Oath, where doctors swear to do no harm. It made me reflect on how, while we can’t prevent all harm in open source, we should strive to minimise intentional and avoidable harm. Dr. Malvika Sharan discussed how openness — our invitation for people to use, remix, and build on our work — can sometimes perpetuate harm. This thought-provoking session initiated deeper discussions about the ethical aspects of open science and responsible research practices.
 
-![A conference room photographed from the left side of the room, showing a speaker, and some members of the audience. The speaker, Malvika, is an Indian woman of small stature and silky dark hair, wearing a white long-sleeved shirt under a sleeveless maroon dress. She is presenting from a slide that reads "The Do No Harm Project."](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QMdTl1zvQ6_9U3bMq-p0Dw.jpeg)
+![A conference room photographed from the left side of the room, showing a speaker, and some members of the audience. The speaker, Malvika, is an Indian woman of small stature and silky dark hair, wearing a white long-sleeved shirt under a sleeveless maroon dress. She is presenting from a slide that reads "The Do No Harm Project."](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QMdTl1zvQ6_9U3bMq-p0Dw.jpeg){: style="max-width: 85%; max-height: 600px;"}
 
-2. **JOSSCast: Experimenting with Storytelling in Open Research** —
+- **JOSSCast: Experimenting with Storytelling in Open Research** —
 
 Abigail Cabunoc Mayes and Arfon Smith spoke about their experiment with JOSSCast, a podcast designed to connect researchers, developers, and contributors through storytelling. 
 They shared insights into what worked, what didn’t, and how podcasts can strengthen open research by engaging both technical and non-technical audiences. This session reinforced the power of storytelling in science communication and community-building.
@@ -52,20 +52,20 @@ They shared insights into what worked, what didn’t, and how podcasts can stren
 ### Day 2: Funders Devroom
 The highlights of my day were:
 
-1. **“Storytelling, Networking, and Strategy: Three Keys to Successful Fundraising”** by Amy Parker.
+- **“Storytelling, Networking, and Strategy: Three Keys to Successful Fundraising”** by Amy Parker.
 This was easily my favorite session of the day. She broke down fundraising success into three key components: “the right ask (**Storytelling**) to the right person (**Networking**) at the right time (**Strategy**).”
 It was a brilliant talk on how to align these elements to secure funding.
 
-![Image shows a speaker, Amy Parker, in front of a well-lit classroom, presenting on "Three Keys to Successful Fundraising." Amy is a white woman with dark hair, wearing an OpenSSL sweater and a bright smile. The slide projected behind her is titled "Networking" and shares on the importance of building connections and relationships.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pMs2GAQEaVw4HFLn_7zHuA.jpeg)
+![Image shows a speaker, Amy Parker, in front of a well-lit classroom, presenting on "Three Keys to Successful Fundraising." Amy is a white woman with dark hair, wearing an OpenSSL sweater and a bright smile. The slide projected behind her is titled "Networking" and shares on the importance of building connections and relationships.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pMs2GAQEaVw4HFLn_7zHuA.jpeg){: style="max-width: 85%; max-height: 600px;"}
 
-2. **Funders Devroom organisers AMA Session**
+- **Funders Devroom organisers AMA Session**
 I was looking forward to **[Emmy Tsang]({% link people.md %}#emmyft)’s talk on “Funding the FOSS Ecosystem”**, but unfortunately, it was canceled due to her Eurostar delay. That was heartbreaking. However, the Devroom organisers salvaged the situation with an impromptu Ask Me Anything (AMA) session.
 
-3. **“Small Seeds — Why Funding New Ideas Matters”**
+- **“Small Seeds — Why Funding New Ideas Matters”**
 
 This talk by by Marie Kreil and Marie-Lena Wiese (of [Prototype Fund](https://prototypefund.de/en/)) struck a personal chord. They emphasised the importance of supporting young and novel ideas, which resonated with me as I work on [Pre-seeds](https://npdebs.github.io/Pre-seeds-Program/).
 
-4. **“When is it Right to Say No to Funding?”** by [Karen Sandler](https://www.linkedin.com/in/karensandler/).
+- **“When is it Right to Say No to Funding?”** by [Karen Sandler](https://www.linkedin.com/in/karensandler/).
 
 It was a surprising but essential session. In a room with people trying to secure funding, this talk took a different approach — outlining cases where declining funding is the better choice, such as misaligned values, unreasonable workloads, or funders attempting to rewrite the purpose of a project.
 
@@ -85,7 +85,7 @@ One of the best parts of FOSDEM was reconnecting with friends and meeting new pe
 
 - **[Malvika Sharan]({% link people.md %}#malvikasharan)** treated me to lunch on both days, unaware of how much that “small” gesture meant to me. Thank you for the book!
 
-![A woman wearing jeans and a black winter jacket sits on a metal chair, with her right leg crossed over the left. An open book is placed on her leg, and she is writing a note on the second preliminary page of the book, with a black pen.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KVuYrgvglu346wGSjyVVYA.jpeg)
+![A woman wearing jeans and a black winter jacket sits on a metal chair, with her right leg crossed over the left. An open book is placed on her leg, and she is writing a note on the second preliminary page of the book, with a black pen.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KVuYrgvglu346wGSjyVVYA.jpeg){: style="max-width: 85%; max-height: 600px;"}
 
 - **Meeting the Open Research Devroom team** in person was great too, as they were all welcoming and kind.
 
