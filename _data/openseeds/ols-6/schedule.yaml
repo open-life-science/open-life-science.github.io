@@ -595,7 +595,7 @@ weeks:
       - slides: 
           https://drive.google.com/file/d/1w8AUnsbwSpqfEK0YxKmSZGIeIlEbppSN/view?usp=share_link
         speakers:
-        - gemmaturon
+        - 
         title: Code style, testing
         recording: https://youtu.be/n3JkOyt6bRM?t=271
         tag: Good Coding Practices
