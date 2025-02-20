@@ -2,7 +2,7 @@
 layout: post
 title: Reflections on the DRI Journey: Advancing TBI Care in Indigenous Communities.
 authors:
-- 
+- sebastian-ayala-ruano
 image: https://images.unsplash.com/photo-1511884642898-4c92249e20b6
 photos:
   name: Pine Watt
@@ -10,7 +10,7 @@ photos:
   url: https://unsplash.com/@pinewatt
 ---
 
-*This speedblog, written by [Sebastian D’Amario](), is part of the OLS-9 
+*This speedblog, written by [Sebastian D’Amario]({% link people.md %}#sebastian-ayala-ruano), is part of the OLS-9 cohort.*
 
 ## Project Background
 
