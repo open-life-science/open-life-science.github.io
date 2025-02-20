@@ -3,18 +3,18 @@ layout: post
 title: Reflections on the DRI Journey: Advancing TBI Care in Indigenous Communities.
 authors:
 - sebastian-ayala-ruano
-image: https://images.unsplash.com/photo-1511884642898-4c92249e20b6
+image: https://images.unsplash.com/photo-1506744038136-46273834b3fb
 photos:
-  name: Pine Watt
+  name: Bailey Zindel
   license: CC BY-SA 4.0
-  url: https://unsplash.com/@pinewatt
+  url: https://unsplash.com/@baileyzindel
 ---
 
 *This speedblog, written by [Sebastian D’Amario]({% link people.md %}#sebastian-ayala-ruano), is part of the OLS-9 cohort.*
 
 ## Project Background
 
-My motivation for this project stems from a deep commitment to addressing healthcare disparities, particularly in Indigenous communities. As a PhD student in Neuroscience at Queen’s University, Canada, I am passionate about leveraging digital research infrastructure (DRI) to improve access to traumatic brain injury (TBI) care in remote areas. 
+My motivation for this project stems from a deep commitment to addressing healthcare disparities, particularly in Indigenous communities. As a PhD student in **Neuroscience at Queen’s University, Canada**, I am passionate about leveraging digital research infrastructure (DRI) to improve access to traumatic brain injury (TBI) care in remote areas. 
 
 The lack of specialized medical resources for head injuries in these communities inspired me to develop an advanced TBI screening tool that can be used in rural and remote environments. This project is not just about technology; it’s about empowering communities and ensuring equitable access to healthcare.
 
@@ -75,5 +75,3 @@ I would like to acknowledge the invaluable support of my mentor, Dr. Douglas Jam
 Finally, I’d like to acknowledge the **DRI EDIA Champions program** for providing the resources and support needed to bring this project to life. This project has been a transformative journey, and I am excited to see where it will continue to go.
 
 Thank you to everyone who has supported me along the way!
-
-**Sebastian D’Amario**
