@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reflections on the DRI Journey: Advancing TBI Care in Indigenous Communities.
+title: "Reflections on the DRI Journey: Advancing TBI Care in Indigenous Communities."
 authors:
 - sebastian-ayala-ruano
 image: https://images.unsplash.com/photo-1506744038136-46273834b3fb
