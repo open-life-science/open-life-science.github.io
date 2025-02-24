@@ -2,7 +2,7 @@
 layout: post
 title: "Reflections on the DRI Journey: Advancing TBI Care in Indigenous Communities."
 authors:
-- sebastian-ayala-ruano
+- damario99
 image: https://images.unsplash.com/photo-1506744038136-46273834b3fb
 photos:
   name: Bailey Zindel
@@ -10,7 +10,7 @@ photos:
   url: https://unsplash.com/@baileyzindel
 ---
 
-*This speedblog, written by [Sebastian D’Amario]({% link people.md %}#sebastian-ayala-ruano), is part of the OLS-9 cohort.*
+*This speedblog, written by [Sebastian D’Amario]({% link people.md %}#damario99), is part of the OLS-9 cohort.*
 
 ## Project Background
 
