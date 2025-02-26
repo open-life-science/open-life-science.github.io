@@ -31,7 +31,7 @@ streams:
       alt: Open Seeds
 ---
 
-OLS was started to deliver **online** **mentoring** and **training** programs for individuals and teams worldwide to learn about and adopt open research practices. 
+OLS delivers **online mentoring and training programs** for individuals and teams worldwide to learn about and adopt open research practices. 
 
 ## What makes us different
 
