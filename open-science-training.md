@@ -27,7 +27,7 @@ streams:
 
       You can read more about it in the [proposal](https://zenodo.org/records/8250979).
     image: 
-      link: images/2023-04-18-introducing-the-new-OLS/open-seeds.png
+      link: images/nebula/nebula-wordmark-transparent-bg.png
       alt: Open Seeds
 ---
 
