@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="1dAqFck3BIBxCx-EyBbHy1HkoFnptYfP04TgKOJiYO8">
+        <title>OLS Slack Guidelines | OLS</title>
+        
+        <link href="/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="/images/logo/ols-transparent-bg.ico">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.8/css/dataTables.bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/searchbuilder/1.6.0/css/searchBuilder.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        
+        <!--Below is the schema annotation for blogposts-->
+        
+    </head>
+
+    <body>
+        
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/images/logo/ols-transparent-bg.png" alt="OLS">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="top-menu">
+          <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="top-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-science-training.html">Open Science Training</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/openseeds/">Open Seeds</a>
+              <a class="navbar-item" href="/nebula/">Nebula</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-research.html">Research on Open</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/open-research.html#open-seeds-impact-research">Open Seeds Impact Research</a>
+              <a class="navbar-item" href="/open-research.html#influencing-policy-to-widen-participation-in-open-data-science">Influencing policy to widen participation in open data science</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-incubator.html">Open Incubator</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://catalystproject.cloud/">Catalyst</a>
+              <a class="navbar-item" href="/open-incubator.html#fellowship-programmes">Fellowship Programmes</a>
+              <a class="navbar-item" href="/open-incubator.html#facilitators-training-and-transcription-services">Facilitators Training and Transcription Services</a>
+              <a class="navbar-item" href="/open-incubator.html#grant-writing-training">Grant writing training</a>
+              <a class="navbar-item" href="/open-incubator/fiscal-hosting/">Fiscal hosting</a>
+              <a class="navbar-item" href="/consulting/">Consultancy &amp; open research advice</a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/openseeds/about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/people.html"> People </a>
+              <a class="navbar-item" href="/community.html"> Team </a>
+              <a class="navbar-item" href="/governance.html"> Governance </a>
+              <a class="navbar-item" href="/funders.html"> Funding &amp; Supporters </a>
+              <a class="navbar-item" href="/partners.html"> Partners </a>
+              <a class="navbar-item" href="/knowledge_management.html"> Knowledge Management System </a>
+              <a class="navbar-item" href="/publications.html"> Citing OLS &amp; Publications </a>
+              <a class="navbar-item" href="/branding.html"> Branding </a>
+              <a class="navbar-item" href="/events.html"> Events </a>
+              <a class="navbar-item" href="/open-science.html"> Open Science </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/policies-procedures-and-docs/">Policies &amp; Procedures</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/code-of-conduct.html"> Code of Conduct </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/graduation-guide.html"> Graduation Guide </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/microgrants.html"> Microgrants </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/speedblog.html"> Speedblog </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/hackmd-guide.html"> HackMD Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/slack-guide.html"> Slack Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/fellows/ols-ssi-terms-conditions.html"> OLS/SSI Fellowship </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/honorarium.html"> Honoraria Policy </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/invoicing.html"> Invoicing OLS </a>
+            </div>
+          </div>
+          
+          <a class="navbar-item" href="/posts.html"> Stories </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<section class="hero " style="background-image: linear-gradient(to top, #000, transparent), url(https://images.unsplash.com/photo-1557200134-3103da7b6bff);">
+  <div class="hero-body">
+    <h1 class="title is-1">OLS Slack Guidelines</h1>
+
+    
+
+    
+
+    
+  </div>
+
+  
+  <div class="hero-foot">
+    
+    <p class="credit"><a href="https://images.unsplash.com/photo-1557200134-3103da7b6bff">Stephen Phillips - Hostreviews.co.uk</a> (CC-BY)</p>
+    
+  </div>
+  
+</section>
+
+<section class="section">
+  <div class="container content  ">
+    <section>
+    <div class="article-post">
+        
+        <p><em>Scroll down for the ‘Part 2: Quick Start Guide’ if you have not used Slack before.</em></p>
+
+<p>First and foremost, Welcome! 🎉 Willkommen! 🎊 Bienvenue! 🙏 सुस्वागत (Suswagat)🎈🎈🎈</p>
+
+<p>This document (the Slack Guide) will give you some information about how to use the Slack workspaces maintained by the OLS team.</p>
+
+<p>The community participation guideline and Code of Conduct of OLS apply to all our community interactions, including the Slack workspace, which is our most important communications channel along with the mailing list and cohort-related calls. 
+Please make sure you have read this document along with the <a href="/CODE_OF_CONDUCT.md">Code of Conduct</a> procedures and understand how they apply to your participation in OLS.</p>
+
+<p>Find all the information about our community and projects at <a href="https://we-are-ols.org/">https://we-are-ols.org/</a>.</p>
+
+<h2 id="part-1-ols-slack-participation-guideline">Part 1: OLS Slack Participation Guideline</h2>
+
+<p>All members of OLS – OLS team: directors, paid staff, resident fellows; and OLS cohort participants: mentors, mentees, experts, speakers, facilitators and trainers are invited to join this Slack space.
+All members are invited to join the Slack workspace and are sent a private joining link via email when being onboarded to the OLS community.</p>
+
+<p>We want to ensure a safe and welcoming environment for all our cohort members.
+We want to provide community spaces, including the Slack workspace, where everyone understands and respects the <a href="https://we-are-ols.org//community">OLS values</a>.</p>
+
+<p>To ensure that each of us holds respect and a shared sense of responsibility towards each other in our community, we have created pathways for purposeful participation in OLS, including the Slack workspace.</p>
+
+<p>There are typically two ways to be onboarded in the OLS workspace:</p>
+<ul>
+  <li>You are part of the OLS team</li>
+  <li>You have previously participated or will participate in an OLS cohort</li>
+</ul>
+
+<p>We ask each member to identify the role they take in the OLS cohort and community and understand their responsibilities as listed on the <a href="https://we-are-ols.org//about">OLS webpage</a>.</p>
+
+<p>If you would like to invite someone who has not previously participated in any of the previous capacities, there are two ways to involve them:</p>
+<ul>
+  <li>If they are already open science practitioners, please let the OLS team know so that they can invite them as an expert for the current (ongoing) cohort</li>
+  <li>If they want to learn about open science, you can share the <a href="https://groups.google.com/forum/#!forum/ols-news">announcement mailing list</a>, where we will send an announcement for the application call for the next cohort.</li>
+</ul>
+
+<h3 id="ols-slack-channels">OLS Slack Channels</h3>
+
+<p>Here is a list of default Slack Channels that you will join automatically:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">#hello-namaste-bonjour</code>: This channel uses a greetbot to welcome each member with some pleasant greetings generated by the bot.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">#introductions</code>: All members are invited to introduce themselves in this channel by sharing a few words about themselves and their work.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">#announcements</code>: This channel is used for sharing announcements as well as sending a reminder of OLS events</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">#general</code>: This is a primary channel where information and announcement relevant to all OLS members are shared.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">#random</code>: This is a ‘break’ channel where you can share anything that is not directly relevant for the OLS members, including a funny picture of your pets and posts related to pop culture. This is likely the most famous channel in our workspace.</li>
+</ul>
+
+<h4 id="cohort-specific-channels">Cohort-specific channels</h4>
+
+<p>You will be invited to join these channels when you participate in an Open Seed or Nebula cohort:</p>
+<ul>
+  <li>
+<strong><img class="emoji" title=":seedling:" alt=":seedling:" raw="🌱" src="https://github.githubassets.com/images/icons/emoji/unicode/1f331.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">Open Seeds:</strong> all channels start with <code class="language-plaintext highlighter-rouge">ols-X-something</code> (replace X with the number of your cohort: 4, 5, 6).
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">#ols-x-cohort</code>: all cohort members are added to a channel created for their cohort.</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">#ols-x-expert</code>: all experts listed for a cohort are added to a channel created for their cohort to maintain communication with the OLS team and other experts.</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">#ols-x-mentors</code>: For mentors, there is a private channel to share and exchange information among the mentors of their respective cohorts.</li>
+    </ul>
+  </li>
+  <li>
+<strong><img class="emoji" title=":rocket:" alt=":rocket:" raw="🚀" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">Nebula:</strong> <code class="language-plaintext highlighter-rouge">nebula-cohort-x</code>, or <code class="language-plaintext highlighter-rouge">nebula-topic-here</code>.</li>
+</ul>
+
+<h4 id="other-channels">Other channels</h4>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">#opportunities-and-jobs</code>: All OLS members are invited to share announcements that could be new opportunities for the OLS members, including jobs.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">#events</code>: This is a place to share events that could be relevant for the OLS members. We encourage you to share events that you organise and would like others from the community to attend.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">#interesting-reading</code>: Any articles, books, posts, presentations or other resources that could be useful for the OLS members.</li>
+  <li>
+<strong>language-specific channels</strong>
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">#ols-lang-español</code>: This channel uses Spanish as the primary language for all interactions. Here you can also share opportunities relevant to Spanish-speaking communities.</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">#ols-lang-netherlands</code> and <code class="language-plaintext highlighter-rouge">#ols-lang-italiano</code> are quieter but you are welcome to join!</li>
+    </ul>
+  </li>
+  <li>
+<strong>Topic-specific public groups</strong> try to use <code class="language-plaintext highlighter-rouge">interest-group-name-here</code>, to sort the groups together.</li>
+</ul>
+
+<p>There are many more channels that you can explore by clicking three dots next to the top header ‘Channels’ –&gt; then choosing the third option ‘Browse channels’.</p>
+
+<p>For any questions please contact the OLS team by emailing: <a href="mailto:team@we-are-ols.org">team@we-are-ols.org</a>.</p>
+
+<h2 id="part-2-quick-start-guide-for-slack">Part 2: Quick Start Guide for Slack</h2>
+
+<p>Welcome to the community Slack group: a place for you to network, collaborate, exchange resources and share ideas with others in the community.</p>
+
+<p><strong>Table of content</strong></p>
+
+<ol>
+  <li><a href="#1-Configuring-your-account">Configuring your account</a></li>
+  <li><a href="#2-Channel-and-Notification-settings">Notification settings</a></li>
+  <li><a href="#3-Communicating-with-others">Communicating with others</a></li>
+</ol>
+
+<h2 id="1-configuring-your-account">1. Configuring your account</h2>
+
+<h3 id="profile">PROFILE</h3>
+
+<ul>
+  <li>
+<strong>Your username</strong> – please use a name by which others will be able to identify you. Your email address is visible to others.</li>
+  <li>
+<strong>Your avatar</strong> – please add a profile picture or other identifier that you’re comfortable with so that others can associate your posts with you more easily.</li>
+  <li>
+<strong>Your time zone</strong> – this determines when Slack will notify you and can also help others know whether it’s a reasonable time of day to get in touch.</li>
+</ul>
+
+<p>Here is a guide to help you <a href="https://slack.com/intl/en-ca/help/articles/204092246-Edit-your-profile">edit your profile</a>.</p>
+
+<h3 id="status-updates">STATUS UPDATES</h3>
+
+<p>Status updates can be a useful way to let others know your availability as your status will be visible to everyone in the Slack group.</p>
+
+<p>To update your status, click your name in the top left of the screen and select <code class="language-plaintext highlighter-rouge">update status</code>. You can select when you want your status update to be removed by stipulating a timeframe from the “clear after” dropdown.
+You can clear a status update at any time by clicking on your name and selecting <code class="language-plaintext highlighter-rouge">clear status</code> from the dropdown.</p>
+
+<h2 id="2-channel-and-notification-settings">2. Channel and Notification settings</h2>
+
+<h3 id="how-to-find-join-and-create-channels">How to find, join and create channels</h3>
+
+<p>By default, you’re automatically added to the main channels that everyone belongs to (for example, #general, #welcome, #introductions &amp; #random).</p>
+
+<p>You will be able to create additional channels to facilitate structured conversation. You are free to create as many channels as you would like. However, channels dedicated to projects should be made public (not private) so people can collaborate or help you.</p>
+
+<h3 id="configure-your-notifications">Configure your notifications</h3>
+<p>Slack notifications are great, but they may bother you when you try to focus on your project. There are a lot of options for you to determine how and when you are informed about content – and at what level of granularity.</p>
+
+<h4 id="for-the-overall-group">For the overall group</h4>
+<ol>
+  <li>Click on your <code class="language-plaintext highlighter-rouge">name</code> at the top left of the page and select “<code class="language-plaintext highlighter-rouge">preferences</code>” from the dropdown</li>
+  <li>In the Notifications section you have options which include:
+    <ul>
+      <li>Set times when you do not want to be disturbed by notifications</li>
+      <li>Enable desktop notifications</li>
+      <li>Choose to be alerted when certain keywords are mentioned</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="channel-by-channel">Channel by channel</h4>
+<ol>
+  <li>When you’re in a channel, click the “<code class="language-plaintext highlighter-rouge">i</code>” icon at the top right. Choose “<code class="language-plaintext highlighter-rouge">more</code>” and then click “<code class="language-plaintext highlighter-rouge">notifications</code>.”
+    <ul>
+      <li>Here you have the option to ignore any @channel messages, or mute the channel entirely.</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="following-a-specific-thread">Following a specific thread</h4>
+<p>If another group member posts something of particular interest you can choose to follow that thread. Find how to reply in a thread in <a href="#3-Communicating-with-others">Section 3</a>.</p>
+
+<ol>
+  <li>Click the <code class="language-plaintext highlighter-rouge">ellipsis (three dots)</code> to the right of the original post and select “<code class="language-plaintext highlighter-rouge">follow message</code>” from the dropdown.</li>
+</ol>
+
+<h4 id="getting-a-reminder-about-a-specific-thread">Getting a reminder about a specific thread</h4>
+<p>You additionally have the option to be reminded about a
+thread at a more convenient time. From the <code class="language-plaintext highlighter-rouge">ellipsis</code> to the right of the original post select “<code class="language-plaintext highlighter-rouge">remind me about this</code>” from the dropdown and choose a timeframe.</p>
+
+<h3 id="muting-or-leaving-channels">Muting or leaving channels</h3>
+<p>If a channel has become too noisy, you can additionally:</p>
+<ul>
+  <li>
+<strong>Mute</strong> it: When you’re in a channel, click the “<code class="language-plaintext highlighter-rouge">i</code>” icon at the top right. Choose “<code class="language-plaintext highlighter-rouge">more</code>” and then choose “<code class="language-plaintext highlighter-rouge">mute</code>” from the dropdown.</li>
+  <li>
+<strong>Leave</strong> it: When you’re in a channel, click the “<code class="language-plaintext highlighter-rouge">i</code>” icon at the top right. Choose “<code class="language-plaintext highlighter-rouge">more</code>” and then choose “<code class="language-plaintext highlighter-rouge">leave</code>” from the dropdown.</li>
+</ul>
+
+<h2 id="3-communicating-with-others">3. Communicating with others</h2>
+
+<h3 id="a-few-points-of-etiquette">A FEW POINTS OF ETIQUETTE</h3>
+
+<h4 id="use-threads-to-continue-conversations">Use threads to continue conversations</h4>
+
+<ul>
+  <li>When someone posts a brand new item in a channel, anyone in the channel can reply directly to it, creating a thread. Threads allow separate conversations to take place in the group without confusion – and for members to choose which of those conversations to follow more closely.</li>
+  <li>To add a comment to a thread, click the :left_speech_bubble: to the right of an existing post.</li>
+</ul>
+
+<h4 id="use-channel-here-and-other-handles-sparingly">Use @channel, @here and other handles sparingly</h4>
+
+<ul>
+  <li>If you type <strong>@channel</strong> or <strong>@here</strong> in a post or comment that will send a notification to everyone in that channel. Please use this only for items that do need everyone’s attention.</li>
+</ul>
+
+<h4 id="respect-the-context-of-this-shared-space">Respect the context of this shared space</h4>
+
+<ul>
+  <li>We want it to be somewhere where learning can happen in a supportive, safe environment.</li>
+  <li>Please <strong>DO NOT</strong> take conversations out of context and copy/paste them elsewhere without the permission of all the individuals who posted.</li>
+</ul>
+
+<h4 id="not-all-communications-will-be-synchronous">Not all communications will be synchronous</h4>
+
+<ul>
+  <li>While IM-based conversations can feel very immediate, please don’t feel that you have to respond to messages immediately, nor expect others to respond immediately. We’re all busy, really busy!</li>
+</ul>
+
+<h4 id="message-editing--deletion">Message Editing &amp; Deletion</h4>
+
+<ul>
+  <li>You are allowed to edit your messages at any time. That means if you edit a message after someone replied to it, make it clear that you edited something if it changes the meaning of your message. See the example in the GIF below.</li>
+</ul>
+
+<h3 id="sending-privatedirect-messages">SENDING PRIVATE/DIRECT MESSAGES</h3>
+<p>It can be helpful to others when you’re sharing resources and brainstorming solutions to “work out loud” in a specific thread because then your learning becomes a future resource for others, too.</p>
+
+<p>However, sometimes you want to start a private conversation. To do this, go to the <code class="language-plaintext highlighter-rouge">direct messages</code> (DM) section on the bottom left of the left-hand sidebar. Click the <code class="language-plaintext highlighter-rouge">+</code> icon to start a new message. You can add more than one recipient to create a group message.</p>
+
+<h4 id="direct-message-when-necessary">Direct message when necessary</h4>
+<p>You may feel tempted to use DM instead of asking questions in dedicated channels. If an instructor believes others will benefit from the answer, they will probably encourage you to ask your question in the appropriate channel. If you have a question, others likely have the same one, we are all learning from each other.</p>
+
+<p>That said, DM are useful to discuss privately with other people (one or many) and you don’t want to flood a channel.</p>
+
+<h2 id="sending-files">Sending files</h2>
+
+<p>Yes, you can send files (&lt; 1 GB) in public channels and direct messages. See this <a href="https://slack.com/intl/en-ca/help/articles/201330736-Add-files-to-Slack">how to guide</a> for help.</p>
+
+<h3 id="references-for-the-part-2">References for the Part-2</h3>
+
+<p>The Slack section was adapted from a resource by BrainHackMTL and the Center for Scientific Collaboration and Community Engagement (<a href="https://www.cscce.org/">CSCCE</a>) under a <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a>: <a href="http://dx.doi.org/10.5281/zenodo.3763730">10.5281/zenodo.3763730</a>.</p>
+
+<h1 id="ols-internal-slack-usage">OLS Internal Slack Usage</h1>
+
+<h2 id="naming-conventions">Naming conventions</h2>
+
+<ul>
+  <li>
+<strong><img class="emoji" title=":lock:" alt=":lock:" raw="🔒" src="https://github.githubassets.com/images/icons/emoji/unicode/1f512.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">Private staff channels:</strong> <code class="language-plaintext highlighter-rouge">internal-topic-name</code> sorts OLS staff/contractor team names.</li>
+  <li>
+<strong><img class="emoji" title=":lock:" alt=":lock:" raw="🔒" src="https://github.githubassets.com/images/icons/emoji/unicode/1f512.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">Private channels with non-OLS team members:</strong> generally have a purpose and are named <code class="language-plaintext highlighter-rouge">collab-purpose-name</code> or <code class="language-plaintext highlighter-rouge">collab-organisation-name</code>.</li>
+  <li>
+<strong><img class="emoji" title=":lock:" alt=":lock:" raw="🔒" src="https://github.githubassets.com/images/icons/emoji/unicode/1f512.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">Temporary private channels:</strong> Often easier to manage than group DMs, e.g. for a contract renewal where the renewee, their manager, and the finance contacts need to be looped in. Name <code class="language-plaintext highlighter-rouge">temp-subject-here</code>, and archive promptly once the purpose is complete.</li>
+  <li>
+<strong><img class="emoji" title=":lock:" alt=":lock:" raw="🔒" src="https://github.githubassets.com/images/icons/emoji/unicode/1f512.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">Governance:</strong> for the governance board and/or admin around governance tasks: <code class="language-plaintext highlighter-rouge">gov-something-descriptive</code>
+</li>
+</ul>
+
+<hr>
+
+<h2 id="specific-channels-and-rituals">Specific channels and rituals:</h2>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">#internal-work</code>: synchronous and asynchronous communication. Some topics may go in a specific sub-channel, e.g. a nebula-specific internal channel, the web/design team channel, etc.
+    <ul>
+      <li>
+<img class="emoji" title=":calendar:" alt=":calendar:" raw="📆" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">Start-of-week ritual: Go through your emails, slacks, and to-do lists. What’s the plan this week? Post a few notes in Slack so others know what’s on your mind.</li>
+    </ul>
+  </li>
+  <li>
+<code class="language-plaintext highlighter-rouge">#internal-casual</code>: Post your cat and your baby here, and a picture of your cappuccino.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">#internal-project-updates</code>:
+    <ul>
+      <li>
+<img class="emoji" title=":calendar:" alt=":calendar:" raw="📆" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">Twice a month ritual: Post a short update on the successes, challenges and plans or opportunities you’ve had in your project over the last few weeks. These are generally compiled once a month into a report and shared with the entire team and with Governance.</li>
+    </ul>
+  </li>
+</ul>
+
+
+        
+    </div>
+</section>
+
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container content">
+      <div class="columns">
+        <div class="column">
+          <h3>Get in touch</h3>
+          <p>
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/openlifesci">
+              openlifesci
+            </a>
+          </p>
+          <p>
+            <i class="fas fa-at"></i>
+            <a href="mailto:team@we-are-ols.org">
+              team[at]we-are-ols.org
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/open-life-science/open-life-science.github.io">
+              open-life-science
+            </a>
+          </p>
+            <p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="https://groups.google.com/g/ols-news">
+                    Subscribe to our announcements list
+                </a>
+            </p>
+        </div>
+        <div class="column is-5">
+          <p>
+            If you want to report a problem or suggest an enhancement we'd love
+            for you to
+            <a href="https://github.com/open-life-science/open-life-science.github.io/issues/new">open an issue</a>
+            on our GitHub repository because then we can get right on it.
+          </p>
+          <p>
+            The website content is licensed
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>.
+            The code behind the infrastructure is licensed under the <a href="https://github.com/open-life-science/open-life-science.github.io/blob/main/LICENSE.md">MIT License</a>
+          </p>
+          <p>
+            Logo design by <a href="/people.html#jilaga">Jilaga Nneoma</a>. Other OLS branding assets are found at the <a href="/branding.html">OLS branding page</a>.
+          </p>
+          <p>
+            Open Life Science Limited is a non-profit company limited by guarantee, based in the United Kingdom. 
+            Company number 
+            <a href="https://data.companieshouse.gov.uk/doc/company/12824090">12824090</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bulma.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/searchbuilder/1.6.0/js/dataTables.searchBuilder.min.js"></script>
+        <script src="/js/bulma-collapsible.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        
+      </body>
+</html>

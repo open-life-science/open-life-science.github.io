@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="1dAqFck3BIBxCx-EyBbHy1HkoFnptYfP04TgKOJiYO8">
+        <title>Governance Committee | OLS</title>
+        
+        <link href="/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="/images/logo/ols-transparent-bg.ico">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.8/css/dataTables.bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/searchbuilder/1.6.0/css/searchBuilder.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        
+        <!--Below is the schema annotation for blogposts-->
+        
+    </head>
+
+    <body>
+        
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/images/logo/ols-transparent-bg.png" alt="OLS">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="top-menu">
+          <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="top-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-science-training.html">Open Science Training</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/openseeds/">Open Seeds</a>
+              <a class="navbar-item" href="/nebula/">Nebula</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-research.html">Research on Open</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/open-research.html#open-seeds-impact-research">Open Seeds Impact Research</a>
+              <a class="navbar-item" href="/open-research.html#influencing-policy-to-widen-participation-in-open-data-science">Influencing policy to widen participation in open data science</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-incubator.html">Open Incubator</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://catalystproject.cloud/">Catalyst</a>
+              <a class="navbar-item" href="/open-incubator.html#fellowship-programmes">Fellowship Programmes</a>
+              <a class="navbar-item" href="/open-incubator.html#facilitators-training-and-transcription-services">Facilitators Training and Transcription Services</a>
+              <a class="navbar-item" href="/open-incubator.html#grant-writing-training">Grant writing training</a>
+              <a class="navbar-item" href="/open-incubator/fiscal-hosting/">Fiscal hosting</a>
+              <a class="navbar-item" href="/consulting/">Consultancy &amp; open research advice</a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/openseeds/about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/people.html"> People </a>
+              <a class="navbar-item" href="/community.html"> Team </a>
+              <a class="navbar-item" href="/governance.html"> Governance </a>
+              <a class="navbar-item" href="/funders.html"> Funding &amp; Supporters </a>
+              <a class="navbar-item" href="/partners.html"> Partners </a>
+              <a class="navbar-item" href="/knowledge_management.html"> Knowledge Management System </a>
+              <a class="navbar-item" href="/publications.html"> Citing OLS &amp; Publications </a>
+              <a class="navbar-item" href="/branding.html"> Branding </a>
+              <a class="navbar-item" href="/events.html"> Events </a>
+              <a class="navbar-item" href="/open-science.html"> Open Science </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/policies-procedures-and-docs/">Policies &amp; Procedures</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/code-of-conduct.html"> Code of Conduct </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/graduation-guide.html"> Graduation Guide </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/microgrants.html"> Microgrants </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/speedblog.html"> Speedblog </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/hackmd-guide.html"> HackMD Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/slack-guide.html"> Slack Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/fellows/ols-ssi-terms-conditions.html"> OLS/SSI Fellowship </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/honorarium.html"> Honoraria Policy </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/invoicing.html"> Invoicing OLS </a>
+            </div>
+          </div>
+          
+          <a class="navbar-item" href="/posts.html"> Stories </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<section class="hero " style="background-image: linear-gradient(to top, #000, transparent), url(/images/2024-02-governance-page-benjamin-combs-wuU_SSxDeS0-unsplash.jpg);">
+  <div class="hero-body">
+    <h1 class="title is-1">Governance Committee</h1>
+
+    
+
+    
+
+    
+  </div>
+
+  
+  <div class="hero-foot">
+    
+    <p class="credit"><a href="https://unsplash.com/photos/person-showing-green-plant-wuU_SSxDeS0">Benjamin Combs</a> (Unsplash)</p>
+    
+  </div>
+  
+</section>
+
+<section class="section">
+  <div class="container content  ">
+    <section>
+    <div class="article-post">
+        
+        
+<h1 id="governance-committee">Governance Committee</h1>
+<p>The OLS Governance Committee is a dedicated group of individuals appointed to provide strategic oversight and guidance in shaping the governance framework of OLS. This committee provides advisory support in decision-making, transparency, and sustainability within OLS. You can also <a href="https://github.com/open-life-science/ols-governance">read the OLS governance guiding documents</a>.</p>
+
+<p>For governance-related documentation and updates, please visit our <a href="https://github.com/open-life-science/ols-governance">public GitHub repository</a>.</p>
+
+<div class="people">
+
+    
+    
+    <div class="card people-card" id="anelda">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/anelda" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Anelda van der Walt</p>
+
+        <p class="is-6">
+          
+          Pronouns: she/her<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/aneldavdw"><i class="fab fa-twitter"></i> @aneldavdw</a><br>
+          
+          
+          
+          <a href="https://www.talarify.co.za"><i class="fas fa-globe"></i></a>
+          
+          
+          <a href="https://github.com/anelda"><i class="fab fa-github"></i></a>
+          
+          
+          
+          <a href="https://orcid.org/0000-0003-4245-8119"><i class="ai ai-orcid"></i></a>
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            Talarify and RSSE Africa
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Community building
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Anelda
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>Anelda is the founder of Talarify, a South Africa-based consultancy working with researchers and postgraduates to help grow digital, computational, and open science literacy. She has a formal background in bioinformatics, but spend most of her time working in interdisciplinary teams these days. Main projects currently: 1) afrimapr, funded by Wellcome Open Research, where the team is working with data science communities in Africa and beyond to help make African data more accessible via the development of R building blocks; and 2) ESCALATOR - growing an inclusive and active community of practice in Digital Humanities and Computational Social Sciences in South Africa.</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="batoolmm">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/batoolmm" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Batool Almarzouq</p>
+
+        <p class="is-6">
+          
+          Pronouns: She/Her<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/batool664"><i class="fab fa-twitter"></i> @batool664</a><br>
+          
+          
+          
+          <a href="https://batool-almarzouq.netlify.app/"><i class="fas fa-globe"></i></a>
+          
+          
+          <a href="https://github.com/batoolmm"><i class="fab fa-github"></i></a>
+          
+          
+          
+          <a href="https://orcid.org/0000-0002-3905-2751"><i class="ai ai-orcid"></i></a>
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            Open Science Saudi Arabia
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Reproducibility, Computational biology
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Batool
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>Batool is a computational biologist affiliated with both KAIMRC in Saudi Arabia and the University of Liverpool in the UK. As an advocate for Open Science and its role in improving scientific and economic outputs in the Middle east, Batool established an Open Science Community in Saudi Arabia (OSCSA). OSCSA aims to create significant value towards Saudi Arabia’s Vision 2030, which focus on enhancing knowledge and improving equal access to education in the Kingdom</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="estherplomp">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/estherplomp" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Esther Plomp</p>
+
+        <p class="is-6">
+          
+          Pronouns: she/her<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/PhDToothFAIRy"><i class="fab fa-twitter"></i> @PhDToothFAIRy</a><br>
+          
+          
+          
+          <a href="https://estherplomp.github.io/"><i class="fas fa-globe"></i></a>
+          
+          
+          <a href="https://github.com/estherplomp"><i class="fab fa-github"></i></a>
+          
+          
+          
+          <a href="https://orcid.org/0000-0003-3625-1357"><i class="ai ai-orcid"></i></a>
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            Delft University Of Technology - Faculty Of Applied Sciences
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Open protocols, Open data, Research data management, FAIR, Archaeology, Bioanthropology, Isotopes, Osteology, Open science
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Esther
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>Esther works as a Data Steward at Delft University of Technology (Faculty of Applied Sciences) in the Netherlands. As a Data Steward she supports researchers with their data/code management and with sharing their research. Before this, Esther did a PhD in bioanthropology, studying the isotopic composition of human teeth to determine where they grew up.</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="ha0ye">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/ha0ye" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Hao Ye</p>
+
+        <p class="is-6">
+          
+          Pronouns: he/him<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/Hao_and_Y"><i class="fab fa-twitter"></i> @Hao_and_Y</a><br>
+          
+          
+          
+          <a href="https://haoye.us"><i class="fas fa-globe"></i></a>
+          
+          
+          <a href="https://github.com/ha0ye"><i class="fab fa-github"></i></a>
+          
+          
+          
+          <a href="https://orcid.org/0000-0002-8630-1458"><i class="ai ai-orcid"></i></a>
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            University of Pennsylvania / Community for Rigor
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Ecology, Health sciences, R, Git and github, Version control, Time series analysis, Research reproducibility, Community management, Ally skills training
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Hao
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>Hao is the Reproducibility Librarian at the University of Florida Health Science Center Libraries. He is passionate about empowering others, whether through training in open science and reproducible research practices or promoting equity and inclusion by dismantling gatekeeping in academia.</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="laurah-nyasita-ondari">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/laurah-nyasita-ondari" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Laurah Ondari</p>
+
+        <p class="is-6">
+          
+          Pronouns: She/Her<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/_nyasita"><i class="fab fa-twitter"></i> @_nyasita</a><br>
+          
+          
+          
+          
+          <a href="https://github.com/laurah-nyasita-ondari"><i class="fab fa-github"></i></a>
+          
+          
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            Bioinformatics Hub of Kenya initiative (BHKi)
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Community development, Community management, Bioinformatics, Digital communications, Drug discovery, Neglected diseases, -omics analysis
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Laurah
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>A bioinformatician + biochemist passionate about drug discovery and finding solutions for Africa’s most burdensome diseases.</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="npalopoli">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/npalopoli" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Nicolás Palopoli</p>
+
+        <p class="is-6">
+          
+          Pronouns: Él/He/Him<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/npalopoli"><i class="fab fa-twitter"></i> @npalopoli</a><br>
+          
+          
+          
+          <a href="https://www.metadocencia.org/authors/npalopoli/"><i class="fas fa-globe"></i></a>
+          
+          
+          <a href="https://github.com/npalopoli"><i class="fab fa-github"></i></a>
+          
+          
+          
+          <a href="https://orcid.org/0000-0001-7925-6436"><i class="ai ai-orcid"></i></a>
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            Universidad Nacional De Quilmes &amp; Conicet
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Bioinformática, Ciencia abierta, Educación, Bioinformatics, Open science, Education
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Nicolás
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>Nicolás se unió a MetaDocencia desde sus inicios en marzo de 2020 y actualmente comparte la coordinación general y es chair del comité asesor. Además es Investigador Adjunto del CONICET y miembro del Grupo de Bioinformática Estructural de la Universidad Nacional de Quilmes en Argentina. Vive con su esposa y su hijo en Buenos Aires.</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="rowlandm">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/rowlandm" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Rowland Mosbergen</p>
+
+        <p class="is-6">
+          
+
+          
+          
+          
+          
+          <a href="https://github.com/rowlandm"><i class="fab fa-github"></i></a>
+          
+          
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            Practical Diversity and Inclusion Project
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+
+    <div class="people-description" id="people-bio">
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="selgebali">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/selgebali" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Sara El-Gebali</p>
+
+        <p class="is-6">
+          
+          Pronouns: She, her<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/yalahowy"><i class="fab fa-twitter"></i> @yalahowy</a><br>
+          
+          
+          
+          <a href="https://selgebali.netlify.app/"><i class="fas fa-globe"></i></a>
+          
+          
+          <a href="https://github.com/selgebali"><i class="fab fa-github"></i></a>
+          
+          
+          
+          <a href="https://orcid.org/0000-0003-1378-5495"><i class="ai ai-orcid"></i></a>
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            Scilifelab / FAIRPoints Project
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Research data management, Open science, Fair principles, Inclusion &amp; equity
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Sara
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>I’m a strong advocate for equity and inclusion of individuals from marginalized groups in STEM fields. I’m also a passionate community builder and research data manager specialized in metadata and curation with a passion for OpenScience and all things FAIR (Findable, Accessible, Interoperably, Resuable).</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="saranjeetkaur">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/saranjeetkaur" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Saranjeet Kaur Bhogal</p>
+
+        <p class="is-6">
+          
+          Pronouns: She/her<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/qwertyquesting"><i class="fab fa-twitter"></i> @qwertyquesting</a><br>
+          
+          
+          
+          <a href="https://saranjeetkaur.github.io/About-Me/"><i class="fas fa-globe"></i></a>
+          
+          
+          <a href="https://github.com/saranjeetkaur"><i class="fab fa-github"></i></a>
+          
+          
+          
+          <a href="https://orcid.org/0000-0002-7038-1457"><i class="ai ai-orcid"></i></a>
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            RSE Asia Association and Research Software Alliance
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Statistics, Community management
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Saranjeet Kaur
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>Saranjeet is a Fellow of the Software Sustainability Institute’s 2023 Inauguration.  She has a Masters degree in Statistics from University of Pune and is a Technical Writer of the R Development Guide. Throughout her career, she’s been involved with a number of software engineering communities and has been selected in open source programs like Google Summer of Code 2020, Digital Infrastructure Incubator 2021 by Code for Science and Society, Google Season of Docs 2022, and a Subject Matter Expert for the Open Science Tools and Resources Module of NASA TOPS. In 2021, she participated in the Open Life Science program (cohort-4), during which she co-founded the Research Software Engineering (RSE</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+    
+    
+    <div class="card people-card" id="smklusza">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="https://avatars.githubusercontent.com/smklusza" alt="The GitHub avatar of ">
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">Stephen Klusza</p>
+
+        <p class="is-6">
+          
+          Pronouns: he/him/his<br>
+          
+
+          
+          <a class="people-card-meta-twitter" href="https://twitter.com/codebiologist"><i class="fab fa-twitter"></i> @codebiologist</a><br>
+          
+          
+          
+          
+          <a href="https://github.com/smklusza"><i class="fab fa-github"></i></a>
+          
+          
+          
+          <a href="https://orcid.org/0000-0003-0943-1846"><i class="ai ai-orcid"></i></a>
+          
+
+          
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            
+            
+            Atlanta Metropolitan State College, Adjunct Faculty and Laboratory Professional for Biology
+            
+            
+            
+          
+        </p>
+      </div>
+    </div>
+
+    
+
+    
+    <p class="people">
+      </p>
+<div class="people-description-question">Expertise:</div> Life sciences, Genetics, Synthetic biology, Accessibility
+    
+    
+
+    <div class="people-description" id="people-bio">
+      
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about Stephen
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        <p>Lifelong developmental geneticist with interest in synthetic biology and creating open domain tools for research</p>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+</div>
+
+        
+    </div>
+</section>
+
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container content">
+      <div class="columns">
+        <div class="column">
+          <h3>Get in touch</h3>
+          <p>
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/openlifesci">
+              openlifesci
+            </a>
+          </p>
+          <p>
+            <i class="fas fa-at"></i>
+            <a href="mailto:team@we-are-ols.org">
+              team[at]we-are-ols.org
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/open-life-science/open-life-science.github.io">
+              open-life-science
+            </a>
+          </p>
+            <p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="https://groups.google.com/g/ols-news">
+                    Subscribe to our announcements list
+                </a>
+            </p>
+        </div>
+        <div class="column is-5">
+          <p>
+            If you want to report a problem or suggest an enhancement we'd love
+            for you to
+            <a href="https://github.com/open-life-science/open-life-science.github.io/issues/new">open an issue</a>
+            on our GitHub repository because then we can get right on it.
+          </p>
+          <p>
+            The website content is licensed
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>.
+            The code behind the infrastructure is licensed under the <a href="https://github.com/open-life-science/open-life-science.github.io/blob/main/LICENSE.md">MIT License</a>
+          </p>
+          <p>
+            Logo design by <a href="/people.html#jilaga">Jilaga Nneoma</a>. Other OLS branding assets are found at the <a href="/branding.html">OLS branding page</a>.
+          </p>
+          <p>
+            Open Life Science Limited is a non-profit company limited by guarantee, based in the United Kingdom. 
+            Company number 
+            <a href="https://data.companieshouse.gov.uk/doc/company/12824090">12824090</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bulma.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/searchbuilder/1.6.0/js/dataTables.searchBuilder.min.js"></script>
+        <script src="/js/bulma-collapsible.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        
+      </body>
+</html>

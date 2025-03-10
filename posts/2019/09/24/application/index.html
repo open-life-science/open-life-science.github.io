@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="1dAqFck3BIBxCx-EyBbHy1HkoFnptYfP04TgKOJiYO8">
+        <title>Our application to the OLx | OLS</title>
+        
+        <link href="/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="/images/logo/ols-transparent-bg.ico">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.8/css/dataTables.bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/searchbuilder/1.6.0/css/searchBuilder.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        
+        <!--Below is the schema annotation for blogposts-->
+        
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://we-are-ols.org//posts/"
+              },
+            "headline": "Our application to the OLx",
+            "description": "We (Malvika, Yo and Bérénice) applied in August 2019 for the Mozilla Open Leaders X and were accepted (thank you Abby!) in this great program to build the Open Life Science program. We enjoyed writ...",
+            "image": "/images/2019-09-24-application.png",
+            "author": [{
+              "@type": "Person",
+              "name": "Bérénice Batut",
+              "url": "https://we-are-ols.org//people#bebatut"},
+                {
+              "@type": "Person",
+              "name": "Malvika Sharan",
+              "url": "https://we-are-ols.org//people#malvikasharan"},
+                {
+              "@type": "Person",
+              "name": "Yo Yehudi",
+              "url": "https://we-are-ols.org//people#yochannah"}],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Open Life Science",
+              "url": "https://we-are-ols.org/",
+              "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://we-are-ols.org//images/logo.png"
+                }
+              },
+            "datePublished": "2019-09-24"
+          }
+        </script>
+        
+    </head>
+
+    <body>
+        
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/images/logo/ols-transparent-bg.png" alt="OLS">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="top-menu">
+          <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="top-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-science-training.html">Open Science Training</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/openseeds/">Open Seeds</a>
+              <a class="navbar-item" href="/nebula/">Nebula</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-research.html">Research on Open</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/open-research.html#open-seeds-impact-research">Open Seeds Impact Research</a>
+              <a class="navbar-item" href="/open-research.html#influencing-policy-to-widen-participation-in-open-data-science">Influencing policy to widen participation in open data science</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-incubator.html">Open Incubator</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://catalystproject.cloud/">Catalyst</a>
+              <a class="navbar-item" href="/open-incubator.html#fellowship-programmes">Fellowship Programmes</a>
+              <a class="navbar-item" href="/open-incubator.html#facilitators-training-and-transcription-services">Facilitators Training and Transcription Services</a>
+              <a class="navbar-item" href="/open-incubator.html#grant-writing-training">Grant writing training</a>
+              <a class="navbar-item" href="/open-incubator/fiscal-hosting/">Fiscal hosting</a>
+              <a class="navbar-item" href="/consulting/">Consultancy &amp; open research advice</a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/openseeds/about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/people.html"> People </a>
+              <a class="navbar-item" href="/community.html"> Team </a>
+              <a class="navbar-item" href="/governance.html"> Governance </a>
+              <a class="navbar-item" href="/funders.html"> Funding &amp; Supporters </a>
+              <a class="navbar-item" href="/partners.html"> Partners </a>
+              <a class="navbar-item" href="/knowledge_management.html"> Knowledge Management System </a>
+              <a class="navbar-item" href="/publications.html"> Citing OLS &amp; Publications </a>
+              <a class="navbar-item" href="/branding.html"> Branding </a>
+              <a class="navbar-item" href="/events.html"> Events </a>
+              <a class="navbar-item" href="/open-science.html"> Open Science </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/policies-procedures-and-docs/">Policies &amp; Procedures</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/code-of-conduct.html"> Code of Conduct </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/graduation-guide.html"> Graduation Guide </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/microgrants.html"> Microgrants </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/speedblog.html"> Speedblog </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/hackmd-guide.html"> HackMD Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/slack-guide.html"> Slack Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/fellows/ols-ssi-terms-conditions.html"> OLS/SSI Fellowship </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/honorarium.html"> Honoraria Policy </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/invoicing.html"> Invoicing OLS </a>
+            </div>
+          </div>
+          
+          <a class="navbar-item" href="/posts.html"> Stories </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<section class="hero " style="background-image: linear-gradient(to top, #000, transparent), url(/images/2019-09-24-application.png);">
+  <div class="hero-body">
+    <h1 class="title is-1">Our application to the OLx</h1>
+
+    
+
+    
+      
+      <p class="subtitle is-5">
+          <time datetime="Sep 24, 2019">Sep 24, 2019</time>
+          - <a href="/people.html#bebatut">Bérénice</a>, <a href="/people.html#malvikasharan">Malvika</a>, <a href="/people.html#yochannah">Yo</a>
+      </p>
+    
+
+    
+  </div>
+
+  
+</section>
+
+<section class="section">
+  <div class="container content  ">
+    <p><em>We (Malvika, Yo and Bérénice) applied in August 2019 for the <a href="https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/">Mozilla Open Leaders X</a> and were accepted (thank you Abby!) in this great program to build the Open Life Science program. We enjoyed writing this application and we would like to share it in this post.</em></p>
+
+<h1 id="vision">Vision</h1>
+
+<h2 id="how-will-you-help-participants-become-open-leaders">How will you help participants become open leaders?</h2>
+
+<p>With this Mozilla Open Leaders (MOL) application, we propose to lead a mentoring program to support the early-stage researchers and young leaders interested in learning and furthering their Open Science skills. In particular, we aim to train and mentor individuals interested in becoming ambassadors for Open Science practice, training, and education across multiple European and international bioinformatics communities.
+We will help participants of this program in becoming open leaders by using three principles: Sharing, Connecting &amp; Empowering:</p>
+
+<ol>
+  <li>Sharing essential knowledge required to create, lead, and sustain an Open Source project.</li>
+  <li>Connecting members across different communities, backgrounds, and identities by creating space in this program for them to share their experiences and expertise.</li>
+  <li>Empowering them to become effective Open Science Leaders in their communities as ambassadors for Open Science practices.</li>
+</ol>
+
+<p>As the graduates, mentors, and hosts of various MOL cohorts (4, 5, 6, 7), we have collectively gained expertise in the technical and culture track. Furthermore, we participate in a wide range of activities in different international communities of practice in the life sciences. This includes ELIXIR (European bioinformatics network), Galaxy, The Carpentries, Software Sustainability Institute (SSI), Open Bioinformatics Foundation (OBF), and Mozilla. We aim to combine and complement our skills to design and run this mentoring round to connect members of these communities, who all share the common goal of open practices.</p>
+
+<p>Throughout this application, we will share the persona/story of Joy, a mentee participating in the program, and Sam, their mentor, as they progress through their open leadership journey.</p>
+
+<h2 id="what-will-a-participants-journey-be-like-in-your-program">What will a participant’s journey be like in your program?</h2>
+
+<p>Joy and Sam, our mentee and mentor respectively, will be involved in the following steps of this program:</p>
+
+<ol>
+  <li>In their applications, they will indicate their interests in the topics related to Open Science and education in bioinformatics. Joy will provide a short outline of their project, and Sam will list their expertise that they want to share with their mentee.</li>
+  <li>Based on their common interests, they will be introduced to each other as suitable mentee and mentor.</li>
+  <li>A first cohort call will be scheduled where Joy will get to know all the participants, present their project, and learn about others’ projects.</li>
+  <li>Relevant contents related to Open Life Science and education will be selected to design a 12-week program similar to the previous MOL programs. These contents will be shared and discussed in the following bi-weekly online calls:
+    <ol>
+      <li>In the cohort calls, the program leaders will introduce new topics and resources, facilitate break-out discussions, and invite experts from the field to give talks.</li>
+      <li>In mentors-only calls, Sam will participate in topic-based discussions with other mentors aimed at enhancing their mentoring skills.</li>
+      <li>In mentee-mentor calls, Sam will help Joy evaluate their understanding of the new topics, and review their progress by providing constructive feedback. Joy will be given relevant exercises before these calls to help them apply new skills in their project.</li>
+    </ol>
+  </li>
+  <li>When needed, Joy and Sam will be able to connect with other experts and get consulted on their project.</li>
+  <li>A final cohort call will allow Joy to present their project to other participants and exchange values.</li>
+  <li>A self-evaluation survey will help Joy and Sam in positioning their knowledge in open leadership before and after the program.</li>
+</ol>
+
+<h2 id="how-will-they-know-if-theyre-successful-at-the-end">How will they know if they’re successful at the end?</h2>
+
+<p>In this program, Joy and Sam will learn about and practice two aspects of Open Leadership for their bioinformatics projects:</p>
+
+<ol>
+  <li>Technical aspects, which will focus on the best practices in Open Science. With the guidance of Sam, Joy will be able to design and lead projects that are based on the principles of Open Source, Open Data, Open Access, documentation, pre-print publications, peer-reviewing process, and sustainability.</li>
+  <li>Culture aspects, which will focus on topics such as community engagement, outreach, inclusion, personal ecology, gaining and providing support to community members, and disseminating skill-building resources.</li>
+</ol>
+
+<p>Different milestones will be set throughout the program, such as starting a new project, applying best practices to make their work FAIR (findable, accessible, interoperable, and reusable), creating guidelines to foster and support a community of contributors, welcoming other members in their project, promoting their work and developing meaningful collaborations.</p>
+
+<p>At the end of the program, reviewing these milestones, combined with an assessment survey will help both Joy and Sam in understanding their success within this program.</p>
+
+<p>In the final cohort-call, Joy will discuss a summary of their assessment survey, share what they achieved, and how these match or differ from their initial expectations.</p>
+
+<p>Short 10-minute interviews will be conducted with Joy and Sam separately to record their personal stories which will be compiled and written into a blog post to be shared with all the participants.</p>
+
+<p>It will be communicated clearly that the aim of the program is not to focus on concluding their projects, but to understand and practice the principles of ‘Work Open, Lead Open’.</p>
+
+<h2 id="each-new-open-leaders-program-will-focus-on-internet-health-and-open-leadership-in-a-topic-region-or-language-which-area-will-your-proposed-program-focus-on">Each new Open Leaders program will focus on internet health and open leadership in a topic, region, or language. Which area will your proposed program focus on?</h2>
+
+<p>This program will focus on open science and education in the life sciences and bioinformatics domains. We have already gained interests and support to run this program from the well-established pan-European ELIXIR bioinformatics initiative, where we are particularly keen to connect with the participants from less-represented European countries such as Hungary, Greece, Estonia, and Cyprus. We will also invite applicants from outside Europe, particularly from developing countries (e.g. India and Africa - who are also timezone-compatible) by reaching out to the members in other international communities that we are part of (i.e. The Carpentries, OBF, SSI, and Mozilla).</p>
+
+<p>Cohort calls will be conducted in English. However, our mentees who have different primary languages such as Spanish, French, German, Hindi, and Portuguese, will be paired with mentors who can communicate in their preferred languages.</p>
+
+<h1 id="capacity">Capacity</h1>
+
+<h2 id="how-ready-are-you-to-run-this-program-what-capacities-experiences-community-members-and-resources-are-available-to-you-for-this-work">How ready are you to run this program? What capacities, experiences, community members and resources are available to you for this work?</h2>
+
+<p>We will dedicate the required time to engage online with our participants and personal mentors. Berenice and Malvika will be conducting this program as a part of their current job, with the approvals from their funding partners: de.NBI (German Bioinformatics Infrastructure) and ELIXIR Training Platform. Yo will be participating as a part of her Ph.D. research with the University of Manchester.</p>
+
+<p>Collectively, we have access to and support from European and International networks including ELIXIR, The Carpentries, Mozilla, SSI, and OBF. Notably, Yo and Malvika are board members of the OBF and SSI fellows, and Berenice is a co-lead of the Galaxy Training network. We have already reached out to a number of potential mentors and experts from the training communities of ELIXIR, Galaxy, and The Carpentries. Furthermore, we are identifying funding sources for our mentees, such as ELIXIR’s staff exchange grant, and the OBF Travel Fellowships.</p>
+
+<p>With our participation, we will attract participants from the upcoming events: Mozfest 2019, German Conference on Bioinformatics, ELIXIR Biohackathon, and the Google Summer of Code Mentor Summit.</p>
+
+<p>We aim to launch this program by January 2020. We will use the existing resources such as ELIXIR-Carpentries <a href="https://github.com/SoftDev4Research">4OSS lessons</a>, <a href="https://mygoblet.org">GOBLET</a>, <a href="https://github.com/open-source-for-researchers">Open Source for Researchers</a>, <a href="https://fosteropenscience.eu">FOSTER Open Science</a>, <a href="https://opensciencemooc.eu">Open Science MOOC</a>, <a href="https://the-turing-way.netlify.com">Turing Way open data book</a>, and of course Mozilla’s MOL resources! We have also collected and developed other resources on technical and community management skills through our journey as Open Leaders, which will benefit our mentors and mentees.</p>
+
+<h2 id="how-willing-are-you-to-learn-from-peers-as-well-as-mentors-please-share-examples-of-how-you-have-learned-with-and-from-others-including-peers-and-nonexperts-andor-learned-from-past-successes-challenges-and-failures">How willing are you to learn from peers, as well as mentors? Please share examples of how you have learned with and from others (including peers and nonexperts) and/or learned from past successes, challenges, and failures.</h2>
+
+<p><strong>Yo</strong>: I have participated in four MOL programs - once as a participant, and three times as a mentor and/or cohort host. Even on the fourth iteration, I found that there were still more to learn - new viewpoints from new participants, and challenging questions that would make you consider familiar issues from different angles. I have learned that new voices are <em>essential</em> for learning and growing.</p>
+
+<p><strong>Bérénice</strong>: I benefited a lot from the MOL6 program as a mentee. The most important parts were the discussions in the breakout rooms and with my mentor. As a mentor in MOL 7, I made an effort to give back a similar experience to my mentee. I have also participated in the mentoring programs within The Carpentries and Galaxy community where I have learned from the experiences of other mentors, but most importantly from my interaction with my mentees.</p>
+
+<p><strong>Malvika</strong>: I have learned about the importance of mentorship as a mentee in MOL 7, and as a mentor in The Carpentries mentoring programs. At every event that I organize or attend in different community spaces, even if they are not always successful, I learn something new from personal interactions with other participants. I often see that facilitating conversations around diversity and inclusion are challenging, but creating space for such conversations have allowed me to foster a more welcoming environment for the members of my community.</p>
+
+<p>Yo, Berenice, and Malvika share their passion for Open Research and inclusiveness in Open Science. Even though they are the leaders in different communities, their shared values brought them together as a group, helped them exchange their expertise with each other, combine their skills, and lead this program together.</p>
+
+<h2 id="share-a-story-about-your-open-leadership-journey-that-shows-how-and-why-youre-ready-to-organize-your-own-program">Share a story about your open leadership journey that shows how and why you’re ready to organize your own program.</h2>
+
+<p><strong>Bérénice</strong>: I started my Open Science journey by contributing to the projects in the Galaxy community. In 2016, I created the Galaxy Training Material project, which successfully attracted &gt;130 contributors. I continue to co-lead this project within the Galaxy Training community. I also lead Mozilla mini-grant funded outreach programs such as the Street Science Community. My journey through the MOL programs, both as mentee and mentor, helped me become an effective Open Leader for these communities and projects.</p>
+
+<p><strong>Yo</strong>: I have been working openly since 2015. During this time, I have moved from contributing to Open Science projects such as InterMine, to establishing my own project: Code Is Science, managing community contributions: Outreachy, and other related programs for InterMine and the OBF. I have participated in four MOL programs and also managed the Openness Wrangler team project at MozFest 2018. These involvements have led to several success stories, for e.g. several of my InterMine colleagues have been hired through our community outreach efforts.</p>
+
+<p><strong>Malvika</strong>: As a MOL 7 participant, I improved strategies to support members of EMBL Bio-IT, an Open Science community that I am a manager of. The lessons on ‘Mountain of Engagement’ helped me gain insight into different levels of community participation, and ‘Personal Ecology’ helped me develop healthy reward system for the volunteers in my community. Discussion on “Open by Design” have since helped me organise my events, training workshops and conferences more openly which have been positively received by my community members.</p>
+
+<p>As a team, we want to co-lead this open leader program with an aim to empower others to become Open Leaders in their own communities.</p>
+
+<h1 id="internet-health-connections">Internet Health Connections</h1>
+
+<h2 id="how-does-your-program-connect-to-internet-health">How does your program connect to internet health?</h2>
+
+<p>This program will be designed around web-literacy and openness while touching many other areas of Internet Health. Since bioinformatics stands in the interface of computational and biological research, it is still a relatively new field of research. This position provides ample room for flexibility for the various bioinformatics communities to embrace open-by-design practices. We will use this unique opportunity to engage with early-stage bioinformaticians to train them in the essential skills for carrying out Open Research and Open Source software practices. Projects will be developed on GitHub, made available online, and released with appropriate licenses and a clear vision statement. For those without much experience on GitHub and working online, there would also be elements of increasing web literacy, helping our budding leaders to work safely, securely, and effectively in a digital environment.</p>
+
+<p>We aim to not only work in the Open Source domains with the diverse group of mentees, but also to teach them about accessibility, diversity, and inclusivity, whether digital or offline. For example, as part of their mentorship journey, Sam would not only mentor Joy about the values of working open but also engage them in understanding how their work will impact others. The ultimate outcome of this program will be that our participants will design inclusive bioinformatics projects that are available to others in an equitable manner, and pass on the values learned in this program to others in their communities.</p>
+
+<h2 id="how-will-investing-in-this-area-help-the-broader-internet-health-movement">How will investing in this area help the broader internet health movement?</h2>
+
+<p>With this program, we aim to reach out to the early stage researchers and young leaders interested in furthering their Open Science skills and becoming ambassadors for Open Science practice, training and education in their communities.</p>
+
+<p>ELIXIR training network, which is an integral part of the largest bioinformatics community in Europe, will support us in recruiting suitable participants for our program. These participants will in return bring best practices of Open Science to improve ELIXIR bioinformatics resources.</p>
+
+<p>We will also open our program to a wider audience outside Europe with the help of OBF, a volunteer-led non-profit organisation that supports Open Source projects in life science.</p>
+
+<p>We are confident that with the support of this program, our participants will be able to propagate the knowledge gained from the program in their communities, which will undoubtedly gain support for the internet health movement.</p>
+
+<h2 id="how-will-you-help-participants-see-themselves-as-part-of-the-movement-for-internet-health">How will you help participants see themselves as part of the movement for internet health?</h2>
+
+<p>Several relevant case-studies will be included in the curriculum to help our participants find relatable stories and projects, so they can create effective plans for their own projects on openness and web-literacy. A special importance will be placed on inclusivity, diversity, and representation so that we can provide our participants with role models, mentors, and experts that they can identify with. For example, Joy may be more likely to willingly engage with Sam and accept Sam’s advice and viewpoints if they can identify professional and personal commonalities based on their career path, gender, languages, backgrounds, and /or identities.</p>
+
+<p>Additionally, once our mentees have completed the program they will be encouraged to re-join the next round, only this time <em>they</em> are the mentors, cohort leaders, and experts. This will allow participants to feel thoroughly embedded in the program, as well as help them in learning the same lessons from a different standpoint.</p>
+
+<p>In our experience, one of the most valuable parts of the Open Leadership journey is the networking with other like-minded individuals. All participants will be encouraged to participate in MozFest, the Mozilla Global Sprint, and other Internet Health events such FOSDEM, Google Summer of Code, and domain-specific open events including the Bioinformatics Open Source Conference (BOSC), the eLife Innovation Sprint, and the Galaxy Community Conference (GCC).</p>
+
+<h1 id="accessibility">Accessibility</h1>
+
+<h2 id="what-time-zone-are-you-in">What time zone are you in?</h2>
+
+<p>Central Europe, GMT</p>
+
+<h2 id="what-times-are-you-available-during-the-day">What times are you available during the day?</h2>
+
+<p>During the day and evenings in central Europe</p>
+
+<h2 id="would-you-be-willing-to-participate-asynchronously-if-you-have-limited-or-inconsistent-internet-connectivity-well-do-our-best-to-provide-offline-support">Would you be willing to participate asynchronously? If you have limited or inconsistent internet connectivity, we’ll do our best to provide offline support.</h2>
+
+<p>Yes</p>
+
+<h2 id="would-you-be-willing-to-be-grouped-with-people-from-similar-projects-for-mentoring">Would you be willing to be grouped with people from similar projects for mentoring?</h2>
+
+<p>Yes</p>
+
+<h2 id="what-is-your-primary-language">What is your primary language?</h2>
+
+<p>English</p>
+
+<h2 id="do-we-have-permission-to-contact-you-about-other-mozilla-foundation-events-opportunities-and-programs">Do we have permission to contact you about other Mozilla Foundation events, opportunities, and programs?</h2>
+
+<p>Yes</p>
+
+
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container content">
+      <div class="columns">
+        <div class="column">
+          <h3>Get in touch</h3>
+          <p>
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/openlifesci">
+              openlifesci
+            </a>
+          </p>
+          <p>
+            <i class="fas fa-at"></i>
+            <a href="mailto:team@we-are-ols.org">
+              team[at]we-are-ols.org
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/open-life-science/open-life-science.github.io">
+              open-life-science
+            </a>
+          </p>
+            <p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="https://groups.google.com/g/ols-news">
+                    Subscribe to our announcements list
+                </a>
+            </p>
+        </div>
+        <div class="column is-5">
+          <p>
+            If you want to report a problem or suggest an enhancement we'd love
+            for you to
+            <a href="https://github.com/open-life-science/open-life-science.github.io/issues/new">open an issue</a>
+            on our GitHub repository because then we can get right on it.
+          </p>
+          <p>
+            The website content is licensed
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>.
+            The code behind the infrastructure is licensed under the <a href="https://github.com/open-life-science/open-life-science.github.io/blob/main/LICENSE.md">MIT License</a>
+          </p>
+          <p>
+            Logo design by <a href="/people.html#jilaga">Jilaga Nneoma</a>. Other OLS branding assets are found at the <a href="/branding.html">OLS branding page</a>.
+          </p>
+          <p>
+            Open Life Science Limited is a non-profit company limited by guarantee, based in the United Kingdom. 
+            Company number 
+            <a href="https://data.companieshouse.gov.uk/doc/company/12824090">12824090</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bulma.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/searchbuilder/1.6.0/js/dataTables.searchBuilder.min.js"></script>
+        <script src="/js/bulma-collapsible.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        
+      </body>
+</html>
