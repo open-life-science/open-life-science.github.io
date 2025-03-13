@@ -52,7 +52,7 @@ Meanwhile, Maryblessing joined virtually. Their discussion on tokenism in open s
 
 They challenged organisations to move beyond merely showcasing diversity in marketing materials and instead **create genuine pathways to leadership for marginalised individuals**. 
 Their call to action? **Design for everyone, enforce Codes of Conduct, improve accessibility, and build inclusive practices**. 
-This resonated deeply, especially as I am currently conducting an accessibility review for my organisation's [website]({% link site.url %}).
+This resonated deeply, especially as I am currently conducting an accessibility review for my organisation's [website]({{ site.url }}).
 
 ### Right-to-Left, Left-to-Right: Rethinking Multilingual Design - Batool Almarzouq, Goodnews Sunday Sandy and Richie Moluno
 Many software systems fail to support Right-to-Left (RTL) languages like Arabic, creating barriers for millions of users. 
