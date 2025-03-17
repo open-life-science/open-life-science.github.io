@@ -54,7 +54,7 @@ For the next round, Joy may share what they learned by [mentoring]({% link opens
 Participants join this program with a project that they either are already working on or want to develop during this program individually or in teams.
 Project ideas can range from solving technical questions to creating an open data project or report, developing an open source software project, writing an open publication, facilitating community/team culture movements, advancing open educational resources or contributing to other existing projects/communities.
 
-**[Check out the projects developed in the previous cohorts]({% link openseeds/projects.md %}**
+**[Check out the projects developed in the previous cohorts]({% link openseeds/projects.md %})**
 
 {% for cohort in cohorts %}
     {% assign cohort_name = cohort[0] %}
