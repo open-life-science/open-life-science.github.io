@@ -4842,7 +4842,9 @@ hrhotz:
   first-name: Hans-Rudolf
   last-name: Hotz
   orcid: 0000-0002-2799-424X
-  twitter: hrhotz
+  mastodon:
+    profile: hrhotz
+    server: genomic.social
   website: https://www.fmi.ch/
   country_3: CHE
   continent: Europe
