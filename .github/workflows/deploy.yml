@@ -33,7 +33,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: main 
         publish_dir: ./_site
-        destination_repo: open-life-science/ols-site-preview 
+        external_repository: open-life-science/ols-site-preview 
         cname: ''
 
     - name: Comment with preview URL
