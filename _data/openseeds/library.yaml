@@ -125,12 +125,6 @@ Open Life Science:
       date: October 11, 2024
       cohort: ols-9-dra
       speakers: []
-    - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vSppfTwD16P5ilQYB6jnthyumfvM4mNuumHgy6NFuJHWIarRF-locPwZoJVO7H5DbzWdU30KhMh0gm4/pub
-      title: Introduction to Open Seeds
-      date: October 15, 2024
-      cohort: ols-9-dra
-      speakers: []
 Tooling for Project Design:
   Open Canvas:
     description: Planning and resourcing for your project
@@ -250,12 +244,6 @@ Tooling for Project Design:
       title: Open Canvas
       date: September 25, 2024
       cohort: ols-9-catalyst
-    - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub
-      title: Open Canvas
-      date: October 15, 2024
-      cohort: ols-9-dra
-      speakers: []
     - slides: 'https://docs.google.com/presentation/d/e/2PACX-1vQ2cXlk-3EGLFQph6qD8PN24_nfCaCwij69CAd2GZ5PzgAZ1AEuNQE_m1w9DyAbrONwXrsOYZmKOA5T/pub '
       speakers:
       - graciellehigino
@@ -411,12 +399,6 @@ Tooling for Project Design:
       title: Tooling for Project Design Introduction
       date: September 25, 2024
       cohort: ols-9-catalyst
-    - slides: 
-        https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
-      title: Tooling for Project Design Introduction
-      date: October 15, 2024
-      cohort: ols-9-dra
-      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/1s1sgBYSoRfG_XujjxG2_B2w1aE3f9jzd/pub?start=false&loop=false&delayms=3000
       speakers:
@@ -1956,6 +1938,10 @@ Project, Community & Personal Management:
       recording: https://youtu.be/6ZlrGVxjd5Q?t=1998
       date: November 09, 2022
       cohort: ols-6
+    - title: Community Design for Inclusivity
+      date: November 06, 2024
+      cohort: ols-9-dra
+      speakers: []
 Open Leadership:
   Open Leadership in Practice:
     description: Examples of leadership from different open leaders
@@ -2279,10 +2265,6 @@ Not sorted:
       title: Open Science Garden(s)
       date: October 23, 2024
       cohort: ols-9-dra
-    - title: Community Design for Inclusivity
-      date: November 06, 2024
-      cohort: ols-9-dra
-      speakers: []
     - slides: 
         https://docs.google.com/presentation/d/122OcEk4tYbo5ZI4isS4KbOYxGFiTBesR/edit?rtpof=true
       speakers:
