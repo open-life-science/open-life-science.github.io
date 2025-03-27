@@ -78,7 +78,7 @@ Key responsibilities and qualifications required for the role are described belo
 
 **Application should be submitted by emailing a CV and a cover letter to [jobs@we-are-ols.org](mailto:jobs@we-are-ols.org) by 15 April**, midnight anywhere in the world.
 
-1. A short resume or CV should highlight “**General Qualifications” **listed above
+1. A short resume or CV should highlight **“General Qualifications”** listed above
 2. A cover letter (1-2 pages max) that addresses your relevant background and experience highlighting **“Role-Specific Qualification”**
   * Please include examples from 1-2 projects you have worked on
   * Make sure to include your approaches to open working and resource-sharing
@@ -87,11 +87,11 @@ Key responsibilities and qualifications required for the role are described belo
 
 ## Benefits and salary
 
-This role has been allocated an overall budget of **USD 33,400 for 12 months. **
+This role has been allocated an overall budget of **USD 33,400 for 12 months.**
 
 In addition to the stipend, the fellow will have access to the organisation's infrastructure, leadership coaching, and our global community of individuals and organisations promoting open science in research.
 
-The successful candidate will have the opportunity to discuss their availability, weekly hours on this role and preferences with the OLS team after the selection process.
+The successful candidate will have the opportunity to discuss their availability, weekly hours in this role and preferences with the OLS team after the selection process.
 
 If the successful candidate has the right to work in the UK and is based in the UK (where OLS is registered as a company), we will offer:
 
