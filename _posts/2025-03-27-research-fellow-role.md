@@ -15,7 +15,9 @@ photos:
 OLS is offering an exciting opportunity for a **one-year, fixed-term Research Fellowship** position titled **OLS Research Fellow - Research Funding Ecosystem**.
 
 * Location: Remote
-* Total budget: USD 33,400
+* Total budget:
+  * UK Salary: GBP 23,500 per annum for a 60% role.
+  * Contractors (outside the UK): USD 33,400.
 * Deadline for application: 15 April 2025
 * Email your CV and Cover Letter to [jobs@we-are-ols.org](mailto:jobs@we-are-ols.org)
 
@@ -87,7 +89,7 @@ Key responsibilities and qualifications required for the role are described belo
 
 ## Benefits and salary
 
-This role has been allocated an overall budget of **USD 33,400 for 12 months.**
+This role has been allocated an overall budget of **USD 33,400 for 12 months.** Contractors (outside the UK) will receive the full amount, which includes a 15% uplift for independently managed taxes, pensions, and benefits. UK-based applicants' tax, NI, and benefits are handled as part of our PAYE system and will receive approximately GBP 23,500 per annum. 
 
 In addition to the stipend, the fellow will have access to the organisation's infrastructure, leadership coaching, and our global community of individuals and organisations promoting open science in research.
 
