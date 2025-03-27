@@ -31,10 +31,10 @@ This research fellowship position offers a unique opportunity to work with the O
 
 ## Eligibility
 
-This fellowship is open to individuals within the OLS community, encompassing Open Seeds and Nebula fellows, mentors, and experts. Candidates should possess a strong understanding of the OLS community's values, workflows, and network.
-This existing familiarity is considered beneficial, contributing to a more efficient and impactful fellowship experience. 
+This fellowship is open to individuals within the OLS community, encompassing Open Seeds and Nebula fellows, mentors, and experts.
+A strong understanding and existing familiarity with OLS community's values, workflows, and network will benefit candidates and the OLS team, leading to a more efficient and impactful fellowship experience. 
 
-Responsibilities and qualifications are described below.
+Key responsibilities and qualifications required for the role are described below.
 
 ***The deadline for submitting your CV and a cover letter is 15 April 2025***
 
