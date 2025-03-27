@@ -10,13 +10,18 @@ photos:
   url: https://unsplash.com/@ibnualyafizi
 ---
 
-# **Applications are Invited from the OLS Community**
+# Role: OLS Research Fellow: Research Funding Ecosystem
 
-## Role title: OLS Research Fellow: Research Funding Ecosystem
+**Applications are Invited from the OLS Community!**
+
+OLS is offering a **one-year research fellowship position**.
+We are **inviting applications from within the OLS community** – which includes Open Seeds and Nebula fellows, mentors and experts – benefitting from candidates who already possess a strong understanding of the OLS community's values, workflows, and network, leading to a more efficient and impactful fellowship experience.
+
+Under the title **Research Fellow: Research Funding Ecosystem**, this fellowship offers unique opportunities to contribute to the program by joining the project delivery team. 
 
 ***The deadline for submitting your CV and a cover letter is 15 April 2025***
 
-**About OLS:**
+## About OLS
 
 OLS (Open Life Science) is a not-for-profit organisation dedicated to fostering open science practices in research. Through training and mentoring of researchers, community building and research-based improvement in open science, we aim to foster a more equitable and accessible research ecosystem.
 
@@ -24,10 +29,6 @@ Under a newly funded project on research and curriculum development to improve t
 
 **Research Fellowship Opportunity:**
 
-OLS is offering a **one-year research fellowship position**.
-We are **inviting applications from within the OLS community** – which includes Open Seeds and Nebula fellows, mentors and experts – benefitting from candidates who already possess a strong understanding of the OLS community's values, workflows, and network, leading to a more efficient and impactful fellowship experience.
-
-Under the title **Research Fellow: Research Funding Ecosystem**,** **this fellowship offers unique opportunities to contribute to the program by joining the project delivery team. 
 
 ## Responsibilities:
 
