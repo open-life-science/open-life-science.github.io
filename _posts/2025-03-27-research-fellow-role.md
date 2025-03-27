@@ -10,27 +10,35 @@ photos:
   url: https://unsplash.com/@ibnualyafizi
 ---
 
-# Role: OLS Research Fellow: Research Funding Ecosystem
+# Role: OLS Research Fellow - Research Funding Ecosystem
 
-**Applications are Invited from the OLS Community!**
+OLS is offering an exciting opportunity for a **one-year, fixed-term Research Fellowship** position titled **OLS Research Fellow - Research Funding Ecosystem**.
 
-OLS is offering a **one-year research fellowship position**.
-We are **inviting applications from within the OLS community** – which includes Open Seeds and Nebula fellows, mentors and experts – benefitting from candidates who already possess a strong understanding of the OLS community's values, workflows, and network, leading to a more efficient and impactful fellowship experience.
+* Location: Remote
+* Total budget: USD 33,400
+* Deadline for application: 15 April 2025
+* Email your CV and Cover Letter to [jobs@we-are-ols.org](mailto:jobs@we-are-ols.org)
 
-Under the title **Research Fellow: Research Funding Ecosystem**, this fellowship offers unique opportunities to contribute to the program by joining the project delivery team. 
+## About the Opportunity
+
+This fellowship is embedded within a newly funded project focused on research and curriculum development aimed at improving the current understanding of the global research funding landscape. The OLS Research Fellow will play a crucial role in contributing to this project by joining the project delivery team.
+
+### About OLS
+
+OLS (Open Life Science) is a not-for-profit organisation dedicated to fostering open science practices in research. Through training and mentoring of researchers, community building and research-based improvement in open science, we aim to foster a more equitable and accessible research ecosystem. 
+
+This research fellowship position offers a unique opportunity to work with the OLS team while engaging in impactful research and contributing to the development of resources within the research ecosystem.
+
+## Eligibility
+
+This fellowship is open to individuals within the OLS community, encompassing Open Seeds and Nebula fellows, mentors, and experts. Candidates should possess a strong understanding of the OLS community's values, workflows, and network.
+This existing familiarity is considered beneficial, contributing to a more efficient and impactful fellowship experience. 
+
+Responsibilities and qualifications are described below.
 
 ***The deadline for submitting your CV and a cover letter is 15 April 2025***
 
-## About OLS
-
-OLS (Open Life Science) is a not-for-profit organisation dedicated to fostering open science practices in research. Through training and mentoring of researchers, community building and research-based improvement in open science, we aim to foster a more equitable and accessible research ecosystem.
-
-Under a newly funded project on research and curriculum development to improve the current understanding of the global research funding landscape, we are recruiting a research fellow to join our team.
-
-**Research Fellowship Opportunity:**
-
-
-## Responsibilities:
+## Key Responsibilities:
 
 * Map the needs and assets associated with research funding and project sustainability, with a focus on the global research community and access for underrepresented groups and researchers in LMICs.
 * Collect information on funding mechanisms and grant opportunities aligned with our project goals.
@@ -66,7 +74,7 @@ Under a newly funded project on research and curriculum development to improve t
 * Background working in research administration, project/grant management and/or international collaborative projects with multiple stakeholders.
 * Knowledge of funding mechanisms and grant opportunities in research. Knowledge of funding systems in health and biological sciences will be a plus.
 
-## Application details:
+## How to Apply
 
 **Application should be submitted by emailing a CV and a cover letter to [jobs@we-are-ols.org](mailto:jobs@we-are-ols.org) by 15 April**, midnight anywhere in the world.
 
@@ -76,7 +84,6 @@ Under a newly funded project on research and curriculum development to improve t
   * Make sure to include your approaches to open working and resource-sharing
   * **Provide links to projects and/or openly published resources** that you have developed either on your own or in collaboration with other contributors
   * Also state personal strengths/skills that you’d like to build in this role
-
 
 ## Benefits and salary
 
