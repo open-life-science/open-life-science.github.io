@@ -32,21 +32,21 @@ This research fellowship position offers a unique opportunity to work with the O
 ## Eligibility
 
 This fellowship is open to individuals within the OLS community, encompassing Open Seeds and Nebula fellows, mentors, and experts.
-A strong understanding and existing familiarity with OLS community's values, workflows, and network will benefit candidates and the OLS team, leading to a more efficient and impactful fellowship experience. 
+A strong understanding and existing familiarity with the OLS community's values, workflows, and network will benefit candidates and the OLS team, leading to a more efficient and impactful fellowship experience. 
 
 Key responsibilities and qualifications required for the role are described below.
 
-***The deadline for submitting your CV and a cover letter is 15 April 2025***
+***The deadline for submitting your CV and a cover letter is 15 April 2025.***
 
 ## Key Responsibilities:
 
-* Map the needs and assets associated with research funding and project sustainability, with a focus on the global research community and access for underrepresented groups and researchers in LMICs.
+* Map the needs and assets associated with research funding and project sustainability, with a focus on the global research community and access for groups underrepresented in research, including researchers in Low- and Middle-Income Countries.
 * Collect information on funding mechanisms and grant opportunities aligned with our project goals.
 * Conduct short-term quantitative and qualitative work to gather insights into the specific challenges and opportunities for researchers in different geographical contexts. 
 * Identify and engage with successful open science leaders, funders and initiatives that can contribute to our project goals.
 * Design and facilitate participatory workshops and surveys to collect expertise and insights related to the research funding ecosystem.
 * Track their progress, maintain resources developed in this project and create reports to share insights with the team regularly.
-* Work with another *Research Fellow for Curriculum Development * regularly to share knowledge, practices and general feedback on each other’s work.
+* Work with another *Research Fellow for Curriculum Development* regularly to share knowledge, practices and general feedback on each other’s work.
 * Collaborate with the Finance Manager to design and iterate on the [Fiscally Sponsored Community](https://we-are-ols.org/open-incubator/fiscal-hosting/) processes and requirements. 
 * Most importantly, find opportunities for collaboration and aligning their work, avoiding duplication of efforts and improving the use of shared opportunities.
 
