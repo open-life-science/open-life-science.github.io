@@ -33,7 +33,7 @@ jobs:
         personal_token: ${{ secrets.PR_PREVIEW_TOKEN }}
         publish_branch: gh-pages 
         publish_dir: ./_site
-        external_repository: open-life-science/ols-site-preview 
+        external_repository: open-life-science/open-life-science.github.io 
         cname: ''
 
     - name: Comment with preview URL
