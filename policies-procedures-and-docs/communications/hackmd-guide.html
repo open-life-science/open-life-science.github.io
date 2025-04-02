@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="1dAqFck3BIBxCx-EyBbHy1HkoFnptYfP04TgKOJiYO8">
+        <title>HackMD Guidelines | OLS</title>
+        
+        <link href="/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="/images/logo/ols-transparent-bg.ico">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.8/css/dataTables.bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/searchbuilder/1.6.0/css/searchBuilder.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        
+        <!--Below is the schema annotation for blogposts-->
+        
+    </head>
+
+    <body>
+        
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/images/logo/ols-transparent-bg.png" alt="OLS">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="top-menu">
+          <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="top-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-science-training.html">Open Science Training</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/openseeds/">Open Seeds</a>
+              <a class="navbar-item" href="/nebula/">Nebula</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-research.html">Research on Open</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/open-research.html#open-seeds-impact-research">Open Seeds Impact Research</a>
+              <a class="navbar-item" href="/open-research.html#influencing-policy-to-widen-participation-in-open-data-science">Influencing policy to widen participation in open data science</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-incubator.html">Open Incubator</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://catalystproject.cloud/">Catalyst</a>
+              <a class="navbar-item" href="/open-incubator.html#fellowship-programmes">Fellowship Programmes</a>
+              <a class="navbar-item" href="/open-incubator.html#facilitators-training-and-transcription-services">Facilitators Training and Transcription Services</a>
+              <a class="navbar-item" href="/open-incubator.html#grant-writing-training">Grant writing training</a>
+              <a class="navbar-item" href="/open-incubator/fiscal-hosting/">Fiscal hosting</a>
+              <a class="navbar-item" href="/consulting/">Consultancy &amp; open research advice</a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/openseeds/about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/people.html"> People </a>
+              <a class="navbar-item" href="/community.html"> Team </a>
+              <a class="navbar-item" href="/governance.html"> Governance </a>
+              <a class="navbar-item" href="/funders.html"> Funding &amp; Supporters </a>
+              <a class="navbar-item" href="/partners.html"> Partners </a>
+              <a class="navbar-item" href="/knowledge_management.html"> Knowledge Management System </a>
+              <a class="navbar-item" href="/publications.html"> Citing OLS &amp; Publications </a>
+              <a class="navbar-item" href="/branding.html"> Branding </a>
+              <a class="navbar-item" href="/events.html"> Events </a>
+              <a class="navbar-item" href="/open-science.html"> Open Science </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/policies-procedures-and-docs/">Policies &amp; Procedures</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/code-of-conduct.html"> Code of Conduct </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/graduation-guide.html"> Graduation Guide </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/microgrants.html"> Microgrants </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/speedblog.html"> Speedblog </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/hackmd-guide.html"> HackMD Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/slack-guide.html"> Slack Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/fellows/ols-ssi-terms-conditions.html"> OLS/SSI Fellowship </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/honorarium.html"> Honoraria Policy </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/invoicing.html"> Invoicing OLS </a>
+            </div>
+          </div>
+          
+          <a class="navbar-item" href="/posts.html"> Stories </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<section class="hero " style="background-image: linear-gradient(to top, #000, transparent), url(https://images.unsplash.com/photo-1683178861337-ca70ef8c0db3);">
+  <div class="hero-body">
+    <h1 class="title is-1">HackMD Guidelines</h1>
+
+    
+
+    
+
+    
+  </div>
+
+  
+  <div class="hero-foot">
+    
+    <p class="credit"><a href="https://images.unsplash.com/photo-1683178861337-ca70ef8c0db3">Zetong Li</a> (CC-BY)</p>
+    
+  </div>
+  
+</section>
+
+<section class="section">
+  <div class="container content  ">
+    <section>
+    <div class="article-post">
+        
+        <p><strong>Please share <a href="https://hackmd.io/@openlifesci/hackmd-guide">this HackMD</a> to demo how to work with HackMD.</strong></p>
+
+<p>HackMD documents are collaborative documents (like a Google docs) where multiple people can write simultaneously. Open Life Science will use these documents for taking shared notes.</p>
+
+<p><em>Notice the panel on the top right - Click the <strong>Edit</strong> button</em>
+<img src="https://i.imgur.com/LYrFBqh.png" alt=""></p>
+
+<p><em>Now see this panel on the left of your screen, we have explained below how to use them</em></p>
+
+<p><img src="https://i.imgur.com/d9ZtImc.png" alt=""></p>
+
+<p><img src="https://i.imgur.com/W2fAysk.png" alt="">
+<em><a href="https://files.slack.com/files-pri/T17H34RB2-F013NRJM8LU/image.png">(opens in new tab)</a></em></p>
+
+<ul>
+  <li>To edit this document click the pencil symbol (FIRST box in the top left hand corner - see the image below)</li>
+  <li>To view this document rendered into nicely formatted version, click the eye symbol (SECOND box in the top left hand corner - see the image below)</li>
+  <li>For this document we recommend using the double view (click on the symbol in between the pencil and eye symbols).
+    <ul>
+      <li>You will be able to type in the left hand box and view the rendered version in the right hand box.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="pencil-markdown-for-styling-what-you-write">:pencil: Markdown for styling what you write!</h2>
+
+<p>This particular platform for collaborative documentation is called HackMD, where MD stands for Markdown. 
+Markdown is a nice and easy way to format a plain-text into publishable document.</p>
+
+<p>By using simple syntax (mostly symbols) you can create rich formatting.
+For example, use hash (#) (or multiple hashes) for creating headers.</p>
+
+<h1 id="header-1-top-header">Header 1 (top header)</h1>
+<h2 id="header-2-second-level-header">Header 2 (second level header)</h2>
+<h3 id="header-3-third-level-header">Header 3 (third level header)</h3>
+
+<p>Use asterisk (*) followed by a blank space for creating bullet points:</p>
+
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+</ul>
+
+<p>Use numbers (1.,2.,3. etc.) followed by a blank space for numbered list:</p>
+
+<ol>
+  <li>item 1</li>
+  <li>item 2</li>
+</ol>
+
+<p>Italics words and sentences can be written by using asterisk in the beginning and end of a word or sentence (without any space), like this:</p>
+
+<p><em>Italics</em>
+<em>This is an italicised sentence</em></p>
+
+<ul>
+  <li>Use double asterisks <code class="language-plaintext highlighter-rouge">(**)</code> for <strong>Bold</strong> to <strong>emphasise word and sentences</strong>
+</li>
+  <li>Use three asterisks for <strong><em>bold and italics in the same sentence</em></strong>
+</li>
+</ul>
+
+<p><strong>To add a web link:</strong></p>
+<ol>
+  <li>write a text in square brackets which you want to link out</li>
+  <li>add the link (URL) in the round brackets, like this: <code class="language-plaintext highlighter-rouge">[Your text](your link)</code>
+    <ul>
+      <li>Example: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a>
+</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>To link to another part/section of the document</strong></p>
+<ol>
+  <li>write a text in square brackets which you want to link</li>
+  <li>in the round brackets, start with a hash symbol followed by the name of the header in the file you want to link to by Putting-a-line-between-all-words, like this: <code class="language-plaintext highlighter-rouge">[your text](#your-header)</code>
+    <ul>
+      <li>Example: <a href="#What-is-this-document-for">What is this document for?</a>
+</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>To add images</strong></p>
+<ol>
+  <li>start with an exclamation mark</li>
+  <li>write an image title inside the square brackets</li>
+  <li>provide a web link for the image in the circular brackets, like this: <code class="language-plaintext highlighter-rouge">![Image title](web link to the image)</code>
+example: <img src="https://i.pinimg.com/originals/da/1e/3f/da1e3fe735a1b115a8a6773e67d6d825.png" alt="MarkDown Cheatsheet">
+</li>
+</ol>
+
+        
+    </div>
+</section>
+
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container content">
+      <div class="columns">
+        <div class="column">
+          <h3>Get in touch</h3>
+          <p>
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/openlifesci">
+              openlifesci
+            </a>
+          </p>
+          <p>
+            <i class="fas fa-at"></i>
+            <a href="mailto:team@we-are-ols.org">
+              team[at]we-are-ols.org
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/open-life-science/open-life-science.github.io">
+              open-life-science
+            </a>
+          </p>
+            <p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="https://groups.google.com/g/ols-news">
+                    Subscribe to our announcements list
+                </a>
+            </p>
+        </div>
+        <div class="column is-5">
+          <p>
+            If you want to report a problem or suggest an enhancement we'd love
+            for you to
+            <a href="https://github.com/open-life-science/open-life-science.github.io/issues/new">open an issue</a>
+            on our GitHub repository because then we can get right on it.
+          </p>
+          <p>
+            The website content is licensed
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>.
+            The code behind the infrastructure is licensed under the <a href="https://github.com/open-life-science/open-life-science.github.io/blob/main/LICENSE.md">MIT License</a>
+          </p>
+          <p>
+            Logo design by <a href="/people.html#jilaga">Jilaga Nneoma</a>. Other OLS branding assets are found at the <a href="/branding.html">OLS branding page</a>.
+          </p>
+          <p>
+            Open Life Science Limited is a non-profit company limited by guarantee, based in the United Kingdom. 
+            Company number 
+            <a href="https://data.companieshouse.gov.uk/doc/company/12824090">12824090</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bulma.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/searchbuilder/1.6.0/js/dataTables.searchBuilder.min.js"></script>
+        <script src="/js/bulma-collapsible.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        
+      </body>
+</html>

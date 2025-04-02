@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="1dAqFck3BIBxCx-EyBbHy1HkoFnptYfP04TgKOJiYO8">
+        <title>OLS-3 speed blog: How to design peer production platforms? Guidelines and design inspiration in a blog format | OLS</title>
+        
+        <link href="/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="/images/logo/ols-transparent-bg.ico">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.8/css/dataTables.bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/searchbuilder/1.6.0/css/searchBuilder.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        
+        <!--Below is the schema annotation for blogposts-->
+        
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://we-are-ols.org//posts/"
+              },
+            "headline": "OLS-3 speed blog: How to design peer production platforms? Guidelines and design inspiration in a blog format",
+            "description": "This post is guest authored by Katharina Kloppenborg, a recent graduate of OLS-3.",
+            "image": "https://i.imgur.com/fbzanCT.png",
+            "author": [{
+              "@type": "Person",
+              "name": "Katharina Kloppenborg",
+              "url": "https://we-are-ols.org//people#katoss"}],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Open Life Science",
+              "url": "https://we-are-ols.org/",
+              "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://we-are-ols.org//images/logo.png"
+                }
+              },
+            "datePublished": "2021-05-24"
+          }
+        </script>
+        
+    </head>
+
+    <body>
+        
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/images/logo/ols-transparent-bg.png" alt="OLS">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="top-menu">
+          <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="top-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-science-training.html">Open Science Training</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/openseeds/">Open Seeds</a>
+              <a class="navbar-item" href="/nebula/">Nebula</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-research.html">Research on Open</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/open-research.html#open-seeds-impact-research">Open Seeds Impact Research</a>
+              <a class="navbar-item" href="/open-research.html#influencing-policy-to-widen-participation-in-open-data-science">Influencing policy to widen participation in open data science</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-incubator.html">Open Incubator</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://catalystproject.cloud/">Catalyst</a>
+              <a class="navbar-item" href="/open-incubator.html#fellowship-programmes">Fellowship Programmes</a>
+              <a class="navbar-item" href="/open-incubator.html#facilitators-training-and-transcription-services">Facilitators Training and Transcription Services</a>
+              <a class="navbar-item" href="/open-incubator.html#grant-writing-training">Grant writing training</a>
+              <a class="navbar-item" href="/open-incubator/fiscal-hosting/">Fiscal hosting</a>
+              <a class="navbar-item" href="/consulting/">Consultancy &amp; open research advice</a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/openseeds/about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/people.html"> People </a>
+              <a class="navbar-item" href="/community.html"> Team </a>
+              <a class="navbar-item" href="/governance.html"> Governance </a>
+              <a class="navbar-item" href="/funders.html"> Funding &amp; Supporters </a>
+              <a class="navbar-item" href="/partners.html"> Partners </a>
+              <a class="navbar-item" href="/knowledge_management.html"> Knowledge Management System </a>
+              <a class="navbar-item" href="/publications.html"> Citing OLS &amp; Publications </a>
+              <a class="navbar-item" href="/branding.html"> Branding </a>
+              <a class="navbar-item" href="/events.html"> Events </a>
+              <a class="navbar-item" href="/open-science.html"> Open Science </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/policies-procedures-and-docs/">Policies &amp; Procedures</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/code-of-conduct.html"> Code of Conduct </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/graduation-guide.html"> Graduation Guide </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/microgrants.html"> Microgrants </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/speedblog.html"> Speedblog </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/hackmd-guide.html"> HackMD Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/slack-guide.html"> Slack Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/fellows/ols-ssi-terms-conditions.html"> OLS/SSI Fellowship </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/honorarium.html"> Honoraria Policy </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/invoicing.html"> Invoicing OLS </a>
+            </div>
+          </div>
+          
+          <a class="navbar-item" href="/posts.html"> Stories </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<section class="hero " style="background-image: linear-gradient(to top, #000, transparent), url(https://i.imgur.com/fbzanCT.png);">
+  <div class="hero-body">
+    <h1 class="title is-1">OLS-3 speed blog: How to design peer production platforms? Guidelines and design inspiration in a blog format</h1>
+
+    
+
+    
+      
+      <p class="subtitle is-5">
+          <time datetime="May 24, 2021">May 24, 2021</time>
+          - <a href="/people.html#katoss">Katharina</a>
+      </p>
+    
+
+    
+  </div>
+
+  
+  <div class="hero-foot">
+    
+    <p class="credit">}Illustration of a research peer production process </p>
+    
+  </div>
+  
+</section>
+
+<section class="section">
+  <div class="container content  ">
+    <p><em>This post is guest authored by Katharina Kloppenborg, a recent graduate of OLS-3.</em></p>
+
+<h1 id="what-project-am-i-talking-about">What project am I talking about?</h1>
+<p>The project I started with the OLS-3 cohort is a website that collects ideas for how to  design peer production online platforms. The website is available here: <a href="https://peer-produced.science/design-practices/">https://peer-produced.science/design-practices/</a></p>
+
+<h1 id="project-background">Project background</h1>
+<p>In September 2020 I started a PhD at the <a href="https://cri-paris.org/en">Center for Research and Interdisciplinary</a> in Paris. I have a background in Human Computer Interaction, and my research revolves around how to build online tools that support people who want to do research projects on their own, in a DIY manner, with their own data (have a look at our <a href="https://peer-produced.science/">lab website</a> for more information on the topic). The idea is to try and test principles of <em>peer production</em> for this purpose.</p>
+
+<p>Peer production refers to an alternative mode of production, in which communities of people self-organize to work collaboratively on a shared purpose. Usually, anyone interested can join, the whole process is transparent and open and outputs are licensed openly in order to enable reuse and sharing. Popular examples are Wikipedia, OpenStreetMap or open source software. In these examples, people collaborate successfully to build complex knowledge objects like an encyclopedia or software code. Science, roughly speaking, can also be seen as the production of complex knowledge objects - so <strong>why not try peer production in science?</strong></p>
+
+<p>While doing my background research I realized that I struggled to pin down how peer production ideas translate into web design. People collaborate online, there is no one actively assigning tasks and organizing the work centrally, so the online infrastructure is key. But how to design for peer production? What do the platforms of successful projects look like and what features do they use? And is peer production maybe even already practiced in the field of citizen science?</p>
+
+<p>Preparing a research article to outline peer production for web design, with case studies of citizen science online platforms, I wondered about alternative ways to communicate my findings, as well as about a place to share further peer production features I found after my article was finished, and to possibly get input from other researchers, user experience designers or web developers sharing the same interest.</p>
+
+<p>Apart from that, peer production is about openness and collaboration, so why not start with an open science approach right at the start?</p>
+
+<p><img src="https://imgur.com/fbzanCT.jpg" alt="Illustration of what peer-produced research could look like"></p>
+
+<p><em>What peer-produced research could look like (Illustration by the author. You can reuse it under a CC-BY-SA licence).</em></p>
+
+<h1 id="expectations-and-how-i-heard-from-ols">Expectations and how I heard from OLS</h1>
+<p>In summer 2020 I had the chance to work for the <a href="https://alan-turing-institute.github.io/AutisticaCitizenScience/">Autistica Citizen Science project</a> project as a user experience researcher. <a href="/people.html#georgiahca">Georgia</a>, one of the project leaders, participated in the OLS-2 cohort, which got me interested, because I wanted to learn about open science practices at the beginning of my PhD. I joined a cohort call to get a feeling for the program and Georgia and her mentor <a href="/people.html#anelda">Anelda</a> kindly invited me to one of their meetings, after which I decided to apply for the next OLS cohort with my own project.
+So, I expected from the program to learn how to set up an open science project, and I thought that a combination of mentoring, a community and a program of a fixed time duration would help and motivate me to implement my project idea.</p>
+
+<h1 id="goals-set-at-the-beginning-of-the-program">Goals set at the beginning of the program</h1>
+<p>My goals were to set up an online blog, write a set of blog entries and prepare it for contributions.</p>
+
+<h1 id="key-accomplishments-and-steps-taken">Key accomplishments and steps taken</h1>
+<p>I’m happy being able to say that I reached my formal goals set at the beginning of the project: The <a href="https://peer-produced.science/design-practices/">website</a> is up and running, I added five first blog entries, a template, contribution guidelines and guidelines on peer production elements with examples and links to matching blog entries! ✨</p>
+
+<p>The program began with meeting my mentor <a href="/people.html#fpsom">Fotis</a> and setting up a schedule for our fortnightly mentoring calls, followed by thinking about my goals, formulating a vision statement and a project roadmap with milestones and setting up a project repository on GitHub. I also reflected on possible user and contributor groups by creating personas.</p>
+
+<p>For my project I then started to research frameworks and website templates. I decided it would be easiest to deploy the site with GitHub pages, and I found a blog template that used bootstrap that was close to what I imagined.
+In the course of the program I then adapted the website template according to the (ever evolving) requirements of my website, added blog entries and supplementary guidelines on elements of peer production. For people interested in contributing to the project, I wrote contribution guidelines and a “get involved” section for the website, as well as a markdown template for blog posts with instructions and suggestions. Last but not least I shared my project with the community to get feedback and restructured the homepage of my website based on some suggestions to make it easier to read.</p>
+
+<h1 id="what-else-did-i-learn-along-the-way">What else did I learn along the way?</h1>
+<ul>
+  <li>
+<strong>Learning by doing:</strong> It is easier to internalize how to apply open science practices by actually implementing it in a project, which is why I think that OLS is taking a great approach!</li>
+  <li>
+<strong>’Open’ can equal ‘more accessible’:</strong> Preparing my project to be open for contributions made me reflect the understandability, and accessibility of my project, as well as the value that could motivate others to visit the blog and contribute. I think this process helped me to improve my project in general.</li>
+  <li>
+<strong>Simple can be hard:</strong> I also realized how hard it is to communicate the goals and processes of my project in an understandable way, which in turn helped me to understand my project better myself. However, I realized that there is still a lot that can be improved.</li>
+  <li>
+<strong>The why and the how:</strong> Starting the project by breaking it down to a vision statement, a roadmap, user and contributor personas helped me to get a clearer picture of what I wanted to achieve, and how.</li>
+  <li>
+<strong>Finding contributors is not self-evident:</strong> Creating a project according to open science principles is one necessary step towards participation, but it does not mean that there will be many contributions from other people from the start. Many projects start with one or a few persons, and other contributors might join along the way when the project is already running. Open science is also about reusability and transparency, and a good way to practice science in general, so one should not get discouraged if there are no or only a few contributions of other people in the beginning.</li>
+  <li>
+<strong>We’re not alone out there✨:</strong> Finally, the OLS program showed me how many people are interested in practicing open science and that there is a great community with lots of practical knowledge for these kinds of endeavors.</li>
+</ul>
+
+<h1 id="next-steps-and-long-term-tasks">Next steps and long term tasks</h1>
+<p>As a next step I will try to get more feedback on my website as it is now, knowing that there is still a lot to do (feel free to leave some comments, either directly below <a href="https://peer-produced.science/design-practices/browse-all">blog articles on the website</a>, or via a issue on the <a href="https://github.com/PeerProducedResearch/design-practices">project’s GitHub repository</a> 💖). I will also try to develop a habit of adding blog articles when I stumble upon interesting peer production features. The tagging system and template might have to be adapted little by little according to changing focus and needs along the way. An important step will also be to spread the word to invite possible users and contributors: For now, I plan to do this via a formal publication (click <a href="https://osf.io/preprints/socarxiv/rw58y/">here for the preprint</a>), which describes the research that led to the topics of the first few blog articles. I would also like to present the website project at a conference. With the project growing, I hope to be able to build a useful resource and an accessible and modular way to collect and communicate my own research findings, and would be glad if other people would join me on the way!</p>
+
+<h1 id="special-mentions-and-acknowledgements">Special mentions and acknowledgements</h1>
+<p>I want to thank the OLS community for setting up this great and relevant program, my mentor Fotis Psomopoulus for steady motivation and advice, the Peer Produced Research Lab, notably my thesis supervisor Bastian Greshake Tzovaras for encouraging me to take part in this program and for constant feedback and debugging of my code, the Autistica Citizen Science project, notably Georgia Aitkenhead and Kirstie Whitaker for giving me the opportunity to collaborate in my first citizen science project ever and for introducing me to OLS, as well as Georgia’s mentor Anelda van der Walt, for motivating me to join the OLS-3 cohort to start my own first open science project! Thank you all ✨</p>
+
+
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container content">
+      <div class="columns">
+        <div class="column">
+          <h3>Get in touch</h3>
+          <p>
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/openlifesci">
+              openlifesci
+            </a>
+          </p>
+          <p>
+            <i class="fas fa-at"></i>
+            <a href="mailto:team@we-are-ols.org">
+              team[at]we-are-ols.org
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/open-life-science/open-life-science.github.io">
+              open-life-science
+            </a>
+          </p>
+            <p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="https://groups.google.com/g/ols-news">
+                    Subscribe to our announcements list
+                </a>
+            </p>
+        </div>
+        <div class="column is-5">
+          <p>
+            If you want to report a problem or suggest an enhancement we'd love
+            for you to
+            <a href="https://github.com/open-life-science/open-life-science.github.io/issues/new">open an issue</a>
+            on our GitHub repository because then we can get right on it.
+          </p>
+          <p>
+            The website content is licensed
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>.
+            The code behind the infrastructure is licensed under the <a href="https://github.com/open-life-science/open-life-science.github.io/blob/main/LICENSE.md">MIT License</a>
+          </p>
+          <p>
+            Logo design by <a href="/people.html#jilaga">Jilaga Nneoma</a>. Other OLS branding assets are found at the <a href="/branding.html">OLS branding page</a>.
+          </p>
+          <p>
+            Open Life Science Limited is a non-profit company limited by guarantee, based in the United Kingdom. 
+            Company number 
+            <a href="https://data.companieshouse.gov.uk/doc/company/12824090">12824090</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bulma.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/searchbuilder/1.6.0/js/dataTables.searchBuilder.min.js"></script>
+        <script src="/js/bulma-collapsible.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        
+      </body>
+</html>

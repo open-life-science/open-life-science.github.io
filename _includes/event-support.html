@@ -1,4 +1,0 @@
-{% assign support = '' %}
-{% if include.contribution.slides %}{% capture support %}{{ support }}, [<i class="fas fa-file-powerpoint"></i> Slides]({{ include.contribution.slides }}){% endcapture %}{% endif %} 
-{% if include.contribution.recording %}{% capture support %}{{ support }}, [<i class="fas fa-video"></i> Recording]({{ include.contribution.recording }}){% endcapture %}{% endif %}
-{% if support != '' %}({{ support | remove_first: ', ' }}){% endif %}

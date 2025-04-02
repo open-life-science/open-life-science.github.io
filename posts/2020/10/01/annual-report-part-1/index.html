@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="1dAqFck3BIBxCx-EyBbHy1HkoFnptYfP04TgKOJiYO8">
+        <title>OLS Project and Community report - Part 1 | OLS</title>
+        
+        <link href="/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="/images/logo/ols-transparent-bg.ico">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.8/css/dataTables.bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/searchbuilder/1.6.0/css/searchBuilder.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        
+        <!--Below is the schema annotation for blogposts-->
+        
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://we-are-ols.org//posts/"
+              },
+            "headline": "OLS Project and Community report - Part 1",
+            "description": "Around June 2019, OLS was originally dreamed up. Mozilla had launched a call for applications to Open Leaders X, the program that incubated OLS and several other related open leadership initiatives...",
+            "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+            "author": [{
+              "@type": "Person",
+              "name": "Bérénice Batut",
+              "url": "https://we-are-ols.org//people#bebatut"},
+                {
+              "@type": "Person",
+              "name": "Malvika Sharan",
+              "url": "https://we-are-ols.org//people#malvikasharan"},
+                {
+              "@type": "Person",
+              "name": "Yo Yehudi",
+              "url": "https://we-are-ols.org//people#yochannah"}],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Open Life Science",
+              "url": "https://we-are-ols.org/",
+              "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://we-are-ols.org//images/logo.png"
+                }
+              },
+            "datePublished": "2020-10-01"
+          }
+        </script>
+        
+    </head>
+
+    <body>
+        
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/images/logo/ols-transparent-bg.png" alt="OLS">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="top-menu">
+          <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="top-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-science-training.html">Open Science Training</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/openseeds/">Open Seeds</a>
+              <a class="navbar-item" href="/nebula/">Nebula</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-research.html">Research on Open</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/open-research.html#open-seeds-impact-research">Open Seeds Impact Research</a>
+              <a class="navbar-item" href="/open-research.html#influencing-policy-to-widen-participation-in-open-data-science">Influencing policy to widen participation in open data science</a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/open-incubator.html">Open Incubator</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://catalystproject.cloud/">Catalyst</a>
+              <a class="navbar-item" href="/open-incubator.html#fellowship-programmes">Fellowship Programmes</a>
+              <a class="navbar-item" href="/open-incubator.html#facilitators-training-and-transcription-services">Facilitators Training and Transcription Services</a>
+              <a class="navbar-item" href="/open-incubator.html#grant-writing-training">Grant writing training</a>
+              <a class="navbar-item" href="/open-incubator/fiscal-hosting/">Fiscal hosting</a>
+              <a class="navbar-item" href="/consulting/">Consultancy &amp; open research advice</a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/openseeds/about.html">About</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/people.html"> People </a>
+              <a class="navbar-item" href="/community.html"> Team </a>
+              <a class="navbar-item" href="/governance.html"> Governance </a>
+              <a class="navbar-item" href="/funders.html"> Funding &amp; Supporters </a>
+              <a class="navbar-item" href="/partners.html"> Partners </a>
+              <a class="navbar-item" href="/knowledge_management.html"> Knowledge Management System </a>
+              <a class="navbar-item" href="/publications.html"> Citing OLS &amp; Publications </a>
+              <a class="navbar-item" href="/branding.html"> Branding </a>
+              <a class="navbar-item" href="/events.html"> Events </a>
+              <a class="navbar-item" href="/open-science.html"> Open Science </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/policies-procedures-and-docs/">Policies &amp; Procedures</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/code-of-conduct.html"> Code of Conduct </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/graduation-guide.html"> Graduation Guide </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/microgrants.html"> Microgrants </a>
+              <a class="navbar-item" href="/openseeds/cohort-procedures-and-templates/speedblog.html"> Speedblog </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/hackmd-guide.html"> HackMD Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/communications/slack-guide.html"> Slack Guide </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/fellows/ols-ssi-terms-conditions.html"> OLS/SSI Fellowship </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/honorarium.html"> Honoraria Policy </a>
+              <a class="navbar-item" href="/policies-procedures-and-docs/payments/invoicing.html"> Invoicing OLS </a>
+            </div>
+          </div>
+          
+          <a class="navbar-item" href="/posts.html"> Stories </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<section class="hero " style="background-image: linear-gradient(to top, #000, transparent), url(https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);">
+  <div class="hero-body">
+    <h1 class="title is-1">OLS Project and Community report - Part 1</h1>
+
+    
+
+    
+      
+      <p class="subtitle is-5">
+          <time datetime="Oct 1, 2020">Oct 1, 2020</time>
+          - <a href="/people.html#bebatut">Bérénice</a>, <a href="/people.html#malvikasharan">Malvika</a>, <a href="/people.html#yochannah">Yo</a>
+      </p>
+    
+
+    
+  </div>
+
+  
+  <div class="hero-foot">
+    
+    <p class="credit"><a href="https://unsplash.com/photos/cxoR55-bels">Markus Winkler</a> (CC-BY)</p>
+    
+  </div>
+  
+</section>
+
+<section class="section">
+  <div class="container content  ">
+    <p>Around June 2019, OLS was originally dreamed up. Mozilla had launched a call for applications to <a href="https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/">Open Leaders X</a>, the program that incubated OLS and several other related open leadership initiatives. In July 2019, we submitted a collaboratively prepared application written at the <a href="https://www.open-bio.org/events/bosc/about/2019/">BOSC 2019 CoFest</a> (see <a href="/posts/2019/09/24/application/">the draft</a>), and in September we were delighted to learn we had been accepted to create our program as a part of Open Leaders X. Slightly more than a year has now passed, and we would like to share the first <strong>annual OLS project and community report</strong> with you.</p>
+
+<p>Since the report is quite elaborative, we are publishing them in 3 parts:</p>
+<ol>
+  <li>we start by providing an overview of <em>where we are</em> in the project</li>
+  <li>we give an account of <em>how far we have come</em>
+</li>
+  <li>we end this report with <em>where we want to go</em>
+</li>
+</ol>
+
+<p><em>This post is the first part of the report: <strong>Where we are</strong>. The two other parts will cover: <a href="/posts/2020/10/01/annual-report-part-2/"><strong>How far we have come</strong></a> and <a href="/posts/2020/10/01/annual-report-part-3/"><strong>Where we want to go</strong></a></em></p>
+
+<h2 id="ols-timeline-so-far">OLS timeline so far</h2>
+
+<ul>
+  <li>
+<strong>September 2019</strong>: OLS team joined Mozilla Open Leaders X as an accepted project</li>
+  <li>
+<strong>October 2019</strong>: OLS is launched at <a href="https://medium.com/mozilla-festival/mozfest-2019-highlights-b8084b8b64b2">MozFest 2019</a> with 30 mentors and 40 experts</li>
+  <li>
+<strong>November 2019</strong>: OLS-1 call for application opens</li>
+  <li>
+<strong>January 2020</strong>: OLS-1 launched with 22 participating projects</li>
+  <li>
+<strong>May 2020</strong>: OLS-1 graduates - 29 applicants graduated across 20 projects</li>
+  <li>
+<strong>July 2020</strong>: OLS-2 call for application opens</li>
+  <li>
+<strong>September 2020</strong>: OLS-2 launched with 32 participating projects</li>
+  <li>
+<strong>December 2020</strong>: OLS-2 expected graduation</li>
+  <li>
+<strong>December 2020</strong>: OLS-3 call for applications is expected to open</li>
+  <li>
+<strong>February 2021</strong>: OLS-3 cohort is expected to start</li>
+</ul>
+
+<h2 id="inclusiveness-designed-at-the-core-of-ols">Inclusiveness designed at the core of OLS</h2>
+
+<p>We designed our project to be inclusive of different demographics, by intentionally targeting researchers from countries, identities and genders who are traditionally underrepresented in Open Science (thanks to <a href="/community.html">166 members in the OLS community</a>). We personally reached out to all the mentors and experts from diverse domain knowledge, personal backgrounds and identities. Our current <a href="/openseeds/ols-2/#mentors">mentors</a> represent scientific communities from Australia, Brazil, Canada, China, Ethiopia, France, Germany, Ghana, Kenya, South Africa, Spain, Switzerland, The Netherlands, UK, and the USA. Our <a href="/openseeds/ols-2/#experts">expert community</a> is double this in both size and representation. We started our <a href="/openseeds/ols-1/">first cohort</a> with mentees who came from equally diverse countries from 5 continents, representing low, middle and high economy countries equally. <a href="/openseeds/ols-1/projects-participants.html#participants">29 individuals</a> joined from Kenya, Netherlands, Brazil, Canada, Thailand, Spain, UK, Japan, Russian, India, USA, Norway, Germany, and Nepal. Our mentors represented research communities from China, Greece, the UK, the USA, South Africa, Germany, Kenya, Netherlands, and Brazil.</p>
+
+<p>We use welcoming and open channels for community participation. We have a cohort-based Slack channel and a public-facing Gitter channel (<a href="/openseeds/ols-2/#resources">more details</a>). We strive to avoid jargon and other non-inclusive language that can alienate, and make underrepresented people feel excluded. We use simple and jargon-free English in our communications, website and training resources (see an example from <a href="/openseeds/ols-1/schedule.html#week-04">one of the cohort calls</a>). On our website, we encourage people to list their pronouns <a href="/openseeds/ols-1/projects-participants.html#participants">in their profile</a> if they feel comfortable doing so. At the beginning of each cohort call, we remind participants about our <a href="https://github.com/open-life-science/policies-procedures-and-docs/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a> and use a roll call where participants are asked to list their names and pronouns so others address them respectfully. We encourage and recognize the quietest voices, and not just those with the most confidence and volume. During the cohort calls, we facilitate breakout discussions and encourage shared note-taking in shared notes. In OLS-2, cohort calls are live-transcribed using <a href="https://otter.ai">Otter.ai</a>, and some breakout rooms are silent note-based, to ensure that people with varying language skills or ability can still get an interactive and full experience. Recordings from these calls are posted on YouTube for the cohort members to catch up if they couldn’t attend the call.</p>
+
+<p>We are still learning and are extremely grateful for the community members for sharing their experiences and resources with us to improve accessibility in the program. Over the last year, we’ve grown massively, from a hopeful idea co-founded by three people to a thriving open science community - weekly emails to our 32 OLS-2 projects and mentors lists reaches over 100 people, and Zoom cohort calls now boast 40+ participants, despite being staggered across different times of day to accommodate time zones across the six different continents. In addition to the countries in OLS-1, OLS-2 participants  also represent Australia, Austria, Bangladesh, Indonesia, Mali, New Zealand, Nigeria, Switzerland, Turkey, and Uganda in our cohort.</p>
+
+<h3 id="timeline-of-organisation-support-and-partnerships">Timeline of organisation support and partnerships</h3>
+
+<p>The project has been supported by <a href="/partners.html">many organisations</a> that have helped promote the program in their network allowing access to a wider research community.</p>
+
+<ul>
+  <li>
+<strong>November 2019</strong>: Non-financial partnership from Mozilla Open Leaders, Backofen Lab, Software Sustainability Institute, ELIXIR, de.NBI, EMBL Bio-IT, Freiburg University, Manchester University. These partnerships represented our employers, advisors, and professional networks - no official partnership agreements or memorandum of understanding was signed.</li>
+  <li>
+<strong>June 2020</strong>: ‘OLS-2 for Turing’ collaboration with <a href="https://the-turing-way.netlify.app/welcome"><em>The Turing Way</em></a> to support Open Source projects from The Alan Turing Institute and The Turing Way community</li>
+  <li>
+<strong>August 2020</strong>: OLS was awarded the <a href="https://www.eosc-portal.eu/eosc-life">EOSC-Life</a> Training grant to build a cohort with the EOSC Research Infrastructure community in <strong>2021</strong>
+</li>
+  <li>
+<strong>August 2020</strong>: OLS registers as a Limited company with <strong>£1 (GBP 1) in assets</strong>
+</li>
+  <li>
+<strong>May-September 2020</strong>: Software Sustainability Institute Fellowship pays for OLS-2 communication platform cost and mentorship training by <a href="https://360training.co.uk/">360 Training UK</a>
+</li>
+</ul>
+
+<p>Bonus trivia: In July 2020, OLS was also shortlisted as one of the two projects as <a href="https://cogx.co/cogx-awards/cogx-awards-2020-shortlisted/">“best innovation in Open Source Technology”</a> by CogX - a global festival for AI and technology. Though we did not win the award, we attracted the attention of early-stage researchers interested in building their projects on AI and data science.</p>
+
+<p><em>TO BE CONTINUED: You can now read two other parts of the report: <a href="/posts/2020/10/01/annual-report-part-2/"><strong>How far we have come</strong></a> and <a href="/posts/2020/10/01/annual-report-part-3/"><strong>Where we want to go</strong></a></em></p>
+
+
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container content">
+      <div class="columns">
+        <div class="column">
+          <h3>Get in touch</h3>
+          <p>
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/openlifesci">
+              openlifesci
+            </a>
+          </p>
+          <p>
+            <i class="fas fa-at"></i>
+            <a href="mailto:team@we-are-ols.org">
+              team[at]we-are-ols.org
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/open-life-science/open-life-science.github.io">
+              open-life-science
+            </a>
+          </p>
+            <p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="https://groups.google.com/g/ols-news">
+                    Subscribe to our announcements list
+                </a>
+            </p>
+        </div>
+        <div class="column is-5">
+          <p>
+            If you want to report a problem or suggest an enhancement we'd love
+            for you to
+            <a href="https://github.com/open-life-science/open-life-science.github.io/issues/new">open an issue</a>
+            on our GitHub repository because then we can get right on it.
+          </p>
+          <p>
+            The website content is licensed
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>.
+            The code behind the infrastructure is licensed under the <a href="https://github.com/open-life-science/open-life-science.github.io/blob/main/LICENSE.md">MIT License</a>
+          </p>
+          <p>
+            Logo design by <a href="/people.html#jilaga">Jilaga Nneoma</a>. Other OLS branding assets are found at the <a href="/branding.html">OLS branding page</a>.
+          </p>
+          <p>
+            Open Life Science Limited is a non-profit company limited by guarantee, based in the United Kingdom. 
+            Company number 
+            <a href="https://data.companieshouse.gov.uk/doc/company/12824090">12824090</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bulma.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/searchbuilder/1.6.0/js/dataTables.searchBuilder.min.js"></script>
+        <script src="/js/bulma-collapsible.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        
+      </body>
+</html>
