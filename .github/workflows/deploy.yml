@@ -40,21 +40,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.PR_PREVIEW_TOKEN }}
       run: |
-        PREVIEW_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.pull_request.number }}"
-        COMMENT_BODY="🎉 A preview of this PR is available at: [${PREVIEW_URL}](${PREVIEW_URL})"
-        gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
-   
-    - name: Comment with preview URL
-      env:
-        GITHUB_TOKEN: ${{ secrets.PR_PREVIEW_TOKEN }}
-      run: |
         PREVIEW_URL="https://${{ github.repository_owner }}.github.io/${{ github.head_ref }}"
         COMMENT_BODY="🎉 A preview of this PR is available at: [${PREVIEW_URL}](${PREVIEW_URL})"
         gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
-        
-    - name: Comment on PR with Deploy Preview Link
-      uses: thollander/actions-comment-pull-request@v2
-      with:
-        message: "🎉 A preview of this PR is available at: https://open-life-science.github.io/${{ github.head_ref }}"
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
