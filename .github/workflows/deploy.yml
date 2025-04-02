@@ -30,7 +30,7 @@ jobs:
     - name: Deploy to GitHub Pages for preview
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.PR_PREVIEW_TOKEN }}
+        personal_token: ${{ secrets.PR_PREVIEW_TOKEN }}
         publish_branch: main 
         publish_dir: ./_site
         external_repository: open-life-science/ols-site-preview 
