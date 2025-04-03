@@ -33,13 +33,13 @@ jobs:
         personal_token: ${{ secrets.PR_PREVIEW_TOKEN }}
         publish_branch: gh-pages 
         publish_dir: ./_site
-        external_repository: open-life-science/open-life-science.github.io 
+        external_repository: open-life-science/ols-site-preview 
         cname: ''
 
     - name: Comment with preview URL
       env:
         GITHUB_TOKEN: ${{ secrets.PR_PREVIEW_TOKEN }}
       run: |
-        PREVIEW_URL="https://${{ github.repository_owner }}.github.io/${{ github.head_ref }}"
+        PREVIEW_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.pull_request.number }}"
         COMMENT_BODY="🎉 A preview of this PR is available at: [${PREVIEW_URL}](${PREVIEW_URL})"
         gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
