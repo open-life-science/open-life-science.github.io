@@ -159,7 +159,7 @@ This allows contributors to see changes live before merging them into the `main`
    - Deploys the built site to a separate repository (`ols-site-preview`) on the `gh-pages` branch.  
    - Comments on the pull request with a preview link in the format:  
      ```
-     🎉 A preview of this PR is available at: https://open-life-science.github.io/<PR_NUMBER>
+     🎉 A preview of this PR is available at: https://we-are-ols.org/ols-site-preview
      ```  
 3. Contributors can visit this link to view the changes live.  
 
