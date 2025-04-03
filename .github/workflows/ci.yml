@@ -1,0 +1,80 @@
+name: CI for push and PR
+on: [push, pull_request]
+jobs:
+  check-internal-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.0"
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+      - name: Build website
+        run: bundle exec jekyll build --strict_front_matter
+      - name: Validate HTML and check links
+        run: |
+          bundle exec htmlproofer \
+            --allow_missing_href=true \
+            --ignore-urls "/.*localhost.*/","/.*gitter\.im.*/" \
+            --enforce-https=false  \
+            --disable-external=true \
+            --ignore_empty_alt=true \
+            --ignore_missing_alt=true \
+            --check-internal-hash=false \
+            ./_site
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.11']
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install tox
+      run: python -m pip install 'tox>=1.8.0'
+    - name: Lint
+      run: tox -e lint
+  test-other-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v2.2.0
+        with:
+          activate-environment: ols-website
+          environment-file: environment.yml
+      - name: Update Open Seeds schedule
+        shell: bash -el {0}
+        run: |
+          bash bin/openseeds/update_schedule.sh
+      - name: Update Open Seeds library
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py buildlibrary -p "openseeds"
+      - name: Update Nebula schedule
+        shell: bash -el {0}
+        run: |
+          bash bin/nebula/update_schedule.sh
+      - name: Update people data artifacts
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py extractfullpeopledata
+      - name: Update Open Seeds library artifacts
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py extractlibrary -p "openseeds"
+      - name: Update Open Seeds projects
+        shell: bash -el {0}
+        run: |
+          python bin/prepare_website_data.py createprojecttable -p "openseeds"
+      - name: Update bibliography
+        shell: bash -el {0}
+        env:
+          ZOTERO_API: ${{ secrets.ZoteroAPI }}
+        run: |
+          python bin/prepare_website_data.py updatebibliography -a "$ZOTERO_API"

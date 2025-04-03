@@ -1,0 +1,43 @@
+<div class="card entity-card" id="{{ entity.name }}">
+    <div class="card-image">
+      <figure class="image is-3by1">
+        {% if entity.logo %}
+        <img class="entity-logo" src="{{ entity.logo }}" alt="Logo of {{ entity.name }}"/>
+        {% endif %}
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content entity-card-meta">
+          <p class="title is-4">{{ entity.name }}</p>
+          <p class="is-6">
+            {% if entity.website %}
+              <a href="{{ entity.website }}"><i class="fas fa-globe"></i></a>
+            {% endif %}
+            {% if entity.country %}
+              <i class="fas fa-map-marker-alt"></i> {{ entity.country }}
+            {% endif %}
+          </p>
+        </div>
+      </div>
+      <div class="entity-description">
+        <p class="entity-description-question">
+          <a class="card-toggle">
+            {% if details %}
+            {{ entity.name }} in OLS
+            {% else %}
+            More about {{ entity.name }}
+            {% endif %}
+            <i class="fa fa-angle-down"></i>
+          </a>
+        </p>
+        <div class="content is-hidden">
+            {% if details %}
+            {{ details | markdownify }}
+            {% else %}
+            {{ entity.description | markdownify }}
+            {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>

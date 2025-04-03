@@ -1,0 +1,115 @@
+---
+backofen-lab:
+    name: Backofen Lab
+    website: http://www.bioinf.uni-freiburg.de/
+    logo: http://www.bioinf.uni-freiburg.de/pics/bioinf-fr-logo-blau.jpg
+    country: Germany
+bio-it:
+    name: EMBL Bio-IT
+    website: https://bio-it.embl.de/
+    logo: https://git.embl.de/uploads/-/system/group/avatar/413/BioIT_logo.jpeg
+    country: Germany
+css:
+    name: Code for Science and Society
+    website: https://eventfund.codeforscience.org/
+    logo: https://www.codeforsociety.org/assets/img/logos/css.svg
+    description: |
+      Code for Science & Society works to advance the power of data to
+      improve the social and economic lives of all people through education,
+      scientific research, and technology development.
+    country: United Kingdom
+czi:
+    name: Chan Zuckerberg Initiative
+    website: https://chanzuckerberg.com/
+    logo: https://chanzuckerberg.com/wp-content/themes/czi/img/logo.svg
+    description: |
+      Chan Zuckerberg Initiative (CZI) works across focus areas — Science,
+      Education, Community and alongside our Justice & Opportunity partners.
+      They pair technology, with grantmaking, impact investing, and collaboration
+      to help accelerate the pace of progress towards an equitable future.
+    country: United States
+denbi:
+    name: de.NBI
+    website: https://www.denbi.de/
+    logo: /images/organizations/denbi.png
+    description: |
+      The German Network for Bioinformatics Infrastructure
+    country: Germany
+elixir:
+    name: ELIXIR
+    website: https://elixir-europe.org
+    logo: /images/organizations/elixir.png
+    country: Europe
+eosc-life:
+    name: EOSC-Life
+    website: https://www.eosc-life.eu/
+    logo: https://www.eosc-life.eu/wp-content/themes/eosc-life-v2/assets/images/eosclogo.png
+    description: |
+      EOSC-Life brings together the 13 Life Science 'ESFRI' research infrastructures (LS RIs)
+      to create an open, digital and collaborative space for biological and medical research.
+    country: Europe
+freiburg-galaxy-team:
+    name: Freiburg Galaxy Team
+    website: https://galaxyproject.eu/freiburg/
+    logo: https://raw.githubusercontent.com/usegalaxy-eu/branding/master/freiburg-galaxy/freiburg-galaxy.256.png
+    country: Germany
+hub-kenya:
+    name: Bioinformatics Hub of Kenya Initiative (BHKI)
+    website: https://bhki.org/
+    logo: https://bhki.org/images/Bioinformatica_Hub_Logo.png
+    country: Kenya
+learning-circle:
+    name: H3ABioNet Learning Circle
+    website: https://h3abionet.github.io/LearningCircles/
+    country: Africa
+nasa:
+    name: nasa
+    website: https://www.nasa.gov/
+    country: United States
+mozilla:
+    name: Mozilla Open Leaders
+    website: https://foundation.mozilla.org
+    logo: /images/organizations/mozilla.jpg
+    country: Global
+ssi:
+    name: Software Sustainability Institute
+    website: https://www.software.ac.uk
+    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
+    description: |
+      The Software Sustainability Institute cultivates better, more sustainable, research software
+      to enable world-class research.
+    country: United Kingdom
+tu-delft:
+    name: Faculty of Applied Sciences/TNW - TU Delft
+    website: https://www.tudelft.nl/en/faculty-of-applied-sciences
+    logo: https://pbs.twimg.com/profile_images/2847488441/6ce5b022e228fee8ff302a16dca378c7_400x400.jpeg
+    country: Netherlands
+turing:
+    name: The Alan Turing Institute
+    website: https://www.turing.ac.uk/
+    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Alan_Turing_Institute_logo.svg/1200px-Alan_Turing_Institute_logo.svg.png
+    description: |
+      The Alan Turing Institute is committed to training new generations of data science and AI leaders with the necessary breadth and depth of technical and ethical skills to match the UK's growing industrial and societal needs
+    country: United Kingdom
+turing-way:
+    name: The Turing Way
+    website: https://the-turing-way.netlify.com
+    logo: https://the-turing-way.netlify.app/_static/logo-detail-with-text.svg
+    country: United Kingdom
+university-freiburg:
+    name: Albert-Ludwigs-Universität Freiburg
+    website: https://www.uni-freiburg.de/
+    logo: https://upload.wikimedia.org/wikipedia/de/thumb/f/f4/Albert-Ludwigs-Universit%C3%A4t_Freiburg_2009_logo.svg/1200px-Albert-Ludwigs-Universit%C3%A4t_Freiburg_2009_logo.svg.png
+    country: Freiburg
+university-manchester:
+    name: University of Manchester
+    website: https://www.manchester.ac.uk/
+    logo: https://assets.manchester.ac.uk/logos/hi-res/TAB_UNI_MAIN_logo/White_backgrounds/TAB_col_white_background.png
+    country: United Kingdom
+wellcome:
+    name: Wellcome Trust
+    website: https://wellcome.org/
+    logo: https://wellcome.org/icons/android-chrome-192x192.png
+    description: |
+      The Wellcome Trust is a charitable foundation focused on mental health, climate change, and infectious disease based in London, in the United Kingdom.
+    country: United Kingdom

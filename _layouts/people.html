@@ -1,0 +1,105 @@
+---
+layout: page
+---
+
+Thank You! to the {{ site.data.people | size }} awesome people who participate in or contribute to OLS!
+
+<div class="community">
+    {% for user in site.data.people %}
+        {% assign username = user[0] %}
+        {% assign details = user[1] %}
+        <div class="card people-card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left people-card-avatar">
+                        <figure class="image is-48x48">
+                            <a href="#{{ username }}">
+                                <img
+                                    class="is-rounded"
+                                    src="https://avatars.githubusercontent.com/{{ username }}"
+                                    alt="The GitHub avatar of {{ details.name }}"/>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<h2>Get involved</h2>
+
+If you think you can help then please check out <a href="{{ site.github.repository_url }}/blob/master/CONTRIBUTING.md">our contributors' guidelines</a> and
+our <a href="{{ site.github.repository_url }}/projects">project board</a>.
+
+Please note that it's very important to us that we maintain a positive and
+supportive environment for everyone who wants to participate. When you join us
+we ask that you follow our <a href="{{ site.github.owner_url }}/policies-procedures-and-docs/blob/main/CODE_OF_CONDUCT.md">code of conduct</a> in all interactions both on and offline.
+
+<h2>Details</h2>
+<div class="people">
+{% assign cohorts = site.data.openseeds | sort %}
+{% assign people = site.data.people %}
+  
+{% for entry in site.data.people %}
+  {% assign username = entry[0] %}
+  {% assign user = entry[1] %}
+  {% assign ols-roles = '' %}
+  
+  <!-- Extract roles for people in different cohorts -->
+  {% for cohort in cohorts %}
+    {% assign projects = cohort[1].projects %}
+    {% assign metadata = cohort[1].metadata %}
+    {% assign schedule = cohort[1].schedule %}
+    {% assign roles = '' %}
+
+    <!-- Check for role as participant and mentor -->
+    {% assign participants = '' %}
+    {% assign mentors = '' %}
+    {% for project in projects %}
+      {% if project.participants contains username %}
+        {% capture roles %}{{ roles }}, project lead{% endcapture %}
+      {% endif %}
+      {% if project.mentors contains username %}
+        {% capture roles %}{{ roles }}, mentor{% endcapture %}
+      {% endif %}
+    {% endfor %}
+
+    <!-- Check for role as speaker and facilitator -->
+    {% assign speakers = '' %}
+    {% assign facilitators = '' %}
+    {% for w in schedule %}
+      {% for c in w[1].calls %}
+        {% if c.type == 'Cohort' %}
+            {% for r in c.talks %}
+                {% if r.speaker %}
+                    {% capture roles %}{{ roles }}, speaker{% endcapture %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {% if c.type == 'Facilitator' %}
+          {% if c.person contains username %}
+            {% capture roles %}{{ roles }}, facilitator{% endcapture %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    <!-- Check for role as expert and organizer -->  
+    {% assign experts = metadata.experts | join: ' ' %}
+    {% if experts contains username %}
+      {% capture roles %}{{ roles }}, expert{% endcapture %}
+    {% endif %}
+    {% assign organizers = metadata.organizers | join: ' ' %}
+    {% if organizers contains username %}
+      {% capture roles %}{{ roles }}, organizer{% endcapture %}
+    {% endif %}
+  
+    {% if roles != '' %}
+      {% capture ols-roles %}{{ ols-roles }} / {{ cohort[0] | upcase }} {{ roles | remove_first: ', '  | split: ', ' | uniq | join: ', ' }}{% endcapture %}
+    {% endif %}
+  {% endfor %}
+  {% assign ols-roles = ols-roles | remove_first: ' / ' %}
+  {% include _includes/people.html username=username user=user ols-roles=ols-roles %}
+{% endfor %}
+</div>

@@ -1,0 +1,7 @@
+_site
+.DS_Store
+*.swp
+.sass-cache
+__pycache__
+.jekyll-metadata
+*env/

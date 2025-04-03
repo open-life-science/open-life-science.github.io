@@ -1,0 +1,77 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="1dAqFck3BIBxCx-EyBbHy1HkoFnptYfP04TgKOJiYO8" />
+        <title>{{ page.title }} | {{ site.title }}</title>
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <link href="{{ site.baseurl }}/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="{% link images/logo/ols-transparent-bg.ico %}">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.8/css/dataTables.bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/searchbuilder/1.6.0/css/searchBuilder.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        
+        <!--Below is the schema annotation for blogposts-->
+        {% if page.layout == 'post' %}
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "{{ site.url }}/posts/"
+              },
+            "headline": "{{ page.title }}",
+            "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}",
+            "image": "{{ page.image }}",
+            "author": [
+            {%- for author in page.authors -%}
+              {
+              "@type": "Person",
+              "name": "{{ site.data.people[author].first-name }} {{ site.data.people[author].last-name }}",
+              "url": "{{ site.url }}/people#{{ author }}"
+                {%- if forloop.last -%}
+                  }
+                  {%- else -%}
+                  },
+                {% endif %}
+            {%- endfor -%}],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Open Life Science",
+              "url": "{{ site.url }}",
+              "logo": {
+                  "@type": "ImageObject",
+                  "url": "{{ site.url }}/images/logo.png"
+                }
+              },
+            "datePublished": "{{ page.date | date: "%Y-%m-%d" }}"
+          }
+        </script>
+        {% endif %}
+    </head>
+
+    <body>
+        {{ content }}
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bulma.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/searchbuilder/1.6.0/js/dataTables.searchBuilder.min.js"></script>
+        <script src="/js/bulma-collapsible.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        {% if page.layout == 'posts' %}
+          <script src="/js/posts.js"></script>
+        {% endif %}
+      </body>
+</html>

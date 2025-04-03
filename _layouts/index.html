@@ -1,0 +1,12 @@
+---
+layout: base
+---
+{% if page.url contains "/openseeds/" %}
+  {% include _includes/openseeds-header.html %}
+{% elsif page.url contains "/nebula/" %}
+  {% include _includes/nebula-header.html %}
+{% else %}
+  {% include _includes/default-header.html %}
+{% endif %}
+{{ content }}
+{% include _includes/default-footer.html %}

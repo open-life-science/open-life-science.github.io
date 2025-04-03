@@ -1,0 +1,91 @@
+<div class="card people-card" id="{{ username }}">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left people-card-avatar">
+        <figure class="image is-64x64">
+          <img
+            class="is-rounded"
+            src="https://avatars.githubusercontent.com/{{ username }}"
+            alt="The GitHub avatar of {{ user.name }}"
+          />
+        </figure>
+      </div>
+      <div class="media-content people-card-meta">
+        <p class="title is-4">{{ user.first-name }} {{ user.last-name }}</p>
+
+        <p class="is-6">
+          {% if user.pronouns %}
+          Pronouns: {{ user.pronouns }}<br>
+          {% endif %}
+
+          {% if user.twitter %}
+          <a class="people-card-meta-twitter" href="https://twitter.com/{{ user.twitter }}"><i class="fab fa-twitter"></i> @{{ user.twitter }}</a><br>
+          {% endif %}
+          {% if user.mastodon %}
+          <a class="people-card-meta-mastodon" href="https://{{ user.mastodon.server }}/@{{ user.mastodon.profile }}"><i class="fab fa-mastodon"></i> 
+            @{{ user.mastodon.profile }}</a><br>
+          {% endif %}
+          {% if user.website %}
+          <a href="{{ user.website }}"><i class="fas fa-globe"></i></a>
+          {% endif %}
+          {% if user.github != false %}
+          <a href="https://github.com/{{ username }}"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if user.gitter %}
+          <a href="https://gitter.im/{{ user.gitter }}"><i class="fas fa-comments"></i></a>
+          {% endif %}
+          {% if user.orcid %}
+          <a href="https://orcid.org/{{ user.orcid }}"><i class="ai ai-orcid"></i></a>
+          {% endif %}
+
+          {% if user.affiliation or user.location.country %}
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            {% assign delim = '' %}
+            {% if user.affiliation %}
+            {{ user.affiliation }}
+            {% assign delim = ', ' %}
+            {% endif %}
+            {% if user.location.country %}
+            {{ delim }}{{ user.location.country }}
+            {% endif %}
+          {% endif %}
+        </p>
+      </div>
+    </div>
+
+    {% if user.title or ols-roles and ols-roles != '' %}
+    <p class="people-description">
+      Role in OLS:
+      {% if user.title %}
+        {{ user.title }}
+      <br>
+      {% endif %}
+      {% if ols-roles and ols-roles != '' %}
+        {{ ols-roles }}
+      {% endif %}
+    </p>
+    {% endif %}
+
+    {% if user.expertise %}
+    <p class="people">
+      <div class="people-description-question">Expertise:</div> {{ user.expertise | join: ", " }}
+    </p>
+    {% endif %}
+
+    <div class="people-description" id="people-bio">
+      {% if user.bio %}
+      <p class="people-description-question">
+        <a class="card-toggle">
+          More about {{ user.first-name }}
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </p>
+      <div class="content is-hidden">
+        {{ user.bio | markdownify }}
+      </div>
+      {% endif %}
+    </div>
+    
+  </div>
+</div>

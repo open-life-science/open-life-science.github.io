@@ -1,0 +1,117 @@
+---
+team:
+  current:
+    - bebatut
+    - malvikasharan
+    - yochannah
+    - tajuddeen1
+    - pherterich
+    - npdebs
+    - jilaga
+    - bethaniley
+    - camille-gonz-va
+    - iramosp
+    - rowlandm
+    - seunolufemi123
+    - doaamkader
+    - saravilla
+  alumni:
+    - emmyft
+    - pazbc   
+    - flavioazevedo
+    - msundukova
+governance:
+  - anelda
+  - batoolmm
+  - estherplomp
+  - ha0ye
+  - laurah-nyasita-ondari
+  - npalopoli
+  - rowlandm
+  - selgebali
+  - saranjeetkaur
+  - smklusza
+advisors: []
+trainers:
+  ols: []
+  ally: []
+  technical: []
+task_forces:
+  hiring: []
+  localization: []
+partners:
+  -
+    organization: hub-kenya
+    details: |
+        BHKI bridges the gap between well established bioinformaticians and aspiring
+        ones through peer training and mentorship so as to enhance collaborations to
+        foster quality scientific research and innovations and promote the sharing of
+        data, skills and codes. Launched in the OLS-1, the project has continued to
+        collaborate with OLS cohorts and OLS team members
+  -
+    organization: learning-circle
+    details: |
+      H3ABioNet Learning circles, modelled after H3ABioNet Learning Circles, is
+      organised by Dr Caleb Kibet. He collaborated with OLS-2 to mentor projects
+      to support story circles in different African countries.
+  -
+    organization: tu-delft
+    details: |
+      Under the collaboration name OLS-4 for TNW, OLS has partnered with the Faculty of Applied Sciences through the Faculty Graduate School and the Data Steward, Dr. Esther Plomp, at TU Delft.
+  -
+    organization: turing-way
+    details: |
+      Malvika is a community manager of this project. Turing Way is also collaborating organisation under the project OLS for Turing that aims to build mentor-mentee relationships in the Turing community.
+sponsors:
+  -
+    organization: backofen-lab
+    details: |
+      Backofen Lab in University of Freiburg is Bérénice's
+      current affiliation.
+  -
+    organization: bio-it
+    details: |
+      The Bio-IT is a bioinformatics community project at EMBL, Heidelberg.
+      Its previous and current members (Toby Hodges and Renato Alves) supported
+      the early development of OLS and continue to serve as mentors and Experts.
+  -
+    organization: denbi
+    details: |
+      de.NBI (the German Network for Bioinformatics Infrastructure) is
+      supporting Bérénice's involvement in OLS as part of her training work.
+  -
+    organization: elixir
+    details: |
+      The program organisers are associated with ELIXIR member institutes
+      and several mentors and experts are from different ELIXIR nodes.
+  -
+    organization: freiburg-galaxy-team
+    details: |
+      Freiburg Galaxy team is supporting Bérénice's
+      involvement in OLS as part of her training work.
+  -
+    organization: mozilla
+    details: |
+      This program is developed as a part of [Mozilla Open Leaders X (MOLx)](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/open-leaders-x/) chohort.
+      Thanks to our champion Abby (Abigail Cabunoc Mayes)
+      from Mozilla Foundation for providing support in designing this program.
+  -
+    organization: turing-way
+    details: |
+      Malvika is a community manager of this project. Turing Way is also collaborating organisation under the project OLS for Turing that aims to build mentor-mentee relationships in the Turing community.
+  -
+    organization: university-freiburg
+    details: |
+      University of Freiburg is Bérénice's current affiliation.
+  -
+    organization: university-manchester
+    details: |
+      The University of Manchester was Yo's EngD research affiliation.
+fiscal_communities:
+  -
+    organization: RSE-AUNZ
+    name: RSE-AUNZ
+    details: |
+      The RSE Association of Australia and New Zealand ([RSE-AUNZ](https://rse-aunz.org/)) is a community that aims to build awareness of the diverse Research Software Engineer (RSE) roles, to connect volunteers 
+      in the RSE domain, and to help build practical solutions for the RSE community.
+    logo: https://github.com/rse-aunz/rse-aunz.github.io/blob/master/assets/RSE_AUNZ_logo.png?raw=true

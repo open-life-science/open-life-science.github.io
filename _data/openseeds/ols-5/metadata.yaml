@@ -1,0 +1,476 @@
+# List of experts, possible mentors and organizers for OLS-5
+#
+#
+# People should be also in people.yaml file and linked using their GitHub username
+# Ordering by expertise should be done by running the bin/sort-expertises.py script
+---
+experts:
+- alexholinski
+- alexwlchan
+- annemtreasure
+- cassgvp
+- deepakunni3
+- ewallace
+- georgiahca
+- gugy89
+- ha0ye
+- iramosp
+- iratxepuebla
+- jesperdramsch
+- jezcope
+- joyceykao
+- jsheunis
+- karvovskaya
+- klauer2207
+- lauracarter
+- luispedro
+- msundukova
+- pherterich
+- raphaels1
+- santosrac
+- selgebali
+- stefaniebutland
+- teresa-cisneros
+experts-with-expertise:
+  ' r':
+  - stefaniebutland
+  Academia-to-professional services transition / research adjacent roles:
+  - cassgvp
+  Agrobiodiversity:
+  - iramosp
+  Ally skills training:
+  - ha0ye
+  App/software development:
+  - joyceykao
+  Automl:
+  - raphaels1
+  Balancing open science with the rest of your career;:
+  - ewallace
+  Benchmarking:
+  - raphaels1
+  Bio-ontologies:
+  - deepakunni3
+  Biochemstry:
+  - gugy89
+  Biodiversity:
+  - annemtreasure
+  Bioinformatics:
+  - ewallace
+  - gugy89
+  - santosrac
+  Biology:
+  - annemtreasure
+  Building inclusive sustainable communities:
+  - stefaniebutland
+  Champions/ambassadors programme:
+  - cassgvp
+  Citizen science:
+  - georgiahca
+  Climate change:
+  - annemtreasure
+  Co-creation:
+  - georgiahca
+  Collaboration:
+  - pherterich
+  Communicating in the open:
+  - stefaniebutland
+  Community:
+  - cassgvp
+  Community building:
+  - joyceykao
+  Community management:
+  - ha0ye
+  Computational biology:
+  - joyceykao
+  - luispedro
+  Computational inclusion:
+  - selgebali
+  Conference organization:
+  - joyceykao
+  Creative thinking:
+  - msundukova
+  Curation:
+  - selgebali
+  Data driven life sciences:
+  - klauer2207
+  Data life cycle:
+  - annemtreasure
+  Data literacy:
+  - ewallace
+  Data management:
+  - annemtreasure
+  - iramosp
+  Data pipelines and workflows:
+  - annemtreasure
+  Data publication:
+  - iratxepuebla
+  Data sharing:
+  - cassgvp
+  Data stewardship:
+  - gugy89
+  Deep eutectic solvents:
+  - gugy89
+  Digital equity:
+  - selgebali
+  Digital scholarship:
+  - jezcope
+  Discrimination:
+  - lauracarter
+  Diversity:
+  - jesperdramsch
+  Diversity and inclusion (transformative justice approaches):
+  - teresa-cisneros
+  Ecology:
+  - annemtreasure
+  - ha0ye
+  Edi:
+  - cassgvp
+  Education:
+  - santosrac
+  Electrophysiology:
+  - msundukova
+  Entrepreneurship:
+  - klauer2207
+  Environment:
+  - annemtreasure
+  Enzymology:
+  - gugy89
+  Equity:
+  - teresa-cisneros
+  Ethical modelling:
+  - raphaels1
+  Evolutionary biology:
+  - joyceykao
+  External relations:
+  - klauer2207
+  Fair data:
+  - gugy89
+  - pherterich
+  Fair data principles:
+  - deepakunni3
+  Fair principles:
+  - selgebali
+  Feminism:
+  - lauracarter
+  Fieldwork:
+  - karvovskaya
+  Gender:
+  - lauracarter
+  Gene expression:
+  - ewallace
+  Genomics:
+  - santosrac
+  Git and github:
+  - ha0ye
+  Github:
+  - stefaniebutland
+  Health sciences:
+  - ha0ye
+  Human rights:
+  - lauracarter
+  Incentives/reward:
+  - cassgvp
+  Infectious diseases:
+  - klauer2207
+  Inter and transdisciplinary research:
+  - iramosp
+  Invasion biology:
+  - annemtreasure
+  Knowledge graphs:
+  - deepakunni3
+  Laboratory automation:
+  - gugy89
+  Libraries:
+  - jezcope
+  Library and archiving skills:
+  - pherterich
+  Licensing:
+  - jezcope
+  Life science:
+  - selgebali
+  Linguistics:
+  - karvovskaya
+  Machine learning:
+  - jesperdramsch
+  - raphaels1
+  Marine sciences:
+  - annemtreasure
+  Metadata management:
+  - deepakunni3
+  Microbiome:
+  - luispedro
+  Microscopy:
+  - msundukova
+  Mobility:
+  - msundukova
+  Molecular dynamics simulations:
+  - gugy89
+  Molecular modelling:
+  - gugy89
+  Neurodiversity:
+  - georgiahca
+  Neuroimaging:
+  - cassgvp
+  Neuroscience:
+  - msundukova
+  No listed expertise:
+  - alexholinski
+  - alexwlchan
+  Omics:
+  - santosrac
+  Open access:
+  - iratxepuebla
+  Open data:
+  - annemtreasure
+  - iramosp
+  - jezcope
+  Open research:
+  - jezcope
+  Open scholarship:
+  - jezcope
+  Open science:
+  - annemtreasure
+  - ewallace
+  - jezcope
+  Open science and community:
+  - pherterich
+  Open science in project and teaching context:
+  - ewallace
+  Open software peer review:
+  - stefaniebutland
+  Open source:
+  - georgiahca
+  Open source tools for code and data sharing:
+  - jsheunis
+  Oxidoreductases:
+  - gugy89
+  Participatory science:
+  - georgiahca
+  Practical github:
+  - ewallace
+  Preprints:
+  - iratxepuebla
+  Publishing:
+  - iratxepuebla
+  R:
+  - ha0ye
+  R packages:
+  - ewallace
+  Reflection:
+  - msundukova
+  Reproducible research:
+  - annemtreasure
+  Research data management:
+  - jezcope
+  - jsheunis
+  - karvovskaya
+  - pherterich
+  - selgebali
+  Research reproducibility:
+  - ha0ye
+  Research software engineering practice:
+  - jezcope
+  Risk and uncertainty communication:
+  - raphaels1
+  Rna:
+  - ewallace
+  Scientific biocuration:
+  - selgebali
+  Semantics:
+  - karvovskaya
+  Sensory processing:
+  - georgiahca
+  Signal processing with python;:
+  - jsheunis
+  Strategy:
+  - klauer2207
+  Survival analysis (and fundamental problems):
+  - raphaels1
+  Sustainability science:
+  - iramosp
+  Terrestrial sciences:
+  - annemtreasure
+  Time series analysis:
+  - ha0ye
+  Transcriptomics:
+  - santosrac
+  Transition:
+  - msundukova
+  Transparent and accessible ai:
+  - raphaels1
+  Transparent and inclusive leadership.:
+  - cassgvp
+  Typology:
+  - karvovskaya
+  Version control:
+  - ha0ye
+  Virtual events:
+  - joyceykao
+  - stefaniebutland
+  Web applications:
+  - joyceykao
+  Work-life balance:
+  - msundukova
+  Yeast & fungi:
+  - ewallace
+facilitators:
+- batoolmm
+- fnyasimi
+- landimi2
+- manulera
+- msundukova
+organizers:
+- bebatut
+- emmyft
+- malvikasharan
+- pazbc
+- yochannah
+possible-mentors:
+- annemtreasure
+- batoolmm
+- burceelbasan
+- chucklesongithub
+- deepakunni3
+- georgiahca
+- karvovskaya
+- klauer2207
+- luispedro
+- macelik
+- msundukova
+- pherterich
+- selgebali
+possible-mentors-with-expertise:
+  Animal behavior:
+  - chucklesongithub
+  Bio-ontologies:
+  - deepakunni3
+  Biodiversity:
+  - annemtreasure
+  Bioinformatics methods:
+  - macelik
+  Biology:
+  - annemtreasure
+  Birdsong:
+  - chucklesongithub
+  Citizen science:
+  - georgiahca
+  Climate change:
+  - annemtreasure
+  Co-creation:
+  - georgiahca
+  Collaboration:
+  - pherterich
+  Computational biology:
+  - batoolmm
+  - luispedro
+  Computational inclusion:
+  - selgebali
+  Creative thinking:
+  - msundukova
+  Curation:
+  - selgebali
+  Data driven life sciences:
+  - klauer2207
+  Data life cycle:
+  - annemtreasure
+  Data management:
+  - annemtreasure
+  Data pipelines and workflows:
+  - annemtreasure
+  Digital equity:
+  - selgebali
+  Ecology:
+  - annemtreasure
+  Electrophysiology:
+  - chucklesongithub
+  - msundukova
+  Entrepreneurship:
+  - klauer2207
+  Environment:
+  - annemtreasure
+  External relations:
+  - klauer2207
+  Fair data:
+  - pherterich
+  Fair data principles:
+  - deepakunni3
+  Fair principles:
+  - selgebali
+  Fieldwork:
+  - karvovskaya
+  Galaxy:
+  - macelik
+  Hpc management:
+  - macelik
+  Infectious diseases:
+  - klauer2207
+  Invasion biology:
+  - annemtreasure
+  Knowledge graphs:
+  - deepakunni3
+  Library and archiving skills:
+  - pherterich
+  Life science:
+  - selgebali
+  Linguistics:
+  - karvovskaya
+  Marine sciences:
+  - annemtreasure
+  Metadata management:
+  - deepakunni3
+  Metagenomics:
+  - macelik
+  Microbiome:
+  - luispedro
+  Microscopy:
+  - msundukova
+  Mobility:
+  - msundukova
+  Molecular genetics:
+  - burceelbasan
+  Molecular mechanisms of cancer pathogenesis:
+  - burceelbasan
+  Neurodiversity:
+  - georgiahca
+  Neuroscience:
+  - msundukova
+  Open data:
+  - annemtreasure
+  Open science:
+  - annemtreasure
+  Open science and community:
+  - pherterich
+  Open science;:
+  - macelik
+  Open source:
+  - georgiahca
+  Participatory science:
+  - georgiahca
+  Reflection:
+  - msundukova
+  Reproducibility:
+  - batoolmm
+  Reproducible research:
+  - annemtreasure
+  Research data management:
+  - karvovskaya
+  - pherterich
+  - selgebali
+  Scientific biocuration:
+  - selgebali
+  Semantics:
+  - karvovskaya
+  Sensory processing:
+  - georgiahca
+  Strategy:
+  - klauer2207
+  Terrestrial sciences:
+  - annemtreasure
+  Transition:
+  - msundukova
+  Typology:
+  - karvovskaya
+  Work-life balance:
+  - msundukova
+  Workflow development:
+  - macelik
