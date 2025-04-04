@@ -145,6 +145,41 @@ $ make check-html
 
 Our knowledge about our different programs, our community, etc is managed via this repository, [CiviCRM](https://civicrm.org/), and documents stored in Google Drive. It is then added to the website as explained in our [Knowledge Management System documentation](https://we-are-ols.org/knowledge_management.html)
 
+## **Deploy Preview for Pull Requests**  
+
+This repository uses GitHub Actions to generate a **preview deployment** of pull requests. 
+This allows contributors to see changes live before merging them into the `main` branch.  
+
+### **How It Works**  
+1. When a pull request is created against `main`, the GitHub Actions workflow (`.github/workflows/deploy-preview.yml`) runs automatically.  
+2. The workflow:  
+   - Checks out the repository code.  
+   - Sets up Ruby and installs dependencies.  
+   - Builds the Jekyll site.  
+   - Deploys the built site to a separate repository (`ols-site-preview`) on the `gh-pages` branch.  
+   - Comments on the pull request with a preview link in the format:  
+     ```
+     🎉 A preview of this PR is available at: https://we-are-ols.org/ols-site-preview
+     ```  
+3. Contributors can visit this link to view the changes live.  
+
+### **Why This Setup?**  
+- Allows easy previewing of pull request changes without merging.  
+- Uses GitHub Pages for hosting, avoiding the need for third-party services.  
+- Automates the process via GitHub Actions to ensure consistency.  
+- The preview deploys to `ols-site-preview`, keeping the main repo clean.  
+
+### **Usage Notes**  
+- The preview is only available while the PR is open. Once merged or closed, the preview will be removed.  
+- Ensure that the `PR_PREVIEW_TOKEN` secret is correctly set up in the repository settings for authentication.  
+
+### 🚨 **Access Restrictions**  
+This workflow uses a Personal Access Token (PAT) (`PR_PREVIEW_TOKEN`) to deploy previews. 
+Due to GitHub security restrictions, contributors who are not part of the Open Life Science organisation may not have their PR previews generated automatically.
+
+- Organisation members’ PRs will automatically receive a preview link.
+- External contributors' PRs may require a manual workflow run by a maintainer to generate a preview.
+
 ## License
 
 The content of this website are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
