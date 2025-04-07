@@ -10,7 +10,7 @@ photos:
   url: https://unsplash.com/@yunustug
 ---
 
-# Seeking Feedback from Our Community Members on Proposed Organisational Values: Your Voice Matters!
+# Seeking Feedback from Our Community Members on Proposed Organisational Values: Your Perspective Matters!
 
 At OLS, our community is at the heart of everything we do.
 To ensure our core principles reflect and represent the collective vision and aspirations of our members, we are delighted to share the revised **draft of our Organisational Values**, which is now open for community review!
@@ -24,7 +24,7 @@ We have taken the time to reflect on what defines OLS since our launch in 2020, 
 
 Now, we're opening the draft for community review via a Google Document - [draft in comment mode here](https://docs.google.com/document/d/1SeAqomXt_ZrTYUQydOmqLgnI8tGxtCpr22Wu9xm5Y9g/edit?tab=t.0).
 
-We have also shared details on the `ols-governance` GitHub Repository ([issue #12](https://github.com/open-life-science/ols-governance/issues/12)), where all comments will be summarised and shared periodically, and a final draft will be merged.
+We have also shared details on the `ols-governance` GitHub Repository ([issue #12](https://github.com/open-life-science/ols-governance/issues/12)), where all comments will be summarised periodically before a final draft is merged.
 
 ### Who is in our community
 
@@ -34,9 +34,10 @@ Your perspective is integral to shaping the foundational values of OLS that will
 ## How to Share Your Feedback
 
 We've made it easy for you to contribute to the draft directly via a Google Document.
-You can suggest edits, leave new comments, or respond to other comments.
-
 Please access the [draft in comment mode here](https://docs.google.com/document/d/1SeAqomXt_ZrTYUQydOmqLgnI8tGxtCpr22Wu9xm5Y9g/edit?tab=t.0)
+
+You can suggest edits, leave new comments, or respond to other comments.
+If you prefer using GitHub, you can directly leave your comments on the `ols-governance` GitHub Repository ([issue #12](https://github.com/open-life-science/ols-governance/issues/12)).
 
 ## Review Timeline
 
@@ -51,8 +52,7 @@ Here's a breakdown of the review process and important dates to keep in mind:
 
 ### Community Review Period (April - May 2025 - Deadline: 30th May)
 
-* We will actively monitor the Google Document for your initial questions and comments, and share them on the GitHub issue linked to this post.
-* **Your feedback through these channels is invaluable!**
+* We will actively monitor the Google Document for your initial questions and comments, and share them on the GitHub issue linked to this post. Your feedback through these channels will be really helpful.
 * **Mid-Review Check-in (End of April 2025):** We will summarise the feedback received up to this point, address common themes, and assess if any additional support is needed.
 * **Final Feedback Push (Leading up to 30th May):** We will send out reminders as the deadline approaches.
 
@@ -71,9 +71,9 @@ Here's a breakdown of the review process and important dates to keep in mind:
 
 The finalised organisational values will be communicated back to the community, accompanied by a summary of the feedback we received and the resulting changes. We will then operationalise and implement these values across all aspects of OLS.
 
-## Join this Effort!
+## Join us in finalising our shared values!
 
-We welcome your contributions and engagement in this review process.
+We encourage and welcome your contributions to the values draft and invite engagement in this review process.
 Your participation will help us shape the guiding values for OLS!
 
 If you have any immediate questions, please don't hesitate to reach out to OLS directors by emailing [directors@we-are-ols.org](mailto:directors@we-are-ols.org).
