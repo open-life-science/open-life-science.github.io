@@ -126,7 +126,7 @@ weeks:
         - malvikasharan
         title: Project Roadmapping
         tag: Project Roadmapping
-      recording: 'https://youtu.be/dmgVtuczgIw'
+      recording: 'https://www.youtube.com/watch?v=dmgVtuczgIw'
       hosts:
       - tajuddeen1
   '03':
@@ -161,15 +161,20 @@ weeks:
         - malvikasharan
         title: Setting up a project
         tag: Setting up a project
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1N1m0WjFbftBJk26nC1Mf-Qr5ZDooKLsDHTiR_RyKK2w/edit#slide=id.g7e28a7e96f_0_0
+        speakers:
         - 
         title: 'ReadMe files: how to make your project welcoming to others'
         tag: README
-      - speakers:
+      - slides: 
+          https://docs.google.com/presentation/d/1pFlaw-7Kg04GdpCU6CQPAEIcNs-clc3Lm-9G1pFpM0Y/edit#slide=id.g3098b2a345d_0_237
+        speakers:
         - joyceykao
         title: A Primer on Open Licenses
         tag: Open Licensing
-      - speakers:
+      - slides: https://drive.google.com/file/d/16WN14BpBug8Op3ekhlhIZH12Bv5Nyxha/view
+        speakers:
         - karinlag
         title: Designing and enforcing a Code of Conduct
         tag: Code of Conduct
@@ -188,6 +193,7 @@ weeks:
         to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
         * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
         [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
+      recording: https://www.youtube.com/watch?v=z28mSZ_1rlw
   '05':
     start: October 14, 2024
     calls:
@@ -202,7 +208,17 @@ weeks:
       hosts:
       - tajuddeen1
       type: Skill-up
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRGJ1zPXlvoGHyjnGTAHCgMDrvi7_ZQGO0nZkV9VN7WOxY8i1eENnQ2pv9Xk6LZOQ/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: GitHub for Collaboration
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vT5ErsPBpTC-KPMIBVSqYYCbPaMk7Cd6cMI3CpJPZbElR6VXepB3EIPTd7LRmjWOg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - npdebs
+        title: Introduction to GitHub
       time: "17:00"
       learning_objectives:
       - "Create a new repository\n* Create a (README) file\n* Write in Markdown\n
@@ -214,6 +230,7 @@ weeks:
         * Have a look at the OLS-8 repository for 'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
         * Comment of 1-2 project's recent post (vision, open canvas etc.)\n* Create
         your 'project issue'"
+      recording: https://www.youtube.com/watch?v=r3skZL5-NVs
   '06':
     start: October 21, 2024
     calls:
@@ -224,8 +241,40 @@ weeks:
       hosts:
       - malvikasharan
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRGqWI6y7LyyZr-3GUhvouyg6N_Gnju5S0MFcDdbMn2V19Ddk8Z-62FSBr1tNVSCA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: Open Science Garden(s)
+        tag: Open Science Introduction
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vS0ZySNlYJ0UDxqhrdJ9Zt-TO3fp2AZcewUPrFfrmHgBkq1xK7-KIGZ6w3t-zMTCA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - malvikasharan
+        title: Open Science Introduction
+        tag: Open Science Introduction
+      - slides: https://doi.org/10.5281/zenodo.13981241
+        speakers:
+        - diana-pilvar
+        title: Open Data
+        tag: Open Data
+      - slides: 
+          https://docs.google.com/presentation/d/1ixhngkO-wknExWIrA_Fqq8ddWYgqO0FzPM2TWz5cCss/edit#slide=id.p
+        speakers:
+        - 
+        title: Open Educational Resources
+        tag: Open Educational Resources
       time: "17:00"
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 2 use cases of the different Open Science principles
+      after:
+      - Check the GitHub Intro notes, learning resource and video from last week
+      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
+        or other option. ← long term assignment, do it in your own pace.
+      recording: https://www.youtube.com/watch?v=C8ukpzAUKEw
   '07':
     start: October 28, 2024
     calls:
@@ -249,6 +298,11 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
+      notes: https://annuel2.framapad.org/p/ols-9-week-07
+      recording: https://www.youtube.com/watch?v=KPsL2_T8moU
+      learning_objectives:
+      - Recall non traditional (academic) career path
+      - Appreciate different leaderships
   '08':
     start: November 04, 2024
     calls:
@@ -267,9 +321,37 @@ weeks:
       notes: https://annuel2.framapad.org/p/ols-9-week-08
       title: Community Management I
       hosts:
-      - malvikasharan
+      - tajuddeen1
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vSEfshqEIVtV81kuKFQL00-TtjfTjBA6OBXkEs_VixJ0ptJXE5Nued6-bBKPSkjUA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: Community Design for Inclusivity
+      - speakers:
+        - chartgerink
+        title: 'Community Interaction '
+        tag: Community Interactions
+      - slides: 
+          https://docs.google.com/presentation/d/1eJXU9hQeAc7tY-jvL5LwZ-fufvEZJO6HSkAdia3liAc/edit#slide=id.g31274b3ee7b_0_42
+        speakers:
+        - kirstiejane
+        title: Mountain of Engagement
+        tag: Mountain of Engagement
+      - slides: 
+          https://docs.google.com/presentation/d/1Ci9N89fFxWwAOkzllTDftcHnhQ4J_h4lERT8p8yTG1I/edit#slide=id.g21280744133_2_2
+        speakers:
+        - 
+        title: Personas and Pathways
+        tag: Personas & Pathways
+      learning_objectives:
+      - Considering different kinds of interactions for your community
+      - Use the Mountain of Engagement method to support participants through various
+        levels of engagements
+      - Develop persona and pathways for your community for taking people's experiences
+        and expectations in planning your projects
+      recording: https://www.youtube.com/watch?v=1z3kjayErsE
   '09':
     start: November 11, 2024
     calls:
@@ -284,8 +366,37 @@ weeks:
       hosts:
       - tajuddeen1
       type: Skill-up
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRvZgO4mhul2N575YsayBI1EFDmCIneKg47A9YAXRS8PMafLUgQ8s3COoL86I6XuQ/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: Open-source software in practice
+      - slides: 
+          https://docs.google.com/presentation/d/122OcEk4tYbo5ZI4isS4KbOYxGFiTBesR/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - laitanawe
+        title: 'Good Coding Practices '
+        tag: Good Coding Practices
+      - slides: 
+          https://docs.google.com/presentation/d/1ybkgxS1W4_6cDakrEin3R7LYqYrUSWdLHErFsuyfsSY/edit?usp=sharing
+        speakers:
+        - gedankenstuecke
+        title: Code Review
+        tag: Code Review
+      - slides: 
+          https://docs.google.com/presentation/d/1ewt5jgfs7q5xO_fMOmoT08sV4iMGBNV_/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - nanjalaruth
+        title: Package Managements
+        tag: Package Management
       time: "17:00"
+      recording: https://www.youtube.com/watch?v=nD-J3oXJYoo
+      learning_objectives:
+      - Apply good coding practices to your software
+      - Review code
+      - Identify package management for your software
+      - 'Make your software ready for open-source- '
   '10':
     start: November 18, 2024
     calls:
@@ -296,7 +407,34 @@ weeks:
       hosts:
       - tajuddeen1
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQiOSkedwkI8IkMCL_gWJ_qevHZhcHej6PP8otv7BPFoBRqJiEU8BGpc1V6d2Y7jg/pub?start=false&loop=false&delayms=3000
+        speakers:
+        - malvikasharan
+        title: Open Science Garden(s)
+      - slides: 
+          https://docs.google.com/presentation/d/1moP7pEBHYZjz7DXF5bs5ih-wbZXqyfCLtCA9zn-TO_o/edit?usp=sharing
+        speakers:
+        - godwyns-onwuchekwa
+        title: Open Review and Open Evaluation
+        tag: Open Evaluation
+      - slides: https://www.canva.com/design/DAGWRP6oCJo/WQJPvIjiN0AYwFuZF4WNUA/edit
+        speakers:
+        - 
+        title: Open Source Software
+        tag: Open Source Software
+      - slides: 
+          https://docs.google.com/presentation/d/1whXW6pH_wLXZ9YG7IgSNAlK49mvMTz-A/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - 
+        title: Open Access Publication
+        tag: Open Access Publication
+      recording: https://www.youtube.com/watch?v=26w11UOGrAU
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
     - date: March 05, 1900
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-10
@@ -319,8 +457,14 @@ weeks:
       hosts:
       - malvikasharan
       type: Skill-up
-      talks: []
+      talks:
+      - slides: https://doi.org/10.5281/zenodo.14446699
+        speakers:
+        - malvikasharan
+        title: Welcome
+        tag: Personal Ecology
       time: "17:00"
+      recording: https://www.youtube.com/watch?v=RZGRbkQRAh0
   '12':
     start: December 02, 2024
     calls:
@@ -329,10 +473,34 @@ weeks:
       notes: https://annuel2.framapad.org/p/ols-9-week-12
       title: Open Science Garden III
       hosts:
-      - tajuddeen1
+      - malvikasharan
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTx3oylG4TpcsIXJPXuvNluZSdqJZoRI_6b76Lv5VgdyvymmE91gU1x-MfKCnvwdg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - malvikasharan
+        title: Open Science Garden(s)
+      - slides: 
+          https://docs.google.com/presentation/d/1imWncM5e89pfh5Qrk4znyX8jPCTclyME/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true
+        speakers:
+        - 
+        title: Open Hardware
+        tag: Open Hardware
+      - slides: 
+          https://drive.google.com/file/d/16MekAM6V4tRaMiIMBsBEv5vblVnJsVuY/view?usp=drive_link
+        speakers:
+        - lauracarter
+        title: Open Engagement of Social Actors
+        tag: Open Engagement of Social Actors
+      - slides: 
+          https://docs.google.com/presentation/d/1Hkn8tTVzzEet7E68_UeZK1lTLe0Pf623jOPa0aJA0xQ/edit?usp=sharing
+        speakers:
+        - 
+        title: 'Diversity of knowledge: Bibliodiversity'
+        tag: Openness to Diversity of Knowledge
       time: "17:00"
+      recording: https://www.youtube.com/watch?v=ZJYPEqRC8yc
     - date: March 19, 1900
       time: "16:00"
       duration: 90 min
@@ -370,7 +538,18 @@ weeks:
       hosts:
       - malvikasharan
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vR8bJ7D5CLi-3q2OMBAr_o1cJibfro6sxTLDC5yHnmLT2dMhc-t0Kti4CvAEYfYaA/pub?start=false&loop=false&delayms=3000
+        speakers:
+        - malvikasharan
+        title: Diversity, inclusion and ally skills
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vS5KtbjV4cfDMIvfwwkBGAnXVOo1YPVEW0ToaaMqao28Nlhw67avPaXno0ubcEc8G2wc-bZ2Q1t0y17/pub?start=false&loop=false&delayms=3000
+        speakers:
+        - yochannah
+        title: 'Ally Skills: Stepping up as an ally'
+      recording: https://www.youtube.com/watch?v=OI9iG4BBAB4
   '14':
     start: December 16, 2024
     calls:

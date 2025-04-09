@@ -1,7 +1,7 @@
 ---
 layout: default
-title: OLS & NASA Transform to Open Science
-description: Teaching NASA-TOPS Open Science 101 in English
+title: OLS Nebula training program
+description: Teaching NASA Open Science 101 in English
 image: /images/nebula/neb-hero-image.png
 photos:
   name: Jilaga Nneoma
@@ -12,17 +12,20 @@ redirect_from:
   - /nasa/
 ---
 
+# The Nebula program is on temporary pause while the NASA Open Science materials are being refreshed
+
+We'll update this page when we're back! 
+
 # About Nebula
 
-The OLS-NASA Nebula Program is part of [NASA's Transform to Open Science initiative (TOPS)](https://nasa.github.io/Transform-to-Open-Science/). NASA TOPS aims to increase adoption of open science practices, and broaden participation in research by engaging underrepresented communities. 
+The OLS Nebula Program is part of [NASA's Open Science initiative)](https://science.nasa.gov/open-science/). We aim to increase adoption of open science practices, and broaden participation in research. 
 
 Nebula offers six-week-long virtual cohorts, designed for participants at any career stage. The program integrates practical training with individual coaching, supporting participants in applying open science principles, skills, and tools in their work. For more information, you can read our [full proposal](https://zenodo.org/records/8250979) jointly awarded with our partner organization [MetaDocencia](https://www.metadocencia.org/).
 
-[**Register for our upcoming cohort!**](https://events.humanitix.com/ols-nebula).
 
 # Open Science 101 Curriculum
 
-Our cohorts cover the [Open Science 101 Curriculum](https://nasa.github.io/Transform-to-Open-Science/). Below are the topics covered in each module:
+Our cohorts cover the Open Science 101 Curriculum Below are the topics covered in each module:
 
 **Week 1: Ethos of Open Science**
 * What is Open Science?
@@ -54,7 +57,7 @@ Our cohorts cover the [Open Science 101 Curriculum](https://nasa.github.io/Trans
 
 
 # Roles
-This program relies on the active involvements of our volunteer community, who share a passion for Open Research and inclusiveness in Open Science:
+This program relies on the active involvements of our volunteer community, who share a passion for Open Research and bigger communities in Open Science:
 
 * [Participants](#participants)
 * [Expert speakers and trainers](#experts)
@@ -94,12 +97,3 @@ Facilitators work closely with the OLS organisers to manage and run cohort calls
 - Keen to learn more about the operations of OLS and take a vital role in facilitating cohort calls
 - Committed to contribute time and leadership skills towards building a collaborative experience for the attendees of OLS cohort calls.
 
-# Join us
-
-Our next offering will run on Tuesdays and Thursdays beginning **October 22, 2024, until November 28, 2024**. Sessions are scheduled at 16:00 - 17:30 (UTC). 
-
-[Registration is now open!](https://events.humanitix.com/ols-nebula)
-
-# Cohorts
-
-Previous cohorts.

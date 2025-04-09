@@ -34,6 +34,10 @@ All honoraria must be approved by a Director or staff member of OLS.
 
 ## FAQ: 
 
+### Q: Can I claim my mentoring honorarium before the end of the cohort already?
+
+A: In exceptional circumstances (such as travel to a conference), you can request up to 50% of your honorarium early. To do so, please email financemanagement@we-are-ols.org and cohort management (the person or general email address that has been sending you mentoring related information) to make your case. Please do not send invoices or fill the honorarium form before you have received an answer from the team.
+
 ### Q: I mentored two projects during a cohort. Does that mean I can claim two mentoring honoraria?
 
 A: Unfortunately, no. Whilst we would love to be more generous, honoraria are gifts, rather than payment for services. We'd be happy to discuss the confusing tax and working regulations around this if you have any questions, but it's unlikely to change. 

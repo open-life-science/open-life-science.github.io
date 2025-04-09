@@ -19,17 +19,19 @@ streams:
   -
     title: Nebula
     description: |
-      Funded by [NASA](https://www.nasa.gov/), this work aims to deliver fully virtual training cohorts for the [NASA TOPS OpenCore training curriculum](https://nasa.github.io/Transform-to-Open-Science/) with a highly qualitative component throughout the training. 
+      Nebula is currently paused whole the Open Science curriculum is refreshed. 
       
-      Starting in 2024 and for 3 years, the team will deliver five 6-week Virtual Cohorts per year. The cohorts will include guided reflection and hands-on implementation of open science concepts, processes, and techniques. This program will teach one OpenCore Module per week, by bringing in expert speakers from across different scientific domains, allowing learners to actively embed their training in their work and reflect on their learning with a mentor.
+      Funded by [NASA](https://www.nasa.gov/), this work aims to deliver fully virtual training cohorts for the NASA open science curriculum with a highly qualitative component throughout the training. 
+      
+      Starting in 2024 and for 3 years, the team will deliver five 6-week Virtual Cohorts per year. The cohorts will include guided reflection and hands-on implementation of open science concepts, processes, and techniques. This program will teach one Module per week, by bringing in expert speakers from across different scientific domains, allowing learners to actively embed their training in their work and reflect on their learning with a mentor.
 
       You can read more about it in the [proposal](https://zenodo.org/records/8250979).
     image: 
-      link: https://www.nasa.gov/wp-content/uploads/2023/04/tops.jpg
-      alt: NASA TOPS logo
+      link: images/nebula/nebula-wordmark-transparent-bg.png
+      alt: Open Seeds
 ---
 
-OLS was started to deliver **online** **mentoring** and **training** programs for individuals and teams worldwide to learn about and adopt open research practices. 
+OLS delivers **online mentoring and training programs** for individuals and teams worldwide to learn about and adopt open research practices. 
 
 ## What makes us different
 

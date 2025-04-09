@@ -4,10 +4,39 @@
 # People should be also in people.yaml file and linked using their GitHub username
 # Ordering by expertise should be done by running the bin/sort-expertises.py script
 ---
-experts: []
+experts:
+- yochannah
+- malvikasharan
+- mxrtinez
+- joyceykao
+- karinlag
+- npdebs
+- diana-pilvar
+- chartgerink
+- kirstiejane
+facilitators:
+- arielle-bennett
+- babasaraki
+- emmanuel19-ada
+- glado718
+- karegapauline
+- landimi2
+- laurah-nyasita-ondari
+- lessa-maker
+- peranti
 organizers:
 - bebatut
 - malvikasharan
 - yochannah
 - tajuddeen1
-possible-mentors: []
+possible-mentors:
+- laurah-nyasita-ondari
+- malvikasharan
+- manulera
+- mxrtinez
+- gemmaturon
+- estherplomp
+- hrhotz
+- malloryfreeberg
+- kipkurui
+- sebastian-ayala-ruano
