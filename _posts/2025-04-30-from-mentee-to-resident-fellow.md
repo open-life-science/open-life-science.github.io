@@ -18,11 +18,11 @@ What makes OLS a good community is that everyone is very nice and helpful, plus 
 After finishing the program–which has a unique mentoring component that’s a really good advantage–they may ask if you want to become a facilitator, mentor or expert. 
 I did experience the facilitator role, and it was a nice way to get involved with the community. 
 
-Later, about seven months ago, they interviewed me to be a Resident Fellow for marketing and outreach. 
+Later, about seven months ago, they interviewed me to be a **Resident Fellow for marketing and outreach**. 
 From this point, I worked more closely with the community. Being part of the core team showed me a different side and a deeper side of OLS!
 
 At the very beginning, I had an onboarding person in addition to my line manager.
-So, if  I was struggling with anything, I had people watching my back–I really liked this point.
+So, if I was struggling with anything, I had people watching my back–I really liked this point.
 
 Another advantage of this fellowship is that I collaborated with different and diverse people, plus used many platforms, which made me gain new experience for personal and technical skills.
 
