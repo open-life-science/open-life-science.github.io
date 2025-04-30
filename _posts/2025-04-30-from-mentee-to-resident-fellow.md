@@ -12,7 +12,7 @@ photos:
 
 Mentee! Yes, this is how it started 2 years ago as a mentee in [OLS 7]({% link openseeds/ols-7/projects-participants.md %}#projects). 
 It was the first time I felt this wasn’t just another course about leadership or developing a project (I ended up building [Open Science Community Egypt](https://osc-international.com/osc-egypt/)!), 
-but a real community where you do have people watching your back.
+but **a real community where you do have people watching your back.**
 
 What makes OLS a good community is that everyone is very nice and helpful, plus they teach you open principles – values like collaboration, transparency, and community contribution.
 After finishing the program–which has a unique mentoring component that’s a really good advantage–they may ask if you want to become a facilitator, mentor or expert. 
