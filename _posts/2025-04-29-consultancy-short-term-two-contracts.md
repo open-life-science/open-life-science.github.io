@@ -32,6 +32,6 @@ Contracts may be awarded to **organisations or individuals** who meet the requir
 
 ## Timeline: 
 - Call for bids announced: 2025-04-29
-- Bids due by: 2025-05-19 end of day (anywhere in the world)
+- Bids due by: ~~2025-05-19~~ 2025-05-26 end of day (anywhere in the world)
 
 For the remainder of the timeline and other details, please see the information sheets. 
