@@ -11,6 +11,14 @@ photos:
   url: https://unsplash.com/@wocintechchat
 ---
 
+**UPDATE 2025-05-19: Application period extension**
+
+We have extended the timeline by one additional week. Please submit applications by end of day (anywhere in the world) 26 May 2025. Expect all timelines in the information sheets to be extended by one week to compensate for the extension. 
+
+In addition, please note that contract completion may result in further contracts if the initial consultancy was successful. 
+
+## Original post:  
+
 One of OLS's key organisational priorities over the next 1-2 years is creating additional organisational stability. We are inviting community members and value-aligned individuals and organisations to pitch for two short-term contracts. 
 
 Each contract is allocated a budget of $5,000 USD. 
