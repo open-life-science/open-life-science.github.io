@@ -19,10 +19,20 @@ Communities that have participated in an OLS training cohort, or worked with OLS
 ## FAQ
 
 ### I would like to apply to become an OLS FSC. What do I need to do? 
-Please email [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) to discuss your options, or message a director in Slack. 
+Please email [{{ site.fscemail|replace:'@','[at]' }}](mailto:{{ site.fscemail }}) to discuss your options, or message the FSC team in Slack. 
 
 ### Are there any minimum requirements for becoming an FSC? 
-There are! Please see our policies, procedures, and docs page for the details. If you think you can't yet meet those requirements, we're still happy to chat - we might want to consider working with you as part of a **resident fellowship** instead. If you're thinking of applying for a grant opportunity, please contact OLS with as _much_ time in advance as possible before you submit the grant application, so we can offer advice and help verify that the budget works for us and for you. 
+There are! Please fork the FSC community template repo and open up starter issues, which should guide you through creating the basic docs we expect. 
+
+The TL;DR version of the requirements are: 
+
+- At least **three senior members** who are responsible for organisational governance.
+- A **dispute resolution process** (OLS will not resolve disputes on your behalf).
+- A **succession policy** - e.g. what happens if key project members leave or become unresponsive / unavailable for some reason. 
+
+If you think you can't yet meet those requirements, we're still happy to chat - we might want to consider working with you as part of a **resident fellowship** instead. 
+
+If you're thinking of applying for a grant opportunity, please contact OLS with as _much_ time in advance as possible before you submit the grant application, so we can offer advice and help verify that the budget works for us and for you. 
 
 ### I've never applied for a grant before! Do you have any advice?
 
