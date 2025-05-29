@@ -16,9 +16,14 @@ photos:
 
 We maintain a fiscally sponsored community inbox that is monitored by multiple people in the FSC team (currently Bethan, Patricia, and Yo.) Emails to [{{ site.fsc_email|replace:'@','[at]' }}](mailto:{{ site.fsc_email }}) will generally be answered within five business days. 
 
-## FSC contract previews and policies
+## FSC policies
 
-When we onboard an FSC, we go through two steps: 
+### General
+- Please notify OLS at least one month before any grant deadline to share planned budgets and activities - ideally longer. This is particularly important when a larger number of payments or communications will be needed, in order to plan our workload. We'll work with you to find a mutually agreeable timeline. 
+
+### Contracts and documentation
+
+ When we onboard an FSC, we go through two steps: 
 
 - **Agreement in principle** (for scenarios when we know money _might_ come, but it hasn't happened yet - e.g. a grant proposal is being submitted but not yet awarded, or a consultancy contract is being drafted). 
     - You can preview the in-principle agreement here: [DOCX](in-principle-agreement/fsc-in-principle-agreement.docx), [ODT](in-principle-agreement/fsc-in-principle-agreement.odt), [Markdown](in-principle-agreement/fsc-in-principle-agreement.md), [PDF](in-principle-agreement/fsc-in-principle-agreement.pdf)
