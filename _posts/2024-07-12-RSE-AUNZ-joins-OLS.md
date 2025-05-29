@@ -12,7 +12,7 @@ photos:
   url: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 ---
 
-We're excited to share that **[RSE-AUNZ](https://rse-aunz.github.io/) are joining OLS as our first [Fiscally Sponsored Community (FSC)]({% link fiscal-hosting/index.md.md %})**! We'll be exploring this over the next year with RSE-AUNZ as they run their flagship [2024 RSE Asia Australia unconference](https://rseaa.github.io/). 
+We're excited to share that **[RSE-AUNZ](https://rse-aunz.github.io/) are joining OLS as our first [Fiscally Sponsored Community (FSC)]({% link fiscal-hosting/index.md %})**! We'll be exploring this over the next year with RSE-AUNZ as they run their flagship [2024 RSE Asia Australia unconference](https://rseaa.github.io/). 
 
 ## About RSE-AUNZ
 
