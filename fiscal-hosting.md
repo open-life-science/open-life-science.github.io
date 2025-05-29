@@ -19,7 +19,7 @@ Communities that have participated in an OLS training cohort, or worked with OLS
 ## FAQ
 
 ### I would like to apply to become an OLS FSC. What do I need to do? 
-Please email [{{ site.fscemail|replace:'@','[at]' }}](mailto:{{ site.fscemail }}) to discuss your options, or message the FSC team in Slack. 
+Please email [{{ site.fsc_email|replace:'@','[at]' }}](mailto:{{ site.fsc_email }}) to discuss your options, or message the FSC team in Slack. 
 
 ### Are there any minimum requirements for becoming an FSC? 
 There are! Please fork the FSC community template repo and open up starter issues, which should guide you through creating the basic docs we expect. 
