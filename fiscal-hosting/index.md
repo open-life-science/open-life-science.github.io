@@ -22,7 +22,7 @@ Communities that have participated in an OLS training cohort, or worked with OLS
 Please email [{{ site.fsc_email|replace:'@','[at]' }}](mailto:{{ site.fsc_email }}) to discuss your options, or message the FSC team in Slack. 
 
 ### Are there any minimum requirements for becoming an FSC? 
-There are! Please fork the [FSC community template repo](https://github.com/open-life-science/fiscally-sponsored-community-templates), which should guide you through creating issues as to-dos for the basic docs we expect. [You can also read our internal policy page for FSCs]({% link fsc-policies.md %})
+There are! Please fork the [FSC community template repo](https://github.com/open-life-science/fiscally-sponsored-community-templates), which should guide you through creating issues as to-dos for the basic docs we expect. [You can also read our internal policy page for FSCs]({% link fiscal-hosting/fsc-policies.md %})
 
 The TL;DR version of the requirements are: 
 
