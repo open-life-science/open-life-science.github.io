@@ -11,40 +11,41 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3   # Get (clone) the repository code
+      uses: actions/checkout@v3   # Step 1: Get (clone) the repository code
 
-    - name: Set up Ruby   # Set up Ruby for the runner
+    - name: Set up Ruby   # Step 2: Set up Ruby for the runner
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1   # - Use Ruby version 3.1
-        bundler-cache: true   # - Cache Ruby gems for quicker builds
+        ruby-version: 3.1   # Use Ruby version 3.1
+        bundler-cache: true   # Cache Ruby gems for quicker builds
 
-    - name: Install dependencies   # Install all Ruby packages required for the site
+    - name: Install dependencies   # Step 3: Install all Ruby packages required for the site
       run: |
         bundle install   
 
-    - name: Build Jekyll site   # Build the site with Jekyll, and put it in '_site' directory
+    - name: Build Jekyll site   # Step 4: Build the site with Jekyll, and put it in '_site' directory
       run: |
         bundle exec jekyll build --destination _site
 
-    - name: Copy site to PR-specific folder   # Make a folder called 'pr_preview' 
+    # Step 5: Make a folder called 'pr_preview'; move the built site into a subfolder labelled with the PR number
+    - name: Copy site to PR-specific folder    
       run: |
         mkdir pr_preview 
         mv _site pr_preview/${{ github.event.pull_request.number }}
 
     - name: Deploy to GitHub Pages for preview
-      uses: peaceiris/actions-gh-pages@v3   # Use a pre-made action to deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3   # Step 6: Use a pre-made action to deploy to GitHub Pages
       with:
-        personal_token: ${{ secrets.PR_PREVIEW_TOKEN }}
+        personal_token: ${{ secrets.PR_PREVIEW_TOKEN }} # GitHub token (from secrets) to authenticate this action and publish a preview.
         publish_branch: gh-pages   # Publish to 'gh-pages' branch
-        publish_dir: ./pr_preview
+        publish_dir: ./pr_preview   # Use 'pr_preview' folder as the root for published files
         external_repository: open-life-science/ols-site-preview   # Publish to external repo
         cname: ''
 
     - name: Comment with preview URL
       env:
-        GITHUB_TOKEN: ${{ secrets.PR_PREVIEW_TOKEN }}
-      run: |
+        GITHUB_TOKEN: ${{ secrets.PR_PREVIEW_TOKEN }}   # Step 7a: Use token for authentication
+      run: | # Step 7b: Create a preview URL using the PR number, post a comment with the preview link on this PR
         PREVIEW_URL="https://we-are-ols.org/ols-site-preview/${{ github.event.pull_request.number }}"
         COMMENT_BODY="🎉 A preview of this PR is available at: [${PREVIEW_URL}](${PREVIEW_URL})"
         gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
