@@ -1,44 +1,44 @@
-name: Deploy Preview for Pull Requests
+name: Deploy Preview for Pull Requests   # Name of this workflow, shown in the GitHub Actions UI
 
 on:
-  pull_request:
+  pull_request:   # Run this workflow whenever a Pull Request (PR) is made...
     branches:
-      - main
+      - main   # ...only if the PR targets the 'main' branch
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest   # Use the latest Ubuntu virtual machine
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3   # Get (clone) the repository code
 
-    - name: Set up Ruby
+    - name: Set up Ruby   # Set up Ruby for the runner
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1
-        bundler-cache: true
+        ruby-version: 3.1   # - Use Ruby version 3.1
+        bundler-cache: true   # - Cache Ruby gems for quicker builds
 
-    - name: Install dependencies
+    - name: Install dependencies   # Install all Ruby packages required for the site
       run: |
-        bundle install
+        bundle install   
 
-    - name: Build Jekyll site
+    - name: Build Jekyll site   # Build the site with Jekyll, and put it in '_site' directory
       run: |
         bundle exec jekyll build --destination _site
 
-    - name: Copy site to PR-specific folder
+    - name: Copy site to PR-specific folder   # Make a folder called 'pr_preview' 
       run: |
-        mkdir pr_preview
+        mkdir pr_preview 
         mv _site pr_preview/${{ github.event.pull_request.number }}
 
     - name: Deploy to GitHub Pages for preview
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v3   # Use a pre-made action to deploy to GitHub Pages
       with:
         personal_token: ${{ secrets.PR_PREVIEW_TOKEN }}
-        publish_branch: gh-pages 
+        publish_branch: gh-pages   # Publish to 'gh-pages' branch
         publish_dir: ./pr_preview
-        external_repository: open-life-science/ols-site-preview 
+        external_repository: open-life-science/ols-site-preview   # Publish to external repo
         cname: ''
 
     - name: Comment with preview URL
