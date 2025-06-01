@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:   # Allow manual trigger of workflow from "Actions" tab
 
 jobs:
   build-and-deploy:
@@ -27,19 +28,27 @@ jobs:
       run: |
         bundle exec jekyll build --destination _site
 
-    - name: Create PR-specific folder
-      run: |
-        mkdir -p pr_preview/${{ github.event.pull_request.number }}
-        mv _site/* pr_preview/${{ github.event.pull_request.number }}
+    - name: Clone existing gh-pages branch
+      run: | # Preserves previously deployed PR previews
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git clone --depth 1 --branch gh-pages https://x-access-token:${{ secrets.PR_PREVIEW_TOKEN }}@github.com/open-life-science/ols-site-preview.git gh-pages
+      env:
+        GIT_TERMINAL_PROMPT: 0
 
-    - name: Deploy to GitHub Pages for preview
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.PR_PREVIEW_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: ./pr_preview/${{ github.event.pull_request.number }}
-        external_repository: open-life-science/ols-site-preview
-        cname: ''
+    - name: Copy built site into PR folder
+      run: |
+        pr_number=${{ github.event.pull_request.number }}
+        mkdir -p gh-pages/$pr_number
+        rm -rf gh-pages/$pr_number/*
+        cp -r _site/* gh-pages/$pr_number/
+
+    - name: Push updated preview site
+      run: |
+        cd gh-pages
+        git add .
+        git commit -m "Deploy preview for PR #${{ github.event.pull_request.number }}"
+        git push origin gh-pages
 
     - name: Comment with preview URL
       env:
