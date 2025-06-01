@@ -27,18 +27,14 @@ jobs:
       run: |
         bundle exec jekyll build --destination _site
 
-    - name: Copy site to PR-specific folder
-      run: |
-        mkdir pr_preview
-        mv _site pr_preview/${{ github.event.pull_request.number }}
-
     - name: Deploy to GitHub Pages for preview
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.PR_PREVIEW_TOKEN }}
-        publish_branch: gh-pages 
-        publish_dir: ./pr_preview
-        external_repository: open-life-science/ols-site-preview 
+        publish_branch: gh-pages
+        publish_dir: ./_site
+        destination_path: ${{ github.event.pull_request.number }}
+        external_repository: open-life-science/ols-site-preview
         cname: ''
 
     - name: Comment with preview URL
