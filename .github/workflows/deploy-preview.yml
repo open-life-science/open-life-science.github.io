@@ -27,13 +27,17 @@ jobs:
       run: |
         bundle exec jekyll build --destination _site
 
+    - name: Create PR-specific folder
+      run: |
+        mkdir -p pr_preview/${{ github.event.pull_request.number }}
+        mv _site/* pr_preview/${{ github.event.pull_request.number }}
+
     - name: Deploy to GitHub Pages for preview
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.PR_PREVIEW_TOKEN }}
         publish_branch: gh-pages
-        publish_dir: ./_site
-        destination_path: ${{ github.event.pull_request.number }}
+        publish_dir: ./pr_preview/${{ github.event.pull_request.number }}
         external_repository: open-life-science/ols-site-preview
         cname: ''
 
@@ -41,6 +45,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.PR_PREVIEW_TOKEN }}
       run: |
-        PREVIEW_URL="https://we-are-ols.org/ols-site-preview/${{ github.event.pull_request.number }}"
+        PREVIEW_URL="https://we-are-ols.org/ols-site-preview/${{ github.event.pull_request.number }}/"
         COMMENT_BODY="🎉 A preview of this PR is available at: [${PREVIEW_URL}](${PREVIEW_URL})"
         gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
