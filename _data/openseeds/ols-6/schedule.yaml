@@ -425,8 +425,8 @@ weeks:
       recording: https://youtu.be/6ZlrGVxjd5Q
       type: Cohort
       after:
-      - "[Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n
-        assignment"
+      - "[Personas & pathways](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)\n\
+        \ assignment"
       - Think through community interactions
       - "Complete the midterm survey\n      \n        "
       resources: []
@@ -470,14 +470,14 @@ weeks:
       notes: https://bit.ly/ols-6-week-09
       content: "In this call, participants will:\n- Hear from the professionals from
         different career paths\n- Ask them questions about their careers\n- Share
-        worries/insecurities related to your career path, profession or area of work
-        \n- Tips and advice to overcome challenges as an open researcher"
+        worries/insecurities related to your career path, profession or area of work\
+        \ \n- Tips and advice to overcome challenges as an open researcher"
       title: 'Open Leadership: Academia, industry and beyond!'
       recording: https://youtu.be/5fTXmHIKaL4
       type: Skill-up
       before:
       - "A few days before the event, think about how you might briefly answer the
-        following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n
+        following questions ([source](https://www.bu.edu/lernet/pathways/organizers/panel.html)):\n\
         how did you choose your career ?"
       - what did you study to prepare ?
       - what do you actually do at work on a typical day ?

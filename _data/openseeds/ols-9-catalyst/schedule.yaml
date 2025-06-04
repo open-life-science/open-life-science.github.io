@@ -186,11 +186,11 @@ weeks:
         Code of Conduct"
       after:
       - "Create a GitHub repository for your project\n* Add the link to your repository
-        in your issue on [https://github.com/open-life-science/ols-9/issues](https://github.com/open-life-science/ols-9/issues)\n
+        in your issue on [https://github.com/open-life-science/ols-9/issues](https://github.com/open-life-science/ols-9/issues)\n\
         * Use your canvas to start writing a `README.md` file, or landing page, for
-        your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\n
+        your project: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)\n\
         * Link your README in a comment on the OLS-9 issue\n* Add an open license
-        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n
+        to your repository as a file called `LICENSE.md: [https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/](https://mozilla.github.io/open-leadership-training-series/articles/get-your-project-online/sharing-your-work-in-the-open/)\n\
         * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
         [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
       recording: https://www.youtube.com/watch?v=z28mSZ_1rlw
@@ -221,13 +221,13 @@ weeks:
         title: Introduction to GitHub
       time: "17:00"
       learning_objectives:
-      - "Create a new repository\n* Create a (README) file\n* Write in Markdown\n
+      - "Create a new repository\n* Create a (README) file\n* Write in Markdown\n\
         * Manage issues and labels\n* Enable a small website via GitHub\n* Submit
         changes to a GitHub repository via Pull Request (PR)\n* Set the scene for
         self-paced learning after this session"
       before:
-      - "Please create a GitHub account: [https://github.com](https://github.com)\n
-        * Have a look at the OLS-8 repository for 'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n
+      - "Please create a GitHub account: [https://github.com](https://github.com)\n\
+        * Have a look at the OLS-8 repository for 'project issues': [https://github.com/open-life-science/ols-8/issues](https://github.com/open-life-science/ols-8/issues)\n\
         * Comment of 1-2 project's recent post (vision, open canvas etc.)\n* Create
         your 'project issue'"
       recording: https://www.youtube.com/watch?v=r3skZL5-NVs
