@@ -5,7 +5,7 @@ authors:
 - npdebs
 image: https://images.unsplash.com/photo-1749202986276-3e17142ddf7e
 photos:
-  name: TBD
+  name: Deborah Udoh
   license: CC-BY
   url: https://unsplash.com/@kaitlynbaker
 ---
