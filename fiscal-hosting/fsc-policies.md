@@ -14,7 +14,7 @@ photos:
 
 ## Contacting OLS
 
-We maintain a fiscally sponsored community inbox that is monitored by multiple people in the FSC team (currently Bethan, Patricia, and Yo.) Emails to [{{ site.fsc_email|replace:'@','[at]' }}](mailto:{{ site.fsc_email }}) will generally be answered within five business days. 
+We maintain a fiscally sponsored community inbox that is monitored by multiple people in the FSC team (currently [Bethan]({% link people.md %}#bethaniley), [Patricia]({% link people.md %}#pherterich), and [Yo]({% link people.md %}#yochannah).) Emails to [{{ site.fsc_email|replace:'@','[at]' }}](mailto:{{ site.fsc_email }}) will generally be answered within five business days. 
 
 ## FSC policies
 
