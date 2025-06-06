@@ -10,17 +10,15 @@ photos:
   url: https://unsplash.com/@kaitlynbaker
 ---
 
-# OLS Retreat: Debs’ Experience
+**Attendees:** [Yo Yehudi]({% link people.md %}#yochannah), [Malvika Sharan]({% link people.md %}#malvikasharan), [Patricia Herterich]({% link people.md %}#pherterich ), [Bethan Iley]({% link people.md %}#bethaniley ), [Irene Ramos]({% link people.md %}#iramosp), [Sara Villa]({% link people.md %}#saravilla), [Deborah Udoh]({% link people.md %}#npdebs), and [Tajuddeen Gwadabe]({% link people.md %}#Tajuddeen1) *(virtually!)*
 
-**Attendees:** Yo Yehudi, Malvika Sharan, Patricia Herterich, Bethan Iley, Irene Ramos, Sara Villa, Deborah Udoh, and Tajuddeen Gwadabe *(virtually!)*
-
-In my previous post, I reflected on my CW25 experience. One highlight from that week was meeting more of the OLS community in person — including core team members I’d only ever seen in squares on a Zoom screen. On Thursday, May 15th, after the CW25 Hack Day, we boarded a train and set off for our annual retreat in Edinburgh.
+In my previous post, I reflected on my CW25 experience. One highlight from that week was **meeting more of the OLS community in person** — including core team members I’d only ever seen in squares on a Zoom screen. On Thursday, **May 15th**, after the CW25 Hack Day, we boarded a train and set off for our **annual retreat in Edinburgh**.
 
 Of course, once we arrived at the station, Yo Yehudi — our Executive Director — set off ahead of us on her bicycle. Some would say she went ahead to prep the Airbnb… but we all know Yo just wanted to claim the best room. 😉
 
 ## Breathing the Same Air
 
-The **OLS Retreat**, held on May 16th, was the first time in a long time that many of us got to share physical space — breathing the same air, exchanging actual hugs, and making the kind of memories that just don’t translate through a screen.
+The **OLS Retreat**, held on May 16th, was the **first time in a long time that many of us got to share physical space** — breathing the same air, exchanging actual hugs, and making the kind of memories that just don’t translate through a screen.
 
 I love my colleagues, even as pixelated boxes…but in person? Even more.
 
@@ -28,7 +26,7 @@ And no, it wasn’t all sticky notes and strategy sessions (though there were a 
 
 ## Team Values, Personal Reflections
 
-We started the day with a values-based reflection exercise. Each of us wrote down our personal values, then went around adding positive qualities we saw in others — things they might not realise about themselves.
+We started the day with a **values-based reflection exercise**. Each of us wrote down our personal values, then went around adding positive qualities we saw in others — things they might not realise about themselves.
 
 > “I love how you’re able to make people feel like they are part of your family — but not in a creepy way.”  
 > — *Bethan Iley*, and yes, this made my week.
@@ -41,9 +39,9 @@ I had this discussion with Malvika on the porch, sunlight pouring in, a glass of
 
 ## Vulnerability at Work? Yes, Please.
 
-One of the biggest takeaways from our time together: vulnerability is a strength, not a weakness.
+One of the biggest takeaways from our time together: **vulnerability is a strength, not a weakness**.
 
-It’s okay to admit when you’re not feeling like yourself. Presenteeism — just showing up to tick the box — serves no one, least of all ourselves.
+It’s okay to admit when you’re not feeling like yourself. [Presenteeism](https://en.wikipedia.org/wiki/Presenteeism) — just showing up to tick the box — serves no one, least of all ourselves.
 
 OLS doesn’t just talk about inclusive spaces. We *live* them. Even at lunch.
 
@@ -64,7 +62,7 @@ Also, every time someone bought something, Bethan would chime in:
 
 ## Big Questions, Bold Dreams
 
-Post-lunch, we turned to reflections on the future of OLS. These weren’t vague strategy chats. They were real, candid conversations.
+Post-lunch, we turned to **reflections on the future of OLS**. These weren’t vague strategy chats. They were real, candid conversations.
 
 What do we want to see more of? What’s missing? What would we build if we could?
 
