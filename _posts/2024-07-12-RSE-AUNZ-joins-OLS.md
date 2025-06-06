@@ -12,7 +12,7 @@ photos:
   url: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 ---
 
-We're excited to share that **[RSE-AUNZ](https://rse-aunz.github.io/) are joining OLS as our first [Fiscally Sponsored Community (FSC)]({% link fiscal-hosting.md %})**! We'll be exploring this over the next year with RSE-AUNZ as they run their flagship [2024 RSE Asia Australia unconference](https://rseaa.github.io/). 
+We're excited to share that **[RSE-AUNZ](https://rse-aunz.github.io/) are joining OLS as our first [Fiscally Sponsored Community (FSC)]({% link fiscal-hosting/index.md %})**! We'll be exploring this over the next year with RSE-AUNZ as they run their flagship [2024 RSE Asia Australia unconference](https://rseaa.github.io/). 
 
 ## About RSE-AUNZ
 
@@ -40,4 +40,4 @@ OLS support is crucial to run this event, since neither RSE associations have th
 
 Fiscal sponsorship is a relatively new program for OLS. It was started mainly in response to the fact that people participating in the OLS mentorship programs ([Open Seeds]({% link openseeds/index.md %}) and [Nebula]({% link nebula/index.md %})) often desire to take "next steps" for their communities or projects, but may not have the legal infrastructure to do so (e.g. ways to handle money, accounting, a registered organisation, etc.), or may have an institution they can work with that may not have the desired flexibility to meet their needs. 
 
-If you want to learn more about the program, our [fiscal sponsorship page]({% link fiscal-hosting.md %}).
+If you want to learn more about the program, our [fiscal sponsorship page]({% link fiscal-hosting/index.md %}).
