@@ -3,7 +3,7 @@ layout: post
 title: "OLS Retreat: Debs’ Experience"
 authors:
 - npdebs
-image: https://images.unsplash.com/photo-1508780709619-79562169bc64
+image: https://images.unsplash.com/photo-1749202986276-3e17142ddf7e
 photos:
   name: TBD
   license: CC-BY
