@@ -2,9 +2,11 @@
 ---
 timeline:
 - date: December 1, 2021
-  description: Opening of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
-  details: We have [templates](https://github.com/open-life-science/application-forms)
-    you can download to use when preparing your application.
+  description: Opening of the applications on 
+    [Easychair](https://easychair.org/conferences/?conf=ols3)
+  details: We have 
+    [templates](https://github.com/open-life-science/application-forms) you can 
+    download to use when preparing your application.
 - date: January 4, 2021
   description: Application webinar
   type:
@@ -18,17 +20,20 @@ timeline:
   - Q&A
   notes: 
     https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
-  details: At this call, OLS team will be available to provide help if you have any
-    question related to your application
+  details: At this call, OLS team will be available to provide help if you have 
+    any question related to your application
 - date: January 11, 2021
-  description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
+  description: Closing of the applications on 
+    [Easychair](https://easychair.org/conferences/?conf=ols3)
 - date: January 13, 2021
-  description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) collaborating
-    organisation**, Open office hour (<i class="fas fa-question"></i> Q&A)
+  description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) 
+    collaborating organisation**, Open office hour (<i class="fas 
+    fa-question"></i> Q&A)
   notes: https://tinyurl.com/ols-3-webinar
 - date: January 18, 2021
-  description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) collaborating
-    organisation**, Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols3)
+  description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) 
+    collaborating organisation**, Closing of the applications on 
+    [Easychair](https://easychair.org/conferences/?conf=ols3)
 - date: January 26, 2021
   description: Successful applicants announced
 weeks:
@@ -38,8 +43,8 @@ weeks:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-      agenda: Meet each other and discuss your personal motivation, expectations,
-        working practices and project goals
+      agenda: Meet each other and discuss your personal motivation, 
+        expectations, working practices and project goals
       content: |
         This is your first meeting with your OLS mentor. This call should include you and your mentor. If you are working on a team of up to (and no more than) 3 registered participants, you can all meet together with your mentor.
 
@@ -106,8 +111,8 @@ weeks:
       - yochannah
       - malvikasharan
       - emmyft
-      agenda: Meet other members of your cohort, Share project vision, Intro to working
-        openly (open canvas)
+      agenda: Meet other members of your cohort, Share project vision, Intro to 
+        working openly (open canvas)
       content: |
         During our first cohort call, we will:
         - Say hello and introduce ourselves.
@@ -175,7 +180,8 @@ weeks:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-      agenda: Discuss assignments from the cohort call & concrete implementations
+      agenda: Discuss assignments from the cohort call & concrete 
+        implementations
       content: |
         During this week's mentor meeting, you will:
         - Establish a check-in ritual.
@@ -199,7 +205,8 @@ weeks:
             - Other possibility: [Hemingway Editor](https://www.hemingwayapp.com/)
     - type: Coworking
       duration: 30 min
-      title: Open office hour, coworking on assignments, knowledge exchange and networking
+      title: Open office hour, coworking on assignments, knowledge exchange and 
+        networking
       date: February 24, 2021
       time: '17:00'
       notes: https://bit.ly/ols-3-week-03-q-a
@@ -331,7 +338,8 @@ weeks:
         link: https://git-scm.com/book/en/v2
       - type: external-link
         title: GitHub glossary
-        link: https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
+        link: 
+          https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
       - type: external-link
         title: Writing on Github
         link: https://help.github.com/categories/writing-on-github/
@@ -450,7 +458,8 @@ weeks:
       duration: 30 min
       notes: https://bit.ly/ols-3-week-06-q-a
       type: Coworking
-      title: Open office hour, coworking on assignments, knowledge exchange and networking
+      title: Open office hour, coworking on assignments, knowledge exchange and 
+        networking
       content: |
         During this week's coworking call, you will:
         - take some time to get to know each other over informal networking opportunity
@@ -610,7 +619,8 @@ weeks:
           https://op.europa.eu/en/publication-detail/-/publication/4630fa57-1348-11eb-9a54-01aa75ed71a1/language-en
       - type: external-link
         title: RDA FAIR for Research Software (FAIR4RS) WG
-        link: https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
+        link: 
+          https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
       - type: external-link
         title: Best Practices for Scientific Computing
         link: https://doi.org/10.1371/journal.pbio.1001745
@@ -653,7 +663,8 @@ weeks:
       duration: 30 min
       notes: https://bit.ly/ols-3-week-11-q-a
       type: Coworking
-      title: Open office hour, coworking on assignments, knowledge exchange and networking
+      title: Open office hour, coworking on assignments, knowledge exchange and 
+        networking
       content: |
         During this week's coworking call, you will:
         - take some time to get to know each other over informal networking opportunity
@@ -746,7 +757,8 @@ weeks:
     - type: Cohort
       duration: 90 min
       title: Designing & Empowering for inclusivity
-      agenda: Personas and pathways for contributors, Implicit bias & Community interactions
+      agenda: Personas and pathways for contributors, Implicit bias & Community 
+        interactions
       content: |
         During this week's cohort call, we will:
         - Implicit bias, Diversity and Inclusion
