@@ -7,7 +7,7 @@ image: https://images.unsplash.com/photo-1749202986276-3e17142ddf7e
 photos:
   name: Deborah Udoh
   license: CC-BY
-  url: https://unsplash.com/@kaitlynbaker
+  url: https://unsplash.com/@npdebs
 ---
 
 **Attendees:** [Yo Yehudi]({% link people.md %}#yochannah), [Malvika Sharan]({% link people.md %}#malvikasharan), [Patricia Herterich]({% link people.md %}#pherterich ), [Bethan Iley]({% link people.md %}#bethaniley ), [Irene Ramos]({% link people.md %}#iramosp), [Sara Villa]({% link people.md %}#saravilla), [Deborah Udoh]({% link people.md %}#npdebs), and [Tajuddeen Gwadabe]({% link people.md %}#Tajuddeen1) *(virtually!)*
