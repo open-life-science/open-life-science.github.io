@@ -369,8 +369,9 @@ Tooling for Project Design:
       date: October 15, 2024
       cohort: ols-9-dra
   Tooling for Project Design Introduction:
-    description: Help you clarify and communicate your project idea, purpose and goals
-      in a way that will invite and encourage participation from your community.
+    description: Help you clarify and communicate your project idea, purpose and
+      goals in a way that will invite and encourage participation from your 
+      community.
     talks:
     - slides: 
         https://docs.google.com/presentation/d/e/2PACX-1vT-icafDLq0mDuOlniwWaCj5pv-RM5duDAs-cgiWSxoYmh_sz9VqCq_ijIAa_uHqMYqqgPnHPBmY7LO/pub
@@ -637,7 +638,8 @@ Tooling for Collaboration:
       title: Designing and enforcing a Code of Conduct
       date: October 11, 2023
       cohort: ols-8
-    - slides: https://drive.google.com/file/d/16WN14BpBug8Op3ekhlhIZH12Bv5Nyxha/view
+    - slides: 
+        https://drive.google.com/file/d/16WN14BpBug8Op3ekhlhIZH12Bv5Nyxha/view
       speakers:
       - karinlag
       title: Designing and enforcing a Code of Conduct
@@ -1050,7 +1052,8 @@ Open Science:
       date: December 06, 2023
       cohort: ols-8
       title: Open Source Software
-    - slides: https://www.canva.com/design/DAGWRP6oCJo/WQJPvIjiN0AYwFuZF4WNUA/edit
+    - slides: 
+        https://www.canva.com/design/DAGWRP6oCJo/WQJPvIjiN0AYwFuZF4WNUA/edit
       speakers:
       - 
       title: Open Source Software
@@ -1184,7 +1187,8 @@ Open Science:
   Open Engagement of Social Actors:
     description: Engaging local actors and promoting knowledge exchange
     talks:
-    - slides: https://www.slideshare.net/gedankenstuecke/2020-0311openlifesciences
+    - slides: 
+        https://www.slideshare.net/gedankenstuecke/2020-0311openlifesciences
       speakers:
       - gedankenstuecke
       title: Citizen science using your own personal data
@@ -1278,8 +1282,8 @@ Open Science:
         https://docs.google.com/presentation/d/1AaZETO7piGCfhJP9_UoQGFOWKD5LA5Pg7X0r7rlfkts/edit?usp=sharing
       speakers:
       - bebatut
-      title: Usable, comprehensive, accessible, FAIR and empowering training - The
-        case of the Galaxy Training Network
+      title: Usable, comprehensive, accessible, FAIR and empowering training - 
+        The case of the Galaxy Training Network
       recording: https://youtu.be/SfGHnCedkwY?t=205
       date: November 17, 2021
       cohort: ols-4
@@ -1467,8 +1471,8 @@ Open Science:
         https://drive.google.com/file/d/1wBojj4JRtJ8JY55PRwpAKcMrqSuLZXNd/view?usp=sharing
       speakers:
       - miguel-silan
-      title: How do we learn from each other in global large-scale collaborative research
-        networks?
+      title: How do we learn from each other in global large-scale collaborative
+        research networks?
       date: October 24, 2023
       cohort: ols-8
     - slides: 
@@ -1478,8 +1482,8 @@ Open Science:
       title: 'Diversity of knowledge: Bibliodiversity'
       date: December 04, 2024
       cohort: ols-9-catalyst
-    - title: How do we learn from each other in global large-scale collaborative research
-        networks?
+    - title: How do we learn from each other in global large-scale collaborative
+        research networks?
       date: October 23, 2024
       cohort: ols-9-dra
       speakers: []
@@ -1623,7 +1627,8 @@ Project, Community & Personal Management:
   Mountain of Engagement:
     description: Supporting participants through various levels of engagements
     talks:
-    - slides: https://drive.google.com/open?id=1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y
+    - slides: 
+        https://drive.google.com/open?id=1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y
       speakers:
       - malvikasharan
       title: Mountain of Engagement & Community Interactions
@@ -1700,7 +1705,8 @@ Project, Community & Personal Management:
       date: November 06, 2024
       cohort: ols-9-dra
   Personas & Pathways:
-    description: Taking people's experiences and expectations in planning our projects
+    description: Taking people's experiences and expectations in planning our 
+      projects
     talks:
     - slides: 
         https://docs.google.com/presentation/d/1-rdQipVmJ5lWelQ1oEbi86EbFwTpDh5TLeJ2TAg-oo4/edit?usp=sharing
@@ -1772,7 +1778,8 @@ Project, Community & Personal Management:
   Personal Ecology:
     description: Sustaining our energy as individuals and leaders
     talks:
-    - slides: https://drive.google.com/open?id=18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU
+    - slides: 
+        https://drive.google.com/open?id=18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU
       speakers:
       - yochannah
       title: 'Personal Ecology and Self Care '

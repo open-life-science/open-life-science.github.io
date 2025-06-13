@@ -3,7 +3,8 @@
 timeline:
 - date:
   description: Call for Application opens
-  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
+  details: See the [guidelines and 
+    templates](https://github.com/open-life-science/application-forms)
 - date:
   description: Application webinar
   type:
@@ -18,8 +19,8 @@ timeline:
   type:
   - Q&A
   notes:
-  details: At this call, OLS team will be available to provide help if you have any
-    question related to your application
+  details: At this call, OLS team will be available to provide help if you have 
+    any question related to your application
 - date:
   description: Call for applications closed
 - date:
@@ -33,8 +34,8 @@ weeks:
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_ethos1
       title: Ethos
-      recording: https://youtu.be/0-z7S1TM-Pk (part 1), https://youtu.be/7zupshFnOTM
-        (part 2)
+      recording: https://youtu.be/0-z7S1TM-Pk (part 1), 
+        https://youtu.be/7zupshFnOTM (part 2)
       hosts:
       - yochannah
       - iramosp

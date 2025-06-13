@@ -2,9 +2,11 @@
 ---
 timeline:
 - date: May 20, 2020
-  description: Opening of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
-  details: We have [templates](https://github.com/open-life-science/application-forms)
-    you can download to use when preparing your application.
+  description: Opening of the applications on 
+    [Easychair](https://easychair.org/conferences/?conf=ols2)
+  details: We have 
+    [templates](https://github.com/open-life-science/application-forms) you can 
+    download to use when preparing your application.
 - date: June 12, 2020
   description: Application webinar
   type:
@@ -20,11 +22,14 @@ timeline:
   notes: 
     https://docs.google.com/document/d/1bboIr0_tkji8qnMOsMvqz8zyHfboe7fJJV8eV0J_cSs/edit?usp=sharing
 - date: June 30, 2020
-  description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
-    for main cohort applications
+  description: Closing of the applications on 
+    [Easychair](https://easychair.org/conferences/?conf=ols2) for main cohort 
+    applications
 - date: July 15, 2020
-  description: Closing of the applications on [Easychair](https://easychair.org/conferences/?conf=ols2)
-    for the collaborating organisations - [_The Turing Way_](/openseeds/ols-2/#collaborators)
+  description: Closing of the applications on 
+    [Easychair](https://easychair.org/conferences/?conf=ols2) for the 
+    collaborating organisations - [_The Turing 
+    Way_](/openseeds/ols-2/#collaborators)
 - date: July 24, 2020
   description: Call for applications closed
 - date: July 24, 2020
@@ -36,8 +41,8 @@ weeks:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-      agenda: Meet each other and discuss your personal motivation, expectations,
-        working practices and project goals
+      agenda: Meet each other and discuss your personal motivation, 
+        expectations, working practices and project goals
       content: |
         This is your first meeting with your OLS mentor. This call should include you and your mentor. If you are working on a team of up to (and no more than) 3 registered participants, you can all meet together with your mentor.
 
@@ -116,8 +121,8 @@ weeks:
       notes: https://hackmd.io/@ols-2/week-02
       recording: 
         https://www.youtube.com/watch?v=5lkkHPm6aj8&list=PL1CvC6Ez54KBgzgA8eBQWjvF5rQex00cn&index=1
-      agenda: Meet other members of your cohort, Share project vision, Intro to working
-        openly (open canvas)
+      agenda: Meet other members of your cohort, Share project vision, Intro to 
+        working openly (open canvas)
       content: |
         During our first cohort call, we will:
         - Say hello and introduce ourselves.
@@ -171,7 +176,8 @@ weeks:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-      agenda: Discuss assignments from the cohort call & concrete implementations
+      agenda: Discuss assignments from the cohort call & concrete 
+        implementations
       content: |
         During this week's mentor meeting, you will:
         - Establish a check-in ritual.
@@ -345,7 +351,8 @@ weeks:
         link: https://git-scm.com/book/en/v2
       - type: external-link
         title: GitHub glossary
-        link: https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
+        link: 
+          https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
       - type: external-link
         title: Writing on Github
         link: https://help.github.com/categories/writing-on-github/
@@ -618,7 +625,8 @@ weeks:
           https://op.europa.eu/en/publication-detail/-/publication/4630fa57-1348-11eb-9a54-01aa75ed71a1/language-en
       - type: external-link
         title: RDA FAIR for Research Software (FAIR4RS) WG
-        link: https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
+        link: 
+          https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg
       talks:
       - slides: 
           https://docs.google.com/presentation/d/1ER_ZQ_Fe_PFWBPrP87dU6jRaPT2dlB4hCu-wGXJwnBA/edit?usp=sharing
@@ -750,7 +758,8 @@ weeks:
       recording: https://www.youtube.com/watch?v=Tl8MOTVznXs
       type: Cohort
       talks:
-      - slides: https://alexwlchan.net/2020/03/inclusion-cant-be-an-afterthought/
+      - slides: 
+          https://alexwlchan.net/2020/03/inclusion-cant-be-an-afterthought/
         speakers:
         - alexwlchan
         title: Inclusion not an afterthought
