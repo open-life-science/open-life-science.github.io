@@ -3,11 +3,11 @@ layout: post
 title: "OSPARK Explainer: What is the European Open Science Cloud?"
 authors:
 - bethaniley
-image: https://images.unsplash.com/photo-1749202986276-3e17142ddf7e
+image: https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb
 photos:
-  name: 
+  name: Jeremy Bishop
   license: CC-BY
-  url: https://unsplash.com/@
+  url: https://unsplash.com/@jeremybishop
 ---
 
 ![A mind map showing how EOSC concepts, such as the tripartite governance structure and Science Clusters, link together.](https://github.com/user-attachments/assets/9e44581e-a037-4528-b02a-ed9abe5fbfa0)
