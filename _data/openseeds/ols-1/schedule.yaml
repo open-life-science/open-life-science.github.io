@@ -18,8 +18,8 @@ weeks:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-      agenda: Meet each other and discuss your personal motivation, expectations,
-        working practices and project goals
+      agenda: Meet each other and discuss your personal motivation, 
+        expectations, working practices and project goals
       content: |
         This is your first meeting with your OLS mentor. This call should include you and your mentor. If you are working on a team of up to (and no more than) 3 registered participants, you can all meet together with your mentor.
 
@@ -81,8 +81,8 @@ weeks:
       time: "13:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=NmIzdWlmZTR2cG9uaXU5a2IxcGVvMm5icG8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      agenda: Meet other members of your cohort, Share project vision, Intro to working
-        openly (open canvas)
+      agenda: Meet other members of your cohort, Share project vision, Intro to 
+        working openly (open canvas)
       notes: 
         https://docs.google.com/document/d/1q9HnEKKX2y50JiovpTDaOziFI0iDmPGYxvelUXuES90/edit?usp=sharing
       recording: https://youtu.be/3-cvl7UfSTY
@@ -143,7 +143,8 @@ weeks:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-      agenda: Discuss assignments from the cohort call & concrete implementations
+      agenda: Discuss assignments from the cohort call & concrete 
+        implementations
       content: |
         During this week's mentor meeting, you will:
         - Establish a check-in ritual.
@@ -284,7 +285,8 @@ weeks:
         link: https://git-scm.com/book/en/v2
       - type: external-link
         title: GitHub glossary
-        link: https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
+        link: 
+          https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md
       - type: external-link
         title: Writing on Github
         link: https://help.github.com/categories/writing-on-github/
@@ -439,7 +441,8 @@ weeks:
         title: Dataverse
         link: https://dataverse.org/
       talks:
-      - slides: https://www.slideshare.net/gedankenstuecke/2020-0311openlifesciences
+      - slides: 
+          https://www.slideshare.net/gedankenstuecke/2020-0311openlifesciences
         speakers:
         - gedankenstuecke
         title: Citizen science using your own personal data
@@ -482,8 +485,8 @@ weeks:
       time: "13:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=MXA4Nm4wYXRqaG01ZmcwOHRzYjR1OWpqcTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
-      agenda: Personas and pathways for contributors, Implicit bias & mental health
-        care, Community interactions & Ally-skill
+      agenda: Personas and pathways for contributors, Implicit bias & mental 
+        health care, Community interactions & Ally-skill
       notes: 
         https://docs.google.com/document/d/1YF3Uw-fU2-mhf-FyuPdx07KSTSlvnBZeMbQdQGJq4A4/edit?usp=sharing
       recording: https://www.youtube.com/watch?v=81mG4L7S3Oc
@@ -543,7 +546,8 @@ weeks:
         title: Inclusion can't be an afterthought
         recording: https://youtu.be/81mG4L7S3Oc?t=749
         tag: Equity, Diversity and Inclusion (EDI)
-      - slides: https://drive.google.com/open?id=1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y
+      - slides: 
+          https://drive.google.com/open?id=1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y
         speakers:
         - malvikasharan
         title: Mountain of Engagement & Community Interactions
@@ -617,7 +621,8 @@ weeks:
         title: Leadership in training and education
         recording: https://youtu.be/un4lsSMdAB0?t=2256
         tag: Open Leadership in Practice
-      - slides: https://drive.google.com/open?id=18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU
+      - slides: 
+          https://drive.google.com/open?id=18_gZqCMGDg2VvNOYM17k4vU9tcpXX7KlqKoXlCT1VkU
         speakers:
         - yochannah
         title: 'Personal Ecology and Self Care '
@@ -702,7 +707,8 @@ weeks:
         link: 
           https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
       - type: external-link
-        title: Suggested Rubric for Teaching Demonstrations – Instructor Training
+        title: Suggested Rubric for Teaching Demonstrations – Instructor 
+          Training
         link: https://carpentries.github.io/instructor-training/demos_rubric/
   '15':
     start: April 27, 2020
@@ -780,7 +786,8 @@ weeks:
         link: 
           https://carpentries.github.io/instructor-training/11-practice-teaching/index.html
       - type: external-link
-        title: Suggested Rubric for Teaching Demonstrations – Instructor Training
+        title: Suggested Rubric for Teaching Demonstrations – Instructor 
+          Training
         link: https://carpentries.github.io/instructor-training/demos_rubric/
   '18':
     start: May 18, 2020
