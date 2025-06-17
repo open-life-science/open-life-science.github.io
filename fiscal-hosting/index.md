@@ -45,6 +45,8 @@ Nothing up-front. If you're awarded any grants, we usually ask for a fee of arou
 
 Yes. However, there are costs involved in this.
 
+In short, for every £100 of salary, there are £60 of extra costs - giving a total of £160. Salaries should therefore be budgeted at **160%** of the pre-tax cost.
+
 ![A diagram which visualises the breakdown of employment and contractor costs](/fiscal-hosting/salary-split.png)
 
 If the person is based in the UK, they will be onboarded as an **OLS employee**. Their salary will break down as follows:
