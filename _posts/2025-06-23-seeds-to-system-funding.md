@@ -21,7 +21,7 @@ That's the shared goal we at OLS have!
 After five fantastic years of building OLS from the ground up, thanks to the incredible collaboration from our community, we are thrilled to announce our strategic direction for the next five years (2025-2030): **"Seeds to Systems."** 
 This theme signifies our commitment to solidifying a systems approach in our work, building on a strong foundation, where we can continue to advance our vision for open science capacity building and diversifying leadership in research worldwide.
 
-Part of this work is supported by the Chan Zuckerberg Initiative, announced in a previous post.
+Part of this work is supported by the Chan Zuckerberg Initiative, announced in a [previous post]({% link _posts/2025-06-17-seeds-to-system-funding.md %}).
 
 The team currently involved in strategic planning and development of our strategy are **Malvika Sharan, Yo Yehudi, Patricia Herterich, Irene Ramos and Bethan Iley**.
 We will welcome **Riva Quiroga** as a Research Fellow to this team in August.
