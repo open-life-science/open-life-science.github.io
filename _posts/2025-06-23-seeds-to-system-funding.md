@@ -38,7 +38,7 @@ Each pillar is designed to strengthen and complement the others, nurturing resea
 
 Since launching in 2020, OLS has become a recognised and reliable partner in open science training and mentoring, with a strong emphasis on involving our global community in both shaping and co-delivering our programs.
 
-* **Open Seeds**, our flagship program, has successfully run nine times, and an additional context-specific cohort of **Open Neuro Seeds**, tailored for neuroscience researchers by our Senior Resident Fellow, Sara Villa. 
+* **Open Seeds**, our flagship program, has successfully run nine times, and an additional context-specific cohort of **Open Neuro Seeds**, tailored for neuroscience researchers by our Senior Resident Fellow, [Sara Villa]({% link people.md %}#saravilla). 
 * **Custom training**, like for **mentoring and Ally Skills**, or other open science training like **Nebula**, funded by NASA, which has provided two cohorts of Open Science 101 training and supported Open Seeds fellows in engaging with this initiative.
 
 These structured programs remain crucial for onboarding researchers into open science, and we have also been offering **customised training and mentorship support for various organisations**. 
