@@ -12,7 +12,7 @@ photos:
   url: https://unsplash.com/@guerrillabuzz
 ---
 
-OLS is thrilled to announce the **'Seeds to Systems'** initiative made possible by generous funding from the Open Science Program of Chan Zuckerberg Initiative (CZI). This funding will build up OLS's capacity to support individuals and teams in biomedical and related research fields who are ready to transition their open source/science projects to the next stage.
+OLS is thrilled to announce the **'Seeds to Systems'** initiative made possible by generous funding from the Open Science Program of Chan Zuckerberg Initiative ([CZI](http://chanzuckerberg.com/)). This funding will build up OLS's capacity to support individuals and teams in biomedical and related research fields who are ready to transition their open source/science projects to the next stage.
 
 This announcement marks a significant beginning of **OLS’s new strategic direction for 2025-2030**, reinforcing our commitment to fostering a thriving open science ecosystem. Building upon the proven success of our flagship program, [Open Seeds]({% link openseeds/index.md %}), the 'Seeds to Systems' initiative will support open research projects (the “seeds”) by developing and systematising strategies, processes, and infrastructure needed to sustain their work in the long term.
 
