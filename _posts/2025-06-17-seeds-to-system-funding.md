@@ -5,7 +5,7 @@ authors:
 - malvikasharan
 - yochannah
 - pherterich
-image: https://unsplash.com/photos/diagram-RIvSJTiGwLc
+image: https://images.unsplash.com/photo-1664526936810-ec0856d31b92
 photos:
   name: GuerrillaBuzz
   license: Unsplash License
