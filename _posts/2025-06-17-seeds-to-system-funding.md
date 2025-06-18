@@ -24,4 +24,4 @@ Our work under this initiative will enable the development of a research-based c
 
 Through rigorous impact assessment and a dedicated community feedback process, we will ensure that 'Seeds to Systems' is continuously developed and delivers tangible impact for our community members, extending the positive outcomes of open science throughout their wider research communities.
 
-Find more details in a separate post (coming soon) announcing our strategic direction in a separate post.
+Find more details in a separate post (coming soon) announcing our strategic direction.
