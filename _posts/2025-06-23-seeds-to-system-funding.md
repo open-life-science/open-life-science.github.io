@@ -13,7 +13,7 @@ photos:
   url: https://www.pexels.com/@n-voitkevich/
 ---
 
-![../images/2025-06-seedstosystem-mindmap.png](A strategy mindmap developed with the group)
+![A strategy mindmap developed with the group]({% link images/2025-06-seedstosystem-mindmap.png %})
 
 Imagine a world where researchers everywhere, especially those often underrepresented, under-served or with fewer resources, have the opportunities and support system to transform their brilliant ideas into a tangible impact.
 That's the shared goal we at OLS have!
