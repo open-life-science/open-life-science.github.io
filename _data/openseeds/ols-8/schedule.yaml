@@ -3,7 +3,8 @@
 timeline:
 - date: June 1, 2023
   description: Call for Application opens
-  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
+  details: See the [guidelines and 
+    templates](https://github.com/open-life-science/application-forms)
 - date: June 9, 2023
   time: '10:00'
   description: Application webinar
@@ -20,8 +21,8 @@ timeline:
   type:
   - Q&A
   notes:
-  details: At this call, OLS team will be available to provide help if you have any
-    question related to your application
+  details: At this call, OLS team will be available to provide help if you have 
+    any question related to your application
 - date: July 11, midnight, UTC, 2023
   description: Call for applications closed
 - date: August 1, 2023
@@ -136,8 +137,8 @@ weeks:
         community interactions and value exchanges: [https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing](https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing)'
       - '📝 Start working on your Open Canva (Template, instruction and example: [https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link](https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link))'
       - Share the image/link to your Open Canva on your GitHub issue
-      - Look up at least two other projects in the issues and comment on their issues
-        with feedback on their vision statement.
+      - Look up at least two other projects in the issues and comment on their 
+        issues with feedback on their vision statement.
       - '🛣 Start your Roadmap and comment on your issue with your draft Roadmap: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A)'
   '03':
     start: October 02, 2023
@@ -201,8 +202,8 @@ weeks:
         community interactions and value exchanges: [https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing](https://docs.google.com/document/d/1vV42TezsLX2cxiJjb9nTEVVcqWJ\_nymyDiRy0CgTR-4/edit?usp=sharing)'
       - '📝 Start working on your Open Canva (Template, instruction and example: [https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link](https://docs.google.com/presentation/d/1nUD0jdZsr16PVfDfejXjKuMdZGeX18i6-tDdpzzeGwY/edit?usp=drive\_link))'
       - Share the image/link to your Open Canva on your GitHub issue
-      - Look up at least two other projects in the issues and comment on their issues
-        with feedback on their vision statement.
+      - Look up at least two other projects in the issues and comment on their 
+        issues with feedback on their vision statement.
       - '🛣 Start your Roadmap and comment on your issue with your draft Roadmap: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A)'
   '04':
     start: October 09, 2023
@@ -329,8 +330,8 @@ weeks:
           https://drive.google.com/file/d/1wBojj4JRtJ8JY55PRwpAKcMrqSuLZXNd/view?usp=sharing
         speakers:
         - miguel-silan
-        title: How do we learn from each other in global large-scale collaborative
-          research networks?
+        title: How do we learn from each other in global large-scale 
+          collaborative research networks?
         tag: Openness to Diversity of Knowledge
       - slides: 
           https://docs.google.com/presentation/d/1rwio6fCGD-Z1a3mAulE5r5bhQwPCpkNtQLm7jBM5u84/edit#slide=id.g2148fd0666b_0_292
@@ -347,8 +348,9 @@ weeks:
       - Give examples of 3 use cases of the different Open Science principles
       after:
       - Check the GitHub Intro notes, learning resource and video from last week
-      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
-        or other option. ← long term assignment, do it in your own pace.
+      - Prepare to share your project online through Git Pages,  Google Site, 
+        Wordpress or other option. ← long term assignment, do it in your own 
+        pace.
       recording: https://youtu.be/Fbw0pkQGXZU
   '07':
     start: October 30, 2023
@@ -398,10 +400,10 @@ weeks:
         tag: Personas & Pathways
       learning_objectives:
       - Considering different kinds of interactions for your community
-      - Use the Mountain of Engagement method to support participants through various
-        levels of engagements
-      - Develop persona and pathways for your community for taking people's experiences
-        and expectations in planning your projects
+      - Use the Mountain of Engagement method to support participants through 
+        various levels of engagements
+      - Develop persona and pathways for your community for taking people's 
+        experiences and expectations in planning your projects
       recording: https://youtu.be/UAjkqNGIkDk
   '09':
     start: November 13, 2023

@@ -3,7 +3,8 @@
 timeline:
 - date:
   description: Call for Application opens
-  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
+  details: See the [guidelines and 
+    templates](https://github.com/open-life-science/application-forms)
 - date:
   description: Application webinar
   type:
@@ -18,8 +19,8 @@ timeline:
   type:
   - Q&A
   notes:
-  details: At this call, OLS team will be available to provide help if you have any
-    question related to your application
+  details: At this call, OLS team will be available to provide help if you have 
+    any question related to your application
 - date:
   description: Call for applications closed
 - date:
@@ -173,7 +174,8 @@ weeks:
         - joyceykao
         title: A Primer on Open Licenses
         tag: Open Licensing
-      - slides: https://drive.google.com/file/d/16WN14BpBug8Op3ekhlhIZH12Bv5Nyxha/view
+      - slides: 
+          https://drive.google.com/file/d/16WN14BpBug8Op3ekhlhIZH12Bv5Nyxha/view
         speakers:
         - karinlag
         title: Designing and enforcing a Code of Conduct
@@ -272,8 +274,9 @@ weeks:
       - Give examples of 2 use cases of the different Open Science principles
       after:
       - Check the GitHub Intro notes, learning resource and video from last week
-      - Prepare to share your project online through Git Pages,  Google Site, Wordpress
-        or other option. ← long term assignment, do it in your own pace.
+      - Prepare to share your project online through Git Pages,  Google Site, 
+        Wordpress or other option. ← long term assignment, do it in your own 
+        pace.
       recording: https://www.youtube.com/watch?v=C8ukpzAUKEw
   '07':
     start: October 28, 2024
@@ -347,10 +350,10 @@ weeks:
         tag: Personas & Pathways
       learning_objectives:
       - Considering different kinds of interactions for your community
-      - Use the Mountain of Engagement method to support participants through various
-        levels of engagements
-      - Develop persona and pathways for your community for taking people's experiences
-        and expectations in planning your projects
+      - Use the Mountain of Engagement method to support participants through 
+        various levels of engagements
+      - Develop persona and pathways for your community for taking people's 
+        experiences and expectations in planning your projects
       recording: https://www.youtube.com/watch?v=1z3kjayErsE
   '09':
     start: November 11, 2024
@@ -419,7 +422,8 @@ weeks:
         - godwyns-onwuchekwa
         title: Open Review and Open Evaluation
         tag: Open Evaluation
-      - slides: https://www.canva.com/design/DAGWRP6oCJo/WQJPvIjiN0AYwFuZF4WNUA/edit
+      - slides: 
+          https://www.canva.com/design/DAGWRP6oCJo/WQJPvIjiN0AYwFuZF4WNUA/edit
         speakers:
         - 
         title: Open Source Software
