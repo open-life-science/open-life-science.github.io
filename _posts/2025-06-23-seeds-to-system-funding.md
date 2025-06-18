@@ -24,7 +24,7 @@ This theme signifies our commitment to solidifying a systems approach in our wor
 Part of this work is supported by the Chan Zuckerberg Initiative, announced in a previous post.
 
 The team currently involved in strategic planning and development of our strategy are **Malvika Sharan, Yo Yehudi, Patricia Herterich, Irene Ramos and Bethan Iley**.
-We will welcome Riva Quiroga as a Research Fellow to this team in August.
+We will welcome **Riva Quiroga** as a Research Fellow to this team in August.
 Alongside them, other OLS team members will be supporting the realisation of this strategy.
 
 Read the details below and reach out to them for any questions, ideas or interest in collaboration (email: [team@we-are-ols.org](mailto:team@we-are-ols.org)).
