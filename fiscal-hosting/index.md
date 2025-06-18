@@ -39,7 +39,25 @@ If you're thinking of applying for a grant opportunity, please contact OLS with 
 Definitely! In fact, we prefer to work hand-in-hand with our new FSCs and resident fellows when they are applying for their first funding rounds. 
 
 ### Does it cost anything to be an FSC? 
-Nothing up-front. If you're awarded any grants, we usually ask for a fee of around 15% of the incoming sum. This helps us pay our program officers who manage the finance, as well as covering costs like legal and accounting. There are scenarios where this number may vary though, depending on the grant requirements. 
+Nothing up-front. If you're awarded any grants, we usually ask for a fee of around 15% of the incoming sum. This helps us pay our program officers who manage the finance, as well as covering costs like legal and accounting. There are scenarios where this number may vary though, depending on the grant requirements.
+
+### Can an FSC hire people?
+
+Yes. However, there are costs involved in this.
+
+In short, for every £100 of salary, there are £60 of extra costs - giving a total of £160. Salaries should therefore be budgeted at **160%** of the pre-tax cost.
+
+![A diagram which visualises the breakdown of employment and contractor costs]({% link fiscal-hosting/salary-split.png %})
+
+If the person is based in the UK, they will be onboarded as an **OLS employee**. Their salary will break down as follows:
+- The pre-tax salary splits into two sets of cost: employee PAYE contributions (National Insurance, income tax, pension contributions, and Student Finance payments) and the money they take home at the end of the month.
+- Additionally, we need to budget an extra 60% to pay for employer contributions to tax and pension, as well as additional costs (such as payroll, administrative costs, and insurance).
+
+If the person is based outside of the UK, they will be onboarded as a **contractor**. Their payments will break down as follows:
+- They receive a 15% uplift to pre-tax salary. This is because we don't need to cover employer or employee costs in the UK. Contractors must make their own local tax payments. They are encouraged to organise local pensions and insurance.
+- Due to the reduced tax and pension burden, we budget 45% for payroll, administrative, and other costs.
+
+The full 160% should be budgeted into all grants. The OLS team can support you with this if needed.
 
 ### What does the FSC onboarding process look like? 
 
