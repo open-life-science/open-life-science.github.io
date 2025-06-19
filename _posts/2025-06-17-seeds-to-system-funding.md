@@ -5,7 +5,7 @@ authors:
 - malvikasharan
 - yochannah
 - pherterich
-image: https://unsplash.com/photos/brown-and-black-butterfly-on-purple-flower-cKS8Aq50s0s
+image: https://images.unsplash.com/photo-1516571059643-0fe0cdd364d9
 photos:
   name: Tom Rogers
   license: Unsplash License
