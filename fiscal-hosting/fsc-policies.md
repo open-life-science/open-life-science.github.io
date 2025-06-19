@@ -30,3 +30,23 @@ We maintain a fiscally sponsored community inbox that is monitored by multiple p
 - **Fiscal hosting contract** 
     - You can preview the contract here: [DOCX]({% link fiscal-hosting/fsc-contract/fsc-contract.docx %}), [ODT]({% link fiscal-hosting/fsc-contract/fsc-contract.odt %}), [Markdown]({% link fiscal-hosting/fsc-contract/fsc-contract.md %}), [PDF]({% link fiscal-hosting/fsc-contract/fsc-contract.pdf %}).  We apologise, it's wordy and in lawyerese! The docx and odt file formats have comments that may help reading and understanding the contract. 
     - If something doesn't sit right or isn't clear, we're happy to talk about what adjustments can be made. Due to legal restrictions, there may be times we can't flex the way we'd prefer, but we'll always try to do our best. 
+
+### Advance policy / "negative balance" for FSCs
+
+#### Generally: No going into the negative
+As a general rule, **FSCs are not eligible to overspend (e.g. go below zero)** any balances they may have. This is why we require clear budget / spending plans when accepting new chunks of money (grants, contracts). 
+
+This should never come as a surprise, but in any case, your OLS account manager will discuss with you if balances are getting low and it looks like this could be a risk. 
+
+#### Exceptions for low-risk cash advances must be pre-arranged
+
+If there is a good justification for an advance, we may be willing to accept it on a case-by-case basis. Advances must be low-risk (e.g. you have already signed a contract with a trustworthy client, or have agreed to place a refundable deposit). 
+
+**Speak to your account manager to discuss this**. The account manager will ask a few questions to confirm if we feel the risk is manageable. 
+
+Be prepared to answer: 
+- How high is the confidence that this gap will be filled in the next 6 months?
+- How much advance are you asking for? 
+- What happens if the advance isn't repayable (example: event falls through and the deposit is lost). 
+
+We will obtain written agreement for scenarios where advances are needed, and record it in the FSC decision log spreadsheet for your team. 
