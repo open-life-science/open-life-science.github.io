@@ -34,6 +34,7 @@ We maintain a fiscally sponsored community inbox that is monitored by multiple p
 ### How to credit OLS
 We don't require this! However if you wish to, you could use this: 
 
+<!-- these links _need_ to be non-jekyll so people can copy/paste them --> 
 > AwesomeOpenScienceCommunity is fiscally hosted by <a href="https://we-are-ols.org">OLS</a>.
 
 ```html
