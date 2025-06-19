@@ -7,7 +7,7 @@ authors:
 - pherterich
 image: https://unsplash.com/photos/a-computer-generated-image-of-a-bird-in-flight-Tl079lLHdk8
 photos:
-  name: @and_machines
+  name: and_machines
   license: Unsplash License
   url: https://unsplash.com/@and_machines
 ---
