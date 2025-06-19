@@ -6,6 +6,7 @@ authors:
 - yochannah
 - pherterich
 image: https://unsplash.com/photos/brown-and-black-butterfly-on-purple-flower-cKS8Aq50s0s
+photos:
   name: Tom Rogers
   license: Unsplash License
   url: https://unsplash.com/@tom777
