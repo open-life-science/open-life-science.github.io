@@ -50,3 +50,33 @@ Be prepared to answer:
 - What happens if the advance isn't repayable (example: event falls through and the deposit is lost). 
 
 We will obtain written agreement for scenarios where advances are needed, and record it in the FSC decision log spreadsheet for your team. 
+
+
+### How to credit OLS
+We don't require this! However if you wish to, you could use this: 
+
+#### Plain text credit: 
+<!-- these links _need_ to be non-jekyll so people can copy/paste them --> 
+> AwesomeOpenScienceCommunity is fiscally hosted by <a href="https://we-are-ols.org">OLS</a>.
+
+```html
+AwesomeOpenScienceCommunity is fiscally hosted by <a href="https://we-are-ols.org">OLS</a>.
+```
+#### Credit OLS with an image: 
+
+<div width="300px">
+    <a href="https://we-are-ols.org">
+      <img src="https://we-are-ols.org/images/logo/ols-transparent-bg.png" alt="OLS logo - two leaves and the letters OLS" width="43" height="36" style="margin:6px" />
+    </a>
+    AwesomeOpenScienceCommunity is fiscally hosted by <a href="https://we-are-ols.org">OLS</a>
+</div>
+
+```html
+<div width="300px">
+    <a href="https://we-are-ols.org">
+      <img src="https://we-are-ols.org/images/logo/ols-transparent-bg.png" alt="OLS logo - two leaves and the letters OLS" width="43" height="36" style="margin:6px" />
+    </a>
+    AwesomeOpenScienceCommunity is fiscally hosted by <a href="https://we-are-ols.org">OLS</a>
+</div>
+```
+
