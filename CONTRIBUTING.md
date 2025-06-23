@@ -18,7 +18,7 @@ then introduce yourself and meet some of our community members.
 
 ## How can I get started with contributing?
 
-This repository store the sources for the website.
+This repository holds the source code, assets, and other content for the website.
 You can help us improve it and get acknowledged for your contributions.
 
 Here are a few ways you can get started with contributing to this program.
@@ -48,10 +48,10 @@ Requests:
 3. Create a new branch in your local copy for each significant change
 4. Commit the changes in that branch
 5. Push that branch to your fork on GitHub
-6. Submit a pull request from that branch to the master repository
+6. Submit a pull request from that branch to the `main` branch of the repository.
 7. If you receive feedback, make changes in your local clone and push them to
    your branch on GitHub: the pull request will update automatically
-8. Pull requests will be merged by the training team members after at least one
+8. Pull requests will be merged by the (web) team members after at least one
    other person has reviewed the Pull request and approved it.
 
 ## What can I do to help the project?
