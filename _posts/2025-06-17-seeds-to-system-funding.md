@@ -5,11 +5,11 @@ authors:
 - malvikasharan
 - yochannah
 - pherterich
-image: https://images.unsplash.com/photo-1516571059643-0fe0cdd364d9
+image: https://unsplash.com/photos/a-computer-generated-image-of-a-bird-in-flight-Tl079lLHdk8
 photos:
-  name: Tom Rogers
+  name: and_machines
   license: Unsplash License
-  url: https://unsplash.com/@tom777
+  url: https://unsplash.com/@and_machines
 ---
 
 OLS is thrilled to announce the **'Seeds to Systems'** initiative made possible by generous funding from the Open Science Program of Chan Zuckerberg Initiative ([CZI](http://chanzuckerberg.com/)). This funding will build up OLS's capacity to support individuals and teams in biomedical and related research fields who are ready to transition their open source/science projects to the next stage.
