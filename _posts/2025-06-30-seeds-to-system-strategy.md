@@ -13,7 +13,7 @@ photos:
   url: https://unsplash.com/@color0911
 ---
 
-![A strategy mindmap developed with the group]({% link images/2025-06-seedstosystem-mindmap.png %})
+![A strategy mindmap developed with the group described in this post]({% link images/2025-06-seedstosystem-mindmap.png %})
 
 Imagine a world where researchers everywhere, especially those often underrepresented, under-served or with fewer resources, have the opportunities and support system to transform their brilliant ideas into a tangible impact.
 That's the shared goal we at OLS have!
@@ -22,6 +22,7 @@ After five fantastic years of building OLS from the ground up, thanks to the inc
 This theme signifies our commitment to solidifying a systems approach in our work, building on a strong foundation, where we can continue to advance our vision for open science capacity building and diversifying leadership in research worldwide.
 
 Part of this work is supported by the Chan Zuckerberg Initiative, announced in a [previous post]({% link _posts/2025-06-17-seeds-to-system-funding.md %}).
+The full proposal can be read on Zenodo ([DOI: 10.5281/zenodo.15729807](https://zenodo.org/records/15729807)).
 
 The team currently involved in strategic planning and development of our strategy are **Malvika Sharan, Yo Yehudi, Patricia Herterich, Irene Ramos and Bethan Iley**.
 We will welcome **Riva Quiroga** as a Research Fellow to this team in August.
