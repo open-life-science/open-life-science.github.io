@@ -6,11 +6,11 @@ authors:
 - yochannah
 - pherterich
 - iramosp
-image: https://www.pexels.com/photo/green-and-black-floral-textile-5712868/
+image: https://images.unsplash.com/photo-1612084205409-8212b486e6d9
 photos:
-  name: Nataliya Vaitkevich
-  license: Creative Commons
-  url: https://www.pexels.com/@n-voitkevich/
+  name: Charles Chen
+  license: Unsplash License
+  url: https://unsplash.com/@color0911
 ---
 
 ![A strategy mindmap developed with the group]({% link images/2025-06-seedstosystem-mindmap.png %})
