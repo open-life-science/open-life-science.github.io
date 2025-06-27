@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Open Research
-description: Evidence base and interventions for widening participation in research.
+description: Evidence base for open research community practices
 image: https://live.staticflickr.com/65535/48387079157_ff48f7c8b8_6k.jpg
 photos:
   name: Photo by Bérénice Batut
