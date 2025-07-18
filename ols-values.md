@@ -57,7 +57,7 @@ Below, we describe each of the values in two important contexts where our values
 
 **Community-wide:** We build safe spaces and mutual trust within our organisation. OLS actively creates an inclusive and equitable community where diverse voices are amplified, and people feel welcome and valued, regardless of background, identity, or expertise. 
 
-**Work process:** We implement inclusive practices in all our organisational activities, ensuring equitable access to resources, opportunities, and support. DEI and allyship training is at the core of our curriculum, and we make sure to give space to all opinions, regardless of whether they come from paid staff or volunteer roles.
+**Work process:** We implement inclusive practices in all our organisational activities, ensuring equitable access to resources, opportunities, and support. Equity, Diversity, Inclusion and Accessibility principles are at the core of our work, and we make sure to give space to all opinions, regardless of whether they come from paid staff or volunteer roles.
 
 ### 6. Respect & Kindness
 
