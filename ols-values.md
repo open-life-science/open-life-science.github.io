@@ -1,3 +1,13 @@
+---
+layout: page
+title: Values
+image: https://images.unsplash.com/photo-1598944999410-e93772fc48a5
+photos:
+  name: Sunil Ray
+  license: Unsplash License
+  url: https://unsplash.com/@ray027
+---
+
 # Our Values
 
 *OLS's Values to Guide All Areas of OLS’s Work*
