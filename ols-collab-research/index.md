@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'OLS Collaborative Research'
-image: https://images.unsplash.com/photo-1602615576820-ea14cf3e476a?q=80
+image: https://images.unsplash.com/photo-1602615576820-ea14cf3e476a
 photos:
   name: TOMOKO UJI
   license: Unsplash License

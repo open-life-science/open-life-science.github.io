@@ -2,6 +2,7 @@
 layout: page
 title: 'Seeds to Systems Research'
 image: https://images.unsplash.com/photo-1578137937725-872bcb51d874
+photos:
   name: Alper Ergin
   license: Unsplash License
   url: https://unsplash.com/@alperergin
