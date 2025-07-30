@@ -37,8 +37,7 @@ We need expertise in open-science, training, mentoring, communication. We'd love
 
 If you think you can help in any of the areas listed above (and we bet you can)
 or in any of the many areas that we haven't yet thought of (and here we're sure
-you can), then please check out [our contributors' guidelines](CONTRIBUTING.md)
-and our [roadmap](roadmap.md).
+you can), then please check out [our contributors' guidelines](CONTRIBUTING.md).
 
 Please note that it's very important to us that we maintain a positive and
 supportive environment for everyone who wants to participate. When you join us,

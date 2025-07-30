@@ -11,18 +11,6 @@ photos:
 {% assign community = site.data.community %}
 {% assign people = site.data.people %}
 
-## Our values
-
-We have high ethical standards, including:
-
-- **Education**: Educate scientists about open science
-- **Transparency**: Emphasize transparency and the sharing of resources, material, knowledge and experiences
-- **Open science**: Promote citizen science and decentralized access to science
-- **Modesty**: Know you don't know everything
-- **Community**: Carefully listen to any concerns and questions and respond honestly
-- **Respect**: Respect humans and all living systems
-- **Responsibility**: Recognize the complexity and dynamics of science and research and our responsibility towards them
-
 # Core team
 
 <!--As the graduates, mentors, and hosts of various Mozilla Open Leaders cohorts, we have gained expertise in the technical and culture track. Furthermore, we participate in a wide range of activities in different international communities of practice in the sciences: ELIXIR (European bioinformatics network), Galaxy, The Carpentries, Software Sustainability Institute (SSI), Open Bioinformatics Foundation (OBF), and Mozilla.-->

@@ -51,6 +51,8 @@ Be prepared to answer:
 
 We will obtain written agreement for scenarios where advances are needed, and record it in the FSC decision log spreadsheet for your team. 
 
+### Preparing budgets for your work
+Please use the [OLS budget template](https://docs.google.com/spreadsheets/d/1JjFrWnZ0OgngXN0TM46o-Llo5m48XJwHQMCiEC5HFPY/copy) [This link will create a new copy of the document] to ensure it covers the items we find are necessary, including pay bands, exchange rates, and likely fields required by funders.  
 
 ### How to credit OLS
 We don't require this! However if you wish to, you could use this: 

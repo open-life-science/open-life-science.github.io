@@ -12,6 +12,8 @@ photos:
 
 # Seeking Feedback from Our Community Members on Proposed Organisational Values: Your Perspective Matters!
 
+**Note: The feedback phase has concluded, and a page is published on the OLS website: http://we-are-ols.org/ols-values. You are very welcome to still comment by creating an issue on this repository or by reaching out to the OLS team by email: team@we-are-ols.org.**
+
 At OLS, our community is at the heart of everything we do.
 To ensure our core principles reflect and represent the collective vision and aspirations of our members, we are delighted to share the revised **draft of our Organisational Values**, which is now open for community review!
 
