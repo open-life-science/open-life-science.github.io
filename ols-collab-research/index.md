@@ -1,11 +1,11 @@
 ---
 layout: page
 title: 'OLS Collaborative Research'
-image: https://images.unsplash.com/photo-1602615576820-ea14cf3e476a
+image: https://images.unsplash.com/photo-1627686376555-1c60617dbda8
 photos:
-  name: TOMOKO UJI
+  name: Townsend Walton
   license: Unsplash License
-  url: https://unsplash.com/@ujitomo
+  url: https://unsplash.com/@twalton
 ---
 
 

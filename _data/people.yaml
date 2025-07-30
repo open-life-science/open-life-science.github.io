@@ -9640,11 +9640,10 @@ phaarouknucleus:
   longitude: 8.5364136
   latitude: 11.8948389
 pherterich:
-  affiliation: Dcc, University Of Edinburgh
-  bio: Patricia is currently a Research Data Specialist working at the Digital Curation
-    Centre at the University of Edinburgh. Before joining the DCC, she was the Research
-    Repository Advisor at the University of Birmingham and have previously worked
-    as a data librarian at CERN’s Scientific Information Service working closely with
+  affiliation: OLS
+  bio: Patricia is a Co-Executive Director of OLS.
+    Before joining OLS she worked at Centre at the University of Edinburgh, University of Birmingham
+    and CERN’s Scientific Information Service working closely with
     software developers to deliver data and code sharing solutions. She loves collaborating
     openly and making projects welcoming to new comers.
   city: Edinburgh
