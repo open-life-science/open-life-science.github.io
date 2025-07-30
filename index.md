@@ -23,7 +23,7 @@ Our **Seeds to Systems** strategy will shape our mission areas for the 2025-2030
         <div class="card custom-card">
             <div class="card-content">
               <img src="{% link images/three-pillars-icons/open-science-training-icon.png %}" class="image is-128x128" alt="open-science-training logo: a representation of a two people watching a third person on a screen, with a green 'play' button beside">
-              <h1>Training and Mentoringg</h1>
+              <h1>Training and Mentoring</h1>
               <p>Our mentoring and training programs have inspired individuals and teams worldwide to learn about and adopt open research practices.</p>
             </div>
         </div>
