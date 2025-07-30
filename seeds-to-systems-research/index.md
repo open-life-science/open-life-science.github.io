@@ -24,7 +24,7 @@ This research is funded by CZI Open Science (2024-2026).
 
 This research will combine open science with methodologies drawn from sustainability research to explore and understand the needs, opportunities, and challenges faced by researchers, and identify key learning modules, the "leverage points", for designing the Seeds to Systems curriculum.
 
-## Research Funding Ecosystem
+## Research Funding Ecosystem and Sustainability Landscape
 
 This research will combine interdisciplinary approaches to map, organise and document resources that will be combined to both improve our Seeds to Systems curriculum, and offer standalone references for research funding and sustainability.
 
