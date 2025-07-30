@@ -8,6 +8,9 @@ photos:
   url: https://unsplash.com/@dilani_wicky
 ---
 
+{% assign community = site.data.community %}
+{% assign people = site.data.people %}
+
 ## Open Seeds Impact Research
 
 Funded by [Wellcome Trust Open Research Fund 2021](https://wellcome.org/grant-funding/schemes/open-research-fund), this research investigated the **long-term impact** of Open Science training and mentoring interventions, particularly by **Open Seeds**, from a qualitative angle.
@@ -32,3 +35,12 @@ Funded by [Wellcome Trust Open Research Fund 2021](https://wellcome.org/grant-fu
 * Patricia Herterich: Writing - review & editing. https://orcid.org/0000-0002-4542-9906 
 * Malvika Sharan:  Conceptualisation, Funding acquisition, Writing - review and editing, Project administration. https://orcid.org/0000-0001-6619-7369 
 
+## Researchers
+
+<div class="people">
+{% for entry in community.openseeds %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>

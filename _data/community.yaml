@@ -32,13 +32,27 @@ governance:
   - selgebali
   - saranjeetkaur
   - smklusza
+seedstosystems:
+  - iramosp
+  - rivaquiroga
+  - pherterich
+  - yochannah
+  - malvikashara
 ospark:
-- yochannah
-- bethaniley
-- npdebs
-- joyceykao
-- HeidiSeibold
-- meliimming
+  - yochannah
+  - bethaniley
+  - npdebs
+  - joyceykao
+  - HeidiSeibold
+  - meliimming
+openseeds:
+  - pazbc
+  - yochannah
+turingspa:
+  - msundukova
+  - bethaniley
+  - yochannah
+  - flavioazevedo
 advisors: []
 trainers:
   ols: []

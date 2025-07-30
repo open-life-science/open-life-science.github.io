@@ -8,6 +8,9 @@ photos:
   url: https://unsplash.com/@alperergin
 ---
 
+{% assign community = site.data.community %}
+{% assign people = site.data.people %}
+
 # Seeds to Systems Research
 
 Research is fundamental to OLS.
@@ -27,10 +30,11 @@ This research will combine interdisciplinary approaches to map, organise and doc
 
 ### Researchers
 
-* Irene Ramos
-* Riva Quiroga
-* Bethan Iley
-* Patricia Herterich
-* Malvika Sharan
-* Yo Yehudi
+<div class="people">
+{% for entry in community.seedstosystems %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
 

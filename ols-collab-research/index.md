@@ -40,7 +40,6 @@ For specific inquiries, please contact us at [ospark-project[at]digiresacademy.o
 {% endfor %}
 </div>
 
-
 ## Previous Projects
 
 ### Skills Policy Research
@@ -55,8 +54,11 @@ Funded by the [Turing Skills Policy Award (SPA) 2023/2024](https://www.turing.ac
 
 #### Researchers
 
-* Mayya Sundukova
-* Bethan Iley
-* Yo Yehudi
-* Flavio Azevedo (FORRT)
+<div class="people">
+{% for entry in community.turingspa %}
+    {% assign username = entry %}
+    {% assign user = people[username] %}
+    {% include _includes/people.html username=username user=user %}
+{% endfor %}
+</div>
 
