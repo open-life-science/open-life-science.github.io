@@ -18,7 +18,7 @@ Their involvement in the governance of OLS ensures transparency, fosters account
 The Committee provides strategic oversight through regular meetings and reporting, actively shaping our governance framework and contributing to the organisation's long-term sustainability.
 
 For governance-related documentation and updates, please visit our [public GitHub repository]({{ site.github.owner_url }}/ols-governance).
-Transparency reports are released by the committee members on our website every six months - read the [most recent report]({% link _posts/2025/05/07/ols-governance-report.md %})).
+Transparency reports are released by the committee members on our website every six months - read the [most recent report]({% link _posts/2025-05-07-ols-governance-report.md %})).
 
 <div class="people">
 {% for entry in community.governance %}
