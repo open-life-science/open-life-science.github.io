@@ -16,9 +16,9 @@ streams:
     description: |
       Funded by Wellcome Trust Open Research Fund, our team conducted a qualitative research to understand and inform the inprovement of Open Seeds program by OLS. Read more about [Open Seeds Research](/open-seeds-research/)
   - 
-    title: Influencing policy to widen participation in open data science
+    title: OLS Collaborative Research
     description: |
-      Funded by the Turing Skills Policy Award, in collaboration with Resident Fellows, we conducted research under the broader theme of **widening participation in open data science**. Read more about [OLS Collaborative Research](/ols-collab-research/)
+      We collaborate with other open science initiatives to conduct collaborative research. With [Digital Research Academy](https://digital-research.academy/), we have joined the OSCARS EU-funded [OSPARK project](https://oscars-project.eu/projects/ospark-bootcamp-open-science-promotion-and-advocacy-research-knowledge-bootcamp), which will deliver a training program on evidence-based marketing and communication skills for researchers. Read more about [OLS Collaborative Research](/ols-collab-research/)
 ---
 
 We conduct participatory and community-based research to build evidence that inform all areas of our work, that include:

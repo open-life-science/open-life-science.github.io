@@ -4732,6 +4732,28 @@ hdinkel:
   pronouns: he/him
   country_3: DEU
   continent: Europe
+HeidiSeibold:
+  affiliation: Digital Research Academy
+  bio: Heidi Seibold is a trainer for open and reproducible data science 
+    with extensive experience designing inclusive interactive courses, 
+    workshops and events. She has launched two podcasts series examining 
+    topics in reshaping academia (>reboot academia) and Open Science 
+    (Open Science Stories). She is also a Co-Founder and Co-Executive Director 
+    of the Digital Research Academy, a grassroots network of trainers that 
+    provides bespoke training in open science, data literacy, and research 
+    software engineering. 
+  city: Munich
+  country: Germany
+  expertise:
+  - Reproducibility
+  - Training
+  - Communication
+  first-name: Heidi
+  last-name: Siebold
+  pronouns: she/her
+  website: https://digital-research.academy/
+  country_3: DEU
+  continent: Europe
 helendagenb:
   first-name: Youzi
   last-name: Bi
@@ -5681,7 +5703,7 @@ joy-owango:
   last-name: Owango
   github: false
 joyceykao:
-  affiliation: University Hospital Rwth Aachen
+  affiliation: Digital Research Academy
   bio: I am an enthusiast for using tech to make processes more efficient and reproducible.
     Currently, I am the Co-Executive Director of the Digital Research Academy that
     provides bespoke training in Open Science, Research Software Engineering, and
@@ -7786,11 +7808,18 @@ melibleq:
   continent: South America
   longitude: -47.1583944
   latitude: -1.2043218
+meliimming:
+  first-name: Melanie
+  last-name: Imming
+  pronouns: She/Her/Hers
+  website: https://www.immingimpact.eu/
+  country: The Netherlands
 melissawm:
   city: Florianópolis
   country: Brazil
   first-name: Melissa
   last-name: Weber Mendonça
+  pronouns: She/Her/Hers
   twitter: melissawm
   website: https://melissawm.github.io/
   country_3: BRA
