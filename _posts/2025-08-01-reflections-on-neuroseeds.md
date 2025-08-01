@@ -7,7 +7,7 @@ image: /images/2025-08-01-open-neuroseeds.jpeg
 photos:
   name: Sara Villa
   license: CC-BY
-  url: https://github.com/user-attachments/assets/61c14c2d-9ec8-4698-8ed4-10ec908bd472
+  url: https://github.com/user-attachments/assets/61c14c2d-9ec8-4698-8ed4-10ec908bd472.jpeg
 ---
 
 # Honest reflections on running Open Neuroseeds
