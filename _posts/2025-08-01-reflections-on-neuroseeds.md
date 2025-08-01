@@ -21,7 +21,7 @@ But I guess that’s the point of dreaming big…you can actually get high enoug
 Open Neuroseeds is my attempt to bring all that I love and learned about open science to my own academic research community, versioning the [Open Seeds]({% link openseeds/index.md %}) format to fit requirements (learning objectives, schedules, funding, etc). 
 In this blog, I will share how I started the programme, lessons learned along the way, and most importantly, successful outcomes from it! 
 
-![Screenshot of a zoom meeting with a grid of 8 people on the right, and sides projected on the left.](https://github.com/user-attachments/assets/aaffe2b7-0b9b-45e5-897f-256af69c70a8)
+![Screenshot of a zoom meeting with a grid of 8 people on the right, and sides projected on the left.](https://github.com/user-attachments/assets/aaffe2b7-0b9b-45e5-897f-256af69c70a8){: style="max-width: 70%; max-height: 500px;"}
 
 What looked like a crazy idea in the beginning, started to look like a very obvious step last year after having participated in several Open Seeds cohorts and having given several talks to promote open science within my department ([Wolfson SPaRC, KCL](https://www.kcl.ac.uk/neuroscience/about/departments/wolfson)) and others. 
 Being awarded a Research Culture award from King’s College London was the final push that put everything in motion. And like that, we organised Open Neuroseeds from February to June 2025\. 
@@ -61,7 +61,7 @@ I can proudly say that this was an amazing experience working with the participa
 The participants were very engaged, plans for their projects were bold, well thought, and some of them even already being implemented. 
 You can check the presentations on our [Zenodo community](https://zenodo.org/communities/openlifesci/records?q=&l=list&p=1&s=10&sort=newest) and check for yourself! 
 
-![Screenshot of a zoom meeting with 8 people smiling while sharing their Open neuroseeds project. from left to right, up to down we can see Joe, Sara, Busra, Zahra, Yo, Rita, Alina and Arielle.](https://github.com/user-attachments/assets/32f58247-ec1f-4c0e-8392-e71efa656b7f)
+![Screenshot of a zoom meeting with 8 people smiling while sharing their Open neuroseeds project. from left to right, up to down we can see Joe, Sara, Busra, Zahra, Yo, Rita, Alina and Arielle.](https://github.com/user-attachments/assets/32f58247-ec1f-4c0e-8392-e71efa656b7f){: style="max-width: 70%; max-height: 500px;"}
 
 Some of the feedback was: 
 
