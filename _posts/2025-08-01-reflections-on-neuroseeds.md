@@ -4,7 +4,7 @@ title: "Honest reflections on running Open Neuroseeds"
 subtitle: "& why I am still in love with Open Science"
 authors:
 - saravilla
-image: /images/2025-08-01-open-neuroseeds.PNG
+image: /images/2025-08-01-open-neuroseeds.png
 --- 
 
 ## *[Sara Villa]({% link people.md %}#saravilla), Senior Resident fellow - Open Neuroseeds coordinator*
