@@ -7,7 +7,7 @@ image: /images/2025-08-01-open-neuroseeds.jpeg
 photos:
   name: Sara Villa
   license: CC-BY
-  url: /images/2025-08-01-open-neuroseeds.jpeg
+  url: https://github.com/user-attachments/assets/61c14c2d-9ec8-4698-8ed4-10ec908bd472
 ---
 
 # Honest reflections on running Open Neuroseeds
@@ -59,7 +59,7 @@ I can proudly say that this was an amazing experience working with the participa
 The participants were very engaged, plans for their projects were bold, well thought, and some of them even already being implemented. 
 You can check the presentations on our [Zenodo community](https://zenodo.org/communities/openlifesci/records?q=&l=list&p=1&s=10&sort=newest) and check for yourself! 
 
-![Screenshot of a zoom meeting with 8 people smiling while sharing their Open neuroseeds project. from left to right, up to down we can see Joe, Sara, Busra, Zahra, Yo, Rita, Alina and Arielle.](/images/2025-08-01-open-neuroseeds2.jpeg)
+![Screenshot of a zoom meeting with 8 people smiling while sharing their Open neuroseeds project. from left to right, up to down we can see Joe, Sara, Busra, Zahra, Yo, Rita, Alina and Arielle.](https://github.com/user-attachments/assets/32f58247-ec1f-4c0e-8392-e71efa656b7f)
 
 Some of the feedback was: 
 
