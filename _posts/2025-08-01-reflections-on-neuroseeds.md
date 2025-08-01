@@ -3,11 +3,11 @@ layout: post
 title: "Honest reflections on running Open Neuroseeds"
 authors:
 - saravilla
-image: https://github.com/user-attachments/assets/61c14c2d-9ec8-4698-8ed4-10ec908bd472
+image: https://images.unsplash.com/photo-1531512073830-ba890ca4eba2
 photos:
-  name: Sara Villa
+  name: Tom Gainor
   license: CC-BY
-  url: https://github.com/user-attachments/assets/61c14c2d-9ec8-4698-8ed4-10ec908bd472
+  url: https://unsplash.com/@its_tgain 
 ---
 
 # Honest reflections on running Open Neuroseeds
@@ -20,6 +20,8 @@ But I guess that’s the point of dreaming big…you can actually get high enoug
 
 Open Neuroseeds is my attempt to bring all that I love and learned about open science to my own academic research community, versioning the [Open Seeds]({% link openseeds/index.md %}) format to fit requirements (learning objectives, schedules, funding, etc). 
 In this blog, I will share how I started the programme, lessons learned along the way, and most importantly, successful outcomes from it! 
+
+![Screenshot of a zoom meeting with a grid of 8 people on the right, and sides projected on the left.](https://github.com/user-attachments/assets/aaffe2b7-0b9b-45e5-897f-256af69c70a8)
 
 What looked like a crazy idea in the beginning, started to look like a very obvious step last year after having participated in several Open Seeds cohorts and having given several talks to promote open science within my department ([Wolfson SPaRC, KCL](https://www.kcl.ac.uk/neuroscience/about/departments/wolfson)) and others. 
 Being awarded a Research Culture award from King’s College London was the final push that put everything in motion. And like that, we organised Open Neuroseeds from February to June 2025\. 
