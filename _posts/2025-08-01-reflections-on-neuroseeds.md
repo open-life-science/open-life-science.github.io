@@ -4,11 +4,7 @@ title: "Honest reflections on running Open Neuroseeds"
 subtitle: "& why I am still in love with Open Science"
 authors:
 - saravilla
-image: https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb
-photos:
-  name: Jeremy Bishop
-  license: CC-BY
-  url: https://unsplash.com/@jeremybishop
+image: /images/2025-08-01-open-neuroseeds.PNG
 --- 
 
 ## *[Sara Villa]({% link people.md %}#saravilla), Senior Resident fellow - Open Neuroseeds coordinator*
@@ -55,7 +51,9 @@ Although it was challenging to identify neuroscience-specific experts under tigh
 
 I can proudly say that this was an amazing experience working with the participants, and I was blown away on graduation day. 
 The participants were very engaged, plans for their projects were bold, well thought, and some of them even already being implemented. 
-You can check the presentations on our [Zenodo community](https://zenodo.org/communities/openlifesci/records?q=&l=list&p=1&s=10&sort=newest) and check for yourself\! 
+You can check the presentations on our [Zenodo community](https://zenodo.org/communities/openlifesci/records?q=&l=list&p=1&s=10&sort=newest) and check for yourself! 
+
+![Screenshot of a zoom meeting with 8 people smiling while sharing their Open neuroseeds project. from left to right, up to down we can see Joe, Sara, Busra, Zahra, Yo, Rita, Alina and Arielle.]({% link images/2025-08-01-open-neuroseeds2.png %})
 
 Some of the feedback was: 
 
