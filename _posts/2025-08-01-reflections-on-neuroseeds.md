@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "Honest reflections on running Open Neuroseeds"
-subtitle: "& why I am still in love with Open Science"
 authors:
 - saravilla
 image: /images/2025-08-01-open-neuroseeds.jpeg
---- 
+---
 
-## *[Sara Villa]({% link people.md %}#saravilla), Senior Resident fellow - Open Neuroseeds coordinator*
+# Honest reflections on running Open Neuroseeds
+## & why I am still in love with Open Science
+
+*[Sara Villa]({% link people.md %}#saravilla), Senior Resident fellow - Open Neuroseeds coordinator*
 
 When I started my journey as a learner in [OLS]({{ site.url }}) in 2021, I would have never guessed that I’d be working WITH the team implementing my own training cohort at King’s College London.   
 But I guess that’s the point of dreaming big…you can actually get high enough!! 
