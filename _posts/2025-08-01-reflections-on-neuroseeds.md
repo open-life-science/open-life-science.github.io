@@ -10,8 +10,7 @@ photos:
   url: https://unsplash.com/@its_tgain 
 ---
 
-# Honest reflections on running Open Neuroseeds
-...& why I am still in love with Open Science
+*And, why I am still in love with Open Science!*
 
 *[Sara Villa]({% link people.md %}#saravilla), Senior Resident fellow - Open Neuroseeds coordinator*
 
