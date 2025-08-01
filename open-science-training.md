@@ -9,9 +9,7 @@ streams:
   -
     title: Open Seeds
     description: |
-      [Open Seeds](/openseeds/) is a **16-week** **mentoring** and **training** program for people interested in applying **open principles** in their work and becoming **Open Science ambassadors** in their communities.
-
-      OLS runs Open Seeds since early 2020 with 2 cohorts per year. 380+ people participating in 260+ projects were taught with the support of 130+ mentors, 170+ experts, and 30+ facilitators.
+      [Open Seeds](/openseeds/) is a cohort-based **mentoring** and **training** program to support individuals and teams in applying **open research** practices in their work and becoming **Open Science ambassadors** in their communities.
     image: 
       link: images/2023-04-18-introducing-the-new-OLS/open-seeds.png
       alt: |
@@ -19,16 +17,12 @@ streams:
   -
     title: Nebula
     description: |
-      Nebula is currently paused whole the Open Science curriculum is refreshed. 
-      
-      Funded by [NASA](https://www.nasa.gov/), this work aims to deliver fully virtual training cohorts for the NASA open science curriculum with a highly qualitative component throughout the training. 
-      
-      Starting in 2024 and for 3 years, the team will deliver five 6-week Virtual Cohorts per year. The cohorts will include guided reflection and hands-on implementation of open science concepts, processes, and techniques. This program will teach one Module per week, by bringing in expert speakers from across different scientific domains, allowing learners to actively embed their training in their work and reflect on their learning with a mentor.
-
-      You can read more about it in the [proposal](https://zenodo.org/records/8250979).
+      [Nebula](/nebula/) is currently paused. 
+      Funded by [NASA](https://www.nasa.gov/), this program offers virtual training on the NASA open science curriculum with a highly qualitative component throughout the training.
     image: 
       link: images/nebula/nebula-wordmark-transparent-bg.png
-      alt: Open Seeds
+      alt:  |
+        Nebula logo: the word 'nebula' written in green, with blue, orange and green dots on the curvy top of the letter a, representing stars, constellations and galaxies.
 ---
 
 OLS delivers **online mentoring and training programs** for individuals and teams worldwide to learn about and adopt open research practices. 
