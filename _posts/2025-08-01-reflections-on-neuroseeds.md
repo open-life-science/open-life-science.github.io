@@ -61,6 +61,15 @@ I can proudly say that this was an amazing experience working with the participa
 The participants were very engaged, plans for their projects were bold, well thought, and some of them even already being implemented. 
 You can check the presentations on our [Zenodo community](https://zenodo.org/communities/openlifesci/records?q=&l=list&p=1&s=10&sort=newest) and check for yourself! 
 
+- Hannah Mcconchie: [Breaking Barriers: an Open Science Approach to Cross-Sector Collaboration in Neuroscience](https://doi.org/10.5281/zenodo.15470675)
+- Rita Moura: [Chiasma: a space for those who see science as political](https://doi.org/10.5281/zenodo.15882695)
+- Zahra Laouby: [The open bench notes](https://doi.org/10.5281/zenodo.15656467)
+- Busra Mutlu Ipek: [Integrating Open Science into an Interdisciplinary Project on AI-Driven Neurotechnology and Responsibility](https://doi.org/10.5281/zenodo.15674180)
+- Joseph Allison: [Using existing platforms to improve technical awareness and promote Open Science](https://doi.org/10.5281/zenodo.15631356)
+- Alina Cristina Marin: [FAIR code for in vivo calcium imaging analysis in mouse models of pain](https://doi.org/10.5281/zenodo.15630919)
+- Patricia Garcez: [Designing Open Science-Driven Assessment for Neuroscience Students](https://doi.org/10.5281/zenodo.15705149)
+- Bahar Azizkhani: [Open NeuroSeeds](https://doi.org/10.5281/zenodo.16687416)
+
 ![Screenshot of a zoom meeting with 8 people smiling while sharing their Open neuroseeds project. from left to right, up to down we can see Joe, Sara, Busra, Zahra, Yo, Rita, Alina and Arielle.](https://github.com/user-attachments/assets/32f58247-ec1f-4c0e-8392-e71efa656b7f){: style="max-width: 70%; max-height: 500px;"}
 
 Some of the feedback was: 
