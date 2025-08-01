@@ -4,10 +4,14 @@ title: "Honest reflections on running Open Neuroseeds"
 authors:
 - saravilla
 image: /images/2025-08-01-open-neuroseeds.jpeg
+photos:
+  name: Sara Villa
+  license: CC-BY
+  url: /images/2025-08-01-open-neuroseeds.jpeg
 ---
 
 # Honest reflections on running Open Neuroseeds
-## & why I am still in love with Open Science
+...& why I am still in love with Open Science
 
 *[Sara Villa]({% link people.md %}#saravilla), Senior Resident fellow - Open Neuroseeds coordinator*
 
@@ -55,7 +59,7 @@ I can proudly say that this was an amazing experience working with the participa
 The participants were very engaged, plans for their projects were bold, well thought, and some of them even already being implemented. 
 You can check the presentations on our [Zenodo community](https://zenodo.org/communities/openlifesci/records?q=&l=list&p=1&s=10&sort=newest) and check for yourself! 
 
-![Screenshot of a zoom meeting with 8 people smiling while sharing their Open neuroseeds project. from left to right, up to down we can see Joe, Sara, Busra, Zahra, Yo, Rita, Alina and Arielle.]({% link images/2025-08-01-open-neuroseeds2.jpeg %})
+![Screenshot of a zoom meeting with 8 people smiling while sharing their Open neuroseeds project. from left to right, up to down we can see Joe, Sara, Busra, Zahra, Yo, Rita, Alina and Arielle.]({% link /images/2025-08-01-open-neuroseeds2.jpeg %})
 
 Some of the feedback was: 
 
