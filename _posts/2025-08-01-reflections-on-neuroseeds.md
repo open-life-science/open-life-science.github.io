@@ -21,8 +21,6 @@ But I guess that’s the point of dreaming big…you can actually get high enoug
 Open Neuroseeds is my attempt to bring all that I love and learned about open science to my own academic research community, versioning the [Open Seeds]({% link openseeds/index.md %}) format to fit requirements (learning objectives, schedules, funding, etc). 
 In this blog, I will share how I started the programme, lessons learned along the way, and most importantly, successful outcomes from it! 
 
-![Screenshot of a zoom meeting with a grid of 8 people on the right, and sides projected on the left.](https://github.com/user-attachments/assets/aaffe2b7-0b9b-45e5-897f-256af69c70a8){: style="max-width: 70%; max-height: 500px;"}
-
 What looked like a crazy idea in the beginning, started to look like a very obvious step last year after having participated in several Open Seeds cohorts and having given several talks to promote open science within my department ([Wolfson SPaRC, KCL](https://www.kcl.ac.uk/neuroscience/about/departments/wolfson)) and others. 
 Being awarded a Research Culture award from King’s College London was the final push that put everything in motion. And like that, we organised Open Neuroseeds from February to June 2025\. 
 
@@ -39,6 +37,8 @@ This last decision was one of the first ‘hiccups’ I encountered: coordinatin
 Of course, their expectations were similar to their experiences in the past, and I underestimated the orientation needed to adjust materials to a new domain, and that participants would need extra guidance. 
 An important **lesson learned** for the next iteration: regularly communicate with all participants to establish clear expectations!   
 Needless to say, everyone adapted quite quickly and the miscommunications were solved fast enough for people to get on with their mentors and their projects. 
+
+![Screenshot of a zoom meeting with a grid of 8 people on the right, and sides projected on the left.](https://github.com/user-attachments/assets/aaffe2b7-0b9b-45e5-897f-256af69c70a8){: style="max-width: 70%; max-height: 500px;"}
 
 During the training weeks, we had 5 different experts to come and introduce Open Concepts, curated from previous Open Seeds lessons. The topics chosen were: 
 
