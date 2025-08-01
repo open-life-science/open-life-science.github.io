@@ -60,6 +60,7 @@ Although it was challenging to identify neuroscience-specific experts under tigh
 I can proudly say that this was an amazing experience working with the participants, and I was blown away on graduation day. 
 The participants were very engaged, plans for their projects were bold, well thought, and some of them even already being implemented. 
 You can check the presentations on our [Zenodo community](https://zenodo.org/communities/openlifesci/records?q=&l=list&p=1&s=10&sort=newest) and check for yourself! 
+**Final graduates and projects list**: 
 
 - Hannah Mcconchie: [Breaking Barriers: an Open Science Approach to Cross-Sector Collaboration in Neuroscience](https://doi.org/10.5281/zenodo.15470675)
 - Rita Moura: [Chiasma: a space for those who see science as political](https://doi.org/10.5281/zenodo.15882695)
