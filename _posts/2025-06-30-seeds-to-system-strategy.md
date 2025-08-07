@@ -37,7 +37,7 @@ Each pillar is designed to strengthen and complement the others, nurturing resea
 
 ### Training and Mentoring
 
-Since launching in 2020, OLS has become a recognised and reliable partner in open science training and mentoring, with a strong emphasis on involving our global community in both shaping and co-delivering our programs.
+Since launching in 2020, OLS has become a recognised and reliable partner in [open science training and mentoring]({% link open-science-training.md %}), with a strong emphasis on involving our global community in both shaping and co-delivering our programs.
 
 * **Open Seeds**, our flagship program, has successfully run nine times, and an additional context-specific cohort of **Open Neuro Seeds**, tailored for neuroscience researchers by our Senior Resident Fellow, [Sara Villa]({% link people.md %}#saravilla). 
 * **Custom training**, like for **mentoring and Ally Skills**, or other open science training like **Nebula**, funded by NASA, which has provided two cohorts of Open Science 101 training and supported Open Seeds fellows in engaging with this initiative.
@@ -54,8 +54,8 @@ More information on this will be shared later in the year.
 
 ### Open Research
 
-Since 2022, OLS has been actively involved in open science research. With a purpose to ground our work in evidence, we have published reports and papers under research projects, including:
-* **Impact of open science training and mentoring**, a qualitative study funded by the Wellcome Trust Open Research Fund.
+Since 2022, OLS has been actively involved in [open science research]({% link open-research.md %}). With a purpose to ground our work in evidence, we have published reports and papers under research projects, including:
+* **Impact of open science training and mentoring**, a qualitative study funded by the Wellcome Trust Open Research Fund (2022-2024).
 * **Widening participation in open science**, a policy engagement project funded under the Turing Institute’s Skills Policy Award.
 
 We have also co-written a meta-research paper with community members, analysing quantitative data from eight cohorts of Open Seeds, providing valuable insights into our program's effectiveness.
@@ -73,7 +73,7 @@ We aim to build a more equitable and accessible research ecosystem through train
 ### Open Incubator
 
 Turning an idea into a project is a significant step, but leading and managing it effectively for long-term impact is another challenge entirely.
-The OLS Open Incubator offers vital expertise and **Fiscal Hosting infrastructure**, providing community members with expert guidance, financial management, and legal support, especially during the critical early stages of open science projects or building an organisation.
+The OLS's [Open Incubator]({% link open-incubator.md %}) offers vital expertise and **Fiscal Hosting infrastructure**, providing community members with expert guidance, financial management, and legal support, especially during the critical early stages of open science projects or building an organisation.
 
 This work began in 2024, and we are actively developing a sustainable, service-based financial model to not only sustain OLS as an organisation but also empower our community by supporting their initiatives.
 

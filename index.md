@@ -12,7 +12,7 @@ photos:
 OLS is a **not-for-profit** organisation dedicated to **capacity building** and **diversifying leadership** in research worldwide.
 We envision a future where knowledge is accessible, inclusive, and equitable for everyone.
 
-Our **Seeds to Systems** strategy will shape our mission areas for the 2025-2030 strategic period.
+Our [**Seeds to Systems** strategy]({% link _posts/2025-06-30-seeds-to-system-strategy.md %}) will shape our mission areas for the 2025-2030 strategic period.
 
 # Our Mission Areas: Three Pillars
 
