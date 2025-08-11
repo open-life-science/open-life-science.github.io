@@ -12,9 +12,24 @@ photos:
 
 If we have helped your research, please cite us and help us to maintain funding!
 
-## Open Seeds
+### General acknowledgements
+If would would like to acknowledge OLS casually, we suggest the following wording - but we're not too fussy! Tweak it to the wording that makes the most sense for you: 
 
-A publication about the Open Seeds program is in preparation and another about its impact will come soon!
+**Text**
+``` 
+This work was supported by OLS (we-are-ols.org) as part of its (Open Seeds / Nebula) training programme. 
+```
+
+**Markdown**
+
+```md
+This work was supported by [OLS](we-are-ols.org) as part of its (Open Seeds / Nebula) training programme. 
+```
+
+### Citing within the scientific publishing system
+If you would like to cite OLS using the scientific publishing/referencing systems, please cite: 
+
+> Bernaldo, P., Pereyra Irujo, G., Yehudi, Y., van der Walt, A., Iley, B., Míguez, M. P., Ramos, I., Plomp, E., & Sharan, M. (2025). Examining the impact and limitations of Open Science training: a case study of the "Open Seeds" programme. Zenodo. [https://doi.org/10.5281/zenodo.15593896](https://doi.org/10.5281/zenodo.15593896)
 
 # Publications by OLS team
 
