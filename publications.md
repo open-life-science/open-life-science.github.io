@@ -13,7 +13,7 @@ photos:
 If we have helped your research, please cite us and help us to maintain funding!
 
 ### General acknowledgements
-If would would like to acknowledge OLS casually, we suggest the following wording - but we're not too fussy! Tweak it to the wording that makes the most sense for you: 
+If you would like to acknowledge OLS casually, we suggest the following wording - but we're not too fussy! Tweak it to the wording that makes the most sense for you: 
 
 **Text**
 ``` 
