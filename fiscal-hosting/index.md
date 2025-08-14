@@ -12,9 +12,27 @@ photos:
 
 # OLS Fiscally Sponsored Community (FSC) Onboarding process
 
-As part of OLS's commitment to growing open researchers, OLS is experimenting with offering Fiscal Sponsorship. This model is well-known in the United States, with sponsors such as [Numfocus](https://numfocus.org/) and [Code for Science and Society](https://www.codeforsociety.org/) existing as nonprofit organisations that offer fiscal sponsorship for their constituent communities. 
+As part of OLS's commitment to growing open researchers, OLS is experimenting with offering Fiscal Sponsorship. This model is well-known in the United States, with sponsors such as [Numfocus](https://numfocus.org/) and [Code for Science and Society](https://www.codeforsociety.org/) existing as nonprofit organisations that offer fiscal sponsorship for their constituent communities. To our knowledge are fewer UK-based fiscal sponsors that specialise in open research related needs, and/or that are willing to take on small projects. 
 
 Communities that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become a fiscally sponsored community ([FSC](#fsc)). 
+
+## What Fiscal Sponsorship is, and why it can be useful
+
+**If you're a researcher who has worked in academia before**, you probably had support from your institution to handle a lot of the human and legal infrastructure - e.g. making sure staff get paid on time, issuing contracts, reviewing budgets, and consulting with legal advice as/when needed. In scenarios where your project doesn't fit in a university any longer (or never did),  becoming a businessperson or entrepreneur might not have been part of your plans! 
+
+Fiscal sponsors can support you by handling these types of activities even outside a university: 
+
+- Issuing contracts for staff and contractors
+- Maintaining an accounting team to handle 
+    - Monthly payroll (PAYE in the UK)
+    - Ad-hoc invoices
+    - Pay scales and annual inflation-based pay rises
+    - Tax, benefits and pension
+    - Yearly reporting to HMRC or other governmental bodies in your country. 
+    - Making payments internationally, e.g. honoraria or stipends for volunteers 
+    - Holding your money in a UK-based bank account associated with a registered UK Company.
+- Working with a legal team to create new contracts and review higher-risk and/or high-value contracts and grants. 
+- Assessing grant application budgets to ensure true costs of a grant are considered (e.g. overheads such as building premises costs, employers' national insurance, software licences, etc). 
 
 ## FAQ
 
