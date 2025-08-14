@@ -73,14 +73,6 @@ partners:
       Members of The Turing Way collaborate in OLS as part of the Open Seeds cohort and curriculum.
 sponsors:
   -
-    organization: RSE-AUNZ
-    name: RSE-AUNZ
-    details: |
-      The RSE Association of Australia and New Zealand ([RSE-AUNZ](https://rse-aunz.org/)) is a community that aims to build awareness of the diverse Research Software Engineer (RSE) roles, to connect volunteers 
-      in the RSE domain, and to help build practical solutions for the RSE community.
-    logo: https://github.com/rse-aunz/rse-aunz.github.io/blob/master/assets/RSE_AUNZ_logo.png?raw=true
-  
-  -
     organization: hub-kenya
     details: |
         BHKI bridges the gap between well-established bioinformaticians and aspiring
@@ -128,9 +120,16 @@ sponsors:
     details: |
       The University of Manchester was Yo's EngD research affiliation.
 fiscal_communities:
-  -
-    organization: learning-circle
+-
+    organization: RSE-AUNZ
+    name: RSE-AUNZ
     details: |
-      Previous collaborator - H3ABioNet Learning Learning Circles, is
-      organised by Dr Caleb Kibet. He collaborated with OLS-2 to mentor projects
-      to support story circles in different African countries.
+      The RSE Association of Australia and New Zealand ([RSE-AUNZ](https://rse-aunz.org/)) is a community that aims to build awareness of the diverse Research Software Engineer (RSE) roles, to connect volunteers 
+      in the RSE domain, and to help build practical solutions for the RSE community.
+    logo: https://github.com/rse-aunz/rse-aunz.github.io/blob/master/assets/RSE_AUNZ_logo.png?raw=true
+-
+    organization: "RCM Cooperative"
+    name: "RCM Cooperative"
+    details: |
+      A cooperative of community managers dedicated to creating equitable, resilient and collaborative research.
+    logo: https://www.rcmcooperative.com/assets/img/logo-black-square.png
