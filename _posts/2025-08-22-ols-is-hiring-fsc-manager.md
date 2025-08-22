@@ -99,5 +99,5 @@ As part of the incubation pillar, people who had participated in our training in
 
 Read our fiscal sponsorship page and sponsorship policies for more info: 
 
-- {% link fiscal-hosting/fiscal-hosting-policies.md %}
+- {% link fiscal-hosting/fsc-policies.md %}
 - {% link fiscal-hosting/index.md %}
