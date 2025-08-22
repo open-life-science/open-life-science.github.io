@@ -97,7 +97,8 @@ OLS's original core mission focused on mentoring and training in Open Research. 
 
 As part of the incubation pillar, people who had participated in our training initiatives often asked for advice in taking the "next steps" for their projects - e.g. applying for grants or awards, paying contributors for their time, and handling the tricky legal parts. Eventually, we began [fiscally sponsoring other small organisations]({% link fiscal-hosting/index.md %}), beginning with RSE-AUNZ. In the Open Science and Open Research domains, other fiscal sponsors you might have heard of are Code for Science and Society, Software Freedom Conservancy, NumFocus, Open Collective, and Community Initiatives. Unlike these (mostly) USA-based initiatives, OLS is based in the UK, which is why it is helpful if applicants have UK-specific experience. 
 
-Read our fiscal sponsorship page and sponsorship policies for more info: 
+Read our <a href="{% link fiscal-hosting/index.md %}">fiscal sponsorship page</a> and <a href="{% link fiscal-hosting/fsc-policies.md %}">sponsorship policies</a> for more info.
 
-- {% link fiscal-hosting/fsc-policies.md %}
-- {% link fiscal-hosting/index.md %}
+Download a copy of the [job ad on Google Docs](https://docs.google.com/document/d/13rKFH4em5gJ_hLcbVaTMvdahlatIww3SK2joZilV-QI/edit?usp=sharing)
+
+
