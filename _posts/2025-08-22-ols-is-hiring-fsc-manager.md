@@ -15,7 +15,7 @@ photos:
 ## Job title: Fiscally Sponsored Community (FSC) Manager
 
 * **Reports to** *Co-Executive Director*  
-* **Contract type:** *50 % (17.5h/week), initially fixed-term up to August 2025 with the potential opportunity to renew or increase hours*  
+* **Contract type:** *50 % (17.5h/week), initially fixed-term up to August 2026 with the potential opportunity to renew or increase hours*  
 * **Pay scale**:   
   * UK: £59,317.32 GBP/year pro-rated  
   * Contractor: $3,590.51 USD/month
