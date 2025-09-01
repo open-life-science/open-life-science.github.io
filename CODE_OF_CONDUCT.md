@@ -70,11 +70,11 @@ disabilities.
 ### Reporting Issues
 
 If you experience or witness unacceptable behavior, or have any other concerns,
-please report it by contacting the organisers - Bérénice, Malvika and Yo.
+please report it by contacting one of the Directors (Yo, Patricia) or the Community and Training Lead (Sara).
 (team@we-are-ols.org).
 
 To report an issue involving one of the members, please email one of the members individually
-(berenice@we-are-ols.org, malvika@we-are-ols.org, yo@we-are-ols.org).
+(yo@we-are-ols.org, patricia@we-are-ols.org, sara@we-are-ols.org).
 
 All reports will be handled with discretion. In your report please include:
 
