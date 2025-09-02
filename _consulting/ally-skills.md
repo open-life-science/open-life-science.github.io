@@ -17,7 +17,7 @@ excerpt:  |
 Multiple OLS community members are trained Ally skill facilitators. We offer ad-hoc in-house workshops (starting at £2,000 GBP for universities) as well as anyone-may-register workshops.
 
 - Visit [OLS Ally Skills Eventbrite](https://www.eventbrite.com/cc/ally-skills-1223279) to find the next dates available or sign up to be notified when the next public course is announced, via our [low-traffic google-group](https://groups.google.com/a/we-are-ols.org/g/announcements-ally-skills).
-- Loooking for a bespoke course, in-house? Contact [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}). 
+- Looking for a bespoke course, in-house? Contact [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}). 
 - [Download a copy of the course description](https://docs.google.com/document/d/1BfwarY5zR5jFBI_UemDfQdmcHS4nQViar95W2yt8fx8/edit?usp=sharing)
 
 ### OLS Ally Skills Workshops: Organisation Guide
