@@ -20,7 +20,7 @@ photos:
 
 Open science has transformed how research is conducted, shared, and reused.
 Yet the organisations at the heart of this transformation are often left vulnerable, underfunded, and disconnected from one another.
-To move from simply surviving to truly thriving, five leading open science organisations -- [The Carpentries](https://carpentries.org/), [OLS](https://we-are-ols.org/), *rOpenSci*, [pyOpenSci](https://www.pyopensci.org/), and [PREreview](https://prereview.org/) -- are convening to chart a collective path forward.
+To move from simply surviving to truly thriving, five leading open science organisations -- [The Carpentries](https://carpentries.org/), OLS, [rOpenSci](https://ropensci.org/), [pyOpenSci](https://www.pyopensci.org/), and [PREreview](https://prereview.org/) -- are convening to chart a collective path forward.
 We are so grateful to The Navigation Fund for supporting this work, and invite our communities to review the [full proposal](https://commons.datacite.org/doi.org/10.71707/qttn-3j47) online.
 
 ## Why This Convening Matters
