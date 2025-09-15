@@ -13,7 +13,7 @@ authors:
 - yochannah
 image: https://openverse.org/image/3d6fd9d2-3755-4680-b3ce-ef11e003ec2c?q=forest+waterfall&p=14
 photos:
-  name: *rboed*
+  name: "*rboed*"
   license: CC-BY 2.0
   url: https://www.flickr.com/photos/92082510@N04
 ---
