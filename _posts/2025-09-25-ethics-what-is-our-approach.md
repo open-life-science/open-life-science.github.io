@@ -13,7 +13,7 @@ photos:
   url: AUTHOR-ADD-URL-HERE
 ---
 
-**TL;DR:** You're invited to share your thoughts about what is important in research ethics on this github discussion, or via Slack in #general. 
+**TL;DR:** You're invited to share your thoughts about what is important in research ethics on [this GitHub discussion](https://github.com/orgs/open-life-science/discussions/1079), or via Slack in #general. 
 
 **Longer:** One of OLS's three core pillars of activity is research, focusing on creating and understanding a better evidence base for equity-serving open research. Some of our previous work includes Paz Bernaldo's Open Seeds Impact paper (currently in press with Wellcome Open Research), and our Alan Turing Institute funded "Widening participation in data science" policy work. 
 
@@ -65,3 +65,4 @@ How does that hypothetical scale sound? If you think something falls on the wron
 - What about when it’s hard to be honest about what the study is (e.g. when explaining might be too technical, and/or it might impact the results of the study)?
 - Are there any national or international "gotchas" we're not aware of? 
 
+Ready to offer feedback, ask questions, or something else? feel free to contribute to the thread in the OLS Slack, and/or comment on [this discussion](https://github.com/orgs/open-life-science/discussions/1079)
