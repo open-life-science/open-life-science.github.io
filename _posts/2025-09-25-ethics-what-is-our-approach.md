@@ -39,7 +39,7 @@ As a researcher, what would you like to see in a compassionate, carefully though
 
 ### Do: 
 - Think carefully about how you would feel if you were a research participant in a given situation. 
-- Review research protocols and DMPs as a team to make them as robust as possible, before submitting to the IRB. 
+- Review research protocols and data management plans (DMPs) as a team to make them as robust as possible, before submitting to the independent review board (IRB). 
 - Share experiences from different scientific domains and legal systems. 
 - Check that the research is as open as is possible whilst respecting other tensions such as privacy, conservation, and indigenous sovereignty.
 - Use open data formats wherever possible. 
