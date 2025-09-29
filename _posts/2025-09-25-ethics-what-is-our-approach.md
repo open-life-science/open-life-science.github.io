@@ -29,7 +29,7 @@ I'm sure it won't surprise anyone when we say that research ethics is incredibly
 
 ## Looking for community input and opinions: What should we think about for OLS's formal research ethics process? 
 
-As a researcher, what would you like to see in a compassionate, carefully thought-out research ethics policy? What would you like us to avoid? Some examples based on discussion at our recent seeds to systems meeting: 
+As a researcher, what would you like to see in a compassionate, carefully thought-out research ethics policy? What would you like us to avoid? Some examples based on discussion at our recent Seeds to Systems meeting: 
 
 ### Avoid:
 - "Your form doesn't have a phone number on it. Please revise and resubmit with a phone number." (8 months later, the ethics review passes, once they've had a phone installed in the lab, even though they never intend to use it).
