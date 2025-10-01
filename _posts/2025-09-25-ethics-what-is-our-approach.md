@@ -52,7 +52,7 @@ Given our varying experiences with research ethics, and the way we enjoy working
   - An interactive online **cohort call**
   - Informal or pilot research intended to shape formal research questions, (depending on the research, this might also need an ethics process!). Examples might be a "dry run" of an interview script, or [autoethnographic research](https://en.wikipedia.org/wiki/Autoethnography) about current grant funding processes. 
 2. Some minimal ethics process, possibly just consent to share: 
-  - A cohort mid-term or end-of-cohort survey that goes on OLS's site but isn't used for publication. 
+  - A cohort mid-term or end-of-cohort survey that is published under a CC-BY license on OLS's site, with participant consent.
 3. OLS internal review, DMP, consent, and protocol, but no review board needed: 
   - Surveys or focus groups that cover only non-sensitive topics that fall within a participant's professional remit. 
 4. Formal research that needs a full internal (OLS) and external ethics (Pearl) review: 
