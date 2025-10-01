@@ -15,7 +15,7 @@ photos:
 
 **TL;DR:** You're invited to share your thoughts about what is important in research ethics on [this GitHub discussion](https://github.com/orgs/open-life-science/discussions/1079), or via Slack in #general. 
 
-**Longer:** One of OLS's three core pillars of activity is research, focusing on creating and understanding a better evidence base for equity-serving open research. Some of our previous work includes Paz Bernaldo's Open Seeds Impact paper (currently in press with Wellcome Open Research), and our Alan Turing Institute funded "Widening participation in data science" policy work. 
+**Longer:** One of OLS's three core pillars of activity is research, focusing on creating and understanding a better evidence base for equity-serving open research. Some of our previous work includes Paz Bernaldo's [Open Seeds Impact paper](https://doi.org/10.5281/zenodo.15593896) (currently in press with Wellcome Open Research), and our Alan Turing Institute funded "Widening participation in data science" policy work. 
 
 ## What we've done for ethics in the past
 
