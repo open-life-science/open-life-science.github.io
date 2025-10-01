@@ -43,7 +43,7 @@ As a researcher, what would you like to see in a compassionate, carefully though
 - Share experiences from different scientific domains and legal systems. 
 - Check that the research is as open as is possible whilst respecting other tensions such as privacy, conservation, and indigenous sovereignty.
 - Use open data formats wherever possible. 
-- Prepare consent forms in as plain-english (or other language) as possible.   
+- Prepare consent forms in lay-language when possible.   
 
 ## Where is the line - what requires ethics review and what doesn't? 
 Given our varying experiences with research ethics, and the way we enjoy working with community, we want to formalise exactly _which_ types of interaction and knowledge gathering should go through the ethics process and how much. Here's a hypothetical scale, from least strict to most strict: 
