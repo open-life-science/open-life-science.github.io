@@ -10586,7 +10586,7 @@ saranjeetkaur:
   longitude: 77.00270014657752
   latitude: 28.42826235
 saravilla:
-  affiliation: King'S College London
+  affiliation: OLS
   bio: I’m a molecular neuroscientist with a big interest in all about DNA, biology,
     data analysis and more importantly…open science and reproducibility! To counteract
     the screen time, I play with books, yoga, beer and whatever I can research about
@@ -10594,14 +10594,14 @@ saravilla:
   city: London
   country: United Kingdom
   expertise:
-  - Molecular biology
+  - Community Building
   - Genomics
   - Sequencing
   - Project management
   first-name: Sara
   last-name: Villa
   orcid: 0000-0001-9502-0888
-  title: Senior Resident Fellow (Open NeuroSeeds)
+  title: Community and Training Lead
   pronouns: she/her
   twitter: VillaScience
   country_3: GBR
