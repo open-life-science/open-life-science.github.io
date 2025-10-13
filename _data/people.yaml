@@ -9663,7 +9663,7 @@ pherterich:
   continent: Europe
   longitude: -3.1883749
   latitude: 55.9533456
-  title: Associate Director, Finance and Operations
+  title: Co-Executive Director OLS
 piero-beraun:
   affiliation: Scihack
   bio: 22 years old and Bachelor in Bioengineering. I like strawberries, plants, arthropods,
@@ -10586,24 +10586,22 @@ saranjeetkaur:
   longitude: 77.00270014657752
   latitude: 28.42826235
 saravilla:
-  affiliation: King'S College London
-  bio: I’m a molecular neuroscientist with a big interest in all about DNA, biology,
-    data analysis and more importantly…open science and reproducibility! To counteract
+  affiliation: OLS
+  bio: I’m a recovering molecular neuroscientist with a big interest in all about open science and research communitites! I love talking to people about their work and how to improve things from a system's perspective. To counteract
     the screen time, I play with books, yoga, beer and whatever I can research about
     :)
   city: London
   country: United Kingdom
   expertise:
-  - Molecular biology
+  - Community Building
+  - Training
   - Genomics
-  - Sequencing
   - Project management
   first-name: Sara
   last-name: Villa
   orcid: 0000-0001-9502-0888
-  title: Senior Resident Fellow (Open NeuroSeeds)
+  title: Community and Training Lead
   pronouns: she/her
-  twitter: VillaScience
   country_3: GBR
   continent: Europe
   longitude: -0.14405508452768728
@@ -12164,7 +12162,7 @@ ykho001:
   country_3: GBR
   continent: Europe
 yochannah:
-  bio: Yo is the executive director and a co-founder of [OLS](https://openlifesci.org/).
+  bio: Yo is the co-executive director and a co-founder of [OLS](https://openlifesci.org/).
     As an [EngD student at the University of 
     Manchester](https://www.research.manchester.ac.uk/portal/yochannah.yehudi-postgrad.html),
     Yo is studying pathogen-related data sharing and sustainability of open source
@@ -12183,7 +12181,7 @@ yochannah:
   last-name: Yehudi
   orcid: 0000-0003-2705-1724
   pronouns: they/them
-  title: Executive Director, Business and Development Lead
+  title: Co-Executive Director
   twitter: yoyehudi
   website: https://yo-yehudi.com
   country_3: GBR
