@@ -26,7 +26,7 @@ Here are a few ways you can get started with contributing to this program.
 1. Help us address one of the [issues currently open in our repository](https://github.com/open-life-science/open-life-science.github.io/issues).
 2. [Create a new issue](https://github.com/open-life-science/open-life-science.github.io/issues/new) to suggest changes/improvements on our website/program.
 3. Send a pull request to correct typo, or fill any gap that you see on our website.
-4. Write about your [Mozilla Open Leader project and share with our participants](https://openlifesci.org/posts).
+4. Write about your [OLS project and share with our participants](https://openlifesci.org/posts).
 5. Contribute your blog posts that could be relevant for our participants. You can [check out our the stories](https://openlifesci.org/posts) to get an idea of what we post there.
 
 Do you have other ideas for contributions? Contact the organisers ([team@we-are-ols.org](mailto:team@we-are-ols.org)).
