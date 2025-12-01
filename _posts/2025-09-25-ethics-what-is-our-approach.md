@@ -31,7 +31,7 @@ I'm sure it won't surprise anyone when we say that research ethics is incredibly
 
 As a researcher, what would you like to see in a compassionate, carefully thought-out research ethics policy? What would you like us to avoid? Some examples based on discussion at our recent Seeds to Systems meeting: 
 
-### Avoid:
+### "Ethics" behaviours we want to avoid:
 - "Your form doesn't have a phone number on it. Please revise and resubmit with a phone number." (8 months later, the ethics review passes, once they've had a phone installed in the lab, even though they never intend to use it).
 - "One of your forms says last updated on yesterday's date and not today's date. Please revise and resubmit. "
 - "This is not human research, because it only involves talking to people, and doesn't involve any clinical interventions". (You can [read about the University of Minnesota getting banned from contributing to the linux kernel](https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source) if you'd like to understand the motivation for this one...)
