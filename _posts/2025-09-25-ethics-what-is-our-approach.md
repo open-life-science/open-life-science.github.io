@@ -36,6 +36,7 @@ As a researcher, what would you like to see in a compassionate, carefully though
 - "One of your forms says last updated on yesterday's date and not today's date. Please revise and resubmit. "
 - "This is not human research, because it only involves talking to people, and doesn't involve any clinical interventions". (You can [read about the University of Minnesota getting banned from contributing to the linux kernel](https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source) if you'd like to understand the motivation for this one...)
 - Assuming that just because something is legal or compliant with terms of service, that it is therefore okay. 
+- Focusing on procedural formalities, for example, "Your form doesn't have a phone number on it. Please revise and resubmit with a phone number." (8 months later, the ethics review passes, once they've had a phone installed in the lab, even though they never intend to use it); or "One of your forms says last updated on yesterday's date and not today's date. Please revise and resubmit. "
 
 ### Do: 
 - Think carefully about how you would feel if you were a research participant in a given situation. 
