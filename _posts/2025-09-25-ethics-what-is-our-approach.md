@@ -6,11 +6,11 @@ authors:
 - bethaniley
 - iramosp
 - yochannah
-image: PIC-URL-HERE
+image: [PIC-URL-HERE](https://unsplash.com/photos/a-golden-scale-with-a-crystal-ball-on-top-of-it-BsgnCm7DcNY)
 photos:
-  name: AUTHOR-HERE
-  license: LICENCE-HERE
-  url: AUTHOR-ADD-URL-HERE
+  name: Photo by Katelyn Perry
+  license: Unsplashed licence
+  url: https://unsplash.com/photos/a-golden-scale-with-a-crystal-ball-on-top-of-it-BsgnCm7DcNY
 ---
 
 **TL;DR:** You're invited to share your thoughts about what is important in research ethics on [this GitHub discussion](https://github.com/orgs/open-life-science/discussions/1079), or via Slack in #general. 
