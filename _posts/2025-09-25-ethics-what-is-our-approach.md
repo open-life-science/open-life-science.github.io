@@ -6,7 +6,7 @@ authors:
 - bethaniley
 - iramosp
 - yochannah
-image: [PIC-URL-HERE](https://unsplash.com/photos/a-golden-scale-with-a-crystal-ball-on-top-of-it-BsgnCm7DcNY)
+image: https://unsplash.com/photos/a-golden-scale-with-a-crystal-ball-on-top-of-it-BsgnCm7DcNY
 photos:
   name: Photo by Katelyn Perry
   license: Unsplashed licence
