@@ -10,12 +10,12 @@ image: https://images.unsplash.com/reserve/NV0eHnNkQDHA21GC3BAJ_Paris%20Louvr.jp
 photos:
   name: Photo by José Martín Ramírez Carrasco
   license: Free to use under the Unsplash License
-  url: [https://unsplash.com/photos/a-golden-scale-with-a-crystal-ball-on-top-of-it-BsgnCm7DcNY](https://unsplash.com/photos/group-of-people-walking-on-the-stairs-45sjAjSjArQ)
+  url: https://unsplash.com/photos/group-of-people-walking-on-the-stairs-45sjAjSjArQ
 ---
 
 **TL;DR:** You're invited to share your thoughts about what is important in research ethics on [this GitHub discussion](https://github.com/orgs/open-life-science/discussions/1079), or via Slack in #general. 
 
-**Longer:** One of OLS's three core pillars of activity is research, focusing on creating and understanding a better evidence base for equity-serving open research. Some of our previous work includes Paz Bernaldo's [Open Seeds Impact paper](https://doi.org/10.5281/zenodo.15593896) (currently in press with Wellcome Open Research), and our Alan Turing Institute funded "Widening participation in data science" policy briefs: [Widening participation in data science: implementing policy for well-being in the workplace] ( https://doi.org/10.5281/zenodo.12759410) and [Equitable & Inclusive Team Science](https://doi.org/10.5281/zenodo.15302045).
+**Longer:** One of OLS's three core pillars of activity is research, focusing on creating and understanding a better evidence base for equity-serving open research. Some of our previous work includes Paz Bernaldo's [Open Seeds Impact paper](https://doi.org/10.5281/zenodo.15593896) (currently in press with Wellcome Open Research), and our Alan Turing Institute funded "Widening participation in data science" policy briefs: [Widening participation in data science: implementing policy for well-being in the workplace]( https://doi.org/10.5281/zenodo.12759410) and [Equitable & Inclusive Team Science](https://doi.org/10.5281/zenodo.15302045).
 
 ## What we've done for ethics in the past
 
