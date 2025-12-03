@@ -9,11 +9,10 @@ team:
     - camille-gonzalez-va
     - iramosp
     - jilaga
-    - npdebs
     - rivaquiroga
-    - rowlandm
     - saravilla
-    - tajuddeen1
+    - lauracarter
+   
   alumni:
     - emmyft
     - flavioazevedo
@@ -21,6 +20,9 @@ team:
     - msundukova
     - pazbc
     - seunolufemi123
+    - tajuddeen1
+    - npdebs
+    - rowlandm
 governance:
   - anelda
   - batoolmm
@@ -124,8 +126,7 @@ fiscal_communities:
     organization: RSE-AUNZ
     name: RSE-AUNZ
     details: |
-      The RSE Association of Australia and New Zealand ([RSE-AUNZ](https://rse-aunz.org/)) is a community that aims to build awareness of the diverse Research Software Engineer (RSE) roles, to connect volunteers 
-      in the RSE domain, and to help build practical solutions for the RSE community.
+      The RSE Association of Australia and New Zealand ([RSE-AUNZ](https://rse-aunz.org/)) is a community that aims to build awareness of the diverse Research Software Engineer (RSE) roles, to connect volunteers in the RSE domain, and to help build practical solutions for the RSE community.
     logo: https://github.com/rse-aunz/rse-aunz.github.io/blob/master/assets/RSE_AUNZ_logo.png?raw=true
 -
     organization: "RCM Cooperative"
@@ -133,3 +134,9 @@ fiscal_communities:
     details: |
       A cooperative of Research Community Managers dedicated to creating equitable, resilient and collaborative research. [RCM Coop Website](https://www.rcmcooperative.com/)
     logo: https://www.rcmcooperative.com/assets/img/logo-black-square.png
+-
+    organization: "Open Science Retreat"
+    name: "Open Science Retreat"
+    details: |
+       Open Science Retreats are gatherings dedicated to promoting transparency, collaboration, and innovation in research, which offer participants an opportunity to collaborate to create systemic change, engage in career mentorship, and to mentally reset in a natural setting over the course of a multi-day residential unconference. [Open Science Retreat Global](https://open.science-retreat.org/)
+    logo: /images/OSR-Global_Logo.jpg
