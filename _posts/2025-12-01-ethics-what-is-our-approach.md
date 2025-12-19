@@ -13,7 +13,7 @@ photos:
   url: https://unsplash.com/photos/group-of-people-walking-on-the-stairs-45sjAjSjArQ
 ---
 
-**TL;DR:** You're invited to share your thoughts about what is important in research ethics on [this GitHub discussion](https://github.com/orgs/open-life-science/discussions/1079), or via Slack in #general. 
+**TL;DR:** You're invited to share your thoughts about what is important in research ethics on [this GitHub discussion](https://github.com/orgs/open-life-science/discussions/1079), or via Slack in #general **by end of January**.
 
 **Longer:** One of OLS's three core pillars of activity is research, focusing on creating and understanding a better evidence base for equity-serving open research. Some of our previous work includes Paz Bernaldo's [Open Seeds Impact paper](https://doi.org/10.5281/zenodo.15593896) (currently in press with Wellcome Open Research), and our Alan Turing Institute funded "Widening participation in data science" policy briefs: [Widening participation in data science: implementing policy for well-being in the workplace]( https://doi.org/10.5281/zenodo.12759410) and [Equitable & Inclusive Team Science](https://doi.org/10.5281/zenodo.15302045).
 
@@ -64,4 +64,4 @@ How does that hypothetical scale sound? If you think something falls on the wron
 - What about when it’s hard to be honest about what the study is (e.g. when explaining might be too technical, and/or it might impact the results of the study)?
 - Are there any national or international "gotchas" we're not aware of? 
 
-Ready to offer feedback, ask questions, or something else? feel free to contribute to the thread in the OLS Slack, and/or comment on [this discussion](https://github.com/orgs/open-life-science/discussions/1079)
+Ready to offer feedback, ask questions, or something else? feel free to contribute to the thread in the OLS Slack, and/or comment on [this discussion](https://github.com/orgs/open-life-science/discussions/1079) **by end of January**
