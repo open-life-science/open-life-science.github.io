@@ -25,7 +25,7 @@ When we got the good news that we'd been awarded real money from EOSC-Life (yay!
 
 ### 2020 - 2021: Small funding pots, to test funded cohorts
 
-OLS-3 and OLS-4 ran with small-ish grants - not enough to pay staff to run the program, but enough to pay for Zoom, mentor training, and to offer money to Mentors. This was one important step for us: we set up accounts and infrastructure to receive money, and we made sure to invest in our community.  Time in an unequally distributed privilege, and our hope was that we'd end up over-representing communities that are normally unable to volunteer.
+OLS-3 and OLS-4 ran with small-ish grants - not enough to pay staff to run the program, but enough to pay for Zoom, mentor training, and to offer money to Mentors. This was one important step for us: we set up accounts and infrastructure to receive money, and we made sure to invest in our community.  Time is an unequally distributed privilege, and our hope was that we'd end up over-representing communities that are normally unable to volunteer.
 
 Emmy had joined the director team, and at this point, though, all directors were still working full-time on other things, and for OLS on a volunteer basis. Our energy was beginning to become very stretched. Luckily, something big was about to change. 
 
