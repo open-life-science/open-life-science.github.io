@@ -25,7 +25,7 @@ Drawing on ongoing research on the leverage points that can enable opportunities
 
 With that approach in mind, and considering that this was a three-hour workshop for early-career researchers with very different lived experiences of applying for grants, we split the workshop into three sections.
 
-In the first part, the focus was on drafting a mental model of the current funding and grant readiness landscape. We gave an overview of what is funded and who funds it, what the grant application processes usually looks like, which parts involve actually writing something, and what other activities can help make you more prepared for the process. One of the key ideas we wanted to convey is that there is not one funding scheme that will solve all your project needs. 
+In the first part, the focus was on drafting a mental model of the current funding and grant readiness landscape. We gave an overview of what is funded and who funds it, what the grant application processes usually look like, which parts involve actually writing something, and what other activities can help make you more prepared for the process. One of the key ideas we wanted to convey is that there is not one funding scheme that will solve all your project needs. 
 
 <img
   src="{% link images/2025-12-18_elife-workshop-fig-1.png %}"
