@@ -64,8 +64,8 @@ Finally, in the last part of the workshop, we went through different strategies 
   style="width:75%;"
 />
 
+We’ve made the workshop slides available on [Zenodo](https://doi.org/10.5281/zenodo.17987986), in case you want to dive deeper into the topics we covered.
 
 ### Lessons learned
 
 As always, there is no better way to learn about a topic than by teaching it. For us, running this workshop was a great opportunity to translate months of research into practice and to better understand how we can support this and other communities in the future. We are proud to have shared the first iteration of our Seeds to Systems curriculum with the eLife Ambassadors community, deepening our history of collaboration. We are also grateful to Ambassadors for their enthusiastic participation in the workshop and valuable feedback: there is a need for a practical curriculum beyond grant-writing. Stay tuned for more opportunities to both shape and participate in our training next year! 
-
