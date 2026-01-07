@@ -67,8 +67,8 @@ partners:
   -
     organization: elixir
     details: |
-      The program organisers are associated with ELIXIR member institutes
-      and several mentors and experts are from different ELIXIR nodes.
+      OLS is an ELIXIR-UK member organisation, and OLS as a community 
+      is associated with ELIXIR member institutes in various different ELIXIR nodes.
   -
     organization: turing-way
     details: |
@@ -116,7 +116,7 @@ sponsors:
   -
     organization: university-freiburg
     details: |
-       Previous collaborator - University of Freiburg is Bérénice's current affiliation.
+       Previous collaborator - University of Freiburg was Bérénice's affiliation.
   -
     organization: university-manchester
     details: |
@@ -140,3 +140,11 @@ fiscal_communities:
     details: |
        Open Science Retreats are gatherings dedicated to promoting transparency, collaboration, and innovation in research, which offer participants an opportunity to collaborate to create systemic change, engage in career mentorship, and to mentally reset in a natural setting over the course of a multi-day residential unconference. [Open Science Retreat Global](https://open.science-retreat.org/)
     logo: /images/OSR-Global_Logo.jpg
+
+incubator_fellows:
+-
+    organization: "rainbowR"
+    name: "Ella Kaye, representing rainbowR"
+    details: |
+       <a href="https://github.com/EllaKaye/">Ella Kaye</a> is an OLS Incubator Fellow working with OLS for short-term fiscal sponsorship until <a href="https://rainbowr.org/">rainbowR</a> has an official legal structure and bank account. rainbowR's mission is to connect, support and promote LGBTQ+ people in the R community and to spread awareness of LGBTQ+ issues through data-driven activism.
+    logo: https://rainbowr.org/images/rainbow-hex.png
