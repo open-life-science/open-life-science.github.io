@@ -45,28 +45,34 @@ we ask that you follow our [code of conduct](CODE_OF_CONDUCT.md) in all
 interactions, both on and offline.
 
 
-## How can I generate the website and contribute using GitPod?
+## How can I generate the website and contribute using GitHub Codespaces?
 
-[GitPod](https://www.gitpod.io/) is an open-source developer platform for remote development. You can use it to generate the website without installing anything on your computer.
+[GitHub Codespaces](https://github.com/features/codespaces) is a cloud development environment integrated with GitHub. You can use it to generate the website without installing anything on your computer.
 
-1. Setting up GitPod
-   1. Create a fork of the OLS GitHub repository (to do only 1 time)
-      1. Go on the GitHub repository: [github.com/open-life-science/open-life-science.github.io](https://github.com/open-life-science/open-life-science.github.io)
+1. Setting up a Codespace
+   1. Create a fork of the OLS GitHub repository (to do only once)
+      1. Go to the GitHub repository: [github.com/open-life-science/open-life-science.github.io](https://github.com/open-life-science/open-life-science.github.io)
       2. Click on the Fork button (top-right corner of the page)
-   2. Open your browser and navigate to [gitpod.io](https://www.gitpod.io/)
-   3. Log in with GitHub
-   4. Copy the link to your fork of the GTN, e.g. https://github.com/bebatut/open-life-science.github.io
 
-      Gitpod will now configure your environment. This may take some time.
+      If you already have a fork, make sure to sync it first: go to your fork on GitHub and click "Sync fork" to get the latest changes from the main repository.
 
-      Once the setup is finished, you should see a page with:
-      - On the Left: All the files in the OLS repository.
-      - Top: The main window where you can view and edit files.
-      - Bottom: Terminal window, where you can type commands (e.g. to build the website preview) and read output and error messages.
+   2. Open your fork on GitHub
+   3. Click the green "Code" button, then select the "Codespaces" tab
+   4. Click "Create codespace on main" (or your preferred branch)
+
+      GitHub will now configure your working space. This may take some time.
+
+      Once the setup is finished, you should see a VS Code-like interface with:
+      - On the Left: All the files in the OLS repository
+      - Top: The main window where you can view and edit files
+      - Bottom: Terminal window, where you can type commands (e.g. to build the website preview) and read output and error messages
 
 2. Build and preview the OLS website
-   1. Type the following command `make serve-gitpod` in the terminal window (bottom)
-   2. Click on the link in the terminal to see the OLS in full-screen: `Server address: http://127.0.0.1:4000`
+   1. Set up the conda environment: `make create-env`
+   2. Install the project's dependencies: `make install`
+   3. Start the website: `make serve`
+   4. A popup will appear offering to open the preview in your browser. Click "Open in Browser"
+      (Or click on the "Ports" tab and open the forwarded port 4000)
 
 3. Make and view changes
    1. Open and/or create files via the file browser on the left
@@ -75,22 +81,25 @@ interactions, both on and offline.
 
 4. Saving changes back to GitHub
    1. Option 1: via the terminal
-      1. Create a new branch with `git checkout`
-      2. Commit your changes with `git add` and `git commit`
-      3. Push changes with `git push origin`
+      1. Create a new branch with `git checkout -b your-branch-name` or `git switch -c your-branch-name`
+      2. Commit your changes with `git add .` and `git commit -m "Your message"`
+      3. Push changes with `git push origin your-branch-name`
    2. Option 2: via the web interface
       1. Create a new branch
-         1. Click on the bottom-left on the branch logo button on the bottom of the page with the current branch (probably "main")
-         2. Give your new branch a name (at top of window)
-         3. Choose "+ Create new branch..." from the dropdown
-      2. Commit changes
-         1. Click on the "Source Control" tab button (branch) on the left menu to show changed files.
-         2. Click on the "+" icon next to the edited files to stage changes (stage changes button).
-         3. Hit the checkmark icon at the top to commit the changes.
-         4. Enter a commit message (top of window) - Publish changes.
-         5. Click the cloud button at bottom left to publish your changes (publish changes button).
+         1. Click on the branch name at the bottom-left of the window
+         2. Choose "+ Create new branch..." from the dropdown
+         3. Give your new branch a name (at top of window)
 
-            Changes are now saved to your fork, and you can make a PR via the GitHub interface
+      2. Commit changes
+         1. Click on the "Source Control" tab (branch icon) on the left menu to show changed files
+         2. Click on the "+" icon next to the edited files to stage changes
+         3. Enter a commit message in the text box at the top
+         4. Click the checkmark icon to commit the changes
+         5. Click "Publish Branch" to push your changes
+
+      Changes are now saved to your fork, and you can make a PR via the GitHub interface
+
+**Note:** By default, Codespaces are automatically deleted after 30 days of inactivity. To prevent deletion, simply open the codespace again to reset the timer.
    
 ## How can I generate the website locally?
 
@@ -146,7 +155,7 @@ Our knowledge about our different programs, our community, etc is managed via th
 
 ## **Deploy Preview for Pull Requests**  
 
-This repository uses GitHub Actions to generate a **preview deployment** of pull requests. 
+This repository uses GitHub Actions to generate a **preview deployment** of pull requests from branches in this repository.
 This allows contributors to see changes live before merging them into the `main` branch.  
 
 ### **How It Works**  
@@ -176,8 +185,8 @@ This allows contributors to see changes live before merging them into the `main`
 This workflow uses a Personal Access Token (PAT) (`PR_PREVIEW_TOKEN`) to deploy previews. 
 Due to GitHub security restrictions, contributors who are not part of the Open Life Science organisation may not have their PR previews generated automatically.
 
-- Organisation members’ PRs will automatically receive a preview link.
-- External contributors' PRs may require a manual workflow run by a maintainer to generate a preview.
+- PRs from organisation members working on branches **in this repository** will automatically receive a preview link.
+- PRs from forks (even from organisation members) will not generate previews automatically.
 
 ## License
 
