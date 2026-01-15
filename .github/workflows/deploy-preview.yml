@@ -25,9 +25,11 @@ jobs:
         bundle install   
 
     - name: Build Jekyll site   # Step 4: Build the site with Jekyll, and put it in '_site' directory.
+      env:
+        JEKYLL_BASEURL: /ols-site-preview/${{ github.event.pull_request.number }}
       run: |
-        pr_number=${{ github.event.pull_request.number }}
-        bundle exec jekyll build --baseurl "/ols-site-preview/$pr_number" --destination _site
+        echo "baseurl: $JEKYLL_BASEURL" > _config_preview.yml
+        bundle exec jekyll build --config _config.yml,_config_preview.yml --destination _site
 
     # Step 5: Clone existing gh-pages branch. This preserves previously deployed PR previews.    
     - name: Clone existing gh-pages branch
