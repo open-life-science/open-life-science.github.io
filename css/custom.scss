@@ -206,6 +206,29 @@ img {
   }
 }
 
+.people-card {
+  position: relative;
+  scroll-margin-top: 5rem;
+}
+
+.people-card-link {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: #ccc !important;
+  font-size: 0.9rem;
+  z-index: 1;
+  text-decoration: none;
+  border-bottom: none !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+
+  &:hover {
+    color: $dark-green !important;
+    background: none !important;
+  }
+}
+
 .people-badge {
   height: 2em;
   border-radius: 50%;
