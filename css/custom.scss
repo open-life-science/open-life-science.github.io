@@ -140,6 +140,26 @@ img {
 .people {
   margin-bottom: 1em;
 
+  .people-card {
+    position: relative;
+    scroll-margin-top: 5rem;
+  }
+
+  .people-card-link {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: #ccc;
+    font-size: 0.9rem;
+    z-index: 1;
+    border-bottom: none;
+
+    &:hover {
+      color: $dark-green;
+      background: none;
+    }
+  }
+
   .media {
     height: 230px;
   }
