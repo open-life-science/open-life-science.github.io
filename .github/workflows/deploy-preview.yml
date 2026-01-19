@@ -17,7 +17,7 @@ jobs:
     - name: Set up Ruby   # Step 2: Set up Ruby for the runner.
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1   # Use Ruby version 3.1
+        ruby-version: 3.4   # Use Ruby version 3.4
         bundler-cache: true   # Cache Ruby gems for quicker builds
 
     - name: Install dependencies   # Step 3: Install all Ruby packages required for the site.
