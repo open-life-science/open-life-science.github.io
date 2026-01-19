@@ -34,6 +34,7 @@ create-env: ## create conda environment
 ACTIVATE_ENV = source $(CONDA_BASE)/etc/profile.d/conda.sh && conda activate ${CONDA_ENV} && export PATH="$(CONDA_BASE)/envs/$(CONDA_ENV)/bin:$$PATH"
 install: clean ## install dependencies
 	$(ACTIVATE_ENV) && \
+		bundle config build.nokogiri --use-system-libraries && \
 		bundle install
 .PHONY: install
 
