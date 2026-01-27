@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Our stories
+description: Blog posts, news, and updates from OLS about open science training, community events, and program announcements.
 image: /images/posts.jpg
 photos:
   name: electricnude

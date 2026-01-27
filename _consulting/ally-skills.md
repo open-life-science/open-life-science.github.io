@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ally Skills
+description: Ally skills workshops to help create inclusive environments, available as in-house or public sessions.
 image: https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?
 photos:
   name: Anthony DELANOIX
