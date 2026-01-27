@@ -8,7 +8,10 @@ import bibtexparser
 import pandas as pd
 import pycountry
 from geopy.geocoders import Nominatim
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import (
+    Environment,
+    FileSystemLoader,
+)
 from pyzotero import zotero
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
