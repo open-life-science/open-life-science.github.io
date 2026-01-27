@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Open Seeds Research'
+description: Research on the long-term impact of Open Seeds training and mentoring on open science practices.
 image: https://images.unsplash.com/photo-1694002070710-87e709ca4d38
 photos:
   name: Dilani Wickramanayake

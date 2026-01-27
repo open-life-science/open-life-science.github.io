@@ -1,7 +1,8 @@
 ---
 layout: page
 toc: true
-title: Welcome to Open Seeds Cohort 8 
+title: Welcome to Open Seeds Cohort 8
+description: Syllabus, schedule, and projects from Open Seeds Cohort 8 (OLS-8).
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg

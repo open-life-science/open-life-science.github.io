@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Consulting
+description: OLS consulting services including accessibility, ally skills training, and organisational leadership workshops.
 permalink: /consulting/
 image: https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?
 photos:

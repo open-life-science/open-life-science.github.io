@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Open Science
+description: What is open science? Learn about its principles, pillars, and vision for accessible research.
 image: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09
 photos:
   name: Noah Buscher

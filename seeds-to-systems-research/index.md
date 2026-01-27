@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Seeds to Systems Research'
+description: Research informing OLS training and operations under the Seeds to Systems strategic phase.
 image: https://images.unsplash.com/photo-1578137937725-872bcb51d874
 photos:
   name: Alper Ergin

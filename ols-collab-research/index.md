@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'OLS Collaborative Research'
+description: Collaborative research projects led by OLS in partnership with other organizations.
 image: https://images.unsplash.com/photo-1627686376555-1c60617dbda8
 photos:
   name: Townsend Walton

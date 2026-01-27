@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Welcome to the 1st cohort of OLS program!
+description: Syllabus, schedule, and projects from Open Seeds Cohort 1 (OLS-1).
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg

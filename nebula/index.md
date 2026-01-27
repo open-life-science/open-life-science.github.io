@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'OLS-NASA Nebula Program'
+description: NASA Open Science 101 training program delivered by OLS with virtual cohort-based learning.
 image: /images/nebula/neb-hero-image.png
 photos:
   name: Jilaga Nneoma
