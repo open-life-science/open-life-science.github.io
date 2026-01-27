@@ -1,6 +1,6 @@
 ## 👥 Panel discussion
 
-[HOST] (<duration> min) [⏰ <timing>]
+[HOST] ({{ duration }} min) [⏰ {{ timing }}]
 
 
 **Notes**:

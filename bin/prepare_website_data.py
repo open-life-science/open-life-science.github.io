@@ -8,6 +8,7 @@ import bibtexparser
 import pandas as pd
 import pycountry
 from geopy.geocoders import Nominatim
+from jinja2 import Environment, FileSystemLoader
 from pyzotero import zotero
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQS
@@ -1315,86 +1316,81 @@ def extract_calls(schedule_df):
     return calls
 
 
-def read_template(fp):
+def create_template_env(template_dir):
     """
-    Read a template file and return content
+    Create and return a Jinja2 environment
 
-    :param fp: Path to template file
+    :param template_dir: Path to template directory
     """
-    with open(fp) as f:
-        return f.read()
+    return Environment(loader=FileSystemLoader(template_dir))
 
 
-def replace_template(template, to_replace):
+def render_template(env, template_name, context):
     """
-    Replace string in a template
+    Render a Jinja2 template with the given context
 
-    :param template: template text
-    :param to_replace: dictionary with key string to replace and value the new string
+    :param env: Jinja2 environment
+    :param template_name: name of the template file
+    :param context: dictionary with template variables
     """
-    for k, v in to_replace.items():
-        if k in ["<duration>", "<timing>", "<people>"]:
-            v = str(v)
-        if v:
-            template = template.replace(k, v)
-        else:
-            template = template.replace(k, "")
-    return template
+    template = env.get_template(template_name)
+    return template.render(**context)
 
 
 def create_templates(calls, output_dp):
     """
     Create templates for calls in a cohort
 
-    :param schedule_df: dictionary with cohort calls
+    :param calls: dictionary with cohort calls
     :param output_dp: Path object to output directory
     """
     template_dp = Path("bin/templates")
+    env = create_template_env(template_dp)
     for w, call in calls.items():
         week_dp = output_dp / Path(f"week-{w}")
         week_dp.mkdir(parents=True, exist_ok=True)
         with open(week_dp / Path(f"week-{w}-template.md"), "w") as out_f:
-            to_replace = {
-                "<week-nb>": w,
-                "<title>": call["title"],
-                "<date>": call["date"],
-                "<time>": call["time"],
-                "<duration>": call["duration"],
-                "<lead>": call["lead"],
-                "<facilitator>": call["facilitator"],
-                "<learning_objectives>": call["learning_objectives"],
-                "<icebreaker>": call["icebreaker"],
+            context = {
+                "week_nb": w,
+                "title": call["title"],
+                "date": call["date"],
+                "time": call["time"],
+                "duration": call["duration"],
+                "lead": call["lead"],
+                "facilitator": call["facilitator"],
+                "learning_objectives": call["learning_objectives"],
+                "icebreaker": call["icebreaker"],
             }
-            out_f.write(replace_template(read_template(template_dp / Path("header.md")), to_replace))
+            out_f.write(render_template(env, "header.md", context))
             timing = 0
             for content in call["content"]:
                 if content["type"] == "welcome":
                     timing += content["duration"]
-                    to_replace = {
-                        "<duration>": content["duration"],
-                        "<timing>": timing,
+                    context = {
+                        "duration": content["duration"],
+                        "timing": timing,
                     }
-                    out_f.write(replace_template(read_template(template_dp / Path("welcome.md")), to_replace))
+                    out_f.write(render_template(env, "welcome.md", context))
                 elif content["type"] == "presentation":
                     timing += content["duration"]
-                    to_replace = {
-                        "<duration>": content["duration"],
-                        "<timing>": timing,
-                        "<title>": content["title"],
-                        "<speaker>": content["speakers"],
-                        "<slides>": content["slides"],
+                    context = {
+                        "duration": content["duration"],
+                        "timing": timing,
+                        "title": content["title"],
+                        "speaker": content["speakers"],
+                        "slides": content["slides"],
                     }
-                    out_f.write(replace_template(read_template(template_dp / Path("presentation.md")), to_replace))
+                    out_f.write(render_template(env, "presentation.md", context))
                 elif content["type"] == "breakout":
                     timing += content["duration"]
-                    to_replace = {
-                        "<duration>": content["duration"],
-                        "<timing>": timing,
-                        "<title>": content["title"],
-                        "<people>": content["people"],
-                        "<instructions>": content["instructions"],
+                    context = {
+                        "duration": content["duration"],
+                        "timing": timing,
+                        "title": content["title"],
+                        "people": content["people"],
+                        "instructions": content["instructions"],
                     }
-                    out_f.write(replace_template(read_template(template_dp / Path("breakout.md")), to_replace))
+                    out_f.write(render_template(env, "breakout.md", context))
                 elif content["type"] == "silent":
                     timing += content["duration"]
                     questions = ""
@@ -1402,32 +1398,33 @@ def create_templates(calls, output_dp):
                         questions += f"* { q }\n\n"
                         questions += "   *\n"
                         questions += "   *\n\n"
-                    to_replace = {
-                        "<duration>": content["duration"],
-                        "<timing>": timing,
-                        "<title>": content["title"],
-                        "<questions>": questions,
+                    context = {
+                        "duration": content["duration"],
+                        "timing": timing,
+                        "title": content["title"],
+                        "questions": questions,
                     }
-                    out_f.write(replace_template(read_template(template_dp / Path("silent.md")), to_replace))
+                    out_f.write(render_template(env, "silent.md", context))
                 elif content["type"] == "panel":
                     timing += content["duration"]
-                    to_replace = {
-                        "<duration>": content["duration"],
-                        "<timing>": timing,
+                    context = {
+                        "duration": content["duration"],
+                        "timing": timing,
                     }
-                    out_f.write(replace_template(read_template(template_dp / Path("panel.md")), to_replace))
+                    out_f.write(render_template(env, "panel.md", context))
 
                 if "after" in content:
                     out_f.write(f"{content['after']}\n\n")
                     out_f.write("\n")
 
             timing += 5
-            to_replace = {
-                "<assignments>": content["after"] if "after" in content else None,
-                "<year>": "2023",
-                "<duration>": 5,
+            context = {
+                "assignments": content["after"] if "after" in content else "",
+                "year": call["date"].split()[-1] if call["date"] else "",
+                "duration": 5,
+                "timing": timing,
             }
-            out_f.write(replace_template(read_template(template_dp / Path("closing.md")), to_replace))
+            out_f.write(render_template(env, "closing.md", context))
 
 
 ### COMMANDS
