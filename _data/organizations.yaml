@@ -94,7 +94,7 @@ turing:
 turing-way:
     name: The Turing Way
     website: https://the-turing-way.netlify.com
-    logo: https://the-turing-way.netlify.app/_static/logo-detail-with-text.svg
+    logo: https://raw.githubusercontent.com/the-turing-way/the-turing-way/refs/heads/main/book/figures/logo-detail-with-text.svg
     country: United Kingdom
 university-freiburg:
     name: Albert-Ludwigs-Universität Freiburg
