@@ -1,10 +1,10 @@
 ## 🗣️ Closing
 
-[HOST] (<duration> min) [⏰ <timing>]
+[HOST] ({{ duration }} min) [⏰ {{ timing }}]
 
 ### Assignments
 
-<assignments>
+{{ assignments }}
 
 ### Have any questions? 
 
@@ -41,4 +41,4 @@ What surprised you?
 
 **Reference**: Mozilla Open leadership Framework, OLS
 
-**Licence**: CC BY 4.0, Open Seeds by OLS, <year>
+**Licence**: CC BY 4.0, Open Seeds by OLS, {{ year }}
