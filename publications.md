@@ -8,6 +8,20 @@ photos:
   url: https://unsplash.com/photos/pile-of-papers-MldQeWmF2_g
 ---
 
+# Publications by OLS team
+
+## Papers
+
+{% bibliography --file team --query @article %}
+
+## Posters, slides, etc
+
+{% bibliography --file team --query !@article %}
+
+# More community outputs
+
+For additional outputs and resources, check out our [Zenodo community](https://zenodo.org/communities/openlifesci/).
+
 # Citing OLS work
 
 If we have helped your research, please cite us and help us to maintain funding!
@@ -30,13 +44,3 @@ This work was supported by [OLS](we-are-ols.org) as part of its (Open Seeds / Ne
 If you would like to cite OLS using the scientific publishing/referencing systems, please cite: 
 
 > Bernaldo, P., Pereyra Irujo, G., Yehudi, Y., van der Walt, A., Iley, B., Míguez, M. P., Ramos, I., Plomp, E., & Sharan, M. (2025). Examining the impact and limitations of Open Science training: a case study of the "Open Seeds" programme. Zenodo. [https://doi.org/10.5281/zenodo.15593896](https://doi.org/10.5281/zenodo.15593896)
-
-# Publications by OLS team
-
-## Papers
-
-{% bibliography --file team --query @article %}
-
-## Posters, slides, etc
-
-{% bibliography --file team --query !@article %}
