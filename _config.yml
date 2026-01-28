@@ -44,3 +44,6 @@ plugins:
   - jekyll-spaceship
   - jekyll-redirect-from
   - jekyll-toc
+
+scholar:
+  bibliography_template: bib

@@ -40,3 +40,7 @@ If you would like to cite OLS using the scientific publishing/referencing system
 ## Posters, slides, etc
 
 {% bibliography --file team --query !@article %}
+
+# More community outputs
+
+For additional outputs and resources, check out our [Zenodo community](https://zenodo.org/communities/openlifesci/).
