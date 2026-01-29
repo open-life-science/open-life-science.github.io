@@ -12,7 +12,7 @@ items:
     icon: fa fa-graduation-cap
   -
     text: Check out our upcoming events
-    link: /events
+    link: /events-and-outreach
     icon:  fa fa-calendar
   -
     text: Read our stories
