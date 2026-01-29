@@ -123,8 +123,6 @@ OLS mentions around the web.
 ### 2023
 - The Science in Real Life Podcast: _Open Science, founding Open Seeds / Open Life Science (OLS) and getting into academia backwards with Yo Yehudi, Executive Director Open Seeds_. [Spotify](https://open.spotify.com/episode/3iH7n6nKJGPnLDpw9nhHKQ), [Anchor.fm](https://anchor.fm/s/de20d8c8/podcast/play/72415957/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-21%2Fd76f80cd-2d11-ce32-bd23-3b28c8df8f3c.mp3), [[Archived link](https://web.archive.org/web/20260128225632/https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-5-21/d76f80cd-2d11-ce32-bd23-3b28c8df8f3c.mp3)]
 
-https://web.archive.org/web/20260128225632/https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-5-21/d76f80cd-2d11-ce32-bd23-3b28c8df8f3c.mp3
-
 - Code for Thought Podcast: _RSE in Asia (Saranjeet Kaur and Jyoti Boghal)_. <https://codeforthought.buzzsprout.com/1326658/episodes/12813116-en-rse-in-asia>, [[Archived link](https://web.archive.org/web/20250516234318/https://codeforthought.buzzsprout.com/1326658/episodes/12813116-en-rse-in-asia)] 
 
 ### 2021
