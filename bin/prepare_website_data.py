@@ -1858,14 +1858,19 @@ def create_project_table(program):
 
     :param program: Training program
     """
-    columns = ["", "Name", "Participants", "Keywords", "Mentors", "Description", "Cohort", "Status", "Collaboration"]
+    columns = ["Name", "Participants", "Keywords", "Mentors", "Description", "Cohort", "Status", "Collaboration"]
     df = (
         pd.read_csv(artifact_dp[program] / Path("projects.csv"), index_col=False)
         .rename(columns=str.title)
         .reindex(columns=columns)
         .fillna("")
     )
-    df_str = df.to_html(border=0, table_id="dataframe", classes=["display", "nowrap"], index=False)
+    # Create a preview column with cohort and project name for the control column
+    df.insert(0, "Project", df.apply(lambda row: f"Cohort: {row['Cohort']} - {row['Name']}", axis=1))
+    # Remove literal \n from Description (line breaks already have <br>)
+    df["Description"] = df["Description"].str.replace(r"\\n", "", regex=True)
+    df["Description"] = df["Description"].str.replace("\n", "", regex=False)
+    df_str = df.to_html(border=0, table_id="dataframe", classes=["display"], index=False, escape=False)
     with Path(f"_includes/{program}-project.html").open("w") as project_f:
         project_f.write(df_str)
 
