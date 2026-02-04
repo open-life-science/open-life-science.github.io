@@ -74,7 +74,7 @@ Project ideas can range from solving technical questions to creating an open d
     {% endfor %}
     {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if participants > 0 %}
-- [{{ projects | size }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects) ([{{ participants }} participants]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants)) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ projects | size }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects) ([{{ participants }} participants]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants)) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start | date: "%B %d, %Y" }} - {{ cohort_end | date: "%B %d, %Y" }})
     {% endif %}
 {% endfor %}
 
@@ -159,7 +159,7 @@ Recruitment of the mentees for the next cohort will start in few months. Stay tu
     {% endfor %}
     {% assign participants = participants | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if participants > 0 %}
-- [{{ participants }} mentees]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants) working on ([{{ projects | size }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects)) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ participants }} mentees]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#participants) working on ([{{ projects | size }} projects]({% link openseeds/{{ cohort_name }}/projects-participants.md %}#projects)) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start | date: "%B %d, %Y" }} - {{ cohort_end | date: "%B %d, %Y" }})
     {% endif %}
 {% endfor %}
 
@@ -220,7 +220,7 @@ Our program is only possible thanks to our awesome mentors:
     {% endfor %}
     {% assign mentors = mentors | remove_first: ', ' | split: ', ' | uniq | size %}
     {% if mentors > 0 %}
-- [{{ mentors }} mentors]({% link openseeds/{{ cohort_name }}/index.md %}#mentors) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ mentors }} mentors]({% link openseeds/{{ cohort_name }}/index.md %}#mentors) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start | date: "%B %d, %Y" }} - {{ cohort_end | date: "%B %d, %Y" }})
     {% endif %}
 {% endfor %}
 
@@ -258,7 +258,7 @@ We are currently recruiting the experts - this route is a good way to join the p
         {%- assign cohort_end = week[1].start %}
     {% endfor %}
     {% if experts > 0 %}
-- [{{ experts }} experts ]({% link openseeds/{{ cohort_name }}/index.md %}#experts) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ experts }} experts ]({% link openseeds/{{ cohort_name }}/index.md %}#experts) for [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start | date: "%B %d, %Y" }} - {{ cohort_end | date: "%B %d, %Y" }})
     {% endif %}
 {% endfor %}
 
@@ -294,6 +294,6 @@ Our facilitators are essential for the program:
         {% assign cohort_end = week[1].start %}
     {% endfor %}
     {% if facilitators > 0 %}
-- [{{ facilitators }} facilitators]({% link openseeds/{{ cohort_name }}/index.md %}#facilitators) [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start }} - {{ cohort_end }})
+- [{{ facilitators }} facilitators]({% link openseeds/{{ cohort_name }}/index.md %}#facilitators) [**{{ cohort_name | upcase }}**]({% link openseeds/{{ cohort_name }}/index.md %}) ({{ cohort_start | date: "%B %d, %Y" }} - {{ cohort_end | date: "%B %d, %Y" }})
     {% endif %}
 {% endfor %}

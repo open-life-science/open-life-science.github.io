@@ -1,11 +1,11 @@
 # Schedule for the openseeds ols-8
 ---
 timeline:
-- date: June 1, 2023
+- date: 2023-06-01
   description: Call for Application opens
   details: See the [guidelines and 
     templates](https://github.com/open-life-science/application-forms)
-- date: June 9, 2023
+- date: 2023-06-09
   time: '10:00'
   description: Application webinar
   type:
@@ -15,7 +15,7 @@ timeline:
   recording:
   details: Watch recordings from previous webinars on 
     [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
-- date: June 28, 2023
+- date: 2023-06-28
   time: '17:00'
   description: Application Clinic Call
   type:
@@ -23,29 +23,29 @@ timeline:
   notes:
   details: At this call, OLS team will be available to provide help if you have 
     any question related to your application
-- date: July 11, midnight, UTC, 2023
+- date: 2023-07-11
   description: Call for applications closed
-- date: August 1, 2023
+- date: 2023-08-01
   description: Successful applicants announced
 weeks:
   '00':
     start: ''
     calls:
-    - date: September 13, 2023
+    - date: '2023-09-13'
       duration: 60 min
       title: Mentor onboarding group 1
       hosts:
       - pazbc
       type: Mentor
       talks: []
-    - date: September 14, 2023
+    - date: '2023-09-14'
       duration: 60 min
       title: Mentor onboarding group 2
       hosts:
       - pazbc
       type: Mentor
       talks: []
-    - date: September 15, 2023
+    - date: '2023-09-15'
       duration: 60 min
       title: Mentor onboarding group 3
       hosts:
@@ -53,7 +53,7 @@ weeks:
       type: Mentor
       talks: []
   '01':
-    start: September 18, 2023
+    start: '2023-09-18'
     calls:
     - duration: 30 min
       content: |-
@@ -64,21 +64,21 @@ weeks:
       type: Mentor-Mentee
       talks: []
   '02':
-    start: September 25, 2023
+    start: '2023-09-25'
     calls:
     - time: "08:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
       type: Mentor
-      date: September 26, 2023
+      date: '2023-09-26'
       talks: []
     - time: "14:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
-      date: September 28, 2023
+      date: '2023-09-28'
       talks: []
-    - date: September 26, 2023
+    - date: '2023-09-26'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-02
       title: Welcome to Open Seeds & Tooling for Project Design
@@ -141,13 +141,13 @@ weeks:
         issues with feedback on their vision statement.
       - '🛣 Start your Roadmap and comment on your issue with your draft Roadmap: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A)'
   '03':
-    start: October 02, 2023
+    start: '2023-10-02'
     calls:
     - duration: 30 min
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: October 04, 2023
+    - date: '2023-10-04'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-03
       title: Welcome to Open Seeds & Tooling for Project Design
@@ -206,9 +206,9 @@ weeks:
         issues with feedback on their vision statement.
       - '🛣 Start your Roadmap and comment on your issue with your draft Roadmap: [https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/start-your-project-roadmap/Q\&A)'
   '04':
-    start: October 09, 2023
+    start: '2023-10-09'
     calls:
-    - date: October 11, 2023
+    - date: '2023-10-11'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-04
       title: Tooling for Open Collaboration
@@ -257,13 +257,13 @@ weeks:
         * Add a Code of Conduct to your repository as a file called `CODE_OF_CONDUCT.md:
         [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
   '05':
-    start: October 16, 2023
+    start: '2023-10-16'
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: October 17, 2023
+    - date: '2023-10-17'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-05
       title: GitHub tutorial for beginners
@@ -303,9 +303,9 @@ weeks:
         your 'project issue'"
       recording: https://youtu.be/Af-VLs_9DXo
   '06':
-    start: October 23, 2023
+    start: '2023-10-23'
     calls:
-    - date: October 24, 2023
+    - date: '2023-10-24'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-06
       title: Open Science Garden I
@@ -353,13 +353,13 @@ weeks:
         pace.
       recording: https://youtu.be/Fbw0pkQGXZU
   '07':
-    start: October 30, 2023
+    start: '2023-10-30'
     calls:
     - duration: 30 min
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: November 01, 2023
+    - date: '2023-11-01'
       time: "17:00"
       duration: 30 min
       notes: https://bit.ly/ols-8-week-07
@@ -369,9 +369,9 @@ weeks:
       hosts:
       - yochannah
   '08':
-    start: November 06, 2023
+    start: '2023-11-06'
     calls:
-    - date: November 08, 2023
+    - date: '2023-11-08'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-8-week-08
@@ -406,13 +406,13 @@ weeks:
         experiences and expectations in planning your projects
       recording: https://youtu.be/UAjkqNGIkDk
   '09':
-    start: November 13, 2023
+    start: '2023-11-13'
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: November 14, 2023
+    - date: '2023-11-14'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-09
       title: Open Leadership in Practice
@@ -439,9 +439,9 @@ weeks:
       - Recall non traditional (academic) career path
       - Appreciate different leaderships
   '10':
-    start: November 20, 2023
+    start: '2023-11-20'
     calls:
-    - date: November 21, 2023
+    - date: '2023-11-21'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-10
       title: Open Science Garden II
@@ -478,13 +478,13 @@ weeks:
       - Give examples of 3 use cases of the different Open Science principles
       recording: https://youtu.be/NxWpBicnqC0?si=PymL4gOSTjYRVvRY
   '11':
-    start: November 27, 2023
+    start: '2023-11-27'
     calls:
     - duration: 30 min
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: November 29, 2023
+    - date: '2023-11-29'
       duration: 90 min
       notes: https://bit.ly/ols-8-week-11
       title: 'Tooling for Collaboration: Open-source software in practice'
@@ -520,9 +520,9 @@ weeks:
       - Identify package management for your software
       - 'Make your software ready for open-source- '
   '12':
-    start: December 04, 2023
+    start: '2023-12-04'
     calls:
-    - date: December 06, 2023
+    - date: '2023-12-06'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-8-week-12
@@ -559,7 +559,7 @@ weeks:
       - List the different principles of Open Science
       - Give examples of 3 use cases of the different Open Science principles
       recording: https://youtu.be/Xu9TgBXRVZw
-    - date: December 08, 2023
+    - date: '2023-12-08'
       time: "16:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-8-thematic-documentation
@@ -576,7 +576,7 @@ weeks:
         title: Documentation and metadata
       recording: https://youtu.be/3niK08eEpOA
   '13':
-    start: December 11, 2023
+    start: '2023-12-11'
     calls:
     - duration: 30 min
       title: 7th mentor-mentee meeting
@@ -593,7 +593,7 @@ weeks:
       time: "10:00"
       hosts:
       - yochannah
-    - date: December 14, 2023
+    - date: '2023-12-14'
       time: "16:00"
       duration: 90 min
       notes: https://bit.ly/ols-8-week-13
@@ -608,9 +608,9 @@ weeks:
         tag: Personal Ecology
       recording: https://youtu.be/iVDJ9OII6S0
   '14':
-    start: December 18, 2023
+    start: '2023-12-18'
     calls:
-    - date: December 19, 2023
+    - date: '2023-12-19'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-8-week-14
@@ -620,7 +620,7 @@ weeks:
       type: Cohort
       talks: []
       recording: https://youtu.be/KjKgcY1qopQ
-    - date: December 20, 2023
+    - date: '2023-12-20'
       time: "17:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-8-thematic-inclusive-meetings
@@ -635,13 +635,13 @@ weeks:
         title: How to run inclusive meetings and get community input
       recording: https://youtu.be/aQDSqwLwCLk
   '15':
-    start: January 08, 2024
+    start: '2024-01-08'
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: January 09, 2024
+    - date: '2024-01-09'
       duration: 60 min
       notes: https://bit.ly/ols-8-week-15
       title: Final presentation rehearsal - Group 1
@@ -650,7 +650,7 @@ weeks:
       time: "09:00"
       hosts:
       - yochannah
-    - date: January 10, 2024
+    - date: '2024-01-10'
       duration: 60 min
       notes: https://bit.ly/ols-8-week-15
       title: Final presentation rehearsal - Group 2
@@ -659,7 +659,7 @@ weeks:
       time: "14:00"
       hosts:
       - yochannah
-    - date: January 11, 2024
+    - date: '2024-01-11'
       duration: 60 min
       notes: https://bit.ly/ols-8-week-15
       title: Final presentation rehearsal - Group 3
@@ -669,9 +669,9 @@ weeks:
       hosts:
       - yochannah
   '16':
-    start: January 15, 2024
+    start: '2024-01-15'
     calls:
-    - date: January 16, 2024
+    - date: '2024-01-16'
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-8-week-16
       title: Final presentations & Graduation! - Group 1
@@ -681,7 +681,7 @@ weeks:
       hosts:
       - yochannah
       recording: https://youtu.be/zJzkGvfDspI
-    - date: January 17, 2024
+    - date: '2024-01-17'
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-8-week-16
       title: Final presentations & Graduation! - Group 2
@@ -691,7 +691,7 @@ weeks:
       hosts:
       - yochannah
       recording: https://www.youtube.com/live/6xJzaQACIzc
-    - date: January 18, 2024
+    - date: '2024-01-18'
       duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-8-week-16
       title: Final presentations & Graduation! - Group 3

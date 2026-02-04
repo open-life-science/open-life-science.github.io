@@ -717,7 +717,7 @@ def update_call(call, row, people):
     :param people: dictionary with people information (key: name, value: id in people.yaml)
     """
     if not pd.isnull(row["date"]):
-        call["date"] = row["date"].strftime("%B %d, %Y")
+        call["date"] = row["date"].strftime("%Y-%m-%d")
     if not pd.isnull(row["time"]):
         call["time"] = DQS(row["time"].strftime("%H:%M"))
     if not pd.isnull(row["duration"]):
@@ -766,7 +766,12 @@ def check_same_event(call, row):
     else:
         same = True
     if "date" in call and pd.notna(row["date"]):
-        same = same and (call["date"] == row["date"].strftime("%B %d, %Y"))
+        try:
+            call_date = pd.to_datetime(call["date"]).date()
+            row_date = row["date"].date()
+            same = same and (call_date == row_date)
+        except (ValueError, TypeError):
+            same = same and (call["date"] == row["date"].strftime("%Y-%m-%d"))
     if "title" in call:
         if "Title" in row:
             same = same and (call["title"] == row["Title"])
@@ -880,16 +885,18 @@ def add_event_information(schedule, schedule_df, people, program):
 
         if program == "openseeds":
             if row["Type"] == "Week":
-                if schedule["weeks"][w]["start"] != "":
-                    if schedule["weeks"][w]["start"] != row["date"].strftime("%B %d, %Y"):
-                        if schedule["weeks"][w]["start"] is None:
-                            schedule["weeks"][w]["start"] = row["date"].strftime("%B %d, %Y")
-                        else:
+                if schedule["weeks"][w]["start"] not in ["", None]:
+                    # Parse the existing date from the YAML file to compare as datetime
+                    try:
+                        existing_date = pd.to_datetime(schedule["weeks"][w]["start"]).date()
+                        new_date = row["date"].date()
+                        if existing_date != new_date:
                             print(f"Different start date for week {w}")
                             print(f"In schedule file: {schedule['weeks'][w]['start']}")
-                            print(f"In event file: {row['date'].strftime('%B %d, %Y')}")
-                else:
-                    schedule["weeks"][w]["start"] = row["date"].strftime("%B %d, %Y")
+                            print(f"In event file: {row['date'].strftime('%Y-%m-%d')}")
+                    except (ValueError, TypeError):
+                        pass  # If parsing fails, just update the date
+                schedule["weeks"][w]["start"] = row["date"].strftime("%Y-%m-%d")
             elif row["Type"] in CALL_TYPES:
                 last_call = add_call(row, schedule["weeks"][w]["calls"], people)
             elif row["Type"] == "Presentation":

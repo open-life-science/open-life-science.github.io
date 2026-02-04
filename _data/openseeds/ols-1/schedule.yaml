@@ -1,19 +1,19 @@
 # Schedule for the openseeds ols-1
 ---
 timeline:
-- date: October 25, 2019
+- date: 2019-10-25
   description: Opening of the applications
-- date: November 27, 2019
+- date: 2019-11-27
   description: Pre-application webinar
   notes: 
     https://docs.google.com/document/d/1EIDzZi5mgRiWR7cJQl0up470C87GsbcoTR_6-cs-SeE/edit
-- date: December 8, 2019
+- date: 2019-12-08
   description: Closing of the applications
-- date: December 20, 2019
+- date: 2019-12-20
   description: Successful applicants announced
 weeks:
   '01':
-    start: January 20, 2020
+    start: '2020-01-20'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -72,12 +72,12 @@ weeks:
         - Understand common successes and challenges in mentoring OLS participants.
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
   '02':
-    start: January 27, 2020
+    start: '2020-01-27'
     calls:
     - type: Cohort
       duration: 90 min
       title: Welcome to Open Life Science!
-      date: January 29, 2020
+      date: '2020-01-29'
       time: "13:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=NmIzdWlmZTR2cG9uaXU5a2IxcGVvMm5icG8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -138,7 +138,7 @@ weeks:
         recording: https://youtu.be/3-cvl7UfSTY?t=2427
         tag: Project Roadmapping
   '03':
-    start: February 03, 2020
+    start: '2020-02-03'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -167,12 +167,12 @@ weeks:
             - Read it to the Breakout room friends during the next call and hear their feedback :)
             - Other possibility: [Hemingway Editor](https://www.hemingwayapp.com/)
   '04':
-    start: February 10, 2020
+    start: '2020-02-10'
     calls:
     - type: Cohort
       duration: 90 min
       title: Tooling and roadmapping for Open projects
-      date: February 12, 2020
+      date: '2020-02-12'
       time: "18:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=MTFnaW44c2RyYWprMGF0ZnFjdmxjcG82YTQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -231,7 +231,7 @@ weeks:
         recording: https://youtu.be/y9y8a3O4fjg?t=2605
         tag: Code of Conduct
   '05':
-    start: February 17, 2020
+    start: '2020-02-17'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -296,7 +296,7 @@ weeks:
       - type: external-link
         title: Git workflow
         link: https://www.atlassian.com/git/tutorials/comparing-workflows
-    - date: February 19, 2020
+    - date: '2020-02-19'
       time: "13:00"
       duration: 90 min
       notes: 
@@ -306,12 +306,12 @@ weeks:
       type: Cohort
       talks: []
   '06':
-    start: February 24, 2020
+    start: '2020-02-24'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Open Science I: Project Development'
-      date: February 26, 2020
+      date: '2020-02-26'
       time: "13:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=MHMyc3FzMmtxdDBtdWR1a2drcjdzMTFtdDkgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -372,7 +372,7 @@ weeks:
         recording: https://youtu.be/hiLDGLfXa2s?t=3848
         tag: Open Data
   '07':
-    start: March 02, 2020
+    start: '2020-03-02'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -391,12 +391,12 @@ weeks:
         - Share your experience been so far as a mentor in OLS-1
         - Learn about the GROW model
   '08':
-    start: March 09, 2020
+    start: '2020-03-09'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Open Science II: Knowledge Dissemination'
-      date: March 11, 2020
+      date: '2020-03-11'
       time: "18:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=M3U0OGZjbGY1aTYxYW5ua3Z1YWYxbGV1cXQgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -470,18 +470,18 @@ weeks:
         recording: https://youtu.be/HaQyv48sMPY?t=3708
         tag: Open Evaluation
   '09':
-    start: March 16, 2020
+    start: '2020-03-16'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
   '10':
-    start: March 23, 2020
+    start: '2020-03-23'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Designing & Empowering for inclusivity'
-      date: March 25, 2020
+      date: '2020-03-25'
       time: "13:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=MXA4Nm4wYXRqaG01ZmcwOHRzYjR1OWpqcTUgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -561,12 +561,12 @@ weeks:
         recording: https://youtu.be/81mG4L7S3Oc?t=2980
         tag: Personas & Pathways
   '11':
-    start: March 30, 2020
+    start: '2020-03-30'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Mental health care, Ally skills and Career Guidance Call'
-      date: April 01, 2020
+      date: '2020-04-01'
       time: "17:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=MG1ra3N1cmlzM2ZobHVkOWo2YTc5cThodm8gbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -636,18 +636,18 @@ weeks:
         recording: https://youtu.be/un4lsSMdAB0?t=3851
         tag: Ally Skills for Open Leaders
   '12':
-    start: April 06, 2020
+    start: '2020-04-06'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
   '13':
-    start: April 13, 2020
+    start: '2020-04-13'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Open Agenda - Social Call'
-      date: April 15, 2020
+      date: '2020-04-15'
       time: "12:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=N2drNnZvbHRhY2ZxYjZhOTBlcWNqc29vYjAgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -662,7 +662,7 @@ weeks:
         - Continue on with your project, and connect with others on Gitter or other social media platforms.
       talks: []
   '14':
-    start: April 20, 2020
+    start: '2020-04-20'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
