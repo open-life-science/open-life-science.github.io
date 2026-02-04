@@ -658,3 +658,25 @@ code {
 .article-post img{
   max-width:600px
 }
+
+// Add space in the "Show X entries" dropdown of Projects Table
+.dataTables_length select.custom-select {
+  padding-right: 1.75rem !important;
+  background-position: right 0.6rem center;
+}
+
+// Add space between expand icon and text in DataTable control column
+table.dataframe td.control::before {
+  margin-right: 0.75rem !important;
+}
+
+// Allow text wrapping in the Project column and fit table to window
+table.dataframe {
+  width: 100% !important;
+  table-layout: fixed;
+}
+
+table.dataframe td.control {
+  white-space: normal;
+  word-wrap: break-word;
+}

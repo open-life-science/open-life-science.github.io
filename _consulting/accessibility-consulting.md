@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Accessibility Consulting
+description: Scientific video captioning, transcript preparation, and live streaming accessibility consulting services.
 image: https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?
 photos:
   name: Anthony DELANOIX

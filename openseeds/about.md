@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Open Seeds program
+description: Structure, timeline, and roles in the Open Seeds mentoring and training program.
 image: /images/about.jpg
 photos:
   name: Bérénice Batut
