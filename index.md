@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OLS
-description: A not-for-profit organisation dedicated to capacity building and diversifying leadership in research worldwide
+description: OLS (Open Life Science Limited) is a not-for-profit organisation dedicated to capacity building and diversifying leadership in research worldwide.
 image: /images/index.jpg
 photos:
   name: Bérénice Batut

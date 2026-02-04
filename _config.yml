@@ -16,6 +16,7 @@ youtube_footer: OpenLifeSci
 gitter: open-life-sci/community
 url: https://we-are-ols.org/
 announcement_list: https://groups.google.com/g/ols-news
+newsletter: https://openlifescience.civicrm.org/civicrm/newsletter
 youtube: https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA/
 
 includes_dir: .
@@ -43,3 +44,6 @@ plugins:
   - jekyll-spaceship
   - jekyll-redirect-from
   - jekyll-toc
+
+scholar:
+  bibliography_template: bib

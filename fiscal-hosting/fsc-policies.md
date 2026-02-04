@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fiscal Hosting
-description: Hands-on support to empower the next generation of open leaders in research.
+description: Policies and guidelines for OLS fiscally sponsored communities.
 permalink: /open-incubator/fiscal-hosting-policies/
 image: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 photos:

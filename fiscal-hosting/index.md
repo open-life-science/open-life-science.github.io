@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fiscal Hosting
-description: Hands-on support to empower the next generation of open leaders in research.
+description: Fiscal sponsorship for open research communities, offering financial and administrative support through OLS.
 permalink: /open-incubator/fiscal-hosting/
 image: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 photos:
@@ -122,11 +122,23 @@ graph TD;
 
 # Current Fiscally Sponsored Communities (FSC)
 {% assign f_community = site.data.community.fiscal_communities %}
+{% assign incubator_fellows = site.data.community.incubator_fellows %}
+
 
 <div class="entities">
 {% for c in f_community %}
     {% assign entity = c %}
     {% assign details = c.details %}
+    {% include _includes/external-entities.html entity=entity type='fiscal_communities' details=details %}
+{% endfor %}
+</div>
+
+# Current Incubator Fellows
+{% assign f_community = site.data.community.fiscal_communities %}
+<div class="entities">
+{% for fellow in incubator_fellows %}
+    {% assign entity = fellow %}
+    {% assign details = fellow.details %}
     {% include _includes/external-entities.html entity=entity type='fiscal_communities' details=details %}
 {% endfor %}
 </div>

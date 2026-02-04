@@ -206,6 +206,29 @@ img {
   }
 }
 
+.people-card {
+  position: relative;
+  scroll-margin-top: 5rem;
+}
+
+.people-card-link {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: #ccc !important;
+  font-size: 0.9rem;
+  z-index: 1;
+  text-decoration: none;
+  border-bottom: none !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+
+  &:hover {
+    color: $dark-green !important;
+    background: none !important;
+  }
+}
+
 .people-badge {
   height: 2em;
   border-radius: 50%;
@@ -634,4 +657,26 @@ code {
 
 .article-post img{
   max-width:600px
+}
+
+// Add space in the "Show X entries" dropdown of Projects Table
+.dataTables_length select.custom-select {
+  padding-right: 1.75rem !important;
+  background-position: right 0.6rem center;
+}
+
+// Add space between expand icon and text in DataTable control column
+table.dataframe td.control::before {
+  margin-right: 0.75rem !important;
+}
+
+// Allow text wrapping in the Project column and fit table to window
+table.dataframe {
+  width: 100% !important;
+  table-layout: fixed;
+}
+
+table.dataframe td.control {
+  white-space: normal;
+  word-wrap: break-word;
 }

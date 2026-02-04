@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Resources page
+description: Resources and materials for the OLS-NASA Nebula training program.
 image: /images/nebula/neb-hero-image.png
 photos:
   name: Jilaga Nneoma

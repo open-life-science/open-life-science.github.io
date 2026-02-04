@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Governance Committee
+description: The OLS Governance Advisory Committee ensuring transparency, accountability, and strategic oversight.
 image: /images/2024-02-governance-page-benjamin-combs-wuU_SSxDeS0-unsplash.jpg
 photos:
   name: Benjamin Combs
