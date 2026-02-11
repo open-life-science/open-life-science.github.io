@@ -1,42 +1,42 @@
 # Schedule for the openseeds ols-2
 ---
 timeline:
-- date: May 20, 2020
+- date: 2020-05-20
   description: Opening of the applications on 
     [Easychair](https://easychair.org/conferences/?conf=ols2)
   details: We have 
     [templates](https://github.com/open-life-science/application-forms) you can 
     download to use when preparing your application.
-- date: June 12, 2020
+- date: 2020-06-12
   description: Application webinar
   type:
   - Talk
   - Q&A
   notes: 
     https://docs.google.com/document/d/1bXfKuEOJebqIoM3tT2Qn5Y9_y1VLu4Mi8vimLHhSi78/edit?usp=sharing
-- date: June 23, 2020
+- date: 2020-06-23
   description: Application webinar
   type:
   - Recording
   - Q&A
   notes: 
     https://docs.google.com/document/d/1bboIr0_tkji8qnMOsMvqz8zyHfboe7fJJV8eV0J_cSs/edit?usp=sharing
-- date: June 30, 2020
+- date: 2020-06-30
   description: Closing of the applications on 
     [Easychair](https://easychair.org/conferences/?conf=ols2) for main cohort 
     applications
-- date: July 15, 2020
+- date: 2020-07-15
   description: Closing of the applications on 
     [Easychair](https://easychair.org/conferences/?conf=ols2) for the 
     collaborating organisations - [_The Turing 
     Way_](/openseeds/ols-2/#collaborators)
-- date: July 24, 2020
+- date: 2020-07-24
   description: Call for applications closed
-- date: July 24, 2020
+- date: 2020-07-24
   description: Successful applicants announced
 weeks:
   '01':
-    start: August 31, 2020
+    start: '2020-08-31'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -95,7 +95,7 @@ weeks:
         - Understand common successes and challenges in mentoring OLS participants.
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
   '02':
-    start: September 07, 2020
+    start: '2020-09-07'
     calls:
     - type: Mentor
       duration: 180 min
@@ -110,7 +110,7 @@ weeks:
     - type: Cohort
       duration: 90 min
       title: Welcome to Open Life Science!
-      date: September 10, 2020
+      date: '2020-09-10'
       time: "08:00"
       hosts:
       - bebatut
@@ -171,7 +171,7 @@ weeks:
         title: Road Mapping
         tag: Project Roadmapping
   '03':
-    start: September 14, 2020
+    start: '2020-09-14'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -216,12 +216,12 @@ weeks:
       after: |
         - Continue on with your project, and connect with others on Gitter or other social media platforms.
   '04':
-    start: September 21, 2020
+    start: '2020-09-21'
     calls:
     - type: Cohort
       duration: 90 min
       title: Tooling and roadmapping for Open projects
-      date: September 24, 2020
+      date: '2020-09-24'
       time: "16:30"
       hosts:
       - yochannah
@@ -284,7 +284,7 @@ weeks:
         recording: https://youtu.be/aX40ntw0uIg?t=3747
         tag: Code of Conduct
   '05':
-    start: September 28, 2020
+    start: '2020-09-28'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -362,7 +362,7 @@ weeks:
       - type: external-link
         title: Git workflow
         link: https://www.atlassian.com/git/tutorials/comparing-workflows
-    - date: October 01, 2020
+    - date: '2020-10-01'
       time: "11:30"
       duration: 90 min
       notes: https://hackmd.io/@ols-2/week-05
@@ -372,12 +372,12 @@ weeks:
       type: Skill-up
       talks: []
   '06':
-    start: October 05, 2020
+    start: '2020-10-05'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Open Science I: Project Development'
-      date: October 08, 2020
+      date: '2020-10-08'
       time: "08:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=N3NvOWFoZTNncjkwaGE4ZXM4ZzdmYzlscXIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -443,7 +443,7 @@ weeks:
         recording: https://www.youtube.com/watch?v=BtUNjoTr5eg
         tag: Open Hardware
   '07':
-    start: October 12, 2020
+    start: '2020-10-12'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -470,12 +470,12 @@ weeks:
         - Share your experience been so far as a mentor in OLS-1
         - Learn about the GROW model
   '08':
-    start: October 19, 2020
+    start: '2020-10-19'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Open Science II: Knowledge Dissemination'
-      date: October 22, 2020
+      date: '2020-10-22'
       time: "16:30"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=NDVsa2s3bm5kdmlmcjgwNzMzaDB2NTg3aGcgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -520,7 +520,7 @@ weeks:
         recording: https://youtu.be/HaQyv48sMPY?t=860
         tag: Openness to Diversity of Knowledge
   '09':
-    start: October 26, 2020
+    start: '2020-10-26'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -532,7 +532,7 @@ weeks:
       time:
       calendar-event:
       notes: https://hackmd.io/@ols-2/coworking
-    - date: October 29, 2020
+    - date: '2020-10-29'
       duration: 90 min
       notes: https://hackmd.io/@ols-2/week-09
       title: Personal Ecology and Ally Skills
@@ -586,12 +586,12 @@ weeks:
         tag: Personal Ecology
       time: "15:00"
   '10':
-    start: November 02, 2020
+    start: '2020-11-02'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Open Science III: Next steps - applying FAIR research principles'
-      date: November 05, 2020
+      date: '2020-11-05'
       time: "09:00"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=NmdsajgyYTlqbmNpYmppanNkbWxsdW52N2UgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -649,18 +649,18 @@ weeks:
         recording: https://youtu.be/ylqDx_ELfus?t=2848
         tag: Open Source Software
   '11':
-    start: November 09, 2020
+    start: '2020-11-09'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
   '12':
-    start: November 16, 2020
+    start: '2020-11-16'
     calls:
     - type: Cohort
       duration: 90 min
       title: 'Open Leadership: Academia, industry and beyond!'
-      date: November 19, 2020
+      date: '2020-11-19'
       time: "17:30"
       calendar-event: 
         https://calendar.google.com/event?action=TEMPLATE&tmeid=MjZnMzY4cDQ2aGhucnRwcThnaWRnOGJpdWIgbjNycWh2dWZmMDVvamtsMG9wZnN2aDQ5ZmtAZw&tmsrc=n3rqhvuff05ojkl0opfsvh49fk%40group.calendar.google.com
@@ -721,7 +721,7 @@ weeks:
         recording: https://youtu.be/hS-6GE0X2UY?t=3016
         tag: Open Leadership in Practice
   '13':
-    start: November 23, 2020
+    start: '2020-11-23'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -741,16 +741,16 @@ weeks:
         - Brew yourself a nice tea, coffee, or any drink of your choice and bring them along to this call.
       after: |
         - Continue on with your project, and connect with others on Gitter or other social media platforms.
-    - date: October 26, 2020
+    - date: '2020-10-26'
       time: "14:00"
       duration: 90 min
       title: Pub Quiz!
       type: Skill-up
       talks: []
   '14':
-    start: November 30, 2020
+    start: '2020-11-30'
     calls:
-    - date: December 03, 2020
+    - date: '2020-12-03'
       time: "09:00"
       duration: 90 min
       notes: https://hackmd.io/@ols-2/week-14

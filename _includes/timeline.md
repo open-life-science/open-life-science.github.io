@@ -9,18 +9,18 @@
     {% assign type = type | remove_first: ' + ' %}
 {% endif %}
 {% if e.date %}
-- **{{ e.date }}** {% if e.time %}([{{ e.time }} Universal Time](https://arewemeetingyet.com/UTC/{{ e.date | date: "%Y-%m-%d" }}/{{ e.time }}/OLS%20Application%20Call)){% endif %}: {{ e.description }}{% if e.type %}({{ type }}){% endif %}{% if e.notes %} - <i class="fas fa-clipboard"></i> [Notes with Zoom call link]({{ e.notes }}){% endif %}{% if e.recording %} - <i class="fab fa-youtube"></i> [Recording]({{ e.recording }}){% endif %}{% if e.details %}
+- **{{ e.date | date: "%B %d, %Y" }}** {% if e.time %}([{{ e.time }} Universal Time](https://arewemeetingyet.com/UTC/{{ e.date | date: "%Y-%m-%d" }}/{{ e.time }}/OLS%20Application%20Call)){% endif %}: {{ e.description }}{% if e.type %}({{ type }}){% endif %}{% if e.notes %} - <i class="fas fa-clipboard"></i> [Notes with Zoom call link]({{ e.notes }}){% endif %}{% if e.recording %} - <i class="fab fa-youtube"></i> [Recording]({{ e.recording }}){% endif %}{% if e.details %}
 
     {{ e.details }}
 
 {% endif %}
 {% endif %}
 {% endfor %}
-- **{{ schedule.weeks['01'].start }}**: Start of the program
+- **{{ schedule.weeks['01'].start | date: "%B %d, %Y" }}**: Start of the program
 
 {% assign end = '' %}
 {% for w in schedule.weeks %}
 {% assign end = w[1].start %}
 {% endfor %}
-- **{{ end }}**: End of the program
+- **{{ end | date: "%B %d, %Y" }}**: End of the program
 
