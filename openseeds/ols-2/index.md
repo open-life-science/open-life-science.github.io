@@ -2,6 +2,7 @@
 layout: page
 toc: true
 title: Welcome to the 2nd cohort of OLS program!
+description: Syllabus, schedule, and projects from Open Seeds Cohort 2 (OLS-2).
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg

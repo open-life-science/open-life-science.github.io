@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Team # & Community
+description: Meet the OLS core team and alumni working to advance open science leadership worldwide.
 image: /images/about.jpg
 photos:
   name: Bérénice Batut

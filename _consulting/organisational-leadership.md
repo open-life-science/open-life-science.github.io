@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Organisational Leadership
+description: Workshops for governance, values, mission, and strategic planning for research organizations.
 image: https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?
 photos:
   name: Anthony DELANOIX

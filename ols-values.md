@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Values
+description: "OLS core values: openness, collaboration, integrity, learning, inclusion, equity, respect and kindness."
 image: https://images.unsplash.com/photo-1598944999410-e93772fc48a5
 photos:
   name: Sunil Ray
