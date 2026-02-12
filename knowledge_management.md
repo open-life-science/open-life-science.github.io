@@ -462,8 +462,8 @@ flowchart LR
     2. Update `organizers`
 
 4. Update the cohort timeline
-    1. Open `_data/openseeds/ols-x/schedule.yaml` 
-    2. Update `timeline` information
+    1. Open `_data/openseeds/ols-x/schedule.yaml`
+    2. Update `timeline` information (dates should be in ISO format YYYY-MM-DD, e.g., `2028-02-29`)
 
 5. Update the cohort schedule as explained below
 6. Add possible mentors and experts as explained below

@@ -1,11 +1,11 @@
 # Schedule for the openseeds ols-6
 ---
 timeline:
-- date: June 1, 2022
+- date: 2022-06-01
   description: Call for Application opens
   details: See the [guidelines and 
     templates](https://github.com/open-life-science/application-forms)
-- date: June 20, 2022
+- date: 2022-06-20
   time: '13:00'
   duration: 60 min
   description: Application webinar
@@ -16,7 +16,7 @@ timeline:
   recording:
   details: '[**Register to join**](https://us02web.zoom.us/meeting/register/tZUvfu-grjotHtHKxPGh1m2oWmr3d8vKDbC8),
     or watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)'
-- date: July 1, 2022
+- date: 2022-07-01
   time: 09:00
   duration: 60 min
   description: Application Clinic Call
@@ -26,15 +26,15 @@ timeline:
   details: At this call, OLS team will be available to provide help if you have 
     any questions related to your application. [**Register to 
     join**](https://us02web.zoom.us/meeting/register/tZIvfuyuqT0qHdK1tMqA98j6EMI8qoX9_as0).
-- date: July 7, 2022
+- date: 2022-07-07
   description: Call for applications closed
-- date: August 1, 2022
+- date: 2022-08-01
   description: Successful applicants announced
 weeks:
   '00':
     start: ''
     calls:
-    - date: September 16, 2022
+    - date: '2022-09-16'
       time: "09:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 1
@@ -42,7 +42,7 @@ weeks:
       resources: []
       talks: []
   '01':
-    start: September 19, 2022
+    start: '2022-09-19'
     calls:
     - duration: 30 min
       content: |-
@@ -65,7 +65,7 @@ weeks:
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
       title: Mentor onboarding group 2
       type: Mentor
-      date: September 21, 2022
+      date: '2022-09-21'
       notes: https://bit.ly/3f60GUT
       resources: []
       talks: []
@@ -74,7 +74,7 @@ weeks:
       - Know how to celebrate successes and approach challenges in mentoring OLS
         participants.
   '02':
-    start: September 26, 2022
+    start: '2022-09-26'
     calls:
     - time: '16:00'
       duration: 180 min
@@ -84,10 +84,10 @@ weeks:
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 2
       type: Mentor
-      date: September 27, 2022
+      date: '2022-09-27'
       resources: []
       talks: []
-    - date: September 27, 2022
+    - date: '2022-09-27'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-02
@@ -150,7 +150,7 @@ weeks:
       - Learn about common community interactions in open projects.
       - Learn about common value exchanges between community members in open 
         science
-    - date: September 29, 2022
+    - date: '2022-09-29'
       time: "17:00"
       duration: 180 min
       title: Mentor Skill Workshop by 360 Training - Group 3
@@ -158,14 +158,14 @@ weeks:
       resources: []
       talks: []
   '03':
-    start: October 03, 2022
+    start: '2022-10-03'
     calls:
     - duration: 30 min
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: October 05, 2022
+    - date: '2022-10-05'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-03
@@ -229,9 +229,9 @@ weeks:
       - Learn about common value exchanges between community members in open 
         science
   '04':
-    start: October 10, 2022
+    start: '2022-10-10'
     calls:
-    - date: October 12, 2022
+    - date: '2022-10-12'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-04
@@ -294,14 +294,14 @@ weeks:
         \   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact project structure
         and files used may look different on your project.\n  "
   '05':
-    start: October 17, 2022
+    start: '2022-10-17'
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: October 18, 2022
+    - date: '2022-10-18'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-5
@@ -340,9 +340,9 @@ weeks:
       - Managing issues and labels
       - Submit changes via Pull Request
   '06':
-    start: October 24, 2022
+    start: '2022-10-24'
     calls:
-    - date: October 25, 2022
+    - date: '2022-10-25'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-06
@@ -403,14 +403,14 @@ weeks:
       - Hear about Iterative Project management
       - Get familiar with Open Software, Open Hardware, Research Data Management
   '07':
-    start: October 31, 2022
+    start: '2022-10-31'
     calls:
     - duration: 30 min
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: November 02, 2022
+    - date: '2022-11-02'
       time: "17:00"
       duration: 30 min
       notes: https://bit.ly/ols-6-week-07
@@ -419,9 +419,9 @@ weeks:
       resources: []
       talks: []
   '08':
-    start: November 07, 2022
+    start: '2022-11-07'
     calls:
-    - date: November 09, 2022
+    - date: '2022-11-09'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-08
@@ -464,14 +464,14 @@ weeks:
       - Hear Mountain of engagement and community interactions
       - Learn about Personas and pathways and welcoming new contributors
   '09':
-    start: November 14, 2022
+    start: '2022-11-14'
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: November 15, 2022
+    - date: '2022-11-15'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-09
@@ -524,9 +524,9 @@ weeks:
         of work '
       - Tips and advice to overcome challenges as an open researcher
   '10':
-    start: November 21, 2022
+    start: '2022-11-21'
     calls:
-    - date: November 22, 2022
+    - date: '2022-11-22'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-10
@@ -580,7 +580,7 @@ weeks:
         materials'
       - 'Public engagement: Citizen Science/Participatory research, Scientific communication'
   '11':
-    start: November 28, 2022
+    start: '2022-11-28'
     calls:
     - duration: 30 min
       title: 6th mentor-mentee meeting
@@ -593,7 +593,7 @@ weeks:
       notes: https://bit.ly/ols-6-week-11
       title: Q&A call
       type: Q&A
-    - date: November 30, 2022
+    - date: '2022-11-30'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-11
@@ -622,9 +622,9 @@ weeks:
         recording: https://youtu.be/n3JkOyt6bRM?t=2996
         tag: Open Source Software
   '12':
-    start: December 05, 2022
+    start: '2022-12-05'
     calls:
-    - date: December 07, 2022
+    - date: '2022-12-07'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-12
@@ -658,14 +658,14 @@ weeks:
         title: Ally skills
         tag: Ally Skills for Open Leaders
   '13':
-    start: December 12, 2022
+    start: '2022-12-12'
     calls:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: December 13, 2022
+    - date: '2022-12-13'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-13
@@ -694,9 +694,9 @@ weeks:
       - Discuss the importance of taking care of mental health and avoiding burn
         out for both project leaders and community members
   '14':
-    start: December 19, 2022
+    start: '2022-12-19'
     calls:
-    - date: December 20, 2022
+    - date: '2022-12-20'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-6-week-14
@@ -729,14 +729,14 @@ weeks:
         make research \"as open as possible, as restricted as necessary.\"\n     \
         \ \n        "
   '15':
-    start: January 09, 2023
+    start: '2023-01-09'
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: January 10, 2023
+    - date: '2023-01-10'
       time: "09:00"
       duration: 60 min
       notes: https://bit.ly/ols-6-week-15
@@ -759,7 +759,7 @@ weeks:
       - Learn about giving and receiving feedback
       - Conduct rehearsal for the final presentation from the project leads 
         registered
-    - date: January 11, 2023
+    - date: '2023-01-11'
       notes: https://bit.ly/ols-6-week-15
       content: |-
         In this call, participants will:
@@ -782,7 +782,7 @@ weeks:
       - Learn about giving and receiving feedback
       - Conduct rehearsal for the final presentation from the project leads 
         registered
-    - date: January 12, 2023
+    - date: '2023-01-12'
       time: "17:00"
       duration: 60 min
       notes: https://bit.ly/ols-6-week-15
@@ -806,9 +806,9 @@ weeks:
       - Conduct rehearsal for the final presentation from the project leads 
         registered
   '16':
-    start: January 16, 2023
+    start: '2023-01-16'
     calls:
-    - date: January 17, 2023
+    - date: '2023-01-17'
       time: "09:00"
       duration: 60 min
       notes: https://pad.sfconservancy.org/p/ols-6-graduations
@@ -831,7 +831,7 @@ weeks:
       learning_objectives:
       - Share a 5 mins presentation of their project
       - Celebrate OLS-6 success
-    - date: January 18, 2023
+    - date: '2023-01-18'
       notes: https://pad.sfconservancy.org/p/ols-6-graduations
       content: |-
         In this call, participants will:
@@ -854,7 +854,7 @@ weeks:
       learning_objectives:
       - Share a 5 mins presentation of their project
       - Celebrate OLS-6 success
-    - date: January 19, 2023
+    - date: '2023-01-19'
       time: "17:00"
       duration: 60 min
       notes: https://pad.sfconservancy.org/p/ols-6-graduations
