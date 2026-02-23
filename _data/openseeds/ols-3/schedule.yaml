@@ -1,20 +1,20 @@
 # Schedule for the openseeds ols-3
 ---
 timeline:
-- date: December 1, 2021
+- date: 2020-12-01
   description: Opening of the applications on 
     [Easychair](https://easychair.org/conferences/?conf=ols3)
   details: We have 
     [templates](https://github.com/open-life-science/application-forms) you can 
     download to use when preparing your application.
-- date: January 4, 2021
+- date: 2021-01-04
   description: Application webinar
   type:
   - Talk
   - Q&A
   notes: https://tinyurl.com/ols-3-webinar
   recording: https://youtu.be/rksUzRDFn20
-- date: January 7, 2021
+- date: 2021-01-07
   description: Application Clinic Call
   type:
   - Q&A
@@ -22,23 +22,23 @@ timeline:
     https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
   details: At this call, OLS team will be available to provide help if you have 
     any question related to your application
-- date: January 11, 2021
+- date: 2021-01-11
   description: Closing of the applications on 
     [Easychair](https://easychair.org/conferences/?conf=ols3)
-- date: January 13, 2021
+- date: 2021-01-13
   description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) 
     collaborating organisation**, Open office hour (<i class="fas 
     fa-question"></i> Q&A)
   notes: https://tinyurl.com/ols-3-webinar
-- date: January 18, 2021
+- date: 2021-01-18
   description: For the **[EOSC-Life](/openseeds/ols-3/#ols-3-for-eosc-life) 
     collaborating organisation**, Closing of the applications on 
     [Easychair](https://easychair.org/conferences/?conf=ols3)
-- date: January 26, 2021
+- date: 2021-01-26
   description: Successful applicants announced
 weeks:
   '01':
-    start: February 08, 2021
+    start: '2021-02-08'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -97,12 +97,12 @@ weeks:
         - Understand common successes and challenges in mentoring OLS participants.
         - Know how to celebrate successes and approach challenges in mentoring OLS participants.
   '02':
-    start: February 15, 2021
+    start: '2021-02-15'
     calls:
     - type: Cohort
       duration: 90 min
       title: Welcome to Open Life Science!
-      date: February 17, 2021
+      date: '2021-02-17'
       time: "12:30"
       notes: https://bit.ly/ols-3-week-02-cohort-call
       recording: https://youtu.be/lFaMk01Z_gY
@@ -165,7 +165,7 @@ weeks:
         recording: https://youtu.be/lFaMk01Z_gY?t=3055
         tag: Project Roadmapping
   '03':
-    start: February 22, 2021
+    start: '2021-02-22'
     calls:
     - type: Mentor
       duration: 180 min
@@ -219,7 +219,7 @@ weeks:
       after: |
         - Continue on with your project, and connect with others on Slack or other social media platforms.
   '04':
-    start: March 01, 2021
+    start: '2021-03-01'
     calls:
     - type: Cohort
       duration: 90 min
@@ -253,7 +253,7 @@ weeks:
         - Add a [Code of Conduct](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/) to your repository as a file called `CODE_OF_CONDUCT.md`
         - Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
       resources: []
-      date: March 03, 2021
+      date: '2021-03-03'
       time: "17:00"
       notes: https://bit.ly/ols-3-week-04-cohort-call
       recording: https://youtu.be/Enn2NGMGC2k
@@ -286,7 +286,7 @@ weeks:
         recording: https://youtu.be/Enn2NGMGC2k?t=3066
         tag: Code of Conduct
   '05':
-    start: March 08, 2021
+    start: '2021-03-08'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -357,7 +357,7 @@ weeks:
       - yochannah
       - malvikasharan
       - bebatut
-    - date: March 10, 2021
+    - date: '2021-03-10'
       time: "12:30"
       duration: 90 min
       notes: https://bit.ly/ols-3-week-05
@@ -366,7 +366,7 @@ weeks:
       type: Skill-up
       talks: []
   '06':
-    start: March 15, 2021
+    start: '2021-03-15'
     calls:
     - type: Cohort
       duration: 90 min
@@ -400,7 +400,7 @@ weeks:
         title: Project Development Plan
         link: 
           https://docs.google.com/document/d/1bn4qR9b3XmAYXT8GZK9yI1xI3GE71GBMQ0ySkXtba4o/edit?usp=sharing
-      date: March 17, 2021
+      date: '2021-03-17'
       time: "12:30"
       notes: https://bit.ly/ols-3-week-06-cohort-call
       recording: https://youtu.be/XkzCr3fiSCg
@@ -437,7 +437,7 @@ weeks:
         recording: https://youtu.be/XkzCr3fiSCg?t=3593
         tag: Open Hardware
   '07':
-    start: March 22, 2021
+    start: '2021-03-22'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -469,7 +469,7 @@ weeks:
       after: |
         - Continue on with your project, and connect with others on Slack or other social media platforms.
   '08':
-    start: March 31, 2021
+    start: '2021-03-31'
     end: March 29 - April 2, 2021
     calls:
     - type: Cohort
@@ -490,7 +490,7 @@ weeks:
         - Look up two other projects and comment on [their issue](https://github.com/open-life-science/ols-3/issues) with feedback on their project
       recording: https://www.youtube.com/watch?v=Vizk7fni5Eo
       resources: []
-      date: March 31, 2021
+      date: '2021-03-31'
       time: "16:00"
       notes: https://bit.ly/ols-3-week-08-cohort-call
       talks:
@@ -515,7 +515,7 @@ weeks:
         recording: https://youtu.be/Vizk7fni5Eo?t=3792
         tag: Open Engagement of Social Actors
   '09':
-    start: April 05, 2021
+    start: '2021-04-05'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -574,7 +574,7 @@ weeks:
         title: Goal setting exercise
         link: 
           https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20goal-setting%20exercise%20-%20Letter.pdf
-      date: April 07, 2021
+      date: '2021-04-07'
       time: "11:30"
       notes: https://bit.ly/ols-3-week-09-q-a
       recording: https://youtu.be/5BlB0RUY-7c
@@ -586,7 +586,7 @@ weeks:
         title: Personal Ecology and Self Care
         tag: Personal Ecology
   '10':
-    start: April 12, 2021
+    start: '2021-04-12'
     calls:
     - type: Cohort
       duration: 90 min
@@ -627,7 +627,7 @@ weeks:
       - type: external-link
         title: Good enough Practices in Scientific Computing
         link: https://doi.org/10.1371/journal.pcbi.1005510
-      date: April 14, 2021
+      date: '2021-04-14'
       time: "11:30"
       notes: https://bit.ly/ols-3-week-10-cohort-call
       recording: https://www.youtube.com/watch?v=j-rPaiojNFk
@@ -653,7 +653,7 @@ weeks:
         recording: https://youtu.be/j-rPaiojNFk?t=2915
         tag: Open Source Software
   '11':
-    start: April 19, 2021
+    start: '2021-04-19'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
@@ -674,7 +674,7 @@ weeks:
       after: |
         - Continue on with your project, and connect with others on Slack or other social media platforms.
   '12':
-    start: April 26, 2021
+    start: '2021-04-26'
     calls:
     - type: Cohort
       duration: 90 min
@@ -694,7 +694,7 @@ weeks:
         - what advice would you give someone wanting to enter your field ?
         - on a scale of 1-10 (10 being the most), how much do you enjoy your current work?
         - do you want to switch your career or field? Why or why not?
-      date: April 28, 2021
+      date: '2021-04-28'
       time: "16:00"
       notes: https://bit.ly/ols-3-week-12-cohort-call
       recording: https://www.youtube.com/watch?v=EMVGOapd0M4
@@ -720,12 +720,12 @@ weeks:
         recording: https://youtu.be/EMVGOapd0M4?t=2951
         tag: Open Leadership in Practice
   '13':
-    start: May 03, 2021
+    start: '2021-05-03'
     calls:
     - type: Mentor-Mentee
       duration: 30 min
       title: Meet your mentor!
-    - date: May 05, 2021
+    - date: '2021-05-05'
       time: "11:30"
       duration: 90 min
       notes: 
@@ -742,7 +742,7 @@ weeks:
         - Continue on with your project, and connect with others on Slack or other social media platforms.
       recording: https://www.youtube.com/watch?v=mHCYpX6WLZw
       talks: []
-    - date: May 05, 2021
+    - date: '2021-05-05'
       time: "11:30"
       duration: 90 min
       notes: 
@@ -752,7 +752,7 @@ weeks:
       type: Skill-up
       talks: []
   '14':
-    start: May 10, 2021
+    start: '2021-05-10'
     calls:
     - type: Cohort
       duration: 90 min
@@ -795,7 +795,7 @@ weeks:
         title: Community Interactions
         link: 
           https://medium.com/mozilla-open-innovation/a-framework-of-open-practices-9a17fe1645a3
-      date: May 12, 2021
+      date: '2021-05-12'
       time: "11:30"
       notes: https://bit.ly/ols-3-week-14-cohort-call
       recording: https://www.youtube.com/watch?v=GdZ3kfKP43A

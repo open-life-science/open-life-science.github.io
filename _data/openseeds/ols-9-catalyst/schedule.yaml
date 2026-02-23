@@ -27,7 +27,7 @@ timeline:
   description: Successful applicants announced
 weeks:
   '00':
-    start: September 09, 2024
+    start: '2024-09-09'
     calls:
     - duration: 60 min
       title: Mentor onboarding group 1
@@ -35,7 +35,7 @@ weeks:
       - tajuddeen1
       type: Mentor
       talks: []
-      date: September 13, 2024
+      date: '2024-09-13'
       time: "17:00"
     - duration: 60 min
       title: Mentor onboarding group 2
@@ -59,7 +59,7 @@ weeks:
       type: Mentor
       talks: []
   '02':
-    start: September 23, 2024
+    start: '2024-09-23'
     calls:
     - date: September 25, 2024
       duration: 90 min
@@ -96,7 +96,7 @@ weeks:
         tag: Open Canvas
       - title: Project Roadmapping
         tag: Project Roadmapping
-    - date: September 25, 2024
+    - date: '2024-09-25'
       time: "17:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-02
@@ -131,13 +131,13 @@ weeks:
       hosts:
       - tajuddeen1
   '03':
-    start: September 30, 2024
+    start: '2024-09-30'
     calls:
     - duration: 30 min
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: October 02, 2024
+    - date: '2024-10-02'
       title: Informal Office Hour
       hosts:
       - tajuddeen1
@@ -146,9 +146,9 @@ weeks:
       time: "17:00"
       notes: https://annuel2.framapad.org/p/ols-9-week-03
   '04':
-    start: October 07, 2024
+    start: '2024-10-07'
     calls:
-    - date: October 09, 2024
+    - date: '2024-10-09'
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-04
       title: Tooling for Open Collaboration
@@ -197,13 +197,13 @@ weeks:
         [https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-a-code-of-conduct/)"
       recording: https://www.youtube.com/watch?v=z28mSZ_1rlw
   '05':
-    start: October 14, 2024
+    start: '2024-10-14'
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: October 16, 2024
+    - date: '2024-10-16'
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-05
       title: GitHub tutorial for beginners
@@ -234,9 +234,9 @@ weeks:
         your 'project issue'"
       recording: https://www.youtube.com/watch?v=r3skZL5-NVs
   '06':
-    start: October 21, 2024
+    start: '2024-10-21'
     calls:
-    - date: October 23, 2024
+    - date: '2024-10-23'
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-06
       title: Open Science Garden I
@@ -279,7 +279,7 @@ weeks:
         pace.
       recording: https://www.youtube.com/watch?v=C8ukpzAUKEw
   '07':
-    start: October 28, 2024
+    start: '2024-10-28'
     calls:
     - duration: 30 min
       title: 4th mentor-mentee meeting
@@ -293,7 +293,7 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
-    - date: October 30, 2024
+    - date: '2024-10-30'
       time: "17:00"
       duration: 30 min
       title: Open Leadership in Practice (Clock changes for the UK/Nigeria)
@@ -307,7 +307,7 @@ weeks:
       - Recall non traditional (academic) career path
       - Appreciate different leaderships
   '08':
-    start: November 04, 2024
+    start: '2024-11-04'
     calls:
     - date: November 06, 2024
       duration: 90 min
@@ -318,7 +318,7 @@ weeks:
       type: Cohort
       talks: []
       time: "16:00"
-    - date: November 06, 2024
+    - date: '2024-11-06'
       time: "17:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-08
@@ -356,13 +356,13 @@ weeks:
         experiences and expectations in planning your projects
       recording: https://www.youtube.com/watch?v=1z3kjayErsE
   '09':
-    start: November 11, 2024
+    start: '2024-11-11'
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: November 13, 2024
+    - date: '2024-11-13'
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-09
       title: 'Tooling for Collaboration: Open-source software in practice'
@@ -401,9 +401,9 @@ weeks:
       - Identify package management for your software
       - 'Make your software ready for open-source- '
   '10':
-    start: November 18, 2024
+    start: '2024-11-18'
     calls:
-    - date: November 20, 2024
+    - date: '2024-11-20'
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-10
       title: Open Science Garden II
@@ -448,13 +448,13 @@ weeks:
       type: Cohort
       talks: []
   '11':
-    start: November 25, 2024
+    start: '2024-11-25'
     calls:
     - duration: 30 min
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
       talks: []
-    - date: November 27, 2024
+    - date: '2024-11-27'
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-11
       title: Personal Management
@@ -470,9 +470,9 @@ weeks:
       time: "17:00"
       recording: https://www.youtube.com/watch?v=RZGRbkQRAh0
   '12':
-    start: December 02, 2024
+    start: '2024-12-02'
     calls:
-    - date: December 04, 2024
+    - date: '2024-12-04'
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-12
       title: Open Science Garden III
@@ -515,7 +515,7 @@ weeks:
       type: Cohort
       talks: []
   '13':
-    start: December 09, 2024
+    start: '2024-12-09'
     calls:
     - date: December 11, 2024
       duration: 30 min
@@ -534,7 +534,7 @@ weeks:
       - malvikasharan
       type: Cohort
       talks: []
-    - date: December 11, 2024
+    - date: '2024-12-11'
       time: "17:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-13
@@ -555,7 +555,7 @@ weeks:
         title: 'Ally Skills: Stepping up as an ally'
       recording: https://www.youtube.com/watch?v=OI9iG4BBAB4
   '14':
-    start: December 16, 2024
+    start: '2024-12-16'
     calls:
     - duration: 90 min
       title: 7th mentor-mentee meeting
@@ -564,7 +564,7 @@ weeks:
       type: Mentor-Mentee
       talks: []
   '15':
-    start: January 13, 2025
+    start: '2025-01-13'
     calls:
     - duration: 90 min
       title: 8th mentor-mentee meeting
@@ -577,7 +577,7 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
-      date: January 14, 2025
+      date: '2025-01-14'
       time: "15:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
@@ -586,7 +586,7 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
-      date: January 15, 2025
+      date: '2025-01-15'
       time: "17:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-15
@@ -595,10 +595,10 @@ weeks:
       - tajuddeen1
       type: Skill-up
       talks: []
-      date: January 16, 2025
+      date: '2025-01-16'
       time: "19:00"
   '16':
-    start: January 20, 2025
+    start: '2025-01-20'
     calls:
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
@@ -607,7 +607,7 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
-      date: January 21, 2025
+      date: '2025-01-21'
       time: "15:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
@@ -616,7 +616,7 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
-      date: January 22, 2025
+      date: '2025-01-22'
       time: "17:00"
     - duration: 60 min
       notes: https://annuel2.framapad.org/p/ols-9-week-16
@@ -625,7 +625,7 @@ weeks:
       - tajuddeen1
       type: Cohort
       talks: []
-      date: January 23, 2025
+      date: '2025-01-23'
       time: "18:00"
     - duration: 30 min
       title: 8th mentor-mentee meeting
