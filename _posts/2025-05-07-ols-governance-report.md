@@ -11,7 +11,7 @@ photos:
   url: https://unsplash.com/@kaitlynbaker
 ---
 
-Since being elected in **June 2023**, the [OLS Governance Committee]({% link governance.md %}), has been quietly but actively working behind the 
+Since being elected in **June 2023**, the [OLS Governance Committee](https://docs.google.com/document/d/1jvJwRhypAdv6GuCIkzS6H323OSPba5Fw/edit#heading=h.y3lmh48xrjad)), has been quietly but actively working behind the 
 scenes—providing oversight, supporting leadership decisions, and helping to steer OLS toward a stronger future.
 
 Today, we proudly share the latest **Governance Committee Report**, which covers discussions and reflections 
