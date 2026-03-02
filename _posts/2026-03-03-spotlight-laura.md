@@ -18,7 +18,7 @@ Today, we'll start with Laura Carter, our new [Fiscally Sponsored Community (FSC
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![At the front of the image: Laura is very smily woman, wearing sunglasses and a raincoat at the Skagit Valley Tulip Festival in April 2025. Red tulip fields can be seen at the background](![Laura](https://github.com/user-attachments/assets/4a6a753a-85d4-419a-912b-d9c98c818efc))
+![At the front of the image: Laura is very smily woman, wearing sunglasses and a raincoat at the Skagit Valley Tulip Festival in April 2025. Red tulip fields can be seen at the background]({% link images/Laura.jpg %})
   </div>
   <div class="column" markdown="1">
 
