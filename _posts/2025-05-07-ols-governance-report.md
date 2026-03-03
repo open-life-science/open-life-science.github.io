@@ -11,7 +11,7 @@ photos:
   url: https://unsplash.com/@kaitlynbaker
 ---
 
-Since being elected in **June 2023**, the [OLS Governance Committee](https://docs.google.com/document/d/1jvJwRhypAdv6GuCIkzS6H323OSPba5Fw/edit#heading=h.y3lmh48xrjad)), has been quietly but actively working behind the 
+Since being elected in **June 2023**, the [OLS Governance Committee]({% link governance.md %}), has been quietly but actively working behind the 
 scenes—providing oversight, supporting leadership decisions, and helping to steer OLS toward a stronger future.
 
 Today, we proudly share the latest **Governance Committee Report**, which covers discussions and reflections 
@@ -28,7 +28,7 @@ Over the past six months, the Governance has:
 This work underscores a crucial truth: governance at OLS is not about bureaucracy—it's about building a resilient, 
 values-driven organisation where everyone can thrive.
 
-We invite you to read the [full report](https://docs.google.com/document/d/1ekt1AZ1IPqfvdp-833Mu72Ce0a30alzp/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true) 
+We invite you to read the [full report](https://docs.google.com/document/d/15GfjS43QtTZDPbqiCk_-gAorrGorrTtv/edit#heading=h.y3lmh48xrjad) 
 and see how collective leadership is shaping the future of OLS.
 
 **Enquiries:**
