@@ -3,12 +3,12 @@ layout: post
 title: "Job vacancy - OLS Research Fellow"
 authors:
 - malvikasharan
-image: https://plus.unsplash.com/premium_photo-1738416571378-46793a101767
+image: https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 photos:
-  name: Ubaid E. Alyafizi
+  name: Andrew Neel
   license: Unsplash+ License
-  url: https://unsplash.com/@ibnualyafizi
----
+  url: https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw
+--- 
 
 # Role: OLS Research Fellow - Research Funding Ecosystem
 
