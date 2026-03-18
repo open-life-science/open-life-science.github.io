@@ -55,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 $(document).ready(function() {
     $('#dataframe').DataTable( {
-        "sScrollX": "100%",
         "dom": "Qlfrtip",
 
         responsive: {
@@ -64,13 +63,16 @@ $(document).ready(function() {
             }
         },
         "bAutoWidth": false,
-        columnDefs: [ {
-            className: 'control',
-            orderable: false,
-            targets:   [ 0 ],
-            width: 100,
-        },
-        { type: 'natural', targets: 1 } // allow normal sorting
+        columnDefs: [
+            {
+                className: 'control',
+                orderable: false,
+                targets: 0
+            },
+            {
+                className: 'none',
+                targets: [1, 2, 3, 4, 5, 6, 7, 8]
+            }
         ],
 
     });
