@@ -14,7 +14,7 @@ photos:
 We are introducing our new Nebula Resident Fellow, Gracielle Higino! Gracielle joined us in February to support the coordination and delivery of our 2026 NASA-Nebula Open Science training cohorts.  
 After a period of onboarding, Gracielle is already killing it and doing a great job with all the cohort-related tasks, and also cheering Sara weekly! 
 
-# Welcome to the OLS team Gracielle! 
+### Welcome to the OLS team Gracielle! 
 
 #DOUBLE CHECK IF GRACIELLE WANTS TO INCLUDE A PIC!
 <div class="columns">
