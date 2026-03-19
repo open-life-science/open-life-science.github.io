@@ -1,11 +1,11 @@
 # Schedule for the openseeds ols-7
 ---
 timeline:
-- date: December 1, 2022
+- date: 2022-12-01
   description: Call for Application opens
   details: See the [guidelines and 
     templates](https://github.com/open-life-science/application-forms)
-- date: December 12, 2022
+- date: 2022-12-12
   time: '15:00'
   duration: 60 min
   description: Application webinar
@@ -16,7 +16,7 @@ timeline:
   recording: https://youtu.be/shM2mVyLjxU
   details: Watch recordings from previous webinars on 
     [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
-- date: January 11, 2023
+- date: 2023-01-11
   time: '12:00'
   duration: 60 min
   description: Application Clinic Call
@@ -26,13 +26,13 @@ timeline:
   details: At this call, OLS team will be available to provide help if you have 
     any question related to your application. [Register to 
     attend](https://www.eventbrite.co.uk/e/application-clinic-call-qa-tickets-506693121767)
-- date: January 15, 2023
+- date: 2023-01-15
   description: Call for applications closed
-- date: February 1, 2023
+- date: 2023-02-01
   description: Successful applicants announced
 weeks:
   '01':
-    start: February 27, 2023
+    start: '2023-02-27'
     calls:
     - duration: 30 min
       content: |-
@@ -57,7 +57,7 @@ weeks:
       type: Mentor
       hosts:
       - malvikasharan
-      date: March 02, 2023
+      date: '2023-03-02'
       notes: https://bit.ly/ols-7-week-01
       resources: []
       talks: []
@@ -75,11 +75,11 @@ weeks:
       type: Mentor
       hosts:
       - pherterich
-      date: March 03, 2023
+      date: '2023-03-03'
       notes: https://bit.ly/ols-7-week-01
       resources: []
       talks: []
-    - date: March 07, 2023
+    - date: '2023-03-07'
       time: "17:00"
       duration: 60 min
       notes: https://bit.ly/ols-7-week-01
@@ -98,7 +98,7 @@ weeks:
       - Know how to celebrate successes and approach challenges in mentoring OLS
         participants.
   '02':
-    start: March 06, 2023
+    start: '2023-03-06'
     calls:
     - time: '17:00'
       duration: 180 min
@@ -112,7 +112,7 @@ weeks:
       type: Mentor
       resources: []
       talks: []
-    - date: March 07, 2023
+    - date: '2023-03-07'
       time: "10:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-02
@@ -177,7 +177,7 @@ weeks:
       - Learn about common community interactions in open projects.
       - Learn about common value exchanges between community members in open 
         science
-    - date: March 08, 2023
+    - date: '2023-03-08'
       time: "14:00"
       duration: 90 min
       title: OLS Cafetería
@@ -185,14 +185,14 @@ weeks:
       resources: []
       talks: []
   '03':
-    start: March 13, 2023
+    start: '2023-03-13'
     calls:
     - duration: 30 min
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: March 15, 2023
+    - date: '2023-03-15'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-03
@@ -257,7 +257,7 @@ weeks:
       - Learn about common community interactions in open projects.
       - Learn about common value exchanges between community members in open 
         science
-    - date: March 15, 2023
+    - date: '2023-03-15'
       time: "14:00"
       duration: 90 min
       title: OLS Cafetería
@@ -265,9 +265,9 @@ weeks:
       resources: []
       talks: []
   '04':
-    start: March 20, 2023
+    start: '2023-03-20'
     calls:
-    - date: March 22, 2023
+    - date: '2023-03-22'
       time: "17:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-4
@@ -333,7 +333,7 @@ weeks:
       - "Go over the standard files in open projects\n   - README\n   - LICENSE\n\
         \   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact project structure
         and files used may look different on your project.\n  "
-    - date: March 22, 2023
+    - date: '2023-03-22'
       time: "14:00"
       title: OLS Cafetería
       type: Cafeteria
@@ -341,14 +341,14 @@ weeks:
       resources: []
       talks: []
   '05':
-    start: March 27, 2023
+    start: '2023-03-27'
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: March 28, 2023
+    - date: '2023-03-28'
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-5
@@ -386,7 +386,7 @@ weeks:
       - Enable a small website via GitHub
       - Managing issues and labels
       - Submit changes via Pull Request
-    - date: March 29, 2023
+    - date: '2023-03-29'
       time: "13:00"
       title: OLS Cafetería
       type: Cafeteria
@@ -394,16 +394,16 @@ weeks:
       resources: []
       talks: []
   '06':
-    start: April 03, 2023
+    start: '2023-04-03'
     calls:
-    - date: April 05, 2023
+    - date: '2023-04-05'
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
       resources: []
       talks: []
-    - date: April 04, 2023
+    - date: '2023-04-04'
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-6
@@ -463,14 +463,14 @@ weeks:
       - Hear about Iterative Project management
       - Get familiar with Open Software, Open Hardware, Research Data Management
   '07':
-    start: April 10, 2023
+    start: '2023-04-10'
     calls:
     - duration: 30 min
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: April 12, 2023
+    - date: '2023-04-12'
       time: "16:00"
       duration: 30 min
       notes: https://bit.ly/ols-7-week-7
@@ -478,7 +478,7 @@ weeks:
       type: Q&A
       resources: []
       talks: []
-    - date: April 12, 2023
+    - date: '2023-04-12'
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
@@ -486,9 +486,9 @@ weeks:
       resources: []
       talks: []
   '08':
-    start: April 17, 2023
+    start: '2023-04-17'
     calls:
-    - date: April 19, 2023
+    - date: '2023-04-19'
       time: "16:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-8
@@ -525,7 +525,7 @@ weeks:
       - Learn how to develop Open collaboration by design
       - Hear Mountain of engagement and community interactions
       - Learn about Personas and pathways and welcoming new contributors
-    - date: April 19, 2023
+    - date: '2023-04-19'
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
@@ -533,14 +533,14 @@ weeks:
       resources: []
       talks: []
   '09':
-    start: April 24, 2023
+    start: '2023-04-24'
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: April 25, 2023
+    - date: '2023-04-25'
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-9
@@ -592,7 +592,7 @@ weeks:
       - 'Share worries/insecurities related to your career path, profession or area
         of work '
       - Tips and advice to overcome challenges as an open researcher
-    - date: April 26, 2023
+    - date: '2023-04-26'
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
@@ -600,16 +600,16 @@ weeks:
       resources: []
       talks: []
   '10':
-    start: May 01, 2023
+    start: '2023-05-01'
     calls:
-    - date: May 03, 2023
+    - date: '2023-05-03'
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
       resources: []
       talks: []
-    - date: May 02, 2023
+    - date: '2023-05-02'
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-10
@@ -670,14 +670,14 @@ weeks:
         materials'
       - 'Public engagement: Citizen Science/Participatory research, Scientific communication'
   '11':
-    start: May 08, 2023
+    start: '2023-05-08'
     calls:
     - duration: 30 min
       title: 6th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: May 10, 2023
+    - date: '2023-05-10'
       time: "16:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-11
@@ -708,7 +708,7 @@ weeks:
         recording: https://youtu.be/hOiDzn4Iqp4?t=2920
         tag: Good Coding Practices
       recording: https://youtu.be/hOiDzn4Iqp4
-    - date: May 10, 2023
+    - date: '2023-05-10'
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
@@ -716,16 +716,16 @@ weeks:
       resources: []
       talks: []
   '12':
-    start: May 15, 2023
+    start: '2023-05-15'
     calls:
-    - date: May 17, 2023
+    - date: '2023-05-17'
       time: "13:00"
       title: OLS Cafetería
       type: Cafeteria
       duration: 90 min
       resources: []
       talks: []
-    - date: May 17, 2023
+    - date: '2023-05-17'
       time: "16:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-12
@@ -760,14 +760,14 @@ weeks:
         tag: Open Access Publication
       recording: https://youtu.be/CzkkO4wO2eQ
   '13':
-    start: May 22, 2023
+    start: '2023-05-22'
     calls:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: May 23, 2023
+    - date: '2023-05-23'
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-13
@@ -799,7 +799,7 @@ weeks:
       learning_objectives:
       - Discuss the importance of taking care of mental health and avoiding burn
         out for both project leaders and community members
-    - date: May 24, 2023
+    - date: '2023-05-24'
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
@@ -807,16 +807,16 @@ weeks:
       resources: []
       talks: []
   '14':
-    start: May 29, 2023
+    start: '2023-05-29'
     calls:
-    - date: May 31, 2023
+    - date: '2023-05-31'
       time: "13:00"
       duration: 90 min
       title: OLS Cafetería
       type: Cafeteria
       resources: []
       talks: []
-    - date: May 30, 2023
+    - date: '2023-05-30'
       time: "09:00"
       duration: 90 min
       notes: https://bit.ly/ols-7-week-14
@@ -831,14 +831,14 @@ weeks:
       talks: []
       recording: https://youtu.be/u2GqMYfwiDs
   '15':
-    start: June 05, 2023
+    start: '2023-06-05'
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: June 07, 2023
+    - date: '2023-06-07'
       notes: https://bit.ly/ols-7-week-15
       content: |-
         In this call, participants will:
@@ -862,7 +862,7 @@ weeks:
       - Learn about giving and receiving feedback
       - Conduct rehearsal for the final presentation from the project leads 
         registered
-    - date: June 06, 2023
+    - date: '2023-06-06'
       time: "08:00"
       duration: 60 min
       notes: https://bit.ly/ols-7-week-15
@@ -887,7 +887,7 @@ weeks:
       - Learn about giving and receiving feedback
       - Conduct rehearsal for the final presentation from the project leads 
         registered
-    - date: June 08, 2023
+    - date: '2023-06-08'
       time: "16:00"
       duration: 60 min
       notes: https://bit.ly/ols-7-week-15
@@ -912,7 +912,7 @@ weeks:
       - Conduct rehearsal for the final presentation from the project leads 
         registered
   '16':
-    start: June 12, 2023
+    start: '2023-06-12'
     calls:
     - date: June 14, 2023
       notes: https://bit.ly/ols-7-week-16
@@ -986,7 +986,7 @@ weeks:
       learning_objectives:
       - Share a 5 mins presentation of their project
       - Celebrate OLS-4 success
-    - date: June 14, 2023
+    - date: '2023-06-14'
       time: "13:00"
       duration: 90 min
       notes: https://pad.sfconservancy.org/p/ols-7-graduations-2
@@ -1006,7 +1006,7 @@ weeks:
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
       talks: []
-    - date: June 15, 2023
+    - date: '2023-06-15'
       time: "16:00"
       duration: 90 min
       notes: https://pad.sfconservancy.org/p/ols-7-graduations-3
@@ -1026,7 +1026,7 @@ weeks:
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
       talks: []
-    - date: July 19, 2023
+    - date: '2023-07-19'
       time: "14:00"
       duration: 90 min
       notes: https://pad.sfconservancy.org/p/ols-7-graduations-1

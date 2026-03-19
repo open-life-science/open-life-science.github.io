@@ -28,7 +28,7 @@ Over the past six months, the Governance has:
 This work underscores a crucial truth: governance at OLS is not about bureaucracy—it's about building a resilient, 
 values-driven organisation where everyone can thrive.
 
-We invite you to read the [full report](https://docs.google.com/document/d/1ekt1AZ1IPqfvdp-833Mu72Ce0a30alzp/edit?usp=sharing&ouid=101989895789810384353&rtpof=true&sd=true) 
+We invite you to read the [full report](https://docs.google.com/document/d/15GfjS43QtTZDPbqiCk_-gAorrGorrTtv/edit#heading=h.y3lmh48xrjad) 
 and see how collective leadership is shaping the future of OLS.
 
 **Enquiries:**
