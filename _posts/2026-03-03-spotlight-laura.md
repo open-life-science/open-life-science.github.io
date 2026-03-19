@@ -13,7 +13,8 @@ photos:
 
 We are kicking off a brand new OLS blog series, in which we will spotlight our team members, their work and interests in a fun and easy way! 
 Today, we'll start with Laura Carter, our new [Fiscally Sponsored Community (FSC) Manager]({%link fiscal-hosting/index.md %}), who joined the team in late 2025. 
-# Welcome to the OLS team Laura! 
+
+### Welcome to the OLS team Laura! 
 
 
 <div class="columns">

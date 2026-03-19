@@ -76,7 +76,7 @@ Bérénice led a revision of the Open Seeds curriculum, aligning it to the [UNES
 
 From 2024 and onwards, our focus has been - and will continue to be - stability. Ironing out processes, adding missing-but-important functions to the team, and getting comfortable operating all three pillars of our vision. Whilst grant-funded roles offer an easy way to be clear about how long we can afford to work with individuals, we've also recognised the need for dedicated staff and contractors focused on specific areas that aren't a single project. This includes "core office" and strategic roles, e.g. finance, the recent [FSC Manager post]({%link _posts/2025-08-22-ols-is-hiring-fsc-manager.md %}), and directorial roles.
 
-![Group photo from all OLS-related people attending RSEcon24. From left to right: Patricia, Sarah, David, Debs, Toby, Yochannah, Aman, Pauline and Saranjeet]({% link images/2026-02-25-retro-five-years-OLS-Rsecongroup.md‎.jpg %})
+![Group photo from all OLS-related people attending RSEcon24. From left to right: Patricia, Sarah, David, Debs, Toby, Yochannah, Aman, Pauline and Saranjeet]({% link images/2026-02-25-retro-five-years-OLS-rsecongroup.jpg %})
 
 The universe hasn't made things easy during 2025, with challenges to the USA federal grant system and the government shutdown making our NASA income unreliable, as well as various personal and family issues that have reduced team availability at short notice. Having two co-executive directors (Patricia Herterich and Yo Yehudi) definitely helped here! It's good to see our careful attempts to create redundancy paying off a little - although it definitely was trial by "tossed in the deep end" when Yo had emergency time off the same month Patricia stepped up to the exec role! 
 
@@ -87,7 +87,7 @@ The universe hasn't made things easy during 2025, with challenges to the USA fed
 
 OLS as an organisation was registered in 2020, so we're proud to be able to celebrate our fifth official year and step into year six in 2026. 
 
-![Group photo from three of our 4 directors in 2025. From left to right: Patricia, Yochannah and Malvika]({% link images/2026-02-25-retro-five-years-OLS.directors2025.jpg %})
+![Group photo from three of our 4 directors in 2025. From left to right: Patricia, Yochannah and Malvika]({% link images/2026-02-25-retro-five-years-OLS-directors-2025.jpg %})
 
 Apart from that, well, this post is long! If you want to see our 5-year strategy for 2025 to 2030, check out our announcement of [Seeds to Systems]({%link _posts/2025-06-30-seeds-to-system-strategy.md %})
 
