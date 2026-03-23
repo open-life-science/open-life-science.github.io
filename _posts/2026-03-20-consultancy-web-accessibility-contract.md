@@ -36,4 +36,4 @@ We also welcome application for Spanish speakers.
 
 ## [Application form](https://tally.so/r/rjE8Xv)
 
-For the remainder of the timeline and other details, please see the [call tender](https://docs.google.com/document/d/1H16GaztT6LrJiSNRKK_7sZl7avLTCTB2RgzrnbihGk8/edit?usp=sharing)
+For the remainder of the timeline and other details, like deliverables and budget, please see the [call tender](https://docs.google.com/document/d/1H16GaztT6LrJiSNRKK_7sZl7avLTCTB2RgzrnbihGk8/edit?usp=sharing).
