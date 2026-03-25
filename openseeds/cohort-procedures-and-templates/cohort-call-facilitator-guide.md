@@ -114,8 +114,8 @@ Below we provide a summary checklist. For a detailed tutorial, please refer to [
 - [ ] In the same column, add the corresponding YouTube link at the exact time each individual talk starts: on YouTube, click "Share", tick "Start at" so that the starting time of each talk shows up, then click "Copy" and paste the link in the spreadsheet.
 
 After you've completed these tasks, please:
-- [ ] Complete the [OLS consultancy agreement](https://docs.google.com/document/d/1oojKd1KQ1UkXfLEVYtIatZQlSrsWDizb/edit?usp=sharing&ouid=112215873773871346640&rtpof=true&sd=true) (specifically the bits for yoru role). You can find a plain summary to read [here](https://docs.google.com/document/d/1jf-PU3x90OozdzD8QkdbAM66uP_A1uCn/edit?usp=sharing&ouid=112215873773871346640&rtpof=true&sd=true).
-- [ ] Return signed to the OLS team.
+- [ ] Complete the [OLS consultancy agreement](https://docs.google.com/document/d/1oojKd1KQ1UkXfLEVYtIatZQlSrsWDizb/edit?usp=sharing&ouid=112215873773871346640&rtpof=true&sd=true) (specifically the bits for your role). You can find a plain summary to read [here](https://docs.google.com/document/d/1jf-PU3x90OozdzD8QkdbAM66uP_A1uCn/edit?usp=sharing&ouid=112215873773871346640&rtpof=true&sd=true).
+- [ ] Return the agreement signed to the OLS team.
 - [ ] Fill out the [honorarium form](https://openlifescience.civicrm.org/civicrm/honorarium).
 
 ### ❓ How to get help
