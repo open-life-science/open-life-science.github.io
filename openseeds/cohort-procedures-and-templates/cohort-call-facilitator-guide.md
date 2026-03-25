@@ -1,7 +1,7 @@
 ---
 layout: page
 toc: true
-title: Cohort facilitator guide
+title: Cohort facilitator guides
 image: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 photos:
   name: Chris Montgomery
