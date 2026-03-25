@@ -1,7 +1,7 @@
 ---
 layout: page
 toc: true
-title: Cohort call facilitator guide
+title: Cohort facilitator guide
 image: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b
 photos:
   name: Chris Montgomery
@@ -20,13 +20,11 @@ Facilitators share some of the cohort call-related management roles with the OLS
 
 Please identify which week you have signed up for and who the cohort call lead is.
 
-Our cohort calls vary in time from week to week. Please, see the schedules from [our website]({{ site.url }}/openseeds/).
+Our cohort calls vary in time from week to week. Please, see the schedules from the specific cohort sub-sites. 
 
-For any questions or concerns, please contact the cohort coordinators via Slack or email:
-* OLS-9: [Malvika, Taj and Seun](mailto:9-cohort-management@we-are-ols.org) 
-* Nebula: [Irene](mailto:nebula-cohort-management@we-are-ols.org)
+For any questions or concerns, please contact the cohort coordinators via Slack or email.
 
-You can also reach out to other OLS team members via Slack or email at any time.
+You can also reach out to other OLS team members via Slack or email at any time (team@we-are-ols.org).
 
 ## Cohort Facilitator Roles
 
@@ -37,9 +35,9 @@ We have two facilitator roles per call. In some cases, it’s possible that the 
 
 **Please ask for the signup sheet where you can indicate your availability for 1 or multiple of these roles**
 
-As of August 2024, both facilitator roles are compensated with $ 50 USD per hour, with a maximum of 1.5 hours per cohort call or 3 hours for video transcription.
+As of March 2026, both facilitator roles are compensated with $ 50 USD per hour, with a maximum of 1.5 hours per cohort call or 3 hours for video transcription.
 
-We invite you to take the lead on the following responsibilities for one or two cohort calls, depending on your availability and interests. Please note that we set a maximum of two calls per person in order to distribute opportunities as much as possible. For the same reason, also note that if you currently have a **confirmed** mentor role in the cohort, we would prefer you sign up to only one cohort call facilitation slot.
+We invite you to take the lead on the following responsibilities for one or two cohort calls, depending on your availability and interests. Please note that we set a maximum of two calls per person in order to distribute opportunities as much as possible. For the same reason, also note that if you currently have a **confirmed** mentor/expert role in the cohort, we would prefer you sign up to only one cohort call facilitation slot.
 
 
 ## Responsibilities of OLS facilitators
@@ -115,7 +113,10 @@ Below we provide a summary checklist. For a detailed tutorial, please refer to [
 - [ ] Add the link to the YouTube video (column "Recording").
 - [ ] In the same column, add the corresponding YouTube link at the exact time each individual talk starts: on YouTube, click "Share", tick "Start at" so that the starting time of each talk shows up, then click "Copy" and paste the link in the spreadsheet.
 
-After you've completed these tasks, please fill out the [honorarium form](https://openlifescience.civicrm.org/civicrm/honorarium).
+After you've completed these tasks, please:
+- [ ] Complete the [OLS consultancy agreement](https://docs.google.com/document/d/1oojKd1KQ1UkXfLEVYtIatZQlSrsWDizb/edit?usp=sharing&ouid=112215873773871346640&rtpof=true&sd=true) (specifically the bits for yoru role). You can find a plain summary to read [here](https://docs.google.com/document/d/1jf-PU3x90OozdzD8QkdbAM66uP_A1uCn/edit?usp=sharing&ouid=112215873773871346640&rtpof=true&sd=true).
+- [ ] Return signed to the OLS team.
+- [ ] Fill out the [honorarium form](https://openlifescience.civicrm.org/civicrm/honorarium).
 
 ### ❓ How to get help
 
@@ -126,7 +127,7 @@ After you've completed these tasks, please fill out the [honorarium form](https:
 
 A few references that can help us expand on these roles are:
 
-* The Turing Way chapter on [remote collaboration](https://the-turing-way.netlify.app/collaboration/remote-collab.html).
+* The Turing Way chapter on [remote collaboration](https://book.the-turing-way.org/collaboration/meetings-events-co-working/chairing/).
 * Zoom manual for cohorts: [Roles in a meeting](https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting).
 * [Enhancing the inclusivity and accessibility of your online calls](https://osf.io/k3bfn/). 
 * Example of the full checklist associated with a cohort call on a [GitHub issue]({{ site.github.repository_url }}/issues/283) from OLS-3.
