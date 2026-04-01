@@ -33,7 +33,7 @@ To ensure that each of us holds respect and a shared sense of responsibility tow
 There are typically different ways to be onboarded in the OLS workspace:
 - You are part of the OLS team
 - You have previously participated or will participate in an OLS cohort
-- You are a [Fiscally Sponsored Company (FSC)](https://we-are-ols.org/open-incubator/fiscal-hosting/) or Fiscally Sponsored Fellow by OLS
+- You are a [Fiscally Sponsored Commmunity (FSC)](https://we-are-ols.org/open-incubator/fiscal-hosting/) or OLS Incubation Fellow
 - You have participated in an OLS training (and as part of the checkout/final feedback form, you'll be invited to join the workspace if you want)
 
 We ask each member to identify the role they take in the OLS cohort and community and understand their responsibilities as listed on the [OLS webpage]({{ site.url }}/about).
