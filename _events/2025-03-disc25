@@ -1,0 +1,25 @@
+---
+layout: event
+title: DISC Unconference 2025
+type: conference
+description: |
+  The Diversity and Inclusion in Scientific Computing (DISC) Unconference aims to produce tools and facilitate activities that will lead to a more diverse and inclusive open-source scientific computing community. 
+  
+external: https://numfocus.github.io/disc-unconference-2025/
+date_start: 2025-03-14
+date_end: 2025-03-16
+
+location:
+  name: IBM Office
+  city: São Paulo
+  country: Brazil
+
+contributions:
+  workshop:
+  - 
+    organisers:
+    - iramosp
+    - malvikasharan
+    title: "Navigating the funding landscape for research in Low-to-middle-income countries and marginalised groups"
+    slides: https://numfocus.github.io/disc-unconference-2025-projects/en/navigating-funding-landscape.html
+---
