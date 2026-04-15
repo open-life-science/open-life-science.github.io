@@ -11,11 +11,11 @@ photos:
 
 # Publications by OLS team
 
-## Papers
+## Published papers
 
 {% bibliography --file team --query @article %}
 
-## Posters, slides, etc
+## Preprints, posters, slides, etc
 
 {% bibliography --file team --query !@article %}
 
