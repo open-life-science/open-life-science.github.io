@@ -44,7 +44,7 @@ Communities that have participated in an OLS training cohort, or worked with OLS
 
 [Can I be an Incubation Fellow without funding?](#can-i-be-an-incubation-fellow-without-funding?)
 
-[I’d like to be an Incubation Fellow or part of an FSC, but...I don’t have any experience with applying for grants.](#…i-don’t-have-any-experience-with-applying-for-grants.)
+[I’d like to be an Incubation Fellow or part of a FSC, but...I don’t have any experience with applying for grants.](#…i-don’t-have-any-experience-with-applying-for-grants.)
 
 […I don’t have a connection with OLS yet.](#…i-don’t-have-a-connection-with-ols-yet.)
 
