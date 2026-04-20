@@ -3,11 +3,11 @@ layout: post
 title: "OLS Organisational Values: Draft is Open for Community Review"
 authors:
 - malvikasharan
-image: https://plus.unsplash.com/premium_photo-1677363463859-a48db2611572
+image: https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 photos:
-  name: Yunus Tuğ
-  license: Unsplash+ License
-  url: https://unsplash.com/@yunustug
+  name: Jordan Madrid
+  license: Unsplash+ free License
+  url: https://unsplash.com/photos/round-white-compass-iDzKdNI7Qgc
 ---
 
 # Seeking Feedback from Our Community Members on Proposed Organisational Values: Your Perspective Matters!

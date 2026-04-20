@@ -29,7 +29,7 @@ weeks:
   '01':
     start:
     calls:
-    - date: March 12, 2024
+    - date: '2024-03-12'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_ethos1
@@ -45,7 +45,7 @@ weeks:
       - What is Open Science?
       - Why is Open Science important?
       talks: []
-    - date: March 14, 2024
+    - date: '2024-03-14'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_ethos2
@@ -62,7 +62,7 @@ weeks:
   '02':
     start:
     calls:
-    - date: March 19, 2024
+    - date: '2024-03-19'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_tools1
@@ -75,7 +75,7 @@ weeks:
       syllabus:
       - Open Science Strategies and Data Management Plans
       talks: []
-    - date: March 21, 2024
+    - date: '2024-03-21'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_tools2
@@ -92,7 +92,7 @@ weeks:
   '03':
     start:
     calls:
-    - date: March 26, 2024
+    - date: '2024-03-26'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_data1
@@ -107,7 +107,7 @@ weeks:
       - Introduction to Open Data
       - FAIR principles
       talks: []
-    - date: March 28, 2024
+    - date: '2024-03-28'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_data2
@@ -126,7 +126,7 @@ weeks:
   '04':
     start:
     calls:
-    - date: April 02, 2024
+    - date: '2024-04-02'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_code1
@@ -141,7 +141,7 @@ weeks:
       - 'Using Open Code: repositories, software citation, considerations when using
         open code'
       talks: []
-    - date: April 04, 2024
+    - date: '2024-04-04'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_code2
@@ -158,7 +158,7 @@ weeks:
   '05':
     start:
     calls:
-    - date: April 09, 2024
+    - date: '2024-04-09'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_results1
@@ -175,7 +175,7 @@ weeks:
       - Reproducibility
       - Contribution guidelines and giving recognition
       talks: []
-    - date: April 11, 2024
+    - date: '2024-04-11'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_results2
@@ -191,7 +191,7 @@ weeks:
   '06':
     start:
     calls:
-    - date: April 18, 2024
+    - date: '2024-04-18'
       time: "16:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_projects
@@ -206,7 +206,7 @@ weeks:
   '07':
     start:
     calls:
-    - date: April 23, 2024
+    - date: '2024-04-23'
       time: "12:00"
       duration: 90 min
       notes: https://annuel2.framapad.org/p/nebula-1_projects
@@ -221,7 +221,7 @@ weeks:
   '08':
     start:
     calls:
-    - date: April 30, 2024
+    - date: '2024-04-30'
       time: "16:00"
       duration: 60 min
       notes: https://annuel2.framapad.org/p/nebula-1_wrap-up

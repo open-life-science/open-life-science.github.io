@@ -5,6 +5,7 @@ channels:
   - bioconda
 dependencies:
   - clang
+  - clangxx
   - gmp>=6.1.2
   - jemalloc>=5.0.1
   - libiconv>=1.15
@@ -14,7 +15,7 @@ dependencies:
   - readline
   - requests>=2.18.4
   - ruamel.yaml
-  - ruby>=3.0
+  - ruby>=3.4,<4.0
   - libffi
   - yaml>=0.1.7
   - yamllint>=1.11.0
@@ -24,3 +25,4 @@ dependencies:
   - pycountry
   - geopy
   - tox
+  - pyzotero

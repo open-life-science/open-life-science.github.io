@@ -1,12 +1,12 @@
 # Schedule for the openseeds ols-4
 ---
 timeline:
-- date: June 21, 2021
+- date: 2021-06-21
   description: Call for Application opens on [Open 
     Review](https://openreview.net/group?id=openlifesci.org/Open_Life_Science/2021/Cohort_4)
   details: See the [guidelines and 
     templates](https://github.com/open-life-science/application-forms)
-- date: June 30, 2021
+- date: 2021-06-30
   description: Application webinar
   type:
   - Talk
@@ -16,7 +16,7 @@ timeline:
   recording:
   details: Watch recordings from previous webinars on 
     [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
-- date: July 09, 2021
+- date: 2021-07-09
   description: Application Clinic Call
   type:
   - Q&A
@@ -24,15 +24,15 @@ timeline:
     https://docs.google.com/document/d/15reADZaKEqbWudJt3kNBUBBUDmaETTyue_K7dqlM-c4/edit#heading=h.h6lp7q9dw9
   details: At this call, OLS team will be available to provide help if you have 
     any question related to your application
-- date: July 19, 2021
+- date: 2021-07-19
   description: Open Review registration deadline
-- date: July 21, 2021
+- date: 2021-07-21
   description: Call for applications closed
-- date: August 16, 2021
+- date: 2021-08-16
   description: Successful applicants announced
 weeks:
   '01':
-    start: September 13, 2021
+    start: '2021-09-13'
     calls:
     - duration: 30 min
       content: |-
@@ -47,7 +47,7 @@ weeks:
       - Meet each other
       - Discuss their personal motivation, expectations, workin practices and 
         project goals
-    - date: September 16, 2021
+    - date: '2021-09-16'
       time: "16:00"
       duration: 60 min
       content: |-
@@ -62,7 +62,7 @@ weeks:
       - Understand common successes and challenges in mentoring OLS participants
       - Know how to celebrate successes and approach challenges in mentoring OLS
         participants.
-    - date: September 17, 2021
+    - date: '2021-09-17'
       time: "10:00"
       duration: 60 min
       content: |-
@@ -78,9 +78,9 @@ weeks:
       - Know how to celebrate successes and approach challenges in mentoring OLS
         participants.
   '02':
-    start: September 20, 2021
+    start: '2021-09-20'
     calls:
-    - date: September 22, 2021
+    - date: '2021-09-22'
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-02
@@ -163,14 +163,14 @@ weeks:
       resources: []
       talks: []
   '03':
-    start: September 27, 2021
+    start: '2021-09-27'
     calls:
     - duration: 30 min
       title: 2nd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: September 29, 2021
+    - date: '2021-09-29'
       time: "18:00"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-03
@@ -240,9 +240,9 @@ weeks:
       - Learn about common value exchanges between community members in open 
         science
   '04':
-    start: October 04, 2021
+    start: '2021-10-04'
     calls:
-    - date: October 06, 2021
+    - date: '2021-10-06'
       time: "18:00"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-04
@@ -311,14 +311,14 @@ weeks:
         \   - CODE_OF_CONDUCT.md\n   - CONTRIBUTING.md\n\n   The exact project structure
         and files used may look different on your project.\n  "
   '05':
-    start: October 11, 2021
+    start: '2021-10-11'
     calls:
     - duration: 30 min
       title: 3rd mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: October 13, 2021
+    - date: '2021-10-13'
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-05
@@ -360,9 +360,9 @@ weeks:
       - Managing issues and labels
       - Submit changes via Pull Request
   '06':
-    start: October 18, 2021
+    start: '2021-10-18'
     calls:
-    - date: October 20, 2021
+    - date: '2021-10-20'
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-06
@@ -423,14 +423,14 @@ weeks:
       - Hear about Iterative Project management
       - Get familiar with Open Software, Open Hardware, Research Data Management
   '07':
-    start: October 25, 2021
+    start: '2021-10-25'
     calls:
     - duration: 30 min
       title: 4th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: October 27, 2021
+    - date: '2021-10-27'
       time: "18:00"
       duration: 30 min
       notes: https://bit.ly/ols-4-week-07
@@ -439,9 +439,9 @@ weeks:
       resources: []
       talks: []
   '08':
-    start: November 01, 2021
+    start: '2021-11-01'
     calls:
-    - date: November 03, 2021
+    - date: '2021-11-03'
       time: "18:00"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-08
@@ -493,14 +493,14 @@ weeks:
       - Hear Mountain of engagement and community interactions
       - Learn about Personas and pathways and welcoming new contributors
   '09':
-    start: November 08, 2021
+    start: '2021-11-08'
     calls:
     - duration: 30 min
       title: 5th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: November 10, 2021
+    - date: '2021-11-10'
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-09
@@ -546,9 +546,9 @@ weeks:
         of work '
       - Tips and advice to overcome challenges as an open researcher
   '10':
-    start: November 15, 2021
+    start: '2021-11-15'
     calls:
-    - date: November 17, 2021
+    - date: '2021-11-17'
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-10
@@ -610,7 +610,7 @@ weeks:
         materials'
       - 'Public engagement: Citizen Science/Participatory research, Scientific communication'
   '11':
-    start: November 22, 2021
+    start: '2021-11-22'
     end: November 26, 2021
     calls:
     - duration: 30 min
@@ -618,7 +618,7 @@ weeks:
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: November 24, 2021
+    - date: '2021-11-24'
       time: "18:00"
       duration: 30 min
       notes: https://bit.ly/ols-4-week-11
@@ -627,9 +627,9 @@ weeks:
       resources: []
       talks: []
   '12':
-    start: November 29, 2021
+    start: '2021-11-29'
     calls:
-    - date: December 01, 2021
+    - date: '2021-12-01'
       time: "18:00"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-12
@@ -661,14 +661,14 @@ weeks:
         recording: https://youtu.be/tT-hmAWUFKI?t=2126
         tag: Ally Skills for Open Leaders
   '13':
-    start: December 06, 2021
+    start: '2021-12-06'
     calls:
     - duration: 30 min
       title: 7th mentor-mentee meeting
       type: Mentor-Mentee
       resources: []
       talks: []
-    - date: December 08, 2021
+    - date: '2021-12-08'
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-13
@@ -698,7 +698,7 @@ weeks:
       - Discuss the importance of taking care of mental health and avoiding burn
         out for both project leaders and community members
   '14':
-    start: December 13, 2021
+    start: '2021-12-13'
     calls:
     - date: December 15, 2021
       time: '12:30'
@@ -722,7 +722,7 @@ weeks:
         title: FAIR software
       after: '- Think about and plan to apply FAIR principles to your project in your
         own time'
-    - date: December 15, 2021
+    - date: '2021-12-15'
       time: "13:30"
       duration: 90 min
       notes: https://bit.ly/ols-4-week-14
@@ -760,7 +760,7 @@ weeks:
         make research \"as open as possible, as restricted as necessary.\"\n     \
         \ \n        "
   '15':
-    start: January 10, 2022
+    start: '2022-01-10'
     calls:
     - duration: 30 min
       title: 8th mentor-mentee meeting
@@ -781,7 +781,7 @@ weeks:
         it.\nThe big idea: identify the most fulfilling conditions under which you
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
-      date: January 11, 2022
+      date: '2022-01-11'
       time: "10:00"
       duration: 60 min
       resources: []
@@ -804,7 +804,7 @@ weeks:
         it.\nThe big idea: identify the most fulfilling conditions under which you
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
-      date: January 12, 2022
+      date: '2022-01-12'
       time: "15:00"
       duration: 60 min
       resources: []
@@ -827,7 +827,7 @@ weeks:
         it.\nThe big idea: identify the most fulfilling conditions under which you
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
-      date: January 13, 2022
+      date: '2022-01-13'
       time: "18:00"
       duration: 60 min
       resources: []
@@ -837,7 +837,7 @@ weeks:
       - Conduct rehearsal for the final presentation from the project leads 
         registered
   '16':
-    start: January 17, 2022
+    start: '2022-01-17'
     calls:
     - notes: https://bit.ly/ols-4-week-16
       content: |-
@@ -853,7 +853,7 @@ weeks:
         it.\nThe big idea: identify the most fulfilling conditions under which you
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
-      date: January 18, 2022
+      date: '2022-01-18'
       time: "10:00"
       duration: 60 min
       resources: []
@@ -875,7 +875,7 @@ weeks:
         it.\nThe big idea: identify the most fulfilling conditions under which you
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
-      date: January 19, 2022
+      date: '2022-01-19'
       time: "15:00"
       duration: 60 min
       resources: []
@@ -897,7 +897,7 @@ weeks:
         it.\nThe big idea: identify the most fulfilling conditions under which you
         thrive - sustain them; identify the least fulfilling conditions that frustrate
         you - avoid them.\n      \n      \n        \n      \n        "
-      date: January 20, 2022
+      date: '2022-01-20'
       time: "18:00"
       duration: 60 min
       resources: []
