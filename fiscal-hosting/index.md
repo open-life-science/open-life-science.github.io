@@ -1,5 +1,6 @@
 ---
 layout: page
+toc: true
 title: Fiscal Hosting
 description: Fiscal sponsorship for open research communities, offering financial and administrative support through OLS.
 permalink: /open-incubator/fiscal-hosting/
@@ -16,55 +17,19 @@ As part of OLS's commitment to growing open researchers, OLS is experimenting wi
 
 Communities that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become a fiscally sponsored community ([FSC](#fsc)).
 
-# FAQs {#faqs}
+# FAQs
 
-[FAQs](#faqs)
-
-[What is Fiscal Sponsorship?](#what-is-fiscal-sponsorship)
-
-[What is an OLS Fiscally Sponsored Community?](#what-is-an-ols-fiscally-sponsored-community)
-
-[How can we become a FSC?](#how-can-we-become-a-fsc)
-
-[What if we don't have three members of our community who are willing to be signatories yet?](#what-if-we-dont-have-three-members-of-our-community-who-are-willing-to-be-signatories-yet)
-
-[Why do you need a dispute resolution process?](#why-do-you-need-a-dispute-resolution-process)
-
-[Why do you need a succession plan?](#why-do-you-need-a-succession-plan)
-
-[What should a FSC roadmap look like?](#what-should-a-fsc-roadmap-look-like)
-
-[What is an OLS Incubation Fellow?](#what-is-an-ols-incubation-fellow)
-
-[Is an Incubation Fellow the same as a Resident Fellow?](#is-an-incubation-fellow-the-same-as-a-resident-fellow)
-
-[How can I become an Incubation Fellow?](#how-can-i-become-an-incubation-fellow)
-
-[What should an Incubation Fellow roadmap look like?](#what-should-an-incubation-fellow-roadmap-look-like)
-
-[Can I be an Incubation Fellow without funding?](#can-i-be-an-incubation-fellow-without-funding)
-
-[I'd like to be an Incubation Fellow or part of a FSC, but...I don't have any experience with applying for grants.](#i-dont-have-any-experience-with-applying-for-grants)
-
-[…I don't have a connection with OLS yet.](#i-dont-have-a-connection-with-ols-yet)
-
-[We already have an organisation, but we'd like to work with OLS on a project](#we-already-have-an-organisation-but-wed-like-to-work-with-ols-on-a-project)
-
-[How can I apply?](#how-can-i-apply)
-
-[Who are your current FSCs and Incubation Fellows?](#who-are-your-current-fscs-and-incubation-fellows)
-
-## What is Fiscal Sponsorship? {#what-is-fiscal-sponsorship}
+## What is Fiscal Sponsorship?
 
 Research projects that are part of universities or big institutes have support from their institutions to handle human and legal infrastructure. For research and community building projects that aren't part of a university, a **fiscal sponsor** like OLS can handle these kinds of activities: for example, making sure staff get paid on time, issuing contracts, reviewing budgets, and consulting with legal advice as/when needed. 
 
-## What is an OLS Fiscally Sponsored Community? {#what-is-an-ols-fiscally-sponsored-community}
+## What is an OLS Fiscally Sponsored Community?
 
 An OLS fiscally sponsored community (FSC) is a group of people working on open research or other OLS-adjacent domains for whom OLS handles infrastructure to help them receive grants or undertake contracts in order to do their work. 
 
 OLS charges 15% of grants received by FSCs to support our fiscal sponsorship work. 
 
-## How can we become a FSC? {#how-can-we-become-a-fsc}
+## How can we become a FSC?
 
 Communities that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become a FSC.
 
@@ -78,35 +43,35 @@ The TL;DR version of the requirements are:
 * A **roadmap** for your planned activities as an FSC. We want to know what your plans are for the community in the short, medium and long term.  
 * Scoping for a **grant** that you might want to apply for as an FSC.
 
-### What if we don't have three members of our community who are willing to be signatories yet? {#what-if-we-dont-have-three-members-of-our-community-who-are-willing-to-be-signatories-yet}
+### What if we don't have three members of our community who are willing to be signatories yet?
 
 We ask that there are **three** members who are willing to sign agreements and contracts as part of showing that the community is stable. 
 
 If you don't yet have three members who are ready to sign contracts on behalf of a community, but you have a plan to get to that position, consider applying to become an **Incubation Fellow.** 
 
-### Why do you need a dispute resolution process? {#why-do-you-need-a-dispute-resolution-process}
+### Why do you need a dispute resolution process?
 
 Handling disagreements and disputes is a normal part of managing communities. It's important to have policies in place that explain how you will handle disagreements between community members **before** your community has major disagreements. OLS will not resolve disputes on your behalf. We ask for a dispute resolution process to be in place so that the community is robust even when members disagree. 
 
-### Why do you need a succession plan? {#why-do-you-need-a-succession-plan}
+### Why do you need a succession plan?
 
 Life happens: community members may no longer be able to commit to taking on governance and contract responsibilities for a community. We ask FSCs to have a succession plan in place to ensure that the community remains sustainable even if a member steps away. 
 
-### What should a FSC roadmap look like? {#what-should-a-fsc-roadmap-look-like}
+### What should a FSC roadmap look like?
 
 A roadmap should cover the purpose of the community–what you want to achieve in open research, open science and/or community building. It should also outline your planned activities in the short term (over the next year), in the medium term (1-2 years), and in the long term (3-5 years). 
 
-## What is an OLS Incubation Fellow? {#what-is-an-ols-incubation-fellow}
+## What is an OLS Incubation Fellow?
 
 An OLS Incubation Fellow is a person working on open research or other OLS-adjacent domains who is working towards building a sustainable community, for whom OLS handles the infrastructure to help them receive grants or undertake contracts in order to do this work. 
 
 OLS charges 7.5% of grants received by Incubation Fellows to support our fiscal sponsorship work.
 
-### Is an Incubation Fellow the same as a Resident Fellow? {#is-an-incubation-fellow-the-same-as-a-resident-fellow}
+### Is an Incubation Fellow the same as a Resident Fellow?
 
 Incubation fellows are affiliated with OLS with the aim of building a sustainable community. Resident Fellows are also affiliated with OLS, but have different aims. At present we only take open applications for Incubation Fellows. 
 
-## How can I become an Incubation Fellow? {#how-can-i-become-an-incubation-fellow}
+## How can I become an Incubation Fellow?
 
 Individuals that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become an Incubation Fellow.
 
@@ -117,33 +82,33 @@ The TL;DR version of the requirements are:
 * A **roadmap** for your planned activities as an Incubation Fellow. We want to know what your plans are to build a sustainable community.  
 * A **grant** **or other source of funding** that you have identified to support you in this work. 
 
-### What should an Incubation Fellow roadmap look like? {#what-should-an-incubation-fellow-roadmap-look-like}
+### What should an Incubation Fellow roadmap look like?
 
 We want to see what activities and steps you plan to take to build a sustainable community. This can be an OLS FSC–see the requirements above–or another form of community (for example, an independent organisation, or a community with a different fiscal sponsor) if that's a better fit. We expect your roadmap to cover about a year: we don't anticipate taking on Incubation Fellows for longer than this. 
 
-### Can I be an Incubation Fellow without funding? {#can-i-be-an-incubation-fellow-without-funding}
+### Can I be an Incubation Fellow without funding?
 
 At present, we are only taking on Incubation Fellows when they have funding. Please keep an eye out for other opportunities to work with OLS!
 
-## We already have an organisation, but we'd like to work with OLS on a project {#we-already-have-an-organisation-but-wed-like-to-work-with-ols-on-a-project}
+## We already have an organisation, but we'd like to work with OLS on a project
 
 Great! Drop us an email at team \[at\] we-are-ols.org  with more information. We can fiscally sponsor individual projects, but we can also collaborate directly with other organisations when it makes sense to do so.  
 
 ## I'd like to be an Incubation Fellow or part of an FSC, but…
 
-### …I don't have any experience with applying for grants. {#i-dont-have-any-experience-with-applying-for-grants}
+### …I don't have any experience with applying for grants.
 
 We can help you put together an application! In fact, we prefer to work closely with our FSCs and Incubation Fellows on their grant applications. 
 
-### …I don't have a connection with OLS yet. {#i-dont-have-a-connection-with-ols-yet}
+### …I don't have a connection with OLS yet.
 
 At the moment, we are only entering into fiscal sponsorship arrangements with people who have already been part of an OLS training cohort, or worked with OLS in other capacities. Please do [subscribe to our newsletter](https://openlifescience.civicrm.org/civicrm/newsletter) to find out more about how you can work with us!
 
-## How can I apply? {#how-can-i-apply}
+## How can I apply?
 
 Please go ahead and [fork the repo](https://github.com/open-life-science/fiscally-sponsored-community-templates) to apply to become an FSC or a Fellow. Send us an email at fsc \[at\] we-are-ols.org to let us know you're working on the repo as well!
 
-## Who are your current FSCs and Incubation Fellows? {#who-are-your-current-fscs-and-incubation-fellows}
+## Who are your current FSCs and Incubation Fellows?
 
 ### Current Fiscally Sponsored Communities (FSC)
 {% assign f_community = site.data.community.fiscal_communities %}
