@@ -78,7 +78,7 @@ jobs:
             month="${basename:5:2}"
             day="${basename:8:2}"
             slug="${basename:11}"
-            page_url="${PREVIEW_URL}/${year}/${month}/${day}/${slug}/"
+            page_url="${PREVIEW_URL}/posts/${year}/${month}/${day}/${slug}/"
           else
             relative=$(echo "$file" | sed 's/\.md$/\//' | sed 's/index\/$//')
             relative="${relative#/}"  # strip leading slash to avoid double slashes
