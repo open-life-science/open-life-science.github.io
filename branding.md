@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Branding
+description: OLS brand assets, logos, slide templates, and usage guidelines.
 image: https://images.unsplash.com/photo-1618513462042-29ac20aefe11
 photos:
   name: Zhang Xinxin

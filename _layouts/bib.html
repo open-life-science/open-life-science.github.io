@@ -1,0 +1,8 @@
+{% assign doi_url = "https://doi.org/" | append: entry.doi %}
+{% if entry.doi %}
+  {{ reference | remove: doi_url }} <a href="{{ doi_url }}">{{ doi_url }}</a>
+{% elsif entry.url %}
+  {{ reference | remove: entry.url }} <a href="{{ entry.url }}">{{ entry.url }}</a>
+{% else %}
+  {{ reference }}
+{% endif %}

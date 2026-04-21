@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'OLS-NASA Nebula Program'
+description: NASA Open Science 101 training program delivered by OLS with virtual cohort-based learning.
 image: /images/nebula/neb-hero-image.png
 photos:
   name: Jilaga Nneoma
@@ -19,7 +20,7 @@ registration_bg_color: "#143132"
             <div class="column is-two-thirds">
               <h2 class="section-title is-size-3">About</h2>
               <p><strong>Get ready for an exciting new series of cohorts on open science in collaboration with NASA.</strong></p>
-              <p>Funded by <a href="https://www.nasa.gov/">NASA</a>, OLS offers 6-week-long virtual cohorts, bringing our cohort-based approach,  with hands-on learning and individual coaching throughout the training.</p>
+              <p>Funded by <a href="https://www.nasa.gov/">NASA</a>, OLS offers 6-week-long virtual cohorts, bringing our cohort-based approach,  with hands-on learning and coaching sessions throughout the training.</p>
               <p> The Nebula program is currently paused.</p>
             </div>
             <div class="column">
@@ -29,7 +30,7 @@ registration_bg_color: "#143132"
                             <i class="fas fa-user-friends"></i>
                         </div>
                         <div class="content">
-                            <strong>1:1 Coaching</strong>
+                            <strong> Coaching</strong>
                             <p>Hands-on support for your research</p>
                         </div>
                     </div>
@@ -65,7 +66,7 @@ registration_bg_color: "#143132"
     <div class="container">
 <h2 class="section-title is-size-3">Program overview</h2>
 <div markdown="1">
-The OLS-NASA Nebula program is a comprehensive 6-week training program designed for participants at any career stage. The program integrates practical training with individual coaching, supporting participants to apply open science principles, skills, and tools in their work.
+The OLS-NASA Nebula program is a comprehensive 6-week training program designed for participants at any career stage. The program integrates practical training with coaching sessions, supporting participants to apply open science principles, skills, and tools in their work.
 
 ### Who is this training for?
 
@@ -119,54 +120,12 @@ Participants will share a short presentation on their work as a graduation requi
 </div>
 </section>
 
-<section class="section" style="background-color: {{ page.about_bg_color }}">
-  <div class="container">
-    <h2 class="section-title is-3">Pricing</h2>
-    <p>The prices listed are per ticket. We offer discounted rates for teams and organizations purchasing multiple tickets together. To qualify for a bundle discount, you must purchase at least the minimum number of tickets required for each bundle.</p>
-    <div class="columns">
-      <div class="column">
-        <div class="box">
-          <h3 class="title is-4">Individual Rate</h3>
-          <ul>
-            <li>For individuals</li>
-          </ul>
-          <br>
-          <br>
-          <p class="title is-2">$900 USD</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="box">
-          <h3 class="title is-4">Team Bundle</h3>
-          <ul>
-            <li>3-9 tickets</li>
-            <li>For small teams or organizations</li>
-          </ul>
-          <br>
-          <p class="title is-2">$600 USD</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="box">
-          <h3 class="title is-4">Organization Bundle</h3>
-          <ul>
-            <li>10 tickets or more</li>
-            <li>For larger organizations aiming to provide training to multiple community members</li>
-          </ul>
-          <p class="title is-2">$400 USD</p>
-        </div>
-      </div>
-    </div>
-    <p>Fee waivers are available for a limited number of participants. Please complete this short <a href="https://forms.gle/4mq4n25Mbm4r6qWB9">Fee Waiver Request Form</a>.</p>
-    <p>We review requests on a rolling basis.</p>
-  </div>
-</section>
 
 <section class="section" style="background-color: {{ page.registration_bg_color }};">
     <div class="container">
-        <!--h2 class="section-title is-size-3 has-text-white">Registration is now open!</h2>
+        <!--h2 class="section-title is-size-3 has-text-white">Registration will open soon!</h2>
         <p class="has-text-white">
-        Our next offering will run on Tuesdays and Thursdays beginning February 25, 2025, until April 3, 2025. Sessions are scheduled at 17:00 - 18:30 (UTC).</p>
+        Our next offering will run on Tuesdays and Thursdays beginning April 14, 2026, until May 21, 2026. Sessions are scheduled at 15:00 - 16:30 (UTC).</p>
         <p class="has-text-white">We look forward to having you on board for this exploration into open science!</p>
         <div class="buttons is-right">
             <a href="https://events.humanitix.com/ols-nebula" class="button is-primary">Register as a participant</a>
@@ -177,10 +136,10 @@ Participants will share a short presentation on their work as a graduation requi
 <section class="section" style="background-color: {{ page.program_overview_bg_color }};">
     <div class="container">
         <h2 class="section-title is-size-3">Upcoming sessions</h2>
-        <p>The expected timeline for upcoming sessions in 2025 is below:</p>
+        <p>The expected timeline for upcoming sessions in 2026 is COMING SOON:</p>
         <div class="box has-text-centered" markdown="1">
 
-We have no sessions planned at the moment. 
+2026 cohort information will be added soon! 
 
 
 

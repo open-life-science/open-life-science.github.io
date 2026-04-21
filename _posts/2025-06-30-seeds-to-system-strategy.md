@@ -45,8 +45,7 @@ Since launching in 2020, OLS has become a recognised and reliable partner in [op
 These structured programs remain crucial for onboarding researchers into open science, and we have also been offering **customised training and mentorship support for various organisations**. 
 We will continue to strengthen this service area, aiming to generate revenue, providing a sustainable funding stream for Open Seeds and Nebula, which currently rely on grants and sponsorships.
 
-**What's Next?** Under "Seeds to Systems," we are developing **advanced training** for researchers and open science practitioners with projects ready to transition to the next stage.
-This program will equip them with the skills and strategies needed to design compelling project proposals, secure funding, and acquire resources to sustain their work using open-source/science solutions.
+**What's Next?** Under "Seeds to Systems," we are developing **advanced training** for open science communities and projects ready to transition to the next stage. This program will equip them with skills to navigate a transition toward project and community sustainability, including strategies to approach the process to acquire resources, a network of peers and experts, and guidance to develop a vision for long term impact. 
 A new **Seeds to Systems Curriculum** will be designed to directly leverage learnings and collaborations from Open Seeds.
 
 This mission will be developed in alignment with the **Open Research** and **Open Incubator** mission areas, providing critical resources and a progression path for researchers.

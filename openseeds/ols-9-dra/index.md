@@ -2,6 +2,7 @@
 layout: page
 toc: true
 title: Welcome to Open Seeds Cohort 9 - DRI-EDIA track
+description: Syllabus, schedule, and projects from Open Seeds Cohort 9 DRI-EDIA track.
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Welcome to the 3rd cohort of OLS program!
+description: Syllabus, schedule, and projects from Open Seeds Cohort 3 (OLS-3).
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg

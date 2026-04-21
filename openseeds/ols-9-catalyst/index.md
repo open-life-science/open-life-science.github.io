@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Welcome to Open Seeds Cohort 9 - Catalyst track
+description: Syllabus, schedule, and projects from Open Seeds Cohort 9 Catalyst track.
 image: /images/syllabus.jpg
 photos:
   name: Niklas Morberg

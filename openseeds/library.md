@@ -2,6 +2,7 @@
 layout: page
 toc: true
 title: Open Seeds Video Library
+description: Recorded talks and presentations from Open Seeds cohorts on open science topics.
 image: https://images.unsplash.com/photo-1481137344492-d5a150a97f8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 photos:
   name: Chris Lawton

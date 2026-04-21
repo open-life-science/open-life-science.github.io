@@ -30,15 +30,19 @@ We want to provide community spaces, including the Slack workspace, where everyo
 
 To ensure that each of us holds respect and a shared sense of responsibility towards each other in our community, we have created pathways for purposeful participation in OLS, including the Slack workspace.
 
-There are typically two ways to be onboarded in the OLS workspace:
+There are typically different ways to be onboarded in the OLS workspace:
 - You are part of the OLS team
 - You have previously participated or will participate in an OLS cohort
+- You are a [Fiscally Sponsored Commmunity (FSC)](https://we-are-ols.org/open-incubator/fiscal-hosting/) or OLS Incubation Fellow
+- You have participated in an OLS training (and as part of the checkout/final feedback form, you'll be invited to join the workspace if you want)
 
 We ask each member to identify the role they take in the OLS cohort and community and understand their responsibilities as listed on the [OLS webpage]({{ site.url }}/about).
 
 If you would like to invite someone who has not previously participated in any of the previous capacities, there are two ways to involve them:
 - If they are already open science practitioners, please let the OLS team know so that they can invite them as an expert for the current (ongoing) cohort
-- If they want to learn about open science, you can share the [announcement mailing list](https://groups.google.com/forum/#!forum/ols-news), where we will send an announcement for the application call for the next cohort.
+- If they want to learn about open science, you can share:
+   - the [announcement mailing list](https://groups.google.com/forum/#!forum/ols-news), where we will send an announcement for the application call for the next cohort.
+   - The [link to subscribe](https://openlifescience.civicrm.org/civicrm/newsletter) to our newsletter, ROOTS 🌱
 
 ### OLS Slack Channels
 

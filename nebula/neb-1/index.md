@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Welcome to the 1st cohort of Nebula!
+description: Syllabus, schedule, and participants from Nebula Cohort 1 (NEB-1).
 image: /images/nebula/neb-hero-image.png
 photos:
   name: Jilaga Nneoma
