@@ -58,7 +58,28 @@ jobs:
     - name: Comment with preview URL
       env:
         GITHUB_TOKEN: ${{ secrets.PR_PREVIEW_TOKEN }}   # Step 7a: Use token for authentication.
-      run: | # Step 7b: Create a preview URL using the PR number, post a comment with the preview link on this PR.
-        PREVIEW_URL="https://we-are-ols.org/ols-site-preview/${{ github.event.pull_request.number }}/"
-        COMMENT_BODY="🎉 A preview of this PR is available at: [${PREVIEW_URL}](${PREVIEW_URL})"
+      run: | # Step 7b: Create a preview URL using the PR number, post a comment with the preview link on this PR. If .md files were changed, also add direct links to those pages.
+        PREVIEW_URL="https://we-are-ols.org/ols-site-preview/${{ github.event.pull_request.number }}"
+        PAGES_LIST=""
+
+        while IFS= read -r file; do
+          [ -z "$file" ] && continue
+          permalink=$(grep -m1 "^permalink:" "$file" 2>/dev/null | sed 's/permalink:[[:space:]]*//' | tr -d "\"' ")
+          if [ -n "$permalink" ]; then
+            page_url="${PREVIEW_URL}${permalink}"
+          else
+            relative=$(echo "$file" | sed 's/\.md$/\//' | sed 's/index\/$//')
+            relative="${relative#/}"  # strip leading slash to avoid double slashes
+            [ -z "$relative" ] && continue  # skip root index.md (would duplicate preview URL)
+            page_url="${PREVIEW_URL}/${relative}"
+          fi
+          PAGES_LIST="${PAGES_LIST}\n- [${file}](${page_url})"
+        done < <(gh pr diff ${{ github.event.pull_request.number }} --name-only 2>/dev/null | grep '\.md$')
+
+        if [ -n "$PAGES_LIST" ]; then
+          COMMENT_BODY="$(printf '🎉 A preview of this PR is available at: [%s/](%s/)\n\n**Changed pages:**\n%b' "$PREVIEW_URL" "$PREVIEW_URL" "$PAGES_LIST")"
+        else
+          COMMENT_BODY="🎉 A preview of this PR is available at: [${PREVIEW_URL}/](${PREVIEW_URL}/)"
+        fi
+
         gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
