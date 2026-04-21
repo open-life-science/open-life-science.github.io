@@ -1,5 +1,6 @@
 ---
 layout: page
+toc: true
 title: Fiscal Hosting
 description: Fiscal sponsorship for open research communities, offering financial and administrative support through OLS.
 permalink: /open-incubator/fiscal-hosting/
@@ -10,117 +11,106 @@ photos:
   url: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 ---
 
-# OLS Fiscally Sponsored Community (FSC) Onboarding process
+# Fiscal Sponsorship
 
-As part of OLS's commitment to growing open researchers, OLS is experimenting with offering Fiscal Sponsorship. This model is well-known in the United States, with sponsors such as [Numfocus](https://numfocus.org/) and [Code for Science and Society](https://www.codeforsociety.org/) existing as nonprofit organisations that offer fiscal sponsorship for their constituent communities. To our knowledge are fewer UK-based fiscal sponsors that specialise in open research related needs, and/or that are willing to take on small projects. 
+As part of OLS's commitment to growing open researchers, OLS is experimenting with offering Fiscal Sponsorship. This model is well-known in the United States, with sponsors such as [Numfocus](https://numfocus.org/) and [Code for Science and Society](https://www.codeforsociety.org/) existing as nonprofit organisations that offer fiscal sponsorship for their constituent communities. To our knowledge there are fewer UK-based fiscal sponsors that specialise in open research related needs, that are willing to take on small projects, or who are willing to act as fiscal sponsors for projects outside of the US or UK. 
 
-Communities that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become a fiscally sponsored community ([FSC](#fsc)). 
+Communities that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become a fiscally sponsored community ([FSC](#fsc)).
 
-## What Fiscal Sponsorship is, and why it can be useful
+# FAQs
 
-**If you're a researcher who has worked in academia before**, you probably had support from your institution to handle a lot of the human and legal infrastructure - e.g. making sure staff get paid on time, issuing contracts, reviewing budgets, and consulting with legal advice as/when needed. In scenarios where your project doesn't fit in a university any longer (or never did),  becoming a businessperson or entrepreneur might not have been part of your plans! 
+## What is Fiscal Sponsorship?
 
-Fiscal sponsors can support you by handling these types of activities even outside a university: 
+Research projects that are part of universities or big institutes have support from their institutions to handle human and legal infrastructure. For research and community building projects that aren't part of a university, a **fiscal sponsor** like OLS can handle these kinds of activities: for example, making sure staff get paid on time, issuing contracts, reviewing budgets, and consulting with legal advice as/when needed. 
 
-- Issuing contracts for staff and contractors
-- Maintaining an accounting team to handle 
-    - Monthly payroll (PAYE in the UK)
-    - Ad-hoc invoices
-    - Pay scales and annual inflation-based pay rises
-    - Tax, benefits and pension
-    - Yearly reporting to HMRC or other governmental bodies in your country. 
-    - Making payments internationally, e.g. honoraria or stipends for volunteers 
-    - Holding your money in a UK-based bank account associated with a registered UK Company.
-- Working with a legal team to create new contracts and review higher-risk and/or high-value contracts and grants. 
-- Assessing grant application budgets to ensure true costs of a grant are considered (e.g. overheads such as building premises costs, employers' national insurance, software licences, etc). 
+## What is an OLS Fiscally Sponsored Community?
 
-## FAQ
+An OLS fiscally sponsored community (FSC) is a group of people working on open research or other OLS-adjacent domains for whom OLS handles infrastructure to help them receive grants or undertake contracts in order to do their work. 
 
-### I would like to apply to become an OLS FSC. What do I need to do? 
-Please email [{{ site.fsc_email|replace:'@','[at]' }}](mailto:{{ site.fsc_email }}) to discuss your options, or message the FSC team in Slack. 
+OLS charges 15% of grants received by FSCs to support our fiscal sponsorship work. 
 
-### Are there any minimum requirements for becoming an FSC? 
-There are! Please fork the [FSC community template repo](https://github.com/open-life-science/fiscally-sponsored-community-templates), which should guide you through creating issues as to-dos for the basic docs we expect. [You can also read our internal policy page for FSCs]({% link fiscal-hosting/fsc-policies.md %})
+## How can we become a FSC?
 
-The TL;DR version of the requirements are: 
+Communities that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become a FSC.
 
-- At least **three senior members** who are responsible for organisational governance.
-- A **dispute resolution process** (OLS will not resolve disputes on your behalf).
-- A **succession policy** - e.g. what happens if key project members leave or become unresponsive / unavailable for some reason. 
+Please fork the [FSC community template repo](https://github.com/open-life-science/fiscally-sponsored-community-templates), which should guide you through creating issues as to-dos for the basic docs we expect. [You can also read our internal policy page for FSCs and Fellows.]({% link fiscal-hosting/fsc-policies.md %}) 
 
-If you think you can't yet meet those requirements, we're still happy to chat - we might want to consider working with you as part of a **resident fellowship** instead. 
+The TL;DR version of the requirements are:
 
-If you're thinking of applying for a grant opportunity, please contact OLS with as _much_ time in advance as possible before you submit the grant application, so we can offer advice and help verify that the budget works for us and for you. 
+* At least **three members** who are responsible for organisational governance, and who will be signatories on contracts.   
+* A **dispute resolution process** for disputes between community members.   
+* A **succession policy** for what happens if key project members leave or become unresponsive/unavailable for some reason.  
+* A **roadmap** for your planned activities as an FSC. We want to know what your plans are for the community in the short, medium and long term.  
+* Scoping for a **grant** that you might want to apply for as an FSC.
 
-### I've never applied for a grant before! Do you have any advice?
+### What if we don't have three members of our community who are willing to be signatories yet?
 
-Definitely! In fact, we prefer to work hand-in-hand with our new FSCs and resident fellows when they are applying for their first funding rounds. 
+We ask that there are **three** members who are willing to sign agreements and contracts as part of showing that the community is stable. 
 
-### Does it cost anything to be an FSC? 
-Nothing up-front. If you're awarded any grants, we usually ask for a fee of around 15% of the incoming sum. This helps us pay our program officers who manage the finance, as well as covering costs like legal and accounting. There are scenarios where this number may vary though, depending on the grant requirements.
+If you don't yet have three members who are ready to sign contracts on behalf of a community, but you have a plan to get to that position, consider applying to become an **Incubation Fellow.** 
 
-### Can an FSC hire people?
+### Why do you need a dispute resolution process?
 
-Yes. However, there are costs involved in this.
+Handling disagreements and disputes is a normal part of managing communities. It's important to have policies in place that explain how you will handle disagreements between community members **before** your community has major disagreements. OLS will not resolve disputes on your behalf. We ask for a dispute resolution process to be in place so that the community is robust even when members disagree. 
 
-In short, for every £100 of salary, there are £60 of extra costs - giving a total of £160. Salaries should therefore be budgeted at **160%** of the pre-tax cost.
+### Why do you need a succession plan?
 
-![A diagram which visualises the breakdown of employment and contractor costs]({% link fiscal-hosting/salary-split.png %})
+Life happens: community members may no longer be able to commit to taking on governance and contract responsibilities for a community. We ask FSCs to have a succession plan in place to ensure that the community remains sustainable even if a member steps away. 
 
-If the person is based in the UK, they will be onboarded as an **OLS employee**. Their salary will break down as follows:
-- The pre-tax salary splits into two sets of cost: employee PAYE contributions (National Insurance, income tax, pension contributions, and Student Finance payments) and the money they take home at the end of the month.
-- Additionally, we need to budget an extra 60% to pay for employer contributions to tax and pension, as well as additional costs (such as payroll, administrative costs, and insurance).
+### What should a FSC roadmap look like?
 
-If the person is based outside of the UK, they will be onboarded as a **contractor**. Their payments will break down as follows:
-- They receive a 15% uplift to pre-tax salary. This is because we don't need to cover employer or employee costs in the UK. Contractors must make their own local tax payments. They are encouraged to organise local pensions and insurance.
-- Due to the reduced tax and pension burden, we budget 45% for payroll, administrative, and other costs.
+A roadmap should cover the purpose of the community–what you want to achieve in open research, open science and/or community building. It should also outline your planned activities in the short term (over the next year), in the medium term (1-2 years), and in the long term (3-5 years). 
 
-The full 160% should be budgeted into all grants. The OLS team can support you with this if needed.
+## What is an OLS Incubation Fellow?
 
-### What does the FSC onboarding process look like? 
+An OLS Incubation Fellow is a person working on open research or other OLS-adjacent domains who is working towards building a sustainable community, for whom OLS handles the infrastructure to help them receive grants or undertake contracts in order to do this work. 
 
-```mermaid!
-graph TD;
-    Idea[💡 Project or funding opportunity identified]-->Contact["📧 Make contact with OLS"];
+OLS charges 7.5% of grants received by Incubation Fellows to support our fiscal sponsorship work.
 
-    Contact-->MIN;
+### Is an Incubation Fellow the same as a Resident Fellow?
 
-    MIN-->No;
+Incubation fellows are affiliated with OLS with the aim of building a sustainable community. Resident Fellows are also affiliated with OLS, but have different aims. At present we only take open applications for Incubation Fellows. 
 
-      No-->ResidentFellow[👤 
-    Resident Fellowship 
-    route];
+## How can I become an Incubation Fellow?
 
+Individuals that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become an Incubation Fellow.
 
-     MIN["🔍 FSC minimum requirements 
-    already exist, or can 
-    be implemented easily?"]-->Yes
-    
-    Yes-->Proposal
+Please fork the Incubation Fellow community template repo, which should guide you through creating issues as to-dos for the basic docs we expect. [You can also read our internal policy page for FSCs and Fellows.]({% link fiscal-hosting/fsc-policies.md %})
 
-    Proposal[FSC & OLS co-design project proposal]-->FSCinPrinciple
-   
-    
-  FSCinPrinciple["`👥👥👥 
-    OLS & FSC sign **FSC Candidate agreement in principle**`"];
-    
-    FSCinPrinciple-- "💰 If/when funding awarded" -->FSCAgreed["`📝 OLS & FSC sign **FSC Sponsorship agreement**.
-    OLS received funds and project is carried out by FSC`"];
-    
-    FSCAgreed-- 💡 New project 
-    opportunity identified -->Proposal
-    
-    ResidentFellow-- 💡 New project 
-    opportunity identified --->MIN
-   
-```
+The TL;DR version of the requirements are:
 
-## Definitions
-### FSC
-**Fiscally sponsored community:** A group of individuals with interest in open research or other OLS-adjacent domains that would like assistance handling money, contracts, and possibly employment.
+* A **roadmap** for your planned activities as an Incubation Fellow. We want to know what your plans are to build a sustainable community.  
+* A **grant** **or other source of funding** that you have identified to support you in this work. 
 
+### What should an Incubation Fellow roadmap look like?
 
-# Current Fiscally Sponsored Communities (FSC)
+We want to see what activities and steps you plan to take to build a sustainable community. This can be an OLS FSC–see the requirements above–or another form of community (for example, an independent organisation, or a community with a different fiscal sponsor) if that's a better fit. We expect your roadmap to cover about a year: we don't anticipate taking on Incubation Fellows for longer than this. 
+
+### Can I be an Incubation Fellow without funding?
+
+At present, we are only taking on Incubation Fellows when they have funding. Please keep an eye out for other opportunities to work with OLS!
+
+## We already have an organisation, but we'd like to work with OLS on a project
+
+Great! Drop us an email at team \[at\] we-are-ols.org  with more information. We can fiscally sponsor individual projects, but we can also collaborate directly with other organisations when it makes sense to do so.  
+
+## I'd like to be an Incubation Fellow or part of an FSC, but…
+
+### …I don't have any experience with applying for grants.
+
+We can help you put together an application! In fact, we prefer to work closely with our FSCs and Incubation Fellows on their grant applications. 
+
+### …I don't have a connection with OLS yet.
+
+At the moment, we are only entering into fiscal sponsorship arrangements with people who have already been part of an OLS training cohort, or worked with OLS in other capacities. Please do [subscribe to our newsletter](https://openlifescience.civicrm.org/civicrm/newsletter) to find out more about how you can work with us!
+
+## How can I apply?
+
+Please go ahead and [fork the repo](https://github.com/open-life-science/fiscally-sponsored-community-templates) to apply to become an FSC or a Fellow. Send us an email at fsc \[at\] we-are-ols.org to let us know you're working on the repo as well!
+
+## Who are your current FSCs and Incubation Fellows?
+
+### Current Fiscally Sponsored Communities (FSC)
 {% assign f_community = site.data.community.fiscal_communities %}
 {% assign incubator_fellows = site.data.community.incubator_fellows %}
 
@@ -133,7 +123,7 @@ graph TD;
 {% endfor %}
 </div>
 
-# Current Incubator Fellows
+### Current Incubator Fellows
 {% assign f_community = site.data.community.fiscal_communities %}
 <div class="entities">
 {% for fellow in incubator_fellows %}
