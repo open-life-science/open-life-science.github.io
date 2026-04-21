@@ -3,11 +3,11 @@ layout: post
 title: "The FOSDEM 2025 Experience"
 authors:
 - npdebs
-image: https://images.unsplash.com/photo-1739957240497-57ab71d9ed1a
+image: https://images.unsplash.com/photo-1550305080-4e029753abcf?q=80&w=2071
 photos:
-  name: NPDebs
-  license: CC BY-SA 4.0
-  url: https://unsplash.com/@npdebs
+  name: Jaime Lopes
+  license: Unsplash License
+  url: https://unsplash.com/photos/people-raising-hands-with-bokeh-lights-0RDBOAdnbWM
 ---
 
 Let me start by saying that **this trip almost didn’t happen**. A visa application I started in early November was still unresolved a day before FOSDEM. Without my passport, I had to cancel my flight. But with just a few hours to go, something changed.
