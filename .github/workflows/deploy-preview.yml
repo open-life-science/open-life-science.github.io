@@ -67,6 +67,13 @@ jobs:
           permalink=$(grep -m1 "^permalink:" "$file" 2>/dev/null | sed 's/permalink:[[:space:]]*//' | tr -d "\"' ")
           if [ -n "$permalink" ]; then
             page_url="${PREVIEW_URL}${permalink}"
+          elif [[ "$file" == _posts/* ]]; then
+            basename=$(basename "$file" .md)
+            year="${basename:0:4}"
+            month="${basename:5:2}"
+            day="${basename:8:2}"
+            slug="${basename:11}"
+            page_url="${PREVIEW_URL}/${year}/${month}/${day}/${slug}/"
           else
             relative=$(echo "$file" | sed 's/\.md$/\//' | sed 's/index\/$//')
             relative="${relative#/}"  # strip leading slash to avoid double slashes
