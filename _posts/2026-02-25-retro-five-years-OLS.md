@@ -64,7 +64,7 @@ This core set of pillars is prominent on our [homepage]({{ site.url }}), with ic
 
 New money often takes a year or more to bring in, even once it is agreed by a funder or client. We also didn't want to be a solely grant-funded organisation - it made sense to us to diversify our funding sources, and not rely on any single source. Ideally whilst also somehow making sure not to over-stretch ourselves :joy: - an easy task of course. 
 
-So far, this has gone well. We collaborated with MetaDocencia to win two NASA grants (focused on our training and mentoring pillar), which became [Nebula](https://we-are-ols.org/nebula/) and [ALTa ciencia abierta](https://www.metadocencia.org/proyecto/nasa-spanish/). The [Catalyst project](https://catalystproject.cloud/) spanned training and incubation pillars. 
+So far, this has gone well. We collaborated with MetaDocencia to win two NASA grants (focused on our training and mentoring pillar), which became [Nebula](https://we-are-ols.org/nebula/) and [ALTa ciencia abierta](https://www.metadocencia.org/proyecto/nasa-spanish/). The [Catalyst project](https://czi-catalystproject.github.io/) spanned training and incubation pillars. 
 
 [Open Seeds](https://we-are-ols.org/openseeds/) was named Open Seeds - previously it had been just "OLS", to distinguish it from the NASA work, and to distinguish it from OLS as an organisation. We also successfully offered [Open Seeds OLS-9 as a contracted service]({%link _posts/2024-07-15-openseeds-in-2024.md %}), rather than solely a grant-funded activity - an important first! 
 
