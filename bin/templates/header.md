@@ -1,14 +1,14 @@
-# Week <week-nb> - <title>
+# Week {{ week_nb }} - {{ title }}
 
-**Date**: <date>
+**Date**: {{ date }}
 
-**Time**: <time>
+**Time**: {{ time }}
 
-**Duration**: <duration>
+**Duration**: {{ duration }}
 
-**Call lead**: <lead>
+**Call lead**: {{ lead }}
 
-**Facilitator**: <facilitator>
+**Facilitator**: {{ facilitator }}
 
 
 ## Join the Cohort Room
@@ -31,7 +31,7 @@
 
 ## At the end of this week's cohort call, you will be able to:
 
-<learning_objectives>
+{{ learning_objectives }}
 
 
 ## 🌍 Roll call
@@ -40,15 +40,15 @@
 
 Name / Project / social handles (twitter, GitHub, etc.) / \_emoji mood \_
 
-*    
-*    
+*
+*
 
 
 ### Icebreaker question
 
-<icebreaker>
+{{ icebreaker }}
 
-*    
+*
 *    
 
 

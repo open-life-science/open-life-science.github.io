@@ -1,11 +1,11 @@
-## 🖥 Talk: <title>
+## 🖥 Talk: {{ title }}
 
-[HOST] (<duration> min) [⏰ <timing>]
+[HOST] ({{ duration }} min) [⏰ {{ timing }}]
 
-**Presenter**: <speaker>
+**Presenter**: {{ speaker }}
 
-* Contact / social: 
-* Slides: <slides>
+* Contact / social:
+* Slides: {{ slides }}
 
 **Notes**:
 

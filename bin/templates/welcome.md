@@ -1,6 +1,6 @@
 ## 🗣️ Welcome!
 
-[HOST] (<duration> min) [⏰ <timing>]
+[HOST] ({{ duration }} min) [⏰ {{ timing }}]
 
 **Code of conduct and community participation guidelines** [https://openlifesci.org/code-of-conduct](https://openlifesci.org/code-of-conduct)
 

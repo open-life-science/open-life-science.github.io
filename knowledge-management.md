@@ -636,6 +636,27 @@ This is run automatically every week and submitted as a Pull Request. The explan
 
 6. Submit changes to call templates in the cohort Github repository
 
+### Customize call templates
+
+Call templates are stored in `bin/templates/` and use [Jinja2](https://jinja.palletsprojects.com/) syntax for variable substitution. Variables are inserted using `{{ variable_name }}` syntax.
+
+Template file | Variables
+--- | ---
+`header.md` | `week_nb`, `title`, `date`, `time`, `duration`, `lead`, `facilitator`, `learning_objectives`, `icebreaker`
+`welcome.md` | `duration`, `timing`
+`presentation.md` | `title`, `duration`, `timing`, `speaker`, `slides`
+`breakout.md` | `title`, `duration`, `timing`, `people`, `instructions`
+`silent.md` | `title`, `duration`, `timing`, `questions`
+`panel.md` | `duration`, `timing`
+`closing.md` | `duration`, `timing`, `assignments`, `year`
+
+To customize templates:
+
+1. Open the template file in `bin/templates/`
+2. Edit the content, keeping the `{{ variable_name }}` placeholders where dynamic content should appear
+3. Test by running the `create_call_templates.sh` script
+4. Submit changes by creating a Pull Request
+
 # Data and stats
 
 Data about the community (e.g. members' location), the cohort (e.g. feedback or roles), and the video library are explored and visualized via Jupyter Notebooks, stored in a [GitHub repository]({{ site.github.owner_url }}/ols-stats/) and rendered in a dedicated [OLS stat website]({{ site.url }}/ols-stats/).

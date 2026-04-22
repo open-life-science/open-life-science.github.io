@@ -1,12 +1,12 @@
-## 👥 Breakout discussion: <title>
+## 👥 Breakout discussion: {{ title }}
 
-[HOST] introduces, [HOST] makes breakouts (<duration> min) [⏰ <timing>]
+[HOST] introduces, [HOST] makes breakouts ({{ duration }} min) [⏰ {{ timing }}]
 
-<duration> minutes, ~<people> ppl per room
+{{ duration }} minutes, ~{{ people }} ppl per room
 
 ### Instructions for the room
 
-<instructions>
+{{ instructions }}
 
 
 ### Notes from breakout discussions
