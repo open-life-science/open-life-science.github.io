@@ -92,8 +92,7 @@ jobs:
         if [ -n "$PAGES_LIST" ]; then
           COMMENT_BODY="$(printf '%s\n🎉 A preview of this PR is available at: [%s/](%s/)\n\n**Changed pages:**\n%b' "$COMMENT_IDENTIFIER" "$PREVIEW_URL" "$PREVIEW_URL" "$PAGES_LIST")"
         else
-          COMMENT_BODY="${COMMENT_IDENTIFIER}
-🎉 A preview of this PR is available at: [${PREVIEW_URL}/](${PREVIEW_URL}/)"
+          COMMENT_BODY="$(printf '%s\n🎉 A preview of this PR is available at: [%s/](%s/)' "$COMMENT_IDENTIFIER" "$PREVIEW_URL" "$PREVIEW_URL")"
         fi
 
         PR_NUMBER="${{ github.event.pull_request.number || github.event.inputs.pr_number }}"
