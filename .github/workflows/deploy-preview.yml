@@ -80,8 +80,8 @@ jobs:
             slug="${basename:11}"
             page_url="${PREVIEW_URL}/posts/${year}/${month}/${day}/${slug}/"
           else
-            relative=$(echo "$file" | sed 's/\.md$/\//' | sed 's/index\/$//')
-            relative="${relative#/}"  # strip leading slash to avoid double slashes
+            relative=$(echo "$file" | sed 's/index\.md$//' | sed 's/\.md$/.html/')
+            relative="${relative#/}"
             [ -z "$relative" ] && continue  # skip root index.md (would duplicate preview URL)
             page_url="${PREVIEW_URL}/${relative}"
           fi
