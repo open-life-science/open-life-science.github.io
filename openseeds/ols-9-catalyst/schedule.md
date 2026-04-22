@@ -25,7 +25,7 @@ Participants join this program with a **project** that they either are already w
 ## Timeline
 
 The first cohort (CAT-1) runs from **August 26th to December 9th, 2024**. 
-For more information, see the [Catalyst website](https://catalystproject.cloud/).
+For more information, see the [Catalyst website](https://czi-catalystproject.github.io/).
 
 # Schedule
 

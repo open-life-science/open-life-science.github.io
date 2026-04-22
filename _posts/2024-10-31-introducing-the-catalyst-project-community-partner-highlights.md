@@ -4,14 +4,14 @@ title: Introducing the Catalyst Project Community Partner Highlights
 authors: 
 - Katie Pratt
 - slldec
-image: https://media.licdn.com/dms/image/v2/D5610AQGPZaXMJKu5Wg/image-shrink_800/image-shrink_800/0/1730385031498?e=1731063600&v=beta&t=-F0ZI4Zj-oKi2cRQyrZcypICq2RuwQAaNyJQubPH3mg
+image: https://media.licdn.com/dms/image/v2/D5610AQGPZaXMJKu5Wg/image-shrink_1280/image-shrink_1280/0/1730385031946?e=2147483647&v=beta&t=r_2yVyOQ2K8Hrk9io3Z0UMyhuYMaj70wlaFoA4DOTMM
 photos:
   name: Picture by The Catalyst Project
   license: CC BY-SA 4.0
   url: https://www.linkedin.com/posts/2i2c-org_as-part-of-our-work-on-the-catalyst-project-activity-7257760964647755777-4fNn
 ---
 
-The **[Catalyst Project](https://catalystproject.cloud/)** is a community-engaged initiative designed to support the adoption of open science principles in **under-served bioscientific research communities** through the provision of reliable and sustainable cloud computing infrastructure. It’s a project we’ve been working on now for almost two years, which involves staff from seven different organizations: [2i2c](https://2i2c.org/), [The Carpentries](https://carpentries.org/about/), [CCAD](https://ccad.unc.edu.ar/), [CSCCE](https://www.cscce.org/), [IOI](http://investinopen.org/), [MetaDocencia](https://www.metadocencia.org/), and [OLS]({{ site.url }}), and is funded by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/).
+The **[Catalyst Project](https://czi-catalystproject.github.io/)** is a community-engaged initiative designed to support the adoption of open science principles in **under-served bioscientific research communities** through the provision of reliable and sustainable cloud computing infrastructure. It’s a project we’ve been working on now for almost two years, which involves staff from seven different organizations: [2i2c](https://2i2c.org/), [The Carpentries](https://carpentries.org/about/), [CCAD](https://ccad.unc.edu.ar/), [CSCCE](https://www.cscce.org/), [IOI](http://investinopen.org/), [MetaDocencia](https://www.metadocencia.org/), and [OLS]({{ site.url }}), and is funded by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/).
 
 A key part of the project is engaging with **Community Partners in Africa and Latin America**: Institutions, organizations, and individuals who are undertaking bioscientific research projects that require **cloud computing infrastructure**. As collaborators on the Catalyst Project, Community Partners can access and use 2i2c’s open science cloud services, and also receive training from 2i2c, The Carpentries, MetaDocencia, and OLS to support their work. Community Partners also play a vital role in shaping an evolving governance model for the Catalyst Project to help sustain, scale, and maximize impact in Latin America, Africa, and under-served communities around the world.
 
@@ -24,7 +24,7 @@ The Catalyst Project currently involves **19 Community Partners**, **9 in Africa
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-  ![Logo of African Institute of Biomedical Science and Technology: The picture shows a primarily red and navy blue logo. On the left, a circle wraps around a double helix. Around the circle, the words "African Institute" and "of Biomedical Science and Technology" are written in navy blue and red respectively. On the right, the rest of the logo is formed by a capitalised acronym of the institute's name - AiBST. Only the letter "i" is written in lowercase red text, while the others are in navy blue.](https://catalystproject.cloud/_images/aibst-logo.jpg)
+  ![Logo of African Institute of Biomedical Science and Technology: The picture shows a primarily red and navy blue logo. On the left, a circle wraps around a double helix. Around the circle, the words "African Institute" and "of Biomedical Science and Technology" are written in navy blue and red respectively. On the right, the rest of the logo is formed by a capitalised acronym of the institute's name - AiBST. Only the letter "i" is written in lowercase red text, while the others are in navy blue.](https://czi-catalystproject.github.io/_images/aibst-logo.jpg)
   </div>
   <div class="column" markdown="1">
 
@@ -32,7 +32,7 @@ At the African Institute of Biomedical Sciences and Technology (AiBST) in Zimbab
 
 *"**Through the Catalyst Project we are able to bring genomic information interpretation to patient bedsides.**"* - Zedias Chikwambi
 
-Read more about AiBST’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-aibst-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-aibst-es.html)
+Read more about AiBST’s work with the Catalyst Project: [ENG](https://czi-catalystproject.github.io/blog/community-highlight-aibst-en.html); [ESP](https://czi-catalystproject.github.io/blog/community-highlight-aibst-es.html)
 
   </div>
 </div>
@@ -48,7 +48,7 @@ The Catalyst Project Community at the Malawi University of Science and Technolog
 
 *“**...many staff and students need… a robust and easily accessible platform from which they c[an] efficiently run their machine learning models and do advanced data analysis for their data science research…**”* - Bennett Kankuzi 
 
-Read more about MUST’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-must-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-must-es.html)
+Read more about MUST’s work with the Catalyst Project: [ENG](https://czi-catalystproject.github.io/blog/community-highlight-must-en.html); [ESP](https://czi-catalystproject.github.io/blog/community-highlight-must-es.html)
   </div>
 </div>
 
@@ -56,7 +56,7 @@ Read more about MUST’s work with the Catalyst Project: [ENG](https://catalystp
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of MolerHealth](https://catalystproject.cloud/_images/molerhealth-logo.png) 
+![Logo of MolerHealth](https://czi-catalystproject.github.io/_images/molerhealth-logo.png) 
   </div>
   <div class="column" markdown="1">
 
@@ -64,7 +64,7 @@ MolerHealth is focused on revolutionizing healthcare in Nigeria by developing an
 
 *“**Access to training, like The Carpentries Instructor Training, has empowered our team with essential skills for effective teaching and collaboration.**”* - Monsurat Onabajo
 
-Read more about MolerHealth’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-molerhealth-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-molerhealth-es.html)
+Read more about MolerHealth’s work with the Catalyst Project: [ENG](https://czi-catalystproject.github.io/blog/community-highlight-molerhealth-en.html); [ESP](https://czi-catalystproject.github.io/blog/community-highlight-molerhealth-es.html)
 
   </div>
 </div>
@@ -73,7 +73,7 @@ Read more about MolerHealth’s work with the Catalyst Project: [ENG](https://ca
 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Nelson Mandela African Institute of Science and Technology: Image displays a circle containing the words "Nelson Mandela" and "Institute of Science and Technology" that are written in a way that they form an arch around three elements. These elements are a microscope, a wheel and an open book. On the lower end, within the circle, the word "Arusha" is wrriten in black, just underneath the open book. Under the circle is written "Academia for Society and Industry."](https://catalystproject.cloud/_images/nm-aist-logo.png)
+![Logo of Nelson Mandela African Institute of Science and Technology: Image displays a circle containing the words "Nelson Mandela" and "Institute of Science and Technology" that are written in a way that they form an arch around three elements. These elements are a microscope, a wheel and an open book. On the lower end, within the circle, the word "Arusha" is wrriten in black, just underneath the open book. Under the circle is written "Academia for Society and Industry."](https://czi-catalystproject.github.io/_images/nm-aist-logo.png)
   </div>
   <div class="column" markdown="1">
 
@@ -81,7 +81,7 @@ The Northern Tanzania One Health Research Group, hosted at the Nelson Mandela Af
 
 *“**...access to training, particularly through the 2i2c Hub Champion Training, has significantly enhanced our ability to manage and optimize cloud-based resources.**"* - Beatus M Lyimo
 
-Read more about NM-AIST’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-nmaist-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-nmaist-es.html)
+Read more about NM-AIST’s work with the Catalyst Project: [ENG](https://czi-catalystproject.github.io/blog/community-highlight-nmaist-en.html); [ESP](https://czi-catalystproject.github.io/blog/community-highlight-nmaist-es.html)
 
   </div>
 </div>
@@ -89,7 +89,7 @@ Read more about NM-AIST’s work with the Catalyst Project: [ENG](https://cataly
 ## Nodo Nacional de Bioinformática (NNB-CCG) 
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Nodo Nacional de Bioinformática: The logo is divided into two halves by a black line running down the middle. To the left of the dividing line, a circle with teal background contains the acronym "NNB". To the right, the words "Nodo Nacional de Bioinformática" are written in the same teal colour, and immediately under the text is "CCG UNAM" in a light shade of green.](https://catalystproject.cloud/_images/unam-logo.jpg)
+![Logo of Nodo Nacional de Bioinformática: The logo is divided into two halves by a black line running down the middle. To the left of the dividing line, a circle with teal background contains the acronym "NNB". To the right, the words "Nodo Nacional de Bioinformática" are written in the same teal colour, and immediately under the text is "CCG UNAM" in a light shade of green.](https://czi-catalystproject.github.io/_images/unam-logo.jpg)
   </div>
   <div class="column" markdown="1">
 
@@ -97,7 +97,7 @@ The Nodo Nacional de Bioinformática (NNB-CCG) of the Centro de Ciencias Genómi
 
 *“**[Our] goal is to optimize our participation in events, assess the usefulness of the Catalyst Project's resources, and, in turn, provide the Catalyst Project with guidelines to improve their service by identifying the necessary areas for improvement within the institutions.**"* - Shirley Alquicira Hernández
 
-Read more about NNB-CCG’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-nnbccg-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-nnbccg-es.html)
+Read more about NNB-CCG’s work with the Catalyst Project: [ENG](https://czi-catalystproject.github.io/blog/community-highlight-nnbccg-en.html); [ESP](https://czi-catalystproject.github.io/blog/community-highlight-nnbccg-es.html)
 
   </div>
 </div>
@@ -105,7 +105,7 @@ Read more about NNB-CCG’s work with the Catalyst Project: [ENG](https://cataly
 ## Instituto Nacional de Enfermedades Respiratorias (INER)
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Instituto Nacional de Enfermedades Respiratorias: The logo consists of the acronym "UCDS" in bold, teal and capitalised, above the words "UNIDAD DE CIENCIA DE DATOS EN SALUD." Another logo is found under the first in this image and contains the word "labbic" above the words "Laboratorio de Biología Computacional." Both texts are in navy blue.](https://catalystproject.cloud/_images/iner-logo.jpeg)
+![Logo of Instituto Nacional de Enfermedades Respiratorias: The logo consists of the acronym "UCDS" in bold, teal and capitalised, above the words "UNIDAD DE CIENCIA DE DATOS EN SALUD." Another logo is found under the first in this image and contains the word "labbic" above the words "Laboratorio de Biología Computacional." Both texts are in navy blue.](https://czi-catalystproject.github.io/_images/iner-logo.jpeg)
   </div>
   <div class="column" markdown="1">
 
@@ -113,7 +113,7 @@ Collaborators at INER are using the Catalyst Cloud Infrastructure to implement m
 
 *"**The Catalyst Project is helping us to collaborate more efficiently and work remotely.**"* - Yalbi I. Balderas-Martinez
 
-Read more about INER’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-iner-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-iner-es.html)
+Read more about INER’s work with the Catalyst Project: [ENG](https://czi-catalystproject.github.io/blog/community-highlight-iner-en.html); [ESP](https://czi-catalystproject.github.io/blog/community-highlight-iner-es.html)
   </div>
 </div>
 
@@ -121,7 +121,7 @@ Read more about INER’s work with the Catalyst Project: [ENG](https://catalystp
 ## Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático (CICADA)  
 <div class="columns">
   <div class="column is-3" markdown="1">
-![Logo of Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático: This image shows a blue logo, comprising of a circle on the left, and the acronym "CICADA" on the right.](https://catalystproject.cloud/_images/cicada-logo.png)
+![Logo of Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático: This image shows a blue logo, comprising of a circle on the left, and the acronym "CICADA" on the right.](https://czi-catalystproject.github.io/_images/cicada-logo.png)
   </div>
   <div class="column" markdown="1">
 
@@ -129,11 +129,11 @@ CICADA, an interdisciplinary center researching data science and machine learnin
 
 "**The Catalyst Project…trainings are attractive, as they are respectful of the people, no previous knowledge is assumed, and the instructors are welcoming.**” - María Inés Fariello Rico 
 
-Read more about CICADA’s work with the Catalyst Project: [ENG](https://catalystproject.cloud/blog/community-highlight-cicada-en.html); [ESP](https://catalystproject.cloud/blog/community-highlight-cicada-es.html)
+Read more about CICADA’s work with the Catalyst Project: [ENG](https://czi-catalystproject.github.io/blog/community-highlight-cicada-en.html); [ESP](https://czi-catalystproject.github.io/blog/community-highlight-cicada-es.html)
   </div>
 </div>
 
-You can find a full list of all of the Catalyst Project Community Partners on [the Catalyst Project website](https://catalystproject.cloud/current-community-partners.html). 
+You can find a full list of all of the Catalyst Project Community Partners on [the Catalyst Project website](https://czi-catalystproject.github.io/current-community-partners.html). 
 
 ## About these blog posts - acknowledgements
 Creating a series of blog posts to highlight the work of the Catalyst Community Partners was a collaborative effort involving staff from CSCCE, 2i2c, OLS, and MetaDocencia. Specifically, **Lou Woodley, Katie Pratt, Jenny Wong, and Tajuddeen Gwadabe** conceived the idea during our regular Catalyst Project “website team” meetings, and developed a strategy for reaching out to community partners to gather information. 

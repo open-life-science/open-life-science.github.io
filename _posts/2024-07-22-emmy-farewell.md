@@ -38,7 +38,7 @@ As the eLife cohort concluded and Emmy moved to her next role, it was a **natura
 
 With other OLS directors, Emmy was involved in scoping the [CZI grant]({% link _posts/2022-01-27-runway-to-sustainability-czi-funding.md %}) and responsible for managing the finances as we learned how to scale sustainably.
 
-As the **Director of Finance and Operations**, Emmy focused on finance management, implementing HR processes, managing microgrants, accounting, and honoraria. She also **led OLS's participation in the [Catalyst project](https://catalystproject.cloud/)**, supervising Tajuddeen Gwadabe (Taj), who is the Program Manager for the consortium.
+As the **Director of Finance and Operations**, Emmy focused on finance management, implementing HR processes, managing microgrants, accounting, and honoraria. She also **led OLS's participation in the [Catalyst project](https://czi-catalystproject.github.io/)**, supervising Tajuddeen Gwadabe (Taj), who is the Program Manager for the consortium.
 
 Emmy stepped down from the Board of Directors in March this year to **focus on her role as the Engagement Lead at [Invest in Open Infrastructure](https://investinopen.org/)**, which she joined in 2022.
 
