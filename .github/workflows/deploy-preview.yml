@@ -88,10 +88,23 @@ jobs:
           PAGES_LIST="${PAGES_LIST}\n- [${file}](${page_url})"
         done < <(gh pr diff ${{ github.event.pull_request.number || github.event.inputs.pr_number }} --name-only 2>/dev/null | grep '\.md$')
 
+        COMMENT_IDENTIFIER="<!-- preview-comment -->"
         if [ -n "$PAGES_LIST" ]; then
-          COMMENT_BODY="$(printf '🎉 A preview of this PR is available at: [%s/](%s/)\n\n**Changed pages:**\n%b' "$PREVIEW_URL" "$PREVIEW_URL" "$PAGES_LIST")"
+          COMMENT_BODY="$(printf '%s\n🎉 A preview of this PR is available at: [%s/](%s/)\n\n**Changed pages:**\n%b' "$COMMENT_IDENTIFIER" "$PREVIEW_URL" "$PREVIEW_URL" "$PAGES_LIST")"
         else
-          COMMENT_BODY="🎉 A preview of this PR is available at: [${PREVIEW_URL}/](${PREVIEW_URL}/)"
+          COMMENT_BODY="${COMMENT_IDENTIFIER}
+🎉 A preview of this PR is available at: [${PREVIEW_URL}/](${PREVIEW_URL}/)"
         fi
 
-        gh pr comment ${{ github.event.pull_request.number || github.event.inputs.pr_number }} --body "$COMMENT_BODY"
+        PR_NUMBER="${{ github.event.pull_request.number || github.event.inputs.pr_number }}"
+        EXISTING_COMMENT_ID=$(gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
+          --paginate \
+          --jq '.[] | select(.body | contains("<!-- preview-comment -->")) | .id' 2>/dev/null | head -1)
+
+        if [ -n "$EXISTING_COMMENT_ID" ]; then
+          gh api "repos/${{ github.repository }}/issues/comments/${EXISTING_COMMENT_ID}" \
+            -X PATCH \
+            -f body="$COMMENT_BODY"
+        else
+          gh pr comment "$PR_NUMBER" --body "$COMMENT_BODY"
+        fi
