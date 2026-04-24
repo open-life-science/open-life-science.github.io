@@ -32,6 +32,11 @@ Individuals who are offered an honorarium can choose to donate the honorarium ba
 
 All honoraria must be approved by a Director or staff member of OLS.
 
+## Process for claiming honoraria: 
+1. We require that you signe a Consultancy agreement specifically for the role and work that you'll be performing. You can check the template [here](https://docs.google.com/document/d/1R7DIzJ0_8Rq3uHYB-bdynrywkrWDqlSHuslgoUxbWnM/edit?usp=sharing) and also find a [plain summary](https://docs.google.com/document/d/1jf-PU3x90OozdzD8QkdbAM66uP_A1uCn/edit?usp=sharing&ouid=112215873773871346640&rtpof=true&sd=true) explaining all details.
+2. After Consultancy agreement has been signed, you can claim your honoraria (specific rates will be stated in your Consultancy agreement) via the [Honorarium claiming form](https://openlifescience.civicrm.org/civicrm/honorarium). Please check that this is the form most updated and ready to use with the OLS team.
+3. That's it! Thanks a lot for your hard work! 
+
 ## FAQ: 
 
 ### Q: Can I claim my mentoring honorarium before the end of the cohort already?
