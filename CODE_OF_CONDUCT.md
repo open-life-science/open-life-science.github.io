@@ -63,11 +63,13 @@ our best to right the wrong.
 ### Reporting Issues
 
 If you experience or witness unacceptable behavior, or have any other concerns,
-please report it by contacting one of the Directors (Yo, Patricia) or the Community and Training Lead (Sara).
-(team@we-are-ols.org).
+please report it by contacting one of the Directors (Yo, Patricia) or the Community and Training Lead (Sara). If your report involves one of them, please reach out to either of the others directly.
 
-To report an issue involving one of the members, please email one of the members individually
-(yo@we-are-ols.org, patricia@we-are-ols.org, sara@we-are-ols.org).
+You can reach them at:
+
+- yo@we-are-ols.org
+- patricia@we-are-ols.org
+- sara@we-are-ols.org
 
 All reports will be handled with discretion. In your report please include:
 
