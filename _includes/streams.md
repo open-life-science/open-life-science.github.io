@@ -1,5 +1,11 @@
+{% if include.status %}
+  {% assign streams = page.streams | where: "status", include.status %}
+{% else %}
+  {% assign streams = page.streams %}
+{% endif %}
+
 <div class="columns is-multiline three-pillars">
-    {% for stream in page.streams %}
+    {% for stream in streams %}
     <div class="column is-one-third">
         <a href="#{{ stream.title | slugify }}">
             <div class="card stream-card">
@@ -16,7 +22,7 @@
   {% endfor %}
 </div>
 
-{% for stream in page.streams %}
+{% for stream in streams %}
 
 ## {{ stream.title }}
 

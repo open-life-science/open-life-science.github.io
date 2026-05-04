@@ -9,6 +9,7 @@ photos:
   url: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09
 streams:
   -
+    status: current
     title: Fiscal Hosting 
     description: |
       We are helping early stage organizations with fiscal hosting. Read more about this on our [fiscal hosting page](/open-incubator/fiscal-hosting/). If you are interested, please contact directors at [team[at]we-are-ols.org](mailto:team@we-are-ols.org) to discuss. 
@@ -17,6 +18,7 @@ streams:
       alt: |
         Icon created by Dhavid Tah Hillah Saputra. In the image, is a coin with a dollar sign in the middle. From it, a seedling is sprouting. Two hands cup the coin on either side.
   -
+    status: current
     title: Consultancy and Open Research Advice
     description: |
       We offer different Consultancy services:
@@ -28,6 +30,7 @@ streams:
       alt: |
         Image by Webtechops LLP. It is a square-shaped conversation bubble, which contains a idea (bulb) icon bounded by a dark circular ring.
   -
+    status: current
     title: Fellowship Programmes
     description: |
       We currently host Incubation Fellows, who are working towards building open science/open research communities. Read more about Incubation Fellows on our [fiscal hosting page](/open-incubator/fiscal-hosting/).
@@ -36,6 +39,7 @@ streams:
       alt: | 
         Image created by Sptya™. A graduation cap is encircled by three icons representing people. Two arrows move in a clockwise direction, each arrow linking from one person to the next.
   -
+    status: current
     title: Facilitators Training and Transcription Services
     description: |
       During our online training cohorts, we teach facilitators to manage and run cohort calls. They lead efforts in preparing cohort call notes, co-hosting cohort calls and ensuring the sharing of call recordings and resources through OLS channels.
@@ -43,20 +47,11 @@ streams:
       link: images/icons/noun-conference-4740469.svg
       alt: |
         Icon created by Maan Icons. A desktop screen depicting a video conference call. On the left half of the screen is a presenter, while the right half is further divided into two equal parts, each occupied by one listener.
-
----
-
-With the Open Incubator, a.k.a the greenhouse, we offer **hands-on support** to **empower** the next generation of **open leaders in research**. This might be for people who have completed Open Seeds and now want to say "what next for my project?", or it might be individuals.
-
-# Current work streams
-
-{% include _includes/streams.md %}
-
-# Previous work streams
-
+  -
+    status: past
     title: Catalyst
     description: |
-      Funded by [Chan Zuckerberg Initiative](https://chanzuckerberg.com/), the [Catalyst Project](https://czi-catalystproject.github.io/) aims to develop a **collaborative service** to **facilitate access** to **cloud infrastructure** for biomedical research communities in **Latin America** and **Africa**. You can read more about it in the [submitted proposal](https://zenodo.org/records/7025288).
+      Funded by [Chan Zuckerberg Initiative](https://chanzuckerberg.com/), the [Catalyst Project](https://czi-catalystproject.github.io/) aimed to develop a **collaborative service** to **facilitate access** to **cloud infrastructure** for biomedical research communities in **Latin America** and **Africa**. You can read more about it in the [submitted proposal](https://zenodo.org/records/7025288).
     image: 
       link: images/logo/catalyst-logo-dark-bg-white.png
       alt: |
@@ -66,4 +61,16 @@ With the Open Incubator, a.k.a the greenhouse, we offer **hands-on support** to 
       - yochannah
       - tajuddeen1
       roles: |
-        **Taj** is the project manager under the supervison of **Yo**, PI for this project (after Emmy left)
+        **Taj** was the project manager under the supervison of **Yo**, PI for this project (after Emmy left)
+
+---
+
+With the Open Incubator, a.k.a the greenhouse, we offer **hands-on support** to **empower** the next generation of **open leaders in research**. This might be for people who have completed Open Seeds and now want to say "what next for my project?", or it might be individuals.
+
+# Current work streams
+
+{% include _includes/streams.md status="current" %}
+
+# Previous work streams
+
+{% include _includes/streams.md status="past" %}
