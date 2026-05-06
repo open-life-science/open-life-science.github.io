@@ -97,9 +97,9 @@ interactions, both on and offline.
 You need a `ruby` environment (version >= 2.4). Either you have it installed and
 you know how to install [Bundler](https://bundler.io/) and
 [Jekyll](https://jekyllrb.com/) and then run Jekyll, or you use
-(mini-)[conda](https://conda.io/docs/index.html), a package management system
+(mini-)[conda](https://docs.conda.io/en/latest/), a package management system
 that can install all these tools for you. You can install it by following the
-instructions on this page: https://conda.io/docs/user-guide/install/index.html
+instructions on this page: https://docs.conda.io/en/latest/
 
 In the sequel, we assume you use miniconda.
 
