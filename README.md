@@ -164,8 +164,22 @@ In this sequence of instructions, we assume you use miniconda. Instructions for 
    $ CONDA='${HOME}/miniforge3/bin/conda' make serve
    ```
 
+   If you get errors about later versions of gems being active when the Gemfile requires an earlier version of the gems, you will need to use bundler exec to make sure only the Ruby gems required by the website are present in the environment when the command is run.
+
+   ```
+   $ bundle exec --gemfile=Gemfile make serve
+   ```
+
+   If you get errors like `cannot load such file -- observer (LoadError)`, it means the project requires the gem called observer, but it isn't installed. Use `bundler add gem-name` to add the gem to the Gemfile and Gemfile.lock and install the gem in your ols-website environment.
+
 7. Open the website in your favorite browser at:
    [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+
+If you have any trouble building the site (such as seeing errors from Jekyll), you can kill the serve command with CTRL+C, and re-run the jekyll serve command to enable debugging output:
+
+   ```
+   $ bundle exec --gemfile=Gemfile jekyll serve --trace
+   ```
 
 ## Run the link checks
 
