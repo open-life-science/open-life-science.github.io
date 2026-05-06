@@ -12,3 +12,11 @@ gem 'jekyll-spaceship'
 gem 'jekyll-toc'
 gem 'nokogiri'
 gem 'webrick'
+
+gem "logger", "~> 1.7"
+
+gem "csv", "~> 3.3"
+
+gem "observer", "~> 0.1.2"
+
+gem "ostruct", "~> 0.6.3"
