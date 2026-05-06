@@ -110,7 +110,12 @@ In the sequel, we assume you use miniconda.
    $ git clone https://github.com/open-life-science/open-life-science.github.io.git
    ```
 
-3. Navigate to the `open-life-science.github.io/` folder with the `cd` command
+3. Navigate to the `open-life-science.github.io` folder
+
+   ```
+   $ cd open-life-science.github.io
+   ```
+
 4. Set up the conda environment:
 
    ```
