@@ -101,7 +101,7 @@ you know how to install [Bundler](https://bundler.io/) and
 that can install all these tools for you. You can install it by following the
 instructions on this page: https://docs.conda.io/en/latest/
 
-In the sequel, we assume you use miniconda.
+In this sequence of instructions, we assume you use miniconda. Instructions for using miniforge are also provided.
 
 1. Open a terminal
 2. Clone this GitHub repository:
@@ -118,20 +118,50 @@ In the sequel, we assume you use miniconda.
 
 4. Set up the conda environment:
 
+   If you have newly installed miniforge, and you haven't already, activate the base conda environment with `$ conda init bash`, and open a new bash shell. You'll see the (base) conda environment name at the beginning of your shell terminal.
+
+   Then run the following command:
+
    ```
    $ make create-env
    ```
 
-5. Install the project's dependencies:
+   Note: if you are using conda-forge and miniforge instead of miniconda, you will need to set an extra environment variable. By default, miniconda installs the conda executable in `$HOME/miniforge3/condabin/conda`. The Makefile assumes all other conda binaries (like the activate bash script) are on the same path. However, miniforge actually installs them under `$HOME/miniforge3/bin/`. Miniforge also installs an exact copy of conda binary in that directory. To work around the differences in miniforge and conda-forge, set the `$CONDA` environment variable before the make command, like so:
+
+   ```
+   $ CONDA='${HOME}/miniforge3/bin/conda' make create-env
+   ```
+
+5. Activate the conda environment for the OLS website software packages:
+
+   ```
+   $ conda activate ols-website
+
+   ```
+
+
+6. Install the project's dependencies:
 
    ```
    $ make install
    ```
 
-6. Start the website:
+   Or, if you're using conda-forge and miniforge, run this command to start the website:
+
+   ```
+   $ CONDA='${HOME}/miniforge3/bin/conda' make install
+   ```
+
+7. Start the website:
 
    ```
    $ make serve
+   ```
+
+    Or, if you're using conda-forge and miniforge, run this command to start the website:
+
+   ```
+   $ CONDA='${HOME}/miniforge3/bin/conda' make serve
    ```
 
 7. Open the website in your favorite browser at:

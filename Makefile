@@ -7,7 +7,10 @@ else
 	ENV_FILE=environment.yml
 endif
 
-CONDA = $(shell which conda)
+# Allow users to override the conda bin directory
+ifeq ($(CONDA),)
+	CONDA = $(shell which conda)
+endif
 CONDA_ENV_DIR=$(shell dirname $(dir $(CONDA)))
 ifeq ($(CONDA),)
 	CONDA=${HOME}/miniconda3/bin/conda
