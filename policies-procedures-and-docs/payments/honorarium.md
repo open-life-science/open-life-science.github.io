@@ -14,27 +14,32 @@ This policy covers how OLS gives honoraria. How OLS employees, independent contr
 An honorarium is a one-time, token payment granted in recognition of an individual’s contribution to OLS’s work. 
 
 The types of activities for which honoraria may be offered include:
-- Mentoring, speaking, and facilitation in an OLS cohort
-- Participation in other OLS events as a trainer, speaker, mentor, etc
-- Participation in other OLS activities, e.g. hiring
-- Participation/contribution in an event on behalf of OLS
+- Mentoring, speaking, and facilitation in an OLS cohort.
+- Participation in other OLS events, for example, as a trainer, speaker, or mentor.
+- Participation in other OLS activities, for example, in hiring processes.
+- Participation in or contribution to an event on behalf of OLS.
 
 No honoraria from OLS can be offered to currently engaged OLS employees, independent contractors, or consultants. The recipient of the honorarium is not permitted to set the honorarium amount. The arrangement between the recipient and OLS should not involve an existing contract. 
 
 Currently, OLS may offer:
 - 250 USD for expert speakers in an OLS cohort;
 - 500 USD for mentoring in an OLS cohort;
-- 50 USD/hour for facilitation in an OLS cohort;
+- 50 USD per hour for facilitation in OLS cohorts or other activities, up to a pre-determined time limit.
 
 Generally, OLS community members who have been asked to perform a paid task by OLS community organisers are paid at 50 USD/hour.
 
-Individuals who are offered an honorarium can choose to donate the honorarium back to OLS’s work or to a charity of their choice. They can also choose to ask OLS to pay for a training session/conference fee up to the value of the payment - this offer expires 12 month) after the submission of the honorarium payment form, if unused.
+Individuals who are offered an honorarium can choose to donate the honorarium back to OLS’s work or to a charity of their choice. They can also choose to ask OLS to pay for professional or personal development activities up to the value of the payment (please note that this offer expires after 12 months after the submission of the honorarium payment form, if unused).
 
 All honoraria must be approved by a Director or staff member of OLS.
 
-## FAQ: 
+## Process for claiming honoraria: 
+1. We require that you sign a Consultancy agreement specifically for the role and work that you'll be performing. You can check the template [here](https://docs.google.com/document/d/1R7DIzJ0_8Rq3uHYB-bdynrywkrWDqlSHuslgoUxbWnM/edit?usp=sharing) and also find a [plain summary](https://docs.google.com/document/d/1jf-PU3x90OozdzD8QkdbAM66uP_A1uCn/edit?usp=sharing) explaining all details.
+2. After the Consultancy agreement has been signed, you can claim your honoraria (specific rates will be stated in your Consultancy agreement) via the [Honorarium claiming form](https://openlifescience.civicrm.org/civicrm/honorarium). Please check that this is the form most updated and ready to use with the OLS team.
+3. That's it! Thanks a lot for your hard work! 
 
-### Q: Can I claim my mentoring honorarium before the end of the cohort already?
+## Frequently Asked Questions
+
+### Q: Can I claim my mentoring honorarium before the end of the cohort?
 
 A: In exceptional circumstances (such as travel to a conference), you can request up to 50% of your honorarium early. To do so, please email financemanagement@we-are-ols.org and cohort management (the person or general email address that has been sending you mentoring related information) to make your case. Please do not send invoices or fill the honorarium form before you have received an answer from the team.
 
