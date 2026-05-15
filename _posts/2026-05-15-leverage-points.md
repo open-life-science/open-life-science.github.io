@@ -11,6 +11,8 @@ photos:
   url: https://unsplash.com/photos/assorted-color-yard-threads-MOO6k3RaiwE
 ---
 
+In this second post of the [Seeds to Systems series]({%link _posts/2026-04-20-from-hidden-curriculum-to-grant-readiness.md %}), we explore how systems thinking can help us better understand the complexity of research funding landscapes and the different factors that shape sustainability for open science projects and communities.
+
 ## *Can we just have a comprehensive list of funding calls somewhere?* 
 
 Many open science projects, communities and initiatives have experienced the overwhelm of scattered funding calls, eligibility requirements, deadlines, and shifting funding priorities. Why is it so challenging to map and keep track of these opportunities and funding flows? When we look at the availability of grants only, we are paying attention to just one piece of a complex and interconnected research funding landscape that no single list can fully capture. 
