@@ -11,8 +11,6 @@ photos:
   url: https://unsplash.com/photos/assorted-color-yard-threads-MOO6k3RaiwE
 ---
 
-# Identifying leverage points for sustainable Open Science 
-
 ## *Can we just have a comprehensive list of funding calls somewhere?* 
 
 Many open science projects, communities and initiatives have experienced the overwhelm of scattered funding calls, eligibility requirements, deadlines, and shifting funding priorities. Why is it so challenging to map and keep track of these opportunities and funding flows? When we look at the availability of grants only, we are paying attention to just one piece of a complex and interconnected research funding landscape that no single list can fully capture. 
