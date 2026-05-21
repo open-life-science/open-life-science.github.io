@@ -20,3 +20,5 @@ gem "csv", "~> 3.3"
 gem "observer", "~> 0.1.2"
 
 gem "ostruct", "~> 0.6.3"
+
+gem "bibtex-ruby", "> 6.0.0"

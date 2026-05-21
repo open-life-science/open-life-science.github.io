@@ -13,8 +13,10 @@ GEM
       traces (~> 0.18)
     base64 (0.2.0)
     benchmark (0.5.0)
-    bibtex-ruby (6.0.0)
+    bibtex-ruby (6.2.0)
       latex-decode (~> 0.0)
+      logger (~> 1.7)
+      racc (~> 1.7)
     bigdecimal (3.3.1)
     citeproc (1.0.10)
       namae (~> 1.0)
@@ -112,7 +114,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    latex-decode (0.4.0)
+    latex-decode (0.4.2)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -174,6 +176,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bibtex-ruby (> 6.0.0)
   csv (~> 3.3)
   html-proofer
   jekyll
