@@ -1025,6 +1025,8 @@ andreasancheztapia:
   continent: South America
   longitude: -120.7678602
   latitude: 37.1641544
+  former-titles:
+    - OLS-SSI 2022 Fellow
 andreea-avramescu:
   affiliation: University Of Manchester/The Alan Turing Institute
   bio: My research interests lie in the fields of personalised medicine, optimisation,
@@ -4954,7 +4956,9 @@ iramosp:
   continent: North America
   longitude: -99.1331785
   latitude: 19.4326296
-  title: NASA Cohort Coordinator (contract)
+  title: Research Fellow (contract)
+  former-titles:
+    - NASA Cohort Coordinator (contract)
 iratxepuebla:
   affiliation: Asapbio
   bio: |-
@@ -7809,6 +7813,8 @@ melibleq:
   continent: South America
   longitude: -47.1583944
   latitude: -1.2043218
+  former-titles:
+    - OLS-SSI 2022 Fellow
 meliimming:
   first-name: Melanie
   last-name: Imming
@@ -9665,6 +9671,8 @@ pherterich:
   longitude: -3.1883749
   latitude: 55.9533456
   title: Co-Executive Director OLS
+  former-titles:
+    - Resident Fellow
 piero-beraun:
   affiliation: Scihack
   bio: 22 years old and Bachelor in Bioengineering. I like strawberries, plants, arthropods,
@@ -10090,6 +10098,7 @@ rivaquiroga:
   city: Valparaíso
   longitude: -71.6196749
   latitude: -33.0458456
+  title: Research Fellow (contract)
 rlwhall:
   first-name: Renée
   last-name: Hall
@@ -10602,6 +10611,8 @@ saravilla:
   last-name: Villa
   orcid: 0000-0001-9502-0888
   title: Community and Training Lead
+  former-titles:
+    - Resident Fellow
   pronouns: she/her
   country_3: GBR
   continent: Europe
