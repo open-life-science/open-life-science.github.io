@@ -100,6 +100,7 @@ we ask that you follow our <a href="{{ site.github.owner_url }}/policies-procedu
     {% endif %}
   {% endfor %}
   {% assign ols-roles = ols-roles | remove_first: ' / ' %}
+  {% assign show-former-titles = true %}
   {% include _includes/people.html username=username user=user ols-roles=ols-roles %}
 {% endfor %}
 </div>

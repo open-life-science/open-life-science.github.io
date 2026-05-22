@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    {% if user.title or ols-roles and ols-roles != '' %}
+    {% if user.title or ols-roles and ols-roles != '' or show-former-titles and user.former-titles %}
     <p class="people-description">
       Role in OLS:
       {% if user.title %}
@@ -66,6 +66,10 @@
       {% endif %}
       {% if ols-roles and ols-roles != '' %}
         {{ ols-roles }}
+      {% endif %}
+      {% if show-former-titles and user.former-titles %}
+        {% if ols-roles and ols-roles != '' %} / {% endif %}
+        {{ user.former-titles | join: ', ' }}
       {% endif %}
     </p>
     {% endif %}
