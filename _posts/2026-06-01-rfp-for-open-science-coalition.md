@@ -1,4 +1,21 @@
-## RFP: Consultancy support for the Open Science Coalition
+---
+layout: post
+title: "RFP: Consultancy support for the Open Science Coalition"
+authors:
+- Kari L. Jordan
+- Erin Becker
+- Daniela Saderi
+- pherterich
+- Noam Ross
+- Leah Wasser
+- yochannah
+image: https://live.staticflickr.com/3776/10561938875_9a560bf212_b.jpg
+photos:
+  name: "*rboed*"
+  license: CC-BY 2.0
+  url: https://www.flickr.com/photos/92082510@N04
+---
+
 
 Five leading open science organisations – [The Carpentries](https://carpentries.org/), [OLS](https://we-are-ols.org/), [rOpenSci](https://ropensci.org/), [pyOpenSci](https://www.pyopensci.org/), and [PREreview](https://prereview.org/) are seeking an external consultant or group to facilitate several activities over the second half of 2026\.  Selected consultants will continue the organisational alignment and collaboration work [previously announced in late 2025](https://we-are-ols.org/posts/2025/09/15/from-surviving-to-thriving/).
 
@@ -16,4 +33,6 @@ The selected delivery partner(s) will need to coordinate with the other team(s).
 | :---- | :---- | :---- |
 | USD  No upper limit | Questions: June 14 2026 Application: June 21 2026 | \~ 3 months, with the possibility of extension until December  |
 
-## More details about each of the work strands (and application instructions) are available [here](https://drive.google.com/drive/folders/1rM7XFvjDScHs0TwcJLV9c5z1z_yDmqTd?usp=sharing).
+# Submit your pitch
+
+More details about each of the work strands (and application instructions) are available [here](https://drive.google.com/drive/folders/1rM7XFvjDScHs0TwcJLV9c5z1z_yDmqTd?usp=sharing).
