@@ -23,6 +23,13 @@ streams:
       link: images/nebula/nebula-wordmark-transparent-bg.png
       alt:  |
         Nebula logo: the word 'nebula' written in green, with blue, orange and green dots on the curvy top of the letter a, representing stars, constellations and galaxies.
+  -
+    title: Seeds to Systems Training
+    description: |
+      [Seeds to Systems](/seeds-to-systems/) is a cohort-based mentoring and training program that supports individuals and teams leading open initiatives, research communities of practice, and volunteer-run research projects with the knowledge, skills, and networks needed to **sustain** their work, **navigate** the research funding landscape, and create the conditions for **long-term impact**.
+    image:
+      link: images/logo/ols-transparent-bg.png
+      alt: OLS logo
 ---
 
 OLS delivers **online mentoring and training programs** for individuals and teams worldwide to learn about and adopt open research practices. 
