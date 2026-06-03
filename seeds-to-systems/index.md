@@ -19,8 +19,9 @@ cta_bg_color: "#265F3F"
             <div class="column is-two-thirds">
                 <h2 class="section-title is-size-3">Coming soon</h2>
                 <p>We are thrilled to announce that the <strong>pilot cohort of Seeds to Systems</strong> will run from <strong>September to November 2026</strong>.</p>
-                <p><strong>Seeds to Systems</strong> is a cohort-based training and mentoring programme designed for individuals and teams leading open initiatives, from research communities of practice, or volunteer-run research initiatives. It builds directly on OLS's experience running <a href="{% link openseeds/index.md %}">Open Seeds</a> and extends that support to projects at a more advanced stage of development.</p>
-                <p>The curriculum centres on organisational infrastructure for project and community sustainability: the practical knowledge, skills, and networks needed to lead a project over time, navigate the research funding landscape, and build the conditions that enable long-term impact.</p>
+                <p><strong>Seeds to Systems</strong> is a cohort-based training and mentoring programme designed <strong>for individuals and teams leading open initiatives, research communities of practice, or volunteer-run research initiatives</strong>. It builds directly on OLS's experience running <a href="{% link openseeds/index.md %}">Open Seeds</a> and extends that support to projects at a more advanced stage of development.</p>
+                <p>The curriculum centres on <strong>organisational infrastructure for project and community sustainability</strong>: the practical knowledge, skills, and networks needed to lead a project over time, navigate the research funding landscape, and build the conditions that enable long-term impact.</p>
+                <p>You can read more in our <a href="">announcement post</a>.</p>
             </div>
             <div class="column">
                 <div class="card">
@@ -68,10 +69,10 @@ cta_bg_color: "#265F3F"
 
 Before the pilot cohort begins, we will be running a series of activities open to the OLS community and beyond:
 
-- **June**: Participate in a **webinar** to learn more about the Seeds to Systems Training.
-- **July**: Join **co-design workshops** to collaboratively shape the curriculum.
+- **June 30** (14:00 UTC): Participate in a **webinar** to learn more about the Seeds to Systems Training. [Register here](https://us02web.zoom.us/meeting/register/ln9HJVbIR9-IAeWedXIG7g).
+- **July 8 & 21** (14:00 UTC): Join two **co-design workshops** to collaboratively shape the curriculum.
 - **August**: **Apply** to the pilot cohort.
-- **September–November**: **Pilot cohort** runs.
+- **September–November**: **Pilot cohort**.
 
 </div>
     </div>
