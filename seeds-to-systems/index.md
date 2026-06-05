@@ -83,7 +83,7 @@ Before the pilot cohort begins, we will be running a series of activities open t
         <h2 class="section-title is-size-3 has-text-white">Stay tuned</h2>
         <p class="has-text-white">Subscribe to our newsletter to stay updated on Seeds to Systems Training news and upcoming opportunities.</p>
         <div class="buttons is-right">
-            <a href="{{ site.newsletter }}" class="button is-white">Subscribe to our newsletter</a>
+            <a href="{{ site.newsletter }}" class="button is-white" style="padding: 1rem;">Subscribe to our newsletter</a>
         </div>
     </div>
 </section>
