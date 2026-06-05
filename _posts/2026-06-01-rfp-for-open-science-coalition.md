@@ -15,7 +15,10 @@ photos:
   license: CC-BY 2.0
   url: https://www.flickr.com/photos/92082510@N04
 ---
+**UPDATE**
+2026-06-05: The Facilitation RFP has had an error corrected: Now the duration is 3 months, not 18 months as previously stated.
 
+# Original post
 
 Five leading open science organisations – [The Carpentries](https://carpentries.org/), [OLS](https://we-are-ols.org/), [rOpenSci](https://ropensci.org/), [pyOpenSci](https://www.pyopensci.org/), and [PREreview](https://prereview.org/) are seeking an external consultant or group to facilitate several activities over the second half of 2026\.  Selected consultants will continue the organisational alignment and collaboration work [previously announced in late 2025](https://we-are-ols.org/posts/2025/09/15/from-surviving-to-thriving/).
 
