@@ -21,7 +21,7 @@ cta_bg_color: "#265F3F"
                 <p>We are thrilled to announce that the <strong>pilot cohort of Seeds to Systems</strong> will run from <strong>September to November 2026</strong>.</p>
                 <p><strong>Seeds to Systems</strong> is a cohort-based training and mentoring programme designed <strong>for individuals and teams leading open initiatives, research communities of practice, or volunteer-run research initiatives</strong>. It builds directly on OLS's experience running <a href="{% link openseeds/index.md %}">Open Seeds</a> and extends that support to projects at a more advanced stage of development.</p>
                 <p>The curriculum centres on <strong>organisational infrastructure for project and community sustainability</strong>: the practical knowledge, skills, and networks needed to lead a project over time, navigate the research funding landscape, and build the conditions that enable long-term impact.</p>
-                <p>You can read more in our <a href="">announcement post</a>.</p>
+                <p>You can read more in our <a href="{% link _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md %}">announcement post</a>.</p>
             </div>
             <div class="column">
                 <div class="card">
