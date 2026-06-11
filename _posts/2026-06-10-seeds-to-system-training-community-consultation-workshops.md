@@ -1,6 +1,6 @@
 ---  
 layout: post
-title: 'Join the Seeds to Systems Training Co-design Workshops'
+title: 'Join the Seeds to Systems Training Community Consultation Workshops'
 authors:
 - iramosp
 - rivaquiroga
@@ -11,11 +11,11 @@ photos:
   url: https://unsplash.com/photos/a-group-of-people-holding-hands-on-top-of-a-tree-DNkoNXQti3c
 ---
 
-We are inviting members of the open research community to participate in two curriculum co-design workshops to shape the [Seeds to Systems training programme]({% link _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md %}). 
+We are inviting members of the open research community to participate in two curriculum consultation workshops to shape the [Seeds to Systems training programme]({% link _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md %}). 
 
 ### Who should apply?
 
-These co-design workshops are intended for individuals who have **experience sustaining open research communities, projects or initiatives for 1+ years or longer**, whether fully volunteer, paid, or some combination. 
+These workshops are intended for individuals who have **experience sustaining open research communities, projects or initiatives for 1+ years or longer**, whether fully volunteer, paid, or some combination. 
 
 In Seeds to Systems, we use sustainability in a broad sense. We are interested in how different initiatives understand what they need to continue, adapt, or transition. This may include funding, but also governance, documentation, partnerships, and other pieces of infrastructure. 
 
