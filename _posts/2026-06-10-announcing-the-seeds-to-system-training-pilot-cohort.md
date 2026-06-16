@@ -57,7 +57,7 @@ The pilot cohort is designed for individuals or teams who already have experienc
 
 Participants from the OLS community and projects that have participated in Open Seeds are likely to be strong candidates for the pilot. We view the pilot cohort as an opportunity to shape the curriculum.
 
-Time commitment: The cohort component of the training will run for six weeks, with two 3-hour sessions per week. The mentoring component involves weekly meetings for another six weeks.  
+Time commitment: We are finalising the cohort structure. The expected time commitment for participants is 5h per week for 8-10 weeks, including live sessions, self-paced work, and mentoring sessions.  
 
 Details on how to apply to the pilot cohort will be shared in the coming months. In the meantime, you can [subscribe to our newsletter](https://openlifescience.civicrm.org/civicrm/newsletter) to receive updates about this and other OLS activities. 
 
