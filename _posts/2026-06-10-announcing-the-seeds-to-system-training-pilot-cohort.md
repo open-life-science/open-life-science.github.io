@@ -64,7 +64,7 @@ Details on how to apply to the pilot cohort will be shared in the coming months.
 ## Timeline
 
 * June: **Webinar** - [Register here](https://us02web.zoom.us/meeting/register/ln9HJVbIR9-IAeWedXIG7g)  
-* July: **Community consultation workshops** - [Learn more and register here]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %})
+* Early August: **Community consultation workshops** - [Learn more and register here]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %})
 * August: **Cohort application period**  
 * September - November: **Pilot cohort**
 

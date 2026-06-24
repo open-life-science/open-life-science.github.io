@@ -38,7 +38,7 @@ These workshops may *not* be for you if you:
 
 ### How can I express interest in participating?
 
-Please complete the [expression of interest form by June 28](https://forms.gle/zTnmdg1PKFjWU9hi9). 
+Please complete the [expression of interest form by July ](https://forms.gle/zTnmdg1PKFjWU9hi9). 
 
 The form includes questions to help us understand your experience with open projects. It also allows you to indicate interest in one or both workshops, as well as in future Seeds to Systems activities. 
 
@@ -63,7 +63,7 @@ Participants will receive guiding questions before the workshop to reflect on th
 
 ### Date and time
 
-July 8, 14:00 - 16:00 UTC  ([check your timezone](https://everytimezone.com/s/22c1b9a1))
+August 5, 14:00 - 16:00 UTC  ([check your timezone](https://everytimezone.com/s/fc8c37b3))
 
 
 ## Workshop 2: Pathways towards a sustainable open research ecosystem
@@ -80,7 +80,7 @@ Participants will share a short description of their community vision in advance
 
 ### Date and time
 
-July 21, 14:00 - 15:30 UTC ([check your timezone](https://everytimezone.com/s/8f072459))
+August 11, 14:00 - 15:30 UTC ([check your timezone](https://everytimezone.com/s/92483882))
 
 ## General information
 
