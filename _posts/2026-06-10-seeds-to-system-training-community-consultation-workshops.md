@@ -38,7 +38,7 @@ These workshops may *not* be for you if you:
 
 ### How can I express interest in participating?
 
-Please complete the [expression of interest form by July ](https://forms.gle/zTnmdg1PKFjWU9hi9). 
+Please complete the [expression of interest form by July 19](https://forms.gle/zTnmdg1PKFjWU9hi9). 
 
 The form includes questions to help us understand your experience with open projects. It also allows you to indicate interest in one or both workshops, as well as in future Seeds to Systems activities. 
 
