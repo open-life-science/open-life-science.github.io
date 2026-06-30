@@ -21,7 +21,7 @@ layout: default
         {% if post.image %}
         <div class="card-image">
             <figure class="image">
-            <img src="{{ post.image }}" alt="{{ post.title }}">
+            <img src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ post.image | relative_url }}{% endif %}" alt="{{ post.title }}">
             </figure>
         </div>
         {% endif %}
