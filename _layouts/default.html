@@ -4,7 +4,7 @@ layout: index
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 
-<section class="hero {% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: linear-gradient(to top, #000, transparent), url({{ page.image }});"{% endif %}>
+<section class="hero {% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: linear-gradient(to top, #000, transparent), url({% if page.image contains '://' %}{{ page.image }}{% else %}{{ page.image | relative_url }}{% endif %});"{% endif %}>
   <div class="hero-body">
     <h1 class="title is-1">{{ page.title }}</h1>
 
