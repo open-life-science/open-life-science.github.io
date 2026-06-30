@@ -78,6 +78,28 @@ Before the pilot cohort begins, we will be running a series of activities open t
     </div>
 </section>
 
+<section class="section" style="background-color: {{ page.about_bg_color }};">
+    <div class="container">
+        <h2 class="section-title is-size-3">Learn more!</h2>
+        <p>Check the recording of the informational webinar to learn more about our new training.</p>
+        <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/h-SKgXlyFH0" frameborder="0" allowfullscreen></iframe>
+        </figure>
+    </div>
+</section>
+
+<section class="section" style="background-color: {{ page.overview_bg_color }};">
+    <div class="container">
+        <h2 class="section-title is-size-3">FAQ</h2>
+        <div class="content">
+            <div style="border-left: 4px solid #265F3F; padding-left: 1rem; margin-bottom: 1.5rem;">
+                <p><strong>Is there a cost to participate?</strong></p>
+                <p>No, participation in the pilot cohort is free of charge.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section" style="background-color: {{ page.cta_bg_color }};">
     <div class="container">
         <h2 class="section-title is-size-3 has-text-white">Stay tuned</h2>
