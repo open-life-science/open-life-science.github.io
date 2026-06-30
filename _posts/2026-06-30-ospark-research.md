@@ -3,11 +3,10 @@ layout: post
 title: "Share your thoughts on outreach for open research initiatives"
 authors:
 - bethaniley
-image:
-/images/ospark/ospark-bootcamp-belfast-photo.jpg
+image: /images/ospark/ospark-bootcamp-belfast-photo.jpg
 photos:
-name: Photo of the first OSPARK Bootcamp in Belfast, Northern Ireland.
-url: https://oscars-project.eu/projects/ospark-bootcamp-open-science-promotion-and-advocacy-research-knowledge-bootcamp
+  name: Photo of the first OSPARK Bootcamp in Belfast, Northern Ireland.
+  url: https://oscars-project.eu/projects/ospark-bootcamp-open-science-promotion-and-advocacy-research-knowledge-bootcamp
 ---
 
 Co-organised by OLS and the [DRA](https://digital-research.academy/), the [OSPARK Bootcamp](https://oscars-project.eu/projects/ospark-bootcamp-open-science-promotion-and-advocacy-research-knowledge-bootcamp) aims to support open research ambassadors to **create visibility for their open research initiatives** through outreach and marketing. It consists of a 6-week online course and a two-day in-person workshop. The online part of the course is delivered through informative emails, check-ins with a buddy, and hour-long interactive cohort sessions. The in-person workshop is an unconference style event, which provides space to connect and collaborate with other attendees. Applications will open soon for our [third OSPARK Bootcamp](https://events.digital-research.academy/event/137/), with online-only options and an in-person workshop in Zurich, Switzerland. Participation is free of charge.
