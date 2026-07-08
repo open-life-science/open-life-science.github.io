@@ -11,7 +11,7 @@ photos:
   url: https://unsplash.com/photos/a-black-and-white-photo-of-a-person-standing-in-the-dark-z7tHaYSqudw
 ---
 
-Have a look and discover a bit more about our wonderful Bethan, who coordinates the OSPARK project while managing OLS finances
+Have a look and discover a bit more about our wonderful Bethan, who coordinates OLS's participation in the OSPARK project while managing OLS finances
 
 ### Meet Bethan Iley 
 
