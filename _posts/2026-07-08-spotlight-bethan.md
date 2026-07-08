@@ -2,7 +2,7 @@
 layout: post
 title: 'OLS Spotlight 🔦 Bethan Iley'
 authors:
-- lauracarter
+- saravilla
 - bethaniley
 image: https://images.unsplash.com/photo-1554167725-89bf8ab26514?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 photos:
@@ -24,7 +24,7 @@ Have a look and discover a bit more about our wonderful Bethan, who coordinates 
 
 _Name: Bethan Iley_
 
-_Role in OLS: _OSPARK Coordinator and Finance Manager_
+_Role in OLS: OSPARK Coordinator and Finance Manager_
 
 _Contact if people want to have a chat? Drop me a DM on the OLS Slack or email me at bethan [at] we-are-ols [dot] org_
 
