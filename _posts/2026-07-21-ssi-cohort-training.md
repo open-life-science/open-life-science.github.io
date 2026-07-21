@@ -3,10 +3,10 @@ layout: post
 title: "SSI fellows cohort training 2026: Collaborating sustainably, sustaining collaborations"
 authors:
 - saravilla
-image: 
+image: https://images.unsplash.com/photo-1637094408647-0d81d08f81b5?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 photos:
-  name: 
-  url: 
+  name: Vardan Papikyan
+  url: https://unsplash.com/photos/a-person-holding-two-pieces-of-a-puzzle-JzE1dHEaAew
 ---
 
 ## What happens when collaborative organisations join forces to train the future of software sustainability? 
