@@ -54,7 +54,7 @@ We will definitely take all the feedback to keep improving future training cohor
 
 > Build so you can step back
 
-![Screenshot from RCM Cooperative RCM 101 training showcasing Kirstie Whitakker's version of engagement pyramid]({% link images/SSIblog3.jpg %})
+![Screenshot from RCM Cooperative RCM 101 training showcasing Kirstie Whitaker's version of engagement pyramid]({% link images/SSIblog3.jpg %})
 
 
 _This initiative has been supported by the[ DisCouRSE network + Flexible funds](https://discourse-network.github.io/projects/1-37-open-leadership/) round 1 and the SSI fellowship team._
