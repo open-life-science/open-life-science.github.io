@@ -1,6 +1,6 @@
 ---  
 layout: post
-title: 'OLS Community Spotlight Series 2026: Remembering what the _open_ magic is about'
+title: 'OLS Community Spotlight Series 2026: Remembering what the OPEN magic is about'
 authors:
 - saravilla
 image: images/community_spotlight_series/OLS_community_spotlight_series.png
