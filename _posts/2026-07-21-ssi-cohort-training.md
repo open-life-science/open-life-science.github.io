@@ -14,9 +14,12 @@ photos:
 This year, the [OLS](https://we-are-ols.org/) training team had a great opportunity to collaborate with the [Software Sustainability Institute (SSI) fellowship](https://www.software.ac.uk/programmes/fellowship-programme) team to provide an all-round leadership training based on our Open Seeds programme. This is what happened: 
 
 SSI fellows are ambassadors of good computational and software practice. Moreover, it is very usual to find community builders and compulsive collaborators within this specific group of dRTPs (digital Research Technical Professionals). Our shared vision was that SSI Fellows emerge as adaptable, capable, ethical, and community-minded leaders in research software.
+
 After an initial round of feedback, a specific and tailored curriculum was piloted for this cohort, drawing from 2 existent frameworks: 
-Our [Open Seeds Programme](https://we-are-ols.org/openseeds/) delivered by OLS (Open Life Science), which is a 16-week cohort-based mentorship and training programme focused on open science principles and community leadership.
-[Research Community Management Training 101](https://www.rcmcooperative.com/portfolio/ssi-rcm101-2025/): Sessions delivered by the [RCM Cooperative](https://www.rcmcooperative.com/#), which provide foundational and applied training in Research Community Management (RCM).
+
+- Our [Open Seeds Programme](https://we-are-ols.org/openseeds/) delivered by OLS (Open Life Science), which is a 16-week cohort-based mentorship and training programme focused on open science principles and community leadership.
+
+- [Research Community Management Training 101](https://www.rcmcooperative.com/portfolio/ssi-rcm101-2025/): Sessions delivered by the [RCM Cooperative](https://www.rcmcooperative.com/#), which provide foundational and applied training in Research Community Management (RCM).
 
 ![Screenshot from the initial slide of one of the sessions on Tooling for open design]({% link images/SSIblog1.jpg %})
 
