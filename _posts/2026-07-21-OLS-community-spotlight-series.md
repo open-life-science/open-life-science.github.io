@@ -3,7 +3,7 @@ layout: post
 title: 'OLS Community Spotlight Series 2026: Remembering what the *open* magic is about'
 authors:
 - saravilla
-image: /images/OLS_community_spotlight_series.png
+image: images/community_spotlight_series/OLS_community_spotlight_series.png
 photos:
   name: Jilaga Nneoma
   license: CC BY-SA 2.0
@@ -28,6 +28,9 @@ Check the recordings in our public [YouTube playlist!](https://www.youtube.com/p
 > I learned that I have a voice, and that my voice can be heard 💓 - Sabrina López
 
 > With OLS we see the big picture - Alexander Martinez Mendez
+
+
+![Image shows the YT thumbnail for one of the sessions with headshots of several speakers.]({% link images/community_spotlight_series/CSS YT thumbnail - session 4.png %})
 
 
 
