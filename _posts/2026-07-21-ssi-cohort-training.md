@@ -13,14 +13,15 @@ photos:
 
 This year, the [OLS](https://we-are-ols.org/) training team had a great opportunity to collaborate with the [Software Sustainability Institute (SSI) fellowship](https://www.software.ac.uk/programmes/fellowship-programme) team to provide an all-round leadership training based on our Open Seeds programme. This is what happened: 
 
-SSI fellows are ambassadors of good computational and software practice. Moreover, it is very usual to find community builders and compulsive collaborators within this specific group of dRTPs(digital Research Technical Professionals). Our shared vision was that SSI Fellows emerge as adaptable, capable, ethical, and community-minded leaders in research software.
+SSI fellows are ambassadors of good computational and software practice. Moreover, it is very usual to find community builders and compulsive collaborators within this specific group of dRTPs (digital Research Technical Professionals). Our shared vision was that SSI Fellows emerge as adaptable, capable, ethical, and community-minded leaders in research software.
 After an initial round of feedback, a specific and tailored curriculum was piloted for this cohort, drawing from 2 existent frameworks: 
-Our Open Seeds Programme delivered by OLS (Open Life Science), which is a 16-week cohort-based mentorship and training programme focused on open science principles and community leadership.
-Research Community Management Training 101: Sessions delivered by the RCM Cooperative, which provide foundational and applied training in Research Community Management (RCM).
+Our [Open Seeds Programme](https://we-are-ols.org/openseeds/) delivered by OLS (Open Life Science), which is a 16-week cohort-based mentorship and training programme focused on open science principles and community leadership.
+[Research Community Management Training 101](https://www.rcmcooperative.com/portfolio/ssi-rcm101-2025/): Sessions delivered by the [RCM Cooperative](https://www.rcmcooperative.com/#), which provide foundational and applied training in Research Community Management (RCM).
 
 ![Screenshot from the initial slide of one of the sessions on Tooling for open design]({% link images/SSIblog1.jpg %})
 
 ## The results? 
+
 4 half day sessions combining training on tooling for open collaboration, Open science introduction, community mapping and open leadership among others. OLS and RCM teams delivered parts of the training, but we also brought in experts in Open tools and Open Infrastructure to give the best vision we could about these subjects. 
 
 These sessions had a steady and engaged group of participants who gave us a lot of food for thought to improve future iterations, while enjoying this pilot cohort and taking the most out of it: 
@@ -56,6 +57,6 @@ We will definitely take all the feedback to keep improving future training cohor
 ![Screenshot from RCM Cooperative RCM 101 training showcasing Kirstie Whitakker's version of engagement pyramid]({% link images/SSIblog3.jpg %})
 
 
-_This initiative has been supported by the DIsCouRSE network + Flexible funds round 1 and the SSI fellowship team._
+_This initiative has been supported by the[ DisCouRSE network + Flexible funds](https://discourse-network.github.io/projects/1-37-open-leadership/) round 1 and the SSI fellowship team._
 
 
