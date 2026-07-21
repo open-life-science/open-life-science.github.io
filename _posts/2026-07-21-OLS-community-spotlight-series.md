@@ -10,6 +10,7 @@ photos:
   url: https://jilaga.framer.website/
 ---
 
+
 OLS community has ALWAYS been at the center of what we do. In the end, we couldn't sustain this organisation without our trianing participants, mentors, experts, facilitators... 
 After publising [our 5 years blog of OLS]({% link _posts/2026-02-25-retro-five-years-OLS.md%}), where we highlight what's been happening over the years and what the team has been working on...we realised, what about our community? **Why don't we spotlight the AMAZING work that the OLS community has been doing over the years?** And that is how the OLS Community Spotlight series was born! 
 
