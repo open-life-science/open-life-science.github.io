@@ -41,7 +41,7 @@ These sessions had a steady and engaged group of participants who gave us a lot 
 We have found that the training and support provided by RCM cooperative and OLS links very naturally with the ethos and activities of the SSI. Supporting SSI fellows, who are the emergent leaders of the dRTP community is a great way for all 3 organisations learn from each other and improve processes and materials to make the best research while nurture the community. 
 
 We also had great feedback on how to improve future iterations for these sessions: format of the sessions wasn’t very friendly to certain schedules, and fellows highlighted the need for more reflection and exercise discussion time. 
-This feedback is also very useful to the ongoing work that we are doing to map our learning resources to the[ DIRECT framework](https://directframework.com/) skills for dRTPs roles. 
+This feedback is also very useful to the ongoing work that we are doing to map our learning resources to the [DIRECT framework](https://directframework.com/) skills for dRTPs roles. 
 
 If you want to have a full view of the curriculum , you can read our full report openly on [Zenodo](https://zenodo.org/records/20931703). You can find links to the learning resources and specifics about the sessions there. 
 
