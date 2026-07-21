@@ -3,7 +3,7 @@ layout: post
 title: 'OLS Community Spotlight Series 2026: Remembering what the *open* magic is about'
 authors:
 - saravilla
-image: images/OLS_community_spotlight_series.jpg
+image: /images/OLS_community_spotlight_series.jpg
   name: Jilaga Nneoma
   license: CC BY-SA 2.0
   url: https://jilaga.framer.website/
