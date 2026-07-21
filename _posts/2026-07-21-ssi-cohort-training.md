@@ -18,7 +18,7 @@ After an initial round of feedback, a specific and tailored curriculum was pilot
 Our Open Seeds Programme delivered by OLS (Open Life Science), which is a 16-week cohort-based mentorship and training programme focused on open science principles and community leadership.
 Research Community Management Training 101: Sessions delivered by the RCM Cooperative, which provide foundational and applied training in Research Community Management (RCM).
 
-*ADD IMAGE
+![Screenshot from the initial slide of one of the sessions on Tooling for open design]({% link images/SSIblog1.jpg %})
 
 ## The results? 
 4 half day sessions combining training on tooling for open collaboration, Open science introduction, community mapping and open leadership among others. OLS and RCM teams delivered parts of the training, but we also brought in experts in Open tools and Open Infrastructure to give the best vision we could about these subjects. 
@@ -27,13 +27,13 @@ These sessions had a steady and engaged group of participants who gave us a lot 
 
 > Every career path is different. Fostering a community takes a lot of work and resilience. 
 
-> hearing from different perspectives of ppl who built careers/communities in different ways. the open 'clinic' discussion session to work thru community building difficulties was really helpful 
+> Hearing from different perspectives of ppl who built careers/communities in different ways. the open 'clinic' discussion session to work thru community building difficulties was really helpful 
 
 > Great discussion and framing - loved how license, readme, contributor guide and code of conduct all tied together. 
 
 > Great speakers and topics all covering different facets in a really complimentary way 
 
-*ADD IMAGE
+![Screenshot from open leadership slide quoting: "Open Leaders design and build projects that empower others to collaborate within inclusive communities.]({% link images/SSIblog2.jpg %})
 
 ## What’s next? 
 
@@ -49,11 +49,11 @@ We will definitely take all the feedback to keep improving future training cohor
 
 > The most important thing is to figure out what you want out of life, and follow the opportunities that lead to them
 
-> mentorship is multiplication
+> Mentorship is multiplication
 
 > Build so you can step back
 
-*ADD IMAGE
+![Screenshot from RCM Cooperative RCM 101 training showcasing Kirstie Whitakker's version of engagement pyramid]({% link images/SSIblog3.jpg %})
 
 
 _This initiative has been supported by the DIsCouRSE network + Flexible funds round 1 and the SSI fellowship team._
