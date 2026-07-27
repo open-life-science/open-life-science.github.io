@@ -11,7 +11,7 @@ photos:
   url: https://unsplash.com/@kazuend
 ---
 
-**We are thrilled to announce that the pilot cohort of Seeds to Systems will run September to November 2026**. 
+**We are thrilled to announce that the pilot cohort of Seeds to Systems will run October 2026 to February 2027**. (_Updated_)
 
 ## What is the Seeds to Systems Training Programme?
 
@@ -30,7 +30,7 @@ The pilot curriculum is still under development, and we expect it to include the
 * Navigating the research funding landscape, [including grant witing]({% link _posts/2026-04-20-from-hidden-curriculum-to-grant-readiness.md %})
 * Critical AI use as a cross-cutting theme across these topics
 
-Participants will work through the curriculum as a cohort, learning from each other's experiences and from a network of mentors and experts. The programme will run from September to November/December 2026.
+Participants will work through the curriculum as a cohort, learning from each other's experiences and from a network of mentors and experts. The programme will run from ~~September to November/December~~ October 2026 to February 2027.
 
 ## How to contribute and engage
 
@@ -65,8 +65,8 @@ Details on how to apply to the pilot cohort will be shared in the coming months.
 
 * June: **Webinar** - [Register here](https://us02web.zoom.us/meeting/register/ln9HJVbIR9-IAeWedXIG7g)  
 * Early August: **Community consultation workshops** - [Learn more and register here]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %})
-* August: **Cohort application period**  
-* September - November: **Pilot cohort**
+* ~~August~~ September: **Cohort application period**  
+* ~~September - November~~ late October 2026 - early February 2027: **Pilot cohort**
 
 ## Background
 
