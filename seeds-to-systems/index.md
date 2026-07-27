@@ -94,15 +94,15 @@ Before the pilot cohort begins, we will be running a series of activities open t
     <div class="container">
         <h2 class="section-title is-size-3">FAQ</h2>
         <div class="content">
-            <div style="border-left: 4px solid #265F3F; padding-left: 1rem; margin-bottom: 1.5rem;">
+            <div class="faq-item">
                 <p><strong>Is there a cost to participate?</strong></p>
                 <p>No, participation in the pilot cohort is free of charge.</p>
             </div>
-            <div style="border-left: 4px solid #265F3F; padding-left: 1rem; margin-bottom: 1.5rem;">
+            <div class="faq-item">
                 <p><strong>What is the time commitment?</strong></p>
                 <p>During the first phase (late October - early December), there are two 90-minute cohort calls per week, on Tuesdays and Thursdays at 15:00 UTC, plus an estimated 60-120 minutes of async work per week. During the mentoring period, there is one 1-hour meeting per week, at a time agreed with your mentor, plus an estimated 60-120 minutes of async work.</p>
             </div>
-            <div style="border-left: 4px solid #265F3F; padding-left: 1rem; margin-bottom: 1.5rem;">
+            <div class="faq-item">
                 <p><strong>What are the exact dates of the programme?</strong></p>
                 <p>Cohort calls run from October 21 to December 3. <br>Mentoring runs from January 11 to February 5. <br>The week of February 8-12 is the programme's graduation.</p>
             </div>
@@ -115,7 +115,7 @@ Before the pilot cohort begins, we will be running a series of activities open t
         <h2 class="section-title is-size-3 has-text-white">Stay tuned</h2>
         <p class="has-text-white">Subscribe to our newsletter to stay updated on Seeds to Systems Training news and upcoming opportunities.</p>
         <div class="buttons is-right">
-            <a href="{{ site.newsletter }}" class="button is-white" style="padding: 1rem;">Subscribe to our newsletter</a>
+            <a href="{{ site.newsletter }}" class="button is-white">Subscribe to our newsletter</a>
         </div>
     </div>
 </section>

@@ -656,6 +656,19 @@ code {
   }
 }
 
+// Styling for Seeds to Systems landing page
+.seeds-to-systems {
+  .faq-item {
+    border-left: 4px solid #265F3F;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .button.is-white {
+    padding: 1rem;
+  }
+}
+
 .article-post img{
   max-width:600px
 }
