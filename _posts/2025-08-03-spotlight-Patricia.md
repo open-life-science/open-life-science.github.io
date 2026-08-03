@@ -35,9 +35,9 @@ _Socials: I have [LinkedIn](https://www.linkedin.com/in/bethaniley/) but don’t
 </div> --->
 
 > _Name: Patricia Herterich_  
-_Role in OLS: OLS co-executive director_  
-_Contact if people want to have a chat? patricia [at] we-are-ols [dot] org - but please be patient, I’m not the fastest at answering emails._  
-_Socials: [LinkedIn](https://www.linkedin.com/in/patricia-herterich/)_
+> _Role in OLS: OLS co-executive director_  
+> _Contact if people want to have a chat? patricia [at] we-are-ols [dot] org - but please be patient, I’m not the fastest at answering emails._  
+> _Socials: [LinkedIn](https://www.linkedin.com/in/patricia-herterich/)_
 
 
 ## Questions about OLS
