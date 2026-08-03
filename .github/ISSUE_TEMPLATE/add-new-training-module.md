@@ -33,9 +33,9 @@ If this is a new topic, please fill out the new training topic information below
 
 # (Optional) training module info
 
-** Learning goals:** Multiple paragraphs and markdown format can be used.
+**Learning goals:** Multiple paragraphs and markdown format can be used.
 
-** Prework:** Multiple paragraphs and markdown format can be used.
+**Prework:** Multiple paragraphs and markdown format can be used.
 
 **Slides:** HTML link to presentation slides
 
