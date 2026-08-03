@@ -15,7 +15,7 @@ Have a look and discover a bit more about our wonderful Patricia, co-executive d
 
 ### Meet Patricia Herterich
 
-<!---
+{% comment %}
 Leaving this here in case I need to remember the structure!
 <div class="columns">
   <div class="column is-3" markdown="1">
@@ -32,7 +32,8 @@ _Contact if people want to have a chat? Drop me a DM on the OLS Slack or email m
 _Socials: I have [LinkedIn](https://www.linkedin.com/in/bethaniley/) but don’t really use it!_
 
   </div>
-</div> --->
+</div>
+{% endcomment %}
 
 > _Name: Patricia Herterich_  
 > _Role in OLS: OLS co-executive director_  
