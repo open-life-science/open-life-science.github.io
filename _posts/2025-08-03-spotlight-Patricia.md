@@ -56,7 +56,7 @@ Before getting stuck into OLS leadership, some of my work focused on inclusive m
 ### What skill/expertise do you have in the open science world? How did you learn it?  
 My main background is in research data management, especially in publishing research data in data repositories. I learned by doing: my first job after university (degree in library and information science) was at CERN building [research data workflows](https://inspirehep.net/data) and [platforms](https://opendata.cern.ch/). It required researching best practices of data repositories in other disciplines, deep dives into standards and many conversations with researchers to figure out how to make things easily usable for them. 
 
-### What recent book/article/podcast have you come across that ‘s changed the way you see things?  
+### What recent book/article/podcast have you come across that’s changed the way you see things?  
 Not an individual podcast episode, but I do like [“The Wellness Scoop”](https://podcasts.apple.com/gb/podcast/the-wellness-scoop/id1428704212). On reflection, I spent all my 20s trying to be an overachieving millennial thinking I need to track and perfect all parts of life. I do like the podcast as a reminder that at least concerning my body, I can ignore a lot of hypes and I’m actually doing ok.
 
 ## Silly/short ones
