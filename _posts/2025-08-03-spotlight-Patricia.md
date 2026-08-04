@@ -15,26 +15,6 @@ Have a look and discover a bit more about our wonderful Patricia, co-executive d
 
 ### Meet Patricia Herterich
 
-{% comment %}
-Leaving this here in case I need to remember the structure!
-<div class="columns">
-  <div class="column is-3" markdown="1">
-![At the front of the image: Bethan is on a train wagon in front of a sign that reads 'Alll aboard take care']({% link images/BethanSpotlight.jpg %})
-  </div>
-  <div class="column" markdown="1">
-
-_Name: Bethan Iley_
-
-_Role in OLS: OSPARK Coordinator and Finance Manager_
-
-_Contact if people want to have a chat? Drop me a DM on the OLS Slack or email me at bethan [at] we-are-ols [dot] org_
-
-_Socials: I have [LinkedIn](https://www.linkedin.com/in/bethaniley/) but don’t really use it!_
-
-  </div>
-</div>
-{% endcomment %}
-
 > _Name: Patricia Herterich_  
 > _Role in OLS: OLS co-executive director_  
 > _Contact if people want to have a chat? patricia [at] we-are-ols [dot] org - but please be patient, I’m not the fastest at answering emails._  
