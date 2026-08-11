@@ -4,6 +4,9 @@ title: 'Notes from my experience at OSPARK + CW26 in Belfast'
 authors:
 - nyasita
 image: /images/2026-08-03-OSPARK_CW26-1.jpg
+photos:
+  name: The Software Sustainability Institute
+  license: CC BY 4.0
 ---
 
 Thanks to support from the SSI Emerging Voices award and the OSPARK organisers, I spent the last week of April in Belfast attending two events: the OSPARK bootcamp and the Software Sustainability Institute's Collaborations Workshop (CW26). I applied to them for completely different reasons, but by the end of the week, I found myself thinking about many of the same questions. 
@@ -24,15 +27,19 @@ On the second day, we took part in a case study exercise designed to help us app
 
 ### A few days in Scotland
 
-![Selfie with Nyasita and her friends on the street.]({% link images/2026-08-03-OSPARK_CW26-4.jpg %}){: width="60%" }
-_Credit: Nyasita, 2026._
+<figure style="width: 60%; margin: 2em auto; text-align: center;">
+  <img src="{% link images/2026-08-03-OSPARK_CW26-4.jpg %}" style="width: 100%;" alt="Selfie with Nyasita and her friends on the street.">
+  <figcaption>Image by Laurah Nyasita Ondari, 2026.</figcaption>
+</figure>
 
 Between OSPARK and CW26, I spent a couple of days in Scotland visiting a friend who is currently doing her PhD at the University of Glasgow. It was my first time in Scotland, so I took the opportunity to visit Edinburgh and spend some time exploring the city before heading back to Glasgow. I also got to catch up with a few Kenyan friends living there, which was a nice reminder of how small the world can feel sometimes. It was a welcome break before returning to Belfast for CW26. 
 
 ### CW26
 
-![Five people co-working in a bordeaux and grey room around a table with computers, papers, bags, outlets and other equipment. Two screens on the back wall.]({% link images/2026-08-03-OSPARK_CW26-3.jpg %}){: width="60%" }
-_Credit: The Software Sustainability Institute, under the CC BY 4.0 license._
+<figure style="width: 60%; margin: 2em auto; text-align: center;">
+  <img src="{% link images/2026-08-03-OSPARK_CW26-3.jpg %}" style="width: 100%;" alt="Five people co-working in a bordeaux and grey room around a table with computers, papers, bags, outlets and other equipment. Two screens on the back wall.">
+  <figcaption>Image courtesy of the Software Sustainability Institute, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
 
 I then returned to Belfast for the Software Sustainability Institute's Collaborations Workshop (CW26). Unlike most conferences, CW is built around discussions, workshops, and collaboration. This year's theme was Strengthening the Research Software Community, bringing together researchers, software developers, community managers, funders, and others interested in making research software more sustainable.
 
@@ -42,7 +49,9 @@ I also gave a lightning talk about the Bioinformatics Hub of Kenya Initiative (B
 
 Another highlight was co-delivering an escape-room-style workshop with Precious Onyewuchi. Precious led much of the design, while I helped facilitate the session. It was great to see participants fully engage with the activity and work through the challenges together.
 
-![Five people, three of them looking at the camera, co-working in a bordeaux and grey room around a table with computers, papers, bags, outlets and other equipment. Two screens on the back wall.]({% link images/2026-08-03-OSPARK_CW26-2.jpg %}){: width="60%" }
-_Credit: The Software Sustainability Institute, under the CC BY 4.0 license._
+<figure style="width: 60%; margin: 2em auto; text-align: center;">
+  <img src="{% link images/2026-08-03-OSPARK_CW26-2.jpg %}" style="width: 100%;" alt="Five people, three of them looking at the camera, co-working in a bordeaux and grey room around a table with computers, papers, bags, outlets and other equipment. Two screens on the back wall.">
+  <figcaption>Image courtesy of the Software Sustainability Institute, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
 
 Although OSPARK and CW26 had very different goals, I found myself thinking about many of the same things throughout the week. OSPARK challenged me to think more deliberately about communication, while CW26 reinforced the importance of community. Given the work I do with BHKi, Bioconductor, OLS, and DSWB, both felt particularly relevant and I am grateful for the opportunity I was accorded to attend both events.
