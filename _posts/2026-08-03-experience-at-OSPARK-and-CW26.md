@@ -3,7 +3,7 @@ layout: post
 title: 'Notes from my experience at OSPARK + CW26 in Belfast'
 authors:
 - nyasita
-image: /images/2026-08-03-OSPARK_CW26-1.jpg
+image: /images/2026-08-03-OSPARK-CW26-1.jpg
 photos:
   name: The Software Sustainability Institute
   license: CC BY 4.0
@@ -28,7 +28,7 @@ On the second day, we took part in a case study exercise designed to help us app
 ### A few days in Scotland
 
 <figure style="width: 60%; margin: 2em auto; text-align: center;">
-  <img src="{% link images/2026-08-03-OSPARK_CW26-4.jpg %}" style="width: 100%;" alt="Selfie with Nyasita and her friends on the street.">
+  <img src="{% link images/2026-08-03-OSPARK-CW26-4.jpg %}" style="width: 100%;" alt="Selfie with Nyasita and her friends on the street.">
   <figcaption>Image by Laurah Nyasita Ondari, 2026.</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Between OSPARK and CW26, I spent a couple of days in Scotland visiting a friend 
 ### CW26
 
 <figure style="width: 60%; margin: 2em auto; text-align: center;">
-  <img src="{% link images/2026-08-03-OSPARK_CW26-3.jpg %}" style="width: 100%;" alt="Five people co-working in a bordeaux and grey room around a table with computers, papers, bags, outlets and other equipment. Two screens on the back wall.">
+  <img src="{% link images/2026-08-03-OSPARK-CW26-3.jpg %}" style="width: 100%;" alt="Five people co-working in a bordeaux and grey room around a table with computers, papers, bags, outlets and other equipment. Two screens on the back wall.">
   <figcaption>Image courtesy of the Software Sustainability Institute, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ I also gave a lightning talk about the Bioinformatics Hub of Kenya Initiative (B
 Another highlight was co-delivering an escape-room-style workshop with Precious Onyewuchi. Precious led much of the design, while I helped facilitate the session. It was great to see participants fully engage with the activity and work through the challenges together.
 
 <figure style="width: 60%; margin: 2em auto; text-align: center;">
-  <img src="{% link images/2026-08-03-OSPARK_CW26-2.jpg %}" style="width: 100%;" alt="Five people, three of them looking at the camera, co-working in a bordeaux and grey room around a table with computers, papers, bags, outlets and other equipment. Two screens on the back wall.">
+  <img src="{% link images/2026-08-03-OSPARK-CW26-2.jpg %}" style="width: 100%;" alt="Five people, three of them looking at the camera, co-working in a bordeaux and grey room around a table with computers, papers, bags, outlets and other equipment. Two screens on the back wall.">
   <figcaption>Image courtesy of the Software Sustainability Institute, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
 </figure>
 
