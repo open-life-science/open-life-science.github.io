@@ -9,11 +9,11 @@ photos:
   license: CC BY 4.0
 ---
 
-Thanks to support from the SSI Emerging Voices award and the OSPARK organisers, I spent the last week of April in Belfast attending two events: the OSPARK bootcamp and the Software Sustainability Institute's Collaborations Workshop (CW26). I applied to them for completely different reasons, but by the end of the week, I found myself thinking about many of the same questions. 
+Thanks to support from the SSI Emerging Voices award and the OSPARK organisers, I spent the last week of April in Belfast attending two events: the [OSPARK bootcamp](https://events.digital-research.academy/event/116/) and the [Software Sustainability Institute's Collaborations Workshop (CW26)](https://www.software.ac.uk/workshop/collaborations-workshop-2026-cw26). I applied to them for completely different reasons, but by the end of the week, I found myself thinking about many of the same questions. 
 
 ### OSPARK: learning to communicate with intention
 
-The OSPARK Bootcamp was organised by the Digital Research Academy and Open Life Science (OLS). The programme focuses on outreach, marketing, and visibility for open research initiatives and it's designed for people who find themselves championing projects or communities and need to communicate their value more effectively.
+The OSPARK Bootcamp was organised by the [Digital Research Academy](https://digital-research.academy/) and [Open Life Science (OLS)]({% link index.md %}). The programme focuses on outreach, marketing, and visibility for open research initiatives and it's designed for people who find themselves championing projects or communities and need to communicate their value more effectively.
 
 I applied because communication has quietly taken over more of my working life than I'd planned, and I wanted to understand it deliberately rather than continuing to wing it. My background in comms is diverse: I have spent years volunteering as a science communicator, had a brief stint in communications and advertising after graduating in 2019, and more recently have taken on social media responsibilities for larger projects. But realistically, enthusiasm and this little experience here and there can only carry me so far.
 
