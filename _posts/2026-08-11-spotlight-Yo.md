@@ -17,7 +17,7 @@ Have a look and discover a bit more about our wonderful Yo, co-executive directo
 
 > _Name: Yochannah Yehudi / Yo Yehudi_  
 > _Role in OLS: ~~Chaos generator~~ / Co-executive director_  
-> _Contact if people want to have a chat? Yo at we are ols dot org :) _  
+> _Contact if people want to have a chat? Yo at we are ols dot org :)_  
 > _Socials: nah_
 
 ## Questions about OLS
