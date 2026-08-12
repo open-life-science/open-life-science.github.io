@@ -1,0 +1,69 @@
+{% comment %}
+  Renders a horizontally-scrolling carousel of post cards for a given list of
+  post paths. Reusable on any page.
+
+  Usage: {% include _includes/related-posts.html posts=page.related_posts title="Related posts" %}
+  - posts (required): array of post source paths, e.g. _posts/2026-06-10-example.md
+  - title (optional): section heading, defaults to "Related posts"
+  - id (optional): unique id for this carousel, needed only if a page includes
+    more than one carousel. Defaults to "related-posts".
+
+  Reuses the `.card` styling from the `.post` class in css/custom.scss (also
+  used by _layouts/posts.html), wrapped in `.related-posts-carousel` which
+  turns the grid into a horizontal, snap-scrolling row with prev/next arrows
+  so the section keeps a fixed height no matter how many posts are listed.
+{% endcomment %}
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+{% assign carousel_id = include.id | default: "related-posts" %}
+<div class="related-posts-carousel">
+    <div class="carousel-header">
+        <h2 class="section-title is-size-3">{{ include.title | default: "Related posts" }}</h2>
+        <div class="carousel-nav">
+            <button type="button" aria-label="Previous posts" onclick="scrollRelatedPostsCarousel('{{ carousel_id }}', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button type="button" aria-label="Next posts" onclick="scrollRelatedPostsCarousel('{{ carousel_id }}', 1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+    <div class="post" id="{{ carousel_id }}">
+    {% for related_path in include.posts %}
+        {% assign matches = site.posts | where: "path", related_path %}
+        {% assign post = matches.first %}
+        {% if post %}
+        {% capture authors %}
+        {% for id in post.authors %}, {% assign name = site.data['people'][id].first-name | default: id %}<a href="{% link people.md %}#{{ id }}">{{ name }}</a>{% endfor %}
+        {% endcapture %}
+        <div class="card">
+            {% if post.image %}
+            <div class="card-image">
+                <figure class="image">
+                <img src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ post.image | relative_url }}{% endif %}" alt="{{ post.title }}">
+                </figure>
+            </div>
+            {% endif %}
+            <div class="card-content">
+                <div class="content">
+                    <div class="title">
+                        <a href="{{ post.url }}">
+                        <p>{{ post.title | escape }}</p>
+                        </a>
+                    </div>
+                    <p class="subtitle">
+                        <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time>
+                        - {{ authors | remove_first: ', ' | strip }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+    </div>
+</div>
+
+<script>
+  function scrollRelatedPostsCarousel(id, direction) {
+    var container = document.getElementById(id);
+    if (!container) return;
+    var card = container.querySelector('.card');
+    var step = card ? card.getBoundingClientRect().width + 32 : 320;
+    container.scrollBy({ left: direction * step, behavior: 'smooth' });
+  }
+</script>

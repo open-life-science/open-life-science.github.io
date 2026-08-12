@@ -10,6 +10,11 @@ photos:
 about_bg_color: "#EBF5EC"
 overview_bg_color: "#FFFFFF"
 cta_bg_color: "#265F3F"
+related_posts:
+  - _posts/2026-04-20-from-hidden-curriculum-to-grant-readiness.md
+  - _posts/2026-05-15-leverage-points.md
+  - _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md
+  - _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md
 ---
 
 <div class="seeds-to-systems">
@@ -84,9 +89,11 @@ Before the pilot cohort begins, we will be running a series of activities open t
     <div class="container">
         <h2 class="section-title is-size-3">Learn more!</h2>
         <p>Check the recording of the informational webinar to learn more about our new training.</p>
-        <figure class="image is-16by9">
-            <iframe class="has-ratio" src="https://www.youtube.com/embed/h-SKgXlyFH0" frameborder="0" allowfullscreen></iframe>
-        </figure>
+        <div class="video-embed">
+            <figure class="image is-16by9">
+                <iframe class="has-ratio" src="https://www.youtube.com/embed/h-SKgXlyFH0" frameborder="0" allowfullscreen></iframe>
+            </figure>
+        </div>
     </div>
 </section>
 
@@ -107,6 +114,12 @@ Before the pilot cohort begins, we will be running a series of activities open t
                 <p>Cohort calls run from October 21 to December 3. <br>Mentoring runs from January 11 to February 5. <br>The week of February 8-12 is the programme's graduation.</p>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="section" style="background-color: {{ page.about_bg_color }};">
+    <div class="container">
+        {% include _includes/related-posts.html posts=page.related_posts title="Related posts" %}
     </div>
 </section>
 
