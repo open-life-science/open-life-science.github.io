@@ -358,6 +358,71 @@ img {
   }
 }
 
+// Turns the .post card grid into a horizontal, snap-scrolling carousel with
+// prev/next arrows. Reusable anywhere a bounded-height "related posts" strip
+// is needed instead of a grid that grows indefinitely.
+.related-posts-carousel {
+  .carousel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .carousel-nav {
+    display: flex;
+    gap: 0.5em;
+
+    button {
+      background: $dark-green;
+      color: $white;
+      border: none;
+      border-radius: 50%;
+      width: 2.5em;
+      height: 2.5em;
+      cursor: pointer;
+      font-size: 1rem;
+
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+  }
+
+  .post {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 2em;
+    padding: 1em 0;
+
+    @include tablet() {
+      display: flex;
+      grid-template-columns: unset;
+    }
+
+    .card {
+      flex: 0 0 400px;
+      scroll-snap-align: start;
+      width: auto;
+      height: auto;
+    }
+
+    .image {
+      height: 180px;
+    }
+
+    .card-content .content .title {
+      height: auto;
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+    }
+  }
+}
+
 .calendar {
   border: 0;
   width: 100%;
@@ -666,6 +731,11 @@ code {
 
   .button.is-white {
     padding: 1rem;
+  }
+
+  .video-embed {
+    max-width: 700px;
+    margin: 0 auto;
   }
 }
 
