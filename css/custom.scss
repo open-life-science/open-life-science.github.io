@@ -743,6 +743,64 @@ code {
   max-width:600px
 }
 
+// align-items: flex-start guarantees all figures start at the same top
+// edge regardless of caption length, sidestepping stretch/baseline quirks.
+.three-column-gallery {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+// Selector repeats the class to beat Bulma's ".content figure:not(:first-child)"
+// (which adds margin-top: 2em to every figure but the first) without !important.
+.three-column-gallery.three-column-gallery figure {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+// Same specificity trick, needed to beat Bulma's ".content figure img"
+// (display: inline-block), which would otherwise subject the image to
+// text-baseline alignment instead of sitting as a predictable block.
+.three-column-gallery.three-column-gallery img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top; // crops from the bottom so heads stay visible
+}
+
+.three-column-gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+.two-column-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.two-column-gallery img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+// Stack both galleries into a single column on narrow viewports.
+@media (max-width: 768px) {
+  .two-column-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .three-column-gallery {
+    flex-direction: column;
+  }
+}
+
 // Add space in the "Show X entries" dropdown of Projects Table
 .dataTables_length select.custom-select {
   padding-right: 1.75rem !important;
