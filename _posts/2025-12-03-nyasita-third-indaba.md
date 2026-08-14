@@ -11,59 +11,31 @@ This year marked my third Deep Learning Indaba. When I sent in my application to
 
 The [Deep Learning Indaba](https://deeplearningindaba.com/) (DLI) (or simply the Indaba for me) is the annual meeting of the African machine learning and AI community. Since its start in 2017, the [mission](https://deeplearningindaba.com/about/our-mission/) has been to strengthen African AI and ensure Africans are not just consumers but owners and shapers of the field’s advances. This year’s theme *Urunana*: Hand in Hand for AI in Africa, perfectly captured the spirit of solidarity and collaboration that defines the Indaba.
 
-![hundreds of people assembled together outdoors]({% link images/2025-09-03-indaba-everyone.jpg %})
-
-*(An image of delegates at the Deep Learning Indaba 2025 at the University of Rwanda in Kigali, Rwanda. PC: [The Deep Learning Indaba](https://www.linkedin.com/company/deep-learning-indaba/posts/?feedView=images))*
+<figure style="width: 60%; margin: 2em auto; text-align: center;">
+  <img src="{% link images/2025-09-03-indaba-everyone.jpg %}" style="width: 100%;" alt="hundreds of people assembled together outdoors">
+  <figcaption><em>An image of delegates at the Deep Learning Indaba 2025 at the University of Rwanda in Kigali, Rwanda. PC: <a href="https://www.linkedin.com/company/deep-learning-indaba/posts/?feedView=images">The Deep Learning Indaba</a></em></figcaption>
+</figure>
 
 There are usually three things I look forward to at the Indaba… wait, no, four:
 
 1. The people. When I interviewed [**Siobhan Mackenzie Hall**](https://we-are-ols.org/people.html#smhall97) (an OLS mentor and one of the OGs of the Indaba) back in 2023 for my podcast *The* *Science in Real Life*, she told me: *“Look forward to the people.”* She was right. The Indaba community is warm, curious, and adventurous. Exactly my kind of people. This year, I reconnected with Siobhan, and I finally met [**Ahmed Unshur**](https://www.linkedin.com/in/ahmedunshur/) and [**Tajuddeen Gwadabe**](https://we-are-ols.org/people.html#tajuddeen1) in person. I’d seen their names in OLS co-workings and other meetings, but we hadn’t crossed paths face-to-face until now. It was refreshing to chat about our work and share highlights from the Indaba. They’re doing amazing things, by the way!
 
-<style>
-.three-column-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.three-column-gallery figure {
-  margin: 0;
-  text-align: center;
-}
-
-.three-column-gallery img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-.three-column-gallery figcaption {
-  margin-top: 0.5rem;
-  font-size: 0.9em;
-}
-
-@media (max-width: 768px) {
-  .three-column-gallery {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-
 <div class="three-column-gallery">
   <figure>
-    <img src="{% link images/2025-09-03-indaba-taj-nyasita.jpg %}" alt="Nyasita and Tajuddeen Gwadabe">
+    <img src="{% link images/2025-09-03-indaba-taj-nyasita.jpg %}" alt="Nyasita and Tajuddeen Gwadabe"
+    style="height: 350px;">
     <figcaption>Nyasita and Tajuddeen Gwadabe</figcaption>
   </figure>
 
   <figure>
-    <img src="{% link images/2025-09-03-indaba-siobhan-nyasita.jpg %}" alt="Nyasita and Siobhan Mackenzie Hall">
+    <img src="{% link images/2025-09-03-indaba-siobhan-nyasita.jpg %}" alt="Nyasita and Siobhan Mackenzie Hall"
+    style="height: 350px;">
     <figcaption>Nyasita and Siobhan Mackenzie Hall</figcaption>
   </figure>
 
   <figure>
-    <img src="{% link images/2025-09-03-indaba-ahmed-nyasita.jpg %}" alt="Nyasita and Ahmed Unshur">
+    <img src="{% link images/2025-09-03-indaba-ahmed-nyasita.jpg %}" alt="Nyasita and Ahmed Unshur"
+    style="height: 350px;">
     <figcaption>Nyasita and Ahmed Unshur</figcaption>
   </figure>
 </div>
@@ -75,14 +47,14 @@ There are usually three things I look forward to at the Indaba… wait, no, four
 
    * Exploring the World of Generative AI – We used Stable Diffusion to remix sketches and photos, played “AI or Real?” guessing games, and discussed ethical tensions around bias, deepfakes, environmental cost, ownership, and global equity. AI has become so creative and accurate that it’s hard for us to tell AI-generated images from actual images. Like, look at these two below, are you able to tell which one is real and which one is AI? 
 
-<div style="display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; margin:1.5rem 0;">
+<div class="two-column-gallery">
   <img src="{% link images/2025-09-03-indaba-pizza.webp %}"
        alt="AI-generated pizza"
-       style="width:100%; height:300px; object-fit:cover; border-radius:6px;">
+       style="height: 400px;">
 
   <img src="{% link images/2025-09-03-indaba-mountains.webp %}"
        alt="Real mountain landscape"
-       style="width:100%; height:300px; object-fit:cover; border-radius:6px;">
+       style="height: 400px;">
 </div>
 
 
@@ -95,7 +67,7 @@ There are usually three things I look forward to at the Indaba… wait, no, four
 <figure style="margin:2rem auto; max-width:700px; text-align:center;">
   <img src="{% link images/2025-09-03-indaba-dinner.jpg %}"
        alt="DLI delegates at the culture dinner"
-       style="width:100%; height:auto; border-radius:6px;">
+       style="width:100%; height:auto;">
   <figcaption style="margin-top:0.75rem; font-style:italic;">
     DLI delegates at the culture dinner at the University of Rwanda in Kigali.
     PC: <a href="https://www.linkedin.com/company/deep-learning-indaba/posts/?feedView=images">The Deep Learning Indaba</a>.
