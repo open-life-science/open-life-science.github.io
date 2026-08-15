@@ -12,7 +12,7 @@ contributions:
   - iramosp
   - rivaquiroga
   funding:
-  - eLife
+  - CZI
 
 date_start: 2026-08-05
 time_start: "14:00:00"
