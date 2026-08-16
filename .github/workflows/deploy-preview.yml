@@ -79,6 +79,13 @@ jobs:
             day="${basename:8:2}"
             slug="${basename:11}"
             page_url="${PREVIEW_URL}/posts/${year}/${month}/${day}/${slug}/"
+          elif [[ "$file" == _events/* ]]; then
+            basename=$(basename "$file" .md)
+            year="${basename:0:4}"
+            month="${basename:5:2}"
+            day="${basename:8:2}"
+            slug="${basename:11}"
+            page_url="${PREVIEW_URL}/events/${year}/${month}/${day}/${slug}/"
           else
             relative=$(echo "$file" | sed 's/index\.md$//' | sed 's/\.md$/.html/')
             relative="${relative#/}"
