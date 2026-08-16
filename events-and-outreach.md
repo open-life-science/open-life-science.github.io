@@ -34,7 +34,7 @@ Past and upcoming events either organised by OLS or where OLS presented.
       <td> {{ event.date_start | date: date_format }} {% if event.date_end %} - {{ event.date_end | date: date_format }}{% endif %} </td>
       <td>{{ event.type | capitalize }}</td>
       <td>
-        <a class="eventtable-title" href="{% if event.external %}{{ event.external }}{% else %}{{ event.url }}{% endif %}">{{ event.title }}</a>
+        <a class="eventtable-title" href="{% if event.external %}{{ event.external }}{% else %}{{ event.url | relative_url }}{% endif %}">{{ event.title }}</a>
         <br>
         <span class="eventtable-description">{{ event.description }}</span>
       </td>

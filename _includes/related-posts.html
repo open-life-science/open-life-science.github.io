@@ -42,7 +42,7 @@
             <div class="card-content">
                 <div class="content">
                     <div class="title">
-                        <a href="{{ post.url }}">
+                        <a href="{{ post.url | relative_url }}">
                         <p>{{ post.title | escape }}</p>
                         </a>
                     </div>
