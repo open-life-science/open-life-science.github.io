@@ -20,7 +20,7 @@ photos:
         <div class="column is-one-third">
           <div class="card">
             <div class="card-content">
-              <h2 class="title is-4"><a href="{{ service.url }}">{{ service.title }}</a></h2>
+              <h2 class="title is-4"><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h2>
               <p class="content">{{ service.excerpt }}</p>
             </div>
           </div>
