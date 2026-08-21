@@ -75,7 +75,9 @@ related_posts:
 Before the pilot cohort begins, we will be running a series of activities open to the OLS community and beyond:
 
 - ~~**June 30** (14:00 UTC): Participate in a **webinar** to learn more about the Seeds to Systems Training.~~ Check the recording below!
-- **August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).
+- ~~**August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).~~
+- **August 31** (16:00 UTC): **Informational webinar**. Join us to learn about the cohort content, walk through the application process, and get your questions answered in our Q&A. 
+[Registration.](https://us02web.zoom.us/meeting/register/r_NAXBEOTKyr10xJteDlnw)
 - **September 1-18**: **Apply** to the pilot cohort.
 - **Pilot cohort** (October 2026 - February 2027):
     - **late October - early December**: Weekly live **cohort calls**.
