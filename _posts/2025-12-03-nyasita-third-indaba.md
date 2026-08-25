@@ -11,41 +11,68 @@ This year marked my third Deep Learning Indaba. When I sent in my application to
 
 The [Deep Learning Indaba](https://deeplearningindaba.com/) (DLI) (or simply the Indaba for me) is the annual meeting of the African machine learning and AI community. Since its start in 2017, the [mission](https://deeplearningindaba.com/about/our-mission/) has been to strengthen African AI and ensure Africans are not just consumers but owners and shapers of the field’s advances. This year’s theme *Urunana*: Hand in Hand for AI in Africa, perfectly captured the spirit of solidarity and collaboration that defines the Indaba.
 
-![hundreds of people assembled together outdoors]({% link images/2025-09-03-indaba-everyone.jpg %})
-
-*(An image of delegates at the Deep Learning Indaba 2025 at the University of Rwanda in Kigali, Rwanda. PC: [The Deep Learning Indaba](https://www.linkedin.com/company/deep-learning-indaba/posts/?feedView=images))*
+<figure style="width: 60%; margin: 2em auto; text-align: center;">
+  <img src="{% link images/2025-09-03-indaba-everyone.jpg %}" style="width: 100%;" alt="hundreds of people assembled together outdoors">
+  <figcaption><em>An image of delegates at the Deep Learning Indaba 2025 at the University of Rwanda in Kigali, Rwanda. PC: <a href="https://www.linkedin.com/company/deep-learning-indaba/posts/?feedView=images">The Deep Learning Indaba</a></em></figcaption>
+</figure>
 
 There are usually three things I look forward to at the Indaba… wait, no, four:
 
-1. The people. When I interviewed [**Siobhan Mackenzie Hall**](https://we-are-ols.org/people.html#smhall97) (an OLS mentor and one of the OGs of the Indaba) back in 2023 for my podcast *The* *Science in Real Life*, she told me: *“Look forward to the people.”* She was right. The Indaba community is warm, curious, and adventurous. Exactly my kind of people. This year, I reconnected with Siobhan, and I finally met [**Ahmed Unshur**](https://www.linkedin.com/in/ahmedunshur/) and [**Tajuddeen Gwadabe**](https://we-are-ols.org/people.html#tajuddeen1) in person. I’d seen their names in OLS co-workings and other meetings, but we hadn’t crossed paths face-to-face until now. It was refreshing to chat about our work and share highlights from the Indaba. They’re doing amazing things, by the way!
+**1. The people.** When I interviewed [**Siobhan Mackenzie Hall**](https://we-are-ols.org/people.html#smhall97) (an OLS mentor and one of the OGs of the Indaba) back in 2023 for my podcast *The* *Science in Real Life*, she told me: *“Look forward to the people.”* She was right. The Indaba community is warm, curious, and adventurous. Exactly my kind of people. This year, I reconnected with Siobhan, and I finally met [**Ahmed Unshur**](https://www.linkedin.com/in/ahmedunshur/) and [**Tajuddeen Gwadabe**](https://we-are-ols.org/people.html#tajuddeen1) in person. I’d seen their names in OLS co-workings and other meetings, but we hadn’t crossed paths face-to-face until now. It was refreshing to chat about our work and share highlights from the Indaba. They’re doing amazing things, by the way!
 
-![Nyasita and Tajuddeen Gwadabe at the Deep Learning Indaba 2025 in Kigali]({% link images/2025-09-03-indaba-taj-nyasita.jpg%}) 
-Nyasita and Tajuddeen Gwadabe at the Deep Learning Indaba 2025 in Kigali
- ![Nyasita and Siobhan Mackenzie Hall at the Deep Learning Indaba 2025 in Kigali]({% link images/2025-09-03-indaba-siobhan-nyasita.jpg %}) 
- Nyasita and Siobhan Mackenzie Hall at the Deep Learning Indaba 2025 in Kigali
-  ![Nyasita and Ahmed Unshur at the Deep Learning Indaba 2025 in Kigali]({% link images/2025-09-03-indaba-ahmed-nyasita.jpg %}) 
-  Nyasita and Ahmed Unshur at the Deep Learning Indaba 2025 in Kigali
+<div class="three-column-gallery">
+  <figure>
+    <img src="{% link images/2025-09-03-indaba-taj-nyasita.jpg %}" alt="Nyasita and Tajuddeen Gwadabe"
+    style="height: 350px;">
+    <figcaption>Nyasita and Tajuddeen Gwadabe</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{% link images/2025-09-03-indaba-siobhan-nyasita.jpg %}" alt="Nyasita and Siobhan Mackenzie Hall"
+    style="height: 350px;">
+    <figcaption>Nyasita and Siobhan Mackenzie Hall</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{% link images/2025-09-03-indaba-ahmed-nyasita.jpg %}" alt="Nyasita and Ahmed Unshur"
+    style="height: 350px;">
+    <figcaption>Nyasita and Ahmed Unshur</figcaption>
+  </figure>
+</div>
 
 
-2. The tutorials. My background isn’t in AI or coding per se, so I find the tutorials incredibly valuable. They’re like friendly lecture-style intros that ease you into the technical depth. My favorite this year was from Luis Serrano, who explained something that completely reframed how I think about ChatGPT. He said, *“The thing that drives me crazy about ChatGPT is that it generates one word at a time.”* At first, I was baffled, because as a user, it feels like it writes whole paragraphs in seconds. But from what I understood, what he meant is that ChatGPT is a predictive model: at every step, it selects the most likely *next word* based on everything it has generated before. What makes it powerful (and better than phone autopredict) is its ability to look far back into the context, sometimes thousands of words, so the sentences come out coherent, not just like WhatsApp or message predict suggestions strung together. That clicked for me.
+**2. The tutorials.** My background isn’t in AI or coding per se, so I find the tutorials incredibly valuable. They’re like friendly lecture-style intros that ease you into the technical depth. My favorite this year was from Luis Serrano, who explained something that completely reframed how I think about ChatGPT. He said, *“The thing that drives me crazy about ChatGPT is that it generates one word at a time.”* At first, I was baffled, because as a user, it feels like it writes whole paragraphs in seconds. But from what I understood, what he meant is that ChatGPT is a predictive model: at every step, it selects the most likely *next word* based on everything it has generated before. What makes it powerful (and better than phone autopredict) is its ability to look far back into the context, sometimes thousands of words, so the sentences come out coherent, not just like WhatsApp or message predict suggestions strung together. That clicked for me.
 
-3. The practicals. The Indaba wouldn’t be the Indaba without the hands-on sessions in Colab notebooks. This year, I stuck to the LLM track and loved the “behind-the-scenes” look at generative AI. Two stood out:
+**3. The practicals.** The Indaba wouldn’t be the Indaba without the hands-on sessions in Colab notebooks. This year, I stuck to the LLM track and loved the “behind-the-scenes” look at generative AI. Two stood out:
 
    * Exploring the World of Generative AI – We used Stable Diffusion to remix sketches and photos, played “AI or Real?” guessing games, and discussed ethical tensions around bias, deepfakes, environmental cost, ownership, and global equity. AI has become so creative and accurate that it’s hard for us to tell AI-generated images from actual images. Like, look at these two below, are you able to tell which one is real and which one is AI? 
 
-![pizza]({% link images/2025-09-03-indaba-pizza.webp %})
-![mountains]({% link images/2025-09-03-indaba-mountains.webp %})
+<div class="two-column-gallery">
+  <img src="{% link images/2025-09-03-indaba-pizza.webp %}"
+       alt="AI-generated pizza"
+       style="height: 400px;">
+
+  <img src="{% link images/2025-09-03-indaba-mountains.webp %}"
+       alt="Real mountain landscape"
+       style="height: 400px;">
+</div>
 
 
 (The pizza is AI, and the mountains are real. I know, shocked me too!)
 
 * Large Language Models under the Hood – We unpacked Transformers, attention, tokenization, and embeddings. Beyond using LLMs like ChatGPT or Gemini, we even trained a small Shakespeare-inspired model ourselves. These are things I didn’t learn in school, and thanks to the Indaba, I am learning them. 
 
-4. The culture dinner. Nothing screams *ubuntu or umoja* more than this night of African dress, music, food, and celebration. Even after three Indabas, I’m still as excited as I was at my first culture dinner. But unlike that first indaba, I tried to represent Kenya as much as I could, adorning Maasai accessories with my somewhat shein-looking outfit. *(for image reference, see the picture above with Tajuddeen)*
+**4. The culture dinner.** Nothing screams *ubuntu or umoja* more than this night of African dress, music, food, and celebration. Even after three Indabas, I’m still as excited as I was at my first culture dinner. But unlike that first indaba, I tried to represent Kenya as much as I could, adorning Maasai accessories with my somewhat shein-looking outfit. *(for image reference, see the picture above with Tajuddeen)*
 
-*![Image of DLI delegates at the DLI culture dinner at the University of Rwanda in Kigali]({% link /images/2025-09-03-indaba-dinner.jpg %})*
-
-*(Image of DLI delegates at the DLI culture dinner at the University of Rwanda in Kigali. PC: [The Deep Learning Indaba](https://www.linkedin.com/company/deep-learning-indaba/posts/?feedView=images))*
+<figure style="margin:2rem auto; max-width:700px; text-align:center;">
+  <img src="{% link images/2025-09-03-indaba-dinner.jpg %}"
+       alt="DLI delegates at the culture dinner"
+       style="width:100%; height:auto;">
+  <figcaption style="margin-top:0.75rem; font-style:italic;">
+    DLI delegates at the culture dinner at the University of Rwanda in Kigali.
+    PC: <a href="https://www.linkedin.com/company/deep-learning-indaba/posts/?feedView=images">The Deep Learning Indaba</a>.
+  </figcaption>
+</figure>
 
 Beyond the Indaba, Kigali itself was an adventure. When I arrived, I couldn’t help but notice the sheer number of *motos* (motorbike taxis). We have plenty in Nairobi, but Kigali takes it to another level. Here, *motos* are the city’s main mode of transport, weaving through the hills just as fast as any car could. People also walk, but if you decide to walk, be ready: every stroll feels like a mini hike because of Kigali’s hilly landscape (my legs can confirm this). Kigali is indeed clean. If I did [the white-socks test](https://www.tiktok.com/@jimbo.h/video/7480630850036567298), I would easily pass here! (Yes, the double entendre is intended.) I also quickly learned that while Rwanda is multilingual (English, French, Swahili, and Kinyarwanda are spoken there), most people prefer Kinyarwanda for their day-to-day communication, and thanks to this, I have added four new words to my vocabulary: *urakoze* (thanks), *muraho* (hello), *murakaza neza* (welcome), and *urunana* (hand-in-hand). 
 

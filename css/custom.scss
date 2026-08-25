@@ -358,6 +358,71 @@ img {
   }
 }
 
+// Turns the .post card grid into a horizontal, snap-scrolling carousel with
+// prev/next arrows. Reusable anywhere a bounded-height "related posts" strip
+// is needed instead of a grid that grows indefinitely.
+.related-posts-carousel {
+  .carousel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .carousel-nav {
+    display: flex;
+    gap: 0.5em;
+
+    button {
+      background: $dark-green;
+      color: $white;
+      border: none;
+      border-radius: 50%;
+      width: 2.5em;
+      height: 2.5em;
+      cursor: pointer;
+      font-size: 1rem;
+
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+  }
+
+  .post {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 2em;
+    padding: 1em 0;
+
+    @include tablet() {
+      display: flex;
+      grid-template-columns: unset;
+    }
+
+    .card {
+      flex: 0 0 400px;
+      scroll-snap-align: start;
+      width: auto;
+      height: auto;
+    }
+
+    .image {
+      height: 180px;
+    }
+
+    .card-content .content .title {
+      height: auto;
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+    }
+  }
+}
+
 .calendar {
   border: 0;
   width: 100%;
@@ -656,8 +721,84 @@ code {
   }
 }
 
+// Styling for Seeds to Systems landing page
+.seeds-to-systems {
+  .faq-item {
+    border-left: 4px solid #265F3F;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .button.is-white {
+    padding: 1rem;
+  }
+
+  .video-embed {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
 .article-post img{
   max-width:600px
+}
+
+// align-items: flex-start guarantees all figures start at the same top
+// edge regardless of caption length, sidestepping stretch/baseline quirks.
+.three-column-gallery {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+// Selector repeats the class to beat Bulma's ".content figure:not(:first-child)"
+// (which adds margin-top: 2em to every figure but the first) without !important.
+.three-column-gallery.three-column-gallery figure {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+// Same specificity trick, needed to beat Bulma's ".content figure img"
+// (display: inline-block), which would otherwise subject the image to
+// text-baseline alignment instead of sitting as a predictable block.
+.three-column-gallery.three-column-gallery img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top; // crops from the bottom so heads stay visible
+}
+
+.three-column-gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+.two-column-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.two-column-gallery img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+// Stack both galleries into a single column on narrow viewports.
+@media (max-width: 768px) {
+  .two-column-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .three-column-gallery {
+    flex-direction: column;
+  }
 }
 
 // Add space in the "Show X entries" dropdown of Projects Table

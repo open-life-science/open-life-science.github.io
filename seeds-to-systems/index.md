@@ -10,6 +10,11 @@ photos:
 about_bg_color: "#EBF5EC"
 overview_bg_color: "#FFFFFF"
 cta_bg_color: "#265F3F"
+related_posts:
+  - _posts/2026-04-20-from-hidden-curriculum-to-grant-readiness.md
+  - _posts/2026-05-15-leverage-points.md
+  - _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md
+  - _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md
 ---
 
 <div class="seeds-to-systems">
@@ -18,7 +23,7 @@ cta_bg_color: "#265F3F"
         <div class="columns">
             <div class="column is-two-thirds">
                 <h2 class="section-title is-size-3">Coming soon</h2>
-                <p>We are thrilled to announce that the <strong>pilot cohort of Seeds to Systems</strong> will run from <strong>September to November 2026</strong>.</p>
+                <p>We are thrilled to announce that the <strong>pilot cohort of Seeds to Systems</strong> will run from <strong>October 2026 to February 2027</strong>.</p>
                 <p><strong>Seeds to Systems</strong> is a cohort-based training and mentoring programme designed <strong>for individuals and teams leading open initiatives, research communities of practice, or volunteer-run research initiatives</strong>. It builds directly on OLS's experience running <a href="{% link openseeds/index.md %}">Open Seeds</a> and extends that support to projects at a more advanced stage of development.</p>
                 <p>The curriculum centres on <strong>organisational infrastructure for project and community sustainability</strong>: the practical knowledge, skills, and networks needed to lead a project over time, navigate the research funding landscape, and build the conditions that enable long-term impact.</p>
                 <p>You can read more in our <a href="{% link _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md %}">announcement post</a>.</p>
@@ -69,10 +74,14 @@ cta_bg_color: "#265F3F"
 
 Before the pilot cohort begins, we will be running a series of activities open to the OLS community and beyond:
 
-- **June 30** (14:00 UTC): Participate in a **webinar** to learn more about the Seeds to Systems Training.
-- **August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more and register here]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).
-- **August**: **Apply** to the pilot cohort.
-- **September–November**: **Pilot cohort**.
+- ~~**June 30** (14:00 UTC): Participate in a **webinar** to learn more about the Seeds to Systems Training.~~ Check the recording below!
+- ~~**August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).~~
+- **August 31** (16:00 UTC): **Informational webinar**. Join us to learn about the cohort content, walk through the application process, and get your questions answered in our Q&A. 
+[Registration.](https://us02web.zoom.us/meeting/register/r_NAXBEOTKyr10xJteDlnw)
+- **September 1-18**: **Apply** to the pilot cohort.
+- **Pilot cohort** (October 2026 - February 2027):
+    - **late October - early December**: Weekly live **cohort calls**.
+    - **January - early February**: **Mentoring**.
 
 </div>
     </div>
@@ -82,9 +91,11 @@ Before the pilot cohort begins, we will be running a series of activities open t
     <div class="container">
         <h2 class="section-title is-size-3">Learn more!</h2>
         <p>Check the recording of the informational webinar to learn more about our new training.</p>
-        <figure class="image is-16by9">
-            <iframe class="has-ratio" src="https://www.youtube.com/embed/h-SKgXlyFH0" frameborder="0" allowfullscreen></iframe>
-        </figure>
+        <div class="video-embed">
+            <figure class="image is-16by9">
+                <iframe class="has-ratio" src="https://www.youtube.com/embed/h-SKgXlyFH0" frameborder="0" allowfullscreen></iframe>
+            </figure>
+        </div>
     </div>
 </section>
 
@@ -92,11 +103,25 @@ Before the pilot cohort begins, we will be running a series of activities open t
     <div class="container">
         <h2 class="section-title is-size-3">FAQ</h2>
         <div class="content">
-            <div style="border-left: 4px solid #265F3F; padding-left: 1rem; margin-bottom: 1.5rem;">
+            <div class="faq-item">
                 <p><strong>Is there a cost to participate?</strong></p>
                 <p>No, participation in the pilot cohort is free of charge.</p>
             </div>
+            <div class="faq-item">
+                <p><strong>What is the time commitment?</strong></p>
+                <p>During the first phase (late October - early December), there are two 90-minute cohort calls per week, on Tuesdays and Thursdays at 15:00 UTC, plus an estimated 60-120 minutes of async work per week. During the mentoring period, there is one 1-hour meeting per week, at a time agreed with your mentor, plus an estimated 60-120 minutes of async work.</p>
+            </div>
+            <div class="faq-item">
+                <p><strong>What are the exact dates of the programme?</strong></p>
+                <p>Cohort calls run from October 21 to December 3. <br>Mentoring runs from January 11 to February 5. <br>The week of February 8-12 is the programme's graduation.</p>
+            </div>
         </div>
+    </div>
+</section>
+
+<section class="section" style="background-color: {{ page.about_bg_color }};">
+    <div class="container">
+        {% include _includes/related-posts.html posts=page.related_posts title="Related posts" %}
     </div>
 </section>
 
@@ -105,7 +130,7 @@ Before the pilot cohort begins, we will be running a series of activities open t
         <h2 class="section-title is-size-3 has-text-white">Stay tuned</h2>
         <p class="has-text-white">Subscribe to our newsletter to stay updated on Seeds to Systems Training news and upcoming opportunities.</p>
         <div class="buttons is-right">
-            <a href="{{ site.newsletter }}" class="button is-white" style="padding: 1rem;">Subscribe to our newsletter</a>
+            <a href="{{ site.newsletter }}" class="button is-white">Subscribe to our newsletter</a>
         </div>
     </div>
 </section>

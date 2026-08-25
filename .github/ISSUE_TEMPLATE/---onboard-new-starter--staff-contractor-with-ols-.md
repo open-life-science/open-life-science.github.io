@@ -2,7 +2,7 @@
 name: "-- Onboard new starter (staff/contractor with OLS)"
 about: Child issue. Opened by the new starter's manager
 title: 'Add new starter to the website '
-labels: blog and comms
+labels: ''
 assignees: ''
 
 ---
