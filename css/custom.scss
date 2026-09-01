@@ -733,6 +733,11 @@ code {
     padding: 1rem;
   }
 
+  .button.is-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .video-embed {
     max-width: 700px;
     margin: 0 auto;
