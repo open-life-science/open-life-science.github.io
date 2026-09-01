@@ -27,7 +27,7 @@ related_posts:
                 <p><strong>Seeds to Systems</strong> is a cohort-based training and mentoring programme designed <strong>for individuals and teams leading open initiatives, research communities of practice, or volunteer-run research initiatives</strong>. It builds directly on OLS's experience running <a href="{% link openseeds/index.md %}">Open Seeds</a> and extends that support to projects at a more advanced stage of development.</p>
                 <p>The curriculum centres on <strong>organisational infrastructure for project and community sustainability</strong>: the practical knowledge, skills, and networks needed to lead a project over time, navigate the research funding landscape, and build the conditions that enable long-term impact.</p>
                 <p>You can read more in our <a href="{% link _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md %}">announcement post</a>.</p>
-                <a href="LINK-TO-FORM" class="button is-link is-medium">Apply now</a>
+                <a href="" class="button is-link is-medium">Apply now</a>
             </div>
             <div class="column">
                 <div class="card">
@@ -78,7 +78,7 @@ related_posts:
 - **August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).
 - **August 31** (16:00 UTC): **Informational webinar**. Join us to learn about the cohort content, walk through the application process, and get your questions answered in our Q&A. 
 **Check the recording below!**
-- **September 1-18**: [**Apply**](LINK-TO-FORM) to the pilot cohort.
+- **September 1-18**: [**Apply**]() to the pilot cohort.
 - **Pilot cohort** (October 2026 - February 2027):
     - **October 21 - November 26**: Live cohort calls (2 per week).
     - **January - early February**: Mentoring sessions (1 per week).
@@ -127,7 +127,7 @@ related_posts:
                 <p><strong>What is the time commitment?</strong></p>
                 <p>During the first phase (mid October - late November), there are two 90-minute cohort calls per week, on Tuesdays and Thursdays at 15:00 UTC, plus an estimated 1-2 hours of async work per week. During the mentoring period, there is one 1-hour meeting per week, at a time agreed with your mentor, plus an estimated 1-2 hours of async work.</p>
             </div>
-            <a href="LINK-TO-FORM" class="button is-link is-medium">Apply now</a>
+            <a href="" class="button is-link is-medium">Apply now</a>
         </div>
     </div>
 </section>
