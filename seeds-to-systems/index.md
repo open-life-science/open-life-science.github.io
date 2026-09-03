@@ -117,7 +117,8 @@ related_posts:
             </div>
             <div class="faq-item">
                 <p><strong>Can I apply individually, or do I need to apply as a team?</strong></p>
-                <p>We expect participants to apply as teams, reflecting the collaborative nature of sustaining an open initiative over time. It's best suited to teams ready to think strategically about what it takes to keep their work going over the long term.</p>
+                <p>We encourage team applications, reflecting the collaborative nature of sustaining an open initiative. You may apply individually, but if we receive more applications than we can support, we might need to prioritize team applications. Participation and asynchronous work can be shared across team members; not everyone needs to attend every session, but we ask that your team is represented in at least 80% of cohort sessions. 
+</p>
             </div>
             <div class="faq-item">
                 <p><strong>Is there a cost to participate?</strong></p>
