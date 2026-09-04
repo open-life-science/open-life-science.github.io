@@ -104,28 +104,29 @@ related_posts:
         <h2 class="section-title is-size-3">FAQ</h2>
         <div class="content">
             <div class="faq-item">
-                <p><strong>Who is this cohort for?</strong></p>
+                <h3>Who is this cohort for?</h3>
                 <p>The cohort is intended for people who already have hands-on experience sustaining an open (research) initiative, whether as founders, core team members, or others involved in decisions about its long-term direction.</p>
             </div>
             <div class="faq-item">
-                <p><strong>What topics will the cohort cover?</strong></p>
+                <h3>What topics will the cohort cover?</h3>
                 <p>The cohort is organized around two strands:</p>
                 <ul>
                     <li><strong>Navigating the research funding landscape:</strong> understanding grant calls and proposals, reviewing proposals, developing budgets, and writing grant applications.</li>
                     <li><strong>Skills for project and community sustainability:</strong> collaboration, decision-making, governance, impact, outreach, and supporting contributors.</li>
                 </ul>
+                <img class="curriculum-diagram" src="{% link images/seeds-to-systems-curriculum.svg %}" alt="Seeds to Systems pilot curriculum outline. Two interleaved tracks: Skills for project and community sustainability (Collaboration, Decision making, Impact and Outreach, Supporting contributors) and Navigating the research funding landscape (Reading grant calls, Reviewing proposals, Budgets, Writing grant proposals) — framed by a welcome and wrap-up session.">
             </div>
             <div class="faq-item">
-                <p><strong>Can I apply individually, or do I need to apply as a team?</strong></p>
+                <h3>Can I apply individually, or do I need to apply as a team?</h3>
                 <p>We encourage team applications, reflecting the collaborative nature of sustaining an open initiative. You may apply individually, but if we receive more applications than we can support, we might need to prioritize team applications. Participation and asynchronous work can be shared across team members; not everyone needs to attend every session, but we ask that your team is represented in at least 80% of cohort sessions. 
 </p>
             </div>
             <div class="faq-item">
-                <p><strong>Is there a cost to participate?</strong></p>
+                <h3>Is there a cost to participate?</h3>
                 <p>No, participation in the pilot cohort is free of charge.</p>
             </div>
             <div class="faq-item">
-                <p><strong>What is the time commitment?</strong></p>
+                <h3>What is the time commitment?</h3>
                 <p>During the first phase (mid October - late November), there are two 90-minute cohort calls per week, on Tuesdays and Thursdays at 15:00 UTC, plus an estimated 1-2 hours of async work per week. During the mentoring period, there is one 1-hour meeting per week, at a time agreed with your mentor, plus an estimated 1-2 hours of async work.</p>
             </div>
             <a href="https://forms.gle/bNNw5AD9gD36az2P6" class="button is-link is-medium">Apply now</a>
