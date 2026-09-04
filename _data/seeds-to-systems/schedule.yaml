@@ -1,0 +1,182 @@
+# Schedule for Seeds to Systems Cohort
+---
+timeline:
+- date: 2026-09-01
+  description: Call for Application opens
+  details: See the [guidelines and
+    templates](https://github.com/open-life-science/application-forms)
+- date: 2026-08-31
+  description: Application webinar
+  type:
+  - Talk
+  - Q&A
+  notes:
+  recording: https://youtu.be/EKXQZ42WWvk
+  details: Watch recordings from previous webinars on
+    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+- date: 2026-09-20
+  description: Call for applications closed
+- date:
+  description: Successful applicants announced
+weeks:
+  '01':
+    start:
+    calls:
+    - date: '2026-10-20'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Welcome
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+    - date: '2026-10-22'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Reading grant calls
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+  '02':
+    start:
+    calls:
+    - date: '2026-10-27'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Collaborations and stakeholder mapping
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+    - date: '2026-10-29'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Equity and collaboration panel
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+  '03':
+    start:
+    calls:
+    - date: '2026-11-03'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Intro to community infra and decision making
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+    - date: '2026-11-05'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Reviewing grant proposals
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+  '04':
+    start:
+    calls:
+    - date: '2026-11-10'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Funder panel and mid-cohort check-in
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+    - date: '2026-11-12'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Outreach and impact
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+  '05':
+    start:
+    calls:
+    - date: '2026-11-17'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Budgets
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+    - date: '2026-11-19'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Writing grant proposals
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+  '06':
+    start:
+    calls:
+    - date: '2026-11-24'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Recognizing contributors
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+    - date: '2026-11-26'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Wrap-up
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+  '07':
+    start:
+    calls:
+    - date: '2027-02-09'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Graduation 1
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []
+    - date: '2027-02-11'
+      time: "15:00"
+      duration: 90 min
+      notes:
+      title: Graduation 2
+      recording:
+      hosts:
+      expert:
+      syllabus:
+      talks: []

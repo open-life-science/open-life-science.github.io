@@ -80,7 +80,7 @@ related_posts:
 **Check the recording below!**
 - **September 1-20**: [**Apply**](https://forms.gle/bNNw5AD9gD36az2P6) to the pilot cohort.
 - **Pilot cohort** (October 2026 - February 2027):
-    - **October 21 - November 26**: Live cohort calls (2 per week).
+    - **October 20 - November 26**: Live cohort calls (2 per week).
     - **January - early February**: Mentoring sessions (1 per week).
     - **February 9 & 11**: Graduation.
 </div>
