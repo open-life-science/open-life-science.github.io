@@ -78,7 +78,7 @@ related_posts:
 - **August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).
 - **August 31** (16:00 UTC): **Informational webinar**. Join us to learn about the cohort content, walk through the application process, and get your questions answered in our Q&A. 
 **Check the recording below!**
-- **September 1-20**: [**Apply**](https://forms.gle/bNNw5AD9gD36az2P6) to the pilot cohort.
+- **September 1-22**: [**Apply**](https://forms.gle/bNNw5AD9gD36az2P6) to the pilot cohort.
 - **Pilot cohort** (October 2026 - February 2027):
     - **October 20 - November 26**: Live cohort calls (2 per week).
     - **January - early February**: Mentoring sessions (1 per week).
