@@ -136,3 +136,5 @@ Please go ahead and [fork the repo](https://github.com/open-life-science/fiscall
     {% include _includes/external-entities.html entity=entity type='fiscal_communities' details=details %}
 {% endfor %}
 </div>
+
+{% include _includes/related-posts.html posts=page.related_posts title="Related posts" %} 
