@@ -10,8 +10,6 @@ photos:
   url: https://unsplash.com/photos/black-and-silver-computer-keyboard-tyeKwnVSgqc
 ---
 
-# Fiscal sponsorship: Ella Kaye & rainbowR 
-
 Ella Kaye from rainbowR was an OLS Incubation Fellow from December 2025 to August 2026\. We asked Ella to tell us about her work with rainbowR and how OLS helped her support the organisation:
 
 ### Tell us about rainbowR\! 
