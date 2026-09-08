@@ -9,6 +9,11 @@ photos:
   name: Kelli McClintock
   license: CC BY-SA 4.0
   url: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
+related_posts:
+  - _posts/2026-09-07-rainbow-r-fiscal-sponsorship.md
+  - _posts/2026-03-03-spotlight-laura.md
+  - _posts/2025-06-30-seeds-to-system-strategy.md
+  - _posts/2024-07-12-RSE-AUNZ-joins-OLS.md  - 
 ---
 
 # Fiscal Sponsorship
@@ -132,3 +137,5 @@ Please go ahead and [fork the repo](https://github.com/open-life-science/fiscall
     {% include _includes/external-entities.html entity=entity type='fiscal_communities' details=details %}
 {% endfor %}
 </div>
+
+{% include _includes/related-posts.html posts=page.related_posts title="Related posts" %} 
