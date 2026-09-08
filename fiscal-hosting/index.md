@@ -10,6 +10,7 @@ photos:
   license: CC BY-SA 4.0
   url: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
 related_posts:
+  - _posts/2026-09-07-rainbow-r-fiscal-sponsorship.md
   - _posts/2026-03-03-spotlight-laura.md
   - _posts/2025-06-30-seeds-to-system-strategy.md
   - _posts/2024-07-12-RSE-AUNZ-joins-OLS.md  - 
