@@ -136,6 +136,25 @@ related_posts:
 
 <section class="section" style="background-color: {{ page.about_bg_color }};">
     <div class="container">
+        <h2 class="section-title is-size-3">Become a mentor</h2>
+        <div class="content">
+            <p>Mentors help teams put what they learn into practice, <strong>drawing on their own experience leading open initiatives to offer guidance tailored to each project</strong>.</p>
+            <p>If you'd like to express your interest in the mentor role, please register using the form below.</p>
+            <p><strong>As a mentor, you will</strong>:</p>
+            <ul>
+                <li>Attend a 1-hour <strong>onboarding meeting</strong> in mid-November.</li>
+                <li><strong>Mentor one or two teams</strong>, over four weekly sessions of 60 minutes each, between January 11 and February 5, 2027.</li>
+                <li><strong>Provide feedback</strong> to help us improve future iterations of the programme.</li>
+            </ul>
+            <p>The expected time commitment is approximately 8-10 hours per mentored team, covering the four mentoring sessions plus preparation, onboarding, and feedback.</p>
+            <p><strong>The deadline to register is October 30.</strong></p>
+            <a href="https://forms.gle/MqD4NNyPqe4CkLU4A" class="button is-link is-medium">Express your interest</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background-color: {{ page.overview_bg_color }};">
+    <div class="container">
         {% include _includes/related-posts.html posts=page.related_posts title="Related posts" %}
     </div>
 </section>
