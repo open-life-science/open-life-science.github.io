@@ -138,4 +138,8 @@ Please go ahead and [fork the repo](https://github.com/open-life-science/fiscall
 {% endfor %}
 </div>
 
-{% include _includes/related-posts.html posts=page.related_posts title="Related posts" %} 
+<section class="section" style="background-color: {{ page.about_bg_color }};">
+    <div class="container">
+        {% include _includes/related-posts.html posts=page.related_posts title="Related posts" %}
+    </div>
+</section>
