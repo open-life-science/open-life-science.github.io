@@ -27,3 +27,4 @@ dependencies:
   - tox
   - jinja2
   - pyzotero
+  - bibtexparser<2
