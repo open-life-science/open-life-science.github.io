@@ -72,12 +72,12 @@ mozilla:
     logo: /images/organizations/mozilla.jpg
     country: Global
 ssi:
-    name: Software Sustainability Institute
+    name: Institute for Research Software
     website: https://www.software.ac.uk
-    logo: https://www.software.ac.uk/sites/default/files/images/content/SSI_Big300dpi.png
+    logo: /images/organizations/inst-research-software.png
     description: |
-      The Software Sustainability Institute cultivates better, more sustainable, research software
-      to enable world-class research.
+      The Institute for Research Software (previously the Software Sustainability Institute)
+      strengthens research by advancing essential software and empowering the people behind it.
     country: United Kingdom
 tu-delft:
     name: Faculty of Applied Sciences/TNW - TU Delft
