@@ -15,7 +15,7 @@ Our open source community strives to:
   members of any race, ethnicity, culture, national origin, colour, immigration
   status, social and economic class, educational level, sex, sexual orientation,
   gender identity and expression, age, size, family status, political belief,
-  religion, and mental and physical ability.
+  religion, mental and physical ability, disability, spoken language, profession, and technical ability. We will not tolerate discrimination based on any of these protected characteristics.
 
 - **Be considerate**: Your work will be used by other people, and you in turn
   will depend on the work of others. Any decision you take will affect users and
@@ -60,21 +60,16 @@ expect them to take responsibility for it. If someone has been harmed or
 offended, it is our responsibility to listen carefully and respectfully, and do
 our best to right the wrong.
 
-Although this list cannot be exhaustive, we explicitly honor diversity in age,
-gender, gender identity or expression, culture, ethnicity, language, national
-origin, political beliefs, profession, race, religion, sexual orientation,
-socioeconomic status, and technical ability. We will not tolerate discrimination
-based on any of the protected characteristics above, including participants with
-disabilities.
-
 ### Reporting Issues
 
 If you experience or witness unacceptable behavior, or have any other concerns,
-please report it by contacting one of the Directors (Yo, Patricia) or the Community and Training Lead (Sara).
-(team@we-are-ols.org).
+please report it by contacting one of the Directors (Yo, Patricia) or the Community and Training Lead (Sara). If your report involves one of them, please reach out to either of the others directly.
 
-To report an issue involving one of the members, please email one of the members individually
-(yo@we-are-ols.org, patricia@we-are-ols.org, sara@we-are-ols.org).
+You can reach them at:
+
+- yo@we-are-ols.org
+- patricia@we-are-ols.org
+- sara@we-are-ols.org
 
 All reports will be handled with discretion. In your report please include:
 
