@@ -22,12 +22,12 @@ related_posts:
     <div class="container">
         <div class="columns">
             <div class="column is-two-thirds">
-                <h2 class="section-title is-size-3">Applications are open!</h2>
+            <h2 class="section-title is-size-3">Cohort-based training and mentoring programme</h2>
                 <p>We are thrilled to announce that the <strong>pilot cohort of Seeds to Systems</strong> will run from <strong>October 2026 to February 2027</strong>.</p>
                 <p><strong>Seeds to Systems</strong> is a cohort-based training and mentoring programme designed <strong>for individuals and teams leading open initiatives, research communities of practice, or volunteer-run research initiatives</strong>. It builds directly on OLS's experience running <a href="{% link openseeds/index.md %}">Open Seeds</a> and extends that support to projects at a more advanced stage of development.</p>
                 <p>The curriculum centres on <strong>organisational infrastructure for project and community sustainability</strong>: the practical knowledge, skills, and networks needed to lead a project over time, navigate the research funding landscape, and build the conditions that enable long-term impact.</p>
                 <p>You can read more in our <a href="{% link _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md %}">announcement post</a>.</p>
-                <a href="https://forms.gle/bNNw5AD9gD36az2P6" class="button is-link is-medium">Apply now</a>
+                <p><strong>Applications for the pilot cohort are now closed.</strong></p>
             </div>
             <div class="column">
                 <div class="card">
@@ -78,7 +78,7 @@ related_posts:
 - **August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).
 - **August 31** (16:00 UTC): **Informational webinar**. Join us to learn about the cohort content, walk through the application process, and get your questions answered in our Q&A. 
 **Check the recording below!**
-- **September 1-22**: [**Apply**](https://forms.gle/bNNw5AD9gD36az2P6) to the pilot cohort.
+- **September 1-22**: Application period
 - **Pilot cohort** (October 2026 - February 2027):
     - **October 20 - November 26**: Live cohort calls (2 per week).
     - **January - early February**: Mentoring sessions (1 per week).
@@ -129,7 +129,6 @@ related_posts:
                 <h3>What is the time commitment?</h3>
                 <p>During the first phase (mid October - late November), there are two 90-minute cohort calls per week, on Tuesdays and Thursdays at 15:00 UTC, plus an estimated 1-2 hours of async work per week. During the mentoring period, there is one 1-hour meeting per week, at a time agreed with your mentor, plus an estimated 1-2 hours of async work.</p>
             </div>
-            <a href="https://forms.gle/bNNw5AD9gD36az2P6" class="button is-link is-medium">Apply now</a>
         </div>
     </div>
 </section>
