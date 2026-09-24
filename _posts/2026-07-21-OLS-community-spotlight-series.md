@@ -30,7 +30,7 @@ Check the recordings in our public [YouTube playlist!](https://www.youtube.com/p
 > With OLS we see the big picture - Alexander Martinez Mendez
 
 
-![Image shows the YT thumbnail for one of the sessions with headshots of several speakers.]({% link images/community_spotlight_series/CSS YT thumbnail - session 4.png %})
+![Image shows the YT thumbnail for one of the sessions with headshots of several speakers.]({% link images/community_spotlight_series/CSS_YT_thumbnail-session4.jpg %})
 
 
 
