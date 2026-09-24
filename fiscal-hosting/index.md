@@ -9,6 +9,11 @@ photos:
   name: Kelli McClintock
   license: CC BY-SA 4.0
   url: https://images.unsplash.com/photo-1560328055-e938bb2ed50a
+related_posts:
+  - _posts/2026-09-07-rainbow-r-fiscal-sponsorship.md
+  - _posts/2026-03-03-spotlight-laura.md
+  - _posts/2025-06-30-seeds-to-system-strategy.md
+  - _posts/2024-07-12-RSE-AUNZ-joins-OLS.md  - 
 ---
 
 # Fiscal Sponsorship
@@ -108,12 +113,11 @@ At the moment, we are only entering into fiscal sponsorship arrangements with pe
 
 Please go ahead and [fork the repo](https://github.com/open-life-science/fiscally-sponsored-community-templates) to apply to become an FSC or a Fellow. Send us an email at fsc \[at\] we-are-ols.org to let us know you're working on the repo as well!
 
-## Who are your current FSCs and Incubation Fellows?
+## Who are OLS's FSCs and Incubation Fellows?
 
-### Current Fiscally Sponsored Communities (FSC)
+### Current Fiscally Sponsored Communities (FSCs)
 {% assign f_community = site.data.community.fiscal_communities %}
 {% assign incubator_fellows = site.data.community.incubator_fellows %}
-
 
 <div class="entities">
 {% for c in f_community %}
@@ -125,6 +129,7 @@ Please go ahead and [fork the repo](https://github.com/open-life-science/fiscall
 
 ### Current Incubator Fellows
 {% assign f_community = site.data.community.fiscal_communities %}
+
 <div class="entities">
 {% for fellow in incubator_fellows %}
     {% assign entity = fellow %}
@@ -132,3 +137,21 @@ Please go ahead and [fork the repo](https://github.com/open-life-science/fiscall
     {% include _includes/external-entities.html entity=entity type='fiscal_communities' details=details %}
 {% endfor %}
 </div>
+
+### Former FSCs and Incubator Fellows
+{% assign former_fsc = site.data.community.former_FSCs_IFs %}
+
+<div class="entities">
+{% for f in former_fsc %}
+    {% assign entity = f %}
+    {% assign details = f.details %}
+    {% include _includes/external-entities.html entity=entity type='fiscal_communities' details=details %}
+{% endfor %}
+</div>
+
+
+<section class="section" style="background-color: {{ page.about_bg_color }};">
+    <div class="container">
+        {% include _includes/related-posts.html posts=page.related_posts title="Related posts" %}
+    </div>
+</section>

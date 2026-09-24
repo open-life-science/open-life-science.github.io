@@ -22,11 +22,12 @@ related_posts:
     <div class="container">
         <div class="columns">
             <div class="column is-two-thirds">
-                <h2 class="section-title is-size-3">Coming soon</h2>
+                <h2 class="section-title is-size-3">Applications are open!</h2>
                 <p>We are thrilled to announce that the <strong>pilot cohort of Seeds to Systems</strong> will run from <strong>October 2026 to February 2027</strong>.</p>
                 <p><strong>Seeds to Systems</strong> is a cohort-based training and mentoring programme designed <strong>for individuals and teams leading open initiatives, research communities of practice, or volunteer-run research initiatives</strong>. It builds directly on OLS's experience running <a href="{% link openseeds/index.md %}">Open Seeds</a> and extends that support to projects at a more advanced stage of development.</p>
                 <p>The curriculum centres on <strong>organisational infrastructure for project and community sustainability</strong>: the practical knowledge, skills, and networks needed to lead a project over time, navigate the research funding landscape, and build the conditions that enable long-term impact.</p>
                 <p>You can read more in our <a href="{% link _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md %}">announcement post</a>.</p>
+                <a href="https://forms.gle/bNNw5AD9gD36az2P6" class="button is-link is-medium">Apply now</a>
             </div>
             <div class="column">
                 <div class="card">
@@ -69,20 +70,19 @@ related_posts:
 
 <section class="section" style="background-color: {{ page.overview_bg_color }};">
     <div class="container">
-        <h2 class="section-title is-size-3">What's coming</h2>
+        <h2 class="section-title is-size-3">Timeline</h2>
         <div markdown="1">
 
-Before the pilot cohort begins, we will be running a series of activities open to the OLS community and beyond:
 
-- ~~**June 30** (14:00 UTC): Participate in a **webinar** to learn more about the Seeds to Systems Training.~~ Check the recording below!
-- ~~**August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).~~
+- **June 30** (14:00 UTC): Participate in a **webinar** to learn more about the Seeds to Systems Training. 
+- **August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).
 - **August 31** (16:00 UTC): **Informational webinar**. Join us to learn about the cohort content, walk through the application process, and get your questions answered in our Q&A. 
-[Registration.](https://us02web.zoom.us/meeting/register/r_NAXBEOTKyr10xJteDlnw)
-- **September 1-18**: **Apply** to the pilot cohort.
+**Check the recording below!**
+- **September 1-22**: [**Apply**](https://forms.gle/bNNw5AD9gD36az2P6) to the pilot cohort.
 - **Pilot cohort** (October 2026 - February 2027):
-    - **late October - early December**: Weekly live **cohort calls**.
-    - **January - early February**: **Mentoring**.
-
+    - **October 20 - November 26**: Live cohort calls (2 per week).
+    - **January - early February**: Mentoring sessions (1 per week).
+    - **February 9 & 11**: Graduation.
 </div>
     </div>
 </section>
@@ -90,10 +90,10 @@ Before the pilot cohort begins, we will be running a series of activities open t
 <section class="section" style="background-color: {{ page.about_bg_color }};">
     <div class="container">
         <h2 class="section-title is-size-3">Learn more!</h2>
-        <p>Check the recording of the informational webinar to learn more about our new training.</p>
+        <p>Check the recording of our latest informational webinar to learn more about this new programme.</p>
         <div class="video-embed">
             <figure class="image is-16by9">
-                <iframe class="has-ratio" src="https://www.youtube.com/embed/h-SKgXlyFH0" frameborder="0" allowfullscreen></iframe>
+                <iframe class="has-ratio" src="https://www.youtube.com/embed/EKXQZ42WWvk" frameborder="0" allowfullscreen></iframe>
             </figure>
         </div>
     </div>
@@ -104,22 +104,56 @@ Before the pilot cohort begins, we will be running a series of activities open t
         <h2 class="section-title is-size-3">FAQ</h2>
         <div class="content">
             <div class="faq-item">
-                <p><strong>Is there a cost to participate?</strong></p>
+                <h3>Who is this cohort for?</h3>
+                <p>The cohort is intended for people who already have hands-on experience sustaining an open (research) initiative, whether as founders, core team members, or others involved in decisions about its long-term direction.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What topics will the cohort cover?</h3>
+                <p>The cohort is organized around two strands:</p>
+                <ul>
+                    <li><strong>Navigating the research funding landscape:</strong> understanding grant calls and proposals, reviewing proposals, developing budgets, and writing grant applications.</li>
+                    <li><strong>Skills for project and community sustainability:</strong> collaboration, decision-making, governance, impact, outreach, and supporting contributors.</li>
+                </ul>
+                <img class="curriculum-diagram" src="{% link images/seeds-to-systems-curriculum.svg %}" alt="Seeds to Systems pilot curriculum outline. Two interleaved tracks: Skills for project and community sustainability (Collaboration, Decision making, Impact and Outreach, Supporting contributors) and Navigating the research funding landscape (Reading grant calls, Reviewing proposals, Budgets, Writing grant proposals) — framed by a welcome and wrap-up session.">
+            </div>
+            <div class="faq-item">
+                <h3>Can I apply individually, or do I need to apply as a team?</h3>
+                <p>We encourage team applications, reflecting the collaborative nature of sustaining an open initiative. You may apply individually, but if we receive more applications than we can support, we might need to prioritize team applications. Participation and asynchronous work can be shared across team members; not everyone needs to attend every session, but we ask that your team is represented in at least 80% of cohort sessions. 
+</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is there a cost to participate?</h3>
                 <p>No, participation in the pilot cohort is free of charge.</p>
             </div>
             <div class="faq-item">
-                <p><strong>What is the time commitment?</strong></p>
-                <p>During the first phase (late October - early December), there are two 90-minute cohort calls per week, on Tuesdays and Thursdays at 15:00 UTC, plus an estimated 60-120 minutes of async work per week. During the mentoring period, there is one 1-hour meeting per week, at a time agreed with your mentor, plus an estimated 60-120 minutes of async work.</p>
+                <h3>What is the time commitment?</h3>
+                <p>During the first phase (mid October - late November), there are two 90-minute cohort calls per week, on Tuesdays and Thursdays at 15:00 UTC, plus an estimated 1-2 hours of async work per week. During the mentoring period, there is one 1-hour meeting per week, at a time agreed with your mentor, plus an estimated 1-2 hours of async work.</p>
             </div>
-            <div class="faq-item">
-                <p><strong>What are the exact dates of the programme?</strong></p>
-                <p>Cohort calls run from October 21 to December 3. <br>Mentoring runs from January 11 to February 5. <br>The week of February 8-12 is the programme's graduation.</p>
-            </div>
+            <a href="https://forms.gle/bNNw5AD9gD36az2P6" class="button is-link is-medium">Apply now</a>
         </div>
     </div>
 </section>
 
 <section class="section" style="background-color: {{ page.about_bg_color }};">
+    <div class="container">
+        <h2 class="section-title is-size-3">Become a mentor</h2>
+        <div class="content">
+            <p>Mentors help teams put what they learn into practice, <strong>drawing on their own experience leading open initiatives to offer guidance tailored to each project</strong>.</p>
+            <p>If you'd like to express your interest in the mentor role, please register using the form below.</p>
+            <p><strong>As a mentor, you will</strong>:</p>
+            <ul>
+                <li>Attend a 1-hour <strong>onboarding meeting</strong> in mid-November.</li>
+                <li><strong>Mentor one or two teams</strong>, over four weekly sessions of 60 minutes each, between January 11 and February 5, 2027.</li>
+                <li><strong>Provide feedback</strong> to help us improve future iterations of the programme.</li>
+            </ul>
+            <p>The expected time commitment is approximately 8-10 hours per mentored team, covering the four mentoring sessions plus preparation, onboarding, and feedback.</p>
+            <p><strong>The deadline to register is October 30.</strong></p>
+            <a href="https://forms.gle/MqD4NNyPqe4CkLU4A" class="button is-link is-medium">Express your interest</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background-color: {{ page.overview_bg_color }};">
     <div class="container">
         {% include _includes/related-posts.html posts=page.related_posts title="Related posts" %}
     </div>

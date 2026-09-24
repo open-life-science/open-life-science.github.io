@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1263.0 530" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="s2sTitle s2sDesc" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title id="s2sTitle">Seeds to Systems pilot curriculum outline</title>
+<desc id="s2sDesc">Diagram of the Seeds to Systems pilot curriculum: two interleaved tracks — Skills for project and community sustainability (Collaboration, Decision making, Impact and Outreach, Supporting contributors) and Navigating the research funding landscape (Reading grant calls, Reviewing proposals, Budgets, Writing grant proposals) — framed by a welcome and wrap-up session.</desc>
+<rect x="20.0" y="20.0" width="1223.0" height="54.0" rx="8" ry="8" fill="#ffffff" stroke="#139D3D" stroke-width="2.5"/>
+<text x="631.5" y="52.1" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="24.5" fill="#139D3D" text-anchor="middle">
+<tspan x="631.5" dy="0.0">Skills for project and community sustainability</tspan>
+</text>
+<rect x="20.0" y="95.0" width="178.0" height="100.0" rx="14" ry="14" fill="#f0b14e"/>
+<text x="109.0" y="149.3" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#020887" text-anchor="middle">
+<tspan x="109.0" dy="0.0">Welcome!</tspan>
+</text>
+<rect x="210.0" y="95.0" width="178.0" height="100.0" rx="14" ry="14" fill="#139D3D"/>
+<text x="299.0" y="149.3" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="299.0" dy="0.0">Collaboration</tspan>
+</text>
+<rect x="400.0" y="95.0" width="178.0" height="47.0" rx="10" ry="10" fill="#020887"/>
+<text x="489.0" y="113.5" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15.0" fill="#ffffff" text-anchor="middle">
+<tspan x="489.0" dy="0.0">Equity in research</tspan>
+<tspan x="489.0" dy="17.2">funding</tspan>
+</text>
+<rect x="400.0" y="148.0" width="178.0" height="47.0" rx="10" ry="10" fill="#139D3D"/>
+<text x="489.0" y="166.6" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15.0" fill="#ffffff" text-anchor="middle">
+<tspan x="489.0" dy="0.0">Panel:</tspan>
+<tspan x="489.0" dy="17.2">Collaboration</tspan>
+</text>
+<rect x="590.0" y="95.0" width="178.0" height="100.0" rx="14" ry="14" fill="#139D3D"/>
+<text x="679.0" y="136.8" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="679.0" dy="0.0">Decision</tspan>
+<tspan x="679.0" dy="25.0">making</tspan>
+</text>
+<rect x="780.0" y="95.0" width="178.0" height="100.0" rx="14" ry="14" fill="#139D3D"/>
+<text x="869.0" y="136.8" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="869.0" dy="0.0">Impact and</tspan>
+<tspan x="869.0" dy="25.0">Outreach</tspan>
+</text>
+<rect x="970.0" y="95.0" width="178.0" height="100.0" rx="14" ry="14" fill="#139D3D"/>
+<text x="1059.0" y="136.8" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="1059.0" dy="0.0">Supporting</tspan>
+<tspan x="1059.0" dy="25.0">contributors</tspan>
+</text>
+<rect x="115.0" y="330.0" width="178.0" height="100.0" rx="14" ry="14" fill="#020887"/>
+<text x="204.0" y="371.8" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="204.0" dy="0.0">Reading</tspan>
+<tspan x="204.0" dy="25.0">grant calls</tspan>
+</text>
+<rect x="305.0" y="330.0" width="178.0" height="100.0" rx="14" ry="14" fill="#020887"/>
+<text x="394.0" y="359.3" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="394.0" dy="0.0">Reviewing</tspan>
+<tspan x="394.0" dy="25.0">grant</tspan>
+<tspan x="394.0" dy="25.0">proposals</tspan>
+</text>
+<rect x="495.0" y="330.0" width="178.0" height="100.0" rx="14" ry="14" fill="#020887"/>
+<text x="584.0" y="371.8" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="584.0" dy="0.0">Panel:</tspan>
+<tspan x="584.0" dy="25.0">Funders</tspan>
+</text>
+<rect x="685.0" y="330.0" width="178.0" height="100.0" rx="14" ry="14" fill="#020887"/>
+<text x="774.0" y="384.3" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="774.0" dy="0.0">Budgets</tspan>
+</text>
+<rect x="875.0" y="330.0" width="178.0" height="100.0" rx="14" ry="14" fill="#020887"/>
+<text x="964.0" y="371.8" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#ffffff" text-anchor="middle">
+<tspan x="964.0" dy="0.0">Writing grant</tspan>
+<tspan x="964.0" dy="25.0">proposals</tspan>
+</text>
+<rect x="1065.0" y="330.0" width="178.0" height="100.0" rx="14" ry="14" fill="#f0b14e"/>
+<text x="1154.0" y="384.3" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20.5" fill="#020887" text-anchor="middle">
+<tspan x="1154.0" dy="0.0">Wrap up</tspan>
+</text>
+<path d="M 109.0 210.0 L 204.0 310.0 L 299.0 210.0 L 394.0 310.0 L 489.0 210.0 L 584.0 310.0 L 679.0 210.0 L 774.0 310.0 L 869.0 210.0 L 964.0 310.0 L 1059.0 210.0 L 1154.0 310.0" fill="none" stroke="#f0b14e" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="109.0" cy="210" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="204.0" cy="310" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="299.0" cy="210" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="394.0" cy="310" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="489.0" cy="210" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="584.0" cy="310" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="679.0" cy="210" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="774.0" cy="310" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="869.0" cy="210" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="964.0" cy="310" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="1059.0" cy="210" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<circle cx="1154.0" cy="310" r="8" fill="#ffffff" stroke="#f0b14e" stroke-width="5"/>
+<rect x="20.0" y="460.0" width="1223.0" height="54.0" rx="8" ry="8" fill="#ffffff" stroke="#020887" stroke-width="2.5"/>
+<text x="631.5" y="492.1" font-family="Raleway, BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="24.5" fill="#020887" text-anchor="middle">
+<tspan x="631.5" dy="0.0">Navigating the research funding landscape</tspan>
+</text>
+</svg>
