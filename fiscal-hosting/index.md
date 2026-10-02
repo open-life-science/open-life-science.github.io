@@ -111,7 +111,7 @@ At the moment, we are only entering into fiscal sponsorship arrangements with pe
 
 ## How can I apply?
 
-Please go ahead and [fork the repo](https://github.com/open-life-science/fiscally-sponsored-community-templates) to apply to become an FSC or a Fellow. Send us an email at fsc \[at\] we-are-ols.org to let us know you're working on the repo as well!
+Please go ahead and use [our template repo](https://github.com/open-life-science/fiscally-sponsored-community-templates) to apply to become an FSC or a Fellow. Send us an email at fsc \[at\] we-are-ols.org to let us know you're working on the repo as well!
 
 ## Who are OLS's FSCs and Incubation Fellows?
 
