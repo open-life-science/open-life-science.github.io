@@ -60,6 +60,35 @@ img {
   }
 }
 
+.content .tabs a {
+  border-bottom-color: $border;
+  color: $text;
+  padding: $tabs-link-padding;
+
+  &:hover {
+    border-bottom-color: $text-strong;
+    color: $text-strong;
+  }
+}
+
+.content .tabs.is-boxed li.is-active a {
+  background-color: $white;
+  border-color: $border;
+  border-bottom-color: transparent;
+  color: $link;
+}
+
+.content .tabs.is-toggle li.is-active a {
+  background-color: $link;
+  border-color: $link;
+  color: $link-invert;
+}
+
+.seeds-to-systems .session-card {
+  height: 100%;
+  scroll-margin-top: 5rem;
+}
+
 .hero {
   background-clip: border-box;
   background-color: $bg-image;
