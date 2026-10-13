@@ -80,7 +80,7 @@ Incubation fellows are affiliated with OLS with the aim of building a sustainabl
 
 Individuals that have participated in an OLS training cohort, or worked with OLS in other capacities, are welcome to apply to become an Incubation Fellow.
 
-Please fork the Incubation Fellow community template repo, which should guide you through creating issues as to-dos for the basic docs we expect. [You can also read our internal policy page for FSCs and Fellows.]({% link fiscal-hosting/fsc-policies.md %})
+Please use the Incubation Fellow community template repo, which should guide you through creating issues as to-dos for the basic docs we expect. [You can also read our internal policy page for FSCs and Fellows.]({% link fiscal-hosting/fsc-policies.md %})
 
 The TL;DR version of the requirements are:
 
