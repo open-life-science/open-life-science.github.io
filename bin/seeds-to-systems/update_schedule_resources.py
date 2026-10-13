@@ -92,24 +92,18 @@ def update_schedule(schedule, order, sessions):
             if call is None:
                 not_found.append(session_id)
                 continue
-        if clean(main["Start Date"]):
-            call["date"] = clean(main["Start Date"])
-        if clean(main["Start Time"]):
-            call["time"] = clean(main["Start Time"])
-        if clean(main["Timezone"]):
-            call["timezone_link"] = clean(main["Timezone"])
-        if clean(main["Duration"]):
-            call["duration"] = f"{int(float(clean(main['Duration'])))} min"
-        if clean(main["Title"]):
-            call["title"] = clean(main["Title"])
-        if clean(main["Note link"]):
-            call["notes"] = clean(main["Note link"])
-        if clean(main["Recording"]):
-            call["recording"] = clean(main["Recording"])
-        if clean(main["Transcript"]):
-            call["transcript"] = clean(main["Transcript"])
-        if clean(main["Description"]):
-            call["description"] = clean(main["Description"])
+        # The sheet is the source of truth: an empty cell clears the field,
+        # it doesn't just leave the existing value alone.
+        duration = clean(main["Duration"])
+        call["date"] = clean(main["Start Date"])
+        call["time"] = clean(main["Start Time"])
+        call["timezone_link"] = clean(main["Timezone"])
+        call["duration"] = f"{int(float(duration))} min" if duration else None
+        call["title"] = clean(main["Title"])
+        call["notes"] = clean(main["Note link"])
+        call["recording"] = clean(main["Recording"])
+        call["transcript"] = clean(main["Transcript"])
+        call["description"] = clean(main["Description"])
 
         talks = []
         for row in rows:
@@ -118,8 +112,7 @@ def update_schedule(schedule, order, sessions):
             other_resources = clean(row["Other resources"])
             if names or slides or other_resources:
                 talks.append({"speakers": names, "slides": slides, "other_resources": other_resources})
-        if talks:
-            call["talks"] = talks
+        call["talks"] = talks
 
     return not_found
 
