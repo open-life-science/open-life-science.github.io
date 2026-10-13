@@ -73,7 +73,7 @@ def create_call(schedule, session_id, week_value):
     """
     if week_value is None:
         return None
-    week_key = "{:02d}".format(int(float(week_value)))
+    week_key = f"{int(float(week_value)):02d}"
     if week_key not in schedule["weeks"]:
         schedule["weeks"][week_key] = {"start": None, "calls": []}
     call = {"session_number": session_id}
