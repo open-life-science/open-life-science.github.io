@@ -17,7 +17,7 @@ To address power imbalances, however, we need to understand them. In my research
 Sherry Arnstein was a health and public policy specialist in the USA. Working at what is now the Department of Health and Human Services in the 1960s, she led the development of the strategy to desegregate all US hospitals, and worked on Lyndon B Johnson’s ‘War on Poverty.’ In 1969, she synthesised her experiences involving citizens and residents in decision-making into one framework: the Ladder of Citizen Participation[^1]. 
 
 <div style="clear: both;">
-  <div style="float: left; margin-right: 3em;">
+  <div style="float: left; margin-right: 5em;">
     <a href="https://alternativetransport.wordpress.com/wp-content/uploads/2022/07/arnsteins-ladder-of-citizen-participation-en-2022-07.svg_.png"> <img src="https://alternativetransport.wordpress.com/wp-content/uploads/2022/07/arnsteins-ladder-of-citizen-participation-en-2022-07.svg_.png" alt="Arnstein's ladder of citizen participation, by Stephen Steinbach, 2022." width="350"></a>
   </div>
   <div>
