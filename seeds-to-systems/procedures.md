@@ -47,7 +47,7 @@ These are items to help you participate in online calls with the Seeds to System
 
 1. **Requesting a microgrant:** Members of teams that indicated in their application that they needed a microgrant will receive an email confirming their microgrant request has been accepted.
 2. **Record your purchase:** Once your request has been confirmed, you should go ahead and purchase the items yourself. Please make sure to retain the receipt.
-3. **Request reimbursement**: This is another short Civi form, where you upload your **receipt** and share your bank account/reimbursement details. **The receipt is a requirement for processing the reimbursement.** 
+3. **Request reimbursement**: You will receive the link to the reimbursement request form to provide details regarding your purchases and bank account. **The receipt is a requirement for processing the reimbursement.** The OLS team might contact you if there are any problems or additional questions.
 
 ### Microgrant FAQs
 
