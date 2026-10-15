@@ -45,7 +45,7 @@ These are items to help you participate in online calls with the Seeds to System
 
 ### Applicant workflow
 
-1. **Requesting a microgrant:** Members of teams that indicated in their application that they needed a microgrant will be asked to fill out a short Civi form to provide their details, including _what_ they want and _how_ to reimburse them.
+1. **Requesting a microgrant:** Members of teams that indicated in their application that they needed a microgrant will receive an email confirming their microgrant request has been accepted.
 2. **Record your purchase:** Once your form has been approved, you should go ahead and purchase the items yourself. Please make sure to retain the receipt. The OLS team might contact you if there are any problems or additional questions.
 3. **Request reimbursement**: This is another short Civi form, where you upload your **receipt** and share your bank account/reimbursement details. **The receipt is a requirement for processing the reimbursement.** 
 
