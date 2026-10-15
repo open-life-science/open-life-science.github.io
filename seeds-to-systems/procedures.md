@@ -20,6 +20,7 @@ To be paired with a mentor, your team needs to:
 - Attend at least 80% of the cohort calls.
 - Complete at least 80% of the activities proposed by trainers. These activities will be compiled into a team portfolio that will help your mentor understand your project and the support you need.
 Participation and asynchronous work can be shared across team members; not everyone needs to attend every session, but we ask that your team is represented in at least 80% of cohort sessions. 
+
 ## Graduation requirements
 
 To graduate from the program, your team needs to: 
