@@ -17,8 +17,8 @@ To address power imbalances, however, we need to understand them. In my research
 Sherry Arnstein was a health and public policy specialist in the USA. Working at what is now the Department of Health and Human Services in the 1960s, she led the development of the strategy to desegregate all US hospitals, and worked on Lyndon B Johnson’s ‘War on Poverty.’ In 1969, she synthesised her experiences involving citizens and residents in decision-making into one framework: the Ladder of Citizen Participation[^1]. 
 
 <div class="columns is-variable is-6">
-<div class="column is-5">
-  
+<div class="column is-5" markdown="1">
+
 ![Infographic of Arnstein’s “Ladder of Citizen Participation” by Stephan Steinbach, 2022: a wooden ladder with eight rungs, each labelled and defined, grouped into non-participation (rungs 1–2), Degrees of Tokenism (3–5), and Degrees of Citizen Power (6–8). Image shared under CC-BY-SA 3.0 AT license.]({% link images/2026-10-13-ols-journal-club-ladder-of-citizen-participation-Laura.png %})
 
 </div>
