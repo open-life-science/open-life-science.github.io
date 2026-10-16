@@ -1,0 +1,34 @@
+{% assign c = include.call %}
+<div class="column is-half">
+    <div class="card session-card" id="session-{{ c.session_number }}">
+        <div class="card-content">
+            <p class="title is-5">{% if c.session_number contains '-' %}{{ c.session_number | replace: '-', ' ' | capitalize }}{% else %}Session {{ c.session_number }}{% endif %} · {{ c.title }}</p>
+            <p class="subtitle is-6">{{ c.date | date: "%B %d, %Y" }}</p>
+            <div class="buttons">
+                {%- if c.recording %}
+                <a class="button is-small is-link" href="{{ c.recording }}"><i class="fab fa-youtube"></i>&nbsp;Recording</a>
+                {%- else %}
+                <a class="button is-small is-link is-light" disabled><i class="fab fa-youtube"></i>&nbsp;Recording</a>
+                {%- endif %}
+                {%- if c.transcript %}
+                <a class="button is-small is-link is-light" href="{{ c.transcript }}"><i class="fas fa-file-alt"></i>&nbsp;Transcript</a>
+                {%- else %}
+                <a class="button is-small is-link is-light" disabled><i class="fas fa-file-alt"></i>&nbsp;Transcript</a>
+                {%- endif %}
+            </div>
+            {%- if c.description %}
+            <p>{{ c.description }}</p>
+            {%- endif %}
+            {%- if c.talks and c.talks.size > 0 %}
+            <div class="content">
+                <strong>Speakers &amp; slides</strong>
+                <ul>
+                {%- for t in c.talks %}
+                    <li>{% if t.slides %}<a href="{{ t.slides }}">Slides</a>{% endif %}{% if t.slides and t.other_resources %}, {% endif %}{% if t.other_resources %}<a href="{{ t.other_resources }}">Other resources</a>{% endif %}{% if t.slides or t.other_resources %} — {% endif %}{{ t.speakers | join: ", " }}</li>
+                {%- endfor %}
+                </ul>
+            </div>
+            {%- endif %}
+        </div>
+    </div>
+</div>

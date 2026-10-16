@@ -3,180 +3,321 @@
 timeline:
 - date: 2026-09-01
   description: Call for Application opens
-  details: See the [guidelines and
-    templates](https://github.com/open-life-science/application-forms)
+  details: See the [guidelines and templates](https://github.com/open-life-science/application-forms)
 - date: 2026-08-31
   description: Application webinar
   type:
   - Talk
   - Q&A
-  notes:
+  notes: null
   recording: https://youtu.be/EKXQZ42WWvk
-  details: Watch recordings from previous webinars on
-    [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
+  details: Watch recordings from previous webinars on [**YouTube**](https://www.youtube.com/playlist?list=PL1CvC6Ez54KBsPT0fhPtkHmBaXR4f8Dqt)
 - date: 2026-09-22
   description: Call for applications closed
-- date:
+- date: null
   description: Successful applicants announced
 weeks:
-  '01':
-    start:
-    calls:
-    - date: '2026-10-20'
-      time: "15:00"
-      duration: 90 min
-      notes:
-      title: Welcome
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
-    - date: '2026-10-22'
-      time: "15:00"
-      duration: 90 min
-      notes:
-      title: Reading grant calls
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
   '02':
-    start:
+    start: null
     calls:
     - date: '2026-10-27'
-      time: "15:00"
+      session_number: 3
+      time: '15:00'
       duration: 90 min
-      notes:
+      notes: null
       title: Collaborations and stakeholder mapping
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Angela Okune
+        slides: null
+        other_resources: null
+      - speakers:
+        - Cassandra Gould van Praag
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-10-27/15:00/UTC/S2S-Session-3
+      transcript: null
+      description: null
     - date: '2026-10-29'
-      time: "15:00"
+      session_number: 4
+      time: '15:00'
       duration: 90 min
-      notes:
+      notes: null
       title: Equity and collaboration panel
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Batool Almarzouq
+        slides: null
+        other_resources: null
+      - speakers:
+        - Alexander Martínez
+        slides: null
+        other_resources: null
+      - speakers:
+        - Rowland Mosbergen
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-10-29/15:00/UTC/S2S-Session-4
+      transcript: null
+      description: null
   '03':
-    start:
+    start: null
     calls:
     - date: '2026-11-03'
-      time: "15:00"
+      session_number: 5
+      time: '15:00'
       duration: 90 min
-      notes:
-      title: Intro to community infra and decision making
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      notes: null
+      title: Community infrastructure and decision making
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Irene Ramos
+        - Riva Quiroga
+        slides: null
+        other_resources: null
+      - speakers:
+        - Arielle Bennett
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-11-03/15:00/UTC/S2S-Session-5
+      transcript: null
+      description: null
     - date: '2026-11-05'
-      time: "15:00"
+      session_number: 6
+      time: '15:00'
       duration: 90 min
-      notes:
+      notes: null
       title: Reviewing grant proposals
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Danielle Saderi
+        - Chad Sansing
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-11-05/15:00/UTC/S2S-Session-6
+      transcript: null
+      description: null
   '04':
-    start:
+    start: null
     calls:
     - date: '2026-11-10'
-      time: "15:00"
+      session_number: 7
+      time: '15:00'
       duration: 90 min
-      notes:
+      notes: null
       title: Funder panel and mid-cohort check-in
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Eunice Mercado
+        slides: null
+        other_resources: null
+      - speakers:
+        - Neil Chue Hong
+        slides: null
+        other_resources: null
+      - speakers:
+        - Irene Ramos
+        - Riva Quiroga
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-11-10/15:00/UTC/S2S-Session-7
+      transcript: null
+      description: null
     - date: '2026-11-12'
-      time: "15:00"
+      session_number: 8
+      time: '15:00'
       duration: 90 min
-      notes:
+      notes: null
       title: Outreach and impact
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Bethan Iley
+        slides: null
+        other_resources: null
+      - speakers:
+        - Gemma Turon
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-11-12/15:00/UTC/S2S-Session-8
+      transcript: null
+      description: null
   '05':
-    start:
+    start: null
     calls:
     - date: '2026-11-17'
-      time: "15:00"
+      session_number: 9
+      time: '15:00'
       duration: 90 min
-      notes:
+      notes: null
       title: Budgets
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Laura Carter
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-11-17/15:00/UTC/S2S-Session-9
+      transcript: null
+      description: null
     - date: '2026-11-19'
-      time: "15:00"
+      session_number: 10
+      time: '15:00'
       duration: 90 min
-      notes:
+      notes: null
       title: Writing grant proposals
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Riva Quiroga
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-11-19/15:00/UTC/S2S-Session-10
+      transcript: null
+      description: null
   '06':
-    start:
+    start: null
     calls:
     - date: '2026-11-24'
-      time: "15:00"
+      session_number: 11
+      time: '15:00'
       duration: 90 min
-      notes:
-      title: Recognizing contributors
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      notes: null
+      title: Recognising crontributors
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Angelique Trusler
+        slides: null
+        other_resources: null
+      - speakers:
+        - Anna e só
+        slides: null
+        other_resources: null
+      - speakers:
+        - Omotola E. Omotayo
+        slides: null
+        other_resources: null
+      - speakers:
+        - Ana Carolina Marinho
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-11-24/15:00/UTC/S2S-Session-11
+      transcript: null
+      description: null
     - date: '2026-11-26'
-      time: "15:00"
+      session_number: 12
+      time: '15:00'
       duration: 90 min
-      notes:
+      notes: null
       title: Wrap-up
-      recording:
-      hosts:
-      expert:
-      syllabus:
-      talks: []
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
+      talks:
+      - speakers:
+        - Irene Ramos
+        - Riva Quiroga
+        slides: null
+        other_resources: null
+      timezone_link: https://arewemeetingyet.com/2026-11-26/15:00/UTC/S2S-Session-12
+      transcript: null
+      description: null
   '07':
-    start:
+    start: null
     calls:
     - date: '2027-02-09'
-      time: "15:00"
+      session_number: graduations-1
+      time: '15:00'
       duration: 90 min
-      notes:
-      title: Graduation 1
-      recording:
-      hosts:
-      expert:
-      syllabus:
+      notes: null
+      title: Graduations
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
       talks: []
+      timezone_link: https://arewemeetingyet.com/2027-02-09/15:00/UTC/S2S-Graduation-1
+      transcript: null
+      description: null
     - date: '2027-02-11'
-      time: "15:00"
+      session_number: graduations-2
+      time: '15:00'
       duration: 90 min
-      notes:
-      title: Graduation 2
-      recording:
-      hosts:
-      expert:
-      syllabus:
+      notes: null
+      title: Graduations
+      recording: null
+      hosts: null
+      expert: null
+      syllabus: null
       talks: []
+      timezone_link: https://arewemeetingyet.com/2027-02-11/15:00/UTC/S2S-Graduation-2
+      transcript: null
+      description: null
+  '01':
+    start: null
+    calls:
+    - session_number: 1
+      date: '2026-10-20'
+      time: '15:00'
+      timezone_link: https://arewemeetingyet.com/2026-10-20/15:00/UTC/S2S-Session-1
+      duration: 90 min
+      title: Welcome
+      notes: null
+      talks:
+      - speakers:
+        - Irene Ramos
+        - Riva Quiroga
+        slides: null
+        other_resources: null
+      recording: null
+      transcript: null
+      description: null
+    - session_number: 2
+      date: '2026-10-22'
+      time: '15:00'
+      timezone_link: https://arewemeetingyet.com/2026-10-22/15:00/UTC/S2S-Session-2
+      duration: 90 min
+      title: Reading funding calls
+      talks:
+      - speakers:
+        - Riva Quiroga
+        slides: null
+        other_resources: null
+      notes: null
+      recording: null
+      transcript: null
+      description: null

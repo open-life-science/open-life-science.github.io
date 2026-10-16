@@ -18,12 +18,12 @@ related_posts:
 ---
 
 <div class="seeds-to-systems">
+{% include _includes/seeds-to-systems-subnav.html %}
 <section class="section" style="background-color: {{ page.about_bg_color }};">
     <div class="container">
         <div class="columns">
             <div class="column is-two-thirds">
             <h2 class="section-title is-size-3">Cohort-based training and mentoring programme</h2>
-                <p>We are thrilled to announce that the <strong>pilot cohort of Seeds to Systems</strong> will run from <strong>October 2026 to February 2027</strong>.</p>
                 <p><strong>Seeds to Systems</strong> is a cohort-based training and mentoring programme designed <strong>for individuals and teams leading open initiatives, research communities of practice, or volunteer-run research initiatives</strong>. It builds directly on OLS's experience running <a href="{% link openseeds/index.md %}">Open Seeds</a> and extends that support to projects at a more advanced stage of development.</p>
                 <p>The curriculum centres on <strong>organisational infrastructure for project and community sustainability</strong>: the practical knowledge, skills, and networks needed to lead a project over time, navigate the research funding landscape, and build the conditions that enable long-term impact.</p>
                 <p>You can read more in our <a href="{% link _posts/2026-06-10-announcing-the-seeds-to-system-training-pilot-cohort.md %}">announcement post</a>.</p>
@@ -70,25 +70,6 @@ related_posts:
 
 <section class="section" style="background-color: {{ page.overview_bg_color }};">
     <div class="container">
-        <h2 class="section-title is-size-3">Timeline</h2>
-        <div markdown="1">
-
-
-- **June 30** (14:00 UTC): Participate in a **webinar** to learn more about the Seeds to Systems Training. 
-- **August 5 & 11** (14:00 UTC): Join two **community consultation workshops** to collaboratively shape the curriculum. [Learn more]({% link _posts/2026-06-10-seeds-to-system-training-community-consultation-workshops.md %}).
-- **August 31** (16:00 UTC): **Informational webinar**. Join us to learn about the cohort content, walk through the application process, and get your questions answered in our Q&A. 
-**Check the recording below!**
-- **September 1-22**: Application period
-- **Pilot cohort** (October 2026 - February 2027):
-    - **October 20 - November 26**: Live cohort calls (2 per week).
-    - **January - early February**: Mentoring sessions (1 per week).
-    - **February 9 & 11**: Graduation.
-</div>
-    </div>
-</section>
-
-<section class="section" style="background-color: {{ page.about_bg_color }};">
-    <div class="container">
         <h2 class="section-title is-size-3">Learn more!</h2>
         <p>Check the recording of our latest informational webinar to learn more about this new programme.</p>
         <div class="video-embed">
@@ -99,7 +80,7 @@ related_posts:
     </div>
 </section>
 
-<section class="section" style="background-color: {{ page.overview_bg_color }};">
+<section class="section" style="background-color: {{ page.about_bg_color }};">
     <div class="container">
         <h2 class="section-title is-size-3">FAQ</h2>
         <div class="content">
@@ -133,7 +114,7 @@ related_posts:
     </div>
 </section>
 
-<section class="section" style="background-color: {{ page.about_bg_color }};">
+<section class="section" style="background-color: {{ page.overview_bg_color }};">
     <div class="container">
         <h2 class="section-title is-size-3">Become a mentor</h2>
         <div class="content">
@@ -152,7 +133,7 @@ related_posts:
     </div>
 </section>
 
-<section class="section" style="background-color: {{ page.overview_bg_color }};">
+<section class="section" style="background-color: {{ page.about_bg_color }};">
     <div class="container">
         {% include _includes/related-posts.html posts=page.related_posts title="Related posts" %}
     </div>

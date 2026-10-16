@@ -1,0 +1,18 @@
+<div class="container" style="padding-top: 1rem; padding-bottom: 1rem;">
+    <div class="tabs is-centered is-toggle is-hidden-mobile">
+        <ul>
+            <li class="{% if page.url == '/seeds-to-systems/' %}is-active{% endif %}"><a href="{% link seeds-to-systems/index.md %}">Overview</a></li>
+            <li class="{% if page.url == '/seeds-to-systems/current-cohort.html' %}is-active{% endif %}"><a href="{% link seeds-to-systems/current-cohort.md %}">Current Cohort</a></li>
+            <li class="{% if page.url == '/seeds-to-systems/resources.html' %}is-active{% endif %}"><a href="{% link seeds-to-systems/resources.md %}">Session Resources</a></li>
+            <li class="{% if page.url == '/seeds-to-systems/procedures.html' %}is-active{% endif %}"><a href="{% link seeds-to-systems/procedures.md %}">Procedures</a></li>
+        </ul>
+    </div>
+    <div class="select is-fullwidth is-hidden-tablet">
+        <select onchange="window.location = this.value;">
+            <option value="{% link seeds-to-systems/index.md %}" {% if page.url == '/seeds-to-systems/' %}selected{% endif %}>Overview</option>
+            <option value="{% link seeds-to-systems/current-cohort.md %}" {% if page.url == '/seeds-to-systems/current-cohort.html' %}selected{% endif %}>Current Cohort</option>
+            <option value="{% link seeds-to-systems/resources.md %}" {% if page.url == '/seeds-to-systems/resources.html' %}selected{% endif %}>Session Resources</option>
+            <option value="{% link seeds-to-systems/procedures.md %}" {% if page.url == '/seeds-to-systems/procedures.html' %}selected{% endif %}>Procedures</option>
+        </select>
+    </div>
+</div>
