@@ -43,7 +43,7 @@ layout: default
                     - {{ authors | remove_first: ', ' | strip }}
                 </p>
 
-                {{ post.excerpt }}
+                {{ post.excerpt | markdownify }}
             </div>
         </div>
     </div>
