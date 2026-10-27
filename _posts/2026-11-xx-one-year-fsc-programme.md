@@ -5,9 +5,9 @@ authors:
 - LauraCarter
 image: https://images.unsplash.com/photo-1670491191890-7ffc7c4c0b58?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D
 photos:
-  name: Birthday Cake
+  name: Kelly Common
   license: Unsplash licence
-  url: https://images.unsplash.com/photo-1670491191890-7ffc7c4c0b58?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D
+  url: https://unsplash.com/photos/a-candle-on-a-cake-pYTGgYERpSg
 ---
 In November 2025 I joined OLS as the first dedicated staff member on the organisation’s [Fiscally Sponsored Communities Programme](https://we-are-ols.org/open-incubator/fiscal-hosting/). 
 One year on: what have we been up to?
