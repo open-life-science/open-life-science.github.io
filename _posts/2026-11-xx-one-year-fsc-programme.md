@@ -15,6 +15,15 @@ photos:
 In November 2025 I joined OLS as the first dedicated staff member on the organisation’s [Fiscally Sponsored Communities Programme](https://we-are-ols.org/open-incubator/fiscal-hosting/). 
 One year on: what have we been up to?
 
+<div class="columns is-variable is-6">
+<div class="column is-5" markdown="1">
+
+![Photo of Laura, Patricia and Sara (calling in remotely) at OLS's 2026 team retreat in the UK. Photo by Riva.]({% link images/2026-10-13-ols-journal-club-ladder-of-citizen-participation.png %})
+
+</div>
+<div class="column" markdown="1">
+
+
 Our ongoing communities continue to go from strength to strength. 
 [RCM Co-op](https://www.rcmcooperative.com/) continues to establish themselves as a centre of excellence and expertise for research community management in the UK and beyond. 
 We employ one member of staff through OLS, and hope to bring on a second one soon. 
