@@ -3,26 +3,22 @@ layout: post
 title: One Year of OLS”s Fiscally Sponsored Communities Programme
 authors:
 - LauraCarter
-image: 
+image: https://images.unsplash.com/photo-1670491191890-7ffc7c4c0b58?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D
 photos:
-  name: 
-  license: 
-  url: 
+  name: Birthday Cake
+  license: Unsplash licence
+  url: https://images.unsplash.com/photo-1670491191890-7ffc7c4c0b58?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D
 ---
-
-![][image1]*Photo by Riva of Patricia, Sara and me at OLS’s 2026 retreat in the UK*
-
 In November 2025 I joined OLS as the first dedicated staff member on the organisation’s [Fiscally Sponsored Communities Programme](https://we-are-ols.org/open-incubator/fiscal-hosting/). 
 One year on: what have we been up to?
 
 <div class="columns is-variable is-6">
 <div class="column is-5" markdown="1">
 
-![Photo of Laura, Patricia and Sara (calling in remotely) at OLS's 2026 team retreat in the UK. Photo by Riva.]({% link images/2026-10-13-ols-journal-club-ladder-of-citizen-participation.png %})
+![Photo of Laura, Patricia and Sara (calling in remotely) at OLS's 2026 team retreat in the UK. Photo by Riva.]({% link images/2026-11-fsc-manager.jpg %})
 
 </div>
 <div class="column" markdown="1">
-
 
 Our ongoing communities continue to go from strength to strength. 
 [RCM Co-op](https://www.rcmcooperative.com/) continues to establish themselves as a centre of excellence and expertise for research community management in the UK and beyond. 
