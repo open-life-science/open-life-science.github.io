@@ -10,14 +10,6 @@ photos:
   url: https://unsplash.com/photos/a-candle-on-a-cake-pYTGgYERpSg
 ---
 
-<div class="columns is-variable is-6">
-<div class="column is-5" markdown="1">
-
-![Photo of Laura, Patricia and Sara (calling in remotely) at OLS's 2026 team retreat in the UK. Photo by Riva.]({% link images/2026-11-fsc-manager.jpg %})
-
-</div>
-<div class="column" markdown="1">
-
 In November 2025 I joined OLS as the first dedicated staff member on the organisation’s [Fiscally Sponsored Communities Programme]({% link fiscal-hosting/index.md %}). 
 One year on: what have we been up to?
 
@@ -35,6 +27,14 @@ These placements are designed to be fixed term, to enable Fellows to focus on bu
 Jyoti Bhogal is currently developing [RSE Asia Association](https://rse-asia.github.io/RSE_Asia/) (including collaborating with RSE AUNZ on the RSE Asia-Australia conference). 
 Ella Kaye from [rainbowR](https://rainbowr.org/) has completed her fellowship, with rainbowR establishing itself as a financially independent organisation after a successful first conference held in February 2026. 
 Ella told us what she learned in a [blog post]({% link _posts/2026-09-07-rainbow-r-fiscal-sponsorship.md %}) earlier this year.
+
+<div class="columns is-variable is-6">
+<div class="column is-5" markdown="1">
+
+![Photo of Laura, Patricia and Sara (calling in remotely) at OLS's 2026 team retreat in the UK. Photo by Riva.]({% link images/2026-11-fsc-manager.jpg %})
+
+</div>
+<div class="column" markdown="1">
 
 Behind the scenes, a lot of work has gone in to building out processes and policies to help our fiscal sponsorship programme run smoothly: from an array of github issues to manage grant applications and contracts on behalf of our organisations, to reviewing internal policies and procedures to check that they cover our global community, to helping troubleshoot missing honoraria payments and last minute budget reviews. 
 While I’m the only dedicated FSC member of staff, the programme couldn’t run without finance, comms and management colleagues from across the UK and the Americas. 
