@@ -125,12 +125,27 @@ img {
     color: $hero-text-color;
   }
 
+  a {
+    color: $hero-text-color;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      color: $hero-text-color;
+      text-decoration-thickness: 2px;
+    }
+  }
+
   .no-image & {
     padding-top: 80px;
     text-shadow: none;
 
     p {
       color: #464646;
+    }
+
+    a {
+      color: $link;
     }
   }
 
