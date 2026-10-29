@@ -4,6 +4,7 @@ title: 'Seeds to Systems Cohort - Week 1: Welcome!'
 excerpt: 'In the first week of the Seeds to Systems cohort, we explored what sustainability means for open research projects and what it takes to understand a funding call.'
 authors:
 - rivaquiroga
+- iramosp
 image: https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?fm=jpg&q=80&w=1400&auto=format&fit=crop
 photos:
   name: kazuend
