@@ -9,8 +9,6 @@ photos:
   license: Unsplash licence
   url: https://unsplash.com/photos/a-candle-on-a-cake-pYTGgYERpSg
 ---
-In November 2025 I joined OLS as the first dedicated staff member on the organisation’s [Fiscally Sponsored Communities Programme](https://we-are-ols.org/open-incubator/fiscal-hosting/). 
-One year on: what have we been up to?
 
 <div class="columns is-variable is-6">
 <div class="column is-5" markdown="1">
@@ -19,6 +17,9 @@ One year on: what have we been up to?
 
 </div>
 <div class="column" markdown="1">
+
+In November 2025 I joined OLS as the first dedicated staff member on the organisation’s [Fiscally Sponsored Communities Programme](https://we-are-ols.org/open-incubator/fiscal-hosting/). 
+One year on: what have we been up to?
 
 Our ongoing communities continue to go from strength to strength. 
 [RCM Co-op](https://www.rcmcooperative.com/) continues to establish themselves as a centre of excellence and expertise for research community management in the UK and beyond. 
