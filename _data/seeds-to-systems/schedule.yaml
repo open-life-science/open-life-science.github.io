@@ -26,22 +26,26 @@ weeks:
       duration: 90 min
       notes: null
       title: Collaborations and stakeholder mapping
-      recording: null
+      recording: https://www.youtube.com/watch?v=OYZXXq6tCh8
       hosts: null
       expert: null
       syllabus: null
       talks:
       - speakers:
         - Angela Okune
-        slides: null
+        slides: https://zenodo.org/records/23879907
         other_resources: null
       - speakers:
         - Cassandra Gould van Praag
-        slides: null
-        other_resources: null
+        slides: https://zenodo.org/records/23681028
+        other_resources: https://github.com/rcmcooperative/rcm-crm
       timezone_link: https://arewemeetingyet.com/2026-10-27/15:00/UTC/S2S-Session-3
       transcript: null
-      description: null
+      description: With Angela Okune, we explored how the word “collaboration” can
+        hide very different expectations, and how naming them can help teams build
+        agreements they can revisit as the work changes. Cassandra Gould van Praag
+        then introduced community mapping as a way to understand who is part of a
+        project, how people are connected, and where to focus engagement.
     - date: '2026-10-29'
       session_number: 4
       time: '15:00'
@@ -59,7 +63,7 @@ weeks:
         other_resources: null
       - speakers:
         - Alexander Martínez
-        slides: null
+        slides: https://zenodo.org/records/23922842
         other_resources: null
       - speakers:
         - Rowland Mosbergen
@@ -67,7 +71,12 @@ weeks:
         other_resources: null
       timezone_link: https://arewemeetingyet.com/2026-10-29/15:00/UTC/S2S-Session-4
       transcript: null
-      description: null
+      description: Batool Almarzouq invited us to rethink how equity is addressed
+        in open science, looking beyond charity-based approaches to question how research
+        funding is structured and who benefits from it. In a panel that followed,
+        Alexander Martínez (LA-CoNGA Physics and EL-BONGÓ Physics) and Rowland Mosbergen
+        (Equersa) shared their experiences of building collaborations and partnerships
+        across different contexts.
   '03':
     start: null
     calls:
@@ -85,7 +94,7 @@ weeks:
       - speakers:
         - Irene Ramos
         - Riva Quiroga
-        slides: null
+        slides: https://zenodo.org/records/23932444
         other_resources: null
       - speakers:
         - Arielle Bennett
@@ -93,7 +102,11 @@ weeks:
         other_resources: null
       timezone_link: https://arewemeetingyet.com/2026-11-03/15:00/UTC/S2S-Session-5
       transcript: null
-      description: null
+      description: In this session, participants reflected on community infrastructure,
+        drawing on their experiences of what sustains their projects and communities
+        and what becomes visible when things break or fail. Arielle Bennett then explored
+        the explicit and implicit values and structures that shaped decision-making
+        in their projects, and how to make them more explicit.
     - date: '2026-11-05'
       session_number: 6
       time: '15:00'
@@ -160,6 +173,7 @@ weeks:
         other_resources: null
       - speakers:
         - Gemma Turon
+        - Inés Vicente
         slides: null
         other_resources: null
       timezone_link: https://arewemeetingyet.com/2026-11-12/15:00/UTC/S2S-Session-8
@@ -301,11 +315,14 @@ weeks:
       - speakers:
         - Irene Ramos
         - Riva Quiroga
-        slides: null
+        slides: https://zenodo.org/records/23932222
         other_resources: null
-      recording: null
+      recording: https://www.youtube.com/watch?v=RlktyAq70tc
       transcript: null
-      description: null
+      description: We kicked off the cohort by getting to know the teams and their
+        projects, introducing how the programme will work, and opening a first conversation
+        about what project and community sustainability means across very different
+        contexts.
     - session_number: 2
       date: '2026-10-22'
       time: '15:00'
@@ -315,9 +332,12 @@ weeks:
       talks:
       - speakers:
         - Riva Quiroga
-        slides: null
+        slides: https://zenodo.org/records/23932357
         other_resources: null
       notes: null
-      recording: null
+      recording: https://www.youtube.com/watch?v=GMRPVR1LANk
       transcript: null
-      description: null
+      description: We reflected on how reading funding calls is a skill often learned
+        implicitly, and practised approaching a call as part of a wider network of
+        documents, such as eligibility and evaluation criteria or guidance for applicants,
+        to understand what funders expect beyond what they state explicitly.
