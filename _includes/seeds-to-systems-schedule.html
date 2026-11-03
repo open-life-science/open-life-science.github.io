@@ -6,7 +6,6 @@
                 <th>Session</th>
                 <th>Date</th>
                 <th>Topic</th>
-                <th>Notes</th>
             </tr>
         </thead>
         <tbody>
@@ -17,11 +16,10 @@
                 <td>{% if c.session_number contains '-' %}{{ c.session_number | replace: '-', ' ' | capitalize }}{% else %}Cohort call {{ c.session_number }}{% endif %}</td>
                 <td>{{ c.date | date: "%B %d, %Y" }}{% if c.time %} ({% if c.timezone_link %}<a href="{{ c.timezone_link }}">{{ c.time }} UTC</a>{% else %}{{ c.time }} UTC{% endif %}){% endif %}</td>
                 <td><strong><a href="{% link seeds-to-systems/resources.md %}#session-{{ c.session_number }}">{{ c.title }}</a></strong></td>
-                <td>{% if c.notes %}<a href="{{ c.notes }}">Notes</a>{% endif %}{% if c.recording %} <a href="{{ c.recording }}">Recording</a>{% endif %}</td>
             </tr>
             {%- if c.session_number == 12 %}
             <tr>
-                <td colspan="4" class="has-text-centered"><em>Mentoring period · January – early February 2027 · One session per week per team</em></td>
+                <td colspan="3" class="has-text-centered"><em>Mentoring period · January – early February 2027 · One session per week per team</em></td>
             </tr>
             {%- endif %}
         {%- endfor %}
