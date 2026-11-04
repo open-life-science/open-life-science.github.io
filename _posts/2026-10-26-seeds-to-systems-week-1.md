@@ -18,7 +18,7 @@ photos:
 - **Session 1: Welcome**: We kicked off the cohort by getting to know the teams and their projects, introducing how the programme will work, and opening a first conversation about what project and community sustainability means across very different contexts. 
 - **Session 2: Reading funding calls**: We reflected on how reading funding calls is a skill often learned implicitly, and practised approaching a call as part of a wider network of documents, such as eligibility and evaluation criteria or guidance for applicants, to understand what funders expect beyond what they state explicitly. 
 
-<div class="columns is-centered">
+<div class="columns is-centered" style="margin-top: 0.75rem;">
   <div class="column is-5" markdown="1">
 ![Screenshot of the first Seeds to Systems session on Zoom. The title slide shows the Seeds to Systems logo, the text "Session 1: Welcome!" and the date October 20, 2026, next to an illustration of two people celebrating among confetti. Irene Ramos appears in a video thumbnail in the top right corner, welcoming participants.]({% link images/2026-10-28-s2s-session-1.webp %})
   </div>
