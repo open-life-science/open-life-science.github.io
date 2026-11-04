@@ -1,8 +1,8 @@
 ---  
 layout: post
-title: One Year of OLS”s Fiscally Sponsored Communities Programme
+title: One Year of OLS's Fiscally Sponsored Communities Programme
 authors:
-- LauraCarter
+- lauracarter
 image: https://images.unsplash.com/photo-1670491191890-7ffc7c4c0b58?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D
 photos:
   name: Kelly Common
