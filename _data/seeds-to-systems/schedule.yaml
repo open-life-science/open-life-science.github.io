@@ -121,8 +121,8 @@ weeks:
       - speakers:
         - Daniela Saderi
         - Chad Sansing
-        slides: null
-        other_resources: null
+        slides: https://zenodo.org/records/24115456
+        other_resources: https://zenodo.org/records/24115269
       timezone_link: https://arewemeetingyet.com/2026-11-05/15:00/UTC/S2S-Session-6
       transcript: null
       description: Daniela Saderi and Chad Sansing from [PREreview](https://prereview.org/)
