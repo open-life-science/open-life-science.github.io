@@ -17,7 +17,7 @@
                 {%- endif %}
             </div>
             {%- if c.description %}
-            <p>{{ c.description }}</p>
+            {{ c.description | markdownify }}
             {%- endif %}
             {%- if c.talks and c.talks.size > 0 %}
             <div class="content">

@@ -52,7 +52,7 @@ weeks:
       duration: 90 min
       notes: null
       title: Equity and collaboration panel
-      recording: null
+      recording: https://www.youtube.com/watch?v=_mZBc5MqUWQ
       hosts: null
       expert: null
       syllabus: null
@@ -74,9 +74,9 @@ weeks:
       description: Batool Almarzouq invited us to rethink how equity is addressed
         in open science, looking beyond charity-based approaches to question how research
         funding is structured and who benefits from it. In a panel that followed,
-        Alexander Martínez (LA-CoNGA Physics and EL-BONGÓ Physics) and Rowland Mosbergen
-        (Equersa) shared their experiences of building collaborations and partnerships
-        across different contexts.
+        Alexander Martínez (LA-CoNGA Physics and [EL-BONGÓ Physics](https://elbongo.redclara.net/))
+        and Rowland Mosbergen ([Equersa](https://equersa.org/)) shared their experiences
+        of building collaborations and partnerships across different contexts.
   '03':
     start: null
     calls:
@@ -86,7 +86,7 @@ weeks:
       duration: 90 min
       notes: null
       title: Community infrastructure and decision making
-      recording: null
+      recording: https://youtu.be/0XvthWTYlDU?si=eaiLl3Gq1tAMiJiw
       hosts: null
       expert: null
       syllabus: null
@@ -98,7 +98,7 @@ weeks:
         other_resources: null
       - speakers:
         - Arielle Bennett
-        slides: null
+        slides: https://zenodo.org/records/23960908
         other_resources: null
       timezone_link: https://arewemeetingyet.com/2026-11-03/15:00/UTC/S2S-Session-5
       transcript: null
@@ -113,7 +113,7 @@ weeks:
       duration: 90 min
       notes: null
       title: Reviewing grant proposals
-      recording: null
+      recording: https://www.youtube.com/watch?v=OP6Oqfg21Nw
       hosts: null
       expert: null
       syllabus: null
@@ -121,11 +121,15 @@ weeks:
       - speakers:
         - Daniela Saderi
         - Chad Sansing
-        slides: null
-        other_resources: null
+        slides: https://zenodo.org/records/24115456
+        other_resources: https://zenodo.org/records/24115269
       timezone_link: https://arewemeetingyet.com/2026-11-05/15:00/UTC/S2S-Session-6
       transcript: null
-      description: null
+      description: Daniela Saderi and Chad Sansing from [PREreview](https://prereview.org/)
+        introduced how systemic and personal bias can shape research review, and guided
+        us through a live review of a past OLS grant proposal, with a focus on reflecting
+        on what we bring as reviewers and offering feedback that is clear, constructive,
+        and actionable.
   '04':
     start: null
     calls:
@@ -135,7 +139,7 @@ weeks:
       duration: 90 min
       notes: null
       title: Funder panel and mid-cohort check-in
-      recording: null
+      recording: https://www.youtube.com/watch?v=koH-DdpbEIg
       hosts: null
       expert: null
       syllabus: null
