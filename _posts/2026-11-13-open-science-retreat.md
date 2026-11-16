@@ -2,7 +2,7 @@
 layout: post
 title: 'Fiscal Sponsorship: The 2026 Open Science Retreat'
 authors:
-- LauraCarter
+- lauracarter
 image: images/2026-11-osr-sheeps.jpg
 photos:
   name: Joyce Kao
