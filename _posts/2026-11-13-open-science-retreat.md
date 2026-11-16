@@ -76,6 +76,9 @@ Beyond the tangible outputs, I think one of our most important achievements has 
 
 We have helped create a community where people can feel less isolated, find collaborators, exchange experiences and return to their work with renewed energy.
 
+</div>
+</div>
+
 ### How did fiscal sponsorship help you achieve those aims?
 
 Fiscal sponsorship helped by:
