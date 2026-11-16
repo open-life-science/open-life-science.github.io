@@ -1,3 +1,13 @@
+---
+layout: page
+title: In-person events policy - OLS
+image: https://images.unsplash.com/photo-1771038507485-2cbc860b4496?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D
+photos:
+  name: Enq 1998
+  license: Unsplash licence
+  url: https://images.unsplash.com/44/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg
+---
+
 # In-person event policy \- OLS
 
 Attending in-person events: OLS staff and contractors attend in-person events when invited, or when an event is deemed of relevance to OLS’s mission. This policy is primarily focused on *organising* events.
