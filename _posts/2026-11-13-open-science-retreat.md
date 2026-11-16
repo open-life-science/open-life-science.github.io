@@ -40,6 +40,7 @@ It is a space to connect, exchange ideas, collaborate and reflect on how we can 
 Part unconference, part hackathon, part networking event and part retreat, it offers something often missing from academic life: the time and space to step away from everyday responsibilities, think creatively, build relationships and recharge.
 
 </div>
+</div>
 
 An important part of our philosophy is recognising that research is done by people. 
 Those working to reform research culture are often doing so alongside demanding jobs, limited resources and sometimes in isolation. 
