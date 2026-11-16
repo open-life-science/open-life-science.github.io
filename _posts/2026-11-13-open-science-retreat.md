@@ -57,6 +57,7 @@ We want to create spaces where ideas flourish, connections turn into collaborati
 ![OLS Finance Manager Bethan and other participants at the Open Science Retreat]({% link images/2026-11-osr-bethan-group.jpg %})
 
 </div>
+
 <div class="column" markdown="1">
 
 ### What did the Open Science Retreat (and DRA) achieve during your fiscal sponsorship with OLS?
@@ -66,7 +67,9 @@ Some of the key achievements during this period include:
 * We managed to host as a pre-event a hackathon for the UKRN Open Research Across Disciplines resource (blogpost here: [https\://www\.ukrn.org/2026/06/15/reflections-from-the-open-science-retreat-2026/](https://www.ukrn.org/2026/06/15/reflections-from-the-open-science-retreat-2026/))  
 * Growing the retreat internationally: We had previously organised global editions in Germany (2023), the Netherlands (2024), Switzerland (2025) and now the UK (2026)\! Having done it in Wales at the [Centre for Alternative Technology](https://cat.org.uk/), we now know of an excellent venue in the UK for potential future editions\!  
 * Creating space for collective action: This retreat enabled participants to develop ideas, initiate collaborations, explore systemic challenges in research and work together on concrete outputs. This year’s topics spanned collaborative work on systems thinking and mapping the open science ecosystem, as well as creative approaches to imagining the future of open research. Check out the documented outputs here: [doi:10.53962/vwam-tx4m](https://doi.org/10.53962/vwam-tx4m)  
-* Strengthening the wider open research ecosystem: We developed collaborations with organisations, communities and initiatives working towards more transparent, reproducible and inclusive research. 
+* Strengthening the wider open research ecosystem: We developed collaborations with organisations, communities and initiatives working towards more transparent, reproducible and inclusive research.
+
+</div>
 
 Beyond the tangible outputs, I think one of our most important achievements has been again demonstrating that there is a real need for spaces that bring together people working on research reform, while also recognising their need for connection, inspiration and rest.
 
