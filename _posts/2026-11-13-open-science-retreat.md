@@ -25,8 +25,8 @@ Every year I run the Slide Karaoke Competition social event at the retreat where
 ![The attendees of the 2026 Open Science Retreat.]({% link images/2026-11-osr-group.png %})
 
 </div>
-<div class="column" markdown="1">
 
+<div class="column" markdown="1">
 
 ### Tell us about the Open Science Retreat and the Digital Research Academy
 
@@ -38,6 +38,8 @@ It is fundamentally about empowering the people who do research, supporting the 
 The Open Science Retreat brings together researchers, open science advocates, research support professionals, trainers and others who are passionate about improving research. 
 It is a space to connect, exchange ideas, collaborate and reflect on how we can create systemic change. 
 Part unconference, part hackathon, part networking event and part retreat, it offers something often missing from academic life: the time and space to step away from everyday responsibilities, think creatively, build relationships and recharge.
+
+</div>
 
 An important part of our philosophy is recognising that research is done by people. 
 Those working to reform research culture are often doing so alongside demanding jobs, limited resources and sometimes in isolation. 
@@ -68,8 +70,6 @@ Some of the key achievements during this period include:
 * Growing the retreat internationally: We had previously organised global editions in Germany (2023), the Netherlands (2024), Switzerland (2025) and now the UK (2026)\! Having done it in Wales at the [Centre for Alternative Technology](https://cat.org.uk/), we now know of an excellent venue in the UK for potential future editions\!  
 * Creating space for collective action: This retreat enabled participants to develop ideas, initiate collaborations, explore systemic challenges in research and work together on concrete outputs. This year’s topics spanned collaborative work on systems thinking and mapping the open science ecosystem, as well as creative approaches to imagining the future of open research. Check out the documented outputs here: [doi:10.53962/vwam-tx4m](https://doi.org/10.53962/vwam-tx4m)  
 * Strengthening the wider open research ecosystem: We developed collaborations with organisations, communities and initiatives working towards more transparent, reproducible and inclusive research.
-
-</div>
 
 Beyond the tangible outputs, I think one of our most important achievements has been again demonstrating that there is a real need for spaces that bring together people working on research reform, while also recognising their need for connection, inspiration and rest.
 
