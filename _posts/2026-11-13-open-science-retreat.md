@@ -93,7 +93,7 @@ Thought a little bit harder about how taxes work between DRA/OLS (Germany/UK). l
 ### What is the Open Science Retreat (and DRA) up to now? Where can readers find out more about your next steps?
 
 We are about to open up registrations for the 2027 Open Science Retreat happening back in Germany at the birthplace of this event. 
-It’s particularly exciting because participation fees are waived this year since this retreat will be focusing on computational reproducibility under the REWIRE project. ([https\://rewire-hub.eu/](https://rewire-hub.eu/)) 
+It’s particularly exciting because participation fees are waived this year since this retreat will be focusing on computational reproducibility under the REWIRE project ([https\://rewire-hub.eu/](https://rewire-hub.eu/)). 
 REWIRE is a Horizon Europe project making computational reproducibility a practical, everyday part of research across Europe.
 
 More info  here: [https\://open.science-retreat.org/OSR27DE/](https://open.science-retreat.org/OSR27DE/)
