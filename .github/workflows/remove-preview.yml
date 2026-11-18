@@ -1,0 +1,55 @@
+name: Remove Preview for Closed Pull Requests   # Name of this workflow, shown in the GitHub Actions UI
+
+on:
+  pull_request:
+    types: [closed]   # Run when a PR is closed or merged...
+    branches:
+      - main   # ...only if the PR targets the 'main' branch
+  workflow_dispatch:   # Allow manual cleanup from the "Actions" tab
+    inputs:
+      pr_number:
+        description: 'PR number whose preview should be removed'
+        required: true
+        type: string
+
+jobs:
+  remove-preview:
+    # PRs from forks and Dependabot don't get previews (no access to secrets), so skip them
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.user.login != 'dependabot[bot]')
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Remove PR folder from gh-pages and push
+      env:
+        PR_NUMBER: ${{ github.event.pull_request.number || github.event.inputs.pr_number }}
+        GIT_TERMINAL_PROMPT: 0
+      run: |
+        # Only accept a plain number, so a manual run can never remove anything else
+        if ! [[ "$PR_NUMBER" =~ ^[0-9]+$ ]]; then
+          echo "Invalid PR number: '$PR_NUMBER'"
+          exit 1
+        fi
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+
+        # deploy-preview.yml also pushes to gh-pages, so if the push is rejected, start over from a fresh clone
+        for attempt in 1 2 3; do
+          rm -rf gh-pages
+          # Clone without downloading files: only the file list is needed to remove a folder
+          git clone --depth 1 --branch gh-pages --filter=blob:none --no-checkout https://x-access-token:${{ secrets.PR_PREVIEW_TOKEN }}@github.com/open-life-science/ols-site-preview.git gh-pages
+          cd gh-pages
+          git read-tree HEAD
+          if [ -z "$(git ls-tree -d HEAD "$PR_NUMBER")" ]; then
+            echo "No preview found for PR #$PR_NUMBER, nothing to remove."
+            exit 0
+          fi
+          git rm -r --cached --quiet "$PR_NUMBER"
+          git commit -m "Remove preview for PR #$PR_NUMBER"
+          if git push origin gh-pages; then
+            exit 0
+          fi
+          cd ..
+          echo "Push rejected (attempt $attempt), retrying..."
+          sleep 15
+        done
+        exit 1
