@@ -54,7 +54,7 @@ Session recordings and slides will be published on the [Seeds to Systems resourc
 
 - [Promoting Transparent, Fair, and Inclusive Practices in Grantmaking: Lessons from the Open and Equitable Model Funding Program](https://www.sciencepolicyjournal.org/uploads/5/4/3/4/5434385/mercado-lara_jspg_23-2_final.pdf) (Mercado-Lara, Tananbaum, & McKiernan, 2024)
 - [Catalytic Awards Program Round 1 Report - What We Learned](https://zenodo.org/records/20043228) (Mercado-Lara, 2026)
-- [Better Software Funding, Better Research Software? What we've learned from the Research Software Maintenance Fund and what you should know about getting funding for software development](https://zenodo.org/records/22664181) (Chue Hong, Roubickova, Barclay, Peru, Glass, Aragon, Guo, 2026)
+- [Better Software Funding, Better Research Software? What we've learned from the Research Software Maintenance Fund and what you should know about getting funding for software development](https://zenodo.org/records/22664181) (Chue Hong, Roubickova, Barclay, Peru, Glass, Aragon, & Guo, 2026)
 - [Research Software Maintenance Fund: full application funding panels completed](https://www.software.ac.uk/blog/research-software-maintenance-fund-full-application-funding-panels-completed) (Chue Hong & Aragon, 2025)
 - [Partially Randomized Procedure - Lottery and Peer Review](https://www.volkswagenstiftung.de/en/funding/peer-review/partially-randomized-procedure-lottery-and-peer-review) (Volkswagen Foundation)
 - [Funding lotteries for research grant allocation: An extended taxonomy and evaluation of their fairness](https://doi.org/10.1093/reseval/rvae025) (Feliciani, Luo, & Shankar, 2024)
