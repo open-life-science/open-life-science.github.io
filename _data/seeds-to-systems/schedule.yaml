@@ -173,12 +173,12 @@ weeks:
       talks:
       - speakers:
         - Bethan Iley
-        slides: null
+        slides: https://doi.org/10.5281/zenodo.24301574
         other_resources: null
       - speakers:
         - Gemma Turon
         - Inés Vicente
-        slides: null
+        slides: https://zenodo.org/records/24301575
         other_resources: null
       timezone_link: https://arewemeetingyet.com/2026-11-12/15:00/UTC/S2S-Session-8
       transcript: null
