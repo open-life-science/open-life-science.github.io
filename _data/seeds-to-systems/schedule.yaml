@@ -159,7 +159,11 @@ weeks:
         other_resources: null
       timezone_link: https://arewemeetingyet.com/2026-11-10/15:00/UTC/S2S-Session-7
       transcript: null
-      description: null
+      description: In this panel, Neil Chue Hong ([Institute for Research Software](https://www.software.ac.uk/))
+        and Eunice Mercado-Lara ([ORCA](https://orcaopen.org/)) shared their perspectives
+        from inside funding organisations, from how funding programmes and their review
+        processes are designed to what funders look for in a proposal and what a rejection
+        can mean for a project.
     - date: '2026-11-12'
       session_number: 8
       time: '15:00'
@@ -173,16 +177,21 @@ weeks:
       talks:
       - speakers:
         - Bethan Iley
-        slides: null
+        slides: https://doi.org/10.5281/zenodo.24301574
         other_resources: null
       - speakers:
         - Gemma Turon
         - Inés Vicente
-        slides: null
+        slides: https://zenodo.org/records/24301575
         other_resources: null
       timezone_link: https://arewemeetingyet.com/2026-11-12/15:00/UTC/S2S-Session-8
       transcript: null
-      description: null
+      description: In the first part of this session, Bethan Iley (OLS) covered how
+        to identify a project's audiences and choose the channels to reach them, and
+        why a marketing and communications plan helps share this work across a community.
+        Gemma Turon and Inés Vicente ([Ersilia](https://ersilia.io/)) then introduced
+        a framework for measuring impact, built around what a project wants to change,
+        who the evidence is for, and how to collect it.
   '05':
     start: null
     calls:
